@@ -1,0 +1,1 @@
+export { BaseCompaniesModule } from './base-companies-module';

@@ -1,0 +1,48 @@
+@let menu = this.menu();
+@let closed = this.closed();
+@let children = menu.children ?? [];
+
+<ng-template #content>
+    <mat-icon>{{ menu.icon }}</mat-icon>
+    <span>{{ menu.name }}</span>
+</ng-template>
+
+<div class="container">
+    @if (menu.path) {
+        <a class="content"
+        [routerLink]="menu.path">
+            <ng-container
+            [ngTemplateOutlet]="content">
+            </ng-container>
+        </a>
+    } @else {
+        <div class="content">
+            <ng-container
+            [ngTemplateOutlet]="content">
+            </ng-container>
+        </div>
+    }
+
+    @if (children.length > 0) {
+        <button mat-icon-button
+        type="button"
+        (click)="this.closed.set(!closed)">
+            @if (closed) {
+                <mat-icon>arrow down</mat-icon>
+            } @else {
+                <mat-icon>arrow up</mat-icon>
+            }
+        </button>
+    }
+</div>
+
+@if (children.length > 0) {
+    <div class="children">
+        @for (child of children; track child.id) {
+            <app-nav-bar-item
+            [class.closed]="closed"
+            [menu]="child">
+            </app-nav-bar-item>
+        }
+    </div>
+}
