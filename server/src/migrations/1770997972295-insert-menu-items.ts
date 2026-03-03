@@ -20,6 +20,13 @@ export class InsertMenuItems1770997972295 implements MigrationInterface {
 
         await repo.save({
             parent: maintainers,
+            name: 'Layouts',
+            icon: 'beenhere',
+            path: 'maintainers/proc-layouts',
+        });
+
+        await repo.save({
+            parent: maintainers,
             name: 'Materials',
             icon: 'favorite',
             path: 'maintainers/proc-materials',

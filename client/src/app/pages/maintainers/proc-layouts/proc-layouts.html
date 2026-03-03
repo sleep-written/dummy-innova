@@ -1,6 +1,6 @@
 <mat-card>
     <mat-card-header>
-        <mat-card-title>Companies</mat-card-title>
+        <mat-card-title>Layouts</mat-card-title>
     </mat-card-header>
 
     <mat-card-content>
@@ -13,7 +13,7 @@
         [pageSize]="this.pageSize"
         [sortable]="this.sortable"
         [pageable]="this.pageable"
-        [columnMenu]="true"
+        [columnMenu]="this.columnMenu"
         [filterable]="this.filterable"
         (pageChange)="this.onPageChange($event)"
         (sortChange)="this.onSortChange($event)"
@@ -39,11 +39,6 @@
             <kendo-grid-column
             field="name"
             title="Name">
-            </kendo-grid-column>
-
-            <kendo-grid-column
-            field="description8"
-            title="Description">
             </kendo-grid-column>
 
             <kendo-grid-column
