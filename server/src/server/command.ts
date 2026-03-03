@@ -9,6 +9,7 @@ import express from 'express';
 import { EndpointsRouting } from './endpoints/routing.js';
 import { dataSource } from '@/data-source.js';
 import { ENV } from '@/env.js';
+import { EndpointError } from './endpoint-error.js';
 
 @Command({
     name: 'server',
@@ -23,7 +24,10 @@ export class ServerCommand implements Executable {
     }
 
     onError(err: Error, _: Request, res: Response): void {
-        res.statusCode = 500;
+        res.statusCode = err instanceof EndpointError
+        ?   err.status
+        :   500;
+
         res.type('plain');
         res.end(err.message);
     }
@@ -37,21 +41,42 @@ export class ServerCommand implements Executable {
         esp.onError(this.onError.bind(this));
         esp.inject(EndpointsRouting);
 
-        await dataSource.initialize();
-        await new Promise<void>((resolve, reject) => {
-            try {
-                const port = ENV.get('DUMMY_INNOVA_SERVER_PORT', v => parseInt(v));
-                const server = app.listen(port, () => {
+        try {
+            await dataSource.initialize();
+            const port = ENV.get('DUMMY_INNOVA_SERVER_PORT', v => parseInt(v));
+            const server = app.listen(port);
+
+            await new Promise<void>((resolve, reject) => {
+                server.once('listening', () => {
                     console.log(`@dummy-innova/server is listening at port ${port}`);
-                    process.once('SIGINT', () => server.close());
                 });
 
-                server.once('close', () => resolve());
-            } catch (err) {
-                reject(err);
+                let error: Error | undefined;
+                server.once('error', err => {
+                    error = err;
+                    server.close();
+                });
+                
+                server.once('close', () => {
+                    if (error) {
+                        reject(error);
+                    } else {
+                        resolve();
+                    }
+                });
+
+                process.once('SIGINT', () => {
+                    server.close();
+                });
+            });
+
+        } catch (err) {
+            throw err;
+
+        } finally {
+            if (dataSource.isInitialized) {
+                await dataSource.destroy();
             }
-        });
-        
-        await dataSource.destroy();
+        }
     }
 }

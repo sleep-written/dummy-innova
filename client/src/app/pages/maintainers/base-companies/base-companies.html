@@ -4,35 +4,71 @@
     </mat-card-header>
 
     <mat-card-content>
-        <div class="table-container">
-            <kendo-grid
-            [data]="this.data"
-            [skip]="this.skip"
-            [sort]="this.sort"
-            [filter]="this.filter"
-            [loading]="this.loading"
-            [pageSize]="this.pageSize"
-            [sortable]="this.sortable"
-            [pageable]="this.pageable"
-            [filterable]="true"
-            (pageChange)="this.onPageChange($event)"
-            (sortChange)="this.onSortChange($event)"
-            (filterChange)="this.onFilterChange($event)">
-                <kendo-grid-column
-                field="code"
-                title="Code">
-                </kendo-grid-column>
+        <kendo-grid
+        [data]="this.data"
+        [skip]="this.skip"
+        [sort]="this.sort"
+        [filter]="this.filter"
+        [loading]="this.loading"
+        [pageSize]="this.pageSize"
+        [sortable]="this.sortable"
+        [pageable]="this.pageable"
+        [columnMenu]="true"
+        [filterable]="this.filterable"
+        (pageChange)="this.onPageChange($event)"
+        (sortChange)="this.onSortChange($event)"
+        (filterChange)="this.onFilterChange($event)">
+            <kendo-grid-column
+            field="code"
+            title="Code">
+            </kendo-grid-column>
 
-                <kendo-grid-column
-                field="name"
-                title="Name">
-                </kendo-grid-column>
+            <kendo-grid-column
+            field="name"
+            title="Name">
+            </kendo-grid-column>
 
-                <kendo-grid-column
-                field="description8"
-                title="Description">
-                </kendo-grid-column>
-            </kendo-grid>
-        </div>
+            <kendo-grid-column
+            field="description8"
+            title="Description">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            [width]="160"
+            [columnMenu]="false">
+                <ng-template kendoGridHeaderTemplate>
+                    <button mat-icon-button
+                    type="button"
+                    color="primary"
+                    (click)="this.set()">
+                        <mat-icon>add</mat-icon>
+                    </button>
+
+                    <button mat-icon-button
+                    type="button"
+                    color="tertiary"
+                    (click)="this.update()">
+                        <mat-icon
+                        [class.spin]="this.loading">sync</mat-icon>
+                    </button>
+                </ng-template>
+
+                <ng-template kendoGridCellTemplate let-item>
+                    <button mat-icon-button
+                    type="button"
+                    color="secondary"
+                    (click)="this.set(item)">
+                        <mat-icon>edit</mat-icon>
+                    </button>
+
+                    <button mat-icon-button
+                    type="button"
+                    color="error"
+                    (click)="this.delete(item)">
+                        <mat-icon>close</mat-icon>
+                    </button>
+                </ng-template>
+            </kendo-grid-column>
+        </kendo-grid>
     </mat-card-content>
 </mat-card>

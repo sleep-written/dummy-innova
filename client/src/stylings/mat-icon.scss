@@ -7,6 +7,7 @@ button > mat-icon {
     line-height: unset!important;
 }
 
-mat-icon[spin] {
-    animation: spin 500ms linear infinite;
+mat-icon[spin],
+mat-icon.spin {
+    animation: spin 1000ms linear reverse infinite;
 }

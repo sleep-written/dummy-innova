@@ -40,6 +40,7 @@ export class BaseCompanies extends GridComponent<BaseCompaniesItem> implements O
 
   async ngOnInit(): Promise<void> {
     this.#title.setTitle('Companies');
+    this.update();
   }
 
   async set(data?: BaseCompaniesItem): Promise<void> {
@@ -52,11 +53,13 @@ export class BaseCompanies extends GridComponent<BaseCompaniesItem> implements O
     });
 
     await firstValueFrom(dialog.afterClosed());
+    return this.update();
   }
 
   async delete(data: BaseCompaniesItem): Promise<void> {
     const confirm = await this.#modal.open({
       icon: 'warning',
+      color: 'error',
       content: `Do you want to delete the item "${data.code}"?`,
       buttons: [
         {
