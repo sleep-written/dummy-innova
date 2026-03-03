@@ -1,0 +1,41 @@
+button:not([disabled]) {
+  &:not([mat-icon-button]) {
+    &[color=primary] {
+      background-color: var(--mat-sys-primary)!important;
+      color: var(--mat-sys-on-primary)!important;
+    }
+
+    &[color=secondary] {
+      background-color: var(--mat-sys-secondary)!important;
+      color: var(--mat-sys-on-secondary)!important;
+    }
+
+    &[color=tertiary] {
+      background-color: var(--mat-sys-tertiary)!important;
+      color: var(--mat-sys-on-tertiary)!important;
+    }
+
+    &[color=error] {
+      background-color: var(--mat-sys-error)!important;
+      color: var(--mat-sys-on-error)!important;
+    }
+  }
+
+  &[mat-icon-button] {
+    &[color=primary] {
+      color: var(--mat-sys-primary)!important;
+    }
+
+    &[color=secondary] {
+      color: var(--mat-sys-secondary)!important;
+    }
+
+    &[color=tertiary] {
+      color: var(--mat-sys-tertiary)!important;
+    }
+
+    &[color=error] {
+      color: var(--mat-sys-error)!important;
+    }
+  }
+}

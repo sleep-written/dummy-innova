@@ -1,0 +1,49 @@
+:host {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+
+    & > .container {
+        overflow: hidden;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        
+        & > .content {
+            color: inherit;
+            padding-left: 1rem;
+            text-decoration: none;
+
+            flex: 1;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: center;
+
+            mat-icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+
+            &.active {
+                background: var(--mat-sys-primary-container);
+                color: var(--mat-sys-primary-on-container);
+            }
+        }
+    }
+}
+
+:host .container {
+    height: 3rem;
+}
+
+:host.closed .container {
+    height: 0;
+}

@@ -2,6 +2,52 @@
     position: absolute;
     top: 0;
     left: 0;
+
     width: 100dvw;
     height: 100dvh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+:host > mat-toolbar {
+    background-color: var(--mat-sys-primary-container);
+    color: var(--mat-sys-primary);
+    height: 3rem;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+:host > mat-sidenav-container {
+    flex: 1;
+
+    & > mat-sidenav {
+        border-radius: unset;
+    }
+
+    & > mat-sidenav-content {
+        overflow: auto;
+        position: relative;
+
+        &::ng-deep > * {
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: stretch;
+
+            padding: 1rem;
+            min-width: 100%;
+            min-height: 100%;
+            box-sizing: border-box;
+        }
+    }
 }

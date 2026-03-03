@@ -1,20 +1,14 @@
 import { DataSource } from 'typeorm';
-import { readFile } from 'node:fs/promises';
-import { parseEnv } from 'node:util';
 import { resolve } from 'node:path';
-
-const url = new URL('../app.env', import.meta.url);
-const env = await readFile(url, 'utf-8')
-    .then(x => parseEnv(x))
-    .catch(() => process.env);
+import { ENV } from './env.js';
 
 export const dataSource = new DataSource({
     type: 'mssql',
-    host: env.DUMMY_INNOVA_HOST,
-    port: parseInt(env.DUMMY_INNOVA_PORT!),
-    username: env.DUMMY_INNOVA_USERNAME,
-    password: env.DUMMY_INNOVA_PASSWORD,
-    database: env.DUMMY_INNOVA_DATABASE,
+    host: ENV.get('DUMMY_INNOVA_TYPEORM_HOST'),
+    port: ENV.get('DUMMY_INNOVA_TYPEORM_PORT', v => parseInt(v)),
+    username: ENV.get('DUMMY_INNOVA_TYPEORM_USERNAME'),
+    password: ENV.get('DUMMY_INNOVA_TYPEORM_PASSWORD'),
+    database: ENV.get('DUMMY_INNOVA_TYPEORM_DATABASE'),
     entities: [
         resolve(import.meta.dirname, 'entities/*.entity.{ts,js}')
     ],

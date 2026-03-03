@@ -14,19 +14,19 @@ export class BaseCompanies extends BaseEntity {
     /**
      * RUT del cliente, sin puntos, pero con guión.
      */
-    @Column({ type: 'nvarchar', length: 30, nullable: false })
+    @Column({ type: 'nvarchar', length: 30 })
     code!: string;
 
     /**
      * Nombre del cliente.
      */
-    @Column({ type: 'nvarchar', length: 30, nullable: false })
+    @Column({ type: 'nvarchar', length: 30 })
     name!: string;
 
     /**
      * Nombre largo del cliente.
      */
-    @Column({ type: 'nvarchar', length: 80, nullable: false })
+    @Column({ type: 'nvarchar', length: 80, nullable: true })
     description8!: string;
 
     @OneToMany(_ => ProcOrders, r => r.cliente)

@@ -1,0 +1,65 @@
+@if (this.isNew) {
+    <h3 mat-dialog-title>Create new company</h3>
+} @else {
+    <h3 mat-dialog-title>Update company</h3>
+}
+
+<mat-dialog-content
+[formGroup]="this.form">
+    <mat-radio-group
+    formControlName="active">
+        <mat-label>Status</mat-label>
+        <mat-radio-button [value]="true">Active</mat-radio-button>
+        <mat-radio-button [value]="false">Inactive</mat-radio-button>
+    </mat-radio-group>
+
+    <mat-form-field>
+        <mat-label>Code</mat-label>
+        <input matInput
+        formControlName="code"
+        [maxLength]="30" />
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input matInput
+        formControlName="name"
+        [maxLength]="30" />
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Description</mat-label>
+        <textarea matInput
+        formControlName="description8"
+        [rows]="4"
+        [maxLength]="80"
+        [style.resize]="'none'">
+        </textarea>
+    </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button mat-flat-button
+    type="button"
+    color="primary"
+    (click)="this.save()"
+    [disabled]="this.form.disabled || this.form.pristine || this.form.invalid">
+        @if (this.form.disabled) {
+            <mat-icon spin fontSet="material-symbols-outlined">progress_activity</mat-icon>
+            
+        } @else {
+            <mat-icon>save</mat-icon>
+        }
+
+        <span>Save</span>
+    </button>
+
+    <button mat-flat-button
+    type="button"
+    color="tertiary"
+    (click)="this.cancel()"
+    [disabled]="this.form.disabled">
+        <mat-icon>close</mat-icon>
+        <span>Cancel</span>
+    </button>
+</mat-dialog-actions>

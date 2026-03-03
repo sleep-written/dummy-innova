@@ -1,0 +1,33 @@
+<h3 mat-dialog-title>{{ this.data.title }}</h3>
+
+<mat-dialog-content>
+    @if (typeof this.data.icon === 'string') {
+        <mat-icon
+        [color]="this.data.color">{{ this.data.icon }}</mat-icon>
+    } @else if (this.data.icon) {
+        <mat-icon
+        [fontSet]="this.data.icon.fontSet"
+        [color]="this.data.color">{{ this.data.icon.value }}</mat-icon>
+    }
+
+    <p [innerHTML]="this.data.content"></p>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    @for (button of this.data.buttons; track $index) {
+        <button mat-flat-button
+        type="button"
+        [color]="button.color"
+        (click)="this.close(button.value)">
+            @if (typeof button.icon === 'string') {
+                <mat-icon>{{ button.icon }}</mat-icon>
+            } @else if (button.icon) {
+                <mat-icon [fontSet]="button.icon.fontSet">{{ button.icon }}</mat-icon>
+            }
+
+            @if (button.text) {
+                <span>{{ button.text }}</span>
+            }
+        </button>
+    }
+</mat-dialog-actions>

@@ -1,1 +1,38 @@
-<p>base-companies works!</p>
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Companies</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+        <div class="table-container">
+            <kendo-grid
+            [data]="this.data"
+            [skip]="this.skip"
+            [sort]="this.sort"
+            [filter]="this.filter"
+            [loading]="this.loading"
+            [pageSize]="this.pageSize"
+            [sortable]="this.sortable"
+            [pageable]="this.pageable"
+            [filterable]="true"
+            (pageChange)="this.onPageChange($event)"
+            (sortChange)="this.onSortChange($event)"
+            (filterChange)="this.onFilterChange($event)">
+                <kendo-grid-column
+                field="code"
+                title="Code">
+                </kendo-grid-column>
+
+                <kendo-grid-column
+                field="name"
+                title="Name">
+                </kendo-grid-column>
+
+                <kendo-grid-column
+                field="description8"
+                title="Description">
+                </kendo-grid-column>
+            </kendo-grid>
+        </div>
+    </mat-card-content>
+</mat-card>

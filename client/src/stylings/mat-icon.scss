@@ -1,0 +1,12 @@
+@keyframes spin {
+      0% { rotate:   0deg; }
+    100% { rotate: 360deg; }
+}
+
+button > mat-icon {
+    line-height: unset!important;
+}
+
+mat-icon[spin] {
+    animation: spin 500ms linear infinite;
+}

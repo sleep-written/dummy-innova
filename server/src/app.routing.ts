@@ -1,10 +1,10 @@
 import { CommandRouting } from '@bleed-believer/commander';
 
-import { StartCommand } from './start/command.js';
+import { ServerCommand } from './server/command.js';
 
 @CommandRouting({
     commands: [
-        StartCommand,
+        ServerCommand,
     ]
 })
 export class AppRouting {}

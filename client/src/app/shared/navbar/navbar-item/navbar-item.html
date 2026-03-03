@@ -1,0 +1,38 @@
+@let value = this.value();
+@let closed = this.closed();
+@let children = value.children ?? [];
+
+<div class="container">
+    @if (value.path) {
+        <a class="content"
+        [routerLink]="'/' + value.path"
+        [routerLinkActive]="'active'">
+            <mat-icon>{{ value.icon }}</mat-icon>
+            <span>{{ value.name }}</span>
+        </a>
+    } @else {
+        <div class="content">
+            <mat-icon>{{ value.icon }}</mat-icon>
+            <span>{{ value.name }}</span>
+        </div>
+    }
+
+    @if (children.length > 0) {
+        <button mat-icon-button
+        type="button"
+        (click)="this.closed.set(!closed)">
+            @if (closed) {
+                <mat-icon>expand</mat-icon>
+            } @else {
+                <mat-icon>unfold_less</mat-icon>
+            }
+        </button>
+    }
+</div>
+
+@for (child of children; track child.id) {
+    <app-navbar-item
+    [class.closed]="closed"
+    [value]="child">
+    </app-navbar-item>
+}

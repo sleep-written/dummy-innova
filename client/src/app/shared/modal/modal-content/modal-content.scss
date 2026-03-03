@@ -1,0 +1,61 @@
+:host mat-dialog-content mat-icon {
+    opacity: .5;
+
+    &.mat-primary {
+        color: var(--mat-sys-primary)!important;
+    }
+
+    &.mat-secondary {
+        color: var(--mat-sys-secondary)!important;
+    }
+
+    &.mat-tertiary {
+        color: var(--mat-sys-tertiary)!important;
+    }
+
+    &.mat-error {
+        color: var(--mat-sys-error)!important;
+    }
+}
+
+:host mat-dialog-actions {
+    button.mat-primary {
+        background-color: var(--mat-sys-primary)!important;
+        color: var(--mat-sys-on-primary)!important;
+    }
+
+    button.mat-secondary {
+        background-color: var(--mat-sys-secondary)!important;
+        color: var(--mat-sys-on-secondary)!important;
+    }
+
+    button.mat-tertiary {
+        background-color: var(--mat-sys-tertiary)!important;
+        color: var(--mat-sys-on-tertiary)!important;
+    }
+
+    button.mat-error {
+        background-color: var(--mat-sys-error)!important;
+        color: var(--mat-sys-on-error)!important;
+    }
+}
+
+:host mat-dialog-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    --mat-icon-size: 6rem;
+
+    & > mat-icon {
+        font-size: var(--mat-icon-size);
+        width: var(--mat-icon-size);
+        height: var(--mat-icon-size);
+        margin-right: 1rem;
+    }
+
+    & > p {
+        margin: 0;
+    }
+}

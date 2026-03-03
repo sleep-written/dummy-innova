@@ -1,11 +1,12 @@
 import { Component, signal } from '@angular/core';
 
 @Component({
-  standalone: false,
   selector: 'app-root',
   templateUrl: './app.html',
+  standalone: false,
   styleUrl: './app.scss'
 })
 export class App {
   protected readonly title = signal('client');
+  opened = signal(false);
 }
