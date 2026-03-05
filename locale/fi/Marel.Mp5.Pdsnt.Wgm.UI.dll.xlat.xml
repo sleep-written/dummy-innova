@@ -1,0 +1,2124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fi">
+  <industry>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.SystemSetup.WgmSystemView" ServiceOnly="false">
+      <resource name="paramTabPage.Text">
+        <object>Painoradat</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Koodi</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Nimi</object>
+      </resource>
+      <resource name="grpSystem.Text">
+        <object>Järjestelmä</object>
+      </resource>
+      <resource name="sysPrgLookUp.ToolTip">
+        <object>Järjestelmää pyörittävä järjestelmäohjelma</object>
+      </resource>
+      <resource name="siteLookUp.ToolTip">
+        <object>Sivu, jolle järjestelmä kuuluu</object>
+      </resource>
+      <resource name="sysAppLookUp.ToolTip">
+        <object>Järjestelmää käsittelevä sovellus</object>
+      </resource>
+      <resource name="lblSysProgram.Text">
+        <object>Järjestelmäohjelma:</object>
+      </resource>
+      <resource name="lblSite.Text">
+        <object>Sivu:</object>
+      </resource>
+      <resource name="lblApplication.Text">
+        <object>Sovellus:</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Virhe tallennettaessa tietoja!</object>
+      </resource>
+      <resource name="Err.CancelEdit">
+        <object>Virhe peruutettaessa!</object>
+      </resource>
+      <resource name="Err.NoObjectSelected">
+        <object>Kohdetta ei ole valittu</object>
+      </resource>
+      <resource name="Err.NoObjectSelectedCaption">
+        <object>Tiedot</object>
+      </resource>
+      <resource name="Err.DeletingStationChildren">
+        <object>Aseman lapsia ei voi poistaa</object>
+      </resource>
+      <resource name="Err.DeletingStationData">
+        <object>Asemaa ei voi poistaa. Asemalla on tietoja.</object>
+      </resource>
+      <resource name="CardData.Title">
+        <object>Puuttuva ominaisuus</object>
+      </resource>
+      <resource name="EqmLookup.Config">
+        <object>Konfig.</object>
+      </resource>
+      <resource name="EqmLookup.Line">
+        <object>Linja</object>
+      </resource>
+      <resource name="EqmLookup.DeviceName">
+        <object>Laitteen nimi</object>
+      </resource>
+      <resource name="EqmLookup.DeviceId">
+        <object>Laitteen tunnus</object>
+      </resource>
+      <resource name="CardData.WeigherConfig">
+        <object>ennen kuin radat voidaan konfiguroida</object>
+      </resource>
+      <resource name="CardData.DataSaved">
+        <object>ennen kuin vaakajärjestelmä voidaan tallentaa</object>
+      </resource>
+      <resource name="CardData.Text.Single">
+        <object>Seuraava ominaisuus on määriteltävä</object>
+      </resource>
+      <resource name="CardData.Text.Multi">
+        <object>Seuraavat ominaisuudet on määriteltävä</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Haluatko tallentaa tiedot?</object>
+      </resource>
+      <resource name="Save.Title">
+        <object>Tallenna tiedot</object>
+      </resource>
+    </type>
+    <type name="Grid.Wgm.System" ServiceOnly="false">
+      <resource name="id">
+        <object>Tunnus</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiivinen</object>
+      </resource>
+      <resource name="name">
+        <object>Radan nimi</object>
+      </resource>
+      <resource name="wgmsystem">
+        <object>Järjestelmä</object>
+      </resource>
+      <resource name="eqmdevice">
+        <object>EQM-laite</object>
+      </resource>
+      <resource name="tapdevice Name">
+        <object>TAP-laite</object>
+      </resource>
+      <resource name="tapdevice">
+        <object>TAP-laitteen koodi</object>
+      </resource>
+      <resource name="mws2device Name">
+        <object>MWS2-laite</object>
+      </resource>
+      <resource name="mws2device">
+        <object>MWS2-laitteen koodi</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.ManagementView" ServiceOnly="false">
+      <resource name="colLine.Caption">
+        <object>Linja</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Sen linjan nimi, johon laite kuuluu</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Laite</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Näyttää laitteen nimen</object>
+      </resource>
+      <resource name="colConnection.Caption">
+        <object>Kytkennät</object>
+      </resource>
+      <resource name="colConnection.ToolTip">
+        <object>Näyttää laitteen yhteystilan</object>
+      </resource>
+      <resource name="colPerformanceMon.Caption">
+        <object>Suorituskyvyn valvoja</object>
+      </resource>
+      <resource name="colPerformanceMon.ToolTip">
+        <object>Poikkeaman prosenttiosuus todellisesta tyhjästä SD-koukusta verrattuna konfiguroituun yleiseen tyhjään SD-koukkuun</object>
+      </resource>
+      <resource name="colEmptyShackle.Caption">
+        <object>Tyhjä koukku SD (##)</object>
+      </resource>
+      <resource name="colEmptyShackle.ToolTip">
+        <object>Keskihajonta kaikkien koukkujen painossa linjalla</object>
+      </resource>
+      <resource name="colShackleMon.Caption">
+        <object>Koukun tilan valvoja</object>
+      </resource>
+      <resource name="colShackleMon.ToolTip">
+        <object>Hyvien koukkujen prosenttiosuus linjalla</object>
+      </resource>
+      <resource name="colActWeight.Caption">
+        <object>Todellinen paino (##)</object>
+      </resource>
+      <resource name="colActWeight.ToolTip">
+        <object>Koukun todellinen paino</object>
+      </resource>
+      <resource name="colLogging.Caption">
+        <object>Lokiin kirjaaminen</object>
+      </resource>
+      <resource name="colLogging.ToolTip">
+        <object>Ilmaisee, onko lokiin kirjaaminen parhaillaan aktiivisena</object>
+      </resource>
+      <resource name="colLineRunning.Caption">
+        <object>Linja käynnissä</object>
+      </resource>
+      <resource name="colLineRunning.ToolTip">
+        <object>Ilmaisee, onko linja käynnissä</object>
+      </resource>
+      <resource name="barBtnRefresh.Caption">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="barBtnPerformanceTest.Caption">
+        <object>Suorituskykytesti</object>
+      </resource>
+      <resource name="barBtnMws2Management.Caption">
+        <object>Kalibrointi ja laajuuden määrääminen</object>
+      </resource>
+      <resource name="colTrackName.Caption">
+        <object>Radan nimi</object>
+      </resource>
+      <resource name="colTrackName.ToolTip">
+        <object>Näyttää radan nimen, kuten on määritetty Innovassa</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Virhe</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Näytä viimeisin sisäinen virhe radalle</object>
+      </resource>
+      <resource name="barBtnRefresh.Hint">
+        <object>Päivitä ja lataa uudelleen ruudukon tiedot</object>
+      </resource>
+      <resource name="barBtnMws2Management.Hint">
+        <object>Avaa MWS2-hallinnan valintaikkunan kalibrointia ja skooppausta varten</object>
+      </resource>
+      <resource name="barBtnPerformanceTest.Hint">
+        <object>Avaa suorituskykytestin valintaikkunan</object>
+      </resource>
+      <resource name="colTareShackleId.Caption">
+        <object>Koukun tunnus</object>
+      </resource>
+      <resource name="colTareShackleId.ToolTip">
+        <object>Koukun tunnus</object>
+      </resource>
+      <resource name="colTareNetWeight.Caption">
+        <object>Nettopaino (##)</object>
+      </resource>
+      <resource name="colTareNetWeight.ToolTip">
+        <object>Näyttää taaran nettopainon</object>
+      </resource>
+      <resource name="colTareGrossWeight.Caption">
+        <object>Bruttopaino (##)</object>
+      </resource>
+      <resource name="colTareGrossWeight.ToolTip">
+        <object>Näyttää taaran bruttopainon</object>
+      </resource>
+      <resource name="colTareGlobalTare.Caption">
+        <object>Yleinen taara (##)</object>
+      </resource>
+      <resource name="colTareGlobalTare.ToolTip">
+        <object>Näyttää yleisen taaran</object>
+      </resource>
+      <resource name="colTareIndividualTare.Caption">
+        <object>Yksittäinen taara (##)</object>
+      </resource>
+      <resource name="colTareIndividualTare.ToolTip">
+        <object>Näyttää yksittäisen taaran</object>
+      </resource>
+      <resource name="colTareRejectHistoryString.Caption">
+        <object>Hylkäämishistoria</object>
+      </resource>
+      <resource name="colTareRejectHistoryString.ToolTip">
+        <object>Näyttää taaran hylkäämishistorian</object>
+      </resource>
+      <resource name="colTareRoundsLearned.Caption">
+        <object>Opetettujen kierrosten määrä</object>
+      </resource>
+      <resource name="colTareRoundsLearned.ToolTip">
+        <object>Näyttää opetettujen kierrosten määrän</object>
+      </resource>
+      <resource name="colBadShackleId.Caption">
+        <object>Koukun tunnus</object>
+      </resource>
+      <resource name="colBadShackleId.ToolTip">
+        <object>Koukun tunnus</object>
+      </resource>
+      <resource name="colBadGrossWeight.Caption">
+        <object>Bruttopaino (##)</object>
+      </resource>
+      <resource name="colBadGrossWeight.ToolTip">
+        <object>Näyttää taaran bruttopainon</object>
+      </resource>
+      <resource name="colBadNetWeight.Caption">
+        <object>Nettopaino (##)</object>
+      </resource>
+      <resource name="colBadNetWeight.ToolTip">
+        <object>Näyttää taaran nettopainon</object>
+      </resource>
+      <resource name="colBadGlobalTare.Caption">
+        <object>Yleinen taara (##)</object>
+      </resource>
+      <resource name="colBadGlobalTare.ToolTip">
+        <object>Näyttää yleisen taaran</object>
+      </resource>
+      <resource name="colBadIndividualTare.Caption">
+        <object>Yksittäinen taara (##)</object>
+      </resource>
+      <resource name="colBadIndividualTare.ToolTip">
+        <object>Näyttää yksittäisen taaran</object>
+      </resource>
+      <resource name="colBadRejectionHistoryString.Caption">
+        <object>Hylkäämishistoria</object>
+      </resource>
+      <resource name="colBadRejectionHistoryString.ToolTip">
+        <object>Näyttää taaran hylkäämishistorian</object>
+      </resource>
+      <resource name="colBadRoundsLearned.Caption">
+        <object>Opetettujen kierrosten määrä</object>
+      </resource>
+      <resource name="colBadRoundsLearned.ToolTip">
+        <object>Näyttää opetettujen kierrosten määrän</object>
+      </resource>
+      <resource name="colLogShackleId.Caption">
+        <object>Koukun tunnus</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>Koukun tunnus</object>
+      </resource>
+      <resource name="colLogRegTime.Caption">
+        <object>Rekisteröintiaika</object>
+      </resource>
+      <resource name="colLogRegTime.ToolTip">
+        <object>Aika, jolloin syöte kirjoitettiin tietokantaan</object>
+      </resource>
+      <resource name="colLogOldWeight.Caption">
+        <object>Edellinen paino (##)</object>
+      </resource>
+      <resource name="colLogOldWeight.ToolTip">
+        <object>Näyttää edellisen painon</object>
+      </resource>
+      <resource name="colLogWeight.Caption">
+        <object>Nettopaino (##)</object>
+      </resource>
+      <resource name="colLogWeight.ToolTip">
+        <object>Näyttää taaran nettopainon</object>
+      </resource>
+      <resource name="colLogGrossWeight.Caption">
+        <object>Bruttopaino (##)</object>
+      </resource>
+      <resource name="colLogGrossWeight.ToolTip">
+        <object>Näyttää taaran bruttopainon</object>
+      </resource>
+      <resource name="colLogActualTare.Caption">
+        <object>Yleinen taara (##)</object>
+      </resource>
+      <resource name="colLogActualTare.ToolTip">
+        <object>Taaran todellinen paino</object>
+      </resource>
+      <resource name="colLogIndividualTare.Caption">
+        <object>Yksittäinen taara (##)</object>
+      </resource>
+      <resource name="colLogIndividualTare.ToolTip">
+        <object>Näyttää yksittäisen taaran</object>
+      </resource>
+      <resource name="colLogRoundsLearned.Caption">
+        <object>Opetettujen kierrosten määrä</object>
+      </resource>
+      <resource name="colLogRoundsLearned.ToolTip">
+        <object>Näyttää opetettujen kierrosten määrän</object>
+      </resource>
+      <resource name="colLogWeightQuality.Caption">
+        <object>Painon laatu</object>
+      </resource>
+      <resource name="colLogWeightQuality.ToolTip">
+        <object>Näytä painon laatu</object>
+      </resource>
+      <resource name="colDeveloperInfo.Caption">
+        <object>Kehittäjän tiedot</object>
+      </resource>
+      <resource name="colDeveloperInfo.ToolTip">
+        <object>Tiedot kehittäjän analysointia varten</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Toiminnot</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Lataa uudelleen GUI-nimike</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Palauta oletusasettelu</object>
+      </resource>
+      <resource name="barBtnDesignMode.Caption">
+        <object>Suunnittelutila</object>
+      </resource>
+      <resource name="barBtnRefreshTareGrid.Caption">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="barBtnRefreshTareGrid.Hint">
+        <object>Hae taaratiedot</object>
+      </resource>
+      <resource name="barBtnRefreshShackleGrid.Caption">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="barBtnRefreshShackleGrid.Hint">
+        <object>Hae huonon koukun tiedot</object>
+      </resource>
+      <resource name="barBtnResetShackle.Caption">
+        <object>Opeta uudelleen valittu</object>
+      </resource>
+      <resource name="barBtnResetShackle.Hint">
+        <object>Opeta uudelleen valitut koukut</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.Caption">
+        <object>Opeta uudelleen koko linja</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.Hint">
+        <object>Opeta uudelleen koko linja</object>
+      </resource>
+      <resource name="cbLoggingHistory.Caption">
+        <object>Kirjautumishistoria:</object>
+      </resource>
+      <resource name="loggingHistoryLookup.NullText">
+        <object>&lt;Valitse puunkorjuu&gt;</object>
+      </resource>
+      <resource name="barBtnDeleteLogging.Caption">
+        <object>Poista</object>
+      </resource>
+      <resource name="barBtnDeleteLogging.Hint">
+        <object>Poista valittu lokikirjaus</object>
+      </resource>
+      <resource name="edLoggingMinWeight.Caption">
+        <object>Min.nettopaino (##):</object>
+      </resource>
+      <resource name="edLoggingMinWeight.Hint">
+        <object>Minimilokipaino</object>
+      </resource>
+      <resource name="edLoggingMaxWeight.Caption">
+        <object>Maks.nettopaino (##):</object>
+      </resource>
+      <resource name="edLoggingMaxWeight.Hint">
+        <object>Maksimilokipaino</object>
+      </resource>
+      <resource name="edLoggingRatio.Caption">
+        <object>Lokisuhde:</object>
+      </resource>
+      <resource name="edLoggingRatio.Hint">
+        <object>Kirjaa lokiin joka N. koukku jokaisen koukun sijaan (1 = kaikki koukut)</object>
+      </resource>
+      <resource name="edLoggingName.Caption">
+        <object>Lokin nimi:</object>
+      </resource>
+      <resource name="LogButton.Stop">
+        <object>Pysäytä</object>
+      </resource>
+      <resource name="LogButton.Start">
+        <object>Käynnistä</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Nimi</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Ei etäyhteyttä palvelimeen</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Yhteysvirhe</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>Ei etäyhteyttä asemaan</object>
+      </resource>
+      <resource name="ResetShackels.Failed">
+        <object>Koukkujen nollaus epäonnistui</object>
+      </resource>
+      <resource name="ResetAllShackels.Failed">
+        <object>Kaikkien koukkujen nollaus epäonnistui</object>
+      </resource>
+      <resource name="Logging.IllegalRange">
+        <object>Virheellinen painoalue määritetty</object>
+      </resource>
+      <resource name="Logging.IllegalRangeCaption">
+        <object>Virhe</object>
+      </resource>
+      <resource name="Logging.Failed">
+        <object>Lokiinkirjaamistoiminto epäonnistui</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Haluatko poistaa lokisyötteen:\n'{0}'\ntietokannasta?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Poista lokitiedosto</object>
+      </resource>
+      <resource name="edLoggingName.Hint">
+        <object>Kirjoita nimi lokille. Jos nimeä ei anneta, nimi luodaan automaattisesti.</object>
+      </resource>
+      <resource name="tabTare.Text">
+        <object>Tyhjät koukut</object>
+      </resource>
+      <resource name="tabBadShackles.Text">
+        <object>Huonot koukut</object>
+      </resource>
+      <resource name="tabLogging.Text">
+        <object>Dynaaminen punnitus</object>
+      </resource>
+      <resource name="staticWeight.Caption">
+        <object>Staattinen paino (##)</object>
+      </resource>
+      <resource name="staticWeight.ToolTip">
+        <object>Koukun staattinen paino</object>
+      </resource>
+      <resource name="tabStaticWeight.Text">
+        <object>Staattinen punnitus</object>
+      </resource>
+      <resource name="cbLoggingHistory.Hint">
+        <object>Luettelo käytettävissä olevista lokeista, joista voi valita</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Tallenna</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Tallenna valittu loki tiedostoon</object>
+      </resource>
+      <resource name="barBtnStartStopLogging.Caption">
+        <object>Käynnistä</object>
+      </resource>
+      <resource name="barBtnStartStopLogging.Hint">
+        <object>Napsauta lokiin viemisen aloittamiseksi</object>
+      </resource>
+      <resource name="barSubOperations.Hint">
+        <object>Järjestelmän toiminnot</object>
+      </resource>
+      <resource name="barBtnSaveTareGrid.Caption">
+        <object>Tallenna</object>
+      </resource>
+      <resource name="barBtnSaveTareGrid.Hint">
+        <object>Tallenna taarataulukon sisältö tiedostoon</object>
+      </resource>
+      <resource name="barBtnSaveBadShackleGrid.Caption">
+        <object>Tallenna</object>
+      </resource>
+      <resource name="barBtnSaveBadShackleGrid.Hint">
+        <object>Tallenna huonojen koukkujen taulukon sisältö tiedostoon</object>
+      </resource>
+      <resource name="ResetShackle.Confirm">
+        <object>Valittujen koukkujen yksilöllinen taara opetetaan uudelleen.\nHaluatko jatkaa?</object>
+      </resource>
+      <resource name="ResetShackle.Title">
+        <object>Opeta uudelleen valitut koukut</object>
+      </resource>
+      <resource name="ResetBadShackles.Confirm">
+        <object>Kaikkien huonojen koukkujen yksilöllinen taara opetetaan uudelleen.\nHaluatko jatkaa?</object>
+      </resource>
+      <resource name="ResetBadShackles.Title">
+        <object>Opeta uudelleen kaikki huonot koukut</object>
+      </resource>
+      <resource name="ResetAllShackle.Confirm">
+        <object>Yksilöllinen taara ja kaikkien linjalla olevien koukkujen yleinen taara opetetaan uudelleen.\nHaluatko jatkaa?</object>
+      </resource>
+      <resource name="ResetAllShackle.Title">
+        <object>Opeta uudelleen kaikki koukut</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Lataa uudelleen kaikki UI-nimikkeet</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Palauta UI-nimikkeiden oletusasettelut</object>
+      </resource>
+      <resource name="barBtnDesignMode.Hint">
+        <object>Ottaa ruudukot käyttöön</object>
+      </resource>
+      <resource name="WgmStationNotPresent">
+        <object>Wgm-asemaa ei ole palvelinsovelluksessa. Onko lisenssi asennettu?</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Settings.TapSettings" ServiceOnly="false">
+      <resource name="colStatus.Caption">
+        <object>Tila</object>
+      </resource>
+      <resource name="colStatus.ToolTip">
+        <object>Näyttää asetusten tilan</object>
+      </resource>
+      <resource name="colTrack.Caption">
+        <object>Radan nimi</object>
+      </resource>
+      <resource name="colTrack.ToolTip">
+        <object>Tätä laitetta käsittelevän painoradan nimi</object>
+      </resource>
+      <resource name="colDownloadDate.Caption">
+        <object>Lähetetään</object>
+      </resource>
+      <resource name="colDownloadDate.ToolTip">
+        <object>Päivä ja aika, jolloin asetukset lähetettiin laitteeseen</object>
+      </resource>
+      <resource name="colTareBackup.Caption">
+        <object>Taaratietojen varmuuskopion pvm</object>
+      </resource>
+      <resource name="colTareBackup.ToolTip">
+        <object>Päivämäärä ja kellonaika, jolloin taaratiedot varmuuskopioitiin laitteelta</object>
+      </resource>
+      <resource name="tabSource.Text">
+        <object>Lähde</object>
+      </resource>
+      <resource name="tabDetection.Text">
+        <object>Tuotteiden tunnistus</object>
+      </resource>
+      <resource name="tabHandling.Text">
+        <object>Tuotteiden käsittely</object>
+      </resource>
+      <resource name="tabAlarms.Text">
+        <object>Hälytykset</object>
+      </resource>
+      <resource name="tabTare.Text">
+        <object>Taara</object>
+      </resource>
+      <resource name="tabLogging.Text">
+        <object>Lokiin kirjaaminen</object>
+      </resource>
+      <resource name="grpWeighingSource.Text">
+        <object>Lähteen punnitus</object>
+      </resource>
+      <resource name="grpCommunication.Text">
+        <object>MWS2-kommunikointi</object>
+      </resource>
+      <resource name="weighingSource.PrevWeight">
+        <object>Edellinen paino</object>
+      </resource>
+      <resource name="weighingSource.LoadCell">
+        <object>Vaaka-anturi</object>
+      </resource>
+      <resource name="chkWholeProdWeigher.Text">
+        <object>Kokonaisten tuotteiden vaaka</object>
+      </resource>
+      <resource name="lblIpAddress.Text">
+        <object>IP-osoite</object>
+      </resource>
+      <resource name="lblPortNo.Text">
+        <object>Porttinro</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Laite</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Näyttää sen laitteen nimen, jota asetukset koskevat</object>
+      </resource>
+      <resource name="grpClearProduct.Text">
+        <object>Poista tuote</object>
+      </resource>
+      <resource name="grpAddProduct.Text">
+        <object>Lisää tuote</object>
+      </resource>
+      <resource name="lblClearProdNoOfShackles.Text">
+        <object>Koukkujen määrä sen jälkeen, kun det/pp-hälytys on ilmennyt</object>
+      </resource>
+      <resource name="chkClearProdAllow.Text">
+        <object>Salli tuotteen poisto</object>
+      </resource>
+      <resource name="chkClearProdDisable.Text">
+        <object>Älä salli tuotteen poistoa hälytyksen jälkeen</object>
+      </resource>
+      <resource name="lblAddProdNoOfShackles.Text">
+        <object>Koukkujen määrä sen jälkeen, kun det/pp-hälytys on ilmennyt</object>
+      </resource>
+      <resource name="chkAddProdAllow.Text">
+        <object>Salli tuotemääritys</object>
+      </resource>
+      <resource name="chkAddProdDisable.Text">
+        <object>Älä salli tuotemääritystä hälytyksen jälkeen</object>
+      </resource>
+      <resource name="lblAddProdWeight.Text">
+        <object>Paino</object>
+      </resource>
+      <resource name="lblAddProdQuality.Text">
+        <object>Laatu</object>
+      </resource>
+      <resource name="lblAddProdArticle.Text">
+        <object>Nimikekoodi</object>
+      </resource>
+      <resource name="grpWeightParam.Text">
+        <object>Painon parametrit</object>
+      </resource>
+      <resource name="grpTreatment.Text">
+        <object>Käsittely</object>
+      </resource>
+      <resource name="grpGiblet.Text">
+        <object>Sisälmykset</object>
+      </resource>
+      <resource name="lblPHMinProductWeight.Text">
+        <object>Tuotteen vähimmäispaino</object>
+      </resource>
+      <resource name="lblPHOffset.Text">
+        <object>Poikkeama</object>
+      </resource>
+      <resource name="lblPHCorrFactor.Text">
+        <object>Korjauskerroin</object>
+      </resource>
+      <resource name="chkPHDisplace.Text">
+        <object>Korvaa tuote</object>
+      </resource>
+      <resource name="lblPHDisplaceShackles.Text">
+        <object>Korvaa koukut</object>
+      </resource>
+      <resource name="chkUseGiblet.Text">
+        <object>Käytä sisälmyksiä</object>
+      </resource>
+      <resource name="lblGibletWeight.Text">
+        <object>Sisälmysten paino</object>
+      </resource>
+      <resource name="lblAddGiblet.Text">
+        <object>Lisää sisälmykselle nimikekoodi</object>
+      </resource>
+      <resource name="treatment.Left">
+        <object>Vasen</object>
+      </resource>
+      <resource name="treatment.Right">
+        <object>Oikea</object>
+      </resource>
+      <resource name="treatment.Whole">
+        <object>Kokonaiset</object>
+      </resource>
+      <resource name="grpEfficency.Text">
+        <object>Tehokkuus</object>
+      </resource>
+      <resource name="grpGeneral.Text">
+        <object>Yleistä</object>
+      </resource>
+      <resource name="chkUseOvershootAlarms.Text">
+        <object>Käytä ylityshälytystä</object>
+      </resource>
+      <resource name="lblOvershotLimit.Text">
+        <object>Ylitysrajan prosenttiosuus</object>
+      </resource>
+      <resource name="lblNoOvershootsAllowed.Text">
+        <object>Sallittujen ylitysten määrä historiassa ennen hälytystä</object>
+      </resource>
+      <resource name="chkUseBarOutsideAlarm.Text">
+        <object>Käytä palkit alueen ulkopuolella -hälytystä</object>
+      </resource>
+      <resource name="lblNoBarsForHistory.Text">
+        <object>Käytettyjen palkkien määrä historialle</object>
+      </resource>
+      <resource name="lblNoBarsOutsideRange.Text">
+        <object>Sallittujen palkkien määrä alueen ulkopuolella ennen hälytyksen ilmenemistä</object>
+      </resource>
+      <resource name="chkUseProdEfficiency.Text">
+        <object>Käytä tuotetehokkuus alueen ulkopuolella -hälytystä</object>
+      </resource>
+      <resource name="lblProdEffOutsideLimit.Text">
+        <object>Tuotetehokkuus aluerajan ulkopuolella</object>
+      </resource>
+      <resource name="lblProdEffOutsideLimitHysteresis.Text">
+        <object>Tuotetehokkuus aluerajan ulkopuolella -hystereesi</object>
+      </resource>
+      <resource name="lblProdEffYellow.Text">
+        <object>Tuotetehokkuus, keltaisen palkin kaistanleveys</object>
+      </resource>
+      <resource name="chkSuppressAlarm.Text">
+        <object>Vaimennushälytys, kun linjan nopeus on epävakaa</object>
+      </resource>
+      <resource name="grpTare.Text">
+        <object>Yleinen taara</object>
+      </resource>
+      <resource name="grpIndividualTare.Text">
+        <object>Yksilöllinen taara</object>
+      </resource>
+      <resource name="grpTareBackup.Text">
+        <object>Taaratietojen varmuuskopio</object>
+      </resource>
+      <resource name="grpGlobalTare.Text">
+        <object>Yleinen taara</object>
+      </resource>
+      <resource name="lblTareRejection.Text">
+        <object>Taaran hylkäysraja</object>
+      </resource>
+      <resource name="lblEmptyShackleSD.Text">
+        <object>Enimmäismäärä tyhjiä koukkuja SD</object>
+      </resource>
+      <resource name="lblEmptyShackleWeight.Text">
+        <object>Tyhjän koukun paino arviolta</object>
+      </resource>
+      <resource name="lblMinLineSpeed.Text">
+        <object>Linjan vähimmäisnopeus</object>
+      </resource>
+      <resource name="chkIndTareCorr.Text">
+        <object>Ota käyttöön yksilöllisen taaran korjaus</object>
+      </resource>
+      <resource name="lblIndTareRoundsNeeded.Text">
+        <object>Min.määrä tyhjiä kierroksia alustavalle opetukselle</object>
+      </resource>
+      <resource name="lblIndTareKFactor.Text">
+        <object>Liikkuva keskim. vaimennuskerroin</object>
+      </resource>
+      <resource name="lblIndTareRoundsRejected.Text">
+        <object>Hylättyjen kierrosten määrä</object>
+      </resource>
+      <resource name="chkEnableTareBackup.Text">
+        <object>Ota käyttöön yksilöllisen taaran varmuuskopiointi</object>
+      </resource>
+      <resource name="lblTareBackupInterval.Text">
+        <object>Varmuuskopiointiväli</object>
+      </resource>
+      <resource name="uTareBackupInterval.Text">
+        <object>väh.</object>
+      </resource>
+      <resource name="chkGlobalTareCorr.Text">
+        <object>Ota käyttöön yleinen taaran korjaus</object>
+      </resource>
+      <resource name="lblGlobalTareShacklesNeeded.Text">
+        <object>Numeroi koukut liikkuvaa keskim. varten</object>
+      </resource>
+      <resource name="lblGlobalTareActualPlus.Text">
+        <object>Hälytyskynnys todelliselle taaralle</object>
+      </resource>
+      <resource name="lblAlarmThresholdShacklesInRound.Text">
+        <object>Hylätyt koukut kierrosta kohden</object>
+      </resource>
+      <resource name="lblAlarmThresholdIndShackle.Text">
+        <object>Hylätyt per koukku</object>
+      </resource>
+      <resource name="grpLogSettings.Text">
+        <object>Lokiasetukset</object>
+      </resource>
+      <resource name="chkOutputWeightData.Text">
+        <object>Lähtöpainotiedot</object>
+      </resource>
+      <resource name="barBtnRefresh.Caption">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Vahvista</object>
+      </resource>
+      <resource name="barSubOpertions.Caption">
+        <object>Toiminnot</object>
+      </resource>
+      <resource name="barBtnSend.Caption">
+        <object>Lähetä</object>
+      </resource>
+      <resource name="barBtnTareBackup.Caption">
+        <object>Varmuuskopioi taaratiedot</object>
+      </resource>
+      <resource name="barBtnTareRestore.Caption">
+        <object>Palauta taaratiedot</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Lataa uudelleen GUI-nimike</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Palauta oletusasettelu</object>
+      </resource>
+      <resource name="Hint.NotInDevice">
+        <object>Asetukset, jotka eivät ole TAP:ssa</object>
+      </resource>
+      <resource name="Hint.InDevice">
+        <object>Asetukset TAP:ssa</object>
+      </resource>
+      <resource name="Hint.Different">
+        <object>Asetukset TAP:n ja Innovan välillä ovat erilaiset</object>
+      </resource>
+      <resource name="Hint.NoInfo">
+        <object>Tietoja ei voida saada</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Haluatko tallentaa tiedot?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Tallenna asetukset</object>
+      </resource>
+      <resource name="Send.Confirm">
+        <object>Haluatko lähettää asetukset valittuna olevalle laitteelle?</object>
+      </resource>
+      <resource name="Send.Title">
+        <object>Siirtoasetukset</object>
+      </resource>
+      <resource name="Send.Failed">
+        <object>Asetusten lähetys epäonnistui</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>Ei etäyhteyttä palvelimeen.</object>
+      </resource>
+      <resource name="SendError.Caption">
+        <object>Lähetysvirhe</object>
+      </resource>
+      <resource name="TareBackup.Failed">
+        <object>Taarataulukon varmuuskopiointipyynnön lähetys epäonnistui</object>
+      </resource>
+      <resource name="TareRestore.Failed">
+        <object>Taarataulukon palautuspyynnön lähetys epäonnistui</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Virhe</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Näytä viimeisin virheviesti</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Ei etäyhteyttä palvelimeen.</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Yhteysvirhe</object>
+      </resource>
+      <resource name="TareAutoBackup.Failed">
+        <object>Taulukon varmuuskopiointiasetusten päivitys epäonnistui</object>
+      </resource>
+      <resource name="TareBackup.Busy">
+        <object>Varmuuskopiointi käynnissä</object>
+      </resource>
+      <resource name="TareRestore.Busy">
+        <object>Palautus käynnissä</object>
+      </resource>
+      <resource name="colTareRestore.Caption">
+        <object>Taaratiedot palautettu</object>
+      </resource>
+      <resource name="colTareRestore.ToolTip">
+        <object>Päivämäärä ja kellonaika, jolloin taaratiedot palautettiin</object>
+      </resource>
+      <resource name="uAddProdWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uPHMinProductWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uPHOffset.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uGibletWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uTareRejection.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uEmptyShackleWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uMinLineSpeed.Text">
+        <object>nr/h</object>
+      </resource>
+      <resource name="uGlobalTareActualPlus.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uAlarmThresholdShacklesInRound.Text">
+        <object>%</object>
+      </resource>
+      <resource name="uAlarmThresholdIndShackle.Text">
+        <object>%</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Linja</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Näyttää linjan, kuten on määritelty Yllä</object>
+      </resource>
+      <resource name="uEmptyShackleSD.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uLoadCellWeightUnit.Text">
+        <object>Kg</object>
+      </resource>
+      <resource name="barBtnTareLoad.Caption">
+        <object>Lataa taaratiedot</object>
+      </resource>
+      <resource name="barBtnTareLoad.Hint">
+        <object>Lataa taaratiedot tiedostosta, joka on tarkoitus palauttaa laitteeseen</object>
+      </resource>
+      <resource name="barBtnTareSave.Caption">
+        <object>Tallenna taaratiedot</object>
+      </resource>
+      <resource name="barBtnTareSave.Hint">
+        <object>Tallenna varmuuskopioidut taaratiedot tiedostoon</object>
+      </resource>
+      <resource name="TareSave.Error">
+        <object>Tietokannasta ei löydetty tietoja taarataulukon varmuuskopiointia varten.</object>
+      </resource>
+      <resource name="TareSave.ErrorTitle">
+        <object>Virhe tallennettaessa taaratietoja</object>
+      </resource>
+      <resource name="TareSave.Dialog.Title">
+        <object>Tallenna nimellä</object>
+      </resource>
+      <resource name="TareSave.Dialog.Failed">
+        <object>Taaratietojen tallennus epäonnistui</object>
+      </resource>
+      <resource name="TareLoad.Dialog.Title">
+        <object>Valitse tiedosto...</object>
+      </resource>
+      <resource name="TareLoad.Dialog.Failed">
+        <object>Taaratietojen lataus epäonnistui</object>
+      </resource>
+      <resource name="TareLoad.Confirm">
+        <object>Haluatko ladata taaratiedot tiedostosta ja palauttaa sen laitteeseen?</object>
+      </resource>
+      <resource name="TareLoad.ConfirmTitle">
+        <object>Palautetaan taaratietoja tiedostosta</object>
+      </resource>
+      <resource name="TareLoad.Result.Text">
+        <object>Tarkista, oletko valinnut oikean tiedoston.</object>
+      </resource>
+      <resource name="TareLoad.Result.Caption">
+        <object>Tietojen lukeminen epäonnistui</object>
+      </resource>
+      <resource name="TareLoad.Restore.Failed">
+        <object>Taarataulukkotietojen palautus tiedostosta epäonnistui</object>
+      </resource>
+      <resource name="barBtnTareBackup.Hint">
+        <object>Varmuuskopioi taarataulukkotiedot TAP:sta tietokantaan</object>
+      </resource>
+      <resource name="barBtnTareRestore.Hint">
+        <object>Palauta varmuuskopioidut taaratiedot tietokannasta TAP:iin</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Lataa uudelleen kaikki UI-nimikkeet</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Palauta UI-nimikkeiden oletusasettelut</object>
+      </resource>
+      <resource name="lblIndTareShacklesAllowed.Text">
+        <object>Maks.linjakuorma opetusta varten</object>
+      </resource>
+      <resource name="edIndTareShacklesAllowed.ToolTip">
+        <object>Määrittää, millä täytettyjen koukkujen tasolla vaaka voi aloittaa opetuksen yksittäiselle taaralle.</object>
+      </resource>
+      <resource name="lblBadShackleListThreshold.Text">
+        <object>Taulukko huonojen koukkujen hylkäyskynnyksestä</object>
+      </resource>
+      <resource name="edAlarmThresholdShacklesInRound.ToolTip">
+        <object>Hälytys aiheutuu, jos hylättyjen koukkujen prosenttiosuus yhdellä kierroksella on suurempi kuin tämä arvo</object>
+      </resource>
+      <resource name="edAlarmThresholdIndShackle.ToolTip">
+        <object>Hälytys aiheutuu, jos yksittäisen koukun hylkäysprosentti on suurempi kuin tämä arvo</object>
+      </resource>
+      <resource name="edBadShackleListThreshold.ToolTip">
+        <object>Koukku lisätään huonojen koukkujen luetteloon, jos yksittäisen koukun hylkäysprosentti on suurempi kuin tämä arvo</object>
+      </resource>
+      <resource name="edBadShackleResetThreshold.ToolTip">
+        <object>Koukun yksilöllinen taara nollataan, jos yksittäisen koukun hylkäysprosentti on suurempi kuin tämä arvo</object>
+      </resource>
+      <resource name="edTareBackupInterval.ToolTip">
+        <object>Väliaika, jolloin yksilölliset taaratiedot haetaan TAP:sta ja varmuuskopioidaan tietokantaan</object>
+      </resource>
+      <resource name="edIndTareRoundsNeeded.ToolTip">
+        <object>Kierrosten määrä, joka tarvitaan yksilöllisen taaran opettamiseen</object>
+      </resource>
+      <resource name="edIndTareKFactor.ToolTip">
+        <object>Kukin uuden tyhjän koukun paino vähennetään tällä kertoimella ennen kuin sitä käytetään rekursiiviseen suodatukseen yksilöllisen taaran laskennassa</object>
+      </resource>
+      <resource name="edGlobalTareActualPlus.ToolTip">
+        <object>Hälytys aiheutuu, jos yleinen taara ylitti tämän kynnyksen, joko positiivisen tai negatiivisen</object>
+      </resource>
+      <resource name="edEmptyShackleWeight.ToolTip">
+        <object>Tyhjän koukun painoarvio, jota käytetään taaran laskennassa. Yksilöllinen taara plus tämä arvo määrittää koukun todellisen painon</object>
+      </resource>
+      <resource name="edMinLineSpeed.ToolTip">
+        <object>Linjan vähimmäisnopeus taaran opettamiseen</object>
+      </resource>
+      <resource name="edEmptyShackleSD.ToolTip">
+        <object>Tyhjän koukun suurin sallittu keskihajonta, jota käytetään suorituskyvyn valvontaan</object>
+      </resource>
+      <resource name="edTareRejection.ToolTip">
+        <object>Jos koukun taara poikkeaa tätä arvoa enemmän todellisesta taarasta, koukku hylätään yksilöllisen ja yleisen taaran laksennasta</object>
+      </resource>
+      <resource name="edIpAddress.ToolTip">
+        <object>MWS2-laitteen IP-osoite TAP:lle käytettäväksi yhteyden luomiseen</object>
+      </resource>
+      <resource name="edPortNo.ToolTip">
+        <object>MWS2-laitteen porttinumero TAP:lle käytettäväksi yhteyden luomiseen</object>
+      </resource>
+      <resource name="edGlobalTareShacklesNeeded.ToolTip">
+        <object>Koukkujen määrä, jota käytetään liikkuvan keskimääräisen yleisen taaran laskennassa</object>
+      </resource>
+      <resource name="uBadShackleListThreshold.Text">
+        <object>%</object>
+      </resource>
+      <resource name="Send.Failed.Caption">
+        <object>Asetusten lähetys epäonnistui</object>
+      </resource>
+      <resource name="Send.Failed.Text">
+        <object>Katso järjestelmälokista tarkemmat tiedot.</object>
+      </resource>
+      <resource name="Send.SaveConfirm">
+        <object>Haluatko tallentaa tiedot ja\nlähettää asetukset valittuna olevalle laitteelle?</object>
+      </resource>
+      <resource name="barBtnResetBadShackles.ToolTip">
+        <object>Opettaa uudelleen kaikki huonot koukut järjestelmässä</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.ToolTip">
+        <object>Opettaa uudelleen koko linjan kertoen, mitkä ovat huonoja ja mitkä hyviä koukkuja</object>
+      </resource>
+      <resource name="edClearProdPerc.ToolTip">
+        <object>Se koukkujen prosenttiosuus, jonka tulisi laukaista hälytyksen</object>
+      </resource>
+      <resource name="chkClearProdAllow.ToolTip">
+        <object>Käyttöön otettuna tuotteiden tyhjäys on sallittua</object>
+      </resource>
+      <resource name="chkClearProdDisable.ToolTip">
+        <object>Käyttöön otettuna tuotteita ei tyhjätä, kun hälytys on olemassa</object>
+      </resource>
+      <resource name="edAddProdPerc.ToolTip">
+        <object>Se koukkujen prosenttiosuus, jonka tulisi laukaista hälytyksen</object>
+      </resource>
+      <resource name="chkAddProdAllow.ToolTip">
+        <object>Käyttöön otettuna tuotemääritys on sallittua</object>
+      </resource>
+      <resource name="chkAddProdDisable.ToolTip">
+        <object>Käyttöön otettuna tuotteita ei määritellä hälytyksen ilmenemisen jälkeen</object>
+      </resource>
+      <resource name="edAddProdWeight.ToolTip">
+        <object>Tuotteen paino lisättäväksi</object>
+      </resource>
+      <resource name="edAddProdQuality.ToolTip">
+        <object>Tuotteen laatu lisättäväksi</object>
+      </resource>
+      <resource name="edAddProdArticle.ToolTip">
+        <object>Tuotteen nimikekoodi lisättäväksi</object>
+      </resource>
+      <resource name="edPHMinProductWeight.ToolTip">
+        <object>Tuotteen vähimmäispaino tallennettavaksi</object>
+      </resource>
+      <resource name="edPHOffset.ToolTip">
+        <object>Painon rekisteröintiin käytettävä poikkeama</object>
+      </resource>
+      <resource name="edPHCorrFactor.ToolTip">
+        <object>Prosenttiosuus, jota tulisi käyttää korjauskertoimeen</object>
+      </resource>
+      <resource name="chkPHDisplace.ToolTip">
+        <object>Käyttöön otettuna tietty määrä koukkuja korvataan</object>
+      </resource>
+      <resource name="edPHDisplaceShackles.ToolTip">
+        <object>Korvattavien koukkujen määrä</object>
+      </resource>
+      <resource name="selTreatments.ToolTip">
+        <object>Määrittää vaa'an tyypin, vasemman jalan, oikean jalan tai kokonaisen tuotteen</object>
+      </resource>
+      <resource name="chkUseGiblet.ToolTip">
+        <object>Määrittää, käytetäänkö sisälmyksiä punnituksessa</object>
+      </resource>
+      <resource name="edGibletWeight.ToolTip">
+        <object>Sen sisälmyksen, jota tulisi käyttää, paino</object>
+      </resource>
+      <resource name="chkAutoRelearn.Text">
+        <object>Ota käyttöön automaattinen uudelleenopetus</object>
+      </resource>
+      <resource name="lblBadShackleResetThreshold.Text">
+        <object>Hylkäyskynnys per koukku</object>
+      </resource>
+      <resource name="TareBackup">
+        <object>Haluatko varmasti varmuuskopioida nykyisen olemassa olevan taarataulukon TAP-järjestelmästä?</object>
+      </resource>
+      <resource name="TareRestore">
+        <object>Haluatko varmasti palauttaa nykyisen varmuuskopioidun taarataulukon TAP-järjestelmään?</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.TapPerformanceTest" ServiceOnly="false">
+      <resource name="colLogShackleId.Caption">
+        <object>Koukku</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>Koukun tunnus</object>
+      </resource>
+      <resource name="colLogRegTime.Caption">
+        <object>Rekisteröintiaika</object>
+      </resource>
+      <resource name="colLogRegTime.ToolTip">
+        <object>Aika, jolloin syöte kirjoitettiin tietokantaan</object>
+      </resource>
+      <resource name="colLogOldWeight.Caption">
+        <object>Edellinen paino (##)</object>
+      </resource>
+      <resource name="colLogOldWeight.ToolTip">
+        <object>Näyttää edellisen painon</object>
+      </resource>
+      <resource name="colLogWeight.Caption">
+        <object>Nettopaino (##)</object>
+      </resource>
+      <resource name="colLogWeight.ToolTip">
+        <object>Näyttää taaran nettopainon</object>
+      </resource>
+      <resource name="colLogGrossWeight.Caption">
+        <object>Bruttopaino (##)</object>
+      </resource>
+      <resource name="colLogGrossWeight.ToolTip">
+        <object>Näyttää taaran bruttopainon</object>
+      </resource>
+      <resource name="colLogActualTare.Caption">
+        <object>Todellinen taara (##)</object>
+      </resource>
+      <resource name="colLogActualTare.ToolTip">
+        <object>Taaran todellinen paino</object>
+      </resource>
+      <resource name="colLogIndividualTare.Caption">
+        <object>Yksittäinen taara (##)</object>
+      </resource>
+      <resource name="colLogIndividualTare.ToolTip">
+        <object>Näyttää yksittäisen taaran</object>
+      </resource>
+      <resource name="colLogRoundsLearned.Caption">
+        <object>Opetettujen kierrosten määrä</object>
+      </resource>
+      <resource name="colLogRoundsLearned.ToolTip">
+        <object>Näyttää opetettujen kierrosten määrän</object>
+      </resource>
+      <resource name="colLogWeightQuality.Caption">
+        <object>Painon laatu</object>
+      </resource>
+      <resource name="colLogWeightQuality.ToolTip">
+        <object>Näytä painon laatu</object>
+      </resource>
+      <resource name="colDeveloperInfo.Caption">
+        <object>Kehittäjän tiedot</object>
+      </resource>
+      <resource name="colDeveloperInfo.ToolTip">
+        <object>Tiedot kehittäjän analysointia varten</object>
+      </resource>
+      <resource name="grpWeighers.Text">
+        <object>Vaa'at</object>
+      </resource>
+      <resource name="grpLoggingHistory.Text">
+        <object>Lokihistoria</object>
+      </resource>
+      <resource name="grpTestState.Text">
+        <object>Testitila</object>
+      </resource>
+      <resource name="grpTestProperties.Text">
+        <object>Testiominaisuudet</object>
+      </resource>
+      <resource name="btnDelLog.ToolTip">
+        <object>Poista valittu lokikirjaus</object>
+      </resource>
+      <resource name="lblNoOfBirds.Text">
+        <object>Tuotteiden määrä</object>
+      </resource>
+      <resource name="lblDropsPerMin.Text">
+        <object>Määrä minuuttia kohden</object>
+      </resource>
+      <resource name="lblMinWeight.Text">
+        <object>Vähimmäispaino</object>
+      </resource>
+      <resource name="uMinWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblMaxWeight.Text">
+        <object>Enimmäispaino</object>
+      </resource>
+      <resource name="uMaxWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblLogName.Text">
+        <object>Lokinimi</object>
+      </resource>
+      <resource name="startStopButton.Text">
+        <object>Käynnistä</object>
+      </resource>
+      <resource name="WeigherLookup.Name">
+        <object>Nimi</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Nimi</object>
+      </resource>
+      <resource name="TestError.ParamFailed">
+        <object>Suorituskykytestiä ei pystytty käynnistämään, tarkista parametrit</object>
+      </resource>
+      <resource name="TestError.FailedToStart">
+        <object>Suorituskykytestiä ei pystytty käynnistämään</object>
+      </resource>
+      <resource name="TestError.NoServer">
+        <object>Testiä ei pystytty käynnistämään, ei yhteyttä palvelimeen</object>
+      </resource>
+      <resource name="TestError.Error">
+        <object>Virhe</object>
+      </resource>
+      <resource name="TestError.FailedToStop">
+        <object>Suorituskykytestiä ei pystytty pysäyttämään</object>
+      </resource>
+      <resource name="TestButton.Start">
+        <object>Käynnistä</object>
+      </resource>
+      <resource name="TestButton.Stop">
+        <object>Pysäytä</object>
+      </resource>
+      <resource name="Test.Finished">
+        <object>Suorituskykytesti viety loppuun onnistuneesti</object>
+      </resource>
+      <resource name="Test.Running">
+        <object>Suorituskykytesti käynnissä</object>
+      </resource>
+      <resource name="Test.Stopped">
+        <object>Suorituskykytesti pysäytetty</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Haluatko poistaa lokisyötteen:\n'{0}'\ntietokannasta?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Poista lokitiedosto</object>
+      </resource>
+      <resource name="TapPerformanceTest.Text">
+        <object>Suorituskykytesti</object>
+      </resource>
+      <resource name="Test.Info">
+        <object>Aseta testiparametrit ja napsauta käynnistä testin aloittamiseksi</object>
+      </resource>
+      <resource name="weigherList.ToolTip">
+        <object>Valitse vaaka, jolle testi tehdään</object>
+      </resource>
+      <resource name="loggingHistoryList.ToolTip">
+        <object>Valitse näytettävä loki</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Tallenna valittu loki tiedostoon</object>
+      </resource>
+      <resource name="grpResultGrid.Text">
+        <object>Tulokset</object>
+      </resource>
+      <resource name="edNoOfBirds.ToolTip">
+        <object>Määrittää, kuinka monta lintua tulee pudottaa</object>
+      </resource>
+      <resource name="edDropsPerMin.ToolTip">
+        <object>Määrittää pudotettavien lintujen määrän minuutissa</object>
+      </resource>
+      <resource name="edMinWeight.ToolTip">
+        <object>Pudotettavan linnun vähimmäispainomääritys</object>
+      </resource>
+      <resource name="edMaxWeight.ToolTip">
+        <object>Pudotettavan linnun enimmäispainomääritys</object>
+      </resource>
+      <resource name="edLogName.ToolTip">
+        <object>Lokikirjauksen nimi, joka kuuluu tehtävään suorituskykytestiin.</object>
+      </resource>
+      <resource name="startStopButton.ToolTip">
+        <object>Aktivoi suorituskykytesti tai pysäytä, jos se on käynnissä</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Sulje</object>
+      </resource>
+      <resource name="btnClose.ToolTip">
+        <object>Sulkee valintaikkunan</object>
+      </resource>
+      <resource name="lblArticleCode.Text">
+        <object>Nimikekoodi</object>
+      </resource>
+      <resource name="lblDropDelay.Text">
+        <object>Pudotuksen viive</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Settings.Mws2Settings" ServiceOnly="false">
+      <resource name="barBtnRefresh.Caption">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="barBtnRefresh.Hint">
+        <object>Päivitä asetus ja tiedot laitteesta</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Vahvista</object>
+      </resource>
+      <resource name="barBtnConfirm.Hint">
+        <object>Tallenna muokatut arvot tietokantaan</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Toiminnot</object>
+      </resource>
+      <resource name="barSubOperations.Hint">
+        <object>Muut toiminnot</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Lataa uudelleen GUI-nimike</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Lataa uudelleen kaikki UI-nimikkeet</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Palauta oletusasettelu</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Palauta UI-nimikkeiden oletusasettelut</object>
+      </resource>
+      <resource name="barBtnSend.Caption">
+        <object>Lähetä</object>
+      </resource>
+      <resource name="barBtnSend.Hint">
+        <object>Lähetä asetukset valittuun laitteeseen</object>
+      </resource>
+      <resource name="tabProperties.Text">
+        <object>Ominaisuudet</object>
+      </resource>
+      <resource name="barBtnLoad.Caption">
+        <object>Lataa tiedostosta</object>
+      </resource>
+      <resource name="barBtnLoad.Hint">
+        <object>Lataa rekisteriasetukset paikallisesta tiedostosta.</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Tallenna tiedostoon</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Tallenna rekisteriasetukset paikalliseen tiedostoon.</object>
+      </resource>
+      <resource name="barBtnGetSettings.Caption">
+        <object>Hae MWS2-asetukset</object>
+      </resource>
+      <resource name="barBtnGetSettings.Hint">
+        <object>Tuo rekisteriasetukset valitulle MWS2-vaa'alle.</object>
+      </resource>
+      <resource name="colStatus.Caption">
+        <object>Tila</object>
+      </resource>
+      <resource name="colStatus.Hint">
+        <object>Näyttää asetusten tilan</object>
+      </resource>
+      <resource name="colTrack.Caption">
+        <object>Radan nimi</object>
+      </resource>
+      <resource name="colTrack.ToolTip">
+        <object>Tätä laitetta käsittelevän painoradan nimi</object>
+      </resource>
+      <resource name="colDownloadDate.Caption">
+        <object>Lähetetään</object>
+      </resource>
+      <resource name="colDownloadDate.ToolTip">
+        <object>Päivä ja aika, jolloin asetukset lähetettiin laitteeseen</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Virhe</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Näytä viimeisin virheviesti</object>
+      </resource>
+      <resource name="colPropRegister.Caption">
+        <object>Rekisteri</object>
+      </resource>
+      <resource name="colPropRegister.ToolTip">
+        <object>Näyttää rekisterinumeron</object>
+      </resource>
+      <resource name="colPropDescription.Caption">
+        <object>Kuvaus</object>
+      </resource>
+      <resource name="colPropDescription.ToolTip">
+        <object>Rekisterin kuvaus</object>
+      </resource>
+      <resource name="colPropFlags.Caption">
+        <object>Liput</object>
+      </resource>
+      <resource name="colPropFlags.ToolTip">
+        <object>Rekisteriliput</object>
+      </resource>
+      <resource name="colPropChangeable.Caption">
+        <object>Vaihdettavissa oleva</object>
+      </resource>
+      <resource name="colPropChangeable.ToolTip">
+        <object>Voiko arvon vaihtaa</object>
+      </resource>
+      <resource name="colPropContent.Caption">
+        <object>Aktiiviset MWS2-parametrit</object>
+      </resource>
+      <resource name="colPropContent.ToolTip">
+        <object>Näyttää laitteen rekisterin sisällön</object>
+      </resource>
+      <resource name="colPropContentDb.Caption">
+        <object>Tietokannassa olevat parametrit</object>
+      </resource>
+      <resource name="colPropContentDb.ToolTip">
+        <object>Näyttää tietokantaan tallennetut parametrit</object>
+      </resource>
+      <resource name="Info.Refresh.Text">
+        <object>Tietoja haetaan MWS2-laitteesta.\nOdota!</object>
+      </resource>
+      <resource name="Info.Refresh">
+        <object>Tietojen lataus</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Haluatko tallentaa tiedot?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Tallenna asetukset</object>
+      </resource>
+      <resource name="Hint.NotInDevice">
+        <object>Asetukset, jotka eivät ole MWS2:ssa</object>
+      </resource>
+      <resource name="Hint.InDevice">
+        <object>Asetukset MWS2:ssa</object>
+      </resource>
+      <resource name="Hint.Different">
+        <object>Asetukset  MWS2:n ja Innovan välillä ovat erilaiset</object>
+      </resource>
+      <resource name="Hint.NoInfo">
+        <object>Tietoja ei voida hakea</object>
+      </resource>
+      <resource name="Load.Text">
+        <object>Ruudukossa ja tietokannassa olevien tietojen päälle kirjoitetaan.\nHaluatko jatkaa?</object>
+      </resource>
+      <resource name="Load.Caption">
+        <object>Tuo ominaisuudet</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Ei etäyhteyttä palvelimeen.</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Etävirhe</object>
+      </resource>
+      <resource name="LoadResult.Text">
+        <object>Tietojen lukeminen epäonnistui.</object>
+      </resource>
+      <resource name="LoadResult.Caption">
+        <object>Tietoja ei ladattu</object>
+      </resource>
+      <resource name="Send.Info">
+        <object>Lähetetään tietoja MWS2-laitteeseen.\nOdota!</object>
+      </resource>
+      <resource name="Send.Confirm">
+        <object>Haluatko lähettää asetukset valittuna olevalle laitteelle?</object>
+      </resource>
+      <resource name="Send.Title">
+        <object>Siirtoasetukset</object>
+      </resource>
+      <resource name="LoadDialog.Title">
+        <object>Valitse tiedosto...</object>
+      </resource>
+      <resource name="LoadDialog.Failed">
+        <object>Ominaisuuksien lataus ei onnistunut</object>
+      </resource>
+      <resource name="SaveDialog.Info">
+        <object>Tiedot on tallennettava tietokantaan ennen niiden vientiä.</object>
+      </resource>
+      <resource name="SaveDialog.NoData">
+        <object>Ei ominaisuustietoja tallennettavaksi</object>
+      </resource>
+      <resource name="SaveDialog.NoData.Caption">
+        <object>Ei tietoja</object>
+      </resource>
+      <resource name="SaveDialog.Failed">
+        <object>Ominaisuuksien tallennus ei onnistunut</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Laite</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Näyttää sen laitteen nimen, jota asetukset koskevat</object>
+      </resource>
+      <resource name="SaveDialog.Title">
+        <object>Tallenna nimellä</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Linja</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Näyttää linjan, kuten on määritelty Yllä</object>
+      </resource>
+      <resource name="Send.SaveConfirm">
+        <object>Haluatko tallentaa tiedot ja\nlähettää asetukset valittuna olevalle laitteelle?</object>
+      </resource>
+      <resource name="Send.ConfirmOpen">
+        <object>Haluatko lähettää asetukset valittuna olevalle laitteelle? \nVaroitus: Kaikkien laitteella olevien tietuiden päälle kirjoitetaan</object>
+      </resource>
+      <resource name="Send.SaveConfirmOpen">
+        <object>Haluatko tallentaa tiedot ja\nlähettää asetukset valittuna olevalle laitteelle? \nVaroitus: Kaikkien laitteella olevien tietuiden päälle kirjoitetaan</object>
+      </resource>
+      <resource name="SendProtectedSettings">
+        <object>Salli suojattujen MWS2-parametrien päällekirjoitus</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Mws2Management" ServiceOnly="false">
+      <resource name="btnClose.Text">
+        <object>Sulje</object>
+      </resource>
+      <resource name="grpSelectWeigher.Text">
+        <object>Vaaka</object>
+      </resource>
+      <resource name="WeigherLookup.Name">
+        <object>Nimi</object>
+      </resource>
+      <resource name="Text">
+        <object>MWS2­hallinta</object>
+      </resource>
+      <resource name="weigherList.ToolTip">
+        <object>Valitse hallinnoitava vaaka</object>
+      </resource>
+      <resource name="btnClose.ToolTip">
+        <object>Sulje valintaikkuna</object>
+      </resource>
+      <resource name="grpMessage.Text">
+        <object>Viestit</object>
+      </resource>
+      <resource name="tabPageCalibration.Text">
+        <object>Kalibrointi</object>
+      </resource>
+      <resource name="tabPageCurve.Text">
+        <object>Kaari</object>
+      </resource>
+      <resource name="tabPageScope.Text">
+        <object>Käyttötarkoitus</object>
+      </resource>
+      <resource name="tabPageLogging.Text">
+        <object>Lokiin kirjaaminen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Calibration" ServiceOnly="false">
+      <resource name="lblStopped.Text">
+        <object>Pysäytetty</object>
+      </resource>
+      <resource name="lblEmptyWeight.Text">
+        <object>Tyhjä paino</object>
+      </resource>
+      <resource name="lblCalibrationWeight.Text">
+        <object>Kalibrointipaino</object>
+      </resource>
+      <resource name="lblCalibrationOk.Text">
+        <object>Kalibrointi Ok</object>
+      </resource>
+      <resource name="lblDone.Text">
+        <object>Tehty</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="RemoteError">
+        <object>Kalibrointiprosessissa ilmeni virhe. Katso järjestelmäloki.</object>
+      </resource>
+      <resource name="curWeightInfo.ToolTip">
+        <object>Näytetty paino ei välttämättä ole tarkka ennen kuin kalibrointi on suoritettu loppuun</object>
+      </resource>
+      <resource name="Status.DataReloading">
+        <object>Ladataan uudelleen vaa'an asetuksia...</object>
+      </resource>
+      <resource name="Status.DataProcessing">
+        <object>Käsitellään vaa'an tietoja...</object>
+      </resource>
+      <resource name="BtnNext.StartCalibration">
+        <object>Aloita kalibrointi</object>
+      </resource>
+      <resource name="BtnNext.RestartCalibration">
+        <object>Aloita kalibrointi uudelleen</object>
+      </resource>
+      <resource name="BtnNext.ConfirmCalibration">
+        <object>Vahvista kalibrointi</object>
+      </resource>
+      <resource name="Action.Start">
+        <object>"Kalibroinnin aloittamiseksi täytä kalibrointipaino ja paina ""Aloita kalibrointi"" -painiketta."</object>
+      </resource>
+      <resource name="Action.Restart">
+        <object>"Kalibroinnin aloittamiseksi uudelleen täytä kalibrointipaino ja paina ""Aloita kalibrointi uudelleen"" -painiketta."</object>
+      </resource>
+      <resource name="Action.WaitEmptyWeight">
+        <object>"Varmista, että painoa ei ole ja paina ""Seuraava vaihe"" -painiketta."</object>
+      </resource>
+      <resource name="Action.WaitCalibrationWeight">
+        <object>"Aseta kalibrointipaino ja paina ""Seuraava vaihe"" -painiketta."</object>
+      </resource>
+      <resource name="Action.WaitConfirmation">
+        <object>"Tallenna uusi kalibrointi painamalla ""Vahvista kalibrointi"" -painiketta."</object>
+      </resource>
+      <resource name="Calibration.StartError">
+        <object>Anna voimassa oleva kalibrointipaino.</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Kalibrointiasetukset</object>
+      </resource>
+      <resource name="grpAction.Text">
+        <object>Toimenpide</object>
+      </resource>
+      <resource name="grpCalibration.Text">
+        <object>Kalibrointi</object>
+      </resource>
+      <resource name="btnPrevStep.Text">
+        <object>Edellinen vaihe</object>
+      </resource>
+      <resource name="btnPrevStep.ToolTip">
+        <object>Siirry takaisin prosessin edelliseen vaiheeseen</object>
+      </resource>
+      <resource name="btnNextStep.Text">
+        <object>Seuraava vaihe</object>
+      </resource>
+      <resource name="btnCancel.ToolTip">
+        <object>Peruuta prosessi</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Kalibrointipaino:</object>
+      </resource>
+      <resource name="edWeight.ToolTip">
+        <object>Määritä kalibrointipaino</object>
+      </resource>
+      <resource name="uWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblCurrentWeight.Text">
+        <object>Nykyinen paino:</object>
+      </resource>
+      <resource name="uCurrentWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="btnNextStep.ToolTip">
+        <object>Siirry kalibroinnin seuraavaan vaiheeseen</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Scope" ServiceOnly="false">
+      <resource name="Error.ScopeDataCollection">
+        <object>Virhe ilmeni skooppitietojen pyynnön aikana. Varmista laitteen yhteys.</object>
+      </resource>
+      <resource name="RetrievingScopeData">
+        <object>Haetaan skooppitietoja. Odota.</object>
+      </resource>
+      <resource name="btnRefresh.Text">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="btnSettings.Text">
+        <object>Asetukset</object>
+      </resource>
+      <resource name="Chart.Shackle.Text">
+        <object>Koukku: </object>
+      </resource>
+      <resource name="Chart.AxisX.Text">
+        <object>Aika (ms)</object>
+      </resource>
+      <resource name="Chart.AxisY.Text">
+        <object>Paino (##)</object>
+      </resource>
+      <resource name="Error.Chart.Binding">
+        <object>Tietojen käsittelyssä ilmeni virhe</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Nimi</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Avg">
+        <object>Keskim:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.PP">
+        <object>PP:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Time">
+        <object>Aika:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Info">
+        <object>Tiedot:</object>
+      </resource>
+      <resource name="EmpyScopeData">
+        <object>Skooppitiedot ovat tyhjät</object>
+      </resource>
+      <resource name="FileDlg.Files">
+        <object>tiedostot</object>
+      </resource>
+      <resource name="FileDlg.Title">
+        <object>Valitse sijainti, johon skooppikuva tallennetaan</object>
+      </resource>
+      <resource name="btnRefresh.ToolTIp">
+        <object>Hae uudet skooppitiedot</object>
+      </resource>
+      <resource name="btnSettings.ToolTip">
+        <object>Avaa asetukset-valintaikkuna skooppia varten</object>
+      </resource>
+      <resource name="btnSave.Text">
+        <object>Tallenna</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Tallenna skooppikuva tiedostoon</object>
+      </resource>
+      <resource name="selLog.ToolTip">
+        <object>Valitse loki, joka näytetään skooppikuvana</object>
+      </resource>
+      <resource name="selLog.NullText">
+        <object>&lt;Valitse puunkorjuu&gt;</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.ScopeSettingDialog" ServiceOnly="false">
+      <resource name="uVertMin.Text">
+        <object>##</object>
+      </resource>
+      <resource name="uVertMax.Text">
+        <object>##</object>
+      </resource>
+      <resource name="grpTiming.Text">
+        <object>Ajoitusasetukset</object>
+      </resource>
+      <resource name="lblScopeWindow.Text">
+        <object>Skooppi-ikkuna</object>
+      </resource>
+      <resource name="chkSyncScope.Text">
+        <object>Synkronoi skooppi</object>
+      </resource>
+      <resource name="lblPresampleTime.Text">
+        <object>Esinäytteen aika</object>
+      </resource>
+      <resource name="grpFixedWindows.Text">
+        <object>Kiinteän ikkunan asetukset</object>
+      </resource>
+      <resource name="chkUseFixedWindow.Text">
+        <object>Käytä kiinteää ikkunaa</object>
+      </resource>
+      <resource name="lblVertMin.Text">
+        <object>Pystysuunta vähintään</object>
+      </resource>
+      <resource name="lblVertMax.Text">
+        <object>Pystysuunta enintään</object>
+      </resource>
+      <resource name="grpLogging.Text">
+        <object>Lokiin kirjaaminen</object>
+      </resource>
+      <resource name="chkUseLogging.Text">
+        <object>Lokin saamat skooppitiedot</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>Ok</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="edScopeWindow.ToolTip">
+        <object>Millisekuntien määrä, joka on skoopattava</object>
+      </resource>
+      <resource name="chkSyncScope.ToolTip">
+        <object>Jos tarkistettu millisekuntien määrä on kirjattu lokiin ennen ensimmäistä laukaisua, kaikki muut tiedot kirjataan lokiin siitä hetkestä, kun skooppaus on aloitettu</object>
+      </resource>
+      <resource name="edPresampleTime.ToolTip">
+        <object>Näytettävä millisekuntien määrä ennen ensimmäistä laukaisua</object>
+      </resource>
+      <resource name="chkUseFixedWindow.ToolTip">
+        <object>Jos tämä on valittuna, y-akselin aluetta voi rajoittaa</object>
+      </resource>
+      <resource name="edVertMin.ToolTip">
+        <object>Vähimmäisarvo y-akselilla</object>
+      </resource>
+      <resource name="edVertMax.ToolTip">
+        <object>Enimmäisarvo y-akselilla</object>
+      </resource>
+      <resource name="chkUseLogging.ToolTip">
+        <object>Jos tämä on valittuna, skoopin tietopisteet kirjataan lokiin tietokantaan</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Logging" ServiceOnly="false">
+      <resource name="LoggingLookup.Name">
+        <object>Nimi</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Haluatko poistaa lokisyötteen:\n'{0}'\ntietokannasta?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Poista lokitiedosto</object>
+      </resource>
+      <resource name="grpSelectLog.Text">
+        <object>Lokihistoria</object>
+      </resource>
+      <resource name="btnDelete.Text">
+        <object>Poista</object>
+      </resource>
+      <resource name="colLogTime.Caption">
+        <object>Aika (ms)</object>
+      </resource>
+      <resource name="colLogShackleId.Caption">
+        <object>Koukun tunnus</object>
+      </resource>
+      <resource name="colLogTotalWeight.Caption">
+        <object>Bruttopaino</object>
+      </resource>
+      <resource name="colLogLoadCellWeight.Caption">
+        <object>Painoanturi</object>
+      </resource>
+      <resource name="colLogVibrationCellWeight.Caption">
+        <object>Tärinäanturi</object>
+      </resource>
+      <resource name="colLogStartSensorState.Caption">
+        <object>Käynnistysanturi</object>
+      </resource>
+      <resource name="colLogStopSensorState.Caption">
+        <object>Pysäytysanturi</object>
+      </resource>
+      <resource name="colLogWeighing.Caption">
+        <object>Punnitusikkuna</object>
+      </resource>
+      <resource name="btnSave.Text">
+        <object>Tallenna</object>
+      </resource>
+      <resource name="selLog.ToolTip">
+        <object>Valitse näytettävä loki</object>
+      </resource>
+      <resource name="btnDelete.ToolTip">
+        <object>Poista valitut lokikirjaukset</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Tallenna valittu loki tiedostoon</object>
+      </resource>
+      <resource name="colLogLoadCellWeight.ToolTip">
+        <object>Vaaka-anturin paino</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>Punnitun koukun tunnus</object>
+      </resource>
+      <resource name="colLogStartSensorState.ToolTip">
+        <object>1 jos käynnistysanturi on aktiivinen, 0 jos ei</object>
+      </resource>
+      <resource name="colLogStopSensorState.ToolTip">
+        <object>1 jos pysäytysanturi on aktiivinen, 0 jos ei</object>
+      </resource>
+      <resource name="colLogTime.ToolTip">
+        <object>Aika ms:eina mitattuna skooppitietojen keräyksen aloittamisesta</object>
+      </resource>
+      <resource name="colLogTotalWeight.ToolTip">
+        <object>Vaaka-anturin paino miinus tärinäsolun paino</object>
+      </resource>
+      <resource name="colLogVibrationCellWeight.ToolTip">
+        <object>Paino tärinäsolulla</object>
+      </resource>
+      <resource name="colLogWeighing.ToolTip">
+        <object>Ilmaisee, kerääkö vaaka painotietoja, joita jatkokäsitellään</object>
+      </resource>
+      <resource name="selLog.NullText">
+        <object>&lt;Valitse puunkorjuu&gt;</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Curve" ServiceOnly="false">
+      <resource name="Error.Mws2DataRetrieval">
+        <object>Virhe ilmeni haettaessa tietoja MWS2:lle</object>
+      </resource>
+      <resource name="Error.TapDataRetrieval">
+        <object>Virhe ilmeni haettaessa tietoja TAP:lle</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Asetukset</object>
+      </resource>
+      <resource name="lblLoadCellCapacity.Text">
+        <object>Vaaka-anturin kapasiteetti (kg):</object>
+      </resource>
+      <resource name="lblCalibratedAt.Text">
+        <object>Kalibroitu:</object>
+      </resource>
+      <resource name="grpRegisterValues.Text">
+        <object>Kalibrointiarvot</object>
+      </resource>
+      <resource name="lblZero.Text">
+        <object>Nolla</object>
+      </resource>
+      <resource name="lblReference.Text">
+        <object>Viite</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Paino</object>
+      </resource>
+      <resource name="lblAdcValues.Text">
+        <object>ADC-arvot</object>
+      </resource>
+      <resource name="grpADCRamp.Text">
+        <object>ADC-nousuarvo</object>
+      </resource>
+      <resource name="lblRamp.Text">
+        <object>Nousuarvo</object>
+      </resource>
+      <resource name="lblAdcGram.Text">
+        <object>ADC/##</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageStaticWeight" ServiceOnly="false">
+      <resource name="colSWNo.Caption">
+        <object>Ei</object>
+      </resource>
+      <resource name="colSWNo.ToolTip">
+        <object>Nimikelaskuri</object>
+      </resource>
+      <resource name="colSWTime.Caption">
+        <object>Aika</object>
+      </resource>
+      <resource name="colSWTime.ToolTip">
+        <object>Päivämäärä/kellonaika, jolloin palvelin sai painon</object>
+      </resource>
+      <resource name="colSWValue.Caption">
+        <object>Paino (##)</object>
+      </resource>
+      <resource name="colSWValue.ToolTip">
+        <object>Staattisen painon arvo</object>
+      </resource>
+      <resource name="barBtnStartLogging.Caption">
+        <object>Käynnistä</object>
+      </resource>
+      <resource name="barBtnStartLogging.Hint">
+        <object>Käynnistä / Pysäytä staattisen painon lokikirjaukset</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Tallenna</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Napsauta tietojen tallentamiseksi levylle</object>
+      </resource>
+      <resource name="barBtnClear.Caption">
+        <object>Tyhjää taulukko</object>
+      </resource>
+      <resource name="barBtnClear.Hint">
+        <object>Napsauta taulukon sisällön tyhjäämiseksi</object>
+      </resource>
+      <resource name="grpStaticWeightDisplay.Text">
+        <object>Nykyinen staattinen paino (##)</object>
+      </resource>
+      <resource name="grpStaticWeights.Text">
+        <object>Staattisten painojen historia</object>
+      </resource>
+      <resource name="LogButton.Stop">
+        <object>Pysäytä</object>
+      </resource>
+      <resource name="LogButton.Start">
+        <object>Käynnistä</object>
+      </resource>
+      <resource name="editIntervalTime.Caption">
+        <object>Väliaika (sek.)</object>
+      </resource>
+      <resource name="lblGrossWeight.Text">
+        <object>Bruttopaino (##):</object>
+      </resource>
+      <resource name="lblNetWeight.Text">
+        <object>Nettopaino (##):</object>
+      </resource>
+      <resource name="btnAutoZero.Text">
+        <object>Autom. nollaus</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2FirmUpgrade" ServiceOnly="false">
+      <resource name="Firmware.RetrievingFirmware">
+        <object>Haetaan laiteversiota.</object>
+      </resource>
+      <resource name="Firmware.NoFirmwareSelected">
+        <object>Päivitystä ei voitu aloittaa, valitse laitetiedosto.</object>
+      </resource>
+      <resource name="Firmware.ExceptionReadingFirmwareFile">
+        <object>Tiedoston sisältöä ladattaessa ilmeni poikkeus. Katso lokista tarkemmat tiedot.</object>
+      </resource>
+      <resource name="RemoteError">
+        <object>Virhe ilmeni laitteiston päivitysprosessissa. Katso järjestelmäloki.</object>
+      </resource>
+      <resource name="Firmware.Succesfull">
+        <object>Laitteisto onnistuneesti pävitietty versioon:</object>
+      </resource>
+      <resource name="Firmware.Failed">
+        <object>Laitteistopäivitys epäonnistui</object>
+      </resource>
+      <resource name="Firmware.UpgradeInProgress">
+        <object>Odota, kun laitteistoa päivitetään.</object>
+      </resource>
+      <resource name="Firmware.Mws2NotInitialized">
+        <object>Tällä hetkellä ei ole mahdollista lukea MWS2-rekistereitä, sen vuoksi laitepäivitystä ei voitu aloittaa. Tämä saattaa kestää useita minuutteja.</object>
+      </resource>
+      <resource name="Upgrade.Confirm">
+        <object>Tämä kirjoittaa nykyisen laitteistoversion päälle. Oletko varma?</object>
+      </resource>
+      <resource name="Upgrade.Title">
+        <object>Päivitä laitteisto</object>
+      </resource>
+      <resource name="Upgrade.NoRemoteOpenMode">
+        <object>Tämä laitteistoversio ei salli asettaa MWS2:ta avoimeen tilaan etänä, aseta avoin tila MWS2:sesta itsestään (katso MWS2:n käyttöoppaasta tarkemmat tiedot). \nPaina OK, kun MWS2 on avoimessa tilassa, ja sitten nykyisen laitteistoversion päälle kirjoitetaan. \nPaina Peruuta laitteistopäivityksen pysäyttämiseksi</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Firmware-asetukset</object>
+      </resource>
+      <resource name="lblCurrentFirmware.Text">
+        <object>Nykyinen firmware:</object>
+      </resource>
+      <resource name="lblFirmwareFile.Text">
+        <object>Firmware-tiedosto:</object>
+      </resource>
+      <resource name="btnStartUpgrade.Text">
+        <object>Aloita päivitys</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

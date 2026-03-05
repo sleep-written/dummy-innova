@@ -1,0 +1,1835 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.Integration2.UI.Windows.SyncEngine.Utils" ServiceOnly="true">
+      <resource name="NoService">
+        <object>Integration Synchronization Engine service could not be located. Check configuration of Integration Services.</object>
+      </resource>
+      <resource name="Error">
+        <object>Error</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.SyncEngine.SynchronizeViewExtension" ServiceOnly="true">
+      <resource name="Synchronize">
+        <object>Synchronize</object>
+      </resource>
+      <resource name="SynchronizeHint">
+        <object>Synchronize data</object>
+      </resource>
+      <resource name="SyncConfirmMsg">
+        <object>Are you sure you want to run synchronization now?</object>
+      </resource>
+      <resource name="SyncProgress">
+        <object>Synchronizing...</object>
+      </resource>
+      <resource name="ErrorSync">
+        <object>Error when synchronizing data.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.SyncEngine.ProfilesViewExtension" ServiceOnly="true">
+      <resource name="CreateSnapshot">
+        <object>Create Snapshot</object>
+      </resource>
+      <resource name="CreateSnapshotHint">
+        <object>Create new snapshot</object>
+      </resource>
+      <resource name="ExportSnapshot">
+        <object>Export</object>
+      </resource>
+      <resource name="ExportSnapshotHint">
+        <object>Export snapshot to file</object>
+      </resource>
+      <resource name="ImportSnapshot">
+        <object>Import</object>
+      </resource>
+      <resource name="ImportSnapshotHint">
+        <object>Import snapshot from file</object>
+      </resource>
+      <resource name="CreateActionPlan">
+        <object>Create Action Plan</object>
+      </resource>
+      <resource name="CreateActionPlanHint">
+        <object>Compares snapshot against local data and creates an action plan for synchronizing</object>
+      </resource>
+      <resource name="EditActionPlan">
+        <object>Edit Action Plan</object>
+      </resource>
+      <resource name="EditActionPlanHint">
+        <object>View or edit the action plan</object>
+      </resource>
+      <resource name="CreatingSnapshot">
+        <object>Creating snapshot...</object>
+      </resource>
+      <resource name="ErrorCreatingSnapshot">
+        <object>Error when creating snapshot.</object>
+      </resource>
+      <resource name="ExportingSnapshot">
+        <object>Exporting snapshot...</object>
+      </resource>
+      <resource name="ErrorExportingSnapshot">
+        <object>Error when exporting snapshot.</object>
+      </resource>
+      <resource name="Importing">
+        <object>Importing snapshot...</object>
+      </resource>
+      <resource name="ImportError">
+        <object>Error when importing snapshot.</object>
+      </resource>
+      <resource name="ConfirmActionPlan">
+        <object>Profile {0} already has an action plan. Do you want to create a new action plan and overwrite the existing one?</object>
+      </resource>
+      <resource name="CreatingActionPlan">
+        <object>Creating action plan...</object>
+      </resource>
+      <resource name="NoActionsInPlan">
+        <object>The action plan created has no actions because no changes to the local systems were detected.</object>
+      </resource>
+      <resource name="ErrorCreatingActionPlan">
+        <object>Error when creating action plan.</object>
+      </resource>
+      <resource name="saveFileDialog.Filter">
+        <object>XML files (*.xml)|*.xml|All files|*.*</object>
+      </resource>
+      <resource name="openFileDialog.Filter">
+        <object>XML files (*.xml)|*.xml|All files|*.*</object>
+      </resource>
+    </type>
+    <type name="Grid.SyncEngine.Profiles" ServiceOnly="true">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="shname">
+        <object>Short</object>
+      </resource>
+      <resource name="extcode">
+        <object>External code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Pattern</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimension 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimension 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimension 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimension 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Description 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Description 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Description 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Description 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Description 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Description 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Description 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Description 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Active</object>
+      </resource>
+      <resource name="profiletype">
+        <object>Profile type</object>
+      </resource>
+      <resource name="importedtime">
+        <object>Imported time</object>
+      </resource>
+      <resource name="actionplantime">
+        <object>Action plan time</object>
+      </resource>
+      <resource name="snapshottime">
+        <object>Snapshot time</object>
+      </resource>
+      <resource name="sourceurl">
+        <object>Source URL</object>
+      </resource>
+      <resource name="Details">
+        <object>Data points</object>
+      </resource>
+    </type>
+    <type name="Grid.SyncEngine.DataPoints" ServiceOnly="true">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="profile">
+        <object>Profile Id</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sequence</object>
+      </resource>
+      <resource name="active">
+        <object>Active</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Grid.SyncEngine.Actions" ServiceOnly="true">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="datapoint">
+        <object>Data point</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sequence</object>
+      </resource>
+      <resource name="reason">
+        <object>Reason</object>
+      </resource>
+      <resource name="localkey">
+        <object>Local key</object>
+      </resource>
+      <resource name="action">
+        <object>Action</object>
+      </resource>
+      <resource name="status">
+        <object>Status</object>
+      </resource>
+      <resource name="statustext">
+        <object>Status text</object>
+      </resource>
+      <resource name="Details">
+        <object>Action columns</object>
+      </resource>
+    </type>
+    <type name="Grid.SyncEngine.ActionParams" ServiceOnly="true">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="action">
+        <object>Action</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="value">
+        <object>Value</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportImport.ExportPacksView" ServiceOnly="true">
+      <resource name="MustSelectPo">
+        <object>You must select one or more purchase orders.</object>
+      </resource>
+      <resource name="MustSelectFilename">
+        <object>You must specify a file name.</object>
+      </resource>
+      <resource name="ExportingPacks">
+        <object>Exporting packs...</object>
+      </resource>
+      <resource name="ExportCompleted">
+        <object>Export completed for {0} packs.</object>
+      </resource>
+      <resource name="ExportIOError">
+        <object>An error occurred while copying export results. {0}</object>
+      </resource>
+      <resource name="ExportError">
+        <object>An error occurred while exporting. {0}</object>
+      </resource>
+      <resource name="buttonExport.Text">
+        <object>&amp;Export</object>
+      </resource>
+      <resource name="groupControlCriteria.Text">
+        <object>Export Settings</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportImport.ImportPacksCE" ServiceOnly="true">
+      <resource name="AccessDescription">
+        <object>Configure default and fix settings for import.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportImport.ImportPacksView" ServiceOnly="true">
+      <resource name="CheckingServerStatus">
+        <object>Checking server status...</object>
+      </resource>
+      <resource name="GettingServerStatus">
+        <object>Getting import status details from server...</object>
+      </resource>
+      <resource name="LookupName">
+        <object>Name</object>
+      </resource>
+      <resource name="LookupCode">
+        <object>Code</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>-No process unit-</object>
+      </resource>
+      <resource name="NoUnitOp">
+        <object>-No unit operation-</object>
+      </resource>
+      <resource name="SeeLogFile">
+        <object>See Innova system log for further details.</object>
+      </resource>
+      <resource name="GeneralError">
+        <object>Error:</object>
+      </resource>
+      <resource name="FileNotExists">
+        <object>The specified import file does not exist.</object>
+      </resource>
+      <resource name="Submitting">
+        <object>Submitting import file to server...</object>
+      </resource>
+      <resource name="NotAvailable">
+        <object>-Not available-</object>
+      </resource>
+      <resource name="RejectFileInfo">
+        <object>Reject file for this report is: {0}</object>
+      </resource>
+      <resource name="groupControlSettings.Text">
+        <object>Import Configuration</object>
+      </resource>
+      <resource name="groupControlStatus.Text">
+        <object>Import Status</object>
+      </resource>
+      <resource name="labelIsTestImport.Text">
+        <object>Test import</object>
+      </resource>
+      <resource name="labelControl8.Text">
+        <object>Finished:</object>
+      </resource>
+      <resource name="labelControl11.Text">
+        <object>Rejected:</object>
+      </resource>
+      <resource name="labelControl10.Text">
+        <object>Imported:</object>
+      </resource>
+      <resource name="labelControl12.Text">
+        <object>Status:</object>
+      </resource>
+      <resource name="labelControl9.Text">
+        <object>Total packs:</object>
+      </resource>
+      <resource name="labelControl6.Text">
+        <object>Started:</object>
+      </resource>
+      <resource name="labelControl5.Text">
+        <object>Import name:</object>
+      </resource>
+      <resource name="labelControl4.Text">
+        <object>See log files for details</object>
+      </resource>
+      <resource name="buttonCancelImport.Text">
+        <object>C&amp;ancel import</object>
+      </resource>
+      <resource name="groupControlAction.Text">
+        <object>Import Packs</object>
+      </resource>
+      <resource name="buttonImport.Text">
+        <object>&amp;Import</object>
+      </resource>
+      <resource name="checkEditTest.Properties.Caption">
+        <object>&amp;Test import only</object>
+      </resource>
+      <resource name="labelControl2.Text">
+        <object>Process unit:</object>
+      </resource>
+      <resource name="labelControl1.Text">
+        <object>Import file:</object>
+      </resource>
+      <resource name="labelControl3.Text">
+        <object>Unit operation:</object>
+      </resource>
+      <resource name="openFileDialog.Filter">
+        <object>XML files (*.xml)|*.xml|All files|*.*</object>
+      </resource>
+    </type>
+    <type name="Grid.ImportEngine.ImportProcesses" ServiceOnly="true">
+      <resource name="importprocess">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="shname">
+        <object>Short</object>
+      </resource>
+      <resource name="extcode">
+        <object>External code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Pattern</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimension 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimension 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimension 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimension 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Text 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Text 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Text 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Text 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Text 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Text 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Text 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Text 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Active</object>
+      </resource>
+      <resource name="Details">
+        <object>Details</object>
+      </resource>
+    </type>
+    <type name="Grid.ImportEngine.ImportProcessDetails" ServiceOnly="true">
+      <resource name="importprocessdetail">
+        <object>ID</object>
+      </resource>
+      <resource name="importprocess">
+        <object>Import process ID</object>
+      </resource>
+      <resource name="assemblyid">
+        <object>Assembly</object>
+      </resource>
+      <resource name="recordclassname">
+        <object>Record class</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sequence</object>
+      </resource>
+      <resource name="description">
+        <object>Description</object>
+      </resource>
+    </type>
+    <type name="Grid.ImportEngine.Handlers" ServiceOnly="true">
+      <resource name="importhandler">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="shname">
+        <object>Short</object>
+      </resource>
+      <resource name="extcode">
+        <object>External code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Pattern</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimension 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimension 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimension 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimension 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Text 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Text 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Text 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Text 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Text 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Text 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Text 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Text 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Active</object>
+      </resource>
+      <resource name="assemblyid">
+        <object>Assembly</object>
+      </resource>
+      <resource name="classname">
+        <object>Type</object>
+      </resource>
+      <resource name="importprocess">
+        <object>Import process code</object>
+      </resource>
+      <resource name="importprocess Name">
+        <object>Import process</object>
+      </resource>
+    </type>
+    <type name="Grid.ExportEngine.ExportHandlers" ServiceOnly="true">
+      <resource name="exporthandler">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="shname">
+        <object>Short</object>
+      </resource>
+      <resource name="extcode">
+        <object>External code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Pattern</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimension 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimension 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimension 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimension 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Text 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Text 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Text 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Text 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Text 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Text 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Text 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Text 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Active</object>
+      </resource>
+      <resource name="handlerassembly">
+        <object>Assembly</object>
+      </resource>
+      <resource name="handlertypename">
+        <object>Type</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ImportEngine.ImportProcessDesigner" ServiceOnly="true">
+      <resource name="btnDesign">
+        <object>Design detail</object>
+      </resource>
+      <resource name="Error">
+        <object>Error</object>
+      </resource>
+      <resource name="ErrorInfo">
+        <object>A Record Class must be selected before the detail can be designed.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ImportEngine.ImportProcessDesignerView" ServiceOnly="true">
+      <resource name="lblColumnProperties.Text">
+        <object>Column properties:</object>
+      </resource>
+      <resource name="advancedButton.Text">
+        <object>Advanced</object>
+      </resource>
+      <resource name="queryButton.Text">
+        <object>Query</object>
+      </resource>
+      <resource name="queryButton.ToolTip">
+        <object>To create simple query for this table.</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>Ok</object>
+      </resource>
+      <resource name="okButton.ToolTip">
+        <object>Closes and stores the xml data.</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="cancelButton.ToolTip">
+        <object>Close the dialog without saving.</object>
+      </resource>
+      <resource name="docButton.Text">
+        <object>Document</object>
+      </resource>
+      <resource name="docButton.ToolTip">
+        <object>To generate a documentation for this import table.</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Column name</object>
+      </resource>
+      <resource name="colDefaultValue.Caption">
+        <object>Default value</object>
+      </resource>
+      <resource name="colFixedValue.Caption">
+        <object>Fixed value</object>
+      </resource>
+      <resource name="colSuppressUpdates.Caption">
+        <object>Suppress updates</object>
+      </resource>
+      <resource name="colLookupPublicKey.Caption">
+        <object>Lookup public key column</object>
+      </resource>
+      <resource name="colLookupTableName.Caption">
+        <object>Lookup table name</object>
+      </resource>
+      <resource name="colLookupTableId.Caption">
+        <object>Lookup table id column</object>
+      </resource>
+      <resource name="colPublicKey.Caption">
+        <object>Public key column</object>
+      </resource>
+      <resource name="CaptionText">
+        <object>Import process detail design for</object>
+      </resource>
+      <resource name="docFileFilter">
+        <object>htm files (*.htm)|*.htm|All files (*.*)|*.*</object>
+      </resource>
+      <resource name="queryFileFilter">
+        <object>xml file (*.xml)|*.xml</object>
+      </resource>
+      <resource name="colRequired.Caption">
+        <object>Required</object>
+      </resource>
+      <resource name="colPublicKey.ToolTip">
+        <object>Check to mark the column as public key column for the incoming data.</object>
+      </resource>
+      <resource name="colDefaultValue.ToolTip">
+        <object>This value will be applied to each incoming row if the importing row does not contain data.</object>
+      </resource>
+      <resource name="colFixedValue.ToolTip">
+        <object>Define if the column shall contain fixed data, no matter which data is being imported.</object>
+      </resource>
+      <resource name="colSuppressUpdates.ToolTip">
+        <object>If checked new values will be inserted to this column but never overridden when data is updated.</object>
+      </resource>
+      <resource name="colLookupPublicKey.ToolTip">
+        <object>Define name of the column to refer to.</object>
+      </resource>
+      <resource name="colLookupTableName.ToolTip">
+        <object>Define the name of the table to refer to.</object>
+      </resource>
+      <resource name="colLookupTableId.ToolTip">
+        <object>Define the id column of the table being referred to.</object>
+      </resource>
+      <resource name="colRequired.ToolTip">
+        <object>Check to mark this column as required, e.g. a value must be supplied from incoming data.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ImportEngine.ImportProcessDesignerViewAdvanced" ServiceOnly="true">
+      <resource name="lblStoredProcedure.Text">
+        <object>Stored procedure</object>
+      </resource>
+      <resource name="lblUpdStoredProcedure.Text">
+        <object>Update stored procedure</object>
+      </resource>
+      <resource name="storedProcedure.ToolTip">
+        <object>Name of the stored procedure which will be called when new record is inserted.</object>
+      </resource>
+      <resource name="updateStoredProcedure.ToolTip">
+        <object>Name of the stored procedure which will be called when record is updated.</object>
+      </resource>
+      <resource name="ignoreNulls.Properties.Caption">
+        <object>Ignore Nulls in DBSP handler result set</object>
+      </resource>
+      <resource name="storedProceduresGroup.Text">
+        <object>Custom data handling</object>
+      </resource>
+      <resource name="codeMappingGroup.Text">
+        <object>Code mapping</object>
+      </resource>
+      <resource name="lblCodeMappingProviderColumn.Text">
+        <object>Provider column</object>
+      </resource>
+      <resource name="codeMappingProviderColumn.ToolTip">
+        <object>The name of the column in the data source containing the provider code</object>
+      </resource>
+      <resource name="codeMappingInclude.Text">
+        <object>Column is part of record</object>
+      </resource>
+    </type>
+    <type name="Grid.ImportEngine.ImportLogs" ServiceOnly="true">
+      <resource name="importhandler">
+        <object>Handler code</object>
+      </resource>
+      <resource name="importhandler Name">
+        <object>Handler</object>
+      </resource>
+      <resource name="importprocess">
+        <object>Process code</object>
+      </resource>
+      <resource name="importprocess Name">
+        <object>Process</object>
+      </resource>
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="regtime">
+        <object>Reg time</object>
+      </resource>
+      <resource name="logtype">
+        <object>Log type</object>
+      </resource>
+      <resource name="importtype">
+        <object>Type</object>
+      </resource>
+      <resource name="importprocessdetail">
+        <object>Process detail</object>
+      </resource>
+      <resource name="sourcename">
+        <object>Source name</object>
+      </resource>
+      <resource name="dest">
+        <object>Destination</object>
+      </resource>
+      <resource name="destname">
+        <object>Destination name</object>
+      </resource>
+      <resource name="internaldata">
+        <object>Internal data</object>
+      </resource>
+      <resource name="errortext">
+        <object>Error description</object>
+      </resource>
+      <resource name="fieldname">
+        <object>Field failed</object>
+      </resource>
+      <resource name="errorinfo">
+        <object>Error info</object>
+      </resource>
+      <resource name="regtime.hint">
+        <object>Time when entry was registered</object>
+      </resource>
+      <resource name="logtype.hint">
+        <object>Type of log entry (view can be filtered on this)</object>
+      </resource>
+      <resource name="importtype.hint">
+        <object>Type of import</object>
+      </resource>
+      <resource name="importhandler Name.hint">
+        <object>Name of the import handler used</object>
+      </resource>
+      <resource name="importhandler.hint">
+        <object>Code of the import handler used</object>
+      </resource>
+      <resource name="importprocess Name.hint">
+        <object>Name of the import process used</object>
+      </resource>
+      <resource name="importprocess.hint">
+        <object>Code of the import process used</object>
+      </resource>
+      <resource name="importprocessdetail.hint">
+        <object>Name of the import process detail used</object>
+      </resource>
+      <resource name="sourcename.hint">
+        <object>Source where importing from</object>
+      </resource>
+      <resource name="dest.hint">
+        <object>Database id of the destination record if object record</object>
+      </resource>
+      <resource name="destname.hint">
+        <object>Name of the database table imported to</object>
+      </resource>
+      <resource name="fieldname.hint">
+        <object>Name of the field which failed</object>
+      </resource>
+      <resource name="errortext.hint">
+        <object>Short description of the error. Longer description is shown in detail info.</object>
+      </resource>
+      <resource name="internaldata.hint">
+        <object>Internal data, if available</object>
+      </resource>
+      <resource name="errorinfo.hint">
+        <object>Descriptive description of the error</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.ExportTables" ServiceOnly="true">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="assemblyid">
+        <object>Assembly</object>
+      </resource>
+      <resource name="recordclassname">
+        <object>Record class</object>
+      </resource>
+      <resource name="expregtime">
+        <object>Expire time</object>
+      </resource>
+      <resource name="GenerateButton">
+        <object>Generate</object>
+      </resource>
+      <resource name="GenerateButtonHint">
+        <object>Click to create export table for selected item(s)</object>
+      </resource>
+      <resource name="Error.GenerateSelected">
+        <object>Failed to generate item</object>
+      </resource>
+      <resource name="SelectError.Text">
+        <object>Please select item(s)</object>
+      </resource>
+      <resource name="SelectError.Caption">
+        <object>No item selected</object>
+      </resource>
+      <resource name="Error.GenerateAll">
+        <object>Failed to generate all items</object>
+      </resource>
+      <resource name="Warning.Text">
+        <object>Previously generated export table will be dropped,\nand new created.\nDo you wish to continue?</object>
+      </resource>
+      <resource name="Warning.Caption">
+        <object>Confirm</object>
+      </resource>
+      <resource name="Error.CleanTable">
+        <object>Failed to clean export tables</object>
+      </resource>
+      <resource name="CleanButton">
+        <object>Clean</object>
+      </resource>
+      <resource name="CleanButtonHint">
+        <object>Click to remove deleted export tables and  triggers</object>
+      </resource>
+      <resource name="Error.ItemParam">
+        <object>Assembly id or class name missing</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="DesignButton">
+        <object>Configure</object>
+      </resource>
+      <resource name="DesignButtonHint">
+        <object>Click to configure xml of the selected item</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.ResendWSStagingDataViewExtension" ServiceOnly="true">
+      <resource name="ResendWSStagingDataButtonCaption">
+        <object>Resend staging data</object>
+      </resource>
+      <resource name="ResendWSStagingDataButtonHint">
+        <object>Resends the staging data for the selected rows</object>
+      </resource>
+      <resource name="RescheduleWSStagingDataButtonCaption">
+        <object>Reschedule staging data</object>
+      </resource>
+      <resource name="RescheduleWSStagingDataButtonHint">
+        <object>Reschedules the staging data for the selected rows</object>
+      </resource>
+      <resource name="ResendStagingDataFailed">
+        <object>Unable to send staging data.</object>
+      </resource>
+      <resource name="ErrorDisconnect">
+        <object>Server disconnected.</object>
+      </resource>
+      <resource name="Error">
+        <object>Error</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MissingAddonLicenseView" ServiceOnly="false">
+      <resource name="MissingAddOnLicense">
+        <object>Your license does not include the "{0}" add on.</object>
+      </resource>
+    </type>
+    <type name="Grid.ExportEngine.Destinations" ServiceOnly="true">
+      <resource name="site">
+        <object>Site code</object>
+      </resource>
+      <resource name="site Name">
+        <object>Site</object>
+      </resource>
+      <resource name="destination">
+        <object>Destination folder</object>
+      </resource>
+    </type>
+    <type name="Grid.ExportEngine.ExportTableProfiles" ServiceOnly="true">
+      <resource name="active">
+        <object>Active</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="description1">
+        <object>Text 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Text 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Text 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Text 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Text 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Text 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Text 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Text 8</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimension 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimension 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimension 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimension 4</object>
+      </resource>
+      <resource name="extcode">
+        <object>External code</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="pattern">
+        <object>Pattern</object>
+      </resource>
+      <resource name="profile">
+        <object>ID</object>
+      </resource>
+      <resource name="shname">
+        <object>Short</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Grid.ExportEngine.ExportProfiles.Tables" ServiceOnly="true">
+      <resource name="profile">
+        <object>Profile</object>
+      </resource>
+      <resource name="exporttable">
+        <object>Exported record type</object>
+      </resource>
+      <resource name="onlyifowner">
+        <object>Only if owner</object>
+      </resource>
+    </type>
+    <type name="Grid.ExportEngine.ExportProfiles.Destinations" ServiceOnly="true">
+      <resource name="site">
+        <object>Site code</object>
+      </resource>
+      <resource name="site Name">
+        <object>Site</object>
+      </resource>
+      <resource name="profile">
+        <object>Profile</object>
+      </resource>
+    </type>
+    <type name="Grid.ExportEngine.ExportLogs" ServiceOnly="true">
+      <resource name="exporthandler">
+        <object>Handler code</object>
+      </resource>
+      <resource name="exporthandler Name">
+        <object>Handler</object>
+      </resource>
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="regtime">
+        <object>Reg time</object>
+      </resource>
+      <resource name="logtype">
+        <object>Log type</object>
+      </resource>
+      <resource name="destname">
+        <object>Destination</object>
+      </resource>
+      <resource name="rawdata">
+        <object>Raw data</object>
+      </resource>
+      <resource name="errortext">
+        <object>Error description</object>
+      </resource>
+      <resource name="errorinfo">
+        <object>Error info</object>
+      </resource>
+      <resource name="regtime.hint">
+        <object>Time when entry was registered</object>
+      </resource>
+      <resource name="logtype.hint">
+        <object>Type of log entry (view can be filtered on this)</object>
+      </resource>
+      <resource name="exporthandler Name.hint">
+        <object>Name of the import handler used</object>
+      </resource>
+      <resource name="exporthandler.hint">
+        <object>Code of the import handler used</object>
+      </resource>
+      <resource name="destname.hint">
+        <object>Destination file</object>
+      </resource>
+      <resource name="errortext.hint">
+        <object>Short description of the error. Longer description is shown in detail info.</object>
+      </resource>
+      <resource name="rawdata.hint">
+        <object>Raw data, if available</object>
+      </resource>
+      <resource name="errorinfo.hint">
+        <object>Descriptive description of the error</object>
+      </resource>
+    </type>
+    <type name="Grid.MasterDataManagement.Configuration" ServiceOnly="true">
+      <resource name="configuration">
+        <object>ID</object>
+      </resource>
+      <resource name="active">
+        <object>Active</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="description1">
+        <object>Text 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Text 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Text 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Text 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Text 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Text 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Text 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Text 8</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimension 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimension 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimension 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimension 4</object>
+      </resource>
+      <resource name="extcode">
+        <object>External code</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="shname">
+        <object>Short name</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="objecttemplate">
+        <object>Object template</object>
+      </resource>
+      <resource name="pattern">
+        <object>Pattern</object>
+      </resource>
+      <resource name="schemaassemblyid">
+        <object>Schema assembly</object>
+      </resource>
+      <resource name="schemaclassname">
+        <object>Schema class</object>
+      </resource>
+      <resource name="Details">
+        <object>Details</object>
+      </resource>
+      <resource name="Sites">
+        <object>Sites</object>
+      </resource>
+    </type>
+    <type name="Grid.MasterDataManagement.ConfigurationDetail" ServiceOnly="true">
+      <resource name="configurationdetail">
+        <object>Configuration detail</object>
+      </resource>
+      <resource name="configuration">
+        <object>Configuration</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sequence</object>
+      </resource>
+      <resource name="description">
+        <object>Description</object>
+      </resource>
+      <resource name="assemblyid">
+        <object>Assembly</object>
+      </resource>
+      <resource name="recordclassname">
+        <object>Record class</object>
+      </resource>
+      <resource name="resourcemodule">
+        <object>Resource module</object>
+      </resource>
+      <resource name="resourcetype">
+        <object>Resource type</object>
+      </resource>
+      <resource name="xmldata">
+        <object>Xml</object>
+      </resource>
+    </type>
+    <type name="Grid.MasterDataManagement.ConfigurationSite" ServiceOnly="true">
+      <resource name="configurationsite">
+        <object>Site configuration</object>
+      </resource>
+      <resource name="configuration">
+        <object>Configuration</object>
+      </resource>
+      <resource name="site">
+        <object>Site code</object>
+      </resource>
+      <resource name="site Name">
+        <object>Site</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.ConfigurationDesignerView" ServiceOnly="true">
+      <resource name="lblColumnConfiguration.Text">
+        <object>Column configuration:</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>Ok</object>
+      </resource>
+      <resource name="okButton.ToolTip">
+        <object>Closes and stores the xml data.</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="cancelButton.ToolTip">
+        <object>Closes the dialog without saving.</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Column name</object>
+      </resource>
+      <resource name="colDefaultValue.Caption">
+        <object>Default value</object>
+      </resource>
+      <resource name="colUpdates.Caption">
+        <object>Update</object>
+      </resource>
+      <resource name="CaptionText">
+        <object>Detail integration configuration for</object>
+      </resource>
+      <resource name="colDefaultValue.ToolTip">
+        <object>Default value will be applied if column is empty.</object>
+      </resource>
+      <resource name="colUpdates.ToolTip">
+        <object>If this is not checked, the column vil never be updated.</object>
+      </resource>
+      <resource name="objectIdentifierLabel.Text">
+        <object>Identifier Format:</object>
+      </resource>
+      <resource name="tableFilterLabel.Text">
+        <object>Table filter:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.ConfigurationDesigner" ServiceOnly="true">
+      <resource name="btnDesign">
+        <object>Design detail</object>
+      </resource>
+      <resource name="btnActivate">
+        <object>Activate</object>
+      </resource>
+      <resource name="Error">
+        <object>Error</object>
+      </resource>
+      <resource name="ErrorInfo">
+        <object>A Record Class must be selected before the detail can be designed.</object>
+      </resource>
+      <resource name="LoseChanges">
+        <object>All detail configuration will be lost. Do you want to continue?</object>
+      </resource>
+      <resource name="ReplacingSchema">
+        <object>Replacing schema</object>
+      </resource>
+      <resource name="FailedToCreateDetail">
+        <object>Could not create detail rows for the selected schema:</object>
+      </resource>
+      <resource name="SchemaChangedWarning">
+        <object>The schema has changed, details must be recreated based on the new schema in order to save these changes.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.SingleTile" ServiceOnly="false">
+      <resource name="NeverUpdated">
+        <object>Never</object>
+      </resource>
+      <resource name="DateFormat">
+        <object>{0:g}</object>
+      </resource>
+      <resource name="CreatingChangeset">
+        <object>Creating changeset</object>
+      </resource>
+      <resource name="Wait">
+        <object>Please wait...</object>
+      </resource>
+      <resource name="CreatedCaption">
+        <object>Created:</object>
+      </resource>
+      <resource name="ChangesReady">
+        <object>Changes ready</object>
+      </resource>
+      <resource name="lastUpdatedCaption.Text">
+        <object>Last updated:</object>
+      </resource>
+      <resource name="statusCaption.Text">
+        <object>Buffer status:</object>
+      </resource>
+      <resource name="syncButton.Text">
+        <object>Sync</object>
+      </resource>
+      <resource name="viewChangesetInBufferButton.Text">
+        <object>View changeset</object>
+      </resource>
+      <resource name="clearBufferButton.Text">
+        <object>Clear</object>
+      </resource>
+      <resource name="viewChangesetHistoryButton.Text">
+        <object>View history</object>
+      </resource>
+      <resource name="cancelChangesetButton.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="applyChangesetButton.Text">
+        <object>Apply</object>
+      </resource>
+      <resource name="InUse">
+        <object>Another client is currently syncing to server. Please try again later.</object>
+      </resource>
+      <resource name="InvalidConfig">
+        <object>Invalid configuration, error while creating changeset.\nMake sure that configuration is set up correctly.</object>
+      </resource>
+      <resource name="InvalidConnectionString">
+        <object>Could not connect to client. \nMake sure that connection string is correct.</object>
+      </resource>
+      <resource name="NoCS">
+        <object>Setup is not complete. Could not connect to production site. No connection string. </object>
+      </resource>
+      <resource name="IllegalCS">
+        <object>Setup is not complete. Could not connect to production site. Illegal connection string. </object>
+      </resource>
+      <resource name="ServerTimeout">
+        <object>Could not connect to production site, verify setup and check connection. Database server timeout.</object>
+      </resource>
+      <resource name="CannotOpenDatabase">
+        <object>Could not connect to production site. Opening connection to database failed. Check setup and connection to site.</object>
+      </resource>
+      <resource name="LoginFailed">
+        <object>Could not connect to production site, database login failed. Check database login settings.</object>
+      </resource>
+      <resource name="LockTimeout">
+        <object>Could not communicate with production site, database lock timeout. Try again or contact database administrator.</object>
+      </resource>
+      <resource name="UnknownDatabaseError">
+        <object>Unknown database error. Check log for details.</object>
+      </resource>
+      <resource name="UnknownError">
+        <object>Unknown error. Check log for details.</object>
+      </resource>
+      <resource name="NoColumns">
+        <object>Invalid configuration, no columns selected for update. Check configuration. </object>
+      </resource>
+      <resource name="NoConfig">
+        <object>Invalid configuration, no data selected for update. Check configuration. </object>
+      </resource>
+      <resource name="BufferApplying">
+        <object>Production site is applying changes, try agin later. \n If problem persists contact system administrator. </object>
+      </resource>
+      <resource name="BufferReceiving">
+        <object>Production site is receiving data, try agin later. \n If problem persists contact system administrator. </object>
+      </resource>
+      <resource name="UnknownApplyingError">
+        <object>Unknown error while applying changes. Try again.</object>
+      </resource>
+      <resource name="ErrorCaption">
+        <object>Error details</object>
+      </resource>
+      <resource name="Transferring">
+        <object>Transferring data</object>
+      </resource>
+      <resource name="FilterError">
+        <object>Error in table filter. Check configuration</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.ProductionSites" ServiceOnly="false">
+      <resource name="RefreshButton">
+        <object>Refresh</object>
+      </resource>
+      <resource name="ClientTimeout">
+        <object>Could not connect to site.</object>
+      </resource>
+      <resource name="ClientTimeoutTitle">
+        <object>Connection failed.</object>
+      </resource>
+      <resource name="BackButton">
+        <object>Back</object>
+      </resource>
+      <resource name="ConfirmButton">
+        <object>Confirm</object>
+      </resource>
+      <resource name="ChangesetButton">
+        <object>View details</object>
+      </resource>
+      <resource name="previewChangeSet">
+      <object>Do you want to preview the changeset?</object>
+      </resource>
+      <resource name="applyChangeset">
+      <object>Apply changeset</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.ChangesetDetails.ChangesGrid" ServiceOnly="false">
+      <resource name="ObjectIdentifier">
+        <object>Object identifier</object>
+      </resource>
+      <resource name="NewChanged">
+        <object>New/Changed</object>
+      </resource>
+      <resource name="ColumnName">
+        <object>Column name</object>
+      </resource>
+      <resource name="OldValue">
+        <object>Old value</object>
+      </resource>
+      <resource name="NewValue">
+        <object>New value</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.ChangesetDetails.ChangesetComparison" ServiceOnly="false">
+      <resource name="Created">
+        <object>Created</object>
+      </resource>
+      <resource name="DateFormat">
+        <object>{0:g}</object>
+      </resource>
+      <resource name="NoChanges">
+        <object>There are no changes in this changeset.</object>
+      </resource>
+      <resource name="ObjectType">
+        <object>Object type</object>
+      </resource>
+      <resource name="Changes">
+        <object>Changes</object>
+      </resource>
+      <resource name="CaptionChangeset">
+        <object>Changeset details</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.History.ChangesetHistoryUC" ServiceOnly="false">
+      <resource name="Status">
+        <object>Status</object>
+      </resource>
+      <resource name="Created">
+        <object>Created</object>
+      </resource>
+      <resource name="Applied">
+        <object>Applied</object>
+      </resource>
+      <resource name="DateFormat">
+        <object>{0:g}</object>
+      </resource>
+      <resource name="Summary">
+        <object>Summary</object>
+      </resource>
+      <resource name="HistoryCaption">
+        <object>Site history</object>
+      </resource>
+      <resource name="New">
+        <object>new</object>
+      </resource>
+      <resource name="Changed">
+        <object>changed</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.ChangesetDetail.ChangesetDataForGrid" ServiceOnly="false">
+      <resource name="New">
+        <object>new</object>
+      </resource>
+      <resource name="Changed">
+        <object>changed</object>
+      </resource>
+      <resource name="Deleted">
+        <object>deleted</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.TransferEngine.TransferOrderHubSelectorDialog" ServiceOnly="false">
+      <resource name="Text">
+        <object>Transfer</object>
+      </resource>
+      <resource name="destinationLabel.Text">
+        <object>Destination</object>
+      </resource>
+      <resource name="transferOrdersButton.Text">
+        <object>Send</object>
+      </resource>
+      <resource name="progressGroupControl.Text">
+        <object>Progress</object>
+      </resource>
+      <resource name="customerLookup.ToolTip">
+        <object>Select a destination</object>
+      </resource>
+      <resource name="closeButton.Text">
+        <object>Close</object>
+      </resource>
+      <resource name="sizeControl.Text">
+        <object>More detail</object>
+      </resource>
+      <resource name="sizeControlLess.Text">
+        <object>Less detail</object>
+      </resource>
+    </type>
+    <type name="Grid.TransferEngine.TransferHubHistory" ServiceOnly="false">
+      <resource name="historyid">
+        <object>History Id</object>
+      </resource>
+      <resource name="transferid">
+        <object>Transfer Id</object>
+      </resource>
+      <resource name="transfermethod">
+        <object>Transfer method</object>
+      </resource>
+      <resource name="transferstatus">
+        <object>Status</object>
+      </resource>
+      <resource name="sendingsite">
+        <object>Sending site</object>
+      </resource>
+      <resource name="receivingsite">
+        <object>Receiving site</object>
+      </resource>
+      <resource name="order">
+        <object>Order code</object>
+      </resource>
+      <resource name="order Name">
+        <object>Order</object>
+      </resource>
+      <resource name="HistoryDetails">
+        <object>Details</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registration time</object>
+      </resource>
+      <resource name="lastupdated">
+        <object>Last updated</object>
+      </resource>
+      <resource name="transferorigin">
+        <object>Transfer origin</object>
+      </resource>
+      <resource name="shipment">
+        <object>Shipment Id</object>
+      </resource>
+    </type>
+    <type name="Grid.TransferEngine.TransferHubHistoryDetails" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="transferid">
+        <object>Transfer Id</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registration time</object>
+      </resource>
+      <resource name="receivetime">
+        <object>Time received</object>
+      </resource>
+      <resource name="transfertype">
+        <object>Type</object>
+      </resource>
+      <resource name="operator">
+        <object>Operator</object>
+      </resource>
+      <resource name="operatorcode">
+        <object>Operator code</object>
+      </resource>
+      <resource name="contents">
+        <object>Contents</object>
+      </resource>
+      <resource name="errormessage">
+        <object>Error message</object>
+      </resource>
+    </type>
+    <type name="Grid.TransferHub.IdentityMap" ServiceOnly="false">
+      <resource name="mapping">
+        <object>Id</object>
+      </resource>
+      <resource name="identity">
+        <object>Identity</object>
+      </resource>
+      <resource name="password">
+        <object>Password</object>
+      </resource>
+      <resource name="sitecode">
+        <object>Site code</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.TransferEngine.HubPasswordEncoder" ServiceOnly="false">
+      <resource name="PasswordButtonCaption">
+        <object>Password</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.TransferEngine.HubPasswordEncoderChooserForm" ServiceOnly="false">
+      <resource name="passwordLabelControl.Text">
+        <object>New password</object>
+      </resource>
+      <resource name="Text">
+        <object>Password</object>
+      </resource>
+      <resource name="confirmPasswordLabelControl.Text">
+        <object>Confirm password</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="EmptyPasswordToolTip">
+        <object>The password field can not be empty</object>
+      </resource>
+      <resource name="MismatchPasswordToolTip">
+        <object>The password and the password confirmation do not match</object>
+      </resource>
+      <resource name="infoLabelControl.Text">
+        <object>Password is not required when using Windows Authentication</object>
+      </resource>
+      <resource name="passwordGroupControl.Text">
+        <object>Transfer Hub Password</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.TransferEngine.TransferOrderByEmail" ServiceOnly="false">
+      <resource name="EmailButtonCaption">
+        <object>Transfer by Email</object>
+      </resource>
+      <resource name="TooManySelectedError">
+        <object>Please select only one row</object>
+      </resource>
+      <resource name="TransferHubHistoryRecordError">
+        <object>Unable to fetch transfer information</object>
+      </resource>
+      <resource name="OrderRecordError">
+        <object>No order found</object>
+      </resource>
+      <resource name="EmailClientError">
+        <object>Error launching email client</object>
+      </resource>
+      <resource name="InvalidData">
+        <object>Invalid data in grid. Order processing stopped.</object>
+      </resource>
+      <resource name="CreateEmailError">
+        <object>Error creating email.</object>
+      </resource>
+      <resource name="OrderXmlError">
+        <object>Order xml contents not found</object>
+      </resource>
+    </type>
+    <type name="Grids.Common.CodeMapping" ServiceOnly="false">
+      <resource name="codemapping">
+        <object>Id</object>
+      </resource>
+      <resource name="tablename">
+        <object>Table name</object>
+      </resource>
+      <resource name="provider">
+        <object>Provider code</object>
+      </resource>
+      <resource name="provider Name">
+        <object>Provider</object>
+      </resource>
+      <resource name="providercode">
+        <object>Code used by provider</object>
+      </resource>
+      <resource name="objectid">
+        <object>Object code</object>
+      </resource>
+      <resource name="objectid Name">
+        <object>Object</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.TransferEngine.TransferHistoryOperations" ServiceOnly="false">
+      <resource name="ReimportButton">
+        <object>Retry Import</object>
+      </resource>
+      <resource name="ReimportButtonHint">
+        <object>Click to retry importing the selected order</object>
+      </resource>
+      <resource name="AttemptingRetryMessage">
+        <object>Retrying import of transfer with id {0}</object>
+      </resource>
+      <resource name="ImportReceived">
+        <object>Import of transfer with id {0} successful</object>
+      </resource>
+      <resource name="ImportComplete">
+        <object>Import of transfer with id {0} is complete</object>
+      </resource>
+      <resource name="ImportError">
+        <object>Import of transfer order with id {0} failed</object>
+      </resource>
+      <resource name="InvalidData">
+        <object>Invalid data in grid. Order processing stopped.</object>
+      </resource>
+      <resource name="TooManySelectedError">
+        <object>Please select only one row.</object>
+      </resource>
+      <resource name="TransferHubHistoryRecordError">
+        <object>Error fetching transfer hub history record.</object>
+      </resource>
+      <resource name="AttemtingFileImportMessage">
+        <object>Attempting file import...</object>
+      </resource>
+      <resource name="FileImportReceived">
+        <object>File import successful</object>
+      </resource>
+      <resource name="FileImportComplete">
+        <object>File import is complete</object>
+      </resource>
+      <resource name="FileImportError">
+        <object>File import failed</object>
+      </resource>
+      <resource name="ImportFileButtonCaption">
+        <object>Import from file</object>
+      </resource>
+      <resource name="ImportFileButtonHint">
+        <object>Choose a file to import</object>
+      </resource>
+      <resource name="RetryTransfer">
+        <object>Retry failed transfer</object>
+      </resource>
+      <resource name="FileDialogTitle">
+        <object>Choose a file to import</object>
+      </resource>
+      <resource name="IOExceptionCaption">
+        <object>The file could not be read</object>
+      </resource>
+      <resource name="RetryTransferHint">
+        <object>Click to retry sending the selected order</object>
+      </resource>
+      <resource name="FileType">
+        <object>XML files</object>
+      </resource>
+      <resource name="TransferOriginNotSupported">
+        <object>Transfer origin not supported</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.ExportTableAddSchema" ServiceOnly="false">
+      <resource name="SchemaButtonCaption">
+        <object>Add Schema</object>
+      </resource>
+      <resource name="SchemaButtonHint">
+        <object>Add a schema to the selected profile</object>
+      </resource>
+      <resource name="TooManySelectedError">
+        <object>Please select only one profile</object>
+      </resource>
+      <resource name="DeletedTable">
+        <object>Export Table for {0} skipped, it has been deleted but not cleaned, please clean export tables and try again</object>
+      </resource>
+      <resource name="Warning">
+        <object>Warning</object>
+      </resource>
+      <resource name="InvalidData">
+        <object>Invalid data in grid.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.ExportTableSelectSchema" ServiceOnly="false">
+      <resource name="schemaGroupControl.Text">
+        <object>Schema</object>
+      </resource>
+      <resource name="closeButton.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="Text">
+        <object>Select schema</object>
+      </resource>
+      <resource name="selectSchemaLabel.Text">
+        <object>Please select a schema</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.InitialDataExport" ServiceOnly="false">
+      <resource name="NoProfileSelected">
+        <object>No profile selected</object>
+      </resource>
+      <resource name="WarningMessage">
+        <object>This operation will copy all existing records for all record types in profile: {0} into export tables. {1}Are you sure you want to continue?</object>
+      </resource>
+      <resource name="initialDataButtonCaption">
+        <object>Initial data export</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.InitialDataExportForm" ServiceOnly="false">
+      <resource name="browseButton.Text">
+        <object>Browse</object>
+      </resource>
+      <resource name="startButton.Text">
+        <object>Start</object>
+      </resource>
+      <resource name="stopButton.Text">
+        <object>Stop</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Close</object>
+      </resource>
+      <resource name="destinationFolderLabel.Text">
+        <object>Destination folder:</object>
+      </resource>
+      <resource name="batchSizeLabel.Text">
+        <object>Batch size:</object>
+      </resource>
+      <resource name="warningLabel.Text">
+        <object>This operation will export all records of all record types defined in the selected profile. This process can take a long time.</object>
+      </resource>
+      <resource name="optionsGroupControl.Text">
+        <object>Options</object>
+      </resource>
+      <resource name="statusGroupControl.Text">
+        <object>Status</object>
+      </resource>
+      <resource name="warningGroupControl.Text">
+        <object>Warning</object>
+      </resource>
+      <resource name="Text">
+        <object>Initial Data Export</object>
+      </resource>
+      <resource name="InvalidBatchSize">
+        <object>Invalid batch size</object>
+      </resource>
+      <resource name="InvalidFolder">
+        <object>Destination folder does not exist</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.WebServiceStagingData" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="exporttype">
+        <object>Export type</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registration time</object>
+      </resource>
+      <resource name="data">
+        <object>Data</object>
+      </resource>
+      <resource name="status">
+        <object>Status</object>
+      </resource>
+      <resource name="retrycount">
+        <object>Retry count</object>
+      </resource>
+      <resource name="lastretry">
+        <object>Last retry date</object>
+      </resource>
+      <resource name="transfertime">
+        <object>Transfer time</object>
+      </resource>
+      <resource name="lasterror">
+        <object>Last error</object>
+      </resource>
+      <resource name="response">
+        <object>Response</object>
+      </resource>
+      <resource name="responsestatus">
+        <object>Response status</object>
+      </resource>
+      <resource name="queryparams">
+        <object>Query parameters</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

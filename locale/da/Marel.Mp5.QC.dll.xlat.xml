@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="da">
+  <industry>
+    <type name="Marel.Mp5.QC.Data.FastLane" ServiceOnly="false">
+      <resource name="Normal">
+        <object>Normal</object>
+      </resource>
+      <resource name="Fast">
+        <object>Hurtig</object>
+      </resource>
+      <resource name="Express">
+        <object>Ekspres</object>
+      </resource>
+      <resource name="DoubleExpress">
+        <object>Dobbeltekspres</object>
+      </resource>
+      <resource name="SkipScreenMap">
+        <object>Spring over kort over skærmbillede</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.LimitType" ServiceOnly="false">
+      <resource name="Automatic">
+        <object>Automatisk</object>
+      </resource>
+      <resource name="Greater">
+        <object>Større</object>
+      </resource>
+      <resource name="GreaterEqual">
+        <object>Større end eller lig med</object>
+      </resource>
+      <resource name="Less">
+        <object>Mindre</object>
+      </resource>
+      <resource name="LessEqual">
+        <object>Mindre end eller lig med</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.GradeType" ServiceOnly="false">
+      <resource name="Under">
+        <object>Understørrelse</object>
+      </resource>
+      <resource name="Valid">
+        <object>Gyldig</object>
+      </resource>
+      <resource name="Over">
+        <object>Overstørrelse</object>
+      </resource>
+      <resource name="Outside">
+        <object>Under- eller overstørrelse</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.InspectionItem" ServiceOnly="false">
+      <resource name="Name.DisplayName">
+        <object>Navn</object>
+      </resource>
+      <resource name="Name.Description">
+        <object>Navn på inspektionsemne</object>
+      </resource>
+      <resource name="Um.DisplayName">
+        <object>Måleenhed</object>
+      </resource>
+      <resource name="Um.Description">
+        <object>Den måleenhed, der bruges ved lagring af værdier for dette inspektionsemne</object>
+      </resource>
+      <resource name="DefectClass.DisplayName">
+        <object>Fejlklasse</object>
+      </resource>
+      <resource name="DefectClass.Description">
+        <object>Fejlklasse</object>
+      </resource>
+      <resource name="Factor.DisplayName">
+        <object>Multiplikationsfaktor</object>
+      </resource>
+      <resource name="Factor.Description">
+        <object>Den multiplikationsfaktor, der bruges til at beregne scoren for dette inspektionsemne.</object>
+      </resource>
+      <resource name="CanSkip.DisplayName">
+        <object>Kan springe over</object>
+      </resource>
+      <resource name="CanRepeat.DisplayName">
+        <object>Kan gentage</object>
+      </resource>
+      <resource name="RecordDetails.DisplayName">
+        <object>Registrer oplysninger</object>
+      </resource>
+      <resource name="IsEmpItem.DisplayName">
+        <object>Registrer medarbejder</object>
+      </resource>
+      <resource name="Label.DisplayName">
+        <object>Etiket</object>
+      </resource>
+      <resource name="WeightRecordingMethod.DisplayName">
+        <object>Reg.metode for vægt</object>
+      </resource>
+      <resource name="UsePlusAndMinusButtons.DisplayName">
+        <object>Øg/mindsk-knapper</object>
+      </resource>
+      <resource name="RequireMethod.DisplayName">
+        <object>Kræv metode</object>
+      </resource>
+      <resource name="Name.Category">
+        <object>Inspektionsemne</object>
+      </resource>
+      <resource name="Factor.Category">
+        <object>Optælling af fejl</object>
+      </resource>
+      <resource name="RequireMethod.Category">
+        <object>Dataindsamling</object>
+      </resource>
+      <resource name="CanRepeat.Category">
+        <object>Dataindsamling</object>
+      </resource>
+      <resource name="RecordDetails.Category">
+        <object>Dataindsamling</object>
+      </resource>
+      <resource name="IsEmpItem.Category">
+        <object>Dataindsamling</object>
+      </resource>
+      <resource name="Label.Category">
+        <object>Formel</object>
+      </resource>
+      <resource name="WeightRecordingMethod.Category">
+        <object>Konfiguration af vægt</object>
+      </resource>
+      <resource name="UsePlusAndMinusButtons.Category">
+        <object>Dataindsamling</object>
+      </resource>
+      <resource name="HideUncheckedDefectClasses.Category">
+        <object>Fejlklasse</object>
+      </resource>
+      <resource name="OrderBy.Category">
+        <object>Dataindsamling</object>
+      </resource>
+      <resource name="OrderBy.Description">
+        <object>Vælg sorteringen af de viste værdier</object>
+      </resource>
+      <resource name="OrderBy.DisplayName">
+        <object>Sortér efter</object>
+      </resource>
+      <resource name="ColumnCount.Category">
+        <object>Layout</object>
+      </resource>
+      <resource name="ColumnCount.DisplayName">
+        <object>Antal kolonner</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.ListItem" ServiceOnly="false">
+      <resource name="ValueListId.DisplayName">
+        <object>Værdiliste</object>
+      </resource>
+      <resource name="ValueListId.Description">
+        <object>Navnet på den værdiliste, der bruges i kombination med dette emne</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.ScoreClass" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ikke sat</object>
+      </resource>
+      <resource name="Ok">
+        <object>OK</object>
+      </resource>
+      <resource name="NotOk">
+        <object>Ikke OK</object>
+      </resource>
+      <resource name="Defective">
+        <object>Fejlbehæftet</object>
+      </resource>
+      <resource name="Unacceptable">
+        <object>Uacceptabel</object>
+      </resource>
+      <resource name="Unsafe">
+        <object>Ikke sikker</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.ScoreType" ServiceOnly="false">
+      <resource name="None">
+        <object>Ingen</object>
+      </resource>
+      <resource name="Absolute">
+        <object>Absolut</object>
+      </resource>
+      <resource name="RelativeWeight">
+        <object>Relativ vægt</object>
+      </resource>
+      <resource name="RelativePieces">
+        <object>Relative stykker</object>
+      </resource>
+      <resource name="Relative">
+        <object>Relativ</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.DeploymentPlatform" ServiceOnly="false">
+      <resource name="M6000">
+        <object>M6000</object>
+      </resource>
+      <resource name="StandardPocketPC">
+        <object>Standard Pocket PC</object>
+      </resource>
+      <resource name="SquarePocketPC">
+        <object>Square Pocket PC</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ResponseSetType" ServiceOnly="false">
+      <resource name="Inclusive">
+        <object>Inklusive</object>
+      </resource>
+      <resource name="Exclusive">
+        <object>Eksklusive</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.InspectionRType" ServiceOnly="false">
+      <resource name="Normal">
+        <object>Normal</object>
+      </resource>
+      <resource name="Grouped">
+        <object>Grupperet</object>
+      </resource>
+      <resource name="Test">
+        <object>Test</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ScheduleType" ServiceOnly="false">
+      <resource name="Never">
+        <object>Aldrig</object>
+      </resource>
+      <resource name="Hourly">
+        <object>Hver time</object>
+      </resource>
+      <resource name="Daily">
+        <object>Dagligt</object>
+      </resource>
+      <resource name="Weekly">
+        <object>Ugentligt</object>
+      </resource>
+      <resource name="Monthly">
+        <object>Månedligt</object>
+      </resource>
+      <resource name="Yearly">
+        <object>Årligt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.PlannedStatus" ServiceOnly="false">
+      <resource name="Schedule">
+        <object>Tidsplan</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Inspektion er i gang</object>
+      </resource>
+      <resource name="NotCompleted">
+        <object>Inspektion er ikke fuldført</object>
+      </resource>
+      <resource name="Completed">
+        <object>Inspektion er fuldført</object>
+      </resource>
+      <resource name="Requested">
+        <object>Der er anmodet om inspektion</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ValueType" ServiceOnly="false">
+      <resource name="Integer">
+        <object>Heltal</object>
+      </resource>
+      <resource name="Decimal">
+        <object>Decimal</object>
+      </resource>
+      <resource name="String">
+        <object>Streng</object>
+      </resource>
+      <resource name="Defect">
+        <object>Fejl</object>
+      </resource>
+      <resource name="List">
+        <object>Liste</object>
+      </resource>
+      <resource name="Date">
+        <object>Dato</object>
+      </resource>
+      <resource name="Time">
+        <object>Tid</object>
+      </resource>
+      <resource name="DateTime">
+        <object>Dato og klokkeslæt</object>
+      </resource>
+      <resource name="Temperature">
+        <object>Temperatur</object>
+      </resource>
+      <resource name="PackWeight">
+        <object>Pakkevægt</object>
+      </resource>
+      <resource name="Weight">
+        <object>Vægt</object>
+      </resource>
+      <resource name="Po">
+        <object>Indkøbsordre</object>
+      </resource>
+      <resource name="Batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="Lot">
+        <object>Parti</object>
+      </resource>
+      <resource name="ProductionLot">
+        <object>Produktionsparti</object>
+      </resource>
+      <resource name="RmArea">
+        <object>RmArea</object>
+      </resource>
+      <resource name="Employee">
+        <object>Medarbejder</object>
+      </resource>
+      <resource name="Product">
+        <object>Produkt</object>
+      </resource>
+      <resource name="Specie">
+        <object>Art</object>
+      </resource>
+      <resource name="ProductionDay">
+        <object>Produktionsdag</object>
+      </resource>
+      <resource name="TargetWeight">
+        <object>Målvægt</object>
+      </resource>
+      <resource name="SampleWeight">
+        <object>Prøvevægt</object>
+      </resource>
+      <resource name="SamplePieces">
+        <object>Prøvestykker</object>
+      </resource>
+      <resource name="Order">
+        <object>Ordre</object>
+      </resource>
+      <resource name="ObjectId">
+        <object>ObjectId</object>
+      </resource>
+      <resource name="RecordId">
+        <object>RecordId</object>
+      </resource>
+      <resource name="UnitSSCC">
+        <object>Enhed, SSCC</object>
+      </resource>
+      <resource name="Picture">
+        <object>Billede</object>
+      </resource>
+      <resource name="Video">
+        <object>Video</object>
+      </resource>
+      <resource name="Audio">
+        <object>Lyd</object>
+      </resource>
+      <resource name="LongString">
+        <object>Lang streng</object>
+      </resource>
+      <resource name="Formula">
+        <object>Formel</object>
+      </resource>
+      <resource name="PieceWeight">
+        <object>Stykvægt</object>
+      </resource>
+      <resource name="Tare">
+        <object>Tara </object>
+      </resource>
+      <resource name="ResetPTare">
+        <object>Nulstil forudindstillet tara</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ObjectType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Generisk</object>
+      </resource>
+      <resource name="Material">
+        <object>Materiale</object>
+      </resource>
+      <resource name="MaterialType">
+        <object>Material type</object>
+      </resource>
+      <resource name="Parent">
+        <object>Overordnet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.SelectMethod" ServiceOnly="false">
+      <resource name="EmployeeAverage">
+        <object>EmployeeAverage</object>
+      </resource>
+      <resource name="EmployeeMaximum">
+        <object>EmployeeMaximum</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>ExternalRequest</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>OperatorRequest</object>
+      </resource>
+      <resource name="Random">
+        <object>Tilfældig</object>
+      </resource>
+      <resource name="Rate">
+        <object>Hastighed</object>
+      </resource>
+      <resource name="Unknown">
+        <object>Ukendt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.DefectItem" ServiceOnly="false">
+      <resource name="DefectClassCategory">
+        <object>Fejlklasse</object>
+      </resource>
+      <resource name="HideUncheckedDefectClasses.DisplayName">
+        <object>Skjul ikke-markeret</object>
+      </resource>
+      <resource name="HideUncheckedDefectClasses.Description">
+        <object>Hvis dette vælges, er det kun de markerede fejlklasser, der er synlige. Hvis det ikke vælges, er alle fejlklasser, som ikke er markeret, synlige, men de er deaktiveret.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.InspectionStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Ikke startet</object>
+      </resource>
+      <resource name="InProgress">
+        <object>I gang</object>
+      </resource>
+      <resource name="Completed">
+        <object>Fuldført</object>
+      </resource>
+      <resource name="Confirmed">
+        <object>Bekræftet</object>
+      </resource>
+      <resource name="SignatureMissing">
+        <object>Der mangler underskrift</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.NonConformityStatus" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Ukendt</object>
+      </resource>
+      <resource name="Unresolved">
+        <object>Ikke løst</object>
+      </resource>
+      <resource name="Resolved">
+        <object>Løst</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Slettet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.ItemConfigs.BaseOrderByConfig" ServiceOnly="false">
+      <resource name="SortOrder.DisplayName">
+        <object>Sorteringsrækkefølge</object>
+      </resource>
+      <resource name="SortOrder.Description">
+        <object>ASC for resultater i stigende rækkefølge og DESC for resultater i faldende rækkefølge</object>
+      </resource>
+      <resource name="ColumnName.DisplayName">
+        <object>Kolonnenavn</object>
+      </resource>
+      <resource name="ColumnName.Description">
+        <object>Navnet på kolonnen i databasen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.ItemConfigs.OrderBy" ServiceOnly="false">
+      <resource name="Asc">
+        <object>Stigende</object>
+      </resource>
+      <resource name="Desc">
+        <object>Faldende</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.MaintenanceStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Ikke startet</object>
+      </resource>
+      <resource name="InProgress">
+        <object>I gang</object>
+      </resource>
+      <resource name="Completed">
+        <object>Fuldført</object>
+      </resource>
+      <resource name="Confirmed">
+        <object>Bekræftet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ResponseType" ServiceOnly="false">
+      <resource name="RaiseAlarm">
+        <object>Aktivér alarm</object>
+      </resource>
+      <resource name="RunUnitOperation">
+        <object>Kør enhedshandling</object>
+      </resource>
+      <resource name="ScheduleInspection">
+        <object>Planlæg inspektion</object>
+      </resource>
+      <resource name="StartNonConformity">
+        <object>Start manglende overensstemmelse</object>
+      </resource>
+      <resource name="ManualResponse">
+        <object>Manuelt svar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.FormulaItem" ServiceOnly="false">
+      <resource name="InvalidFormula">
+        <object>Formlen er ikke gyldig</object>
+      </resource>
+      <resource name="Formula.DisplayName">
+        <object>Formel</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

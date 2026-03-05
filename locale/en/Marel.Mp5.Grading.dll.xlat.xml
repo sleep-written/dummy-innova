@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.Grading.Configuration.SlaveMode" ServiceOnly="true">
+      <resource name="NotSlave">
+        <object>Not slave</object>
+      </resource>
+      <resource name="PartSlave">
+        <object>Part slave</object>
+      </resource>
+      <resource name="AllSlave">
+        <object>Slave</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.GateType" ServiceOnly="true">
+      <resource name="SimpleOutput">
+        <object>Simple output</object>
+      </resource>
+      <resource name="Bin">
+        <object>Bin</object>
+      </resource>
+      <resource name="CheckBin">
+        <object>Check bin</object>
+      </resource>
+      <resource name="FlowControl">
+        <object>Flowcontrol</object>
+      </resource>
+      <resource name="BatchingReject">
+        <object>Batching reject</object>
+      </resource>
+      <resource name="ContaminantReject">
+        <object>Contaminant reject</object>
+      </resource>
+      <resource name="ContaminantRejectOverFlow">
+        <object>Contaminant reject overflow</object>
+      </resource>
+      <resource name="UncorrelatedReject">
+        <object>Uncorrelated reject</object>
+      </resource>
+      <resource name="BatchingRejectOverFlow">
+        <object>Batching reject overflow</object>
+      </resource>
+      <resource name="BoneContaminantReject">
+        <object>Bone Contaminant reject</object>
+      </resource>
+      <resource name="BoneContaminantRejectOverFlow">
+        <object>Bone Contaminant reject overflow</object>
+      </resource>
+      <resource name="HardContaminantReject">
+        <object>Hard Contaminant reject</object>
+      </resource>
+      <resource name="HardContaminantRejectOverFlow">
+        <object>Hard Contaminant reject overflow</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.DischargeType" ServiceOnly="true">
+      <resource name="None">
+        <object>None</object>
+      </resource>
+      <resource name="Belt">
+        <object>Belt</object>
+      </resource>
+      <resource name="Cabin">
+        <object>Cabin</object>
+      </resource>
+      <resource name="Vertical">
+        <object>Vertical</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.WeigherType" ServiceOnly="true">
+      <resource name="Belt">
+        <object>Belt</object>
+      </resource>
+      <resource name="Hopper">
+        <object>Hopper</object>
+      </resource>
+      <resource name="Platform">
+        <object>Platform</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.LaneType" ServiceOnly="true">
+      <resource name="Single">
+        <object>Single</object>
+      </resource>
+      <resource name="Left">
+        <object>Left</object>
+      </resource>
+      <resource name="Right">
+        <object>Right</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.SystemType" ServiceOnly="true">
+      <resource name="Simple">
+        <object>Simple grading</object>
+      </resource>
+      <resource name="PassivePacking">
+        <object>Passive packing</object>
+      </resource>
+      <resource name="ActivePacking">
+        <object>Active packing</object>
+      </resource>
+      <resource name="Reporting">
+        <object>Reporting</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.DataType" ServiceOnly="true">
+      <resource name="Boolean">
+        <object>Boolean</object>
+      </resource>
+      <resource name="Byte">
+        <object>Byte</object>
+      </resource>
+      <resource name="Sbyte">
+        <object>Signed byte</object>
+      </resource>
+      <resource name="Uint16">
+        <object>Unsigned 16-bit integer</object>
+      </resource>
+      <resource name="Uint32">
+        <object>Unsigned 32-bit integer</object>
+      </resource>
+      <resource name="Int32">
+        <object>32-bit integer</object>
+      </resource>
+      <resource name="Float">
+        <object>Float</object>
+      </resource>
+      <resource name="String">
+        <object>String</object>
+      </resource>
+      <resource name="Ustring">
+        <object>Unicode string</object>
+      </resource>
+      <resource name="Enum">
+        <object>Enumeration</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.BatchDetails" ServiceOnly="false">
+      <resource name="None">
+        <object>None</object>
+      </resource>
+      <resource name="Simple">
+        <object>Simple</object>
+      </resource>
+      <resource name="ProductDetails">
+        <object>Product details</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.PieceDetails" ServiceOnly="false">
+      <resource name="None">
+        <object>None</object>
+      </resource>
+      <resource name="Simple">
+        <object>Simple</object>
+      </resource>
+      <resource name="UpdatePackId">
+        <object>Update pack Id</object>
+      </resource>
+      <resource name="PostBatch">
+        <object>Post batch</object>
+      </resource>
+      <resource name="UseExternalId">
+        <object>Use external Id</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.PieceRecordType" ServiceOnly="false">
+      <resource name="PhysicalGrading">
+        <object>Physical</object>
+      </resource>
+      <resource name="ExtraGrading">
+        <object>Extra</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.BatchRecordType" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Unknown</object>
+      </resource>
+      <resource name="Batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="PeriodicBatch">
+        <object>Periodic batch</object>
+      </resource>
+      <resource name="IncompleteBatch">
+        <object>Incomplete batch</object>
+      </resource>
+      <resource name="ExternalBatch">
+        <object>External batch</object>
+      </resource>
+      <resource name="RejectUnderweight">
+        <object>Rejected underweight</object>
+      </resource>
+      <resource name="RejectOverweight">
+        <object>Rejected overweight</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.ValueType" ServiceOnly="false">
+      <resource name="Weight">
+        <object>Weight</object>
+      </resource>
+      <resource name="Width">
+        <object>Width</object>
+      </resource>
+      <resource name="Height">
+        <object>Height</object>
+      </resource>
+      <resource name="Length">
+        <object>Length</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.GradingOperationResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Operation completed successfully.</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>General database error occurred.</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Operation not supported.</object>
+      </resource>
+      <resource name="NoGate">
+        <object>Gate does not exist on machine.</object>
+      </resource>
+      <resource name="NoSetup">
+        <object>Gate not assigned to a setup.</object>
+      </resource>
+      <resource name="NoGrade">
+        <object>Gate not assigned to a grade.</object>
+      </resource>
+      <resource name="GraderOffline">
+        <object>Machine is currently offline.</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>No applicable pallet.</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>No applicable collection.</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>Collection status does not allow operation.</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>Product on gate does not match collection product.</object>
+      </resource>
+      <resource name="Exception">
+        <object>Application exception.</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Interface information for the Grading Service could not be loaded.</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Server program information for Grading Service could not be loaded.</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Getting remote object proxy.</object>
+      </resource>
+      <resource name="RemoteException">
+        <object>Unspecified exception thrown by remote object.</object>
+      </resource>
+      <resource name="NoGrader">
+        <object>Grader does not exist in the given grading system.</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>Operation requires a valid batch</object>
+      </resource>
+      <resource name="ItemAdded">
+        <object>The item specified was successfully added</object>
+      </resource>
+      <resource name="ItemUpdated">
+        <object>An existing item was updated with the given item</object>
+      </resource>
+      <resource name="ItemDeleted">
+        <object>The item specified was successfully deleted</object>
+      </resource>
+      <resource name="NoItem">
+        <object>An item does not exist that match the specified criteria</object>
+      </resource>
+      <resource name="NoQueue">
+        <object>The given queue does not exist</object>
+      </resource>
+      <resource name="NoProductRecipe">
+        <object>A product recipe does not exist</object>
+      </resource>
+      <resource name="NoProductRecipeActive">
+        <object>No product recipe is currently active on a grade</object>
+      </resource>
+      <resource name="NoProgramActive">
+        <object>No program is currently active, please start one before starting a recipe</object>
+      </resource>
+      <resource name="NotCurrentProgram">
+        <object>Operation can't be performed because grader is not running active Innova grading program</object>
+      </resource>
+      <resource name="UploadError">
+        <object>Configuration could not be sent to grader or the grader did not accept configuration</object>
+      </resource>
+      <resource name="ProductStartError">
+        <object>Product could not be started on grader</object>
+      </resource>
+      <resource name="ProductStopError">
+        <object>Product could not be stopped on grader</object>
+      </resource>
+      <resource name="NoGradingSystem">
+        <object>Grading system not available</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.CommandType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Not set</object>
+      </resource>
+      <resource name="Write">
+        <object>Write</object>
+      </resource>
+      <resource name="Execute">
+        <object>Execute</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.ConfigurationExecOrder" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Not set</object>
+      </resource>
+      <resource name="BeforeProgram">
+        <object>Before program configuration</object>
+      </resource>
+      <resource name="Program">
+        <object>With program configuration</object>
+      </resource>
+      <resource name="AfterProgram">
+        <object>After program configuration</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.WorkstationType" ServiceOnly="true">
+      <resource name="InputPackingStation">
+        <object>Input</object>
+      </resource>
+      <resource name="OutputPackingStation">
+        <object>Packing</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Activity.GradeType" ServiceOnly="false">
+      <resource name="Product">
+        <object>Product</object>
+      </resource>
+      <resource name="Recipe">
+        <object>Recipe</object>
+      </resource>
+      <resource name="ProductRecipe">
+        <object>Product recipe</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.IntelligentBatchingMode" ServiceOnly="false">
+      <resource name="Priority">
+        <object>Priority</object>
+      </resource>
+      <resource name="BestBid">
+        <object>Best bid</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Devices.A600.RoundRobinBatching" ServiceOnly="true">
+      <resource name="None">
+        <object>None</object>
+      </resource>
+      <resource name="Piece">
+        <object>Piece</object>
+      </resource>
+      <resource name="Batch">
+        <object>Batch</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Devices.A600.RoundRobinGrading" ServiceOnly="true">
+      <resource name="None">
+        <object>None</object>
+      </resource>
+      <resource name="Piece">
+        <object>Piece</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Devices.A600.CompletionOperatorBatching" ServiceOnly="true">
+      <resource name="Either">
+        <object>Either</object>
+      </resource>
+      <resource name="Both">
+        <object>Both</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Devices.A600.RejectLevel" ServiceOnly="true">
+      <resource name="None">
+        <object>None</object>
+      </resource>
+      <resource name="Low">
+        <object>Low</object>
+      </resource>
+      <resource name="Medium">
+        <object>Medium</object>
+      </resource>
+      <resource name="High">
+        <object>High</object>
+      </resource>
+      <resource name="Maximum">
+        <object>Maximum</object>
+      </resource>
+      <resource name="Proportional">
+        <object>Proportional</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.RecipeError" ServiceOnly="false">
+      <resource name="TargetWeightOrMinCountMustBeGreaterThanZero">
+        <object>Target weight or min count must be greater than 0</object>
+      </resource>
+      <resource name="MaximumItemLimitMustBeGreaterThanMinimumItemLimit">
+        <object>Maximum item limit must be greater than minimum item limit</object>
+      </resource>
+      <resource name="MaximumCountMustBeGreaterThanMinimumCount">
+        <object>Maximum count must be greater than minimum count</object>
+      </resource>
+      <resource name="MinimumCountMustBeGreaterThanZero">
+        <object>Minimum count must be greater than 0</object>
+      </resource>
+      <resource name="TrayPatternError">
+        <object>Tray Pattern Error</object>
+      </resource>
+      <resource name="TooFewItemsToReachTargetWeight">
+        <object>Too few items to reach desired target weight</object>
+      </resource>
+      <resource name="EnterNameForRecipe">
+        <object>Please enter a name for the recipe</object>
+      </resource>
+      <resource name="PriorityMissingForRecipe">
+        <object>Please enter a priority for the recipe</object>
+      </resource>
+      <resource name="MaximumCountMustBeEmpty">
+        <object>Maximum count must be empty in count job</object>
+      </resource>
+      <resource name="ItemTypeMappingError">
+        <object>Item type mapping error</object>
+      </resource>
+      <resource name="UnknownParserError">
+        <object>Unknown parser error</object>
+      </resource>
+      <resource name="UnitsMissingError">
+        <object>Unit on parameter is missing</object>
+      </resource>
+    </type> 
+    <type name="Marel.Mp5.Grading.Configuration.WebServiceErrorCodes" ServiceOnly="false">
+      <resource name="UNDEFINED_ERROR">
+        <object>Undefined error</object>
+      </resource>
+      <resource name="TARGET_WEIGHT">
+        <object>Target weight or min count must be greater than 0</object>
+      </resource>
+      <resource name="MAX_LIMIT_MUST_EXCEED_MIN_LIMIT">
+        <object>Maximum item limit must be greater than minimum item limit</object>
+      </resource>
+      <resource name="MAX_COUNT_MUST_EXCEED_MIN_COUNT">
+        <object>Maximum count must be greater than minimum count</object>
+      </resource>
+      <resource name="MIN_COUNT_MUST_EXCEED_ZERO">
+        <object>Minimum count must be greater than 0</object>
+      </resource>
+      <resource name="TRAY_PATTERN_ERROR">
+        <object>Tray Pattern Error</object>
+      </resource>
+      <resource name="TOO_FEW_ITEMS_FOR_TARGET_WEIGHT">
+        <object>Too few items to reach desired target weight</object>
+      </resource>
+      <resource name="RECIPE_NAME_MISSING">
+        <object>Recipe name missing</object>
+      </resource>
+      <resource name="RECIPE_PRIO_MISSING">
+        <object>Recipe priority</object>
+      </resource>
+      <resource name="MAX_COUNT_MUST_BE_EMPTY_IN_COUNT_JOB">
+        <object>Maximum count must be empty in count job</object>
+      </resource>
+      <resource name="ITEM_TYPE_MAPPING_ERROR">
+        <object>Item type mapping error</object>
+      </resource>
+      <resource name="RECIPE_UNKNOWN_ERROR">
+        <object>Unknown parser error</object>
+      </resource>      
+      <resource name="WRONG_COMMAND_FORMAT">
+        <object>Wrong command format</object>
+      </resource>
+      <resource name="FILE_DOES_NOT_EXIST">
+        <object>File does not exist</object>
+      </resource>
+      <resource name="PRODUCT_SETUP_GENERAL_ERROR">
+        <object>General error in product setup</object>
+      </resource>
+      <resource name="RECIPE_IS_ACTIVE_AND_CANNOT_BE_DELETED">
+        <object>Recipe is active and cannot be deleted</object>
+      </resource>
+      <resource name="UNITS_MISSING_ERROR">
+        <object>Unit on parameter is missing</object>
+      </resource>
+      <resource name="RECIPE_WEIGHT_NOT_MATCHING_TOOL">
+        <object>Recipe weight not matching tool</object>
+      </resource>
+      <resource name="VISION_CONDITION_FAILURE">
+        <object>Vision condition failure</object>
+      </resource>     
+    </type>
+    <type name="Marel.Mp5.Grading.DataCollectorSampleSet" ServiceOnly="true">
+      <resource name="None">
+        <object>No data</object>
+      </resource>
+      <resource name="Period">
+        <object>Data for all received items in current process period</object>
+      </resource>
+      <resource name="Trip">
+        <object>Data since last reset (trip)</object>
+      </resource>
+      <resource name="MaxCount">
+        <object>Data for last N received items</object>
+      </resource>
+      <resource name="MaxAge">
+        <object>Data for items received within last N minutes</object>
+      </resource>
+      <resource name="All">
+        <object>All available sample sets</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Activity.OperationEventTypes" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Unknown</object>
+      </resource>
+      <resource name="ProgramStopped">
+        <object>Program stopped</object>
+      </resource>
+      <resource name="ProgramStarted">
+        <object>Program started</object>
+      </resource>
+      <resource name="ProgramModified">
+        <object>Program modified</object>
+      </resource>
+      <resource name="ProgramDeleted">
+        <object>Program deleted</object>
+      </resource>
+      <resource name="ProgramCreated">
+        <object>Program created</object>
+      </resource>
+      <resource name="RecipeStopped">
+        <object>Recipe stopped</object>
+      </resource>
+      <resource name="RecipeStarted">
+        <object>Recipe started</object>
+      </resource>
+      <resource name="RecipeModified">
+        <object>Recipe modified</object>
+      </resource>
+      <resource name="RecipeDeleted">
+        <object>Recipe deleted</object>
+      </resource>
+      <resource name="RecipeCreated">
+        <object>Recipe created</object>
+      </resource>
+      <resource name="RecipeQuickAdjust">
+        <object>Recipe quick adjust</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

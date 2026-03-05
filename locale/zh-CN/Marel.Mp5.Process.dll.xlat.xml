@@ -1,0 +1,2472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="zh-CN">
+  <industry>
+    <type name="Marel.Mp5.Process.Process.LineType" ServiceOnly="true">
+      <resource name="ProcessUnit">
+        <object>过程单元</object>
+      </resource>
+      <resource name="BasicLine">
+        <object>生产线</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanType" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>无计划</object>
+      </resource>
+      <resource name="ContextPlan">
+        <object>共同计划</object>
+      </resource>
+      <resource name="SplitPlan">
+        <object>分割计划</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessState" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="NoWork">
+        <object>外部小时</object>
+      </resource>
+      <resource name="Running">
+        <object>运行</object>
+      </resource>
+      <resource name="Idle">
+        <object>空转</object>
+      </resource>
+      <resource name="Stopped">
+        <object>已停止</object>
+      </resource>
+      <resource name="Breakdown">
+        <object>故障</object>
+      </resource>
+      <resource name="NotProgrammed">
+        <object>未编程</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessCounterType" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>未使用</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>每过程单元</object>
+      </resource>
+      <resource name="Line">
+        <object>每生产线</object>
+      </resource>
+      <resource name="Section">
+        <object>每部分</object>
+      </resource>
+      <resource name="Department">
+        <object>每部门</object>
+      </resource>
+      <resource name="Site">
+        <object>每站点</object>
+      </resource>
+      <resource name="Station">
+        <object>每工位</object>
+      </resource>
+      <resource name="StationGroup">
+        <object>每工位组</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.AutoManual" ServiceOnly="true">
+      <resource name="Automatic">
+        <object>自动</object>
+      </resource>
+      <resource name="Manual">
+        <object>手动</object>
+      </resource>
+      <resource name="AllowManual">
+        <object>允许手动</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessPeriodType" ServiceOnly="true">
+      <resource name="Daily">
+        <object>每天</object>
+      </resource>
+      <resource name="OnActivity">
+        <object>主营业务更改</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextSelect" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>未使用</object>
+      </resource>
+      <resource name="Direct">
+        <object>直接更改</object>
+      </resource>
+      <resource name="DirectAssigned">
+        <object>使用已分配项直接更改</object>
+      </resource>
+      <resource name="DirectStopped">
+        <object>停止时直接更改</object>
+      </resource>
+      <resource name="DirectAssignedStopped">
+        <object>停止时使用已分配项直接更改</object>
+      </resource>
+      <resource name="Pending">
+        <object>开始待定</object>
+      </resource>
+      <resource name="PendingAssigned">
+        <object>使用已分配项开始待定</object>
+      </resource>
+      <resource name="PendingStopped">
+        <object>停止时开始待定</object>
+      </resource>
+      <resource name="PendingAssignedStopped">
+        <object>停止时使用已分配项开始待定</object>
+      </resource>
+      <resource name="ForwardPending">
+        <object>仅允许待定发送</object>
+      </resource>
+      <resource name="ForwardDirect">
+        <object>仅允许直接发送</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanMethod" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>无计划</object>
+      </resource>
+      <resource name="Relaxed">
+        <object>不严格</object>
+      </resource>
+      <resource name="NoSequence">
+        <object>严格、无顺序</object>
+      </resource>
+      <resource name="Sequence">
+        <object>严格、按顺序</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextType" ServiceOnly="true">
+      <resource name="NoContext">
+        <object>无内容</object>
+      </resource>
+      <resource name="LocalApplication">
+        <object>应用程序</object>
+      </resource>
+      <resource name="LocalSystem">
+        <object>系统</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>过程单元</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.SystemType" ServiceOnly="false">
+      <resource name="Other">
+        <object>其他</object>
+      </resource>
+      <resource name="Species">
+        <object>种类</object>
+      </resource>
+      <resource name="Section">
+        <object>部分</object>
+      </resource>
+      <resource name="Input">
+        <object>输入</object>
+      </resource>
+      <resource name="Primary">
+        <object>初级 </object>
+      </resource>
+      <resource name="Secondary">
+        <object>次级</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>第三级</object>
+      </resource>
+      <resource name="Waste">
+        <object>垃圾</object>
+      </resource>
+      <resource name="Fat">
+        <object>脂肪</object>
+      </resource>
+      <resource name="Bones">
+        <object>骨头</object>
+      </resource>
+      <resource name="Skin">
+        <object>皮</object>
+      </resource>
+      <resource name="Offal">
+        <object>内脏</object>
+      </resource>
+      <resource name="Ingredient">
+        <object>成分</object>
+      </resource>
+      <resource name="Packaging">
+        <object>包装</object>
+      </resource>
+      <resource name="PieceType">
+        <object>物件种类</object>
+      </resource>
+      <resource name="ColorType">
+        <object>颜色</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoDeliveryStatus" ServiceOnly="false">
+      <resource name="NotOrdered">
+        <object>未订购</object>
+      </resource>
+      <resource name="InStorage">
+        <object>储存</object>
+      </resource>
+      <resource name="EnRoute">
+        <object>在途中</object>
+      </resource>
+      <resource name="Receiving">
+        <object>接收、不可用</object>
+      </resource>
+      <resource name="ReceivingAvailable">
+        <object>接收、可用</object>
+      </resource>
+      <resource name="Holding">
+        <object>盛放</object>
+      </resource>
+      <resource name="Available">
+        <object>可用</object>
+      </resource>
+      <resource name="Completed">
+        <object>已完成</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.PrivateObjectType" ServiceOnly="false">
+      <resource name="Mateial">
+        <object>产品</object>
+      </resource>
+      <resource name="Customer">
+        <object>客户</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>订单生产线</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.CountMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>接受全部</object>
+      </resource>
+      <resource name="Range">
+        <object>最小值和最大值</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextColumn" ServiceOnly="false">
+      <resource name="Activity">
+        <object>主营业务</object>
+      </resource>
+      <resource name="Po">
+        <object>采购订单</object>
+      </resource>
+      <resource name="Batch">
+        <object>批量</object>
+      </resource>
+      <resource name="Lot">
+        <object>批次</object>
+      </resource>
+      <resource name="Plot">
+        <object>产品批次</object>
+      </resource>
+      <resource name="Rmarea">
+        <object>资源区</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>盛放</object>
+      </resource>
+      <resource name="Available">
+        <object>可用</object>
+      </resource>
+      <resource name="Completed">
+        <object>已完成</object>
+      </resource>
+      <resource name="InProgress">
+        <object>正在进行</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotRecord" ServiceOnly="false">
+      <resource name="AutoName">
+        <object>批次</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>L</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.YieldGroupRecord" ServiceOnly="true">
+      <resource name="AutoName">
+        <object>产量组</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>Y</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.ChainType" ServiceOnly="true">
+      <resource name="TracePo">
+        <object>跟踪采购订单</object>
+      </resource>
+      <resource name="TraceBatch">
+        <object>跟踪批号</object>
+      </resource>
+      <resource name="TraceLot">
+        <object>跟踪批次</object>
+      </resource>
+      <resource name="TracePack">
+        <object>跟踪包装</object>
+      </resource>
+      <resource name="TraceCollection">
+        <object>跟踪集合</object>
+      </resource>
+      <resource name="TraceInterval">
+        <object>按时间跟踪</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.UnitStatus" ServiceOnly="true">
+      <resource name="PendingAuto">
+        <object>等待自动开始</object>
+      </resource>
+      <resource name="PendingManual">
+        <object>等待手动开始</object>
+      </resource>
+      <resource name="Active">
+        <object>单位使用中</object>
+      </resource>
+      <resource name="Ending">
+        <object>单位终止</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.TransactionType" ServiceOnly="true">
+      <resource name="UnitSchedule">
+        <object>单位安排</object>
+      </resource>
+      <resource name="UnitStart">
+        <object>已开始单位</object>
+      </resource>
+      <resource name="UnitEnd">
+        <object>已终止单位</object>
+      </resource>
+      <resource name="OnHold">
+        <object>盛放</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.TransferStatus" ServiceOnly="false">
+      <resource name="NoTransfer">
+        <object>不得转移</object>
+      </resource>
+      <resource name="ReadyForTransfer">
+        <object>准备转移</object>
+      </resource>
+      <resource name="TransferComplete">
+        <object>转移完成</object>
+      </resource>
+      <resource name="TransferReceive">
+        <object>转移订单接收</object>
+      </resource>
+      <resource name="TransferInProgress">
+        <object>转移正在进行</object>
+      </resource>
+      <resource name="TransferError">
+        <object>转移错误</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderLineStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>已关闭</object>
+      </resource>
+      <resource name="Open">
+        <object>打开</object>
+      </resource>
+      <resource name="Complete">
+        <object>完成</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>已取消</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AssignType" ServiceOnly="false">
+      <resource name="All">
+        <object>允许全部</object>
+      </resource>
+      <resource name="Production">
+        <object>允许生产</object>
+      </resource>
+      <resource name="Direct">
+        <object>允许命令</object>
+      </resource>
+      <resource name="Input">
+        <object>允许输入</object>
+      </resource>
+      <resource name="NoAssign">
+        <object>允许无安排</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintObjectType" ServiceOnly="false">
+      <resource name="Inventory">
+        <object>库存</object>
+      </resource>
+      <resource name="Po">
+        <object>采购订单</object>
+      </resource>
+      <resource name="Supplier">
+        <object>供应商</object>
+      </resource>
+      <resource name="Site">
+        <object>站点</object>
+      </resource>
+      <resource name="Category">
+        <object>种类</object>
+      </resource>
+      <resource name="SectionType">
+        <object>部分类型</object>
+      </resource>
+      <resource name="BornIn">
+        <object>出生地</object>
+      </resource>
+      <resource name="RaisedIn">
+        <object>饲养地</object>
+      </resource>
+      <resource name="FatClass">
+        <object>脂肪等级</object>
+      </resource>
+      <resource name="Lot">
+        <object>批次</object>
+      </resource>
+      <resource name="LotQaMark1">
+        <object>批次 QA 分数 1</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintType" ServiceOnly="false">
+      <resource name="OnlyFrom">
+        <object>唯一来源</object>
+      </resource>
+      <resource name="NotFrom">
+        <object>并非来源</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ProcessAssignType" ServiceOnly="false">
+      <resource name="Fixed">
+        <object>固定</object>
+      </resource>
+      <resource name="Regular">
+        <object>临时</object>
+      </resource>
+      <resource name="Planned">
+        <object>计划</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.ForwardType" ServiceOnly="true">
+      <resource name="NoForward">
+        <object>未发送</object>
+      </resource>
+      <resource name="ForwardAll">
+        <object>发送所有</object>
+      </resource>
+      <resource name="ForwardActivity">
+        <object>发送业务</object>
+      </resource>
+      <resource name="ForwardPo">
+        <object>发送采购订单</object>
+      </resource>
+      <resource name="ForwardBatch">
+        <object>发送批</object>
+      </resource>
+      <resource name="ForwardLot">
+        <object>发送批次</object>
+      </resource>
+      <resource name="ForwardPlot">
+        <object>发送产品批次</object>
+      </resource>
+      <resource name="ForwardRmarea">
+        <object>发送资源区</object>
+      </resource>
+      <resource name="ForwardShift">
+        <object>发送班次</object>
+      </resource>
+      <resource name="ForwardProfileId">
+        <object>发送文档周期</object>
+      </resource>
+      <resource name="ForwardPrday">
+        <object>发送生产日期</object>
+      </resource>
+      <resource name="AssignPo">
+        <object>分配采购订单</object>
+      </resource>
+      <resource name="AssignLot">
+        <object>分配批次</object>
+      </resource>
+      <resource name="AssignPlot">
+        <object>分配产品批次</object>
+      </resource>
+      <resource name="AssignRmarea">
+        <object>分配资源区</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>未开始</object>
+      </resource>
+      <resource name="Active">
+        <object>使用中</object>
+      </resource>
+      <resource name="Completed">
+        <object>已完成</object>
+      </resource>
+      <resource name="OnHold">
+        <object>盛放</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>已取消</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineType" ServiceOnly="false">
+      <resource name="ContextPlan">
+        <object>内容计划</object>
+      </resource>
+      <resource name="ActivityPlan">
+        <object>主营业务</object>
+      </resource>
+      <resource name="PoPlan">
+        <object>采购订单</object>
+      </resource>
+      <resource name="BatchPlan">
+        <object>批量</object>
+      </resource>
+      <resource name="LotPlan">
+        <object>批次</object>
+      </resource>
+      <resource name="PlotPlan">
+        <object>产品批次</object>
+      </resource>
+      <resource name="RmareaPlan">
+        <object>资源区</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.InventoryType" ServiceOnly="false">
+      <resource name="Itemized">
+        <object>单位库存</object>
+      </resource>
+      <resource name="Container">
+        <object>货盘库存</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>未分列库存</object>
+      </resource>
+      <resource name="ItemizedStocktake">
+        <object>盘点丢失单位</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationStatus" ServiceOnly="false">
+      <resource name="Empty">
+        <object>空</object>
+      </resource>
+      <resource name="Filling">
+        <object>装满</object>
+      </resource>
+      <resource name="Full">
+        <object>完全</object>
+      </resource>
+      <resource name="Emptying">
+        <object>清空</object>
+      </resource>
+      <resource name="ConfirmEmpty">
+        <object>确认清空</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationUse" ServiceOnly="true">
+      <resource name="NoLocations">
+        <object>无位置</object>
+      </resource>
+      <resource name="AllowLocations">
+        <object>允许位置</object>
+      </resource>
+      <resource name="UseLocations">
+        <object>使用位置</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.BlockType" ServiceOnly="true">
+      <resource name="NoBlock">
+        <object>无模块</object>
+      </resource>
+      <resource name="HardwareBlock">
+        <object>硬件块</object>
+      </resource>
+      <resource name="OperatorBlock">
+        <object>运算块</object>
+      </resource>
+      <resource name="HwOpBlock">
+        <object>硬件和运算块</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PrdayStart" ServiceOnly="true">
+      <resource name="NotStarted">
+        <object>未开始</object>
+      </resource>
+      <resource name="Automatic">
+        <object>自动开始</object>
+      </resource>
+      <resource name="Manual">
+        <object>手动开始</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CheckStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="OkOverTarget">
+        <object>终止目标确定</object>
+      </resource>
+      <resource name="OkOnTarget">
+        <object>执行目标确定</object>
+      </resource>
+      <resource name="OkUnderTarget">
+        <object>根据目标确定</object>
+      </resource>
+      <resource name="OkT1">
+        <object>根据 T1 确定</object>
+      </resource>
+      <resource name="RejectOver">
+        <object>终止目标拒绝</object>
+      </resource>
+      <resource name="RejectT1">
+        <object>终止 T1 拒绝</object>
+      </resource>
+      <resource name="RejectT2">
+        <object>根据 T1 拒绝</object>
+      </resource>
+      <resource name="RejectUnder">
+        <object>重量不足拒绝</object>
+      </resource>
+      <resource name="RejectMetal">
+        <object>金属拒绝</object>
+      </resource>
+      <resource name="RejectLabel">
+        <object>标签拒绝</object>
+      </resource>
+      <resource name="RejectQa">
+        <object>QA 拒绝</object>
+      </resource>
+      <resource name="RejectOther">
+        <object>其他拒绝</object>
+      </resource>
+      <resource name="RejectNoWeight">
+        <object>无重量</object>
+      </resource>
+      <resource name="RejectInvalid">
+        <object>未知单位</object>
+      </resource>
+      <resource name="RejectPackaging">
+        <object>包装不可用</object>
+      </resource>
+      <resource name="RejectMissing">
+        <object>包装缺失</object>
+      </resource>
+      <resource name="RejectNoConnection">
+        <object>离线设备</object>
+      </resource>
+      <resource name="SelectQa">
+        <object>为 QA 选择</object>
+      </resource>
+      <resource name="UnusedSeperatorSpace">
+        <object>分离空间错误</object>
+      </resource>
+      <resource name="UnusedNoJob">
+        <object>未找到工作</object>
+      </resource>
+      <resource name="UnusedNoItemType">
+        <object>未找到项目类型</object>
+      </resource>
+      <resource name="UnusedWeighingError">
+        <object>称量错误</object>
+      </resource>
+      <resource name="UnusedNoVisionData">
+        <object>无视觉数据</object>
+      </resource>
+      <resource name="UnusedNoGrade">
+        <object>未找到等级</object>
+      </resource>
+      <resource name="UnusedVisionCondition">
+        <object>视觉条件失败</object>
+      </resource>
+      <resource name="UnusedNoGate">
+        <object>未找到分拣门</object>
+      </resource>
+      <resource name="UnusedRateError">
+        <object>比率控制错误</object>
+      </resource>
+      <resource name="UnusedNoOrder">
+        <object>未找到订单</object>
+      </resource>
+      <resource name="UnusedSeperatorGap">
+        <object>分离间隔错误</object>
+      </resource>
+      <resource name="UnusedBadStatisticalAllotment">
+        <object>数据分配过差</object>
+      </resource>
+      <resource name="RejectBone">
+        <object>骨头拒绝</object>
+      </resource>
+      <resource name="RejectTooShort">
+        <object>项目过短拒绝</object>
+      </resource>
+      <resource name="RejectTooLong">
+        <object>项目过长拒绝</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>项目</object>
+      </resource>
+      <resource name="Deleted">
+        <object>删除</object>
+      </resource>
+      <resource name="Compressed">
+        <object>已打包</object>
+      </resource>
+      <resource name="Consumed">
+        <object>已消耗</object>
+      </resource>
+      <resource name="Returned">
+        <object>已返回</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.AssignStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>打开</object>
+      </resource>
+      <resource name="OpenManual">
+        <object>打开操作</object>
+      </resource>
+      <resource name="Closed">
+        <object>已关闭</object>
+      </resource>
+      <resource name="ClosedManual">
+        <object>已手动关闭</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>包装</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>未分列</object>
+      </resource>
+      <resource name="Pending">
+        <object>待定</object>
+      </resource>
+      <resource name="Deleted">
+        <object>已删除</object>
+      </resource>
+      <resource name="Invalid">
+        <object>无效</object>
+      </resource>
+      <resource name="Compressed">
+        <object>已打包</object>
+      </resource>
+      <resource name="Consumed">
+        <object>已消耗</object>
+      </resource>
+      <resource name="Returned">
+        <object>已返回</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>集合</object>
+      </resource>
+      <resource name="Deleted">
+        <object>已删除</object>
+      </resource>
+      <resource name="Consumed">
+        <object>已消耗</object>
+      </resource>
+      <resource name="Returned">
+        <object>已返回</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.BomRType" ServiceOnly="false">
+      <resource name="None">
+        <object>无</object>
+      </resource>
+      <resource name="Input">
+        <object>输入</object>
+      </resource>
+      <resource name="Output">
+        <object>输出</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>已创建</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>到库存</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>来自库存</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>至订单</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>来自订单</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>到集合</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>来自集合</object>
+      </resource>
+      <resource name="Deleted">
+        <object>已删除</object>
+      </resource>
+      <resource name="Consumed">
+        <object>已消耗</object>
+      </resource>
+      <resource name="ConsumedPartial">
+        <object>部分消耗</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>降低消耗</object>
+      </resource>
+      <resource name="DeConsumedPartial">
+        <object>部分降低消耗</object>
+      </resource>
+      <resource name="Returned">
+        <object>已返回</object>
+      </resource>
+      <resource name="Opened">
+        <object>已打开</object>
+      </resource>
+      <resource name="Closed">
+        <object>已关闭</object>
+      </resource>
+      <resource name="Received">
+        <object>已返回</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>来自库存位置</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>到库存位置</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>已创建</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>到库存</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>来自库存</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>至订单</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>来自订单</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>到集合</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>来自集合</object>
+      </resource>
+      <resource name="Deleted">
+        <object>已删除</object>
+      </resource>
+      <resource name="Consumed">
+        <object>已消耗</object>
+      </resource>
+      <resource name="Opened">
+        <object>已打开</object>
+      </resource>
+      <resource name="Closed">
+        <object>已关闭</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>降低消耗</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>来自库存位置</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>到库存位置</object>
+      </resource>
+      <resource name="Returned">
+        <object>已返回</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.MatxferRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>转移</object>
+      </resource>
+      <resource name="Deleted">
+        <object>已删除</object>
+      </resource>
+      <resource name="Invalid">
+        <object>无效</object>
+      </resource>
+      <resource name="Compressed">
+        <object>已打包</object>
+      </resource>
+      <resource name="Yield">
+        <object>产量</object>
+      </resource>
+      <resource name="Reverse">
+        <object>倒序</object>
+      </resource>
+      <resource name="Generated">
+        <object>生成</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.TimeRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>时间</object>
+      </resource>
+      <resource name="Holiday">
+        <object>假期</object>
+      </resource>
+      <resource name="Deleted">
+        <object>已删除</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.AccessLogRType" ServiceOnly="false">
+      <resource name="Granted">
+        <object>允许访问</object>
+      </resource>
+      <resource name="NotInGroup">
+        <object>不在访问组</object>
+      </resource>
+      <resource name="NotAtThisTime">
+        <object>无效访问时间</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>无效 id</object>
+      </resource>
+      <resource name="IsIn">
+        <object>已经在里面</object>
+      </resource>
+      <resource name="IsOut">
+        <object>已经在外面</object>
+      </resource>
+      <resource name="TimeReg">
+        <object>时间记录</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ContainerRType" ServiceOnly="false">
+      <resource name="Assign">
+        <object>已分配单位</object>
+      </resource>
+      <resource name="Position">
+        <object>位置更改</object>
+      </resource>
+      <resource name="DeAssign">
+        <object>未分配单位</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationClass" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="CreateItem">
+        <object>创建项目</object>
+      </resource>
+      <resource name="CreatePack">
+        <object>创建包装</object>
+      </resource>
+      <resource name="Item">
+        <object>项操作</object>
+      </resource>
+      <resource name="Pack">
+        <object>包装操作</object>
+      </resource>
+      <resource name="IdContainer">
+        <object>货盘操作</object>
+      </resource>
+      <resource name="Stack">
+        <object>堆放操作</object>
+      </resource>
+      <resource name="Pallet">
+        <object>托盘操作</object>
+      </resource>
+      <resource name="Container">
+        <object>集装箱操作</object>
+      </resource>
+      <resource name="Shipment">
+        <object>装运操作</object>
+      </resource>
+      <resource name="CreateCollection">
+        <object>创建集合</object>
+      </resource>
+      <resource name="CreateTransaction">
+        <object>创建交易</object>
+      </resource>
+      <resource name="Inventory">
+        <object>库存操作</object>
+      </resource>
+      <resource name="Order">
+        <object>订单操作</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>订单生产线操作</object>
+      </resource>
+      <resource name="Po">
+        <object>采购订单操作</object>
+      </resource>
+      <resource name="PoLine">
+        <object>采购订单生产线操作</object>
+      </resource>
+      <resource name="Transaction">
+        <object>交易操作</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderType" ServiceOnly="true">
+      <resource name="Login">
+        <object>登录</object>
+      </resource>
+      <resource name="LoginAndAccess">
+        <object>登录和访问控制</object>
+      </resource>
+      <resource name="Logout">
+        <object>登出</object>
+      </resource>
+      <resource name="LogoutAndExit">
+        <object>登出和退出控制</object>
+      </resource>
+      <resource name="AccessControl">
+        <object>访问控制</object>
+      </resource>
+      <resource name="SignalOut">
+        <object>信号输出</object>
+      </resource>
+      <resource name="RegisterId">
+        <object>登记 Id</object>
+      </resource>
+      <resource name="ExitControl">
+        <object>退出控制</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderLogging" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>未登录</object>
+      </resource>
+      <resource name="LogAccess">
+        <object>日志访问</object>
+      </resource>
+      <resource name="LogUse">
+        <object>记录所有使用</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Costing.CostBase" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="PerDay">
+        <object>每日固定</object>
+      </resource>
+      <resource name="PerInput">
+        <object>每单位原材料</object>
+      </resource>
+      <resource name="PerOutput">
+        <object>每单位产品</object>
+      </resource>
+      <resource name="PerRuntime">
+        <object>每小时运行时间</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.ExpiryReferenceDate" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>生产日期</object>
+      </resource>
+      <resource name="RegTime">
+        <object>登记时间</object>
+      </resource>
+      <resource name="PoFirstDay">
+        <object>采购订单首次捕获日期</object>
+      </resource>
+      <resource name="PoLastDay">
+        <object>采购订单最后捕获日期</object>
+      </resource>
+      <resource name="PoDeliveryTime">
+        <object>采购订单交货时间</object>
+      </resource>
+      <resource name="PoCatchDay">
+        <object>采购订单捕获日期</object>
+      </resource>
+      <resource name="OrderPoFirstDay">
+        <object>订购采购订单首次捕获日期</object>
+      </resource>
+      <resource name="OrderPoLastDay">
+        <object>订购采购订单最后捕获日期</object>
+      </resource>
+      <resource name="OrderPoDeliveryTime">
+        <object>订购采购订单发货时间</object>
+      </resource>
+      <resource name="OrderPoCatchDay">
+        <object>订购采购订单捕获日期</object>
+      </resource>
+      <resource name="Custom">
+        <object>自定义</object>
+      </resource>
+      <resource name="OrderDispatchTime">
+        <object>订单发货时间</object>
+      </resource>
+      <resource name="LotSlday">
+        <object>批次屠宰日期</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyContextType" ServiceOnly="true">
+      <resource name="TargetSource">
+        <object>目标路径</object>
+      </resource>
+      <resource name="TargetDestination">
+        <object>目标路径目标</object>
+      </resource>
+      <resource name="CopySource">
+        <object>复制路径</object>
+      </resource>
+      <resource name="CopyDestination">
+        <object>复制路径目标</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyMethod" ServiceOnly="true">
+      <resource name="Add">
+        <object>添加</object>
+      </resource>
+      <resource name="Subtract">
+        <object>减少</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PackRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>无记录</object>
+      </resource>
+      <resource name="Instance">
+        <object>记录每个包装</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PathRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>无记录</object>
+      </resource>
+      <resource name="Instance">
+        <object>记录每笔交易</object>
+      </resource>
+      <resource name="Periodic">
+        <object>周期性记录</object>
+      </resource>
+      <resource name="Update">
+        <object>更新一个记录</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.SelectRuleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>输入选择</object>
+      </resource>
+      <resource name="Output">
+        <object>输出选择</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.PlotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>盛放</object>
+      </resource>
+      <resource name="Available">
+        <object>可用</object>
+      </resource>
+      <resource name="Completed">
+        <object>已完成</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.ContextSource" ServiceOnly="true">
+      <resource name="Reference">
+        <object>自动</object>
+      </resource>
+      <resource name="Source">
+        <object>来源</object>
+      </resource>
+      <resource name="Destination">
+        <object>目标</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.Result" ServiceOnly="false">
+      <resource name="Ok">
+        <object>确定</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>不支持操作</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>过程单元信息缺失</object>
+      </resource>
+      <resource name="NoMaterial">
+        <object>材料信息缺失</object>
+      </resource>
+      <resource name="NoProcessPeriod">
+        <object>过程周期信息缺失</object>
+      </resource>
+      <resource name="NoProductionDay">
+        <object>生产日期信息缺失</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>发生数据库错误</object>
+      </resource>
+      <resource name="NoSSCC">
+        <object>公司缺失 SSCC 信息</object>
+      </resource>
+      <resource name="CreateSSCC">
+        <object>无法创建 SSCC，前缀可能无效</object>
+      </resource>
+      <resource name="HasOrder">
+        <object>将单位分配给订单</object>
+      </resource>
+      <resource name="InStack">
+        <object>将单位分配给堆</object>
+      </resource>
+      <resource name="OnPallet">
+        <object>将单位分配给托盘</object>
+      </resource>
+      <resource name="InContainer">
+        <object>将单位分配给集装箱</object>
+      </resource>
+      <resource name="InShipment">
+        <object>将单位分配给装运</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>无可用订单</object>
+      </resource>
+      <resource name="IterationTransaction">
+        <object>不允许重复交易</object>
+      </resource>
+      <resource name="NoCreateCount">
+        <object>缺失单位编号</object>
+      </resource>
+      <resource name="XmlParse">
+        <object>无法解析 XML</object>
+      </resource>
+      <resource name="NoStation">
+        <object>工位信息缺失</object>
+      </resource>
+      <resource name="NoPo">
+        <object>采购订单信息缺失</object>
+      </resource>
+      <resource name="NoPlot">
+        <object>产品批次信息缺失</object>
+      </resource>
+      <resource name="NoCurrentPack">
+        <object>无当前包装</object>
+      </resource>
+      <resource name="Conversion">
+        <object>值转换字符串失败</object>
+      </resource>
+      <resource name="OrderNotFound">
+        <object>不能从数据库中加载订单</object>
+      </resource>
+      <resource name="MaterialNotFound">
+        <object>不能从数据库中加载材料</object>
+      </resource>
+      <resource name="UnitType">
+        <object>无效单位操作类型</object>
+      </resource>
+      <resource name="OperationLoad">
+        <object>不能从数据库中加载操作</object>
+      </resource>
+      <resource name="NoPack">
+        <object>包装信息缺失</object>
+      </resource>
+      <resource name="NoSite">
+        <object>站点信息缺失</object>
+      </resource>
+      <resource name="Configuration">
+        <object>无效操作配置</object>
+      </resource>
+      <resource name="InvalidScope">
+        <object>无效单位检索范围</object>
+      </resource>
+      <resource name="NoStack">
+        <object>堆信息缺失</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>托盘信息缺失</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>集合状态不允许操作</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>集合信息缺失</object>
+      </resource>
+      <resource name="NotInStack">
+        <object>单元不在堆内</object>
+      </resource>
+      <resource name="NotOnPallet">
+        <object>单元不在托盘上</object>
+      </resource>
+      <resource name="NotInContainer">
+        <object>单元不在集装箱内</object>
+      </resource>
+      <resource name="NotInShipment">
+        <object>单元不在装运内</object>
+      </resource>
+      <resource name="NoInventory">
+        <object>库存信息缺失</object>
+      </resource>
+      <resource name="NoItem">
+        <object>项目信息缺失</object>
+      </resource>
+      <resource name="NoOrderLine">
+        <object>订单生产线信息缺失</object>
+      </resource>
+      <resource name="Transaction">
+        <object>交易错误</object>
+      </resource>
+      <resource name="TransactionDeadlock">
+        <object>交易死锁</object>
+      </resource>
+      <resource name="NotInventory">
+        <object>指定过程单元不是库存</object>
+      </resource>
+      <resource name="InventoryReject">
+        <object>库存不接受单元</object>
+      </resource>
+      <resource name="OnInventory">
+        <object>单元已在库存中</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>单元不是库存</object>
+      </resource>
+      <resource name="UnitStatus">
+        <object>单元状态不允许操作</object>
+      </resource>
+      <resource name="NoContainer">
+        <object>集装箱信息缺失</object>
+      </resource>
+      <resource name="NoShipment">
+        <object>装运信息缺失</object>
+      </resource>
+      <resource name="LoadSite">
+        <object>不能从数据库中加载站点信息</object>
+      </resource>
+      <resource name="LoadCompany">
+        <object>不能从数据库中加载公司信息</object>
+      </resource>
+      <resource name="HasPacks">
+        <object>由于集合有包装，所以不能执行操作 </object>
+      </resource>
+      <resource name="HasStacks">
+        <object>由于集合有堆放，所以不能执行操作</object>
+      </resource>
+      <resource name="HasPallets">
+        <object>由于集合有托盘，所以不能执行操作</object>
+      </resource>
+      <resource name="HasContainers">
+        <object>由于集合有集装箱，所以不能执行操作</object>
+      </resource>
+      <resource name="FailOperation">
+        <object>操作明显失败</object>
+      </resource>
+      <resource name="InPack">
+        <object>单元已在包装中</object>
+      </resource>
+      <resource name="NotInPack">
+        <object>单元不在包装中</object>
+      </resource>
+      <resource name="PackStatus">
+        <object>包装状态不允许操作</object>
+      </resource>
+      <resource name="OrderType">
+        <object>无效操作订单类型</object>
+      </resource>
+      <resource name="Exception">
+        <object>应用程序例外</object>
+      </resource>
+      <resource name="OperationClass">
+        <object>无效操作类别</object>
+      </resource>
+      <resource name="NoSource">
+        <object>源过程单元信息缺失</object>
+      </resource>
+      <resource name="NoDestination">
+        <object>目标过程单元信息缺失</object>
+      </resource>
+      <resource name="MaterialTransaction">
+        <object>无法记录材料交易</object>
+      </resource>
+      <resource name="MatchContext">
+        <object>过程单元状态不允许操作</object>
+      </resource>
+      <resource name="TransactionConfig">
+        <object>交易系统未配置操作</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>获取远程服务界面失败</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>未找到远程界面信息</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>未找到远程服务信息</object>
+      </resource>
+      <resource name="NoOperationData">
+        <object>操作数据缺失</object>
+      </resource>
+      <resource name="NoPrintFields">
+        <object>打印字段信息缺失</object>
+      </resource>
+      <resource name="NoPieceCount">
+        <object>件数信息缺失</object>
+      </resource>
+      <resource name="ItemLoad">
+        <object>无法加载项目记录</object>
+      </resource>
+      <resource name="ItemInsert">
+        <object>无法插入项目记录</object>
+      </resource>
+      <resource name="ItemUpdate">
+        <object>无法更新项目记录</object>
+      </resource>
+      <resource name="ItemRType">
+        <object>项目记录类型不允许操作</object>
+      </resource>
+      <resource name="PackLoad">
+        <object>无法加载包装记录</object>
+      </resource>
+      <resource name="PackInsert">
+        <object>无法插入包装记录</object>
+      </resource>
+      <resource name="PackUpdate">
+        <object>无法更新包装记录</object>
+      </resource>
+      <resource name="PackRType">
+        <object>包装记录类型不允许操作</object>
+      </resource>
+      <resource name="CollectionLoad">
+        <object>无法加载集合记录</object>
+      </resource>
+      <resource name="CollectionInsert">
+        <object>无法插入集合记录</object>
+      </resource>
+      <resource name="CollectionUpdate">
+        <object>无法更新集合记录</object>
+      </resource>
+      <resource name="CollectionRType">
+        <object>集合记录类型不允许操作</object>
+      </resource>
+      <resource name="CollectionUnitType">
+        <object>集合单元类型不允许操作</object>
+      </resource>
+      <resource name="NoOrderStatus">
+        <object>订单状态信息缺失</object>
+      </resource>
+      <resource name="NotInOrder">
+        <object>单元未分配给订单</object>
+      </resource>
+      <resource name="OrderLoad">
+        <object>不能从数据库中加载订单信息</object>
+      </resource>
+      <resource name="OrderLineLoad">
+        <object>不能从数据库中加载订单生产线信息</object>
+      </resource>
+      <resource name="OrderStatus">
+        <object>订单状态不允许操作</object>
+      </resource>
+      <resource name="OrderLineStatus">
+        <object>订单生产线状态不允许操作</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>无法创建过程单元操作</object>
+      </resource>
+      <resource name="InProgress">
+        <object>操作正在进行</object>
+      </resource>
+      <resource name="NotSet">
+        <object>结果未设置</object>
+      </resource>
+      <resource name="NoExternalNumber">
+        <object>外部编号缺失</object>
+      </resource>
+      <resource name="NoExternalCode">
+        <object>外部代码缺失</object>
+      </resource>
+      <resource name="PrintFailed">
+        <object>打印操作失败</object>
+      </resource>
+      <resource name="CustomOpNotLoaded">
+        <object>未加载自定义操作</object>
+      </resource>
+      <resource name="CustomOpInfoMissing">
+        <object>部分自定义操作信息缺失</object>
+      </resource>
+      <resource name="CustomOpXmlMissing">
+        <object>自定义操作 XML 定义缺失</object>
+      </resource>
+      <resource name="CustomException">
+        <object>自定义操作例外</object>
+      </resource>
+      <resource name="Validation">
+        <object>验证错误</object>
+      </resource>
+      <resource name="PreOperation">
+        <object>操作前错误</object>
+      </resource>
+      <resource name="DoOperation">
+        <object>操作错误</object>
+      </resource>
+      <resource name="PostOperation">
+        <object>操作后错误</object>
+      </resource>
+      <resource name="NoCatchDay">
+        <object>捕获日期信息缺失</object>
+      </resource>
+      <resource name="InvalidInventory">
+        <object>无效库存操作</object>
+      </resource>
+      <resource name="LoadType">
+        <object>加载类型失败</object>
+      </resource>
+      <resource name="UnitCount">
+        <object>无效指定单元编号</object>
+      </resource>
+      <resource name="ConvertedInventory">
+        <object>已转换集合所在库存与包装库存不匹配</object>
+      </resource>
+      <resource name="ConvertedOrder">
+        <object>已转换集合所在订单与包装订单不匹配</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>重量信息缺失</object>
+      </resource>
+      <resource name="NoProperty">
+        <object>属性名称缺失</object>
+      </resource>
+      <resource name="NotProperty">
+        <object>所给名称不是属性名</object>
+      </resource>
+      <resource name="QcHold">
+        <object>单元用来存放 QC</object>
+      </resource>
+      <resource name="PoStatus">
+        <object>采购订单状态不允许操作</object>
+      </resource>
+      <resource name="InvalidPartialAmount">
+        <object>不能用指定数量修改单元</object>
+      </resource>
+      <resource name="NoPoLine">
+        <object>没有采购订单生产线符合指定产品</object>
+      </resource>
+      <resource name="HasPoLine">
+        <object>已分配采购订单生产线</object>
+      </resource>
+      <resource name="NoMaterialTransaction">
+        <object>未记录材料交易</object>
+      </resource>
+      <resource name="NoStockTake">
+        <object>无活动盘点</object>
+      </resource>
+      <resource name="StartStockTake">
+        <object>无法开始盘点，一个可能已在使用中</object>
+      </resource>
+      <resource name="StockTakeMethod">
+        <object>库存盘点方法不允许操作</object>
+      </resource>
+      <resource name="StockTakeUnitLoad">
+        <object>单元无效盘点信息</object>
+      </resource>
+      <resource name="StockTakeUnitType">
+        <object>盘点不是为这类单元建立的</object>
+      </resource>
+      <resource name="StockTakeStatus">
+        <object>盘点状态不允许操作</object>
+      </resource>
+      <resource name="ScriptingError">
+        <object>错误执行脚本</object>
+      </resource>
+      <resource name="InventoryKeepMin">
+        <object>单元不够旧</object>
+      </resource>
+      <resource name="InventoryKeepMax">
+        <object>单元过旧</object>
+      </resource>
+      <resource name="NoValue">
+        <object>单元价值缺失</object>
+      </resource>
+      <resource name="LogRecordLoad">
+        <object>错误加载日志记录</object>
+      </resource>
+      <resource name="LogRecordExecuted">
+        <object>日志记录已执行</object>
+      </resource>
+      <resource name="InventoryType">
+        <object>库存类型不允许操作</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>批信息缺失</object>
+      </resource>
+      <resource name="NoLot">
+        <object>批次信息缺失</object>
+      </resource>
+      <resource name="NoProductionLot">
+        <object>产品批次信息缺失</object>
+      </resource>
+      <resource name="NoRmArea">
+        <object>资源区信息缺失</object>
+      </resource>
+      <resource name="InvalidAmount">
+        <object>无效数量</object>
+      </resource>
+      <resource name="NoInventoryStatus">
+        <object>未找到库存状态记录</object>
+      </resource>
+      <resource name="MultipleInventoryStatus">
+        <object>找到多个库存状态记录</object>
+      </resource>
+      <resource name="FeatureNotLicensed">
+        <object>未许可功能</object>
+      </resource>
+      <resource name="CodeNotFound">
+        <object>未找到有指定代码的对象</object>
+      </resource>
+      <resource name="InvalidMessageFields">
+        <object>信息字段建立无效</object>
+      </resource>
+      <resource name="BomNotFound">
+        <object>未在数据库中找到 BOM</object>
+      </resource>
+      <resource name="NotInBom">
+        <object>指定产品不在 BOM 中</object>
+      </resource>
+      <resource name="NoBom">
+        <object>未指定 BOM</object>
+      </resource>
+      <resource name="NoBomRType">
+        <object>"&gt;未指定 BOM 记录类型</object>
+      </resource>
+      <resource name="PrunitBom">
+        <object>该过程单元没有所需 BOM 信息</object>
+      </resource>
+      <resource name="LotBom">
+        <object>该批次没有所需 BOM 信息</object>
+      </resource>
+      <resource name="ProductionLotBom">
+        <object>该产品批次没有所需 BOM 信息</object>
+      </resource>
+      <resource name="InvalidDate">
+        <object>无效操作日期</object>
+      </resource>
+      <resource name="PartialAdjust">
+        <object>无法调整部分包装的内容</object>
+      </resource>
+      <resource name="NoCategory">
+        <object>种类信息缺失</object>
+      </resource>
+      <resource name="NoQuality">
+        <object>品质信息缺失</object>
+      </resource>
+      <resource name="NoFatClass">
+        <object>脂肪等级信息缺失</object>
+      </resource>
+      <resource name="SelectYieldGroup">
+        <object>选择产量组失败</object>
+      </resource>
+      <resource name="NoRiCountry">
+        <object>出生国家/地区信息缺失</object>
+      </resource>
+      <resource name="NoBrCountry">
+        <object>饲养国家/地区信息缺失</object>
+      </resource>
+      <resource name="NoSlaughterHouse">
+        <object>屠宰场信息缺失</object>
+      </resource>
+      <resource name="NoSlaughterDay">
+        <object>屠宰日期信息缺失</object>
+      </resource>
+      <resource name="NoProcessor">
+        <object>加工企业信息缺失</object>
+      </resource>
+      <resource name="SelectLot">
+        <object>选择批次失败</object>
+      </resource>
+      <resource name="IndividualLoad">
+        <object>无法加载单个记录</object>
+      </resource>
+      <resource name="NoYieldGroup">
+        <object>产量组信息缺失</object>
+      </resource>
+      <resource name="PalletNotReserved">
+        <object>托盘未按顺序储存</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>产品不相符</object>
+      </resource>
+      <resource name="Station">
+        <object>无法创建操作工位</object>
+      </resource>
+      <resource name="InvalidExpiry">
+        <object>无效到期日期</object>
+      </resource>
+      <resource name="InvlocationFull">
+        <object>库存位置满</object>
+      </resource>
+      <resource name="InvlocationMissing">
+        <object>所需库存位置缺失</object>
+      </resource>
+      <resource name="InvalidInvlocation">
+        <object>指定位置无效</object>
+      </resource>
+      <resource name="StartStocktakeLocationActive">
+        <object>因为该位置正执行计算，所以不能开始库存盘点</object>
+      </resource>
+      <resource name="StartStocktakeInventoryActive">
+        <object>因为该库存正执行计算，所以该位置不能开始盘点。</object>
+      </resource>
+      <resource name="TransferStatus">
+        <object>无效订单转移状态</object>
+      </resource>
+      <resource name="ParentOrderCheckFailed">
+        <object>父订单检查失败</object>
+      </resource>
+      <resource name="GetExportProcess">
+        <object>无效导出过程配置</object>
+      </resource>
+      <resource name="NoSupplier">
+        <object>没有采购订单或没有指定供应商的采购订单</object>
+      </resource>
+      <resource name="NoExportProcess">
+        <object>未确定导出过程</object>
+      </resource>
+      <resource name="InvaidExportProcess">
+        <object>未找到导出过程</object>
+      </resource>
+      <resource name="HasPo">
+        <object>单元已分配给采购订单</object>
+      </resource>
+      <resource name="OrderAmountExceeded">
+        <object>超过订单数量</object>
+      </resource>
+      <resource name="OrderLineAmountExceeded">
+        <object>超过订单生产线数量</object>
+      </resource>
+      <resource name="PlotStatus">
+        <object>计划状态不允许操作</object>
+      </resource>
+      <resource name="NotInSourceBom">
+        <object>指定产品不在源 BOM 中</object>
+      </resource>
+      <resource name="NotInDestinationBom">
+        <object>指定产品不在目标 BOM 中</object>
+      </resource>
+      <resource name="SourcePrunitBom">
+        <object>该源过程单元没有所需 BOM 信息</object>
+      </resource>
+      <resource name="DestinationPrunitBom">
+        <object>该目标过程单元没有所需 BOM 信息</object>
+      </resource>
+      <resource name="SourceLotBom">
+        <object>该源批次没有所需 BOM 信息</object>
+      </resource>
+      <resource name="DestinationLotBom">
+        <object>该目标批次没有所需 BOM 信息</object>
+      </resource>
+      <resource name="SourceProductionLotBom">
+        <object>该源产品批次没有所需 BOM 信息</object>
+      </resource>
+      <resource name="DestinationProductionLotBom">
+        <object>该目标产品批次没有所需 BOM 信息</object>
+      </resource>
+      <resource name="NoInputOrderLine">
+        <object>未找到输入订单生产线</object>
+      </resource>
+      <resource name="TooManyInputOrderLines">
+        <object>找到过多输入订单生产线</object>
+      </resource>
+      <resource name="NoOrderShipment">
+        <object>订单装运信息缺失</object>
+      </resource>
+      <resource name="NotMatchingOrderShipment">
+        <object>装运与订单装运不匹配</object>
+      </resource>
+      <resource name="OrderMismatch">
+        <object>包装与集合订单不匹配</object>
+      </resource>
+      <resource name="POrderMismatch">
+        <object>包装与集合生产订单不匹配</object>
+      </resource>
+      <resource name="NoStocktakeLostInventory">
+        <object>丢失(&amp;&amp;L)发现库存不可用</object>
+      </resource>
+      <resource name="PrintPreviewFailed">
+        <object>打印预览操作失败</object>
+      </resource>
+      <resource name="ItemCreateCountTooHigh">
+        <object>要创建的项目数量高于系统允许的最大值</object>
+      </resource>
+      <resource name="PackCreateCountTooHigh">
+        <object>要创建的包装数量高于系统允许的最大值</object>
+      </resource>
+      <resource name="StackCreateCountTooHigh">
+        <object>要创建的堆数量高于系统允许的最大值</object>
+      </resource>
+      <resource name="PalletCreateCountTooHigh">
+        <object>要创建的托盘数量高于系统允许的最大值</object>
+      </resource>
+      <resource name="HasTemplate">
+        <object>集合已有模板</object>
+      </resource>
+      <resource name="LocationRefusedItem">
+        <object>库存位置拒绝项目</object>
+      </resource>
+      <resource name="LocationRefusedPack">
+        <object>库存位置拒绝包装</object>
+      </resource>
+      <resource name="BomNoOutputProducts">
+        <object>Bom 没有输出产品</object>
+      </resource>
+      <resource name="LotQaMarkMismatch">
+        <object>单元 QA 分数与该批次 QA 分数不匹配</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.EmployeeResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>确定</object>
+      </resource>
+      <resource name="DbError">
+        <object>数据库错误</object>
+      </resource>
+      <resource name="NotFound">
+        <object>未找到雇员</object>
+      </resource>
+      <resource name="MultipleFound">
+        <object>查找已返回的多个记录</object>
+      </resource>
+      <resource name="Invalid">
+        <object>无效雇员信息</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>按列表</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>全部</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.NumberMethod" ServiceOnly="false">
+      <resource name="OwnNumber">
+        <object>占有数字</object>
+      </resource>
+      <resource name="ParentNumber">
+        <object>来自主订单</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>已关闭</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>已取消</object>
+      </resource>
+      <resource name="OnHold">
+        <object>盛放</object>
+      </resource>
+      <resource name="Open">
+        <object>打开</object>
+      </resource>
+      <resource name="Complete">
+        <object>完成</object>
+      </resource>
+      <resource name="CompleteClosed">
+        <object>完成(&amp;&amp;C)已关闭</object>
+      </resource>
+      <resource name="Dispatched">
+        <object>已发货</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderType" ServiceOnly="false">
+      <resource name="Customer">
+        <object>销售</object>
+      </resource>
+      <resource name="Inventory">
+        <object>库存</object>
+      </resource>
+      <resource name="Production">
+        <object>生产 </object>
+      </resource>
+      <resource name="Transfer">
+        <object>转移</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationSetType" ServiceOnly="true">
+      <resource name="Generic">
+        <object>通用</object>
+      </resource>
+      <resource name="DefaultItem">
+        <object>默认项</object>
+      </resource>
+      <resource name="DefaultPack">
+        <object>默认包装</object>
+      </resource>
+      <resource name="DefaultStack">
+        <object>默认堆</object>
+      </resource>
+      <resource name="DefaultPallet">
+        <object>默认托盘</object>
+      </resource>
+      <resource name="DefaultContainer">
+        <object>默认集装箱</object>
+      </resource>
+      <resource name="DefaultShipment">
+        <object>默认装运</object>
+      </resource>
+      <resource name="DefaultOrder">
+        <object>默认订单</object>
+      </resource>
+      <resource name="DefaultOrderLine">
+        <object>默认订单生产线</object>
+      </resource>
+      <resource name="DefaultInventory">
+        <object>默认库存</object>
+      </resource>
+      <resource name="DefaultTransaction">
+        <object>默认交易</object>
+      </resource>
+      <resource name="DefaultInventorySnapshot">
+        <object>默认库存快照</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.DataStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>打开</object>
+      </resource>
+      <resource name="Closed">
+        <object>已关闭</object>
+      </resource>
+      <resource name="Invalid">
+        <object>无效</object>
+      </resource>
+      <resource name="PendingClose">
+        <object>关闭待定</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.UnitInventoryStatus" ServiceOnly="false">
+      <resource name="Available">
+        <object>可用</object>
+      </resource>
+      <resource name="QcHold">
+        <object>为 QC 盛放</object>
+      </resource>
+      <resource name="Lost">
+        <object>丢失</object>
+      </resource>
+      <resource name="Reserved">
+        <object>保存</object>
+      </resource>
+      <resource name="PickedUp">
+        <object>捡起</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>不在库存中</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.CountStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>未找到</object>
+      </resource>
+      <resource name="Left">
+        <object>保留</object>
+      </resource>
+      <resource name="Entered">
+        <object>已输入</object>
+      </resource>
+      <resource name="Found">
+        <object>找到</object>
+      </resource>
+      <resource name="New">
+        <object>新建</object>
+      </resource>
+      <resource name="Error">
+        <object>错误</object>
+      </resource>
+      <resource name="RType">
+        <object>无效状态</object>
+      </resource>
+      <resource name="NotLeft">
+        <object>未保留</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>无盘点</object>
+      </resource>
+      <resource name="CountUnits">
+        <object>计数项和包装</object>
+      </resource>
+      <resource name="CountStacks">
+        <object>计数堆</object>
+      </resource>
+      <resource name="CountPallets">
+        <object>计数托盘</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeStatus" ServiceOnly="false">
+      <resource name="Active">
+        <object>使用中</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>已取消</object>
+      </resource>
+      <resource name="CountDone">
+        <object>计数结束</object>
+      </resource>
+      <resource name="Completed">
+        <object>已完成</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeType" ServiceOnly="false">
+      <resource name="Count">
+        <object>单元计数</object>
+      </resource>
+      <resource name="Snapshot">
+        <object>快照</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoAcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>按列表</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>全部</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Utilities.FormatText" ServiceOnly="false">
+      <resource name="Stack">
+        <object>堆</object>
+      </resource>
+      <resource name="Pallet">
+        <object>托盘</object>
+      </resource>
+      <resource name="Order">
+        <object>订单</object>
+      </resource>
+      <resource name="UnlimitedOrder">
+        <object>无限制</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>无</object>
+      </resource>
+      <resource name="Packs">
+        <object>包装</object>
+      </resource>
+      <resource name="Items">
+        <object>项目</object>
+      </resource>
+      <resource name="Pcs">
+        <object>件数</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PlanStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>无计划</object>
+      </resource>
+      <resource name="Partial">
+        <object>部分计划</object>
+      </resource>
+      <resource name="Complete">
+        <object>完成</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CarcassForm" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="Whole">
+        <object>整体</object>
+      </resource>
+      <resource name="Split">
+        <object>分割</object>
+      </resource>
+      <resource name="Quartered">
+        <object>四等分</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>已创建</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>到库存</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>来自库存</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>至订单</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>来自订单</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>到集合</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>来自集合</object>
+      </resource>
+      <resource name="Deleted">
+        <object>已删除</object>
+      </resource>
+      <resource name="Consumed">
+        <object>已消耗</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>减少消耗</object>
+      </resource>
+      <resource name="Received">
+        <object>已返回</object>
+      </resource>
+      <resource name="Returned">
+        <object>已返回</object>
+      </resource>
+      <resource name="ToPack">
+        <object>到包装</object>
+      </resource>
+      <resource name="FromPack">
+        <object>来自包装</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>来自库存位置</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>到库存位置</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.RmAreaRelationType" ServiceOnly="false">
+      <resource name="NoRelation">
+        <object>未设置</object>
+      </resource>
+      <resource name="PoSupplier">
+        <object>采购订单供应商</object>
+      </resource>
+      <resource name="PoProducer">
+        <object>采购订单生产商</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.StationType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>工位</object>
+      </resource>
+      <resource name="InLoadbay">
+        <object>接收</object>
+      </resource>
+      <resource name="OutLoadbay">
+        <object>发货</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.IdContainer.IdContainerModel" ServiceOnly="false">
+      <resource name="welcome">
+        <object>准备好工作</object>
+      </resource>
+      <resource name="clear">
+        <object>清除</object>
+      </resource>
+      <resource name="record">
+        <object>记录</object>
+      </resource>
+      <resource name="ExtId1">
+        <object>Id 1:  </object>
+      </resource>
+      <resource name="ExtId2">
+        <object>Id 2:  </object>
+      </resource>
+      <resource name="ExtCode">
+        <object>板上数量:   </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.LimitUnit" ServiceOnly="false">
+      <resource name="Months">
+        <object>月</object>
+      </resource>
+      <resource name="Days">
+        <object>日</object>
+      </resource>
+      <resource name="Hours">
+        <object>小时</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.YieldGroupType" ServiceOnly="false">
+      <resource name="Internal">
+        <object>内部</object>
+      </resource>
+      <resource name="Official">
+        <object>官方</object>
+      </resource>
+      <resource name="External">
+        <object>外部</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.SlaughterType" ServiceOnly="false">
+      <resource name="Proprietary">
+        <object>业主</object>
+      </resource>
+      <resource name="Contract">
+        <object>契约屠宰</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.SectionType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>通用</object>
+      </resource>
+      <resource name="Whole">
+        <object>整体</object>
+      </resource>
+      <resource name="Side">
+        <object>侧</object>
+      </resource>
+      <resource name="LeftSide">
+        <object>左侧</object>
+      </resource>
+      <resource name="RightSide">
+        <object>右侧</object>
+      </resource>
+      <resource name="ForeQuarter">
+        <object>前半部</object>
+      </resource>
+      <resource name="HindQuarter">
+        <object>后半部</object>
+      </resource>
+      <resource name="LeftForeQuarter">
+        <object>左前半部</object>
+      </resource>
+      <resource name="RightForeQuarter">
+        <object>右前半部</object>
+      </resource>
+      <resource name="LeftHindQuarter">
+        <object>左后半部</object>
+      </resource>
+      <resource name="RightHindQuarter">
+        <object>右后半部</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.LogLevel" ServiceOnly="true">
+      <resource name="NoLog">
+        <object>未登录</object>
+      </resource>
+      <resource name="LogSuccess">
+        <object>登录成功</object>
+      </resource>
+      <resource name="LogFailure">
+        <object>登录失败</object>
+      </resource>
+      <resource name="LogAll">
+        <object>登录所有</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.MethodType" ServiceOnly="false">
+      <resource name="Direct">
+        <object>直接订单</object>
+      </resource>
+      <resource name="MultiStep">
+        <object>标准多步</object>
+      </resource>
+      <resource name="Custom">
+        <object>自定义计划者</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.MethodLineType" ServiceOnly="false">
+      <resource name="SourceLine">
+        <object>源命令行</object>
+      </resource>
+      <resource name="Duplicate">
+        <object>复制源命令行</object>
+      </resource>
+      <resource name="ToItems">
+        <object>生产总计到项</object>
+      </resource>
+      <resource name="ToPieces">
+        <object>生产总计到件</object>
+      </resource>
+      <resource name="ToIngredient">
+        <object>BOM 成分</object>
+      </resource>
+      <resource name="ToItemPackaging">
+        <object>生产总计到项目包装</object>
+      </resource>
+      <resource name="ToPackPackaging">
+        <object>生产总计到包装包</object>
+      </resource>
+      <resource name="ToIdealRawMaterial">
+        <object>粗算理想产值</object>
+      </resource>
+      <resource name="OpenRawMaterial">
+        <object>打开原材料</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.MaterialConstraintType" ServiceOnly="false">
+      <resource name="Material">
+        <object>产品</object>
+      </resource>
+      <resource name="Parent">
+        <object>父产品</object>
+      </resource>
+      <resource name="Condition">
+        <object>条件</object>
+      </resource>
+      <resource name="Quality">
+        <object>质量</object>
+      </resource>
+      <resource name="Conservation">
+        <object>保存</object>
+      </resource>
+      <resource name="Size">
+        <object>尺寸</object>
+      </resource>
+      <resource name="MaterialType">
+        <object>产品类型</object>
+      </resource>
+      <resource name="ItPackaging">
+        <object>项目包装</object>
+      </resource>
+      <resource name="PkPackaging">
+        <object>包装包</object>
+      </resource>
+      <resource name="Base">
+        <object>基础产品</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.OrderLineJoinRule" ServiceOnly="false">
+      <resource name="Never">
+        <object>从不</object>
+      </resource>
+      <resource name="Material">
+        <object>产品</object>
+      </resource>
+      <resource name="Parent">
+        <object>父产品</object>
+      </resource>
+      <resource name="Condition">
+        <object>条件</object>
+      </resource>
+      <resource name="Quality">
+        <object>质量</object>
+      </resource>
+      <resource name="Conservation">
+        <object>保存</object>
+      </resource>
+      <resource name="Size">
+        <object>尺寸</object>
+      </resource>
+      <resource name="MaterialType">
+        <object>产品类型</object>
+      </resource>
+      <resource name="ItPackaging">
+        <object>项目包装</object>
+      </resource>
+      <resource name="PkPackaging">
+        <object>包装包</object>
+      </resource>
+      <resource name="Base">
+        <object>基础产品</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.LocationType" ServiceOnly="false">
+      <resource name="Site">
+        <object>站点</object>
+      </resource>
+      <resource name="Department">
+        <object>部门</object>
+      </resource>
+      <resource name="Section">
+        <object>部分</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>过程单元</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanningConstraintCondition" ServiceOnly="false">
+      <resource name="Always">
+        <object>始终</object>
+      </resource>
+      <resource name="ManualOnly">
+        <object>仅手动</object>
+      </resource>
+      <resource name="AutomaticOnly">
+        <object>仅自动</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotCreateMethod" ServiceOnly="false">
+      <resource name="NotUsed">
+        <object>手动</object>
+      </resource>
+      <resource name="OnPrdayChange">
+        <object>新生产日期</object>
+      </resource>
+      <resource name="OnActivityChange">
+        <object>新业务</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessUnitResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>确定</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>数据库错误</object>
+      </resource>
+      <resource name="LoadRecord">
+        <object>无法从数据库中加载过程单元记录</object>
+      </resource>
+      <resource name="LoadCompany">
+        <object>无法从数据库中加载站点公司记录 </object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>未找到远程界面信息</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>未找到远程服务信息</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>获取远程服务界面失败</object>
+      </resource>
+      <resource name="RemoteException">
+        <object>远程对象引发的未指定异常 </object>
+      </resource>
+      <resource name="ConfigTable">
+        <object>获取配置表信息错误</object>
+      </resource>
+      <resource name="LoadSite">
+        <object>加载站点记录错误</object>
+      </resource>
+      <resource name="LoadSection">
+        <object>加载部分记录错误</object>
+      </resource>
+      <resource name="LoadDepartment">
+        <object>加载部门记录错误</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>除过程单元异常外的远程操作异常失败</object>
+      </resource>
+      <resource name="PrunitNotFound">
+        <object>未找到过程单元</object>
+      </resource>
+      <resource name="LoadLine">
+        <object>无法加载生产线子过程单元</object>
+      </resource>
+      <resource name="LoadTemplate">
+        <object>无法加载业务模板</object>
+      </resource>
+      <resource name="InvalidOperation">
+        <object>不允许操作</object>
+      </resource>
+      <resource name="TemplateConfiguration">
+        <object>无效模板配置</object>
+      </resource>
+      <resource name="LotCreateRuleMia">
+        <object>未找到指定批次创建规则</object>
+      </resource>
+      <resource name="NoDefaultLotCreateRule">
+        <object>未找到默认批次创建规则</object>
+      </resource>
+      <resource name="TooManyDefaultRules">
+        <object>找到多个默认批次创建规则</object>
+      </resource>
+      <resource name="ErrorCreatingNewLot">
+        <object>创建新批次错误</object>
+      </resource>
+      <resource name="LoadProductionPlan">
+        <object>加载生产计划记录错误</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

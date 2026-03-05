@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fr">
+  <industry>    
+    <type name="Marel.Mp5.Monitoring.Services.Notifications.Email.EmailNotificationPlugin" ServiceOnly="false">
+      <resource name="AlarmOn">
+        <object>Alarme allumée</object>
+      </resource>
+      <resource name="AlarmOff">
+        <object>Alarme éteinte</object>
+      </resource>
+      <resource name="AlarmEvent">
+        <object>Alarme d'incident</object>
+      </resource>
+      <resource name="Time">
+        <object>Heure</object>
+      </resource>
+      <resource name="State">
+        <object>Etat</object>
+      </resource>
+      <resource name="Description">
+        <object>Description</object>
+      </resource>
+      <resource name="AlarmInfo">
+        <object>Info alarme</object>
+      </resource>
+      <resource name="Owner">
+        <object>Propriétaire:</object>
+      </resource>
+      <resource name="Item">
+        <object>Sujet</object>
+      </resource>
+      <resource name="Priority">
+        <object>Priorité</object>
+      </resource>
+      <resource name="Info">
+        <object>Mails envoyés: {0}    Destinataires: {1}    Sujet: {2)</object>
+      </resource>
+      <resource name="NoReceivers">
+        <object>            Pas de destinataires</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.Services.Monitor.Devices.Value.DeviceValueConfig" ServiceOnly="false">
+      <resource name="DeviceId.Category">
+        <object>Appareil</object>
+      </resource>
+      <resource name="DeviceId.DisplayName">
+        <object>ID d'appareil</object>
+      </resource>
+      <resource name="DeviceId.Description">
+        <object>Sélectionner un appreil pour surveiller la valeur de:</object>
+      </resource>
+      <resource name="Addresses.Category">
+        <object>Appareil</object>
+      </resource>
+      <resource name="Addresses.DisplayName">
+        <object>Liste des adresses</object>
+      </resource>
+      <resource name="Addresses.Description">
+        <object>Liste des adresses à surveiller</object>
+      </resource>
+      <resource name="PollInterval.Category">
+        <object>Config plugin</object>
+      </resource>
+      <resource name="PollInterval.DisplayName">
+        <object>Intervalle de comptage</object>
+      </resource>
+      <resource name="PollInterval.Description">
+        <object>Intervalle de comptage de la valeur en sec (10 sec min). 0 = Pas de comptage. Veuillez mettre 0 quand vous utilisez l'appareil Pluto.</object>
+      </resource>
+      <resource name="ClearAlarmOnDispose.Category">
+        <object>Config plugin</object>
+      </resource>
+      <resource name="ClearAlarmOnDispose.DisplayName">
+        <object>Ôter l'alarme</object>
+      </resource>
+      <resource name="ClearAlarmOnDispose.Description">
+        <object>Quand l'alarme doit être ôtée et que la valeur du dispositif n'est plus surveillée</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.Services.Monitor.Devices.Value.DeviceValueSchedConfig" ServiceOnly="false">
+      <resource name="DeviceId.Category">
+        <object>Appareil</object>
+      </resource>
+      <resource name="DeviceId.DisplayName">
+        <object>ID d'appareil</object>
+      </resource>
+      <resource name="DeviceId.Description">
+        <object>Sélectionner un appreil pour surveiller la valeur de:</object>
+      </resource>
+      <resource name="SchedulerConfig.Category">
+        <object>Ordonnanceur</object>
+      </resource>
+      <resource name="SchedulerConfig.DisplayName">
+        <object>Config</object>
+      </resource>
+      <resource name="SchedulerConfig.Description">
+        <object>Régler les valeurs de l'ordonnanceur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.Services.Monitor.QueryDatabaseValue.QueryDatabaseValueConfig" ServiceOnly="false">
+      <resource name="LimitConfig.Category">
+        <object>Configurations</object>
+      </resource>
+      <resource name="LimitConfig.DisplayName">
+        <object>Limites</object>
+      </resource>
+      <resource name="LimitConfig.Description">
+        <object>Configurant les limites de l'alarme</object>
+      </resource>
+      <resource name="Query.Category">
+        <object>Configurations</object>
+      </resource>
+      <resource name="Query.DisplayName">
+        <object>Commande de recherche</object>
+      </resource>
+      <resource name="Query.Description">
+        <object>Commande de recherche à faire dans la base de données</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

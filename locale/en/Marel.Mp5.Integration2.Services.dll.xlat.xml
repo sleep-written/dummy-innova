@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.Integration2.Services.ImportEngine.StandardRecordImportHandler" ServiceOnly="true">
+      <resource name="Standard.TypeUnknown">
+        <object>This handler cannot handle data of type</object>
+      </resource>
+      <resource name="Standard.NoObjectFile">
+        <object>No object file returned from reader.</object>
+      </resource>
+      <resource name="Standard.NoObjectRecord">
+        <object>No object record created.</object>
+      </resource>
+      <resource name="Standard.UnkownObjectType">
+        <object>Unknown object type read</object>
+      </resource>
+      <resource name="Standard.ErrorHalted">
+        <object>Error in data and read halted.</object>
+      </resource>
+      <resource name="Standard.ErrorNotHalted">
+        <object>Error in data but not halted.</object>
+      </resource>
+      <resource name="Standard.RecordRejected">
+        <object>Record {0} not accepted</object>
+      </resource>
+      <resource name="Standard.RecordVerifyError">
+        <object>Record {0} verify error</object>
+      </resource>
+      <resource name="Standard.NotInitialized">
+        <object>Handler has not been initialized</object>
+      </resource>
+      <resource name="Standard.NoProcess">
+        <object>Could not find process unit with code</object>
+      </resource>
+      <resource name="Standard.NoActivity">
+        <object>Could not find Activity with code: {0} or the record could be inactive</object>
+      </resource>
+      <resource name="Standard.RecordNotActive">
+        <object>Record is not active</object>
+      </resource>
+      <resource name="Standard.NoPO">
+        <object>Could not find Purchase Order with code</object>
+      </resource>
+      <resource name="Standard.NoLot">
+        <object>Could not find Lot with code</object>
+      </resource>
+      <resource name="Standard.NoPlot">
+        <object>Could not find Plot with code</object>
+      </resource>
+      <resource name="Standard.NoRmArea">
+        <object>Could not find RmArea with code</object>
+      </resource>
+      <resource name="Standard.InvalidBatch">
+        <object>Invalid value for batch</object>
+      </resource>
+      <resource name="Standard.NoValueProperty">
+        <object>Value property missing</object>
+      </resource>
+      <resource name="Standard.NoDateFormatProperty">
+        <object>DateFormat property missing</object>
+      </resource>
+      <resource name="Standard.NoShift">
+        <object>Could not find shift with code</object>
+      </resource>
+      <resource name="Standard.NoProfilePeriodValue">
+        <object>Invalid value for ProfilePeriod</object>
+      </resource>
+      <resource name="Standard.InvalidRecordType">
+        <object>Invalid record type ({0}) received in import, no configuration exists.</object>
+      </resource>
+      <resource name="Standard.EmptyDataObject">
+        <object>Data object is empty</object>
+      </resource>
+      <resource name="Standard.CreationFailed">
+        <object>Failed to create</object>
+      </resource>
+      <resource name="Standard.InvalidColumn">
+        <object>Invalid column name '{0}' for record '{1}'</object>
+      </resource>
+      <resource name="Standard.ReqForeignKey">
+        <object>Required foreign key for property: '{0}' with value: '{1}' not found</object>
+      </resource>
+      <resource name="Standard.ForeignKeyInfo">
+        <object>Foreign key for property: '{0}' with value: '{1}' not found.
+\nRecord creation continues as this value is for nullable column.
+\nIf this column is marked as required in the process setup then the record validation failes when the record is inserted to the database else this record will be accepted.</object>
+      </resource>
+      <resource name="Standard.PropertyNotSet">
+        <object>Property '{0}' not set</object>
+      </resource>
+      <resource name="Standard.TypeNotFound">
+        <object>Type {0} not found in loaded assemblies</object>
+      </resource>
+      <resource name="Standard.TransactionalUnitOp">
+        <object>Transactional property for unit operation import handler is not allowed to be true.</object>
+      </resource>
+      <resource name="Standard.TransactionalAction">
+        <object>Transactional property for action import handler is not allowed to be true.</object>
+      </resource>
+      <resource name="Import.Begin">
+        <object>Import session begin</object>
+      </resource>
+      <resource name="Import.End">
+        <object>Import session end</object>
+      </resource>
+      <resource name="DBSP.ImportFailed">
+        <object>Exception when importing from db stored procedure</object>
+      </resource>
+      <resource name="Csv.NoMappingFile">
+        <object>No mapping found for</object>
+      </resource>
+      <resource name="Import.FileError">
+        <object>Exception when handling file</object>
+      </resource>
+      <resource name="Import.MQXFailed">
+        <object>Exception when handling receiving message id</object>
+      </resource>
+      <resource name="Standard.ProcessContextOption">
+        <object>Process Context option for {0} not enabled in handler configuration</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.Services.ImportEngine.Wcf.ImportPortalService" ServiceOnly="true">
+      <resource name="Import.Begin">
+        <object>Import session begin</object>
+      </resource>
+      <resource name="Import.End">
+        <object>Import session end</object>
+      </resource>
+      <resource name="Import.Failed">
+        <object>Failed to import wcf data</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.Services.ImportEngine.Wcf.TEHubXmlImportHandler" ServiceOnly="false">
+      <resource name="AlarmDesc">
+        <object>Receiving site received message from hub</object>
+      </resource>
+      <resource name="AlarmStateDesc">
+        <object>Transfer {0} received successfully</object>
+      </resource>
+      <resource name="AlarmAckDesc">
+        <object>Acknowledgement received from hub</object>
+      </resource>
+      <resource name="AlarmAckStateDesc">
+        <object>Transfer {0} {1}completed successfully</object>
+      </resource>
+      <resource name="AlarmErrorDesc">
+        <object>Error received</object>
+      </resource>
+      <resource name="AlarmErrorStateDesc">
+        <object>Transfer {0} {1}failed</object>
+      </resource>
+      <resource name="OrderCodeText">
+        <object>for order {0}</object>
+      </resource>
+      <resource name="ShipmentCodeText">
+        <object>for shipment {0}</object>
+      </resource>
+      <resource name="AlarmFailedDesc">
+        <object>Failed to import orders</object>
+      </resource>
+      <resource name="AlarmFailedName">
+        <object>Order import</object>
+      </resource>
+      <resource name="AlarmAckName">
+        <object>Transfer acknowledged</object>
+      </resource>
+      <resource name="AlarmName">
+        <object>Transfer error</object>
+      </resource>
+      <resource name="AlarmReceivedName">
+        <object>Transfer received</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

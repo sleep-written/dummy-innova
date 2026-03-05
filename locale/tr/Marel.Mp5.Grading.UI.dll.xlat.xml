@@ -1,0 +1,2548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="tr">
+  <industry>
+    <type name="Marel.Mp5.Grading.UI.M6000.Production.Graders.QualityScreen" ServiceOnly="false">
+      <resource name="piecesPrpDisplayLabel.Text">
+        <object>Toplam parçalar:</object>
+      </resource>
+      <resource name="piecesPrpThroughputDisplayLabel.Text">
+        <object>Parça/dak.:</object>
+      </resource>
+      <resource name="weightPrpDisplayLabel.Text">
+        <object>Toplam ağırlık:</object>
+      </resource>
+      <resource name="averageWeightPrpDisplayLabel.Text">
+        <object>Ortalama ağırlık:</object>
+      </resource>
+      <resource name="prpThroughputGroup.Text">
+        <object>İşlem dönemi performansı</object>
+      </resource>
+      <resource name="toDayThroughputGroup.Text">
+        <object>Bugünkü performans</object>
+      </resource>
+      <resource name="piecesToDayDisplayLabel.Text">
+        <object>Toplam parça:</object>
+      </resource>
+      <resource name="piecesToDayThroughputDisplayLabel.Text">
+        <object>Parça/dak.:</object>
+      </resource>
+      <resource name="weightToDayDisplayLabel.Text">
+        <object>Toplam ağırlık:</object>
+      </resource>
+      <resource name="averageWeightToDayDisplayLabel.Text">
+        <object>Ortalama ağırlık:</object>
+      </resource>
+      <resource name="qualityChart.NoDataLabel.Text">
+        <object>Veri Yok</object>
+      </resource>
+      <resource name="poButton.Text">
+        <object>Satınalma siparişi</object>
+      </resource>
+      <resource name="resetButton.Text">
+        <object>Kalan</object>
+      </resource>
+      <resource name="gradingSystemNotFound">
+        <object>Ayırma sistemi bulunamadı.</object>
+      </resource>
+      <resource name="noGraderInSystem">
+        <object>Ayırma sisteminde ayırıcı bulunamadı.</object>
+      </resource>
+      <resource name="errorTitle">
+        <object>Hata</object>
+      </resource>
+      <resource name="generalError">
+        <object>Ekran hazırlanırken genel hata oluştu.</object>
+      </resource>
+      <resource name="activityButton.Text">
+        <object>Etkinlik</object>
+      </resource>
+      <resource name="batch">
+        <object>Seri</object>
+      </resource>
+      <resource name="po">
+        <object>PO</object>
+      </resource>
+      <resource name="plot">
+        <object>Üretim partisi</object>
+      </resource>
+      <resource name="lot">
+        <object>Parti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>RM alanı</object>
+      </resource>
+      <resource name="unknownProduct">
+        <object>Bilinmeyen ürün</object>
+      </resource>
+      <resource name="qualityDisplayLabel.Text">
+        <object>Kalite: </object>
+      </resource>
+      <resource name="noQuality">
+        <object>Kalite yok</object>
+      </resource>
+      <resource name="pieceMessageError">
+        <object>Parça mesajı hatası</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Base.WindowsFormView" ServiceOnly="false">
+      <resource name="GoToFirst">
+        <object>İlk</object>
+      </resource>
+      <resource name="GoToLast">
+        <object>Son</object>
+      </resource>
+      <resource name="GoToPrev">
+        <object>Önceki</object>
+      </resource>
+      <resource name="GoToNext">
+        <object>Sonraki</object>
+      </resource>
+      <resource name="NewRecord">
+        <object>Yeni</object>
+      </resource>
+      <resource name="DeleteRecord">
+        <object>Sil</object>
+      </resource>
+      <resource name="RefreshRecord">
+        <object>Yenile</object>
+      </resource>
+      <resource name="Commit">
+        <object>Onayla</object>
+      </resource>
+      <resource name="Cancel">
+        <object>İptal</object>
+      </resource>
+      <resource name="SaveChangesPrompt">
+        <object>Değişiklikleri kaydetmek istiyor musunuz?</object>
+      </resource>
+      <resource name="NameLookupCaption">
+        <object>Adı</object>
+      </resource>
+      <resource name="CodeLookupCaption">
+        <object>Kod</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Setup.GradingProgramView" ServiceOnly="false">
+      <resource name="copyPrefix">
+        <object>Kopyası</object>
+      </resource>
+      <resource name="cloneProgramError">
+        <object>Program klonlanırken bir hata oluştu.</object>
+      </resource>
+      <resource name="Text">
+        <object>Metin</object>
+      </resource>
+      <resource name="ProgramLookupColumn">
+        <object>Program</object>
+      </resource>
+      <resource name="ProcessUnitLookupColumn">
+        <object>İşlem Ünitesi</object>
+      </resource>
+      <resource name="FlatGrid">
+        <object>Düz Izgara</object>
+      </resource>
+      <resource name="SplitGrid">
+        <object>Bölünmüş Izgara</object>
+      </resource>
+      <resource name="CloneRecord">
+        <object>Klonla</object>
+      </resource>
+      <resource name="NewRecord">
+        <object>Yeni program</object>
+      </resource>
+      <resource name="DeleteRecord">
+        <object>Programı sil</object>
+      </resource>
+      <resource name="UpdateProgram">
+        <object>Etkinliği güncelle</object>
+      </resource>
+      <resource name="UpdateProgramError">
+        <object>Üretime değişiklikler uygulanırken bir hata oluştu.</object>
+      </resource>
+      <resource name="ProgramConfigurationError">
+        <object>Ayırma programı formu başlatılamıyor. Seri Modu eksik.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Setup.GradingProgramUC" ServiceOnly="false">
+      <resource name="programGroupBox.Text">
+        <object>Program ayarları</object>
+      </resource>
+      <resource name="programNameLabel.Text">
+        <object>Adı:</object>
+      </resource>
+      <resource name="programShNameLabel.Text">
+        <object>Kısa adı:</object>
+      </resource>
+      <resource name="programCodeLabel.Text">
+        <object>Kod:</object>
+      </resource>
+      <resource name="processUnitLabel.Text">
+        <object>İşlem ünitesi:</object>
+      </resource>
+      <resource name="ungradedMaterialLabel.Text">
+        <object>Ayrılmamış malzeme:</object>
+      </resource>
+      <resource name="weighingUnitLabel.Text">
+        <object>Tartım birimi:</object>
+      </resource>
+      <resource name="faultGateLabel.Text">
+        <object>Hata kapağı:</object>
+      </resource>
+      <resource name="tareLabel.Text">
+        <object>Dara:</object>
+      </resource>
+      <resource name="graderLabel.Text">
+        <object>Ayırıcı:</object>
+      </resource>
+      <resource name="reductionLabel.Text">
+        <object>Azaltma:</object>
+      </resource>
+      <resource name="activeCheckBox.Text">
+        <object>Etkin</object>
+      </resource>
+      <resource name="manualCloseCheckBox.Text">
+        <object>Elle kapatmaya izin ver</object>
+      </resource>
+      <resource name="weightResLabel.Text">
+        <object>Ağırlık çözünürlüğü:</object>
+      </resource>
+      <resource name="weightResUnitLabel.Text">
+        <object>Ağırlık çözünürlüğü birimi:</object>
+      </resource>
+      <resource name="dataWeightResLabel.Text">
+        <object>Çözünürlük:</object>
+      </resource>
+      <resource name="bufferCapacityLabel.Text">
+        <object>Arabellek kapasitesi:</object>
+      </resource>
+      <resource name="gradesTabPage.Text">
+        <object>Bölümler</object>
+      </resource>
+      <resource name="graderConfigurationsTabPage.Text">
+        <object>Ayırıcı yapılandırmaları</object>
+      </resource>
+      <resource name="tareTabPage.Text">
+        <object>Dara ayarları</object>
+      </resource>
+      <resource name="pieceTypeColumn.Caption">
+        <object>Parça türü</object>
+      </resource>
+      <resource name="tareColumn.Caption">
+        <object>Dara</object>
+      </resource>
+      <resource name="tareUnitColumn.Caption">
+        <object>Dara birimi</object>
+      </resource>
+      <resource name="subGradesTabPage.Text">
+        <object>Alt bölümler</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.SystemSetup.GradingSystemView" ServiceOnly="true">
+      <resource name="toolNewGrader.Caption">
+        <object>Yeni</object>
+      </resource>
+      <resource name="toolEditGrader.Caption">
+        <object>Değiştir</object>
+      </resource>
+      <resource name="toolCloneGrader.Caption">
+        <object>Klonla</object>
+      </resource>
+      <resource name="toolSaveGraderEdit.Caption">
+        <object>Kaydet ve kapat</object>
+      </resource>
+      <resource name="toolCancelGraderEdit.Caption">
+        <object>İptal</object>
+      </resource>
+      <resource name="NewRecord">
+        <object>Yeni sistem</object>
+      </resource>
+      <resource name="DeleteRecord">
+        <object>Sistemi sil</object>
+      </resource>
+      <resource name="AddGraderAlgorithmSupportError">
+        <object>Yeni ayırıcının algoritma desteği eklenirken bir hata oluştu.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.SystemSetup.GraderUC" ServiceOnly="true">
+      <resource name="generalGroup.Text">
+        <object>Genel ayarlar</object>
+      </resource>
+      <resource name="gradingSystemLabel.Text">
+        <object>Ayırma sistemi:</object>
+      </resource>
+      <resource name="prunitLabel.Text">
+        <object>İşlem ünitesi:</object>
+      </resource>
+      <resource name="dischargeTypeLabel.Text">
+        <object>Boşaltma türü:</object>
+      </resource>
+      <resource name="slaveModeLabel.Text">
+        <object>Bağımlı modu:</object>
+      </resource>
+      <resource name="deviceLabel.Text">
+        <object>Aygıt:</object>
+      </resource>
+      <resource name="stationLabel.Text">
+        <object>İstasyon:</object>
+      </resource>
+      <resource name="laneTypeLabel.Text">
+        <object>Yol türü:</object>
+      </resource>
+      <resource name="masterLabel.Text">
+        <object>Ana ayırıcı:</object>
+      </resource>
+      <resource name="measurementOptionsCategoryRow.Caption">
+        <object>Genel</object>
+      </resource>
+      <resource name="weightCategoryRow.Caption">
+        <object>Ağırlık</object>
+      </resource>
+      <resource name="dataWeightCategoryRow.Caption">
+        <object>Veri kayıtları</object>
+      </resource>
+      <resource name="lengthCategoryRow.Caption">
+        <object>Uzunluk</object>
+      </resource>
+      <resource name="dataLengthCategoryRow.Caption">
+        <object>Veri kayıtları</object>
+      </resource>
+      <resource name="heightCategoryRow.Caption">
+        <object>Yükseklik</object>
+      </resource>
+      <resource name="dataHeightCategoryRow.Caption">
+        <object>Veri kayıtları</object>
+      </resource>
+      <resource name="widthCategoryRow.Caption">
+        <object>Genişlik</object>
+      </resource>
+      <resource name="dataWidthCategoryRow.Caption">
+        <object>Veri kayıtları</object>
+      </resource>
+      <resource name="algorithmsGroup.Text">
+        <object>Seri modları etkinleştirildi</object>
+      </resource>
+      <resource name="measurementOptionsGroup.Text">
+        <object>Ölçüm seçenekleri</object>
+      </resource>
+      <resource name="isProgramBase.Text">
+        <object>Varsayılan ayırıcı</object>
+      </resource>
+      <resource name="recIncomplete.Text">
+        <object>Eksik serileri kaydet</object>
+      </resource>
+      <resource name="autoFinish.Text">
+        <object>Serileri otomatik olarak bitir</object>
+      </resource>
+      <resource name="hasGateSeq.Text">
+        <object>Kapak sıraları var</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.ControlScreenView" ServiceOnly="false">
+      <resource name="RefreshControlScreenException">
+        <object>Kontrol ekranı yenilenirken bir hata oluştu.</object>
+      </resource>
+      <resource name="ConfigurationError">
+        <object>Ayırıcı kontrolü ekranı ayarlanamadı. Geçersiz yapılandırma.</object>
+      </resource>
+      <resource name="InitializeError">
+        <object>Ayırıcı kontrolü ekranı başlatılırken hata oluştu.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.GradingControlScreenUC" ServiceOnly="false">
+      <resource name="gradersControTablPage.Text">
+        <object>Ayırıcılar</object>
+      </resource>
+      <resource name="packingOverviewTabPage.Text">
+        <object>Paketlemeye Genel Bakış</object>
+      </resource>
+      <resource name="gradingOverviewTabPage.Text">
+        <object>Ayırmaya Genel Bakış</object>
+      </resource>
+      <resource name="chartsTabPage.Text">
+        <object>Grafikler</object>
+      </resource>
+      <resource name="gradesTabPage.Text">
+        <object>Bölümler</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.ChartsPanelUC" ServiceOnly="false">
+      <resource name="averageWeightChart.Title">
+        <object>Ortalama Fiyat Ağırlığı</object>
+      </resource>
+      <resource name="averageWeightChart.XAxisTime">
+        <object>Süre</object>
+      </resource>
+      <resource name="averageWeightChart.YAxisAvgWgt">
+        <object>Ağırlık</object>
+      </resource>
+      <resource name="throughputChart.YAxisPcsMin">
+        <object>Parça / dak.</object>
+      </resource>
+      <resource name="throughputChart.YAxisWgtHour">
+        <object>Ağırlık / saat</object>
+      </resource>
+      <resource name="throughputChart.XAxisTime">
+        <object>Süre</object>
+      </resource>
+      <resource name="throughputChart.Title">
+        <object>Üretim</object>
+      </resource>
+      <resource name="batchWeightChart.Title">
+        <object>Seri Ağırlığı</object>
+      </resource>
+      <resource name="batchWeightChart.XAxisTime">
+        <object>Süre</object>
+      </resource>
+      <resource name="batchWeightChart.YAxisBatchWeight">
+        <object>Ağırlık</object>
+      </resource>
+      <resource name="NoChartData">
+        <object>Veri yok</object>
+      </resource>
+      <resource name="NoBatchData">
+        <object>Seri yok</object>
+      </resource>
+      <resource name="showPiecesMinCheck.Text">
+        <object>Parça/dak. göster</object>
+      </resource>
+      <resource name="showWeightHour.Text">
+        <object>Ağırlık/sa. göster</object>
+      </resource>
+      <resource name="BatchDetailsPrefix">
+        <object>Seri ayrıntıları</object>
+      </resource>
+      <resource name="ProductPrefix">
+        <object>Ürün: </object>
+      </resource>
+      <resource name="TimePrefix">
+        <object>Süre: </object>
+      </resource>
+      <resource name="GatePrefix">
+        <object>Kapak: </object>
+      </resource>
+      <resource name="WeightPrefix">
+        <object>Ağırlık: </object>
+      </resource>
+      <resource name="CountPrefix">
+        <object>Sayım: </object>
+      </resource>
+      <resource name="TargetWeightPrefix">
+        <object>Hedef ağırlık: </object>
+      </resource>
+      <resource name="TargetCountPrefix">
+        <object>Hedef sayım: </object>
+      </resource>
+      <resource name="PackIdPrefix">
+        <object>Paket Kimliği: </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.ErrorPanelUC" ServiceOnly="false">
+      <resource name="hideButton.Text">
+        <object>Gizle</object>
+      </resource>
+      <resource name="detailsLabel.Text">
+        <object>Ayrıntılar:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.GateInfoPanelUC" ServiceOnly="false">
+      <resource name="GateTitle.ToolTip">
+        <object>Kapağın adı</object>
+      </resource>
+      <resource name="ProductName.ToolTip">
+        <object>Ürün adı</object>
+      </resource>
+      <resource name="PieceType.ToolTip">
+        <object>Parça türü</object>
+      </resource>
+      <resource name="GradeMinWeight.ToolTip">
+        <object>Bölüm alt ağırlık sınırı</object>
+      </resource>
+      <resource name="GradeMaxWeight.ToolTip">
+        <object>Bölüm üst ağırlık sınırı</object>
+      </resource>
+      <resource name="BatchCount.ToolTip">
+        <object>İşlem dönemi için toplam seri sayımı</object>
+      </resource>
+      <resource name="BatchWeight.ToolTip">
+        <object>İşlem dönemi için toplam seri ağırlığı</object>
+      </resource>
+      <resource name="PieceCount.ToolTip">
+        <object>İşlem dönemi için toplam parça sayımı</object>
+      </resource>
+      <resource name="PieceWeight.ToolTip">
+        <object>İşlem dönemi için toplam parça ağırlığı</object>
+      </resource>
+      <resource name="BatchMeanWeight.ToolTip">
+        <object>İşlem dönemi için ortalama seri ağırlığı</object>
+      </resource>
+      <resource name="PieceMeanWeight.ToolTip">
+        <object>İşlem dönemi için ortalama parça ağırlığı</object>
+      </resource>
+      <resource name="PieceMeanWeightHistory.ToolTip">
+        <object>Son {0} parçanın ortalama ağırlığı</object>
+      </resource>
+      <resource name="TotalBatchCountPostFix">
+        <object>parça/pp</object>
+      </resource>
+      <resource name="TotalBatchWeightPostFix">
+        <object>{0}/pp</object>
+      </resource>
+      <resource name="PieceWeightPostFix">
+        <object>{0}/pp</object>
+      </resource>
+      <resource name="PieceCountPostFix">
+        <object>parça/pp</object>
+      </resource>
+      <resource name="PieceMeanWeightPostFix">
+        <object>{0}/pp</object>
+      </resource>
+      <resource name="PieceMeanWeightHistoryPostFix">
+        <object>{0}/N</object>
+      </resource>
+      <resource name="PieceMeanWeightHistoryCountPostFix">
+        <object>parça</object>
+      </resource>
+      <resource name="AgeOfFirstPiece.ToolTip">
+        <object>İlk parçanın yaşı</object>
+      </resource>
+      <resource name="AgeOfLastPiece.ToolTip">
+        <object>Son parçanın yaşı</object>
+      </resource>
+      <resource name="AgeOfFirstBatch.ToolTip">
+        <object>İlk serinin yaşı</object>
+      </resource>
+      <resource name="AgeOfLastBatch.ToolTip">
+        <object>Son serinin yaşı</object>
+      </resource>
+      <resource name="AgePostFix">
+        <object>sa.</object>
+      </resource>
+      <resource name="NoGradeOnGate">
+        <object>Bölüm yok</object>
+      </resource>
+      <resource name="NoGradeOnGate.ToolTip">
+        <object>Bu kapakta bölüm yok</object>
+      </resource>
+      <resource name="CurrentBatchPieceCount">
+        <object>parça</object>
+      </resource>
+      <resource name="CurrentBatchPieces.ToolTip">
+        <object>Geçerli seri parçaları</object>
+      </resource>
+      <resource name="CurrentBatchWeight.ToolTip">
+        <object>Geçerli seri ağırlığı</object>
+      </resource>
+      <resource name="CurrentBatchPiecesPostFix">
+        <object>parça</object>
+      </resource>
+      <resource name="CurrentPack.ToolTip">
+        <object>Geçerli paket</object>
+      </resource>
+      <resource name="CurrentOrder.ToolTip">
+        <object>Geçerli sipariş</object>
+      </resource>
+      <resource name="CurrentOrderLine.ToolTip">
+        <object>Geçerli sipariş serisi</object>
+      </resource>
+      <resource name="CurrentBoxType.ToolTip">
+        <object>Geçerli kutu türü</object>
+      </resource>
+      <resource name="NoPack">
+        <object>Paket yok</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Sipariş yok</object>
+      </resource>
+      <resource name="NoOrderLine">
+        <object>Sipariş serisi yok</object>
+      </resource>
+      <resource name="NoBoxType">
+        <object>Kutu türü yok</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.GraderInfoPanelUC" ServiceOnly="false">
+      <resource name="TotalWeight.ToolTip">
+        <object>İşlem dönemindeki toplam parça ağırlığı</object>
+      </resource>
+      <resource name="TotalPieces.ToolTip">
+        <object>İşlem dönemindeki toplam parça sayısı</object>
+      </resource>
+      <resource name="WeightThroughput.ToolTip">
+        <object>Ağırlık üretim miktarı</object>
+      </resource>
+      <resource name="PiecesThroughput.ToolTip">
+        <object>Parça üretim miktarı</object>
+      </resource>
+      <resource name="MeanWeight.ToolTip">
+        <object>Ortalama ağırlık</object>
+      </resource>
+      <resource name="WeightStandardDeviation.ToolTip">
+        <object>Ağırlık standart sapması</object>
+      </resource>
+      <resource name="TotalWeight.Legend">
+        <object>{0}</object>
+      </resource>
+      <resource name="TotalPieces.Legend">
+        <object>parça</object>
+      </resource>
+      <resource name="WeightThroughput.Legend">
+        <object>{0}/sa.</object>
+      </resource>
+      <resource name="PiecesThroughput.Legend">
+        <object>parça/dak.</object>
+      </resource>
+      <resource name="MeanWeight.Legend">
+        <object>{0}/p</object>
+      </resource>
+      <resource name="WeightStandardDeviation.Legend">
+        <object>σ</object>
+      </resource>
+      <resource name="ActiveTime.Prefix">
+        <object>Etkin zaman:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.GraderController" ServiceOnly="false">
+      <resource name="ActiveTime.Prefix">
+        <object>Etkin zaman:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.GraderDetailsUC" ServiceOnly="false">
+      <resource name="graderTabPage.Text">
+        <object>Ayırıcı</object>
+      </resource>
+      <resource name="gateTabPage.Text">
+        <object>Kapak</object>
+      </resource>
+      <resource name="pieceStatusTabPage.Text">
+        <object>Parça durumu</object>
+      </resource>
+      <resource name="graderThroughPutGroup.Text">
+        <object>Üretim</object>
+      </resource>
+      <resource name="graderActivityLabel.Text">
+        <object>Etkinlik</object>
+      </resource>
+      <resource name="terminateBatchesButton.Text">
+        <object>Serileri sonlandır...</object>
+      </resource>
+      <resource name="gateInfoGroup.Text">
+        <object>Kapak</object>
+      </resource>
+      <resource name="gateMaterialLabel.Text">
+        <object>Malzeme</object>
+      </resource>
+      <resource name="gatePieceTypeLabel.Text">
+        <object>Parça türü</object>
+      </resource>
+      <resource name="terminateBatchOnGateButton.Text">
+        <object>Seriyi sonlandır...</object>
+      </resource>
+      <resource name="gatePieceWeightLabel.Text">
+        <object>Parça ağırlığı</object>
+      </resource>
+      <resource name="gatePieceCountLabel.Text">
+        <object>Parça sayımı</object>
+      </resource>
+      <resource name="gateMeanWeightLabel.Text">
+        <object>Ortalama ağırlık</object>
+      </resource>
+      <resource name="gateMeanWeightHistoryLabel.Text">
+        <object>Ortalama ağırlık/n</object>
+      </resource>
+      <resource name="gateBatchWeightLabel.Text">
+        <object>Seri ağırlığı</object>
+      </resource>
+      <resource name="gateBatchMeanWeightLabel.Text">
+        <object>Seri ortalama ağırlığı</object>
+      </resource>
+      <resource name="gradeWeightLimitsGroup.Text">
+        <object>Bölüm ağırlık sınırları</object>
+      </resource>
+      <resource name="gradeMinWeightLabel.Text">
+        <object>Min. ağırlık</object>
+      </resource>
+      <resource name="gradeMaxWeightLabel.Text">
+        <object>Maks. ağırlık</object>
+      </resource>
+      <resource name="changeGradeWeightLimitsButton.Text">
+        <object>Değiştir</object>
+      </resource>
+      <resource name="setButton.Text">
+        <object>Ayarla</object>
+      </resource>
+      <resource name="TerminatAllBatches">
+        <object>Bu işlem, ayırıcıdaki tüm serileri sonlandıracak.\nDevam etmek istediğinizden emin misiniz?</object>
+      </resource>
+      <resource name="TerminatBatchOnGatePrompt">
+        <object>Kapaktaki seriyi sonlandırmak istiyor musunuz?</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.Design.UserControlDesignerView" ServiceOnly="false">
+      <resource name="ErrorSavingControlScreen">
+        <object>Kontrol ekranı kaydedilirken bir hata oluştu.</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Grades" ServiceOnly="false">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="sequence">
+        <object>Bölüm</object>
+      </resource>
+      <resource name="program">
+        <object>Program</object>
+      </resource>
+      <resource name="gatelist">
+        <object>Kapaklar</object>
+      </resource>
+      <resource name="material">
+        <object>Malzeme kodu</object>
+      </resource>
+      <resource name="multimat">
+        <object>Çoklu malzeme kodu</object>
+      </resource>
+      <resource name="unitop">
+        <object>Ünite işlemi kodu</object>
+      </resource>
+      <resource name="program Name">
+        <object>Program</object>
+      </resource>
+      <resource name="material Name">
+        <object>Malzeme</object>
+      </resource>
+      <resource name="multimat Name">
+        <object>Çoklu malzeme</object>
+      </resource>
+      <resource name="unitop Name">
+        <object>Ünite işlemi</object>
+      </resource>
+      <resource name="algorithm">
+        <object>Seri modu</object>
+      </resource>
+      <resource name="grade">
+        <object>Bölüm</object>
+      </resource>
+      <resource name="minweight">
+        <object>Min.\nağırlık</object>
+      </resource>
+      <resource name="maxweight">
+        <object>Maks.\nağırlık</object>
+      </resource>
+      <resource name="minheight">
+        <object>Min.\nyükseklik</object>
+      </resource>
+      <resource name="maxheight">
+        <object>Maks.\nyükseklik</object>
+      </resource>
+      <resource name="minwidth">
+        <object>Min.\ngenişlik</object>
+      </resource>
+      <resource name="maxwidth">
+        <object>Maks.\ngenişlik</object>
+      </resource>
+      <resource name="minlength">
+        <object>Min.\nuzunluk</object>
+      </resource>
+      <resource name="maxlength">
+        <object>Maks.\nuzunluk</object>
+      </resource>
+      <resource name="colortype">
+        <object>Renk türü kodu</object>
+      </resource>
+      <resource name="piecetype">
+        <object>Parça türü kodu</object>
+      </resource>
+      <resource name="ptmincount">
+        <object>Parça türü\nmin. sayımı</object>
+      </resource>
+      <resource name="ptmaxcount">
+        <object>Parça türü\nmaks. sayımı</object>
+      </resource>
+      <resource name="ptminweight">
+        <object>Parça türü\nmin. ağırlığı</object>
+      </resource>
+      <resource name="ptmaxweight">
+        <object>Parça türü\nmaks. ağırlığı</object>
+      </resource>
+      <resource name="colortype Name">
+        <object>Renk türü</object>
+      </resource>
+      <resource name="piecetype Name">
+        <object>Parça türü</object>
+      </resource>
+      <resource name="gateseq">
+        <object>Kapak\nsırası kodu</object>
+      </resource>
+      <resource name="gateseq Name">
+        <object>Kapak\nsırası</object>
+      </resource>
+      <resource name="destination">
+        <object>Hedef\nişlem ünitesi kodu</object>
+      </resource>
+      <resource name="destination Name">
+        <object>Hedef\nişlem ünitesi</object>
+      </resource>
+      <resource name="gradetype">
+        <object>Bölüm türü</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ExtraGrading" ServiceOnly="true">
+      <resource name="system">
+        <object>Sistem</object>
+      </resource>
+      <resource name="grader">
+        <object>Ayırıcı</object>
+      </resource>
+      <resource name="prunit">
+        <object>İşlem ünitesi kodu</object>
+      </resource>
+      <resource name="designated">
+        <object>Belirtilen</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>İşlem ünitesi</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Takeaways" ServiceOnly="true">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="system">
+        <object>Sistem</object>
+      </resource>
+      <resource name="grader">
+        <object>Ayırıcı</object>
+      </resource>
+      <resource name="shname">
+        <object>Adı</object>
+      </resource>
+      <resource name="takeawaynum">
+        <object>Teslim numarası</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Workstations" ServiceOnly="true">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="system">
+        <object>Sistem</object>
+      </resource>
+      <resource name="grader">
+        <object>Ayırıcı</object>
+      </resource>
+      <resource name="stanum">
+        <object>İstasyon\nnumarası</object>
+      </resource>
+      <resource name="statype">
+        <object>İstasyon türü</object>
+      </resource>
+      <resource name="station Name">
+        <object>İstasyon</object>
+      </resource>
+      <resource name="station">
+        <object>İstasyon kodu</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.GradeParamValues" ServiceOnly="true">
+      <resource name="grade">
+        <object>Bölüm</object>
+      </resource>
+      <resource name="param">
+        <object>Parametre</object>
+      </resource>
+      <resource name="paramvalue">
+        <object>Değer</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.GradeCriterias" ServiceOnly="false">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="grade">
+        <object>Bölüm</object>
+      </resource>
+      <resource name="minweight">
+        <object>Min. ağırlık</object>
+      </resource>
+      <resource name="maxweight">
+        <object>Maks. ağırlık</object>
+      </resource>
+      <resource name="minheight">
+        <object>Min. yükseklik</object>
+      </resource>
+      <resource name="maxheight">
+        <object>Maks. yükseklik</object>
+      </resource>
+      <resource name="minwidth">
+        <object>Min. genişlik</object>
+      </resource>
+      <resource name="maxwidth">
+        <object>Maks. genişlik</object>
+      </resource>
+      <resource name="minlength">
+        <object>Min. uzunluk</object>
+      </resource>
+      <resource name="maxlength">
+        <object>Maks. uzunluk</object>
+      </resource>
+      <resource name="colortype">
+        <object>Renk türü kodu</object>
+      </resource>
+      <resource name="piecetype">
+        <object>Parça türü kodu</object>
+      </resource>
+      <resource name="ptmincount">
+        <object>Parça türü\nmin. sayımı</object>
+      </resource>
+      <resource name="ptmaxcount">
+        <object>Parça türü\nmaks. sayımı</object>
+      </resource>
+      <resource name="ptminweight">
+        <object>Parça türü\nmin. ağırlığı</object>
+      </resource>
+      <resource name="ptmaxweight">
+        <object>Parça türü\nmaks. ağırlığı</object>
+      </resource>
+      <resource name="colortype Name">
+        <object>Renk türü</object>
+      </resource>
+      <resource name="piecetype Name">
+        <object>Parça türü</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Graders" ServiceOnly="true">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="system">
+        <object>Sistem kodu</object>
+      </resource>
+      <resource name="device">
+        <object>Aygıt kodu</object>
+      </resource>
+      <resource name="station">
+        <object>İstasyon kodu</object>
+      </resource>
+      <resource name="prunit">
+        <object>İşlem ünitesi kodu</object>
+      </resource>
+      <resource name="isprogrambase">
+        <object>Varsayılan\nayırıcı</object>
+      </resource>
+      <resource name="weighertype">
+        <object>Tartı türü</object>
+      </resource>
+      <resource name="weightcap">
+        <object>Tartım\ndestekleniyor</object>
+      </resource>
+      <resource name="weightres">
+        <object>Ağırlık\nçözünürlüğü</object>
+      </resource>
+      <resource name="weightunit">
+        <object>Ağırlık çözünürlüğü\nbirimi</object>
+      </resource>
+      <resource name="dataweightres">
+        <object>Veri ağırlığı\nçözünürlüğü</object>
+      </resource>
+      <resource name="dataweightresunit">
+        <object>Veri ağırlığı\nçözünürlüğü birimi</object>
+      </resource>
+      <resource name="weightspecoverridable">
+        <object>Ağırlık ayarları\ngeçersiz kılınabilir değeri</object>
+      </resource>
+      <resource name="heightcap">
+        <object>Ayırıcı ölçüleri\nyükseklik</object>
+      </resource>
+      <resource name="heightres">
+        <object>Yükseklik\nçözünürlüğü</object>
+      </resource>
+      <resource name="heightunit">
+        <object>Yükseklik birimi</object>
+      </resource>
+      <resource name="dataheightres">
+        <object>Veri yüksekliği çözünürlüğü</object>
+      </resource>
+      <resource name="dataheightresunit">
+        <object>Veri yüksekliği çözünürlüğü birimi</object>
+      </resource>
+      <resource name="heightspecoverridable">
+        <object>Yükseklik ayarları\ngeçersiz kılınabilir değeri</object>
+      </resource>
+      <resource name="widthcap">
+        <object>Ayırıcı ölçüleri\ngenişlik</object>
+      </resource>
+      <resource name="widthres">
+        <object>Genişlik\nçözünürlüğü</object>
+      </resource>
+      <resource name="widthunit">
+        <object>Genişlik birimi</object>
+      </resource>
+      <resource name="datawidthres">
+        <object>Veri genişliği\nçözünürlüğü</object>
+      </resource>
+      <resource name="datawidthresunit">
+        <object>Veri genişliği\nçözünürlüğü birimi</object>
+      </resource>
+      <resource name="widthspecoverridable">
+        <object>Genişlik ayarları\ngeçersiz kılınabilir değeri</object>
+      </resource>
+      <resource name="lengthcap">
+        <object>Ayırıcı ölçüleri\nuzunluk</object>
+      </resource>
+      <resource name="lengthunit">
+        <object>Uzunluk birimi</object>
+      </resource>
+      <resource name="lengthres">
+        <object>Uzunluk\nçözünürlüğü</object>
+      </resource>
+      <resource name="datalengthresunit">
+        <object>Veri uzunluğu\nçözünürlüğü birimi</object>
+      </resource>
+      <resource name="datalengthres">
+        <object>Veri uzunluğu\nçözünürlüğü</object>
+      </resource>
+      <resource name="lengthspecoverridable">
+        <object>Uzunluk ayarları\ngeçersiz kılınabilir değeri</object>
+      </resource>
+      <resource name="colorcap">
+        <object>Ayırıcı, rengi\nalgılıyor</object>
+      </resource>
+      <resource name="piecetypecap">
+        <object>Ayırıcı, parça\ntürlerini destekliyor</object>
+      </resource>
+      <resource name="dischargetype">
+        <object>Boşaltma ünitesi\ntürü</object>
+      </resource>
+      <resource name="autofinish">
+        <object>Serileri otomatik\nolarak bitir</object>
+      </resource>
+      <resource name="recincomplete">
+        <object>Eksik serileri\nkaydet</object>
+      </resource>
+      <resource name="slavemode">
+        <object>Bağımlı modu</object>
+      </resource>
+      <resource name="master">
+        <object>Ana ayırıcı</object>
+      </resource>
+      <resource name="multipleshape">
+        <object>Ayırıcı, birden çok parça\ntürünü destekliyor</object>
+      </resource>
+      <resource name="twoplatforms">
+        <object>İki tartım\nplatformu</object>
+      </resource>
+      <resource name="lanetype">
+        <object>Yol türü</object>
+      </resource>
+      <resource name="device Name">
+        <object>Aygıt</object>
+      </resource>
+      <resource name="station Name">
+        <object>İstasyon</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>İşlem ünitesi</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="hasgateseq">
+        <object>Kapak \nsıraları var</object>
+      </resource>
+      <resource name="controlscreenconfig">
+        <object>Kontrol ekranı\nyapılandırması</object>
+      </resource>
+      <resource name="exprunit Name">
+        <object>Ekstra İşlem ünitesi</object>
+      </resource>
+      <resource name="exprunit">
+        <object>Ekstra İşlem ünitesi kodu</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Gates" ServiceOnly="true">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="system">
+        <object>Sistem kodu</object>
+      </resource>
+      <resource name="gatenumber">
+        <object>Kapak numarası</object>
+      </resource>
+      <resource name="shname">
+        <object>Adı</object>
+      </resource>
+      <resource name="grader">
+        <object>Ayırıcı</object>
+      </resource>
+      <resource name="printer1">
+        <object>Yazıcı 1 kodu</object>
+      </resource>
+      <resource name="printer2">
+        <object>Yazıcı 2 kodu</object>
+      </resource>
+      <resource name="printer3">
+        <object>Yazıcı 3 kodu</object>
+      </resource>
+      <resource name="gatetype">
+        <object>Kapak türü</object>
+      </resource>
+      <resource name="takeaway">
+        <object>Teslim</object>
+      </resource>
+      <resource name="destination">
+        <object>Hedef\nişlem ünitesi kodu</object>
+      </resource>
+      <resource name="period">
+        <object>Kayıt\ndönemi</object>
+      </resource>
+      <resource name="extragrading">
+        <object>Ekstra ayırmaya dahil et</object>
+      </resource>
+      <resource name="capacity">
+        <object>Kapasite</object>
+      </resource>
+      <resource name="multigrade">
+        <object>Birden çok bölüme izin ver</object>
+      </resource>
+      <resource name="position">
+        <object>UI Konumu</object>
+      </resource>
+      <resource name="distance">
+        <object>UI Mesafesi</object>
+      </resource>
+      <resource name="printer1 Name">
+        <object>Yazıcı 1</object>
+      </resource>
+      <resource name="printer2 Name">
+        <object>Yazıcı 2</object>
+      </resource>
+      <resource name="printer3 Name">
+        <object>Yazıcı 3</object>
+      </resource>
+      <resource name="destination Name">
+        <object>Hedef\nişlem ünitesi</object>
+      </resource>
+      <resource name="gateseq">
+        <object>Kapak\nsırası kodu</object>
+      </resource>
+      <resource name="gateseq Name">
+        <object>Kapak\nsırası</object>
+      </resource>
+      <resource name="controlscreenconfig">
+        <object>Kontrol ekranı\nyapılandırması</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ConfigurationTemplates" ServiceOnly="true">
+      <resource name="dctemplate">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="name">
+        <object>Adı</object>
+      </resource>
+      <resource name="shname">
+        <object>Kısa</object>
+      </resource>
+      <resource name="code">
+        <object>Kod</object>
+      </resource>
+      <resource name="extcode">
+        <object>Harici kod</object>
+      </resource>
+      <resource name="pattern">
+        <object>Desen</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Boyut 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Boyut 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Boyut 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Boyut 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Metin 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Metin 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Metin 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Metin 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Metin 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Metin 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Metin 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Metin 8</object>
+      </resource>
+      <resource name="helpcontext">
+        <object>Bilgi</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Etkin</object>
+      </resource>
+      <resource name="Template Lines">
+        <object>Yapılandırma serileri</object>
+      </resource>
+      <resource name="configurationtype">
+        <object>Yapılandırma türü</object>
+      </resource>
+      <resource name="execorder">
+        <object>Yürütme sırası</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ConfigurationTemplateLines" ServiceOnly="true">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="dctemplate">
+        <object>Kalıp kodu</object>
+      </resource>
+      <resource name="dctemplate Name">
+        <object>Kalıp</object>
+      </resource>
+      <resource name="displayname">
+        <object>Görünen ad</object>
+      </resource>
+      <resource name="paramname">
+        <object>Parametre adı</object>
+      </resource>
+      <resource name="datatype">
+        <object>Veri türü</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sıra</object>
+      </resource>
+      <resource name="defaultvalue">
+        <object>Varsayılan değer</object>
+      </resource>
+      <resource name="commandtype">
+        <object>Komut türü</object>
+      </resource>
+    </type>
+    <type name="Grid.Activity.GraderConfiguration" ServiceOnly="false">
+      <resource name="gctconfiguration">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="name">
+        <object>Adı</object>
+      </resource>
+      <resource name="shname">
+        <object>Kısa</object>
+      </resource>
+      <resource name="code">
+        <object>Kod</object>
+      </resource>
+      <resource name="extcode">
+        <object>Harici kod</object>
+      </resource>
+      <resource name="pattern">
+        <object>Desen</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Boyut 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Boyut 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Boyut 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Boyut 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Metin 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Metin 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Metin 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Metin 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Metin 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Metin 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Metin 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Metin 8</object>
+      </resource>
+      <resource name="helpcontext">
+        <object>Bilgi</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Etkin</object>
+      </resource>
+      <resource name="gctemplate">
+        <object>Yapılandırma kalıbı \nkodu</object>
+      </resource>
+      <resource name="gctemplate Name">
+        <object>Yapılandırma kalıbı</object>
+      </resource>
+      <resource name="program">
+        <object>Program kodu</object>
+      </resource>
+      <resource name="program Name">
+        <object>Program</object>
+      </resource>
+      <resource name="Configuration Parameters">
+        <object>Parametreler</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sıra</object>
+      </resource>
+      <resource name="execorder">
+        <object>Yürütme sırası</object>
+      </resource>
+    </type>
+    <type name="Grid.Activity.GraderConfigurationLines" ServiceOnly="false">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="gctconfiguration">
+        <object>Yapılandırma kodu</object>
+      </resource>
+      <resource name="gctconfiguration Name">
+        <object>Yapılandırma</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sıra</object>
+      </resource>
+      <resource name="paramname">
+        <object>Parametre adı</object>
+      </resource>
+      <resource name="displayname">
+        <object>Görünen ad</object>
+      </resource>
+      <resource name="datatype">
+        <object>Veri türü</object>
+      </resource>
+      <resource name="value">
+        <object>Değer</object>
+      </resource>
+      <resource name="commandtype">
+        <object>Komut türü</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Algorithms" ServiceOnly="true">
+      <resource name="algorithm">
+        <object>Algoritma</object>
+      </resource>
+      <resource name="name">
+        <object>Adı</object>
+      </resource>
+      <resource name="shname">
+        <object>Kısa</object>
+      </resource>
+      <resource name="extcode">
+        <object>Harici kod</object>
+      </resource>
+      <resource name="pattern">
+        <object>Desen</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Boyut 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Boyut 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Boyut 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Boyut 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Metin 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Metin 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Metin 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Metin 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Metin 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Metin 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Metin 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Metin 8</object>
+      </resource>
+      <resource name="helpcontext">
+        <object>Bilgi</object>
+      </resource>
+      <resource name="active">
+        <object>Etkin</object>
+      </resource>
+      <resource name="code">
+        <object>Kod</object>
+      </resource>
+      <resource name="batchmode">
+        <object>Seri modu</object>
+      </resource>
+      <resource name="Capabilities">
+        <object>Ayırıcılar</object>
+      </resource>
+    </type>
+    <type name="Algorithm.Parameter.Names" ServiceOnly="false">
+      <resource name="MinBatchWeight">
+        <object>Min. seri \nağırlığı</object>
+      </resource>
+      <resource name="MaxBatchWeight">
+        <object>Maks. seri \nağırlığı</object>
+      </resource>
+      <resource name="MinBatchCount">
+        <object>Min. seri \nsayımı</object>
+      </resource>
+      <resource name="MaxBatchCount">
+        <object>Maks. seri \nsayımı</object>
+      </resource>
+      <resource name="BatchWeightUnit">
+        <object>Seri \nbirimi</object>
+      </resource>
+      <resource name="RejectLevel">
+        <object>Reddetme \ndüzeyi</object>
+      </resource>
+      <resource name="TrayId">
+        <object>Tepsi Kimliği</object>
+      </resource>
+      <resource name="Priority">
+        <object>Öncelik</object>
+      </resource>
+      <resource name="NegTolerance">
+        <object>Negatif\ntolerans</object>
+      </resource>
+      <resource name="PosTolerance">
+        <object>Pozitif\ntolerans</object>
+      </resource>
+      <resource name="ToleranceUnit">
+        <object>Tolerans\nbirimi</object>
+      </resource>
+      <resource name="Rate">
+        <object>Hız</object>
+      </resource>
+      <resource name="RateUnit">
+        <object>Hız birimi</object>
+      </resource>
+      <resource name="AverageWeight">
+        <object>Ortalama\nağırlık ($W)</object>
+      </resource>
+      <resource name="MaxRate">
+        <object>Maks. hız</object>
+      </resource>
+      <resource name="Quality">
+        <object>Kalite</object>
+      </resource>
+      <resource name="UsePercentage">
+        <object>Yüzde kullan</object>
+      </resource>
+      <resource name="AcceptedOverweight">
+        <object>Kabul edilen\nyüksek ağırlık($W)</object>
+      </resource>
+      <resource name="RejectBelow">
+        <object>Altındakileri \nreddet ($W)</object>
+      </resource>
+      <resource name="RejectAbove">
+        <object>Üstündekileri \nreddet ($W)</object>
+      </resource>
+      <resource name="AccuracyMode">
+        <object>Hassasiyet modu</object>
+      </resource>
+      <resource name="DripFactor">
+        <object>Güvenlik \nyüksek ağırlığı ($W)</object>
+      </resource>
+      <resource name="_unbound_grade_paramvalue_TrayId.lookup.value">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="_unbound_grade_paramvalue_TrayId.lookup.name">
+        <object>Adı</object>
+      </resource>
+      <resource name="TargetBatchWeight">
+        <object>Hedef seri \nağırlığı</object>
+      </resource>
+      <resource name="TargetRange">
+        <object>Hedef aralık</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.AlgorithmCapabilities" ServiceOnly="true">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="algorithm">
+        <object>Algoritma</object>
+      </resource>
+      <resource name="devicetype">
+        <object>Aygıt türü kodu</object>
+      </resource>
+      <resource name="algrname">
+        <object>Aygıt algoritması\nadı</object>
+      </resource>
+      <resource name="algrvalue">
+        <object>Aygıt algoritması\ndeğeri</object>
+      </resource>
+      <resource name="devicetype Name">
+        <object>Aygıt türü</object>
+      </resource>
+      <resource name="Parameters">
+        <object>Parametreler</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.AlgorithmParms" ServiceOnly="true">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="algorithm">
+        <object>Algoritma</object>
+      </resource>
+      <resource name="name">
+        <object>Adı</object>
+      </resource>
+      <resource name="description">
+        <object>Açıklama</object>
+      </resource>
+      <resource name="paramname">
+        <object>Parametre adı</object>
+      </resource>
+      <resource name="datatype">
+        <object>Veri türü</object>
+      </resource>
+      <resource name="enumtype">
+        <object>Numaralandırma türü</object>
+      </resource>
+      <resource name="minvalue">
+        <object>Min. değer</object>
+      </resource>
+      <resource name="maxvalue">
+        <object>Maks. değer</object>
+      </resource>
+      <resource name="defvalue">
+        <object>Varsayılan değer</object>
+      </resource>
+      <resource name="required">
+        <object>Gerekli</object>
+      </resource>
+      <resource name="uiorder">
+        <object>UI sırası</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Systems" ServiceOnly="true">
+      <resource name="system">
+        <object>Sistem kodu</object>
+      </resource>
+      <resource name="systype">
+        <object>Sistem türü</object>
+      </resource>
+      <resource name="sysprogram">
+        <object>Program kodu</object>
+      </resource>
+      <resource name="usereduction">
+        <object>Azaltma kullan</object>
+      </resource>
+      <resource name="recnominal">
+        <object>Nominal ağırlığı\nkaydet</object>
+      </resource>
+      <resource name="unitop">
+        <object>Ünite işlemi kodu</object>
+      </resource>
+      <resource name="batchdetails">
+        <object>Seri günlüğü\nayrıntıları</object>
+      </resource>
+      <resource name="piecedetails">
+        <object>Parça günlüğü\nayrıntıları</object>
+      </resource>
+      <resource name="system Name">
+        <object>Sistem</object>
+      </resource>
+      <resource name="sysprogram Name">
+        <object>Program</object>
+      </resource>
+      <resource name="unitop Name">
+        <object>Ünite işlemi</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.PieceRegs" ServiceOnly="false">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="prperiod">
+        <object>İşlem\ndönemi</object>
+      </resource>
+      <resource name="material">
+        <object>Malzeme kodu</object>
+      </resource>
+      <resource name="piecetype">
+        <object>Parça türü kodu</object>
+      </resource>
+      <resource name="colortype">
+        <object>Renk kodu</object>
+      </resource>
+      <resource name="station">
+        <object>İstasyon kodu</object>
+      </resource>
+      <resource name="po">
+        <object>PO kodu</object>
+      </resource>
+      <resource name="shift">
+        <object>Değiştirme</object>
+      </resource>
+      <resource name="input">
+        <object>Giriş numarası</object>
+      </resource>
+      <resource name="class">
+        <object>Sınıf</object>
+      </resource>
+      <resource name="pieces">
+        <object>Parçalar</object>
+      </resource>
+      <resource name="valuetype">
+        <object>Değer türü</object>
+      </resource>
+      <resource name="value">
+        <object>Değer</object>
+      </resource>
+      <resource name="valuesqr">
+        <object>Değer Kare</object>
+      </resource>
+      <resource name="nregs">
+        <object>Kayıtlar</object>
+      </resource>
+      <resource name="regtime">
+        <object>Günlük saati</object>
+      </resource>
+      <resource name="rtype">
+        <object>Kayıt türü</object>
+      </resource>
+      <resource name="rstat">
+        <object>Kayıt durumu</object>
+      </resource>
+      <resource name="batch">
+        <object>Seri</object>
+      </resource>
+      <resource name="packid">
+        <object>Paket kimliği</object>
+      </resource>
+      <resource name="material Name">
+        <object>Malzeme</object>
+      </resource>
+      <resource name="piecetype Name">
+        <object>Parça türü</object>
+      </resource>
+      <resource name="colortype Name">
+        <object>Renk türü</object>
+      </resource>
+      <resource name="station Name">
+        <object>İstasyon</object>
+      </resource>
+      <resource name="po Name">
+        <object>PO</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Değiştirme</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Alt işlem\ndönemi</object>
+      </resource>
+      <resource name="lot">
+        <object>Parti kodu</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Üretim partisi\nkodu</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Üretim partisi</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Kaynak alanı\nkodu</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Kaynak alanı</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.PieceLog" ServiceOnly="false">
+      <resource name="grd_piecelog_id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="grd_piecelog_prperiod">
+        <object>İşlem Dönemi</object>
+      </resource>
+      <resource name="grd_piecelog_material">
+        <object>Malzeme kodu</object>
+      </resource>
+      <resource name="grd_piecelog_po">
+        <object>PO kodu</object>
+      </resource>
+      <resource name="grd_piecelog_shift">
+        <object>Değiştirme kodu</object>
+      </resource>
+      <resource name="grd_piecelog_weight">
+        <object>Ağırlık ($W)</object>
+      </resource>
+      <resource name="grd_piecelog_status">
+        <object>Tartım durumu</object>
+      </resource>
+      <resource name="grd_piecelog_length">
+        <object>Uzunluk</object>
+      </resource>
+      <resource name="grd_piecelog_height">
+        <object>Yükseklik</object>
+      </resource>
+      <resource name="grd_piecelog_width">
+        <object>Genişlik</object>
+      </resource>
+      <resource name="grd_piecelog_colortype">
+        <object>Renk türü kodu</object>
+      </resource>
+      <resource name="grd_piecelog_piecetype">
+        <object>Parça türü kodu</object>
+      </resource>
+      <resource name="grd_piecelog_gate">
+        <object>Kapak</object>
+      </resource>
+      <resource name="grd_piecelog_regtime">
+        <object>Günlük saati</object>
+      </resource>
+      <resource name="grd_piecelog_rtype">
+        <object>Kayıt türü</object>
+      </resource>
+      <resource name="grd_piecelog_rstat">
+        <object>Kayıt durumu</object>
+      </resource>
+      <resource name="grd_piecelog_batch">
+        <object>Seri</object>
+      </resource>
+      <resource name="grd_piecelog_packitem">
+        <object>Paket öğesi</object>
+      </resource>
+      <resource name="grd_piecelog_material Name">
+        <object>Malzeme</object>
+      </resource>
+      <resource name="grd_piecelog_po Name">
+        <object>PO</object>
+      </resource>
+      <resource name="grd_piecelog_shift Name">
+        <object>Değiştirme</object>
+      </resource>
+      <resource name="grd_piecelog_colortype Name">
+        <object>Renk türü</object>
+      </resource>
+      <resource name="grd_piecelog_piecetype Name">
+        <object>Parça türü</object>
+      </resource>
+      <resource name="grd_piecelog_sprperiod">
+        <object>Alt işlem\ndönemi</object>
+      </resource>
+      <resource name="grd_piecelog_lot">
+        <object>Parti kodu</object>
+      </resource>
+      <resource name="grd_piecelog_lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="grd_piecelog_plot">
+        <object>Üretim partisi\nkodu</object>
+      </resource>
+      <resource name="grd_piecelog_plot Name">
+        <object>Üretim partisi</object>
+      </resource>
+      <resource name="grd_piecelog_rmarea">
+        <object>Kaynak alanı\nkodu</object>
+      </resource>
+      <resource name="grd_piecelog_rmarea Name">
+        <object>Kaynak alanı</object>
+      </resource>
+      <resource name="grd_piecelog_grader">
+        <object>Ayırıcı kodu</object>
+      </resource>
+      <resource name="grd_piecelog_grader Name">
+        <object>Ayırıcı</object>
+      </resource>
+      <resource name="grd_piecelog_input">
+        <object>Giriş numarası</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.InputRegs" ServiceOnly="false">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="system">
+        <object>Sistem kodu</object>
+      </resource>
+      <resource name="prperiod">
+        <object>İşlem dönemi</object>
+      </resource>
+      <resource name="material">
+        <object>Malzeme kodu</object>
+      </resource>
+      <resource name="station">
+        <object>İstasyon kodu</object>
+      </resource>
+      <resource name="po">
+        <object>PO kodu</object>
+      </resource>
+      <resource name="shift">
+        <object>Değiştirme kodu</object>
+      </resource>
+      <resource name="pieces">
+        <object>Parçalar</object>
+      </resource>
+      <resource name="value">
+        <object>Değer</object>
+      </resource>
+      <resource name="valuetype">
+        <object>Değer türü</object>
+      </resource>
+      <resource name="nregs">
+        <object>Kayıtlar</object>
+      </resource>
+      <resource name="regtime">
+        <object>Günlük saati</object>
+      </resource>
+      <resource name="rstat">
+        <object>Kayıt durumu</object>
+      </resource>
+      <resource name="batch">
+        <object>Seri</object>
+      </resource>
+      <resource name="aseconds">
+        <object>Etkin\nzaman (sn.)</object>
+      </resource>
+      <resource name="iseconds">
+        <object>Etkin olmayan\nzaman (sn.)</object>
+      </resource>
+      <resource name="paseconds">
+        <object>İşlem ünitesi\netkin zamanı (sn.)</object>
+      </resource>
+      <resource name="piseconds">
+        <object>İşlem ünitesi\netkin olmayan zamanı (sn.)</object>
+      </resource>
+      <resource name="system Name">
+        <object>Sistem</object>
+      </resource>
+      <resource name="material Name">
+        <object>Malzeme</object>
+      </resource>
+      <resource name="station Name">
+        <object>İstasyon</object>
+      </resource>
+      <resource name="po Name">
+        <object>PO</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Değiştirme</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Alt işlem\ndönemi</object>
+      </resource>
+      <resource name="lot">
+        <object>Parti kodu</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Üretim partisi\nkodu</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Üretim partisi</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Kaynak alanı\nkodu</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Kaynak alanı</object>
+      </resource>
+      <resource name="grader">
+        <object>Ayırıcı kodu</object>
+      </resource>
+      <resource name="grader Name">
+        <object>Ayırıcı</object>
+      </resource>
+      <resource name="rtype">
+        <object>Kayıt türü</object>
+      </resource>
+      <resource name="input">
+        <object>Giriş numarası</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.BatchLog" ServiceOnly="false">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="system">
+        <object>Sistem kodu</object>
+      </resource>
+      <resource name="prperiod">
+        <object>İşlem dönemi</object>
+      </resource>
+      <resource name="material">
+        <object>Malzeme kodu</object>
+      </resource>
+      <resource name="station">
+        <object>İstasyon kodu</object>
+      </resource>
+      <resource name="po">
+        <object>PO kodu</object>
+      </resource>
+      <resource name="shift">
+        <object>Değiştirme kodu</object>
+      </resource>
+      <resource name="pieces">
+        <object>Parçalar</object>
+      </resource>
+      <resource name="weight">
+        <object>Ağırlık ($W)</object>
+      </resource>
+      <resource name="weighterr">
+        <object>Ağırlık hatası</object>
+      </resource>
+      <resource name="height">
+        <object>Yükseklik</object>
+      </resource>
+      <resource name="width">
+        <object>Genişlik</object>
+      </resource>
+      <resource name="length">
+        <object>Uzunluk</object>
+      </resource>
+      <resource name="nregs">
+        <object>Kayıtlar</object>
+      </resource>
+      <resource name="regtime">
+        <object>Günlük saati</object>
+      </resource>
+      <resource name="rtype">
+        <object>Kayıt türü</object>
+      </resource>
+      <resource name="rstat">
+        <object>Kayıt durumu</object>
+      </resource>
+      <resource name="batch">
+        <object>Seri</object>
+      </resource>
+      <resource name="layout">
+        <object>Düzen kodu</object>
+      </resource>
+      <resource name="material Name">
+        <object>Malzeme</object>
+      </resource>
+      <resource name="station Name">
+        <object>İstasyon</object>
+      </resource>
+      <resource name="po Name">
+        <object>PO</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Değiştirme</object>
+      </resource>
+      <resource name="layout Name">
+        <object>Düzen</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Alt işlem\ndönemi</object>
+      </resource>
+      <resource name="lot">
+        <object>Parti kodu</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Üretim partisi\nkodu</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Üretim partisi</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Kaynak alanı\nkodu</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Kaynak alanı</object>
+      </resource>
+      <resource name="grader">
+        <object>Ayırıcı kodu</object>
+      </resource>
+      <resource name="grader Name">
+        <object>Ayırıcı</object>
+      </resource>
+      <resource name="nominal">
+        <object>Nominal ($W)</object>
+      </resource>
+      <resource name="target">
+        <object>Hedef ağırlık ($W)</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.WsRegs" ServiceOnly="false">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="system">
+        <object>Sistem kodu</object>
+      </resource>
+      <resource name="prperiod">
+        <object>İşlem\ndönemi</object>
+      </resource>
+      <resource name="material">
+        <object>Malzeme\nkodu</object>
+      </resource>
+      <resource name="station">
+        <object>İstasyon\nkodu</object>
+      </resource>
+      <resource name="po">
+        <object>PO kodu</object>
+      </resource>
+      <resource name="shift">
+        <object>Değiştirme kodu</object>
+      </resource>
+      <resource name="employee">
+        <object>Çalışan\kodu</object>
+      </resource>
+      <resource name="pieces">
+        <object>Parçalar</object>
+      </resource>
+      <resource name="weight">
+        <object>Ağırlık ($W)</object>
+      </resource>
+      <resource name="nregs">
+        <object>Kayıtlar</object>
+      </resource>
+      <resource name="regtime">
+        <object>Günlük saati</object>
+      </resource>
+      <resource name="rtype">
+        <object>Kayıt türü</object>
+      </resource>
+      <resource name="rstat">
+        <object>Kayıt\ndurumu</object>
+      </resource>
+      <resource name="batch">
+        <object>Seri</object>
+      </resource>
+      <resource name="aseconds">
+        <object>Etkin\nzaman (sn.)</object>
+      </resource>
+      <resource name="iseconds">
+        <object>Etkin olmayan\nzaman (sn.)</object>
+      </resource>
+      <resource name="material Name">
+        <object>Malzeme</object>
+      </resource>
+      <resource name="station Name">
+        <object>İstasyon</object>
+      </resource>
+      <resource name="po Name">
+        <object>PO</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Değiştirme</object>
+      </resource>
+      <resource name="employee Name">
+        <object>Çalışan</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Alt işlem\ndönemi</object>
+      </resource>
+      <resource name="lot">
+        <object>Parti kodu</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Üretim partisi\nkodu</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Üretim partisi</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Kaynak alanı\nkodu</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Kaynak alanı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.SystemSetup.GradingSystemUC" ServiceOnly="true">
+      <resource name="systemSettingsGroup.Text">
+        <object>Sistem ayarları</object>
+      </resource>
+      <resource name="systemNameLabel.Text">
+        <object>Adı:</object>
+      </resource>
+      <resource name="systemShNameLabel.Text">
+        <object>Kısa adı:</object>
+      </resource>
+      <resource name="systemCodeLabel.Text">
+        <object>Kod:</object>
+      </resource>
+      <resource name="applicationLabel.Text">
+        <object>Uygulama:</object>
+      </resource>
+      <resource name="unitOperationLabel.Text">
+        <object>Varsayılan ünite işlemi:</object>
+      </resource>
+      <resource name="systemTypeLabel.Text">
+        <object>Sistem türü:</object>
+      </resource>
+      <resource name="batchLogDetailsLabel.Text">
+        <object>Seri günlüğü ayrıntıları:</object>
+      </resource>
+      <resource name="pieceLogDetailsLabel.Text">
+        <object>Parça günlüğü ayrıntıları:</object>
+      </resource>
+      <resource name="extcodeLabel.Text">
+        <object>Harici Kod:</object>
+      </resource>
+      <resource name="siteLabel.Text">
+        <object>Yer:</object>
+      </resource>
+      <resource name="xmlDataLabel.Text">
+        <object>XML:</object>
+      </resource>
+      <resource name="active.Text">
+        <object>Etkin</object>
+      </resource>
+      <resource name="useReductionCheckBox.Text">
+        <object>Azaltma kullan</object>
+      </resource>
+      <resource name="recNominalWeightCheckBox.Text">
+        <object>Nominal ağırlığı kaydet</object>
+      </resource>
+      <resource name="systemProgramLabel.Text">
+        <object>Sistem programı:</object>
+      </resource>
+      <resource name="gradersTabPage.Text">
+        <object>Ayırıcılar</object>
+      </resource>
+      <resource name="gatesTabPage.Text">
+        <object>Kapaklar</object>
+      </resource>
+      <resource name="extraGradingTabPage.Text">
+        <object>Ekstra ayırma</object>
+      </resource>
+      <resource name="dctTabPage.Text">
+        <object>Ayırıcı yapılandırma kalıpları</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.M6000.Production.Graders.PalletEditor" ServiceOnly="false">
+      <resource name="selectOnePallet">
+        <object>Lütfen yalnızca 1 palet seçin</object>
+      </resource>
+      <resource name="deletePalletPrompt">
+        <object>Seçilen paletleri silmek istiyor musunuz?</object>
+      </resource>
+      <resource name="confirmOperationCaption">
+        <object>İşlemi onayla</object>
+      </resource>
+      <resource name="clearSelectionButton.Text">
+        <object>Seçimi temizle</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>Tamam</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>İptal</object>
+      </resource>
+      <resource name="deleteButton.Text">
+        <object>Sil</object>
+      </resource>
+      <resource name="otherPalletRegistered">
+        <object>Başka bir palet zaten kapakta kayıtlı.</object>
+      </resource>
+      <resource name="deletePalletFailed">
+        <object>Paleti silme başarısız oldu</object>
+      </resource>
+      <resource name="deletePalletErrorTitle">
+        <object>Paleti silme işlemi başarısız oldu</object>
+      </resource>
+      <resource name="infoText">
+        <object>Kapak için paletleri aç</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.M6000.Production.Graders.GateStatusControl" ServiceOnly="false">
+      <resource name="noOpenPallets">
+        <object>Açık palet yok</object>
+      </resource>
+      <resource name="openPallets">
+        <object>paletleri aç</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.M6000.Production.Graders.RegisterPallets" ServiceOnly="false">
+      <resource name="palletRegistrationFailed">
+        <object>Bazı paletler kayıtlı değil.</object>
+      </resource>
+      <resource name="errorCaption">
+        <object>Hata</object>
+      </resource>
+      <resource name="reason">
+        <object>Neden:</object>
+      </resource>
+      <resource name="infoText">
+        <object>Paletleri kaydet</object>
+      </resource>
+      <resource name="closeButton.Text">
+        <object>Geri git</object>
+      </resource>
+      <resource name="registerAllPalletsButton.Text">
+        <object>Tümünü kaydet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.M6000.Production.Graders.ControlScreen" ServiceOnly="false">
+      <resource name="noGradeOnGate">
+        <object>Ürün yok</object>
+      </resource>
+      <resource name="selectGatePrompt">
+        <object>Ayrıntılı kapak bilgileri için kapak seçin</object>
+      </resource>
+      <resource name="weightLimits">
+        <object>Ağırlık sınırları:</object>
+      </resource>
+      <resource name="batchSize">
+        <object>Seri boyutu:</object>
+      </resource>
+      <resource name="pallet">
+        <object>Palet:</object>
+      </resource>
+      <resource name="noPalletRegistered">
+        <object>Kayıtlı palet yok.</object>
+      </resource>
+      <resource name="infoText">
+        <object>Kontrol ekranı</object>
+      </resource>
+      <resource name="createProcessUnitClientError">
+        <object>İşlem yöneticisine bağlanılamıyor</object>
+      </resource>
+      <resource name="noGraderInSystem">
+        <object>Ayırma sisteminde ayırıcı bulunamadı.</object>
+      </resource>
+      <resource name="generalError">
+        <object>Hata</object>
+      </resource>
+      <resource name="gradingSystemNotFound">
+        <object>Ayırma sistemi bulunamadı.</object>
+      </resource>
+      <resource name="currentBatchStatus">
+        <object>Geçerli seri durumu:</object>
+      </resource>
+      <resource name="currentBatchPieces">
+        <object>parça</object>
+      </resource>
+      <resource name="registerPalletsButton.Text">
+        <object>Paletleri kaydet</object>
+      </resource>
+      <resource name="refreshButton.Text">
+        <object>Yenile</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.GradesPanelUC" ServiceOnly="false">
+      <resource name="prunitColumn.Caption">
+        <object>İşlem ünitesi</object>
+      </resource>
+      <resource name="materialNameColumn.Caption">
+        <object>Malzeme</object>
+      </resource>
+      <resource name="gradeColumn.Caption">
+        <object>Bölüm</object>
+      </resource>
+      <resource name="gatesColumn.Caption">
+        <object>Kapaklar</object>
+      </resource>
+      <resource name="minWeightColumn.Caption">
+        <object>Min. ağırlık</object>
+      </resource>
+      <resource name="maxWeightColumn.Caption">
+        <object>Maks. ağırlık</object>
+      </resource>
+      <resource name="weightColumn.Caption">
+        <object>Ağırlık</object>
+      </resource>
+      <resource name="piecesColumn.Caption">
+        <object>Parçalar</object>
+      </resource>
+      <resource name="confirmButton.Caption">
+        <object>Onayla</object>
+      </resource>
+      <resource name="cancelButton.Caption">
+        <object>İptal</object>
+      </resource>
+      <resource name="weightLimitsColumnDisplayFormat">
+        <object>Ağırlık sınırları ({0})</object>
+      </resource>
+      <resource name="pieceDataGridBand.Caption">
+        <object>Parça verileri</object>
+      </resource>
+      <resource name="batchDataGridBand.Caption">
+        <object>Seriler</object>
+      </resource>
+      <resource name="meanWeightColumnDisplayFormat">
+        <object>Ortalama ağırlık</object>
+      </resource>
+      <resource name="batchWeightColumn.Caption">
+        <object>Seri ağırlığı</object>
+      </resource>
+      <resource name="meanBatchWeightColumn.Caption">
+        <object>Ort. seri ağırlığı</object>
+      </resource>
+    </type>
+    <type name="Grid.SystemSetup.Takeaways" ServiceOnly="true">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="system">
+        <object>Ayırma sistemi</object>
+      </resource>
+      <resource name="grader">
+        <object>Ayırıcı</object>
+      </resource>
+      <resource name="shname">
+        <object>Kısa adı</object>
+      </resource>
+      <resource name="takeawaynum">
+        <object>Teslim numarası</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Grid.SystemSetup.Matrixes" ServiceOnly="true">
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="system">
+        <object>Ayırma sistemi</object>
+      </resource>
+      <resource name="output">
+        <object>Teslim</object>
+      </resource>
+      <resource name="position">
+        <object>Teslim konumu/nnumarası</object>
+      </resource>
+      <resource name="action">
+        <object>Eylem</object>
+      </resource>
+      <resource name="boxtype">
+        <object>Kutu türü</object>
+      </resource>
+      <resource name="controller">
+        <object>Denetleyici kodu</object>
+      </resource>
+      <resource name="lanenumber">
+        <object>Yol numarası</object>
+      </resource>
+      <resource name="toposition">
+        <object>Hedef konum</object>
+      </resource>
+      <resource name="toaction">
+        <object>Hedef eylem</object>
+      </resource>
+      <resource name="printer1">
+        <object>Yazıcı 1 kodu</object>
+      </resource>
+      <resource name="printer2">
+        <object>Yazıcı 2 kodu</object>
+      </resource>
+      <resource name="printer3">
+        <object>Yazıcı 3 kodu</object>
+      </resource>
+      <resource name="unitop">
+        <object>Ünite işlemi kodu</object>
+      </resource>
+      <resource name="controller Name">
+        <object>Denetleyici</object>
+      </resource>
+      <resource name="printer1 Name">
+        <object>Yazıcı 1</object>
+      </resource>
+      <resource name="printer2 Name">
+        <object>Yazıcı 2</object>
+      </resource>
+      <resource name="printer3 Name">
+        <object>Yazıcı 3</object>
+      </resource>
+      <resource name="unitop Name">
+        <object>Ünite işlemi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.PieceStatusGridUC" ServiceOnly="false">
+      <resource name="statusColumn.Caption">
+        <object>Durum</object>
+      </resource>
+      <resource name="processPeriodPiecesColumn.Caption">
+        <object>İşlem dönemi</object>
+      </resource>
+      <resource name="windowedPiecesColumn.Caption">
+        <object>Son öğeler/nMaks. (N)</object>
+      </resource>
+      <resource name="ClearPieceStatusWindowButton.Caption">
+        <object>Son öğeleri temizle</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.PieceRejectLogGridUC" ServiceOnly="false">
+      <resource name="clearLogItem.Caption">
+        <object>Günlüğü temizle</object>
+      </resource>
+      <resource name="exportLogItem.Caption">
+        <object>Günlüğü dışa aktar</object>
+      </resource>
+      <resource name="configItem.Caption">
+        <object>Yapılandırma</object>
+      </resource>
+      <resource name="logTimeCol.Caption">
+        <object>Günlük saati</object>
+      </resource>
+      <resource name="rejectReasonCol.Caption">
+        <object>Reddetme nedeni</object>
+      </resource>
+      <resource name="weightCol.Caption">
+        <object>Ağırlık</object>
+      </resource>
+      <resource name="stationCol.Caption">
+        <object>İstasyon</object>
+      </resource>
+      <resource name="pieceTypeCol.Caption">
+        <object>Parça türü</object>
+      </resource>
+      <resource name="productCol.Caption">
+        <object>Ürün</object>
+      </resource>
+      <resource name="productCodeCol.Caption">
+        <object>Ürün kodu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.PieceRejectLogForm" ServiceOnly="false">
+      <resource name="PieceRejectLogConfigForm.Text">
+        <object>Yapılandırma</object>
+      </resource>
+      <resource name="refreshIntervalLabel.Text">
+        <object>Yenileme zaman aralığı</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>İptal</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>Tamam</object>
+      </resource>
+    </type>
+    <type name="Grading.Data.WorkstationRegistrations" ServiceOnly="false">
+      <resource name="aseconds">
+        <object>Etkin\nzaman (sn.)</object>
+      </resource>
+      <resource name="iseconds">
+        <object>Etkin olmayan\nzaman (sn.)</object>
+      </resource>
+      <resource name="batch">
+        <object>Seri</object>
+      </resource>
+      <resource name="employee">
+        <object>Çalışan kodu</object>
+      </resource>
+      <resource name="employee Name">
+        <object>Çalışan</object>
+      </resource>
+      <resource name="id">
+        <object>Kimlik</object>
+      </resource>
+      <resource name="lot">
+        <object>Parti kodu</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="material">
+        <object>Malzeme kodu</object>
+      </resource>
+      <resource name="material Name">
+        <object>Malzeme</object>
+      </resource>
+      <resource name="nregs">
+        <object>Kayıtlar</object>
+      </resource>
+      <resource name="pieces">
+        <object>Parçalar</object>
+      </resource>
+      <resource name="plot">
+        <object>Üretim partisi kodu</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Üretim partisi</object>
+      </resource>
+      <resource name="po">
+        <object>PO kodu</object>
+      </resource>
+      <resource name="po Name">
+        <object>PO</object>
+      </resource>
+      <resource name="prperiod">
+        <object>İşlem\ndönemi</object>
+      </resource>
+      <resource name="regtime">
+        <object>Günlük saati</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Kaynak alanı kodu</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Kaynak alanı</object>
+      </resource>
+      <resource name="rstat">
+        <object>Kayıt durumu</object>
+      </resource>
+      <resource name="rtype">
+        <object>Kayıt türü</object>
+      </resource>
+      <resource name="shift">
+        <object>Değiştirme kodu</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Değiştirme</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Alt işlem \ndönemi</object>
+      </resource>
+      <resource name="station">
+        <object>İstasyon kodu</object>
+      </resource>
+      <resource name="station Name">
+        <object>İstasyon</object>
+      </resource>
+      <resource name="weight">
+        <object>Ağırlık ($W)</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

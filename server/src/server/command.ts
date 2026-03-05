@@ -7,9 +7,9 @@ import { resolve } from 'node:path';
 import express from 'express';
 
 import { EndpointsRouting } from './endpoints/routing.js';
+import { EndpointError } from './endpoint-error.js';
 import { dataSource } from '@/data-source.js';
 import { ENV } from '@/env.js';
-import { EndpointError } from './endpoint-error.js';
 
 @Command({
     name: 'server',
@@ -28,7 +28,7 @@ export class ServerCommand implements Executable {
         ?   err.status
         :   500;
 
-        res.type('plain');
+        res.type('text');
         res.end(err.message);
     }
 

@@ -1,0 +1,4365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="no">
+  <industry>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Utils.MessagePrompt" ServiceOnly="false">
+      <resource name="DlgSaveChanges">
+        <object>Vil du lagre endringene?</object>
+      </resource>
+      <resource name="DlgDelete">
+        <object>Er du sikker på at du vil slette?</object>
+      </resource>
+      <resource name="DlgCorrectingValue">
+        <object>Vil du korrigere verdien?</object>
+      </resource>
+      <resource name="DlgTitleError">
+        <object>Feil</object>
+      </resource>
+      <resource name="DlgErrorMsg">
+        <object>Kommandofeil</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Common.PageSettingsUC" ServiceOnly="false">
+      <resource name="grpGeneral.Text">
+        <object>Generelt</object>
+      </resource>
+      <resource name="grpHistograms.Text">
+        <object>Statistiske histogrammer</object>
+      </resource>
+      <resource name="lblPrgName.Text">
+        <object>Navn:</object>
+      </resource>
+      <resource name="lblPrgShortName.Text">
+        <object>Kortnavn:</object>
+      </resource>
+      <resource name="lblPrgDescription.Text">
+        <object>Beskrivelse:</object>
+      </resource>
+      <resource name="lblPrgCode.Text">
+        <object>Kode:</object>
+      </resource>
+      <resource name="lblPrgUncutMaterial.Text">
+        <object>Uoppskåret produkt:</object>
+      </resource>
+      <resource name="chkNeverOverwrite.Text">
+        <object>Aldri overskriv</object>
+      </resource>
+      <resource name="chkUseDefMaterial.Text">
+        <object>Bruk def.</object>
+      </resource>
+      <resource name="chkActive.Text">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="chkUseImperialUnit.Text">
+        <object>Bruk britiske enheter (tommer, unser)</object>
+      </resource>
+      <resource name="lblInputWeightRes.Text">
+        <object>Inngangsvektoppløsning:</object>
+      </resource>
+      <resource name="chkUseDefInputWeightRes.Text">
+        <object>Bruk def.</object>
+      </resource>
+      <resource name="lblInputLengthRes.Text">
+        <object>Inngangsvektoppløsning:</object>
+      </resource>
+      <resource name="chkUseDefInputLengthRes.Text">
+        <object>Bruk def.</object>
+      </resource>
+      <resource name="lblOutputWeightRes.Text">
+        <object>Utgangsvektoppløsning:</object>
+      </resource>
+      <resource name="chkUseDefOutputWeightRes.Text">
+        <object>Bruk def.</object>
+      </resource>
+      <resource name="lblOutputLengthRes.Text">
+        <object>Utgangsvektoppløsning:</object>
+      </resource>
+      <resource name="chkUseDefOutputLengthRes.Text">
+        <object>Bruk def.</object>
+      </resource>
+      <resource name="edPrgName.ToolTip">
+        <object>Navn på kutteprogram</object>
+      </resource>
+      <resource name="edPrgShortName.ToolTip">
+        <object>Kortnavn for kutteprogrammet</object>
+      </resource>
+      <resource name="edPrgDescription.ToolTip">
+        <object>Kort beskrivelse av programmet</object>
+      </resource>
+      <resource name="edPrgCode.ToolTip">
+        <object>Intern systemkode</object>
+      </resource>
+      <resource name="PrgUncutMaterialLookUp.ToolTip">
+        <object>Produkt som skal brukes for ubeskåret produkt</object>
+      </resource>
+      <resource name="chkNeverOverwrite.ToolTip">
+        <object>Kontroller om program i enhet ikke kan overstyres</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Kode</object>
+      </resource>
+      <resource name="EnterName">
+        <object>(Angi programnavn)</object>
+      </resource>
+      <resource name="chkUseDefMaterial.ToolTip">
+        <object>Bruk standardverdi fra bane</object>
+      </resource>
+      <resource name="chkUseDefInputWeightRes.ToolTip">
+        <object>Bruk standardverdi fra bane</object>
+      </resource>
+      <resource name="chkUseDefInputLengthRes.ToolTip">
+        <object>Bruk standardverdi fra bane</object>
+      </resource>
+      <resource name="chkUseDefOutputWeightRes.ToolTip">
+        <object>Bruk standardverdi fra bane</object>
+      </resource>
+      <resource name="chkUseDefOutputLengthRes.ToolTip">
+        <object>Bruk standardverdi fra bane</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Ipm.PageMoreSettingsUC" ServiceOnly="false">
+      <resource name="grpHoldDownSettings.Text">
+        <object>Holdeinnstillinger</object>
+      </resource>
+      <resource name="grpBeltSpeed.Text">
+        <object>Belteinnstillinger</object>
+      </resource>
+      <resource name="grpVisionSetup.Text">
+        <object>Vision-oppsett</object>
+      </resource>
+      <resource name="grpVTW.Text">
+        <object>Volum-til-vekt-grenser</object>
+      </resource>
+      <resource name="grpSwitches.Text">
+        <object>Brytere</object>
+      </resource>
+      <resource name="lblHDSInfo.Text">
+        <object>Filtrer ut produktender med kortere bredde enn:</object>
+      </resource>
+      <resource name="lblHDFront.Text">
+        <object>Forside:</object>
+      </resource>
+      <resource name="lblHDBack.Text">
+        <object>Bakside:</object>
+      </resource>
+      <resource name="chkUseBackSupporter.Text">
+        <object>Bruk back supporter</object>
+      </resource>
+      <resource name="lblFromFrontOfProduct.Text">
+        <object>Avstand fra produktets forside:</object>
+      </resource>
+      <resource name="chkUseForkHoldDown.Text">
+        <object>Bruk gaffelholder</object>
+      </resource>
+      <resource name="lblFromEndOfProduct.Text">
+        <object>Avstand fra produktets ende</object>
+      </resource>
+      <resource name="chkUseBeltHoldDown.Text">
+        <object>Bruk belteholder</object>
+      </resource>
+      <resource name="lblFromProductFront.Text">
+        <object>Avstand ned fra produktets forside:</object>
+      </resource>
+      <resource name="lblFromProductEnd.Text">
+        <object>Avstand opp fra produktets ende:</object>
+      </resource>
+      <resource name="chkEnableContinous.Text">
+        <object>Aktiver kontinuerlig</object>
+      </resource>
+      <resource name="chkAutoUpdateVTW.Text">
+        <object>Autooppdater VTW</object>
+      </resource>
+      <resource name="lblVTWMin.Text">
+        <object>Min.:</object>
+      </resource>
+      <resource name="lblVTWMax.Text">
+        <object>Maks.:</object>
+      </resource>
+      <resource name="chkOffcutRemoval.Text">
+        <object>Aktiver etterbehandlingsoptimalisering</object>
+      </resource>
+      <resource name="chkAutoOffcut.Text">
+        <object>Aktiver intelligent off-cut positioning</object>
+      </resource>
+      <resource name="chkUseInweighing.Text">
+        <object>Bruk innveier med dette programmet</object>
+      </resource>
+      <resource name="VisionLookupName">
+        <object>Navn</object>
+      </resource>
+      <resource name="chkEnableContinous.ToolTip">
+        <object>Kontroller om produktet er et kontinuerlig stykke</object>
+      </resource>
+      <resource name="chkAutoUpdateVTW.ToolTip">
+        <object>Kontroller om volum-til-vekt-grenser oppdateres automatisk</object>
+      </resource>
+      <resource name="chkUseCutnBatch.ToolTip">
+        <object>Aktiverer Cut'n Batch-programmet.</object>
+      </resource>
+      <resource name="chkUseCutnBatch.Text">
+        <object>Cut'n Batch</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Ipm.PageDetectionUC" ServiceOnly="false">
+      <resource name="grpDetectionType.Text">
+        <object>Gjenkjenningstype</object>
+      </resource>
+      <resource name="grpLVParameters.Text">
+        <object>L &amp;&amp; V - parametere</object>
+      </resource>
+      <resource name="grpSearchBoundaries.Text">
+        <object>Søkegrenser</object>
+      </resource>
+      <resource name="grpBelly.Text">
+        <object>Buk</object>
+      </resource>
+      <resource name="grpFlap.Text">
+        <object>Lapp</object>
+      </resource>
+      <resource name="lblSearchBoundariesStart.Text">
+        <object>Start:</object>
+      </resource>
+      <resource name="lblSearchBoundariesStop.Text">
+        <object>Stopp:</object>
+      </resource>
+      <resource name="lblSBProcentOfLengthStart.Text">
+        <object>% av lengde</object>
+      </resource>
+      <resource name="lblSBProcentOfLengthStop.Text">
+        <object>% av lengde</object>
+      </resource>
+      <resource name="lblLParam.Text">
+        <object>L - Parametere</object>
+      </resource>
+      <resource name="lblVParam.Text">
+        <object>V - Parametere</object>
+      </resource>
+      <resource name="lblBellyMinWidth.Text">
+        <object>Minimumsbredde:</object>
+      </resource>
+      <resource name="lblBellyMinLength.Text">
+        <object>Minimumslengde:</object>
+      </resource>
+      <resource name="lblBellyFilter.Text">
+        <object>Filter:</object>
+      </resource>
+      <resource name="lblBellyThreshold.Text">
+        <object>Terskel:</object>
+      </resource>
+      <resource name="lblFlapMinWidth.Text">
+        <object>Minimumsbredde:</object>
+      </resource>
+      <resource name="lblFlapMinLength.Text">
+        <object>Minimumslengde:</object>
+      </resource>
+      <resource name="chkUseReversedLabelling.Text">
+        <object>Reversert L/V-gjenkjenning</object>
+      </resource>
+      <resource name="chkUseReversedLabelling.ToolTip">
+        <object>Utfør reversert analyse av L/V-gjenkjenning.</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Innstillinger</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Common.PageFormgradesUC" ServiceOnly="false">
+      <resource name="btnNewFormgrade.Caption">
+        <object>Ny</object>
+      </resource>
+      <resource name="btnDeleteFormgrade.Caption">
+        <object>Slett</object>
+      </resource>
+      <resource name="btnNewFormgrade.Hint">
+        <object>Opprett ny form grade</object>
+      </resource>
+      <resource name="btnDeleteFormgrade.Hint">
+        <object>Slett gjeldende form grade</object>
+      </resource>
+      <resource name="formgradeLookUp.Hint">
+        <object>Liste over form grades</object>
+      </resource>
+      <resource name="lblFormgradeName.Text">
+        <object>Navn:</object>
+      </resource>
+      <resource name="lblVTWRatio.Text">
+        <object>VTW-forhold:</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Innstillinger</object>
+      </resource>
+      <resource name="grpFeatures.Text">
+        <object>Funksjoner</object>
+      </resource>
+      <resource name="grpModel.Text">
+        <object>Modellinnstillinger</object>
+      </resource>
+      <resource name="edFormgradeName.ToolTip">
+        <object>Navn på form grade</object>
+      </resource>
+      <resource name="edVTWRatio.ToolTip">
+        <object>Volum-til-vekt-forhold</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="Lookup.Id.Caption">
+        <object>ID</object>
+      </resource>
+      <resource name="Empty.Formgrade">
+        <object>Klikk ny --&gt;</object>
+      </resource>
+      <resource name="UndefinedName">
+        <object>(udefinert)</object>
+      </resource>
+      <resource name="PromptToManyFormgrades">
+        <object>Du kan ikke ha flere enn fem form grades i et program.</object>
+      </resource>
+      <resource name="Warning">
+        <object>Advarsel</object>
+      </resource>
+      <resource name="DeleteFormgrade">
+        <object>Slette form grade?</object>
+      </resource>
+      <resource name="lblSelect.Caption">
+        <object>Formgrades:</object>
+      </resource>
+      <resource name="btnNavFirst.Hint">
+        <object>Gå til første form grade</object>
+      </resource>
+      <resource name="btnNavLast.Hint">
+        <object>Gå til siste form grade</object>
+      </resource>
+      <resource name="btnNavNext.Hint">
+        <object>Gå til neste form grade</object>
+      </resource>
+      <resource name="btnNavPrevious.Hint">
+        <object>Gå til forrige form grade</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Common.FeaturesGrid" ServiceOnly="false">
+      <resource name="FeatureMinBiggerMax">
+        <object>Funksjonen '{0}' har min. større enn maks.</object>
+      </resource>
+      <resource name="colFeature.Caption">
+        <object>Funksjon</object>
+      </resource>
+      <resource name="colMin.Caption">
+        <object>Min.</object>
+      </resource>
+      <resource name="colMax.Caption">
+        <object>Maks.</object>
+      </resource>
+      <resource name="colEnabled.Caption">
+        <object>Aktivert</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Common.ModelPointsGrid" ServiceOnly="false">
+      <resource name="X_ValueMissing">
+        <object>X-verdi mangler.</object>
+      </resource>
+      <resource name="X_ValueRange">
+        <object>Verdien for X må være mellom {0:F1} og {1:F1}.</object>
+      </resource>
+      <resource name="Y_ValueMissing">
+        <object>Y-verdi mangler.</object>
+      </resource>
+      <resource name="Y_ValueRange">
+        <object>Verdien for Y må være mellom {0:F1} og {1:F1}.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Common.PageCutgradesUC" ServiceOnly="false">
+      <resource name="btnNewCutgrade.Caption">
+        <object>Ny</object>
+      </resource>
+      <resource name="btnDeleteCutgrade.Caption">
+        <object>Slett</object>
+      </resource>
+      <resource name="btnNewCutgrade.Hint">
+        <object>Opprett ny cut grade</object>
+      </resource>
+      <resource name="btnDeleteCutgrade.Hint">
+        <object>Slett gjeldende cut grade</object>
+      </resource>
+      <resource name="cutgradeLookUp.Hint">
+        <object>Liste over form grades</object>
+      </resource>
+      <resource name="PortionsHide">
+        <object>Skjul innstillinger</object>
+      </resource>
+      <resource name="PortionsShow">
+        <object>Vis innstillinger</object>
+      </resource>
+      <resource name="grpFeatures.Text">
+        <object>Funksjoner</object>
+      </resource>
+      <resource name="grpCutZoneSettings.Text">
+        <object>Kuttesoneinnstillinger</object>
+      </resource>
+      <resource name="pageZone1.Text">
+        <object>Sone 1</object>
+      </resource>
+      <resource name="pageZone2.Text">
+        <object>Sone 2</object>
+      </resource>
+      <resource name="pageZone3.Text">
+        <object>Sone 3</object>
+      </resource>
+      <resource name="grpInputMaterial.Text">
+        <object>Stykkeprodukt:</object>
+      </resource>
+      <resource name="lblMinYield.Text">
+        <object>Min.resultat %:</object>
+      </resource>
+      <resource name="lblZoneActive.Text">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="lblZoneBoundary.Text">
+        <object>Grense</object>
+      </resource>
+      <resource name="lblZoneBoundaryType.Text">
+        <object>Grensetype</object>
+      </resource>
+      <resource name="lblZonePriority.Text">
+        <object>Prioritetsberegning</object>
+      </resource>
+      <resource name="lblZone1.Text">
+        <object>Sone nr. 1</object>
+      </resource>
+      <resource name="lblZone2.Text">
+        <object>Sone nr. 2</object>
+      </resource>
+      <resource name="lblZone3.Text">
+        <object>Sone nr. 3</object>
+      </resource>
+      <resource name="pieceMaterial.ToolTip">
+        <object>Type innkommende produkt</object>
+      </resource>
+      <resource name="edMinYield.ToolTip">
+        <object>Minimumsresultat for produkt</object>
+      </resource>
+      <resource name="chkActiveZone1.ToolTip">
+        <object>Sone 1 er alltid aktiv</object>
+      </resource>
+      <resource name="chkActiveZone2.ToolTip">
+        <object>Merk av for å aktivere sone 2</object>
+      </resource>
+      <resource name="chkActiveZone3.ToolTip">
+        <object>Merk av for å aktivere sone 3</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="Lookup.Id.Caption">
+        <object>ID</object>
+      </resource>
+      <resource name="Empty.Cutgrade">
+        <object>Klikk ny --&gt;</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Kode</object>
+      </resource>
+      <resource name="UndefinedName">
+        <object>(udefinert)</object>
+      </resource>
+      <resource name="PromptToManyCutgrades">
+        <object>Du kan ikke ha flere enn fem cut grades i et program.</object>
+      </resource>
+      <resource name="Warning">
+        <object>Advarsel</object>
+      </resource>
+      <resource name="DeleteCutgrade">
+        <object>Slette cut grade?</object>
+      </resource>
+      <resource name="lblSelect.Caption">
+        <object>Cut grades:</object>
+      </resource>
+      <resource name="btnNavFirst.Hint">
+        <object>Gå til første cut grade</object>
+      </resource>
+      <resource name="btnNavLast.Hint">
+        <object>Gå til siste cut grade</object>
+      </resource>
+      <resource name="btnNavNext.Hint">
+        <object>Gå til neste cut grade</object>
+      </resource>
+      <resource name="btnNavPrevious.Hint">
+        <object>Gå til forrige cut grade</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Common.CutZone" ServiceOnly="false">
+      <resource name="zoneActive.Text">
+        <object>Sone aktiv</object>
+      </resource>
+      <resource name="lblMethod.Text">
+        <object>Metode:</object>
+      </resource>
+      <resource name="btnResetPortions.Text">
+        <object>Fjern</object>
+      </resource>
+      <resource name="MaxPortionOnTarget">
+        <object>Maksimer porsjoner på mål</object>
+      </resource>
+      <resource name="GiveTopPriority">
+        <object>Gi første/siste topprioritet</object>
+      </resource>
+      <resource name="RemoveAllPortionTableItems">
+        <object>Vil du fjerne alle elementer fra tabellen?</object>
+      </resource>
+      <resource name="DeletePortions">
+        <object>Slett fra porsjonstabell.</object>
+      </resource>
+      <resource name="PortionUnknown">
+        <object>(ukjent)</object>
+      </resource>
+    </type>
+    <type name="Grid.ProgramSetup.PortionGrid" ServiceOnly="false">
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="material">
+        <object>Produkt</object>
+      </resource>
+      <resource name="type">
+        <object>Type</object>
+      </resource>
+      <resource name="quantity">
+        <object>Ant.</object>
+      </resource>
+      <resource name="value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="piecetype Name">
+        <object>Stykke-\ntype</object>
+      </resource>
+      <resource name="offset">
+        <object>Forskyvning</object>
+      </resource>
+      <resource name="weightmin">
+        <object>Vekt\nmin.</object>
+      </resource>
+      <resource name="weightmax">
+        <object>Vekt\nmaks.</object>
+      </resource>
+      <resource name="weighttarget">
+        <object>Vekt\nmål</object>
+      </resource>
+      <resource name="lengthmin">
+        <object>Lengde\nmin.</object>
+      </resource>
+      <resource name="lengthmax">
+        <object>Lengde\nmaks.</object>
+      </resource>
+      <resource name="lengthtarget">
+        <object>Lengde\nmål</object>
+      </resource>
+      <resource name="widthmin">
+        <object>Bredde\nmin.</object>
+      </resource>
+      <resource name="widthmax">
+        <object>Bredde\nmaks</object>
+      </resource>
+      <resource name="heightmin">
+        <object>Høyde\nmin.</object>
+      </resource>
+      <resource name="heightmax">
+        <object>Høyde\nmaks.</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="cutzone">
+        <object>Kuttesone</object>
+      </resource>
+      <resource name="cutnbatchdivision">
+        <object>Innd.</object>
+      </resource>
+      <resource name="material.lookup.code">
+        <object>Kode</object>
+      </resource>
+      <resource name="material.lookup.name">
+        <object>Navn</object>
+      </resource>
+      <resource name="material.lookup.systemtype">
+        <object>Type</object>
+      </resource>
+      <resource name="pathid">
+        <object>Gate no</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Importing.ImportVision" ServiceOnly="false">
+      <resource name="Info.SelectDevice">
+        <object>Velg enheten som vision skal importeres fra.</object>
+      </resource>
+      <resource name="Err.PleaseSelect">
+        <object>Velg enhet.</object>
+      </resource>
+      <resource name="Err.ImportFailed">
+        <object>Import av visions mislyktes.</object>
+      </resource>
+      <resource name="Text">
+        <object>Importer vision-oppsett</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>&amp;Avbryt</object>
+      </resource>
+      <resource name="Files">
+        <object>Filer</object>
+      </resource>
+      <resource name="AllFiles">
+        <object>Alle filer</object>
+      </resource>
+      <resource name="Title.SelVisionFile">
+        <object>Velg vision-fil som skal importeres</object>
+      </resource>
+      <resource name="Err.ImportFileFailed">
+        <object>Import av visions fra fil mislyktes.</object>
+      </resource>
+      <resource name="Info.Importing">
+        <object>Importerer visions. Vent litt.</object>
+      </resource>
+      <resource name="Err.DeviceOffline">
+        <object>Enheten er ikke tilkoblet.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Importing.DeviceSelectUC" ServiceOnly="false">
+      <resource name="colDevice.Caption">
+        <object>Enhet</object>
+      </resource>
+      <resource name="colStation.Caption">
+        <object>Stasjon</object>
+      </resource>
+      <resource name="colProcess.Caption">
+        <object>Prosess</object>
+      </resource>
+      <resource name="colAddress.Caption">
+        <object>Adresse</object>
+      </resource>
+      <resource name="colStatus.Caption">
+        <object>Status</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Importing.ImportProgram" ServiceOnly="false">
+      <resource name="Info.SelectDevice">
+        <object>Velg enheten som programmet skal importeres fra:</object>
+      </resource>
+      <resource name="Err.SelectDevice">
+        <object>Velg enhet.</object>
+      </resource>
+      <resource name="Err.ImportFailed">
+        <object>Kan ikke importere programmet.</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>&amp;Avbryt</object>
+      </resource>
+      <resource name="Text">
+        <object>Importer program</object>
+      </resource>
+      <resource name="btnBack.Text">
+        <object>&lt;&lt; &amp;Tilbake</object>
+      </resource>
+      <resource name="btnNext.Text">
+        <object>&amp;Neste &gt;&gt;</object>
+      </resource>
+      <resource name="Err.DownloadFailed">
+        <object>Kan ikke laste ned program(mer).</object>
+      </resource>
+      <resource name="btn.Import">
+        <object>&amp;Importer</object>
+      </resource>
+      <resource name="Info.SelectProgram">
+        <object>Velg programmet du vil importere fra:</object>
+      </resource>
+      <resource name="LaneInfo.Lane">
+        <object>Bane</object>
+      </resource>
+      <resource name="LaneInfo.NoDevice">
+        <object>Det er ikke valgt noen enhet.</object>
+      </resource>
+      <resource name="Err.SelectProgram">
+        <object>Velg program(mer).</object>
+      </resource>
+      <resource name="Files">
+        <object>Filer</object>
+      </resource>
+      <resource name="AllFiles">
+        <object>Alle filer</object>
+      </resource>
+      <resource name="Title.SelProgramFile">
+        <object>Velg programfilen du vil importere:</object>
+      </resource>
+      <resource name="Err.ImportFileFailed">
+        <object>Kan ikke importere programmet fra filen.</object>
+      </resource>
+      <resource name="Err.ReadingFile">
+        <object>Det oppstod feil ved lesing av filen.</object>
+      </resource>
+      <resource name="Err.CommandError">
+        <object>Kommandofeil.</object>
+      </resource>
+      <resource name="Err.DeviceOffline">
+        <object>Enheten er ikke tilkoblet.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Importing.ProgramSelectUC" ServiceOnly="false">
+      <resource name="colProgram.Caption">
+        <object>Program</object>
+      </resource>
+      <resource name="colFilename.Caption">
+        <object>Filnavn</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.Ipm.InputRegs" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Behandlings-\nperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosess-\nperiode</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonsparti-\nkode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde-\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registrerings-\ntidspunkt</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="formgrade">
+        <object>Form grade</object>
+      </resource>
+      <resource name="cutgrade">
+        <object>Cut grade</object>
+      </resource>
+      <resource name="weight">
+        <object>Totalvekt ($W)</object>
+      </resource>
+      <resource name="weightinweigher">
+        <object>Total innveier-\nvekt ($W)</object>
+      </resource>
+      <resource name="weightp2">
+        <object>Total kvadrert\nvekt ($W)</object>
+      </resource>
+      <resource name="length">
+        <object>Total lengde ($L)</object>
+      </resource>
+      <resource name="lengthp2">
+        <object>Total kvadrert\nlengde ($L)</object>
+      </resource>
+      <resource name="yield">
+        <object>Resultat</object>
+      </resource>
+      <resource name="pieces">
+        <object>Stykker</object>
+      </resource>
+      <resource name="value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="activeseconds">
+        <object>Aktive\nsekunder</object>
+      </resource>
+      <resource name="inactiveseconds">
+        <object>Inaktive\nsekunder</object>
+      </resource>
+      <resource name="nregs">
+        <object>Ingen registreringer</object>
+      </resource>
+      <resource name="laneid">
+        <object>Bane</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.Ipm.OutputRegs" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Behandlings-\nperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosess-\nperiode</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonsparti-\nkode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde-\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registrerings-\ntidspunkt</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="formgrade">
+        <object>Form grade</object>
+      </resource>
+      <resource name="cutgrade">
+        <object>Cut grade</object>
+      </resource>
+      <resource name="weight">
+        <object>Totalvekt ($W)</object>
+      </resource>
+      <resource name="weightp2">
+        <object>Total kvadrert\nvekt ($W)</object>
+      </resource>
+      <resource name="eweight">
+        <object>Total beregnet\nvekt ($W)</object>
+      </resource>
+      <resource name="eweightp2">
+        <object>Total kvadrert\nberegnet vekt ($W)</object>
+      </resource>
+      <resource name="length">
+        <object>Total lengde ($L)</object>
+      </resource>
+      <resource name="lengthp2">
+        <object>Total kvadrert\nlengde ($L)</object>
+      </resource>
+      <resource name="pieces">
+        <object>Antall stykker</object>
+      </resource>
+      <resource name="rpieces">
+        <object>Antall virkelige stykker</object>
+      </resource>
+      <resource name="value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="nregs">
+        <object>Ingen registreringer</object>
+      </resource>
+      <resource name="laneid">
+        <object>Bane</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.Ipm.PieceRegs" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Behandlings-\nperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosess-\nperiode</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonsparti-\nkode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde-\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registrerings-\ntidspunkt</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="formgrade">
+        <object>Form grade</object>
+      </resource>
+      <resource name="cutgrade">
+        <object>Cut grade</object>
+      </resource>
+      <resource name="weight">
+        <object>Vekt\n($W)</object>
+      </resource>
+      <resource name="weightinweigher">
+        <object>Innveier-\nvekt ($W)</object>
+      </resource>
+      <resource name="length">
+        <object>Lengde\n($L)</object>
+      </resource>
+      <resource name="yield">
+        <object>Resultat</object>
+      </resource>
+      <resource name="value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="laneid">
+        <object>Bane</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.Ipm.PortionRegs" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Behandlings-\nperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosess-\nperiode</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonsparti-\nkode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde-\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registrerings-\ntidspunkt</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="formgrade">
+        <object>Form grade</object>
+      </resource>
+      <resource name="cutgrade">
+        <object>Cut grade</object>
+      </resource>
+      <resource name="piece">
+        <object>Stykke</object>
+      </resource>
+      <resource name="cutzone">
+        <object>Kuttesone</object>
+      </resource>
+      <resource name="cutsequence">
+        <object>Kuttesekvens</object>
+      </resource>
+      <resource name="type">
+        <object>Porsjonstype</object>
+      </resource>
+      <resource name="weight">
+        <object>Vekt\n($W)</object>
+      </resource>
+      <resource name="eweight">
+        <object>Beregnet\nvekt ($W)</object>
+      </resource>
+      <resource name="length">
+        <object>Lengde\n($L)</object>
+      </resource>
+      <resource name="value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="laneid">
+        <object>Bane</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.Ipm.InputHistograms" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Behandlings-\nperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosess-\nperiode</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonsparti-\nkode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde-\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registrerings-\ntidspunkt</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="class">
+        <object>Klasse</object>
+      </resource>
+      <resource name="histtype">
+        <object>Type</object>
+      </resource>
+      <resource name="measurement">
+        <object>Total-\nmål</object>
+      </resource>
+      <resource name="measurementp2">
+        <object>Totalt kvadrert\nmål</object>
+      </resource>
+      <resource name="pieces">
+        <object>Antall stykker</object>
+      </resource>
+      <resource name="value">
+        <object>Totalverdi</object>
+      </resource>
+      <resource name="pmeasure">
+        <object>Primær-\nmål</object>
+      </resource>
+      <resource name="ppieces">
+        <object>Primær-\nstykker</object>
+      </resource>
+      <resource name="pvalue">
+        <object>Primær-\nverdi</object>
+      </resource>
+      <resource name="smeasure">
+        <object>Sekundær-\nmål</object>
+      </resource>
+      <resource name="spieces">
+        <object>Sekundær-\nstykker</object>
+      </resource>
+      <resource name="svalue">
+        <object>Sekundær-\nverdi</object>
+      </resource>
+      <resource name="tmeasure">
+        <object>Tertiær-\nmål</object>
+      </resource>
+      <resource name="tpieces">
+        <object>Tertiær-\nstykker</object>
+      </resource>
+      <resource name="tvalue">
+        <object>Tertiær-\nverdi</object>
+      </resource>
+      <resource name="laneid">
+        <object>Bane</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.Ipm.OutputHistograms" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Behandlings-\nperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosess-\nperiode</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonsparti-\nkode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde-\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registrerings-\ntidspunkt</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="class">
+        <object>Klasse</object>
+      </resource>
+      <resource name="histtype">
+        <object>Type</object>
+      </resource>
+      <resource name="measurement">
+        <object>Total-\nmål</object>
+      </resource>
+      <resource name="measurementp2">
+        <object>Totalt kvadrert\nmål</object>
+      </resource>
+      <resource name="portions">
+        <object>Totalt antall porsjoner</object>
+      </resource>
+      <resource name="value">
+        <object>Totalverdi</object>
+      </resource>
+      <resource name="laneid">
+        <object>Bane</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.PortioningLiveView" ServiceOnly="false">
+      <resource name="Lookup.Name.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Kode</object>
+      </resource>
+      <resource name="EmptyLane">
+        <object>-Ingen baner tilgjengelig-</object>
+      </resource>
+      <resource name="Lookup.Id.Caption">
+        <object>ID</object>
+      </resource>
+      <resource name="Err.RefreshingData">
+        <object>Feil under oppdatering av data</object>
+      </resource>
+      <resource name="PrgActivity.Title">
+        <object>Endre aktivitet</object>
+      </resource>
+      <resource name="PrgActivity.Confirm">
+        <object>Vil du endre aktivitet og sette det nye aktive programmet til:</object>
+      </resource>
+      <resource name="PrgActivity.NoAllowed">
+        <object>Du har ikke tillatelse til å endre aktivitet.</object>
+      </resource>
+      <resource name="Msg.AutoConnect">
+        <object>Kobler automatisk til serveren.</object>
+      </resource>
+      <resource name="Msg.InitConnection">
+        <object>Initialiser tilkobling til serveren.</object>
+      </resource>
+      <resource name="Msg.FailedToCreateRemote">
+        <object>Kan ikke opprette ekstern tilkobling.</object>
+      </resource>
+      <resource name="Err.NoRemoteClient">
+        <object>Kan ikke opprette en ekstern tilkobling til porsjoneringsserveren.</object>
+      </resource>
+      <resource name="Err.Reason">
+        <object>Årsak</object>
+      </resource>
+      <resource name="Msg.PullData">
+        <object>Datatrekk.</object>
+      </resource>
+      <resource name="BtnText.Start">
+        <object>Start</object>
+      </resource>
+      <resource name="BtnText.Stop">
+        <object>Stopp</object>
+      </resource>
+      <resource name="Err.CreatingProcessUnit">
+        <object>Det oppstod feil ved henting av behandlingsenhet</object>
+      </resource>
+      <resource name="Msg.Connect">
+        <object>Kobler til serveren.</object>
+      </resource>
+      <resource name="Err.NoRemoteWorker">
+        <object>Kan ikke opprette ekstern arbeider.</object>
+      </resource>
+      <resource name="NoGrader">
+        <object>Ingen grader</object>
+      </resource>
+      <resource name="ClearData.Title">
+        <object>Fjern data</object>
+      </resource>
+      <resource name="ClearData.Txt">
+        <object>Fjerner overvåkingsdata fra brukergrensesnittet og serveren.\n\nVil du fortsette?</object>
+      </resource>
+      <resource name="Err.NoActivePrgList">
+        <object>Det oppstod feil ved lasting av aktiv programliste</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Ipm.PageDetails" ServiceOnly="false">
+      <resource name="uInTotal.Text">
+        <object>$W</object>
+      </resource>
+      <resource name="uInThroughput.Text">
+        <object>$W/time</object>
+      </resource>
+      <resource name="uInAvgWeight.Text">
+        <object>$Q</object>
+      </resource>
+      <resource name="uInAvgLength.Text">
+        <object>$L</object>
+      </resource>
+      <resource name="uOutAvgValue.Text">
+        <object>$/$W</object>
+      </resource>
+      <resource name="grpInput.Text">
+        <object>Inngående</object>
+      </resource>
+      <resource name="grpOutput.Text">
+        <object>Utgående</object>
+      </resource>
+      <resource name="lblInTotal.Text">
+        <object>Totalt</object>
+      </resource>
+      <resource name="lblInThroughput.Text">
+        <object>Gjennomstrømming</object>
+      </resource>
+      <resource name="lblInActTime.Text">
+        <object>Aktiv tid</object>
+      </resource>
+      <resource name="lblInAvgWeight.Text">
+        <object>Gjennomsnittsvekt</object>
+      </resource>
+      <resource name="lblAvgLength.Text">
+        <object>Gjennomsnittslengde</object>
+      </resource>
+      <resource name="lblInWeightInw.Text">
+        <object>Vekt fra innveier</object>
+      </resource>
+      <resource name="lblOutPrimary.Text">
+        <object>Primær</object>
+      </resource>
+      <resource name="lblOutSecondary.Text">
+        <object>Sekundær</object>
+      </resource>
+      <resource name="lblOutTertiary.Text">
+        <object>Tertiær</object>
+      </resource>
+      <resource name="lblOutUncut.Text">
+        <object>Annet/uoppskåret</object>
+      </resource>
+      <resource name="lblOutAvgValue.Text">
+        <object>Gjennomsnittsverdi</object>
+      </resource>
+      <resource name="colSequence.Caption">
+        <object>SeqNo</object>
+      </resource>
+      <resource name="colType.Caption">
+        <object>Type</object>
+      </resource>
+      <resource name="colMaterial.Caption">
+        <object>Materiale</object>
+      </resource>
+      <resource name="colCount.Caption">
+        <object>Antall</object>
+      </resource>
+      <resource name="colCountPerc.Caption">
+        <object>%</object>
+      </resource>
+      <resource name="colWeight.Caption">
+        <object>Vekt ($W)</object>
+      </resource>
+      <resource name="colWeightPerc.Caption">
+        <object>%</object>
+      </resource>
+      <resource name="colAvgWeight.Caption">
+        <object>Gjsn.vekt ($Q)</object>
+      </resource>
+      <resource name="colAvgValue.Caption">
+        <object>Gjsn.verdi ($/$W)</object>
+      </resource>
+      <resource name="lblResolveErrors.Text">
+        <object>Feil</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Common.LiveGroupType" ServiceOnly="false">
+      <resource name="Primary">
+        <object>Primær</object>
+      </resource>
+      <resource name="Secondary">
+        <object>Sekundær</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>Tertiær</object>
+      </resource>
+      <resource name="Other">
+        <object>Annet/uoppskåret</object>
+      </resource>
+      <resource name="PrimaryTotal">
+        <object>Primær totalt</object>
+      </resource>
+      <resource name="SecondaryTotal">
+        <object>Sekundær totalt</object>
+      </resource>
+      <resource name="TertiaryTotal">
+        <object>Tertiær totalt</object>
+      </resource>
+      <resource name="OtherTotal">
+        <object>Annet/ubeskåret totalt</object>
+      </resource>
+      <resource name="Total">
+        <object>Totalt</object>
+      </resource>
+      <resource name="GrandTotal">
+        <object>Samlet sum</object>
+      </resource>
+      <resource name="Value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="Average">
+        <object>Gjennomsnitt</object>
+      </resource>
+      <resource name="Rejected">
+        <object>Avvist</object>
+      </resource>
+      <resource name="Unknown">
+        <object>Ukjent</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.PortioningLiveViewUC" ServiceOnly="false">
+      <resource name="btnClear.Caption">
+        <object>Fjern</object>
+      </resource>
+      <resource name="btnConnect.Caption">
+        <object>Koble til</object>
+      </resource>
+      <resource name="btnRefresh.Caption">
+        <object>Oppdater</object>
+      </resource>
+      <resource name="btnStartLogging.Text">
+        <object>Start</object>
+      </resource>
+      <resource name="grpLogging.Text">
+        <object>Logging</object>
+      </resource>
+      <resource name="grpStatus.Text">
+        <object>Status</object>
+      </resource>
+      <resource name="lblLaneStatus.Text">
+        <object>Banestatus:</object>
+      </resource>
+      <resource name="lblLoggingStatus.Text">
+        <object>Loggstatus:</object>
+      </resource>
+      <resource name="lblProcessPeriod.Text">
+        <object>Prosessperiode:</object>
+      </resource>
+      <resource name="lblProcessStarted.Text">
+        <object>Behandling startet:</object>
+      </resource>
+      <resource name="lblProgram.Text">
+        <object>Aktivt program:</object>
+      </resource>
+      <resource name="lblSelectLane.Caption">
+        <object>Bane:</object>
+      </resource>
+      <resource name="selectLane.Hint">
+        <object>Velg banen som du vil overvåke</object>
+      </resource>
+      <resource name="btnRefresh.Hint">
+        <object>For å anmode om status og data fra bane</object>
+      </resource>
+      <resource name="btnClear.Hint">
+        <object>Fjerner overvåkingsdata både fra brukergrensesnittet og serveren</object>
+      </resource>
+      <resource name="btnConnect.Hint">
+        <object>For å anmode om en tilkobling til porsjoneringsserveren</object>
+      </resource>
+      <resource name="selectProgramLookUp.ToolTip">
+        <object>For å velge program som skal aktiveres for banen</object>
+      </resource>
+      <resource name="edProcessPeriod.ToolTip">
+        <object>Gjeldende prosessperiode i bruk</object>
+      </resource>
+      <resource name="edProcessStarted.ToolTip">
+        <object>Start for gjeldende prosessperiode</object>
+      </resource>
+      <resource name="edLaneStatus.ToolTip">
+        <object>Status for banen</object>
+      </resource>
+      <resource name="edLoggingStatus.ToolTip">
+        <object>Status for baneloggingen.</object>
+      </resource>
+      <resource name="btnStartLogging.ToolTip">
+        <object>Start eller stopp banelogging av stykke og porsjon.</object>
+      </resource>
+      <resource name="lblProcessPeriod.ToolTip">
+        <object>Gjeldende prosessperiode i bruk</object>
+      </resource>
+      <resource name="lblProcessStarted.ToolTip">
+        <object>Start for gjeldende prosessperiode</object>
+      </resource>
+      <resource name="lblLaneStatus.ToolTip">
+        <object>Status for banen</object>
+      </resource>
+      <resource name="lblGraderStatus.Text">
+        <object>Graderstatus:</object>
+      </resource>
+      <resource name="lblGraderStatus.ToolTip">
+        <object>Status for graderen som er plassert etter porsjoneringsmaskinen</object>
+      </resource>
+      <resource name="edGraderStatus.ToolTip">
+        <object>Status for graderen som er plassert etter porsjoneringsmaskinen.</object>
+      </resource>
+      <resource name="btnSettings.Caption">
+        <object>Innstillinger</object>
+      </resource>
+      <resource name="btnSettings.Hint">
+        <object>For å justere noen kontrollinnstillinger.</object>
+      </resource>
+      <resource name="btnPrint.Caption">
+        <object>Skriv ut</object>
+      </resource>
+      <resource name="btnPrint.Hint">
+        <object>Klikk for å skrive ut et skjermbilde</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Ipm.HistoAvgPieceSize" ServiceOnly="false">
+      <resource name="txtChartName.Text">
+        <object>Gjennomsnittlig stykkestørrelse</object>
+      </resource>
+      <resource name="chart.YAxis.Label.Text">
+        <object>$Q</object>
+      </resource>
+      <resource name="btnLegend.Text">
+        <object>Forklaring</object>
+      </resource>
+      <resource name="btnLegend.ToolTip">
+        <object>Vis eller skjul diagramforklaring</object>
+      </resource>
+      <resource name="btnHideShow.ToolTip">
+        <object>Vis eller skjul diagram</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Ipm.HistoThroughput" ServiceOnly="false">
+      <resource name="txtChartName.Text">
+        <object>Gjennomstrømming</object>
+      </resource>
+      <resource name="chart.YAxis.Label.Text">
+        <object>$W/time</object>
+      </resource>
+      <resource name="btnLegend.Text">
+        <object>Forklaring</object>
+      </resource>
+      <resource name="btnLegend.ToolTip">
+        <object>Vis eller skjul diagramforklaring</object>
+      </resource>
+      <resource name="btnHideShow.ToolTip">
+        <object>Vis eller skjul diagram</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Ipm.HistoInweigher" ServiceOnly="false">
+      <resource name="txtChartName.Text">
+        <object>Vektforhold fra innveier</object>
+      </resource>
+      <resource name="btnLegend.Text">
+        <object>Forklaring</object>
+      </resource>
+      <resource name="btnLegend.ToolTip">
+        <object>Vis eller skjul diagramforklaring</object>
+      </resource>
+      <resource name="btnHideShow.ToolTip">
+        <object>Vis eller skjul diagram</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Ipm.HistoProductYield" ServiceOnly="false">
+      <resource name="txtChartName.Text">
+        <object>Produktresultat</object>
+      </resource>
+      <resource name="btnLegend.Text">
+        <object>Forklaring</object>
+      </resource>
+      <resource name="btnLegend.ToolTip">
+        <object>Vis eller skjul diagramforklaring</object>
+      </resource>
+      <resource name="btnHideShow.ToolTip">
+        <object>Vis eller skjul diagram</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Ipm.HistoProductValue" ServiceOnly="false">
+      <resource name="txtChartName.Text">
+        <object>Produktverdi</object>
+      </resource>
+      <resource name="chart.YAxis.Label.Text">
+        <object>$</object>
+      </resource>
+      <resource name="btnLegend.Text">
+        <object>Forklaring</object>
+      </resource>
+      <resource name="btnLegend.ToolTip">
+        <object>Vis eller skjul diagramforklaring</object>
+      </resource>
+      <resource name="btnHideShow.ToolTip">
+        <object>Vis eller skjul diagram</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Ipm.PagePieceSize" ServiceOnly="false">
+      <resource name="btnLegend.Text">
+        <object>Forklaring</object>
+      </resource>
+      <resource name="btnLegend.ToolTip">
+        <object>Vis eller skjul diagramforklaring</object>
+      </resource>
+      <resource name="grpInputMaterial.Text">
+        <object>Inngående produkt</object>
+      </resource>
+      <resource name="selectMaterialLookUp.ToolTip">
+        <object>Velg produkt til verdi</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Kode</object>
+      </resource>
+      <resource name="chartValue.Title">
+        <object>Verdi etter stykkevekt</object>
+      </resource>
+      <resource name="chartValue.XAxis.Label.Text">
+        <object>$Q</object>
+      </resource>
+      <resource name="chartValue.YAxis.Label.Text">
+        <object>$</object>
+      </resource>
+      <resource name="chartYield.Title">
+        <object>Resultat etter stykkevekt</object>
+      </resource>
+      <resource name="chartYield.XAxis.Label.Text">
+        <object>$Q</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Common.PageWeightsSub" ServiceOnly="false">
+      <resource name="txtGraphWarning.Text">
+        <object>Det er for mange vektgrupper for visning.</object>
+      </resource>
+      <resource name="chart.XAxis.Label.Text">
+        <object>$Q</object>
+      </resource>
+      <resource name="chart.YAxis.Label.Text">
+        <object>Antall</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Vekt:</object>
+      </resource>
+      <resource name="lblCount.Text">
+        <object>Antall:</object>
+      </resource>
+      <resource name="lblAvgWeight.Text">
+        <object>Gjennomsnittsvekt:</object>
+      </resource>
+      <resource name="lblStddev.Text">
+        <object>Standardavvik:</object>
+      </resource>
+      <resource name="lblMin.Text">
+        <object>Min.:</object>
+      </resource>
+      <resource name="lblMax.Text">
+        <object>Maks.:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Importing.ImportModel" ServiceOnly="false">
+      <resource name="Text">
+        <object>Importer modellinnstillinger for:</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>&amp;Avbryt</object>
+      </resource>
+      <resource name="Info.SelectDevice">
+        <object>Velg enheten som inneholder programmet som du vil importere modellinnstillinger fra.</object>
+      </resource>
+      <resource name="Err.PleaseSelect">
+        <object>Velg enhet.</object>
+      </resource>
+      <resource name="Info.Importing">
+        <object>Importerer modellinnstillinger. Vent litt.</object>
+      </resource>
+      <resource name="Err.ImportFailed">
+        <object>Importen mislyktes.</object>
+      </resource>
+      <resource name="Err.DeviceOffline">
+        <object>Enheten er ikke tilkoblet.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.LiveSettings" ServiceOnly="false">
+      <resource name="lblAutoConnectValue.Text">
+        <object>Sek</object>
+      </resource>
+      <resource name="lblAutoDataPullValue.Text">
+        <object>Sek</object>
+      </resource>
+      <resource name="chkAutoConnect.ToolTip">
+        <object>Hvis aktiv vil programmet automatisk prøve å koble til banen hvis tilkoblingen er nede.</object>
+      </resource>
+      <resource name="edAutoConnect.ToolTip">
+        <object>Periode for automatiske tilkoblingsforsøk.</object>
+      </resource>
+      <resource name="chkDataPull.ToolTip">
+        <object>Hvis aktiv vil programmet automatisk trekke data fra serveren.</object>
+      </resource>
+      <resource name="edDataPull.ToolTip">
+        <object>Periode for datatrekking</object>
+      </resource>
+      <resource name="grpAutomatic.Text">
+        <object>Automatisering</object>
+      </resource>
+      <resource name="chkAutoConnect.Text">
+        <object>Automatisk tilkobling</object>
+      </resource>
+      <resource name="chkDataPull.Text">
+        <object>Automatisk datatrekking</object>
+      </resource>
+      <resource name="edHistorySize.ToolTip">
+        <object>Angi antall minutter bakover som skal vises fra gjeldende tidspunkt.</object>
+      </resource>
+      <resource name="lblHistoryValue.Text">
+        <object>Minutter</object>
+      </resource>
+      <resource name="grpHistory.Text">
+        <object>Historikkinnstillinger</object>
+      </resource>
+      <resource name="Text">
+        <object>Innstillinger</object>
+      </resource>
+      <resource name="grpView.Text">
+        <object>Vis</object>
+      </resource>
+      <resource name="chkShowGraderState.Text">
+        <object>Vis graderstatus</object>
+      </resource>
+      <resource name="chkShowGraderState.ToolTip">
+        <object>Merk av hvis graderstatusvinduet skal vises.</object>
+      </resource>
+      <resource name="lblHistoryWindow.Text">
+        <object>Størrelse på historikkvindu:</object>
+      </resource>
+      <resource name="chkShowLogger.Text">
+        <object>Vis logger</object>
+      </resource>
+      <resource name="chkShowLogger.ToolTip">
+        <object>Merk av hvis loggervinduet skal vises.</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>&amp;Aktiver</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>&amp;Avbryt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Ipm.IpmProgramSetup" ServiceOnly="false">
+      <resource name="tabPageSettings.Text">
+        <object>Innstillinger</object>
+      </resource>
+      <resource name="tabPageMoreSettings.Text">
+        <object>Flere innstillinger</object>
+      </resource>
+      <resource name="tabPageDetection.Text">
+        <object>Gjenkjenning</object>
+      </resource>
+      <resource name="tabPageFormgrade.Text">
+        <object>Form grade</object>
+      </resource>
+      <resource name="tabPageCutgrade.Text">
+        <object>Porsjoner</object>
+      </resource>
+      <resource name="Title">
+        <object>Enhetsoppsett</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.MainProgramSetupUC" ServiceOnly="false">
+      <resource name="btnApplyProgram.Caption">
+        <object>Oppdater aktivitet</object>
+      </resource>
+      <resource name="btnApplyProgram.Hint">
+        <object>Aktiverer endringer for gjeldende aktive program</object>
+      </resource>
+      <resource name="btnCancel.Caption">
+        <object>Avbryt</object>
+      </resource>
+      <resource name="btnCancel.Hint">
+        <object>Annullerer siste endringer</object>
+      </resource>
+      <resource name="btnConfirm.Caption">
+        <object>Bekreft</object>
+      </resource>
+      <resource name="btnConfirm.Hint">
+        <object>Bekreft endringer</object>
+      </resource>
+      <resource name="btnDelete.Caption">
+        <object>Slett</object>
+      </resource>
+      <resource name="btnDelete.Hint">
+        <object>Sletter gjeldende program</object>
+      </resource>
+      <resource name="btnExportPrgToFile.Caption">
+        <object>Til fil</object>
+      </resource>
+      <resource name="btnExportPrgToFile.Hint">
+        <object>Eksporterer program til fil</object>
+      </resource>
+      <resource name="btnImportModel.Caption">
+        <object>Modellinnstillinger</object>
+      </resource>
+      <resource name="btnImportModel.Hint">
+        <object>Les form grade-modeller fra enhet.</object>
+      </resource>
+      <resource name="btnImportPrgFromDevice.Caption">
+        <object>Fra enhet</object>
+      </resource>
+      <resource name="btnImportPrgFromDevice.Hint">
+        <object>Importerer program fra enhet</object>
+      </resource>
+      <resource name="btnImportPrgFromFile.Caption">
+        <object>Fra fil</object>
+      </resource>
+      <resource name="btnImportPrgFromFile.Hint">
+        <object>Importerer program fra valgt fil</object>
+      </resource>
+      <resource name="btnImportVisionFromDevice.Caption">
+        <object>Fra enhet</object>
+      </resource>
+      <resource name="btnImportVisionFromDevice.Hint">
+        <object>Importerer vision-innstillinger fra enhet</object>
+      </resource>
+      <resource name="btnImportVisionFromFile.Caption">
+        <object>Fra fil</object>
+      </resource>
+      <resource name="btnImportVisionFromFile.Hint">
+        <object>Importerer vision-innstillinger fra en fil</object>
+      </resource>
+      <resource name="btnNavFirst.ToolTip">
+        <object>Gå til første program</object>
+      </resource>
+      <resource name="btnNavLast.ToolTip">
+        <object>Gå til siste program</object>
+      </resource>
+      <resource name="btnNavNext.ToolTip">
+        <object>Gå til neste program</object>
+      </resource>
+      <resource name="btnNavPrevious.ToolTip">
+        <object>Gå til forrige program</object>
+      </resource>
+      <resource name="btnNew.Caption">
+        <object>Ny</object>
+      </resource>
+      <resource name="btnNew.Hint">
+        <object>Legger til nytt program</object>
+      </resource>
+      <resource name="btnOptionsClone.Caption">
+        <object>Klon</object>
+      </resource>
+      <resource name="btnOptionsClone.Hint">
+        <object>Kloner valgt program</object>
+      </resource>
+      <resource name="btnOptionsCopy.Caption">
+        <object>Kopier</object>
+      </resource>
+      <resource name="btnOptionsCopy.Hint">
+        <object>Oppretter en kopi av gjeldende program</object>
+      </resource>
+      <resource name="btnOptionsDefLayout.Caption">
+        <object>Gjenopprett standardoppsett</object>
+      </resource>
+      <resource name="btnOptionsDefLayout.Hint">
+        <object>Gjenoppretter alle brukerinnstillinger i brukergrensesnittet.</object>
+      </resource>
+      <resource name="btnOptionsPaste.Caption">
+        <object>Lim inn</object>
+      </resource>
+      <resource name="btnOptionsPaste.Hint">
+        <object>Lim inn kopiert program til gjeldende bane</object>
+      </resource>
+      <resource name="btnRefresh.Caption">
+        <object>Oppdater</object>
+      </resource>
+      <resource name="btnRefresh.Hint">
+        <object>Oppdaterer data i post</object>
+      </resource>
+      <resource name="chkPrgShowActive.Caption">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="chkPrgShowBoth.Caption">
+        <object>Begge</object>
+      </resource>
+      <resource name="chkPrgShowInactive.Caption">
+        <object>Inaktiv</object>
+      </resource>
+      <resource name="lblProgramError.Text">
+        <object>Feil i program.</object>
+      </resource>
+      <resource name="lblProgramUnits.Text">
+        <object>Enheter:</object>
+      </resource>
+      <resource name="lblSelectLane.Text">
+        <object>Bane:</object>
+      </resource>
+      <resource name="lblSelectProgram.Text">
+        <object>Program:</object>
+      </resource>
+      <resource name="MnuActiveState.Caption">
+        <object>Vis programmer som er</object>
+      </resource>
+      <resource name="MnuExport.Caption">
+        <object>Eksporter</object>
+      </resource>
+      <resource name="MnuExport.Hint">
+        <object>Viser eksportalternativer</object>
+      </resource>
+      <resource name="MnuExportProgram.Caption">
+        <object>Program</object>
+      </resource>
+      <resource name="MnuImport.Caption">
+        <object>Importer</object>
+      </resource>
+      <resource name="MnuImport.Hint">
+        <object>Viser importalternativer</object>
+      </resource>
+      <resource name="MnuImportModel.Caption">
+        <object>Modellinnstillinger</object>
+      </resource>
+      <resource name="MnuImportProgram.Caption">
+        <object>Program</object>
+      </resource>
+      <resource name="MnuImportVision.Caption">
+        <object>Vision</object>
+      </resource>
+      <resource name="MnuOptions.Caption">
+        <object>Operasjoner</object>
+      </resource>
+      <resource name="MnuOptions.Hint">
+        <object>Vis flere operasjoner</object>
+      </resource>
+      <resource name="selectLaneLookUp.ToolTip">
+        <object>Velg bane som du vil opprette program for</object>
+      </resource>
+      <resource name="selectProgramLookUp.ToolTip">
+        <object>Liste over programmer for den valgte banen</object>
+      </resource>
+      <resource name="Unit.InchOz">
+        <object>tommer og unser</object>
+      </resource>
+      <resource name="Unit.MmGrams">
+        <object>mm og gram</object>
+      </resource>
+      <resource name="btnImportFormFromFile.Caption">
+        <object>Fra fil</object>
+      </resource>
+      <resource name="btnImportFormFromFile.Hint">
+        <object>Importerer typeinnstillinger fra fil</object>
+      </resource>
+      <resource name="btnImportFormFromDevice.Caption">
+        <object>Fra enhet</object>
+      </resource>
+      <resource name="btnImportFormFromDevice.Hint">
+        <object>Importer typeinnstillinger fra enhet</object>
+      </resource>
+      <resource name="MnuImportForm.Caption">
+        <object>Type</object>
+      </resource>
+      <resource name="btnImportPattern.Caption">
+        <object>Mønster</object>
+      </resource>
+      <resource name="MnuOptionsPrgTypes.Caption">
+        <object>Programtyper</object>
+      </resource>
+      <resource name="btnOptionsPrgTypeFromFile.Caption">
+        <object>Importer</object>
+      </resource>
+      <resource name="MnuExportProgramType.Caption">
+        <object>Programtyper</object>
+      </resource>
+      <resource name="btnOptionsPrgTypeToFile.Caption">
+        <object>Eksporter</object>
+      </resource>
+      <resource name="btnExportPrgToDevice.Caption">
+        <object>Til enhet</object>
+      </resource>
+      <resource name="btnExportPrgToDevice.Hint">
+        <object>Eksporterer programmet til enheten</object>
+      </resource>
+      <resource name="btnOptionsPrgTypeRemove.Caption">
+        <object>Fjern</object>
+      </resource>
+      <resource name="btnOptionsReloadGuiItem.Caption">
+        <object>Last GUI-elementer på nytt</object>
+      </resource>
+      <resource name="btnOptionsSQL.Caption">
+        <object>SQL</object>
+      </resource>
+      <resource name="btnOptionsAbout.Caption">
+        <object>About</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.MainProgramSetup" ServiceOnly="false">
+      <resource name="Lookup.Code.Caption">
+        <object>Kode</object>
+      </resource>
+      <resource name="Lookup.Id.Caption">
+        <object>ID</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="Err.Reason">
+        <object>Årsak</object>
+      </resource>
+      <resource name="Err.RefreshingData">
+        <object>Feil under oppdatering av data.</object>
+      </resource>
+      <resource name="EmptyLane">
+        <object>- Ingen baner tilgjengelig - </object>
+      </resource>
+      <resource name="EmptyProgram">
+        <object>Klikk ny</object>
+      </resource>
+      <resource name="Lookup.PrgCode.Caption">
+        <object>Spor</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.ScanPortioner.SpProgramSetup" ServiceOnly="false">
+      <resource name="tabPageSettings.Text">
+        <object>Innstillinger</object>
+      </resource>
+      <resource name="tabPageParameters.Text">
+        <object>Programmer</object>
+      </resource>
+      <resource name="Title">
+        <object>Porsjonskutteroppsett</object>
+      </resource>
+      <resource name="SelProgramTypeFile.Title">
+        <object>Velg fil som skal importeres</object>
+      </resource>
+      <resource name="ImportingProgramType.Title">
+        <object>Importerer programkonfigurasjon</object>
+      </resource>
+      <resource name="ImportingProgramType.Text">
+        <object>Importerer programkonfigurasjon.\nVent litt.</object>
+      </resource>
+      <resource name="ImportingProgramType.Err">
+        <object>Kan ikke importere programtypen fra filen.</object>
+      </resource>
+      <resource name="NoProgramTypeConfig.Err">
+        <object>Det er ikke lastet noen programkonfigurasjon</object>
+      </resource>
+      <resource name="ExportingProgramType.Title">
+        <object>Eksporterer programkonfigurasjon</object>
+      </resource>
+      <resource name="ExportingProgramType.Text">
+        <object>Eksporterer programkonfigurasjon.\nVent litt.</object>
+      </resource>
+      <resource name="ExportingProgramType.Err">
+        <object>Kan ikke eksportere programtypen til filen.</object>
+      </resource>
+      <resource name="Err.ReadProgramType">
+        <object>Finner ingen programkonfigurasjon for denne banen i databasen.</object>
+      </resource>
+      <resource name="CantImport.Title">
+        <object>Import deaktivert</object>
+      </resource>
+      <resource name="CantImport.Text">
+        <object>Fullfør eller lukk eksportvinduet.</object>
+      </resource>
+      <resource name="CantExport.Title">
+        <object>Eksport deaktivert</object>
+      </resource>
+      <resource name="CantExport.Text">
+        <object>Fullfør eller lukk importvinduet</object>
+      </resource>
+      <resource name="SelectProduct">
+        <object>Velg produkt</object>
+      </resource>
+      <resource name="RemovePrgType.Err">
+        <object>Kan ikke fjerne programtypen fra enheten.</object>
+      </resource>
+      <resource name="RemovePrgType.Title">
+        <object>Fjerner programkonfigurasjon</object>
+      </resource>
+      <resource name="RemovePrgType.Text">
+        <object>Vil du fjerne programtypeoppsettet for\nenheten som denne banen er tilknyttet?</object>
+      </resource>
+      <resource name="AddProgramError.Title">
+        <object>Legger til postfeil</object>
+      </resource>
+      <resource name="AddProgramError.Text">
+        <object>Det er ingen flere programnumre tilgjengelig.\nNy post vil ha nummer 0.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Importing.ImportForm" ServiceOnly="false">
+      <resource name="Text">
+        <object>Last ned skjemainnstillinger for:</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>&amp;Avbryt</object>
+      </resource>
+      <resource name="Info.SelectDevice">
+        <object>Velg enheten som du vil laste ned skjemainnstillinger fra.</object>
+      </resource>
+      <resource name="Err.PleaseSelect">
+        <object>Velg enhet.</object>
+      </resource>
+      <resource name="Info.Downloading">
+        <object>Laster ned skjemaer. Vent litt.</object>
+      </resource>
+      <resource name="Err.DownloadFailed">
+        <object>Skjemanedlasting mislyktes.</object>
+      </resource>
+      <resource name="Err.DeviceOffline">
+        <object>Enheten er ikke tilkoblet.</object>
+      </resource>
+      <resource name="Title.SelFormFile">
+        <object>Velg skjemafilen som skal importeres:</object>
+      </resource>
+      <resource name="Files">
+        <object>Filer</object>
+      </resource>
+      <resource name="AllFiles">
+        <object>Alle filer</object>
+      </resource>
+      <resource name="Err.ImportFileFailed">
+        <object>Kan ikke importere skjemaet fra filen.</object>
+      </resource>
+      <resource name="Err.ReadingFile">
+        <object>Det oppstod feil ved lesing av filen.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Opticut.OcProgramSetup" ServiceOnly="false">
+      <resource name="tabPageSettings.Text">
+        <object>Innstillinger</object>
+      </resource>
+      <resource name="tabPageHwSettings.Text">
+        <object>Maskinvareinnstillinger</object>
+      </resource>
+      <resource name="tabPageFormgrade.Text">
+        <object>Form grade</object>
+      </resource>
+      <resource name="tabPageCutgrade.Text">
+        <object>Porsjoner</object>
+      </resource>
+      <resource name="tabPageBatches.Text">
+        <object>Batcher</object>
+      </resource>
+    </type>
+    <type name="Grid.ProgramSetup.OcPortionGrid" ServiceOnly="false">
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="material">
+        <object>Produkt</object>
+      </resource>
+      <resource name="type">
+        <object>Type</object>
+      </resource>
+      <resource name="quantity">
+        <object>Ant.</object>
+      </resource>
+      <resource name="value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="weightmin">
+        <object>Vekt\nmin.</object>
+      </resource>
+      <resource name="weightmax">
+        <object>Vekt\nmaks.</object>
+      </resource>
+      <resource name="weighttarget">
+        <object>Vekt\nmål</object>
+      </resource>
+      <resource name="lengthmin">
+        <object>Lengde\nmin.</object>
+      </resource>
+      <resource name="lengthmax">
+        <object>Lengde\nmaks.</object>
+      </resource>
+      <resource name="lengthtarget">
+        <object>Lengde\nmål</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="cutzone">
+        <object>Kuttesone</object>
+      </resource>
+      <resource name="material.lookup.code">
+        <object>Kode</object>
+      </resource>
+      <resource name="material.lookup.name">
+        <object>Navn</object>
+      </resource>
+      <resource name="material.lookup.systemtype">
+        <object>Type</object>
+      </resource>
+      <resource name="batchid">
+        <object>Batch-ID</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Opticut.PageHwSettingsUC" ServiceOnly="false">
+      <resource name="grpPortionPlate.Text">
+        <object>Porsjonsplate</object>
+      </resource>
+      <resource name="grpFormSpecification.Text">
+        <object>Formspesifisering</object>
+      </resource>
+      <resource name="grpTopPiston.Text">
+        <object>Øvre stempel</object>
+      </resource>
+      <resource name="grpVTWLimits.Text">
+        <object>Volum-til-vekt-grenser</object>
+      </resource>
+      <resource name="lblPPType.Text">
+        <object>Type:</object>
+      </resource>
+      <resource name="lblPPAccFactor.Text">
+        <object>Aksel.faktor:</object>
+      </resource>
+      <resource name="lblFSFormName.Text">
+        <object>Formnavn:</object>
+      </resource>
+      <resource name="lblFSWidth.Text">
+        <object>Bredde:</object>
+      </resource>
+      <resource name="lblFSHeight.Text">
+        <object>Høyde:</object>
+      </resource>
+      <resource name="lblFSArea.Text">
+        <object>Område:</object>
+      </resource>
+      <resource name="lblTPFormingLoad.Text">
+        <object>Forming load:</object>
+      </resource>
+      <resource name="lblTPFormingTime.Text">
+        <object>Formtid:</object>
+      </resource>
+      <resource name="lblTPCutLoad.Text">
+        <object>Cut load:</object>
+      </resource>
+      <resource name="lblVTWMin.Text">
+        <object>Min.:</object>
+      </resource>
+      <resource name="lblVTWMax.Text">
+        <object>Maks.:</object>
+      </resource>
+      <resource name="chkAutoUpdateVTW.Text">
+        <object>Autooppdater VTW</object>
+      </resource>
+      <resource name="chkUseInweighing.Text">
+        <object>Bruk innveier</object>
+      </resource>
+      <resource name="chkAutoUpdateVTW.ToolTip">
+        <object>Kontroller om volum-til-vekt-grenser oppdateres automatisk</object>
+      </resource>
+      <resource name="lblApplication.Text">
+        <object>Program</object>
+      </resource>
+      <resource name="chkUseInweighing.ToolTip">
+        <object>Bruk innveier med dette programmet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Opticut.PageBatchesUC" ServiceOnly="false">
+      <resource name="grpBatchSetup.Text">
+        <object>Batchoppsett</object>
+      </resource>
+      <resource name="lblStacking.Text">
+        <object>Stabling:</object>
+      </resource>
+      <resource name="LookupName">
+        <object>Navn</object>
+      </resource>
+      <resource name="UnknownBatch">
+        <object>Ukjent</object>
+      </resource>
+      <resource name="colId.Caption">
+        <object>ID</object>
+      </resource>
+      <resource name="colCount.Caption">
+        <object>Antall</object>
+      </resource>
+      <resource name="colOffset.Caption">
+        <object>Forskyvning</object>
+      </resource>
+      <resource name="colGate.Caption">
+        <object>Port</object>
+      </resource>
+      <resource name="colSplitBatches.Caption">
+        <object>Del batcher</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Exporting.ExportProgramFile" ServiceOnly="false">
+      <resource name="Files">
+        <object>Filer</object>
+      </resource>
+      <resource name="Title.SavingProgram">
+        <object>Lagrer program ...</object>
+      </resource>
+    </type>
+    <type name="Grid.ProgramSetup.ItmPatternGrid" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="program Name">
+        <object>Programnavn</object>
+      </resource>
+      <resource name="program">
+        <object>Programkode</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="material">
+        <object>Produkt</object>
+      </resource>
+      <resource name="bellyprocent">
+        <object>Bukprosent</object>
+      </resource>
+      <resource name="trimprocent">
+        <object>Avskjærprosent</object>
+      </resource>
+      <resource name="description">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="name">
+        <object>Mønsternavn</object>
+      </resource>
+      <resource name="material.lookup.code">
+        <object>Kode</object>
+      </resource>
+      <resource name="material.lookup.name">
+        <object>Navn</object>
+      </resource>
+      <resource name="material.lookup.systemtype">
+        <object>Type</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Itm.ItmProgramSetup" ServiceOnly="false">
+      <resource name="Title">
+        <object>ITM-oppsett</object>
+      </resource>
+      <resource name="tabPageSettings.Text">
+        <object>Innstillinger</object>
+      </resource>
+      <resource name="tabPagePatterns.Text">
+        <object>Porsjoner</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Itm.PagePatternsUC" ServiceOnly="false">
+      <resource name="grpPatterns.Text">
+        <object>Mønster til produkt</object>
+      </resource>
+      <resource name="grpTrimMaterials.Text">
+        <object>Biprodukter</object>
+      </resource>
+      <resource name="lblBellyMaterial.Text">
+        <object>Bukprodukt:</object>
+      </resource>
+      <resource name="lblTrimMaterial.Text">
+        <object>Avskjærprodukt:</object>
+      </resource>
+      <resource name="bellyMaterialLookUp.ToolTip">
+        <object>Velg produkt for alt bukavskjær i dette programmet.</object>
+      </resource>
+      <resource name="trimMaterialLookUp.ToolTip">
+        <object>Velg produkt for alt annet avskjær i dette programmet.</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Kode</object>
+      </resource>
+      <resource name="Lookup.SystemType.Caption">
+        <object>Type</object>
+      </resource>
+      <resource name="Err.NoPatternName">
+        <object>Mønsternavn mangler</object>
+      </resource>
+      <resource name="Err.PatternNameInUse">
+        <object>Mønsternavnet er i bruk for øyeblikket</object>
+      </resource>
+      <resource name="grpInputMaterial.Text">
+        <object>Filetinngangsprodukt:</object>
+      </resource>
+      <resource name="inputMaterialLookUp.ToolTip">
+        <object>Velg inngangsprodukt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Ipm.IpmLiveSetup" ServiceOnly="false">
+      <resource name="tabPageDetails.Text">
+        <object>Detaljer</object>
+      </resource>
+      <resource name="tabPageHistory.Text">
+        <object>Historikk</object>
+      </resource>
+      <resource name="tabPagePieceSize.Text">
+        <object>Porsjonsstykkestørrelse</object>
+      </resource>
+      <resource name="tabPageWeights.Text">
+        <object>Porsjonsvekt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Itm.ItmLiveSetup" ServiceOnly="false">
+      <resource name="tabPageDetails.Text">
+        <object>Detaljer</object>
+      </resource>
+      <resource name="tabPageHistory.Text">
+        <object>Historikk</object>
+      </resource>
+      <resource name="tabPageWeights.Text">
+        <object>Vekter</object>
+      </resource>
+      <resource name="tabPageGrading.Text">
+        <object>Gradering</object>
+      </resource>
+      <resource name="tabPageYieldValue.Text">
+        <object>Resultat og verdi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Itm.ItmHistoFilletThroughput" ServiceOnly="false">
+      <resource name="txtChartName.Text">
+        <object>Filetgjennomstrømming</object>
+      </resource>
+      <resource name="chart.YAxis.Label.Text">
+        <object>Fileter</object>
+      </resource>
+      <resource name="btnLegend.Text">
+        <object>Forklaring</object>
+      </resource>
+      <resource name="btnLegend.ToolTip">
+        <object>Vis eller skjul diagramforklaring</object>
+      </resource>
+      <resource name="btnHideShow.ToolTip">
+        <object>Vis eller skjul diagram</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Itm.ItmHistoWeightThroughput" ServiceOnly="false">
+      <resource name="txtChartName.Text">
+        <object>Vektgjennomstrømming</object>
+      </resource>
+      <resource name="chart.YAxis.Label.Text">
+        <object>$W/time</object>
+      </resource>
+      <resource name="btnLegend.Text">
+        <object>Forklaring</object>
+      </resource>
+      <resource name="btnLegend.ToolTip">
+        <object>Vis eller skjul diagramforklaring</object>
+      </resource>
+      <resource name="btnHideShow.ToolTip">
+        <object>Vis eller skjul diagram</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Itm.ItmHistoPiecesWeights" ServiceOnly="false">
+      <resource name="txtChartName.Text">
+        <object>Stykkevekt/stykker</object>
+      </resource>
+      <resource name="chart.YAxis.Label.Text">
+        <object>$W/stykke</object>
+      </resource>
+      <resource name="btnLegend.Text">
+        <object>Forklaring</object>
+      </resource>
+      <resource name="btnLegend.ToolTip">
+        <object>Vis eller skjul diagramforklaring</object>
+      </resource>
+      <resource name="btnHideShow.ToolTip">
+        <object>Vis eller skjul diagram</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Itm.ItmHistoProductYield" ServiceOnly="false">
+      <resource name="txtChartName.Text">
+        <object>Produktresultat</object>
+      </resource>
+      <resource name="btnLegend.Text">
+        <object>Forklaring</object>
+      </resource>
+      <resource name="btnLegend.ToolTip">
+        <object>Vis eller skjul diagramforklaring</object>
+      </resource>
+      <resource name="btnHideShow.ToolTip">
+        <object>Vis eller skjul diagram</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Itm.ItmPageWeightsSub" ServiceOnly="false">
+      <resource name="txtGraphWarning.Text">
+        <object>Det er for mange vektgrupper for visning.</object>
+      </resource>
+      <resource name="chart.XAxis.Label.Text">
+        <object>$Q</object>
+      </resource>
+      <resource name="chart.YAxis.Label.Text">
+        <object>Antall</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Vekt:</object>
+      </resource>
+      <resource name="lblCount.Text">
+        <object>Antall:</object>
+      </resource>
+      <resource name="lblAvgWeight.Text">
+        <object>Gjennomsnittsvekt:</object>
+      </resource>
+      <resource name="lblStddev.Text">
+        <object>Standardavvik:</object>
+      </resource>
+      <resource name="lblMin.Text">
+        <object>Min.:</object>
+      </resource>
+      <resource name="lblMax.Text">
+        <object>Maks.:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Itm.ItmPageDetails" ServiceOnly="false">
+      <resource name="colSeq.Caption">
+        <object>SeqNo</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="colMaterial.Caption">
+        <object>Produkt</object>
+      </resource>
+      <resource name="colCount.Caption">
+        <object>Antall</object>
+      </resource>
+      <resource name="colCountPerc.Caption">
+        <object>%</object>
+      </resource>
+      <resource name="colWeight.Caption">
+        <object>Vekt ($W)</object>
+      </resource>
+      <resource name="colWeightPerc.Caption">
+        <object>%</object>
+      </resource>
+      <resource name="colAvgWeight.Caption">
+        <object>Gjsn.vekt ($Q)</object>
+      </resource>
+      <resource name="colAvgValue.Caption">
+        <object>Gjsn.verdi ($/$W)</object>
+      </resource>
+      <resource name="colAvgLength.Caption">
+        <object>Gjsn.lengde ($L)</object>
+      </resource>
+      <resource name="grpThroughput.Text">
+        <object>Gjennomstrømming</object>
+      </resource>
+      <resource name="grpInput.Text">
+        <object>Inngående</object>
+      </resource>
+      <resource name="grpRejects.Text">
+        <object>Avvisninger</object>
+      </resource>
+      <resource name="lblTotalFillets.Text">
+        <object>Totalt antall fileter</object>
+      </resource>
+      <resource name="lblActTime.Text">
+        <object>Aktiv tid</object>
+      </resource>
+      <resource name="lblFilletsLastMin.Text">
+        <object>Fileter siste minutt</object>
+      </resource>
+      <resource name="lblFilletsLastHour.Text">
+        <object>Fileter siste time</object>
+      </resource>
+      <resource name="lblThroughput.Text">
+        <object>Gjennomstrømming</object>
+      </resource>
+      <resource name="lblResolveError.Text">
+        <object>Løs feil</object>
+      </resource>
+      <resource name="uFilletsLastMin.Text">
+        <object>/min.</object>
+      </resource>
+      <resource name="uFilletsLastHour.Text">
+        <object>/time</object>
+      </resource>
+      <resource name="uThroughput.Text">
+        <object>$W/time</object>
+      </resource>
+      <resource name="lblTotalWeight.Text">
+        <object>Totalvekt</object>
+      </resource>
+      <resource name="lblAvgWeight.Text">
+        <object>Gjsn.vekt</object>
+      </resource>
+      <resource name="lblAvgLength.Text">
+        <object>Gjsn.lengde</object>
+      </resource>
+      <resource name="lblTotalInweigher.Text">
+        <object>Totalt innveier</object>
+      </resource>
+      <resource name="lblTotalOutweigher.Text">
+        <object>Totalt utveier</object>
+      </resource>
+      <resource name="uTotalWeight.Text">
+        <object>$W</object>
+      </resource>
+      <resource name="uAvgWeight.Text">
+        <object>$Q</object>
+      </resource>
+      <resource name="uAvgLength.Text">
+        <object>$L</object>
+      </resource>
+      <resource name="uTotalInweigher.Text">
+        <object>$W</object>
+      </resource>
+      <resource name="uTotalOutweigher.Text">
+        <object>$W</object>
+      </resource>
+      <resource name="lblRejectShape.Text">
+        <object>Form</object>
+      </resource>
+      <resource name="lblRejectColor.Text">
+        <object>Farge</object>
+      </resource>
+      <resource name="lblRejectSpots.Text">
+        <object>Flekker</object>
+      </resource>
+      <resource name="lblRejectSpacing.Text">
+        <object>Avstand</object>
+      </resource>
+      <resource name="lblRejectInfeed.Text">
+        <object>Innføring</object>
+      </resource>
+      <resource name="lblRejectOther.Text">
+        <object>Annet</object>
+      </resource>
+      <resource name="lblRejectTotal.Text">
+        <object>Totalt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Itm.ItmRejects" ServiceOnly="false">
+      <resource name="colName.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="colNumber.Caption">
+        <object>Nummer</object>
+      </resource>
+      <resource name="colPercent.Caption">
+        <object>%</object>
+      </resource>
+      <resource name="lblTotalRejects.Text">
+        <object>Totalt antall avvisninger:</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Lukk</object>
+      </resource>
+      <resource name="Text">
+        <object>Avvisninger</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Itm.ItmPageYieldValue" ServiceOnly="false">
+      <resource name="btnLegend.Text">
+        <object>Forklaring</object>
+      </resource>
+      <resource name="btnLegend.ToolTip">
+        <object>Vis eller skjul diagramforklaring</object>
+      </resource>
+      <resource name="chartValue.Title">
+        <object>Verdi etter filetvekt</object>
+      </resource>
+      <resource name="chartValue.XAxis.Label.Text">
+        <object>$Q</object>
+      </resource>
+      <resource name="chartValue.YAxis.Label.Text">
+        <object>$</object>
+      </resource>
+      <resource name="chartYield.Title">
+        <object>Resultat etter filetvekt</object>
+      </resource>
+      <resource name="chartYield.XAxis.Label.Text">
+        <object>$Q</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Production.Itm.ItmPageGrading" ServiceOnly="false">
+      <resource name="btnLegend.Text">
+        <object>Forklaring</object>
+      </resource>
+      <resource name="btnLegend.ToolTip">
+        <object>Vis eller skjul diagramforklaring</object>
+      </resource>
+      <resource name="chartDefects.Title">
+        <object>Defekt gradering</object>
+      </resource>
+      <resource name="chartDefects.XAxis.Label.Text">
+        <object>$W</object>
+      </resource>
+      <resource name="chartColors.Title">
+        <object>Fargegradering</object>
+      </resource>
+      <resource name="chartColors.XAxis.Label.Text">
+        <object>$W</object>
+      </resource>
+      <resource name="DefectClumpTail">
+        <object>Klumphale</object>
+      </resource>
+      <resource name="DefectPearlStripe">
+        <object>Pearl Stripe</object>
+      </resource>
+      <resource name="DefectMelaninSpot">
+        <object>Melaninflekk</object>
+      </resource>
+      <resource name="DefectFilleting">
+        <object>Filetering</object>
+      </resource>
+      <resource name="NoDefect">
+        <object>Ingen defekt</object>
+      </resource>
+      <resource name="ColorLoinDark">
+        <object>Rygg mørk</object>
+      </resource>
+      <resource name="ColorLoinMedium">
+        <object>Rygg middels</object>
+      </resource>
+      <resource name="ColorLoinLight">
+        <object>Rygg lys</object>
+      </resource>
+      <resource name="ColorBellyDark">
+        <object>Buk mørk</object>
+      </resource>
+      <resource name="ColorBellyMedium">
+        <object>Buk middels</object>
+      </resource>
+      <resource name="ColorBellyLight">
+        <object>Buk lys</object>
+      </resource>
+      <resource name="ColorTailDark">
+        <object>Hale mørk</object>
+      </resource>
+      <resource name="ColorTailMedium">
+        <object>Hale middels</object>
+      </resource>
+      <resource name="ColorTailLight">
+        <object>Hale lys</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.Itm.FilletLog" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Behandlings-\nperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosess-\nperiode</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonsparti-\nkode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde-\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registrerings-\ntidspunkt</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="laneid">
+        <object>Bane</object>
+      </resource>
+      <resource name="programid">
+        <object>Program</object>
+      </resource>
+      <resource name="patternid">
+        <object>Mønster</object>
+      </resource>
+      <resource name="grader">
+        <object>Grader</object>
+      </resource>
+      <resource name="colorgradeid">
+        <object>Farge-\nklasse</object>
+      </resource>
+      <resource name="shapegradeid">
+        <object>Form-\nklasse</object>
+      </resource>
+      <resource name="defectgradeid">
+        <object>Defekt-\nklasse</object>
+      </resource>
+      <resource name="eweight">
+        <object>Beregnet\nvekt ($W)</object>
+      </resource>
+      <resource name="weightinweigher">
+        <object>Innveier-\nvekt ($W)</object>
+      </resource>
+      <resource name="weightoutweigher">
+        <object>Utveier-\nvekt ($W)</object>
+      </resource>
+      <resource name="width">
+        <object>Bredde\n($L)</object>
+      </resource>
+      <resource name="length">
+        <object>Lengde\n($L)</object>
+      </resource>
+      <resource name="bellyfat">
+        <object>Bukfett</object>
+      </resource>
+      <resource name="loinfat">
+        <object>Ryggfett</object>
+      </resource>
+      <resource name="gaplength">
+        <object>Åpningslengde</object>
+      </resource>
+      <resource name="rejectreason">
+        <object>Avvisnings-\nårsak</object>
+      </resource>
+      <resource name="melaninspotsize">
+        <object>Melanin-\nflekkstørrelse</object>
+      </resource>
+      <resource name="melaninrcolor">
+        <object>Melanin\nR-farge</object>
+      </resource>
+      <resource name="melaningcolor">
+        <object>Melanin\nG-farge</object>
+      </resource>
+      <resource name="melaninbcolor">
+        <object>Melanin\nB-farge</object>
+      </resource>
+      <resource name="pearlstripespotsize">
+        <object>Pearlstripe\n-flekkstørrelse</object>
+      </resource>
+      <resource name="pearlstripercolor">
+        <object>Pearlstripe\nR-farge</object>
+      </resource>
+      <resource name="pearlstripegcolor">
+        <object>Pearlstripe\nG-farge</object>
+      </resource>
+      <resource name="pearlstripebcolor">
+        <object>Pearlstripe\nB-farge</object>
+      </resource>
+      <resource name="clumptailspotsize">
+        <object>Haleflekk-\nstørrelse</object>
+      </resource>
+      <resource name="bellyrcolor">
+        <object>Buk\nR-farge</object>
+      </resource>
+      <resource name="bellygcolor">
+        <object>Buk\nG-farge</object>
+      </resource>
+      <resource name="bellybcolor">
+        <object>Buk\nB-farge</object>
+      </resource>
+      <resource name="loinrcolor">
+        <object>Rygg\nR-farge</object>
+      </resource>
+      <resource name="loingcolor">
+        <object>Rygg\nG-farge</object>
+      </resource>
+      <resource name="loinbcolor">
+        <object>Rygg\nB-farge</object>
+      </resource>
+      <resource name="tailrcolor">
+        <object>Hale\nR-farge</object>
+      </resource>
+      <resource name="tailgcolor">
+        <object>Hale\nG-farge</object>
+      </resource>
+      <resource name="tailbcolor">
+        <object>Hale\nB-farge</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.Itm.RegsIn" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Behandlings-\nperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosess-\nperiode</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonsparti-\nkode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde-\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registrerings-\ntidspunkt</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Prodcut</object>
+      </resource>
+      <resource name="laneid">
+        <object>Bane</object>
+      </resource>
+      <resource name="programid">
+        <object>Program</object>
+      </resource>
+      <resource name="count">
+        <object>Antall</object>
+      </resource>
+      <resource name="weight">
+        <object>Totalvekt\n($W)</object>
+      </resource>
+      <resource name="weight2">
+        <object>Total kvadrert\nvekt ($W)</object>
+      </resource>
+      <resource name="length">
+        <object>Total lengde\n($L)</object>
+      </resource>
+      <resource name="length2">
+        <object>Total kvadrert\nlengde ($L)</object>
+      </resource>
+      <resource name="value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="activeseconds">
+        <object>Aktive\nsekunder</object>
+      </resource>
+      <resource name="inactiveseconds">
+        <object>Inaktive\nsekunder</object>
+      </resource>
+      <resource name="nregs">
+        <object>Ingen registreringer</object>
+      </resource>
+      <resource name="weightinweigher">
+        <object>Total innveier-\nvekt ($W)</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.Itm.RegsOut" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Behandlings-\nperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosess-\nperiode</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonsparti-\nkode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde-\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registrerings-\ntidspunkt</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Prodcut</object>
+      </resource>
+      <resource name="laneid">
+        <object>Bane</object>
+      </resource>
+      <resource name="programid">
+        <object>Program</object>
+      </resource>
+      <resource name="count">
+        <object>Antall</object>
+      </resource>
+      <resource name="weight">
+        <object>Totalvekt\n($W)</object>
+      </resource>
+      <resource name="weight2">
+        <object>Total kvadrert\nvekt ($W)</object>
+      </resource>
+      <resource name="patternid">
+        <object>Mønster</object>
+      </resource>
+      <resource name="bellyweight">
+        <object>Bukvekt\n($W)</object>
+      </resource>
+      <resource name="trimweight">
+        <object>Avskjærvekt\n($W)</object>
+      </resource>
+      <resource name="nregs">
+        <object>Ingen registreringer</object>
+      </resource>
+      <resource name="weightoutweigher">
+        <object>Total utveier-\nvekt ($W)</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.Itm.HistoIn" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Behandlings-\nperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosess-\nperiode</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonsparti-\nkode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde-\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registrerings-\ntidspunkt</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="laneid">
+        <object>Bane</object>
+      </resource>
+      <resource name="class">
+        <object>Klasse</object>
+      </resource>
+      <resource name="histtype">
+        <object>Type</object>
+      </resource>
+      <resource name="count">
+        <object>Antall stykker</object>
+      </resource>
+      <resource name="measurement">
+        <object>Total-\nmål</object>
+      </resource>
+      <resource name="measurementp2">
+        <object>Totalt kvadrert\nmål</object>
+      </resource>
+      <resource name="value">
+        <object>Totalverdi</object>
+      </resource>
+      <resource name="pmeasure">
+        <object>Primær-\nmål</object>
+      </resource>
+      <resource name="pcount">
+        <object>Primær-\nstykker</object>
+      </resource>
+      <resource name="pvalue">
+        <object>Primær-\nverdi</object>
+      </resource>
+      <resource name="smeasure">
+        <object>Sekundær-\nmål</object>
+      </resource>
+      <resource name="scount">
+        <object>Sekundær-\nstykker</object>
+      </resource>
+      <resource name="svalue">
+        <object>Sekundær-\nverdi</object>
+      </resource>
+      <resource name="tmeasure">
+        <object>Tertiær-\nmål</object>
+      </resource>
+      <resource name="tcount">
+        <object>Tertiær-\nstykker</object>
+      </resource>
+      <resource name="tvalue">
+        <object>Tertiær-\nverdi</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.Itm.HistoOut" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Behandlings-\nperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosess-\nperiode</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonsparti-\nkode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde-\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registrerings-\ntidspunkt</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="laneid">
+        <object>Bane</object>
+      </resource>
+      <resource name="class">
+        <object>Klasse</object>
+      </resource>
+      <resource name="histtype">
+        <object>Type</object>
+      </resource>
+      <resource name="count">
+        <object>Antall stykker</object>
+      </resource>
+      <resource name="measurement">
+        <object>Total-\nmål</object>
+      </resource>
+      <resource name="measurementp2">
+        <object>Totalt kvadrert\nmål</object>
+      </resource>
+      <resource name="value">
+        <object>Totalverdi</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.Itm.HistoDefects" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Behandlings-\nperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosess-\nperiode</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonsparti-\nkode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde-\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registrerings-\ntidspunkt</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="laneid">
+        <object>Bane</object>
+      </resource>
+      <resource name="programid">
+        <object>Program</object>
+      </resource>
+      <resource name="class">
+        <object>Klasse</object>
+      </resource>
+      <resource name="clumptail">
+        <object>Klumphale</object>
+      </resource>
+      <resource name="pearlstripe">
+        <object>Pearl Stripe</object>
+      </resource>
+      <resource name="melanin">
+        <object>Melaninflekk</object>
+      </resource>
+      <resource name="filleting">
+        <object>Filetering</object>
+      </resource>
+      <resource name="nodefect">
+        <object>Ingen defekt</object>
+      </resource>
+      <resource name="other">
+        <object>Andre</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.Itm.HistoColors" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Behandlings-\nperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosess-\nperiode</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonsparti-\nkode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde-\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registrerings-\ntidspunkt</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="laneid">
+        <object>Bane</object>
+      </resource>
+      <resource name="programid">
+        <object>Program</object>
+      </resource>
+      <resource name="class">
+        <object>Klasse</object>
+      </resource>
+      <resource name="loindark">
+        <object>Rygg mørk</object>
+      </resource>
+      <resource name="loinmedium">
+        <object>Rygg middels</object>
+      </resource>
+      <resource name="loinlight">
+        <object>Rygg lys</object>
+      </resource>
+      <resource name="bellydark">
+        <object>Buk mørk</object>
+      </resource>
+      <resource name="bellymedium">
+        <object>Buk middels</object>
+      </resource>
+      <resource name="bellylight">
+        <object>Buk lys</object>
+      </resource>
+      <resource name="taildark">
+        <object>Hale mørk</object>
+      </resource>
+      <resource name="tailmedium">
+        <object>Hale middels</object>
+      </resource>
+      <resource name="taillight">
+        <object>Hale lys</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.ScanPortioner.CombGraph" ServiceOnly="false">
+      <resource name="Area">
+        <object>Område</object>
+      </resource>
+      <resource name="chart.XAxis.Label.Text">
+        <object>% skannet volum</object>
+      </resource>
+      <resource name="chart.YAxis.Label.Text">
+        <object>Målkompensasjon</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.ScanPortioner.ParamHeader" ServiceOnly="false">
+      <resource name="lblColName.Text">
+        <object>Elementnavn</object>
+      </resource>
+      <resource name="lblColEdit.Text">
+        <object>Verdi</object>
+      </resource>
+      <resource name="lblColRange.Text">
+        <object>Område</object>
+      </resource>
+      <resource name="lblColMaterial.Text">
+        <object>Produkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.ScanPortioner.SpPageParamUC" ServiceOnly="false">
+      <resource name="grpProgramNumber.Text">
+        <object>Programnummer</object>
+      </resource>
+      <resource name="grpProgramType.Text">
+        <object>Programtype</object>
+      </resource>
+      <resource name="grpPieceMaterial.Text">
+        <object>Stykkeprodukt</object>
+      </resource>
+      <resource name="edPrgNumber.ToolTip">
+        <object>Angi programnummer</object>
+      </resource>
+      <resource name="prgTypeLookup.ToolTip">
+        <object>Velg programtype</object>
+      </resource>
+      <resource name="pieceMaterialLookup.ToolTip">
+        <object>Velg et produkt for stykket</object>
+      </resource>
+      <resource name="SelectPrgType">
+        <object>[Velg programtype]</object>
+      </resource>
+      <resource name="CreateSubPages.Err">
+        <object>Det oppstod feil under utfylling av egenskapssidene</object>
+      </resource>
+      <resource name="Page.Comp">
+        <object>Comp</object>
+      </resource>
+      <resource name="Page.M1">
+        <object>M1</object>
+      </resource>
+      <resource name="Page.Page">
+        <object>Side</object>
+      </resource>
+      <resource name="PrgNoOutOfRange.Err">
+        <object>Ugyldig programnummer. Utenfor området.</object>
+      </resource>
+      <resource name="PrgNoExists.Err">
+        <object>Programnummeret finnes allerede.\nVelg et annet nummer.</object>
+      </resource>
+      <resource name="Parameter.Err">
+        <object>Parameterfeil</object>
+      </resource>
+      <resource name="SelectProduct">
+        <object>Velg produkt</object>
+      </resource>
+      <resource name="btnSetDefAll.Text">
+        <object>Set</object>
+      </resource>
+      <resource name="btnGetDefAll.Text">
+        <object>Get</object>
+      </resource>
+      <resource name="grpUserDefaults.Text">
+        <object>User defaults</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.ScanPortioner.ParamValue" ServiceOnly="false">
+      <resource name="materialLookUp.ToolTip">
+        <object>Velg et produkt for elementet.</object>
+      </resource>
+      <resource name="Err.OutOfRange">
+        <object>Verdien er utenfor området.</object>
+      </resource>
+      <resource name="Err.Invalid">
+        <object>Ugyldig verdi.</object>
+      </resource>
+      <resource name="btnSetDef.Text">
+        <object>Set</object>
+      </resource>
+      <resource name="btnGetDef.Text">
+        <object>Get</object>
+      </resource>
+    </type>
+    <type name="Grid.ProgramSetup.SalmonSlicerParameterGrid" ServiceOnly="false">
+      <resource name="ipm_sas_parameter_name">
+        <object>Navn</object>
+      </resource>
+      <resource name="ipm_sas_parameter_defvalue">
+        <object>Standardverdi</object>
+      </resource>
+      <resource name="ipm_sas_parameter_minvalue">
+        <object>Minimumsverdi</object>
+      </resource>
+      <resource name="ipm_sas_parameter_maxvalue">
+        <object>Maksimumsverdi</object>
+      </resource>
+      <resource name="ipm_sas_parameter_uiorder">
+        <object>Sekvens</object>
+      </resource>
+      <resource name="ipm_sas_parameter_datatype">
+        <object>Datatype</object>
+      </resource>
+      <resource name="ipm_sas_parameter_grouptype">
+        <object>Parametergruppetype</object>
+      </resource>
+      <resource name="ipm_sas_parameter_image">
+        <object>Bilde</object>
+      </resource>
+      <resource name="ipm_sas_parametervalue_program">
+        <object>Program-ID</object>
+      </resource>
+      <resource name="ipm_sas_parametervalue_program Name">
+        <object>Programnavn</object>
+      </resource>
+      <resource name="ipm_sas_parameter_unit">
+        <object>Enhet</object>
+      </resource>
+      <resource name="ipm_sas_parameter_csvcolumn">
+        <object>Kolonne i CSV-fil</object>
+      </resource>
+      <resource name="ipm_sas_parameter_csvfactor">
+        <object>Multiplikasjonsfaktor i CSV-fil</object>
+      </resource>
+      <resource name="ipm_sas_parametervalue_id">
+        <object>ID</object>
+      </resource>
+      <resource name="ipm_sas_parametervalue_grouptype">
+        <object>Gruppe</object>
+      </resource>
+      <resource name="ipm_sas_parametervalue_subsetno">
+        <object>Systemparametersett</object>
+      </resource>
+      <resource name="ipm_sas_parametervalue_parameter">
+        <object>Parameter-ID</object>
+      </resource>
+      <resource name="ipm_sas_parametervalue_parameter Name">
+        <object>Parameternavn</object>
+      </resource>
+      <resource name="ipm_sas_parametervalue_paramvalue">
+        <object>Verdi</object>
+      </resource>
+      <resource name="ipm_sas_parameter_advanced">
+        <object>Avansert parameter</object>
+      </resource>
+      <resource name="ipm_sas_parameter_productionprinciple">
+        <object>Produksjonsprinsipp</object>
+      </resource>
+      <resource name="ipm_sas_systemparametervalue_grouptype">
+        <object>Parametergruppetype</object>
+      </resource>
+      <resource name="ipm_sas_systemparametervalue_program">
+        <object>Program-ID</object>
+      </resource>
+      <resource name="ipm_sas_systemparametervalue_program Name">
+        <object>Programnavn</object>
+      </resource>
+      <resource name="ipm_sas_systemparametervalue_subsetno">
+        <object>Systemparametersett</object>
+      </resource>
+      <resource name="ipm_sas_systemparametervalue_parameter">
+        <object>Parameter-ID</object>
+      </resource>
+      <resource name="ipm_sas_systemparametervalue_parameter Name">
+        <object>Parameternavn</object>
+      </resource>
+      <resource name="ipm_sas_systemparametervalue_paramvalue">
+        <object>Verdi</object>
+      </resource>
+      <resource name="ipm_sas_systemparametervalue_id">
+        <object>ID</object>
+      </resource>
+      <resource name="ipm_sas_visionparametervalue_grouptype">
+        <object>Parametergruppetype</object>
+      </resource>
+      <resource name="ipm_sas_visionparametervalue_program">
+        <object>Program-ID</object>
+      </resource>
+      <resource name="ipm_sas_visionparametervalue_program Name">
+        <object>Programnavn</object>
+      </resource>
+      <resource name="ipm_sas_visionparametervalue_subsetno">
+        <object>vision-parametersett</object>
+      </resource>
+      <resource name="ipm_sas_visionparametervalue_parameter">
+        <object>Parameter-ID</object>
+      </resource>
+      <resource name="ipm_sas_visionparametervalue_parameter Name">
+        <object>Parameternavn</object>
+      </resource>
+      <resource name="ipm_sas_visionparametervalue_paramvalue">
+        <object>Verdi</object>
+      </resource>
+      <resource name="ipm_sas_visionparametervalue_id">
+        <object>ID</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Importing.ScanPortioner.ImportSpProgram" ServiceOnly="false">
+      <resource name="lblInputHint.Text">
+        <object>Gyldige numre (1-90)</object>
+      </resource>
+      <resource name="lblExample.Text">
+        <object>Eksempel: 1.2,4 6,10-12  gir  1,2,4,6,10,11,12</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>&amp;Importer</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>&amp;Avbryt</object>
+      </resource>
+      <resource name="Err.ImportFailed">
+        <object>Kan ikke importere programmet.</object>
+      </resource>
+      <resource name="Text">
+        <object>Importer program</object>
+      </resource>
+      <resource name="Info.ConFailed">
+        <object>Kan ikke koble til serveren.</object>
+      </resource>
+      <resource name="Info.TypeProgram">
+        <object>Skriv inn nummeret for programmet som du vil importere</object>
+      </resource>
+      <resource name="Info.Requesting">
+        <object>Ber om program(mer). Vent litt.</object>
+      </resource>
+      <resource name="Err.InvalidImportList">
+        <object>Angi et gyldig programnummer</object>
+      </resource>
+      <resource name="Info.ImportOk">
+        <object>Programdata er mottatt</object>
+      </resource>
+      <resource name="Err.RequestFailed">
+        <object>Programforespørsel mislyktes</object>
+      </resource>
+      <resource name="Err.CommandError">
+        <object>Kommandofeil.</object>
+      </resource>
+      <resource name="lblWarning.Text">
+        <object>Advarsel:
+Et eksisterende program med samme programnummer vil bli overskrevet.</object>
+      </resource>
+      <resource name="Info.Connecting">
+        <object>Kobler til serveren ...</object>
+      </resource>
+      <resource name="AllFiles">
+        <object>Alle filer</object>
+      </resource>
+      <resource name="Files">
+        <object>Filer</object>
+      </resource>
+      <resource name="Err.ImportFileFailed">
+        <object>Kan ikke importere programmet fra filen.</object>
+      </resource>
+      <resource name="Title.SelProgramFile">
+        <object>Velg programfilen du vil importere:</object>
+      </resource>
+      <resource name="Err.ReadingFile">
+        <object>Det oppstod feil ved lesing av filen.</object>
+      </resource>
+      <resource name="btnOk.ToolTip">
+        <object>Klikk for å starte import.</object>
+      </resource>
+      <resource name="btnCancel.ToolTip">
+        <object>Avbryt import.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Exporting.ScanPortioner.ExportSpProgram" ServiceOnly="false">
+      <resource name="Err.InvalidExportList">
+        <object>Eksportprogramlisten er ugyldig</object>
+      </resource>
+      <resource name="Info.Exporting">
+        <object>Overfører program. Vent litt.</object>
+      </resource>
+      <resource name="Info.ExportOk">
+        <object>Programdata overført</object>
+      </resource>
+      <resource name="Info.ExportProgram">
+        <object>Eksporterer program</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>&amp;Eksporter</object>
+      </resource>
+      <resource name="Err.SendFailed">
+        <object>Kan ikke eksportere programmet</object>
+      </resource>
+      <resource name="Info.Connecting">
+        <object>Kobler til serveren ...</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>&amp;Avbryt</object>
+      </resource>
+      <resource name="lblInputHint.Text">
+        <object>Programdatabasenumre som eksporteres:</object>
+      </resource>
+      <resource name="lblWarning.Text">
+        <object>Advarsel:
+Et eksisterende program med samme programnummer vil bli overskrevet.</object>
+      </resource>
+      <resource name="Text">
+        <object>Eksporter program</object>
+      </resource>
+      <resource name="Info.ConFailed">
+        <object>Kan ikke koble til serveren.</object>
+      </resource>
+      <resource name="Err.CommandError">
+        <object>Kommandofeil.</object>
+      </resource>
+      <resource name="Files">
+        <object>Filer</object>
+      </resource>
+      <resource name="btnOk.ToolTip">
+        <object>Klikk for å starte eksport.</object>
+      </resource>
+      <resource name="btnCancel.ToolTip">
+        <object>Avbryt eksport.</object>
+      </resource>
+      <resource name="Title.SavingProgram">
+        <object>Lagrer program ...</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.SalmonSlicer.SalmonSlicerPageProductUC" ServiceOnly="false">
+      <resource name="lblPieceMaterial.Text">
+        <object>Stykkeprodukt:</object>
+      </resource>
+      <resource name="lblPrimaryMaterial.Text">
+        <object>Primært produkt:</object>
+      </resource>
+      <resource name="lblSecondaryMaterial.Text">
+        <object>Sekundært produkt:</object>
+      </resource>
+      <resource name="lblOffcutMaterial.Text">
+        <object>Restprodukt:</object>
+      </resource>
+      <resource name="grpPieceMaterial.Text">
+        <object>Materiale</object>
+      </resource>
+      <resource name="grpParameters.Text">
+        <object>Produktparametere</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Kode</object>
+      </resource>
+      <resource name="grpProgramNumber.Text">
+        <object>Program</object>
+      </resource>
+      <resource name="lblValidProgramNumbers.Text">
+        <object>(1-90)</object>
+      </resource>
+      <resource name="PrgNoOutOfRange.Err">
+        <object>Ugyldig programnummer. Utenfor området.</object>
+      </resource>
+      <resource name="PrgNoExists.Err">
+        <object>Programnummeret finnes allerede.\nVelg et annet nummer.</object>
+      </resource>
+      <resource name="Parameter.Err">
+        <object>Parameterfeil</object>
+      </resource>
+      <resource name="PrgNoZero.Err">
+        <object>Programnummeret er ikke definert.\nVelg et nummer.</object>
+      </resource>
+      <resource name="SubsetNotExist.Err">
+        <object>Dette delsettet finnes ikke. Velg et annet.</object>
+      </resource>
+      <resource name="grpProductionPrinciple.Text">
+        <object>Produksjonsprinsipp</object>
+      </resource>
+      <resource name="chkShowAdvancedParams.Text">
+        <object>Vis avansert parameterene</object>
+      </resource>
+      <resource name="grpFormCurve.Text">
+        <object>Formkurve</object>
+      </resource>
+      <resource name="lblSystemParams.Text">
+        <object>Speed parameters:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.SalmonSlicer.SalmonSlicerProgramSetup" ServiceOnly="false">
+      <resource name="tabPageProduct.Text">
+        <object>Produkt</object>
+      </resource>
+      <resource name="tabPageVision.Text">
+        <object>Vision</object>
+      </resource>
+      <resource name="tabPageSettings.Text">
+        <object>Innstillinger</object>
+      </resource>
+      <resource name="Title">
+        <object>Porsjonskutteroppsett</object>
+      </resource>
+      <resource name="Info.ExportDoneCap">
+        <object>Eksporten var vellykket</object>
+      </resource>
+      <resource name="Info.ExportDone">
+        <object>filer eksportert</object>
+      </resource>
+      <resource name="ProgramCantDelete.ErrCap">
+        <object>Kan ikke slette</object>
+      </resource>
+      <resource name="ProgramCantDelete.ErrMsg">
+        <object>Dette programmet er et standardprogram og kan ikke slettes.</object>
+      </resource>
+      <resource name="tabPageSystem.Text">
+        <object>System</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Exporting.Common.ExportBase" ServiceOnly="false">
+      <resource name="Err.NoRemoteWorker">
+        <object>Kan ikke opprette ekstern arbeider.</object>
+      </resource>
+      <resource name="Exported.Text">
+        <object>programmer eksportert</object>
+      </resource>
+      <resource name="Exported.Title">
+        <object>Eksport fullført</object>
+      </resource>
+      <resource name="ExportedOne.Text">
+        <object>program eksportert</object>
+      </resource>
+      <resource name="Err.ExportFailed">
+        <object>Kan ikke eksportere programmet.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Importing.Common.ImportBase" ServiceOnly="false">
+      <resource name="Err.NoRemoteWorker">
+        <object>Kan ikke opprette ekstern arbeider.</object>
+      </resource>
+      <resource name="Imported.Text">
+        <object>programmer importert.</object>
+      </resource>
+      <resource name="Imported.Title">
+        <object>Import fullført</object>
+      </resource>
+      <resource name="ImportedOne.Text">
+        <object>programmet er importert.</object>
+      </resource>
+      <resource name="Title.ImportError">
+        <object>Kan ikke importere programmet.</object>
+      </resource>
+      <resource name="Status.Idle">
+        <object>Inaktiv</object>
+      </resource>
+      <resource name="Status.Connecting">
+        <object>Kobler til serveren ...</object>
+      </resource>
+      <resource name="Status.Downloading">
+        <object>Laster ned fra enheten. Vent litt.</object>
+      </resource>
+      <resource name="Status.Importing">
+        <object>Importerer programmer. Vent litt.</object>
+      </resource>
+      <resource name="Status.Downloaded">
+        <object>Program(mer) er lastet ned.</object>
+      </resource>
+      <resource name="Status.Imported">
+        <object>Program(mer) er importert.</object>
+      </resource>
+      <resource name="Status.ConFailed">
+        <object>Kan ikke koble til serveren.</object>
+      </resource>
+      <resource name="Status.DownloadFailed">
+        <object>Kan ikke laste ned programmene.</object>
+      </resource>
+      <resource name="Status.ImpFailed">
+        <object>Kan ikke importere programmene.</object>
+      </resource>
+      <resource name="Status.Unknown">
+        <object>Ukjent status.</object>
+      </resource>
+      <resource name="Status">
+        <object>Status:</object>
+      </resource>
+      <resource name="Status.CommandError">
+        <object>Programfeil.</object>
+      </resource>
+      <resource name="Imported.InfoText">
+        <object>Kontroller at alle importerte programmer er gyldige, og korriger eventuelle ugyldige verdier.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.Importing.ImportSalmonSlicerProgram" ServiceOnly="false">
+      <resource name="Info.SelectDevice">
+        <object>Velg enheten som programmet skal importeres fra:</object>
+      </resource>
+      <resource name="Err.SelectDevice">
+        <object>Velg enhet.</object>
+      </resource>
+      <resource name="Err.ImportFailed">
+        <object>Kan ikke importere programmet.</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>&amp;Avbryt</object>
+      </resource>
+      <resource name="Text">
+        <object>Importer program</object>
+      </resource>
+      <resource name="btnBack.Text">
+        <object>&lt;&lt; &amp;Tilbake</object>
+      </resource>
+      <resource name="btnNext.Text">
+        <object>&amp;Neste &gt;&gt;</object>
+      </resource>
+      <resource name="Err.DownloadFailed">
+        <object>Kan ikke laste ned program(mer).</object>
+      </resource>
+      <resource name="btn.Import">
+        <object>&amp;Importer</object>
+      </resource>
+      <resource name="Info.SelectProductParam">
+        <object>Velg produktparametere for import:</object>
+      </resource>
+      <resource name="LaneInfo.Lane">
+        <object>Bane</object>
+      </resource>
+      <resource name="LaneInfo.NoDevice">
+        <object>Det er ikke valgt noen enhet.</object>
+      </resource>
+      <resource name="Err.SelectParameters">
+        <object>Velg parameter(e).</object>
+      </resource>
+      <resource name="Files">
+        <object>Filer</object>
+      </resource>
+      <resource name="AllFiles">
+        <object>Alle filer</object>
+      </resource>
+      <resource name="Title.SelCscFiles">
+        <object>Velg CSV-filer for import:</object>
+      </resource>
+      <resource name="Err.ImportFileFailed">
+        <object>Kan ikke importere programmet fra filen.</object>
+      </resource>
+      <resource name="Err.ReadingFile">
+        <object>Det oppstod feil ved lesing av filen.</object>
+      </resource>
+      <resource name="Err.CommandError">
+        <object>Kommandofeil.</object>
+      </resource>
+      <resource name="Err.DeviceOffline">
+        <object>Enheten er ikke tilkoblet.</object>
+      </resource>
+      <resource name="Info.SelectVisionparam">
+        <object>Velg vision-parametere for import:</object>
+      </resource>
+      <resource name="Info.SelectParameters">
+        <object>Velg parametere for import:</object>
+      </resource>
+      <resource name="Info.ExportToDeviceCap">
+        <object>Eksport til enhet er ikke nødvendig.</object>
+      </resource>
+      <resource name="Info.ExportToDevice">
+        <object>Hver gang aktivitet endres, utføres en fullstendig eksport til Slicer-enheten(e).</object>
+      </resource>
+      <resource name="Info.SelectSystemparam">
+        <object>Velg systemparametere for import:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.ScanPortioner.ParamSelectValue" ServiceOnly="false">
+      <resource name="materialLookUp.ToolTip">
+        <object>Velg et produkt for elementet.</object>
+      </resource>
+      <resource name="btnSetDef.Text">
+        <object>Set</object>
+      </resource>
+      <resource name="btnGetDef.Text">
+        <object>Get</object>
+      </resource>
+    </type>
+    <type name="Grid.SystemSetup.LanePieceTypes" ServiceOnly="false">
+      <resource name="lane">
+        <object>Lane</object>
+      </resource>
+      <resource name="piecetype">
+        <object>Piecetype code</object>
+      </resource>
+      <resource name="piecetype Name">
+        <object>Piecetype</object>
+      </resource>
+      <resource name="lane.lookup.id">
+        <object>Id</object>
+      </resource>
+      <resource name="lane.lookup.name">
+        <object>Name</object>
+      </resource>
+      <resource name="lane.hint">
+        <object>Choose the lane</object>
+      </resource>
+      <resource name="piecetype Name.hint">
+        <object>Choose the piecetype to accociate with the lane</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.ICut10.ICut10PageMoreSettings" ServiceOnly="false">
+      <resource name="grpBeltSpeed.Text">
+        <object>Belteinnstillinger</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Innstillinger</object>
+      </resource>
+      <resource name="grpVTW.Text">
+        <object>Volum-til-vekt-grenser</object>
+      </resource>
+      <resource name="grpModel.Text">
+        <object>Modellinnstillinger</object>
+      </resource>
+      <resource name="lblVTWRatio.Text">
+        <object>VTW-forhold:</object>
+      </resource>
+      <resource name="chkAutoUpdateVTW.Text">
+        <object>Autooppdater VTW</object>
+      </resource>
+      <resource name="chkAutoUpdateVTW.ToolTip">
+        <object>Kontroller om volum-til-vekt-grenser oppdateres automatisk</object>
+      </resource>
+      <resource name="lblVTWMax.Text">
+        <object>Maks.:</object>
+      </resource>
+      <resource name="lblVTWMin.Text">
+        <object>Min.:</object>
+      </resource>
+      <resource name="chkUseCutnBatch.ToolTip">
+        <object>Aktiverer Cut'n Batch-programmet.</object>
+      </resource>
+      <resource name="chkUseCutnBatch.Text">
+        <object>Cut'n batch</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.ICut10.ICut10PagePortions" ServiceOnly="false">
+      <resource name="newResource">
+        <object>x</object>
+      </resource>
+      <resource name="grpInputMaterial.Text">
+        <object>Stykkeprodukt</object>
+      </resource>
+      <resource name="grpPortions.Text">
+        <object>Produkts</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.ICut10.ICut10ProgramSetup" ServiceOnly="false">
+      <resource name="tabPageSettings.Text">
+        <object>Innstillinger</object>
+      </resource>
+      <resource name="tabPageMoreSettings.Text">
+        <object>Flere innstillinger</object>
+      </resource>
+      <resource name="tabPagePortions.Text">
+        <object>Porsjoner</object>
+      </resource>
+      <resource name="Title">
+        <object>Enhetsoppsett</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.Common.ProgramSetupBase" ServiceOnly="false">
+      <resource name="InvalidProgram">
+        <object>Fant følgende feil i programmet:</object>
+      </resource>
+      <resource name="InvalidProgram.Title">
+        <object>Program ugyldig</object>
+      </resource>
+      <resource name="Err.RefreshingData">
+        <object>Feil under oppdatering av data.</object>
+      </resource>
+      <resource name="Err.DataLoaded">
+        <object>Feil i datalasting fullført.</object>
+      </resource>
+      <resource name="UndefinedShName">
+        <object>(UnDef)</object>
+      </resource>
+      <resource name="UndefinedName">
+        <object>(Udefinert)</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Det oppstod feil ved lagring av data!</object>
+      </resource>
+      <resource name="Err.NewProgram">
+        <object>Det oppstod feil ved opprettelse av nytt program.</object>
+      </resource>
+      <resource name="Warning.PrgDelete">
+        <object>ADVARSEL:\nDu kan ikke angre denne handlingen.\nAll tilknyttet statistikk vil bli ubrukelig.</object>
+      </resource>
+      <resource name="Err.CantCopyProgram">
+        <object>Kan ikke kopiere programmet.</object>
+      </resource>
+      <resource name="CloneOf">
+        <object>Klon av</object>
+      </resource>
+      <resource name="CopyOf">
+        <object>Kopi av</object>
+      </resource>
+      <resource name="Err.CantPasteProgram">
+        <object>Kan ikke lime inn programmet.</object>
+      </resource>
+      <resource name="Files">
+        <object>Filer</object>
+      </resource>
+      <resource name="Err.SavingFile">
+        <object>Kan ikke lagre fil.</object>
+      </resource>
+      <resource name="AllFiles">
+        <object>Alle filer</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.SystemSetup.PortioningSystemView" ServiceOnly="true">
+      <resource name="Lookup.Name.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Kode</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Det oppstod feil ved lagring av data!</object>
+      </resource>
+      <resource name="Err.RefreshingData">
+        <object>Feil under oppdatering av data!</object>
+      </resource>
+      <resource name="Err.CancelEdit">
+        <object>Det oppstod feil ved annullering!</object>
+      </resource>
+      <resource name="Err.NewProgram">
+        <object>Det oppstod feil ved opprettelse av nytt program</object>
+      </resource>
+      <resource name="Err.DeletingLaneChildren">
+        <object>Kan ikke slette underordnet for banen.</object>
+      </resource>
+      <resource name="Warning.DeleteSystem">
+        <object>ADVARSEL:\nHvis du sletter dette system, slettes baner og programmer for systemet.\nDu kan ikke angre denne slettingen.</object>
+      </resource>
+      <resource name="Lookup.Active.Caption">
+        <object>Aktiv</object>
+      </resource>
+    </type>
+    <type name="Grid.SystemSetup.LaneGrid" ServiceOnly="true">
+      <resource name="device Name">
+        <object>Enhet</object>
+      </resource>
+      <resource name="inweightres">
+        <object>Inngangsvekt-\noppl. ($Q)</object>
+      </resource>
+      <resource name="station Name">
+        <object>Stasjon</object>
+      </resource>
+      <resource name="inweighingdevice Name">
+        <object>Innveiings-\nenhet</object>
+      </resource>
+      <resource name="graderdevice Name">
+        <object>Graderenhet</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>Behandlingsenhet</object>
+      </resource>
+      <resource name="sourceprunit Name">
+        <object>Kilde-\nbehandlingsenhet</object>
+      </resource>
+      <resource name="destprunit Name">
+        <object>Mål-\nbehandlingsenhet</object>
+      </resource>
+      <resource name="inlengthres">
+        <object>Inngangslengde-\noppl. ($L)</object>
+      </resource>
+      <resource name="outweightres">
+        <object>Utgangsvekt-\noppl. ($Q)</object>
+      </resource>
+      <resource name="outlengthres">
+        <object>Utgangslengde-\noppl. ($L)</object>
+      </resource>
+      <resource name="uncutmaterial Name">
+        <object>Uoppskåret\nprodukt</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="device">
+        <object>Enhetskode</object>
+      </resource>
+      <resource name="station">
+        <object>Stasjonskode</object>
+      </resource>
+      <resource name="system">
+        <object>System-ID</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="laneside">
+        <object>Bane</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.UI.Windows.ProgramSetup.SalmonSlicer.SalmonSlicerPageSystemUC" ServiceOnly="false">
+      <resource name="Empty.SystemParam">
+        <object>Klikk ny --&gt;</object>
+      </resource>
+      <resource name="Lookup.SubsetNo.Caption">
+        <object>Settnummer</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="NoSubsetNo.ErrCap">
+        <object>Ingen ledige delsettnumre</object>
+      </resource>
+      <resource name="NoSubsetNo.ErrMsg">
+        <object>Alle ledige parameterdelsettnumre er brukt. Slett noen eksisterende sett før du oppretter et nytt sett.</object>
+      </resource>
+      <resource name="DeleteSystemParameterSet">
+        <object>Vil du slette systemparameterdelsett?</object>
+      </resource>
+      <resource name="SubsetNoInUse.ErrCap">
+        <object>Delsett i bruk</object>
+      </resource>
+      <resource name="SubsetNoInUse.ErrMsg">
+        <object>Dette systemparameterdelsettet er for øyeblikket i bruk og kan derfor ikke slettes.</object>
+      </resource>
+      <resource name="SubsetNoCantDelete.ErrCap">
+        <object>Kan ikke slette</object>
+      </resource>
+      <resource name="SubsetNoCantDelete.ErrMsg">
+        <object>Dette systemparameterdelsettet er et standardsett og kan ikke slettes.</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

@@ -1,0 +1,2181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="tr">
+  <industry>
+    <type name="Marel.Mp5.Process.Process.LineType" ServiceOnly="true">
+      <resource name="ProcessUnit">
+        <object>İşlem ünitesi</object>
+      </resource>
+      <resource name="BasicLine">
+        <object>Seri</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanType" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Plan yok</object>
+      </resource>
+      <resource name="ContextPlan">
+        <object>Ortak plan</object>
+      </resource>
+      <resource name="SplitPlan">
+        <object>Bölünmüş plan</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessState" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ayarlanmadı</object>
+      </resource>
+      <resource name="NoWork">
+        <object>Saatler dışında</object>
+      </resource>
+      <resource name="Running">
+        <object>Çalışıyor</object>
+      </resource>
+      <resource name="Idle">
+        <object>Boşta</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Durduruldu</object>
+      </resource>
+      <resource name="Breakdown">
+        <object>Döküm</object>
+      </resource>
+      <resource name="NotProgrammed">
+        <object>Programlanmadı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessCounterType" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Kullanılmıyor</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>İşlem ünitesi başına</object>
+      </resource>
+      <resource name="Line">
+        <object>Hat başına</object>
+      </resource>
+      <resource name="Section">
+        <object>Bölüm başına</object>
+      </resource>
+      <resource name="Department">
+        <object>Departman başına</object>
+      </resource>
+      <resource name="Site">
+        <object>Yer başına</object>
+      </resource>
+      <resource name="Station">
+        <object>İstasyon başına</object>
+      </resource>
+      <resource name="StationGroup">
+        <object>İstasyon grubu başına</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.AutoManual" ServiceOnly="true">
+      <resource name="Automatic">
+        <object>Otomatik</object>
+      </resource>
+      <resource name="Manual">
+        <object>Elle</object>
+      </resource>
+      <resource name="AllowManual">
+        <object>Elle seçeneğine izin ver</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessPeriodType" ServiceOnly="true">
+      <resource name="Daily">
+        <object>Günlük</object>
+      </resource>
+      <resource name="OnActivity">
+        <object>Etkinlik değişikliğinde</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextSelect" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Kullanılmıyor</object>
+      </resource>
+      <resource name="Direct">
+        <object>Doğrudan değiştir</object>
+      </resource>
+      <resource name="DirectAssigned">
+        <object>Doğrudan değiştir, atanan öğeleri kullan</object>
+      </resource>
+      <resource name="DirectStopped">
+        <object>Durduğunda doğrudan değiştir</object>
+      </resource>
+      <resource name="DirectAssignedStopped">
+        <object>Durduğunda doğrudan değiştir, atanan öğeleri kullan</object>
+      </resource>
+      <resource name="Pending">
+        <object>Beklemeyi başlat</object>
+      </resource>
+      <resource name="PendingAssigned">
+        <object>Beklemeyi başlat, atanan öğeleri kullan</object>
+      </resource>
+      <resource name="PendingStopped">
+        <object>Durduğunda beklemeyi başlat</object>
+      </resource>
+      <resource name="PendingAssignedStopped">
+        <object>Durduğunda beklemeyi başlat, atanan öğeleri kullan</object>
+      </resource>
+      <resource name="ForwardPending">
+        <object>Yalnızca beklemede iletmeye izin ver</object>
+      </resource>
+      <resource name="ForwardDirect">
+        <object>Yalnızca doğrudan iletmeye izin ver</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanMethod" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Plan yok</object>
+      </resource>
+      <resource name="Relaxed">
+        <object>Rahat</object>
+      </resource>
+      <resource name="NoSequence">
+        <object>Katı, sıra yok</object>
+      </resource>
+      <resource name="Sequence">
+        <object>Katı, sırayla</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextType" ServiceOnly="true">
+      <resource name="NoContext">
+        <object>Bağlam yok</object>
+      </resource>
+      <resource name="LocalApplication">
+        <object>Uygulama</object>
+      </resource>
+      <resource name="LocalSystem">
+        <object>Sistem</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>İşlem ünitesi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.SystemType" ServiceOnly="false">
+      <resource name="Other">
+        <object>Diğer</object>
+      </resource>
+      <resource name="Species">
+        <object>Tür</object>
+      </resource>
+      <resource name="Section">
+        <object>Bölüm</object>
+      </resource>
+      <resource name="Input">
+        <object>Giriş</object>
+      </resource>
+      <resource name="Primary">
+        <object>Birincil </object>
+      </resource>
+      <resource name="Secondary">
+        <object>İkincil</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>Üçüncül</object>
+      </resource>
+      <resource name="Waste">
+        <object>Atık</object>
+      </resource>
+      <resource name="Fat">
+        <object>Yağ</object>
+      </resource>
+      <resource name="Bones">
+        <object>Kemikler</object>
+      </resource>
+      <resource name="Skin">
+        <object>Deri</object>
+      </resource>
+      <resource name="Offal">
+        <object>Sakatat</object>
+      </resource>
+      <resource name="Ingredient">
+        <object>Bileşen</object>
+      </resource>
+      <resource name="Packaging">
+        <object>Paketleme</object>
+      </resource>
+      <resource name="PieceType">
+        <object>Parça türü</object>
+      </resource>
+      <resource name="ColorType">
+        <object>Renk</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoDeliveryStatus" ServiceOnly="false">
+      <resource name="NotOrdered">
+        <object>Sipariş edilmedi</object>
+      </resource>
+      <resource name="InStorage">
+        <object>Saklama alanında</object>
+      </resource>
+      <resource name="EnRoute">
+        <object>Yolda</object>
+      </resource>
+      <resource name="Receiving">
+        <object>Alınıyor, kullanılabilir değil</object>
+      </resource>
+      <resource name="ReceivingAvailable">
+        <object>Alınıyor, kullanılabilir</object>
+      </resource>
+      <resource name="Holding">
+        <object>Bekletiliyor</object>
+      </resource>
+      <resource name="Available">
+        <object>Kullanılabilir</object>
+      </resource>
+      <resource name="Completed">
+        <object>Tamamlandı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.PrivateObjectType" ServiceOnly="false">
+      <resource name="Mateial">
+        <object>Ürün</object>
+      </resource>
+      <resource name="Customer">
+        <object>Müşteri</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Sipariş serisi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.CountMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Tümünü kabul et</object>
+      </resource>
+      <resource name="Range">
+        <object>Min. ve maks.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextColumn" ServiceOnly="false">
+      <resource name="Activity">
+        <object>Etkinlik</object>
+      </resource>
+      <resource name="Po">
+        <object>Satınalma siparişi</object>
+      </resource>
+      <resource name="Batch">
+        <object>Seri</object>
+      </resource>
+      <resource name="Lot">
+        <object>Parti</object>
+      </resource>
+      <resource name="Plot">
+        <object>Üretim partisi</object>
+      </resource>
+      <resource name="Rmarea">
+        <object>Kaynak alanı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Bekletiliyor</object>
+      </resource>
+      <resource name="Available">
+        <object>Kullanılabilir</object>
+      </resource>
+      <resource name="Completed">
+        <object>Tamamlandı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotRecord" ServiceOnly="false">
+      <resource name="AutoName">
+        <object>Parti</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>L</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.YieldGroupRecord" ServiceOnly="true">
+      <resource name="AutoName">
+        <object>Verim grubu</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>Y</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.ChainType" ServiceOnly="true">
+      <resource name="TracePo">
+        <object>PO'ları izle</object>
+      </resource>
+      <resource name="TraceBatch">
+        <object>Seri numaralarını izle</object>
+      </resource>
+      <resource name="TraceLot">
+        <object>Partileri izle</object>
+      </resource>
+      <resource name="TracePack">
+        <object>Paketleri izle</object>
+      </resource>
+      <resource name="TraceCollection">
+        <object>Toplamayı izle</object>
+      </resource>
+      <resource name="TraceInterval">
+        <object>Saate göre izle</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.UnitStatus" ServiceOnly="true">
+      <resource name="PendingAuto">
+        <object>Otomatik olarak başlatılması bekleniyor</object>
+      </resource>
+      <resource name="PendingManual">
+        <object>Elle başlatılması bekleniyor</object>
+      </resource>
+      <resource name="Active">
+        <object>Ünite etkin</object>
+      </resource>
+      <resource name="Ending">
+        <object>Ünite bitiriliyor</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.TransactionType" ServiceOnly="true">
+      <resource name="UnitSchedule">
+        <object>Ünite zamanlandı</object>
+      </resource>
+      <resource name="UnitStart">
+        <object>Ünite başlatıldı</object>
+      </resource>
+      <resource name="UnitEnd">
+        <object>Ünite bitirildi</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Beklemede</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.TransferStatus" ServiceOnly="false">
+      <resource name="NoTransfer">
+        <object>Aktarım yok</object>
+      </resource>
+      <resource name="ReadyForTransfer">
+        <object>Aktarım hazır</object>
+      </resource>
+      <resource name="TransferComplete">
+        <object>Aktarım tamamlandı</object>
+      </resource>
+      <resource name="TransferReceive">
+        <object>Aktarım siparişi alındı</object>
+      </resource>
+      <resource name="TransferInProgress">
+        <object>Aktarım devam ediyor</object>
+      </resource>
+      <resource name="TransferError">
+        <object>Aktarım hatası</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderLineStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Kapalı</object>
+      </resource>
+      <resource name="Open">
+        <object>Aç</object>
+      </resource>
+      <resource name="Complete">
+        <object>Tamamlandı</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>İptal edildi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AssignType" ServiceOnly="false">
+      <resource name="All">
+        <object>Tümüne izin ver</object>
+      </resource>
+      <resource name="Production">
+        <object>Üretime izin ver</object>
+      </resource>
+      <resource name="Direct">
+        <object>Doğrudan izin ver</object>
+      </resource>
+      <resource name="Input">
+        <object>Girişe izin ver</object>
+      </resource>
+      <resource name="NoAssign">
+        <object>Atamaya izin verme!</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintObjectType" ServiceOnly="false">
+      <resource name="Inventory">
+        <object>Envanter</object>
+      </resource>
+      <resource name="Po">
+        <object>Satınalma siparişi</object>
+      </resource>
+      <resource name="Supplier">
+        <object>Tedarikçi</object>
+      </resource>
+      <resource name="Site">
+        <object>Yer</object>
+      </resource>
+      <resource name="Category">
+        <object>Kategori</object>
+      </resource>
+      <resource name="SectionType">
+        <object>Bölüm türü</object>
+      </resource>
+      <resource name="BornIn">
+        <object>Doğum yeri</object>
+      </resource>
+      <resource name="RaisedIn">
+        <object>Büyüme yeri</object>
+      </resource>
+      <resource name="FatClass">
+        <object>Yağ sınıfı</object>
+      </resource>
+      <resource name="Lot">
+        <object>Parti</object>
+      </resource>
+      <resource name="LotQaMark1">
+        <object>Parti QA İşareti 1</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintType" ServiceOnly="false">
+      <resource name="OnlyFrom">
+        <object>Yalnızca şundan başla</object>
+      </resource>
+      <resource name="NotFrom">
+        <object>Şundan değil</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ProcessAssignType" ServiceOnly="false">
+      <resource name="Fixed">
+        <object>Sabit</object>
+      </resource>
+      <resource name="Regular">
+        <object>Geçici</object>
+      </resource>
+      <resource name="Planned">
+        <object>Planlanan</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.ForwardType" ServiceOnly="true">
+      <resource name="NoForward">
+        <object>İletme yok</object>
+      </resource>
+      <resource name="ForwardAll">
+        <object>Tümünü ilet</object>
+      </resource>
+      <resource name="ForwardActivity">
+        <object>Etkinliği ilet</object>
+      </resource>
+      <resource name="ForwardPo">
+        <object>PO'yu ilet</object>
+      </resource>
+      <resource name="ForwardBatch">
+        <object>Seriyi ilet</object>
+      </resource>
+      <resource name="ForwardLot">
+        <object>Partiyi ilet</object>
+      </resource>
+      <resource name="ForwardPlot">
+        <object>Üretim partisini ilet</object>
+      </resource>
+      <resource name="ForwardRmarea">
+        <object>Kaynak alanını ilet</object>
+      </resource>
+      <resource name="ForwardShift">
+        <object>Değiştirmeyi ilet</object>
+      </resource>
+      <resource name="ForwardProfileId">
+        <object>Profil dönemini ilet</object>
+      </resource>
+      <resource name="ForwardPrday">
+        <object>Üretim gününü ilet</object>
+      </resource>
+      <resource name="AssignPo">
+        <object>Atama PO'su</object>
+      </resource>
+      <resource name="AssignLot">
+        <object>Parti ata</object>
+      </resource>
+      <resource name="AssignPlot">
+        <object>Üretim partisi ata</object>
+      </resource>
+      <resource name="AssignRmarea">
+        <object>Kaynak alanı ata</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Başlatılmadı</object>
+      </resource>
+      <resource name="Active">
+        <object>Etkin</object>
+      </resource>
+      <resource name="Completed">
+        <object>Tamamlandı</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Beklemede</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>İptal edildi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineType" ServiceOnly="false">
+      <resource name="ContextPlan">
+        <object>Bağlam planı</object>
+      </resource>
+      <resource name="ActivityPlan">
+        <object>Etkinlik</object>
+      </resource>
+      <resource name="PoPlan">
+        <object>PO</object>
+      </resource>
+      <resource name="BatchPlan">
+        <object>Seri</object>
+      </resource>
+      <resource name="LotPlan">
+        <object>Parti</object>
+      </resource>
+      <resource name="PlotPlan">
+        <object>Üretim partisi</object>
+      </resource>
+      <resource name="RmareaPlan">
+        <object>Kaynak alanı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.InventoryType" ServiceOnly="false">
+      <resource name="Itemized">
+        <object>Ünite envanteri</object>
+      </resource>
+      <resource name="Container">
+        <object>Tepsi envanteri</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Kalemlere ayrılmamış envanter</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationStatus" ServiceOnly="false">
+      <resource name="Empty">
+        <object>Boş</object>
+      </resource>
+      <resource name="Filling">
+        <object>Dolduruluyor</object>
+      </resource>
+      <resource name="Full">
+        <object>Dolu</object>
+      </resource>
+      <resource name="Emptying">
+        <object>Boşaltılıyor</object>
+      </resource>
+      <resource name="ConfirmEmpty">
+        <object>Boşaltmayı onayla</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationUse" ServiceOnly="true">
+      <resource name="NoLocations">
+        <object>Konum yok</object>
+      </resource>
+      <resource name="AllowLocations">
+        <object>Konumlara izin ver</object>
+      </resource>
+      <resource name="UseLocations">
+        <object>Konumları kullan</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.BlockType" ServiceOnly="true">
+      <resource name="NoBlock">
+        <object>Blok değil</object>
+      </resource>
+      <resource name="HardwareBlock">
+        <object>Donanım bloğu</object>
+      </resource>
+      <resource name="OperatorBlock">
+        <object>Operatör bloğu</object>
+      </resource>
+      <resource name="HwOpBlock">
+        <object>Donanım ve operatör bloğu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PrdayStart" ServiceOnly="true">
+      <resource name="NotStarted">
+        <object>Başlatılmadı</object>
+      </resource>
+      <resource name="Automatic">
+        <object>Otomatik olarak başlatıldı</object>
+      </resource>
+      <resource name="Manual">
+        <object>Elle başlatıldı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CheckStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ayarlanmadı</object>
+      </resource>
+      <resource name="OkOverTarget">
+        <object>Tamam, hedefin üzerinde</object>
+      </resource>
+      <resource name="OkOnTarget">
+        <object>Tamam, hedef dahilinde</object>
+      </resource>
+      <resource name="OkUnderTarget">
+        <object>Tamam, hedefin altında</object>
+      </resource>
+      <resource name="OkT1">
+        <object>Tamam, T1'in altında</object>
+      </resource>
+      <resource name="RejectOver">
+        <object>Reddetildi, hedefin üzerinde</object>
+      </resource>
+      <resource name="RejectT1">
+        <object>Reddedildi, T1'in üzerinde</object>
+      </resource>
+      <resource name="RejectT2">
+        <object>Reddedildi, T1'in altında</object>
+      </resource>
+      <resource name="RejectUnder">
+        <object>Düşük ağırlık reddi</object>
+      </resource>
+      <resource name="RejectMetal">
+        <object>Metal reddi</object>
+      </resource>
+      <resource name="RejectLabel">
+        <object>Etiket reddi</object>
+      </resource>
+      <resource name="RejectQa">
+        <object>QA reddi</object>
+      </resource>
+      <resource name="RejectOther">
+        <object>Diğer red</object>
+      </resource>
+      <resource name="RejectNoWeight">
+        <object>Ağırlık yok</object>
+      </resource>
+      <resource name="RejectInvalid">
+        <object>Bilinmeyen ünite</object>
+      </resource>
+      <resource name="RejectPackaging">
+        <object>Paketleme kullanılabilir değil</object>
+      </resource>
+      <resource name="RejectMissing">
+        <object>Paket eksik</object>
+      </resource>
+      <resource name="RejectNoConnection">
+        <object>Aygıt çevrimdışı</object>
+      </resource>
+      <resource name="SelectQa">
+        <object>QA için seçildi</object>
+      </resource>
+      <resource name="UnusedSeperatorSpace">
+        <object>Ayırıcı alanı hatası</object>
+      </resource>
+      <resource name="UnusedNoJob">
+        <object>İş bulunamadı</object>
+      </resource>
+      <resource name="UnusedNoItemType">
+        <object>Öğe türü bulunamadı</object>
+      </resource>
+      <resource name="UnusedWeighingError">
+        <object>Tartım hatası</object>
+      </resource>
+      <resource name="UnusedNoVisionData">
+        <object>Vizyon verisi yok</object>
+      </resource>
+      <resource name="UnusedNoGrade">
+        <object>Sınıflandırma bulunamadı</object>
+      </resource>
+      <resource name="UnusedVisionCondition">
+        <object>Vizyon koşulu başarısız</object>
+      </resource>
+      <resource name="UnusedNoGate">
+        <object>Kapak bulunamadı</object>
+      </resource>
+      <resource name="UnusedRateError">
+        <object>Hız kontrolü hatası</object>
+      </resource>
+      <resource name="UnusedNoOrder">
+        <object>Sipariş bulunamadı</object>
+      </resource>
+      <resource name="UnusedSeperatorGap">
+        <object>Ayırıcı boşluğu hatası</object>
+      </resource>
+      <resource name="UnusedBadStatisticalAllotment">
+        <object>İstatistiksel bölüştürme çok kötü</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Öğe</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Sil</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Sıkıştırılmış</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Tüketildi</object>
+      </resource>
+      <resource name="Returned">
+        <object>İade edildi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.AssignStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Aç</object>
+      </resource>
+      <resource name="OpenManual">
+        <object>İşlemler için açık</object>
+      </resource>
+      <resource name="Closed">
+        <object>Kapalı</object>
+      </resource>
+      <resource name="ClosedManual">
+        <object>Elle kapatıldı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Paket</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Kalemlere ayrılmamış</object>
+      </resource>
+      <resource name="Pending">
+        <object>Beklemede</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Silindi</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Geçersiz</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Sıkıştırılmış</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Tüketildi</object>
+      </resource>
+      <resource name="Returned">
+        <object>İade edildi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Toplama</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Silindi</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Tüketildi</object>
+      </resource>
+      <resource name="Returned">
+        <object>İade edildi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.BomRType" ServiceOnly="false">
+      <resource name="None">
+        <object>Yok</object>
+      </resource>
+      <resource name="Input">
+        <object>Giriş</object>
+      </resource>
+      <resource name="Output">
+        <object>Çıkış</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Oluşturuldu</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Envanter hedefi</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Envanter kaynağı</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Sipariş hedefi</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Sipariş kaynağı</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Toplama hedefi</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Toplama kaynağı</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Silindi</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Tüketildi</object>
+      </resource>
+      <resource name="ConsumedPartial">
+        <object>Kısmi tüketim</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Tüketimi kaldırıldı</object>
+      </resource>
+      <resource name="DeConsumedPartial">
+        <object>Kısmen tüketimi kaldır</object>
+      </resource>
+      <resource name="Returned">
+        <object>İade edildi</object>
+      </resource>
+      <resource name="Opened">
+        <object>Açıldı</object>
+      </resource>
+      <resource name="Closed">
+        <object>Kapatıldı</object>
+      </resource>
+      <resource name="Received">
+        <object>İade edildi</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>Başlangıç envanter konumu</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>Bitiş envanter konumu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Oluşturuldu</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Envanter hedefi</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Envanter kaynağı</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Sipariş hedefi</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Sipariş kaynağı</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Toplama hedefi</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Toplama kaynağı</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Silindi</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Tüketildi</object>
+      </resource>
+      <resource name="Opened">
+        <object>Açıldı</object>
+      </resource>
+      <resource name="Closed">
+        <object>Kapatıldı</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Tüketimi kaldırıldı</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>Başlangıç envanter konumu</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>Bitiş envanter konumu</object>
+      </resource>
+      <resource name="Returned">
+        <object>İade edildi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.MatxferRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Aktarım</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Silindi</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Geçersiz</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Sıkıştırılmış</object>
+      </resource>
+      <resource name="Yield">
+        <object>Verim</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Ters</object>
+      </resource>
+      <resource name="Generated">
+        <object>Oluşturuldu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.TimeRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Süre</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Tatil</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Silindi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.AccessLogRType" ServiceOnly="false">
+      <resource name="Granted">
+        <object>Erişim izni verildi</object>
+      </resource>
+      <resource name="NotInGroup">
+        <object>Erişim grubunda değil</object>
+      </resource>
+      <resource name="NotAtThisTime">
+        <object>Geçersiz erişim saati</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>Geçersiz kimlik</object>
+      </resource>
+      <resource name="IsIn">
+        <object>Zaten içeride</object>
+      </resource>
+      <resource name="IsOut">
+        <object>Zaten dışarıda</object>
+      </resource>
+      <resource name="TimeReg">
+        <object>Zaman kaydı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ContainerRType" ServiceOnly="false">
+      <resource name="Assign">
+        <object>Atanan ünite</object>
+      </resource>
+      <resource name="Position">
+        <object>Konum değişikliği</object>
+      </resource>
+      <resource name="DeAssign">
+        <object>Ataması kaldırılan ünite</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationClass" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ayarlanmadı</object>
+      </resource>
+      <resource name="CreateItem">
+        <object>Öğe oluştur</object>
+      </resource>
+      <resource name="CreatePack">
+        <object>Paket oluştur</object>
+      </resource>
+      <resource name="Item">
+        <object>Öğe işlemi</object>
+      </resource>
+      <resource name="Pack">
+        <object>Paket işlemi</object>
+      </resource>
+      <resource name="IdContainer">
+        <object>Tepsi işlemi</object>
+      </resource>
+      <resource name="Stack">
+        <object>İstif işlemi</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Palet işlemi</object>
+      </resource>
+      <resource name="Container">
+        <object>Kap işlemi</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Sevkiyat işlemi</object>
+      </resource>
+      <resource name="CreateCollection">
+        <object>Toplama oluştur</object>
+      </resource>
+      <resource name="CreateTransaction">
+        <object>İşlem oluştur</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Envanter işlemi</object>
+      </resource>
+      <resource name="Order">
+        <object>Sipariş işlemi</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Sipariş serisi işlemi</object>
+      </resource>
+      <resource name="Po">
+        <object>PO işlemi</object>
+      </resource>
+      <resource name="PoLine">
+        <object>PO serisi işlemi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderType" ServiceOnly="true">
+      <resource name="Login">
+        <object>Oturum aç</object>
+      </resource>
+      <resource name="LoginAndAccess">
+        <object>Oturum açma ve erişim kontrolü</object>
+      </resource>
+      <resource name="Logout">
+        <object>Oturumu kapat</object>
+      </resource>
+      <resource name="LogoutAndExit">
+        <object>Oturumu kapatma ve çıkış kontrolü</object>
+      </resource>
+      <resource name="AccessControl">
+        <object>Erişim kontrolü</object>
+      </resource>
+      <resource name="SignalOut">
+        <object>Sinyal çıkışı</object>
+      </resource>
+      <resource name="RegisterId">
+        <object>Kayıt kimliği</object>
+      </resource>
+      <resource name="ExitControl">
+        <object>Çıkış kontrolü</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderLogging" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Günlüğe kaydedilmiyor</object>
+      </resource>
+      <resource name="LogAccess">
+        <object>Erişimi günlüğe kaydet</object>
+      </resource>
+      <resource name="LogUse">
+        <object>Tüm kullanımı günlüğe kaydet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Costing.CostBase" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ayarlanmadı</object>
+      </resource>
+      <resource name="PerDay">
+        <object>Gün başına sabit</object>
+      </resource>
+      <resource name="PerInput">
+        <object>Ham madde birimi başına</object>
+      </resource>
+      <resource name="PerOutput">
+        <object>Ürün birimi başına</object>
+      </resource>
+      <resource name="PerRuntime">
+        <object>Çalışma saati başına</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.ExpiryReferenceDate" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Üretim günü</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Kayıt saati</object>
+      </resource>
+      <resource name="PoFirstDay">
+        <object>PO ilk yakalama günü</object>
+      </resource>
+      <resource name="PoLastDay">
+        <object>PO son yakalama günü</object>
+      </resource>
+      <resource name="PoDeliveryTime">
+        <object>PO teslim saati</object>
+      </resource>
+      <resource name="PoCatchDay">
+        <object>PO yakalama günü</object>
+      </resource>
+      <resource name="OrderPoFirstDay">
+        <object>Sipariş PO ilk yakalama günü</object>
+      </resource>
+      <resource name="OrderPoLastDay">
+        <object>Sipariş PO son yakalama günü</object>
+      </resource>
+      <resource name="OrderPoDeliveryTime">
+        <object>Sipariş PO teslim saati</object>
+      </resource>
+      <resource name="OrderPoCatchDay">
+        <object>Sipariş PO yakalama günü</object>
+      </resource>
+      <resource name="Custom">
+        <object>Özelleştirilmiş</object>
+      </resource>
+      <resource name="OrderDispatchTime">
+        <object>Sipariş çıkış saati</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyContextType" ServiceOnly="true">
+      <resource name="TargetSource">
+        <object>Hedef yol kaynağı</object>
+      </resource>
+      <resource name="TargetDestination">
+        <object>Hedef yol hedefi</object>
+      </resource>
+      <resource name="CopySource">
+        <object>Yol kaynağını kopyala</object>
+      </resource>
+      <resource name="CopyDestination">
+        <object>Yol hedefini kopyala</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyMethod" ServiceOnly="true">
+      <resource name="Add">
+        <object>Ekle</object>
+      </resource>
+      <resource name="Subtract">
+        <object>Çıkar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PackRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Kayıt yok</object>
+      </resource>
+      <resource name="Instance">
+        <object>Her bir paketi kaydet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PathRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Kayıt yok</object>
+      </resource>
+      <resource name="Instance">
+        <object>Her bir işlemi kaydet</object>
+      </resource>
+      <resource name="Periodic">
+        <object>Düzenli olarak kaydet</object>
+      </resource>
+      <resource name="Update">
+        <object>Bir kaydı güncelle</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.SelectRuleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>Giriş seçimi</object>
+      </resource>
+      <resource name="Output">
+        <object>Çıkış seçimi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.PlotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Bekletiliyor</object>
+      </resource>
+      <resource name="Available">
+        <object>Kullanılabilir</object>
+      </resource>
+      <resource name="Completed">
+        <object>Tamamlandı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.ContextSource" ServiceOnly="true">
+      <resource name="Reference">
+        <object>Otomatik</object>
+      </resource>
+      <resource name="Source">
+        <object>Kaynak</object>
+      </resource>
+      <resource name="Destination">
+        <object>Hedef</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.Result" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Tamam</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>İşlem desteklenmiyor</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>İşlem ünitesi bilgileri eksik</object>
+      </resource>
+      <resource name="NoMaterial">
+        <object>Malzeme bilgileri eksik</object>
+      </resource>
+      <resource name="NoProcessPeriod">
+        <object>İşlem dönemi bilgileri eksik</object>
+      </resource>
+      <resource name="NoProductionDay">
+        <object>Üretim günü bilgileri eksik</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Bir veritabanı hatası oluştu</object>
+      </resource>
+      <resource name="NoSSCC">
+        <object>Şirketin SSCC bilgileri eksik</object>
+      </resource>
+      <resource name="CreateSSCC">
+        <object>SSCC oluşturulamadı, önek geçersiz olabilir</object>
+      </resource>
+      <resource name="HasOrder">
+        <object>Ünite bir siparişe atandı</object>
+      </resource>
+      <resource name="InStack">
+        <object>Ünite bir istife atandı</object>
+      </resource>
+      <resource name="OnPallet">
+        <object>Ünite bir palete atandı</object>
+      </resource>
+      <resource name="InContainer">
+        <object>Ünite bir kaba atandı</object>
+      </resource>
+      <resource name="InShipment">
+        <object>Ünite bir sevkiyata atandı</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Uygulanabilir sipariş yok</object>
+      </resource>
+      <resource name="IterationTransaction">
+        <object>Yinelemede işleme izin verilmiyor</object>
+      </resource>
+      <resource name="NoCreateCount">
+        <object>Ünite sayısı eksik</object>
+      </resource>
+      <resource name="XmlParse">
+        <object>XML ayrıştırılamadı</object>
+      </resource>
+      <resource name="NoStation">
+        <object>İstasyon bilgileri eksik</object>
+      </resource>
+      <resource name="NoPo">
+        <object>Satınalma siparişi bilgileri eksik</object>
+      </resource>
+      <resource name="NoPlot">
+        <object>Üretim partisi bilgileri eksik</object>
+      </resource>
+      <resource name="NoCurrentPack">
+        <object>Geçerli paket yok</object>
+      </resource>
+      <resource name="Conversion">
+        <object>Dizenin değere dönüştürülmesi başarısız oldu</object>
+      </resource>
+      <resource name="OrderNotFound">
+        <object>Veritabanından sipariş yüklenemedi</object>
+      </resource>
+      <resource name="MaterialNotFound">
+        <object>Veritabanından malzeme yüklenemedi</object>
+      </resource>
+      <resource name="UnitType">
+        <object>İşlem için geçersiz birim türü</object>
+      </resource>
+      <resource name="OperationLoad">
+        <object>Veritabanından işlem yüklenemedi</object>
+      </resource>
+      <resource name="NoPack">
+        <object>Paket bilgileri eksik</object>
+      </resource>
+      <resource name="NoSite">
+        <object>Yer bilgileri eksik</object>
+      </resource>
+      <resource name="Configuration">
+        <object>Geçersiz işlem yapılandırması</object>
+      </resource>
+      <resource name="InvalidScope">
+        <object>Geçersiz ünite arama kapsamı</object>
+      </resource>
+      <resource name="NoStack">
+        <object>İstif bilgileri eksik</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>Palet bilgileri eksik</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>Toplama durumu işleme izin vermiyor</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>Toplama bilgileri eksik</object>
+      </resource>
+      <resource name="NotInStack">
+        <object>Ünite bir istifte değil</object>
+      </resource>
+      <resource name="NotOnPallet">
+        <object>Ünite bir palette değil</object>
+      </resource>
+      <resource name="NotInContainer">
+        <object>Ünite bir kapta değil</object>
+      </resource>
+      <resource name="NotInShipment">
+        <object>Ünite bir sevkiyatta değil</object>
+      </resource>
+      <resource name="NoInventory">
+        <object>Envanter bilgileri eksik</object>
+      </resource>
+      <resource name="NoItem">
+        <object>Öğe bilgileri eksik</object>
+      </resource>
+      <resource name="NoOrderLine">
+        <object>Sipariş serisi bilgileri eksik</object>
+      </resource>
+      <resource name="Transaction">
+        <object>İşlem hatası</object>
+      </resource>
+      <resource name="TransactionDeadlock">
+        <object>İşlem kilidi</object>
+      </resource>
+      <resource name="NotInventory">
+        <object>Belirtilen işlem ünitesi bir envanter değil</object>
+      </resource>
+      <resource name="InventoryReject">
+        <object>Envanter üniteyi kabul etmedi</object>
+      </resource>
+      <resource name="OnInventory">
+        <object>Ünite zaten envanterde</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>Ünite envanterde değil</object>
+      </resource>
+      <resource name="UnitStatus">
+        <object>Ünite durumu işleme izin vermiyor</object>
+      </resource>
+      <resource name="NoContainer">
+        <object>Kap bilgileri eksik</object>
+      </resource>
+      <resource name="NoShipment">
+        <object>Sevkiyat bilgileri eksik</object>
+      </resource>
+      <resource name="LoadSite">
+        <object>Veritabanından yer bilgileri yüklenemedi</object>
+      </resource>
+      <resource name="LoadCompany">
+        <object>Veritabanından şirket bilgileri yüklenemedi</object>
+      </resource>
+      <resource name="HasPacks">
+        <object>Toplamada paketler olduğundan işlem gerçekleştirilemiyor </object>
+      </resource>
+      <resource name="HasStacks">
+        <object>Toplamada istifler olduğundan işlem gerçekleştirilemiyor</object>
+      </resource>
+      <resource name="HasPallets">
+        <object>Toplamada paletler olduğundan işlem gerçekleştirilemiyor</object>
+      </resource>
+      <resource name="HasContainers">
+        <object>Toplamada kaplar olduğundan işlem gerçekleştirilemiyor</object>
+      </resource>
+      <resource name="FailOperation">
+        <object>İşlem açıkça başarısız duruma getirildi</object>
+      </resource>
+      <resource name="InPack">
+        <object>Ünite zaten bir pakette</object>
+      </resource>
+      <resource name="NotInPack">
+        <object>Ünite bir pakette değil</object>
+      </resource>
+      <resource name="PackStatus">
+        <object>Paket durumu işleme izin vermiyor</object>
+      </resource>
+      <resource name="OrderType">
+        <object>İşlem için geçersiz sipariş türü</object>
+      </resource>
+      <resource name="Exception">
+        <object>Uygulama istisnası</object>
+      </resource>
+      <resource name="OperationClass">
+        <object>Geçersiz işlem sınıfı</object>
+      </resource>
+      <resource name="NoSource">
+        <object>Kaynak işlem ünitesi bilgileri eksik</object>
+      </resource>
+      <resource name="NoDestination">
+        <object>Hedef işlem ünitesi bilgileri eksik</object>
+      </resource>
+      <resource name="MaterialTransaction">
+        <object>Malzeme işlemi kaydedilemedi</object>
+      </resource>
+      <resource name="MatchContext">
+        <object>İşlem ünitesi durumu işleme izin vermiyor</object>
+      </resource>
+      <resource name="TransactionConfig">
+        <object>İşlem sistemi, çalışma için yapılandırılmamış</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Uzak servis arabirimi alınamadı</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Uzak arabirim bilgileri bulunamadı</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Uzak sunucu bilgileri bulunamadı</object>
+      </resource>
+      <resource name="NoOperationData">
+        <object>İşlem verileri eksik</object>
+      </resource>
+      <resource name="NoPrintFields">
+        <object>Yazdırma alanı bilgileri eksik</object>
+      </resource>
+      <resource name="NoPieceCount">
+        <object>Parça sayım bilgileri eksik</object>
+      </resource>
+      <resource name="ItemLoad">
+        <object>Öğe kaydı yüklenemedi</object>
+      </resource>
+      <resource name="ItemInsert">
+        <object>Öğe kaydı eklenemedi</object>
+      </resource>
+      <resource name="ItemUpdate">
+        <object>Öğe kaydı güncellenemedi</object>
+      </resource>
+      <resource name="ItemRType">
+        <object>Öğe kaydı türü işleme izin vermiyor</object>
+      </resource>
+      <resource name="PackLoad">
+        <object>Paket kaydı yüklenemedi</object>
+      </resource>
+      <resource name="PackInsert">
+        <object>Paket kaydı eklenemedi</object>
+      </resource>
+      <resource name="PackUpdate">
+        <object>Paket kaydı güncellenemedi</object>
+      </resource>
+      <resource name="PackRType">
+        <object>Paket kaydı türü işleme izin vermiyor</object>
+      </resource>
+      <resource name="CollectionLoad">
+        <object>Toplama kaydı yüklenemedi</object>
+      </resource>
+      <resource name="CollectionInsert">
+        <object>Toplama kaydı eklenemedi</object>
+      </resource>
+      <resource name="CollectionUpdate">
+        <object>Toplama kaydı güncellenemedi</object>
+      </resource>
+      <resource name="CollectionRType">
+        <object>Toplama kaydı türü işleme izin vermiyor</object>
+      </resource>
+      <resource name="CollectionUnitType">
+        <object>Toplamadaki ünite türü işleme izin vermiyor</object>
+      </resource>
+      <resource name="NoOrderStatus">
+        <object>Sipariş durumu bilgileri eksik</object>
+      </resource>
+      <resource name="NotInOrder">
+        <object>Ünite bir siparişe atanmadı</object>
+      </resource>
+      <resource name="OrderLoad">
+        <object>Veritabanından sipariş bilgileri yüklenemedi</object>
+      </resource>
+      <resource name="OrderLineLoad">
+        <object>Veritabanından sipariş serisi bilgileri yüklenemedi</object>
+      </resource>
+      <resource name="OrderStatus">
+        <object>Sipariş durumu işleme izin vermiyor</object>
+      </resource>
+      <resource name="OrderLineStatus">
+        <object>Sipariş serisi durumu işleme izin vermiyor</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>İşlem için işlem ünitesi oluşturulamadı</object>
+      </resource>
+      <resource name="InProgress">
+        <object>İşlem devam ediyor</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Sonuç ayarlanmadı</object>
+      </resource>
+      <resource name="NoExternalNumber">
+        <object>Harici numara eksik</object>
+      </resource>
+      <resource name="NoExternalCode">
+        <object>Harici kod eksik</object>
+      </resource>
+      <resource name="PrintFailed">
+        <object>Yazdırma işlemi başarısız oldu</object>
+      </resource>
+      <resource name="CustomOpNotLoaded">
+        <object>Özel işlem yüklenmedi</object>
+      </resource>
+      <resource name="CustomOpInfoMissing">
+        <object>Özel işlem bilgisi bölümleri eksik</object>
+      </resource>
+      <resource name="CustomOpXmlMissing">
+        <object>Özel işlemin XML tanımı eksik</object>
+      </resource>
+      <resource name="CustomException">
+        <object>Özel işlemde istisna</object>
+      </resource>
+      <resource name="Validation">
+        <object>Doğrulama hatası</object>
+      </resource>
+      <resource name="PreOperation">
+        <object>Ön işlem hatası</object>
+      </resource>
+      <resource name="DoOperation">
+        <object>İşlem hatası</object>
+      </resource>
+      <resource name="PostOperation">
+        <object>Son işlem hatası</object>
+      </resource>
+      <resource name="NoCatchDay">
+        <object>Yakalama günü bilgileri eksik</object>
+      </resource>
+      <resource name="InvalidInventory">
+        <object>İşlem için geçersiz envanter</object>
+      </resource>
+      <resource name="LoadType">
+        <object>Tür yüklenemedi</object>
+      </resource>
+      <resource name="UnitCount">
+        <object>Geçersiz ünite sayısı belirtildi</object>
+      </resource>
+      <resource name="ConvertedInventory">
+        <object>Dönüştürülen toplama, paket envanteriyle eşleşmeyen envanterde</object>
+      </resource>
+      <resource name="ConvertedOrder">
+        <object>Dönüştürülen toplama, paket siparişiyle eşleşmeyen siparişte</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Ağırlık bilgileri eksik</object>
+      </resource>
+      <resource name="NoProperty">
+        <object>Özellik adı eksik</object>
+      </resource>
+      <resource name="NotProperty">
+        <object>Verilen ad bir özellik adı değil</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Ünite, QC için bekletiliyor</object>
+      </resource>
+      <resource name="PoStatus">
+        <object>Satınalma siparişi durumu işleme izin vermiyor</object>
+      </resource>
+      <resource name="InvalidPartialAmount">
+        <object>Ünite, belirtilen tutarla değiştirilemez</object>
+      </resource>
+      <resource name="NoPoLine">
+        <object>Belirtilen ürünle eşleşen PO serisi yok</object>
+      </resource>
+      <resource name="HasPoLine">
+        <object>PO serisi zaten atanmış</object>
+      </resource>
+      <resource name="NoMaterialTransaction">
+        <object>Malzeme işlemi kaydedilemedi</object>
+      </resource>
+      <resource name="NoStockTake">
+        <object>Etkin bir stok sayımı yok</object>
+      </resource>
+      <resource name="StartStockTake">
+        <object>Stok sayımı başlatılamadı, biri zaten etkin olabilir</object>
+      </resource>
+      <resource name="StockTakeMethod">
+        <object>Envanter sayımı yöntemi işleme izin vermiyor</object>
+      </resource>
+      <resource name="StockTakeUnitLoad">
+        <object>Birim için geçersiz stok sayımı bilgileri</object>
+      </resource>
+      <resource name="StockTakeUnitType">
+        <object>Stok sayımı bu ünite türü için ayarlanmamış</object>
+      </resource>
+      <resource name="StockTakeStatus">
+        <object>Stok sayımı durumu işleme izin vermiyor</object>
+      </resource>
+      <resource name="ScriptingError">
+        <object>Komut dosyası yürütülürken hata oluştu</object>
+      </resource>
+      <resource name="InventoryKeepMin">
+        <object>Ünite yeterince eski değil</object>
+      </resource>
+      <resource name="InventoryKeepMax">
+        <object>Ünite çok eski</object>
+      </resource>
+      <resource name="NoValue">
+        <object>Ünite değeri eksik</object>
+      </resource>
+      <resource name="LogRecordLoad">
+        <object>Günlük kaydı yüklenirken hata oluştu</object>
+      </resource>
+      <resource name="LogRecordExecuted">
+        <object>Günlük kaydı zaten yürütülmüş</object>
+      </resource>
+      <resource name="InventoryType">
+        <object>Envanter türü işleme izin vermiyor</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>Seri bilgileri eksik</object>
+      </resource>
+      <resource name="NoLot">
+        <object>Parti bilgileri eksik</object>
+      </resource>
+      <resource name="NoProductionLot">
+        <object>Üretim partisi bilgileri eksik</object>
+      </resource>
+      <resource name="NoRmArea">
+        <object>Kaynak alanı bilgileri eksik</object>
+      </resource>
+      <resource name="InvalidAmount">
+        <object>Geçersiz tutar</object>
+      </resource>
+      <resource name="NoInventoryStatus">
+        <object>Envanter durumu kaydı bulunamadı</object>
+      </resource>
+      <resource name="MultipleInventoryStatus">
+        <object>Birden çok envanter durumu kaydı bulundu</object>
+      </resource>
+      <resource name="FeatureNotLicensed">
+        <object>Özellik lisanslı değil</object>
+      </resource>
+      <resource name="CodeNotFound">
+        <object>Belirtilen koda sahip bir nesne bulunamadı</object>
+      </resource>
+      <resource name="InvalidMessageFields">
+        <object>Mesaj için alan ayarları geçersiz</object>
+      </resource>
+      <resource name="BomNotFound">
+        <object>Veritabanında BOM bulunamadı</object>
+      </resource>
+      <resource name="NotInBom">
+        <object>Belirtilen ürün, BOM'de değil</object>
+      </resource>
+      <resource name="NoBom">
+        <object>Bir BOM belirtilmemiş</object>
+      </resource>
+      <resource name="NoBomRType">
+        <object>"&gt;Bir BOM kayıt türü belirtilmemiş</object>
+      </resource>
+      <resource name="PrunitBom">
+        <object>İşlem ünitesinde gerekli BOM bilgileri yok</object>
+      </resource>
+      <resource name="LotBom">
+        <object>Partide gerekli BOM bilgileri yok</object>
+      </resource>
+      <resource name="ProductionLotBom">
+        <object>Üretim partisinde gerekli BOM bilgileri yok</object>
+      </resource>
+      <resource name="InvalidDate">
+        <object>İşlem için geçersiz tarih</object>
+      </resource>
+      <resource name="PartialAdjust">
+        <object>Kısmi paket içerikleri ayarlanamaz</object>
+      </resource>
+      <resource name="NoCategory">
+        <object>Kategori bilgileri eksik</object>
+      </resource>
+      <resource name="NoQuality">
+        <object>Kalite bilgileri eksik</object>
+      </resource>
+      <resource name="NoFatClass">
+        <object>Yağ sınıfı bilgileri eksik</object>
+      </resource>
+      <resource name="SelectYieldGroup">
+        <object>Verim grubu seçilemedi</object>
+      </resource>
+      <resource name="NoRiCountry">
+        <object>Doğum ülkesi bilgileri eksik</object>
+      </resource>
+      <resource name="NoBrCountry">
+        <object>Büyüme ülkesi bilgileri eksik</object>
+      </resource>
+      <resource name="NoSlaughterHouse">
+        <object>Kesimhane bilgileri eksik</object>
+      </resource>
+      <resource name="NoSlaughterDay">
+        <object>Kesim günü bilgileri eksik</object>
+      </resource>
+      <resource name="NoProcessor">
+        <object>İşlemci bilgileri eksik</object>
+      </resource>
+      <resource name="SelectLot">
+        <object>Parti seçilemedi</object>
+      </resource>
+      <resource name="IndividualLoad">
+        <object>Tek tek kayıt yüklenemedi</object>
+      </resource>
+      <resource name="NoYieldGroup">
+        <object>Verim grubu bilgileri eksik</object>
+      </resource>
+      <resource name="PalletNotReserved">
+        <object>Palet sipariş için ayrılmadı</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>Ürünler eşleşmiyor</object>
+      </resource>
+      <resource name="Station">
+        <object>İşlem için istasyon oluşturulamadı</object>
+      </resource>
+      <resource name="InvalidExpiry">
+        <object>Geçersiz süre sonu tarihi</object>
+      </resource>
+      <resource name="InvlocationFull">
+        <object>Envanter konumu dolu</object>
+      </resource>
+      <resource name="InvlocationMissing">
+        <object>Gerekli envanter konumu eksik</object>
+      </resource>
+      <resource name="InvalidInvlocation">
+        <object>Belirtilen konum geçersiz</object>
+      </resource>
+      <resource name="StartStocktakeLocationActive">
+        <object>Bir konumda sayım etkin olduğundan, envanterde stok sayımı başlatılamıyor</object>
+      </resource>
+      <resource name="StartStocktakeInventoryActive">
+        <object>Envanterde sayım etkin olduğundan, bir konumda stok sayımı başlatılamıyor.</object>
+      </resource>
+      <resource name="TransferStatus">
+        <object>Geçersiz sipariş aktarımı durumu.</object>
+      </resource>
+      <resource name="ParentOrderCheckFailed">
+        <object>Üst sipariş denetimi başarısız oldu.</object>
+      </resource>
+      <resource name="GetExportProcess">
+        <object>Geçersiz dışa aktarma işlemi yapılandırması</object>
+      </resource>
+      <resource name="NoSupplier">
+        <object>PO yok veya PO'da tedarikçi belirtilmemiş</object>
+      </resource>
+      <resource name="NoExportProcess">
+        <object>Dışa aktarma işlemi tanımlanmamış</object>
+      </resource>
+      <resource name="InvaidExportProcess">
+        <object>Dışa aktarma işlemi bulunamadı</object>
+      </resource>
+      <resource name="HasPo">
+        <object>Ünite zaten bir PO'ya atandı</object>
+      </resource>
+      <resource name="OrderAmountExceeded">
+        <object>Sipariş tutarı aşıldı</object>
+      </resource>
+      <resource name="OrderLineAmountExceeded">
+        <object>Sipariş serisi tutarı aşıldı</object>
+      </resource>
+      <resource name="PlotStatus">
+        <object>Parti durumu işleme izin vermiyor</object>
+      </resource>
+      <resource name="NotInSourceBom">
+        <object>Belirtilen ürün, kaynak BOM'de değil</object>
+      </resource>
+      <resource name="NotInDestinationBom">
+        <object>Belirtilen ürün, hedef BOM'de değil</object>
+      </resource>
+      <resource name="SourcePrunitBom">
+        <object>Kaynak işlem ünitesinde gerekli BOM bilgileri yok</object>
+      </resource>
+      <resource name="DestinationPrunitBom">
+        <object>Hedef işlem ünitesinde gerekli BOM bilgileri yok</object>
+      </resource>
+      <resource name="SourceLotBom">
+        <object>Kaynak partide gerekli BOM bilgileri yok</object>
+      </resource>
+      <resource name="DestinationLotBom">
+        <object>Hedef partide gerekli BOM bilgileri yok</object>
+      </resource>
+      <resource name="SourceProductionLotBom">
+        <object>Kaynak üretim partisinde gerekli BOM bilgileri yok</object>
+      </resource>
+      <resource name="DestinationProductionLotBom">
+        <object>Hedef üretim partisinde gerekli BOM bilgileri yok</object>
+      </resource>
+      <resource name="NoInputOrderLine">
+        <object>Bir giriş siparişi serisi bulunamadı</object>
+      </resource>
+      <resource name="TooManyInputOrderLines">
+        <object>Çok sayıda giriş sipariş serisi bulundu</object>
+      </resource>
+      <resource name="NoOrderShipment">
+        <object>Sipariş sevkiyatı bilgileri eksik</object>
+      </resource>
+      <resource name="NotMatchingOrderShipment">
+        <object>Sevkiyat, sipariş sevkiyatıyla eşleşmiyor</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.EmployeeResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Tamam</object>
+      </resource>
+      <resource name="DbError">
+        <object>Veritabanı hatası</object>
+      </resource>
+      <resource name="NotFound">
+        <object>Çalışan bulunamadı</object>
+      </resource>
+      <resource name="MultipleFound">
+        <object>Arama birden çok kayıt getirdi</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Geçersiz çalışan bilgileri</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>Listeye göre</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Tümü</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.NumberMethod" ServiceOnly="false">
+      <resource name="OwnNumber">
+        <object>Kendi numaraları</object>
+      </resource>
+      <resource name="ParentNumber">
+        <object>Ana sipariş kaynağı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Kapatıldı</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>İptal edildi</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Beklemede</object>
+      </resource>
+      <resource name="Open">
+        <object>Aç</object>
+      </resource>
+      <resource name="Complete">
+        <object>Tamamlandı</object>
+      </resource>
+      <resource name="CompleteClosed">
+        <object>Tamamlandı ve kapatıldı</object>
+      </resource>
+      <resource name="Dispatched">
+        <object>Çıkarıldı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderType" ServiceOnly="false">
+      <resource name="Customer">
+        <object>Satış</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Envanter</object>
+      </resource>
+      <resource name="Production">
+        <object>Üretim </object>
+      </resource>
+      <resource name="Transfer">
+        <object>Aktarım</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationSetType" ServiceOnly="true">
+      <resource name="Generic">
+        <object>Genel</object>
+      </resource>
+      <resource name="DefaultItem">
+        <object>Varsayılan öğe</object>
+      </resource>
+      <resource name="DefaultPack">
+        <object>Varsayılan paket</object>
+      </resource>
+      <resource name="DefaultStack">
+        <object>Varsayılan istif</object>
+      </resource>
+      <resource name="DefaultPallet">
+        <object>Varsayılan palet</object>
+      </resource>
+      <resource name="DefaultContainer">
+        <object>Varsayılan kap</object>
+      </resource>
+      <resource name="DefaultShipment">
+        <object>Varsayılan sevkiyat</object>
+      </resource>
+      <resource name="DefaultOrder">
+        <object>Varsayılan sipariş</object>
+      </resource>
+      <resource name="DefaultOrderLine">
+        <object>Varsayılan sipariş serisi</object>
+      </resource>
+      <resource name="DefaultInventory">
+        <object>Varsayılan envanter</object>
+      </resource>
+      <resource name="DefaultTransaction">
+        <object>Varsayılan işlem</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.DataStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Açık</object>
+      </resource>
+      <resource name="Closed">
+        <object>Kapalı</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Geçersiz</object>
+      </resource>
+      <resource name="PendingClose">
+        <object>Kapatma için beklemede</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.UnitInventoryStatus" ServiceOnly="false">
+      <resource name="Available">
+        <object>Kullanılabilir</object>
+      </resource>
+      <resource name="QcHold">
+        <object>QC için beklemede</object>
+      </resource>
+      <resource name="Lost">
+        <object>Kayıp</object>
+      </resource>
+      <resource name="Reserved">
+        <object>Ayrıldı</object>
+      </resource>
+      <resource name="PickedUp">
+        <object>Seçildi</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>Envanterde değil</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.CountStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>Bulunamadı</object>
+      </resource>
+      <resource name="Left">
+        <object>Kaldı</object>
+      </resource>
+      <resource name="Entered">
+        <object>Girildi</object>
+      </resource>
+      <resource name="Found">
+        <object>Bulundu</object>
+      </resource>
+      <resource name="New">
+        <object>Yeni</object>
+      </resource>
+      <resource name="Error">
+        <object>Hata</object>
+      </resource>
+      <resource name="RType">
+        <object>Geçersiz durum</object>
+      </resource>
+      <resource name="NotLeft">
+        <object>Kalmadı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Stok sayımı yok</object>
+      </resource>
+      <resource name="CountUnits">
+        <object>Öğeleri ve paketleri say</object>
+      </resource>
+      <resource name="CountStacks">
+        <object>İstifleri say</object>
+      </resource>
+      <resource name="CountPallets">
+        <object>Paletleri say</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeStatus" ServiceOnly="false">
+      <resource name="Active">
+        <object>Etkin</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>İptal edildi</object>
+      </resource>
+      <resource name="CountDone">
+        <object>Sayım bitti</object>
+      </resource>
+      <resource name="Completed">
+        <object>Tamamlandı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeType" ServiceOnly="false">
+      <resource name="Count">
+        <object>Ünite sayımı</object>
+      </resource>
+      <resource name="Snapshot">
+        <object>Anlık Görüntü</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoAcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>Listeye göre</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Tümü</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Utilities.FormatText" ServiceOnly="false">
+      <resource name="Stack">
+        <object>İstif</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Palet</object>
+      </resource>
+      <resource name="Order">
+        <object>Sipariş</object>
+      </resource>
+      <resource name="UnlimitedOrder">
+        <object>sınırsız</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>yok</object>
+      </resource>
+      <resource name="Packs">
+        <object>paketler</object>
+      </resource>
+      <resource name="Items">
+        <object>öğeler</object>
+      </resource>
+      <resource name="Pcs">
+        <object>parça</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PlanStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Herhangi bir şey planlanmadı</object>
+      </resource>
+      <resource name="Partial">
+        <object>Kısmen planlandı</object>
+      </resource>
+      <resource name="Complete">
+        <object>Tamamlandı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CarcassForm" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ayarlanmadı</object>
+      </resource>
+      <resource name="Whole">
+        <object>Bütün</object>
+      </resource>
+      <resource name="Split">
+        <object>Bölünmüş</object>
+      </resource>
+      <resource name="Quartered">
+        <object>Dörde bölündü</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Oluşturuldu</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Envanter hedefi</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Envanter kaynağı</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Sipariş hedefi</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Sipariş kaynağı</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Toplama hedefi</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Toplama kaynağı</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Silindi</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Tüketildi</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Tüketimi kaldırıldı</object>
+      </resource>
+      <resource name="Received">
+        <object>İade edildi</object>
+      </resource>
+      <resource name="Returned">
+        <object>İade edildi</object>
+      </resource>
+      <resource name="ToPack">
+        <object>Paket hedefi</object>
+      </resource>
+      <resource name="FromPack">
+        <object>Paket kaynağı</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>Başlangıç envanter konumu</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>Bitiş envanter konumu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.RmAreaRelationType" ServiceOnly="false">
+      <resource name="NoRelation">
+        <object>Ayarlanmadı</object>
+      </resource>
+      <resource name="PoSupplier">
+        <object>PO tedarikçisi</object>
+      </resource>
+      <resource name="PoProducer">
+        <object>PO üreticisi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.StationType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>İstasyon</object>
+      </resource>
+      <resource name="InLoadbay">
+        <object>Alım</object>
+      </resource>
+      <resource name="OutLoadbay">
+        <object>Teslim</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.IdContainer.IdContainerModel" ServiceOnly="false">
+      <resource name="welcome">
+        <object>Çalışmaya hazır</object>
+      </resource>
+      <resource name="clear">
+        <object>Temizle</object>
+      </resource>
+      <resource name="record">
+        <object>Kayıt</object>
+      </resource>
+      <resource name="ExtId1">
+        <object>Kimlik 1: </object>
+      </resource>
+      <resource name="ExtId2">
+        <object>Kimlik 2: </object>
+      </resource>
+      <resource name="ExtCode">
+        <object>Karttaki numara:  </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.LimitUnit" ServiceOnly="false">
+      <resource name="Months">
+        <object>Ay</object>
+      </resource>
+      <resource name="Days">
+        <object>Gün</object>
+      </resource>
+      <resource name="Hours">
+        <object>Saat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.YieldGroupType" ServiceOnly="false">
+      <resource name="Internal">
+        <object>Dahili</object>
+      </resource>
+      <resource name="Official">
+        <object>Resmi</object>
+      </resource>
+      <resource name="External">
+        <object>Harici</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.SlaughterType" ServiceOnly="false">
+      <resource name="Proprietary">
+        <object>Özel</object>
+      </resource>
+      <resource name="Contract">
+        <object>Sözleşmeli kesici</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.SectionType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Genel</object>
+      </resource>
+      <resource name="Whole">
+        <object>Bütün</object>
+      </resource>
+      <resource name="Side">
+        <object>Kenar</object>
+      </resource>
+      <resource name="LeftSide">
+        <object>Sol Kenar</object>
+      </resource>
+      <resource name="RightSide">
+        <object>Sağ Kenar</object>
+      </resource>
+      <resource name="ForeQuarter">
+        <object>Ön Çeyrek</object>
+      </resource>
+      <resource name="HindQuarter">
+        <object>Arka Çeyrek</object>
+      </resource>
+      <resource name="LeftForeQuarter">
+        <object>Sol Ön Çeyrek</object>
+      </resource>
+      <resource name="RightForeQuarter">
+        <object>Sağ Ön Çeyrek</object>
+      </resource>
+      <resource name="LeftHindQuarter">
+        <object>Sol Arka Çeyrek</object>
+      </resource>
+      <resource name="RightHindQuarter">
+        <object>Sağ Arka Çeyrek</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

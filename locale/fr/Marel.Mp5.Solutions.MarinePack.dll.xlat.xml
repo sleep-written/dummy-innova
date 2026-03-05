@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fr">
+  <industry>
+    <type name="Marel.Mp5.Solutions.MarinePack.Sif.SifAdminImporter" ServiceOnly="false">
+      <resource name="SifErrorGetBusinesses">
+        <object>Erreur SIF : Une erreur s'est produite lors de l'obtention des entreprises. BusinessKey={0}</object>
+      </resource>
+      <resource name="SifErrorLoginUsername">
+        <object>Erreur SIF : Le nom d'utilisateur \"{0}\" n'est pas valide dans SIF. Assurez-vous que les informations d'authentification de connexion SIF sont correctes.</object>
+      </resource>
+      <resource name="SifErrorLoginPassword">
+        <object>Erreur SIF : Le mot de passe \"{0}\" n'est pas valide dans SIF. Assurez-vous que les informations d'authentification de connexion SIF sont correctes.</object>
+      </resource>
+      <resource name="SifFailureConnection">
+        <object>Impossible de se connecter à SIF. Vérifiez que vous êtes connecté à Internet et que les câbles sont branchés correctement. Puis, recommencez l'exportation.</object>
+      </resource>
+      <resource name="SifErrorGetProductConditions">
+        <object>Erreur SIF : Une erreur s'est produite lors de l'obtention des conditions de produit.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.ExportData.ElogDkExportHandler" ServiceOnly="false">
+      <resource name="InvalidFishgear">
+        <object>FishingGear (killMethod) {0}/{1} n'est pas pris en charge par Elog\n</object>
+      </resource>
+      <resource name="FishgearNotInMP">
+        <object>FishingGear (killMethod) {0}/{1} est disponible dans Elog, mais pas dans Marine Pack\n</object>
+      </resource>
+      <resource name="FishgearNotInMPPersonal">
+        <object>FishingGear (killMethod) {0}/{1} est disponible dans la liste personnelle d'Elog, mais pas dans Marine Pack\n</object>
+      </resource>
+      <resource name="FishgearAddFailed">
+        <object>Échec de l'ajout de FishingGear (killMethod) {0}/{1} à Marine Pack\n</object>
+      </resource>
+      <resource name="FishgearAdded">
+        <object>FishingGear (killMethod) {0}/{1} a été ajouté à Marine Pack\n</object>
+      </resource>
+      <resource name="InvalidFishgearPersonal">
+        <object>FishingGear {0}/{1} est introuvable dans la liste personnelle des engins de pêche dans Elog\n</object>
+      </resource>
+      <resource name="InvalidFishgearParam">
+        <object>Les paramètres FishingGear {0}/{1} ({2}) ne correspondent pas à la liste personnelle des engins d'Elog ({3})\n</object>
+      </resource>
+      <resource name="FishgearPersonalFixedParams">
+        <object>Les paramètres FishingGear {0}/{1} ont été modifiés dans Marine Pack afin de correspondre à ceux dans Elog\n</object>
+      </resource>
+      <resource name="FailFishgearValidation">
+        <object>« La validation de la liste FishingGear personnelle n'est pas possible\n »</object>
+      </resource>
+      <resource name="FailFishgearParamConfiguring">
+        <object>« Échec de la configuration des paramètres FishingGear {0}/{1}\n »</object>
+      </resource>
+      <resource name="FishgearPersonalDeactivated">
+        <object>FishingGear {0}/{1} a été désactivé dans Marine Pack, car il est introuvable dans la liste personnelle des ports dans Elog\n</object>
+      </resource>
+      <resource name="InvalidProduct">
+        <object>Le produit {0}/{1} n'est pas pris en charge par Elog\n</object>
+      </resource>
+      <resource name="InvalidPort">
+        <object>Le port (société) {0}/{1} n'est pas pris en charge par Elog\n</object>
+      </resource>
+      <resource name="InvalidPortPersonal">
+        <object>Le port (société) {0}/{1} est introuvable dans la liste personnelle des ports dans Elog\n</object>
+      </resource>
+      <resource name="InvalidPortParam">
+        <object>Les paramètres de port (société) {0}/{1} ({2}) ne correspondent pas à la liste personnelle des engins Elog ({3})\n</object>
+      </resource>
+      <resource name="PortPersonalDeactivated">
+        <object>Le port (société) {0}/{1} a été désactivé dans Marine Pack, car il est introuvable dans la liste personnelle des ports dans Elog\n</object>
+      </resource>
+      <resource name="FailPortValidation">
+        <object>« La validation de la liste personnelle des ports n'est pas possible\n »</object>
+      </resource>
+      <resource name="PortAdded">
+        <object>« Le port (société) {0}/{1} a été ajouté à Marine Pack\n »</object>
+      </resource>
+      <resource name="PortAddFailed">
+        <object>Échec de l'ajout du port (société) {0}/{1} à Marine Pack\n</object>
+      </resource>
+      <resource name="PortNotInMPPersonal">
+        <object>Le port (société) {0}/{1} est disponible dans la liste personnelle Elog, mais pas dans Marine Pack\n</object>
+      </resource>
+      <resource name="InvalidEcoarea">
+        <object>La zone économique (pays) {0}/{1} n'est pas prise en charge par Elog\n</object>
+      </resource>
+      <resource name="InvalidNation">
+        <object>La nation (pays) {0}/{1} n'est pas prise en charge par Elog\n</object>
+      </resource>
+      <resource name="InvalidIcesarea">
+        <object>La zone CIEM (rmarea) {0}/{1} n'est pas prise en charge par Elog\n</object>
+      </resource>
+      <resource name="CaptainDeactivated">
+        <object>Le capitaine (maître) {0} a été désactivé dans Marine Pack car il est introuvable dans Elog\n</object>
+      </resource>
+      <resource name="InvalidCaptain">
+        <object>Le capitaine (maître) {0} est introuvable dans Elog\n</object>
+      </resource>
+      <resource name="CaptainAdded">
+        <object>Le capitaine/maître (société) {0} a été ajouté dans Marine Pack\n</object>
+      </resource>
+      <resource name="CaptainAddFailed">
+        <object>Échec de l'ajout du capitaine/maître (société) {0} dans Marine Pack\n</object>
+      </resource>
+      <resource name="CaptainNotInMP">
+        <object>Le capitaine/maître (société) {0} est disponible dans Elog, mais pas dans Marine Pack\n</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.ExportData.BaseSifDataExportHandler" ServiceOnly="false">
+      <resource name="TraceExportCatches">
+        <object>« Exportation des prises. Le trajet {0} contient {1} prises à exporter »</object>
+      </resource>
+      <resource name="TraceExportCatchesCC">
+        <object>« Exportation de lots de navires. Le groupe de restes {0} contient {1} lots de navires à exporter »</object>
+      </resource>
+      <resource name="WarningNoLots">
+        <object>« Aucune prise à exporter n'a été trouvée ; fin de l'exportation »</object>
+      </resource>
+      <resource name="WarningNoLotsCC">
+        <object>« Aucun lot de navires à exporter n'a été trouvé ; fin de l'exportation »</object>
+      </resource>
+      <resource name="TraceExportCatch">
+        <object>Exportation de la prise (capture). ID={0} Navire={1} Prise={2}</object>
+      </resource>
+      <resource name="TraceExportCatchCC">
+        <object>Exportation du lot de navires (capture). ID={0} Navire={1} Lot navires={2}</object>
+      </resource>
+      <resource name="TraceExportCatchSuccess">
+        <object>« L'exportation des captures s'est terminée correctement »</object>
+      </resource>
+      <resource name="StatusExportStarted">
+        <object>L'exportation vers SIF a démarré...</object>
+      </resource>
+      <resource name="TraceExportBoxes">
+        <object>Exportation des boîtes. {0} boîtes à exporter pour le trajet {1} ont été trouvées</object>
+      </resource>
+      <resource name="TraceExportBoxesCC">
+        <object>Exportation des boîtes. {0} boîtes à exporter pour le groupe de restes {1} ont été trouvées</object>
+      </resource>
+      <resource name="TraceExportBoxesOrder">
+        <object>Exportation des boîtes. {0} boîtes à exporter pour la commande {1} ont été trouvées</object>
+      </resource>
+      <resource name="WarningNoBoxes">
+        <object>Aucune boîte à exporter n'a été trouvée</object>
+      </resource>
+      <resource name="WarningCustomerNotFound">
+        <object>Le client {0} est introuvable</object>
+      </resource>
+      <resource name="CreateSales">
+        <object>Création des ventes. ID={0} Lot ventes={1} Acheteur={2}</object>
+      </resource>
+      <resource name="WarningNoBuyerCode">
+        <object>Pas de client pour cette commande ou le client ne dispose pas de code SIF</object>
+      </resource>
+      <resource name="TraceExportBox">
+        <object>« Exportation de la boîte. Carton={0} RFID={1} Enreg.={2} ID={3} »</object>
+      </resource>
+      <resource name="WarningGrai96Parse">
+        <object>« Impossible d'analyser GRAI96 RFID »</object>
+      </resource>
+      <resource name="ExportSuccessfull">
+        <object>L'exportation vers SIF s'est terminée correctement</object>
+      </resource>
+      <resource name="ExportFailedAt">
+        <object>Échec de l'exportation vers SIF à </object>
+      </resource>
+      <resource name="FailConvertPos">
+        <object>Échec de conversion de la position {0} :\r\n{1}</object>
+      </resource>
+      <resource name="SifErrorConnect">
+        <object>Erreur SIF : Une erreur s'est produite lors de la connexion à SIF. URL={0} Nom d'utilisateur={1} Mot de passe={2}</object>
+      </resource>
+      <resource name="SifErrorBusinessId">
+        <object>Erreur SIF : L'ID d'entreprise BusinessId \"{0}\" n'est pas valide dans SIF. Assurez-vous que l'ID d'entreprise BusinessId est correct et que vous disposez des droits requis pour envoyer des données pour le compte de celui-ci.</object>
+      </resource>
+      <resource name="SifErrorBusinessIdSale">
+        <object>Erreur SIF : L'ID d'entreprise BusinessId \"{0}\" n'est pas valide dans SIF. Assurez-vous que l'ID d'entreprise BusinessId est correct (à la fois dans le fichier de configuration et le client assigné à la commande) et que vous disposez des droits requis pour envoyer des données pour le compte de celui-ci.</object>
+      </resource>
+      <resource name="SifErrorGetPrefix">
+        <object>Erreur SIF : Une erreur s'est produite lors de l'obtention du préfixe. BusinessId={0}</object>
+      </resource>
+      <resource name="SifErrorCreateCatch">
+        <object>Erreur SIF : Une erreur s'est produite lors de la création de la capture. \r\nCatchInfo={0}</object>
+      </resource>
+      <resource name="SifErrorCreateTU">
+        <object>Erreur SIF : Une erreur s'est produite lors de la création de la boîte (unité de suivi). \r\nTU={0}</object>
+      </resource>
+      <resource name="SifErrorCreateSale">
+        <object>Erreur SIF : Une erreur s'est produite lors de la création de la vente. \r\nSale={0}</object>
+      </resource>
+      <resource name="ExportFailureConnectionSif">
+        <object>Impossible de se connecter à SIF. Vérifiez que vous êtes connecté à Internet et que les câbles sont branchés correctement. Puis, recommencez l'exportation.</object>
+      </resource>
+      <resource name="SifErrorLoginUsername">
+        <object>Erreur SIF : Le nom d'utilisateur \"{0}\" n'est pas valide dans SIF. Assurez-vous que les informations d'authentification de connexion SIF sont correctes.</object>
+      </resource>
+      <resource name="SifErrorLoginPassword">
+        <object>Erreur SIF : Le mot de passe \"{0}\" n'est pas valide dans SIF. Assurez-vous que les informations d'authentification de connexion SIF sont correctes.</object>
+      </resource>
+      <resource name="SifErrorVesselId">
+        <object>Erreur SIF : L'ID de navire VesselId \"{0}\" n'est pas valide dans SIF pour cette connexion. Assurez-vous que les informations d'authentification de connexion SIF et VesselId sont correctes.</object>
+      </resource>
+      <resource name="SifErrorSpeciesId">
+        <object>Erreur SIF : Le code FAO \"{0}\" n'est pas valide dans SIF. Veuillez vérifier la matière première utilisée pour le carton {1}.</object>
+      </resource>
+      <resource name="SifErrorSize">
+        <object>Erreur SIF : La taille de l'espèce \"{0}\" n'est pas valide dans SIF. Veuillez vérifier la taille de la matière première utilisée pour le carton {1}.</object>
+      </resource>
+      <resource name="SifErrorQuality">
+        <object>Erreur SIF : La qualité \"{0}\" n'est pas valide dans SIF. Veuillez vérifier la qualité sur la matière première utilisée pour le carton {1}.</object>
+      </resource>
+      <resource name="SifErrorProductForm">
+        <object>Erreur SIF : Le formulaire de produit \"{0}\" n'est pas valide dans SIF. Veuillez vérifier la condition sur la matière première utilisée pour le carton {1}.</object>
+      </resource>
+      <resource name="SifErrorCondition">
+        <object>Erreur SIF : La condition de produit \"{0}\" n'est pas valide dans SIF. Veuillez vérifier la conservation sur la matière première utilisée pour le carton {1}.</object>
+      </resource>
+      <resource name="SifErrorCatchAreaId">
+        <object>Erreur SIF : Les eaux \"{0}\" ne sont pas valides dans SIF. Assurez-vous que les eaux sur le lot de navires/prises {1} sont correctes.</object>
+      </resource>
+      <resource name="SifErrorGearTypeId">
+        <object>Erreur SIF : L'engin de pêche \"{0}\" n'est pas valide dans SIF. Assurez-vous que l'engin de pêche sur le lot de navires/prises {1} est correct.</object>
+      </resource>
+      <resource name="SifErrorInsufficientPrivileges">
+        <object>Erreur SIF : Votre connexion SIF ne vous permet pas d'envoyer des données pour le compte du navire {0}.</object>
+      </resource>
+      <resource name="SiteNotFound">
+        <object>Le site {0} est introuvable ; impossible d'obtenir le préfixe SIF du propriétaire de la capture.</object>
+      </resource>
+      <resource name="SiteNoPrefix">
+        <object>Le site {0} ne contient aucun préfixe SIF dans ExtCode.</object>
+      </resource>
+      <resource name="ErrorLotNoVessel">
+        <object>Aucun navire n'est défini pour le lot de navires {0}/{1} (en tant que SlHouse)</object>
+      </resource>
+      <resource name="ErrorCompanyNoBusinessId">
+        <object>Aucun ID d'entreprise BusinessId n'est défini pour le navire {0}/{1} dans la colonne Code externe</object>
+      </resource>
+      <resource name="SifErrorInsufficientPrivilegesBox">
+        <object>« SIF WS : Votre connexion SIF ne vous permet pas d'envoyer des données sur cette boîte {0}.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.ExportData.CsvExportHandler" ServiceOnly="false">
+      <resource name="NoBoat">
+        <object>Pas de bateau</object>
+      </resource>
+      <resource name="NoFreeTextField1">
+        <object>Aucun texte libre Field1</object>
+      </resource>
+      <resource name="NoFreeTextField2">
+        <object>Aucun texte libre Field2</object>
+      </resource>
+      <resource name="NoPlot">
+        <object>Pas de remarque</object>
+      </resource>
+      <resource name="StatusExportStarted">
+        <object>L'exportation vers le fichier CSV a commencé...</object>
+      </resource>
+      <resource name="ExportSuccessfull">
+        <object>L'exportation vers un fichier CSV s'est terminée correctement</object>
+      </resource>
+      <resource name="ExportFailed">
+        <object>Échec de l'exportation vers un fichier CSV</object>
+      </resource>
+      <resource name="FileCreated">
+        <object>Création d'un fichier CSV {0} dans le dossier {1}</object>
+      </resource>
+      <resource name="NoDataFound">
+        <object>Aucune donnée d'exportation n'a été trouvée pour bc=</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

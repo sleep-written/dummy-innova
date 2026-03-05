@@ -6,6 +6,7 @@ import { ProcCollections } from './proc-collections.entity.js';
 import { ExpireMethod } from './expire-method.entity.js';
 import { ProcOrderL } from './proc-orderl.entity.js';
 import { ProcItems } from './proc-items.entity.js';
+import { ProcMaterialtypes } from './proc-materialtypes.entity.js';
 
 @Entity({ name: 'proc_materials' })
 export class ProcMaterials extends BaseEntity {
@@ -27,25 +28,30 @@ export class ProcMaterials extends BaseEntity {
     @Column({ type: 'int' })
     systemtype!: number;
 
-    @Column({ type: 'int', nullable: true })
-    materialtype?: number;
+    @ManyToOne(_ => ProcMaterialtypes, r => r.id, { nullable: true })
+    @JoinColumn({ name: 'materialtype' })
+    materialtype?: Relation<ProcMaterialtypes> | null;
 
+    // Tara caja
     @ManyToOne(_ => ProcMaterials, r => r.id, { nullable: true })
     @JoinColumn({ name: 'pkpackaging' })
-    taraCaja?: Relation<ProcMaterials> | null;
+    pkPackaging?: Relation<ProcMaterials> | null;
 
+    // Tara bolsa
     @ManyToOne(_ => ProcMaterials, r => r.id, { nullable: true })
     @JoinColumn({ name: 'itpackaging' })
-    taraBolsa?: Relation<ProcMaterials> | null;
+    itPackaging?: Relation<ProcMaterials> | null;
 
     @OneToMany(_ => ProcOrderL, r => r.procMaterials)
     procOrderL?: Relation<ProcOrderL[]>;
 
-    @OneToMany(_ => ProcOrderL, r => r.taraCaja)
-    procOrderLTaraCaja?: Relation<ProcOrderL[] | null>;
+    // Tara caja
+    @OneToMany(_ => ProcOrderL, r => r.pkPackaging)
+    procOrderLPkPackaging?: Relation<ProcOrderL[] | null>;
 
-    @OneToMany(_ => ProcOrderL, r => r.taraBolsa)
-    procOrderLTaraBolsa?: Relation<ProcOrderL[] | null>;
+    // Tara bolsa
+    @OneToMany(_ => ProcOrderL, r => r.itPackaging)
+    procOrderLItPackaging?: Relation<ProcOrderL[] | null>;
 
     @ManyToOne(_ => ExpireMethod, r => r.procMaterials, { nullable: true })
     @JoinColumn({ name: "expire1method" })

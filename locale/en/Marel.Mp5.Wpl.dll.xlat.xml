@@ -1,0 +1,927 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.Wpl.Configuration.SystemType" ServiceOnly="true">
+      <resource name="PriceLabelling">
+        <object>Price labelling</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Wpl.WeighPriceLabellerResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>A database error occurred</object>
+      </resource>
+      <resource name="LoadCachedData">
+        <object>Failed loading data from cache</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>Invalid system id</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Error getting remote object</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Error loading information about remote interface</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Error loading system program record for remote server</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Remote object call failed</object>
+      </resource>
+      <resource name="LoadSystemInfo">
+        <object>Error loading system header</object>
+      </resource>
+      <resource name="NoService">
+        <object>Remote service not registered</object>
+      </resource>
+      <resource name="PrunitClient">
+        <object>Error constructing a process unit client</object>
+      </resource>
+      <resource name="NotInWeighMode">
+        <object>The WPL is not running or pause</object>
+      </resource>
+      <resource name="QuantityIsZero">
+        <object>The requested amount is zero, nothing done</object>
+      </resource>
+      <resource name="OrderIsNotForQuantity">
+        <object>The ordered amount should be in quantity</object>
+      </resource>
+      <resource name="ComformatNotFound">
+        <object>The comfomat could not be found</object>
+      </resource>
+      <resource name="NoObject">
+        <object>There is no object on which to operate</object>
+      </resource>
+      <resource name="InvalidProduct">
+        <object>Invalid product</object>
+      </resource>
+      <resource name="FileDownloadError">
+        <object>Error sending a file to the machine manager</object>
+      </resource>
+      <resource name="ParsingError">
+        <object>Error resolving a varname</object>
+      </resource>
+      <resource name="SystemError">
+        <object>Undefined system error</object>
+      </resource>
+      <resource name="SystemRunning">
+        <object>The WPL is running</object>
+      </resource>
+      <resource name="SystemBusy">
+        <object>The WPL was busy, try again</object>
+      </resource>
+      <resource name="BackendException">
+        <object>There was a undefined backend exception</object>
+      </resource>
+      <resource name="ComformatNotValid">
+        <object>Comformat is not valid</object>
+      </resource>
+      <resource name="PackSizeMissing">
+        <object>PackSize missing</object>
+      </resource>
+      <resource name="UnknownComformatReceived">
+        <object>Unknown comformat received</object>
+      </resource>
+      <resource name="OrderNotOpen">
+        <object>Order not open</object>
+      </resource>
+      <resource name="BitmapNotFound">
+        <object>Bitmap file not found</object>
+      </resource>
+      <resource name="ComformatDifferentType">
+        <object>The comformat in the multi should be either Single or Group, but not a mixture.</object>
+      </resource>
+      <resource name="ContentSpecNotFound">
+        <object>Content Specification not found</object>
+      </resource>
+      <resource name="TL8ProgramNotFound">
+        <object>TL-8 program not found or defined.</object>
+      </resource>
+      <resource name="MediaNotFound">
+        <object>The media for the selected layout wasn't found.</object>
+      </resource>
+      <resource name="ProductNoFound">
+        <object>Product not found.</object>
+      </resource>
+      <resource name="MediaNotMounted">
+        <object>The media for the selected layout wasn't mounted on the printhead.</object>
+      </resource>
+      <resource name="PackSizeNotUnit">
+        <object>Pack size was not in units</object>
+      </resource>
+      <resource name="DifferentPackSize">
+        <object>Different PackSizes for same band.</object>
+      </resource>
+      <resource name="TooManyBands">
+        <object>More than 99 bands defined.</object>
+      </resource>
+      <resource name="BackendExceptionNoMessage">
+        <object>There was a backend exception, don't show it to the user.</object>
+      </resource>
+      <resource name="TLxRunning">
+        <object>The Totaliser is running, should be stopped.</object>
+      </resource>
+      <resource name="PackSizeNotKilograms">
+        <object>PackSize was not in kg, when sending it to totaliser.</object>
+      </resource>
+      <resource name="BitmapNotBlackAndWhite">
+        <object>Bitmap is not black and white.</object>
+      </resource>
+      <resource name="BarcodeInvalid">
+        <object>The barcode is invalid</object>
+      </resource>
+      <resource name="ErrorCreatingMultiComformat">
+        <object>Error creating multi comformat.</object>
+      </resource>      
+    </type>
+    <type name="Marel.Mp5.Wpl.ContextEventType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Not set.</object>
+      </resource>
+      <resource name="PoContextPending">
+        <object>PO context pending.</object>
+      </resource>
+      <resource name="LotContextPending">
+        <object>Lot context pending.</object>
+      </resource>
+      <resource name="BatchContextPending">
+        <object>Batch context pending.</object>
+      </resource>
+      <resource name="ProductionLotPending">
+        <object>Production lot pending.</object>
+      </resource>
+      <resource name="RmAreaContextPending">
+        <object>RmArea context pending.</object>
+      </resource>
+      <resource name="ShiftContextPending">
+        <object>Shift context pending.</object>
+      </resource>
+      <resource name="PoContextChanged">
+        <object>PO context changed.</object>
+      </resource>
+      <resource name="LotContextChanged">
+        <object>Lot context changed.</object>
+      </resource>
+      <resource name="BatchContextChanged">
+        <object>Batch context changed.</object>
+      </resource>
+      <resource name="ProductionLotChanged">
+        <object>Production lot changed.</object>
+      </resource>
+      <resource name="RmAreaContextChanged">
+        <object>RmArea context changed.</object>
+      </resource>
+      <resource name="ShiftContextChanged">
+        <object>Shift context changed.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Wpl.Configuration.WplStatus" ServiceOnly="false">
+      <resource name="A">
+        <object>The pack was unstable</object>
+      </resource>
+      <resource name="B">
+        <object>The pack was under weight</object>
+      </resource>
+      <resource name="C">
+        <object>The pack was over weight</object>
+      </resource>
+      <resource name="D">
+        <object>The calculated price was too high</object>
+      </resource>
+      <resource name="E">
+        <object>The pack was not in multi band</object>
+      </resource>
+      <resource name="J">
+        <object>Too fast for the weight</object>
+      </resource>
+      <resource name="L">
+        <object>Referenece range error</object>
+      </resource>
+      <resource name="M">
+        <object>Reference change error</object>
+      </resource>
+      <resource name="N">
+        <object>Reference frequency error</object>
+      </resource>
+      <resource name="O">
+        <object>Variable frequency error</object>
+      </resource>
+      <resource name="P">
+        <object>Two packs</object>
+      </resource>
+      <resource name="Q">
+        <object>Weighcell crowded</object>
+      </resource>
+      <resource name="R">
+        <object>Packs too close</object>
+      </resource>
+      <resource name="T">
+        <object>Packs too tall</object>
+      </resource>
+      <resource name="U">
+        <object>Labeller fault</object>
+      </resource>
+      <resource name="V">
+        <object>Belts are stopped</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Wpl.Configuration.WplAcknowlege" ServiceOnly="false">
+      <resource name="1">
+        <object>Not weigh mode etc.</object>
+      </resource>
+      <resource name="2">
+        <object>Current Comformat is a single.</object>
+      </resource>
+      <resource name="3">
+        <object>Band not present in multi.</object>
+      </resource>
+      <resource name="4">
+        <object>Invalid field type.</object>
+      </resource>
+      <resource name="5">
+        <object>Unit price overflow.</object>
+      </resource>
+      <resource name="6">
+        <object>Item not present in Comformat.</object>
+      </resource>
+      <resource name="7">
+        <object>Date is clock linked.</object>
+      </resource>
+      <resource name="8">
+        <object>Date or text is too long.</object>
+      </resource>
+      <resource name="9">
+        <object>Labeller returns error.</object>
+      </resource>
+      <resource name="11">
+        <object>Undefined error.</object>
+      </resource>
+      <resource name="12">
+        <object>Extra characters in command.</object>
+      </resource>
+      <resource name="13">
+        <object>Running.</object>
+      </resource>
+      <resource name="14">
+        <object>Not paused.</object>
+      </resource>
+      <resource name="15">
+        <object>No target exchange.</object>
+      </resource>
+      <resource name="16">
+        <object>Target locked.</object>
+      </resource>
+      <resource name="20">
+        <object>Remote functions not enabled.</object>
+      </resource>
+      <resource name="21">
+        <object>Remote target not enabled.</object>
+      </resource>
+      <resource name="22">
+        <object>Not running or paused.</object>
+      </resource>
+      <resource name="23">
+        <object>Target active.</object>
+      </resource>
+      <resource name="24">
+        <object>Target command not AMCP or N.</object>
+      </resource>
+      <resource name="25">
+        <object>Bad (unrecognised) command.</object>
+      </resource>
+      <resource name="26">
+        <object>No Comformats directory.</object>
+      </resource>
+      <resource name="27">
+        <object>No such Comformat.</object>
+      </resource>
+      <resource name="28">
+        <object>Not enough memory left.</object>
+      </resource>
+      <resource name="29">
+        <object>Filing system error.</object>
+      </resource>
+      <resource name="30">
+        <object>Permission refused.</object>
+      </resource>
+      <resource name="31">
+        <object>Incorrect weight unit.</object>
+      </resource>
+      <resource name="32">
+        <object>Incorrect barcode format.</object>
+      </resource>
+      <resource name="33">
+        <object>Oversize labeller height.</object>
+      </resource>
+      <resource name="34">
+        <object>Label edge not L or T.</object>
+      </resource>
+      <resource name="35">
+        <object>Max pack length too great.</object>
+      </resource>
+      <resource name="36">
+        <object>Comformat is not a single.</object>
+      </resource>
+      <resource name="37">
+        <object>Comformat out of date.</object>
+      </resource>
+      <resource name="38">
+        <object>Tare is too big.</object>
+      </resource>
+      <resource name="39">
+        <object>Incorrect band type.</object>
+      </resource>
+      <resource name="40">
+        <object>Sample value out of range.</object>
+      </resource>
+      <resource name="41">
+        <object>No average weight.</object>
+      </resource>
+      <resource name="42">
+        <object>Bad date or time.</object>
+      </resource>
+      <resource name="43">
+        <object>Not enough labellers.</object>
+      </resource>
+      <resource name="44">
+        <object>Not allowed in this level.</object>
+      </resource>
+      <resource name="45">
+        <object>Command has not authorised.</object>
+      </resource>
+      <resource name="46">
+        <object>That file is protected.</object>
+      </resource>
+      <resource name="47">
+        <object>Activity counters not set up.</object>
+      </resource>
+      <resource name="48">
+        <object>No such group total.</object>
+      </resource>
+      <resource name="49">
+        <object>Bad CRC.</object>
+      </resource>
+      <resource name="50">
+        <object>Input buffer overflow.</object>
+      </resource>
+      <resource name="51">
+        <object>Error reading set-up data.</object>
+      </resource>
+      <resource name="52">
+        <object>Sequence number out of range.</object>
+      </resource>
+      <resource name="53">
+        <object>Can’t do this to a group.</object>
+      </resource>
+      <resource name="54">
+        <object>Parity error.</object>
+      </resource>
+      <resource name="55">
+        <object>Framing error.</object>
+      </resource>
+      <resource name="56">
+        <object>Over run error.</object>
+      </resource>
+      <resource name="57">
+        <object>Limits (e.g. AVWT) badly set.</object>
+      </resource>
+      <resource name="58">
+        <object>Oper didn't respond in time.</object>
+      </resource>
+      <resource name="59">
+        <object>Corrupt Comformat data.</object>
+      </resource>
+      <resource name="60">
+        <object>An illegal attempt to update a slave Comformat has been made.</object>
+      </resource>
+      <resource name="61">
+        <object>Trying to set a Next target when there is not one currently running, or trying to set a next target when one has already been specified.</object>
+      </resource>
+      <resource name="62">
+        <object>Comformat names must start with a letter.</object>
+      </resource>
+      <resource name="100">
+        <object>Base number for filing errors.</object>
+      </resource>
+      <resource name="104">
+        <object>Too many processes using pHILE.</object>
+      </resource>
+      <resource name="106">
+        <object>Attempt to mount too many volumes.</object>
+      </resource>
+      <resource name="107">
+        <object>Attempt to mount volume not initialised by pHILE</object>
+      </resource>
+      <resource name="110">
+        <object>Volume not mounted.</object>
+      </resource>
+      <resource name="111">
+        <object>Filename not found.</object>
+      </resource>
+      <resource name="112">
+        <object>Illegal pathname.</object>
+      </resource>
+      <resource name="113">
+        <object>No default directory.</object>
+      </resource>
+      <resource name="114">
+        <object>Directory file expected.</object>
+      </resource>
+      <resource name="116">
+        <object>Null filename.</object>
+      </resource>
+      <resource name="117">
+        <object>Filename already exists.</object>
+      </resource>
+      <resource name="118">
+        <object>Too many files on volume.</object>
+      </resource>
+      <resource name="119">
+        <object>Cannot remove an open file.</object>
+      </resource>
+      <resource name="120">
+        <object>Cannot delete non-empty directory.</object>
+      </resource>
+      <resource name="121">
+        <object>Requested operation not allowed on specified file.</object>
+      </resource>
+      <resource name="124">
+        <object>Too many files open for process.</object>
+      </resource>
+      <resource name="125">
+        <object>Too many files open in system.</object>
+      </resource>
+      <resource name="129">
+        <object>Volume full.</object>
+      </resource>
+      <resource name="133">
+        <object>Illegal device.</object>
+      </resource>
+      <resource name="137">
+        <object>Illegal device name.</object>
+      </resource>
+      <resource name="200">
+        <object>Failed to connect to machine.</object>
+      </resource>
+      <resource name="201">
+        <object>Command failed to send.</object>
+      </resource>
+      <resource name="202">
+        <object>Response timeout.</object>
+      </resource>
+      <resource name="203">
+        <object>Error.</object>
+      </resource>
+      <resource name="204">
+        <object>File not found.</object>
+      </resource>
+      <resource name="205">
+        <object>Already being edited.</object>
+      </resource>
+      <resource name="206">
+        <object>Not in edit mode.</object>
+      </resource>
+      <resource name="207">
+        <object>No zero samples.</object>
+      </resource>
+      <resource name="208">
+        <object>Zero sample too low.</object>
+      </resource>
+      <resource name="WplBadItem">
+        <object>Bad pack.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Wpl.Configuration.TLxStatus" ServiceOnly="false">
+      <resource name="ProgramSelectFailed">
+        <object>Totaliser program select failed</object>
+      </resource>
+      <resource name="UnknownTotaliserError">
+        <object>Unknown Totaliser error: {0}</object>
+      </resource>
+
+      <resource name="TlxError0">
+        <object>OK</object>
+      </resource>
+      <resource name="TlxError1">
+        <object>Failed to send oper</object>
+      </resource>
+      <resource name="TlxError2">
+        <object>Failed to send calc</object>
+      </resource>
+      <resource name="TlxError3">
+        <object>No response - Oper</object>
+      </resource>
+      <resource name="TlxError4">
+        <object>No response - Calc</object>
+      </resource>
+      <resource name="TlxError5">
+        <object>Bad response</object>
+      </resource>
+      <resource name="TlxError6">
+        <object>Unknown command</object>
+      </resource>
+      <resource name="TlxError20">
+        <object>Bad command</object>
+      </resource>
+      <resource name="TlxError21">
+        <object>Bad lane number</object>
+      </resource>
+      <resource name="TlxError22">
+        <object>Box empty</object>
+      </resource>
+      <resource name="TlxError23">
+        <object>No boxes</object>
+      </resource>
+      <resource name="TlxError24">
+        <object>Bad format</object>
+      </resource>
+      <resource name="TlxError25">
+        <object>Bad product</object>
+      </resource>
+      <resource name="TlxError26">
+        <object>Bad WPL comformat</object>
+      </resource>
+      <resource name="TlxError27">
+        <object>Incorrect status</object>
+      </resource>
+      <resource name="TlxError28">
+        <object>No format</object>
+      </resource>
+      <resource name="TlxError29">
+        <object>Bad WPL respons</object>
+      </resource>
+      <resource name="TlxError30">
+        <object>Timeout</object>
+      </resource>
+      <resource name="TlxError31">
+        <object>No label</object>
+      </resource>
+      <resource name="TlxError32">
+        <object>No memory</object>
+      </resource>
+      <resource name="TlxError99">
+        <object>Undefined error</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Wpl.Configuration.WplMessages" ServiceOnly="false">
+      <resource name="ComformatDownloaded">
+        <object>Comformat downloaded</object>
+      </resource>
+      <resource name="ComformatNotFound">
+        <object>Comformat not found</object>
+      </resource>
+      <resource name="ComformatNotValid">
+        <object>Comformat not valid</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Wpl.Configuration.StopCause" ServiceOnly="false">
+      <resource name="StopCause000">
+        <object>WPL stopped normally.</object>
+      </resource>
+      <resource name="StopCause020">
+        <object>Weighhead cover opened.</object>
+      </resource>
+      <resource name="StopCause021">
+        <object>Emergency stop.</object>
+      </resource>
+      <resource name="StopCause022">
+        <object>pack height stop</object>
+      </resource>
+      <resource name="StopCause024">
+        <object>Stop button pressed.</object>
+      </resource>
+      <resource name="StopCause025">
+        <object>External stop.</object>
+      </resource>
+      <resource name="StopCause026">
+        <object>MOTOR RUN contact open</object>
+      </resource>
+      <resource name="StopCause027">
+        <object>Motor too slow.</object>
+      </resource>
+      <resource name="StopCause144">
+        <object>pack not labelled</object>
+      </resource>
+      <resource name="StopCause145">
+        <object>timed out waiting for printer</object>
+      </resource>
+      <resource name="StopCause146">
+        <object>reference outside 4% allowance</object>
+      </resource>
+      <resource name="StopCause147">
+        <object>V to F reference > 20% out</object>
+      </resource>
+      <resource name="StopCause148">
+        <object>V to F variable > reference/2</object>
+      </resource>
+      <resource name="StopCause149">
+        <object>Comformat transfer error</object>
+      </resource>
+      <resource name="StopCause150">
+        <object>insufficient memory left</object>
+      </resource>
+      <resource name="StopCause151">
+        <object>Too many barcode errors</object>
+      </resource>
+      <resource name="StopCause152">
+        <object>logging file overflow</object>
+      </resource>
+      <resource name="StopCause210">
+        <object>error reading feedback exchange</object>
+      </resource>
+      <resource name="StopCause211">
+        <object>failed to create an exchange</object>
+      </resource>
+      <resource name="StopCause212">
+        <object>tried unsuccessfully to clone</object>
+      </resource>
+      <resource name="StopCause232">
+        <object>Timed out waiting for printer (similar to 281).</object>
+      </resource>
+      <resource name="StopCause280">
+        <object>pack not labelled</object>
+      </resource>
+      <resource name="StopCause281">
+        <object>timed out waiting for printer</object>
+      </resource>
+      <resource name="StopCause282">
+        <object>reference outside 4% allowance</object>
+      </resource>
+      <resource name="StopCause283">
+        <object>V to F reference > 20% out</object>
+      </resource>
+      <resource name="StopCause284">
+        <object>V to F variable > reference/2</object>
+      </resource>
+      <resource name="StopCause285">
+        <object>Comformat transfer error</object>
+      </resource>
+      <resource name="StopCause286">
+        <object>insufficient memory left</object>
+      </resource>
+      <resource name="StopCause287">
+        <object>Too many barcode errors</object>
+      </resource>
+      <resource name="StopCause288">
+        <object>Run out of room in the filing system.</object>
+      </resource>
+      <resource name="StopCause344">
+        <object>Error with an exchange.</object>
+      </resource>
+      <resource name="StopCause345">
+        <object>No more exchanges.</object>
+      </resource>
+      <resource name="StopCause346">
+        <object>error reading feedback exchange</object>
+      </resource>
+      <resource name="StopCause347">
+        <object>failed to create an exchange</object>
+      </resource>
+      <resource name="StopCause348">
+        <object>tried unsuccessfully to clone</object>
+      </resource>
+      <resource name="StopCause352">
+        <object>SPRAM not SP</object>
+      </resource>
+      <resource name="StopCause505">
+        <object>Label not printed.</object>
+      </resource>
+      <resource name="StopCause584">
+        <object>No variable data (a fault communicating with the labeller).</object>
+      </resource>
+      <resource name="StopCause585">
+        <object>Barcode scan error.</object>
+      </resource>
+      <resource name="StopCause590">
+        <object>Run out of memory.</object>
+      </resource>
+      <resource name="StopCause632">
+        <object>Invalid function</object>
+      </resource>
+      <resource name="StopCause633">
+        <object>Internal error- contact Portals complaints department</object>
+      </resource>
+      <resource name="StopCause634">
+        <object>Inconsistent parameters</object>
+      </resource>
+      <resource name="StopCause635">
+        <object>Low label stock</object>
+      </resource>
+      <resource name="StopCause636">
+        <object>Indexer error</object>
+      </resource>
+      <resource name="StopCause637">
+        <object>Windowing error</object>
+      </resource>
+      <resource name="StopCause638">
+        <object>Pack failed to arrive</object>
+      </resource>
+      <resource name="StopCause639">
+        <object>Photocell blocked</object>
+      </resource>
+      <resource name="StopCause640">
+        <object>Low air pressure</object>
+      </resource>
+      <resource name="StopCause641">
+        <object>Covers open</object>
+      </resource>
+      <resource name="StopCause642">
+        <object>No memory left</object>
+      </resource>
+      <resource name="StopCause643">
+        <object>Over-temperature head</object>
+      </resource>
+      <resource name="StopCause644">
+        <object>Label not ready to be printed</object>
+      </resource>
+      <resource name="StopCause645">
+        <object>Off-line (can’t print)</object>
+      </resource>
+      <resource name="StopCause646">
+        <object>Under-temperature head</object>
+      </resource>
+      <resource name="StopCause647">
+        <object>On-line (can’t do test function)</object>
+      </resource>
+      <resource name="StopCause648">
+        <object>motor not enabled</object>
+      </resource>
+      <resource name="StopCause649">
+        <object>no tick</object>
+      </resource>
+      <resource name="StopCause650">
+        <object>no font</object>
+      </resource>
+      <resource name="StopCause651">
+        <object>no character</object>
+      </resource>
+      <resource name="StopCause652">
+        <object>no module</object>
+      </resource>
+      <resource name="StopCause653">
+        <object>wrong orientation</object>
+      </resource>
+      <resource name="StopCause654">
+        <object>out of bounds</object>
+      </resource>
+      <resource name="StopCause655">
+        <object>out of bounds</object>
+      </resource>
+      <resource name="StopCause656">
+        <object>barcode height too big</object>
+      </resource>
+      <resource name="StopCause657">
+        <object>string too long</object>
+      </resource>
+      <resource name="StopCause658">
+        <object>corrupted comformat</object>
+      </resource>
+      <resource name="StopCause659">
+        <object>no comformat</object>
+      </resource>
+      <resource name="StopCause660">
+        <object>too many packs between weigh cell and pcotf</object>
+      </resource>
+      <resource name="StopCause661">
+        <object>pcotf failed to find pack end</object>
+      </resource>
+      <resource name="StopCause662">
+        <object>sequence error</object>
+      </resource>
+      <resource name="StopCause663">
+        <object>pack height switch activated</object>
+      </resource>
+      <resource name="StopCause664">
+        <object>thermistor open circuit</object>
+      </resource>
+      <resource name="StopCause665">
+        <object>barcode checksum error</object>
+      </resource>
+      <resource name="StopCause666">
+        <object>field width error</object>
+      </resource>
+      <resource name="StopCause667">
+        <object>barcode height too small</object>
+      </resource>
+      <resource name="StopCause668">
+        <object>EEPROM not written</object>
+      </resource>
+      <resource name="StopCause669">
+        <object>EEPROM not read</object>
+      </resource>
+      <resource name="StopCause670">
+        <object>under labeller fault</object>
+      </resource>
+      <resource name="StopCause671">
+        <object>no base labeller formats</object>
+      </resource>
+      <resource name="StopCause672">
+        <object>base labeller format not found</object>
+      </resource>
+      <resource name="StopCause673">
+        <object>base labeller applicator time out</object>
+      </resource>
+      <resource name="StopCause674">
+        <object>base labeller reply time out</object>
+      </resource>
+      <resource name="StopCause675">
+        <object>trailing edge not supported</object>
+      </resource>
+      <resource name="StopCause676">
+        <object>base labeller off line</object>
+      </resource>
+      <resource name="StopCause677">
+        <object>invalid B** string</object>
+      </resource>
+      <resource name="StopCause678">
+        <object>base labeller lifter out</object>
+      </resource>
+      <resource name="StopCause679">
+        <object>base labeller print time out</object>
+      </resource>
+      <resource name="StopCause680">
+        <object>label took too long to print</object>
+      </resource>
+      <resource name="StopCause681">
+        <object>label took too long to print</object>
+      </resource>
+      <resource name="StopCause682">
+        <object>base labeller ejected</object>
+      </resource>
+      <resource name="StopCause683">
+        <object>head prox not sensed</object>
+      </resource>
+      <resource name="StopCause684">
+        <object>used for debugging purposes</object>
+      </resource>
+      <resource name="StopCause685">
+        <object>extended comformat .bmp file not found</object>
+      </resource>
+      <resource name="StopCause686">
+        <object>wrong format .bmp file</object>
+      </resource>
+      <resource name="StopCause687">
+        <object>problem talking to PIC</object>
+      </resource>
+      <resource name="StopCause688">
+        <object>no font module on the compact flash card</object>
+      </resource>
+      <resource name="StopCause792">
+        <object>stopped by serial</object>
+      </resource>
+      <resource name="StopCause793">
+        <object>stop as a serial comms channel has died</object>
+      </resource>
+      <resource name="StopCause794">
+        <object>No more unsoliceted or repeats until incoming message received.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Wpl.Configuration.DownloadMessages" ServiceOnly="true">
+      <resource name="ErrorDownloadingSetup">
+        <object>Error downloading setup, {0}: {1}</object>
+      </resource>
+      <resource name="ErrorDownloadingMultiComformat">
+        <object>Error downloading multi comformat, {0}: {1}</object>
+      </resource>
+      <resource name="ErrorsDownloadingTL9Setup">
+        <object>Errors found when downloading TL-9 setup</object>
+      </resource>
+      <resource name="ErrorsStartingJob">
+        <object>Error starting job {0}: {1}</object>
+      </resource>
+      <resource name="WPLNotInWeighMode">
+        <object>WPL not in weigh mode</object>
+      </resource>
+      <resource name="BackendException">
+        <object>Undefined back-end exception in Start multi comformat job.</object>
+      </resource>
+      <resource name="TL9Running">
+        <object>TL-9 is running</object>
+      </resource>
+      <resource name="ErrorStartingJob">
+        <object>Error starting job {0}: {1}</object>
+      </resource>
+      <resource name="DeviceStatusChanged">
+        <object>Device status changed</object>
+      </resource>
+      <resource name="DownloadingToWPL">
+        <object>Downloading to WPL</object>
+      </resource>
+      <resource name="NoActivity">
+        <object>No activity</object>
+      </resource>
+      <resource name="WPLNotReady">
+        <object>WPL not ready</object>
+      </resource>
+      <resource name="SettingProduct">
+        <object>Setting product</object>
+      </resource>
+      <resource name="StartingJob">
+        <object>Starting job</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

@@ -1,0 +1,2431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="nl">
+  <industry>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.TimeLineEventEditorView" ServiceOnly="false">
+      <resource name="operationsButton.Caption">
+        <object>Bewerkingen</object>
+      </resource>
+      <resource name="refreshButton.Caption">
+        <object>Verversen</object>
+      </resource>
+      <resource name="designModeButton.Caption">
+        <object>Ontwerp modus</object>
+      </resource>
+      <resource name="btnActivateChanges.Caption">
+        <object>Wijzigingen aktiveren</object>
+      </resource>
+      <resource name="dayProfileEditorButton.Caption">
+        <object>Dagprofiel editor</object>
+      </resource>
+      <resource name="oeeEventEditorButton.Caption">
+        <object>Open editor</object>
+      </resource>
+      <resource name="cloneButton.Caption">
+        <object>Kloon</object>
+      </resource>
+      <resource name="groupRunning.Text">
+        <object>Productie</object>
+      </resource>
+      <resource name="groupIdle.Text">
+        <object>Idle</object>
+      </resource>
+      <resource name="groupFailure.Text">
+        <object>Fout</object>
+      </resource>
+      <resource name="groupLinerestraint.Text">
+        <object>Aan-/afvoer belemmering</object>
+      </resource>
+      <resource name="groupUnscheduled.Text">
+        <object>Ongepland</object>
+      </resource>
+      <resource name="groupQuality.Text">
+        <object>Kwaliteit</object>
+      </resource>
+      <resource name="groupAvailability.Text">
+        <object>Beschikbaarheid</object>
+      </resource>
+      <resource name="groupOee.Text">
+        <object>OEE</object>
+      </resource>
+      <resource name="labelActual.Text">
+        <object>Aktueel</object>
+      </resource>
+      <resource name="labelExpected.Text">
+        <object>Verwacht</object>
+      </resource>
+      <resource name="criteriaFrom.Text">
+        <object>Van</object>
+      </resource>
+      <resource name="criteriaTo.Text">
+        <object>Tot</object>
+      </resource>
+      <resource name="LookupColumnStopReason">
+        <object>Stop oorzaak</object>
+      </resource>
+      <resource name="LookupColumnValue">
+        <object>Waarde</object>
+      </resource>
+      <resource name="LookupColumnId">
+        <object>Id</object>
+      </resource>
+      <resource name="LookupColumnName">
+        <object>Naam</object>
+      </resource>
+      <resource name="DeleteCaption">
+        <object>Verwijderen</object>
+      </resource>
+      <resource name="DeleteMultipleRows">
+        <object>Wilt u {0} rijen verwijderen?</object>
+      </resource>
+      <resource name="DeleteSingleRow">
+        <object>Wilt u deze rij verwijderen?</object>
+      </resource>
+      <resource name="gridColumnAlarmOn.Caption">
+        <object>Alarm aan</object>
+      </resource>
+      <resource name="groupPerformance.Text">
+        <object>Prestatie</object>
+      </resource>
+      <resource name="EventNotFound">
+        <object>Geen alarm gebeurtenis</object>
+      </resource>
+      <resource name="EventNotFoundAtGivenTime">
+        <object>Geen alarm gebeurtenis tijdens/voor OEE gebeurtenis tijd</object>
+      </resource>
+      <resource name="xtraTabPageAvailability.Text">
+        <object>Beschikbaarheids gebeurtenissen</object>
+      </resource>
+      <resource name="xtraTabPagePerformance.Text">
+        <object>Prestatie oorzaken</object>
+      </resource>
+      <resource name="xtraTabPageQuality.Text">
+        <object>Kwaliteits oorzaken</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.OeeAvailabilityEventsUC" ServiceOnly="false">
+      <resource name="designModeButton.Caption">
+        <object>Ontwerp modus</object>
+      </resource>
+      <resource name="Add">
+        <object>
+Toevoegen</object>
+      </resource>
+      <resource name="newButton.Caption">
+        <object>Nieuw beschikbaarheids gebeurtenis</object>
+      </resource>
+      <resource name="deleteButton.Caption">
+        <object>Verwijderen</object>
+      </resource>
+      <resource name="confirmButton.Caption">
+        <object>Bevestigen</object>
+      </resource>
+      <resource name="dayProfileEditorButton.Caption">
+        <object>Dagprofiel editor</object>
+      </resource>
+      <resource name="oeeEventEditorButton.Caption">
+        <object>Open editor</object>
+      </resource>
+      <resource name="gridColumnTime.Caption">
+        <object>Tijd</object>
+      </resource>
+      <resource name="gridColumnEvent.Caption">
+        <object>OEE Status</object>
+      </resource>
+      <resource name="gridColumnReason.Caption">
+        <object>Stop oorzaak</object>
+      </resource>
+      <resource name="gridColumnComment.Caption">
+        <object>Commentaar</object>
+      </resource>
+      <resource name="gridColumnAlarm.Caption">
+        <object>Alarm</object>
+      </resource>
+      <resource name="gridColumnAlarmName.Caption">
+        <object>Alarm naam</object>
+      </resource>
+      <resource name="gridColumnAlarmDescription.Caption">
+        <object>Alarm omschrijving</object>
+      </resource>
+      <resource name="gridColumnRegTime.Caption">
+        <object>Alarm gebeurtenis tijd</object>
+      </resource>
+      <resource name="LookupColumnValue">
+        <object>Waarde</object>
+      </resource>
+      <resource name="LookupColumnId">
+        <object>Id</object>
+      </resource>
+      <resource name="LookupColumnName">
+        <object>Naam</object>
+      </resource>
+      <resource name="DeleteCaption">
+        <object>Verwijderen</object>
+      </resource>
+      <resource name="DeleteMultipleRows">
+        <object>Wilt u {0} rijen verwijderen?</object>
+      </resource>
+      <resource name="DeleteSingleRow">
+        <object>Wilt u deze rij verwijderen?</object>
+      </resource>
+      <resource name="gridColumnAlarmOn.Caption">
+        <object>Alarm aan</object>
+      </resource>
+      <resource name="groupPerformance.Text">
+        <object>Prestatie</object>
+      </resource>
+      <resource name="EventNotFound">
+        <object>Geen alarm event</object>
+      </resource>
+      <resource name="EventNotFoundAtGivenTime">
+        <object>Geen alarm event gevonden voor / tijdens OEE gebeurtenis tijd</object>
+      </resource>
+      <resource name="DeleteEvent">
+        <object>Weet u zeker dat u het geselecteerde OEE gebeurtenis en de bijbehorende verlies oorzaak wilt verwijderen?</object>
+      </resource>
+      <resource name="Question">
+        <object>Vraag</object>
+      </resource>
+      <resource name="EndTimeInFuture">
+        <object>De opgegeven datum/tijd mag zich niet in de toekomst bevinden</object>
+      </resource>
+      <resource name="barButtonItemAddPerformanceReason.Caption">
+        <object>Presentatieverlies oorzaak toevoegen</object>
+      </resource>
+      <resource name="barButtonItemAddQualityReason.Caption">
+        <object>Kwaliteitsverlies oorzaak toevoegen</object>
+      </resource>
+      <resource name="barButtonItemEditSelectedEvents.Caption">
+        <object>Geselecteerde gebeurtenissen wijzigen</object>
+      </resource>
+      <resource name="gridColumnRequireInput.Caption">
+        <object>Input verlangd</object>
+      </resource>
+      <resource name="gridColumnIsManual.Caption">
+        <object>Manueel</object>
+      </resource>
+      <resource name="gridColumnIsModified.Caption">
+        <object>Gewijzigd</object>
+      </resource>
+      <resource name="gridColumnEmployee.Caption">
+        <object>Medewerker</object>
+      </resource>
+      <resource name="MoreAlarms">
+        <object>{0} meer alarm gebeurtenissen</object>
+      </resource>
+      <resource name="gridColumnActivity.Caption">
+        <object>Activiteit naam</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.M6000.Oee.EventEditor.OeeEventEditorPresenter2" ServiceOnly="false">
+      <resource name="On">
+        <object>Aan</object>
+      </resource>
+      <resource name="Off">
+        <object>Uit</object>
+      </resource>
+      <resource name="ManualMode">
+        <object>Manuelle modus</object>
+      </resource>
+      <resource name="RecentEvents">
+        <object>Recente events</object>
+      </resource>
+      <resource name="OeeStatus">
+        <object>OEE status</object>
+      </resource>
+      <resource name="StopReasons">
+        <object>Stopredenen</object>
+      </resource>
+      <resource name="SelectNewStatusForSelectedEvent">
+        <object>Selecteer nieuwe status voor geselecteerde event</object>
+      </resource>
+      <resource name="SelectStopReasonForSelectedEvent">
+        <object>Selecteer stopreden voor geselecteerde event</object>
+      </resource>
+      <resource name="NewStatusForSelectedEvent">
+        <object>Nieuwe status voor geselecteerde event</object>
+      </resource>
+      <resource name="SelectStatusForNewEvent">
+        <object>Selecteer status voor geselecteerde event</object>
+      </resource>
+      <resource name="StatusForNewEvent">
+        <object>Status voor geselecteerde event</object>
+      </resource>
+      <resource name="SelectStopReasonForNewEvent">
+        <object>Selecteerd stopreden voor nieuwe event</object>
+      </resource>
+      <resource name="UpdatingEvent">
+        <object>Event wordt bijgewerkt</object>
+      </resource>
+      <resource name="ModifyingTheEventWillChangeToManualModeDoYouWishToContinue">
+        <object>Aanpassen van event zal manuelle modus aktiveren, wilt u doorgaan?</object>
+      </resource>
+      <resource name="EditComment">
+        <object>Kommentaar wijzigen</object>
+      </resource>
+      <resource name="EndEvent">
+        <object>Event beeindigen</object>
+      </resource>
+      <resource name="ModifyView">
+        <object>Wijzigen</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Annuleren</object>
+      </resource>
+      <resource name="SelectActionForCurrentEvent">
+        <object>Selecteer aktie voor huidig event</object>
+      </resource>
+      <resource name="WhichActionDoYouWantToPerformOnCurrentEvent">
+        <object>Selecteer "beeindig event" om het huidge event met een specifieke stopreden / status te beeindigen. Een nieuw event met de huidge status word aangemaakt.</object>
+      </resource>
+      <resource name="EndEventWillInsertANewEventBeforeTheCurrentEvent">
+        <object>Selecteer "wijzigen" om het huidge event the veranderen</object>
+      </resource>
+      <resource name="ModifyingTheEventWillChangeToManualMode">
+        <object>Wijzigen van het event resulteert in omschakeling naar manuelle modus</object>
+      </resource>
+      <resource name="AddingTheEventWillChangeToManualMode">
+        <object>Toevoegen van het event resulteert in omschakelen naar manuelle modus</object>
+      </resource>
+      <resource name="AllDeviceChangesWillBeIgnoredByOEEsystemUntilManualModeIsStopped">
+        <object>Alle apparaat wijzigingen worden genegeerd totdat de manuelle modus is beeindigt</object>
+      </resource>
+      <resource name="DoYouWishToContinue">
+        <object>Wilt u doorgaan?</object>
+      </resource>
+      <resource name="AddingEvent">
+        <object>Toevoegen van event</object>
+      </resource>
+      <resource name="ModifyingEvent">
+        <object>Wizjigen van event</object>
+      </resource>
+      <resource name="Event">
+        <object>Event</object>
+      </resource>
+      <resource name="Error">
+        <object>Fout</object>
+      </resource>
+      <resource name="AStatusMustBeSelectedToCreateAnEvent">
+        <object>Een status moet geselecteerd worden om een event toe te kunnen voegen</object>
+      </resource>
+      <resource name="AStopReasonMustBeSelectedToCreateAnEvent">
+        <object>Een stopreden moet geselecteerd worden om een event aan te kunnen maken!</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.Controls.OeeEventGrid.OeeEventEditorCellMenu" ServiceOnly="false">
+      <resource name="Copy">
+        <object>Kopieeren</object>
+      </resource>
+      <resource name="AddPerformanceLossReason">
+        <object>Prestatie oorzaak toevoegen</object>
+      </resource>
+      <resource name="AddQualityLossReason">
+        <object>Kwaliteits oorzaak toevoegen</object>
+      </resource>
+      <resource name="EditNonRunningEvents">
+        <object>Geselecteerde gebeurtenissen wijzigen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.Controls.AddReasonForm" ServiceOnly="false">
+      <resource name="Add">
+        <object>Toevoegen</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Annuleren</object>
+      </resource>
+      <resource name="labelFrom.Text">
+        <object>Van:</object>
+      </resource>
+      <resource name="labelTo.Text">
+        <object>Tot:</object>
+      </resource>
+      <resource name="btnOK.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="labelReason.Text">
+        <object>Reden:</object>
+      </resource>
+      <resource name="labelOldReason.Text">
+        <object>Bestaande oorzaak:</object>
+      </resource>
+      <resource name="labelComment.Text">
+        <object>Commentaar:</object>
+      </resource>
+      <resource name="Text">
+        <object>Oorzaak toevoegen</object>
+      </resource>
+      <resource name="groupBox1.Text">
+        <object>Oorzaak eigenschappen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.Controls.SpecifyReasonTypeForm" ServiceOnly="false">
+      <resource name="btnOK.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Afbreken</object>
+      </resource>
+      <resource name="labelSpecify.Text">
+        <object>Oorzaak type:</object>
+      </resource>
+      <resource name="Text">
+        <object>Specificeer oorzaak</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.Controls.EditEventsForm" ServiceOnly="false">
+      <resource name="Add">
+        <object>Toevoegen</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Annuleren</object>
+      </resource>
+      <resource name="btnOK.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="labelComment.Text">
+        <object>Commentaar:</object>
+      </resource>
+      <resource name="labelReason.Text">
+        <object>Reden:</object>
+      </resource>
+      <resource name="labelStatus.Text">
+        <object>OEE Status:</object>
+      </resource>
+      <resource name="Text">
+        <object>Gebeurtenis(sen) wijzigen</object>
+      </resource>
+      <resource name="labelRemark.Text">
+        <object>Waarschuwing: Het wijzigen van gebeurtenissen met de status "Productie" verwijdert productiedata van de OEE resultaten</object>
+      </resource>
+      <resource name="groupBox1.Text">
+        <object>Nieuwe gebeurtenis waarden</object>
+      </resource>
+      <resource name="edtIncludeRunningEvents.Text">
+        <object>Gebeurtenis met status "Productie" gebruiken</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.Controls.DayProfileUC" ServiceOnly="false">
+      <resource name="InvalidTimeRange">
+        <object>Ongeldige tijdsbereik</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.OeePerformanceEventsUC" ServiceOnly="false">
+      <resource name="Add">
+        <object>Toevoegen</object>
+      </resource>
+      <resource name="barButtonPerformanceNew.Caption">
+        <object>Nieuwe prestatiereden</object>
+      </resource>
+      <resource name="barButtonItemPerformanceDelete.Caption">
+        <object>Verwijderen</object>
+      </resource>
+      <resource name="barButtonItemPerformanceConfirm.Caption">
+        <object>Bevestigen</object>
+      </resource>
+      <resource name="gridColumnPerformanceOeeEventId.Caption">
+        <object>Id</object>
+      </resource>
+      <resource name="gridColumnPerformanceOeeEventTime.Caption">
+        <object>Tijd</object>
+      </resource>
+      <resource name="gridColumnPerformanceOeeEventComment.Caption">
+        <object>Kommentaar</object>
+      </resource>
+      <resource name="gridColumnPerformanceOeeEventEmployee.Caption">
+        <object>Medewerker</object>
+      </resource>
+      <resource name="gridColumnPerformanceOeeEventIsManual.Caption">
+        <object>Manueel</object>
+      </resource>
+      <resource name="gridColumnPerformaceDetailStart.Caption">
+        <object>Starttijd</object>
+      </resource>
+      <resource name="gridColumnPerformaceDetailEnd.Caption">
+        <object>Eindtijd</object>
+      </resource>
+      <resource name="gridColumnPerformaceDetailComment.Caption">
+        <object>Kommentaar</object>
+      </resource>
+      <resource name="gridColumnPerformaceDetailReason.Caption">
+        <object>Nieuwe reden</object>
+      </resource>
+      <resource name="gridColumnPerformaceDetailOldReason.Caption">
+        <object>Bestaande reden</object>
+      </resource>
+      <resource name="gridColumnPerformaceDetailOldReason.ToolTip">
+        <object>The automatisch gegenereerde reden die vervangen dient te worden</object>
+      </resource>
+      <resource name="gridColumnPerformaceDetailEmployee.Caption">
+        <object>Medewerker</object>
+      </resource>
+      <resource name="gridColumnPerformaceDetailIsManual.Caption">
+        <object>Manueel</object>
+      </resource>
+      <resource name="ReasonDisappears">
+        <object>The gewijzige reden is buiten de zichtbare tijdsrange en zal worden verwijdered worden van de view</object>
+      </resource>
+      <resource name="ReasonDisappearsCaption">
+        <object>Reden niet zichtbaar</object>
+      </resource>
+      <resource name="EventEndEarlierThenStart">
+        <object>The eindtijd is eerder dan de starttijd van de verliesreden</object>
+      </resource>
+      <resource name="StartTimeNotInFuture">
+        <object>De starttijd mag zich niet in de toekomst bevinden</object>
+      </resource>
+      <resource name="EndTimeNotInFuture">
+        <object>De eindtijd mag zich niet in de toekomst bevinden</object>
+      </resource>
+      <resource name="NoLossReasonValue">
+        <object>De verliesreden moet een waarde hebben</object>
+      </resource>
+      <resource name="EndTimeNotEmpty">
+        <object>De eindtijd mag niet leeg zijn</object>
+      </resource>
+      <resource name="StartTimeNotEmpty">
+        <object>De begintijd mag niet leeg zijn</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.OeeQualityEventsUC" ServiceOnly="false">
+      <resource name="Add">
+        <object>Toevoegen</object>
+      </resource>
+      <resource name="barButtonItemQualityNew.Caption">
+        <object>Nieuwe kwaliteitsreden</object>
+      </resource>
+      <resource name="barButtonItemQualityDelete.Caption">
+        <object>Verwijderen</object>
+      </resource>
+      <resource name="barButtonItemQualityConfirm.Caption">
+        <object>Bevestigen</object>
+      </resource>
+      <resource name="gridColumnQualityOeeEventId.Caption">
+        <object>Id</object>
+      </resource>
+      <resource name="gridColumnQualityOeeEventTime.Caption">
+        <object>Tijd</object>
+      </resource>
+      <resource name="gridColumnQualityOeeEventComment.Caption">
+        <object>Kommentaar</object>
+      </resource>
+      <resource name="gridColumnQualityOeeEventEmployee.Caption">
+        <object>Medewerker</object>
+      </resource>
+      <resource name="gridColumnQualityOeeEventIsManual.Caption">
+        <object>Manueel</object>
+      </resource>
+      <resource name="gridColumnQualityDetailStart.Caption">
+        <object>Starttijd</object>
+      </resource>
+      <resource name="gridColumnQualityDetailEnd.Caption">
+        <object>Eindtijd</object>
+      </resource>
+      <resource name="gridColumnQualityDetailComment.Caption">
+        <object>Kommentaar</object>
+      </resource>
+      <resource name="gridColumnQualityDetailReason.Caption">
+        <object>Nieuwe reden</object>
+      </resource>
+      <resource name="gridColumnQualityDetailOldReason.Caption">
+        <object>Bestaande reden</object>
+      </resource>
+      <resource name="gridColumnQualityDetailOldReason.ToolTip">
+        <object>The automatische geregistreerde reden die gewijzigd moet worden. Laat leeg in geval dat de nog niet geregistreerde reden de nieuwe toegewezen reden moet krijgen</object>
+      </resource>
+      <resource name="gridColumnQualityDetailEmployee.Caption">
+        <object>Medewerker</object>
+      </resource>
+      <resource name="gridColumnQualityDetailIsManual.Caption">
+        <object>Manueel</object>
+      </resource>
+      <resource name="ReasonDisappears">
+        <object>The gewijzigde reden is buiten de zichtbare tijdsspanne and zal daarom verwijderd worden van de view</object>
+      </resource>
+      <resource name="ReasonDisappearsCaption">
+        <object>Reden niet zichtbaar</object>
+      </resource>
+      <resource name="EventEndEarlierThenStart">
+        <object>The eindtijd is eerder dan de starttijd van de verliesreden</object>
+      </resource>
+      <resource name="StartTimeNotInFuture">
+        <object>Starttijd mag zich niet in de toekomst bevinden</object>
+      </resource>
+      <resource name="EndTimeNotInFuture">
+        <object>Eindtijd mag zich niet in de toekomst bevinden</object>
+      </resource>
+      <resource name="NoLossReasonValue">
+        <object>De verliesreden moet een waarde hebben</object>
+      </resource>
+      <resource name="EndTimeNotEmpty">
+        <object>De eindtijd mag niet leeg zijn</object>
+      </resource>
+      <resource name="StartTimeNotEmpty">
+        <object>De starttijd mag niet leeg zijn</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.OeeEventMapEditor" ServiceOnly="false">
+      <resource name="colRuleIndex.Caption">
+        <object>Volgorde</object>
+      </resource>
+      <resource name="colOeeStatus.Caption">
+        <object>OEE Status</object>
+      </resource>
+      <resource name="colStopReason.Caption">
+        <object>Stopreden</object>
+      </resource>
+      <resource name="colStopReason.ToolTip">
+        <object>Toegewezen stopreden</object>
+      </resource>
+      <resource name="colOeeStatus.ToolTip">
+        <object>Toegewezen OEE status</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Naam</object>
+      </resource>
+      <resource name="ErrorStandardMapRetrieval">
+        <object>Fout opgetreden tijdens het ophalen van de standaard signaal map voor de entiteit</object>
+      </resource>
+      <resource name="Error">
+        <object>Fout</object>
+      </resource>
+      <resource name="InfoStandardMapNotAvailable">
+        <object>Standaard signaal map van de entiteit kan niet getoond worden. Entiteits controller kan geen standaard map leveren</object>
+      </resource>
+      <resource name="Info">
+        <object>Info</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.OeeEntitySignals" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="signalname">
+        <object>Signaalnaam</object>
+      </resource>
+      <resource name="description">
+        <object>Omschrijving</object>
+      </resource>
+      <resource name="standard">
+        <object>Standaard</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.OeeIOPrunits" ServiceOnly="false">
+      <resource name="proc_oeeioprunits_id">
+        <object>Id</object>
+      </resource>
+      <resource name="proc_oeeioprunits_prunit Name">
+        <object>Proces unit</object>
+      </resource>
+      <resource name="proc_oeeioprunits_prunit">
+        <object>Proces unit code</object>
+      </resource>
+      <resource name="proc_oeeioprunits_sysprogram Name">
+        <object>Systeemprogramma</object>
+      </resource>
+      <resource name="proc_oeeioprunits_sysprogram">
+        <object>Systeemprogramma code</object>
+      </resource>
+      <resource name="targetperformance">
+        <object>Prestatiedoel</object>
+      </resource>
+      <resource name="pid">
+        <object>I/O proces unit</object>
+      </resource>
+      <resource name="device Name">
+        <object>Apparaat</object>
+      </resource>
+      <resource name="device">
+        <object>Apparaat code</object>
+      </resource>
+      <resource name="input">
+        <object>Invoer</object>
+      </resource>
+      <resource name="filter">
+        <object>Filter</object>
+      </resource>
+      <resource name="eventtype">
+        <object>Event type</object>
+      </resource>
+      <resource name="oeesignal">
+        <object>Oee signaal</object>
+      </resource>
+      <resource name="alarm">
+        <object>Alarm</object>
+      </resource>
+      <resource name="alarm Name">
+        <object>Alarm</object>
+      </resource>
+      <resource name="stopreason Name">
+        <object>Stopreden</object>
+      </resource>
+      <resource name="stopreason">
+        <object>Stopreden code</object>
+      </resource>
+      <resource name="alarm.lookup.alarm">
+        <object>Alarm id</object>
+      </resource>
+      <resource name="alarm.lookup.ownertype">
+        <object>Eigenaarstype</object>
+      </resource>
+      <resource name="alarm.lookup.owner">
+        <object>Eigenaar</object>
+      </resource>
+      <resource name="alarm.lookup.code">
+        <object>Code</object>
+      </resource>
+      <resource name="alarm.lookup.name">
+        <object>Naam</object>
+      </resource>
+      <resource name="alarm.lookup.description">
+        <object>Omschrijving</object>
+      </resource>
+      <resource name="proc_oeeioprunits_extensionmode">
+        <object>Extensiemodus</object>
+      </resource>
+      <resource name="proc_oeeioprunits_xmldata">
+        <object>Xml</object>
+      </resource>
+      <resource name="Inputs">
+        <object>Inputs</object>
+      </resource>
+      <resource name="Alarms">
+        <object>Alarmen</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.OeeEvents" ServiceOnly="false">
+      <resource name="alarm">
+        <object>Alarm</object>
+      </resource>
+      <resource name="alarmgroup">
+        <object>Alarmgroep code</object>
+      </resource>
+      <resource name="alarmgroup Name">
+        <object>Alarmgroep</object>
+      </resource>
+      <resource name="comment">
+        <object>Kommentaar</object>
+      </resource>
+      <resource name="employee">
+        <object>Medewerkercode</object>
+      </resource>
+      <resource name="employee Name">
+        <object>Medewerker</object>
+      </resource>
+      <resource name="entity">
+        <object>Entiteit</object>
+      </resource>
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="oeestatus">
+        <object>Oee status</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registratietijd</object>
+      </resource>
+      <resource name="stopreason Name">
+        <object>Stopreden</object>
+      </resource>
+      <resource name="stopreason">
+        <object>Stopreden code</object>
+      </resource>
+      <resource name="requireinput">
+        <object>Invoer verlangd</object>
+      </resource>
+      <resource name="MultipleAlarms">
+        <object>Meerdere alarmen opgetreden, klap uit voor meer details</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.OeeProfile" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="entity">
+        <object>Entiteit</object>
+      </resource>
+      <resource name="begtime">
+        <object>Starttijd</object>
+      </resource>
+      <resource name="endtime">
+        <object>Eindtijd</object>
+      </resource>
+      <resource name="duration">
+        <object>Duratie</object>
+      </resource>
+      <resource name="oeestatus">
+        <object>OEE Status</object>
+      </resource>
+      <resource name="stopreason">
+        <object>Stopreden code</object>
+      </resource>
+      <resource name="stopreason Name">
+        <object>Stopreden</object>
+      </resource>
+      <resource name="alarm">
+        <object>Alarm</object>
+      </resource>
+      <resource name="alarmgroup">
+        <object>Alarmgroep code</object>
+      </resource>
+      <resource name="alarmgroup Name">
+        <object>Alarmgroep</object>
+      </resource>
+      <resource name="prday">
+        <object>Produktiedag</object>
+      </resource>
+      <resource name="shift">
+        <object>Ploegcode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Ploegnaam</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Proces periode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Subproces periode</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="po">
+        <object>Verkooporder code</object>
+      </resource>
+      <resource name="po Name">
+        <object>Verkooporder</object>
+      </resource>
+      <resource name="lot">
+        <object>Lotcode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Lot</object>
+      </resource>
+      <resource name="prlot">
+        <object>Produktielot code</object>
+      </resource>
+      <resource name="prlot Name">
+        <object>Produktielot</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ruwmateriaal zone code</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ruwmateriaal zone</object>
+      </resource>
+      <resource name="performance">
+        <object>Prestatie</object>
+      </resource>
+      <resource name="performancetarget">
+        <object>Prestatiedoel</object>
+      </resource>
+      <resource name="performancetarget2">
+        <object>Prestatiedoel 2</object>
+      </resource>
+      <resource name="performanceunit">
+        <object>Prestatie unit</object>
+      </resource>
+      <resource name="quality">
+        <object>Kwaliteit</object>
+      </resource>
+      <resource name="qualitytarget">
+        <object>Kwaliteitsdoel</object>
+      </resource>
+      <resource name="qualityunit">
+        <object>Kwaliteits unit</object>
+      </resource>
+      <resource name="comment">
+        <object>Kommentaar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.OeeEntityCriteriaViewExtension" ServiceOnly="false">
+      <resource name="Entity">
+        <object>Entiteit:</object>
+      </resource>
+      <resource name="All">
+        <object>(Alles)</object>
+      </resource>
+      <resource name="Many">
+        <object>(Meerdere)</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.OeeEntities" ServiceOnly="false">
+      <resource name="entity">
+        <object>Entiteit</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>Proces unit</object>
+      </resource>
+      <resource name="generatortype">
+        <object>Generator type</object>
+      </resource>
+      <resource name="generatorassembly">
+        <object>Generator assembly</object>
+      </resource>
+      <resource name="sysprogram Name">
+        <object>Systeem programma</object>
+      </resource>
+      <resource name="sysprogram">
+        <object>Systeem programma code</object>
+      </resource>
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="xmldata">
+        <object>Xml</object>
+      </resource>
+      <resource name="availabilitytargetmin">
+        <object>Beschikbaarheids minimum doel</object>
+      </resource>
+      <resource name="availabilitytargetmax">
+        <object>Beschikbaarheids maximum doel</object>
+      </resource>
+      <resource name="performancetargetmin">
+        <object>Prestatie minimaal doel</object>
+      </resource>
+      <resource name="performancetargetmax">
+        <object>Prestatie maximaal doel</object>
+      </resource>
+      <resource name="qualitytargetmin">
+        <object>Kwaliteit minimaal doel</object>
+      </resource>
+      <resource name="qualitytargetmax">
+        <object>Kwaliteit maximaal doel</object>
+      </resource>
+      <resource name="oeetargetmin">
+        <object>OEE minimaal doel</object>
+      </resource>
+      <resource name="oeetargetmax">
+        <object>OEE maximaal doel</object>
+      </resource>
+      <resource name="defaultcapacity">
+        <object>Standaard capaciteit</object>
+      </resource>
+      <resource name="capacityunit">
+        <object>Capaciteit unit</object>
+      </resource>
+      <resource name="Stop reasons">
+        <object>Stop redenen</object>
+      </resource>
+      <resource name="Signal map">
+        <object>Signaal map</object>
+      </resource>
+      <resource name="lblCustomerMap.Text">
+        <object>Klant signaal map</object>
+      </resource>
+      <resource name="lblStandardMap.Text">
+        <object>Standaard signaal map</object>
+      </resource>
+      <resource name="Signal descriptions">
+        <object>Signal omschrijvingen</object>
+      </resource>
+      <resource name="prunit">
+        <object>Process unit code</object>
+      </resource>
+      <resource name="Alarm stop reasons">
+        <object>Alarm stopredenen</object>
+      </resource>
+      <resource name="Quality loss reasons">
+        <object>Kwaliteits verlies redenen</object>
+      </resource>
+      <resource name="Performance loss reasons">
+        <object>Prestatie verlies redenen</object>
+      </resource>
+      <resource name="Alarm group stop reasons">
+        <object>Alarmgroep stop redenen</object>
+      </resource>
+      <resource name="active">
+        <object>Aktief</object>
+      </resource>
+      <resource name="sequencenr">
+        <object>Volgnummer</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.OeeEntityPerformanceReasons" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="entity">
+        <object>Entiteit</object>
+      </resource>
+      <resource name="sequence">
+        <object>Volgorde</object>
+      </resource>
+      <resource name="performancereason">
+        <object>Prestatiereden</object>
+      </resource>
+      <resource name="performancereason Name">
+        <object>Naam</object>
+      </resource>
+      <resource name="editingmode">
+        <object>Gebruik</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.OeeEntityQualityReasons" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="entity">
+        <object>Entiteit</object>
+      </resource>
+      <resource name="sequence">
+        <object>Volgorde</object>
+      </resource>
+      <resource name="qualityreason">
+        <object>Kwaliteitsreden</object>
+      </resource>
+      <resource name="qualityreason Name">
+        <object>Naam</object>
+      </resource>
+      <resource name="editingmode">
+        <object>Gebruik</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeFigureGaugeView" ServiceOnly="false">
+      <resource name="OeeAvailableView">
+        <object>Oee beschikbaarheids view</object>
+      </resource>
+      <resource name="OEE">
+        <object>OEE</object>
+      </resource>
+      <resource name="Availability">
+        <object>Beschikbaarheid</object>
+      </resource>
+      <resource name="Performance">
+        <object>Prestatie</object>
+      </resource>
+      <resource name="Quality">
+        <object>Kwaliteit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeCurrentStatusView" ServiceOnly="false">
+      <resource name="OeeCurrentStatusView">
+        <object>Status</object>
+      </resource>
+      <resource name="CurrentFormatString">
+        <object>Bezig {0}u {1)m</object>
+      </resource>
+      <resource name="ScheduledFormatString">
+        <object>Over {0}u {1}m</object>
+      </resource>
+      <resource name="NextShiftFormatString">
+        <object>Over {0}u {1}m</object>
+      </resource>
+      <resource name="CurrentFormatStringNoHours">
+        <object>Bezig {0}m</object>
+      </resource>
+      <resource name="ScheduledFormatStringNoHours">
+        <object>Over {1}m</object>
+      </resource>
+      <resource name="NextShiftFormatStringNoHours">
+        <object>Over {0}u {1}m</object>
+      </resource>
+      <resource name="currentTitleLabel.Text">
+        <object>Huidig:</object>
+      </resource>
+      <resource name="scheduledTitleLbl.Text">
+        <object>Volgende:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeCurrentShiftView" ServiceOnly="false">
+      <resource name="OeeCurrentShiftView">
+        <object>Ploeg</object>
+      </resource>
+      <resource name="CurrentTitleLabelString">
+        <object>Huidig:</object>
+      </resource>
+      <resource name="CurrentFormatString">
+        <object>Bezig {0}u {1}m</object>
+      </resource>
+      <resource name="NextFormatString">
+        <object>Over {0}u {1}m</object>
+      </resource>
+      <resource name="NextTitleLblString">
+        <object>Volgende:</object>
+      </resource>
+      <resource name="CurrentFormatStringNoHours">
+        <object>Bezig {0}m</object>
+      </resource>
+      <resource name="NextFormatStringNoHours">
+        <object>Over {0}m</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeBarChartView" ServiceOnly="false">
+      <resource name="OeeView">
+        <object>OEE view</object>
+      </resource>
+      <resource name="OEE">
+        <object>OEE</object>
+      </resource>
+      <resource name="Availability">
+        <object>Beschikbaarheid</object>
+      </resource>
+      <resource name="Performance">
+        <object>Prestatie</object>
+      </resource>
+      <resource name="Quality">
+        <object>Kwaliteit</object>
+      </resource>
+      <resource name="currentOeeLbl.Text">
+        <object>OEE</object>
+      </resource>
+      <resource name="yesterdayOeeLbl.Text">
+        <object>Vorige dag</object>
+      </resource>
+      <resource name="Monday">
+        <object>Ma</object>
+      </resource>
+      <resource name="Tuesday">
+        <object>Di</object>
+      </resource>
+      <resource name="Wednesday">
+        <object>Wo</object>
+      </resource>
+      <resource name="Thursday">
+        <object>Do</object>
+      </resource>
+      <resource name="Friday">
+        <object>Vrij</object>
+      </resource>
+      <resource name="Saturday">
+        <object>Za</object>
+      </resource>
+      <resource name="Sunday">
+        <object>Zon</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeAvailabilityView" ServiceOnly="false">
+      <resource name="AvailabilityView">
+        <object>Beschikbaarheids view</object>
+      </resource>
+      <resource name="lblRunning.Text">
+        <object>Loopt</object>
+      </resource>
+      <resource name="lblIdle.Text">
+        <object>Idle</object>
+      </resource>
+      <resource name="lblLineRestraint.Text">
+        <object>Aan-/afvoer belemmering</object>
+      </resource>
+      <resource name="lblFailure.Text">
+        <object>Fout</object>
+      </resource>
+      <resource name="lblUnscheduled.Text">
+        <object>Niet gepland</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.M6000.Oee.EventEditor.OeeEventEditorView" ServiceOnly="false">
+      <resource name="labelPageText.Text">
+        <object>Pagina</object>
+      </resource>
+      <resource name="labelTime.Text">
+        <object>Tijd:</object>
+      </resource>
+      <resource name="ButtonHistory.Text">
+        <object>Geschiedenis</object>
+      </resource>
+      <resource name="ButtonNewEvent.Text">
+        <object>New event / manuelle modus</object>
+      </resource>
+      <resource name="ButtonSetAutomaticMode.Text">
+        <object>Activeer automatische modus</object>
+      </resource>
+      <resource name="groupBoxComment.Text">
+        <object>Kommentaar</object>
+      </resource>
+      <resource name="groupBoxAlarm.Text">
+        <object>Alarm - Geselecteerd event</object>
+      </resource>
+      <resource name="Entity">
+        <object>Entiteit</object>
+      </resource>
+      <resource name="Mode">
+        <object>Modus</object>
+      </resource>
+      <resource name="Manual">
+        <object>Manueel</object>
+      </resource>
+      <resource name="Automatic">
+        <object>Automatisch</object>
+      </resource>
+      <resource name="OeeStatus">
+        <object>OEE status</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.M6000.Oee.Components.PopupAlfanumEnter" ServiceOnly="false">
+      <resource name="labelControl1.Text">
+        <object>Kommentaar wijzigen</object>
+      </resource>
+      <resource name="ButtonCancel.Text">
+        <object>Annuleren</object>
+      </resource>
+      <resource name="buttonSave.Text">
+        <object>Ok</object>
+      </resource>
+      <resource name="groupControl1.Text">
+        <object>Toetsenbord</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.M6000.Oee.OeeEventHistoryView" ServiceOnly="false">
+      <resource name="ButtonBack.Text">
+        <object>Terug</object>
+      </resource>
+      <resource name="labelPageText.Text">
+        <object>Rekord</object>
+      </resource>
+      <resource name="colTimeText.Caption">
+        <object>Tijd</object>
+      </resource>
+      <resource name="colOeeStatusText.Caption">
+        <object>Status</object>
+      </resource>
+      <resource name="colActivityText.Caption">
+        <object>Aktiviteit</object>
+      </resource>
+      <resource name="colStopReasonText.Caption">
+        <object>Stopreden</object>
+      </resource>
+      <resource name="colComment.Caption">
+        <object>Kommentaar</object>
+      </resource>
+      <resource name="colRequireInput.Caption">
+        <object>Noodzakelijk</object>
+      </resource>
+      <resource name="colAlarmText.Caption">
+        <object>Alarm</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.OeeEntityStopReasons" ServiceOnly="false">
+      <resource name="entity">
+        <object>Entiteit</object>
+      </resource>
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="oeestatus">
+        <object>OEE status</object>
+      </resource>
+      <resource name="sequence">
+        <object>Volgorde</object>
+      </resource>
+      <resource name="stopreason Name">
+        <object>Stopreden</object>
+      </resource>
+      <resource name="stopreason">
+        <object>Stopreden code</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeFigureLabelView" ServiceOnly="false">
+      <resource name="OEE">
+        <object>OEE</object>
+      </resource>
+      <resource name="Availability">
+        <object>Beschikbaarheid</object>
+      </resource>
+      <resource name="Performance">
+        <object>Prestatie</object>
+      </resource>
+      <resource name="Quality">
+        <object>Kwaliteit</object>
+      </resource>
+      <resource name="Running">
+        <object>Loopt</object>
+      </resource>
+      <resource name="Idle">
+        <object>Idle</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Gestopt</object>
+      </resource>
+      <resource name="countdownLabelControl1.FormattedText">
+        <object>{0}u {1}m</object>
+      </resource>
+      <resource name="countdownLabelControl1.FormattedTextNoHours">
+        <object>{0}m</object>
+      </resource>
+      <resource name="Failure">
+        <object>Fout</object>
+      </resource>
+      <resource name="LineRestraint">
+        <object>Aan-/afvoer belemmering</object>
+      </resource>
+      <resource name="Unscheduled">
+        <object>Niet gepland / ongepland</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.TopNStopReasonView" ServiceOnly="false">
+      <resource name="StopReasonHistoryView">
+        <object>Produktieverliezen</object>
+      </resource>
+      <resource name="AxisX.TitleStopReasons">
+        <object>Stop oorzaken</object>
+      </resource>
+      <resource name="AxisX.TitlePerformanceLosses">
+        <object>Presentatie verliezen</object>
+      </resource>
+      <resource name="AxisX.TitleQualityLosses">
+        <object>Kwaliteits verliezen</object>
+      </resource>
+      <resource name="AxisX.TitleLosses">
+        <object>Produktie verliezen</object>
+      </resource>
+      <resource name="AxisY.TitleDuration">
+        <object>Tijdgespendeerd</object>
+      </resource>
+      <resource name="AxisY.TitlePercentageOfAllLosses">
+        <object>% van alle verliezen</object>
+      </resource>
+      <resource name="AxisY.TitlePercentageOfPerformanceLosses">
+        <object>% van alle prestatieverliezen</object>
+      </resource>
+      <resource name="AxisY.TitlePercentageOfQualityLosses">
+        <object>% van alle kwaliteitsverliezen</object>
+      </resource>
+      <resource name="AxisY.TitlePercentageOfStopReasons">
+        <object>% van alle getoonde stop oorzaken</object>
+      </resource>
+      <resource name="AxisY.TitlePercentageOfScheduled">
+        <object>% van geplande tijd</object>
+      </resource>
+      <resource name="EmptyChart">
+        <object>Geen produktieverliezen gevonden voor de geselecteerde periode</object>
+      </resource>
+      <resource name="AxisYHours">
+        <object>{0}u</object>
+      </resource>
+      <resource name="AxisYMinutes">
+        <object>{0:N0}m</object>
+      </resource>
+      <resource name="Occurrences">
+        <object>Voorvallen</object>
+      </resource>
+      <resource name="Duration">
+        <object>Duratie</object>
+      </resource>
+      <resource name="Percentage">
+        <object>Percentage</object>
+      </resource>
+      <resource name="AxisYSeconds">
+        <object>{0:N0}s</object>
+      </resource>
+      <resource name="NoStopReason">
+        <object>Geen stop oorzaken</object>
+      </resource>
+      <resource name="AxisY2.TitleOccurences">
+        <object>Aantal voorvallen</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.EventMap" ServiceOnly="false">
+      <resource name="proc_oeeentitymaps_entity">
+        <object>Entiteit</object>
+      </resource>
+      <resource name="proc_oeeentitymaps_id">
+        <object>Id</object>
+      </resource>
+      <resource name="proc_oeeentitynames_name">
+        <object>Naam</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.EntityGridViewExtension" ServiceOnly="false">
+      <resource name="RestartSysProgram">
+        <object>Entity is in begintoestand. Herstart het  systeemprogramma OEE manager om de entiteit te initializeren.</object>
+      </resource>
+      <resource name="RestartSysProgramCaption">
+        <object>Herstart systeem programma.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeStopReasonComparison" ServiceOnly="false">
+      <resource name="lblLasthours.Text">
+        <object>Huidge produktiedag</object>
+      </resource>
+      <resource name="StoppedPreviousPrDay">
+        <object>Eerder gestopt</object>
+      </resource>
+      <resource name="LastXDays">
+        <object>Laatste {0} produktiedagen</object>
+      </resource>
+      <resource name="XStopped">
+        <object>{0:0}% gestopt</object>
+      </resource>
+      <resource name="XRunning">
+        <object>{0:0}% draait</object>
+      </resource>
+      <resource name="OeeStopReasonComparison">
+        <object>Stop oorzaak vergelijk</object>
+      </resource>
+      <resource name="Status">
+        <object>Stop oorzaak</object>
+      </resource>
+      <resource name="Today">
+        <object>Vandaag</object>
+      </resource>
+      <resource name="XPrDays">
+        <object>{0} PrDays</object>
+      </resource>
+      <resource name="AllOtherXReasons">
+        <object>Alle andere {0} Oorzaken</object>
+      </resource>
+      <resource name="NoStopReason">
+        <object>Geen stop oorzaak</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeStopReasonView" ServiceOnly="false">
+      <resource name="OeeStopReason">
+        <object>OEE Stop oorzaak</object>
+      </resource>
+      <resource name="Status">
+        <object>Status</object>
+      </resource>
+      <resource name="Length">
+        <object>Lengte</object>
+      </resource>
+      <resource name="Percent">
+        <object>Procent</object>
+      </resource>
+      <resource name="XStopped">
+        <object>{0:0}% gestopt</object>
+      </resource>
+      <resource name="XRunning">
+        <object>{0:0}% draait</object>
+      </resource>
+      <resource name="NoStopReason">
+        <object>Geen stop oorzaak</object>
+      </resource>
+      <resource name="CurrentPrDay">
+        <object>Aktuele productiedag</object>
+      </resource>
+      <resource name="CurrentPrPeriod">
+        <object>Aktuele proces periode</object>
+      </resource>
+      <resource name="LastXHours">
+        <object>Laatste {0] uur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeIoCollectionDataView" ServiceOnly="false">
+      <resource name="OeeIoCollectionDataView">
+        <object>Algemene lijnview</object>
+      </resource>
+      <resource name="colProduct.Caption">
+        <object>Produkt</object>
+      </resource>
+      <resource name="colProductCode.Caption">
+        <object>Produktcode</object>
+      </resource>
+      <resource name="colActiveTime.Caption">
+        <object>Aktief</object>
+      </resource>
+      <resource name="colThroughput.Caption">
+        <object>Doorvoer</object>
+      </resource>
+      <resource name="colThroughputLastMin.Caption">
+        <object>Doervoer laatste minuut</object>
+      </resource>
+      <resource name="colAccepted.Caption">
+        <object>Geaccepteerd</object>
+      </resource>
+      <resource name="colRejected.Caption">
+        <object>Geweigerd</object>
+      </resource>
+      <resource name="colTotal.Caption">
+        <object>Totaal</object>
+      </resource>
+      <resource name="pcs">
+        <object>stuks</object>
+      </resource>
+      <resource name="pcs_pr_min">
+        <object>stuks/min</object>
+      </resource>
+      <resource name="colStatus.Caption">
+        <object>Status</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeLineChartView" ServiceOnly="false">
+      <resource name="Availability">
+        <object>A</object>
+      </resource>
+      <resource name="Quality">
+        <object>Q</object>
+      </resource>
+      <resource name="Performance">
+        <object>P</object>
+      </resource>
+      <resource name="WeekAvg">
+        <object>Week gem.</object>
+      </resource>
+      <resource name="OeeLineChart">
+        <object>Oee lijn grafiek</object>
+      </resource>
+      <resource name="Monday">
+        <object>Ma</object>
+      </resource>
+      <resource name="Tuesday">
+        <object>Di</object>
+      </resource>
+      <resource name="Wednesday">
+        <object>Wo</object>
+      </resource>
+      <resource name="Thursday">
+        <object>Do</object>
+      </resource>
+      <resource name="Friday">
+        <object>Vrij</object>
+      </resource>
+      <resource name="Saturday">
+        <object>Za</object>
+      </resource>
+      <resource name="Sunday">
+        <object>Zo</object>
+      </resource>
+      <resource name="currentOeeLbl.Text">
+        <object>OEE</object>
+      </resource>
+      <resource name="barChartTitle.Text">
+        <object>Laatste {0} dagen</object>
+      </resource>
+      <resource name="yesterdayOeeLbl.Text">
+        <object>Laatste {0} dagen</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.AlarmStopReasons" ServiceOnly="false">
+      <resource name="proc_oeealarmstopreasons_id">
+        <object>ID</object>
+      </resource>
+      <resource name="proc_oeealarmstopreasons_entity Name">
+        <object>Entiteit</object>
+      </resource>
+      <resource name="proc_oeealarmstopreasons_entity">
+        <object>Entiteit</object>
+      </resource>
+      <resource name="proc_oeealarmstopreasons_alarm">
+        <object>Alarm</object>
+      </resource>
+      <resource name="proc_oeealarmstopreasons_sequence">
+        <object>Volgorde</object>
+      </resource>
+      <resource name="proc_oeealarmstopreasons_stopreason">
+        <object>Volgorde code</object>
+      </resource>
+      <resource name="proc_oeealarmstopreasons_stopreason Name">
+        <object>Stop reden</object>
+      </resource>
+      <resource name="base_alarms_description">
+        <object>Omschrijving</object>
+      </resource>
+      <resource name="base_alarms2_owner Name">
+        <object>Eigenaar</object>
+      </resource>
+      <resource name="alarm.lookup.alarm">
+        <object>Alarm id</object>
+      </resource>
+      <resource name="alarm.lookup.ownertype">
+        <object>Eigenaarstype</object>
+      </resource>
+      <resource name="alarm.lookup.owner">
+        <object>Eigenaar</object>
+      </resource>
+      <resource name="alarm.lookup.code">
+        <object>Code</object>
+      </resource>
+      <resource name="alarm.lookup.name">
+        <object>Naam</object>
+      </resource>
+      <resource name="alarm.lookup.description">
+        <object>Omschrijving</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.AlarmGroupStopReasons" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="entity Name">
+        <object>Entiteit</object>
+      </resource>
+      <resource name="entity">
+        <object>Entiteit</object>
+      </resource>
+      <resource name="alarmgroup Name">
+        <object>Alarmgroep</object>
+      </resource>
+      <resource name="alarmgroup">
+        <object>Alarmgroep code</object>
+      </resource>
+      <resource name="sequence">
+        <object>Volgorde</object>
+      </resource>
+      <resource name="stopreason Name">
+        <object>Stopreden</object>
+      </resource>
+      <resource name="stopreason">
+        <object>Stopreden code</object>
+      </resource>
+    </type>
+    <type name="Process.Oee.OeeCounterRegs" ServiceOnly="false">
+      <resource name="aseconds">
+        <object>Aktieve tijd \n (sec)</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="device">
+        <object>Apparaat code</object>
+      </resource>
+      <resource name="device Name">
+        <object>Apparaat</object>
+      </resource>
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="iseconds">
+        <object>Inaktieve tijd \n (sec)</object>
+      </resource>
+      <resource name="lot">
+        <object>Lot code</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Lot</object>
+      </resource>
+      <resource name="material">
+        <object>Produktcode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="pieces">
+        <object>Stuks</object>
+      </resource>
+      <resource name="plot">
+        <object>Produktielot code</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produktielot</object>
+      </resource>
+      <resource name="po">
+        <object>PO code</object>
+      </resource>
+      <resource name="po Name">
+        <object>PO</object>
+      </resource>
+      <resource name="prday">
+        <object>Produktiedag</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Procesperiode</object>
+      </resource>
+      <resource name="prunit">
+        <object>Procesunit code</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>Procesunit</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registratietijd</object>
+      </resource>
+      <resource name="rejects">
+        <object>Afkeur</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Resourcegebied code</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Resourcegebied</object>
+      </resource>
+      <resource name="rstat">
+        <object>Record status</object>
+      </resource>
+      <resource name="shift">
+        <object>Ploeg code</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Ploeg</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Subproces code</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.OeeImprovements" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="Time">
+        <object>Registratietijd</object>
+      </resource>
+      <resource name="Improvement action">
+        <object>Aktie</object>
+      </resource>
+      <resource name="measurement">
+        <object>Meting</object>
+      </resource>
+      <resource name="previousimprovement">
+        <object>Vorige verbetering</object>
+      </resource>
+      <resource name="Improvement entities">
+        <object>Entiteiten</object>
+      </resource>
+      <resource name="Entity">
+        <object>Entiteit</object>
+      </resource>
+    </type>
+    <type name="Grid.Oee.OeeEntityImprovements" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="improvement">
+        <object>Verbetering</object>
+      </resource>
+      <resource name="Entity">
+        <object>Entiteit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeFiguresView" ServiceOnly="false">
+      <resource name="titleOee.Text">
+        <object>OEE</object>
+      </resource>
+      <resource name="titleAvailability.Text">
+        <object>Beschikbaarheid</object>
+      </resource>
+      <resource name="titlePerformance.Text">
+        <object>Prestatie</object>
+      </resource>
+      <resource name="titleQuality.Text">
+        <object>Kwaliteit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeLatestEvents" ServiceOnly="false">
+      <resource name="LatestEvents">
+        <object>Laatste gebeurtenissen</object>
+      </resource>
+      <resource name="OeeStatus">
+        <object>OEE status</object>
+      </resource>
+      <resource name="StopReason">
+        <object>Stop oorzaak</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Registratie tijd</object>
+      </resource>
+      <resource name="Duration">
+        <object>Duratie</object>
+      </resource>
+      <resource name="Alarm">
+        <object>Alarm</object>
+      </resource>
+      <resource name="Comment">
+        <object>Kommentaar</object>
+      </resource>
+      <resource name="CountdownLabelFormatText">
+        <object>{0}u {1}m</object>
+      </resource>
+      <resource name="CountdownLabelFormatTextNoHours">
+        <object>{0}m</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.ReasonOrderBy" ServiceOnly="false">
+      <resource name="Duration">
+        <object>Duratie/Percentage</object>
+      </resource>
+      <resource name="Occurrences">
+        <object>Voorvallen/Aantal</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeDashboardValueType" ServiceOnly="false">
+      <resource name="Duration">
+        <object>Duratie</object>
+      </resource>
+      <resource name="PercentageOfScheduled">
+        <object>Percentage van ingeplande tijd</object>
+      </resource>
+      <resource name="PercentageOfLosses">
+        <object>Percentage van getoonde verliezen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Dashboard.Oee.OeeDashboardDataContentType" ServiceOnly="false">
+      <resource name="Stopreasons">
+        <object>Stop oorzaken</object>
+      </resource>
+      <resource name="PerformanceLossReasons">
+        <object>Prestatieverlies oorzaken</object>
+      </resource>
+      <resource name="QualityLossReasons">
+        <object>Kwaliteitsverlies oorzaken</object>
+      </resource>
+      <resource name="All">
+        <object>Alle verliezen</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.StopReasons" ServiceOnly="false">
+      <resource name="oeestatus">
+        <object>OEE Status</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Naam</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Externe code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Patroon</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensie 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensie 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensie 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensie 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Actief</object>
+      </resource>
+      <resource name="stopreason">
+        <object>ID</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.PerformanceReasons" ServiceOnly="false">
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Naam</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Externe code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Patroon</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensie 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensie 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensie 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensie 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Actief</object>
+      </resource>
+      <resource name="performancereason">
+        <object>ID</object>
+      </resource>
+      <resource name="performancereasontype">
+        <object>Categorie</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.QualityReasons" ServiceOnly="false">
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Naam</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Externe code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Patroon</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensie1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensie 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensie 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensie 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Actief</object>
+      </resource>
+      <resource name="qualityreason">
+        <object>ID</object>
+      </resource>
+      <resource name="qualityreasontype">
+        <object>Categorie</object>
+      </resource>
+    </type>
+    <type name="Grid.Activities.CounterPrograms" ServiceOnly="false">
+      <resource name="counterprogram">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Naam</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Externe code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Patroon</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensie 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensie 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensie 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensie 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Text 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Text 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Text 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Text 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Text 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Text 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Text 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Text 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>Xml</object>
+      </resource>
+      <resource name="active">
+        <object>Active</object>
+      </resource>
+      <resource name="prunit">
+        <object>Proces unit code</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>Proces unit</object>
+      </resource>
+      <resource name="capacity">
+        <object>Kapaciteit</object>
+      </resource>
+      <resource name="material">
+        <object>Produktcode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.Alarms" ServiceOnly="false">
+      <resource name="alarm">
+        <object>Alarm id</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Naam</object>
+      </resource>
+      <resource name="description">
+        <object>Beschrijving</object>
+      </resource>
+      <resource name="priority">
+        <object>Prioriteit</object>
+      </resource>
+      <resource name="ownertype">
+        <object>Eigenaar type</object>
+      </resource>
+      <resource name="owner Name">
+        <object>Eigenaar</object>
+      </resource>
+      <resource name="state">
+        <object>Status</object>
+      </resource>
+      <resource name="statedescription">
+        <object>Status beschrijving</object>
+      </resource>
+      <resource name="stateshortdescription">
+        <object>Korte status beschrijving</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Alarm aan</object>
+      </resource>
+      <resource name="lastupdate">
+        <object>Laatste update tijd</object>
+      </resource>
+      <resource name="active">
+        <object>Actief</object>
+      </resource>
+      <resource name="Groups">
+        <object>Groepen</object>
+      </resource>
+      <resource name="owner">
+        <object>Eigenaar code</object>
+      </resource>
+      <resource name="alarmlevel">
+        <object>Alarm niveau</object>
+      </resource>
+      <resource name="alarmconfig">
+        <object>Alarm configuration</object>
+      </resource>
+      <resource name="stateparamvalues">
+        <object>Status parameter\nwaardes</object>
+      </resource>
+      <resource name="image">
+        <object>Afbeelding</object>
+      </resource>
+      <resource name="imagex">
+        <object>Afbeelding x-ccord.</object>
+      </resource>
+      <resource name="imagey">
+        <object>Afbeelding y-coord</object>
+      </resource>
+      <resource name="notificationdelay">
+        <object>Notificatie\nvertraging</object>
+      </resource>
+    </type>
+    <type name="Enum.OeeStatus.Buttons" ServiceOnly="false">
+      <resource name="NotScheduled">
+        <object>Pauze / Niet gepland</object>
+      </resource>
+      <resource name="Unscheduled">
+        <object>Niet gepland / ongepland</object>
+      </resource>
+      <resource name="LineRestraint">
+        <object>Aan-/afvoer belemmering</object>
+      </resource>
+      <resource name="Idle">
+        <object>Ongebruikt</object>
+      </resource>
+      <resource name="Failure">
+        <object>Storing</object>
+      </resource>
+      <resource name="Running">
+        <object>Productie</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.EntityActivationExtension" ServiceOnly="true">
+      <resource name="ButtonCaption">
+        <object>Activeer entiteit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.EntityMapResetExtension" ServiceOnly="true">
+      <resource name="ButtonCaption">
+        <object>Reset naar standaard maap</object>
+      </resource>
+      <resource name="InfoStandardMapCannontBeRestored">
+        <object>De standaard map van de entiteit can niet hersteld worden omdat deze niet beschikbaar is. De OEE entiteit controller programma heeft geen beschikking gegeven tot de standaard map.</object>
+      </resource>
+      <resource name="Info">
+        <object>Info</object>
+      </resource>
+      <resource name="AreYouSure">
+        <object>Ben je zeker?</object>
+      </resource>
+      <resource name="Warning">
+        <object>Waarschuwing</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.ShowDefaultMapViewExtension" ServiceOnly="true">
+      <resource name="ButtonCaption">
+        <object>Toon standaard map</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.EquipmentTree.EquipmentRelationsTreeView" ServiceOnly="true">
+      <resource name="ItemCompany">
+        <object>Bedrijf</object>
+      </resource>
+      <resource name="ItemSite">
+        <object>Locatie</object>
+      </resource>
+      <resource name="ItemDepartment">
+        <object>Afdeling</object>
+      </resource>
+      <resource name="ItemSection">
+        <object>Sectie</object>
+      </resource>
+      <resource name="ItemPrunit">
+        <object>Process unit</object>
+      </resource>
+      <resource name="ItemDevice">
+        <object>Apparaat</object>
+      </resource>
+      <resource name="ItemControlModule">
+        <object>Control module</object>
+      </resource>
+      <resource name="NoRoot">
+        <object>Ouder van het type 'Bedrijf' is niet gevonden in de boomstructuur van het item</object>
+      </resource>
+      <resource name="Circular">
+        <object>Circulaire relatie gevonden</object>
+      </resource>
+      <resource name="MultipleParents">
+        <object>Meerder ouders gedefinieerd</object>
+      </resource>
+      <resource name="InactiveParent">
+        <object>Inactieve ouder in boomstructuur</object>
+      </resource>
+      <resource name="Parents">
+        <object>Ouders: {0}</object>
+      </resource>
+      <resource name="NoParent">
+        <object>Item heeft geen ouder</object>
+      </resource>
+      <resource name="DirectParent">
+        <object>De ouder van het item is het item zelf</object>
+      </resource>
+      <resource name="ItemHasDirectInactiveParent">
+        <object>De ouder van het item, {0}, is inactief</object>
+      </resource>
+      <resource name="and">
+        <object>en</object>
+      </resource>
+      <resource name="None">
+        <object>Geen</object>
+      </resource>
+      <resource name="Id">
+        <object>Id</object>
+      </resource>
+      <resource name="Inactive">
+        <object>Inactief</object>
+      </resource>
+      <resource name="refreshButton.Caption">
+        <object>Verversen</object>
+      </resource>
+      <resource name="confirmButton.Caption">
+        <object>Bevestigen</object>
+      </resource>
+      <resource name="colId.Caption">
+        <object>Id</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Naam</object>
+      </resource>
+      <resource name="colTypeName.Caption">
+        <object>Type</object>
+      </resource>
+      <resource name="colProblemType.Caption">
+        <object>Probleem</object>
+      </resource>
+      <resource name="colObjectId.Caption">
+        <object>Id</object>
+      </resource>
+      <resource name="colName2.Caption">
+        <object>Naam</object>
+      </resource>
+      <resource name="colItemTypeName2.Caption">
+        <object>Type</object>
+      </resource>
+      <resource name="colExtraInfo.Caption">
+        <object>Info</object>
+      </resource>
+      <resource name="labelControl1.Text">
+        <object>Mogelijke problemen:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.M6000.Recipes.BatchControlView" ServiceOnly="true">
+      <resource name="NotStarted">
+        <object>Nicht angefangen</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Im Gange</object>
+      </resource>
+      <resource name="Paused">
+        <object>Angehalten</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Abgesagt</object>
+      </resource>
+      <resource name="Done">
+        <object>Fertig</object>
+      </resource>
+      <resource name="createButton.Label">
+        <object>Creëren</object>
+      </resource>
+      <resource name="startButton.Label">
+        <object>Beginnen</object>
+      </resource>
+      <resource name="prepareButton.Label">
+        <object>Bereiden</object>
+      </resource>
+      <resource name="suspendButton.Label">
+        <object>Blootleggen</object>
+      </resource>
+      <resource name="resumeButton.Label">
+        <object>Doorgaan met</object>
+      </resource>
+      <resource name="completeButton.Label">
+        <object>Voltooid</object>
+      </resource>
+      <resource name="cancelButton.Label">
+        <object>Afbreken</object>
+      </resource>
+      <resource name="routeButton.Label">
+        <object>Route</object>
+      </resource>
+      <resource name="backButton.Label">
+        <object>Terug</object>
+      </resource>
+      <resource name="cancelBatch">
+        <object>Batch annuleren</object>
+      </resource>
+      <resource name="confirmBatchCancel">
+        <object>Wilt u deze batch echt annuleren?</object>
+      </resource>
+      <resource name="Error">
+        <object>Mislukking</object>
+      </resource>
+      <resource name="ErrorCreate">
+        <object>Batch kan niet worden gemaakt</object>
+      </resource>
+      <resource name="ErrorStart">
+        <object>Batch kan niet worden gestart</object>
+      </resource>
+      <resource name="ErrorPrepare">
+        <object>Batch kan niet worden voorbereid</object>
+      </resource>
+      <resource name="ErrorSuspend">
+        <object>Batch kan niet worden gepauzeerd</object>
+      </resource>
+      <resource name="ErrorResume">
+        <object>Batch kan niet worden voortgezet</object>
+      </resource>
+      <resource name="ErrorCancel">
+        <object>Batch kan niet worden geannuleerd</object>
+      </resource>
+      <resource name="ErrorComplete">
+        <object>Batch kan niet worden voltooid</object>
+      </resource>
+      <resource name="ErrorBatchInProgress">
+        <object>\n\nOp de productielijn wordt al een batch verwerkt.\nHet moet worden voltooid voordat u hieraan begint.</object>
+      </resource>
+      <resource name="ErrorStartBatchInProgressExtraText">
+        <object>\n\Batch: {0} is nog aan het werk\n{1}</object>
+      </resource>
+      <resource name="ErrorStartBatchInProgressExtraProductionText">
+        <object>Ga naar het tabblad Productie om de batch te voltooien</object>
+      </resource>
+      <resource name="ErrorDisconnect">
+        <object>De verbinding met de server is verbroken.</object>
+      </resource>
+      <resource name="currentDateLabel.Text">
+        <object>Huidige datum</object>
+      </resource>
+      <resource name="filterLabel.Text">
+        <object>Filter</object>
+      </resource>
+      <resource name="BatchStartFailedError">
+        <object>Fout: Batch kon niet worden gestart in de productielijn.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.M6000.Recipes.BatchSelectionView" ServiceOnly="false">
+      <resource name="BatchInformationText">
+        <object>Selecteer batch</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.M6000.Recipes.StepsView" ServiceOnly="false">
+      <resource name="ExitButton">
+        <object>Ontslag</object>
+      </resource>
+      <resource name="DoneButton">
+        <object>Compleet</object>
+      </resource>
+      <resource name="StepSelectionButton">
+        <object>Selecteer stap</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.M6000.Recipes.Steps.InputControl" ServiceOnly="false">
+      <resource name="productCaption.Text">
+        <object>Product:</object>
+      </resource>
+      <resource name="barcodeCaption.Text">
+        <object>Streepjescode:</object>
+      </resource>
+      <resource name="barcodeProductCaption.Text">
+        <object>Product:</object>
+      </resource>
+      <resource name="sourcePrunitCaption.Text">
+        <object>Oorsprong:</object>
+      </resource>
+      <resource name="recordedAmountCaption.Text">
+        <object>Opgenomen bedrag:</object>
+      </resource>
+      <resource name="remainingAmountCaption.Text">
+        <object>Evenwicht:</object>
+      </resource>
+      <resource name="recButton.Text">
+        <object>Dossier</object>
+      </resource>
+      <resource name="ChooseExisting">
+        <object>Kiezen</object>
+      </resource>
+      <resource name="RecordingError">
+        <object>Opnemen niet mogelijk. Neem contact op met de systeembeheerder</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Common.Recipes.Steps.InputStepLogic" ServiceOnly="false">
+      <resource name="InvalidBarcode">
+        <object>Ongeldige streepjescode</object>
+      </resource>
+      <resource name="InvalidProduct">
+        <object>Ongeldig product</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.M6000.Recipes.CreateBatchView" ServiceOnly="true">
+      <resource name="SelectFinalProduct">
+        <object>Selecteer eindproduct</object>
+      </resource>
+      <resource name="SelectMasterRecipe">
+        <object>Selecteer het basisrecept</object>
+      </resource>
+      <resource name="Units">
+        <object>Eenheden</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.M6000.Recipes.BatchSizeView" ServiceOnly="true">
+      <resource name="Units">
+        <object>Eenheden</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.Windows.Oee.OeeEntityLookupViewExtension" ServiceOnly="false">
+      <resource name="Lookup.Code.Caption">
+        <object>Code</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Naam</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UI.M6000.Oee.Components.OeeSelectStopReasonGroupingUC" ServiceOnly="true">
+      <resource name="labelPageText.Text">
+        <object>Pagina</object>
+      </resource>
+      <resource name="SelectStopReason">
+        <object>Selecteer stop reden</object>
+      </resource>
+      <resource name="SelectAlarmStopReason">
+        <object>Selecteer alarm stop reden</object>
+      </resource>
+      <resource name="AlarmStopReason">
+        <object>Alarm stop reden</object>
+      </resource>
+      <resource name="StopReason">
+        <object>Stop reden</object>
+      </resource>
+      <resource name="EndEvent">
+        <object>(Einde gebeurtenis)</object>
+      </resource>
+      <resource name="Back">
+        <object>Terug</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

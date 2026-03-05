@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="ro">
+  <industry>
+    <type name="Marel.Mp5.Base.Programs.ExecutableType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="Binary">
+        <object>Executabil independent</object>
+      </resource>
+      <resource name="Command">
+        <object>Fișier comandă</object>
+      </resource>
+      <resource name="AppDomain">
+        <object>Executabil AppDomain</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="ProgramManager">
+        <object>Manager program</object>
+      </resource>
+      <resource name="NetworkRouter">
+        <object>Ruter dispozitiv</object>
+      </resource>
+      <resource name="SystemService">
+        <object>Serviciu sistem</object>
+      </resource>
+      <resource name="ControlProgram">
+        <object>Program de control</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduleType" ServiceOnly="true">
+      <resource name="Never">
+        <object>Niciodată</object>
+      </resource>
+      <resource name="Sequence">
+        <object>În secvență de program</object>
+      </resource>
+      <resource name="Daily">
+        <object>Zilnic</object>
+      </resource>
+      <resource name="Weekly">
+        <object>Săptămânal</object>
+      </resource>
+      <resource name="Monthly">
+        <object>Lunar</object>
+      </resource>
+      <resource name="Yearly">
+        <object>Anual</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Inițial</object>
+      </resource>
+      <resource name="Error">
+        <object>Eroare</object>
+      </resource>
+      <resource name="Running">
+        <object>În execuție</object>
+      </resource>
+      <resource name="Stopping">
+        <object>Se oprește</object>
+      </resource>
+      <resource name="Dead">
+        <object>Mort</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Oprit</object>
+      </resource>
+      <resource name="RunWait">
+        <object>Așteaptă pornirea</object>
+      </resource>
+      <resource name="StopWait">
+        <object>Așteaptă oprirea</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ExecuteProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Inițializat</object>
+      </resource>
+      <resource name="Executing">
+        <object>În execuție</object>
+      </resource>
+      <resource name="Completed">
+        <object>Finalizat</object>
+      </resource>
+      <resource name="CompletedLate">
+        <object>Finalizat cu întârziere</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Terminat</object>
+      </resource>
+      <resource name="Error">
+        <object>Eroare</object>
+      </resource>
+      <resource name="Terminating">
+        <object>Se termină</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ManagerState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Inițial</object>
+      </resource>
+      <resource name="RefreshingList">
+        <object>Se reîmprospătează lista programului</object>
+      </resource>
+      <resource name="Running">
+        <object>În execuție</object>
+      </resource>
+      <resource name="Shutdown">
+        <object>Se închide</object>
+      </resource>
+      <resource name="ShutdownMsg">
+        <object>Se închide serviciul sistemului</object>
+      </resource>
+      <resource name="ShutdownComplete">
+        <object>Închidere finalizată</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ResponseState" ServiceOnly="true">
+      <resource name="CantCheck">
+        <object>Imposibil de verificat</object>
+      </resource>
+      <resource name="NotChecked">
+        <object>Neverificat</object>
+      </resource>
+      <resource name="Responding">
+        <object>Se răspunde</object>
+      </resource>
+      <resource name="NotResponding">
+        <object>Nu răspunde</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduledProgramState" ServiceOnly="true">
+      <resource name="Executed">
+        <object>Executat</object>
+      </resource>
+      <resource name="ExecutedWait">
+        <object>Executat după perioada programată</object>
+      </resource>
+      <resource name="ExecutedRequest">
+        <object>Executat la cerere</object>
+      </resource>
+      <resource name="Missed">
+        <object>Oră programată ratată</object>
+      </resource>
+      <resource name="StoppedOnTime">
+        <object>Finalizat</object>
+      </resource>
+      <resource name="StoppedLate">
+        <object>Finalizat cu întârziere</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Terminat</object>
+      </resource>
+      <resource name="Error">
+        <object>Eroare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.InterfaceType" ServiceOnly="true">
+      <resource name="NotHandled">
+        <object>Negestionat</object>
+      </resource>
+      <resource name="TcpIpMarel">
+        <object>TCP/IP Marel</object>
+      </resource>
+      <resource name="TcpIpOther">
+        <object>TCP/IP alții</object>
+      </resource>
+      <resource name="Rs232">
+        <object>RS232</object>
+      </resource>
+      <resource name="LonMarel">
+        <object>LON</object>
+      </resource>
+      <resource name="CanMaster">
+        <object>CAN prin CanMaster</object>
+      </resource>
+      <resource name="BluetoothRs232">
+        <object>Bluetooth prin RS232</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nespecificat</object>
+      </resource>
+      <resource name="Limited">
+        <object>Limitat</object>
+      </resource>
+      <resource name="Unlimited">
+        <object>Nelimitat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseLogType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nespecificat</object>
+      </resource>
+      <resource name="Issued">
+        <object>Licență eliberată</object>
+      </resource>
+      <resource name="Returned">
+        <object>Licență returnată</object>
+      </resource>
+      <resource name="LeaseExpired">
+        <object>Leasing expirat</object>
+      </resource>
+      <resource name="UnknownType">
+        <object>Tip licență necunoscut</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.AccessLevel" ServiceOnly="false">
+      <resource name="Undefined">
+        <object>Nedefinit</object>
+      </resource>
+      <resource name="PersonalData">
+        <object>Angajat</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Spectator</object>
+      </resource>
+      <resource name="Operator">
+        <object>Operator</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Supervizor</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Administrator</object>
+      </resource>
+      <resource name="Service">
+        <object>Serviciu</object>
+      </resource>
+      <resource name="Developer">
+        <object>Dezvoltator</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.LookupType" ServiceOnly="false">
+      <resource name="NoLookup">
+        <object>Nicio căutare</object>
+      </resource>
+      <resource name="Named">
+        <object>Căutare obiect denumit</object>
+      </resource>
+      <resource name="Numbered">
+        <object>Căutare ID înregistrare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.ReferenceDateMethod" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="ProcessPeriod">
+        <object>Perioadă procesare</object>
+      </resource>
+      <resource name="Date">
+        <object>Dată</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CompressMethod" ServiceOnly="true">
+      <resource name="GroupBy">
+        <object>Grup </object>
+      </resource>
+      <resource name="Sum">
+        <object>Sumă</object>
+      </resource>
+      <resource name="Min">
+        <object>Minimum</object>
+      </resource>
+      <resource name="Max">
+        <object>Maximum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryChangeType" ServiceOnly="true">
+      <resource name="Insert">
+        <object>Introdus</object>
+      </resource>
+      <resource name="Updated">
+        <object>Actualizat</object>
+      </resource>
+      <resource name="Delete">
+        <object>Șters</object>
+      </resource>
+      <resource name="AppSpecific">
+        <object>Operație specială</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryLogLevel" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Nicio înregistrare în jurnal</object>
+      </resource>
+      <resource name="BasicLogging">
+        <object>Operații înregistrare în jurnal</object>
+      </resource>
+      <resource name="FullLogging">
+        <object>Înregistrare toate operațiile</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationStatus" ServiceOnly="false">
+      <resource name="InActive">
+        <object>Înregistrare inactivă</object>
+      </resource>
+      <resource name="Pending">
+        <object>Operație în așteptare</object>
+      </resource>
+      <resource name="Current">
+        <object>Gata</object>
+      </resource>
+      <resource name="Error">
+        <object>Eroare</object>
+      </resource>
+      <resource name="Ongoing">
+        <object>Configurare în desfășurare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.UpdateAction" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nicio acțiune</object>
+      </resource>
+      <resource name="ExecProgram">
+        <object>Executare program</object>
+      </resource>
+      <resource name="SendRequest">
+        <object>Trimitere solicitare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterType" ServiceOnly="false">
+      <resource name="NotSpecified">
+        <object>Nespecificat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupType" ServiceOnly="false">
+      <resource name="PersonalData">
+        <object>Date personale</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Spectator</object>
+      </resource>
+      <resource name="Operator">
+        <object>Operator</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Supervizor</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Administrator</object>
+      </resource>
+      <resource name="Service">
+        <object>Serviciu</object>
+      </resource>
+      <resource name="Custom">
+        <object>Acces software</object>
+      </resource>
+      <resource name="LocationAccess">
+        <object>Acces locație </object>
+      </resource>
+      <resource name="General">
+        <object>Scop general</object>
+      </resource>
+      <resource name="Developer">
+        <object>Dezvoltator</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.GroupAreaType" ServiceOnly="false">
+      <resource name="NoType">
+        <object>Nicio zonă</object>
+      </resource>
+      <resource name="Site">
+        <object>Unitate</object>
+      </resource>
+      <resource name="Department">
+        <object>Departament</object>
+      </resource>
+      <resource name="Section">
+        <object>Secție</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Unitate de procesare</object>
+      </resource>
+      <resource name="Station">
+        <object>Stație</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupTimeType" ServiceOnly="false">
+      <resource name="NoRestriction">
+        <object>Nicio restricție</object>
+      </resource>
+      <resource name="Weekday">
+        <object>Zi a săptămânii</object>
+      </resource>
+      <resource name="MonthDay">
+        <object>Zi a lunii</object>
+      </resource>
+      <resource name="OnDuty">
+        <object>Când este de serviciu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.GuiNodeType" ServiceOnly="true">
+      <resource name="ControlForm">
+        <object>Formular control</object>
+      </resource>
+      <resource name="Folder">
+        <object>Folder</object>
+      </resource>
+      <resource name="UserGrid">
+        <object>Grilă utilizator</object>
+      </resource>
+      <resource name="Log">
+        <object>Jurnal</object>
+      </resource>
+      <resource name="Report">
+        <object>Raport</object>
+      </resource>
+      <resource name="SetupGrid">
+        <object>Configurare grilă</object>
+      </resource>
+      <resource name="DocumentTree">
+        <object>Arbore documente</object>
+      </resource>
+      <resource name="Chart">
+        <object>Grafic</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.DeviceRecord" ServiceOnly="false">
+      <resource name="CanFormat">
+        <object>Dispozitiv CAN {0} pe {1}</object>
+      </resource>
+      <resource name="LonFormat">
+        <object>Dispozitiv LON {0} pe {1}</object>
+      </resource>
+      <resource name="Rs232Format">
+        <object>Dispozitiv RS232 pe {0}</object>
+      </resource>
+      <resource name="TcpMarelFormat">
+        <object>Dispozitiv Marel TCP/IP {0}</object>
+      </resource>
+      <resource name="TcpGenericFormat">
+        <object>Dispozitiv TCP/IP general {0}, port{1}</object>
+      </resource>
+      <resource name="BluetoothRs232Format">
+        <object>Dispozitiv Bluetooth {0} pe portul RS232 {1}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.Records.StandardRecord" ServiceOnly="false">
+      <resource name="Copy">
+        <object>Copiere</object>
+      </resource>
+      <resource name="Of">
+        <object>din</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.ClientSupport.ObjectActiveType" ServiceOnly="false">
+      <resource name="Inactive">
+        <object>Inactiv</object>
+      </resource>
+      <resource name="Active">
+        <object>Activ</object>
+      </resource>
+      <resource name="Both">
+        <object>Ambele</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Connections.PortType" ServiceOnly="true">
+      <resource name="RemotingTcp">
+        <object>Utilizare la distanță TCP</object>
+      </resource>
+      <resource name="RemotingHttp">
+        <object>Utilizare la distanță HTTP</object>
+      </resource>
+      <resource name="SSI">
+        <object>Socket</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaDateTimeType" ServiceOnly="false">
+      <resource name="Unspecified">
+        <object>Nespecificat</object>
+      </resource>
+      <resource name="ProductionDayFromTo">
+        <object>Interval zile de producţie</object>
+      </resource>
+      <resource name="DateFromTo">
+        <object>Interval dată</object>
+      </resource>
+      <resource name="DateTimeFromTo">
+        <object>Interval dată și oră</object>
+      </resource>
+      <resource name="ProductionDaySingle">
+        <object>Zi de producţie</object>
+      </resource>
+      <resource name="DateSingle">
+        <object>Dată</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaType" ServiceOnly="false">
+      <resource name="Lookup">
+        <object>Căutare</object>
+      </resource>
+      <resource name="DateTime">
+        <object>Dată și oră</object>
+      </resource>
+      <resource name="SingleInteger">
+        <object>Întreg simplu</object>
+      </resource>
+      <resource name="IntegerList">
+        <object>Listă întregi</object>
+      </resource>
+      <resource name="SingleFloat">
+        <object>Flotant simplu</object>
+      </resource>
+      <resource name="String">
+        <object>Șir</object>
+      </resource>
+      <resource name="CheckBox">
+        <object>Casetă de selectare</object>
+      </resource>
+      <resource name="ComboBox">
+        <object>Casetă combo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.DataRecordType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Obișnuit</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Total</object>
+      </resource>
+      <resource name="Pending">
+        <object>În așteptare</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Șters</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Nevalid</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Comprimat</object>
+      </resource>
+      <resource name="Partial">
+        <object>Parțial</object>
+      </resource>
+      <resource name="Yield">
+        <object>Randament</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Invers</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Sărbătoare</object>
+      </resource>
+      <resource name="Generated">
+        <object>Generat</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Consumat</object>
+      </resource>
+      <resource name="Returned">
+        <object>Returnat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationOpType" ServiceOnly="true">
+      <resource name="Send">
+        <object>Trimitere</object>
+      </resource>
+      <resource name="Get">
+        <object>Obținere</object>
+      </resource>
+      <resource name="GetCopy">
+        <object>Obținere copie</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterDataType" ServiceOnly="false">
+      <resource name="Integer">
+        <object>Întreg</object>
+      </resource>
+      <resource name="Float">
+        <object>Număr punct flotant</object>
+      </resource>
+      <resource name="String">
+        <object>Șir</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.StatusCheckMode" ServiceOnly="false">
+      <resource name="PendingOnline">
+        <object>În așteptare până este online</object>
+      </resource>
+      <resource name="Online">
+        <object>Doar când este online</object>
+      </resource>
+      <resource name="NoCheck">
+        <object>Stare neverificată</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ProgramType" ServiceOnly="true">
+      <resource name="Unkown">
+        <object>Necunoscut</object>
+      </resource>
+      <resource name="SystemProgram">
+        <object>Program sistem</object>
+      </resource>
+      <resource name="ScheduledProgram">
+        <object>Program planificat</object>
+      </resource>
+      <resource name="RequestedProgram">
+        <object>Program solicitat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.KeyType" ServiceOnly="true">
+      <resource name="Temporary">
+        <object>Temporar</object>
+      </resource>
+      <resource name="Permanent">
+        <object>Permanent</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.LogReason" ServiceOnly="true">
+      <resource name="UnknownFeature">
+        <object>Caracteristică necunoscută</object>
+      </resource>
+      <resource name="MaxInstances">
+        <object>Număr maxim de instanțe atins</object>
+      </resource>
+      <resource name="UnknownVersion">
+        <object>Versiune necunoscută solicitată</object>
+      </resource>
+      <resource name="SignatureFailure">
+        <object>Nepotrivire semnătură</object>
+      </resource>
+      <resource name="HandlerOverride">
+        <object>Ignorare rutină de tratare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Configuration.VerifyStatus" ServiceOnly="false">
+      <resource name="NotVerified">
+        <object>Neverificat</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Nevalid</object>
+      </resource>
+      <resource name="Verified">
+        <object>Verificat</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

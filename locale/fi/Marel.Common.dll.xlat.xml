@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fi">
+  <industry>
+    <type name="Marel.Common.Terminals.ScreenSystem" ServiceOnly="false">
+      <resource name="ShutdownMessage">
+        <object>- JÄRJESTELMÄN SAMMUTUS -</object>
+      </resource>
+      <resource name="MomentMessage">
+        <object>Odota hetki...</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.ListScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Valitse</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Takaisin</object>
+      </resource>
+      <resource name="SortByCodeLegend">
+        <object>Koodi</object>
+      </resource>
+      <resource name="SortByNameLegend">
+        <object>Nimi</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.FieldScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Valitse</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Takaisin</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.DeviceStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="NoInterface">
+        <object>Ei liittymää</object>
+      </resource>
+      <resource name="NoRouter">
+        <object>Ei reititintä</object>
+      </resource>
+      <resource name="Offline">
+        <object>Offline</object>
+      </resource>
+      <resource name="PresumedOnline">
+        <object>Oletetusti online</object>
+      </resource>
+      <resource name="Online">
+        <object>Online</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Diagnostics.LogEntryType" ServiceOnly="false">
+      <resource name="Information">
+        <object>Tiedot</object>
+      </resource>
+      <resource name="UsageLog">
+        <object>Käyttöloki</object>
+      </resource>
+      <resource name="Warning">
+        <object>Varoitus</object>
+      </resource>
+      <resource name="Error">
+        <object>Virhe</object>
+      </resource>
+      <resource name="Fatal">
+        <object>Vakava</object>
+      </resource>
+      <resource name="UnhandledException">
+        <object>Käsittelemätön poikkeus</object>
+      </resource>
+      <resource name="Trace">
+        <object>Seuraa</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Sockets.ConnectionStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="Idle">
+        <object>Vapaa</object>
+      </resource>
+      <resource name="Unconnected">
+        <object>Ei yhteydessä</object>
+      </resource>
+      <resource name="Connecting">
+        <object>Yhteys</object>
+      </resource>
+      <resource name="Connected">
+        <object>Yhdistetty</object>
+      </resource>
+      <resource name="Disconnected">
+        <object>Yhteys katkaistu</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmManagement" ServiceOnly="false">
+      <resource name="Units">
+        <object>Yksiköt</object>
+      </resource>
+      <resource name="Weight">
+        <object>Paino</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmProduct" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="Units">
+        <object>Yksiköt</object>
+      </resource>
+      <resource name="Pieces">
+        <object>Kappaleet</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmSystem" ServiceOnly="false">
+      <resource name="Si">
+        <object>SI</object>
+      </resource>
+      <resource name="European">
+        <object>Eurooppalainen</object>
+      </resource>
+      <resource name="Imperial">
+        <object>Brittiläinen</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmWeight" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Milligrams">
+        <object>mg</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="OunceEights">
+        <object>oz/8</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmLength" ServiceOnly="false">
+      <resource name="Meters">
+        <object>m</object>
+      </resource>
+      <resource name="Millimeters">
+        <object>mm</object>
+      </resource>
+      <resource name="Centimeters">
+        <object>cm</object>
+      </resource>
+      <resource name="Inches">
+        <object>tuumaa</object>
+      </resource>
+      <resource name="Feet">
+        <object>jalkaa</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.FormatSpecification" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="Point000001">
+        <object>0.000001</object>
+      </resource>
+      <resource name="Point000002">
+        <object>0.000002</object>
+      </resource>
+      <resource name="Point000005">
+        <object>0.000005</object>
+      </resource>
+      <resource name="Point00001">
+        <object>0.00001</object>
+      </resource>
+      <resource name="Point00002">
+        <object>0.00002</object>
+      </resource>
+      <resource name="Point00005">
+        <object>0.00005</object>
+      </resource>
+      <resource name="Point0001">
+        <object>0.0001</object>
+      </resource>
+      <resource name="Point0002">
+        <object>0.0002</object>
+      </resource>
+      <resource name="Point0005">
+        <object>0.0005</object>
+      </resource>
+      <resource name="Point001">
+        <object>0.001</object>
+      </resource>
+      <resource name="Point002">
+        <object>0.002</object>
+      </resource>
+      <resource name="Point005">
+        <object>0.005</object>
+      </resource>
+      <resource name="Point01">
+        <object>0.01</object>
+      </resource>
+      <resource name="Point02">
+        <object>0.02</object>
+      </resource>
+      <resource name="Point05">
+        <object>0.05</object>
+      </resource>
+      <resource name="Point1">
+        <object>0.1</object>
+      </resource>
+      <resource name="Point2">
+        <object>0.2</object>
+      </resource>
+      <resource name="Point5">
+        <object>0.5</object>
+      </resource>
+      <resource name="N1">
+        <object>1</object>
+      </resource>
+      <resource name="N2">
+        <object>2</object>
+      </resource>
+      <resource name="N5">
+        <object>5</object>
+      </resource>
+      <resource name="N10">
+        <object>10</object>
+      </resource>
+      <resource name="N20">
+        <object>20</object>
+      </resource>
+      <resource name="N50">
+        <object>50</object>
+      </resource>
+      <resource name="Max">
+        <object>Enintään</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.NominalMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Vapaa paino, hävikki = %</object>
+      </resource>
+      <resource name="FixWeightFg">
+        <object>Nimellinen, kiinteä hävikki</object>
+      </resource>
+      <resource name="FixWeightVg">
+        <object>Nimellinen, hävikki = %</object>
+      </resource>
+      <resource name="FixWeightE">
+        <object>e, ilman hävikkiä</object>
+      </resource>
+      <resource name="FixWeightEFg">
+        <object>e, kiinteä hävikki</object>
+      </resource>
+      <resource name="FixWeightEVg">
+        <object>e, hävikki = %</object>
+      </resource>
+      <resource name="Range">
+        <object>Nimellinen alue</object>
+      </resource>
+      <resource name="Step">
+        <object>Nimelliset vaiheet</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="Button">
+        <object>Painike</object>
+      </resource>
+      <resource name="Preset">
+        <object>Esimääritetty</object>
+      </resource>
+      <resource name="Auto">
+        <object>Automaattinen</object>
+      </resource>
+      <resource name="System">
+        <object>Järjestelmä</object>
+      </resource>
+      <resource name="Calculated">
+        <object>Laskettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Gender" ServiceOnly="false">
+      <resource name="Female">
+        <object>Nainen</object>
+      </resource>
+      <resource name="Male">
+        <object>Mies</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.AccuracyMode" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="Low">
+        <object>Pieni</object>
+      </resource>
+      <resource name="Medium">
+        <object>Keskitaso</object>
+      </resource>
+      <resource name="High">
+        <object>Suuri</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.FlowUnit" ServiceOnly="false">
+      <resource name="Percentage">
+        <object>Prosenttiarvo</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>kpl/min</object>
+      </resource>
+      <resource name="WeightPerHour">
+        <object>Paino/h</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.LaneSpecification" ServiceOnly="false">
+      <resource name="OneSide">
+        <object>Yksipuolinen</object>
+      </resource>
+      <resource name="TwoSide">
+        <object>Kaksipuolinen</object>
+      </resource>
+      <resource name="Lane1">
+        <object>Rata 1</object>
+      </resource>
+      <resource name="Lane2">
+        <object>Rata 2</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.RecordingMethod" ServiceOnly="false">
+      <resource name="Manual">
+        <object>Manuaalinen</object>
+      </resource>
+      <resource name="Auto">
+        <object>Automaattinen</object>
+      </resource>
+      <resource name="Stable">
+        <object>Vakaa</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Resources.Industry" ServiceOnly="false">
+      <resource name="Neutral">
+        <object>Ei alakohtainen</object>
+      </resource>
+      <resource name="Fish">
+        <object>Kala</object>
+      </resource>
+      <resource name="Meat">
+        <object>Liha</object>
+      </resource>
+      <resource name="Poultry">
+        <object>Siipikarja</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTime" ServiceOnly="false">
+      <resource name="Seconds">
+        <object>s</object>
+      </resource>
+      <resource name="Milliseconds">
+        <object>ms</object>
+      </resource>
+      <resource name="Minutes">
+        <object>min</object>
+      </resource>
+      <resource name="Hours">
+        <object>h</object>
+      </resource>
+      <resource name="Days">
+        <object>päivä</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.UnitType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="Pack">
+        <object>Pakkaus</object>
+      </resource>
+      <resource name="Stack">
+        <object>Pino</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Kuormalava</object>
+      </resource>
+      <resource name="Container">
+        <object>Kontti</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Kuljetuserä</object>
+      </resource>
+      <resource name="Item">
+        <object>Kohde</object>
+      </resource>
+      <resource name="GraderPiece">
+        <object>Kappale</object>
+      </resource>
+      <resource name="Individual">
+        <object>Eläin</object>
+      </resource>
+      <resource name="TrimPiece">
+        <object>Leikkaaminen</object>
+      </resource>
+      <resource name="CollectionMix">
+        <object>Sekalaiset yksiköt</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.AppRecordType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="Input">
+        <object>Yleinen syöttö</object>
+      </resource>
+      <resource name="Output">
+        <object>Yleinen tuotto</object>
+      </resource>
+      <resource name="TrimInput">
+        <object>Leikkuusyöttö</object>
+      </resource>
+      <resource name="TrimOutput">
+        <object>Leikkuutuotto</object>
+      </resource>
+      <resource name="BypassInput">
+        <object>Ohitussyöttö</object>
+      </resource>
+      <resource name="BypassOutput">
+        <object>Ohitustuotto</object>
+      </resource>
+      <resource name="TrimUnknown">
+        <object>Leikkuu tuntematon</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="Button">
+        <object>Painike</object>
+      </resource>
+      <resource name="Preset">
+        <object>Esimääritetty</object>
+      </resource>
+      <resource name="Auto">
+        <object>Automaattinen</object>
+      </resource>
+      <resource name="System">
+        <object>Järjestelmä</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.BatchingMode" ServiceOnly="false">
+      <resource name="None">
+        <object>Ei mitään</object>
+      </resource>
+      <resource name="Weight">
+        <object>Painon mukaan</object>
+      </resource>
+      <resource name="IntelligentWeight">
+        <object>Älykäs painon mukaan</object>
+      </resource>
+      <resource name="Count">
+        <object>Määrän mukaan</object>
+      </resource>
+      <resource name="Slave">
+        <object>Orja</object>
+      </resource>
+      <resource name="MultiTarget">
+        <object>Useita kohteita</object>
+      </resource>
+      <resource name="MeanWeight">
+        <object>Keskiarvopaino</object>
+      </resource>
+      <resource name="Rate">
+        <object>Määrä</object>
+      </resource>
+      <resource name="RateAndAverage">
+        <object>Määrän keskiarvo</object>
+      </resource>
+      <resource name="Share">
+        <object>Jaa</object>
+      </resource>
+      <resource name="FillRate">
+        <object>Täyttöaste</object>
+      </resource>
+      <resource name="Weight2nd">
+        <object>Painon mukaan, 2.</object>
+      </resource>
+      <resource name="IntelligentWeight2nd">
+        <object>Älykäs painon mukaan, 2.</object>
+      </resource>
+      <resource name="Count2nd">
+        <object>Määrän mukaan, 2.</object>
+      </resource>
+      <resource name="MeanWeight2nd">
+        <object>Keskiarvopaino, 2.</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.RejectLevel" ServiceOnly="false">
+      <resource name="None">
+        <object>Ei hylkäystä</object>
+      </resource>
+      <resource name="Lowest">
+        <object>Pienin</object>
+      </resource>
+      <resource name="Low">
+        <object>Pieni</object>
+      </resource>
+      <resource name="Medium">
+        <object>Keskitaso</object>
+      </resource>
+      <resource name="High">
+        <object>Suuri</object>
+      </resource>
+      <resource name="Highest">
+        <object>Suurin</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.GeneralMessage" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Valitse</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Poistu</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.SelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Valitse kohde</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.WSelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Valitse kohde</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Utilities.ParamDataType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="Bool">
+        <object>Totuusarvo</object>
+      </resource>
+      <resource name="Int">
+        <object>Kokonaisluku</object>
+      </resource>
+      <resource name="Float">
+        <object>Liukuluku</object>
+      </resource>
+      <resource name="String">
+        <object>Merkkijono</object>
+      </resource>
+      <resource name="Enum">
+        <object>Luettelointi</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTare" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Percentage">
+        <object>%</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.IdContainerStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>Ei löydy</object>
+      </resource>
+      <resource name="NoId">
+        <object>Ei tunnusta</object>
+      </resource>
+      <resource name="Ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Virheellinen</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Ei painoa</object>
+      </resource>
+      <resource name="Exception">
+        <object>Poikkeus</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.M3000PieceStatus" ServiceOnly="false">
+      <resource name="Accepted">
+        <object>Kohde hyväksytty</object>
+      </resource>
+      <resource name="TooLong">
+        <object>Kohde on liian pitkä</object>
+      </resource>
+      <resource name="BadZero">
+        <object>Virheellinen nolla kohdetta punnittaessa</object>
+      </resource>
+      <resource name="Unstable">
+        <object>Epävakaa punnitus</object>
+      </resource>
+      <resource name="UnderWeight">
+        <object>Kohde on liian kevyt</object>
+      </resource>
+      <resource name="OverWeight">
+        <object>Kohde on liian painava</object>
+      </resource>
+      <resource name="Previous">
+        <object>Painolajittelija käsittelee edellistä kohdetta</object>
+      </resource>
+      <resource name="BadRead">
+        <object>Vähäinen mittojen määrä</object>
+      </resource>
+      <resource name="MarginalRead">
+        <object>Marginaalinen mittojen määrä</object>
+      </resource>
+      <resource name="GoodRead">
+        <object>Riittävä mittojen määrä</object>
+      </resource>
+      <resource name="NotUsed">
+        <object>Kohde ei vastaa mitään ehtoja</object>
+      </resource>
+      <resource name="Blocked">
+        <object>Kaikki soveltuvat portit estetty</object>
+      </resource>
+      <resource name="IntelligentReject">
+        <object>Älykäs annosteluhylkäys</object>
+      </resource>
+      <resource name="FormMissing">
+        <object>Tietty muoto puuttuu</object>
+      </resource>
+      <resource name="TooClose">
+        <object>Kohde on liian lähellä edellistä kohdetta</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Ei painoa kohteessa</object>
+      </resource>
+      <resource name="NoGate">
+        <object>Tuotteelle ei ole määritetty porttia</object>
+      </resource>
+      <resource name="Missing">
+        <object>Kohde on kadonnut</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Ei aktiivista tilausta</object>
+      </resource>
+      <resource name="TypeBlock">
+        <object>Ei tilaa kappaletyypille</object>
+      </resource>
+      <resource name="RateReject">
+        <object>Määräalgoritmi hylkäsi kohteen</object>
+      </resource>
+      <resource name="CheckTooLight">
+        <object>Liian kevyt</object>
+      </resource>
+      <resource name="CheckTooLight2xTNE">
+        <object>Kohde on liian kevyt</object>
+      </resource>
+      <resource name="CheckTooHeavy">
+        <object>Liian painava </object>
+      </resource>
+      <resource name="CheckTNE">
+        <object>Hylättiin TNE:ssä</object>
+      </resource>
+      <resource name="CheckNoGate">
+        <object>Hylkäysporttia ei löydy</object>
+      </resource>
+      <resource name="ExtremelyLong">
+        <object>Kappale on erittäin pitkä</object>
+      </resource>
+      <resource name="LengthOnly">
+        <object>Kappaleella on vain pituusmäärite</object>
+      </resource>
+      <resource name="NoResultError">
+        <object>CWU:sta ei ole saatu painolaatua</object>
+      </resource>
+      <resource name="TooShort">
+        <object>Kohde on liian lyhyt</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.SV4700PieceStatus" ServiceOnly="false">
+      <resource name="NoError">
+        <object>Kohdetta ei hylätä</object>
+      </resource>
+      <resource name="ItemRejected">
+        <object>Kohde hylätty</object>
+      </resource>
+      <resource name="MetalItem">
+        <object>Metallikohde</object>
+      </resource>
+      <resource name="SeparatorSpaceError">
+        <object>Erotintilan virhe</object>
+      </resource>
+      <resource name="NoReachableBinError">
+        <object>Ei saavutettavaa säiliötä -virhe</object>
+      </resource>
+      <resource name="JobNotFound">
+        <object>Työtä ei löydy</object>
+      </resource>
+      <resource name="ItemTypeNotFound">
+        <object>Kohdetyyppiä ei löydy</object>
+      </resource>
+      <resource name="WeighingError">
+        <object>Punnitusvirhe</object>
+      </resource>
+      <resource name="NoVisionData">
+        <object>Ei näkötietoja</object>
+      </resource>
+      <resource name="GradeNotFound">
+        <object>Luokkaa ei löydy</object>
+      </resource>
+      <resource name="VisionConditionFail">
+        <object>Näköolosuhdevirhe</object>
+      </resource>
+      <resource name="BinNotFound">
+        <object>Säiliötä ei löydy</object>
+      </resource>
+      <resource name="RateControlError">
+        <object>Määrähallinnan virhe</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Ei järjestystä</object>
+      </resource>
+      <resource name="VisionDetectionError">
+        <object>Näkähavaitsemisen virhe</object>
+      </resource>
+      <resource name="RobotReadyError">
+        <object>Robotin valmiusvirhe</object>
+      </resource>
+      <resource name="RobotCapacityError">
+        <object>Robotin kapasiteettivirhe</object>
+      </resource>
+      <resource name="SeparatorGapError">
+        <object>Erotinvälin virhe</object>
+      </resource>
+      <resource name="StatisticalAllotmentTooBad">
+        <object>Tilastollinen jako liian huono</object>
+      </resource>
+      <resource name="OutsideLimitsError">
+        <object>Rajoitusten ulkopuolella -virhe</object>
+      </resource>
+      <resource name="PropertyMissingError">
+        <object>Ominaisuus puuttuu -virhe</object>
+      </resource>
+      <resource name="OtherRejects">
+        <object>Muut hylkäykset</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmFlowrate" ServiceOnly="false">
+      <resource name="KilogramsPerSecond">
+        <object>Kiloa sekunnissa</object>
+      </resource>
+      <resource name="TonsPerHour">
+        <object>Tonnia tunnissa</object>
+      </resource>
+      <resource name="PoundsPerHour">
+        <object>Paunaa tunnissa</object>
+      </resource>
+      <resource name="KilogramsPerMinute">
+        <object>Kiloa minuutissa</object>
+      </resource>
+      <resource name="KilogramsPerHour">
+        <object>Kiloa tunnissa</object>
+      </resource>
+      <resource name="PoundsPerSecond">
+        <object>Paunaa sekunnissa</object>
+      </resource>
+      <resource name="PoundsPerMinute">
+        <object>Paunaa minuutissa</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>Kappaletta minuutissa</object>
+      </resource>
+      <resource name="PiecesPerHour">
+        <object>Kappaletta tunnissa</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

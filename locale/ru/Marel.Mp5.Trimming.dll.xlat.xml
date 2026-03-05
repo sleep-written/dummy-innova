@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="ru">
+  <industry>
+    <type name="Marel.Mp5.Trimming.Configuration.StationInfeedStatus" ServiceOnly="false">
+      <resource name="Idle">
+        <object>Ожидание</object>
+      </resource>
+      <resource name="Working">
+        <object>Работает</object>
+      </resource>
+      <resource name="Requesting">
+        <object>Запрашивается</object>
+      </resource>
+      <resource name="Delivering">
+        <object>Доставляется</object>
+      </resource>
+      <resource name="Changeover">
+        <object>Перенастройка</object>
+      </resource>
+      <resource name="Clear">
+        <object>Очистить</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.QcMethod" ServiceOnly="false">
+      <resource name="None">
+        <object>Нет</object>
+      </resource>
+      <resource name="NormalQc">
+        <object>Нормальный</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Восстановление</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Data.TrimRType" ServiceOnly="false">
+      <resource name="Input">
+        <object>Вход</object>
+      </resource>
+      <resource name="Output">
+        <object>Выход</object>
+      </resource>
+      <resource name="Bypass">
+        <object>Обход</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Удалено</object>
+      </resource>
+      <resource name="NoSource">
+        <object>Нет источника</object>
+      </resource>
+      <resource name="NotHandled">
+        <object>Не обработан</object>
+      </resource>
+      <resource name="Missing">
+        <object>Отсутствует</object>
+      </resource>
+      <resource name="CopiedInput">
+        <object>Скопированный вход</object>
+      </resource>
+      <resource name="CopiedOutput">
+        <object>Скопированный выход</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Data.ProductCategory" ServiceOnly="false">
+      <resource name="RawMaterial">
+        <object>Вход</object>
+      </resource>
+      <resource name="Primary">
+        <object>Первичный</object>
+      </resource>
+      <resource name="Secondary">
+        <object>Вторичный</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>Третичный</object>
+      </resource>
+      <resource name="Waste">
+        <object>Потери</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.InspectionMode" ServiceOnly="false">
+      <resource name="Random">
+        <object>Случайные</object>
+      </resource>
+      <resource name="Planned">
+        <object>Плановые</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Возврат</object>
+      </resource>
+      <resource name="OperatorSelect">
+        <object>Выбор оператора</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.FallbackType" ServiceOnly="false">
+      <resource name="None">
+        <object>Нет</object>
+      </resource>
+      <resource name="Selected">
+        <object>Для выбранных продуктов</object>
+      </resource>
+      <resource name="Any">
+        <object>Для любых продуктов</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.SystemType" ServiceOnly="true">
+      <resource name="Standard">
+        <object>Стандартные</object>
+      </resource>
+      <resource name="Group">
+        <object>Группа станций</object>
+      </resource>
+      <resource name="Manual">
+        <object>Вручную</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.DeviceRole" ServiceOnly="true">
+      <resource name="NotSpecified">
+        <object>Не указано</object>
+      </resource>
+      <resource name="ProductInput">
+        <object>Вход продукта</object>
+      </resource>
+      <resource name="ProductOutput">
+        <object>Выход продукта</object>
+      </resource>
+      <resource name="SecondaryProductOutput">
+        <object>Secondary product output</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.BufferType" ServiceOnly="true">
+      <resource name="PeriodicSet">
+        <object>Периодический набор</object>
+      </resource>
+      <resource name="MpsPeriod">
+        <object>Периодический MPS</object>
+      </resource>
+      <resource name="MpsOperator">
+        <object>Оператор MPS</object>
+      </resource>
+      <resource name="Automatic">
+        <object>Автоматически</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.GateType" ServiceOnly="true">
+      <resource name="Simple">
+        <object>Простой</object>
+      </resource>
+      <resource name="Batching">
+        <object>Порционирование</object>
+      </resource>
+      <resource name="Grading">
+        <object>Сортировка</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Контроль качества</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.StationType" ServiceOnly="true">
+      <resource name="Infeed">
+        <object>Подача</object>
+      </resource>
+      <resource name="Trimming">
+        <object>Обрезка</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Контроль качества</object>
+      </resource>
+      <resource name="Packing">
+        <object>Фасовка</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Line.RoleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>Вход</object>
+      </resource>
+      <resource name="Output">
+        <object>Выход</object>
+      </resource>
+      <resource name="CopyInput">
+        <object>Копировать вход</object>
+      </resource>
+      <resource name="CopyOutput">
+        <object>Копировать выход</object>
+      </resource>
+      <resource name="Mixed">
+        <object>Смешанный</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

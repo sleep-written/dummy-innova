@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="cs">
+  <industry>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.AsyncOpScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Probíhá provádění operace</object>
+      </resource>
+      <resource name="Exception">
+        <object>Výjimka</object>
+      </resource>
+      <resource name="Error">
+        <object>Chyba</object>
+      </resource>
+      <resource name="Aborting">
+        <object>Probíhá zrušení...</object>
+      </resource>
+      <resource name="Retrying">
+        <object>Probíhá opakování akce...</object>
+      </resource>
+      <resource name="Wait">
+        <object>Počkejte...</object>
+      </resource>
+      <resource name="AbortKey">
+        <object>Zrušit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.CriteriaTaskScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Vybrat produkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.CutupTaskScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Manipulovat s kusem</object>
+      </resource>
+      <resource name="SRMCaption">
+        <object>KUS SRM</object>
+      </resource>
+      <resource name="OpsKey">
+        <object>Nastavení</object>
+      </resource>
+      <resource name="SkipKey">
+        <object>Přeskočit</object>
+      </resource>
+      <resource name="ExitKey">
+        <object>Ukončit</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+      <resource name="NoProduct">
+        <object>(Žádný produkt)</object>
+      </resource>
+      <resource name="NoBuffer">
+        <object>Žádný zásobník</object>
+      </resource>
+      <resource name="Ready">
+        <object>Připraven</object>
+      </resource>
+      <resource name="noTargetWeight">
+        <object>Žádný cíl</object>
+      </resource>
+      <resource name="ProcessingTime">
+        <object>Čas zpracování</object>
+      </resource>
+      <resource name="NoProcessingTime">
+        <object>Žádný cílový čas</object>
+      </resource>
+      <resource name="Seconds">
+        <object>sek.</object>
+      </resource>
+      <resource name="PerformanceKey">
+        <object>Předp.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.DeletePieceScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Vymazat kus?</object>
+      </resource>
+      <resource name="ConfirmDelete">
+        <object>Potvrďte vymazání: </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.ErrorScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Chyba</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.LoginScreen" ServiceOnly="false">
+      <resource name="StartKey">
+        <object>Start</object>
+      </resource>
+      <resource name="MsgKey">
+        <object>Zpr</object>
+      </resource>
+      <resource name="OpsKey">
+        <object>Nastavení</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.MessageScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Zpráva</object>
+      </resource>
+      <resource name="ClearKey">
+        <object>Vym</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.MovePieceScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Vyberte stanici</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.WarningScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Výstraha</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+      <resource name="NewPattern">
+        <object>Nový vzor: </object>
+      </resource>
+      <resource name="NewLot">
+        <object>Nová šarže: </object>
+      </resource>
+      <resource name="SRMWarning">
+        <object>Kus SRM</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.PieceFinishedScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Dokončeno</object>
+      </resource>
+      <resource name="StopKey">
+        <object>Stop</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+      <resource name="Finished">
+        <object>Kus je dokončen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.PiecesScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Vybrat kus</object>
+      </resource>
+      <resource name="OpsKey">
+        <object>Nastavení</object>
+      </resource>
+      <resource name="InfeedStopped">
+        <object>Zastavený vstup</object>
+      </resource>
+      <resource name="ReWeighModeActive">
+        <object>Zvážit všechny kusy</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.MissingPiecesScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Vybrat chybějící kus</object>
+      </resource>
+      <resource name="OpsKey">
+        <object>Nastavení</object>
+      </resource>
+      <resource name="InfeedStopped">
+        <object>Zastavený vstup</object>
+      </resource>
+      <resource name="Delete">
+        <object>Vymazat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.PieceTaskScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Kus</object>
+      </resource>
+      <resource name="SRMCaption">
+        <object>KUS SRM</object>
+      </resource>
+      <resource name="OpsKey">
+        <object>Nastavení</object>
+      </resource>
+      <resource name="SkipKey">
+        <object>Přeskočit</object>
+      </resource>
+      <resource name="ExitKey">
+        <object>Ukončit</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+      <resource name="NoBuffer">
+        <object>ŽádnýZásobník</object>
+      </resource>
+      <resource name="PerformanceKey">
+        <object>Předp.</object>
+      </resource>
+      <resource name="ProcessingTime">
+        <object>Cílový čas zpracování: </object>
+      </resource>
+      <resource name="NoProcessingTime">
+        <object>Žádný cílový čas zpracování</object>
+      </resource>
+      <resource name="Seconds">
+        <object>sek.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.QcScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Výsledky KJ</object>
+      </resource>
+      <resource name="noQcText">
+        <object>Žádné KJ pro zobrazení</object>
+      </resource>
+      <resource name="unknownItem">
+        <object>Neznámá položka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.RecentItemsScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Poslední položky</object>
+      </resource>
+      <resource name="PrintKey">
+        <object>Tisk</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.RecentPiecesScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Poslední kusy</object>
+      </resource>
+      <resource name="RestoreKey">
+        <object>Zbytek</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.StandardController" ServiceOnly="false">
+      <resource name="SelectOperation">
+        <object>Vybrat operaci</object>
+      </resource>
+      <resource name="SelectAlternateTask">
+        <object>Vybrat alternativní úkol</object>
+      </resource>
+      <resource name="SelectAlternateProduct">
+        <object>Vybrat alternativní produkt</object>
+      </resource>
+      <resource name="SelectReason">
+        <object>Vybrat příčinu</object>
+      </resource>
+      <resource name="ClosePack">
+        <object>Uzavřít balení</object>
+      </resource>
+      <resource name="Logout">
+        <object>Odhlásit se</object>
+      </resource>
+      <resource name="AssignId">
+        <object>Přiřadit zaměstnanci ID</object>
+      </resource>
+      <resource name="StopInfeed">
+        <object>Zastavit vstup</object>
+      </resource>
+      <resource name="StartInfeed">
+        <object>Spustit vstup</object>
+      </resource>
+      <resource name="DeletePiece">
+        <object>Vymazat kus</object>
+      </resource>
+      <resource name="MovePiece">
+        <object>Přesunout kus</object>
+      </resource>
+      <resource name="Performance">
+        <object>Zobrazit výkon</object>
+      </resource>
+      <resource name="QaPerformance">
+        <object>Zobrazit výkon KJ</object>
+      </resource>
+      <resource name="RecentPieces">
+        <object>Zobrazit poslední kusy</object>
+      </resource>
+      <resource name="RecentItems">
+        <object>Zobrazit poslední závěrečné položky</object>
+      </resource>
+      <resource name="ManualMode">
+        <object>Ruční režim</object>
+      </resource>
+      <resource name="AutoMode">
+        <object>Automatický režim</object>
+      </resource>
+      <resource name="AlternateTask">
+        <object>Změnit úlohu</object>
+      </resource>
+      <resource name="AlternateProduct">
+        <object>Změnit produkt</object>
+      </resource>
+      <resource name="GetChangeReason">
+        <object>Chyba při získávání změny nastavení příčiny</object>
+      </resource>
+      <resource name="InvalidItem">
+        <object>Neplatná položka</object>
+      </resource>
+      <resource name="ActiveInTaskGroups">
+        <object>Aktivní skupiny úkolů</object>
+      </resource>
+      <resource name="RawBufferWeight">
+        <object>Zobrazit váhu</object>
+      </resource>
+      <resource name="cutupDestination">
+        <object>Cíl: {0}</object>
+      </resource>
+      <resource name="noBufferForPiece">
+        <object>Žádný zásobník pro tento produkt</object>
+      </resource>
+      <resource name="ViewTrimBuffers">
+        <object>Zobrazit zásobníky odřezků</object>
+      </resource>
+      <resource name="EditPrinterStatus">
+        <object>Upravit stav tiskárny</object>
+      </resource>
+      <resource name="ViewAssociatedStationPieces">
+        <object>Zobrazit související kusy</object>
+      </resource>
+      <resource name="RecentPacks">
+        <object>Zobrazit poslední balení</object>
+      </resource>
+      <resource name="DisplayMissingPieces">
+        <object>Zobrazit chybějící kusy</object>
+      </resource>
+      <resource name="DisplayRegularPieces">
+        <object>Zobrazit pravidelné kusy</object>
+      </resource>
+      <resource name="MovePieceConfirmation">
+        <object>Výsledek přesunu kusu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.BatchScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Informace o dávce</object>
+      </resource>
+      <resource name="TerminateKey">
+        <object>Konec</object>
+      </resource>
+      <resource name="BatchProduct">
+        <object>Produkt : </object>
+      </resource>
+      <resource name="BatchTarget">
+        <object>Cíl  : </object>
+      </resource>
+      <resource name="BatchWeight">
+        <object>Hmotnost  : </object>
+      </resource>
+      <resource name="BatchCount">
+        <object>Počet   : </object>
+      </resource>
+      <resource name="LotCaption">
+        <object>Šarže     : </object>
+      </resource>
+      <resource name="OpsKey">
+        <object>Nastavení</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>Žádná aktivní dávka</object>
+      </resource>
+      <resource name="BatchProductHeader">
+        <object>Produkt</object>
+      </resource>
+      <resource name="BatchTargetHeader">
+        <object>Cíl</object>
+      </resource>
+      <resource name="BatchWeightHeader">
+        <object>Hm.</object>
+      </resource>
+      <resource name="BatchCountHeader">
+        <object>Poč.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.TrimBuffersScreen" ServiceOnly="false">
+      <resource name="NewTrimWarningCaption">
+        <object>Nové nastavení ořezávání</object>
+      </resource>
+      <resource name="TrimSetupCaption">
+        <object>Současné nastavení ořezávání</object>
+      </resource>
+      <resource name="DischargeKey">
+        <object>Shoz</object>
+      </resource>
+      <resource name="DischargeKeyAll">
+        <object>S.vše</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.AssociatedPiecesScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Vybrat kus</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.BaseTerminalController" ServiceOnly="false">
+      <resource name="SelectOperation">
+        <object>Vybrat operaci</object>
+      </resource>
+      <resource name="Logout">
+        <object>Odhlásit se</object>
+      </resource>
+      <resource name="AssignId">
+        <object>Přiřadit zaměstnanci ID</object>
+      </resource>
+      <resource name="ActiveInTaskGroups">
+        <object>Aktivní skupiny úkolů</object>
+      </resource>
+      <resource name="RawBufferWeight">
+        <object>Zobrazit váhu</object>
+      </resource>
+      <resource name="InvalidItem">
+        <object>Neplatná položka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.InputController" ServiceOnly="false">
+      <resource name="NoDeboningLotSelected">
+        <object>Není vybrána žádná vykosťovací šarže</object>
+      </resource>
+      <resource name="InputDestination">
+        <object>Cíl: {0}</object>
+      </resource>
+      <resource name="TooManyAnimalsFound">
+        <object>Nalezená zvířata: {0}</object>
+      </resource>
+      <resource name="NoAnimalFound">
+        <object>Žádná nalezená zvířata</object>
+      </resource>
+      <resource name="SystemError">
+        <object>Systémová chyba!</object>
+      </resource>
+      <resource name="CreateAnimalFailed">
+        <object>Chyba při vytváření zvířete</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.StandardInputScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Výstupní položka</object>
+      </resource>
+      <resource name="ManualModeKey">
+        <object>Ruční</object>
+      </resource>
+      <resource name="AutoModeKey">
+        <object>Auto</object>
+      </resource>
+      <resource name="SkipKey">
+        <object>Přeskočit</object>
+      </resource>
+      <resource name="ExitKey">
+        <object>Ukončit</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.ActiveInTaskGroupsScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Skupiny úkolů</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.RawBufferWeightScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Stav zásobníku</object>
+      </resource>
+      <resource name="ExitKey">
+        <object>Zpět</object>
+      </resource>
+      <resource name="noWeightReceived">
+        <object>Žádná hmotnost. Umístěte na váhu zátěž.</object>
+      </resource>
+      <resource name="TareKey">
+        <object>Tára</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.StandardPerformanceScreen" ServiceOnly="false">
+      <resource name="inputPiecesCap">
+        <object>Vst. ks:</object>
+      </resource>
+      <resource name="inputWeightCap">
+        <object>Vst. hm.:</object>
+      </resource>
+      <resource name="primaryWeightCap">
+        <object>Prim.hm.:</object>
+      </resource>
+      <resource name="primaryValueCap">
+        <object>Prim.hod.:</object>
+      </resource>
+      <resource name="qcInitialValue">
+        <object>Def/$W:</object>
+      </resource>
+      <resource name="inputPerfCap">
+        <object>Do hm.:</object>
+      </resource>
+      <resource name="outputPerfCap">
+        <object>P-do hm.:</object>
+      </resource>
+      <resource name="inputPcsPerfCap">
+        <object>Do ks.:</object>
+      </resource>
+      <resource name="outputPcsPerfCap">
+        <object>Ks/hod.:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.AssignPrintersScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Přiřadit tiskárny</object>
+      </resource>
+      <resource name="Printer1Label">
+        <object>Tiskárna 1: </object>
+      </resource>
+      <resource name="Printer2Label">
+        <object>Tiskárna 2: </object>
+      </resource>
+      <resource name="Printer3Label">
+        <object>Tiskárna 3: </object>
+      </resource>
+      <resource name="ClearKey">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="ChangeLegend">
+        <object>Změnit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.IdContainerScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Vybrat produkt</object>
+      </resource>
+      <resource name="LoadProductsFailed">
+        <object>Příprava produktů selhala</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.IdContainerInfoScreen" ServiceOnly="false">
+      <resource name="NewContainer">
+        <object>Nová</object>
+      </resource>
+      <resource name="AssignedContainer">
+        <object>Přiřazená</object>
+      </resource>
+      <resource name="Caption">
+        <object>Stav kontejneru</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+      <resource name="RfidCaption">
+        <object>RFID:</object>
+      </resource>
+      <resource name="MaterialCaption">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="StatusCaption">
+        <object>Stav:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.ScanItemTerminal" ServiceOnly="false">
+      <resource name="BarcodeLabel">
+        <object>Čárový kód:</object>
+      </resource>
+      <resource name="MessageLabel">
+        <object>Zpráva:</object>
+      </resource>
+      <resource name="ItemIDLabel">
+        <object>ID položky:</object>
+      </resource>
+      <resource name="MaterialLabel">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="ErrorParsing">
+        <object>Chyba při zpracování čárového kódu</object>
+      </resource>
+      <resource name="ItemNotFound">
+        <object>Položka nenalezena</object>
+      </resource>
+      <resource name="WeightUpdateOK">
+        <object>Aktualizace hmotnosti OK</object>
+      </resource>
+      <resource name="WeightUpdateFailed">
+        <object>Aktualizace hmotnosti selhala</object>
+      </resource>
+      <resource name="Caption">
+        <object>Skenovat položku</object>
+      </resource>
+      <resource name="LotLabel">
+        <object>Šarže:</object>
+      </resource>
+      <resource name="POLabel">
+        <object>Obj.:</object>
+      </resource>
+      <resource name="ProductionLotLabel">
+        <object>Výrobní šarže:</object>
+      </resource>
+      <resource name="RawMaterialAreaLabel">
+        <object>Oblast RM:</object>
+      </resource>
+      <resource name="BatchLabel">
+        <object>Dávka:</object>
+      </resource>
+      <resource name="OrderLabel">
+        <object>Objednávka:</object>
+      </resource>
+      <resource name="ProductionOrderLabel">
+        <object>Výrobní objednávka:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.InputScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Výstupní položka</object>
+      </resource>
+      <resource name="ManualModeKey">
+        <object>Ruční</object>
+      </resource>
+      <resource name="AutoModeKey">
+        <object>Auto</object>
+      </resource>
+      <resource name="SkipKey">
+        <object>Přeskočit</object>
+      </resource>
+      <resource name="ExitKey">
+        <object>Ukončit</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+      <resource name="CutPattern">
+        <object>Vzor řezu : </object>
+      </resource>
+      <resource name="Task">
+        <object>Úkol        : </object>
+      </resource>
+      <resource name="Product">
+        <object>Produkt     : </object>
+      </resource>
+      <resource name="AnimalSlaughterDay">
+        <object>Porážka     : </object>
+      </resource>
+      <resource name="AnimalIdCode">
+        <object>ID kód     : </object>
+      </resource>
+      <resource name="AnimalSlaughterCode">
+        <object>Kód porážky    : </object>
+      </resource>
+      <resource name="RFID">
+        <object>RFID        : </object>
+      </resource>
+      <resource name="Animal">
+        <object>Zvíře      : </object>
+      </resource>
+      <resource name="NoPattern">
+        <object>(Žádný vzor řezu)</object>
+      </resource>
+      <resource name="NoTask">
+        <object>(Žádný úkol)</object>
+      </resource>
+      <resource name="AnimalOk">
+        <object>Zvíře OK</object>
+      </resource>
+      <resource name="NoAnimal">
+        <object>Žádné zvíře</object>
+      </resource>
+      <resource name="Ready">
+        <object>Připraven</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.CreateAnimalScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Vytvořit zvíře</object>
+      </resource>
+      <resource name="SlaughterDay">
+        <object>Porážka  : </object>
+      </resource>
+      <resource name="IdCode">
+        <object>ID kód        : </object>
+      </resource>
+      <resource name="SlaughterCode">
+        <object>Kód porážky : </object>
+      </resource>
+      <resource name="GreenWeight">
+        <object>Živá hmotnost   : </object>
+      </resource>
+      <resource name="ColdWeight">
+        <object>Hm. po porážce    : </object>
+      </resource>
+      <resource name="OrginalWeight">
+        <object>Původní hmotnost  : </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.FindPieceScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Najít kus</object>
+      </resource>
+      <resource name="Number">
+        <object>Číslo:</object>
+      </resource>
+      <resource name="PieceNotFound">
+        <object>Kus nenalezen</object>
+      </resource>
+      <resource name="Error">
+        <object>Při hledání kusu došlo k chybě</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

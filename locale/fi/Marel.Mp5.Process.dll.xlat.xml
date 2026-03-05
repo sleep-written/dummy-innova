@@ -1,0 +1,1977 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fi">
+  <industry>
+    <type name="Marel.Mp5.Process.Process.LineType" ServiceOnly="true">
+      <resource name="ProcessUnit">
+        <object>Käsittely-yksikkö</object>
+      </resource>
+      <resource name="BasicLine">
+        <object>Linja</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanType" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Ei suunnitelmaa</object>
+      </resource>
+      <resource name="ContextPlan">
+        <object>Yleinen suunnitelma</object>
+      </resource>
+      <resource name="SplitPlan">
+        <object>Jaettu suunnitelma</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessState" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="NoWork">
+        <object>Vapaatunnit</object>
+      </resource>
+      <resource name="Running">
+        <object>Käynnissä</object>
+      </resource>
+      <resource name="Idle">
+        <object>Vapaa</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Pysäytetty</object>
+      </resource>
+      <resource name="Breakdown">
+        <object>Vika</object>
+      </resource>
+      <resource name="NotProgrammed">
+        <object>Ei ohjelmoitu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessCounterType" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Ei käytössä</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Käsittely-yksikköä kohti</object>
+      </resource>
+      <resource name="Line">
+        <object>Linjaa kohti</object>
+      </resource>
+      <resource name="Section">
+        <object>Osaa kohti</object>
+      </resource>
+      <resource name="Department">
+        <object>Osastoa kohti</object>
+      </resource>
+      <resource name="Site">
+        <object>Paikkaa kohti</object>
+      </resource>
+      <resource name="Station">
+        <object>Asemaa kohti</object>
+      </resource>
+      <resource name="StationGroup">
+        <object>Asemaryhmää kohti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.AutoManual" ServiceOnly="true">
+      <resource name="Automatic">
+        <object>Automaattinen</object>
+      </resource>
+      <resource name="Manual">
+        <object>Manuaalinen</object>
+      </resource>
+      <resource name="AllowManual">
+        <object>Salli manuaalinen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessPeriodType" ServiceOnly="true">
+      <resource name="Daily">
+        <object>Päivittäin</object>
+      </resource>
+      <resource name="OnActivity">
+        <object>Toiminnon muutoksen yhteydessä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextSelect" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Ei käytössä</object>
+      </resource>
+      <resource name="Direct">
+        <object>Vaihda suoraan</object>
+      </resource>
+      <resource name="DirectAssigned">
+        <object>Vaihda suoraan, käytä määritettyjä kohteita</object>
+      </resource>
+      <resource name="DirectStopped">
+        <object>Vaihda suoraan pysäytettäessä</object>
+      </resource>
+      <resource name="DirectAssignedStopped">
+        <object>Vaihda suoraan pysäytettäessä, käytä määritettyjä kohteita</object>
+      </resource>
+      <resource name="Pending">
+        <object>Aloita odottava</object>
+      </resource>
+      <resource name="PendingAssigned">
+        <object>Aloita odottava, käytä määritettyjä kohteita</object>
+      </resource>
+      <resource name="PendingStopped">
+        <object>Aloita odottava pysäytettäessä</object>
+      </resource>
+      <resource name="PendingAssignedStopped">
+        <object>Aloita odottava pysäytettäessä, käytä määritettyjä kohteita</object>
+      </resource>
+      <resource name="ForwardPending">
+        <object>Salli vain odottavien edelleenlähetys</object>
+      </resource>
+      <resource name="ForwardDirect">
+        <object>Salli vain suora edelleenlähetys</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanMethod" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Ei suunnitelmaa</object>
+      </resource>
+      <resource name="Relaxed">
+        <object>Rauhallinen</object>
+      </resource>
+      <resource name="NoSequence">
+        <object>Tiukka, ei jakso</object>
+      </resource>
+      <resource name="Sequence">
+        <object>Tiukka, jaksossa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextType" ServiceOnly="true">
+      <resource name="NoContext">
+        <object>Ei kontekstia</object>
+      </resource>
+      <resource name="LocalApplication">
+        <object>Sovellus</object>
+      </resource>
+      <resource name="LocalSystem">
+        <object>Järjestelmä</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Käsittely-yksikkö</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.SystemType" ServiceOnly="false">
+      <resource name="Other">
+        <object>Muu</object>
+      </resource>
+      <resource name="Species">
+        <object>Laji</object>
+      </resource>
+      <resource name="Section">
+        <object>Osa</object>
+      </resource>
+      <resource name="Input">
+        <object>Syöttö</object>
+      </resource>
+      <resource name="Primary">
+        <object>Ensisijainen </object>
+      </resource>
+      <resource name="Secondary">
+        <object>Toissijainen</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>Tertiäärinen</object>
+      </resource>
+      <resource name="Waste">
+        <object>Jäte</object>
+      </resource>
+      <resource name="Fat">
+        <object>Rasva</object>
+      </resource>
+      <resource name="Bones">
+        <object>Luut</object>
+      </resource>
+      <resource name="Skin">
+        <object>Nahka</object>
+      </resource>
+      <resource name="Offal">
+        <object>Sisäelimet</object>
+      </resource>
+      <resource name="Ingredient">
+        <object>Ainesosa</object>
+      </resource>
+      <resource name="Packaging">
+        <object>Pakkaus</object>
+      </resource>
+      <resource name="PieceType">
+        <object>Kappaletyyppi</object>
+      </resource>
+      <resource name="ColorType">
+        <object>Väri</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoDeliveryStatus" ServiceOnly="false">
+      <resource name="NotOrdered">
+        <object>Ei järjestetty</object>
+      </resource>
+      <resource name="InStorage">
+        <object>Varastossa</object>
+      </resource>
+      <resource name="EnRoute">
+        <object>Matkalla</object>
+      </resource>
+      <resource name="Receiving">
+        <object>Vastaanotto, ei saatavissa</object>
+      </resource>
+      <resource name="ReceivingAvailable">
+        <object>Vastaanotto, saatavissa</object>
+      </resource>
+      <resource name="Holding">
+        <object>Pidossa</object>
+      </resource>
+      <resource name="Available">
+        <object>Saatavissa</object>
+      </resource>
+      <resource name="Completed">
+        <object>Suoritettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.PrivateObjectType" ServiceOnly="false">
+      <resource name="Mateial">
+        <object>Tuote</object>
+      </resource>
+      <resource name="Customer">
+        <object>Asiakas</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Tilauslinja</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.CountMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Hyväksy kaikki</object>
+      </resource>
+      <resource name="Range">
+        <object>Vähintään ja enintään</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextColumn" ServiceOnly="false">
+      <resource name="Activity">
+        <object>Toiminto</object>
+      </resource>
+      <resource name="Po">
+        <object>Ostotilaus</object>
+      </resource>
+      <resource name="Batch">
+        <object>Sarja</object>
+      </resource>
+      <resource name="Lot">
+        <object>Erä</object>
+      </resource>
+      <resource name="Plot">
+        <object>Tuotantoerä</object>
+      </resource>
+      <resource name="Rmarea">
+        <object>Resurssialue</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Pidossa</object>
+      </resource>
+      <resource name="Available">
+        <object>Saatavissa</object>
+      </resource>
+      <resource name="Completed">
+        <object>Suoritettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotRecord" ServiceOnly="false">
+      <resource name="AutoName">
+        <object>Erä</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>L</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.YieldGroupRecord" ServiceOnly="true">
+      <resource name="AutoName">
+        <object>Tuottoryhmä</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>Y</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.ChainType" ServiceOnly="true">
+      <resource name="TracePo">
+        <object>Seuraa ostotilauksia</object>
+      </resource>
+      <resource name="TraceBatch">
+        <object>Seuraa sarjojen numeroita</object>
+      </resource>
+      <resource name="TraceLot">
+        <object>Seuraa eriä</object>
+      </resource>
+      <resource name="TracePack">
+        <object>Seuraa pakkauksia</object>
+      </resource>
+      <resource name="TraceCollection">
+        <object>Seuraa kokoelmaa</object>
+      </resource>
+      <resource name="TraceInterval">
+        <object>Seuraa ajan perusteella</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.UnitStatus" ServiceOnly="true">
+      <resource name="PendingAuto">
+        <object>Odottaa automaattista käynnistystä</object>
+      </resource>
+      <resource name="PendingManual">
+        <object>Odottaa manuaalista käynnistystä</object>
+      </resource>
+      <resource name="Active">
+        <object>Yksikkö aktiivinen</object>
+      </resource>
+      <resource name="Ending">
+        <object>Yksikkö päättymässä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.TransactionType" ServiceOnly="true">
+      <resource name="UnitSchedule">
+        <object>Yksikkö ajoitettu</object>
+      </resource>
+      <resource name="UnitStart">
+        <object>Yksikkö aloitettu</object>
+      </resource>
+      <resource name="UnitEnd">
+        <object>Yksikkö lopetettu</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Pidossa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.TransferStatus" ServiceOnly="false">
+      <resource name="NoTransfer">
+        <object>Ei siirtoa</object>
+      </resource>
+      <resource name="ReadyForTransfer">
+        <object>Siirto valmis</object>
+      </resource>
+      <resource name="TransferComplete">
+        <object>Siirto suoritettu</object>
+      </resource>
+      <resource name="TransferReceive">
+        <object>Siirtomääräys vastaanotettu</object>
+      </resource>
+      <resource name="TransferInProgress">
+        <object>Siirto käynnissä</object>
+      </resource>
+      <resource name="TransferError">
+        <object>Siirtovirhe</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderLineStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Suljettu</object>
+      </resource>
+      <resource name="Open">
+        <object>Avoin</object>
+      </resource>
+      <resource name="Complete">
+        <object>Suoritettu</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Peruutettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AssignType" ServiceOnly="false">
+      <resource name="All">
+        <object>Salli kaikki</object>
+      </resource>
+      <resource name="Production">
+        <object>Salli tuotanto</object>
+      </resource>
+      <resource name="Direct">
+        <object>Salli suora</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintObjectType" ServiceOnly="false">
+      <resource name="Inventory">
+        <object>Varasto</object>
+      </resource>
+      <resource name="Po">
+        <object>Ostotilaus</object>
+      </resource>
+      <resource name="Supplier">
+        <object>Toimittaja</object>
+      </resource>
+      <resource name="Site">
+        <object>Paikka</object>
+      </resource>
+      <resource name="Category">
+        <object>Luokka</object>
+      </resource>
+      <resource name="SectionType">
+        <object>Osatyyppi</object>
+      </resource>
+      <resource name="BornIn">
+        <object>Syntymäpaikka:</object>
+      </resource>
+      <resource name="RaisedIn">
+        <object>Kasvatuspaikka:</object>
+      </resource>
+      <resource name="FatClass">
+        <object>Rasvaluokka:</object>
+      </resource>
+      <resource name="Lot">
+        <object>Erä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintType" ServiceOnly="false">
+      <resource name="OnlyFrom">
+        <object>Vain kohteesta</object>
+      </resource>
+      <resource name="NotFrom">
+        <object>Ei kohteesta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ProcessAssignType" ServiceOnly="false">
+      <resource name="Fixed">
+        <object>Kiinteä</object>
+      </resource>
+      <resource name="Regular">
+        <object>Väliaikainen</object>
+      </resource>
+      <resource name="Planned">
+        <object>Suunniteltu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.ForwardType" ServiceOnly="true">
+      <resource name="NoForward">
+        <object>Ei edelleenlähetystä</object>
+      </resource>
+      <resource name="ForwardAll">
+        <object>Lähetä kaikki edelleen</object>
+      </resource>
+      <resource name="ForwardActivity">
+        <object>Lähetä toiminto edelleen</object>
+      </resource>
+      <resource name="ForwardPo">
+        <object>Lähetä PO edelleen</object>
+      </resource>
+      <resource name="ForwardBatch">
+        <object>Lähetä sarja edelleen</object>
+      </resource>
+      <resource name="ForwardLot">
+        <object>Lähetä erä edelleen</object>
+      </resource>
+      <resource name="ForwardPlot">
+        <object>Lähetä tuotantoerä edelleen</object>
+      </resource>
+      <resource name="ForwardRmarea">
+        <object>Lähetä resurssialue edelleen</object>
+      </resource>
+      <resource name="ForwardShift">
+        <object>Lähetä vuoro edelleen</object>
+      </resource>
+      <resource name="ForwardProfileId">
+        <object>Lähetä profiilijakso edelleen</object>
+      </resource>
+      <resource name="ForwardPrday">
+        <object>Lähetä tuotantopäivä edelleen</object>
+      </resource>
+      <resource name="AssignPo">
+        <object>Määritä PO</object>
+      </resource>
+      <resource name="AssignLot">
+        <object>Määritä erä</object>
+      </resource>
+      <resource name="AssignPlot">
+        <object>Määritä tuotantoerä</object>
+      </resource>
+      <resource name="AssignRmarea">
+        <object>Määritä resurssialue</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Ei aloitettu</object>
+      </resource>
+      <resource name="Active">
+        <object>Aktiivinen</object>
+      </resource>
+      <resource name="Completed">
+        <object>Suoritettu</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Pidossa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineType" ServiceOnly="false">
+      <resource name="ContextPlan">
+        <object>Kontekstisuunnitelma</object>
+      </resource>
+      <resource name="ActivityPlan">
+        <object>Toiminto</object>
+      </resource>
+      <resource name="PoPlan">
+        <object>PO</object>
+      </resource>
+      <resource name="BatchPlan">
+        <object>Sarja</object>
+      </resource>
+      <resource name="LotPlan">
+        <object>Erä</object>
+      </resource>
+      <resource name="PlotPlan">
+        <object>Tuotantoerä</object>
+      </resource>
+      <resource name="RmareaPlan">
+        <object>Resurssialue</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.InventoryType" ServiceOnly="false">
+      <resource name="Itemized">
+        <object>Yksikkövarasto</object>
+      </resource>
+      <resource name="Container">
+        <object>Astiavarasto</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Varasto kohteisiin jakamatta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationStatus" ServiceOnly="false">
+      <resource name="Empty">
+        <object>Tyhjä</object>
+      </resource>
+      <resource name="Filling">
+        <object>Täytetään</object>
+      </resource>
+      <resource name="Full">
+        <object>Täynnä</object>
+      </resource>
+      <resource name="Emptying">
+        <object>Tyhjennetään</object>
+      </resource>
+      <resource name="ConfirmEmpty">
+        <object>Vahvista tyhjä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationUse" ServiceOnly="true">
+      <resource name="NoLocations">
+        <object>Ei sijainteja</object>
+      </resource>
+      <resource name="AllowLocations">
+        <object>Salli sijainnit</object>
+      </resource>
+      <resource name="UseLocations">
+        <object>Käytä sijainteja</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.BlockType" ServiceOnly="true">
+      <resource name="NoBlock">
+        <object>Ei estetty</object>
+      </resource>
+      <resource name="HardwareBlock">
+        <object>Laitteistoesto</object>
+      </resource>
+      <resource name="OperatorBlock">
+        <object>Käyttäjäesto</object>
+      </resource>
+      <resource name="HwOpBlock">
+        <object>Laitteisto- ja käyttäjäesto</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PrdayStart" ServiceOnly="true">
+      <resource name="NotStarted">
+        <object>Ei aloitettu</object>
+      </resource>
+      <resource name="Automatic">
+        <object>Aloitettu automaattisesti</object>
+      </resource>
+      <resource name="Manual">
+        <object>Aloitettu manuaalisesti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CheckStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="OkOverTarget">
+        <object>OK, yli tavoitteen</object>
+      </resource>
+      <resource name="OkOnTarget">
+        <object>OK, tavoitteessa</object>
+      </resource>
+      <resource name="OkUnderTarget">
+        <object>OK, alle tavoitteen</object>
+      </resource>
+      <resource name="OkT1">
+        <object>OK, alle T1:n</object>
+      </resource>
+      <resource name="RejectOver">
+        <object>Hylätty, yli tavoitteen</object>
+      </resource>
+      <resource name="RejectT1">
+        <object>Hylätty, yli T1:n</object>
+      </resource>
+      <resource name="RejectT2">
+        <object>Hylätty, alle T1:n</object>
+      </resource>
+      <resource name="RejectUnder">
+        <object>Alipainohylkäys</object>
+      </resource>
+      <resource name="RejectMetal">
+        <object>Metallihylkäys</object>
+      </resource>
+      <resource name="RejectLabel">
+        <object>Etikettihylkäys</object>
+      </resource>
+      <resource name="RejectQa">
+        <object>Laadunvalvontahylkäys</object>
+      </resource>
+      <resource name="RejectOther">
+        <object>Muu hylkäys</object>
+      </resource>
+      <resource name="RejectNoWeight">
+        <object>Ei painoa</object>
+      </resource>
+      <resource name="RejectInvalid">
+        <object>Tuntematon yksikkö</object>
+      </resource>
+      <resource name="RejectPackaging">
+        <object>Pakkaus ei ole saatavissa</object>
+      </resource>
+      <resource name="RejectMissing">
+        <object>Pakkaus puuttuu</object>
+      </resource>
+      <resource name="RejectNoConnection">
+        <object>Laite offline-tilassa</object>
+      </resource>
+      <resource name="UnusedSeperatorSpace">
+        <object>Erotintilan virhe</object>
+      </resource>
+      <resource name="UnusedNoJob">
+        <object>Työtä ei löydy</object>
+      </resource>
+      <resource name="UnusedNoItemType">
+        <object>Kohdetyyppiä ei löydy</object>
+      </resource>
+      <resource name="UnusedWeighingError">
+        <object>Punnitusvirhe</object>
+      </resource>
+      <resource name="UnusedNoVisionData">
+        <object>Ei näkötietoja</object>
+      </resource>
+      <resource name="UnusedNoGrade">
+        <object>Luokkaa ei löydy</object>
+      </resource>
+      <resource name="UnusedVisionCondition">
+        <object>Näköolosuhdevirhe</object>
+      </resource>
+      <resource name="UnusedNoGate">
+        <object>Porttia ei löydy.</object>
+      </resource>
+      <resource name="UnusedRateError">
+        <object>Määrähallinnan virhe</object>
+      </resource>
+      <resource name="UnusedNoOrder">
+        <object>Tilausta ei löydy</object>
+      </resource>
+      <resource name="UnusedSeperatorGap">
+        <object>Erotinvälin virhe</object>
+      </resource>
+      <resource name="UnusedBadStatisticalAllotment">
+        <object>Tilastollinen jako liian huono</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Kohde</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Poista</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Pakattu</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Käytetty</object>
+      </resource>
+      <resource name="Returned">
+        <object>Palautettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.AssignStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Avaa</object>
+      </resource>
+      <resource name="OpenManual">
+        <object>Avaa toiminnoille</object>
+      </resource>
+      <resource name="Closed">
+        <object>Suljettu</object>
+      </resource>
+      <resource name="ClosedManual">
+        <object>Manuaalisesti suljettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Pakkaus</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Kohteisiin jakamaton</object>
+      </resource>
+      <resource name="Pending">
+        <object>Odottaa</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Poistettu</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Virheellinen</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Pakattu</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Käytetty</object>
+      </resource>
+      <resource name="Returned">
+        <object>Palautettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Kokoelma</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Poistettu</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Käytetty</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.BomRType" ServiceOnly="false">
+      <resource name="None">
+        <object>Ei mitään</object>
+      </resource>
+      <resource name="Input">
+        <object>Syöttö</object>
+      </resource>
+      <resource name="Output">
+        <object>Tuotto</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Luotu</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Varastoon</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Varastosta</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Tilaukseen</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Tilauksesta</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Kokoelmaan</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Kokoelmasta</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Poistettu</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Käytetty</object>
+      </resource>
+      <resource name="ConsumedPartial">
+        <object>Osittain käytetty</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Käyttöä vähennetty</object>
+      </resource>
+      <resource name="DeConsumedPartial">
+        <object>Käyttöä osittain vähennetty</object>
+      </resource>
+      <resource name="Returned">
+        <object>Palautettu</object>
+      </resource>
+      <resource name="Opened">
+        <object>Avattu</object>
+      </resource>
+      <resource name="Closed">
+        <object>Suljettu</object>
+      </resource>
+      <resource name="Received">
+        <object>Palautettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Luotu</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Varastoon</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Varastosta</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Tilaukseen</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Tilauksesta</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Kokoelmaan</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Kokoelmasta</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Poistettu</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Käytetty</object>
+      </resource>
+      <resource name="Opened">
+        <object>Avattu</object>
+      </resource>
+      <resource name="Closed">
+        <object>Suljettu</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Käyttöä vähennetty</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.MatxferRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Siirto</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Poistettu</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Virheellinen</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Pakattu</object>
+      </resource>
+      <resource name="Yield">
+        <object>Tuotto</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Käänteinen</object>
+      </resource>
+      <resource name="Generated">
+        <object>Luotu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.TimeRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Aika</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Loma</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Poistettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.AccessLogRType" ServiceOnly="false">
+      <resource name="Granted">
+        <object>Käyttöoikeus myönnetty</object>
+      </resource>
+      <resource name="NotInGroup">
+        <object>Ei käyttöryhmässä</object>
+      </resource>
+      <resource name="NotAtThisTime">
+        <object>Virheellinen käyttöaika</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>Virheellinen tunnus</object>
+      </resource>
+      <resource name="IsIn">
+        <object>Jo sisällä</object>
+      </resource>
+      <resource name="IsOut">
+        <object>Jo ulkona</object>
+      </resource>
+      <resource name="TimeReg">
+        <object>Aikarekisteröinti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ContainerRType" ServiceOnly="false">
+      <resource name="Assign">
+        <object>Yksikkö määritetty</object>
+      </resource>
+      <resource name="Position">
+        <object>Sijaintimuutos</object>
+      </resource>
+      <resource name="DeAssign">
+        <object>Yksikön määritys peruutettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationClass" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="CreateItem">
+        <object>Luo kohde</object>
+      </resource>
+      <resource name="CreatePack">
+        <object>Luo pakkaus</object>
+      </resource>
+      <resource name="Item">
+        <object>Kohdetoiminto</object>
+      </resource>
+      <resource name="Pack">
+        <object>Pakkaustoiminto</object>
+      </resource>
+      <resource name="IdContainer">
+        <object>Astiatoiminto</object>
+      </resource>
+      <resource name="Stack">
+        <object>Pinotoiminto</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Kuormalavatoiminto</object>
+      </resource>
+      <resource name="Container">
+        <object>Konttitoiminto</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Kuljetuserätoiminto</object>
+      </resource>
+      <resource name="CreateCollection">
+        <object>Luo kokoelma</object>
+      </resource>
+      <resource name="CreateTransaction">
+        <object>Luo tapahtuma</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Varastotoiminto</object>
+      </resource>
+      <resource name="Order">
+        <object>Tilaustoiminto</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Tilauslinjatoiminto</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderType" ServiceOnly="true">
+      <resource name="Login">
+        <object>Kirjaudu sisään</object>
+      </resource>
+      <resource name="LoginAndAccess">
+        <object>Kirjaudu sisään ja käytä hallintatoimintoja</object>
+      </resource>
+      <resource name="Logout">
+        <object>Kirjaudu ulos</object>
+      </resource>
+      <resource name="LogoutAndExit">
+        <object>Kirjaudu ulos ja poistu hallintatoiminnoista</object>
+      </resource>
+      <resource name="AccessControl">
+        <object>Käyttöoikeuksien hallinta</object>
+      </resource>
+      <resource name="SignalOut">
+        <object>Signaalilähtö</object>
+      </resource>
+      <resource name="RegisterId">
+        <object>Rekisteritunnus</object>
+      </resource>
+      <resource name="ExitControl">
+        <object>Poistu hallinnasta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderLogging" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Ei kirjaamista</object>
+      </resource>
+      <resource name="LogAccess">
+        <object>Kirjaa käyttö</object>
+      </resource>
+      <resource name="LogUse">
+        <object>Kirjaa kaikki käyttö</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Costing.CostBase" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="PerDay">
+        <object>Kiinteä päivää kohti</object>
+      </resource>
+      <resource name="PerInput">
+        <object>Raaka-aineyksikköä kohti</object>
+      </resource>
+      <resource name="PerOutput">
+        <object>Tuotantoyksikköä kohti</object>
+      </resource>
+      <resource name="PerRuntime">
+        <object>Käyttöajan tuntia kohti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.ExpiryReferenceDate" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Tuotantopäivä</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Rekisteröintiaika</object>
+      </resource>
+      <resource name="PoFirstDay">
+        <object>PO, ensimmäinen kiinniottopäivä</object>
+      </resource>
+      <resource name="PoLastDay">
+        <object>PO, viimeinen kiinniottopäivä</object>
+      </resource>
+      <resource name="PoDeliveryTime">
+        <object>PO, toimitusaika</object>
+      </resource>
+      <resource name="PoCatchDay">
+        <object>PO, kiinniottopäivä</object>
+      </resource>
+      <resource name="OrderPoFirstDay">
+        <object>Tilauksen PO, ensimmäinen kiinniottopäivä</object>
+      </resource>
+      <resource name="OrderPoLastDay">
+        <object>Tilauksen PO, viimeinen kiinniottopäivä</object>
+      </resource>
+      <resource name="OrderPoDeliveryTime">
+        <object>Tilauksen PO, toimitusaika</object>
+      </resource>
+      <resource name="OrderPoCatchDay">
+        <object>Tilauksen PO, kiinniottopäivä</object>
+      </resource>
+      <resource name="Custom">
+        <object>Mukautettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyContextType" ServiceOnly="true">
+      <resource name="TargetSource">
+        <object>Tavoitteen polun lähde</object>
+      </resource>
+      <resource name="TargetDestination">
+        <object>Tavoitteen polun kohde</object>
+      </resource>
+      <resource name="CopySource">
+        <object>Kopio polun lähde</object>
+      </resource>
+      <resource name="CopyDestination">
+        <object>Kopioi polun kohde</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyMethod" ServiceOnly="true">
+      <resource name="Add">
+        <object>Lisää</object>
+      </resource>
+      <resource name="Subtract">
+        <object>Vähennä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PackRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Ei tallennusta</object>
+      </resource>
+      <resource name="Instance">
+        <object>Tallenna kukin pakkaus</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PathRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Ei tallennusta</object>
+      </resource>
+      <resource name="Instance">
+        <object>Tallenna kukin tapahtuma</object>
+      </resource>
+      <resource name="Periodic">
+        <object>Tallenna säännöllisesti</object>
+      </resource>
+      <resource name="Update">
+        <object>Päivitä yksi tietue</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.SelectRuleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>Syöttövalinta</object>
+      </resource>
+      <resource name="Output">
+        <object>Tuottovalinta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.PlotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Pidossa</object>
+      </resource>
+      <resource name="Available">
+        <object>Saatavissa</object>
+      </resource>
+      <resource name="Completed">
+        <object>Suoritettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.ContextSource" ServiceOnly="true">
+      <resource name="Reference">
+        <object>Automaattinen</object>
+      </resource>
+      <resource name="Source">
+        <object>Lähde</object>
+      </resource>
+      <resource name="Destination">
+        <object>Kohde</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.Result" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Toimintoa ei tueta</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>Käsittely-yksikön tiedot puuttuvat</object>
+      </resource>
+      <resource name="NoMaterial">
+        <object>Materiaalitiedot puuttuvat</object>
+      </resource>
+      <resource name="NoProcessPeriod">
+        <object>Käsittelyjakson tiedot puuttuvat</object>
+      </resource>
+      <resource name="NoProductionDay">
+        <object>Tuotantopäivän tiedot puuttuvat</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Tapahtui tietokantavirhe</object>
+      </resource>
+      <resource name="NoSSCC">
+        <object>Yrityksen sarjatoimitusyksikkökooditiedot (SSCC) puuttuvat</object>
+      </resource>
+      <resource name="CreateSSCC">
+        <object>Sarjatoimitusyksikkökoodia ei voitu luoda, etuliite saattaa olla virheellinen</object>
+      </resource>
+      <resource name="HasOrder">
+        <object>Yksikkö on määritetty tilaukseen</object>
+      </resource>
+      <resource name="InStack">
+        <object>Yksikkö on määritetty pinoon</object>
+      </resource>
+      <resource name="OnPallet">
+        <object>Yksikkö on määritetty kuormalavaan</object>
+      </resource>
+      <resource name="InContainer">
+        <object>Yksikkö on määritetty konttiin</object>
+      </resource>
+      <resource name="InShipment">
+        <object>Yksikkö on määritetty kuljetuserään</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Ei soveltuvaa tilausta</object>
+      </resource>
+      <resource name="IterationTransaction">
+        <object>Tapahtumaa ei sallita toistossa</object>
+      </resource>
+      <resource name="NoCreateCount">
+        <object>Yksiköiden määrä puuttuu</object>
+      </resource>
+      <resource name="XmlParse">
+        <object>XML:ää ei voitu jäsentää</object>
+      </resource>
+      <resource name="NoStation">
+        <object>Asematiedot puuttuvat</object>
+      </resource>
+      <resource name="NoPo">
+        <object>Ostotilaustiedot puuttuvat</object>
+      </resource>
+      <resource name="NoPlot">
+        <object>Tuotantoerätiedot puuttuvat</object>
+      </resource>
+      <resource name="NoCurrentPack">
+        <object>Ei nykyistä pakkausta</object>
+      </resource>
+      <resource name="Conversion">
+        <object>Merkkijonon muuntaminen arvoksi epäonnistui</object>
+      </resource>
+      <resource name="OrderNotFound">
+        <object>Tilausta ei voitu ladata tietokannasta</object>
+      </resource>
+      <resource name="MaterialNotFound">
+        <object>Materiaalia ei voitu ladata tietokannasta</object>
+      </resource>
+      <resource name="UnitType">
+        <object>Virheellinen yksikkötyyppi toiminnolle</object>
+      </resource>
+      <resource name="OperationLoad">
+        <object>Toimintoa ei voitu ladata tietokannasta</object>
+      </resource>
+      <resource name="NoPack">
+        <object>Pakkaustiedot puuttuvat</object>
+      </resource>
+      <resource name="NoSite">
+        <object>Paikkatiedot puuttuvat</object>
+      </resource>
+      <resource name="Configuration">
+        <object>Virheellinen toimintomääritys</object>
+      </resource>
+      <resource name="InvalidScope">
+        <object>Virheellinen yksikköhaun laajuus</object>
+      </resource>
+      <resource name="NoStack">
+        <object>Pinotiedot puuttuvat</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>Kuormalavatiedot puuttuvat</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>Kokoelman tila ei salli toimintoa</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>Kokoelmatiedot puuttuvat</object>
+      </resource>
+      <resource name="NotInStack">
+        <object>Yksikkö ei ole pinossa</object>
+      </resource>
+      <resource name="NotOnPallet">
+        <object>Yksikkö ei ole kuormalavassa</object>
+      </resource>
+      <resource name="NotInContainer">
+        <object>Yksikkö ei ole kontissa</object>
+      </resource>
+      <resource name="NotInShipment">
+        <object>Yksikkö ei ole kuljetuserässä</object>
+      </resource>
+      <resource name="NoInventory">
+        <object>Varastotiedot puuttuvat</object>
+      </resource>
+      <resource name="NoItem">
+        <object>Kohdetiedot puuttuvat</object>
+      </resource>
+      <resource name="NoOrderLine">
+        <object>Tilauslinjatiedot puuttuvat</object>
+      </resource>
+      <resource name="Transaction">
+        <object>Tapahtumavirhe</object>
+      </resource>
+      <resource name="NotInventory">
+        <object>Määritetty käsittely-yksikkö ei ole varastossa</object>
+      </resource>
+      <resource name="InventoryReject">
+        <object>Varasto ei hyväksynyt yksikköä</object>
+      </resource>
+      <resource name="OnInventory">
+        <object>Yksikkö on jo varastossa</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>Yksikkö ei ole varastossa</object>
+      </resource>
+      <resource name="UnitStatus">
+        <object>Yksikön tila ei salli toimintoa</object>
+      </resource>
+      <resource name="NoContainer">
+        <object>Konttitiedot puuttuvat</object>
+      </resource>
+      <resource name="NoShipment">
+        <object>Kuljetuserätiedot puuttuvat</object>
+      </resource>
+      <resource name="LoadSite">
+        <object>Paikkatietoja ei voitu ladata tietokannasta</object>
+      </resource>
+      <resource name="LoadCompany">
+        <object>Yrityksen tietoja ei voitu ladata tietokannasta</object>
+      </resource>
+      <resource name="HasPacks">
+        <object>Toimintoa ei voida suorittaa, koska kokoelmassa on pakkauksia </object>
+      </resource>
+      <resource name="HasStacks">
+        <object>Toimintoa ei voida suorittaa, koska kokoelmassa on pinoja</object>
+      </resource>
+      <resource name="HasPallets">
+        <object>Toimintoa ei voida suorittaa, koska kokoelmassa on kuormalavoja</object>
+      </resource>
+      <resource name="HasContainers">
+        <object>Toimintoa ei voida suorittaa, koska kokoelmassa on kontteja</object>
+      </resource>
+      <resource name="FailOperation">
+        <object>Toiminto määritettiin nimenomaisesti epäonnistumaan</object>
+      </resource>
+      <resource name="InPack">
+        <object>Yksikkö on jo pakkauksessa</object>
+      </resource>
+      <resource name="NotInPack">
+        <object>Yksikkö ei ole pakkauksessa</object>
+      </resource>
+      <resource name="PackStatus">
+        <object>Pakkauksen tila ei salli toimintoa</object>
+      </resource>
+      <resource name="OrderType">
+        <object>Virheellinen tilaustyyppi toiminnolle</object>
+      </resource>
+      <resource name="Exception">
+        <object>Sovelluspoikkeus</object>
+      </resource>
+      <resource name="OperationClass">
+        <object>Virheellinen toimintoluokka</object>
+      </resource>
+      <resource name="NoSource">
+        <object>Lähdekäsittely-yksikön tiedot puuttuvat</object>
+      </resource>
+      <resource name="NoDestination">
+        <object>Kohdekäsittely-yksikön tiedot puuttuvat</object>
+      </resource>
+      <resource name="MaterialTransaction">
+        <object>Materiaalitapahtumaa ei voitu tallentaa</object>
+      </resource>
+      <resource name="MatchContext">
+        <object>Käsittely-yksikön tila ei salli toimintoa</object>
+      </resource>
+      <resource name="TransactionConfig">
+        <object>Tapahtumajärjestelmää ei ole määritetty toiminnolle</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Etäpalvelun liittymän noutaminen epäonnistui</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Etäliittymän tietoja ei löydy</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Etäpalvelimen tietoja ei löydy</object>
+      </resource>
+      <resource name="NoOperationData">
+        <object>Toiminnon tiedot puuttuvat</object>
+      </resource>
+      <resource name="NoPrintFields">
+        <object>Tulostuskentän tiedot puuttuvat</object>
+      </resource>
+      <resource name="NoPieceCount">
+        <object>Kappalemäärätiedot puuttuvat</object>
+      </resource>
+      <resource name="ItemLoad">
+        <object>Kohteen tietuetta ei voitu ladata</object>
+      </resource>
+      <resource name="ItemInsert">
+        <object>Kohteen tietuetta ei voitu lisätä</object>
+      </resource>
+      <resource name="ItemUpdate">
+        <object>Kohteen tietuetta ei voitu päivittää</object>
+      </resource>
+      <resource name="ItemRType">
+        <object>Kohteen tietuetyyppi ei salli toimintoa</object>
+      </resource>
+      <resource name="PackLoad">
+        <object>Pakkaustietuetta ei voitu ladata</object>
+      </resource>
+      <resource name="PackInsert">
+        <object>Pakkaustietuetta ei voitu lisätä</object>
+      </resource>
+      <resource name="PackUpdate">
+        <object>Pakkaustietuetta ei voitu päivittää</object>
+      </resource>
+      <resource name="PackRType">
+        <object>Pakkaustietuetyyppi ei salli toimintoa</object>
+      </resource>
+      <resource name="CollectionLoad">
+        <object>Kokoelmatietuetta ei voitu ladata</object>
+      </resource>
+      <resource name="CollectionInsert">
+        <object>Kokoelmatietuetta ei voitu lisätä</object>
+      </resource>
+      <resource name="CollectionUpdate">
+        <object>Kokoelmatietuetta ei voitu päivittää</object>
+      </resource>
+      <resource name="CollectionRType">
+        <object>Kokoelmatietuetyyppi ei salli toimintoa</object>
+      </resource>
+      <resource name="CollectionUnitType">
+        <object>Kokoelman yksikkötyypit eivät salli toimintoa</object>
+      </resource>
+      <resource name="NoOrderStatus">
+        <object>Tilauksen tilatiedot puuttuvat</object>
+      </resource>
+      <resource name="NotInOrder">
+        <object>Yksikköä ei ole määritetty tilaukseen</object>
+      </resource>
+      <resource name="OrderLoad">
+        <object>Tilaustietoja ei voitu ladata tietokannasta</object>
+      </resource>
+      <resource name="OrderLineLoad">
+        <object>Tilauslinjatietoja ei voitu ladata tietokannasta</object>
+      </resource>
+      <resource name="OrderStatus">
+        <object>Tilauksen tila ei salli toimintoa</object>
+      </resource>
+      <resource name="OrderLineStatus">
+        <object>Tilauksen linjatila ei salli toimintoa</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Toiminnon käsittely-yksikköä ei voitu luoda</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Toiminto käynnissä</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Tulosta ei määritetty</object>
+      </resource>
+      <resource name="NoExternalNumber">
+        <object>Ulkoinen numero puuttuu</object>
+      </resource>
+      <resource name="NoExternalCode">
+        <object>Ulkoinen koodi puuttuu</object>
+      </resource>
+      <resource name="PrintFailed">
+        <object>Tulostustoiminto epäonnistui</object>
+      </resource>
+      <resource name="CustomOpNotLoaded">
+        <object>Mukautettua toimintoa ei voitu ladata</object>
+      </resource>
+      <resource name="CustomOpInfoMissing">
+        <object>Mukautetun toiminnon osat puuttuvat</object>
+      </resource>
+      <resource name="CustomOpXmlMissing">
+        <object>Mukautetun toiminnon XML-määritys puuttuu</object>
+      </resource>
+      <resource name="CustomException">
+        <object>Poikkeus mukautetussa toiminnossa</object>
+      </resource>
+      <resource name="Validation">
+        <object>Vahvistusvirhe</object>
+      </resource>
+      <resource name="PreOperation">
+        <object>Toimintoa edeltävä virhe</object>
+      </resource>
+      <resource name="DoOperation">
+        <object>Toimintovirhe</object>
+      </resource>
+      <resource name="PostOperation">
+        <object>Toiminnon jälkeinen virhe</object>
+      </resource>
+      <resource name="NoCatchDay">
+        <object>Kiinniottopäivän tiedot puuttuvat</object>
+      </resource>
+      <resource name="InvalidInventory">
+        <object>Virheellinen varasto toiminnolle</object>
+      </resource>
+      <resource name="LoadType">
+        <object>Tyypin lataaminen epäonnistui</object>
+      </resource>
+      <resource name="UnitCount">
+        <object>Virheellinen yksikkömäärä määritettynä</object>
+      </resource>
+      <resource name="ConvertedInventory">
+        <object>Muunnettu kokoelma on varastossa, mutta ei vastaa pakkauksen varastoa</object>
+      </resource>
+      <resource name="ConvertedOrder">
+        <object>Muunnettu kokoelma on tilauksessa, mutta ei vastaa tilauksen varastoa</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Painotiedot puuttuvat</object>
+      </resource>
+      <resource name="NoProperty">
+        <object>Ominaisuuden nimi puuttuu</object>
+      </resource>
+      <resource name="NotProperty">
+        <object>Annettu nimi ei ole ominaisuuden nimi</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Yksikkö pidätetään laadunvalvontaan</object>
+      </resource>
+      <resource name="PoStatus">
+        <object>Ostotilauksen tila ei salli toimintoa</object>
+      </resource>
+      <resource name="InvalidPartialAmount">
+        <object>Yksikköä ei voida muokata määritetyllä määrällä</object>
+      </resource>
+      <resource name="NoPoLine">
+        <object>Mikään PO-rivi ei vastaa määritettyä tuotetta</object>
+      </resource>
+      <resource name="HasPoLine">
+        <object>PO-rivi on jo määritetty</object>
+      </resource>
+      <resource name="NoMaterialTransaction">
+        <object>Materiaalitapahtumaa ei tallennettu</object>
+      </resource>
+      <resource name="NoStockTake">
+        <object>Ei aktiivista inventointia</object>
+      </resource>
+      <resource name="StartStockTake">
+        <object>Inventointia ei voitu aloittaa, inventointi voi olla jo aktiivinen</object>
+      </resource>
+      <resource name="StockTakeMethod">
+        <object>Varaston inventointimenetelmä ei salli toimintoa</object>
+      </resource>
+      <resource name="StockTakeUnitLoad">
+        <object>Virheellinen inventointitieto yksikölle</object>
+      </resource>
+      <resource name="StockTakeUnitType">
+        <object>Inventointia ei ole määritetty tälle yksikkötyypille</object>
+      </resource>
+      <resource name="StockTakeStatus">
+        <object>Inventoinnin tila ei salli toimintoa</object>
+      </resource>
+      <resource name="ScriptingError">
+        <object>Virhe komentosarjan suorittamisessa</object>
+      </resource>
+      <resource name="InventoryKeepMin">
+        <object>Yksikkö ei ole tarpeeksi vanha</object>
+      </resource>
+      <resource name="InventoryKeepMax">
+        <object>Yksikkö on liian vanha</object>
+      </resource>
+      <resource name="NoValue">
+        <object>Yksikön arvo puuttuu</object>
+      </resource>
+      <resource name="LogRecordLoad">
+        <object>Virhe lokitietueen lataamisessa</object>
+      </resource>
+      <resource name="LogRecordExecuted">
+        <object>Lokitietue on jo suoritettu</object>
+      </resource>
+      <resource name="InventoryType">
+        <object>Varastotyyppi ei salli toimintoa</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>Sarjatiedot puuttuvat</object>
+      </resource>
+      <resource name="NoLot">
+        <object>Erätiedot puuttuvat</object>
+      </resource>
+      <resource name="NoProductionLot">
+        <object>Tuotantoerätiedot puuttuvat</object>
+      </resource>
+      <resource name="NoRmArea">
+        <object>Resurssialuetiedot puuttuvat</object>
+      </resource>
+      <resource name="InvalidAmount">
+        <object>Virheellinen määrä</object>
+      </resource>
+      <resource name="NoInventoryStatus">
+        <object>Varastotilatietuetta ei löydy</object>
+      </resource>
+      <resource name="MultipleInventoryStatus">
+        <object>Löytyi useita varastotilatietueita</object>
+      </resource>
+      <resource name="FeatureNotLicensed">
+        <object>Ominaisuus ei sisälly käyttöoikeuteen</object>
+      </resource>
+      <resource name="CodeNotFound">
+        <object>Objektia, jolla on määritetty koodi, ei löydy</object>
+      </resource>
+      <resource name="InvalidMessageFields">
+        <object>Viestin kenttäasetukset ovat virheelliset</object>
+      </resource>
+      <resource name="BomNotFound">
+        <object>Materiaaliluetteloa ei löydy tietokannasta</object>
+      </resource>
+      <resource name="NotInBom">
+        <object>Määritetty tuote ei ole materiaaliluettelossa</object>
+      </resource>
+      <resource name="NoBom">
+        <object>Materiaaliluetteloa ei ole määritetty</object>
+      </resource>
+      <resource name="NoBomRType">
+        <object>&gt;Mitään materiaaliluettelotyyppiä ei ole määritetty</object>
+      </resource>
+      <resource name="PrunitBom">
+        <object>Käsittely-yksiköllä ei ole vaadittuja materiaaliluettelotietoja</object>
+      </resource>
+      <resource name="LotBom">
+        <object>Erällä ei ole vaadittuja materiaaliluettelotietoja</object>
+      </resource>
+      <resource name="ProductionLotBom">
+        <object>Tuotantoerällä ei ole vaadittuja materiaaliluettelotietoja</object>
+      </resource>
+      <resource name="InvalidDate">
+        <object>Virheellinen päivämäärä toiminnolle</object>
+      </resource>
+      <resource name="PartialAdjust">
+        <object>Osittaisen pakkauksen sisältöä ei voi muokata</object>
+      </resource>
+      <resource name="NoCategory">
+        <object>Luokkatiedot puuttuvat</object>
+      </resource>
+      <resource name="NoQuality">
+        <object>Laatutiedot puuttuvat</object>
+      </resource>
+      <resource name="NoFatClass">
+        <object>Rasvaluokkatiedot puuttuvat</object>
+      </resource>
+      <resource name="SelectYieldGroup">
+        <object>Tuottoryhmän valitseminen epäonnistui</object>
+      </resource>
+      <resource name="NoRiCountry">
+        <object>Syntymämaatiedot puuttuvat</object>
+      </resource>
+      <resource name="NoBrCountry">
+        <object>Kasvatusmaatiedot puuttuvat</object>
+      </resource>
+      <resource name="NoSlaughterHouse">
+        <object>Teurastamotiedot puuttuvat</object>
+      </resource>
+      <resource name="NoSlaughterDay">
+        <object>Teurastuspäivätiedot puuttuvat</object>
+      </resource>
+      <resource name="NoProcessor">
+        <object>Käsittelijätiedot puuttuvat</object>
+      </resource>
+      <resource name="SelectLot">
+        <object>Erä valitseminen epäonnistui</object>
+      </resource>
+      <resource name="IndividualLoad">
+        <object>Yksittäistä tietuetta ei voitu ladata</object>
+      </resource>
+      <resource name="NoYieldGroup">
+        <object>Tuottoryhmätiedot puuttuvat</object>
+      </resource>
+      <resource name="PalletNotReserved">
+        <object>Kuormalavaa ei ole varattu tilaukselle</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>Tuotteet eivät täsmää</object>
+      </resource>
+      <resource name="Station">
+        <object>Toiminnon asemaa ei voitu luoda</object>
+      </resource>
+      <resource name="InvalidExpiry">
+        <object>Virheellinen vanhentumispäivämäärä</object>
+      </resource>
+      <resource name="InvlocationFull">
+        <object>Varastosijainti on täynnä</object>
+      </resource>
+      <resource name="InvlocationMissing">
+        <object>Vaadittu varastosijainti puuttuu</object>
+      </resource>
+      <resource name="InvalidInvlocation">
+        <object>Määritetty sijainti on virheellinen</object>
+      </resource>
+      <resource name="StartStocktakeLocationActive">
+        <object>Varaston inventointia ei voida aloittaa, koska sijainnissa on käynnissä laskenta</object>
+      </resource>
+      <resource name="StartStocktakeInventoryActive">
+        <object>Sijainnin inventointia ei voida aloittaa, koska varastossa on käynnissä laskenta.</object>
+      </resource>
+      <resource name="TransferStatus">
+        <object>Virheellinen siirtotilauksen tila</object>
+      </resource>
+      <resource name="GetExportProcess">
+        <object>Virheellinen vientiprosessimääritys</object>
+      </resource>
+      <resource name="NoSupplier">
+        <object>Ei määritettyä PO:ta tai määritetyssä PO:ssa ei ole toimittajaa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.EmployeeResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>OK</object>
+      </resource>
+      <resource name="DbError">
+        <object>Tietokantavirhe</object>
+      </resource>
+      <resource name="NotFound">
+        <object>Työntekijää ei löydy</object>
+      </resource>
+      <resource name="MultipleFound">
+        <object>Haku palautti useita tietueita</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Virheelliset työntekijätiedot</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>Luettelon mukaan</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Kaikki</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.NumberMethod" ServiceOnly="false">
+      <resource name="OwnNumber">
+        <object>Omat numerot</object>
+      </resource>
+      <resource name="ParentNumber">
+        <object>Päätilauksesta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Suljettu</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Peruutettu</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Pidossa</object>
+      </resource>
+      <resource name="Open">
+        <object>Avoin</object>
+      </resource>
+      <resource name="Complete">
+        <object>Suoritettu</object>
+      </resource>
+      <resource name="CompleteClosed">
+        <object>Suoritettu ja &amp;suljettu</object>
+      </resource>
+      <resource name="Dispatched">
+        <object>Lähetetty</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderType" ServiceOnly="false">
+      <resource name="Customer">
+        <object>Myynti</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Varasto</object>
+      </resource>
+      <resource name="Production">
+        <object>Tuotanto </object>
+      </resource>
+      <resource name="Transfer">
+        <object>Siirto</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationSetType" ServiceOnly="true">
+      <resource name="Generic">
+        <object>Yleinen</object>
+      </resource>
+      <resource name="DefaultItem">
+        <object>Oletuskohde</object>
+      </resource>
+      <resource name="DefaultPack">
+        <object>Oletuspakkaus</object>
+      </resource>
+      <resource name="DefaultStack">
+        <object>Oletuspino</object>
+      </resource>
+      <resource name="DefaultPallet">
+        <object>Oletuskuormalava</object>
+      </resource>
+      <resource name="DefaultContainer">
+        <object>Oletuskontti</object>
+      </resource>
+      <resource name="DefaultShipment">
+        <object>Oletuskuljetuserä</object>
+      </resource>
+      <resource name="DefaultOrder">
+        <object>Oletustilaus</object>
+      </resource>
+      <resource name="DefaultOrderLine">
+        <object>Oletustilauslinja</object>
+      </resource>
+      <resource name="DefaultInventory">
+        <object>Oletusvarasto</object>
+      </resource>
+      <resource name="DefaultTransaction">
+        <object>Oletustapahtuma</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.DataStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Avoin</object>
+      </resource>
+      <resource name="Closed">
+        <object>Suljettu</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Virheellinen</object>
+      </resource>
+      <resource name="PendingClose">
+        <object>Odottaa sulkemista</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.UnitInventoryStatus" ServiceOnly="false">
+      <resource name="Available">
+        <object>Saatavissa</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Pidätetty laadunvalvontaan</object>
+      </resource>
+      <resource name="Lost">
+        <object>Kadonnut</object>
+      </resource>
+      <resource name="Reserved">
+        <object>Varattu</object>
+      </resource>
+      <resource name="PickedUp">
+        <object>Noudettu</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>Ei varastossa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.CountStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>Ei löydy</object>
+      </resource>
+      <resource name="Left">
+        <object>Jäljellä</object>
+      </resource>
+      <resource name="Entered">
+        <object>Annettu</object>
+      </resource>
+      <resource name="Found">
+        <object>Löydetty</object>
+      </resource>
+      <resource name="New">
+        <object>Uusi</object>
+      </resource>
+      <resource name="Error">
+        <object>Virhe</object>
+      </resource>
+      <resource name="RType">
+        <object>Virheellinen tila</object>
+      </resource>
+      <resource name="NotLeft">
+        <object>Ei jäljellä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ei inventointeja</object>
+      </resource>
+      <resource name="CountUnits">
+        <object>Laske kohteet ja pakkaukset</object>
+      </resource>
+      <resource name="CountStacks">
+        <object>Laske pinot</object>
+      </resource>
+      <resource name="CountPallets">
+        <object>Laske kuormalavat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeStatus" ServiceOnly="false">
+      <resource name="Active">
+        <object>Aktiivinen</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Peruutettu</object>
+      </resource>
+      <resource name="CountDone">
+        <object>Laskenta suoritettu</object>
+      </resource>
+      <resource name="Completed">
+        <object>Suoritettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeType" ServiceOnly="false">
+      <resource name="Count">
+        <object>Yksikkömäärä</object>
+      </resource>
+      <resource name="Snapshot">
+        <object>Tilannevedos</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoAcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>Luettelon mukaan</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Kaikki</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Utilities.FormatText" ServiceOnly="false">
+      <resource name="Stack">
+        <object>Pino</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Kuormalava</object>
+      </resource>
+      <resource name="Order">
+        <object>Tilaus</object>
+      </resource>
+      <resource name="UnlimitedOrder">
+        <object>rajoittamaton</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>ei mitään</object>
+      </resource>
+      <resource name="Packs">
+        <object>pakkaukset</object>
+      </resource>
+      <resource name="Items">
+        <object>kohteet</object>
+      </resource>
+      <resource name="Pcs">
+        <object>kpl</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CarcassForm" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="Whole">
+        <object>Kokonainen</object>
+      </resource>
+      <resource name="Split">
+        <object>Jaettu</object>
+      </resource>
+      <resource name="Quartered">
+        <object>Neljäsosa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Luotu</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Varastoon</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Varastosta</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Tilaukseen</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Tilauksesta</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Kokoelmaan</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Kokoelmasta</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Poistettu</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Käytetty</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Käyttöä vähennetty</object>
+      </resource>
+      <resource name="Received">
+        <object>Palautettu</object>
+      </resource>
+      <resource name="Returned">
+        <object>Palautettu</object>
+      </resource>
+      <resource name="ToPack">
+        <object>Pakkaukseen</object>
+      </resource>
+      <resource name="FromPack">
+        <object>Pakkauksesta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.RmAreaRelationType" ServiceOnly="false">
+      <resource name="NoRelation">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="PoSupplier">
+        <object>PO-toimittaja</object>
+      </resource>
+      <resource name="PoProducer">
+        <object>PO-tuottaja</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.StationType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Asema</object>
+      </resource>
+      <resource name="InLoadbay">
+        <object>Vastaanotto</object>
+      </resource>
+      <resource name="OutLoadbay">
+        <object>Toimitus</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

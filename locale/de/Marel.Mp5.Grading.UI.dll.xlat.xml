@@ -1,0 +1,2239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="de">
+  <industry>
+    <type name="Marel.Mp5.Grading.UI.M6000.Production.Graders.QualityScreen" ServiceOnly="false">
+      <resource name="piecesPrpDisplayLabel.Text">
+        <object>Gesamtstückzahl:</object>
+      </resource>
+      <resource name="piecesPrpThroughputDisplayLabel.Text">
+        <object>Stück/Min:</object>
+      </resource>
+      <resource name="weightPrpDisplayLabel.Text">
+        <object>Gesamtgewicht:</object>
+      </resource>
+      <resource name="averageWeightPrpDisplayLabel.Text">
+        <object>Durchschnittsgewicht:</object>
+      </resource>
+      <resource name="prpThroughputGroup.Text">
+        <object>Leistung im Verarbeitungszeitraum</object>
+      </resource>
+      <resource name="toDayThroughputGroup.Text">
+        <object>Leistung heute</object>
+      </resource>
+      <resource name="piecesToDayDisplayLabel.Text">
+        <object>Gesamtstückzahl:</object>
+      </resource>
+      <resource name="piecesToDayThroughputDisplayLabel.Text">
+        <object>Stück/Min:</object>
+      </resource>
+      <resource name="weightToDayDisplayLabel.Text">
+        <object>Gesamtgewicht:</object>
+      </resource>
+      <resource name="averageWeightToDayDisplayLabel.Text">
+        <object>Durchschnittsgewicht:</object>
+      </resource>
+      <resource name="qualityChart.NoDataLabel.Text">
+        <object>Keine Daten</object>
+      </resource>
+      <resource name="poButton.Text">
+        <object>Auftrag</object>
+      </resource>
+      <resource name="resetButton.Text">
+        <object>Zurücksetzen</object>
+      </resource>
+      <resource name="gradingSystemNotFound">
+        <object>Sortiersystem nicht gefunden.</object>
+      </resource>
+      <resource name="noGraderInSystem">
+        <object>Sortierer nicht in Sortiersystem gefunden.</object>
+      </resource>
+      <resource name="errorTitle">
+        <object>Fehler</object>
+      </resource>
+      <resource name="generalError">
+        <object>Beim Vorbereiten des Bildschirms ist ein allgemeiner Fehler aufgetreten.</object>
+      </resource>
+      <resource name="activityButton.Text">
+        <object>Aktivität</object>
+      </resource>
+      <resource name="batch">
+        <object>Charge</object>
+      </resource>
+      <resource name="po">
+        <object>Auftrag</object>
+      </resource>
+      <resource name="plot">
+        <object>Fertigungslos</object>
+      </resource>
+      <resource name="lot">
+        <object>Los</object>
+      </resource>
+      <resource name="rmarea">
+        <object>RM-Bereich</object>
+      </resource>
+      <resource name="unknownProduct">
+        <object>Unbekanntes Produkt</object>
+      </resource>
+      <resource name="qualityDisplayLabel.Text">
+        <object>Qualität: </object>
+      </resource>
+      <resource name="noQuality">
+        <object>Keine Qualität</object>
+      </resource>
+      <resource name="pieceMessageError">
+        <object>Stückmeldungsfehler</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Base.WindowsFormView" ServiceOnly="false">
+      <resource name="GoToFirst">
+        <object>Erste</object>
+      </resource>
+      <resource name="GoToLast">
+        <object>Letzte</object>
+      </resource>
+      <resource name="GoToPrev">
+        <object>Zurück</object>
+      </resource>
+      <resource name="GoToNext">
+        <object>Weiter</object>
+      </resource>
+      <resource name="NewRecord">
+        <object>Neu</object>
+      </resource>
+      <resource name="DeleteRecord">
+        <object>Löschen</object>
+      </resource>
+      <resource name="RefreshRecord">
+        <object>Aktualisieren</object>
+      </resource>
+      <resource name="Commit">
+        <object>Bestätigen</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Abbrechen</object>
+      </resource>
+      <resource name="SaveChangesPrompt">
+        <object>Möchten Sie die Änderungen speichern?</object>
+      </resource>
+      <resource name="NameLookupCaption">
+        <object>Name</object>
+      </resource>
+      <resource name="CodeLookupCaption">
+        <object>Code</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Setup.GradingProgramView" ServiceOnly="false">
+      <resource name="copyPrefix">
+        <object>Kopie von</object>
+      </resource>
+      <resource name="cloneProgramError">
+        <object>Beim Klonen des Programms ist ein Fehler aufgetreten.</object>
+      </resource>
+      <resource name="Text">
+        <object>Text</object>
+      </resource>
+      <resource name="ProgramLookupColumn">
+        <object>Programm</object>
+      </resource>
+      <resource name="ProcessUnitLookupColumn">
+        <object>Verarbeitungseinheit</object>
+      </resource>
+      <resource name="FlatGrid">
+        <object>Flaches Raster</object>
+      </resource>
+      <resource name="SplitGrid">
+        <object>Geteiltes Raster</object>
+      </resource>
+      <resource name="CloneRecord">
+        <object>Klonen</object>
+      </resource>
+      <resource name="NewRecord">
+        <object>Neues Programm</object>
+      </resource>
+      <resource name="DeleteRecord">
+        <object>Programm löschen</object>
+      </resource>
+      <resource name="UpdateProgram">
+        <object>Aktivität aktualisieren</object>
+      </resource>
+      <resource name="UpdateProgramError">
+        <object>Beim Anwenden von Änderungen auf die Produktion ist ein Fehler aufgetreten.</object>
+      </resource>
+      <resource name="ProgramConfigurationError">
+        <object>Sortierprogrammformular kann nicht initialisiert werden. Chargenmodus fehlt.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Setup.GradingProgramUC" ServiceOnly="false">
+      <resource name="programGroupBox.Text">
+        <object>Programmeinstellungen</object>
+      </resource>
+      <resource name="programNameLabel.Text">
+        <object>Name:</object>
+      </resource>
+      <resource name="programShNameLabel.Text">
+        <object>Kurzname:</object>
+      </resource>
+      <resource name="programCodeLabel.Text">
+        <object>Code:</object>
+      </resource>
+      <resource name="processUnitLabel.Text">
+        <object>Verarbeitungseinheit:</object>
+      </resource>
+      <resource name="ungradedMaterialLabel.Text">
+        <object>Unsortiertes Material:</object>
+      </resource>
+      <resource name="weighingUnitLabel.Text">
+        <object>Gewichtseinheit:</object>
+      </resource>
+      <resource name="faultGateLabel.Text">
+        <object>Standardschleuse:</object>
+      </resource>
+      <resource name="tareLabel.Text">
+        <object>Eigengewicht:</object>
+      </resource>
+      <resource name="graderLabel.Text">
+        <object>Sortierer:</object>
+      </resource>
+      <resource name="reductionLabel.Text">
+        <object>Schwund:</object>
+      </resource>
+      <resource name="activeCheckBox.Text">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="manualCloseCheckBox.Text">
+        <object>Manuelles Schließen zulassen</object>
+      </resource>
+      <resource name="weightResLabel.Text">
+        <object>Gewichtsauflösung:</object>
+      </resource>
+      <resource name="weightResUnitLabel.Text">
+        <object>Gewichtsauflösungseinheit:</object>
+      </resource>
+      <resource name="dataWeightResLabel.Text">
+        <object>Auflösung:</object>
+      </resource>
+      <resource name="bufferCapacityLabel.Text">
+        <object>Pufferkapazität:</object>
+      </resource>
+      <resource name="gradesTabPage.Text">
+        <object>Sortierungen</object>
+      </resource>
+      <resource name="graderConfigurationsTabPage.Text">
+        <object>Sortiererkonfigurationen</object>
+      </resource>
+      <resource name="tareTabPage.Text">
+        <object>Eigengewichtseinstellungen</object>
+      </resource>
+      <resource name="pieceTypeColumn.Caption">
+        <object>Stücktyp</object>
+      </resource>
+      <resource name="tareColumn.Caption">
+        <object>Eigengewicht</object>
+      </resource>
+      <resource name="tareUnitColumn.Caption">
+        <object>Eigengewichtseinheit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.SystemSetup.GradingSystemView" ServiceOnly="true">
+      <resource name="toolNewGrader.Caption">
+        <object>Neu</object>
+      </resource>
+      <resource name="toolEditGrader.Caption">
+        <object>Ändern</object>
+      </resource>
+      <resource name="toolCloneGrader.Caption">
+        <object>Klonen</object>
+      </resource>
+      <resource name="toolSaveGraderEdit.Caption">
+        <object>Speichern und schließen</object>
+      </resource>
+      <resource name="toolCancelGraderEdit.Caption">
+        <object>Abbrechen</object>
+      </resource>
+      <resource name="NewRecord">
+        <object>Neues System</object>
+      </resource>
+      <resource name="DeleteRecord">
+        <object>System löschen</object>
+      </resource>
+      <resource name="AddGraderAlgorithmSupportError">
+        <object>Beim Hinzufügen der Algorithmusunterstützung für den neuen Sortierer ist ein Fehler aufgetreten.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.SystemSetup.GraderUC" ServiceOnly="true">
+      <resource name="generalGroup.Text">
+        <object>Allgemeine Einstellungen</object>
+      </resource>
+      <resource name="gradingSystemLabel.Text">
+        <object>Sortiersystem:</object>
+      </resource>
+      <resource name="prunitLabel.Text">
+        <object>Verarbeitungseinheit:</object>
+      </resource>
+      <resource name="dischargeTypeLabel.Text">
+        <object>Ausgabetyp:</object>
+      </resource>
+      <resource name="slaveModeLabel.Text">
+        <object>Abnehmermodus:</object>
+      </resource>
+      <resource name="deviceLabel.Text">
+        <object>Gerät:</object>
+      </resource>
+      <resource name="stationLabel.Text">
+        <object>Station:</object>
+      </resource>
+      <resource name="laneTypeLabel.Text">
+        <object>Spurtyp:</object>
+      </resource>
+      <resource name="masterLabel.Text">
+        <object>Master-Sortierer:</object>
+      </resource>
+      <resource name="measurementOptionsCategoryRow.Caption">
+        <object>Allgemein</object>
+      </resource>
+      <resource name="weightCategoryRow.Caption">
+        <object>Gewicht</object>
+      </resource>
+      <resource name="dataWeightCategoryRow.Caption">
+        <object>Datenregistrierungen</object>
+      </resource>
+      <resource name="lengthCategoryRow.Caption">
+        <object>Länge</object>
+      </resource>
+      <resource name="dataLengthCategoryRow.Caption">
+        <object>Datenregistrierungen</object>
+      </resource>
+      <resource name="heightCategoryRow.Caption">
+        <object>Höhe</object>
+      </resource>
+      <resource name="dataHeightCategoryRow.Caption">
+        <object>Datenregistrierungen</object>
+      </resource>
+      <resource name="widthCategoryRow.Caption">
+        <object>Breite</object>
+      </resource>
+      <resource name="dataWidthCategoryRow.Caption">
+        <object>Datenregistrierungen</object>
+      </resource>
+      <resource name="algorithmsGroup.Text">
+        <object>Aktivierte Chargenmodi</object>
+      </resource>
+      <resource name="measurementOptionsGroup.Text">
+        <object>Messoptionen</object>
+      </resource>
+      <resource name="isProgramBase.Text">
+        <object>Standardsortierer</object>
+      </resource>
+      <resource name="recIncomplete.Text">
+        <object>Unvollständige Chargen aufzeichnen</object>
+      </resource>
+      <resource name="autoFinish.Text">
+        <object>Chargen automatisch beenden</object>
+      </resource>
+      <resource name="hasGateSeq.Text">
+        <object>Enthält Schleusensequenzen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.ControlScreenView" ServiceOnly="false">
+      <resource name="RefreshControlScreenException">
+        <object>Beim Aktualisieren des Steuerbildschirms ist ein Fehler aufgetreten.</object>
+      </resource>
+      <resource name="ConfigurationError">
+        <object>Sortierer-Steuerbildschirm kann nicht eingerichtet werden. Ungültige Konfiguration.</object>
+      </resource>
+      <resource name="InitializeError">
+        <object>Beim Initialisieren des Sortierer-Steuerbildschirms ist ein Fehler aufgetreten.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.GradingControlScreenUC" ServiceOnly="false">
+      <resource name="gradersControTablPage.Text">
+        <object>Sortierer</object>
+      </resource>
+      <resource name="packingOverviewTabPage.Text">
+        <object>Verpackungsübersicht</object>
+      </resource>
+      <resource name="gradingOverviewTabPage.Text">
+        <object>Sortierübersicht</object>
+      </resource>
+      <resource name="chartsTabPage.Text">
+        <object>Diagramme</object>
+      </resource>
+      <resource name="gradesTabPage.Text">
+        <object>Sortierungen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.ChartsPanelUC" ServiceOnly="false">
+      <resource name="averageWeightChart.Title">
+        <object>Durchschnittl. Stückgewicht</object>
+      </resource>
+      <resource name="averageWeightChart.XAxisTime">
+        <object>Zeit</object>
+      </resource>
+      <resource name="averageWeightChart.YAxisAvgWgt">
+        <object>Gewicht</object>
+      </resource>
+      <resource name="throughputChart.YAxisPcsMin">
+        <object>Stück/Min</object>
+      </resource>
+      <resource name="throughputChart.YAxisWgtHour">
+        <object>Gewicht/Stunde</object>
+      </resource>
+      <resource name="throughputChart.XAxisTime">
+        <object>Zeit</object>
+      </resource>
+      <resource name="throughputChart.Title">
+        <object>Durchsatz</object>
+      </resource>
+      <resource name="batchWeightChart.Title">
+        <object>Chargengewicht</object>
+      </resource>
+      <resource name="batchWeightChart.XAxisTime">
+        <object>Zeit</object>
+      </resource>
+      <resource name="batchWeightChart.YAxisBatchWeight">
+        <object>Gewicht</object>
+      </resource>
+      <resource name="NoChartData">
+        <object>Keine Daten</object>
+      </resource>
+      <resource name="NoBatchData">
+        <object>Keine Chargen</object>
+      </resource>
+      <resource name="showPiecesMinCheck.Text">
+        <object>Stück/Min anzeigen</object>
+      </resource>
+      <resource name="showWeightHour.Text">
+        <object>Gewicht/Std anzeigen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.ErrorPanelUC" ServiceOnly="false">
+      <resource name="hideButton.Text">
+        <object>Ausblenden</object>
+      </resource>
+      <resource name="detailsLabel.Text">
+        <object>Details:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.GateInfoPanelUC" ServiceOnly="false">
+      <resource name="GateTitle.ToolTip">
+        <object>Name der Schleuse</object>
+      </resource>
+      <resource name="ProductName.ToolTip">
+        <object>Produktname</object>
+      </resource>
+      <resource name="PieceType.ToolTip">
+        <object>Stücktyp</object>
+      </resource>
+      <resource name="GradeMinWeight.ToolTip">
+        <object>Unteres Gewichtslimit bei Sortierung</object>
+      </resource>
+      <resource name="GradeMaxWeight.ToolTip">
+        <object>Oberes Gewichtslimit bei Sortierung</object>
+      </resource>
+      <resource name="BatchCount.ToolTip">
+        <object>Gesamt-Chargenanzahl für Verarbeitungszeitraum</object>
+      </resource>
+      <resource name="BatchWeight.ToolTip">
+        <object>Gesamt-Chargengewicht für Verarbeitungszeitraum</object>
+      </resource>
+      <resource name="PieceCount.ToolTip">
+        <object>Gesamt-Stückzahl für Verarbeitungszeitraum</object>
+      </resource>
+      <resource name="PieceWeight.ToolTip">
+        <object>Gesamt-Stückgewicht für Verarbeitungszeitraum</object>
+      </resource>
+      <resource name="BatchMeanWeight.ToolTip">
+        <object>Durchschnittliches Chargengewicht für Verarbeitungszeitraum</object>
+      </resource>
+      <resource name="PieceMeanWeight.ToolTip">
+        <object>Durchschnittliches Stückgewicht für Verarbeitungszeitraum</object>
+      </resource>
+      <resource name="PieceMeanWeightHistory.ToolTip">
+        <object>Durchschnittliches Gewicht der letzten {0} Stücke</object>
+      </resource>
+      <resource name="TotalBatchCountPostFix">
+        <object>Stk/pP</object>
+      </resource>
+      <resource name="TotalBatchWeightPostFix">
+        <object>{0}/pP</object>
+      </resource>
+      <resource name="PieceWeightPostFix">
+        <object>{0}/pP</object>
+      </resource>
+      <resource name="PieceCountPostFix">
+        <object>Stk/pP</object>
+      </resource>
+      <resource name="PieceMeanWeightPostFix">
+        <object>{0}/pP</object>
+      </resource>
+      <resource name="PieceMeanWeightHistoryPostFix">
+        <object>{0}/N</object>
+      </resource>
+      <resource name="PieceMeanWeightHistoryCountPostFix">
+        <object>Stk</object>
+      </resource>
+      <resource name="AgeOfFirstPiece.ToolTip">
+        <object>Alter des ersten Stückes</object>
+      </resource>
+      <resource name="AgeOfLastPiece.ToolTip">
+        <object>Alter des letzten Stückes</object>
+      </resource>
+      <resource name="AgeOfFirstBatch.ToolTip">
+        <object>Alter der ersten Charge</object>
+      </resource>
+      <resource name="AgeOfLastBatch.ToolTip">
+        <object>Alter der letzten Charge</object>
+      </resource>
+      <resource name="AgePostFix">
+        <object>Std</object>
+      </resource>
+      <resource name="NoGradeOnGate">
+        <object>Keine Sortierung</object>
+      </resource>
+      <resource name="NoGradeOnGate.ToolTip">
+        <object>Keine Sortierung in dieser Schleuse</object>
+      </resource>
+      <resource name="CurrentBatchPieceCount">
+        <object>Stk</object>
+      </resource>
+      <resource name="CurrentBatchPieces.ToolTip">
+        <object>Aktuelle Chargenstücke</object>
+      </resource>
+      <resource name="CurrentBatchWeight.ToolTip">
+        <object>Aktuelles Chargengewicht</object>
+      </resource>
+      <resource name="CurrentBatchPiecesPostFix">
+        <object>Stk</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.GraderInfoPanelUC" ServiceOnly="false">
+      <resource name="TotalWeight.ToolTip">
+        <object>Gesamt-Stückgewicht über Verarbeitungszeitraum</object>
+      </resource>
+      <resource name="TotalPieces.ToolTip">
+        <object>Gesamtstückzahl über Verarbeitungszeitraum</object>
+      </resource>
+      <resource name="WeightThroughput.ToolTip">
+        <object>Gewichtsdurchsatz</object>
+      </resource>
+      <resource name="PiecesThroughput.ToolTip">
+        <object>Stückdurchsatz</object>
+      </resource>
+      <resource name="MeanWeight.ToolTip">
+        <object>Durchschnittsgewicht</object>
+      </resource>
+      <resource name="WeightStandardDeviation.ToolTip">
+        <object>Standardabweichung Gewicht</object>
+      </resource>
+      <resource name="TotalWeight.Legend">
+        <object>{0}</object>
+      </resource>
+      <resource name="TotalPieces.Legend">
+        <object>Stk</object>
+      </resource>
+      <resource name="WeightThroughput.Legend">
+        <object>{0}/Std</object>
+      </resource>
+      <resource name="PiecesThroughput.Legend">
+        <object>Stk/Min</object>
+      </resource>
+      <resource name="MeanWeight.Legend">
+        <object>{0}/P</object>
+      </resource>
+      <resource name="WeightStandardDeviation.Legend">
+        <object>σ</object>
+      </resource>
+      <resource name="ActiveTime.Prefix">
+        <object>Aktive Zeit:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.GraderController" ServiceOnly="false">
+      <resource name="ActiveTime.Prefix">
+        <object>Aktive Zeit:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.GraderDetailsUC" ServiceOnly="false">
+      <resource name="graderTabPage.Text">
+        <object>Sortierer</object>
+      </resource>
+      <resource name="gateTabPage.Text">
+        <object>Schleuse</object>
+      </resource>
+      <resource name="pieceStatusTabPage.Text">
+        <object>Stückstatus</object>
+      </resource>
+      <resource name="graderThroughPutGroup.Text">
+        <object>Durchsatz</object>
+      </resource>
+      <resource name="graderActivityLabel.Text">
+        <object>Aktivität</object>
+      </resource>
+      <resource name="terminateBatchesButton.Text">
+        <object>Chargen beenden ...</object>
+      </resource>
+      <resource name="gateInfoGroup.Text">
+        <object>Schleuse</object>
+      </resource>
+      <resource name="gateMaterialLabel.Text">
+        <object>Material</object>
+      </resource>
+      <resource name="gatePieceTypeLabel.Text">
+        <object>Stücktyp</object>
+      </resource>
+      <resource name="terminateBatchOnGateButton.Text">
+        <object>Charge beenden ...</object>
+      </resource>
+      <resource name="gatePieceWeightLabel.Text">
+        <object>Stückgewicht</object>
+      </resource>
+      <resource name="gatePieceCountLabel.Text">
+        <object>Stückzahl</object>
+      </resource>
+      <resource name="gateMeanWeightLabel.Text">
+        <object>Durchschnittsgewicht</object>
+      </resource>
+      <resource name="gateMeanWeightHistoryLabel.Text">
+        <object>Durchschnittsgewicht/n</object>
+      </resource>
+      <resource name="gateBatchWeightLabel.Text">
+        <object>Chargengewicht</object>
+      </resource>
+      <resource name="gateBatchMeanWeightLabel.Text">
+        <object>Chargen-Durchschnittsgewicht</object>
+      </resource>
+      <resource name="gradeWeightLimitsGroup.Text">
+        <object>Gewichtslimit bei Sortierung</object>
+      </resource>
+      <resource name="gradeMinWeightLabel.Text">
+        <object>Mindestgewicht</object>
+      </resource>
+      <resource name="gradeMaxWeightLabel.Text">
+        <object>Höchstgewicht</object>
+      </resource>
+      <resource name="changeGradeWeightLimitsButton.Text">
+        <object>Ändern</object>
+      </resource>
+      <resource name="setButton.Text">
+        <object>Festlegen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.Design.UserControlDesignerView" ServiceOnly="false">
+      <resource name="ErrorSavingControlScreen">
+        <object>Beim Speichern des Steuerbildschirms ist ein Fehler aufgetreten.</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Grades" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sortierung</object>
+      </resource>
+      <resource name="program">
+        <object>Programm</object>
+      </resource>
+      <resource name="gatelist">
+        <object>Schleusen</object>
+      </resource>
+      <resource name="material">
+        <object>Materialcode</object>
+      </resource>
+      <resource name="multimat">
+        <object>Multi-Materialcode</object>
+      </resource>
+      <resource name="unitop">
+        <object>Einheitsprozesscode</object>
+      </resource>
+      <resource name="program Name">
+        <object>Programm</object>
+      </resource>
+      <resource name="material Name">
+        <object>Material</object>
+      </resource>
+      <resource name="multimat Name">
+        <object>Multi-Material</object>
+      </resource>
+      <resource name="unitop Name">
+        <object>Einheitsprozess</object>
+      </resource>
+      <resource name="algorithm">
+        <object>Chargenmodus</object>
+      </resource>
+      <resource name="grade">
+        <object>Sortierung</object>
+      </resource>
+      <resource name="minweight">
+        <object>Mindest-\ngewicht</object>
+      </resource>
+      <resource name="maxweight">
+        <object>Höchst-\ngewicht</object>
+      </resource>
+      <resource name="minheight">
+        <object>Mindest-\nhöhe</object>
+      </resource>
+      <resource name="maxheight">
+        <object>Max. \nHöhe</object>
+      </resource>
+      <resource name="minwidth">
+        <object>Mindest-\nbreite</object>
+      </resource>
+      <resource name="maxwidth">
+        <object>Höchst-\nbreite</object>
+      </resource>
+      <resource name="minlength">
+        <object>Mindest-\nlänge</object>
+      </resource>
+      <resource name="maxlength">
+        <object>Höchst-\nlänge</object>
+      </resource>
+      <resource name="colortype">
+        <object>Farbtypcode</object>
+      </resource>
+      <resource name="piecetype">
+        <object>Stücktypcode</object>
+      </resource>
+      <resource name="ptmincount">
+        <object>Stücktyp \nMindestanzahl</object>
+      </resource>
+      <resource name="ptmaxcount">
+        <object>Stücktyp \nHöchstanzahl</object>
+      </resource>
+      <resource name="ptminweight">
+        <object>Stücktyp \nMindestgewicht</object>
+      </resource>
+      <resource name="ptmaxweight">
+        <object>Stücktyp \nHöchstgewicht</object>
+      </resource>
+      <resource name="colortype Name">
+        <object>Farbtyp</object>
+      </resource>
+      <resource name="piecetype Name">
+        <object>Stücktyp</object>
+      </resource>
+      <resource name="gateseq">
+        <object>Schleusen-\nSequenzcode</object>
+      </resource>
+      <resource name="gateseq Name">
+        <object>Schleusen-\nsequenz</object>
+      </resource>
+      <resource name="destination">
+        <object>Ziel-\nVerarbeitungseinheitscode</object>
+      </resource>
+      <resource name="destination Name">
+        <object>Ziel-\nverarbeitungseinheit</object>
+      </resource>
+      <resource name="gatetype">
+        <object>Sortierungstyp</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ExtraGrading" ServiceOnly="true">
+      <resource name="system">
+        <object>System</object>
+      </resource>
+      <resource name="grader">
+        <object>Sortierer</object>
+      </resource>
+      <resource name="prunit">
+        <object>Verarbeitungseinheitscode</object>
+      </resource>
+      <resource name="designated">
+        <object>Designiert</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>Verarbeitungseinheit</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Takeaways" ServiceOnly="true">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="system">
+        <object>System</object>
+      </resource>
+      <resource name="grader">
+        <object>Sortierer</object>
+      </resource>
+      <resource name="shname">
+        <object>Name</object>
+      </resource>
+      <resource name="takeawaynum">
+        <object>Wegnahmenummer</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Workstations" ServiceOnly="true">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="system">
+        <object>System</object>
+      </resource>
+      <resource name="grader">
+        <object>Sortierer</object>
+      </resource>
+      <resource name="stanum">
+        <object>Stations-\nnummer</object>
+      </resource>
+      <resource name="statype">
+        <object>Stationstyp</object>
+      </resource>
+      <resource name="station Name">
+        <object>Station</object>
+      </resource>
+      <resource name="station">
+        <object>Stationscode</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.GradeParamValues" ServiceOnly="true">
+      <resource name="grade">
+        <object>Sortierung</object>
+      </resource>
+      <resource name="param">
+        <object>Parameter</object>
+      </resource>
+      <resource name="paramvalue">
+        <object>Wert</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.GradeCriterias" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="grade">
+        <object>Sortierung</object>
+      </resource>
+      <resource name="minweight">
+        <object>Mindestgewicht</object>
+      </resource>
+      <resource name="maxweight">
+        <object>Höchstgewicht</object>
+      </resource>
+      <resource name="minheight">
+        <object>Mindesthöhe</object>
+      </resource>
+      <resource name="maxheight">
+        <object>Max. Höhe</object>
+      </resource>
+      <resource name="minwidth">
+        <object>Mindestbreite</object>
+      </resource>
+      <resource name="maxwidth">
+        <object>Höchstbreite</object>
+      </resource>
+      <resource name="minlength">
+        <object>Mindestlänge</object>
+      </resource>
+      <resource name="maxlength">
+        <object>Höchstlänge</object>
+      </resource>
+      <resource name="colortype">
+        <object>Farbtypcode</object>
+      </resource>
+      <resource name="piecetype">
+        <object>Stücktypcode</object>
+      </resource>
+      <resource name="ptmincount">
+        <object>Stücktyp \nMindestanzahl</object>
+      </resource>
+      <resource name="ptmaxcount">
+        <object>Stücktyp \nHöchstanzahl</object>
+      </resource>
+      <resource name="ptminweight">
+        <object>Stücktyp \nMindestgewicht</object>
+      </resource>
+      <resource name="ptmaxweight">
+        <object>Stücktyp \nHöchstgewicht</object>
+      </resource>
+      <resource name="colortype Name">
+        <object>Farbtyp</object>
+      </resource>
+      <resource name="piecetype Name">
+        <object>Stücktyp</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Graders" ServiceOnly="true">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="system">
+        <object>Systemcode</object>
+      </resource>
+      <resource name="device">
+        <object>Gerätecode</object>
+      </resource>
+      <resource name="station">
+        <object>Stationscode</object>
+      </resource>
+      <resource name="prunit">
+        <object>Verarbeitungseinheitscode</object>
+      </resource>
+      <resource name="isprogrambase">
+        <object>Standard-\nsortierer</object>
+      </resource>
+      <resource name="weighertype">
+        <object>Waagentyp</object>
+      </resource>
+      <resource name="weightcap">
+        <object>Unterstütztes \nWiegen</object>
+      </resource>
+      <resource name="weightres">
+        <object>Gewichts-\nauflösung</object>
+      </resource>
+      <resource name="weightunit">
+        <object>Gewichtsauflösungs-\neinheit</object>
+      </resource>
+      <resource name="dataweightres">
+        <object>Datengewichts-\nauflösung</object>
+      </resource>
+      <resource name="dataweightresunit">
+        <object>Datengewichts-\nauflösungseinheit</object>
+      </resource>
+      <resource name="weightspecoverridable">
+        <object>Gewichtseinstellungen \nüberschreibbar</object>
+      </resource>
+      <resource name="heightcap">
+        <object>Sortierermaße \nHöhe</object>
+      </resource>
+      <resource name="heightres">
+        <object>Höhen-\nauflösung</object>
+      </resource>
+      <resource name="heightunit">
+        <object>Höheneinheit</object>
+      </resource>
+      <resource name="dataheightres">
+        <object>Datenhöhen-\nauflösung</object>
+      </resource>
+      <resource name="dataheightresunit">
+        <object>Datenhöhen-\nauflösungseinheit</object>
+      </resource>
+      <resource name="heightspecoverridable">
+        <object>Höheneinstellungen \nüberschreibbar</object>
+      </resource>
+      <resource name="widthcap">
+        <object>Sortierermaße \nBreite</object>
+      </resource>
+      <resource name="widthres">
+        <object>Breiten-\nauflösung</object>
+      </resource>
+      <resource name="widthunit">
+        <object>Breiteneinheit</object>
+      </resource>
+      <resource name="datawidthres">
+        <object>Datenbreiten-\nauflösung</object>
+      </resource>
+      <resource name="datawidthresunit">
+        <object>Datenbreiten-\nauflösungseinheit</object>
+      </resource>
+      <resource name="widthspecoverridable">
+        <object>Breiteneinstellungen \nüberschreibbar</object>
+      </resource>
+      <resource name="lengthcap">
+        <object>Sortierermaße \nLänge</object>
+      </resource>
+      <resource name="lengthunit">
+        <object>Längeneinheit</object>
+      </resource>
+      <resource name="lengthres">
+        <object>Längen-\nauflösung</object>
+      </resource>
+      <resource name="datalengthresunit">
+        <object>Datenlängen-\nauflösungseinheit</object>
+      </resource>
+      <resource name="datalengthres">
+        <object>Datenlängen-\nauflösung</object>
+      </resource>
+      <resource name="lengthspecoverridable">
+        <object>Längeneinstellungen \nüberschreibbar</object>
+      </resource>
+      <resource name="colorcap">
+        <object>Sortierer erkennt \nFarbe</object>
+      </resource>
+      <resource name="piecetypecap">
+        <object>Sortierer unterstützt \nStücktypen</object>
+      </resource>
+      <resource name="dischargetype">
+        <object>Typ der Ausgabe-\neinheit</object>
+      </resource>
+      <resource name="autofinish">
+        <object>Beendet Chargen \nautomatisch</object>
+      </resource>
+      <resource name="recincomplete">
+        <object>Unvollständige Chargen \naufzeichnen</object>
+      </resource>
+      <resource name="slavemode">
+        <object>Abnehmermodus</object>
+      </resource>
+      <resource name="master">
+        <object>Master-Sortierer</object>
+      </resource>
+      <resource name="multipleshape">
+        <object>Sortierer unterstützt mehrere \nStücktypen</object>
+      </resource>
+      <resource name="twoplatforms">
+        <object>Zwei Wiege-\nplattformen</object>
+      </resource>
+      <resource name="lanetype">
+        <object>Spurtyp</object>
+      </resource>
+      <resource name="device Name">
+        <object>Gerät</object>
+      </resource>
+      <resource name="station Name">
+        <object>Station</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>Verarbeitungseinheit</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="hasgateseq">
+        <object>Enthält Schleusen-\nsequenzen</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Gates" ServiceOnly="true">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="system">
+        <object>Systemcode</object>
+      </resource>
+      <resource name="gatenumber">
+        <object>Schleusennummer</object>
+      </resource>
+      <resource name="shname">
+        <object>Name</object>
+      </resource>
+      <resource name="grader">
+        <object>Sortierer</object>
+      </resource>
+      <resource name="printer1">
+        <object>Code Drucker 1</object>
+      </resource>
+      <resource name="printer2">
+        <object>Code Drucker 2</object>
+      </resource>
+      <resource name="printer3">
+        <object>Code Drucker 3</object>
+      </resource>
+      <resource name="gatetype">
+        <object>Schleusentyp</object>
+      </resource>
+      <resource name="takeaway">
+        <object>Wegnahme</object>
+      </resource>
+      <resource name="destination">
+        <object>Ziel-\nVerarbeitungseinheitscode</object>
+      </resource>
+      <resource name="period">
+        <object>Registrierungs-\nzeitraum</object>
+      </resource>
+      <resource name="extragrading">
+        <object>In Extrasortierung aufnehmen</object>
+      </resource>
+      <resource name="capacity">
+        <object>Kapazität</object>
+      </resource>
+      <resource name="multigrade">
+        <object>Mehrere Sortierungen zulassen</object>
+      </resource>
+      <resource name="position">
+        <object>UI-Position</object>
+      </resource>
+      <resource name="distance">
+        <object>UI-Abstand</object>
+      </resource>
+      <resource name="printer1 Name">
+        <object>Drucker 1</object>
+      </resource>
+      <resource name="printer2 Name">
+        <object>Drucker 2</object>
+      </resource>
+      <resource name="printer3 Name">
+        <object>Drucker 3</object>
+      </resource>
+      <resource name="destination Name">
+        <object>Ziel-\nverarbeitungseinheit</object>
+      </resource>
+      <resource name="gateseq">
+        <object>Schleusen-\nSequenzcode</object>
+      </resource>
+      <resource name="gateseq Name">
+        <object>Schleusen-\nsequenz</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ConfigurationTemplates" ServiceOnly="true">
+      <resource name="dctemplate">
+        <object>ID</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="shname">
+        <object>Kurzname</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="extcode">
+        <object>Externer Code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Muster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Größe 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Größe 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Größe 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Größe 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Text 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Text 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Text 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Text 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Text 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Text 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Text 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Text 8</object>
+      </resource>
+      <resource name="helpcontext">
+        <object>Information</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="Template Lines">
+        <object>Konfigurationslinien</object>
+      </resource>
+      <resource name="configurationtype">
+        <object>Konfigurationstyp</object>
+      </resource>
+      <resource name="execorder">
+        <object>Ausführungsanordnung</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ConfigurationTemplateLines" ServiceOnly="true">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="dctemplate">
+        <object>Vorlagencode</object>
+      </resource>
+      <resource name="dctemplate Name">
+        <object>Vorlage</object>
+      </resource>
+      <resource name="displayname">
+        <object>Anzeigename</object>
+      </resource>
+      <resource name="paramname">
+        <object>Parametername</object>
+      </resource>
+      <resource name="datatype">
+        <object>Datentyp</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sequenz</object>
+      </resource>
+      <resource name="defaultvalue">
+        <object>Standardwert</object>
+      </resource>
+      <resource name="commandtype">
+        <object>Befehlstyp</object>
+      </resource>
+    </type>
+    <type name="Grid.Activity.GraderConfiguration" ServiceOnly="false">
+      <resource name="gctconfiguration">
+        <object>ID</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="shname">
+        <object>Kurzname</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="extcode">
+        <object>Externer Code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Muster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Größe 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Größe 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Größe 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Größe 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Text 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Text 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Text 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Text 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Text 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Text 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Text 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Text 8</object>
+      </resource>
+      <resource name="helpcontext">
+        <object>Information</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="gctemplate">
+        <object>Konfigurationsvorlagen-\ncode</object>
+      </resource>
+      <resource name="gctemplate Name">
+        <object>Konfigurationsvorlage</object>
+      </resource>
+      <resource name="program">
+        <object>Programmcode</object>
+      </resource>
+      <resource name="program Name">
+        <object>Programm</object>
+      </resource>
+      <resource name="Configuration Parameters">
+        <object>Parameter</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sequenz</object>
+      </resource>
+      <resource name="execorder">
+        <object>Ausführungsanordnung</object>
+      </resource>
+    </type>
+    <type name="Grid.Activity.GraderConfigurationLines" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="gctconfiguration">
+        <object>Konfigurationscode</object>
+      </resource>
+      <resource name="gctconfiguration Name">
+        <object>Konfiguration</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sequenz</object>
+      </resource>
+      <resource name="paramname">
+        <object>Parametername</object>
+      </resource>
+      <resource name="displayname">
+        <object>Anzeigename</object>
+      </resource>
+      <resource name="datatype">
+        <object>Datentyp</object>
+      </resource>
+      <resource name="value">
+        <object>Wert</object>
+      </resource>
+      <resource name="commandtype">
+        <object>Befehlstyp</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Algorithms" ServiceOnly="true">
+      <resource name="algorithm">
+        <object>Algorithmus</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="shname">
+        <object>Kurzname</object>
+      </resource>
+      <resource name="extcode">
+        <object>Externer Code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Muster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Größe 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Größe 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Größe 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Größe 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Text 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Text 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Text 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Text 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Text 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Text 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Text 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Text 8</object>
+      </resource>
+      <resource name="helpcontext">
+        <object>Information</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="batchmode">
+        <object>Chargenmodus</object>
+      </resource>
+      <resource name="Capabilities">
+        <object>Sortierer</object>
+      </resource>
+    </type>
+    <type name="Algorithm.Parameter.Names" ServiceOnly="false">
+      <resource name="MinBatchWeight">
+        <object>Mindestchargen-\ngewicht</object>
+      </resource>
+      <resource name="MaxBatchWeight">
+        <object>Max. Chargen-\ngewicht</object>
+      </resource>
+      <resource name="MinBatchCount">
+        <object>Mindestchargen-\nanzahl</object>
+      </resource>
+      <resource name="MaxBatchCount">
+        <object>Max. Chargen-\nanzahl</object>
+      </resource>
+      <resource name="BatchWeightUnit">
+        <object>Chargen-\neinheit</object>
+      </resource>
+      <resource name="RejectLevel">
+        <object>Ausschuss-\nebene</object>
+      </resource>
+      <resource name="TrayId">
+        <object>Ablage-ID</object>
+      </resource>
+      <resource name="Priority">
+        <object>Priorität</object>
+      </resource>
+      <resource name="NegTolerance">
+        <object>Negative \nToleranz</object>
+      </resource>
+      <resource name="PosTolerance">
+        <object>Positive \nToleranz</object>
+      </resource>
+      <resource name="ToleranceUnit">
+        <object>Toleranz-\neinheit</object>
+      </resource>
+      <resource name="Rate">
+        <object>Rate</object>
+      </resource>
+      <resource name="RateUnit">
+        <object>Rateneinheit</object>
+      </resource>
+      <resource name="AverageWeight">
+        <object>Durchschnitts-\ngewicht ($W)</object>
+      </resource>
+      <resource name="MaxRate">
+        <object>Max. Rate</object>
+      </resource>
+      <resource name="Quality">
+        <object>Qualität</object>
+      </resource>
+      <resource name="UsePercentage">
+        <object>Prozentsatz verwenden</object>
+      </resource>
+      <resource name="AcceptedOverweight">
+        <object>Zulässiges \nÜbergewicht($W)</object>
+      </resource>
+      <resource name="RejectBelow">
+        <object>Ausschuss \nunter ($W)</object>
+      </resource>
+      <resource name="RejectAbove">
+        <object>Ausschuss \nüber ($W)</object>
+      </resource>
+      <resource name="AccuracyMode">
+        <object>Genauigkeitsmodus</object>
+      </resource>
+      <resource name="DripFactor">
+        <object>Sicherheits-\nübergewicht ($W)</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.AlgorithmCapabilities" ServiceOnly="true">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="algorithm">
+        <object>Algorithmus</object>
+      </resource>
+      <resource name="devicetype">
+        <object>Gerätetypcode</object>
+      </resource>
+      <resource name="algrname">
+        <object>Gerätealgorithmus-\nname</object>
+      </resource>
+      <resource name="algrvalue">
+        <object>Gerätealgorithmus-\nwert</object>
+      </resource>
+      <resource name="devicetype Name">
+        <object>Gerätetyp</object>
+      </resource>
+      <resource name="Parameters">
+        <object>Parameter</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.AlgorithmParms" ServiceOnly="true">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="algorithm">
+        <object>Algorithmus</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="description">
+        <object>Beschreibung</object>
+      </resource>
+      <resource name="paramname">
+        <object>Parametername</object>
+      </resource>
+      <resource name="datatype">
+        <object>Datentyp</object>
+      </resource>
+      <resource name="enumtype">
+        <object>Enum.-Typ</object>
+      </resource>
+      <resource name="minvalue">
+        <object>Mindestwert</object>
+      </resource>
+      <resource name="maxvalue">
+        <object>Höchstwert</object>
+      </resource>
+      <resource name="defvalue">
+        <object>Standardwert</object>
+      </resource>
+      <resource name="required">
+        <object>Erforderlich</object>
+      </resource>
+      <resource name="uiorder">
+        <object>UI-Bestellung</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Systems" ServiceOnly="true">
+      <resource name="system">
+        <object>Systemcode</object>
+      </resource>
+      <resource name="systype">
+        <object>Systemtyp</object>
+      </resource>
+      <resource name="sysprogram">
+        <object>Programmcode</object>
+      </resource>
+      <resource name="usereduction">
+        <object>Schwund verwenden</object>
+      </resource>
+      <resource name="recnominal">
+        <object>Nominales \nGewicht aufzeichnen</object>
+      </resource>
+      <resource name="unitop">
+        <object>Einheitsprozesscode</object>
+      </resource>
+      <resource name="batchdetails">
+        <object>Chargenprotokoll-\ndetails</object>
+      </resource>
+      <resource name="piecedetails">
+        <object>Stückprotokoll-\ndetails</object>
+      </resource>
+      <resource name="system Name">
+        <object>System</object>
+      </resource>
+      <resource name="sysprogram Name">
+        <object>Programm</object>
+      </resource>
+      <resource name="unitop Name">
+        <object>Einheitsprozess</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.PieceRegs" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Verarbeitungs-\nzeitraum</object>
+      </resource>
+      <resource name="material">
+        <object>Materialcode</object>
+      </resource>
+      <resource name="piecetype">
+        <object>Stücktypcode</object>
+      </resource>
+      <resource name="colortype">
+        <object>Farbcode</object>
+      </resource>
+      <resource name="station">
+        <object>Stationscode</object>
+      </resource>
+      <resource name="po">
+        <object>Auftragscode</object>
+      </resource>
+      <resource name="shift">
+        <object>Schicht</object>
+      </resource>
+      <resource name="input">
+        <object>Eingabenummer</object>
+      </resource>
+      <resource name="class">
+        <object>Klasse</object>
+      </resource>
+      <resource name="pieces">
+        <object>Stücke</object>
+      </resource>
+      <resource name="valuetype">
+        <object>Werttyp</object>
+      </resource>
+      <resource name="value">
+        <object>Wert</object>
+      </resource>
+      <resource name="valuesqr">
+        <object>Wert Sqr</object>
+      </resource>
+      <resource name="nregs">
+        <object>Registrierungen</object>
+      </resource>
+      <resource name="regtime">
+        <object>Protokollzeit</object>
+      </resource>
+      <resource name="rtype">
+        <object>Datensatztyp</object>
+      </resource>
+      <resource name="rstat">
+        <object>Datensatzstatus</object>
+      </resource>
+      <resource name="batch">
+        <object>Charge</object>
+      </resource>
+      <resource name="packid">
+        <object>Packungs-ID</object>
+      </resource>
+      <resource name="material Name">
+        <object>Material</object>
+      </resource>
+      <resource name="piecetype Name">
+        <object>Stücktyp</object>
+      </resource>
+      <resource name="colortype Name">
+        <object>Farbtyp</object>
+      </resource>
+      <resource name="station Name">
+        <object>Station</object>
+      </resource>
+      <resource name="po Name">
+        <object>Auftrag</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Schicht</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Teilverarbeitungs-\nzeitraum</object>
+      </resource>
+      <resource name="lot">
+        <object>Loscode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Los</object>
+      </resource>
+      <resource name="plot">
+        <object>Fertigungslos-\ncode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Fertigungslos</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressourcenbereichs-\ncode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressourcenbereich</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.PieceLog" ServiceOnly="false">
+      <resource name="grd_piecelog_id">
+        <object>ID</object>
+      </resource>
+      <resource name="grd_piecelog_prperiod">
+        <object>Verarbeitungszeitraum</object>
+      </resource>
+      <resource name="grd_piecelog_material">
+        <object>Materialcode</object>
+      </resource>
+      <resource name="grd_piecelog_po">
+        <object>Auftragscode</object>
+      </resource>
+      <resource name="grd_piecelog_shift">
+        <object>Schichtcode</object>
+      </resource>
+      <resource name="grd_piecelog_weight">
+        <object>Gewicht ($W)</object>
+      </resource>
+      <resource name="grd_piecelog_status">
+        <object>Wiegestatus</object>
+      </resource>
+      <resource name="grd_piecelog_length">
+        <object>Länge</object>
+      </resource>
+      <resource name="grd_piecelog_height">
+        <object>Höhe</object>
+      </resource>
+      <resource name="grd_piecelog_width">
+        <object>Breite</object>
+      </resource>
+      <resource name="grd_piecelog_colortype">
+        <object>Farbtypcode</object>
+      </resource>
+      <resource name="grd_piecelog_piecetype">
+        <object>Stücktypcode</object>
+      </resource>
+      <resource name="grd_piecelog_gate">
+        <object>Schleuse</object>
+      </resource>
+      <resource name="grd_piecelog_regtime">
+        <object>Protokollzeit</object>
+      </resource>
+      <resource name="grd_piecelog_rtype">
+        <object>Datensatztyp</object>
+      </resource>
+      <resource name="grd_piecelog_rstat">
+        <object>Datensatzstatus</object>
+      </resource>
+      <resource name="grd_piecelog_batch">
+        <object>Charge</object>
+      </resource>
+      <resource name="grd_piecelog_packitem">
+        <object>Packungselement</object>
+      </resource>
+      <resource name="grd_piecelog_material Name">
+        <object>Material</object>
+      </resource>
+      <resource name="grd_piecelog_po Name">
+        <object>Auftrag</object>
+      </resource>
+      <resource name="grd_piecelog_shift Name">
+        <object>Schicht</object>
+      </resource>
+      <resource name="grd_piecelog_colortype Name">
+        <object>Farbtyp</object>
+      </resource>
+      <resource name="grd_piecelog_piecetype Name">
+        <object>Stücktyp</object>
+      </resource>
+      <resource name="grd_piecelog_sprperiod">
+        <object>Teilverarbeitungs-\nzeitraum</object>
+      </resource>
+      <resource name="grd_piecelog_lot">
+        <object>Loscode</object>
+      </resource>
+      <resource name="grd_piecelog_lot Name">
+        <object>Los</object>
+      </resource>
+      <resource name="grd_piecelog_plot">
+        <object>Fertigungslos-\ncode</object>
+      </resource>
+      <resource name="grd_piecelog_plot Name">
+        <object>Fertigungslos</object>
+      </resource>
+      <resource name="grd_piecelog_rmarea">
+        <object>Ressourcenbereichs-\ncode</object>
+      </resource>
+      <resource name="grd_piecelog_rmarea Name">
+        <object>Ressourcenbereich</object>
+      </resource>
+      <resource name="grd_piecelog_grader">
+        <object>Sortierercode</object>
+      </resource>
+      <resource name="grd_piecelog_grader Name">
+        <object>Sortierer</object>
+      </resource>
+      <resource name="grd_piecelog_input">
+        <object>Eingabenummer</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.InputRegs" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="system">
+        <object>Systemcode</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Verarbeitungszeitraum</object>
+      </resource>
+      <resource name="material">
+        <object>Materialcode</object>
+      </resource>
+      <resource name="station">
+        <object>Stationscode</object>
+      </resource>
+      <resource name="po">
+        <object>Auftragscode</object>
+      </resource>
+      <resource name="shift">
+        <object>Schichtcode</object>
+      </resource>
+      <resource name="pieces">
+        <object>Stücke</object>
+      </resource>
+      <resource name="value">
+        <object>Wert</object>
+      </resource>
+      <resource name="valuetype">
+        <object>Werttyp</object>
+      </resource>
+      <resource name="nregs">
+        <object>Registrierungen</object>
+      </resource>
+      <resource name="regtime">
+        <object>Protokollzeit</object>
+      </resource>
+      <resource name="rstat">
+        <object>Datensatzstatus</object>
+      </resource>
+      <resource name="batch">
+        <object>Charge</object>
+      </resource>
+      <resource name="aseconds">
+        <object>Aktive \nZeit (Sek)</object>
+      </resource>
+      <resource name="iseconds">
+        <object>Inaktive \nZeit (Sek)</object>
+      </resource>
+      <resource name="paseconds">
+        <object>Verarbeitungseinheit \naktive Zeit (Sek)</object>
+      </resource>
+      <resource name="piseconds">
+        <object>Verarbeitungseinheit \ninaktive Zeit (Sek)</object>
+      </resource>
+      <resource name="system Name">
+        <object>System</object>
+      </resource>
+      <resource name="material Name">
+        <object>Material</object>
+      </resource>
+      <resource name="station Name">
+        <object>Station</object>
+      </resource>
+      <resource name="po Name">
+        <object>Auftrag</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Schicht</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Teilverarbeitungs-\nzeitraum</object>
+      </resource>
+      <resource name="lot">
+        <object>Loscode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Los</object>
+      </resource>
+      <resource name="plot">
+        <object>Fertigungslos-\ncode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Fertigungslos</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressourcenbereichs-\ncode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressourcenbereich</object>
+      </resource>
+      <resource name="grader">
+        <object>Sortierercode</object>
+      </resource>
+      <resource name="grader Name">
+        <object>Sortierer</object>
+      </resource>
+      <resource name="rtype">
+        <object>Datensatztyp</object>
+      </resource>
+      <resource name="input">
+        <object>Eingabenummer</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.BatchLog" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="system">
+        <object>Systemcode</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Verarbeitungszeitraum</object>
+      </resource>
+      <resource name="material">
+        <object>Materialcode</object>
+      </resource>
+      <resource name="station">
+        <object>Stationscode</object>
+      </resource>
+      <resource name="po">
+        <object>Auftragscode</object>
+      </resource>
+      <resource name="shift">
+        <object>Schichtcode</object>
+      </resource>
+      <resource name="pieces">
+        <object>Stücke</object>
+      </resource>
+      <resource name="weight">
+        <object>Gewicht ($W)</object>
+      </resource>
+      <resource name="weighterr">
+        <object>Gewichtsfehler</object>
+      </resource>
+      <resource name="height">
+        <object>Höhe</object>
+      </resource>
+      <resource name="width">
+        <object>Breite</object>
+      </resource>
+      <resource name="length">
+        <object>Länge</object>
+      </resource>
+      <resource name="nregs">
+        <object>Registrierungen</object>
+      </resource>
+      <resource name="regtime">
+        <object>Protokollzeit</object>
+      </resource>
+      <resource name="rtype">
+        <object>Datensatztyp</object>
+      </resource>
+      <resource name="rstat">
+        <object>Datensatzstatus</object>
+      </resource>
+      <resource name="batch">
+        <object>Charge</object>
+      </resource>
+      <resource name="layout">
+        <object>Layoutcode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Material</object>
+      </resource>
+      <resource name="station Name">
+        <object>Station</object>
+      </resource>
+      <resource name="po Name">
+        <object>Auftrag</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Schicht</object>
+      </resource>
+      <resource name="layout Name">
+        <object>Layout</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Teilverarbeitungs-\nzeitraum</object>
+      </resource>
+      <resource name="lot">
+        <object>Loscode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Los</object>
+      </resource>
+      <resource name="plot">
+        <object>Fertigungslos-\ncode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Fertigungslos</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressourcenbereichs-\ncode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressourcenbereich</object>
+      </resource>
+      <resource name="grader">
+        <object>Sortierercode</object>
+      </resource>
+      <resource name="grader Name">
+        <object>Sortierer</object>
+      </resource>
+      <resource name="nominal">
+        <object>Nominal ($W)</object>
+      </resource>
+      <resource name="target">
+        <object>Zielgewicht ($W)</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.WsRegs" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="system">
+        <object>Systemcode</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Verarbeitungs-\nzeitraum</object>
+      </resource>
+      <resource name="material">
+        <object>Material-\ncode</object>
+      </resource>
+      <resource name="station">
+        <object>Stations-\ncode</object>
+      </resource>
+      <resource name="po">
+        <object>Auftragscode</object>
+      </resource>
+      <resource name="shift">
+        <object>Schichtcode</object>
+      </resource>
+      <resource name="employee">
+        <object>Mitarbeiter-\ncode</object>
+      </resource>
+      <resource name="pieces">
+        <object>Stücke</object>
+      </resource>
+      <resource name="weight">
+        <object>Gewicht ($W)</object>
+      </resource>
+      <resource name="nregs">
+        <object>Registrierungen</object>
+      </resource>
+      <resource name="regtime">
+        <object>Protokollzeit</object>
+      </resource>
+      <resource name="rtype">
+        <object>Datensatztyp</object>
+      </resource>
+      <resource name="rstat">
+        <object>Datensatz-\nstatus</object>
+      </resource>
+      <resource name="batch">
+        <object>Charge</object>
+      </resource>
+      <resource name="aseconds">
+        <object>Aktive \nZeit (Sek)</object>
+      </resource>
+      <resource name="iseconds">
+        <object>Inaktive \nZeit (Sek)</object>
+      </resource>
+      <resource name="material Name">
+        <object>Material</object>
+      </resource>
+      <resource name="station Name">
+        <object>Station</object>
+      </resource>
+      <resource name="po Name">
+        <object>Auftrag</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Schicht</object>
+      </resource>
+      <resource name="employee Name">
+        <object>Mitarbeiter</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Teilverarbeitungs-\nzeitraum</object>
+      </resource>
+      <resource name="lot">
+        <object>Loscode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Los</object>
+      </resource>
+      <resource name="plot">
+        <object>Fertigungslos-\ncode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Fertigungslos</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressourcenbereichs-\ncode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressourcenbereich</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.SystemSetup.GradingSystemUC" ServiceOnly="true">
+      <resource name="systemSettingsGroup.Text">
+        <object>Systemeinstellungen</object>
+      </resource>
+      <resource name="systemNameLabel.Text">
+        <object>Name:</object>
+      </resource>
+      <resource name="systemShNameLabel.Text">
+        <object>Kurzname:</object>
+      </resource>
+      <resource name="systemCodeLabel.Text">
+        <object>Code:</object>
+      </resource>
+      <resource name="applicationLabel.Text">
+        <object>Anwendung:</object>
+      </resource>
+      <resource name="unitOperationLabel.Text">
+        <object>Standardeinheitsprozess:</object>
+      </resource>
+      <resource name="systemTypeLabel.Text">
+        <object>Systemtyp:</object>
+      </resource>
+      <resource name="batchLogDetailsLabel.Text">
+        <object>Chargenprotokolldetails:</object>
+      </resource>
+      <resource name="pieceLogDetailsLabel.Text">
+        <object>Stückprotokolldetails:</object>
+      </resource>
+      <resource name="extcodeLabel.Text">
+        <object>Externer Code:</object>
+      </resource>
+      <resource name="siteLabel.Text">
+        <object>Standort:</object>
+      </resource>
+      <resource name="xmlDataLabel.Text">
+        <object>XML:</object>
+      </resource>
+      <resource name="active.Text">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="useReductionCheckBox.Text">
+        <object>Schwund verwenden</object>
+      </resource>
+      <resource name="recNominalWeightCheckBox.Text">
+        <object>Nominales Gewicht aufzeichnen</object>
+      </resource>
+      <resource name="systemProgramLabel.Text">
+        <object>Systemprogramm:</object>
+      </resource>
+      <resource name="gradersTabPage.Text">
+        <object>Sortierer</object>
+      </resource>
+      <resource name="gatesTabPage.Text">
+        <object>Schleusen</object>
+      </resource>
+      <resource name="extraGradingTabPage.Text">
+        <object>Extrasortierung</object>
+      </resource>
+      <resource name="dctTabPage.Text">
+        <object>Sortiererkonfigurationsvorlagen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.M6000.Production.Graders.PalletEditor" ServiceOnly="false">
+      <resource name="selectOnePallet">
+        <object>Nur 1 Palette auswählen!</object>
+      </resource>
+      <resource name="deletePalletPrompt">
+        <object>Möchten Sie die ausgewählte(n) Palette(n) löschen?</object>
+      </resource>
+      <resource name="confirmOperationCaption">
+        <object>Vorgang bestätigen</object>
+      </resource>
+      <resource name="clearSelectionButton.Text">
+        <object>Auswahl aufheben</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Abbrechen</object>
+      </resource>
+      <resource name="deleteButton.Text">
+        <object>Löschen</object>
+      </resource>
+      <resource name="otherPalletRegistered">
+        <object>In dieser Schleuse ist bereits eine andere Palette registriert.</object>
+      </resource>
+      <resource name="deletePalletFailed">
+        <object>Löschen der Palette fehlgeschlagen</object>
+      </resource>
+      <resource name="deletePalletErrorTitle">
+        <object>Löschen der Palette fehlgeschlagen</object>
+      </resource>
+      <resource name="infoText">
+        <object>Offene Paletten für Schleuse</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.M6000.Production.Graders.GateStatusControl" ServiceOnly="false">
+      <resource name="noOpenPallets">
+        <object>Keine offenen Paletten</object>
+      </resource>
+      <resource name="openPallets">
+        <object>Offene Paletten</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.M6000.Production.Graders.RegisterPallets" ServiceOnly="false">
+      <resource name="palletRegistrationFailed">
+        <object>Einige Paletten wurden nicht registriert.</object>
+      </resource>
+      <resource name="errorCaption">
+        <object>Fehler</object>
+      </resource>
+      <resource name="reason">
+        <object>Grund:</object>
+      </resource>
+      <resource name="infoText">
+        <object>Paletten registrieren</object>
+      </resource>
+      <resource name="closeButton.Text">
+        <object>Zurück</object>
+      </resource>
+      <resource name="registerAllPalletsButton.Text">
+        <object>Alle registrieren</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.M6000.Production.Graders.ControlScreen" ServiceOnly="false">
+      <resource name="noGradeOnGate">
+        <object>Kein Produkt</object>
+      </resource>
+      <resource name="selectGatePrompt">
+        <object>Schleuse für detaillierte Schleuseninformationen auswählen</object>
+      </resource>
+      <resource name="weightLimits">
+        <object>Gewichtslimit:</object>
+      </resource>
+      <resource name="batchSize">
+        <object>Chargengröße:</object>
+      </resource>
+      <resource name="pallet">
+        <object>Palette:</object>
+      </resource>
+      <resource name="noPalletRegistered">
+        <object>Keine Palette registriert.</object>
+      </resource>
+      <resource name="infoText">
+        <object>Steuerbildschirm</object>
+      </resource>
+      <resource name="createProcessUnitClientError">
+        <object>Verbindung mit Verarbeitungsmanager nicht möglich</object>
+      </resource>
+      <resource name="noGraderInSystem">
+        <object>Sortierer nicht in Sortiersystem gefunden.</object>
+      </resource>
+      <resource name="generalError">
+        <object>Fehler</object>
+      </resource>
+      <resource name="gradingSystemNotFound">
+        <object>Sortiersystem nicht gefunden.</object>
+      </resource>
+      <resource name="currentBatchStatus">
+        <object>Aktueller Chargenstatus:</object>
+      </resource>
+      <resource name="currentBatchPieces">
+        <object>Stücke</object>
+      </resource>
+      <resource name="registerPalletsButton.Text">
+        <object>Paletten registrieren</object>
+      </resource>
+      <resource name="refreshButton.Text">
+        <object>Aktualisieren</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.UI.Windows.Production.Graders.GradesPanelUC" ServiceOnly="false">
+      <resource name="prunitColumn.Caption">
+        <object>Verarbeitungseinheit</object>
+      </resource>
+      <resource name="materialNameColumn.Caption">
+        <object>Material</object>
+      </resource>
+      <resource name="gradeColumn.Caption">
+        <object>Sortierung</object>
+      </resource>
+      <resource name="gatesColumn.Caption">
+        <object>Schleusen</object>
+      </resource>
+      <resource name="minWeightColumn.Caption">
+        <object>Mindestgewicht</object>
+      </resource>
+      <resource name="maxWeightColumn.Caption">
+        <object>Höchstgewicht</object>
+      </resource>
+      <resource name="weightColumn.Caption">
+        <object>Gewicht</object>
+      </resource>
+      <resource name="piecesColumn.Caption">
+        <object>Stücke</object>
+      </resource>
+      <resource name="confirmButton.Caption">
+        <object>Bestätigen</object>
+      </resource>
+      <resource name="cancelButton.Caption">
+        <object>Abbrechen</object>
+      </resource>
+      <resource name="weightLimitsColumnDisplayFormat">
+        <object>Gewichtslimit ({0})</object>
+      </resource>
+      <resource name="pieceDataGridBand.Caption">
+        <object>Stückdaten</object>
+      </resource>
+      <resource name="batchDataGridBand.Caption">
+        <object>Chargen</object>
+      </resource>
+      <resource name="meanWeightColumnDisplayFormat">
+        <object>Durchschnittsgewicht</object>
+      </resource>
+      <resource name="batchWeightColumn.Caption">
+        <object>Chargengewicht</object>
+      </resource>
+      <resource name="meanBatchWeightColumn.Caption">
+        <object>Durchschn. Chargengewicht</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

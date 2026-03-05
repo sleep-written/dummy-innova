@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fr">
+  <industry>
+    <type name="Marel.Mp5.Deboning.Configuration.BufferType" ServiceOnly="true">
+      <resource name="PeriodicSet">
+        <object>Jeu périodique</object>
+      </resource>
+      <resource name="PeriodicSystem">
+        <object>Commande périodique</object>
+      </resource>
+      <resource name="Operator">
+        <object>Commande de l'opérateur</object>
+      </resource>
+      <resource name="AutomaticSensor">
+        <object>Automatique par capteur</object>
+      </resource>
+      <resource name="AutomaticWeight">
+        <object>Automatique par poids</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.EmployeeCapability" ServiceOnly="false">
+      <resource name="Allow">
+        <object>Autoriser le produit</object>
+      </resource>
+      <resource name="Deny">
+        <object>Refuser le produit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.GateType" ServiceOnly="true">
+      <resource name="Output">
+        <object>Sortie</object>
+      </resource>
+      <resource name="SystemBatching">
+        <object>Système de mise en lot</object>
+      </resource>
+      <resource name="DeviceBatching">
+        <object>Appareil de mise en lot</object>
+      </resource>
+      <resource name="Queue">
+        <object>File d'attente des pièces</object>
+      </resource>
+      <resource name="Qc">
+        <object>Contrôle qualité</object>
+      </resource>
+      <resource name="Infeed">
+        <object>Entrée</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.SeparationType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Aucun</object>
+      </resource>
+      <resource name="SlaughterHouse">
+        <object>Par abattoir</object>
+      </resource>
+      <resource name="Category">
+        <object>Par catégorie</object>
+      </resource>
+      <resource name="Lot">
+        <object>Par lot</object>
+      </resource>
+      <resource name="TrimLot">
+        <object>Par lot de parage</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.StationType" ServiceOnly="true">
+      <resource name="Generic">
+        <object>Générique</object>
+      </resource>
+      <resource name="Input">
+        <object>Entrée</object>
+      </resource>
+      <resource name="CutUp">
+        <object>Découpe</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Contrôle qualité</object>
+      </resource>
+      <resource name="Packing">
+        <object>Conditionnement</object>
+      </resource>
+      <resource name="Downgrade">
+        <object>Déclassement</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.TaskType" ServiceOnly="false">
+      <resource name="CutUp">
+        <object>Découpe</object>
+      </resource>
+      <resource name="Criteria">
+        <object>Critères</object>
+      </resource>
+      <resource name="Piece">
+        <object>Elément final</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.NodeType" ServiceOnly="false">
+      <resource name="Pattern">
+        <object>Modèles</object>
+      </resource>
+      <resource name="Task">
+        <object>Tâches</object>
+      </resource>
+      <resource name="TaskLine">
+        <object>Ligne de tâches</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.InspectionMode" ServiceOnly="false">
+      <resource name="Random">
+        <object>Aléatoire</object>
+      </resource>
+      <resource name="Planned">
+        <object>Planifié</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Reprise en aléatoire</object>
+      </resource>
+      <resource name="OperatorSelect">
+        <object>Mode choisi par l’opérateur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.FallbackType" ServiceOnly="false">
+      <resource name="None">
+        <object>Pas de reprise</object>
+      </resource>
+      <resource name="Selected">
+        <object>Produits sélectionnés</object>
+      </resource>
+      <resource name="Any">
+        <object>N'importe quel produit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.PlanMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Non défini</object>
+      </resource>
+      <resource name="Rate">
+        <object>Taux d’inspection</object>
+      </resource>
+      <resource name="EmployeeAverage">
+        <object>Moyenne employé</object>
+      </resource>
+      <resource name="EmployeeMaximum">
+        <object>Maximum employé</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>Demande opérateur</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>Demande externe</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.QcMethod" ServiceOnly="false">
+      <resource name="None">
+        <object>Pas de QC</object>
+      </resource>
+      <resource name="NormalQc">
+        <object>QC normal</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Autoriser la reprise</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.ChangeReasonLogRType" ServiceOnly="false">
+      <resource name="TaskChange">
+        <object>Changement de tâche</object>
+      </resource>
+      <resource name="ProductChange">
+        <object>Changement de produit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.SelectionReason" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Non défini</object>
+      </resource>
+      <resource name="Random">
+        <object>Aléatoire</object>
+      </resource>
+      <resource name="Rate">
+        <object>Taux d’inspection</object>
+      </resource>
+      <resource name="EmployeeAverage">
+        <object>Moyenne employé</object>
+      </resource>
+      <resource name="EmployeeMaximum">
+        <object>Maximum employé</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>Demande opérateur</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>Demande externe</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.QcSelectionLogRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Standard</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.DbItemRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Standard</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Annulé</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.PieceLogRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Standard</object>
+      </resource>
+      <resource name="NotHandled">
+        <object>Non géré</object>
+      </resource>
+      <resource name="Missing">
+        <object>Manquant</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.LotStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Non démarré</object>
+      </resource>
+      <resource name="Active">
+        <object>Actif</object>
+      </resource>
+      <resource name="Completed">
+        <object>Terminé</object>
+      </resource>
+      <resource name="Blocked">
+        <object>Bloqué</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Controllers.ServiceResult" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Résultat non défini</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Erreur de base de données</object>
+      </resource>
+      <resource name="LoadCachedData">
+        <object>Impossible de charger les données du cache</object>
+      </resource>
+      <resource name="InvalidSystemId">
+        <object>ID système non valide</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Erreur de récupération d’objet distant</object>
+      </resource>
+      <resource name="LoadSystemInfo">
+        <object>Erreur de chargement des informations</object>
+      </resource>
+      <resource name="NoService">
+        <object>Pas de programme de commande défini pour le système</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Erreur de chargement dans l’interface</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Echec de l'appel d'objet distant</object>
+      </resource>
+      <resource name="LoadPattern">
+        <object>Chargement du modèle</object>
+      </resource>
+      <resource name="LoadPatternNode">
+        <object>Erreur de chargement du modèle</object>
+      </resource>
+      <resource name="NodeType">
+        <object>Type non valide</object>
+      </resource>
+      <resource name="InvalidControllerId">
+        <object>ID de contrôleur non valide</object>
+      </resource>
+      <resource name="InvalidStationId">
+        <object>ID de poste non valide</object>
+      </resource>
+      <resource name="ServerNotUp">
+        <object>Configuration du programme du serveur incomplète</object>
+      </resource>
+      <resource name="InvalidTaskGroupId">
+        <object>ID de groupe de tâches non valide</object>
+      </resource>
+      <resource name="InterfaceType">
+        <object>Le type interface fourni par le service distant ne correspond pas au type de client</object>
+      </resource>
+      <resource name="LoadBaseItem">
+        <object>Impossible de charger l’enregistrement de l'élément de base</object>
+      </resource>
+      <resource name="LoadParentItem">
+        <object>Impossible de charger l’enregistrement de l’élément parent</object>
+      </resource>
+      <resource name="LoadIndividual">
+        <object>Impossible de charger l’enregistrement individuel</object>
+      </resource>
+      <resource name="NoBid">
+        <object>Aucune offre faite pour cet élément</object>
+      </resource>
+      <resource name="InvalidNodeId">
+        <object>Noeud absent du modèle</object>
+      </resource>
+      <resource name="NoRootNode">
+        <object>Le modèle n'a pas de noeud racine</object>
+      </resource>
+      <resource name="LoadItem">
+        <object>Impossible de charger l’enregistrement de l’élément</object>
+      </resource>
+      <resource name="LoadProduct">
+        <object>Impossible de charger l’enregistrement du produit</object>
+      </resource>
+      <resource name="NoInterface">
+        <object>Le serveur n'a pas d'interface avec l'objet demandé</object>
+      </resource>
+      <resource name="InvalidPieceId">
+        <object>ID de pièce non valide</object>
+      </resource>
+      <resource name="InvalidTaskType">
+        <object>Type de tâche non valide</object>
+      </resource>
+      <resource name="PieceActive">
+        <object>Impossible de commencer une pièce tant qu'une autre est active</object>
+      </resource>
+      <resource name="TaskFinished">
+        <object>Opération impossible une fois la tâche terminée</object>
+      </resource>
+      <resource name="TaskPending">
+        <object>Opération impossible lorsqu'il y a un travail en attente</object>
+      </resource>
+      <resource name="EmptyTask">
+        <object>Opération impossible pour une tâche vide</object>
+      </resource>
+      <resource name="NoBuffer">
+        <object>Pas de stockage pour prendre en charge le produit</object>
+      </resource>
+      <resource name="BufferBusy">
+        <object>Stockage produit occupé</object>
+      </resource>
+      <resource name="InvalidBufferIndex">
+        <object>Index de stockage spécifié non valide</object>
+      </resource>
+      <resource name="NoTask">
+        <object>Pas de tâche en cours</object>
+      </resource>
+      <resource name="NoItemCreated">
+        <object>Elément non retourné par l'opération d'unité</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Poids requis pour la ligne de tâche</object>
+      </resource>
+      <resource name="NoTaskGroup">
+        <object>Tâche absente d'un groupe de tâches</object>
+      </resource>
+      <resource name="NoController">
+        <object>Contrôleur introuvable pour le groupe de tâches</object>
+      </resource>
+      <resource name="UnitOpFailed">
+        <object>Impossible d'exécuter l'opération d'unité</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>Informations manquantes sur l’unité de traitement</object>
+      </resource>
+      <resource name="NoUnitOperation">
+        <object>Informations manquantes sur l'opération d’unité</object>
+      </resource>
+      <resource name="PieceStatus">
+        <object>Impossible de commencer une pièce avec l'état != OK</object>
+      </resource>
+      <resource name="PatternError">
+        <object>Erreur de modèle général</object>
+      </resource>
+      <resource name="NoCriteriaLine">
+        <object>Aucune ligne de critère sélectionnée et pas de ligne par défaut</object>
+      </resource>
+      <resource name="InvalidTaskLineId">
+        <object>ID de ligne de tâche absente de la tâche en cours</object>
+      </resource>
+      <resource name="TaskLineNotAvailable">
+        <object>Impossible de sélectionner la ligne de tâche</object>
+      </resource>
+      <resource name="CriteriaTask">
+        <object>Impossible de démarrer une tâche avec les critères sélectionnés</object>
+      </resource>
+      <resource name="NoProduct">
+        <object>ID de produit requise</object>
+      </resource>
+      <resource name="NoStationUnitId">
+        <object>Pas d'ID d'unité de poste pour la pièce</object>
+      </resource>
+      <resource name="LoadProgram">
+        <object>Charger le programme</object>
+      </resource>
+      <resource name="UnspecifiedError">
+        <object>Erreur indéfinie</object>
+      </resource>
+      <resource name="NoQcTable">
+        <object>Aucun tableau de QC installé pour le poste de QC</object>
+      </resource>
+      <resource name="NotAllowed">
+        <object>Cette configuration ne permet pas l’opération</object>
+      </resource>
+      <resource name="InvalidQcTableId">
+        <object>ID de tableau de QC non valide</object>
+      </resource>
+      <resource name="InQcMode">
+        <object>QC combiné et poste en mode QC</object>
+      </resource>
+      <resource name="NotQcPiece">
+        <object>La pièce n'est pas une pièce du QC</object>
+      </resource>
+      <resource name="QcTable">
+        <object>La pièce n'est pas dans un tableau de QC adéquat</object>
+      </resource>
+      <resource name="NoPiece">
+        <object>Pas de pièce courante</object>
+      </resource>
+      <resource name="InvalidOperation">
+        <object>Opération inconnue ou opération non valide pour le contexte</object>
+      </resource>
+      <resource name="Exception">
+        <object>Exception générale</object>
+      </resource>
+      <resource name="Timeout">
+        <object>L'opération a expiré</object>
+      </resource>
+      <resource name="UnitOpNotLoaded">
+        <object>Opération d'unité non chargée du cache</object>
+      </resource>
+      <resource name="NotInTaskGroup">
+        <object>Poste absent du groupe de tâches indiqué</object>
+      </resource>
+      <resource name="GateSeparationBlocked">
+        <object>Impossible de démarrer le produit à cause d'une contrainte de séparation.</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

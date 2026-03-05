@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="no">
+  <industry>
+    <type name="Marel.Mp5.Base.Programs.ExecutableType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ikke angitt</object>
+      </resource>
+      <resource name="Binary">
+        <object>Frittstående kjørbart program</object>
+      </resource>
+      <resource name="Command">
+        <object>Kommandofil</object>
+      </resource>
+      <resource name="AppDomain">
+        <object>AppDomain kjørbart</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ikke angitt</object>
+      </resource>
+      <resource name="ProgramManager">
+        <object>Programbehandling</object>
+      </resource>
+      <resource name="NetworkRouter">
+        <object>Nettverksruter</object>
+      </resource>
+      <resource name="SystemService">
+        <object>Systemtjeneste</object>
+      </resource>
+      <resource name="ControlProgram">
+        <object>Kontrollprogram</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduleType" ServiceOnly="true">
+      <resource name="Never">
+        <object>Aldri</object>
+      </resource>
+      <resource name="Sequence">
+        <object>I programsekvens</object>
+      </resource>
+      <resource name="Daily">
+        <object>Daglig</object>
+      </resource>
+      <resource name="Weekly">
+        <object>Ukentlig</object>
+      </resource>
+      <resource name="Monthly">
+        <object>Månedlig</object>
+      </resource>
+      <resource name="Yearly">
+        <object>Årlig</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Start</object>
+      </resource>
+      <resource name="Error">
+        <object>Feil</object>
+      </resource>
+      <resource name="Running">
+        <object>Kjører</object>
+      </resource>
+      <resource name="Stopping">
+        <object>Stopper</object>
+      </resource>
+      <resource name="Dead">
+        <object>Inaktiv</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Stoppet</object>
+      </resource>
+      <resource name="RunWait">
+        <object>Venter på start</object>
+      </resource>
+      <resource name="StopWait">
+        <object>Venter på stopp</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ExecuteProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Initialisert</object>
+      </resource>
+      <resource name="Executing">
+        <object>Utfører</object>
+      </resource>
+      <resource name="Completed">
+        <object>Fullført</object>
+      </resource>
+      <resource name="CompletedLate">
+        <object>Fullført sent</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Avbrutt</object>
+      </resource>
+      <resource name="Error">
+        <object>Feil</object>
+      </resource>
+      <resource name="Terminating">
+        <object>Avbryter</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ManagerState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Start</object>
+      </resource>
+      <resource name="RefreshingList">
+        <object>Oppdaterer programliste</object>
+      </resource>
+      <resource name="Running">
+        <object>Kjører</object>
+      </resource>
+      <resource name="Shutdown">
+        <object>Avslutter</object>
+      </resource>
+      <resource name="ShutdownMsg">
+        <object>Avslutter systemtjeneste</object>
+      </resource>
+      <resource name="ShutdownComplete">
+        <object>Avslutning fullført</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ResponseState" ServiceOnly="true">
+      <resource name="CantCheck">
+        <object>Kan ikke kontrollere</object>
+      </resource>
+      <resource name="NotChecked">
+        <object>Ikke kontrollert</object>
+      </resource>
+      <resource name="Responding">
+        <object>Svarer</object>
+      </resource>
+      <resource name="NotResponding">
+        <object>Svarer ikke</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduledProgramState" ServiceOnly="true">
+      <resource name="Executed">
+        <object>Utført</object>
+      </resource>
+      <resource name="ExecutedWait">
+        <object>Utført etter planlagt tidspunkt</object>
+      </resource>
+      <resource name="ExecutedRequest">
+        <object>Utført etter forespørsel</object>
+      </resource>
+      <resource name="Missed">
+        <object>Ikke utført etter planlagt tidspunkt</object>
+      </resource>
+      <resource name="StoppedOnTime">
+        <object>Fullført</object>
+      </resource>
+      <resource name="StoppedLate">
+        <object>Fullført sent</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Avbrutt</object>
+      </resource>
+      <resource name="Error">
+        <object>Feil</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.InterfaceType" ServiceOnly="true">
+      <resource name="NotHandled">
+        <object>Ikke behandlet</object>
+      </resource>
+      <resource name="TcpIpMarel">
+        <object>TCP/IP Marel</object>
+      </resource>
+      <resource name="TcpIpOther">
+        <object>TCP/IP andre</object>
+      </resource>
+      <resource name="Rs232">
+        <object>RS232</object>
+      </resource>
+      <resource name="LonMarel">
+        <object>LON</object>
+      </resource>
+      <resource name="CanMaster">
+        <object>CAN via CanMaster</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Uspesifisert</object>
+      </resource>
+      <resource name="Limited">
+        <object>Begrenset</object>
+      </resource>
+      <resource name="Unlimited">
+        <object>Ubegrenset</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseLogType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ikke angitt</object>
+      </resource>
+      <resource name="Issued">
+        <object>Lisens utstedt</object>
+      </resource>
+      <resource name="Returned">
+        <object>Lisens returnert</object>
+      </resource>
+      <resource name="LeaseExpired">
+        <object>Leieavtale utløpt</object>
+      </resource>
+      <resource name="UnknownType">
+        <object>Ukjent lisenstype</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.AccessLevel" ServiceOnly="false">
+      <resource name="Undefined">
+        <object>Udefinert</object>
+      </resource>
+      <resource name="PersonalData">
+        <object>Ansatt</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Leser</object>
+      </resource>
+      <resource name="Operator">
+        <object>Operatør</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Inspektør</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Administrator</object>
+      </resource>
+      <resource name="Service">
+        <object>Service</object>
+      </resource>
+      <resource name="Developer">
+        <object>Utvikler</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.LookupType" ServiceOnly="false">
+      <resource name="NoLookup">
+        <object>Ingen oppslag</object>
+      </resource>
+      <resource name="Named">
+        <object>Navngitt objektoppslag</object>
+      </resource>
+      <resource name="Numbered">
+        <object>Post-ID-oppslag</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.ReferenceDateMethod" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ikke angitt</object>
+      </resource>
+      <resource name="ProcessPeriod">
+        <object>Prosessperiode</object>
+      </resource>
+      <resource name="Date">
+        <object>Dato</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CompressMethod" ServiceOnly="true">
+      <resource name="GroupBy">
+        <object>Gruppe </object>
+      </resource>
+      <resource name="Sum">
+        <object>Sum</object>
+      </resource>
+      <resource name="Min">
+        <object>Minimum</object>
+      </resource>
+      <resource name="Max">
+        <object>Maksimum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryChangeType" ServiceOnly="true">
+      <resource name="Insert">
+        <object>Satt inn</object>
+      </resource>
+      <resource name="Updated">
+        <object>Oppdatert</object>
+      </resource>
+      <resource name="Delete">
+        <object>Slettet</object>
+      </resource>
+      <resource name="AppSpecific">
+        <object>Spesialoperasjon</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryLogLevel" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Ingen logging</object>
+      </resource>
+      <resource name="BasicLogging">
+        <object>Logg postoperasjoner</object>
+      </resource>
+      <resource name="FullLogging">
+        <object>Logg alle operasjoner</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationStatus" ServiceOnly="false">
+      <resource name="InActive">
+        <object>Inaktiv post</object>
+      </resource>
+      <resource name="Pending">
+        <object>Operasjon venter</object>
+      </resource>
+      <resource name="Current">
+        <object>Fullført</object>
+      </resource>
+      <resource name="Error">
+        <object>Feil</object>
+      </resource>
+      <resource name="Ongoing">
+        <object>Konfigurering pågår</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.UpdateAction" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ingen handling</object>
+      </resource>
+      <resource name="ExecProgram">
+        <object>Kjør program</object>
+      </resource>
+      <resource name="SendRequest">
+        <object>Send forespørsel</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterType" ServiceOnly="false">
+      <resource name="NotSpecified">
+        <object>Ikke angitt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupType" ServiceOnly="false">
+      <resource name="PersonalData">
+        <object>Personlige data</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Leser</object>
+      </resource>
+      <resource name="Operator">
+        <object>Operatør</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Inspektør</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Administrator</object>
+      </resource>
+      <resource name="Service">
+        <object>Service</object>
+      </resource>
+      <resource name="Custom">
+        <object>Programvaretilgang</object>
+      </resource>
+      <resource name="LocationAccess">
+        <object>Stedstilgang </object>
+      </resource>
+      <resource name="General">
+        <object>Generelt</object>
+      </resource>
+      <resource name="Developer">
+        <object>Utvikler</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.GroupAreaType" ServiceOnly="false">
+      <resource name="NoType">
+        <object>Ingen områder</object>
+      </resource>
+      <resource name="Site">
+        <object>Område</object>
+      </resource>
+      <resource name="Department">
+        <object>Avdeling</object>
+      </resource>
+      <resource name="Section">
+        <object>Seksjon</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Behandlingsenhet</object>
+      </resource>
+      <resource name="Station">
+        <object>Stasjon</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupTimeType" ServiceOnly="false">
+      <resource name="NoRestriction">
+        <object>Ingen begrensning</object>
+      </resource>
+      <resource name="Weekday">
+        <object>Ukedag</object>
+      </resource>
+      <resource name="MonthDay">
+        <object>Dag i måned</object>
+      </resource>
+      <resource name="OnDuty">
+        <object>Når i tjeneste</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.GuiNodeType" ServiceOnly="true">
+      <resource name="ControlForm">
+        <object>Kontrollskjema</object>
+      </resource>
+      <resource name="Folder">
+        <object>Mappe</object>
+      </resource>
+      <resource name="UserGrid">
+        <object>Brukerrutenett</object>
+      </resource>
+      <resource name="Log">
+        <object>Logg</object>
+      </resource>
+      <resource name="Report">
+        <object>Rapport</object>
+      </resource>
+      <resource name="SetupGrid">
+        <object>Konfigurasjonsrutenett</object>
+      </resource>
+      <resource name="DocumentTree">
+        <object>Dokumenttre</object>
+      </resource>
+      <resource name="Chart">
+        <object>Diagram</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.DeviceRecord" ServiceOnly="false">
+      <resource name="CanFormat">
+        <object>CAN-enhet {0} på {1}</object>
+      </resource>
+      <resource name="LonFormat">
+        <object>LON-enhet {0} på {1}</object>
+      </resource>
+      <resource name="Rs232Format">
+        <object>RS232-enhet på {0}</object>
+      </resource>
+      <resource name="TcpMarelFormat">
+        <object>Marel TCP/IP-enhet {0}</object>
+      </resource>
+      <resource name="TcpGenericFormat">
+        <object>Generisk TCP/IP-enhet {0}, port{1}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.Records.StandardRecord" ServiceOnly="false">
+      <resource name="Copy">
+        <object>Kopi</object>
+      </resource>
+      <resource name="Of">
+        <object>av</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.ClientSupport.ObjectActiveType" ServiceOnly="false">
+      <resource name="Inactive">
+        <object>Inaktiv</object>
+      </resource>
+      <resource name="Active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="Both">
+        <object>Begge</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Connections.PortType" ServiceOnly="true">
+      <resource name="RemotingTcp">
+        <object>Ekstern TCP-kommunikasjon</object>
+      </resource>
+      <resource name="RemotingHttp">
+        <object>Ekstern HTTP-kommunikasjon</object>
+      </resource>
+      <resource name="SSI">
+        <object>Socket</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaDateTimeType" ServiceOnly="false">
+      <resource name="Unspecified">
+        <object>Ikke angitt</object>
+      </resource>
+      <resource name="ProductionDayFromTo">
+        <object>Produksjonsdagangivelse</object>
+      </resource>
+      <resource name="DateFromTo">
+        <object>Datoangivelse</object>
+      </resource>
+      <resource name="DateTimeFromTo">
+        <object>Dato- og klokkeslettangivelse</object>
+      </resource>
+      <resource name="ProductionDaySingle">
+        <object>Produksjonsdag</object>
+      </resource>
+      <resource name="DateSingle">
+        <object>Dato</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaType" ServiceOnly="false">
+      <resource name="Lookup">
+        <object>Oppslag</object>
+      </resource>
+      <resource name="DateTime">
+        <object>Dato- og klokkeslett</object>
+      </resource>
+      <resource name="SingleInteger">
+        <object>Enkeltheltall</object>
+      </resource>
+      <resource name="IntegerList">
+        <object>Heltallsliste</object>
+      </resource>
+      <resource name="SingleFloat">
+        <object>Enkelt flyttall</object>
+      </resource>
+      <resource name="String">
+        <object>Streng</object>
+      </resource>
+      <resource name="CheckBox">
+        <object>Avmerkingsboks</object>
+      </resource>
+      <resource name="ComboBox">
+        <object>Kombinasjonsboks</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.DataRecordType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Regulær</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Totalt</object>
+      </resource>
+      <resource name="Pending">
+        <object>Venter</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Slettet</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ugyldig</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Komprimert</object>
+      </resource>
+      <resource name="Partial">
+        <object>Delvis</object>
+      </resource>
+      <resource name="Yield">
+        <object>Resultat</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Tilbakeføring</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Ferie</object>
+      </resource>
+      <resource name="Generated">
+        <object>Generert</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Brukt</object>
+      </resource>
+      <resource name="Returned">
+        <object>Returnert</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationOpType" ServiceOnly="true">
+      <resource name="Send">
+        <object>Send</object>
+      </resource>
+      <resource name="Get">
+        <object>Hent</object>
+      </resource>
+      <resource name="GetCopy">
+        <object>Hent kopi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterDataType" ServiceOnly="false">
+      <resource name="Integer">
+        <object>Heltall</object>
+      </resource>
+      <resource name="Float">
+        <object>Flyttall</object>
+      </resource>
+      <resource name="String">
+        <object>Streng</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.StatusCheckMode" ServiceOnly="false">
+      <resource name="PendingOnline">
+        <object>Venter til tilkoblet</object>
+      </resource>
+      <resource name="Online">
+        <object>Bare når tilkoblet</object>
+      </resource>
+      <resource name="NoCheck">
+        <object>Status ikke kontrollert</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ProgramType" ServiceOnly="true">
+      <resource name="Unkown">
+        <object>Ukjent</object>
+      </resource>
+      <resource name="SystemProgram">
+        <object>Systemprogram</object>
+      </resource>
+      <resource name="ScheduledProgram">
+        <object>Planlagt program</object>
+      </resource>
+      <resource name="RequestedProgram">
+        <object>Forespurt program</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.KeyType" ServiceOnly="true">
+      <resource name="Temporary">
+        <object>Midlertidig</object>
+      </resource>
+      <resource name="Permanent">
+        <object>Permanent</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.LogReason" ServiceOnly="true">
+      <resource name="UnknownFeature">
+        <object>Ukjent funksjon</object>
+      </resource>
+      <resource name="MaxInstances">
+        <object>Maks antall eller forekomster nådd</object>
+      </resource>
+      <resource name="UnknownVersion">
+        <object>Ukjent versjon forespurt</object>
+      </resource>
+      <resource name="SignatureFailure">
+        <object>Ikke samsvar mellom signaturer</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.AlarmConfigurationListRecordCsvFileReader" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Feil under prosessering av linje fra CSV-fil</object>
+      </resource>
+      <resource name="ErrorCreatingRecord">
+        <object>Unntak under skriving av data til alarmkonfigurasjonsfilen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.ImportCsvFile" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Feil under prosessering av linje fra CSV-fil</object>
+      </resource>
+      <resource name="ErrorCreatingRecord">
+        <object>Unntak under skriving av data til alarmkonfigurasjonsfilen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.ExportCsvFile" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Feil under prosessering av linje fra CSV-fil</object>
+      </resource>
+      <resource name="ErrorCreatingRecord">
+        <object>Unntak under skriving av data til alarmkonfigurasjonsfilen</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

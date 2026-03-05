@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="da">
+  <industry>
+    <type name="Marel.Mp5.Solutions.MarinePack.ExportData.ElogDkExportHandler">
+      <resource name="InvalidFishgear">
+        <object>Fiskeredskab (killMethod) {0}/{1} findes ikke i Elog\n</object>
+      </resource>
+      <resource name="FishgearNotInMP">
+        <object>Fiskeredskab (killMethod) {0}/{1} findes Elog men ikke i Marine Pack\n</object>
+      </resource>
+      <resource name="FishgearNotInMPPersonal">
+        <object>Fiskeredskab (killMethod) {0}/{1} findes Elog personlig liste men ikke i Marine Pack\n</object>
+      </resource>
+      <resource name="FishgearAddFailed">
+        <object>Fiskeredskab (killMethod) {0}/{1} kunne ikke tilføjes til Marine Pack\n</object>
+      </resource>
+      <resource name="FishgearAdded">
+        <object>Fiskeredskab (killMethod) {0}/{1} blev tilføjet til Marine Pack\n</object>
+      </resource>
+      <resource name="InvalidFishgearPersonal">
+        <object>Fiskeredskab {0}/{1} findes ikke i den personlige fiskeredskabs liste i Elog\n</object>
+      </resource>
+      <resource name="InvalidFishgearParam">
+        <object>Fiskeredskab {0}/{1} parametre ({2}) matcher ikke den personlige fiskeredskabs liste i Elog ({3})\n</object>
+      </resource>
+      <resource name="FishgearPersonalFixedParams">
+        <object>Fiskeredskab {0}/{1} parametre blev tilpasset i Marine Pack så de matcher Elog\n</object>
+      </resource>
+      <resource name="FailFishgearValidation">
+        <object>"Personlig liste over fiskeredskaber kunne ikke valideres\n"</object>
+      </resource>
+      <resource name="FailFishgearParamConfiguring">
+        <object>"Fiskeredskab {0}/{1} parametre kunne ikke sættes\n"</object>
+      </resource>
+      <resource name="FishgearPersonalDeactivated">
+        <object>Fiskeredskab {0}/{1} blev deaktiveret i Marine Pack fordi den ikke blev fundet i den personlige liste i Elog\n</object>
+      </resource>      
+      <resource name="InvalidProduct">
+        <object>Produkt {0}/{1} findes ikke i Elog\n</object>
+      </resource>
+      <resource name="InvalidPort">
+        <object>Havn (company) {0}/{1} findes ikke i Elog\n</object>
+      </resource>
+      <resource name="InvalidPortPersonal">
+        <object>Havn (company) {0}/{1} findes ikke i den personlige havne liste i Elog\n</object>
+      </resource>
+      <resource name="InvalidPortParam">
+        <object>Havn (company) {0}/{1} parametre ({2}) matcher ikke den personlige havne liste i Elog ({3})\n</object>
+      </resource>
+      <resource name="PortPersonalDeactivated">
+        <object>Havn (company) {0}/{1} blev deaktiveret i Marine Pack fordi den ikke blev fundet i den personlige liste i Elog\n</object>
+      </resource>
+      <resource name="FailPortValidation">
+        <object>"Personlig liste over havne kunne ikke valideres\n"</object>
+      </resource>
+      <resource name="PortAdded">
+        <object>"Havn (company) {0}/{1} blev tilføjet til Marine Pack\n"</object>
+      </resource>
+      <resource name="PortAddFailed">
+        <object>Havn (company) {0}/{1} kunne ikke tilføjes til Marine Pack\n</object>
+      </resource>
+      <resource name="PortNotInMPPersonal">
+        <object>Havn (company) {0}/{1} findes i Elog personlig liste men ikke i Marine Pack\n</object>
+      </resource>
+      <resource name="InvalidEcoarea">
+        <object>Økonomisk område (country) {0}/{1} findes ikke i Elog\n</object>
+      </resource>
+      <resource name="InvalidNation">
+        <object>Nation (country) {0}/{1} findes ikke i Elog\n</object>
+      </resource>
+      <resource name="InvalidIcesarea">
+        <object>ICES område (rmarea) {0}/{1} findes ikke i Elog\n</object>
+      </resource>
+      <resource name="CaptainDeactivated">
+        <object>Kaptajn (master) {0} blev deaktiveret i Marine Pack fordi den ikke blev fundet i Elog\n</object>
+      </resource>
+      <resource name="InvalidCaptain">
+        <object>Kaptajn (master) {0} findes ikke i Elog\n</object>
+      </resource>
+      <resource name="CaptainAdded">
+        <object>Kaptajn/master (company) {0} blev tilføjet til Marine Pack\n</object>
+      </resource>
+      <resource name="CaptainAddFailed">
+        <object>Kaptajn/master (company) {0} kunne ikke tilføjes til Marine Pack\n</object>
+      </resource>
+      <resource name="CaptainNotInMP">
+        <object>Kaptajn/master (company) {0} findes i Elog men ikke i Marine Pack\\n</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.ExportData.BaseSifDataExportHandler" ServiceOnly="false">
+      <resource name="TraceExportCatches">
+        <object>"Eksporterer fangster. Tur {0} indeholder {1} slæb til eksport"</object>
+      </resource>
+      <resource name="TraceExportCatchesCC">
+        <object>"Eksporterer fangster. PO/Tur/ {0} indeholder {1} lots til eksport"</object>
+      </resource>    
+      <resource name="WarningNoLots">
+        <object>"Ingen slæb fundet, eksportering afsluttet"</object>
+      </resource>
+      <resource name="WarningNoLotsCC">
+        <object>"Ingen fartøjs-grupper fundet, eksportering afsluttet "</object>
+      </resource>
+      <resource name="TraceExportCatch">
+        <object>Eksporterer slæb (Fangst). ID={0} Fartøj={1} Slæb={2}</object>
+      </resource>
+      <resource name="TraceExportCatchCC">
+        <object>Eksporterer fartøjs-gruppe (Fangst). ID={0} Fartøj={1} Gruppe={2}</object>
+      </resource>
+      <resource name="TraceExportCatchSuccess">
+        <object>"Fangster eksporteret med success"</object>
+      </resource>
+      <resource name="StatusExportStarted">
+        <object>Eksportering til SIF startet...</object>
+      </resource>
+      <resource name="TraceExportBoxes">
+        <object>Eksporterer kasser. Fundet {0} til eksport for tur {1}</object>
+      </resource>
+      <resource name="TraceExportBoxesCC">
+        <object>Eksporterer kasser. Fundet {0} registreringer til eksport for slant-gruppe {1}</object>
+      </resource>
+      <resource name="WarningNoBoxes">
+        <object>Ingen kasser fundet der kan eksporteres</object>
+      </resource>
+      <resource name="WarningCustomerNotFound">
+        <object>Kunden {0} kunne ikke findes</object>
+      </resource>
+      <resource name="CreateSales">
+        <object>Opretter salg. Id={0} SalgsLot={1} Køber={2}</object>
+      </resource>
+      <resource name="TraceExportBox">
+        <object>"Eksporterer kasse. Pack={0} RFID={1} Regs={2} ID={3} Msc:{4}"</object>
+      </resource>
+      <resource name="WarningGrai96Parse">
+        <object>"Kunne ikke fortolke GRAI96 RFID"</object>
+      </resource>
+      <resource name="ExportSuccessfull">
+        <object>Eksportering til SIF afsluttet med success</object>
+      </resource>
+      <resource name="ExportWithNotifications">
+        <object>Eksportering til SIF afsluttet med bemærkninger</object>
+      </resource>     
+      <resource name="ExportFailedAt">
+        <object>Eksportering til SIF fejlede ved </object>
+      </resource>
+      <resource name="FailConvertPos">
+        <object>Kunne ikke konvertere positionen {0}:\r\n{1}</object>
+      </resource>
+      <resource name="SifErrorConnect">
+        <object>SIF fejl: Fejl ved kommunikation med SIF. Url={0} Brugernavn={1} Kodeord={2}</object>
+      </resource>
+      <resource name="SifErrorBusinessId">
+        <object>SIF fejl: BusinessId \"{0}\" er ikke valid i SIF. Undersøg om BusinessId i Marine Pack er korrekt og at du har rettigheder til at sende på vegne af dette BusinessId.</object>
+      </resource>
+      <resource name="SifErrorGetPrefix">
+        <object>SIF fejl: Hentning af prefix fejlede. BusinessId={0}</object>
+      </resource>
+      <resource name="SifErrorCreateCatch">
+        <object>SIF fejl: Oprettelse af fangst fejlede. \r\nCatchInfo={0}</object>
+      </resource>
+      <resource name="SifErrorCreateTU">
+        <object>SIF fejl: Oprettelse af kasse (sporingsenhed) fejlede. \r\nTU={0}</object>
+      </resource>
+      <resource name="ExportFailureConnectionSif">
+        <object>Kan ikke forbinde til SIF server Undersøg venligst om du har forbindelse til internettet og om alle kabler er ok. Prøv så at eksportere igen.</object>
+      </resource>
+      <resource name="SifErrorLoginUsername">
+        <object>SIF fejl: Brugernavnet \"{0}\" finde ikke i SIF. Check om dit login er ok.</object>
+      </resource>
+      <resource name="SifErrorLoginPassword">
+        <object>SIF fejl: Kodeordet \"{0}\" finde ikke i SIF. Check om dit login er ok.</object>
+      </resource>
+      <resource name="SifErrorVesselId">
+        <object>SIF fejl: FartøjsID (VesselId) \"{0}\" er ikke gyldig i SIF for det brugte login. Check om dit login og fartøjsID er korrekt.</object>
+      </resource>
+      <resource name="SifErrorSpeciesId">
+        <object>SIF fejl: FAO Koden (SpeciedId) \"{0}\" findes ikke i SIF. Check produkt brugt til kasse {1}.</object>
+      </resource>
+      <resource name="SifErrorSize">
+        <object>SIF fejl: Størrelsen (Species size) \"{0}\" er ikke gyldig i SIF. Check om produkt størrelsen på materialet brugt til kasse {1}.</object>
+      </resource>
+      <resource name="SifErrorQuality">
+        <object>SIF fejl: Kvaliteten (Quality) \"{0}\" er ikke gyldig i SIF. Check om produkt kvaliteten på materialet brugt til kasse {1}.</object>
+      </resource>
+      <resource name="SifErrorProductForm">
+        <object>SIF fejl: Produkt tilstand (Product Form) \"{0}\" er ikke gyldig i SIF. Check om produkt tilstanden (Condition) på materialet brugt til kasse {1}.</object>
+      </resource>
+      <resource name="SifErrorCondition">
+        <object>SIF fejl: Product konservering (Condition) \"{0}\" er ikke gyldig i SIF. Check om produkt konserveringen (Conservation) på materialet brugt til kasse {1}.</object>
+      </resource>
+      <resource name="SifErrorCatchAreaId">
+        <object>SIF fejl: Farvandet \"{0}\" er ikke gyldig SIF. Check om farvand for slæb/fartøjs-gruppe {1} er korrekt.</object>
+      </resource>
+      <resource name="SifErrorGearTypeId">
+        <object>SIF fejl: Fiskeredskabet \"{0}\" er ikke gyldig SIF. Check om fiskeredskab for slæb/fartøjs-gruppe {1} er korrekt.</object>
+      </resource>
+      <resource name="SifErrorInsufficientPrivileges">
+        <object>SIF fejl: Dit SIF login har ikke rettigheder til at sende data for fartøjet {0}.</object>
+      </resource>
+      <resource name="SiteNotFound">
+        <object>The site {0} was not found, can't get SIF prefix for catch owner.</object>
+      </resource>
+      <resource name="SiteNoPrefix">
+        <object>The site {0} contains no SIF prefix in ExtCode.</object>
+      </resource>
+      <resource name="ErrorLotNoVessel">
+        <object>Fartøjs-lot {0}/{1} har ikke noget fartøj defineret (as SlHouse)</object>
+      </resource>
+      <resource name="ErrorCompanyNoBusinessId">
+        <object>Fartøjet {0}/{1} mangler BusinessId i kolonnen Ekstern kode</object>
+      </resource>
+      <resource name="SifErrorInsufficientPrivilegesBox">
+        <object>SIF fejl: Dit SIF login har ikke rettigheder til at sende data for kassen {0}.</object>
+      </resource>
+      <resource name="TraceCreateCatchCC">
+        <object>Laver fartøjs-gruppe (Fangst). ID={0} Fartøj={1} Gruppe={2}.</object>
+      </resource>
+      <resource name="TraceCreateCatchSuccess">
+        <object>Fangster lavet med success.</object>
+      </resource>
+      <resource name="SIFerror">
+        <object>SIF fejl</object>
+      </resource>
+      <resource name="SIFConnectionError">
+        <object>SIF forbindelses fejl</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.ExportData.CsvExportHandler" ServiceOnly="false">
+      <resource name="NoBoat">
+        <object>Ingen båd</object>
+      </resource>
+      <resource name="NoPlot">
+        <object>Ingen bem.</object>
+      </resource>
+      <resource name="NoFreeTextField1">
+        <object>Ingen fri tekst felt1</object>
+      </resource>
+      <resource name="NoFreeTextField2">
+        <object>Ingen fri tekst felt2</object>
+      </resource>
+      <resource name="StatusExportStarted">
+        <object>Eksport til CSV fil påbegyndt...</object>
+      </resource>
+      <resource name="ExportSuccessfull">
+        <object>Eksport til CSV fil fuldført med success</object>
+      </resource>
+      <resource name="ExportFailed">
+        <object>Eksport til CSV fil fejlede</object>
+      </resource>
+      <resource name="FileCreated">
+        <object>Oprettede CSV fil {0} i folderen {1}</object>
+      </resource>
+      <resource name="NoDataFound">
+        <object>Ingen kasser fundet at eksportere for po=</object>
+      </resource>
+      <resource name="NoCleanerDataFound">
+        <object>Ingen renser kasser fundet at eksportere for po=</object>
+      </resource>
+      <resource name="StatusCleanerExportStarted">
+        <object>Exporter renser data til CSV fil påbegyndt...=</object>
+      </resource>
+      <resource name="ExportCleanerFailed">
+        <object>Eksportering af cleaner data til CSV fil fejlede=</object>
+      </resource>
+      <resource name="FileCleanerCreated">
+        <object>Oprettede CSV cleaner fil {0} i folderen {1}</object>
+      </resource>
+      <resource name="StatusSifExportStarted">
+        <object>Exporter SIF data til CSV fil påbegyndt...</object>
+      </resource>
+      <resource name="NoSIFDataFound">
+        <object>Ingen SIF kasser fundet at eksportere for po=</object>
+      </resource>
+      <resource name="FileSifCreated">
+        <object>Oprettede SIF CSV fil {0} i folderen {1}</object>
+      </resource>
+      <resource name="ExportSifFailed">
+        <object>Eksportering af SIF data til CSV fil fejlede=</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.Service.MpServiceErrorCode" ServiceOnly="false">
+      <resource name="Exception">
+        <object>Exception</object>
+      </resource>
+      <resource name="Error">
+        <object>Error</object>
+      </resource>
+      <resource name="Success">
+        <object>Success</object>
+      </resource>
+      <resource name="NoSystem">
+        <object>System ikke fundet</object>
+      </resource>
+      <resource name="ExportHandlerNotFound">
+        <object>Den opsatte export handler er ikke fundet</object>
+      </resource>
+      <resource name="ExportHandlerNotCorrectType">
+        <object>Den opsatte export handler er ikke of korrekt type</object>
+      </resource>
+      <resource name="NotBaseSifExportHandler">
+        <object>Den opsatte export handler er ikke af typen Sif Export Handler</object>
+      </resource>
+      <resource name="ConnectionToElogFailed">
+        <object>Kan ikke forbinde til Elog. Kontroller venligst at Elog er startet og evt. kabler er ok. Prøv derefter at eksportere igen.</object>
+      </resource>
+      <resource name="ConnectionToElogWebException">
+        <object>Kan ikke forbinde til Elog. Kontroller venligst at Elog er startet og evt. kabler er ok. Prøv derefter at eksportere igen.</object>
+      </resource>
+      <resource name="ConnectionToElogWebExceptionConnect">
+        <object>Kan ikke forbinde til Elog. Kontroller venligst at Elog er startet og evt. kabler er ok. Luk derefter Marine Pack vinduet og prøv igen.</object>
+      </resource>
+      <resource name="LicenseException">
+        <object>Eksport til Elektronisk Logbog kræver en licens. Denne licens er ikke installeret.</object>
+      </resource>
+      <resource name="ExportException">
+        <object>Eksport til DK Elog fejled (med Undtagelse). se i log for detaljer</object>
+      </resource>
+      <resource name="ExportExceptionNoBoxes">
+        <object>Eksport til DK Elog fejled - ingen kasser</object>
+      </resource>
+      <resource name="ExportExceptionNoLots">
+        <object>Eksport til DK Elog fejled - ingen slæb</object>
+      </resource>
+    </type>
+
+    <type name="Marel.Mp5.Solutions.MarinePack.ExportData.CollectionSifDataExportHandler" ServiceOnly="false">   
+      <resource name="CreatingCsvFile">
+        <object>Laver CSV export fil</object>
+      </resource>
+      <resource name="CreatedCsvFile">
+        <object>Har lavet CSV export fil</object>
+      </resource>
+      <resource name="CreatingCsvFile-FatalError">
+        <object>Laver csv export fil - Fatal fejl</object>
+      </resource>
+      <resource name="FtpTransmissionNotDone-ConfigurationInvalid">
+        <object>Ftp transmission ikke lavet - den konfigurerede Ip addresse / Host name er invalid</object>
+      </resource>
+      <resource name="StartFtpTransmissionOf">
+        <object>Start Ftp overførsel af</object>
+      </resource>
+      <resource name="FtpTransferCompletedTo">
+        <object>FTP overførsel afsluttet til</object>
+      </resource>
+      <resource name="FTPtransferFatalError-SeeLogForDetails">
+        <object>FTP overførsel - Fatal fejl : {0}; se log for detaljer</object>
+      </resource>
+      <resource name="Transferred">
+        <object>Overført</object>
+      </resource>
+      <resource name="MoreThanOneBuyerUsingFirst">
+        <object>More than one Sale/buyer used ({0})- using the first one when creating traceabilty export fil</object>
+      </resource>
+    </type>
+    </industry>
+</resources>

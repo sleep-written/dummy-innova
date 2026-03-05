@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="zh-CN">
+  <industry>
+    <type name="Marel.Mp5.Base.Programs.ExecutableType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="Binary">
+        <object>独立可执行</object>
+      </resource>
+      <resource name="Command">
+        <object>命令文件</object>
+      </resource>
+      <resource name="AppDomain">
+        <object>可执行 AppDomain</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="ProgramManager">
+        <object>程序管理器</object>
+      </resource>
+      <resource name="NetworkRouter">
+        <object>设备路由器</object>
+      </resource>
+      <resource name="SystemService">
+        <object>系统服务</object>
+      </resource>
+      <resource name="ControlProgram">
+        <object>控制程序</object>
+      </resource>
+      <resource name="IpcUI">
+        <object>IPC UI</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduleType" ServiceOnly="true">
+      <resource name="Never">
+        <object>从不</object>
+      </resource>
+      <resource name="Sequence">
+        <object>按程序顺序</object>
+      </resource>
+      <resource name="Daily">
+        <object>每天</object>
+      </resource>
+      <resource name="Weekly">
+        <object>每周</object>
+      </resource>
+      <resource name="Monthly">
+        <object>每月</object>
+      </resource>
+      <resource name="Yearly">
+        <object>每年</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>初次</object>
+      </resource>
+      <resource name="Error">
+        <object>错误</object>
+      </resource>
+      <resource name="Running">
+        <object>运行</object>
+      </resource>
+      <resource name="Stopping">
+        <object>停止</object>
+      </resource>
+      <resource name="Dead">
+        <object>失效</object>
+      </resource>
+      <resource name="Stopped">
+        <object>已停止</object>
+      </resource>
+      <resource name="RunWait">
+        <object>等待开始</object>
+      </resource>
+      <resource name="StopWait">
+        <object>等待停止</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ExecuteProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>已初始化</object>
+      </resource>
+      <resource name="Executing">
+        <object>执行</object>
+      </resource>
+      <resource name="Completed">
+        <object>已完成</object>
+      </resource>
+      <resource name="CompletedLate">
+        <object>完成较迟</object>
+      </resource>
+      <resource name="Terminated">
+        <object>已终止</object>
+      </resource>
+      <resource name="Error">
+        <object>错误</object>
+      </resource>
+      <resource name="Terminating">
+        <object>终止</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ManagerState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>初次</object>
+      </resource>
+      <resource name="RefreshingList">
+        <object>刷新程序列表</object>
+      </resource>
+      <resource name="Running">
+        <object>运行</object>
+      </resource>
+      <resource name="Shutdown">
+        <object>关闭</object>
+      </resource>
+      <resource name="ShutdownMsg">
+        <object>关闭系统服务</object>
+      </resource>
+      <resource name="ShutdownComplete">
+        <object>关闭完成</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ResponseState" ServiceOnly="true">
+      <resource name="CantCheck">
+        <object>无法检查</object>
+      </resource>
+      <resource name="NotChecked">
+        <object>未检查</object>
+      </resource>
+      <resource name="Responding">
+        <object>响应</object>
+      </resource>
+      <resource name="NotResponding">
+        <object>未响应</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduledProgramState" ServiceOnly="true">
+      <resource name="Executed">
+        <object>已执行</object>
+      </resource>
+      <resource name="ExecutedWait">
+        <object>计划时间后执行</object>
+      </resource>
+      <resource name="ExecutedRequest">
+        <object>按要求执行</object>
+      </resource>
+      <resource name="Missed">
+        <object>错过计划时间</object>
+      </resource>
+      <resource name="StoppedOnTime">
+        <object>已完成</object>
+      </resource>
+      <resource name="StoppedLate">
+        <object>完成较迟</object>
+      </resource>
+      <resource name="Terminated">
+        <object>已终止</object>
+      </resource>
+      <resource name="Error">
+        <object>错误</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.InterfaceType" ServiceOnly="true">
+      <resource name="NotHandled">
+        <object>未解决</object>
+      </resource>
+      <resource name="TcpIpMarel">
+        <object>TCP/IP Marel</object>
+      </resource>
+      <resource name="TcpIpOther">
+        <object>TCP/IP 其他</object>
+      </resource>
+      <resource name="Rs232">
+        <object>RS232</object>
+      </resource>
+      <resource name="LonMarel">
+        <object>LON</object>
+      </resource>
+      <resource name="CanMaster">
+        <object>经 CanMaster 的 CAN</object>
+      </resource>
+      <resource name="BluetoothRs232">
+        <object>经 RS232 的蓝牙</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>未指定</object>
+      </resource>
+      <resource name="Limited">
+        <object>已限制</object>
+      </resource>
+      <resource name="Unlimited">
+        <object>无限</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseLogType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>未指定</object>
+      </resource>
+      <resource name="Issued">
+        <object>已发行许可</object>
+      </resource>
+      <resource name="Returned">
+        <object>已返回许可</object>
+      </resource>
+      <resource name="LeaseExpired">
+        <object>已到期租约</object>
+      </resource>
+      <resource name="UnknownType">
+        <object>未知许可类型</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.AccessLevel" ServiceOnly="false">
+      <resource name="Undefined">
+        <object>未定义</object>
+      </resource>
+      <resource name="PersonalData">
+        <object>员工</object>
+      </resource>
+      <resource name="Viewer">
+        <object>观看者</object>
+      </resource>
+      <resource name="Operator">
+        <object>操作员</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>监督员</object>
+      </resource>
+      <resource name="Administrator">
+        <object>管理员</object>
+      </resource>
+      <resource name="Service">
+        <object>服务</object>
+      </resource>
+      <resource name="Developer">
+        <object>开发者</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.LookupType" ServiceOnly="false">
+      <resource name="NoLookup">
+        <object>未查找</object>
+      </resource>
+      <resource name="Named">
+        <object>已命名对象查找</object>
+      </resource>
+      <resource name="Numbered">
+        <object>记录 id 查找</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.ReferenceDateMethod" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="ProcessPeriod">
+        <object>过程周期</object>
+      </resource>
+      <resource name="Date">
+        <object>日期</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CompressMethod" ServiceOnly="true">
+      <resource name="GroupBy">
+        <object>组 </object>
+      </resource>
+      <resource name="Sum">
+        <object>总和</object>
+      </resource>
+      <resource name="Min">
+        <object>最小值</object>
+      </resource>
+      <resource name="Max">
+        <object>最大值</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryChangeType" ServiceOnly="true">
+      <resource name="Insert">
+        <object>已插入</object>
+      </resource>
+      <resource name="Updated">
+        <object>已更新</object>
+      </resource>
+      <resource name="Delete">
+        <object>已删除</object>
+      </resource>
+      <resource name="AppSpecific">
+        <object>特殊操作</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryLogLevel" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>未登录</object>
+      </resource>
+      <resource name="BasicLogging">
+        <object>记录记录操作</object>
+      </resource>
+      <resource name="FullLogging">
+        <object>记录所有操作</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationStatus" ServiceOnly="false">
+      <resource name="InActive">
+        <object>未使用记录</object>
+      </resource>
+      <resource name="Pending">
+        <object>操作待定</object>
+      </resource>
+      <resource name="Current">
+        <object>完成</object>
+      </resource>
+      <resource name="Error">
+        <object>错误</object>
+      </resource>
+      <resource name="Ongoing">
+        <object>正在进行配置</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.UpdateAction" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>无操作</object>
+      </resource>
+      <resource name="ExecProgram">
+        <object>执行程序</object>
+      </resource>
+      <resource name="SendRequest">
+        <object>发送要求</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterType" ServiceOnly="false">
+      <resource name="NotSpecified">
+        <object>未指定</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupType" ServiceOnly="false">
+      <resource name="PersonalData">
+        <object>个人数据</object>
+      </resource>
+      <resource name="Viewer">
+        <object>观看者</object>
+      </resource>
+      <resource name="Operator">
+        <object>操作员</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>监督员</object>
+      </resource>
+      <resource name="Administrator">
+        <object>管理员</object>
+      </resource>
+      <resource name="Service">
+        <object>服务</object>
+      </resource>
+      <resource name="Custom">
+        <object>软件访问</object>
+      </resource>
+      <resource name="LocationAccess">
+        <object>位置访问 </object>
+      </resource>
+      <resource name="General">
+        <object>总目的</object>
+      </resource>
+      <resource name="Developer">
+        <object>开发者</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.GroupAreaType" ServiceOnly="false">
+      <resource name="NoType">
+        <object>无区域</object>
+      </resource>
+      <resource name="Site">
+        <object>站点</object>
+      </resource>
+      <resource name="Department">
+        <object>部门</object>
+      </resource>
+      <resource name="Section">
+        <object>部分</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>过程单元</object>
+      </resource>
+      <resource name="Station">
+        <object>工位</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupTimeType" ServiceOnly="false">
+      <resource name="NoRestriction">
+        <object>无限制</object>
+      </resource>
+      <resource name="Weekday">
+        <object>工作日</object>
+      </resource>
+      <resource name="MonthDay">
+        <object>某月某日</object>
+      </resource>
+      <resource name="OnDuty">
+        <object>值班时</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.GuiNodeType" ServiceOnly="true">
+      <resource name="ControlForm">
+        <object>控制窗体</object>
+      </resource>
+      <resource name="Folder">
+        <object>文件夹</object>
+      </resource>
+      <resource name="UserGrid">
+        <object>用户网格</object>
+      </resource>
+      <resource name="Log">
+        <object>日志</object>
+      </resource>
+      <resource name="Report">
+        <object>报告</object>
+      </resource>
+      <resource name="SetupGrid">
+        <object>设置网格</object>
+      </resource>
+      <resource name="DocumentTree">
+        <object>文档树</object>
+      </resource>
+      <resource name="Chart">
+        <object>图表</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.DeviceRecord" ServiceOnly="false">
+      <resource name="CanFormat">
+        <object>CAN 设备 {0} 位于 {1}</object>
+      </resource>
+      <resource name="LonFormat">
+        <object>LON 设备 {0} 位于 {1}</object>
+      </resource>
+      <resource name="Rs232Format">
+        <object>RS232 设备位于 {0}</object>
+      </resource>
+      <resource name="TcpMarelFormat">
+        <object>Marel TCP/IP 设备 {0}</object>
+      </resource>
+      <resource name="TcpGenericFormat">
+        <object>通用 TCP/IP 设备 {0}、端口 {1}</object>
+      </resource>
+      <resource name="BluetoothRs232Format">
+        <object>RS232 端口 {1} 上的蓝牙设备 {0}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.Records.StandardRecord" ServiceOnly="false">
+      <resource name="Copy">
+        <object>复制</object>
+      </resource>
+      <resource name="Of">
+        <object>页数</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.ClientSupport.ObjectActiveType" ServiceOnly="false">
+      <resource name="Inactive">
+        <object>未使用</object>
+      </resource>
+      <resource name="Active">
+        <object>使用中</object>
+      </resource>
+      <resource name="Both">
+        <object>显示全部</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Connections.PortType" ServiceOnly="true">
+      <resource name="RemotingTcp">
+        <object>远程 TCP</object>
+      </resource>
+      <resource name="RemotingHttp">
+        <object>远程 HTTP</object>
+      </resource>
+      <resource name="SSI">
+        <object>插座</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaDateTimeType" ServiceOnly="false">
+      <resource name="Unspecified">
+        <object>未指定</object>
+      </resource>
+      <resource name="ProductionDayFromTo">
+        <object>生产日期范围</object>
+      </resource>
+      <resource name="DateFromTo">
+        <object>日期范围</object>
+      </resource>
+      <resource name="DateTimeFromTo">
+        <object>日期和时间范围</object>
+      </resource>
+      <resource name="ProductionDaySingle">
+        <object>生产日期</object>
+      </resource>
+      <resource name="DateSingle">
+        <object>日期</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaType" ServiceOnly="false">
+      <resource name="Lookup">
+        <object>查找</object>
+      </resource>
+      <resource name="DateTime">
+        <object>日期和时间</object>
+      </resource>
+      <resource name="SingleInteger">
+        <object>单精度整型</object>
+      </resource>
+      <resource name="IntegerList">
+        <object>整数列表</object>
+      </resource>
+      <resource name="SingleFloat">
+        <object>单精度浮点型</object>
+      </resource>
+      <resource name="String">
+        <object>字符串</object>
+      </resource>
+      <resource name="CheckBox">
+        <object>检查框</object>
+      </resource>
+      <resource name="ComboBox">
+        <object>Combo 框</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.DataRecordType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>普通</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>总数</object>
+      </resource>
+      <resource name="Pending">
+        <object>待定</object>
+      </resource>
+      <resource name="Deleted">
+        <object>已删除</object>
+      </resource>
+      <resource name="Invalid">
+        <object>无效</object>
+      </resource>
+      <resource name="Compressed">
+        <object>已打包</object>
+      </resource>
+      <resource name="Partial">
+        <object>部分</object>
+      </resource>
+      <resource name="Yield">
+        <object>产量</object>
+      </resource>
+      <resource name="Reverse">
+        <object>倒序</object>
+      </resource>
+      <resource name="Holiday">
+        <object>假期</object>
+      </resource>
+      <resource name="Generated">
+        <object>已生成</object>
+      </resource>
+      <resource name="Consumed">
+        <object>已消耗</object>
+      </resource>
+      <resource name="Returned">
+        <object>已返回</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationOpType" ServiceOnly="true">
+      <resource name="Send">
+        <object>发送</object>
+      </resource>
+      <resource name="Get">
+        <object>获取</object>
+      </resource>
+      <resource name="GetCopy">
+        <object>获取复制</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterDataType" ServiceOnly="false">
+      <resource name="Integer">
+        <object>整数</object>
+      </resource>
+      <resource name="Float">
+        <object>浮点数</object>
+      </resource>
+      <resource name="String">
+        <object>字符串</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.StatusCheckMode" ServiceOnly="false">
+      <resource name="PendingOnline">
+        <object>在线前待定</object>
+      </resource>
+      <resource name="Online">
+        <object>仅在线时</object>
+      </resource>
+      <resource name="NoCheck">
+        <object>未检查状态</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ProgramType" ServiceOnly="true">
+      <resource name="Unkown">
+        <object>无法辨别</object>
+      </resource>
+      <resource name="SystemProgram">
+        <object>系统程序</object>
+      </resource>
+      <resource name="ScheduledProgram">
+        <object>日程程序</object>
+      </resource>
+      <resource name="RequestedProgram">
+        <object>要求程序</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.KeyType" ServiceOnly="true">
+      <resource name="Temporary">
+        <object>临时</object>
+      </resource>
+      <resource name="Permanent">
+        <object>固定</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.LogReason" ServiceOnly="true">
+      <resource name="UnknownFeature">
+        <object>未知功能</object>
+      </resource>
+      <resource name="MaxInstances">
+        <object>达到的最大数量或实例</object>
+      </resource>
+      <resource name="UnknownVersion">
+        <object>要求未知版本</object>
+      </resource>
+      <resource name="SignatureFailure">
+        <object>签名不匹配</object>
+      </resource>
+      <resource name="HandlerOverride">
+        <object>处理程序替代</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Configuration.VerifyStatus" ServiceOnly="false">
+      <resource name="NotVerified">
+        <object>未验证</object>
+      </resource>
+      <resource name="Invalid">
+        <object>无效</object>
+      </resource>
+      <resource name="Verified">
+        <object>已验证</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Configuration.ConfigStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="Invalid">
+        <object>无效</object>
+      </resource>
+      <resource name="Valid">
+        <object>有效</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.PluginHost.PluginRunState" ServiceOnly="true">
+      <resource name="Unknown">
+        <object>无法辨别</object>
+      </resource>
+      <resource name="Initial">
+        <object>初次</object>
+      </resource>
+      <resource name="Error">
+        <object>错误</object>
+      </resource>
+      <resource name="Stopped">
+        <object>已停止</object>
+      </resource>
+      <resource name="Started">
+        <object>已开始</object>
+      </resource>
+      <resource name="RestartWait">
+        <object>重启等待</object>
+      </resource>
+      <resource name="StartWait">
+        <object>开始等待</object>
+      </resource>
+      <resource name="StopWait">
+        <object>停止等待</object>
+      </resource>
+      <resource name="UnloadWait">
+        <object>卸载等待</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.AlarmOwnerType" ServiceOnly="false">
+      <resource name="External">
+        <object>外部</object>
+      </resource>
+      <resource name="Device">
+        <object>设备</object>
+      </resource>
+      <resource name="ProgramMonitoring">
+        <object>程序监控器</object>
+      </resource>
+      <resource name="ServerMonitoring">
+        <object>服务器监控器</object>
+      </resource>
+      <resource name="DatabaseMonitoring">
+        <object>数据库监控器</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.PluginHost.ScheduledPluginConfig" ServiceOnly="true">
+      <resource name="IntervalTime.Category">
+        <object>日程</object>
+      </resource>
+      <resource name="IntervalTime.DisplayName">
+        <object>间隔时间</object>
+      </resource>
+      <resource name="IntervalTime.Description">
+        <object>插件以毫秒为单位的间隔时间运行</object>
+      </resource>
+      <resource name="Timeout.Category">
+        <object>日程</object>
+      </resource>
+      <resource name="Timeout.DisplayName">
+        <object>超时</object>
+      </resource>
+      <resource name="Timeout.Description">
+        <object>插件应完成其运行周期的时间(秒)</object>
+      </resource>
+      <resource name="Queue.Category">
+        <object>日程</object>
+      </resource>
+      <resource name="Queue.DisplayName">
+        <object>队列</object>
+      </resource>
+      <resource name="Queue.Description">
+        <object>根据日程时间放置插件的队列名称</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Data.WeighingStatus" ServiceOnly="true">
+      <resource name="Bad">
+        <object>不好</object>
+      </resource>
+      <resource name="InRange1">
+        <object>确定，在范围 1 中</object>
+      </resource>
+      <resource name="InRange2">
+        <object>确定，在范围 2 中</object>
+      </resource>
+      <resource name="Illegal">
+        <object>非法</object>
+      </resource>
+      <resource name="TooHighStdDev">
+        <object>标准偏差过高</object>
+      </resource>
+      <resource name="RefusedByAlibi">
+        <object>Alibi 服务器拒绝样品</object>
+      </resource>
+      <resource name="Unexpected">
+        <object>平台上的非法意外重量</object>
+      </resource>
+      <resource name="BelowMinimum">
+        <object>重量低于台秤下限</object>
+      </resource>
+      <resource name="AboveMaximum">
+        <object>重量高于台秤上限</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.DbMaintenance.DbmCleanStatus" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>无法辨别</object>
+      </resource>
+      <resource name="Completed">
+        <object>已完成</object>
+      </resource>
+      <resource name="CompletedNoOldData">
+        <object>已完成 - 无删除项</object>
+      </resource>
+      <resource name="NotCompleted">
+        <object>未完成</object>
+      </resource>
+      <resource name="StoppedManually">
+        <object>已手动停止</object>
+      </resource>
+      <resource name="Error">
+        <object>错误</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.DbMaintenance.Criterias.BaseCriteriaRender" ServiceOnly="false">
+      <resource name="Critical">
+        <object>临界</object>
+      </resource>
+      <resource name="NonCritical">
+        <object>非临界</object>
+      </resource>
+      <resource name="StateSet">
+        <object>状态设置</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

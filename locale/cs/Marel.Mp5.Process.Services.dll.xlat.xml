@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="cs">
+  <industry>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.ManagePrunit" ServiceOnly="false">
+      <resource name="ActivityPrompt">
+        <object>Aktivita : </object>
+      </resource>
+      <resource name="BatchPrompt">
+        <object>Dávka    : </object>
+      </resource>
+      <resource name="PoPrompt">
+        <object>Obj.       : </object>
+      </resource>
+      <resource name="LotPrompt">
+        <object>Šarže      : </object>
+      </resource>
+      <resource name="PlotPrompt">
+        <object>P.šarže    : </object>
+      </resource>
+      <resource name="RmAreaPrompt">
+        <object>Oblast RM  : </object>
+      </resource>
+      <resource name="StartLegend">
+        <object>Start</object>
+      </resource>
+      <resource name="NextLegend">
+        <object>Další</object>
+      </resource>
+      <resource name="OpsLegend">
+        <object>Nastav.</object>
+      </resource>
+      <resource name="StartActivityCaption">
+        <object>Spustit čekající aktivitu</object>
+      </resource>
+      <resource name="StartBatchCaption">
+        <object>Spustit čekající dávku</object>
+      </resource>
+      <resource name="StartPoCaption">
+        <object>Spustit čekající obj.</object>
+      </resource>
+      <resource name="StartLotCaption">
+        <object>Spustit čekající šarži</object>
+      </resource>
+      <resource name="StartPlotCaption">
+        <object>Spustit čekající prov. šarži</object>
+      </resource>
+      <resource name="StartRmAreaCaption">
+        <object>Spustit čekající zdr. oblast</object>
+      </resource>
+      <resource name="SelectOperationCaption">
+        <object>Vybrat operaci</object>
+      </resource>
+      <resource name="SetManualPrdayOp">
+        <object>Nastavit ručně výrobní den</object>
+      </resource>
+      <resource name="SetAutoPrdayOp">
+        <object>Obnovit autom. výrobní den</object>
+      </resource>
+      <resource name="SetManualShiftOp">
+        <object>Nastavit ruční směnu</object>
+      </resource>
+      <resource name="SetAutoShiftOp">
+        <object>Obnovit autom. měnu</object>
+      </resource>
+      <resource name="SetManualProfileOp">
+        <object>Nast. ruční interval profilu</object>
+      </resource>
+      <resource name="SetAutoProfileOp">
+        <object>Obnovit automatický profil</object>
+      </resource>
+      <resource name="NoDateSet">
+        <object>(žádné datum)</object>
+      </resource>
+      <resource name="NoShiftSet">
+        <object>(žádná směna)</object>
+      </resource>
+      <resource name="WorkPeriodType">
+        <object>Úkol</object>
+      </resource>
+      <resource name="BreakPeriodType">
+        <object>Pauza</object>
+      </resource>
+      <resource name="NoPeriodSet">
+        <object>(žádný interval)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectObject" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Výběr linky</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectActivity" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Vybrat aktivitu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectComposite" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Výběr smíšené aktivity</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectLot" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Výběr šarže</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectProductionLot" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Vybrat výrobní šarži</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectOrder" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Vybrat objednávku</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectPo" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Výběr obj.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectPrunit" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Výběr provozní jednotky</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectRmArea" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Vybrat zdrojovou oblast</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectShift" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Výběr směny</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectProfilePeriod" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Výběr intervalu úkolu</object>
+      </resource>
+      <resource name="WorkPeriodType">
+        <object>Úkol</object>
+      </resource>
+      <resource name="BreakPeriodType">
+        <object>Pauza</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectDate" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Výběr data</object>
+      </resource>
+      <resource name="DatePrompt">
+        <object>Datum : </object>
+      </resource>
+      <resource name="DayLegend">
+        <object>Dny</object>
+      </resource>
+      <resource name="MonthLegend">
+        <object>Měsíce</object>
+      </resource>
+      <resource name="YearLegend">
+        <object>Roky</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectUnitOperation" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Vybrat operaci</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectRegistration" ServiceOnly="false">
+      <resource name="SitePrompt">
+        <object>Kód umístění : </object>
+      </resource>
+      <resource name="IdPrompt">
+        <object>Identifikace        : </object>
+      </resource>
+      <resource name="errorfetchingobject">
+        <object>Chyba získání objektu</object>
+      </resource>
+      <resource name="wgt">
+        <object>Hmotnost     : {0}</object>
+      </resource>
+      <resource name="ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="ScreenCaptionItem">
+        <object>Zadejte identifikaci položky</object>
+      </resource>
+      <resource name="ScreenCaptionPack">
+        <object>Zadejte identifikaci balení</object>
+      </resource>
+      <resource name="ScreenCaptionContainer">
+        <object>Zadejte identifikaci kontejneru</object>
+      </resource>
+      <resource name="ScreenCaptionStack">
+        <object>Zadejte identifikaci stohu</object>
+      </resource>
+      <resource name="ScreenCaptionShipment">
+        <object>Zadejte identifikaci přepravy</object>
+      </resource>
+      <resource name="ScreenCaptionPallet">
+        <object>Zadejte identifikaci palety</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectRegistrationViaFinder" ServiceOnly="false">
+      <resource name="errorfetchingobject">
+        <object>Chyba načtení objektu</object>
+      </resource>
+      <resource name="wgt">
+        <object>Hmotnost     :</object>
+      </resource>
+      <resource name="ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="PackFinderById_caption">
+        <object>Zadejte identifikaci</object>
+      </resource>
+      <resource name="PackFinderBySSCC_caption">
+        <object>Zadejte SSCC</object>
+      </resource>
+      <resource name="PackFinderByExtnum_caption">
+        <object>Zadejte externí číslo</object>
+      </resource>
+      <resource name="PackFinderBySiteAndNumber_caption">
+        <object>Umístění a číslo</object>
+      </resource>
+      <resource name="PackFinderByOrderAndOrderNum_caption">
+        <object>Objednávka a číslo</object>
+      </resource>
+      <resource name="PackFinderByInventoryAndInvNum_caption">
+        <object>Inventář a číslo</object>
+      </resource>
+      <resource name="CollectionFinderById_caption">
+        <object>Zadejte identifikaci</object>
+      </resource>
+      <resource name="CollectionFinderBySSCC_caption">
+        <object>Zadejte SSCC</object>
+      </resource>
+      <resource name="CollectionFinderByExtnum_caption">
+        <object>Zadejte externí číslo</object>
+      </resource>
+      <resource name="CollectionFinderBySiteAndNumber_caption">
+        <object>Umístění a číslo</object>
+      </resource>
+      <resource name="CollectionFinderByOrderAndOrderNum_caption">
+        <object>Objednávka a číslo</object>
+      </resource>
+      <resource name="CollectionFinderByInventoryAndInvNum_caption">
+        <object>Inventář a číslo</object>
+      </resource>
+      <resource name="ItemFinderById_caption">
+        <object>Zadejte identifikaci</object>
+      </resource>
+      <resource name="ItemFinderByExtnum_caption">
+        <object>Zadejte externí číslo</object>
+      </resource>
+      <resource name="ItemFinderBySiteAndNumber_caption">
+        <object>Umístění a číslo</object>
+      </resource>
+      <resource name="ItemFinderByDeviceAndAlibi_caption">
+        <object>Zařízení a alibi </object>
+      </resource>
+      <resource name="PackFinderById_numberprompt">
+        <object>Číslo  :</object>
+      </resource>
+      <resource name="PackFinderBySSCC_numberprompt">
+        <object>SSCC    :</object>
+      </resource>
+      <resource name="PackFinderByExtnum_numberprompt">
+        <object>Číslo  :</object>
+      </resource>
+      <resource name="PackFinderBySiteAndNumber_numberprompt">
+        <object>Číslo  :</object>
+      </resource>
+      <resource name="PackFinderByOrderAndOrderNum_numberprompt">
+        <object>Číslo  :</object>
+      </resource>
+      <resource name="PackFinderByInventoryAndInvNum_numberprompt">
+        <object>Číslo  :</object>
+      </resource>
+      <resource name="CollectionFinderById_numberprompt">
+        <object>Číslo  :</object>
+      </resource>
+      <resource name="CollectionFinderBySSCC_numberprompt">
+        <object>SSCC    :</object>
+      </resource>
+      <resource name="CollectionFinderByExtnum_numberprompt">
+        <object>Číslo  :</object>
+      </resource>
+      <resource name="CollectionFinderBySiteAndNumber_numberprompt">
+        <object>Číslo  :</object>
+      </resource>
+      <resource name="CollectionFinderByOrderAndOrderNum_numberprompt">
+        <object>Číslo  :</object>
+      </resource>
+      <resource name="CollectionFinderByInventoryAndInvNum_numberprompt">
+        <object>Číslo  :</object>
+      </resource>
+      <resource name="ItemFinderById_numberprompt">
+        <object>Číslo  :</object>
+      </resource>
+      <resource name="ItemFinderByExtnum_numberprompt">
+        <object>Číslo  :</object>
+      </resource>
+      <resource name="ItemFinderBySiteAndNumber_numberprompt">
+        <object>Číslo  :</object>
+      </resource>
+      <resource name="ItemFinderByDeviceAndAlibi_numberprompt">
+        <object>Alibi   :</object>
+      </resource>
+      <resource name="PackFinderBySiteAndNumber_objectprompt">
+        <object>Umístění    :</object>
+      </resource>
+      <resource name="PackFinderByOrderAndOrderNum_objectprompt">
+        <object>Objednávka   :</object>
+      </resource>
+      <resource name="PackFinderByInventoryAndInvNum_objectprompt">
+        <object>Invent.  :</object>
+      </resource>
+      <resource name="CollectionFinderBySiteAndNumber_objectprompt">
+        <object>Umístění    :</object>
+      </resource>
+      <resource name="CollectionFinderByOrderAndOrderNum_objectprompt">
+        <object>Objednávka   :</object>
+      </resource>
+      <resource name="CollectionFinderByInventoryAndInvNum_objectprompt">
+        <object>Invent.  :</object>
+      </resource>
+      <resource name="ItemFinderBySiteAndNumber_objectprompt">
+        <object>Umístění    :</object>
+      </resource>
+      <resource name="ItemFinderByDeviceAndAlibi_objectprompt">
+        <object>Zařízení  :</object>
+      </resource>
+      <resource name="clear">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="PackFinderByExtcode_caption">
+        <object>Zadejte externí kód</object>
+      </resource>
+      <resource name="CollectionFinderByExtcode_caption">
+        <object>Zadejte externí kód</object>
+      </resource>
+      <resource name="ItemFinderByExtcode_caption">
+        <object>Zadejte externí kód</object>
+      </resource>
+      <resource name="PackFinderByExtcode_numberprompt">
+        <object>Kód    :</object>
+      </resource>
+      <resource name="CollectionFinderByExtcode_numberprompt">
+        <object>Kód    :</object>
+      </resource>
+      <resource name="ItemFinderByExtcode_numberprompt">
+        <object>Kód    :</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.EmployeeLogin" ServiceOnly="false">
+      <resource name="EmployeePrompt">
+        <object>Zaměstnanec :</object>
+      </resource>
+      <resource name="PasswordPrompt">
+        <object>Heslo :</object>
+      </resource>
+      <resource name="InvalidPassword">
+        <object>Neplatné heslo</object>
+      </resource>
+      <resource name="PasswordOk">
+        <object>Heslo OK</object>
+      </resource>
+      <resource name="LoginLegend">
+        <object>Přihlášení</object>
+      </resource>
+      <resource name="NameLabel">
+        <object>Jméno     :</object>
+      </resource>
+      <resource name="ScreenCaption">
+        <object>Přihlášení</object>
+      </resource>
+      <resource name="AccessOk">
+        <object>Přístup OK</object>
+      </resource>
+      <resource name="AccessNotOk">
+        <object>Neplatná úroveň přístupu</object>
+      </resource>
+      <resource name="AccessNotGranted">
+        <object>Přístup nepovolen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.RfidDisplay" ServiceOnly="false">
+      <resource name="Caption">
+        <object />
+      </resource>
+      <resource name="Clear">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="IdNotFound">
+        <object>Nenalezeno</object>
+      </resource>
+      <resource name="IdLabel">
+        <object>Identifikace      : </object>
+      </resource>
+      <resource name="WeightLabel">
+        <object>Hmotnost  : </object>
+      </resource>
+      <resource name="TimeLabel">
+        <object>Čas    : </object>
+      </resource>
+      <resource name="UnitLabel">
+        <object>Jednotka    : </object>
+      </resource>
+      <resource name="MaterialLabel">
+        <object>Produkt : </object>
+      </resource>
+      <resource name="PoLabel">
+        <object>Obj.      : </object>
+      </resource>
+      <resource name="BatchLabel">
+        <object>Dávka   : </object>
+      </resource>
+      <resource name="LotLabel">
+        <object>Šarže     : </object>
+      </resource>
+      <resource name="ProductionLotLabel">
+        <object>Prov.šarže: </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.EmployeeId" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Přiř. ID zaměstnanci</object>
+      </resource>
+      <resource name="EmployeeCaption">
+        <object>Vybrat zaměstnance</object>
+      </resource>
+      <resource name="IdLabel">
+        <object>Identifikace:</object>
+      </resource>
+      <resource name="EmployeeLabel">
+        <object>Zaměstnanec:</object>
+      </resource>
+      <resource name="MultipleFound">
+        <object>(nalezeno více)</object>
+      </resource>
+      <resource name="Clear">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="Assign">
+        <object>Emp</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.PrinterStatus" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Správa tiskárny</object>
+      </resource>
+      <resource name="NoPrinter">
+        <object>Žádná tiskárna ke správě</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.EditPrinterStatus" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Upravit stav tiskárny</object>
+      </resource>
+      <resource name="PrinterLabel">
+        <object>Tiskárna    : </object>
+      </resource>
+      <resource name="SequenceNoLabel">
+        <object>Posloupnost č.: </object>
+      </resource>
+      <resource name="MediaTypeLabel">
+        <object>Typ média : </object>
+      </resource>
+      <resource name="SelectMediaTypeCaption">
+        <object>Výběr typu média</object>
+      </resource>
+      <resource name="ChangeLegend">
+        <object>Změnit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectDevice" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Výběr zařízení</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectPrinter" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Výběr tiskárny</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectProductList" ServiceOnly="false">
+      <resource name="SelectProductList">
+        <object>Vybrat produkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.PackUOExecScreen" ServiceOnly="false">
+      <resource name="SsccLabel">
+        <object>SSCC :</object>
+      </resource>
+      <resource name="ProductLabel">
+        <object>Prod.:</object>
+      </resource>
+      <resource name="IdLabel">
+        <object>Identifikace   :</object>
+      </resource>
+      <resource name="NumberLabel">
+        <object>Č.  :</object>
+      </resource>
+      <resource name="SiteLabel">
+        <object>Umístění :</object>
+      </resource>
+      <resource name="NominalLabel">
+        <object>NomHm.:</object>
+      </resource>
+      <resource name="WeightLabel">
+        <object>Hm. :</object>
+      </resource>
+      <resource name="RtypeLabel">
+        <object>Rtp. :</object>
+      </resource>
+      <resource name="OperationOkField">
+        <object>Rozl. :</object>
+      </resource>
+      <resource name="PathLabel">
+        <object>Cesta :</object>
+      </resource>
+      <resource name="EmployeeCodeLabel">
+        <object>Emp. :</object>
+      </resource>
+      <resource name="EmployeeNameLabel">
+        <object>Emp.:</object>
+      </resource>
+      <resource name="executeButton">
+        <object>Spustit</object>
+      </resource>
+      <resource name="noCurrentPack">
+        <object>Žádné aktivní balení. Záznam hmotnosti se ignoruje.</object>
+      </resource>
+      <resource name="okResult">
+        <object>Operace OK</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.PackUOExecScreenController" ServiceOnly="false">
+      <resource name="PathListCaption">
+        <object>Výběr cesty</object>
+      </resource>
+      <resource name="EmployeeListCaption">
+        <object>Vybrat zaměstnance</object>
+      </resource>
+      <resource name="OperationsCaption">
+        <object>Vybrat operaco</object>
+      </resource>
+      <resource name="ErrorScreenCaption">
+        <object>Chyba</object>
+      </resource>
+      <resource name="BackButton">
+        <object>Zpět</object>
+      </resource>
+      <resource name="Logout">
+        <object>Odhlášení</object>
+      </resource>
+      <resource name="ExitProgram">
+        <object>Ukončit program</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.UnitOperations.UnitOperationController" ServiceOnly="false">
+      <resource name="s2">
+        <object>Zpět</object>
+      </resource>
+      <resource name="s3">
+        <object>Chyba</object>
+      </resource>
+      <resource name="s4">
+        <object>Potvrdit akci</object>
+      </resource>
+      <resource name="s5">
+        <object>Zpět</object>
+      </resource>
+      <resource name="s6">
+        <object>Probíhá operace</object>
+      </resource>
+      <resource name="s7">
+        <object>Nelze se připravit na akci</object>
+      </resource>
+      <resource name="s8">
+        <object>Chyba zpracování identifikace</object>
+      </resource>
+      <resource name="s9">
+        <object>Nelze připravit na parametr operace</object>
+      </resource>
+      <resource name="s10">
+        <object>Položka     :</object>
+      </resource>
+      <resource name="s11">
+        <object>Balení     :</object>
+      </resource>
+      <resource name="s12">
+        <object>Kontejner:</object>
+      </resource>
+      <resource name="s13">
+        <object>Žádná dostupná obrazovka</object>
+      </resource>
+      <resource name="s14">
+        <object>pro typy {0}</object>
+      </resource>
+      <resource name="s15">
+        <object>Nenalezena žádná kritéria</object>
+      </resource>
+      <resource name="s16">
+        <object>pro {0}</object>
+      </resource>
+      <resource name="s17">
+        <object>Nelze najít kritéria {0}</object>
+      </resource>
+      <resource name="s18">
+        <object>Chyba výběru možnosti</object>
+      </resource>
+      <resource name="s19">
+        <object>Chyba výběru ze seznamu</object>
+      </resource>
+      <resource name="s20">
+        <object>Chyba výběru data</object>
+      </resource>
+      <resource name="s1">
+        <object>Nelze připravit stanici {0}</object>
+      </resource>
+      <resource name="s21">
+        <object>Paleta   :</object>
+      </resource>
+      <resource name="s22">
+        <object>Stoh    :</object>
+      </resource>
+      <resource name="s23">
+        <object>Přeprava :</object>
+      </resource>
+      <resource name="s24">
+        <object>Produkt  :</object>
+      </resource>
+      <resource name="s25">
+        <object>Čas     :</object>
+      </resource>
+      <resource name="exit">
+        <object>Zpět</object>
+      </resource>
+      <resource name="OK">
+        <object>OK</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.UnitOperations.UnitOperationScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Ok</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Zpět</object>
+      </resource>
+      <resource name="er">
+        <object>Chyba:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.OrderStatusScreen" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pieces">
+        <object>ks</object>
+      </resource>
+      <resource name="Pounds">
+        <object>liber</object>
+      </resource>
+      <resource name="Tons">
+        <object>tun</object>
+      </resource>
+      <resource name="Units">
+        <object>jednotky</object>
+      </resource>
+      <resource name="ProductSort">
+        <object>Produkt</object>
+      </resource>
+      <resource name="OrderSort">
+        <object>Objednávka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.CreatePo" ServiceOnly="false">
+      <resource name="supplierLabel">
+        <object>Dodavatel:</object>
+      </resource>
+      <resource name="codeLabel">
+        <object>Kód      :</object>
+      </resource>
+      <resource name="fcdayLabel">
+        <object>FCden    :</object>
+      </resource>
+      <resource name="harbourLabel">
+        <object>Přístav  :</object>
+      </resource>
+      <resource name="ScreenCaption">
+        <object>Vytvořit nové obj.</object>
+      </resource>
+      <resource name="PoCreated">
+        <object>Obj. byla vytvořena</object>
+      </resource>
+      <resource name="DateParseError">
+        <object>Nelze analyzovat data vstupu</object>
+      </resource>
+      <resource name="PoNotCreated">
+        <object>Obj. nebyla vytvořena</object>
+      </resource>
+      <resource name="SupplierMissing">
+        <object>Vybrat dodavatele</object>
+      </resource>
+      <resource name="HarbourMissing">
+        <object>Vybrat přístav</object>
+      </resource>
+      <resource name="CodeMissing">
+        <object>Zadat kód</object>
+      </resource>
+      <resource name="CreateLegend">
+        <object>Vytvořit</object>
+      </resource>
+    </type>
+  </industry>
+  <industry name="Fish">
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.CreatePo" ServiceOnly="false">
+      <resource name="fcdayLabel">
+        <object>FCden    :</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

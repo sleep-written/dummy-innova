@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources culture="de">
+  <industry>    
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Collectors.ScopeDataCollector" ServiceOnly="false">
+      <resource name="Err.Timeout">
+        <object>Während der Bereichsdatenerfassung wurde das Zeitlimit überschritten. Es wurden nicht genug Daten erfasst.</object>
+      </resource>    
+      <resource name="Err.NoPreSampleData">
+        <object>Die Daten der Probennahme konnten aufgrund fehlender Startsensorsignale nicht erfasst werden.</object>
+      </resource>
+      <resource name="Err.WrongDeviceMode">
+        <object>Die Bereichsdatenerfassung konnte nicht gestartet werden. Das Gerät ist nicht im Modus 90-93 aktiv</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2DeviceHandler" ServiceOnly="false">
+      <resource name="Err.OfflineCallFailed">
+        <object>Das Gerät ist nicht online. {0} fehlgeschlagen</object>
+      </resource>
+      <resource name="Err.ReadRegisterTimeout">
+        <object>Zeitüberschreitung beim Lesen des Registers</object>
+      </resource>
+      <resource name="Err.GetStatus">
+        <object>Ausführung von GetStatus fehlgeschlagen</object>
+      </resource>
+      <resource name="Err.GetRegisters">
+        <object>Ausführung von GetRegisters fehlgeschlagen</object>
+      </resource>
+      <resource name="Err.PutGetRegisters">
+        <object>Ausführung von PutGetRegisters fehlgeschlagen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2RawDataHandler" ServiceOnly="false">
+      <resource name="Err.NotOnline">
+        <object>MWS2-Gerät nicht online</object>
+      </resource>
+     <resource name="Err.ScopeCollectionBusy">
+        <object>Die Bereichsdatenerfassung ist bereits aktiv. Bitte warten bis beendet...</object>
+      </resource>
+      <resource name="Err.StaticWeightTimeout">
+        <object>Warte auf Zeitüberschreitung statische Waage</object>
+      </resource>
+      <resource name="Err.NoDataFromDevice">
+        <object>Es können keine Daten vom Gerät abgerufen werden</object>
+      </resource>
+      <resource name="Err.DeviceInWrongMode">
+        <object>Das Gerät ist nicht im Modus 90-93 aktiv. Keine statische Gewichtsabfrage möglich</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

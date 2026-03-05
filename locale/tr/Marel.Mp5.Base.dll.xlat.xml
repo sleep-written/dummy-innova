@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="tr">
+  <industry>
+    <type name="Marel.Mp5.Base.Programs.ExecutableType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ayarlanmadı</object>
+      </resource>
+      <resource name="Binary">
+        <object>Bağımsız yürütülebilir</object>
+      </resource>
+      <resource name="Command">
+        <object>Komut dosyası</object>
+      </resource>
+      <resource name="AppDomain">
+        <object>AppDomain yürütülebilir</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ayarlanmadı</object>
+      </resource>
+      <resource name="ProgramManager">
+        <object>Program yöneticisi</object>
+      </resource>
+      <resource name="NetworkRouter">
+        <object>Aygıt yönlendiricisi</object>
+      </resource>
+      <resource name="SystemService">
+        <object>Sistem servisi</object>
+      </resource>
+      <resource name="ControlProgram">
+        <object>Kontrol programı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduleType" ServiceOnly="true">
+      <resource name="Never">
+        <object>Asla</object>
+      </resource>
+      <resource name="Sequence">
+        <object>Program işlem sırasında</object>
+      </resource>
+      <resource name="Daily">
+        <object>Günlük</object>
+      </resource>
+      <resource name="Weekly">
+        <object>Haftalık</object>
+      </resource>
+      <resource name="Monthly">
+        <object>Aylık</object>
+      </resource>
+      <resource name="Yearly">
+        <object>Yıllık</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>İlk</object>
+      </resource>
+      <resource name="Error">
+        <object>Hata</object>
+      </resource>
+      <resource name="Running">
+        <object>Çalışıyor</object>
+      </resource>
+      <resource name="Stopping">
+        <object>Durduruluyor</object>
+      </resource>
+      <resource name="Dead">
+        <object>Ölü</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Durduruldu</object>
+      </resource>
+      <resource name="RunWait">
+        <object>Başlatmak için bekleniyor</object>
+      </resource>
+      <resource name="StopWait">
+        <object>Durdurmak için bekleniyor</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ExecuteProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Başlatıldı</object>
+      </resource>
+      <resource name="Executing">
+        <object>Yürütülüyor</object>
+      </resource>
+      <resource name="Completed">
+        <object>Tamamlandı</object>
+      </resource>
+      <resource name="CompletedLate">
+        <object>Geç tamamlandı</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Sonlandırıldı</object>
+      </resource>
+      <resource name="Error">
+        <object>Hata</object>
+      </resource>
+      <resource name="Terminating">
+        <object>Sonlandırılıyor</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ManagerState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>İlk</object>
+      </resource>
+      <resource name="RefreshingList">
+        <object>Program listesi yenileniyor</object>
+      </resource>
+      <resource name="Running">
+        <object>Çalışıyor</object>
+      </resource>
+      <resource name="Shutdown">
+        <object>Kapatılıyor</object>
+      </resource>
+      <resource name="ShutdownMsg">
+        <object>Sistem servisi kapatılıyor</object>
+      </resource>
+      <resource name="ShutdownComplete">
+        <object>Kapatma tamamlandı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ResponseState" ServiceOnly="true">
+      <resource name="CantCheck">
+        <object>Kontrol edilemiyor</object>
+      </resource>
+      <resource name="NotChecked">
+        <object>Kontrol edilmedi</object>
+      </resource>
+      <resource name="Responding">
+        <object>Yanıt veriyor</object>
+      </resource>
+      <resource name="NotResponding">
+        <object>Yanıt vermiyor</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduledProgramState" ServiceOnly="true">
+      <resource name="Executed">
+        <object>Yürütüldü</object>
+      </resource>
+      <resource name="ExecutedWait">
+        <object>Zamanlanan süreden sonra yürütüldü</object>
+      </resource>
+      <resource name="ExecutedRequest">
+        <object>İstek üzerine yürütüldü</object>
+      </resource>
+      <resource name="Missed">
+        <object>Zamanlanan süre yakalanamadı</object>
+      </resource>
+      <resource name="StoppedOnTime">
+        <object>Tamamlandı</object>
+      </resource>
+      <resource name="StoppedLate">
+        <object>Geç tamamlandı</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Sonlandırıldı</object>
+      </resource>
+      <resource name="Error">
+        <object>Hata</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.InterfaceType" ServiceOnly="true">
+      <resource name="NotHandled">
+        <object>Ele alınmadı</object>
+      </resource>
+      <resource name="TcpIpMarel">
+        <object>TCP/IP Marel</object>
+      </resource>
+      <resource name="TcpIpOther">
+        <object>TCP/IP Diğer</object>
+      </resource>
+      <resource name="Rs232">
+        <object>RS232</object>
+      </resource>
+      <resource name="LonMarel">
+        <object>LON</object>
+      </resource>
+      <resource name="CanMaster">
+        <object>CanMaster yoluyla CAN</object>
+      </resource>
+      <resource name="BluetoothRs232">
+        <object>RS232 yoluyla Bluetooth</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Belirtilmemiş</object>
+      </resource>
+      <resource name="Limited">
+        <object>Sınırlı</object>
+      </resource>
+      <resource name="Unlimited">
+        <object>Sınırsız</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseLogType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Belirtilmemiş</object>
+      </resource>
+      <resource name="Issued">
+        <object>Lisans verildi</object>
+      </resource>
+      <resource name="Returned">
+        <object>Lisans iade edildi</object>
+      </resource>
+      <resource name="LeaseExpired">
+        <object>Kira süresi doldu</object>
+      </resource>
+      <resource name="UnknownType">
+        <object>Bilinmeyen lisans türü</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.AccessLevel" ServiceOnly="false">
+      <resource name="Undefined">
+        <object>Tanımsız</object>
+      </resource>
+      <resource name="PersonalData">
+        <object>Çalışan</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Görüntüleyici</object>
+      </resource>
+      <resource name="Operator">
+        <object>Operatör</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Yönetici</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Sistem Yöneticisi</object>
+      </resource>
+      <resource name="Service">
+        <object>Servis</object>
+      </resource>
+      <resource name="Developer">
+        <object>Geliştirici</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.LookupType" ServiceOnly="false">
+      <resource name="NoLookup">
+        <object>Arama yok</object>
+      </resource>
+      <resource name="Named">
+        <object>Adlandırılmış nesne araması</object>
+      </resource>
+      <resource name="Numbered">
+        <object>Kayıt kimliği araması</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.ReferenceDateMethod" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ayarlanmadı</object>
+      </resource>
+      <resource name="ProcessPeriod">
+        <object>İşlem dönemi</object>
+      </resource>
+      <resource name="Date">
+        <object>Tarih</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CompressMethod" ServiceOnly="true">
+      <resource name="GroupBy">
+        <object>Grup </object>
+      </resource>
+      <resource name="Sum">
+        <object>Toplam</object>
+      </resource>
+      <resource name="Min">
+        <object>Minimum</object>
+      </resource>
+      <resource name="Max">
+        <object>Maksimum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryChangeType" ServiceOnly="true">
+      <resource name="Insert">
+        <object>Eklendi</object>
+      </resource>
+      <resource name="Updated">
+        <object>Güncellendi</object>
+      </resource>
+      <resource name="Delete">
+        <object>Silindi</object>
+      </resource>
+      <resource name="AppSpecific">
+        <object>Özel çalışma</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryLogLevel" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Günlüğe kaydedilmiyor</object>
+      </resource>
+      <resource name="BasicLogging">
+        <object>Günlük kaydı işlemleri</object>
+      </resource>
+      <resource name="FullLogging">
+        <object>Tüm işlemleri günlüğe kaydet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationStatus" ServiceOnly="false">
+      <resource name="InActive">
+        <object>Etkin olmayan kayıt</object>
+      </resource>
+      <resource name="Pending">
+        <object>İşlem beklemede</object>
+      </resource>
+      <resource name="Current">
+        <object>Bitti</object>
+      </resource>
+      <resource name="Error">
+        <object>Hata</object>
+      </resource>
+      <resource name="Ongoing">
+        <object>Yapılandırma devam ediyor</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.UpdateAction" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Eylem yok</object>
+      </resource>
+      <resource name="ExecProgram">
+        <object>Programı yürüt</object>
+      </resource>
+      <resource name="SendRequest">
+        <object>İstek gönder</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterType" ServiceOnly="false">
+      <resource name="NotSpecified">
+        <object>Belirtilmemiş</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupType" ServiceOnly="false">
+      <resource name="PersonalData">
+        <object>Kişisel veriler</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Görüntüleyici</object>
+      </resource>
+      <resource name="Operator">
+        <object>Operatör</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Yönetici</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Sistem Yöneticisi</object>
+      </resource>
+      <resource name="Service">
+        <object>Servis</object>
+      </resource>
+      <resource name="Custom">
+        <object>Yazılım erişimi</object>
+      </resource>
+      <resource name="LocationAccess">
+        <object>Konum erişimi </object>
+      </resource>
+      <resource name="General">
+        <object>Genel amaç</object>
+      </resource>
+      <resource name="Developer">
+        <object>Geliştirici</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.GroupAreaType" ServiceOnly="false">
+      <resource name="NoType">
+        <object>Alan yok</object>
+      </resource>
+      <resource name="Site">
+        <object>Yer</object>
+      </resource>
+      <resource name="Department">
+        <object>Departman</object>
+      </resource>
+      <resource name="Section">
+        <object>Bölüm</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>İşlem ünitesi</object>
+      </resource>
+      <resource name="Station">
+        <object>İstasyon</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupTimeType" ServiceOnly="false">
+      <resource name="NoRestriction">
+        <object>Kısıtlama yok</object>
+      </resource>
+      <resource name="Weekday">
+        <object>Hafta içi</object>
+      </resource>
+      <resource name="MonthDay">
+        <object>Ayın günü</object>
+      </resource>
+      <resource name="OnDuty">
+        <object>Görevdeyken</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.GuiNodeType" ServiceOnly="true">
+      <resource name="ControlForm">
+        <object>Kontrol formu</object>
+      </resource>
+      <resource name="Folder">
+        <object>Klasör</object>
+      </resource>
+      <resource name="UserGrid">
+        <object>Kullanıcı ızgarası</object>
+      </resource>
+      <resource name="Log">
+        <object>Günlük</object>
+      </resource>
+      <resource name="Report">
+        <object>Rapor</object>
+      </resource>
+      <resource name="SetupGrid">
+        <object>Kurulum ızgarası</object>
+      </resource>
+      <resource name="DocumentTree">
+        <object>Belge ağacı</object>
+      </resource>
+      <resource name="Chart">
+        <object>Grafik</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.DeviceRecord" ServiceOnly="false">
+      <resource name="CanFormat">
+        <object>{1} üzerinde CAN aygıtı {0}</object>
+      </resource>
+      <resource name="LonFormat">
+        <object>{1} üzerinde LON aygıtı {0}</object>
+      </resource>
+      <resource name="Rs232Format">
+        <object>{0} üzerinde RS232 aygıtı</object>
+      </resource>
+      <resource name="TcpMarelFormat">
+        <object>Marel TCP/IP aygıtı {0}</object>
+      </resource>
+      <resource name="TcpGenericFormat">
+        <object>Genel TCP/IP aygıtı {0}, bağlantı noktası{1}</object>
+      </resource>
+      <resource name="BluetoothRs232Format">
+        <object>RS232 bağlantı noktası {1} üzerinde Bluetooth aygıtı {0}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.Records.StandardRecord" ServiceOnly="false">
+      <resource name="Copy">
+        <object>Kopyala</object>
+      </resource>
+      <resource name="Of">
+        <object>/</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.ClientSupport.ObjectActiveType" ServiceOnly="false">
+      <resource name="Inactive">
+        <object>Etkin değil</object>
+      </resource>
+      <resource name="Active">
+        <object>Etkin</object>
+      </resource>
+      <resource name="Both">
+        <object>Her ikisi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Connections.PortType" ServiceOnly="true">
+      <resource name="RemotingTcp">
+        <object>Uzaktan İletişim TCP</object>
+      </resource>
+      <resource name="RemotingHttp">
+        <object>Uzaktan İletişim HTTP</object>
+      </resource>
+      <resource name="SSI">
+        <object>Soket</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaDateTimeType" ServiceOnly="false">
+      <resource name="Unspecified">
+        <object>Belirtilmemiş</object>
+      </resource>
+      <resource name="ProductionDayFromTo">
+        <object>Üretim günü aralığı</object>
+      </resource>
+      <resource name="DateFromTo">
+        <object>Tarih aralığı</object>
+      </resource>
+      <resource name="DateTimeFromTo">
+        <object>Tarih ve saat aralığı</object>
+      </resource>
+      <resource name="ProductionDaySingle">
+        <object>Üretim günü</object>
+      </resource>
+      <resource name="DateSingle">
+        <object>Tarih</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaType" ServiceOnly="false">
+      <resource name="Lookup">
+        <object>Arama</object>
+      </resource>
+      <resource name="DateTime">
+        <object>Tarih ve saat</object>
+      </resource>
+      <resource name="SingleInteger">
+        <object>Tekli tamsayı</object>
+      </resource>
+      <resource name="IntegerList">
+        <object>Tamsayı listesi</object>
+      </resource>
+      <resource name="SingleFloat">
+        <object>Tekli kayan sayı</object>
+      </resource>
+      <resource name="String">
+        <object>Dize</object>
+      </resource>
+      <resource name="CheckBox">
+        <object>Onay kutusu</object>
+      </resource>
+      <resource name="ComboBox">
+        <object>Birleşik kutu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.DataRecordType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Düzenli</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Toplam</object>
+      </resource>
+      <resource name="Pending">
+        <object>Beklemede</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Silindi</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Geçersiz</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Sıkıştırılmış</object>
+      </resource>
+      <resource name="Partial">
+        <object>Kısmi</object>
+      </resource>
+      <resource name="Yield">
+        <object>Verim</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Ters</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Tatil</object>
+      </resource>
+      <resource name="Generated">
+        <object>Oluşturuldu</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Tüketildi</object>
+      </resource>
+      <resource name="Returned">
+        <object>İade edildi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationOpType" ServiceOnly="true">
+      <resource name="Send">
+        <object>Gönder</object>
+      </resource>
+      <resource name="Get">
+        <object>Al</object>
+      </resource>
+      <resource name="GetCopy">
+        <object>Kopya al</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterDataType" ServiceOnly="false">
+      <resource name="Integer">
+        <object>Tamsayı</object>
+      </resource>
+      <resource name="Float">
+        <object>Kayan noktalı sayı</object>
+      </resource>
+      <resource name="String">
+        <object>Dize</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.StatusCheckMode" ServiceOnly="false">
+      <resource name="PendingOnline">
+        <object>Çevrimiçi oluncaya kadar beklemede</object>
+      </resource>
+      <resource name="Online">
+        <object>Yalnızca çevrimiçi olduğunda</object>
+      </resource>
+      <resource name="NoCheck">
+        <object>Durum kontrol edilmedi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ProgramType" ServiceOnly="true">
+      <resource name="Unkown">
+        <object>Bilinmiyor</object>
+      </resource>
+      <resource name="SystemProgram">
+        <object>Sistem programı</object>
+      </resource>
+      <resource name="ScheduledProgram">
+        <object>Zamanlanan program</object>
+      </resource>
+      <resource name="RequestedProgram">
+        <object>İstenen program</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.KeyType" ServiceOnly="true">
+      <resource name="Temporary">
+        <object>Geçici</object>
+      </resource>
+      <resource name="Permanent">
+        <object>Kalıcı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.LogReason" ServiceOnly="true">
+      <resource name="UnknownFeature">
+        <object>Bilinmeyen özellik</object>
+      </resource>
+      <resource name="MaxInstances">
+        <object>Ulaşılan maksimum sayı veya örnek</object>
+      </resource>
+      <resource name="UnknownVersion">
+        <object>Bilinmeyen sürüm istendi</object>
+      </resource>
+      <resource name="SignatureFailure">
+        <object>İmza uyuşmazlığı</object>
+      </resource>
+      <resource name="HandlerOverride">
+        <object>İşleyiciyi geçersiz kılma</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Configuration.VerifyStatus" ServiceOnly="false">
+      <resource name="NotVerified">
+        <object>Doğrulanmadı</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Geçersiz</object>
+      </resource>
+      <resource name="Verified">
+        <object>Doğrulandı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.PluginHost.PluginRunState" ServiceOnly="true">
+      <resource name="Unknown">
+        <object>Bilinmiyor</object>
+      </resource>
+      <resource name="Initial">
+        <object>İlk</object>
+      </resource>
+      <resource name="Error">
+        <object>Hata</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Durduruldu</object>
+      </resource>
+      <resource name="Started">
+        <object>Çalışıyor</object>
+      </resource>
+      <resource name="RestartWait">
+        <object>Yeniden başlatmayı bekle</object>
+      </resource>
+      <resource name="StartWait">
+        <object>Çalıştırmayı bekle</object>
+      </resource>
+      <resource name="StopWait">
+        <object>Durdurmayı bekle</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.AlarmOwnerType" ServiceOnly="false">
+      <resource name="External">
+        <object>Harici</object>
+      </resource>
+      <resource name="Device">
+        <object>Aygıt</object>
+      </resource>
+      <resource name="ProgramMonitoring">
+        <object>Program monitörü</object>
+      </resource>
+      <resource name="ServerMonitoring">
+        <object>Sunucu monitörü</object>
+      </resource>
+      <resource name="DatabaseMonitoring">
+        <object>Veritabanı monitörü</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

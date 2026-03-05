@@ -1,0 +1,149 @@
+@if (this.isNew) {
+    <h3 mat-dialog-title>Create new product</h3>
+} @else {
+    <h3 mat-dialog-title>Update product</h3>
+}
+
+<mat-dialog-content
+[formGroup]="this.form">
+    <mat-grid-list
+    rowHeight="6rem"
+    [cols]="4">
+        <mat-grid-tile FlexGridTile [xsCol]="2">
+            <kendo-formfield>
+                <kendo-floatinglabel text="Code">
+                    <kendo-textbox
+                    formControlName="code">
+                    </kendo-textbox>
+                </kendo-floatinglabel>
+
+                <kendo-formhint>The code of the product</kendo-formhint>
+                <kendo-formerror>Required</kendo-formerror>
+            </kendo-formfield>
+        </mat-grid-tile>
+        
+        <mat-grid-tile FlexGridTile [xsCol]="2">
+            <mat-radio-group
+            formControlName="active">
+                <mat-label>Status</mat-label>
+                <mat-radio-button [value]="false">Inactive</mat-radio-button>
+                <mat-radio-button [value]="true">Active</mat-radio-button>
+            </mat-radio-group>
+        </mat-grid-tile>
+
+        <mat-grid-tile FlexGridTile [xsCol]="4">
+            <kendo-formfield>
+                <kendo-floatinglabel text="Name">
+                    <kendo-textbox
+                    formControlName="name">
+                    </kendo-textbox>
+                </kendo-floatinglabel>
+                
+                <kendo-formhint>The name of the product</kendo-formhint>
+                <kendo-formerror>Required</kendo-formerror>
+            </kendo-formfield>
+        </mat-grid-tile>
+
+        <mat-grid-tile FlexGridTile [xsCol]="2">
+            <kendo-formfield>
+                <kendo-floatinglabel
+                text="System types">
+                    <kendo-combobox
+                    textField="text"
+                    valueField="value"
+                    formControlName="systemtype"
+                    [data]="this.systemtypes"
+                    [popupSettings]="{ appendTo: 'component' }"
+                    [valuePrimitive]="true"
+                    [kendoDropDownFilter]="{ operator: 'contains' }">
+                    </kendo-combobox>
+                </kendo-floatinglabel>
+
+                <kendo-formhint>Internally is an "int" value</kendo-formhint>
+                <kendo-formerror>Required</kendo-formerror>
+            </kendo-formfield>
+        </mat-grid-tile>
+
+        <mat-grid-tile FlexGridTile [xsCol]="2">
+            <kendo-formfield>
+                <kendo-floatinglabel
+                text="Material type">
+                    <kendo-combobox
+                    textField="name"
+                    valueField="id"
+                    formControlName="materialtypeId"
+                    [data]="this.materialtypes"
+                    [popupSettings]="{ appendTo: 'component' }"
+                    [valuePrimitive]="true"
+                    [kendoDropDownFilter]="{ operator: 'contains' }">
+                    </kendo-combobox>
+                </kendo-floatinglabel>
+
+                <kendo-formhint>Optional</kendo-formhint>
+            </kendo-formfield>
+        </mat-grid-tile>
+
+        <mat-grid-tile FlexGridTile [xsCol]="2">
+            <kendo-formfield>
+                <kendo-floatinglabel
+                text="PK packaging">
+                    <kendo-combobox
+                    textField="name"
+                    valueField="id"
+                    formControlName="pkPackagingId"
+                    [data]="this.packagings"
+                    [popupSettings]="{ appendTo: 'component' }"
+                    [valuePrimitive]="true"
+                    [kendoDropDownFilter]="{ operator: 'contains' }">
+                    </kendo-combobox>
+                </kendo-floatinglabel>
+
+                <kendo-formhint>Optional</kendo-formhint>
+            </kendo-formfield>
+        </mat-grid-tile>
+
+        <mat-grid-tile FlexGridTile [xsCol]="2">
+            <kendo-formfield>
+                <kendo-floatinglabel
+                text="IT packaging">
+                    <kendo-combobox
+                    textField="name"
+                    valueField="id"
+                    formControlName="itPackagingId"
+                    [data]="this.packagings"
+                    [popupSettings]="{ appendTo: 'component' }"
+                    [valuePrimitive]="true"
+                    [kendoDropDownFilter]="{ operator: 'contains' }">
+                    </kendo-combobox>
+                </kendo-floatinglabel>
+
+                <kendo-formhint>Optional</kendo-formhint>
+            </kendo-formfield>
+        </mat-grid-tile>
+    </mat-grid-list>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button mat-flat-button
+    type="button"
+    color="primary"
+    (click)="this.save()"
+    [disabled]="this.form.disabled || this.form.pristine || this.form.invalid">
+        @if (this.form.disabled) {
+            <mat-icon spin fontSet="material-symbols-outlined">progress_activity</mat-icon>
+        } @else {
+            <mat-icon>save</mat-icon>
+        }
+
+        <span>Save</span>
+    </button>
+
+    <button mat-flat-button
+    type="button"
+    color="tertiary"
+    (click)="this.cancel()"
+    [disabled]="this.form.disabled">
+        <mat-icon>close</mat-icon>
+        <span>Cancel</span>
+    </button>
+</mat-dialog-actions>

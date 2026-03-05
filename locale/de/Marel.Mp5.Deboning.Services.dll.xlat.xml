@@ -1,0 +1,898 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="de">
+  <industry>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.AsyncOpScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Operation wird aufgeführt</object>
+      </resource>
+      <resource name="Exception">
+        <object>Systemfehler</object>
+      </resource>
+      <resource name="Error">
+        <object>Fehler</object>
+      </resource>
+      <resource name="Aborting">
+        <object>Operation wird abgebrochen...</object>
+      </resource>
+      <resource name="Retrying">
+        <object>Operation wird wiedergeholt..</object>
+      </resource>
+      <resource name="Wait">
+        <object>Bitte warten...</object>
+      </resource>
+      <resource name="AbortKey">
+        <object>Abbrechen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.CriteriaTaskScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Produkt auswählen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.CutupTaskScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Stück verarbeiten</object>
+      </resource>
+      <resource name="SRMCaption">
+        <object>SRM STÜCK</object>
+      </resource>
+      <resource name="OpsKey">
+        <object>Ops</object>
+      </resource>
+      <resource name="SkipKey">
+        <object>Überg</object>
+      </resource>
+      <resource name="ExitKey">
+        <object>Exit</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+      <resource name="NoProduct">
+        <object>(Kein Produkt)</object>
+      </resource>
+      <resource name="NoBuffer">
+        <object>Kein Puffer</object>
+      </resource>
+      <resource name="Ready">
+        <object>Bereit</object>
+      </resource>
+      <resource name="noTargetWeight">
+        <object>Kein Ziel</object>
+      </resource>
+      <resource name="ProcessingTime">
+        <object>Zielprocesszeit</object>
+      </resource>
+      <resource name="NoProcessingTime">
+        <object>Kein Zeilprocesszeit</object>
+      </resource>
+      <resource name="Seconds">
+        <object>Sek</object>
+      </resource>
+      <resource name="PerformanceKey">
+        <object>Prf</object>
+      </resource>
+      <resource name="NoReleaseRequired">
+        <object>Kein Lösen/Wiegen erforderlich</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.DeletePieceScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Stück löschen?</object>
+      </resource>
+      <resource name="ConfirmDelete">
+        <object>Operation bestätigen:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.ErrorScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Fehler</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.LoginScreen" ServiceOnly="false">
+      <resource name="StartKey">
+        <object>Anfangen</object>
+      </resource>
+      <resource name="MsgKey">
+        <object>Meld</object>
+      </resource>
+      <resource name="OpsKey">
+        <object>Ops</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.MessageScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Meldung</object>
+      </resource>
+      <resource name="ClearKey">
+        <object>Lösch</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.MovePieceScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Station auswählen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.WarningScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Warnung</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+      <resource name="NewPattern">
+        <object>Neues Schnittmuster</object>
+      </resource>
+      <resource name="NewLot">
+        <object>Neues Los: </object>
+      </resource>
+      <resource name="SRMWarning">
+        <object>SRM Stück</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.PieceFinishedScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Beendet</object>
+      </resource>
+      <resource name="StopKey">
+        <object>Stopp</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+      <resource name="Finished">
+        <object>Stück ist beendet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.PiecesScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Stück auswählen</object>
+      </resource>
+      <resource name="OpsKey">
+        <object>Ops</object>
+      </resource>
+      <resource name="InfeedStopped">
+        <object>Zulauf gestoppt</object>
+      </resource>
+      <resource name="ReWeighModeActive">
+        <object>Alle Stücke wiegen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.MissingPiecesScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Stück auswählen</object>
+      </resource>
+      <resource name="OpsKey">
+        <object>Ops</object>
+      </resource>
+      <resource name="InfeedStopped">
+        <object>Zulauf gestoppt</object>
+      </resource>
+      <resource name="Delete">
+        <object>Löschen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.PieceTaskScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Stück</object>
+      </resource>
+      <resource name="SRMCaption">
+        <object>SRM STÜCK</object>
+      </resource>
+      <resource name="OpsKey">
+        <object>Ops</object>
+      </resource>
+      <resource name="SkipKey">
+        <object>Überg</object>
+      </resource>
+      <resource name="ExitKey">
+        <object>Exit</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+      <resource name="NoBuffer">
+        <object>Kein Puffer</object>
+      </resource>
+      <resource name="PerformanceKey">
+        <object>Prf</object>
+      </resource>
+      <resource name="ProcessingTime">
+        <object>Zielverarbeitungszeit: </object>
+      </resource>
+      <resource name="NoProcessingTime">
+        <object>Keine Zielverarbeitungszeit</object>
+      </resource>
+      <resource name="Seconds">
+        <object>s</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.QcScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>QK Erbebnisse</object>
+      </resource>
+      <resource name="noQcText">
+        <object>Keine QK</object>
+      </resource>
+      <resource name="unknownItem">
+        <object>Unbekanntes Stück</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.RecentItemsScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Letzte Stücke</object>
+      </resource>
+      <resource name="PrintKey">
+        <object>Druck</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.RecentPiecesScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Letzte Stücke</object>
+      </resource>
+      <resource name="RestoreKey">
+        <object>Wied.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.StandardController" ServiceOnly="false">
+      <resource name="SelectOperation">
+        <object>Operation auswählen</object>
+      </resource>
+      <resource name="SelectAlternateTask">
+        <object>Aufgabe auswählen</object>
+      </resource>
+      <resource name="SelectAlternateProduct">
+        <object>Produkt auswählen</object>
+      </resource>
+      <resource name="SelectReason">
+        <object>Grund auswählen</object>
+      </resource>
+      <resource name="ClosePack">
+        <object>Packung schließen</object>
+      </resource>
+      <resource name="Logout">
+        <object>Abmelden</object>
+      </resource>
+      <resource name="AssignId">
+        <object>Mitarbeiter ID zuweisen</object>
+      </resource>
+      <resource name="StopInfeed">
+        <object>Eingabe anhalten</object>
+      </resource>
+      <resource name="StartInfeed">
+        <object>Eingabe anfangen</object>
+      </resource>
+      <resource name="DeletePiece">
+        <object>Stück löschen</object>
+      </resource>
+      <resource name="MovePiece">
+        <object>Stück weitersenden</object>
+      </resource>
+      <resource name="Performance">
+        <object>Leistung anzeigen</object>
+      </resource>
+      <resource name="QaPerformance">
+        <object>QK Leistung anzeigen</object>
+      </resource>
+      <resource name="RecentPieces">
+        <object>Letzte Stücke anzeigen</object>
+      </resource>
+      <resource name="RecentItems">
+        <object>Letzte Endprodukte anzeigen</object>
+      </resource>
+      <resource name="ManualMode">
+        <object>Manuelles Verfahren</object>
+      </resource>
+      <resource name="AutoMode">
+        <object>Automatisches Verfahren</object>
+      </resource>
+      <resource name="AlternateTask">
+        <object>Aufgabe auswählen</object>
+      </resource>
+      <resource name="AlternateProduct">
+        <object>Anderes Produkt auswählen</object>
+      </resource>
+      <resource name="GetChangeReason">
+        <object>Änderungsgrund kann nicht aufgerufen werden</object>
+      </resource>
+      <resource name="InvalidItem">
+        <object>Ungültiges Stück</object>
+      </resource>
+      <resource name="ActiveInTaskGroups">
+        <object>Aktive Aufgabengruppen</object>
+      </resource>
+      <resource name="RawBufferWeight">
+        <object>Waage überprüfen</object>
+      </resource>
+      <resource name="cutupDestination">
+        <object>Ziel: {0}</object>
+      </resource>
+      <resource name="noBufferForPiece">
+        <object>Kein Puffer fur das Produkt</object>
+      </resource>
+      <resource name="ViewTrimBuffers">
+        <object>Trimm Puffers anzeigen</object>
+      </resource>
+      <resource name="EditPrinterStatus">
+        <object>Drucker einstellen</object>
+      </resource>
+      <resource name="ViewAssociatedStationPieces">
+        <object>Verbundene stücke anzeigen</object>
+      </resource>
+      <resource name="RecentPacks">
+        <object>Letzte Packungen anzeigen</object>
+      </resource>
+      <resource name="DisplayMissingPieces">
+        <object>Fehlende Stücke anzeigen</object>
+      </resource>
+      <resource name="DisplayRegularPieces">
+        <object>Normale Stücke anzeigen</object>
+      </resource>
+      <resource name="MovePieceConfirmation">
+        <object>Stückbewegungsergebnis</object>
+      </resource>
+      <resource name="ExitKey">
+        <object>Exit</object>
+      </resource>
+      <resource name="DisplayPieceDetails">
+        <object>Stückinformationen anzeigen</object>
+      </resource>
+      <resource name="PieceDetails">
+        <object>Stückdetails</object>
+      </resource>
+      <resource name="NoMatchingPieces">
+        <object>Keine übereinstimmenden Stücke gefunden</object>
+      </resource>
+      <resource name="ServiceError">
+        <object>Service-Fehler während der Verarbeitung des Prozesses aufgetreten</object>
+      </resource>
+      <resource name="GeneralError">
+        <object>Allgemeiner Fehler während der Verarbeitung des Prozesses aufgetreten</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.BatchScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Charge Information</object>
+      </resource>
+      <resource name="TerminateKey">
+        <object>Beend</object>
+      </resource>
+      <resource name="BatchProduct">
+        <object>Produkt : </object>
+      </resource>
+      <resource name="BatchTarget">
+        <object>Ziel    : </object>
+      </resource>
+      <resource name="BatchWeight">
+        <object>Gewight : </object>
+      </resource>
+      <resource name="BatchCount">
+        <object>Anzahl  : </object>
+      </resource>
+      <resource name="LotCaption">
+        <object>Los     : </object>
+      </resource>
+      <resource name="OpsKey">
+        <object>Ops</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>Keine aktive Charge</object>
+      </resource>
+      <resource name="BatchProductHeader">
+        <object>Produkt</object>
+      </resource>
+      <resource name="BatchTargetHeader">
+        <object>Ziel</object>
+      </resource>
+      <resource name="BatchWeightHeader">
+        <object>Gew</object>
+      </resource>
+      <resource name="BatchCountHeader">
+        <object>Cnt</object>
+      </resource>
+      <resource name="Keine Charge">
+        <object>Keine Charge</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.TrimBuffersScreen" ServiceOnly="false">
+      <resource name="NewTrimWarningCaption">
+        <object>Neue Trimm Einstellung</object>
+      </resource>
+      <resource name="TrimSetupCaption">
+        <object>Aktuelle Trimm Einstellung</object>
+      </resource>
+      <resource name="DischargeKey">
+        <object>Leer</object>
+      </resource>
+      <resource name="DischargeKeyAll">
+        <object>L.All</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.AssociatedPiecesScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Stück auswhählen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.BaseTerminalController" ServiceOnly="false">
+      <resource name="SelectOperation">
+        <object>Operation auswählen</object>
+      </resource>
+      <resource name="Logout">
+        <object>Abmelden</object>
+      </resource>
+      <resource name="AssignId">
+        <object>Mitarbeiter ID zuweisen</object>
+      </resource>
+      <resource name="ActiveInTaskGroups">
+        <object>Aktive Aufgabengruppen</object>
+      </resource>
+      <resource name="RawBufferWeight">
+        <object>Waage überprüfen</object>
+      </resource>
+      <resource name="InvalidItem">
+        <object>Ungültiges Stück</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.InputController" ServiceOnly="false">
+      <resource name="NoDeboningLotSelected">
+        <object>Kein Zerlegungslos ausgewählt</object>
+      </resource>
+      <resource name="InputDestination">
+        <object>Ziel: {0}</object>
+      </resource>
+      <resource name="TooManyAnimalsFound">
+        <object>Gefundene Tiere: {0}</object>
+      </resource>
+      <resource name="NoAnimalFound">
+        <object>Kein Tier gefunden</object>
+      </resource>
+      <resource name="SystemError">
+        <object>Systemfehler!</object>
+      </resource>
+      <resource name="CreateAnimalFailed">
+        <object>Fehler beim Erstellen eines Tieres</object>
+      </resource>
+      <resource name="AnimalNotFound">
+        <object>Tier {0} nicht gefunden</object>
+      </resource>
+      <resource name="AnimalLotMissing">
+        <object>Los fehlt in Datensatz des Tieres</object>
+      </resource>
+      <resource name="LoadLotFailed">
+        <object>Los {0} konnte nicht geladen werden</object>
+      </resource>
+      <resource name="AnimalMissingInIdContainer">
+        <object>Tier fehlt in ID-Container {0}</object>
+      </resource>
+      <resource name="IdContainerLotMissing">
+        <object>Los fehlt im ID-Container-Datensatz</object>
+      </resource>
+      <resource name="InvalidCutPattern">
+        <object>Schnittmuster {0} ist ungültig</object>
+      </resource>
+      <resource name="LoadCutPattern">
+        <object>Schnittmuster {0} laden</object>
+      </resource>
+      <resource name="IdContainerCutPatternMissing">
+        <object>Schnittmuster fehlt in ID-Container</object>
+      </resource>
+      <resource name="RfidNotFound">
+        <object>ID-Container {0} nicht gefunden</object>
+      </resource>
+      <resource name="ProcessRfidError">
+        <object>Beim Verarbeiten der RFID-Daten ist ein Fehler aufgetreten.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.StandardInputScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Eingabe</object>
+      </resource>
+      <resource name="ManualModeKey">
+        <object>Manuel</object>
+      </resource>
+      <resource name="AutoModeKey">
+        <object>Auto</object>
+      </resource>
+      <resource name="SkipKey">
+        <object>Überg</object>
+      </resource>
+      <resource name="ExitKey">
+        <object>Exit</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.ActiveInTaskGroupsScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Aufgabengruppen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.RawBufferWeightScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Pufferstatus</object>
+      </resource>
+      <resource name="ExitKey">
+        <object>Zurück</object>
+      </resource>
+      <resource name="noWeightReceived">
+        <object>Kein Gewicht. Gewicht auf Waage legen</object>
+      </resource>
+      <resource name="TareKey">
+        <object>Tara</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.StandardPerformanceScreen" ServiceOnly="false">
+      <resource name="inputPiecesCap">
+        <object>Eing.-St.:</object>
+      </resource>
+      <resource name="inputWeightCap">
+        <object>Ein.-Gew.:</object>
+      </resource>
+      <resource name="primaryWeightCap">
+        <object>Prim. Gew.:</object>
+      </resource>
+      <resource name="primaryValueCap">
+        <object>Prim. Wert:</object>
+      </resource>
+      <resource name="qcInitialValue">
+        <object>Def/$W:</object>
+      </resource>
+      <resource name="inputPerfCap">
+        <object>Durchs. Gew.:</object>
+      </resource>
+      <resource name="outputPerfCap">
+        <object>P-Durchs. Gew.:</object>
+      </resource>
+      <resource name="inputPcsPerfCap">
+        <object>Durchs. St.:</object>
+      </resource>
+      <resource name="outputPcsPerfCap">
+        <object>St./h:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.AssignPrintersScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Drucker zuweisen</object>
+      </resource>
+      <resource name="Printer1Label">
+        <object>Drucker 1: </object>
+      </resource>
+      <resource name="Printer2Label">
+        <object>Drucker 2: </object>
+      </resource>
+      <resource name="Printer3Label">
+        <object>Drucker 3: </object>
+      </resource>
+      <resource name="ClearKey">
+        <object>Löschen</object>
+      </resource>
+      <resource name="ChangeLegend">
+        <object>Ändern</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.IdContainerScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Produkt auswählen</object>
+      </resource>
+      <resource name="LoadProductsFailed">
+        <object>Vorbereitung der Produkte fehlgeschlagen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.IdContainerInfoScreen" ServiceOnly="false">
+      <resource name="NewContainer">
+        <object>Neu</object>
+      </resource>
+      <resource name="AssignedContainer">
+        <object>Zugewiesen</object>
+      </resource>
+      <resource name="Caption">
+        <object>Containerstatus</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+      <resource name="RfidCaption">
+        <object>RFID:</object>
+      </resource>
+      <resource name="MaterialCaption">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="StatusCaption">
+        <object>Status:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.ScanItemTerminal" ServiceOnly="false">
+      <resource name="BarcodeLabel">
+        <object>Strichcode:</object>
+      </resource>
+      <resource name="MessageLabel">
+        <object>Meldung:</object>
+      </resource>
+      <resource name="ItemIDLabel">
+        <object>Objekt-ID:</object>
+      </resource>
+      <resource name="MaterialLabel">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="ErrorParsing">
+        <object>Fehler beim Strichcode-Parsing</object>
+      </resource>
+      <resource name="ItemNotFound">
+        <object>Element nicht gefunden</object>
+      </resource>
+      <resource name="WeightUpdateOK">
+        <object>Gewichtsaktualisierung OK</object>
+      </resource>
+      <resource name="WeightUpdateFailed">
+        <object>Gewichtsaktualisierung fehlgeschlagen</object>
+      </resource>
+      <resource name="Caption">
+        <object>Produkt scannen</object>
+      </resource>
+      <resource name="LotLabel">
+        <object>Los:</object>
+      </resource>
+      <resource name="POLabel">
+        <object>Auftrag:</object>
+      </resource>
+      <resource name="ProductionLotLabel">
+        <object>Fertigungslos:</object>
+      </resource>
+      <resource name="RawMaterialAreaLabel">
+        <object>RM-Bereich:</object>
+      </resource>
+      <resource name="BatchLabel">
+        <object>Charge:</object>
+      </resource>
+      <resource name="OrderLabel">
+        <object>Bestellung:</object>
+      </resource>
+      <resource name="ProductionOrderLabel">
+        <object>Produktionsbestellung:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.InputScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Eingabeprodukt</object>
+      </resource>
+      <resource name="ManualModeKey">
+        <object>Manuell</object>
+      </resource>
+      <resource name="AutoModeKey">
+        <object>Autom.</object>
+      </resource>
+      <resource name="SkipKey">
+        <object>Überspringen</object>
+      </resource>
+      <resource name="ExitKey">
+        <object>Beenden</object>
+      </resource>
+      <resource name="OkKey">
+        <object>OK</object>
+      </resource>
+      <resource name="CutPattern">
+        <object>Schnittmuster: </object>
+      </resource>
+      <resource name="Task">
+        <object>Aufgabe: </object>
+      </resource>
+      <resource name="Product">
+        <object>Produkt: </object>
+      </resource>
+      <resource name="AnimalSlaughterDay">
+        <object>Schl.-Tag: </object>
+      </resource>
+      <resource name="AnimalIdCode">
+        <object>ID-Code: </object>
+      </resource>
+      <resource name="AnimalSlaughterCode">
+        <object>Schl.- Code: </object>
+      </resource>
+      <resource name="RFID">
+        <object>RFID: </object>
+      </resource>
+      <resource name="Animal">
+        <object>Tier: </object>
+      </resource>
+      <resource name="NoPattern">
+        <object>(Kein Schnittmuster)</object>
+      </resource>
+      <resource name="NoTask">
+        <object>(Keine Aufgabe)</object>
+      </resource>
+      <resource name="AnimalOk">
+        <object>Tier OK</object>
+      </resource>
+      <resource name="NoAnimal">
+        <object>Kein Tier</object>
+      </resource>
+      <resource name="Ready">
+        <object>Bereit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.CreateAnimalScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Tier erstellen</object>
+      </resource>
+      <resource name="SlaughterDay">
+        <object>Schlachttag: </object>
+      </resource>
+      <resource name="IdCode">
+        <object>ID-Code: </object>
+      </resource>
+      <resource name="SlaughterCode">
+        <object>Schlachtercode: </object>
+      </resource>
+      <resource name="GreenWeight">
+        <object>Lebendgewicht: </object>
+      </resource>
+      <resource name="ColdWeight">
+        <object>Kaltgewicht: </object>
+      </resource>
+      <resource name="OrginalWeight">
+        <object>Originalgewicht: </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.FindPieceScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Stück finden</object>
+      </resource>
+      <resource name="Number">
+        <object>Nummer:</object>
+      </resource>
+      <resource name="PieceNotFound">
+        <object>Stück nicht gefunden</object>
+      </resource>
+      <resource name="Error">
+        <object>Fehler beim Suchen des Stückes</object>
+      </resource>
+      <resource name="ClearKey">
+        <object>Löschen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.RecentPacksScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Letzte Packungen</object>
+      </resource>
+      <resource name="PrintKey">
+        <object>Drucken</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.PieceDetailsScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Stückinformationen</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Zeit:</object>
+      </resource>
+      <resource name="Lot">
+        <object>Los:</object>
+      </resource>
+      <resource name="FromStation">
+        <object>Von. Stat.:</object>
+      </resource>
+      <resource name="FromEmployee">
+        <object>Von. Mitarb.:</object>
+      </resource>
+      <resource name="YieldGroup">
+        <object>Ertragsgr.:</object>
+      </resource>
+      <resource name="QaMark1Lot">
+        <object>Los QS1:</object>
+      </resource>
+      <resource name="QaMark1Ind">
+        <object>Ind. QS1:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.Controllers.InputController" ServiceOnly="false">
+      <resource name="NoStationsAvailableInTaskGroup">
+        <object>Keine Station(en) in Aufgabengruppe {0} verfügbar</object>
+      </resource>
+      <resource name="NoStationsAvailable">
+        <object>Keine Stationen verfügbar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.Controllers.InputStation" ServiceOnly="false">
+      <resource name="DisplayAllCriteriaInvalid">
+        <object>Kriterienaufgabe mit Anzeige aller Produkte nicht in Eingangsregistrierung unterstützt</object>
+      </resource>
+      <resource name="NoCriteriaTaskLineAvailble">
+        <object>Keine Aufgabenlinie aus Kriterienaufgabe verfügbar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.SharedTerminalController" ServiceOnly="false">
+      <resource name="infeedClosed">
+        <object>Zulauf geschlossen</object>
+      </resource>
+      <resource name="noPieceOnController">
+        <object>Kein Stück</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.SharedPiecesScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Stück auswählen</object>
+      </resource>
+      <resource name="AllInfeedStopped">
+        <object>Alle Zuläufe geschlossen</object>
+      </resource>
+      <resource name="SomeInfeedStopped">
+        <object>{0}/{1} geschlossen</object>
+      </resource>
+      <resource name="OpsKey">
+        <object>Ops</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.AnimalPiecesScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Gefundene Stücke</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.BatchesReweighScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Charge auswählen</object>
+      </resource>
+      <resource name="gateLabel">
+        <object>G</object>
+      </resource>
+      <resource name="piecesLabel">
+        <object>G</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.BatchReweighScreen" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Charge erneut wiegen</object>
+      </resource>
+      <resource name="ScanKey">
+        <object>Scannen</object>
+      </resource>
+      <resource name="CancelKey">
+        <object>Entfernen</object>
+      </resource>
+      <resource name="BatchProduct">
+        <object>Produkt: </object>
+      </resource>
+      <resource name="BatchWeight">
+        <object>Gewicht: </object>
+      </resource>
+      <resource name="BatchTarget">
+        <object>Ziel: </object>
+      </resource>
+      <resource name="BatchCount">
+        <object>Anzahl: </object>
+      </resource>
+      <resource name="BatchClosure">
+        <object>Geschlossen  : {0:hh:mm}</object>
+      </resource>
+      <resource name="ScanComplete">
+        <object>Scannen abgeschlossen</object>
+      </resource>
+      <resource name="ScanInComplete">
+        <object>Scannen nicht abgeschlossen</object>
+      </resource>
+      <resource name="RemoveInProgress">
+        <object>Charge wird aus der Station entfernt</object>
+      </resource>
+      <resource name="ScanFirst">
+        <object>Gewicht verworfen. Zuerst scannen.</object>
+      </resource>
+      <resource name="RecordingInProgress">
+        <object>Aufzeichnung</object>
+      </resource>
+      <resource name="GateLabel">
+        <object>Tor</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Services.TerminalScreens.TrimGraderBatchScreen " ServiceOnly="false">
+      <resource name="Caption">
+        <object>Chargenbildung</object>
+      </resource>
+      <resource name="gateLabel">
+        <object>G</object>
+      </resource>
+      <resource name="piecesLabel">
+        <object>G</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

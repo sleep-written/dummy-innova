@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.QCScanner.Reports.Salmon.Breakdown" ServiceOnly="false">
+      <resource name="BreakCode_Prunit">
+        <object>Prunit code</object>
+      </resource>
+      <resource name="BreakCode_Line">
+        <object>Line code</object>
+      </resource>
+      <resource name="BreakCode_Lot">
+        <object>Lot code</object>
+      </resource>
+      <resource name="BreakCode_Shift">
+        <object>Shift code</object>
+      </resource>
+      <resource name="BreakCode_PO">
+        <object>PO code</object>
+      </resource>
+      <resource name="BreakCode_None">
+        <object />
+      </resource>
+      <resource name="BreakCode_Prday">
+        <object />
+      </resource>
+      <resource name="BreakCode_Batch">
+        <object />
+      </resource>
+      <resource name="BreakCode_Program">
+        <object>Program code</object>
+      </resource>
+      <resource name="BreakCode_ProcessPeriod">
+        <object>Pr. period</object>
+      </resource>
+      <resource name="BreakName_Prday">
+        <object>Production day</object>
+      </resource>
+      <resource name="BreakName_Line">
+        <object>Line name</object>
+      </resource>
+      <resource name="BreakName_Prunit">
+        <object>Prunit name</object>
+      </resource>
+      <resource name="BreakName_Lot">
+        <object>Lot name</object>
+      </resource>
+      <resource name="BreakName_Shift">
+        <object>Shift name</object>
+      </resource>
+      <resource name="BreakName_Batch">
+        <object>Batch name</object>
+      </resource>
+      <resource name="BreakName_PO">
+        <object>PO Name</object>
+      </resource>
+      <resource name="BreakName_None">
+        <object />
+      </resource>
+      <resource name="BreakName_ProcessPeriod">
+        <object>Program</object>
+      </resource>
+      <resource name="BreakName_Program">
+        <object>Program</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QCScanner.Reports.Standalone.QCScannerOverviewReport" ServiceOnly="false">
+      <resource name="lblSalmonPcs.Text">
+        <object>Salmon fillets</object>
+      </resource>
+      <resource name="lblTotalWeight.Text">
+        <object>Total weight</object>
+      </resource>
+      <resource name="lblThroughput.Text">
+        <object>Fillets / min</object>
+      </resource>
+      <resource name="lblAbnormal.Text">
+        <object>Abnormal / \nMisplaced</object>
+      </resource>
+      <resource name="lblCat1.Text">
+        <object>Quality 1</object>
+      </resource>
+      <resource name="lblCat2.Text">
+        <object>Quality 2</object>
+      </resource>
+      <resource name="lblCat3.Text">
+        <object>Quality 3</object>
+      </resource>
+      <resource name="DetailsReport.Title">
+        <object>Production Quality Report</object>
+      </resource>
+      <resource name="ShipmentReport.Title">
+        <object>Shipment Quality Report</object>
+      </resource>
+      <resource name="PrintReportFailedMessage">
+        <object>Could not load the drillthrough report from the user selection.\nMake sure your configuration is correct for the specified breakdown criteria.</object>
+      </resource>
+      <resource name="PrintingError">
+        <object>Printing error</object>
+      </resource>
+      <resource name="lblSimulatedData.Text">
+        <object>Report shows simulated data.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QCScanner.Reports.Standalone.QCScannerDetailsReport" ServiceOnly="false">
+      <resource name="lblFirstRegTime.Text">
+        <object>First reg. time</object>
+      </resource>
+      <resource name="lblLastRegTime.Text">
+        <object>Last reg. time</object>
+      </resource>
+      <resource name="lblCatFillets.Text">
+        <object>Fillets</object>
+      </resource>
+      <resource name="lblPcsMin.Text">
+        <object>Fillets/ min</object>
+      </resource>
+      <resource name="lblCatWeight.Text">
+        <object>Weight</object>
+      </resource>
+      <resource name="lblAvgWeight.Text">
+        <object>Avg. weight\n(g)</object>
+      </resource>
+      <resource name="lblCat1.Text">
+        <object>Quality 1</object>
+      </resource>
+      <resource name="lblCat2.Text">
+        <object>Quality 2</object>
+      </resource>
+      <resource name="lblCat3.Text">
+        <object>Quality 3</object>
+      </resource>
+      <resource name="lblAnyLimit.Text">
+        <object>Any report limit</object>
+      </resource>
+      <resource name="lblReportLimitResults.Text">
+        <object>Report limit results:</object>
+      </resource>
+      <resource name="lblParamName.Text">
+        <object>Parameter</object>
+      </resource>
+      <resource name="lblLimit.Text">
+        <object>Limit</object>
+      </resource>
+      <resource name="lblUnder.Text">
+        <object>Under</object>
+      </resource>
+      <resource name="lblOver.Text">
+        <object>Over</object>
+      </resource>
+      <resource name="lblOverPerc.Text">
+        <object>% Over</object>
+      </resource>
+      <resource name="lblWeightDist.Text">
+        <object>Weight distribution:</object>
+      </resource>
+      <resource name="lblColorDist.Text">
+        <object>Color distribution:</object>
+      </resource>
+      <resource name="AxisLabel.Unknown">
+        <object>Unknown</object>
+      </resource>
+      <resource name="AxisLabel.Lt20">
+        <object>&lt; 20</object>
+      </resource>
+      <resource name="PrintReportFailedMessage">
+        <object>Could not load the drillthrough report from the user selection.\nMake sure the breakdownId is not null in the report SQL.</object>
+      </resource>
+      <resource name="PrintingError">
+        <object>Printing error</object>
+      </resource>
+      <resource name="lblSimulatedData.Text">
+        <object>Report shows simulated data.</object>
+      </resource>
+      <resource name="lblNotIncl.Text">
+        <object>Not included in totals</object>
+      </resource>
+      <resource name="lblAbnFillets.Text">
+        <object>Fillets</object>
+      </resource>
+      <resource name="lblAbnWeight.Text">
+        <object>Weight</object>
+      </resource>
+      <resource name="lblAbnormal.Text">
+        <object>Abnormal</object>
+      </resource>
+      <resource name="lblMisplaced.Text">
+        <object>Misplaced</object>
+      </resource>
+      <resource name="lblTotal.Text">
+        <object>Total</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QCScanner.Reports.Standalone.QCScannerShipmentQualityReport" ServiceOnly="false">
+      <resource name="lblColorDist.Text">
+        <object>Color distribution</object>
+      </resource>
+      <resource name="lblBreakDownName.Text">
+        <object>Breakdown name</object>
+      </resource>
+      <resource name="lblFirstRegTime.Text">
+        <object>First reg. time</object>
+      </resource>
+      <resource name="lblLastRegTime.Text">
+        <object>Last reg. time</object>
+      </resource>
+      <resource name="lblSalmonPcs.Text">
+        <object>Salmon fillets (pcs)</object>
+      </resource>
+      <resource name="lblTotalWeight.Text">
+        <object>Total weight ($W)</object>
+      </resource>
+      <resource name="lblAvgWeight.Text">
+        <object>Avg. weight (g)</object>
+      </resource>
+      <resource name="lblParam.Text">
+        <object>Parameter</object>
+      </resource>
+      <resource name="lblParamMin.Text">
+        <object>Min</object>
+      </resource>
+      <resource name="lblParamMax.Text">
+        <object>Max</object>
+      </resource>
+      <resource name="lblNoAnyReportLimit.Text">
+        <object># Any report limit</object>
+      </resource>
+      <resource name="lblNoAnyTrimmingLimit.Text">
+        <object># Any trimming defect</object>
+      </resource>
+      <resource name="lblTotalTrimmingLimits.Text">
+        <object>Total trimming defects</object>
+      </resource>
+      <resource name="lblOverReportLimitPerc.Text">
+        <object>% over report limit</object>
+      </resource>
+      <resource name="lblNoOverReportLimit.Text">
+        <object># over report limit</object>
+      </resource>
+      <resource name="lblReportLimitResults.Text">
+        <object>Report limit results</object>
+      </resource>
+      <resource name="lblProgramInfo.Text">
+        <object>Program information</object>
+      </resource>
+      <resource name="lblReportLimit.Text">
+        <object>Report limit</object>
+      </resource>
+      <resource name="lblMaxLimit.Text">
+        <object>Max</object>
+      </resource>
+      <resource name="lblMinLimit.Text">
+        <object>Min</object>
+      </resource>
+      <resource name="lblProgramParam.Text">
+        <object>Parameter</object>
+      </resource>
+      <resource name="lblProgram.Text">
+        <object>Program:</object>
+      </resource>
+      <resource name="lblWeightDistHeader.Text">
+        <object>Weight range distribution</object>
+      </resource>
+      <resource name="lblWeightRange.Text">
+        <object>Weight range</object>
+      </resource>
+      <resource name="lblWeightDistPcs.Text">
+        <object>pcs.</object>
+      </resource>
+      <resource name="lblWeightDistPerc.Text">
+        <object>%</object>
+      </resource>
+      <resource name="AxisLabel.Unknown">
+        <object>Unknown</object>
+      </resource>
+      <resource name="AxisLabel.Lt20">
+        <object>&lt; 20</object>
+      </resource>
+      <resource name="PrintReportFailedMessage">
+        <object>Could not load the drillthrough report from the user selection.\nMake sure the breakdownId is not null in the report SQL.</object>
+      </resource>
+      <resource name="PrintingError">
+        <object>Printing error</object>
+      </resource>
+      <resource name="lblSimulatedData.Text">
+        <object>Report shows simulated data.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QCScanner.Reports.ReportBreakdown" ServiceOnly="false">
+      <resource name="None">
+        <object>None</object>
+      </resource>
+      <resource name="Prday">
+        <object>Production day</object>
+      </resource>
+      <resource name="ProcessPeriod">
+        <object>Process period</object>
+      </resource>
+      <resource name="Line">
+        <object>Line</object>
+      </resource>
+      <resource name="Prunit">
+        <object>Process unit</object>
+      </resource>
+      <resource name="Lot">
+        <object>Lot</object>
+      </resource>
+      <resource name="Shift">
+        <object>Shift</object>
+      </resource>
+      <resource name="Batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="PO">
+        <object>Purchase order</object>
+      </resource>
+      <resource name="Program">
+        <object>Program</object>
+      </resource>
+    </type>
+    
+    <type name="Marel.Mp5.QCScanner.Reports.ButchersI.ButchersIDetailsReport" ServiceOnly="false">
+      <resource name="lblCat1.Text">
+        <object>Category 1</object>
+      </resource>
+      <resource name="lblCat2.Text">
+        <object>Category 2</object>
+      </resource>
+      <resource name="lblCat0.Text">
+        <object>Accepted</object>
+      </resource>
+      <resource name="lblAnyLimit.Text">
+        <object>Any report limit</object>
+      </resource>
+      <resource name="lblBreakDownName.Text">
+        <object>Production day</object>
+      </resource>
+      <resource name="lblFirstRegTime.Text">
+        <object>First regtime</object>
+      </resource>
+      <resource name="lblLastRegTime.Text">
+        <object>Last regtime</object>
+      </resource>
+      <resource name="lblSalmonPcs.Text">
+        <object>Total pieces</object>
+      </resource>
+      <resource name="lblTotalWeight.Text">
+        <object>Total weight</object>
+      </resource>
+      <resource name="lblAvgWeight.Text">
+        <object>Avg weight</object>
+      </resource>
+      <resource name="lblPcsMin.Text">
+        <object>Pcs/ min</object>
+      </resource>
+      <resource name="lblWeightDist.Text">
+        <object>Weight distribution:</object>
+      </resource>
+      <resource name="lblColorDist.Text">
+        <object>Color distribution:</object>
+      </resource>
+      <resource name="lblParamName.Text">
+        <object>Parameter</object>
+      </resource>
+      <resource name="lblLimit.Text">
+        <object>Min limit</object>
+      </resource>
+      <resource name="lblHighLimit.Text">
+        <object>Max limit</object>
+      </resource>           
+      <resource name="lblUnder.Text">
+        <object>Under limit</object>
+      </resource>
+      <resource name="lblOver.Text">
+        <object>Above limit</object>
+      </resource>
+      <resource name="lblOverPerc.Text">
+        <object>Outside limit %</object>
+      </resource>
+      <resource name="lblReportLimitResults.Text">
+        <object>Report limit results:</object>
+      </resource>
+      <resource name="lblSimulatedData.Text">
+        <object>Report shows simulated data.</object>
+      </resource>
+    </type>
+    
+    <type name="Marel.Mp5.QCScanner.Reports.ButchersI.ButchersIOverviewReport" ServiceOnly="false">
+      <resource name="lblBreakDownName.Text">
+        <object>Production day</object>
+      </resource>
+      <resource name="lblFirstRegTime.Text">
+        <object>First regtime</object>
+      </resource>
+      <resource name="lblLastRegtime.Text">
+        <object>Last regtime</object>
+      </resource>
+      <resource name="lblSalmonPcs.Text">
+        <object>Total pieces</object>
+      </resource>
+      <resource name="lblTotalWeight.Text">
+        <object>Total Weight (kg)</object>
+      </resource>
+      <resource name="lblCat1.Text">
+        <object>Category 1	</object>
+      </resource>
+      <resource name="lblCat2.Text">
+        <object>Category 2</object>
+      </resource>
+      <resource name="lblCat0.Text">
+        <object>Accepted</object>
+      </resource>
+      <resource name="lblThroughput.Text">
+        <object>Throughput (pcs/min)</object>
+      </resource>
+      <resource name="lblSimulatedData.Text">
+        <object>Report shows simulated data.</object>
+      </resource>
+    </type>
+    
+    <type name="Marel.Mp5.QCScanner.Reports.ButchersI.ButchersIShipmentQualityReport" ServiceOnly="false">
+      <resource name="lblBreakDownName.Text">
+        <object>Production day</object>
+      </resource>
+      <resource name="lblFirstRegTime.Text">
+        <object>First reg. time</object>
+      </resource>
+      <resource name="lblLastRegTime.Text">
+        <object>Last reg. time</object>
+      </resource>
+      <resource name="lblSalmonPcs.Text">
+        <object>Total pieces</object>
+      </resource>
+      <resource name="lblTotalWeight.Text">
+        <object>Total weight</object>
+      </resource>
+      <resource name="lblAvgWeight.Text">
+        <object>Avg. weight</object>
+      </resource>
+      <resource name="lblNoAnyReportLimit.Text">
+        <object># Any Report Limit</object>
+      </resource>
+      <resource name="lblNoAnyTrimmingLimit.Text">
+        <object># Any Trimming Defect</object>
+      </resource>
+      <resource name="lblTotalTrimmingLimits.Text">
+        <object>trimming</object>
+      </resource>
+      <resource name="lblProgram.Text">
+        <object>program:</object>
+      </resource>
+      <resource name="lblProgramInfo.Text">
+        <object>program Information</object>
+      </resource>
+      <resource name="lblReportLimitResults.Text">
+        <object>report limit results</object>
+      </resource>
+      <resource name="lblProgramParam.Text">
+        <object>program parameter</object>
+      </resource>
+      <resource name="lblMinLimit.Text">
+        <object>min</object>
+      </resource>
+      <resource name="lblMaxLimit.Text">
+        <object>max</object>
+      </resource>
+      <resource name="lblReportLimit.Text">
+        <object>report limit</object>
+      </resource>
+      <resource name="lblNoOverReportLimit.Text">
+        <object>
+          number over
+          report limit
+        </object>
+      </resource>
+      <resource name="lblOverReportLimitPerc.Text">
+        <object>
+          % over
+          report limit
+        </object>
+      </resource>
+      <resource name="lblColorDist.Text">
+        <object>Color Distribution</object>
+      </resource>
+      <resource name="lblWeightDistHeader.Text">
+        <object>
+          weight range distribution
+        </object>
+      </resource>
+      <resource name="lblWeightRange.Text">
+        <object>weight range</object>
+      </resource>
+      <resource name="lblWeightDistPcs.Text">
+        <object>pcs</object>
+      </resource>
+      <resource name="lblWeightDistPerc.Text">
+        <object>%</object>
+      </resource>
+      <resource name="lblSimulatedData.Text">
+        <object>Report shows simulated data.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QCScanner.Reports.Factory.Salmon.QCScannerDefectClassification" ServiceOnly="false">
+      <resource name="NoData">
+        <object>[None]</object>
+      </resource>
+      <resource name="DefectOk">
+        <object>OK</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QCScanner.Reports.Standalone.QCScannerDefectClassificationReport" ServiceOnly="false">
+      <resource name="lblAbnFillets.Text">
+        <object>Fillets</object>
+      </resource>
+      <resource name="lblAbnWeight.Text">
+        <object>Weight</object>
+      </resource>
+      <resource name="lblAbnormal.Text">
+        <object>Abnormal</object>
+      </resource>
+      <resource name="lblMisplaced.Text">
+        <object>Misplaced</object>
+      </resource>
+      <resource name="lblCatFillets.Text">
+        <object>Fillets</object>
+      </resource>
+      <resource name="lblCatWeight.Text">
+        <object>Weight</object>
+      </resource>
+      <resource name="lblCat1.Text">
+        <object>Category 1</object>
+      </resource>
+      <resource name="lblCat2.Text">
+        <object>Category 2</object>
+      </resource>
+      <resource name="lblCat3.Text">
+        <object>Category 3</object>
+      </resource>
+      <resource name="lblTotal.Text">
+        <object>Total</object>
+      </resource>
+      <resource name="lblBreakDownCode.Text">
+        <object>Lot code</object>
+      </resource>
+      <resource name="lblBreakDownName.Text">
+        <object>Lot name</object>
+      </resource>
+      <resource name="lblFirstRegTime.Text">
+        <object>First regtime</object>
+      </resource>
+      <resource name="lblLastRegTime.Text">
+        <object>Last regtime</object>
+      </resource>
+      <resource name="lblAvgWeight.Text">
+        <object>Avg. weight ($W)</object>
+      </resource>
+      <resource name="lblPcsMin.Text">
+        <object>Fillets/ min</object>
+      </resource>
+      <resource name="lblColorDist.Text">
+        <object>Color distribution:</object>
+      </resource>
+      <resource name="lblParamName.Text">
+        <object>Defect class</object>
+      </resource>
+      <resource name="lblLimit.Text">
+        <object>Count</object>
+      </resource>
+      <resource name="lblUnder.Text">
+        <object>%</object>
+      </resource>
+      <resource name="lblOver.Text">
+        <object>Weight</object>
+      </resource>
+      <resource name="lblOverPerc.Text">
+        <object>%</object>
+      </resource>
+      <resource name="lblReportLimitResults.Text">
+        <object>Defect classification</object>
+      </resource>
+      <resource name="lblSimulatedData.Text">
+        <object>Report shows simulated data</object>
+      </resource>
+      <resource name="AxisLabel.Unknown">
+        <object>Unknown</object>
+      </resource>
+      <resource name="AxisLabel.Lt20">
+        <object>&lt; 20</object>
+      </resource>
+    </type>
+
+  </industry>
+</resources>

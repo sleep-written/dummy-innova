@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="is">
+  <industry>
+    <type name="Marel.Mp5.Portioning.Activity.PortionType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>&lt;Ekki Valið&gt;</object>
+      </resource>
+      <resource name="First">
+        <object>Fyrsta</object>
+      </resource>
+      <resource name="Last">
+        <object>Síðasta</object>
+      </resource>
+      <resource name="General">
+        <object>Almenn</object>
+      </resource>
+      <resource name="Offcut">
+        <object>Afskurður</object>
+      </resource>
+      <resource name="Filter">
+        <object>Síuð</object>
+      </resource>
+      <resource name="Trim">
+        <object>Snyrting</object>
+      </resource>
+      <resource name="Uncut">
+        <object>Óskorin</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.BoundaryType" ServiceOnly="false">
+      <resource name="LengthPercent">
+        <object>% af lengd</object>
+      </resource>
+      <resource name="LengthAbsolute">
+        <object>Föst lengd</object>
+      </resource>
+      <resource name="WeightPercent">
+        <object>% af þyngd</object>
+      </resource>
+      <resource name="WeightAbsolute">
+        <object>Föst þyngd</object>
+      </resource>
+      <resource name="Notch">
+        <object>Skynjað hak</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.ConveyorSpeed" ServiceOnly="false">
+      <resource name="Lowest">
+        <object>Lægsti</object>
+      </resource>
+      <resource name="Low">
+        <object>Lágur</object>
+      </resource>
+      <resource name="Medium">
+        <object>Miðlungs</object>
+      </resource>
+      <resource name="High">
+        <object>Hár</object>
+      </resource>
+      <resource name="Highest">
+        <object>Hæsti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.CutMethod" ServiceOnly="false">
+      <resource name="PriorityPattern">
+        <object>Priority Pattern</object>
+      </resource>
+      <resource name="ReversedPriorityPattern">
+        <object>Reversed priority pattern</object>
+      </resource>
+      <resource name="FixedPattern">
+        <object>Fixed pattern</object>
+      </resource>
+      <resource name="ReversedFixedPattern">
+        <object>Reversed fixed pattern</object>
+      </resource>
+      <resource name="OptimalWeight">
+        <object>Optimal weight</object>
+      </resource>
+      <resource name="OptimalLength">
+        <object>Optimal length</object>
+      </resource>
+      <resource name="OptimalWeightLength">
+        <object>Optimal weight length</object>
+      </resource>
+      <resource name="MaximalPrice">
+        <object>Maximal price</object>
+      </resource>
+      <resource name="SplitByWeight">
+        <object>Split by weight</object>
+      </resource>
+      <resource name="SplitByLength">
+        <object>Split by length</object>
+      </resource>
+      <resource name="SplitByArea">
+        <object>Split by area</object>
+      </resource>
+      <resource name="Shape">
+        <object>Shape</object>
+      </resource>
+      <resource name="MaximalOrdered">
+        <object>Maximal ordered</object>
+      </resource>
+      <resource name="Continuous">
+        <object>Continuous</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.GradeFeature" ServiceOnly="false">
+      <resource name="Length">
+        <object>Lengd</object>
+      </resource>
+      <resource name="Weight">
+        <object>Þyngd</object>
+      </resource>
+      <resource name="ConveyorArea">
+        <object>Flatamál ofan á belti</object>
+      </resource>
+      <resource name="SideProfileArea">
+        <object>Flatamál frá hlið</object>
+      </resource>
+      <resource name="AverageWidth">
+        <object>Meðalbreidd</object>
+      </resource>
+      <resource name="AverageHeight">
+        <object>Meðalhæð</object>
+      </resource>
+      <resource name="BeltPosition">
+        <object>Staða á belti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.NotchDetectionType" ServiceOnly="false">
+      <resource name="None">
+        <object>Engin skynum</object>
+      </resource>
+      <resource name="LShapeOrVShape">
+        <object>L eða V lögun</object>
+      </resource>
+      <resource name="MaxHeightGradient">
+        <object>Skarpasta hæðaraukning</object>
+      </resource>
+      <resource name="MinHeightGradient">
+        <object>Skarpasta hæðarminnkun</object>
+      </resource>
+      <resource name="MaxWidthGradient">
+        <object>Skarpasta breiddaraukning</object>
+      </resource>
+      <resource name="MinWidthGradient">
+        <object>Skarpasta breiddarminnkun</object>
+      </resource>
+      <resource name="Notch">
+        <object>Skarpasta hak</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Ipm.Cutgrade" ServiceOnly="false">
+      <resource name="NewCutgrade">
+        <object>&lt;Nýr Skurðarflokkur&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Ipm.Formgrade" ServiceOnly="false">
+      <resource name="NewFormgrade">
+        <object>&lt;Nýr Formflokkur&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Ipm.CutProgram" ServiceOnly="false">
+      <resource name="NewProgram">
+        <object>&lt;Nýtt Forrit&gt;</object>
+      </resource>
+      <resource name="Valid.NoFormgrade">
+        <object>Engir formflokkar skilgreindir.</object>
+      </resource>
+      <resource name="Valid.NoCutgrade">
+        <object>Engir afurða flokkar skilgreindir.</object>
+      </resource>
+      <resource name="Valid.InvalidUncutMaterial">
+        <object>Valin afurð fyrir óskorna afurð er óvirk.</object>
+      </resource>
+      <resource name="Valid.NoCutgradeMaterial">
+        <object>Afurðaflokkur '{0}' hefur ekki skilgreinda afurð.</object>
+      </resource>
+      <resource name="Valid.InvalidCutgradeMaterial">
+        <object>Valin afurð fyrir afurðarflokk '{0}' er óvirk.</object>
+      </resource>
+      <resource name="Valid.NoPortionMaterial">
+        <object>Skurðamynstur '{0}' hefur enga afurð skilgreinda.</object>
+      </resource>
+      <resource name="Valid.InactiveMaterial">
+        <object>Skurðamynstur '{0}' hefur afurð sem er óvirk.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.ZonePriority" ServiceOnly="false">
+      <resource name="First">
+        <object>Fyrsti</object>
+      </resource>
+      <resource name="Middle">
+        <object>Miðlungs</object>
+      </resource>
+      <resource name="Last">
+        <object>Síðasti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Remote.Result" ServiceOnly="false">
+      <resource name="NotSupported">
+        <object>Ólögleg aðgerð.</object>
+      </resource>
+      <resource name="Exception">
+        <object>Villa í samskiptum við brautarstjóra.</object>
+      </resource>
+      <resource name="InitError">
+        <object>Villa við uppsetningu á fjartengingu til brautarstjóra.</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Villa í notkun á fjartengingu til brautarstjóra.</object>
+      </resource>
+      <resource name="NoLaneManager">
+        <object>Fann ekki brautarstjóra.</object>
+      </resource>
+      <resource name="DownloadVisionFailed">
+        <object>Villa við innflutning sjónstillinga.</object>
+      </resource>
+      <resource name="DownloadProgramFailed">
+        <object>Villa við niðurhal forrita.</object>
+      </resource>
+      <resource name="ImportProgramFailed">
+        <object>Villa við innflutning forrita.</object>
+      </resource>
+      <resource name="GetLiveDataFailed">
+        <object>Villa við sókn gagna.</object>
+      </resource>
+      <resource name="ImportModelFailed">
+        <object>Villa við innlestur líkana.</object>
+      </resource>
+      <resource name="SetLoggingModeFailed">
+        <object>Gat ekki sett skráningarhátt brautar.</object>
+      </resource>
+      <resource name="ClearLiveDataFailed">
+        <object>Villa við hreinsun gagna á braut.</object>
+      </resource>
+      <resource name="WorkerQueryFailed">
+        <object>Villa við útfærslu á "worker query".</object>
+      </resource>
+      <resource name="DownloadFormsFailed">
+        <object>Villa við niðurhal á mótum.</object>
+      </resource>
+      <resource name="ImportFormsFailed">
+        <object>Villa við innlestur á mótum.</object>
+      </resource>
+      <resource name="SetProgramParamFailed">
+        <object>Gat ekki sett breytu í forriti.</object>
+      </resource>
+      <resource name="ReqProgramDataFailed">
+        <object>Villa við sókn á forriti.</object>
+      </resource>
+      <resource name="SendProgramDataFailed">
+        <object>Villa í sendingu á forriti.</object>
+      </resource>
+      <resource name="SetDualLaneModeFailed">
+        <object>Gat ekki sett Dual lane ham.</object>
+      </resource>
+      <resource name="WebServiceFailed">
+        <object>Villa við samskiptum við vefþjónustu.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Data.LaneStatus" ServiceOnly="false">
+      <resource name="NoRemote">
+        <object>Engin fjartenging</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Engin brautarstjóri</object>
+      </resource>
+      <resource name="Offline">
+        <object>Ótengd</object>
+      </resource>
+      <resource name="Idle">
+        <object>Biðstaða</object>
+      </resource>
+      <resource name="Running">
+        <object>Í keyrslu</object>
+      </resource>
+      <resource name="Washing">
+        <object>Þvottur</object>
+      </resource>
+      <resource name="SafetyAlarm">
+        <object>Viðvörun</object>
+      </resource>
+      <resource name="NoStatus">
+        <object>Ekki uppsett</object>
+      </resource>
+      <resource name="Undefined">
+        <object>Óþekkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Data.LaneLoggingMode" ServiceOnly="true">
+      <resource name="LogNever">
+        <object>Skráning óvirk</object>
+      </resource>
+      <resource name="LogPrPeriod">
+        <object>Skráir í eitt vinnslutímabil</object>
+      </resource>
+      <resource name="LogAlways">
+        <object>Alltaf virk</object>
+      </resource>
+      <resource name="LogOn">
+        <object>Skráir</object>
+      </resource>
+      <resource name="LogOff">
+        <object>Engin skráning</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Workers.ModelImporter" ServiceOnly="false">
+      <resource name="Err.NoProgram">
+        <object>Forrit fannst ekki!</object>
+      </resource>
+      <resource name="Err.NoDevice">
+        <object>Gat ekki tengst tæki.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Opticut.OCCutgrade" ServiceOnly="false">
+      <resource name="NewCutgrade">
+        <object>&lt;Nýr Skurðarflokkur&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Opticut.OCCutProgram" ServiceOnly="false">
+      <resource name="NewProgram">
+        <object>&lt;Nýtt Forrit&gt;</object>
+      </resource>
+      <resource name="Valid.NoFormgrade">
+        <object>Engir formflokkar skilgreindir.</object>
+      </resource>
+      <resource name="Valid.NoCutgrade">
+        <object>Engir afurða flokkar skilgreindir.</object>
+      </resource>
+      <resource name="Valid.InvalidUncutMaterial">
+        <object>Valin afurð fyrir óskorna afurð er óvirk.</object>
+      </resource>
+      <resource name="Valid.NoCutgradeMaterial">
+        <object>Afurðaflokkur '{0}' hefur ekki skilgreinda afurð.</object>
+      </resource>
+      <resource name="Valid.InvalidCutgradeMaterial">
+        <object>Valin afurð fyrir afurðarflokk '{0}' er óvirk.</object>
+      </resource>
+      <resource name="Valid.NoPortionMaterial">
+        <object>Skurðamynstur '{0}' hefur enga afurð skilgreinda.</object>
+      </resource>
+      <resource name="Valid.InactiveMaterial">
+        <object>Skurðamynstur '{0}' hefur afurð sem er óvirk.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Opticut.OCFormgrade" ServiceOnly="false">
+      <resource name="NewFormgrade">
+        <object>&lt;Nýr Formflokkur&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.ScanPortioner.CutSpProgram" ServiceOnly="false">
+      <resource name="NewProgram">
+        <object>&lt;Nýtt Forrit&gt;</object>
+      </resource>
+      <resource name="Valid.NoPrgNumber">
+        <object>Númer forrits ekki skilgreint.</object>
+      </resource>
+      <resource name="Valid.NoPrgType">
+        <object>Tegund forrits ekki skilgreint.</object>
+      </resource>
+      <resource name="Valid.NoPieceMaterial">
+        <object>Afurð fyrir innstykki vantar.</object>
+      </resource>
+      <resource name="Valid.NoTargetPortion">
+        <object>Stykki '{0}' hefur engan hlut.</object>
+      </resource>
+      <resource name="Valid.NoTargetMaterial">
+        <object>Stykki '{0}' hefur enga afurð.</object>
+      </resource>
+      <resource name="Valid.InactiveMaterial">
+        <object>Stykki '{0}' hefur óvirka afurð.</object>
+      </resource>
+      <resource name="Valid.InvalidPieceMaterial">
+        <object>Valin afurð fyrir stykki er óvirk.</object>
+      </resource>
+      <resource name="Valid.InvalidUncutMaterial">
+        <object>Valin afurð fyrir óskorið stykki er óvirk.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutApplicationType" ServiceOnly="false">
+      <resource name="Test">
+        <object>Prófanir</object>
+      </resource>
+      <resource name="Normal">
+        <object>Venjulegt</object>
+      </resource>
+      <resource name="Optimal">
+        <object>Hagstætt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutBatchSwitch" ServiceOnly="false">
+      <resource name="NotAllowed">
+        <object>Ekki leyft</object>
+      </resource>
+      <resource name="Allowed">
+        <object>Leyft</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutGateType" ServiceOnly="false">
+      <resource name="OffEnd">
+        <object>Af enda</object>
+      </resource>
+      <resource name="Left">
+        <object>Vinstri</object>
+      </resource>
+      <resource name="Right">
+        <object>Hægri</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutPortionPlateType" ServiceOnly="false">
+      <resource name="_5mm">
+        <object>5 mm</object>
+      </resource>
+      <resource name="_10mm">
+        <object>10 mm</object>
+      </resource>
+      <resource name="_20mm">
+        <object>20 mm</object>
+      </resource>
+      <resource name="_30mm">
+        <object>30 mm</object>
+      </resource>
+      <resource name="_40mm">
+        <object>40 mm</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutStackingType" ServiceOnly="false">
+      <resource name="Shingled">
+        <object>Skífur</object>
+      </resource>
+      <resource name="Singles">
+        <object>Einfald</object>
+      </resource>
+      <resource name="OverlappedLeft">
+        <object>Skarast til vinstri</object>
+      </resource>
+      <resource name="OverlappedRight">
+        <object>Skarast til hægri</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Itm.ItmProgram" ServiceOnly="false">
+      <resource name="NewProgram">
+        <object>&lt;Nýtt Forrit&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Data.Itm.ItmRejectType" ServiceOnly="false">
+      <resource name="NotRejected">
+        <object>Engin frávísun</object>
+      </resource>
+      <resource name="RejectNoActiveProfiles">
+        <object>A-Trim, ekkert snið valið</object>
+      </resource>
+      <resource name="RejectShape">
+        <object>Engin form flokkun náð</object>
+      </resource>
+      <resource name="RejectColor">
+        <object>Engin lita flokkun náð</object>
+      </resource>
+      <resource name="RejectFilletingDefect">
+        <object>Galli í flaki</object>
+      </resource>
+      <resource name="RejectClumpTail">
+        <object>Feitur sporður</object>
+      </resource>
+      <resource name="RejectMelaninSpot">
+        <object>Melanin blettir</object>
+      </resource>
+      <resource name="RejectPearlStripe">
+        <object>Beinagarður</object>
+      </resource>
+      <resource name="RejectBellyFat">
+        <object>Of mikil kviðfita</object>
+      </resource>
+      <resource name="RejectBackFat">
+        <object>Of mikil bakfita</object>
+      </resource>
+      <resource name="RejectWidthAfterTrim">
+        <object>Breitt of mjó eftir trimm</object>
+      </resource>
+      <resource name="RejectProfileValidation">
+        <object>Villa í sniði</object>
+      </resource>
+      <resource name="RejectProfileFailed">
+        <object>Villa í útlínum sniðs</object>
+      </resource>
+      <resource name="RejectPiecesTooClose">
+        <object>Stykki of nálægt</object>
+      </resource>
+      <resource name="RejectInfeedError">
+        <object>Villa í innmötun</object>
+      </resource>
+      <resource name="RejectVisionError">
+        <object>Villa í sjón</object>
+      </resource>
+      <resource name="CutUnitsDisabled">
+        <object>Slökk á skurðareiningu</object>
+      </resource>
+      <resource name="RejectPieceTooBig">
+        <object>Stykki of langt</object>
+      </resource>
+      <resource name="RejectCodeNROF">
+        <object>NROF kóði frávísun</object>
+      </resource>
+      <resource name="RejectOther">
+        <object>Önnur frávísun</object>
+      </resource>
+      <resource name="RejectPieceTooSmall">
+        <object>Stykki of lítil</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Data.RejectStatus" ServiceOnly="true">
+      <resource name="NotRejected">
+        <object>Samþykkt</object>
+      </resource>
+      <resource name="VCutWeightAboveMax">
+        <object>Beinskurður of stór</object>
+      </resource>
+      <resource name="NoPinbonesFound">
+        <object>Beingarður fannst ekki</object>
+      </resource>
+      <resource name="NoMatchingPreGrade">
+        <object>Forskurðarmynstur fannst ekki</object>
+      </resource>
+      <resource name="ExceptionThrown">
+        <object>Villu kastað</object>
+      </resource>
+      <resource name="InfeedError">
+        <object>Innmötunarvilla</object>
+      </resource>
+      <resource name="BonesInProduct">
+        <object>Bein í afurð</object>
+      </resource>
+      <resource name="ProcessTimeExceeded">
+        <object>Vinnslutími of langur</object>
+      </resource>
+      <resource name="XrayReaderError">
+        <object>Villa í röntgen lestri</object>
+      </resource>
+      <resource name="MachineProfileError">
+        <object>Prófíl villa</object>
+      </resource>
+      <resource name="FilletAnatomyAbnormal">
+        <object>Lögun flaks óeðlileg</object>
+      </resource>
+      <resource name="ChunkProcessingError">
+        <object>Vinnsluvilla í bita</object>
+      </resource>
+      <resource name="FilletsTooClose">
+        <object>Flök of þétt saman</object>
+      </resource>
+      <resource name="UnattainableSpecs">
+        <object>Óuppfyllanleg skilyrði</object>
+      </resource>
+      <resource name="NumberOfRejectReasons">
+        <object>Fjöldi ástæðna</object>
+      </resource>
+      <resource name="HardContaminantPresent">
+        <object>Aðskotahlutur í flaki</object>
+      </resource>
+      <resource name="AlgorithmFailure">
+        <object>Villa í algrími</object>
+      </resource>
+      <resource name="ObjectDetectionError">
+        <object>Bar ekki kennsl á hlut</object>
+      </resource>
+      <resource name="VCutConstructionError">
+        <object>Villa í smið fyrir V-skurð</object>
+      </resource>
+      <resource name="WeightEstimationError">
+        <object>Villa í vigtarmælingu</object>
+      </resource>
+      <resource name="PortioningError">
+        <object>Villa í bitun</object>
+      </resource>
+      <resource name="QualityTooLow">
+        <object>Gæði of léleg</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutPortionPlateSpeed" ServiceOnly="false">
+      <resource name="UserDefault">
+        <object>Sjálfgildi</object>
+      </resource>
+      <resource name="Low">
+        <object>Lágmark</object>
+      </resource>
+      <resource name="Medium">
+        <object>Miðlungs</object>
+      </resource>
+      <resource name="High">
+        <object>Hámark</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.ICut130.Model.Common.KnifeAngle" ServiceOnly="false">
+      <resource name="Angle90">
+        <object>90 gráður</object>
+      </resource>
+      <resource name="Angle67">
+        <object>67 gráður</object>
+      </resource>
+      <resource name="Angle56">
+        <object>56 gráður</object>
+      </resource>
+      <resource name="Angle45">
+        <object>45 gráður</object>
+      </resource>
+      <resource name="Angle75">
+        <object>75 gráður</object>
+      </resource>
+      <resource name="Angle60">
+        <object>60 gráður</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.ICut130.ICut130Program" ServiceOnly="false">
+      <resource name="NewProgram">
+        <object>&lt;Nýtt forrit&gt;</object>
+      </resource>
+      <resource name="Valid.InvalidUncutProduct">
+        <object>Valin afurð fyrir óskorna afurð er óvirk.</object>
+      </resource>
+      <resource name="Valid.InvalidPieceProduct">
+        <object>Afurð fyrir innstykki vantar.</object>
+      </resource>
+      <resource name="Valid.PieceProductInactive">
+        <object>Afurð fyrir innstykki er óvirk.</object>
+      </resource>
+      <resource name="Valid.InvalidNSProduct">
+        <object>Afurð fyrir NS (Non Selected) stykki vantar.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.ICut130.Model.Common.WaterState" ServiceOnly="false">
+      <resource name="WaterOff">
+        <object>Ekkert vatn</object>
+      </resource>
+      <resource name="WaterOnEco">
+        <object>Vatn á sparnaðarstillingu</object>
+      </resource>
+      <resource name="WaterOn">
+        <object>Vatn á</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.ICut130.Model.Validator" ServiceOnly="false">
+      <resource name="FilterMissing">
+        <object>Vantar síu í skurðarmynstri nr. {0}.</object>
+      </resource>
+      <resource name="FilterError">
+        <object>Villa í síu(m).</object>
+      </resource>
+      <resource name="FilterOverlaps">
+        <object>Sía skarast í skurðarmynstri nr. {0}.</object>
+      </resource>
+      <resource name="ZoneOverlaps">
+        <object>Svæði {0} skarast í skurðamynstri nr. {1}.</object>
+      </resource>
+      <resource name="ZoneDiscontinue">
+        <object>Svæði {0} er ekki samfellt frá svæði á undan í skurðamynstri nr. {1}.</object>
+      </resource>
+      <resource name="ZonesInvalid">
+        <object>Villa í svæði.</object>
+      </resource>
+      <resource name="CutsInvalid">
+        <object>Villa í skurðamynstri.</object>
+      </resource>
+      <resource name="Feature.NoGlobalGate">
+        <object>- Viðværar stillingar á hliðum er ekki leyfilegar.</object>
+      </resource>
+      <resource name="Feature.NoLongItem">
+        <object>- Stilingar fyrir samfellt stykki eru ekki leyfilegar.</object>
+      </resource>
+      <resource name="Feature.NoGlobalSpacing">
+        <object>- Víðværar stillingar á bilum eru ekki leyfilegar.</object>
+      </resource>
+      <resource name="Feature.NoFilter">
+        <object>- Síur eru ekki leyfilegar.</object>
+      </resource>
+      <resource name="Feature.OnlyOneCut">
+        <object>Og aðeins eitt skurðamynstur er leyfilegt.</object>
+      </resource>
+      <resource name="Feature.NoVJCut">
+        <object>- V/J svæði eru ekki leyfilegt.</object>
+      </resource>
+      <resource name="Feature.Path">
+        <object>skurðarmynstri {0} og svæði {1}</object>
+      </resource>
+      <resource name="Feature.NoOptimizeCut">
+        <object>- 'Optimized' skurður notaður í {0} er ekki leyfilegur.</object>
+      </resource>
+      <resource name="Feature.NoCutSpacing">
+        <object>- Notkun á bili í {0} er ekki leyfilegt.</object>
+      </resource>
+      <resource name="Feature.NoCutGate">
+        <object>- Notkun á hliðum í {0} er ekki leyfilegt.</object>
+      </resource>
+      <resource name="Feature.NoPriorityCut">
+        <object>- 'Priority' skurður notaður í {0} er ekki leyfilegur.</object>
+      </resource>
+      <resource name="Feature.NoBatchCut">
+        <object>- 'Batch' skuður notaður í {0} er ekki leyfilegur.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.Flexicut.ProductType" ServiceOnly="false">
+      <resource name="None">
+        <object>Engin</object>
+      </resource>
+      <resource name="Loin">
+        <object>Hnakki</object>
+      </resource>
+      <resource name="Belly">
+        <object>Kviðbiti</object>
+      </resource>
+      <resource name="Tail">
+        <object>Sporður</object>
+      </resource>
+      <resource name="Generic">
+        <object>Almennt</object>
+      </resource>
+      <resource name="SmartFillet">
+        <object>Snjallflak</object>
+      </resource>
+      <resource name="LCut">
+        <object>L-Skurður</object>
+      </resource>
+      <resource name="JCut">
+        <object>J-Skurður</object>
+      </resource>
+      <resource name="Reject">
+        <object>Hafnað</object>
+      </resource>
+      <resource name="Flap">
+        <object>Flapi</object>
+      </resource>
+      <resource name="VCut">
+        <object>V-Skurður</object>
+      </resource>
+      <resource name="Remainder">
+        <object>Afgangur</object>
+      </resource>
+      <resource name="VCutOnlyFillet">
+        <object>V-Skorið flak</object>
+      </resource>
+      <resource name="TrimmedFillet">
+        <object>Snyrt flak</object>
+      </resource>
+      <resource name="FlapTrim">
+        <object>Snyrtur flapi</object>
+      </resource>
+      <resource name="Trim">
+        <object>Afskurður</object>
+      </resource>
+      <resource name="CenterPiece">
+        <object>Miðbiti</object>
+      </resource>
+      <resource name="Fillet">
+        <object>Flak</object>
+      </resource>
+      <resource name="Fish">
+        <object>Fiskur</object>
+      </resource>
+      <resource name="Offcut">
+        <object>Afskurður</object>
+      </resource>
+      <resource name="TailTrim">
+        <object>Sporðsnyrting</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.Enums.Flexicut.SplitLineType" ServiceOnly="false">
+      <resource name="None">
+        <object>Engin</object>
+      </resource>
+      <resource name="FollowCenter">
+        <object>Fylgja Miðju</object>
+      </resource>
+      <resource name="FollowLoin">
+        <object>Fylgja Hnakka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.Enums.Flexicut.SideType" ServiceOnly="false">
+      <resource name="None">
+        <object>Engin</object>
+      </resource>
+      <resource name="LoinSide">
+        <object>Hnakka Megin</object>
+      </resource>
+      <resource name="BellySide">
+        <object>Kvið Megin</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Flexicut.Model.Common.CutMethodType" ServiceOnly="false">
+      <resource name="Priority">
+        <object>Forgangur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Flexicut.Model.FlexiProgramValidator" ServiceOnly="false">
+      <resource name="ProgramError">
+        <object>Forritið hefur eftirfarandi villur:</object>
+      </resource>
+      <resource name="NoMaterial">
+        <object>Engin afurð skilgreind fyrir '{0}'.</object>
+      </resource>
+      <resource name="NoMaterialRequired">
+        <object>Engin afurð skilgreind fyrir '{0}'.</object>
+      </resource>
+      <resource name="GradeError">
+        <object>Flokkur '{0}' hefur eftirfarandi villur:</object>
+      </resource>
+      <resource name="NoGrades">
+        <object>Forrit hefur enga skilgreinda flokka.</object>
+      </resource>
+      <resource name="NoProductSetup">
+        <object>Engin afurðaruppsetning skilgreind.</object>
+      </resource>
+      <resource name="NoProductCuts">
+        <object>Engar afurðir skilgreindar fyrir flokk.</object>
+      </resource>
+      <resource name="NoVCutSetup">
+        <object>Engin V-Cut stilling skilgreind fyrir flokk.</object>
+      </resource>
+      <resource name="NoLoinSide">
+        <object>Hnakka hlið er ekki skilgreind fyrir V-Cut styllingu.</object>
+      </resource>
+      <resource name="NoBellySide">
+        <object>Kvið hlið er ekki skilgreind fyrir V-Cut styllingu.</object>
+      </resource>
+      <resource name="NoZones">
+        <object>Engin svæði skilgreind fyrir '{0}'.</object>
+      </resource>
+      <resource name="LoinSide">
+        <object>Hnakka hlið</object>
+      </resource>
+      <resource name="BellySide">
+        <object>Kvið hlið</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Workers.Flexicut.FlexiProgramUtils" ServiceOnly="false">
+      <resource name="ProgramParsingError">
+        <object>Forrit '{0}' hefur iinnlestrarvillu.</object>
+      </resource>
+      <resource name="ValidationError">
+        <object>Villa í sannreiningu gagna í forriti '{0}' þegar það var innflutt sem uppfærsla.</object>
+      </resource>
+      <resource name="SetLocalIdFailed">
+        <object>Gat ekki sett Innova auðkennið: {0} fyrir forrit með tækja auðkennið: {1}</object>
+      </resource>
+      <resource name="StoreFailed">
+        <object>Gat ekki vistað gögn í grunn.</object>
+      </resource>
+      <resource name="LoadFailed">
+        <object>Gat ekki lesið forrit með aukennið</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OperationEventTypes" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Óþekkt</object>
+      </resource>
+      <resource name="QuickAdjust">
+        <object>Hraðstilling</object>
+      </resource>
+      <resource name="Calibrated">
+        <object>Kvörðun</object>
+      </resource>
+      <resource name="RawMaterialEdited">
+        <object>Innihald hráefnis breytt</object>
+      </resource>
+      <resource name="ActiveProgramDataChangedFromDevice">
+        <object>Innihald virkts skurðarforrits breytt</object>
+      </resource>
+      <resource name="DeviceChangedProgramActivity">
+        <object>Skurðarforrit valið frá tæki</object>
+      </resource>
+      <resource name="ProgramActivityChanged">
+        <object>Skurðarforrit valið</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

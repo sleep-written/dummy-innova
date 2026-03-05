@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources culture="en">
+  <industry>
+
+	<type name="Marel.Mp5.FP.Program.ProgramType" ServiceOnly="false">
+	  <resource name="NotSet">
+		<object>Not set</object>
+	  </resource>
+	  <resource name="Normal">
+		<object>Normal</object>
+	  </resource>
+	  <resource name="Cleaning">
+		<object>Cleaning</object>
+	  </resource>
+	</type>
+    <type name="Marel.Mp5.FP.Services.IFPService" ServiceOnly="true">
+      <resource name="Exception">
+        <object>General error: {0}</object>
+      </resource>
+      <resource name="UnknownErrorCode">
+        <object>Unknown error code: {0:ErrorCode}</object>
+      </resource>
+      <resource name="FormatFailed">
+        <object>Failed to get error message for error code: {0:ErrorCode}</object>
+      </resource>
+      <resource name="NoSystem">
+        <object>Invalid system id: {0:SystemId}</object>
+      </resource>
+      <resource name="NoStation">
+        <object>No FP station {0:StationId}</object>
+      </resource>
+      <resource name="NoDevice">
+        <object>No device for FP station {0:StationId}</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

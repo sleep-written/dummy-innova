@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources culture="it">
+  <industry>    
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Collectors.ScopeDataCollector" ServiceOnly="false">
+      <resource name="Err.Timeout">
+        <object>Errore di timeout durante la raccolta dei dati del tracciato. Non sono stati raccolti abbastanza dati.</object>
+      </resource>    
+      <resource name="Err.NoPreSampleData">
+        <object>Impossibile raccogliere i dati di precampionamento perché mancano i segnali del sensore di inizio.</object>
+      </resource>
+      <resource name="Err.WrongDeviceMode">
+        <object>Impossibile avviare la raccolta dei dati del tracciato. Il dispositivo non sta funzionando in modalità 90-93</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2DeviceHandler" ServiceOnly="false">
+      <resource name="Err.OfflineCallFailed">
+        <object>Il dispositivo non è online. {0} non riuscito</object>
+      </resource>    
+      <resource name="Err.ReadRegisterTimeout">
+        <object>Timeout durante la lettura del registro</object>
+      </resource>
+      <resource name="Err.GetStatus">
+        <object>Impossibile eseguire GetStatus</object>
+      </resource>
+      <resource name="Err.GetRegisters">
+        <object>Impossibile eseguire GetRegisters</object>
+      </resource>
+      <resource name="Err.PutGetRegisters">
+        <object>Impossibile eseguire PutGetRegisters</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2RawDataHandler" ServiceOnly="false">
+      <resource name="Err.NotOnline">
+        <object>Il dispositivo MWS2 non è online</object>
+      </resource>    
+      <resource name="Err.ScopeCollectionBusy">
+        <object>Raccolta dei dati del tracciato già in corso. Attendere che sia finita...</object>
+      </resource>
+      <resource name="Err.StaticWeightTimeout">
+        <object>In attesa di timeout del peso statico</object>
+      </resource>
+      <resource name="Err.NoDataFromDevice">
+        <object>Impossibile recuperare i dati dal dispositivo</object>
+      </resource>
+      <resource name="Err.DeviceInWrongMode">
+        <object>Il dispositivo non sta funzionando in modalità 90-93. Impossibile recuperare il peso statico</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

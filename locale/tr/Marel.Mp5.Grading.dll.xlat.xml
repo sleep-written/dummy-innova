@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="tr">
+  <industry>
+    <type name="Marel.Mp5.Grading.Configuration.SlaveMode" ServiceOnly="true">
+      <resource name="NotSlave">
+        <object>Bağımlı değil</object>
+      </resource>
+      <resource name="PartSlave">
+        <object>Bağımlı parça</object>
+      </resource>
+      <resource name="AllSlave">
+        <object>Bağımlı</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.GateType" ServiceOnly="true">
+      <resource name="SimpleOutput">
+        <object>Basit çıkış</object>
+      </resource>
+      <resource name="Bin">
+        <object>Bölme</object>
+      </resource>
+      <resource name="CheckBin">
+        <object>Bölmeyi denetle</object>
+      </resource>
+      <resource name="FlowControl">
+        <object>Akış Kontrolü</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.DischargeType" ServiceOnly="true">
+      <resource name="None">
+        <object>Yok</object>
+      </resource>
+      <resource name="Belt">
+        <object>Bant</object>
+      </resource>
+      <resource name="Cabin">
+        <object>Kabin</object>
+      </resource>
+      <resource name="Vertical">
+        <object>Dikey</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.WeigherType" ServiceOnly="true">
+      <resource name="Belt">
+        <object>Bant</object>
+      </resource>
+      <resource name="Hopper">
+        <object>Hazne</object>
+      </resource>
+      <resource name="Platform">
+        <object>Platform</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.LaneType" ServiceOnly="true">
+      <resource name="Single">
+        <object>Tekli</object>
+      </resource>
+      <resource name="Left">
+        <object>Kaldı</object>
+      </resource>
+      <resource name="Right">
+        <object>Sağ</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.SystemType" ServiceOnly="true">
+      <resource name="Simple">
+        <object>Basit ayırma</object>
+      </resource>
+      <resource name="PassivePacking">
+        <object>Pasif paketleme</object>
+      </resource>
+      <resource name="ActivePacking">
+        <object>Etkin paketleme</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.DataType" ServiceOnly="true">
+      <resource name="Boolean">
+        <object>Boole</object>
+      </resource>
+      <resource name="Byte">
+        <object>Bayt</object>
+      </resource>
+      <resource name="Sbyte">
+        <object>İmzalı bayt</object>
+      </resource>
+      <resource name="Uint16">
+        <object>İmzasız 16 bit tamsayı</object>
+      </resource>
+      <resource name="Uint32">
+        <object>İmzasız 32 bit tamsayı</object>
+      </resource>
+      <resource name="Int32">
+        <object>32 bit tamsayı</object>
+      </resource>
+      <resource name="Float">
+        <object>Kayan</object>
+      </resource>
+      <resource name="String">
+        <object>Dize</object>
+      </resource>
+      <resource name="Ustring">
+        <object>Unicode dizesi</object>
+      </resource>
+      <resource name="Enum">
+        <object>Numaralandırma</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.BatchDetails" ServiceOnly="false">
+      <resource name="None">
+        <object>Yok</object>
+      </resource>
+      <resource name="Simple">
+        <object>Basit</object>
+      </resource>
+      <resource name="ProductDetails">
+        <object>Ürün ayrıntıları</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.PieceDetails" ServiceOnly="false">
+      <resource name="None">
+        <object>Yok</object>
+      </resource>
+      <resource name="Simple">
+        <object>Basit</object>
+      </resource>
+      <resource name="UpdatePackId">
+        <object>Paket kimliğini güncelle</object>
+      </resource>
+      <resource name="PostBatch">
+        <object>Son seri</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.PieceRecordType" ServiceOnly="false">
+      <resource name="PhysicalGrading">
+        <object>Fiziksel</object>
+      </resource>
+      <resource name="ExtraGrading">
+        <object>Ekstra</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.BatchRecordType" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Bilinmiyor</object>
+      </resource>
+      <resource name="Batch">
+        <object>Seri</object>
+      </resource>
+      <resource name="PeriodicBatch">
+        <object>Düzenli seri</object>
+      </resource>
+      <resource name="IncompleteBatch">
+        <object>Eksik seri</object>
+      </resource>
+      <resource name="ExternalBatch">
+        <object>Harici seri</object>
+      </resource>
+      <resource name="RejectUnderweight">
+        <object>Reddedilen düşük ağırlık</object>
+      </resource>
+      <resource name="RejectOverweight">
+        <object>Reddedilen yüksek ağırlık</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.ValueType" ServiceOnly="false">
+      <resource name="Weight">
+        <object>Ağırlık</object>
+      </resource>
+      <resource name="Width">
+        <object>Genişlik</object>
+      </resource>
+      <resource name="Height">
+        <object>Yükseklik</object>
+      </resource>
+      <resource name="Length">
+        <object>Uzunluk</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.GradingOperationResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>İşlem başarıyla tamamlandı.</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Genel veritabanı hatası oluştu.</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>İşlem desteklenmiyor.</object>
+      </resource>
+      <resource name="NoGate">
+        <object>Ayırıcıda kapak yok.</object>
+      </resource>
+      <resource name="NoSetup">
+        <object>Kapak bir ayara atanmadı.</object>
+      </resource>
+      <resource name="NoGrade">
+        <object>Kapak bir bölüme atanmadı.</object>
+      </resource>
+      <resource name="GraderOffline">
+        <object>Ayırıcı şu anda çevrimdışı.</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>Uygulanabilir palet yok.</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>Uygulanabilir toplama yok</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>Toplama durumu işleme izin vermiyor.</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>Kapaktaki ürün, toplama ürünüyle eşleşmiyor.</object>
+      </resource>
+      <resource name="Exception">
+        <object>Uygulama istisnası.</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Ayırma Servisi için arabirim bilgileri yüklenemedi.</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Ayırma Servisi için sunucu programı bilgileri yüklenemedi.</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Uzak nesne vekili alınıyor.</object>
+      </resource>
+      <resource name="RemoteException">
+        <object>Uzak nesne tarafından belirtilmeyen istisna atıldı.</object>
+      </resource>
+      <resource name="NoGrader">
+        <object>Ayırıcı, verilen ayırma sisteminde yok.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.CommandType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ayarlanmadı</object>
+      </resource>
+      <resource name="Write">
+        <object>Yaz</object>
+      </resource>
+      <resource name="Execute">
+        <object>Yürüt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.ConfigurationExecOrder" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ayarlanmadı</object>
+      </resource>
+      <resource name="BeforeProgram">
+        <object>Program yapılandırmasından önce</object>
+      </resource>
+      <resource name="Program">
+        <object>Program yapılandırması ile</object>
+      </resource>
+      <resource name="AfterProgram">
+        <object>Program yapılandırmasından sonra</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.WorkstationType" ServiceOnly="true">
+      <resource name="InputPackingStation">
+        <object>Giriş</object>
+      </resource>
+      <resource name="OutputPackingStation">
+        <object>Paketleme</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Activity.GradeType" ServiceOnly="false">
+      <resource name="Product">
+        <object>Ürün</object>
+      </resource>
+      <resource name="Recipe">
+        <object>Reçete</object>
+      </resource>
+      <resource name="ProductRecipe">
+        <object>Ürün reçetesi</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

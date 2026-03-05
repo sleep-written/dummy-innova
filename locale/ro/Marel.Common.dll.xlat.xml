@@ -1,0 +1,842 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="ro">
+  <industry>
+    <type name="Marel.Common.Terminals.ScreenSystem" ServiceOnly="false">
+      <resource name="ShutdownMessage">
+        <object>- ÎNCHIDERE SISTEM -</object>
+      </resource>
+      <resource name="MomentMessage">
+        <object>Așteptați...</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.ListScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Sel</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Înapoi</object>
+      </resource>
+      <resource name="SortByCodeLegend">
+        <object>Cod</object>
+      </resource>
+      <resource name="SortByNameLegend">
+        <object>Nume</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.FieldScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Sel</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Înapoi</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.DeviceStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="NoInterface">
+        <object>Nicio interfață</object>
+      </resource>
+      <resource name="NoRouter">
+        <object>Niciun ruter</object>
+      </resource>
+      <resource name="Offline">
+        <object>Offline</object>
+      </resource>
+      <resource name="PresumedOnline">
+        <object>Presupus online</object>
+      </resource>
+      <resource name="Online">
+        <object>Online</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Diagnostics.LogEntryType" ServiceOnly="false">
+      <resource name="Information">
+        <object>Informații</object>
+      </resource>
+      <resource name="UsageLog">
+        <object>Jurnal utilizare</object>
+      </resource>
+      <resource name="Warning">
+        <object>Avertisment</object>
+      </resource>
+      <resource name="Error">
+        <object>Eroare</object>
+      </resource>
+      <resource name="Fatal">
+        <object>Fatală</object>
+      </resource>
+      <resource name="UnhandledException">
+        <object>Excepție netratată</object>
+      </resource>
+      <resource name="Trace">
+        <object>Urmărire</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Sockets.ConnectionStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="Idle">
+        <object>Inactiv</object>
+      </resource>
+      <resource name="Unconnected">
+        <object>Neconectat</object>
+      </resource>
+      <resource name="Connecting">
+        <object>Conexiune</object>
+      </resource>
+      <resource name="Connected">
+        <object>Conectat</object>
+      </resource>
+      <resource name="Disconnected">
+        <object>Deconectat</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmManagement" ServiceOnly="false">
+      <resource name="Units">
+        <object>Unităţi</object>
+      </resource>
+      <resource name="Weight">
+        <object>Greutate</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmProduct" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="Units">
+        <object>Unităţi</object>
+      </resource>
+      <resource name="Pieces">
+        <object>Bucăți</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmSystem" ServiceOnly="false">
+      <resource name="Si">
+        <object>SI</object>
+      </resource>
+      <resource name="European">
+        <object>European</object>
+      </resource>
+      <resource name="Imperial">
+        <object>Imperial</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmWeight" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Milligrams">
+        <object>mg</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="OunceEights">
+        <object>oz/8</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmLength" ServiceOnly="false">
+      <resource name="Meters">
+        <object>m</object>
+      </resource>
+      <resource name="Millimeters">
+        <object>mm</object>
+      </resource>
+      <resource name="Centimeters">
+        <object>cm</object>
+      </resource>
+      <resource name="Inches">
+        <object>inci</object>
+      </resource>
+      <resource name="Feet">
+        <object>picioare</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.FormatSpecification" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="Point000001">
+        <object>0.000001</object>
+      </resource>
+      <resource name="Point000002">
+        <object>0.000002</object>
+      </resource>
+      <resource name="Point000005">
+        <object>0.000005</object>
+      </resource>
+      <resource name="Point00001">
+        <object>0.00001</object>
+      </resource>
+      <resource name="Point00002">
+        <object>0.00002</object>
+      </resource>
+      <resource name="Point00005">
+        <object>0.00005</object>
+      </resource>
+      <resource name="Point0001">
+        <object>0.0001</object>
+      </resource>
+      <resource name="Point0002">
+        <object>0.0002</object>
+      </resource>
+      <resource name="Point0005">
+        <object>0.0005</object>
+      </resource>
+      <resource name="Point001">
+        <object>0.001</object>
+      </resource>
+      <resource name="Point002">
+        <object>0.002</object>
+      </resource>
+      <resource name="Point005">
+        <object>0.005</object>
+      </resource>
+      <resource name="Point01">
+        <object>0.01</object>
+      </resource>
+      <resource name="Point02">
+        <object>0.02</object>
+      </resource>
+      <resource name="Point05">
+        <object>0.05</object>
+      </resource>
+      <resource name="Point1">
+        <object>0.1</object>
+      </resource>
+      <resource name="Point2">
+        <object>0.2</object>
+      </resource>
+      <resource name="Point5">
+        <object>0.5</object>
+      </resource>
+      <resource name="N1">
+        <object>1</object>
+      </resource>
+      <resource name="N2">
+        <object>2</object>
+      </resource>
+      <resource name="N5">
+        <object>5</object>
+      </resource>
+      <resource name="N10">
+        <object>10</object>
+      </resource>
+      <resource name="N20">
+        <object>20</object>
+      </resource>
+      <resource name="N50">
+        <object>50</object>
+      </resource>
+      <resource name="Max">
+        <object>Max</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.NominalMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Greutate netă, % adaos</object>
+      </resource>
+      <resource name="FixWeightFg">
+        <object>Adaos nominal, fix</object>
+      </resource>
+      <resource name="FixWeightVg">
+        <object>Nominală, % adaos</object>
+      </resource>
+      <resource name="FixWeightE">
+        <object>e, fără adaos</object>
+      </resource>
+      <resource name="FixWeightEFg">
+        <object>e, adaos fix</object>
+      </resource>
+      <resource name="FixWeightEVg">
+        <object>e, % adaos</object>
+      </resource>
+      <resource name="Range">
+        <object>Interval nominal</object>
+      </resource>
+      <resource name="Step">
+        <object>Pași nominali</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="Button">
+        <object>Buton</object>
+      </resource>
+      <resource name="Preset">
+        <object>Prestabilit</object>
+      </resource>
+      <resource name="Auto">
+        <object>Auto</object>
+      </resource>
+      <resource name="System">
+        <object>Sistem</object>
+      </resource>
+      <resource name="Calculated">
+        <object>Calculat</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Gender" ServiceOnly="false">
+      <resource name="Female">
+        <object>Femelă</object>
+      </resource>
+      <resource name="Male">
+        <object>Mascul</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Nespecificat</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.AccuracyMode" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="Low">
+        <object>Scăzută</object>
+      </resource>
+      <resource name="Medium">
+        <object>Medie</object>
+      </resource>
+      <resource name="High">
+        <object>Înaltă</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.FlowUnit" ServiceOnly="false">
+      <resource name="Percentage">
+        <object>Procentaj</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>Buc./min</object>
+      </resource>
+      <resource name="WeightPerHour">
+        <object>Greutate/h</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.LaneSpecification" ServiceOnly="false">
+      <resource name="OneSide">
+        <object>O parte</object>
+      </resource>
+      <resource name="TwoSide">
+        <object>Două părți</object>
+      </resource>
+      <resource name="Lane1">
+        <object>Calea 1</object>
+      </resource>
+      <resource name="Lane2">
+        <object>Calea 2</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.RecordingMethod" ServiceOnly="false">
+      <resource name="Manual">
+        <object>Manual</object>
+      </resource>
+      <resource name="Auto">
+        <object>Automat</object>
+      </resource>
+      <resource name="Stable">
+        <object>Stabil</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Resources.Industry" ServiceOnly="false">
+      <resource name="Neutral">
+        <object>Neutru pentru industrie</object>
+      </resource>
+      <resource name="Fish">
+        <object>Pește</object>
+      </resource>
+      <resource name="Meat">
+        <object>Carne</object>
+      </resource>
+      <resource name="Poultry">
+        <object>Carne de pasăre</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTime" ServiceOnly="false">
+      <resource name="Seconds">
+        <object>sec</object>
+      </resource>
+      <resource name="Milliseconds">
+        <object>ms</object>
+      </resource>
+      <resource name="Minutes">
+        <object>min</object>
+      </resource>
+      <resource name="Hours">
+        <object>oră</object>
+      </resource>
+      <resource name="Days">
+        <object>zi</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.UnitType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="Pack">
+        <object>Pachet</object>
+      </resource>
+      <resource name="Stack">
+        <object>Stivă</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Palet</object>
+      </resource>
+      <resource name="Container">
+        <object>Container</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Transport</object>
+      </resource>
+      <resource name="Item">
+        <object>Articol</object>
+      </resource>
+      <resource name="GraderPiece">
+        <object>Bucată</object>
+      </resource>
+      <resource name="Individual">
+        <object>Animal</object>
+      </resource>
+      <resource name="TrimPiece">
+        <object>Tăiere surplus</object>
+      </resource>
+      <resource name="CollectionMix">
+        <object>Unităţi combinate</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.AppRecordType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Nespecificat</object>
+      </resource>
+      <resource name="Input">
+        <object>Intrare generală</object>
+      </resource>
+      <resource name="Output">
+        <object>Ieșire generală</object>
+      </resource>
+      <resource name="TrimInput">
+        <object>Intrare tăiere surplus</object>
+      </resource>
+      <resource name="TrimOutput">
+        <object>Ieșire tăiere surplus</object>
+      </resource>
+      <resource name="BypassInput">
+        <object>Intrare evitare</object>
+      </resource>
+      <resource name="BypassOutput">
+        <object>Ieșire evitare</object>
+      </resource>
+      <resource name="TrimUnknown">
+        <object>Tăiere surplus necunoscută</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="Button">
+        <object>Buton</object>
+      </resource>
+      <resource name="Preset">
+        <object>Prestabilit</object>
+      </resource>
+      <resource name="Auto">
+        <object>Automat</object>
+      </resource>
+      <resource name="System">
+        <object>Sistem</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.BatchingMode" ServiceOnly="false">
+      <resource name="None">
+        <object>Niciuna</object>
+      </resource>
+      <resource name="Weight">
+        <object>După greutate</object>
+      </resource>
+      <resource name="IntelligentWeight">
+        <object>Inteligent după greutate</object>
+      </resource>
+      <resource name="Count">
+        <object>După total</object>
+      </resource>
+      <resource name="Slave">
+        <object>Subordonat</object>
+      </resource>
+      <resource name="MultiTarget">
+        <object>Ţintă multiplă</object>
+      </resource>
+      <resource name="MeanWeight">
+        <object>Greutate medie</object>
+      </resource>
+      <resource name="Rate">
+        <object>Rată</object>
+      </resource>
+      <resource name="RateAndAverage">
+        <object>Medie rată</object>
+      </resource>
+      <resource name="Share">
+        <object>Cotă</object>
+      </resource>
+      <resource name="FillRate">
+        <object>Rată umplere</object>
+      </resource>
+      <resource name="Weight2nd">
+        <object>După greutate, a 2-a</object>
+      </resource>
+      <resource name="IntelligentWeight2nd">
+        <object>Inteligent după greutate, a 2-a</object>
+      </resource>
+      <resource name="Count2nd">
+        <object>După total, a 2-a</object>
+      </resource>
+      <resource name="MeanWeight2nd">
+        <object>Greutate medie, a 2-a</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.RejectLevel" ServiceOnly="false">
+      <resource name="None">
+        <object>Fără respingere</object>
+      </resource>
+      <resource name="Lowest">
+        <object>Cea mai scăzută</object>
+      </resource>
+      <resource name="Low">
+        <object>Scăzută</object>
+      </resource>
+      <resource name="Medium">
+        <object>Medie</object>
+      </resource>
+      <resource name="High">
+        <object>Înaltă</object>
+      </resource>
+      <resource name="Highest">
+        <object>Cea mai înaltă</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.GeneralMessage" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Sel</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Ieșire</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.SelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Selectare articol</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.WSelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Selectare articol</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Utilities.ParamDataType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="Bool">
+        <object>Boolean</object>
+      </resource>
+      <resource name="Int">
+        <object>Întreg</object>
+      </resource>
+      <resource name="Float">
+        <object>Flotant</object>
+      </resource>
+      <resource name="String">
+        <object>Șir</object>
+      </resource>
+      <resource name="Enum">
+        <object>Enumerare</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTare" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Percentage">
+        <object>%</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.IdContainerStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>Negăsit</object>
+      </resource>
+      <resource name="NoId">
+        <object>Niciun ID</object>
+      </resource>
+      <resource name="Ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Nevalid</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Nicio greutate</object>
+      </resource>
+      <resource name="Exception">
+        <object>Excepţie</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.M3000PieceStatus" ServiceOnly="false">
+      <resource name="Accepted">
+        <object>Articol acceptat</object>
+      </resource>
+      <resource name="TooLong">
+        <object>Articol prea lung</object>
+      </resource>
+      <resource name="BadZero">
+        <object>Zero eronat la cântărirea articolului</object>
+      </resource>
+      <resource name="Unstable">
+        <object>Cântărire instabilă</object>
+      </resource>
+      <resource name="UnderWeight">
+        <object>Articolul este prea ușor</object>
+      </resource>
+      <resource name="OverWeight">
+        <object>Articolul este prea greu</object>
+      </resource>
+      <resource name="Previous">
+        <object>Separator ocupat cu articolul anterior</object>
+      </resource>
+      <resource name="BadRead">
+        <object>Număr scăzut de măsurători</object>
+      </resource>
+      <resource name="MarginalRead">
+        <object>Număr marginal de măsurători</object>
+      </resource>
+      <resource name="GoodRead">
+        <object>Număr adecvat de măsurători</object>
+      </resource>
+      <resource name="NotUsed">
+        <object>Articolul nu s-a potrivit niciunui criteriu</object>
+      </resource>
+      <resource name="Blocked">
+        <object>Toate porțile relevante blocate</object>
+      </resource>
+      <resource name="IntelligentReject">
+        <object>Respingere formare de loturi inteligentă</object>
+      </resource>
+      <resource name="FormMissing">
+        <object>Formă specifică lipsă</object>
+      </resource>
+      <resource name="TooClose">
+        <object>Articol prea aproape de articolul anterior</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Nicio greutate pe articol</object>
+      </resource>
+      <resource name="NoGate">
+        <object>Nicio poartă alocată produsului</object>
+      </resource>
+      <resource name="Missing">
+        <object>Articol lipsă în acțiune</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Nicio comandă activă</object>
+      </resource>
+      <resource name="TypeBlock">
+        <object>Fără spațiu pentru tipul de bucată</object>
+      </resource>
+      <resource name="RateReject">
+        <object>Algoritmul ratei a respins articolul</object>
+      </resource>
+      <resource name="CheckTooLight">
+        <object>Prea ușor</object>
+      </resource>
+      <resource name="CheckTooLight2xTNE">
+        <object>Articol prea ușor</object>
+      </resource>
+      <resource name="CheckTooHeavy">
+        <object>Prea greu</object>
+      </resource>
+      <resource name="CheckTNE">
+        <object>Respins în TNE</object>
+      </resource>
+      <resource name="CheckNoGate">
+        <object>Nicio poartă de respingere găsită</object>
+      </resource>
+      <resource name="ExtremelyLong">
+        <object>Bucata este extrem de lungă</object>
+      </resource>
+      <resource name="LengthOnly">
+        <object>Bucata are doar un atribut de lungime</object>
+      </resource>
+      <resource name="NoResultError">
+        <object>Nicio calitate a greutății primită de la CWU</object>
+      </resource>
+      <resource name="TooShort">
+        <object>Articolul este prea scurt</object>
+      </resource>
+      <resource name="NoBatchNoGate">
+        <object>Niciun lot, imposibil de pornit comandă nouă</object>
+      </resource>
+      <resource name="RateNoGate">
+        <object>Respingere rată, imposibil de pornit comandă nouă</object>
+      </resource>
+      <resource name="BlockedNoGate">
+        <object>Lot blocat, imposibil de pornit comandă nouă</object>
+      </resource>
+      <resource name="RejectToFewGates">
+        <object>Prea puține porți disponibile</object>
+      </resource>
+      <resource name="FillRateNoGate">
+        <object>Respingere rată umplere</object>
+      </resource>
+      <resource name="NoMasterConnection">
+        <object>Nicio conexiune la separatorul coordonator</object>
+      </resource>
+      <resource name="NoProgramActive">
+        <object>Niciun program de clasificare activ</object>
+      </resource>
+      <resource name="InnovaCommunicating">
+        <object>Innova comunică cu separatorul</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.SV4700PieceStatus" ServiceOnly="false">
+      <resource name="NoError">
+        <object>Articolul nu este respins</object>
+      </resource>
+      <resource name="ItemRejected">
+        <object>Articol respins</object>
+      </resource>
+      <resource name="MetalItem">
+        <object>Articol metalic</object>
+      </resource>
+      <resource name="SeparatorSpaceError">
+        <object>Eroare spațiu separator</object>
+      </resource>
+      <resource name="NoReachableBinError">
+        <object>Eroare niciun compartiment accesibil</object>
+      </resource>
+      <resource name="JobNotFound">
+        <object>Lucrare negăsită</object>
+      </resource>
+      <resource name="ItemTypeNotFound">
+        <object>Tip articol negăsit</object>
+      </resource>
+      <resource name="WeighingError">
+        <object>Eroare cântărire</object>
+      </resource>
+      <resource name="NoVisionData">
+        <object>Nicio dată vizuală</object>
+      </resource>
+      <resource name="GradeNotFound">
+        <object>Clasă negăsită</object>
+      </resource>
+      <resource name="VisionConditionFail">
+        <object>Condiţie vizuală eşuată</object>
+      </resource>
+      <resource name="BinNotFound">
+        <object>Compartiment negăsit</object>
+      </resource>
+      <resource name="RateControlError">
+        <object>Eroare control rată</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Nicio comandă</object>
+      </resource>
+      <resource name="VisionDetectionError">
+        <object>Eroare detectare vizuală</object>
+      </resource>
+      <resource name="RobotReadyError">
+        <object>Eroare robot pregătit</object>
+      </resource>
+      <resource name="RobotCapacityError">
+        <object>Eroare capacitate robot</object>
+      </resource>
+      <resource name="SeparatorGapError">
+        <object>Eroare diferență separator</object>
+      </resource>
+      <resource name="StatisticalAllotmentTooBad">
+        <object>Repartizare statistică prea necorespunzătoare</object>
+      </resource>
+      <resource name="OutsideLimitsError">
+        <object>Eroare în afara limitelor</object>
+      </resource>
+      <resource name="PropertyMissingError">
+        <object>Eroare proprietate lipsă</object>
+      </resource>
+      <resource name="OtherRejects">
+        <object>Alte respingeri</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmFlowrate" ServiceOnly="false">
+      <resource name="KilogramsPerSecond">
+        <object>Kilograme pe secundă</object>
+      </resource>
+      <resource name="TonsPerHour">
+        <object>Tone pe oră</object>
+      </resource>
+      <resource name="PoundsPerHour">
+        <object>Livre pe oră</object>
+      </resource>
+      <resource name="KilogramsPerMinute">
+        <object>Kilograme pe minut</object>
+      </resource>
+      <resource name="KilogramsPerHour">
+        <object>Kilograme pe oră</object>
+      </resource>
+      <resource name="PoundsPerSecond">
+        <object>Livre pe secundă</object>
+      </resource>
+      <resource name="PoundsPerMinute">
+        <object>Livre pe minut</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>Bucăți pe minut</object>
+      </resource>
+      <resource name="PiecesPerHour">
+        <object>Bucăți pe oră</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.RfidStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="GoodRead">
+        <object>OK</object>
+      </resource>
+      <resource name="NoRead">
+        <object>Fără citire</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

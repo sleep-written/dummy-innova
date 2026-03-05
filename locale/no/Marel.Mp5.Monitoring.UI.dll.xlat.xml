@@ -1,0 +1,912 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="no">
+  <industry>
+    <type name="Grid.Alarms.AlarmEvents" ServiceOnly="false">
+      <resource name="base_alarmevents_id">
+        <object>ID</object>
+      </resource>
+      <resource name="base_alarms_name">
+        <object>Alarm</object>
+      </resource>
+      <resource name="base_alarmevents_state">
+        <object>Status</object>
+      </resource>
+      <resource name="base_alarmevents_statedescription">
+        <object>Statusbeskrivelse</object>
+      </resource>
+      <resource name="base_alarmevents_stateshortdescription">
+        <object>Kort statusbeskrivelse</object>
+      </resource>
+      <resource name="base_alarmevents_alarmon">
+        <object>Alarm på</object>
+      </resource>
+      <resource name="base_alarmevents_regtime">
+        <object>Registreringstid</object>
+      </resource>
+      <resource name="base_alarmevents_rstat">
+        <object>Innspillingsstatus</object>
+      </resource>
+      <resource name="base_alarmevents_alarmoccurred">
+        <object>Alarm oppstått</object>
+      </resource>
+      <resource name="base_alarmevents_stateparamvalues">
+        <object>Status paramter\nverdier</object>
+      </resource>
+      <resource name="base_alarms_code">
+        <object>Alarmkode</object>
+      </resource>
+      <resource name="base_alarms_ownertype">
+        <object>Eiertype</object>
+      </resource>
+      <resource name="base_alarms_owner">
+        <object>Eierkode</object>
+      </resource>
+      <resource name="base_alarms_owner Name">
+        <object>Eier</object>
+      </resource>
+      <resource name="base_alarmevents_prperiod">
+        <object>Prosessperiode</object>
+      </resource>
+      <resource name="base_alarmevents_sprperiod">
+        <object>Under-prosessperiode</object>
+      </resource>
+      <resource name="base_alarmevents_usercommentid">
+        <object>Brukerkommentar</object>
+      </resource>
+      <resource name="base_alarmevents_alarm">
+        <object>Alarm-ID</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.Alarms" ServiceOnly="false">
+      <resource name="alarm">
+        <object>Alarm-ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="description">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="priority">
+        <object>Prioritet</object>
+      </resource>
+      <resource name="ownertype">
+        <object>Eiertype</object>
+      </resource>
+      <resource name="owner Name">
+        <object>Eier</object>
+      </resource>
+      <resource name="state">
+        <object>Status</object>
+      </resource>
+      <resource name="statedescription">
+        <object>Statusbeskrivelse</object>
+      </resource>
+      <resource name="stateshortdescription">
+        <object>Kort statusbeskrivelse</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Alarm på</object>
+      </resource>
+      <resource name="lastupdate">
+        <object>Siste oppdateringstid</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="Groups">
+        <object>Grupper</object>
+      </resource>
+      <resource name="owner">
+        <object>eierkode</object>
+      </resource>
+      <resource name="alarmlevel">
+        <object>Alarmnivå</object>
+      </resource>
+      <resource name="alarmconfig">
+        <object>Alarmkonfig</object>
+      </resource>
+      <resource name="stateparamvalues">
+        <object>Status paramter\nverdier</object>
+      </resource>
+      <resource name="image">
+        <object>Bilde</object>
+      </resource>
+      <resource name="imagex">
+        <object>Bilde x-ledning.</object>
+      </resource>
+      <resource name="imagey">
+        <object>Bilde y-ledning.</object>
+      </resource>
+      <resource name="notificationdelay">
+        <object>Varsel\nforsinkelse</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.Alarms.Groups" ServiceOnly="false">
+      <resource name="alarm">
+        <object>Alarm-ID</object>
+      </resource>
+      <resource name="alarmgroup">
+        <object>Alarmgruppekode</object>
+      </resource>
+      <resource name="alarmgroup Name">
+        <object>Alarmgruppe</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="NotificationGroups">
+        <object>Varsler</object>
+      </resource>
+      <resource name="GroupMembers">
+        <object>Gruppemedlemmer</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups.NotificationGroups" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>Alarmgruppe</object>
+      </resource>
+      <resource name="receiver">
+        <object>Mottakerkode</object>
+      </resource>
+      <resource name="receiver Name">
+        <object>Mottaker</object>
+      </resource>
+      <resource name="receiver Name.Hint">
+        <object>Mottakeren avhenger av mottakertypen</object>
+      </resource>
+      <resource name="receivertype">
+        <object>Mottakertype</object>
+      </resource>
+      <resource name="notificationprovider Name">
+        <object>Varsleren</object>
+      </resource>
+      <resource name="notificationprovider">
+        <object>Varslerkode</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Varslingsalarm på</object>
+      </resource>
+      <resource name="alarmon.hint">
+        <object>Send varsel når alarm slås på</object>
+      </resource>
+      <resource name="alarmoff">
+        <object>Varslingsalarm av</object>
+      </resource>
+      <resource name="alarmoff.hint">
+        <object>Send varsel når alarm slås av</object>
+      </resource>
+      <resource name="weekdays">
+        <object>Ukedager</object>
+      </resource>
+      <resource name="weekdays.hint">
+        <object>Send varsler på ukedager</object>
+      </resource>
+      <resource name="weekends">
+        <object>Helger</object>
+      </resource>
+      <resource name="weekends.hint">
+        <object>Send varsler på helger</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups.GroupMembers" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>Alarmgruppe</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+      <resource name="alarm Name">
+        <object>Alarm</object>
+      </resource>
+      <resource name="alarm">
+        <object>Alarmkode</object>
+      </resource>
+      <resource name="alarm.lookup.name">
+        <object>Navn</object>
+      </resource>
+      <resource name="alarm.lookup.code">
+        <object>Kode</object>
+      </resource>
+      <resource name="alarm.lookup.owner">
+        <object>Eier</object>
+      </resource>
+    </type>
+    <type name="Grid.Notifications.Notifications" ServiceOnly="false">
+      <resource name="mon_alarmnotifications_notificationprovider Name">
+        <object>Varsleren</object>
+      </resource>
+      <resource name="base_alarmevents_alarmon">
+        <object>Alarm på</object>
+      </resource>
+      <resource name="mon_alarmnotifications_id">
+        <object>Varsel-ID</object>
+      </resource>
+      <resource name="mon_alarmnotifications_alarmevent">
+        <object>Alarmhendelse-ID</object>
+      </resource>
+      <resource name="mon_alarmnotifications_sendtime">
+        <object>Sendetid</object>
+      </resource>
+      <resource name="mon_alarmnotifications_regtime">
+        <object>Registreringstid</object>
+      </resource>
+      <resource name="mon_alarmnotifications_receivertype">
+        <object>Mottakertype</object>
+      </resource>
+      <resource name="mon_alarmnotifications_alarmnotificationgroupids">
+        <object>Alarmvarslingsgrupper</object>
+      </resource>
+      <resource name="mon_alarmnotifications_info">
+        <object>Info</object>
+      </resource>
+      <resource name="mon_alarmnotifications_rstat">
+        <object>Varslingsstatus</object>
+      </resource>
+      <resource name="base_alarmevents_state">
+        <object>Hendelsesstatus</object>
+      </resource>
+      <resource name="base_alarmevents_statedescription">
+        <object>Hendelsesbeskrivelse</object>
+      </resource>
+      <resource name="base_alarmevents_stateshortdescription">
+        <object>Kort hendelsesbeskrivelse</object>
+      </resource>
+      <resource name="base_alarmevents_regtime">
+        <object>Registreringstid for hendelse</object>
+      </resource>
+      <resource name="mon_alarmnotifications_notificationprovider">
+        <object>Varslerkode</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.ExternalOwners" ServiceOnly="false">
+      <resource name="alarmowner">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.ExternalEvents" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="owner">
+        <object>Eierkode</object>
+      </resource>
+      <resource name="owner Name">
+        <object>Eier</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="state">
+        <object>Status</object>
+      </resource>
+      <resource name="statedescription">
+        <object>Statusbeskrivelse</object>
+      </resource>
+      <resource name="stateshortdescription">
+        <object>Kort statusbeskrivelse</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Alarm på</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registreringstid</object>
+      </resource>
+      <resource name="rstat">
+        <object>Innspillingsstatus</object>
+      </resource>
+      <resource name="alarmoccurred">
+        <object>Alarm oppstått</object>
+      </resource>
+      <resource name="stateparamvalues">
+        <object>Status paramter\nverdier</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.AlarmConfigurations" ServiceOnly="false">
+      <resource name="alarmconfiguration">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="Events">
+        <object>Alarmhendelsedefinisjoner</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.AlarmConfigurationl" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="alarmconfiguration">
+        <object>Alarmkonfigurasjonskode</object>
+      </resource>
+      <resource name="alarmconfiguration Name">
+        <object>Alarmkonfigurasjon</object>
+      </resource>
+      <resource name="eventid">
+        <object>Hendelse-ID</object>
+      </resource>
+      <resource name="eventcode">
+        <object>Hendelsekode</object>
+      </resource>
+      <resource name="alarmlevel">
+        <object>Nivå</object>
+      </resource>
+      <resource name="priority">
+        <object>Prioritet</object>
+      </resource>
+      <resource name="description">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="params">
+        <object>Parametre</object>
+      </resource>
+      <resource name="linecode">
+        <object>Linjekode</object>
+      </resource>
+      <resource name="linedescription">
+        <object>Linjebeskrivelse</object>
+      </resource>
+      <resource name="systemcode">
+        <object>Systemkode</object>
+      </resource>
+      <resource name="systemdescription">
+        <object>Systembeskrivelse</object>
+      </resource>
+      <resource name="modulecode">
+        <object>Modulkode</object>
+      </resource>
+      <resource name="moduledescription">
+        <object>Modulbeskrivelse</object>
+      </resource>
+      <resource name="unitcode">
+        <object>Enhetskode</object>
+      </resource>
+      <resource name="unitdescription">
+        <object>Enhetsbeskrivelse</object>
+      </resource>
+      <resource name="devicecode">
+        <object>Enhetskode</object>
+      </resource>
+      <resource name="devicedescription">
+        <object>Enhetsbeskrivelse</object>
+      </resource>
+      <resource name="solution">
+        <object>Løsning</object>
+      </resource>
+      <resource name="solutionurl">
+        <object>Løsning-URL</object>
+      </resource>
+      <resource name="usermanualurl">
+        <object>Bruksanvisning-URL</object>
+      </resource>
+      <resource name="customeralarmdescription">
+        <object>Brukers alarmbeskrivelse</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmConfigurations" ServiceOnly="false">
+      <resource name="Warning.Text">
+        <object>Dette vil overskrive eksisterende angivelser for den valgte gruppen.\nØnsker du å fortsette?</object>
+      </resource>
+      <resource name="Warning.Caption">
+        <object>Advarsel</object>
+      </resource>
+      <resource name="FileDlg.Files">
+        <object>Filer</object>
+      </resource>
+      <resource name="FileDlg.AllFiles">
+        <object>Alle filer</object>
+      </resource>
+      <resource name="FileDlg.Title">
+        <object>Velg konfigurasjonsfil som skal importeres</object>
+      </resource>
+      <resource name="FileDlg.Failed">
+        <object>Kunne ikke laste fil</object>
+      </resource>
+      <resource name="importFromFileButton">
+        <object>Importer fra fil</object>
+      </resource>
+      <resource name="importFromFileButtonHint">
+        <object>Klikk for å importere en alarm CSV-fil</object>
+      </resource>
+      <resource name="Import.Failed">
+        <object>Kunne ikke importere fil.</object>
+      </resource>
+      <resource name="importFromDeviceButton">
+        <object>Importer fra enhet</object>
+      </resource>
+      <resource name="importFromDeviceButtonHint">
+        <object>Klikk for å importere alarmdefinisjoner fra enhet</object>
+      </resource>
+      <resource name="GroupExistsErrorMessage">
+        <object>          Et gruppenavn {0} eksisterer i databasen.\n          Hvis det har blitt slettet eller deaktivert, vil det bli aktivert igjen.\n          Denne importen vil overskrive ekstisterende medlemmer i denne gruppen.\n          Ønsker du å fortsette?        </object>
+      </resource>
+      <resource name="Warning">
+        <object>Advarsel</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmDescription" ServiceOnly="false">
+      <resource name="errorText.NoDescription">
+        <object>Ingen alarmer tilgjengelig</object>
+      </resource>
+      <resource name="AlarmDescription">
+        <object>Alarmbeskrivelse</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmImage" ServiceOnly="false">
+      <resource name="errorText.NoImage">
+        <object>Ikke noe bilde tilgjengelig</object>
+      </resource>
+      <resource name="AlarmImage">
+        <object>Alarmbilde</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmList" ServiceOnly="false">
+      <resource name="colListId.Caption">
+        <object>Nei</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="colAlarmLevel.Caption">
+        <object>Alarmnivå</object>
+      </resource>
+      <resource name="AlarmList">
+        <object>Alarmliste</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmDeviceController" ServiceOnly="true">
+      <resource name="AlarmImage">
+        <object>Alarmbilde</object>
+      </resource>
+      <resource name="AlarmImage.Hint">
+        <object>Se et bilde med alarmer på denne enheten</object>
+      </resource>
+      <resource name="AlarmList">
+        <object>Alarmliste</object>
+      </resource>
+      <resource name="AlarmList.Hint">
+        <object>Se en liste over påslåtte alarmer på denne enheten</object>
+      </resource>
+      <resource name="AlarmDescription">
+        <object>Alarmbeskrivelse</object>
+      </resource>
+      <resource name="AlarmDescription.Hint">
+        <object>Se en beskrivelse for den valgte alarmen på denne enheten</object>
+      </resource>
+      <resource name="Group.Devices">
+        <object>Enheter</object>
+      </resource>
+      <resource name="AlarmDefaultLayout">
+        <object>Standard layout</object>
+      </resource>
+      <resource name="AlarmDefaultLayout.Hint">
+        <object>Før inn en standard layout for alarmenhetens overvåking på dashbordet</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmStatus.AlarmLamp" ServiceOnly="true">
+      <resource name="AlarmLamp.Text">
+        <object>Alarmlampe</object>
+      </resource>
+      <resource name="Group.Alarms">
+        <object>Alarmer</object>
+      </resource>
+      <resource name="AlarmLamp.Hint">
+        <object>Bruk denne komponenten til å overvåke valgte alarm(er)</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmStatus.AlarmMonitor" ServiceOnly="true">
+      <resource name="AlarmMonitor.Text">
+        <object>Alarmovervåker</object>
+      </resource>
+      <resource name="Group.Alarms">
+        <object>Alarmer</object>
+      </resource>
+      <resource name="AlarmMonitor.Hint">
+        <object>Bruk denne komponenten til å overvåke valgte alarm(er), vis i et nett</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.AlarmStatus.AlarmMonitor" ServiceOnly="false">
+      <resource name="colCode.Caption">
+        <object>Kode</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="colState.Caption">
+        <object>Status</object>
+      </resource>
+      <resource name="colAlarm.Caption">
+        <object>Alarm</object>
+      </resource>
+      <resource name="colTime.Caption">
+        <object>Tid</object>
+      </resource>
+      <resource name="colDetails.Caption">
+        <object>Detaljer</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmGroupEventSelection" ServiceOnly="false">
+      <resource name="grpEventsGrid.Text">
+        <object>Hendelsesvalg</object>
+      </resource>
+      <resource name="colAlarmId.Caption">
+        <object>ID</object>
+      </resource>
+      <resource name="colAlarmLevel.Caption">
+        <object>Nivå</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Linje</object>
+      </resource>
+      <resource name="colLineCode.Caption">
+        <object>Linjekode</object>
+      </resource>
+      <resource name="colModule.Caption">
+        <object>Modul</object>
+      </resource>
+      <resource name="colModuleCode.Caption">
+        <object>Modulkode</object>
+      </resource>
+      <resource name="colUnit.Caption">
+        <object>Enhet</object>
+      </resource>
+      <resource name="colUnitCode.Caption">
+        <object>Enhetskode</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Enhet</object>
+      </resource>
+      <resource name="colDeviceCode.Caption">
+        <object>Enhetskode</object>
+      </resource>
+      <resource name="colDescription.Caption">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="colOwnerName.Caption">
+        <object>Eier</object>
+      </resource>
+      <resource name="colConfigurationName.Caption">
+        <object>Konfigurasjonsnavn</object>
+      </resource>
+      <resource name="colGroupName.Caption">
+        <object>Alarmgruppenavn</object>
+      </resource>
+      <resource name="colCustomerDesc.Caption">
+        <object>Brukers alarmbeskrivelse</object>
+      </resource>
+      <resource name="colAlarmGroup.Caption">
+        <object>Alarmgruppe-ID</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Avbryt</object>
+      </resource>
+      <resource name="AlarmGroupEventSelection.Text">
+        <object>Hendelsesvalg</object>
+      </resource>
+      <resource name="colSystemDesc.Caption">
+        <object>System</object>
+      </resource>
+      <resource name="colSystemCode.Caption">
+        <object>Systemkode</object>
+      </resource>
+      <resource name="colAlarmCode.Caption">
+        <object>Alarmkode</object>
+      </resource>
+      <resource name="colAlarmName.Caption">
+        <object>Alarmnavn</object>
+      </resource>
+      <resource name="btnSelectAll.Text">
+        <object>Velg alle</object>
+      </resource>
+      <resource name="btnUnselectAll.Text">
+        <object>Tøm valg</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmGroups" ServiceOnly="false">
+      <resource name="ConfigureGroups">
+        <object>Konfigurer alarmgruppe</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AddAlarmParameter" ServiceOnly="false">
+      <resource name="AddAlarmParameter.Text">
+        <object>Opprett alarmparameter(e)</object>
+      </resource>
+      <resource name="grpHeader.Text">
+        <object>Parametertypevalg</object>
+      </resource>
+      <resource name="grpParamTypes.Text">
+        <object>Beskrivelsesdefinisjoner</object>
+      </resource>
+      <resource name="lblNrOfDescr.Text">
+        <object>Antall beskrivelser:</object>
+      </resource>
+      <resource name="btnUpdate.Text">
+        <object>Oppdater</object>
+      </resource>
+      <resource name="lblIdHeader.Text">
+        <object>ID</object>
+      </resource>
+      <resource name="lblDescrHeader.Text">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Avbryt</object>
+      </resource>
+      <resource name="Generic">
+        <object>Generisk</object>
+      </resource>
+      <resource name="Temperature">
+        <object>Temperatur</object>
+      </resource>
+      <resource name="Velocity">
+        <object>Hastighet</object>
+      </resource>
+      <resource name="Weight">
+        <object>Vekt</object>
+      </resource>
+      <resource name="WeightBig">
+        <object>VektStor</object>
+      </resource>
+      <resource name="Pressure">
+        <object>Trykk</object>
+      </resource>
+      <resource name="Power">
+        <object>Effekt</object>
+      </resource>
+      <resource name="PowerBig">
+        <object>EffektStor</object>
+      </resource>
+      <resource name="TimeMinutes">
+        <object>Tid i minutter</object>
+      </resource>
+      <resource name="TimeHour">
+        <object>Tid i timer</object>
+      </resource>
+      <resource name="Description">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="BitmaskDescription">
+        <object>Bitmaske-beskrivelse</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AddCodeDescriptionEntry" ServiceOnly="false">
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Lukk</object>
+      </resource>
+      <resource name="lblDesc.Text">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="lblCode.Text">
+        <object>Kode</object>
+      </resource>
+      <resource name="lblEntryType.Text">
+        <object>Angivelsestype</object>
+      </resource>
+      <resource name="item1">
+        <object>Kode og beskrivelse</object>
+      </resource>
+      <resource name="item2">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="AddCodeDescriptionEntry.Text">
+        <object>Legg til angivelse</object>
+      </resource>
+      <resource name="ErrorCaption">
+        <object>Feil</object>
+      </resource>
+      <resource name="DescEmpty">
+        <object>Beskrivelsen som skal legges til kan ikke være tom</object>
+      </resource>
+      <resource name="CodeDescEmpty">
+        <object>Koden og/eller beskrivelsen kan ikke være tom</object>
+      </resource>
+      <resource name="DuplicateMessage">
+        <object>Verdi(er) eksisterer allerede</object>
+      </resource>
+      <resource name="ValueNotAddedMessage">
+        <object>Feil oppstod under tilføyelse av verdien(e). Se logg for flere detaljer.</object>
+      </resource>
+      <resource name="ValuesAddedMessage">
+        <object>Verdi(er) er lagt til</object>
+      </resource>
+      <resource name="SuccessCaption">
+        <object>Vellykket</object>
+      </resource>
+      <resource name="DuplicateCaption">
+        <object>Duplikat</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

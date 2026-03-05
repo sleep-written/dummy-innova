@@ -1,0 +1,3333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="is">
+  <industry>
+    <type name="Marel.Mp5.Process.Process.LineType" ServiceOnly="true">
+      <resource name="ProcessUnit">
+        <object>Vinnsluþáttur</object>
+      </resource>
+      <resource name="BasicLine">
+        <object>Lína</object>
+      </resource>
+      <resource name="ProductionLine">
+        <object>Framleiðslulína</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanType" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Ekkert vinnsluplan</object>
+      </resource>
+      <resource name="ContextPlan">
+        <object>Heildarplan</object>
+      </resource>
+      <resource name="SplitPlan">
+        <object>Skipt plan</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessState" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ótilgreind</object>
+      </resource>
+      <resource name="NoWork">
+        <object>Utan vinnutíma</object>
+      </resource>
+      <resource name="Running">
+        <object>Keyrir</object>
+      </resource>
+      <resource name="Idle">
+        <object>Fríkeyrir</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Stopp</object>
+      </resource>
+      <resource name="Breakdown">
+        <object>Bilun</object>
+      </resource>
+      <resource name="NotProgrammed">
+        <object>Óuppsett</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessCounterType" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Ekki notaður</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Per vinnsluþátt</object>
+      </resource>
+      <resource name="Line">
+        <object>Per línu</object>
+      </resource>
+      <resource name="Section">
+        <object>Per vinnsludeild</object>
+      </resource>
+      <resource name="Department">
+        <object>Per deild</object>
+      </resource>
+      <resource name="Site">
+        <object>Per hús</object>
+      </resource>
+      <resource name="Station">
+        <object>Per vinnustöð</object>
+      </resource>
+      <resource name="StationGroup">
+        <object>Per vinnustöðvagrúppu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.AutoManual" ServiceOnly="true">
+      <resource name="Automatic">
+        <object>Sett sjálfvirkt</object>
+      </resource>
+      <resource name="Manual">
+        <object>Sett handvirkt</object>
+      </resource>
+      <resource name="AllowManual">
+        <object>Leyft handvirkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessPeriodType" ServiceOnly="true">
+      <resource name="Daily">
+        <object>Daglega</object>
+      </resource>
+      <resource name="OnActivity">
+        <object>Við vinnslulyklaskipti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextSelect" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Ekki notað</object>
+      </resource>
+      <resource name="Direct">
+        <object>Valið beint</object>
+      </resource>
+      <resource name="DirectAssigned">
+        <object>Valið beint, nota tengdar færslur</object>
+      </resource>
+      <resource name="DirectStopped">
+        <object>Valið beint við stopp</object>
+      </resource>
+      <resource name="DirectAssignedStopped">
+        <object>Valið beint við stopp, nota tengdar færslur</object>
+      </resource>
+      <resource name="Pending">
+        <object>Starta næsta</object>
+      </resource>
+      <resource name="PendingAssigned">
+        <object>Starta næsta, nota tendgar færslur</object>
+      </resource>
+      <resource name="PendingStopped">
+        <object>Starta næsta við stopp</object>
+      </resource>
+      <resource name="PendingAssignedStopped">
+        <object>Starta næsta við stopp, nota tengdar færslur</object>
+      </resource>
+      <resource name="ForwardPending">
+        <object>Aðeins framlengja og starta næsta</object>
+      </resource>
+      <resource name="ForwardDirect">
+        <object>Aðeins framlengja beint</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanMethod" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Ekkert plan</object>
+      </resource>
+      <resource name="Relaxed">
+        <object>Blandað</object>
+      </resource>
+      <resource name="NoSequence">
+        <object>Nota óraðað plan</object>
+      </resource>
+      <resource name="Sequence">
+        <object>Nota raðað plan</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextType" ServiceOnly="true">
+      <resource name="NoContext">
+        <object>Ekki notað</object>
+      </resource>
+      <resource name="LocalApplication">
+        <object>Frá forriti</object>
+      </resource>
+      <resource name="LocalSystem">
+        <object>Frá kerfi</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Frá vinnsluþætti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.SystemType" ServiceOnly="false">
+      <resource name="Other">
+        <object>Annað</object>
+      </resource>
+      <resource name="Species">
+        <object>Tegund</object>
+      </resource>
+      <resource name="Section">
+        <object>Hluti</object>
+      </resource>
+      <resource name="Input">
+        <object>Inntaksefni</object>
+      </resource>
+      <resource name="Primary">
+        <object>Aðalafurð</object>
+      </resource>
+      <resource name="Secondary">
+        <object>Aukaafurð</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>Afskurður</object>
+      </resource>
+      <resource name="Waste">
+        <object>Rusl</object>
+      </resource>
+      <resource name="Fat">
+        <object>Fita</object>
+      </resource>
+      <resource name="Bones">
+        <object>Bein</object>
+      </resource>
+      <resource name="Skin">
+        <object>Skinn</object>
+      </resource>
+      <resource name="Offal">
+        <object>Innyfli</object>
+      </resource>
+      <resource name="Ingredient">
+        <object>Íblöndunarefni</object>
+      </resource>
+      <resource name="Packaging">
+        <object>Pökkunarefni</object>
+      </resource>
+      <resource name="PieceType">
+        <object>Stykkjategund</object>
+      </resource>
+      <resource name="ColorType">
+        <object>Litur</object>
+      </resource>
+      <resource name="Unprocessed">
+        <object>Óunnið</object>
+      </resource>
+      <resource name="ByProduct">
+        <object>Hliðarafurð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoDeliveryStatus" ServiceOnly="false">
+      <resource name="NotOrdered">
+        <object>Ekki pantað</object>
+      </resource>
+      <resource name="InStorage">
+        <object>Í geymslu</object>
+      </resource>
+      <resource name="EnRoute">
+        <object>Á leiðinni</object>
+      </resource>
+      <resource name="Receiving">
+        <object>Móttaka, ekki nota</object>
+      </resource>
+      <resource name="ReceivingAvailable">
+        <object>Móttaka, nota</object>
+      </resource>
+      <resource name="Holding">
+        <object>Má ekki nota</object>
+      </resource>
+      <resource name="Available">
+        <object>Má nota</object>
+      </resource>
+      <resource name="Completed">
+        <object>Lokið</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Hætt við</object>
+      </resource>
+      <resource name="Returned">
+        <object>Skilað</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.PrivateObjectType" ServiceOnly="false">
+      <resource name="Mateial">
+        <object>Afurð</object>
+      </resource>
+      <resource name="Customer">
+        <object>Viðskiptavinur</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Pantanalína</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.CountMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Allar talningar</object>
+      </resource>
+      <resource name="Range">
+        <object>Lágmark og hámark</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextColumn" ServiceOnly="false">
+      <resource name="Activity">
+        <object>Vinnslulykill</object>
+      </resource>
+      <resource name="Po">
+        <object>Innkaupapöntun</object>
+      </resource>
+      <resource name="Batch">
+        <object>Lotunúmer</object>
+      </resource>
+      <resource name="Lot">
+        <object>Lota</object>
+      </resource>
+      <resource name="Plot">
+        <object>Framleiðslulota</object>
+      </resource>
+      <resource name="Rmarea">
+        <object>Hráefnissvæði</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Má ekki nota</object>
+      </resource>
+      <resource name="Available">
+        <object>Má nota</object>
+      </resource>
+      <resource name="Completed">
+        <object>Lokið</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Í vinnslu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotRecord" ServiceOnly="false">
+      <resource name="AutoName">
+        <object>Lota</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>L</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.YieldGroupRecord" ServiceOnly="true">
+      <resource name="AutoName">
+        <object>Nýtingarflokkur</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>N</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.ChainType" ServiceOnly="true">
+      <resource name="TracePo">
+        <object>Rekja innkaupapantanir</object>
+      </resource>
+      <resource name="TraceBatch">
+        <object>Rekja lotunúmer</object>
+      </resource>
+      <resource name="TraceLot">
+        <object>Rekja lotur</object>
+      </resource>
+      <resource name="TracePack">
+        <object>Rekja pakka</object>
+      </resource>
+      <resource name="TraceCollection">
+        <object>Rekja safn</object>
+      </resource>
+      <resource name="TraceInterval">
+        <object>Rekja eftir tíma</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.UnitStatus" ServiceOnly="true">
+      <resource name="PendingAuto">
+        <object>Bíður eftir að skipta sjálfvirkt</object>
+      </resource>
+      <resource name="PendingManual">
+        <object>Bíður eftir að skipta hanvirkt</object>
+      </resource>
+      <resource name="Active">
+        <object>Eining keyrir</object>
+      </resource>
+      <resource name="Ending">
+        <object>Eining endar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.TransactionType" ServiceOnly="true">
+      <resource name="UnitSchedule">
+        <object>Eining plönuð</object>
+      </resource>
+      <resource name="UnitStart">
+        <object>Eining startaði</object>
+      </resource>
+      <resource name="UnitEnd">
+        <object>Eining kláraði</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Bíður</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.TransferStatus" ServiceOnly="false">
+      <resource name="NoTransfer">
+        <object>Engin flutningur</object>
+      </resource>
+      <resource name="ReadyForTransfer">
+        <object>Tilbúið til flutnings</object>
+      </resource>
+      <resource name="TransferComplete">
+        <object>Flutningi lokið</object>
+      </resource>
+      <resource name="TransferReceive">
+        <object>Flutningspöntun tilbúin</object>
+      </resource>
+      <resource name="TransferInProgress">
+        <object>Flutningur í gangi</object>
+      </resource>
+      <resource name="TransferError">
+        <object>Villa í flutningi</object>
+      </resource>
+      <resource name="TransferErrorNotified">
+        <object>Villa í flutning - staðfest</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderLineStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Lokað</object>
+      </resource>
+      <resource name="Open">
+        <object>Opið</object>
+      </resource>
+      <resource name="Complete">
+        <object>Búið</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Afturkölluð</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Í bið</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AssignType" ServiceOnly="false">
+      <resource name="All">
+        <object>Leyfa allar hreyfingar</object>
+      </resource>
+      <resource name="Production">
+        <object>Leyfa framleiðslu</object>
+      </resource>
+      <resource name="Direct">
+        <object>Leyfa ráðstöfun</object>
+      </resource>
+      <resource name="Input">
+        <object>Leyfa inntak</object>
+      </resource>
+      <resource name="NoAssign">
+        <object>Leyfa enga ráðstöfun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintObjectType" ServiceOnly="false">
+      <resource name="Inventory">
+        <object>Lager</object>
+      </resource>
+      <resource name="Po">
+        <object>Innkaupapöntun</object>
+      </resource>
+      <resource name="Supplier">
+        <object>Birgi</object>
+      </resource>
+      <resource name="Site">
+        <object>Hús</object>
+      </resource>
+      <resource name="Category">
+        <object>Flokkur</object>
+      </resource>
+      <resource name="SectionType">
+        <object>Hluti</object>
+      </resource>
+      <resource name="BornIn">
+        <object>Fæðingarland</object>
+      </resource>
+      <resource name="RaisedIn">
+        <object>Alið í</object>
+      </resource>
+      <resource name="FatClass">
+        <object>Fituflokkur</object>
+      </resource>
+      <resource name="Lot">
+        <object>Lota</object>
+      </resource>
+      <resource name="LotQaMark1">
+        <object>QA Merki 1 lotu</object>
+      </resource>
+      <resource name="LotCustomer">
+        <object>Viðskiptavinur lotu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintType" ServiceOnly="false">
+      <resource name="OnlyFrom">
+        <object>Aðeins</object>
+      </resource>
+      <resource name="NotFrom">
+        <object>Ekki</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ProcessAssignType" ServiceOnly="false">
+      <resource name="Fixed">
+        <object>Fast</object>
+      </resource>
+      <resource name="Regular">
+        <object>Tímabundið</object>
+      </resource>
+      <resource name="Planned">
+        <object>Planað</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.ForwardType" ServiceOnly="true">
+      <resource name="NoForward">
+        <object>Engin áframsending</object>
+      </resource>
+      <resource name="ForwardAll">
+        <object>Áframsenda allt</object>
+      </resource>
+      <resource name="ForwardActivity">
+        <object>Áframsenda vinnslulykil</object>
+      </resource>
+      <resource name="ForwardPo">
+        <object>Áframsenda innkaupapöntun</object>
+      </resource>
+      <resource name="ForwardBatch">
+        <object>Áframsenda lotunúmer</object>
+      </resource>
+      <resource name="ForwardLot">
+        <object>Áframsenda lotu</object>
+      </resource>
+      <resource name="ForwardPlot">
+        <object>Áframsenda framleiðslulotu</object>
+      </resource>
+      <resource name="ForwardRmarea">
+        <object>Áframsenda hráefnissvæði</object>
+      </resource>
+      <resource name="ForwardShift">
+        <object>Áframsenda vakt</object>
+      </resource>
+      <resource name="ForwardProfileId">
+        <object>Áframsenda vinnutímabil</object>
+      </resource>
+      <resource name="ForwardPrday">
+        <object>Áframsenda vinnsludag</object>
+      </resource>
+      <resource name="AssignPo">
+        <object>Tengja innkaupapöntun</object>
+      </resource>
+      <resource name="AssignLot">
+        <object>Tengja lotu</object>
+      </resource>
+      <resource name="AssignPlot">
+        <object>Tengja framleiðslulotu</object>
+      </resource>
+      <resource name="AssignRmarea">
+        <object>Tengja hráefnissvæði</object>
+      </resource>
+      <resource name="ForwardLotAsInput">
+        <object>Senda lotu sem inntakslotu</object>
+      </resource>
+      <resource name="CreateLotAndInput">
+        <object>Búa til nýja og senda sem inntak</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Ekki hafið</object>
+      </resource>
+      <resource name="Active">
+        <object>Virkt</object>
+      </resource>
+      <resource name="Completed">
+        <object>Lokið</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Bíður</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Afturkölluð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineType" ServiceOnly="false">
+      <resource name="ContextPlan">
+        <object>Heildarplan</object>
+      </resource>
+      <resource name="ActivityPlan">
+        <object>Vinnslulykill</object>
+      </resource>
+      <resource name="PoPlan">
+        <object>Innkaupapöntun</object>
+      </resource>
+      <resource name="BatchPlan">
+        <object>Lotunúmer</object>
+      </resource>
+      <resource name="LotPlan">
+        <object>Lota</object>
+      </resource>
+      <resource name="PlotPlan">
+        <object>Framleiðslulota</object>
+      </resource>
+      <resource name="RmareaPlan">
+        <object>Hráefnissvæði</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.InventoryType" ServiceOnly="false">
+      <resource name="Itemized">
+        <object>Einingalager</object>
+      </resource>
+      <resource name="Container">
+        <object>Bakkalager</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Summulager</object>
+      </resource>
+      <resource name="ItemizedStocktake">
+        <object>Lagertalningar, týndar einingar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationStatus" ServiceOnly="false">
+      <resource name="Empty">
+        <object>Tómt</object>
+      </resource>
+      <resource name="Filling">
+        <object>Hleður</object>
+      </resource>
+      <resource name="Full">
+        <object>Fullt</object>
+      </resource>
+      <resource name="Emptying">
+        <object>Tæmir</object>
+      </resource>
+      <resource name="ConfirmEmpty">
+        <object>Staðfesta tómt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationUse" ServiceOnly="true">
+      <resource name="NoLocations">
+        <object>Engar staðsetningar</object>
+      </resource>
+      <resource name="AllowLocations">
+        <object>Má nota staðsetningar</object>
+      </resource>
+      <resource name="UseLocations">
+        <object>Nota staðsetningar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.BlockType" ServiceOnly="true">
+      <resource name="NoBlock">
+        <object>Ekki blokkerað</object>
+      </resource>
+      <resource name="HardwareBlock">
+        <object>Blokkerað af kerfi</object>
+      </resource>
+      <resource name="OperatorBlock">
+        <object>Blokkerað af notanda</object>
+      </resource>
+      <resource name="HwOpBlock">
+        <object>Blokkerað af kerfi og notanda</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PrdayStart" ServiceOnly="true">
+      <resource name="NotStarted">
+        <object>Ekki hafinn</object>
+      </resource>
+      <resource name="Automatic">
+        <object>Hafinn sjálfvirkt</object>
+      </resource>
+      <resource name="Manual">
+        <object>Hafinn handvirkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CheckStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ótilgreint</object>
+      </resource>
+      <resource name="OkOverTarget">
+        <object>Í lagi, yfir markþyngd</object>
+      </resource>
+      <resource name="OkOnTarget">
+        <object>Í lagi, á markþyngd</object>
+      </resource>
+      <resource name="OkUnderTarget">
+        <object>Í lagi, undir markþyngd</object>
+      </resource>
+      <resource name="OkT1">
+        <object>Í lagi, undir T1</object>
+      </resource>
+      <resource name="RejectOver">
+        <object>Yfirvigt</object>
+      </resource>
+      <resource name="RejectT1">
+        <object>Í ólagi, yfir T1</object>
+      </resource>
+      <resource name="RejectT2">
+        <object>Í ólagi, undir T1</object>
+      </resource>
+      <resource name="RejectUnder">
+        <object>Undirvigt</object>
+      </resource>
+      <resource name="RejectMetal">
+        <object>Málmur skynjaður</object>
+      </resource>
+      <resource name="RejectLabel">
+        <object>Merking ekki í lagi</object>
+      </resource>
+      <resource name="RejectQa">
+        <object>Skoðun ekki í lagi</object>
+      </resource>
+      <resource name="RejectOther">
+        <object>Ekki í lagi</object>
+      </resource>
+      <resource name="RejectNoWeight">
+        <object>Vantar þyngd</object>
+      </resource>
+      <resource name="RejectInvalid">
+        <object>Óþekkt eining</object>
+      </resource>
+      <resource name="RejectPackaging">
+        <object>Pökkunarefni vantar</object>
+      </resource>
+      <resource name="RejectMissing">
+        <object>Eining týnd</object>
+      </resource>
+      <resource name="RejectNoConnection">
+        <object>Vog ótengd</object>
+      </resource>
+      <resource name="SelectQa">
+        <object>Valið í gæðaskoðun</object>
+      </resource>
+      <resource name="UnusedSeperatorSpace">
+        <object>Stykkjabil</object>
+      </resource>
+      <resource name="UnusedNoJob">
+        <object>Verk fannst ekki</object>
+      </resource>
+      <resource name="UnusedNoItemType">
+        <object>Stykkjategund</object>
+      </resource>
+      <resource name="UnusedWeighingError">
+        <object>Villa i vigtun</object>
+      </resource>
+      <resource name="UnusedNoVisionData">
+        <object>Engin mynd</object>
+      </resource>
+      <resource name="UnusedNoGrade">
+        <object>Flokkur fannst ekki</object>
+      </resource>
+      <resource name="UnusedVisionCondition">
+        <object>Formflokkun</object>
+      </resource>
+      <resource name="UnusedNoGate">
+        <object>Rangt hlið</object>
+      </resource>
+      <resource name="UnusedRateError">
+        <object>Villa í flæðistýringu</object>
+      </resource>
+      <resource name="UnusedNoOrder">
+        <object>Pöntun fannst ekki</object>
+      </resource>
+      <resource name="UnusedSeperatorGap">
+        <object>Seperator gap error</object>
+      </resource>
+      <resource name="UnusedBadStatisticalAllotment">
+        <object>Statistical allotment too bad</object>
+      </resource>
+      <resource name="RejectBone">
+        <object>Bein skynjað</object>
+      </resource>
+      <resource name="RejectTooShort">
+        <object>Stykki of stutt</object>
+      </resource>
+      <resource name="RejectTooLong">
+        <object>Stykki of langt</object>
+      </resource>
+      <resource name="RejectUnstablePrefillScale">
+        <object>Í ólagi, prefill óstöðug</object>
+      </resource>
+      <resource name="RejectUnderWeightPrefillScale">
+        <object>Í ólagi, prefill undirvigt</object>
+      </resource>
+      <resource name="RejectOverWeightPrefilleScale">
+        <object>Í ólagi, prefill yfirvigt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Askja</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Eytt</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Þjappað</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Notuð</object>
+      </resource>
+      <resource name="Returned">
+        <object>Skilað</object>
+      </resource>
+      <resource name="Pending">
+        <object>Í framleiðslu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.AssignStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Opið</object>
+      </resource>
+      <resource name="OpenManual">
+        <object>Opið fyrir aðgerðir</object>
+      </resource>
+      <resource name="Closed">
+        <object>Lokað</object>
+      </resource>
+      <resource name="ClosedManual">
+        <object>Lokað handvirkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Pakki</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Summa</object>
+      </resource>
+      <resource name="Pending">
+        <object>Í framleiðslu</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Eytt</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ógilt</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Þjappað</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Notuð</object>
+      </resource>
+      <resource name="Returned">
+        <object>Skilað</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Safn</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Eytt</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Notað</object>
+      </resource>
+      <resource name="Returned">
+        <object>Skilað</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.BomRType" ServiceOnly="false">
+      <resource name="None">
+        <object>Engin</object>
+      </resource>
+      <resource name="Input">
+        <object>Inntak</object>
+      </resource>
+      <resource name="Output">
+        <object>Úttak</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Stofnað</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Á lager</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Af lager</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Á pöntun</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Af pöntun</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Í safn</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Úr safni</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Eytt</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Notað</object>
+      </resource>
+      <resource name="ConsumedPartial">
+        <object>Notkun hluta</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Bakfærð notkun</object>
+      </resource>
+      <resource name="DeConsumedPartial">
+        <object>Bakfærð notkun hluta</object>
+      </resource>
+      <resource name="Returned">
+        <object>Skilað</object>
+      </resource>
+      <resource name="Opened">
+        <object>Opened</object>
+      </resource>
+      <resource name="Closed">
+        <object>Closed</object>
+      </resource>
+      <resource name="Received">
+        <object>Móttekið</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>Af lagerstaðsetningu</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>Á lagerstaðsetningu</object>
+      </resource>
+      <resource name="InventoryStatusChange">
+        <object>Lagerstaða</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Stofnað</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Á lager</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Af lager</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Á pöntun</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Af pöntun</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Í safn</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Úr safni</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Eytt</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Notað</object>
+      </resource>
+      <resource name="Opened">
+        <object>Opnað</object>
+      </resource>
+      <resource name="Closed">
+        <object>Lokað</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Bakfærð notkun</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>Af lagerstaðsetningu</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>Á lagerstaðsetningu</object>
+      </resource>
+      <resource name="Returned">
+        <object>Skilað</object>
+      </resource>
+      <resource name="InventoryStatusChange">
+        <object>Lagerstaða</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.MatxferRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Hreyfing</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Eytt</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ógilt</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Þjappað</object>
+      </resource>
+      <resource name="Yield">
+        <object>Nýting</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Bakfært</object>
+      </resource>
+      <resource name="Generated">
+        <object>Kerfisbundin</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.TimeRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Tími</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Frídagur</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Eytt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.AccessLogRType" ServiceOnly="false">
+      <resource name="Granted">
+        <object>Aðgangur veittur</object>
+      </resource>
+      <resource name="NotInGroup">
+        <object>Ekki í aðgangshóp</object>
+      </resource>
+      <resource name="NotAtThisTime">
+        <object>Utan aðgangstíma</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>Óþekkt auðkenni</object>
+      </resource>
+      <resource name="IsIn">
+        <object>Þegar skráður inn</object>
+      </resource>
+      <resource name="IsOut">
+        <object>Þegar skráður út</object>
+      </resource>
+      <resource name="TimeReg">
+        <object>Tímaskráning</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ContainerRType" ServiceOnly="false">
+      <resource name="Assign">
+        <object>Skráð í bakka</object>
+      </resource>
+      <resource name="Position">
+        <object>Breytt staðsetning</object>
+      </resource>
+      <resource name="DeAssign">
+        <object>Skráð úr bakka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationClass" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ótilgreint</object>
+      </resource>
+      <resource name="CreateItem">
+        <object>Skrá öskju</object>
+      </resource>
+      <resource name="CreatePack">
+        <object>Skrá pakka</object>
+      </resource>
+      <resource name="Item">
+        <object>Öskjuaðgerð</object>
+      </resource>
+      <resource name="Pack">
+        <object>Pakkaaðgerð</object>
+      </resource>
+      <resource name="IdContainer">
+        <object>Bakkaaðgerð</object>
+      </resource>
+      <resource name="Stack">
+        <object>Staflaaðgerð</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Brettaaðgerð</object>
+      </resource>
+      <resource name="Container">
+        <object>Flutningseiningaraðgerð</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Afskipunaraðgerð</object>
+      </resource>
+      <resource name="CreateCollection">
+        <object>Skrá safn</object>
+      </resource>
+      <resource name="CreateTransaction">
+        <object>Skrá hreyfingu</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Lageraðgerð</object>
+      </resource>
+      <resource name="Order">
+        <object>Pantanaaðgerð</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Pantanalínuaðgerð</object>
+      </resource>
+      <resource name="Po">
+        <object>Innkaupapöntunaraðgerð</object>
+      </resource>
+      <resource name="PoLine">
+        <object>Innkaupapöntunarlínuaðgerð</object>
+      </resource>
+      <resource name="Transaction">
+        <object>Hreyfingaraðgerð</object>
+      </resource>
+      <resource name="Individual">
+        <object>Dýraaðgerð</object>
+      </resource>
+      <resource name="Lot">
+        <object>Lotuaðgerð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderType" ServiceOnly="true">
+      <resource name="Login">
+        <object>Innskráning</object>
+      </resource>
+      <resource name="LoginAndAccess">
+        <object>Innskráning og aðgangsstýring</object>
+      </resource>
+      <resource name="Logout">
+        <object>Útskráning</object>
+      </resource>
+      <resource name="LogoutAndExit">
+        <object>Útskráning og útgangsstýring</object>
+      </resource>
+      <resource name="AccessControl">
+        <object>Aðgangsstýring</object>
+      </resource>
+      <resource name="SignalOut">
+        <object>Merki</object>
+      </resource>
+      <resource name="RegisterId">
+        <object>Skrá númer</object>
+      </resource>
+      <resource name="ExitControl">
+        <object>Útgangsstýring</object>
+      </resource>
+      <resource name="LogInAndLogOut">
+        <object>Innskráning og útskráning</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderLogging" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Enginn loggur</object>
+      </resource>
+      <resource name="LogAccess">
+        <object>Logga aðgangsstýringu</object>
+      </resource>
+      <resource name="LogUse">
+        <object>Logga alla notkun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Costing.CostBase" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ótilgreint</object>
+      </resource>
+      <resource name="PerDay">
+        <object>Fast per dag</object>
+      </resource>
+      <resource name="PerInput">
+        <object>Per einingu af hráefni</object>
+      </resource>
+      <resource name="PerOutput">
+        <object>Per einingu af afurð</object>
+      </resource>
+      <resource name="PerRuntime">
+        <object>Per klst. keyrslutíma</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.ExpiryReferenceDate" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Vinnsludagur</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Skráningartími</object>
+      </resource>
+      <resource name="PoFirstDay">
+        <object>Fyrsti veiðidagur</object>
+      </resource>
+      <resource name="PoLastDay">
+        <object>Síðasti veiðdiagur</object>
+      </resource>
+      <resource name="PoDeliveryTime">
+        <object>Afhendingartími</object>
+      </resource>
+      <resource name="PoCatchDay">
+        <object>Veiðidagur</object>
+      </resource>
+      <resource name="OrderPoFirstDay">
+        <object>Fyrsti veiðidagur pöntunar</object>
+      </resource>
+      <resource name="OrderPoLastDay">
+        <object>Síðasti veiðidagur pöntunar</object>
+      </resource>
+      <resource name="OrderPoDeliveryTime">
+        <object>Afhendingartími pöntunar</object>
+      </resource>
+      <resource name="OrderPoCatchDay">
+        <object>Veiðidagur pöntunar</object>
+      </resource>
+      <resource name="Custom">
+        <object>Sérforrit</object>
+      </resource>
+      <resource name="OrderDispatchTime">
+        <object>Afhendingartími pöntunar</object>
+      </resource>
+      <resource name="LotSlday">
+        <object>Sláturdagur lotu</object>
+      </resource>
+      <resource name="InventoryTime">
+        <object>Lagertími</object>
+      </resource>
+      <resource name="UnitSlday">
+        <object>Sláturdagur einingar</object>
+      </resource>
+      <resource name="Script">
+        <object>Skrifta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyContextType" ServiceOnly="true">
+      <resource name="TargetSource">
+        <object>Frá-vinnsluþáttur markleiðar</object>
+      </resource>
+      <resource name="TargetDestination">
+        <object>Til-vinnsluþáttur markleiðar</object>
+      </resource>
+      <resource name="CopySource">
+        <object>Frá-vinnsluþáttur afritaðrar leiðar</object>
+      </resource>
+      <resource name="CopyDestination">
+        <object>Til-vinnsluþáttur afritaðrar leiðar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyMethod" ServiceOnly="true">
+      <resource name="Add">
+        <object>Leggja við</object>
+      </resource>
+      <resource name="Subtract">
+        <object>Draga frá</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PackRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Engin skráning</object>
+      </resource>
+      <resource name="Instance">
+        <object>Skrá hvern pakka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PathRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Engin skráning</object>
+      </resource>
+      <resource name="Instance">
+        <object>Skrá hverja hreyfingu</object>
+      </resource>
+      <resource name="Periodic">
+        <object>Skrá með millibili</object>
+      </resource>
+      <resource name="Update">
+        <object>Uppfæra eina færslu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.SelectRuleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>Velja inntak</object>
+      </resource>
+      <resource name="Output">
+        <object>Velja úttak</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.PlotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Má ekki nota</object>
+      </resource>
+      <resource name="Available">
+        <object>Má nota</object>
+      </resource>
+      <resource name="Completed">
+        <object>Lokið</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.ContextSource" ServiceOnly="true">
+      <resource name="Reference">
+        <object>Sjálfvirkt</object>
+      </resource>
+      <resource name="Source">
+        <object>Vinnsluþáttur frá</object>
+      </resource>
+      <resource name="Destination">
+        <object>Vinnsluþáttur til</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.Result" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Í lagi</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Aðgerð ekki útfærð</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>Vantar upplýsingar um vinnsluþátt</object>
+      </resource>
+      <resource name="NoMaterial">
+        <object>Vantar uppýsingar um afurð</object>
+      </resource>
+      <resource name="NoProcessPeriod">
+        <object>Vantar upplýsingar um vinnslutímabil</object>
+      </resource>
+      <resource name="NoProductionDay">
+        <object>Vantar upplýsingar um vinnsludag</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Gagnasafnsvilla</object>
+      </resource>
+      <resource name="NoSSCC">
+        <object>Vantar SSCC upplýsingar fyrir fyrirtæki</object>
+      </resource>
+      <resource name="CreateSSCC">
+        <object>Get ekki búið til SSCC, forskeyti gæti verið í ólagi</object>
+      </resource>
+      <resource name="HasOrder">
+        <object>Eining er á pöntun</object>
+      </resource>
+      <resource name="InStack">
+        <object>Eining er í stafla</object>
+      </resource>
+      <resource name="OnPallet">
+        <object>Eining er á bretti</object>
+      </resource>
+      <resource name="InContainer">
+        <object>Eining er í flutningseiningu</object>
+      </resource>
+      <resource name="InShipment">
+        <object>Eining er á afskipun</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Engin pöntun fannst</object>
+      </resource>
+      <resource name="IterationTransaction">
+        <object>Hreyfing ekki leyfð í ítrara</object>
+      </resource>
+      <resource name="NoCreateCount">
+        <object>Fjölda eininga vantar</object>
+      </resource>
+      <resource name="XmlParse">
+        <object>Gat ekki lesið XML</object>
+      </resource>
+      <resource name="NoStation">
+        <object>Vantar uppýsingar um stæði</object>
+      </resource>
+      <resource name="NoPo">
+        <object>Vantar upplýsingar um innkaupapöntun</object>
+      </resource>
+      <resource name="NoPlot">
+        <object>Vantar upplýingar um framleiðslulotu</object>
+      </resource>
+      <resource name="NoCurrentPack">
+        <object>Engin pakki valinn</object>
+      </resource>
+      <resource name="Conversion">
+        <object>Tókst ekki að breyta streng í gildi</object>
+      </resource>
+      <resource name="OrderNotFound">
+        <object>Tókst ekki að lesa pöntun úr gagnagrunni</object>
+      </resource>
+      <resource name="MaterialNotFound">
+        <object>Tókst ekki að lesa afurð úr gagnagrunni</object>
+      </resource>
+      <resource name="UnitType">
+        <object>Einingategund passar ekki við aðgerð</object>
+      </resource>
+      <resource name="OperationLoad">
+        <object>Tókst ekki að lesa aðgerð úr gagnagrunni</object>
+      </resource>
+      <resource name="NoPack">
+        <object>Vantar upplýsingar um pakka</object>
+      </resource>
+      <resource name="NoSite">
+        <object>Vantar upplýsingar um verksmiðju</object>
+      </resource>
+      <resource name="Configuration">
+        <object>Uppsetning aðgerðar ekki í lagi</object>
+      </resource>
+      <resource name="InvalidScope">
+        <object>Ógild leitarskilyrði</object>
+      </resource>
+      <resource name="NoStack">
+        <object>Vantar upplýsingar um stafla</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>Vantar upplýsingar um bretti</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>Staða safns leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>Vantar upplýsingar um safn</object>
+      </resource>
+      <resource name="NotInStack">
+        <object>Eining er ekki í stafla</object>
+      </resource>
+      <resource name="NotOnPallet">
+        <object>Eining er ekki á bretti</object>
+      </resource>
+      <resource name="NotInContainer">
+        <object>Eining er ekki í flutningseiningu</object>
+      </resource>
+      <resource name="NotInShipment">
+        <object>Eining er ekki á afskipun</object>
+      </resource>
+      <resource name="NoInventory">
+        <object>Vantar upplýsingar um lager</object>
+      </resource>
+      <resource name="NoItem">
+        <object>Vantar upplýsingar um pakka</object>
+      </resource>
+      <resource name="NoOrderLine">
+        <object>Vantar upplýsingar um pöntunarlínu</object>
+      </resource>
+      <resource name="Transaction">
+        <object>Villa þegar hreyfingu lokað</object>
+      </resource>
+      <resource name="NotInventory">
+        <object>Uppgefinn vinnsluþáttur er ekki lager</object>
+      </resource>
+      <resource name="InventoryReject">
+        <object>Lager tók ekki við einingu</object>
+      </resource>
+      <resource name="OnInventory">
+        <object>Eining er nú þegar á lager</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>Eining er ekki á lager</object>
+      </resource>
+      <resource name="UnitStatus">
+        <object>Staða einingar leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="NoContainer">
+        <object>Vantar uppýsingar um flutningseiningu</object>
+      </resource>
+      <resource name="NoShipment">
+        <object>Vantar uppýsingar um afskipun</object>
+      </resource>
+      <resource name="LoadSite">
+        <object>Tókst ekki að lesa upplýsingar um verksmiðju úr gagnagrunni</object>
+      </resource>
+      <resource name="LoadCompany">
+        <object>Tókst ekki að lesa upplýsingar um fyrirtæki úr gagnagrunni</object>
+      </resource>
+      <resource name="HasPacks">
+        <object>Ekki hægt að framkvæma aðgerð því safn geymir pakka</object>
+      </resource>
+      <resource name="HasStacks">
+        <object>Ekki hægt að framkvæma aðgerð því safn geymir stafla</object>
+      </resource>
+      <resource name="HasPallets">
+        <object>Ekki hægt að framkvæma aðgerð því safn geymir bretti</object>
+      </resource>
+      <resource name="HasContainers">
+        <object>Ekki hægt að framkvæma aðgerð því safn geymir flutningseiningar</object>
+      </resource>
+      <resource name="FailOperation">
+        <object>Aðgerð var látin mistakast</object>
+      </resource>
+      <resource name="InPack">
+        <object>Eining er nú þegar í pakka</object>
+      </resource>
+      <resource name="NotInPack">
+        <object>Eining er ekki í pakka</object>
+      </resource>
+      <resource name="PackStatus">
+        <object>Staða pakka leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="OrderType">
+        <object>Tegund pöntunar leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="Exception">
+        <object>Kerfisvilla</object>
+      </resource>
+      <resource name="OperationClass">
+        <object>Ógild tegund aðgerðar</object>
+      </resource>
+      <resource name="NoSource">
+        <object>Vantar upplýsingar um upprunavinnsluþátt</object>
+      </resource>
+      <resource name="NoDestination">
+        <object>Vantar upplýsingar um vinnsluþátt sem senda á til</object>
+      </resource>
+      <resource name="MaterialTransaction">
+        <object>Gat ekki skráð hráefnishreyfingu</object>
+      </resource>
+      <resource name="MatchContext">
+        <object>Staða vinnsluþáttar leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="TransactionConfig">
+        <object>Hráefnishreyfingakerfi ekki sett upp fyrir aðgerð</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Náði ekki tengingu við þjónustu</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Fann ekki upplýsingar um þjónustu</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Fann ekki upplýsingar um þjónustuforrit</object>
+      </resource>
+      <resource name="NoOperationData">
+        <object>Allar upplýsingar fyrir aðgerð vantar</object>
+      </resource>
+      <resource name="NoPrintFields">
+        <object>Vantar upplýsingar um prentsvæði</object>
+      </resource>
+      <resource name="NoPieceCount">
+        <object>Vantar upplýsingar um stykkjafjölda</object>
+      </resource>
+      <resource name="ItemLoad">
+        <object>Gat ekki lesið öskjufærslu</object>
+      </resource>
+      <resource name="ItemInsert">
+        <object>Gat ekki skráð öskjufærslu</object>
+      </resource>
+      <resource name="ItemUpdate">
+        <object>Gat ekki uppfært öskjufærslu</object>
+      </resource>
+      <resource name="ItemRType">
+        <object>Færslutegund öskju leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="PackLoad">
+        <object>Gat ekki lesið pakkafærslu</object>
+      </resource>
+      <resource name="PackInsert">
+        <object>Gat ekki skráð pakkafærslu</object>
+      </resource>
+      <resource name="PackUpdate">
+        <object>Gat ekki uppfært pakkafærslu</object>
+      </resource>
+      <resource name="PackRType">
+        <object>Færslutegund pakka leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="CollectionLoad">
+        <object>Gat ekki lesið safnfærslu</object>
+      </resource>
+      <resource name="CollectionInsert">
+        <object>Gat ekki skráð safnfærslu</object>
+      </resource>
+      <resource name="CollectionUpdate">
+        <object>Gat ekki uppfært safnfærslu</object>
+      </resource>
+      <resource name="CollectionRType">
+        <object>Færslutegund safns leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="CollectionUnitType">
+        <object>Tegund eininga í safni leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="NoOrderStatus">
+        <object>Vantar upplýsingar um stöðu pantana</object>
+      </resource>
+      <resource name="NotInOrder">
+        <object>Eining er ekki á pöntun</object>
+      </resource>
+      <resource name="OrderLoad">
+        <object>Tókst ekki að lesa upplýsingar um pöntun úr gagnagrunni</object>
+      </resource>
+      <resource name="OrderLineLoad">
+        <object>Tókst ekki að lesa upplýsingar um pantanlínu úr gagnagrunni</object>
+      </resource>
+      <resource name="OrderStatus">
+        <object>Staða pöntunar leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="OrderLineStatus">
+        <object>Staða pöntunarlínu leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Tókst ekki að búa til vinnsluþátt fyrir aðgerð</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Aðgerð í gangi</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Niðurstaða ekki skilgreind</object>
+      </resource>
+      <resource name="NoExternalNumber">
+        <object>Vantar ytra númer</object>
+      </resource>
+      <resource name="NoExternalCode">
+        <object>Vantar ytri kóða</object>
+      </resource>
+      <resource name="PrintFailed">
+        <object>Prentun tókst ekki</object>
+      </resource>
+      <resource name="CustomOpNotLoaded">
+        <object>Tókst ekki að hlaða inn séraðgerð</object>
+      </resource>
+      <resource name="CustomOpInfoMissing">
+        <object>Vantar hluta af upplýsingum um séraðgerð</object>
+      </resource>
+      <resource name="CustomOpXmlMissing">
+        <object>Vantar XML skilgreiningu á séraðgerð</object>
+      </resource>
+      <resource name="CustomException">
+        <object>Villa í séraðgerð</object>
+      </resource>
+      <resource name="Validation">
+        <object>Villa í gögnum</object>
+      </resource>
+      <resource name="PreOperation">
+        <object>Villa í undirbúningi aðgerðar</object>
+      </resource>
+      <resource name="DoOperation">
+        <object>Villa í aðgerð</object>
+      </resource>
+      <resource name="PostOperation">
+        <object>Villa eftir aðgerð</object>
+      </resource>
+      <resource name="NoCatchDay">
+        <object>Vantar upplýsingar um veiðidag</object>
+      </resource>
+      <resource name="InvalidInventory">
+        <object>Ógildur lager fyrir aðgerð</object>
+      </resource>
+      <resource name="LoadType">
+        <object>Gat ekki hlaðið inn týpu</object>
+      </resource>
+      <resource name="UnitCount">
+        <object>Ógildur fjöldi eininga tiltekinn</object>
+      </resource>
+      <resource name="ConvertedInventory">
+        <object>Umbreytt safn er á lager sem er ekki lager pakka</object>
+      </resource>
+      <resource name="ConvertedOrder">
+        <object>Umbreytt safn er á pöntun sem er ekki pöntun pakka</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Vantar upplýsingar um verð</object>
+      </resource>
+      <resource name="NoProperty">
+        <object>Vantar nafn breytu</object>
+      </resource>
+      <resource name="NotProperty">
+        <object>Nafnið er ekki nafn á breytu</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Einingu haldið vegna gæðaskoðunar</object>
+      </resource>
+      <resource name="PoStatus">
+        <object>Staða innkaupapöntunar leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="InvalidPartialAmount">
+        <object>Ekki er hægt að breyta einingu með þessu magni</object>
+      </resource>
+      <resource name="NoPoLine">
+        <object>Ekki til innkaupapöntunarlína fyrir afurð</object>
+      </resource>
+      <resource name="HasPoLine">
+        <object>Innkaupapöntunarlína nú þegar sett</object>
+      </resource>
+      <resource name="NoMaterialTransaction">
+        <object>Hráefnishreyfing ekki skráð</object>
+      </resource>
+      <resource name="NoStockTake">
+        <object>Engin talning í gangi</object>
+      </resource>
+      <resource name="StartStockTake">
+        <object>Ekki hægt að hefja talningu, gæti verið í gangi nú þegar</object>
+      </resource>
+      <resource name="StockTakeMethod">
+        <object>Tegund talningar lagers leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="StockTakeUnitLoad">
+        <object>Talningarupplýsingar fyrir einingu eru ekki í lagi</object>
+      </resource>
+      <resource name="StockTakeUnitType">
+        <object>Talning byggir ekki á þessari tegund einingar</object>
+      </resource>
+      <resource name="StockTakeStatus">
+        <object>Staða talningar leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="ScriptingError">
+        <object>Villa í keyrslu skriftu</object>
+      </resource>
+      <resource name="InventoryKeepMin">
+        <object>Eining er ekki nógu gömul</object>
+      </resource>
+      <resource name="InventoryKeepMax">
+        <object>Eining er of gömul</object>
+      </resource>
+      <resource name="NoValue">
+        <object>Vantar verðmæti einingar</object>
+      </resource>
+      <resource name="LogRecordLoad">
+        <object>Gat ekki lesið logg færslu</object>
+      </resource>
+      <resource name="LogRecordExecuted">
+        <object>Búið að keyra einingaaðgerð úr loggfærslur</object>
+      </resource>
+      <resource name="InventoryType">
+        <object>Tegund lagers leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>Vantar upplýsingar um lotunúmer</object>
+      </resource>
+      <resource name="NoLot">
+        <object>Vantar upplýsingar um lotu</object>
+      </resource>
+      <resource name="NoProductionLot">
+        <object>Vantar upplýsingar um framleiðslulotu</object>
+      </resource>
+      <resource name="NoRmArea">
+        <object>Vantar upplýsingar um hráefnissvæði</object>
+      </resource>
+      <resource name="InvalidAmount">
+        <object>Ógilt magn</object>
+      </resource>
+      <resource name="NoInventoryStatus">
+        <object>Lagerstaða fannst ekki</object>
+      </resource>
+      <resource name="MultipleInventoryStatus">
+        <object>Fann margar stöðufærslur</object>
+      </resource>
+      <resource name="FeatureNotLicensed">
+        <object>Vantar leyfi fyrir notkun</object>
+      </resource>
+      <resource name="CodeNotFound">
+        <object>Færsla með þessum kóða fannst ekki</object>
+      </resource>
+      <resource name="InvalidMessageFields">
+        <object>Uppsetning a svæðum fyrir skilaboð er í ólagi</object>
+      </resource>
+      <resource name="BomNotFound">
+        <object>Gat ekki hlaðið uppskrift úr gagnagrunni</object>
+      </resource>
+      <resource name="NotInBom">
+        <object>Afurð er ekki í uppskrift</object>
+      </resource>
+      <resource name="NoBom">
+        <object>Engin uppskrift tiltekin</object>
+      </resource>
+      <resource name="NoBomRType">
+        <object>"&gt;Engin færslutegund fyrir uppskrift tiltekin</object>
+      </resource>
+      <resource name="PrunitBom">
+        <object>Vinnsluþáttur hefur ekki upplýsingar um uppskrift</object>
+      </resource>
+      <resource name="LotBom">
+        <object>Vantar upplýsingar um uppskrift í lotu</object>
+      </resource>
+      <resource name="ProductionLotBom">
+        <object>Vantar upplýsingar um uppskrift í framleiðslulotu</object>
+      </resource>
+      <resource name="InvalidDate">
+        <object>Ógild dagsetning</object>
+      </resource>
+      <resource name="PartialAdjust">
+        <object>Það er ekki hægt að breyta innihaldi hlutapakka beint</object>
+      </resource>
+      <resource name="NoCategory">
+        <object>Vantar upplýsingar um dýraflokk</object>
+      </resource>
+      <resource name="NoQuality">
+        <object>Vantar upplýsingar um gæðaflokk</object>
+      </resource>
+      <resource name="NoFatClass">
+        <object>Vantar upplýsingar um fituflokk</object>
+      </resource>
+      <resource name="SelectYieldGroup">
+        <object>Fann ekki nýtingarflokk</object>
+      </resource>
+      <resource name="NoRiCountry">
+        <object>Vantar upprunaupplýsingar</object>
+      </resource>
+      <resource name="NoBrCountry">
+        <object>Vantar upprunaupplýsingar</object>
+      </resource>
+      <resource name="NoSlaughterHouse">
+        <object>Vantar sláturhúsupplýsingar</object>
+      </resource>
+      <resource name="NoSlaughterDay">
+        <object>Vantar sláturdagsupplýsingar</object>
+      </resource>
+      <resource name="NoProcessor">
+        <object>Vantar framleiðandaupplýsingar</object>
+      </resource>
+      <resource name="SelectLot">
+        <object>Fann ekki lotu</object>
+      </resource>
+      <resource name="IndividualLoad">
+        <object>Gat ekki lesið dýrafærslu</object>
+      </resource>
+      <resource name="NoYieldGroup">
+        <object>Vantar upplýsingar um nýtingarflokk</object>
+      </resource>
+      <resource name="PalletNotReserved">
+        <object>Bretti er ekki frátekið fyrir pöntun</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>Ekki réttur afurðakóði</object>
+      </resource>
+      <resource name="Station">
+        <object>Gat ekki búið til stæði</object>
+      </resource>
+      <resource name="InvalidExpiry">
+        <object>Geymsluþol utan marka</object>
+      </resource>
+      <resource name="InvlocationFull">
+        <object>Lagerstaðsetning full</object>
+      </resource>
+      <resource name="InvlocationMissing">
+        <object>Vantar lagerstaðsetningu</object>
+      </resource>
+      <resource name="InvalidInvlocation">
+        <object>Lagerstaðsetning er röng</object>
+      </resource>
+      <resource name="StartStocktakeLocationActive">
+        <object>Get ekki byrjað talningu á lagernum þar sem talning er í gangi á lagerstaðsetningu</object>
+      </resource>
+      <resource name="StartStocktakeInventoryActive">
+        <object>Get ekki byrjað talningu á lagerstaðsetningu þar sem talning er í gangi á lagernum</object>
+      </resource>
+      <resource name="TransferStatus">
+        <object>Ógild staða flutningspöntunar.</object>
+      </resource>
+      <resource name="ParentOrderCheckFailed">
+        <object>Aðalpöntun og framleiðslupöntun passa ekki saman.</object>
+      </resource>
+      <resource name="GetExportProcess">
+        <object>Ógild uppsetning á gagnayfirfærslu</object>
+      </resource>
+      <resource name="NoSupplier">
+        <object>Vantar upplýsingar um innkaupapöntun eða innkaupapöntun hefur ekki birgja</object>
+      </resource>
+      <resource name="NoExportProcess">
+        <object>Gagnayfirfærsla ekki skilgreind</object>
+      </resource>
+      <resource name="InvaidExportProcess">
+        <object>Gagnayfirfærsla rangt skilgreind</object>
+      </resource>
+      <resource name="HasPo">
+        <object>Eining þegar á innkaupapöntun</object>
+      </resource>
+      <resource name="OrderAmountExceeded">
+        <object>Pantanahámark var brotið</object>
+      </resource>
+      <resource name="OrderLineAmountExceeded">
+        <object>Pantanalínuhámark var brotið</object>
+      </resource>
+      <resource name="PlotStatus">
+        <object>Staða framleiðslulotu leyfir ekki aðgerð</object>
+      </resource>
+      <resource name="NotInSourceBom">
+        <object>Afurð er ekki í uppruna uppskrift</object>
+      </resource>
+      <resource name="NotInDestinationBom">
+        <object>Afurð er ekki í ákvörðunar uppskrift</object>
+      </resource>
+      <resource name="SourcePrunitBom">
+        <object>Uppruna vinnsluþáttur hefur ekki upplýsingar um uppskrift</object>
+      </resource>
+      <resource name="DestinationPrunitBom">
+        <object>Ákvörðunar vinnsluþáttur hefur ekki upplýsingar um uppskrift</object>
+      </resource>
+      <resource name="SourceLotBom">
+        <object>Vantar upplýsingar um uppskrift í uppruna lotu</object>
+      </resource>
+      <resource name="DestinationLotBom">
+        <object>Vantar upplýsingar um uppskrift í ákvörðunar lotu</object>
+      </resource>
+      <resource name="SourceProductionLotBom">
+        <object>Vantar upplýsingar um uppskrift í uppruna framleiðslulotu</object>
+      </resource>
+      <resource name="DestinationProductionLotBom">
+        <object>Vantar upplýsingar um uppskrift í ákvörðunar framleiðslulotu</object>
+      </resource>
+      <resource name="NoInputOrderLine">
+        <object>Engin inntakspantanalína fannst</object>
+      </resource>
+      <resource name="TooManyInputOrderLines">
+        <object>Of margar inntakspantanalínur fundust</object>
+      </resource>
+      <resource name="NoOrderShipment">
+        <object>Pöntun hefur enga afskipun</object>
+      </resource>
+      <resource name="NotMatchingOrderShipment">
+        <object>Afskipun ekki sú sama og afskipun á pöntun</object>
+      </resource>
+      <resource name="OrderMismatch">
+        <object>Pöntun pakkans er ekki hin sama og pöntun brettis</object>
+      </resource>
+      <resource name="POrderMismatch">
+        <object>Framleiðslupöntun pakkans er ekki hin sama og framleiðslupöntun brettis</object>
+      </resource>
+      <resource name="NoStocktakeLostInventory">
+        <object>Lager fyrir tapaðar einingar finnst ekki</object>
+      </resource>
+      <resource name="PrintPreviewFailed">
+        <object>Forskoðun miða tókst ekki.</object>
+      </resource>
+      <resource name="ItemCreateCountTooHigh">
+        <object>Ekki er hægt að búa til svona margar öskjur í einu</object>
+      </resource>
+      <resource name="PackCreateCountTooHigh">
+        <object>Ekki er hægt að búa til svona marga pakka í einu</object>
+      </resource>
+      <resource name="StackCreateCountTooHigh">
+        <object>Ekki er hægt að búa til svona marga stafla í einu</object>
+      </resource>
+      <resource name="PalletCreateCountTooHigh">
+        <object>Ekki er hægt að búa til svona mörg bretti í einu</object>
+      </resource>
+      <resource name="HasTemplate">
+        <object>Safn hefur þegar sniðmát</object>
+      </resource>
+      <resource name="LocationRefusedItem">
+        <object>Lagerstaðsetning neitaði öskju</object>
+      </resource>
+      <resource name="LocationRefusedPack">
+        <object>Lagerstaðsetning neitaði pakka</object>
+      </resource>
+      <resource name="BomNoOutputProducts">
+        <object>Það vantar afurðalínu í uppskrift</object>
+      </resource>
+      <resource name="LotQaMarkMismatch">
+        <object>QA merki einingar passar ekki við QA merki lotu</object>
+      </resource>
+      <resource name="InvalidPalletInventoryStatus">
+        <object>Aðgerð leyfir ekki núverandi lagerstöðu brettis</object>
+      </resource>
+      <resource name="InvalidPackInventoryStatus">
+        <object>Aðgerð leyfir ekki núverandi lagerstöðu pakka</object>
+      </resource>
+      <resource name="NoVehicle">
+        <object>Farartæki vantar</object>
+      </resource>
+      <resource name="NoQcProcedure">
+        <object>Skoðunarlista vantar</object>
+      </resource>
+      <resource name="NoQcItem">
+        <object>Skoðunaratriði vantar inn í lista</object>
+      </resource>
+      <resource name="InvalidContents">
+        <object>Innhald stemmir ekki við lýsingu</object>
+      </resource>
+      <resource name="NoOrderService">
+        <object>Panatanaþjónn ekki uppsettur</object>
+      </resource>
+      <resource name="OrderService">
+        <object>Villa frá pantanaþjóni</object>
+      </resource>
+      <resource name="PacksNotFound">
+        <object>Engir pakkar fundust</object>
+      </resource>
+      <resource name="LengthConversion">
+        <object>Gat ekki umbreytt lengdum</object>
+      </resource>
+      <resource name="VolumeConversion">
+        <object>Gat ekki umbreytt rúmmáli</object>
+      </resource>
+      <resource name="InvalidNominalUnit">
+        <object>Röng eining</object>
+      </resource>
+      <resource name="NoExternalColumn">
+        <object>Fann ekki viðbótardálk</object>
+      </resource>
+      <resource name="HasPOrder">
+        <object>Eining er á framleiðslupöntun</object>
+      </resource>
+      <resource name="SourcePackagingProcessUnit">
+        <object>Engin pökkunar framleiðslueining fannst.</object>
+      </resource>
+      <resource name="NoPackagingSupplyLot">
+        <object>Aðföng fyrir pökkunarefni vantar</object>
+      </resource>
+      <resource name="AddingSuppliesFailed">
+        <object>Ekki tókst að bæta við aðföngum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.EmployeeResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Í lagi</object>
+      </resource>
+      <resource name="DbError">
+        <object>Gagnasafnsvilla</object>
+      </resource>
+      <resource name="NotFound">
+        <object>Finn ekki starfsmann</object>
+      </resource>
+      <resource name="MultipleFound">
+        <object>Uppfletting skilaði mörgun færslum</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ógildar starfsmannaupplýsingar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>Skv. lista</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Öllu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.NumberMethod" ServiceOnly="false">
+      <resource name="OwnNumber">
+        <object>Eigin númer</object>
+      </resource>
+      <resource name="ParentNumber">
+        <object>Frá aðalpöntun</object>
+      </resource>
+      <resource name="Customer">
+        <object>Frá viðskiptavin</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Lokuð</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Afturkölluð</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Í bið</object>
+      </resource>
+      <resource name="Open">
+        <object>Opin</object>
+      </resource>
+      <resource name="Complete">
+        <object>Lokið</object>
+      </resource>
+      <resource name="CompleteClosed">
+        <object>Lokið og lokuð</object>
+      </resource>
+      <resource name="Dispatched">
+        <object>Útskipuð</object>
+      </resource>
+      <resource name="Confirmed">
+        <object>Staðfest</object>
+      </resource>
+      <resource name="NotConfirmed">
+        <object>Óstaðfest</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderType" ServiceOnly="false">
+      <resource name="Customer">
+        <object>Sölupöntun</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Lagerpöntun</object>
+      </resource>
+      <resource name="Production">
+        <object>Framleiðslupöntun</object>
+      </resource>
+      <resource name="Transfer">
+        <object>Flutningspöntun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationSetType" ServiceOnly="true">
+      <resource name="Generic">
+        <object>Almennt</object>
+      </resource>
+      <resource name="DefaultItem">
+        <object>Öskjur, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultPack">
+        <object>Pakkar, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultStack">
+        <object>Staflar, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultPallet">
+        <object>Bretti, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultContainer">
+        <object>Flutningseiningar, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultShipment">
+        <object>Afskipanir, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultOrder">
+        <object>Pantanir, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultOrderLine">
+        <object>Pantanalínur, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultInventory">
+        <object>Lagerar, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultTransaction">
+        <object>Hreyfingar, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultInventorySnapshot">
+        <object>Lagerstaða, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultLot">
+        <object>Lota, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultIndividual">
+        <object>Dýr, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultDryGoods">
+        <object>Þurr lagerar, sjálfgefið</object>
+      </resource>
+      <resource name="DefaultBatch">
+        <object>Framleiðslulotur, sjálfgefið</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.DataStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Opið</object>
+      </resource>
+      <resource name="Closed">
+        <object>Uppgert</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ógilt</object>
+      </resource>
+      <resource name="PendingClose">
+        <object>Óuppgert</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.UnitInventoryStatus" ServiceOnly="false">
+      <resource name="Available">
+        <object>Má nota</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Bíður skoðunar</object>
+      </resource>
+      <resource name="Lost">
+        <object>Týnt</object>
+      </resource>
+      <resource name="Reserved">
+        <object>Frátekið</object>
+      </resource>
+      <resource name="PickedUp">
+        <object>Sótt</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>Ekki á lager</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.CountStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>Ófundið</object>
+      </resource>
+      <resource name="Left">
+        <object>Farið</object>
+      </resource>
+      <resource name="Entered">
+        <object>Komið</object>
+      </resource>
+      <resource name="Found">
+        <object>Fundið</object>
+      </resource>
+      <resource name="New">
+        <object>Nýtt</object>
+      </resource>
+      <resource name="Error">
+        <object>Villa</object>
+      </resource>
+      <resource name="RType">
+        <object>Ógild færslustaða</object>
+      </resource>
+      <resource name="NotLeft">
+        <object>Ekki farið</object>
+      </resource>
+      <resource name="FoundOnWrongPallet">
+        <object>Fundið á röngu bretti</object>
+      </resource>
+      <resource name="NewOnWrongPallet">
+        <object>Nýtt á röngu bretti</object>
+      </resource>
+      <resource name="RTypeOnWrongPallet">
+        <object>Ógild færslustaða á röngu bretti</object>
+      </resource>
+      <resource name="NotLeftOnWrongPallet">
+        <object>Ekki farið á röngu bretti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ekki talið</object>
+      </resource>
+      <resource name="CountUnits">
+        <object>Telja einningar og pakka</object>
+      </resource>
+      <resource name="CountStacks">
+        <object>Telja stafla</object>
+      </resource>
+      <resource name="CountPallets">
+        <object>Telja bretti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeStatus" ServiceOnly="false">
+      <resource name="Active">
+        <object>Í gangi</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Hætt við</object>
+      </resource>
+      <resource name="CountDone">
+        <object>Talningu lokið</object>
+      </resource>
+      <resource name="Completed">
+        <object>Lokið</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeType" ServiceOnly="false">
+      <resource name="Count">
+        <object>Talnning</object>
+      </resource>
+      <resource name="Snapshot">
+        <object>Lagerstaða</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoAcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>Skv. lista</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Öllu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Utilities.FormatText" ServiceOnly="false">
+      <resource name="Stack">
+        <object>Stafli</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Bretti</object>
+      </resource>
+      <resource name="Order">
+        <object>Pöntun</object>
+      </resource>
+      <resource name="UnlimitedOrder">
+        <object>ótakmarkað</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>engin</object>
+      </resource>
+      <resource name="Packs">
+        <object>pakkar</object>
+      </resource>
+      <resource name="Items">
+        <object>öskjur</object>
+      </resource>
+      <resource name="Pcs">
+        <object>stk</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CarcassForm" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Óskilgreint</object>
+      </resource>
+      <resource name="Whole">
+        <object>Heil dýr</object>
+      </resource>
+      <resource name="Split">
+        <object>Helmingar</object>
+      </resource>
+      <resource name="Quartered">
+        <object>Fjórðungar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Stofnað</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Á lager</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Af lager</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Á pöntun</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Af pöntun</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Í safn</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Úr safni</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Eytt</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Notað</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Bakfærð notkun</object>
+      </resource>
+      <resource name="Received">
+        <object>Móttekið</object>
+      </resource>
+      <resource name="Returned">
+        <object>Skilað</object>
+      </resource>
+      <resource name="ToPack">
+        <object>Í pakka</object>
+      </resource>
+      <resource name="FromPack">
+        <object>Úr pakka</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>Af lagerstaðsetningu</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>Á lagerstaðsetningu</object>
+      </resource>
+      <resource name="InventoryStatusChange">
+        <object>Lagerstaða</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.RmAreaRelationType" ServiceOnly="false">
+      <resource name="NoRelation">
+        <object>Ekki stillt</object>
+      </resource>
+      <resource name="PoSupplier">
+        <object>Birgi</object>
+      </resource>
+      <resource name="PoProducer">
+        <object>Framleiðandi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.StationType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Stæði</object>
+      </resource>
+      <resource name="InLoadbay">
+        <object>Móttaka</object>
+      </resource>
+      <resource name="OutLoadbay">
+        <object>Afhending</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.RecipeSystem.RecipeBatchStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Ekki hafin</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Í gangi</object>
+      </resource>
+      <resource name="Paused">
+        <object>Í bið</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Hætt við</object>
+      </resource>
+      <resource name="Done">
+        <object>Búin</object>
+      </resource>
+      <resource name="Waiting">
+        <object>Í biðstöðu</object>
+      </resource>
+      <resource name="InPreparation">
+        <object>Í undirbúningi</object>
+      </resource>
+      <resource name="QCHold">
+        <object>Í bið vegna skoðunnar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.AutoManualPrday" ServiceOnly="true">
+      <resource name="Automatic">
+        <object>Sett sjálfvirkt</object>
+      </resource>
+      <resource name="Manual">
+        <object>Sett handvirkt</object>
+      </resource>
+      <resource name="AllowManual">
+        <object>Leyft handvirkt</object>
+      </resource>
+      <resource name="AllowManualWithReset">
+        <object>Leyft handvirkt en endurstillist</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Printers.DataEngine.TextNodeManager" ServiceOnly="false">
+      <resource name="text">
+        <object>Texti</object>
+      </resource>
+      <resource name="richtext">
+        <object>Formaður texti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.SlaughterStatus" ServiceOnly="false">
+      <resource name="NotReceived">
+        <object>Ekki móttekið</object>
+      </resource>
+      <resource name="Live">
+        <object>Lifandi</object>
+      </resource>
+      <resource name="Rejected">
+        <object>Hafnað</object>
+      </resource>
+      <resource name="Dead">
+        <object>Dautt</object>
+      </resource>
+      <resource name="DeadInProcess">
+        <object>Dautt fyrir slátrun</object>
+      </resource>
+      <resource name="Slaughtered">
+        <object>Slátrað</object>
+      </resource>
+      <resource name="Confiscated">
+        <object>Eytt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.TimecRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Tími</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Eytt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.LimitUnit" ServiceOnly="false">
+      <resource name="Months">
+        <object>Mánuðir</object>
+      </resource>
+      <resource name="Days">
+        <object>Dagar</object>
+      </resource>
+      <resource name="Hours">
+        <object>Klukkustundir</object>
+      </resource>
+      <resource name="Minutes">
+        <object>Mínútur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.LogLevel" ServiceOnly="true">
+      <resource name="NoLog">
+        <object>Ekki loggað</object>
+      </resource>
+      <resource name="LogSuccess">
+        <object>Logga heppnaðar</object>
+      </resource>
+      <resource name="LogFailure">
+        <object>Logga misheppnaðar</object>
+      </resource>
+      <resource name="LogAll">
+        <object>Logga allt</object>
+      </resource>
+      <resource name="LogSuccessWithTrace">
+        <object>Logga heppnaðar með rekjanlegum upplýsingum</object>
+      </resource>
+      <resource name="LogFailureWithTrace">
+        <object>Logga misheppnaðar með rekjanlegum upplýsingum</object>
+      </resource>
+      <resource name="LogAllWithTrace">
+        <object>Logga allt með rekjanlegum upplýsingum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotCreateMethod" ServiceOnly="false">
+      <resource name="NotUsed">
+        <object>Handvirkt</object>
+      </resource>
+      <resource name="OnPrdayChange">
+        <object>Við nýjan vinnsludag</object>
+      </resource>
+      <resource name="OnActivityChange">
+        <object>Við vinnslulyklaskipti</object>
+      </resource>
+      <resource name="OnShiftChange">
+        <object>Við vaktaskipti</object>
+      </resource>
+      <resource name="OnPoChange">
+        <object>Við innkaupapantanaskipti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessUnitResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Gagnagrunnsvilla</object>
+      </resource>
+      <resource name="LoadRecord">
+        <object>Tðokst ekki að lesa upplýsingar um vinnsluþátt úr gagnagrunni</object>
+      </resource>
+      <resource name="LoadCompany">
+        <object>Tókst ekki að lesa upplýsingar um fyrirtæki úr gagnagrunni</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Fann ekki upplýsingar um þjónustu</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Fann ekki upplýsingar um þjónustuforrit</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Náði ekki tengingu við þjónustu</object>
+      </resource>
+      <resource name="RemoteException">
+        <object>Óskilgreind villa frá þjónustu</object>
+      </resource>
+      <resource name="ConfigTable">
+        <object>Gat ekki náð í stillingartöflu</object>
+      </resource>
+      <resource name="LoadSite">
+        <object>Tókst ekki að lesa upplýsingar um verksmiðju úr gagnagrunni</object>
+      </resource>
+      <resource name="LoadSection">
+        <object>Tókst ekki að lesa upplýsingar um hluta úr gagnagrunni</object>
+      </resource>
+      <resource name="LoadDepartment">
+        <object>Tókst ekki að lesa upplýsingar um deild úr gagnagrunni</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Þjónusta skilaði óskilgreindri villu</object>
+      </resource>
+      <resource name="PrunitNotFound">
+        <object>Vinnsluþáttur er ekki til</object>
+      </resource>
+      <resource name="LoadLine">
+        <object>Ekki tókst að lesa upplýsingar um vinnsluþætti línunnar</object>
+      </resource>
+      <resource name="LoadTemplate">
+        <object>Ekki tókst að lesa sniðmátsupplýsingar</object>
+      </resource>
+      <resource name="InvalidOperation">
+        <object>Aðgerð er ekki leyfð</object>
+      </resource>
+      <resource name="TemplateConfiguration">
+        <object>Sniðmátsupplýsingar eru ekki löglegar</object>
+      </resource>
+      <resource name="LotCreateRuleMia">
+        <object>Regla til að smíða lotu fannst ekki</object>
+      </resource>
+      <resource name="NoDefaultLotCreateRule">
+        <object>Engin sjálfgefin smíðaregla fannst</object>
+      </resource>
+      <resource name="TooManyDefaultRules">
+        <object>Fleir en ein sjálfgefin smíðaregla fannst</object>
+      </resource>
+      <resource name="ErrorCreatingNewLot">
+        <object>Villa kom upp við smíði nýrrar lotu</object>
+      </resource>
+      <resource name="LoadProductionPlan">
+        <object>Tókst ekki að lesa upplýsingar um framleiðsluáætlun</object>
+      </resource>
+      <resource name="MissingLot">
+        <object>Vinnsluþátt vantar lotu</object>
+      </resource>
+      <resource name="LoadSupplyMethod">
+        <object>Ekki tókst að lesa gerðir aðfanga úr gagnagrunni</object>
+      </resource>
+      <resource name="AmountNotAvailable">
+        <object>Umbeðið magn aðfanga er ekki til staðar</object>
+      </resource>
+      <resource name="AddSuppliesFailed">
+        <object>Ekki tókst að bæta við aðföngum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Printers.DataEngine.ContextNodeManager" ServiceOnly="false">
+      <resource name="item">
+        <object>Askja</object>
+      </resource>
+      <resource name="pack">
+        <object>Pakki</object>
+      </resource>
+      <resource name="stack">
+        <object>Stafli</object>
+      </resource>
+      <resource name="pallet">
+        <object>Bretti</object>
+      </resource>
+      <resource name="container">
+        <object>Flutningseining</object>
+      </resource>
+      <resource name="shipment">
+        <object>Afskipun</object>
+      </resource>
+      <resource name="order">
+        <object>Pöntun</object>
+      </resource>
+      <resource name="orderline">
+        <object>Pantanalína</object>
+      </resource>
+      <resource name="context">
+        <object>Prentgögn</object>
+      </resource>
+      <resource name="FirstStackPack">
+        <object>Fyrsti pakki í stafla</object>
+      </resource>
+      <resource name="NextStackPack">
+        <object>Næsti pakki í stafla</object>
+      </resource>
+      <resource name="LastStackPack">
+        <object>Síðasti pakki í stafla</object>
+      </resource>
+      <resource name="FirstPalletPack">
+        <object>Fyrsti pakki á bretti</object>
+      </resource>
+      <resource name="NextPalletPack">
+        <object>Næsti pakki á bretti</object>
+      </resource>
+      <resource name="LastPalletPack">
+        <object>Síðasti pakki á bretti</object>
+      </resource>
+      <resource name="FirstPalletStack">
+        <object>Fyrsti stafli á bretti</object>
+      </resource>
+      <resource name="NextPalletStack">
+        <object>Næsti stafli á bretti</object>
+      </resource>
+      <resource name="LastPalletStack">
+        <object>Síðasti stafli á bretti</object>
+      </resource>
+      <resource name="FirstPackItem">
+        <object>Fyrsta askja í pakka</object>
+      </resource>
+      <resource name="NextPackItem">
+        <object>Næsta askja í pakka</object>
+      </resource>
+      <resource name="LastPackItem">
+        <object>Síðasta askja í pakka</object>
+      </resource>
+      <resource name="storedprocedures">
+        <object>Gagnagrunnsstefja</object>
+      </resource>
+      <resource name="execitemsp">
+        <object>Öskjustefja</object>
+      </resource>
+      <resource name="execpacksp">
+        <object>Pakkastefja</object>
+      </resource>
+      <resource name="execstacksp">
+        <object>Staflastefja</object>
+      </resource>
+      <resource name="execpalletsp">
+        <object>Brettastefja</object>
+      </resource>
+      <resource name="execcontainersp">
+        <object>Flutningseiningarstefja</object>
+      </resource>
+      <resource name="execshipmentsp">
+        <object>Afskipunarstefja</object>
+      </resource>
+      <resource name="lot">
+        <object>Lota</object>
+      </resource>
+      <resource name="execindividualsp">
+        <object>Dýrastefja</object>
+      </resource>
+      <resource name="FirstSupplierLot">
+        <object>Fyrsta aðfangalota</object>
+      </resource>
+      <resource name="NextSupplierLot">
+        <object>Næsta aðfangalota</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Printers.DataEngine.ExtraStringNodeManager" ServiceOnly="false">
+      <resource name="extrastring">
+        <object>Sértexti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Printers.DataEngine.MacroNodeManager" ServiceOnly="false">
+      <resource name="macro">
+        <object>Samsettur texti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Printers.DataEngine.ProcessEngine" ServiceOnly="false">
+      <resource name="process">
+        <object>Vinnslukerfi</object>
+      </resource>
+      <resource name="materialc">
+        <object>Viðskiptavinur</object>
+      </resource>
+      <resource name="func">
+        <object>Föll</object>
+      </resource>
+      <resource name="progressratio">
+        <object>Framgangur a/b</object>
+      </resource>
+      <resource name="progresspct">
+        <object>Framgangur %</object>
+      </resource>
+      <resource name="firstpack">
+        <object>Fyrsti pakki</object>
+      </resource>
+      <resource name="nextpack">
+        <object>Næsti pakki</object>
+      </resource>
+      <resource name="lastpack">
+        <object>Síðasti pakki</object>
+      </resource>
+      <resource name="firststack">
+        <object>Fyrsti stafli</object>
+      </resource>
+      <resource name="nextstack">
+        <object>Næsti stafli</object>
+      </resource>
+      <resource name="laststack">
+        <object>Síðasti stafli</object>
+      </resource>
+      <resource name="firstitem">
+        <object>Fyrsta askja</object>
+      </resource>
+      <resource name="nextitem">
+        <object>Næsta askja</object>
+      </resource>
+      <resource name="lastitem">
+        <object>Síðasta askja</object>
+      </resource>
+      <resource name="prunit">
+        <object>Vinnsluþáttur</object>
+      </resource>
+      <resource name="line">
+        <object>Lína</object>
+      </resource>
+      <resource name="materiala">
+        <object>Umboðsmaður</object>
+      </resource>
+      <resource name="meanweight">
+        <object>Meðalþyngd</object>
+      </resource>
+      <resource name="ean13p">
+        <object>EAN13 verð</object>
+      </resource>
+      <resource name="ean13p_d">
+        <object>EAN13 afsláttarverð</object>
+      </resource>
+      <resource name="ean13pc">
+        <object>EAN13 verð m/vs</object>
+      </resource>
+      <resource name="ean13pc_d">
+        <object>EAN13 afsláttarverð m/vs</object>
+      </resource>
+      <resource name="nean13p">
+        <object>Óstaðlað EAN13 verð</object>
+      </resource>
+      <resource name="nean13p_d">
+        <object>Óstaðlað EAN13 afsláttarverð</object>
+      </resource>
+      <resource name="nean13pc">
+        <object>Óstaðlað EAN13 verð m/vs</object>
+      </resource>
+      <resource name="nean13pc_d">
+        <object>Óstaðlað EAN13 afsláttarverð m/vs</object>
+      </resource>
+      <resource name="upcw">
+        <object>UPC þyngd</object>
+      </resource>
+      <resource name="upcwc">
+        <object>UPC þyngd m/vs</object>
+      </resource>
+      <resource name="upcp">
+        <object>UPC verð</object>
+      </resource>
+      <resource name="upcp_d">
+        <object>UPC afsláttarverð</object>
+      </resource>
+      <resource name="upcpc">
+        <object>UPC verð m/vs</object>
+      </resource>
+      <resource name="upcpc_d">
+        <object>UPC afsláttarverð m/vs</object>
+      </resource>
+      <resource name="proc_boms">
+        <object>Uppskriftir</object>
+      </resource>
+      <resource name="proc_packs">
+        <object>Pakkar</object>
+      </resource>
+      <resource name="proc_breeds">
+        <object>Dýrategundir</object>
+      </resource>
+      <resource name="proc_categories">
+        <object>Sláturflokkar</object>
+      </resource>
+      <resource name="proc_collections">
+        <object>Söfn</object>
+      </resource>
+      <resource name="base_companies">
+        <object>Fyrirtæki</object>
+      </resource>
+      <resource name="proc_conditions">
+        <object>Ástandstegundir</object>
+      </resource>
+      <resource name="base_contactpersons">
+        <object>Tengiliðir</object>
+      </resource>
+      <resource name="proc_contentspecs">
+        <object>Pakkningar</object>
+      </resource>
+      <resource name="proc_conservations">
+        <object>Geymslutegundir</object>
+      </resource>
+      <resource name="proc_countries">
+        <object>Lönd</object>
+      </resource>
+      <resource name="proc_currencies">
+        <object>Gjaldmiðlar</object>
+      </resource>
+      <resource name="base_devices">
+        <object>Tæki</object>
+      </resource>
+      <resource name="base_employees">
+        <object>Starfsmenn</object>
+      </resource>
+      <resource name="proc_fatclasses">
+        <object>Fituflokkar</object>
+      </resource>
+      <resource name="proc_groups">
+        <object>Hópar</object>
+      </resource>
+      <resource name="proc_individuals">
+        <object>Dýr</object>
+      </resource>
+      <resource name="proc_invlocations">
+        <object>Lagerstaðsetningar</object>
+      </resource>
+      <resource name="proc_items">
+        <object>Öskjur</object>
+      </resource>
+      <resource name="proc_killmethods">
+        <object>Sláturaðferðir</object>
+      </resource>
+      <resource name="proc_layouts">
+        <object>Límmiðar</object>
+      </resource>
+      <resource name="proc_lots">
+        <object>Lotur</object>
+      </resource>
+      <resource name="proc_materials">
+        <object>Afurðir</object>
+      </resource>
+      <resource name="proc_materialtypes">
+        <object>Afurðategundir</object>
+      </resource>
+      <resource name="proc_orderl">
+        <object>Pantanalínur</object>
+      </resource>
+      <resource name="proc_orders">
+        <object>Pantanir</object>
+      </resource>
+      <resource name="proc_prperiods">
+        <object>Vinnslutímabil</object>
+      </resource>
+      <resource name="proc_prunits">
+        <object>Vinnsluþættir</object>
+      </resource>
+      <resource name="proc_plots">
+        <object>Framleiðslulotur</object>
+      </resource>
+      <resource name="proc_pol">
+        <object>Innkaupapantanalínur</object>
+      </resource>
+      <resource name="proc_pos">
+        <object>Innkaupapantanir</object>
+      </resource>
+      <resource name="proc_qamarks">
+        <object>QA merki</object>
+      </resource>
+      <resource name="proc_qualities">
+        <object>Gæðaflokkar</object>
+      </resource>
+      <resource name="proc_rmareas">
+        <object>Veiðisvæði</object>
+      </resource>
+      <resource name="proc_shifts">
+        <object>Vaktir</object>
+      </resource>
+      <resource name="base_sites">
+        <object>Hús</object>
+      </resource>
+      <resource name="proc_sizes">
+        <object>Stærðarflokkar</object>
+      </resource>
+      <resource name="proc_stations">
+        <object>Stæði</object>
+      </resource>
+      <resource name="proc_subgroups">
+        <object>Undirhópar</object>
+      </resource>
+      <resource name="proc_vehicles">
+        <object>Flutningstæki</object>
+      </resource>
+      <resource name="proc_vehicletypes">
+        <object>Tegundir flutningstækja</object>
+      </resource>
+      <resource name="proc_yieldgroups">
+        <object>Nýtingarhópar</object>
+      </resource>
+      <resource name="base_cultures">
+        <object>Tungumál</object>
+      </resource>
+      <resource name="proc_matpricelists">
+        <object>Verðlistar</object>
+      </resource>
+      <resource name="base_assemblies">
+        <object>Forritsskrár</object>
+      </resource>
+      <resource name="proc_coltemplates">
+        <object>Sniðmát</object>
+      </resource>
+      <resource name="prdayex">
+        <object>Framleiðsludagsfærsla</object>
+      </resource>
+      <resource name="lotinputs">
+        <object>Lotu inntak</object>
+      </resource>
+      <resource name="first">
+        <object>Fyrsta</object>
+      </resource>
+      <resource name="last">
+        <object>Síðasta</object>
+      </resource>
+      <resource name="proc_hidecolors">
+        <object>Skinnlitir</object>
+      </resource>
+      <resource name="proc_lotinput">
+        <object>Lotuinntak</object>
+      </resource>
+      <resource name="proc_prdays">
+        <object>Framleiðsludagsfærslur</object>
+      </resource>
+      <resource name="storedprocedure">
+        <object>Gagnagrunnsstefja</object>
+      </resource>
+      <resource name="pricefmt">
+        <object>Verð</object>
+      </resource>
+      <resource name="dpricefmt">
+        <object>Afsláttarverð</object>
+      </resource>
+      <resource name="basepricefmt">
+        <object>Verð per einingu</object>
+      </resource>
+      <resource name="basedpricefmt">
+        <object>Afsláttarverð per einingu</object>
+      </resource>
+      <resource name="pricediff">
+        <object>Afsláttur</object>
+      </resource>
+      <resource name="nominallandunit">
+        <object>Merkt þyngd</object>
+      </resource>
+      <resource name="nominallandunit2">
+        <object>Merkt þyngd 2</object>
+      </resource>
+      <resource name="dateline">
+        <object>Dagsetning og tími</object>
+      </resource>
+      <resource name="packnumber">
+        <object>Pakkanúmer</object>
+      </resource>
+      <resource name="batchnumber">
+        <object>Skammtanúmer</object>
+      </resource>
+      <resource name="sequencenumber">
+        <object>Raðnúmer</object>
+      </resource>
+      <resource name="wpl">
+        <object>Wpl</object>
+      </resource>
+      <resource name="basepricediff">
+        <object>Verðmunur</object>
+      </resource>
+      <resource name="cl">
+        <object>CL</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Printers.DataEngine.SystemNodeManager" ServiceOnly="false">
+      <resource name="system">
+        <object>Kerfisgildi</object>
+      </resource>
+      <resource name="char">
+        <object>Stafur</object>
+      </resource>
+      <resource name="now">
+        <object>Tími</object>
+      </resource>
+      <resource name="text">
+        <object>Form</object>
+      </resource>
+      <resource name="sysunit">
+        <object>Kerfisþyngdareining</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Printers.DataEngine.Gs1MacroNodeManager" ServiceOnly="false">
+      <resource name="gs1macro">
+        <object>GS1-128 texti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Printers.DataEngine.ScriptNodeManager" ServiceOnly="false">
+      <resource name="script">
+        <object>Skrifta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.SupplyListMethod" ServiceOnly="false">
+      <resource name="Replace">
+        <object>Skipta út</object>
+      </resource>
+      <resource name="AddActive">
+        <object>Bæta við virka</object>
+      </resource>
+      <resource name="AddInactive">
+        <object>Bæta við óvirka</object>
+      </resource>
+      <resource name="AddActiveExclusiveSupply">
+        <object>Bæta við virka, ein virk</object>
+      </resource>
+      <resource name="AddInactiveExclusiveSupply">
+        <object>Bæta við óvirka, ein virk</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.SupplyOpAction" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ótilgreint</object>
+      </resource>
+      <resource name="Select">
+        <object>Velja</object>
+      </resource>
+      <resource name="Remove">
+        <object>Fjarlægja</object>
+      </resource>
+      <resource name="Active">
+        <object>Virkja</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotType" ServiceOnly="false">
+      <resource name="Process">
+        <object>Vinnslulota</object>
+      </resource>
+      <resource name="SupplierProtein">
+        <object>Aðfangalota (prótín)</object>
+      </resource>
+      <resource name="SupplierIngredient">
+        <object>Aðfangalota (annað hráefni)</object>
+      </resource>
+      <resource name="SupplierPackaging">
+        <object>Aðfangalota (pökkunarefni)</object>
+      </resource>
+      <resource name="Supplier">
+        <object>Aðfangalota</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.Criterias.OrderCriteriaProvider" ServiceOnly="false">
+      <resource name="InactivateOrders">
+        <object>Aftengja pantanir</object>
+      </resource>
+      <resource name="InactivateOrders.Description">
+        <object>Aftengir gamlar pantanir og eyðir færslum í 'prunit-order' tengitöflu.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.Criterias.PurchaseOrderCriteriaProvider" ServiceOnly="false">
+      <resource name="InactivatePos">
+        <object>Aftengja innkaupapantanir</object>
+      </resource>
+      <resource name="InactivatePos.Description">
+        <object>Aftengir innkaupapantanir og eyðir færslum í 'prunit-pos' tengitöflu.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.Criterias.LotCriteriaProvider" ServiceOnly="false">
+      <resource name="InactivateLots">
+        <object>Aftengja lotur</object>
+      </resource>
+      <resource name="InactivateLots.Description">
+        <object>Aftengir lotur og eyðir færslum í 'prunit-lots' tengitöflu.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.Criterias.OrderLineCriteriaProvider" ServiceOnly="false">
+      <resource name="NoAction">
+        <object>Engin aðgerð</object>
+      </resource>
+      <resource name="NoAction.Description">
+        <object>Engin hreinsi aðgerð.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.RecipeSystem.Steps.RecipeStepStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Ekki hafið</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Í gangi</object>
+      </resource>
+      <resource name="Done">
+        <object>Búið</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.RecipeSystem.EntryType" ServiceOnly="false">
+      <resource name="RecipeControl">
+        <object>Uppskrift</object>
+      </resource>
+      <resource name="StepControl">
+        <object>Skref</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.RecipeSystem.ActionType" ServiceOnly="false">
+      <resource name="CreateBatch">
+        <object>Búa til framleiðlsulotu</object>
+      </resource>
+      <resource name="StartBatch">
+        <object>Byrja framleiðlsulotu</object>
+      </resource>
+      <resource name="PrepareBatch">
+        <object>Undirbúa framleiðslulotu</object>
+      </resource>
+      <resource name="SuspendBatch">
+        <object>Stöðva framleiðslulotu</object>
+      </resource>
+      <resource name="ResumeBatch">
+        <object>Hefja framleiðslulotu</object>
+      </resource>
+      <resource name="CancelBatch">
+        <object>Hætta við framleiðslulotu</object>
+      </resource>
+      <resource name="CompleteBatch">
+        <object>Klára framleiðslulotu</object>
+      </resource>
+      <resource name="StartStep">
+        <object>Hefja skref</object>
+      </resource>
+      <resource name="CompleteStep">
+        <object>Klára skref</object>
+      </resource>
+      <resource name="RegisterInpection">
+        <object>Gæðaskoðun lokið</object>
+      </resource>
+      <resource name="StopInspection">
+        <object>Gæðaskoðun stöðvuð</object>
+      </resource>
+      <resource name="SetActivity">
+        <object>Vinslulykill virkjaður</object>
+      </resource>
+      <resource name="ChanceLotStatus">
+        <object>Ástand lotu breytt</object>
+      </resource>
+      <resource name="ChangePriority">
+        <object>Forgangi breytt</object>
+      </resource>
+      <resource name="LineSetupComplete">
+        <object>Línusamsetningu lokið</object>
+      </resource>
+      <resource name="UnitOperation">
+        <object>Einingaaðgerð</object>
+      </resource>
+      <resource name="ConsumeOperation">
+        <object>Notkunar aðgerð</object>
+      </resource>
+      <resource name="Error">
+        <object>Villa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.RecipeSystem.MasterRecipeStatus" ServiceOnly="false">
+      <resource name="Draft">
+        <object>Drög</object>
+      </resource>
+      <resource name="Approved">
+        <object>Samþykkt</object>
+      </resource>
+      <resource name="Released">
+        <object>Útgefin</object>
+      </resource>
+      <resource name="Effective">
+        <object>Virk</object>
+      </resource>
+      <resource name="Withdrawn">
+        <object>Afturkölluð</object>
+      </resource>
+      <resource name="Review">
+        <object>Endurskoðuð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.RecipeSystem.Steps.RecipeStepType" ServiceOnly="false">
+      <resource name="SequentialGroup">
+        <object>Raðræn grúppa</object>
+      </resource>
+      <resource name="ParallelGroup">
+        <object>Hliðræn grúppa</object>
+      </resource>
+      <resource name="ChoiceGroup">
+        <object>Valgrúppa</object>
+      </resource>
+      <resource name="Weighing">
+        <object>Viktun</object>
+      </resource>
+      <resource name="Scanning">
+        <object>Skönnun</object>
+      </resource>
+      <resource name="Confirmation">
+        <object>Staðfesting</object>
+      </resource>
+      <resource name="Activity">
+        <object>Aðgerð</object>
+      </resource>
+      <resource name="UnitOperation">
+        <object>Uppskriftaraðgerð</object>
+      </resource>
+      <resource name="Recipe">
+        <object>Uppskrift</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Gæðaskoðun</object>
+      </resource>
+      <resource name="Custom">
+        <object>Sértækt</object>
+      </resource>
+      <resource name="Production">
+        <object>Framleiðsla</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.RecipeSystem.ToleranceType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Óskilgreint</object>
+      </resource>
+      <resource name="Absolute">
+        <object>Algildi</object>
+      </resource>
+      <resource name="Percentage">
+        <object>Hlutfall</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.ReportExporter.ExportDisplayNameMethod" ServiceOnly="false">
+      <resource name="GuiItem">
+        <object>Viðmótshlutar</object>
+      </resource>
+      <resource name="Name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="Override">
+        <object>Yfirskrifa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.RecipeSystem.BatchProcessingStatus" ServiceOnly="false">
+      <resource name="NotUsed">
+        <object>Ekki notað</object>
+      </resource>
+      <resource name="Waiting">
+        <object>Í biðstöðu</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Í gangi</object>
+      </resource>
+      <resource name="Done">
+        <object>Búið</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextItemFlags" ServiceOnly="false">
+      <resource name="None">
+        <object>Engin</object>
+      </resource>
+      <resource name="Activity">
+        <object>Vinnslulykill</object>
+      </resource>
+      <resource name="Po">
+        <object>Innkaupapöntun</object>
+      </resource>
+      <resource name="Batch">
+        <object>Lotunúmer</object>
+      </resource>
+      <resource name="Lot">
+        <object>Lota</object>
+      </resource>
+      <resource name="ProductionLot">
+        <object>Vinnslulota</object>
+      </resource>
+      <resource name="ProductionDay">
+        <object>Vinnsludagur</object>
+      </resource>
+      <resource name="Shift">
+        <object>Vakt</object>
+      </resource>
+      <resource name="ProfilePeriod">
+        <object>Vinnutímabil</object>
+      </resource>
+      <resource name="RmArea">
+        <object>Hráefnissvæði</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ControlRecipeCriteriaProvider" ServiceOnly="false">
+      <resource name="DeleteControlRecipes">
+        <object>Eyða stýriuppskriftum</object>
+      </resource>
+      <resource name="DeleteControlRecipes.Description">
+        <object>Eyða stýriuppskriftum og gögnum þeirra. Hreinsa stýriuppskriftadálkinn í proc_orders</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.LineProfiler.ProductionLineConfigStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ótilgreint</object>
+      </resource>
+      <resource name="Waiting">
+        <object>Í biðstöðu</object>
+      </resource>
+      <resource name="Ready">
+        <object>Tilbúið</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Í gangi</object>
+      </resource>
+      <resource name="Done">
+        <object>Búið</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.LineProfiler.PLineSetupStepStatus" ServiceOnly="false">
+      <resource name="NotDone">
+        <object>Ekki búið</object>
+      </resource>
+      <resource name="Done">
+        <object>Búið</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Hætt við</object>
+      </resource>
+      <resource name="Waiting">
+        <object>Í biðstöðu</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Í gangi</object>
+      </resource>
+      <resource name="ManuallyDone">
+        <object>Klárað handvirkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.LineProfiler.LineSetupStatus" ServiceOnly="false">
+      <resource name="InQueue">
+        <object>Í biðstöðu</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Í gangi</object>
+      </resource>
+      <resource name="Done">
+        <object>Búið</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Hætt við</object>
+      </resource>
+      <resource name="Waiting">
+        <object>Í biðstöðu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.LineProfiler.LineProfileStatus" ServiceOnly="false">
+      <resource name="Draft">
+        <object>Drög</object>
+      </resource>
+      <resource name="Released">
+        <object>Útgefið</object>
+      </resource>
+      <resource name="Withdrawn">
+        <object>Afturkallað</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.CalculationStatus" ServiceOnly="false">
+      <resource name="New">
+        <object>Nýtt</object>
+      </resource>
+      <resource name="Open">
+        <object>Opið</object>
+      </resource>
+      <resource name="Fresh">
+        <object>Ferskt</object>
+      </resource>
+      <resource name="Stale">
+        <object>Stöðugt</object>
+      </resource>
+      <resource name="Closed">
+        <object>Lokað</object>
+      </resource>
+      <resource name="Final">
+        <object>Seinustu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.LineProfiler.CompleteMethod" ServiceOnly="false">
+      <resource name="Manual">
+        <object>Handvirk</object>
+      </resource>
+      <resource name="Auto">
+        <object>Sjálfvirk</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

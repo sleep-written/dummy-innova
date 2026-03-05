@@ -1,0 +1,2136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="nl">
+  <industry>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.SystemSetup.WgmSystemView" ServiceOnly="false">
+      <resource name="paramTabPage.Text">
+        <object>Gewichtbanen</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Code</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Naam</object>
+      </resource>
+      <resource name="grpSystem.Text">
+        <object>Systeem</object>
+      </resource>
+      <resource name="sysPrgLookUp.ToolTip">
+        <object>Systeemprogramma waarmee het systeem wordt uitgevoerd</object>
+      </resource>
+      <resource name="siteLookUp.ToolTip">
+        <object>Locatie waartoe het systeem behoort</object>
+      </resource>
+      <resource name="sysAppLookUp.ToolTip">
+        <object>Applicatie die het systeem regelt</object>
+      </resource>
+      <resource name="lblSysProgram.Text">
+        <object>Systeemprogramma:</object>
+      </resource>
+      <resource name="lblSite.Text">
+        <object>Locatie:</object>
+      </resource>
+      <resource name="lblApplication.Text">
+        <object>Applicatie:</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Fout bij het opslaan van gegevens.</object>
+      </resource>
+      <resource name="Err.CancelEdit">
+        <object>Fout bij het annuleren.</object>
+      </resource>
+      <resource name="Err.NoObjectSelected">
+        <object>Er is geen object geselecteerd</object>
+      </resource>
+      <resource name="Err.NoObjectSelectedCaption">
+        <object>Informatie</object>
+      </resource>
+      <resource name="Err.DeletingStationChildren">
+        <object>Kan onderliggende items van het station niet verwijderen</object>
+      </resource>
+      <resource name="Err.DeletingStationData">
+        <object>Kan station niet verwijderen. Station bevat gegevens.</object>
+      </resource>
+      <resource name="CardData.Title">
+        <object>Ontbrekende eigenschappen</object>
+      </resource>
+      <resource name="EqmLookup.Config">
+        <object>Config</object>
+      </resource>
+      <resource name="EqmLookup.Line">
+        <object>Lijn</object>
+      </resource>
+      <resource name="EqmLookup.DeviceName">
+        <object>Apparaatnaam</object>
+      </resource>
+      <resource name="EqmLookup.DeviceId">
+        <object>Apparaat-id</object>
+      </resource>
+      <resource name="CardData.WeigherConfig">
+        <object>voordat de wegerbanen kunnen worden geconfigureerd</object>
+      </resource>
+      <resource name="CardData.DataSaved">
+        <object>voordat het wegersysteem kan worden opgeslagen</object>
+      </resource>
+      <resource name="CardData.Text.Single">
+        <object>De volgende eigenschap moet worden gedefinieerd</object>
+      </resource>
+      <resource name="CardData.Text.Multi">
+        <object>De volgende eigenschappen moeten worden gedefinieerd</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Wilt u de gegevens opslaan?</object>
+      </resource>
+      <resource name="Save.Title">
+        <object>Gegevens opslaan</object>
+      </resource>
+    </type>
+    <type name="Grid.Wgm.System" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="active">
+        <object>Actief</object>
+      </resource>
+      <resource name="name">
+        <object>Naam baan</object>
+      </resource>
+      <resource name="wgmsystem">
+        <object>Systeem</object>
+      </resource>
+      <resource name="eqmdevice">
+        <object>EQM-apparaat</object>
+      </resource>
+      <resource name="tapdevice Name">
+        <object>TAP-apparaat</object>
+      </resource>
+      <resource name="tapdevice">
+        <object>Code van TAP-apparaat</object>
+      </resource>
+      <resource name="mws2device Name">
+        <object>MWS2-apparaat</object>
+      </resource>
+      <resource name="mws2device">
+        <object>Code van MWS2-apparaat</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.ManagementView" ServiceOnly="false">
+      <resource name="colLine.Caption">
+        <object>Lijn</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Naam van de lijn waarvan het apparaat deel uitmaakt</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Apparaat</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Hiermee wordt de naam van het apparaat getoond</object>
+      </resource>
+      <resource name="colConnection.Caption">
+        <object>Verbinding</object>
+      </resource>
+      <resource name="colConnection.ToolTip">
+        <object>Hiermee wordt de verbindingsstatus van het apparaat getoond</object>
+      </resource>
+      <resource name="colPerformanceMon.Caption">
+        <object>Prestatiebewaking</object>
+      </resource>
+      <resource name="colPerformanceMon.ToolTip">
+        <object>Afwijkingspercentage van de werkelijke standaardafwijking voor lege haken vergeleken met de geconfigureerde globale standaardafwijking voor lege haken</object>
+      </resource>
+      <resource name="colEmptyShackle.Caption">
+        <object>Standaardafwijking voor lege haken (##)</object>
+      </resource>
+      <resource name="colEmptyShackle.ToolTip">
+        <object>Standaardafwijking in het gewicht van alle haken in de lijn</object>
+      </resource>
+      <resource name="colShackleMon.Caption">
+        <object>Statusbewaking haken</object>
+      </resource>
+      <resource name="colShackleMon.ToolTip">
+        <object>Percentage goede haken in de lijn</object>
+      </resource>
+      <resource name="colActWeight.Caption">
+        <object>Werkelijk gewicht (##)</object>
+      </resource>
+      <resource name="colActWeight.ToolTip">
+        <object>Het werkelijke gewicht van de haak</object>
+      </resource>
+      <resource name="colLogging.Caption">
+        <object>Logboekregistratie</object>
+      </resource>
+      <resource name="colLogging.ToolTip">
+        <object>Hiermee wordt aangegeven of logboekregistratie momenteel actief is</object>
+      </resource>
+      <resource name="colLineRunning.Caption">
+        <object>Lijn actief</object>
+      </resource>
+      <resource name="colLineRunning.ToolTip">
+        <object>Hiermee wordt aangegeven of de lijn actief is</object>
+      </resource>
+      <resource name="barBtnRefresh.Caption">
+        <object>Vernieuwen</object>
+      </resource>
+      <resource name="barBtnPerformanceTest.Caption">
+        <object>Prestatietest</object>
+      </resource>
+      <resource name="barBtnMws2Management.Caption">
+        <object>Kalibratie en scoping</object>
+      </resource>
+      <resource name="colTrackName.Caption">
+        <object>Naam baan</object>
+      </resource>
+      <resource name="colTrackName.ToolTip">
+        <object>Hiermee wordt de naam van de baan weergegeven zoals gedefinieerd in Innova</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Fout</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Laatste interne fout voor de baan tonen</object>
+      </resource>
+      <resource name="barBtnRefresh.Hint">
+        <object>Gegevens van de rasters vernieuwen en opnieuw laden</object>
+      </resource>
+      <resource name="barBtnMws2Management.Hint">
+        <object>Hiermee wordt het dialoogvenster geopend voor MWS2-beheer van kalibratie en scoping</object>
+      </resource>
+      <resource name="barBtnPerformanceTest.Hint">
+        <object>Hiermee wordt het dialoogvenster voor prestatietests geopend</object>
+      </resource>
+      <resource name="colTareShackleId.Caption">
+        <object>Haak-id</object>
+      </resource>
+      <resource name="colTareShackleId.ToolTip">
+        <object>Id van de haak</object>
+      </resource>
+      <resource name="colTareNetWeight.Caption">
+        <object>Nettogewicht (##)</object>
+      </resource>
+      <resource name="colTareNetWeight.ToolTip">
+        <object>Hiermee wordt het tarra-nettogewicht getoond</object>
+      </resource>
+      <resource name="colTareGrossWeight.Caption">
+        <object>Brutogewicht (##)</object>
+      </resource>
+      <resource name="colTareGrossWeight.ToolTip">
+        <object>Hiermee wordt het tarra-brutogewicht getoond</object>
+      </resource>
+      <resource name="colTareGlobalTare.Caption">
+        <object>Globale tarra (##)</object>
+      </resource>
+      <resource name="colTareGlobalTare.ToolTip">
+        <object>Hiermee wordt de globale tarra getoond</object>
+      </resource>
+      <resource name="colTareIndividualTare.Caption">
+        <object>Afzonderlijke tarra (##)</object>
+      </resource>
+      <resource name="colTareIndividualTare.ToolTip">
+        <object>Hiermee wordt de afzonderlijke tarra getoond</object>
+      </resource>
+      <resource name="colTareRejectHistoryString.Caption">
+        <object>Afkeuringsgeschiedenis</object>
+      </resource>
+      <resource name="colTareRejectHistoryString.ToolTip">
+        <object>Hiermee wordt de tarra-afkeuringsgeschiedenis getoond</object>
+      </resource>
+      <resource name="colTareRoundsLearned.Caption">
+        <object>Aantal geleerde rondes</object>
+      </resource>
+      <resource name="colTareRoundsLearned.ToolTip">
+        <object>Hiermee wordt het aantal geleerde rondes getoond</object>
+      </resource>
+      <resource name="colBadShackleId.Caption">
+        <object>Haak-id</object>
+      </resource>
+      <resource name="colBadShackleId.ToolTip">
+        <object>Id van de haak</object>
+      </resource>
+      <resource name="colBadGrossWeight.Caption">
+        <object>Brutogewicht (##)</object>
+      </resource>
+      <resource name="colBadGrossWeight.ToolTip">
+        <object>Hiermee wordt het tarra-brutogewicht getoond</object>
+      </resource>
+      <resource name="colBadNetWeight.Caption">
+        <object>Nettogewicht (##)</object>
+      </resource>
+      <resource name="colBadNetWeight.ToolTip">
+        <object>Hiermee wordt het tarra-nettogewicht getoond</object>
+      </resource>
+      <resource name="colBadGlobalTare.Caption">
+        <object>Globale tarra (##)</object>
+      </resource>
+      <resource name="colBadGlobalTare.ToolTip">
+        <object>Hiermee wordt de globale tarra getoond</object>
+      </resource>
+      <resource name="colBadIndividualTare.Caption">
+        <object>Afzonderlijke tarra (##)</object>
+      </resource>
+      <resource name="colBadIndividualTare.ToolTip">
+        <object>Hiermee wordt de afzonderlijke tarra getoond</object>
+      </resource>
+      <resource name="colBadRejectionHistoryString.Caption">
+        <object>Afkeuringsgeschiedenis</object>
+      </resource>
+      <resource name="colBadRejectionHistoryString.ToolTip">
+        <object>Hiermee wordt de tarra-afkeuringsgeschiedenis getoond</object>
+      </resource>
+      <resource name="colBadRoundsLearned.Caption">
+        <object>Aantal geleerde rondes</object>
+      </resource>
+      <resource name="colBadRoundsLearned.ToolTip">
+        <object>Hiermee wordt het aantal geleerde rondes getoond</object>
+      </resource>
+      <resource name="colLogShackleId.Caption">
+        <object>Haak-id</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>Id van de haak</object>
+      </resource>
+      <resource name="colLogRegTime.Caption">
+        <object>Registratietijd</object>
+      </resource>
+      <resource name="colLogRegTime.ToolTip">
+        <object>Tijdstip waarop het item naar de database werd geschreven</object>
+      </resource>
+      <resource name="colLogOldWeight.Caption">
+        <object>Vorig gewicht (##)</object>
+      </resource>
+      <resource name="colLogOldWeight.ToolTip">
+        <object>Hiermee wordt het vorige gewicht getoond</object>
+      </resource>
+      <resource name="colLogWeight.Caption">
+        <object>Nettogewicht (##)</object>
+      </resource>
+      <resource name="colLogWeight.ToolTip">
+        <object>Hiermee wordt het tarra-nettogewicht getoond</object>
+      </resource>
+      <resource name="colLogGrossWeight.Caption">
+        <object>Brutogewicht (##)</object>
+      </resource>
+      <resource name="colLogGrossWeight.ToolTip">
+        <object>Hiermee wordt het tarra-brutogewicht getoond</object>
+      </resource>
+      <resource name="colLogActualTare.Caption">
+        <object>Globale tarra (##)</object>
+      </resource>
+      <resource name="colLogActualTare.ToolTip">
+        <object>Het werkelijke gewicht van de tarra</object>
+      </resource>
+      <resource name="colLogIndividualTare.Caption">
+        <object>Afzonderlijke tarra (##)</object>
+      </resource>
+      <resource name="colLogIndividualTare.ToolTip">
+        <object>Hiermee wordt de afzonderlijke tarra getoond</object>
+      </resource>
+      <resource name="colLogRoundsLearned.Caption">
+        <object>Aantal geleerde rondes</object>
+      </resource>
+      <resource name="colLogRoundsLearned.ToolTip">
+        <object>Hiermee wordt het aantal geleerde rondes getoond</object>
+      </resource>
+      <resource name="colLogWeightQuality.Caption">
+        <object>Gewichtskwaliteit</object>
+      </resource>
+      <resource name="colLogWeightQuality.ToolTip">
+        <object>Hiermee wordt de gewichtskwaliteit getoond</object>
+      </resource>
+      <resource name="colDeveloperInfo.Caption">
+        <object>Ontwikkelaarsinfo</object>
+      </resource>
+      <resource name="colDeveloperInfo.ToolTip">
+        <object>Informatie voor analyse door de ontwikkelaar</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Bewerkingen</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>GUI-item opnieuw laden</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Standaardlay-out herstellen</object>
+      </resource>
+      <resource name="barBtnDesignMode.Caption">
+        <object>Ontwerpmodus</object>
+      </resource>
+      <resource name="barBtnRefreshTareGrid.Caption">
+        <object>Vernieuwen</object>
+      </resource>
+      <resource name="barBtnRefreshTareGrid.Hint">
+        <object>Tarragegevens ophalen</object>
+      </resource>
+      <resource name="barBtnRefreshShackleGrid.Caption">
+        <object>Vernieuwen</object>
+      </resource>
+      <resource name="barBtnRefreshShackleGrid.Hint">
+        <object>Gegevens over slechte haken ophalen</object>
+      </resource>
+      <resource name="barBtnResetShackle.Caption">
+        <object>Selectie opnieuw leren</object>
+      </resource>
+      <resource name="barBtnResetShackle.Hint">
+        <object>Geselecteerde haken opnieuw leren</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.Caption">
+        <object>Hele lijn opnieuw leren</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.Hint">
+        <object>Hele lijn opnieuw leren</object>
+      </resource>
+      <resource name="cbLoggingHistory.Caption">
+        <object>Geschiedenis van logboekregistratie:</object>
+      </resource>
+      <resource name="loggingHistoryLookup.NullText">
+        <object>&lt;Selecteer log&gt;</object>
+      </resource>
+      <resource name="barBtnDeleteLogging.Caption">
+        <object>Verwijderen</object>
+      </resource>
+      <resource name="barBtnDeleteLogging.Hint">
+        <object>Geselecteerde logboekregistratie verwijderen</object>
+      </resource>
+      <resource name="edLoggingMinWeight.Caption">
+        <object>Min. nettogewicht (##):</object>
+      </resource>
+      <resource name="edLoggingMinWeight.Hint">
+        <object>Minimaal logboekgewicht</object>
+      </resource>
+      <resource name="edLoggingMaxWeight.Caption">
+        <object>Max. nettogewicht (##):</object>
+      </resource>
+      <resource name="edLoggingMaxWeight.Hint">
+        <object>Maximaal logboekgewicht</object>
+      </resource>
+      <resource name="edLoggingRatio.Caption">
+        <object>Logboekverhouding:</object>
+      </resource>
+      <resource name="edLoggingRatio.Hint">
+        <object>Elke N'e haak registreren in het logboek in plaats van elke haak (1 = alle haken)</object>
+      </resource>
+      <resource name="edLoggingName.Caption">
+        <object>Logboeknaam:</object>
+      </resource>
+      <resource name="LogButton.Stop">
+        <object>Stop</object>
+      </resource>
+      <resource name="LogButton.Start">
+        <object>Start</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Naam</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Geen externe verbinding met de server</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Verbindingsfout</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>Geen externe verbinding met station</object>
+      </resource>
+      <resource name="ResetShackels.Failed">
+        <object>Kan haken niet resetten</object>
+      </resource>
+      <resource name="ResetAllShackels.Failed">
+        <object>Kan niet alle haken resetten</object>
+      </resource>
+      <resource name="Logging.IllegalRange">
+        <object>Ongeldig gewichtsbereik opgegeven</object>
+      </resource>
+      <resource name="Logging.IllegalRangeCaption">
+        <object>Fout</object>
+      </resource>
+      <resource name="Logging.Failed">
+        <object>Bewerking voor logboekregistratie mislukt</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Wilt u de logboekvermelding:\n'{0}'\nverwijderen uit de database?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Logboekbestand verwijderen</object>
+      </resource>
+      <resource name="edLoggingName.Hint">
+        <object>Typ een naam voor het logboek. Als er geen naam wordt opgegeven, wordt er automatisch een naam gemaakt.</object>
+      </resource>
+      <resource name="tabTare.Text">
+        <object>Lege haken</object>
+      </resource>
+      <resource name="tabBadShackles.Text">
+        <object>Ongeldige haken</object>
+      </resource>
+      <resource name="tabLogging.Text">
+        <object>Dynamisch wegen</object>
+      </resource>
+      <resource name="staticWeight.Caption">
+        <object>Statisch gewicht (##)</object>
+      </resource>
+      <resource name="staticWeight.ToolTip">
+        <object>Het statische gewicht van de haak</object>
+      </resource>
+      <resource name="tabStaticWeight.Text">
+        <object>Statische weging</object>
+      </resource>
+      <resource name="cbLoggingHistory.Hint">
+        <object>Lijst met beschikbare logboeken om uit te kiezen</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Opslaan</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Het geselecteerde logboek opslaan in een bestand</object>
+      </resource>
+      <resource name="barBtnStartStopLogging.Caption">
+        <object>Start</object>
+      </resource>
+      <resource name="barBtnStartStopLogging.Hint">
+        <object>Klikken om de logboekregistratie te starten</object>
+      </resource>
+      <resource name="barSubOperations.Hint">
+        <object>Systeembewerkingen</object>
+      </resource>
+      <resource name="barBtnSaveTareGrid.Caption">
+        <object>Opslaan</object>
+      </resource>
+      <resource name="barBtnSaveTareGrid.Hint">
+        <object>De inhoud van de tarratabel opslaan in een bestand</object>
+      </resource>
+      <resource name="barBtnSaveBadShackleGrid.Caption">
+        <object>Opslaan</object>
+      </resource>
+      <resource name="barBtnSaveBadShackleGrid.Hint">
+        <object>De inhoud van de tabel met ongeldige haken opslaan in een bestand</object>
+      </resource>
+      <resource name="ResetShackle.Confirm">
+        <object>De afzonderlijke tarra van geselecteerde haken wordt opnieuw geleerd.\nWilt u doorgaan?</object>
+      </resource>
+      <resource name="ResetShackle.Title">
+        <object>Geselecteerde haken opnieuw leren</object>
+      </resource>
+      <resource name="ResetBadShackles.Confirm">
+        <object>De afzonderlijke tarra van alle ongeldige haken wordt opnieuw geleerd.\nWilt u doorgaan?</object>
+      </resource>
+      <resource name="ResetBadShackles.Title">
+        <object>Alle ongeldige haken opnieuw leren</object>
+      </resource>
+      <resource name="ResetAllShackle.Confirm">
+        <object>De afzonderlijke tarra en globale tarra van alle haken in de lijn wordt opnieuw geleerd.\nWilt u doorgaan?</object>
+      </resource>
+      <resource name="ResetAllShackle.Title">
+        <object>Alle haken opnieuw leren</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Hiermee worden alle UI-items opnieuw geladen</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Standaardlay-outs van UI-items herstellen</object>
+      </resource>
+      <resource name="barBtnDesignMode.Hint">
+        <object>Hiermee worden rasters ontwerpbaar gemaakt</object>
+      </resource>
+      <resource name="WgmStationNotPresent">
+        <object>Wgm-station niet aanwezig in serverapplicatie. Is de licentie geïnstalleerd?</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+      <resource name="ToggleMetricValues">
+        <object>Toggle metrisch stelsel</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Settings.TapSettings" ServiceOnly="false">
+      <resource name="colStatus.Caption">
+        <object>Status</object>
+      </resource>
+      <resource name="colStatus.ToolTip">
+        <object>Hiermee wordt de status van de instellingen getoond</object>
+      </resource>
+      <resource name="colTrack.Caption">
+        <object>Naam baan</object>
+      </resource>
+      <resource name="colTrack.ToolTip">
+        <object>Naam van de gewichtbaan die dit apparaat verwerkt</object>
+      </resource>
+      <resource name="colDownloadDate.Caption">
+        <object>Verzonden op</object>
+      </resource>
+      <resource name="colDownloadDate.ToolTip">
+        <object>Datum en tijd waarop instellingen werden verzonden naar apparaat</object>
+      </resource>
+      <resource name="colTareBackup.Caption">
+        <object>Back-up tarragegevens op</object>
+      </resource>
+      <resource name="colTareBackup.ToolTip">
+        <object>Datum en tijd waarop een back-up werd gemaakt van tarragegevens van het apparaat</object>
+      </resource>
+      <resource name="tabSource.Text">
+        <object>Bron</object>
+      </resource>
+      <resource name="tabDetection.Text">
+        <object>Productdetectie</object>
+      </resource>
+      <resource name="tabHandling.Text">
+        <object>Productverwerking</object>
+      </resource>
+      <resource name="tabAlarms.Text">
+        <object>Alarmen</object>
+      </resource>
+      <resource name="tabTare.Text">
+        <object>Tarra</object>
+      </resource>
+      <resource name="tabLogging.Text">
+        <object>Logboekregistratie</object>
+      </resource>
+      <resource name="grpWeighingSource.Text">
+        <object>Weegbron</object>
+      </resource>
+      <resource name="grpCommunication.Text">
+        <object>MWS2-communicatie</object>
+      </resource>
+      <resource name="weighingSource.PrevWeight">
+        <object>Vorig gewicht</object>
+      </resource>
+      <resource name="weighingSource.LoadCell">
+        <object>Meetcel</object>
+      </resource>
+      <resource name="chkWholeProdWeigher.Text">
+        <object>Weger voor hele producten</object>
+      </resource>
+      <resource name="lblIpAddress.Text">
+        <object>IP-adres</object>
+      </resource>
+      <resource name="lblPortNo.Text">
+        <object>Poortnr.</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Apparaat</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Hiermee de naam getoond van het apparaat waarvoor de instellingen bestemd zijn</object>
+      </resource>
+      <resource name="grpClearProduct.Text">
+        <object>Product verwijderen</object>
+      </resource>
+      <resource name="grpAddProduct.Text">
+        <object>Product toevoegen</object>
+      </resource>
+      <resource name="lblClearProdNoOfShackles.Text">
+        <object>Aantal haken nadat det/pp-alarm zich voordoet</object>
+      </resource>
+      <resource name="chkClearProdAllow.Text">
+        <object>Productverwijdering toestaan</object>
+      </resource>
+      <resource name="chkClearProdDisable.Text">
+        <object>Verwijderen van product na alarm uitschakelen</object>
+      </resource>
+      <resource name="lblAddProdNoOfShackles.Text">
+        <object>Aantal haken nadat det/pp-alarm zich voordoet</object>
+      </resource>
+      <resource name="chkAddProdAllow.Text">
+        <object>Producttoewijzing toestaan</object>
+      </resource>
+      <resource name="chkAddProdDisable.Text">
+        <object>Toewijzen van product na alarm uitschakelen</object>
+      </resource>
+      <resource name="lblAddProdWeight.Text">
+        <object>Gewicht</object>
+      </resource>
+      <resource name="lblAddProdQuality.Text">
+        <object>Kwaliteit</object>
+      </resource>
+      <resource name="lblAddProdArticle.Text">
+        <object>Artikelcode</object>
+      </resource>
+      <resource name="grpWeightParam.Text">
+        <object>Gewichtparameters</object>
+      </resource>
+      <resource name="grpTreatment.Text">
+        <object>Behandeling</object>
+      </resource>
+      <resource name="grpGiblet.Text">
+        <object>Eetbare organen</object>
+      </resource>
+      <resource name="lblPHMinProductWeight.Text">
+        <object>Minimaal productgewicht</object>
+      </resource>
+      <resource name="lblPHOffset.Text">
+        <object>Offset</object>
+      </resource>
+      <resource name="lblPHCorrFactor.Text">
+        <object>Correctiefactor</object>
+      </resource>
+      <resource name="chkPHDisplace.Text">
+        <object>Product verschuiven</object>
+      </resource>
+      <resource name="lblPHDisplaceShackles.Text">
+        <object>Haken verschuiven</object>
+      </resource>
+      <resource name="chkUseGiblet.Text">
+        <object>Eetbare organen gebruiken</object>
+      </resource>
+      <resource name="lblGibletWeight.Text">
+        <object>Gewicht eetbare organen</object>
+      </resource>
+      <resource name="lblAddGiblet.Text">
+        <object>Eetbare organen toevoegen aan artikelcode</object>
+      </resource>
+      <resource name="treatment.Left">
+        <object>Links</object>
+      </resource>
+      <resource name="treatment.Right">
+        <object>Rechts</object>
+      </resource>
+      <resource name="treatment.Whole">
+        <object>Heel</object>
+      </resource>
+      <resource name="grpEfficency.Text">
+        <object>Efficiëntie</object>
+      </resource>
+      <resource name="grpGeneral.Text">
+        <object>Algemeen</object>
+      </resource>
+      <resource name="chkUseOvershootAlarms.Text">
+        <object>Overschrijdingsalarm gebruiken</object>
+      </resource>
+      <resource name="lblOvershotLimit.Text">
+        <object>Percentage overschrijdingsgrens</object>
+      </resource>
+      <resource name="lblNoOvershootsAllowed.Text">
+        <object>Aantal overschrijdingen dat in geschiedenis is toegestaan voorafgaand aan alarm</object>
+      </resource>
+      <resource name="chkUseBarOutsideAlarm.Text">
+        <object>Alarm voor balken buiten bereik gebruiken</object>
+      </resource>
+      <resource name="lblNoBarsForHistory.Text">
+        <object>Aantal gebruikte balken voor geschiedenis</object>
+      </resource>
+      <resource name="lblNoBarsOutsideRange.Text">
+        <object>Aantal toegestane balken buiten het bereik voordat zich een alarm voordoet</object>
+      </resource>
+      <resource name="chkUseProdEfficiency.Text">
+        <object>Alarm voor productefficiëntie buiten bereik gebruiken</object>
+      </resource>
+      <resource name="lblProdEffOutsideLimit.Text">
+        <object>Grens voor productefficiëntie buiten bereik</object>
+      </resource>
+      <resource name="lblProdEffOutsideLimitHysteresis.Text">
+        <object>Hysteresis van grens voor productefficiëntie buiten bereik</object>
+      </resource>
+      <resource name="lblProdEffYellow.Text">
+        <object>Banbreedte gele balk productefficiëntie</object>
+      </resource>
+      <resource name="chkSuppressAlarm.Text">
+        <object>Alarm onderdrukken wanneer lijnsnelheid instabiel is</object>
+      </resource>
+      <resource name="grpTare.Text">
+        <object>Tarra algemeen</object>
+      </resource>
+      <resource name="grpIndividualTare.Text">
+        <object>Afzonderlijke tarra</object>
+      </resource>
+      <resource name="grpTareBackup.Text">
+        <object>Back-up tarragegevens</object>
+      </resource>
+      <resource name="grpGlobalTare.Text">
+        <object>Globale tarra</object>
+      </resource>
+      <resource name="lblTareRejection.Text">
+        <object>Tarra-afkeuringsgrens</object>
+      </resource>
+      <resource name="lblEmptyShackleSD.Text">
+        <object>Standaardafwijking maximum lege haken</object>
+      </resource>
+      <resource name="lblEmptyShackleWeight.Text">
+        <object>Geschat gewicht lege haak</object>
+      </resource>
+      <resource name="lblMinLineSpeed.Text">
+        <object>Minimale lijnsnelheid</object>
+      </resource>
+      <resource name="chkIndTareCorr.Text">
+        <object>Afzonderlijke tarracorrectie inschakelen</object>
+      </resource>
+      <resource name="lblIndTareRoundsNeeded.Text">
+        <object>Min. lege rondes voor eerste leren</object>
+      </resource>
+      <resource name="lblIndTareKFactor.Text">
+        <object>Matigingsfactor verplaatsingsgemiddelde</object>
+      </resource>
+      <resource name="lblIndTareRoundsRejected.Text">
+        <object>Aantal rondes afgekeurd</object>
+      </resource>
+      <resource name="chkEnableTareBackup.Text">
+        <object>Afzonderlijke tarra-back-up inschakelen</object>
+      </resource>
+      <resource name="lblTareBackupInterval.Text">
+        <object>Back-upinterval</object>
+      </resource>
+      <resource name="uTareBackupInterval.Text">
+        <object>min.</object>
+      </resource>
+      <resource name="chkGlobalTareCorr.Text">
+        <object>Globale tarracorrectie inschakelen</object>
+      </resource>
+      <resource name="lblGlobalTareShacklesNeeded.Text">
+        <object>Aantal haken voor verplaatsingsgemiddelde</object>
+      </resource>
+      <resource name="lblGlobalTareActualPlus.Text">
+        <object>Alarmdrempel voor werkelijke tarra</object>
+      </resource>
+      <resource name="lblAlarmThresholdShacklesInRound.Text">
+        <object>Afgekeurde haken per ronde</object>
+      </resource>
+      <resource name="lblAlarmThresholdIndShackle.Text">
+        <object>Afgekeurd per haak</object>
+      </resource>
+      <resource name="grpLogSettings.Text">
+        <object>Logboekinstellingen</object>
+      </resource>
+      <resource name="chkOutputWeightData.Text">
+        <object>Gewichtgegevens uitvoeren</object>
+      </resource>
+      <resource name="barBtnRefresh.Caption">
+        <object>Vernieuwen</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Bevestigen</object>
+      </resource>
+      <resource name="barSubOpertions.Caption">
+        <object>Bewerkingen</object>
+      </resource>
+      <resource name="barBtnSend.Caption">
+        <object>Verzenden</object>
+      </resource>
+      <resource name="barBtnTareBackup.Caption">
+        <object>Back-up van tarragegevens maken</object>
+      </resource>
+      <resource name="barBtnTareRestore.Caption">
+        <object>Tarragegevens herstellen</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>GUI-item opnieuw laden</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Standaardlay-out herstellen</object>
+      </resource>
+      <resource name="Hint.NotInDevice">
+        <object>Instellingen niet in TAP</object>
+      </resource>
+      <resource name="Hint.InDevice">
+        <object>Instellingen in TAP</object>
+      </resource>
+      <resource name="Hint.Different">
+        <object>Instellingen van TAP en Innova zijn verschillend</object>
+      </resource>
+      <resource name="Hint.NoInfo">
+        <object>Kan info niet verkrijgen</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Wilt u gegevens opslaan?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Instellingen opslaan</object>
+      </resource>
+      <resource name="Send.Confirm">
+        <object>Wilt u instellingen verzenden voor het apparaat dat momenteel is geselecteerd?</object>
+      </resource>
+      <resource name="Send.Title">
+        <object>Instellingen overbrengen</object>
+      </resource>
+      <resource name="Send.Failed">
+        <object>Kan instellingen niet verzenden</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>Geen externe verbinding met de server.</object>
+      </resource>
+      <resource name="SendError.Caption">
+        <object>Fout bij verzenden</object>
+      </resource>
+      <resource name="TareBackup.Failed">
+        <object>Kan back-upverzoek voor tarratabel niet verzenden</object>
+      </resource>
+      <resource name="TareRestore.Failed">
+        <object>Kan herstelverzoek voor tarratabel niet verzenden</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Fout</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Laatste foutbericht weergeven</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Geen externe verbinding met de server.</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Verbindingsfout</object>
+      </resource>
+      <resource name="TareAutoBackup.Failed">
+        <object>Kan back-upinstellingen voor tabel niet bijwerken</object>
+      </resource>
+      <resource name="TareBackup.Busy">
+        <object>Back-up bezig</object>
+      </resource>
+      <resource name="TareRestore.Busy">
+        <object>Herstellen bezig</object>
+      </resource>
+      <resource name="colTareRestore.Caption">
+        <object>Tarragegevens hersteld op</object>
+      </resource>
+      <resource name="colTareRestore.ToolTip">
+        <object>Datum en tijd waarop tarragegevens werden hersteld</object>
+      </resource>
+      <resource name="uAddProdWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uPHMinProductWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uPHOffset.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uGibletWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uTareRejection.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uEmptyShackleWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uMinLineSpeed.Text">
+        <object>nr/u</object>
+      </resource>
+      <resource name="uGlobalTareActualPlus.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uAlarmThresholdShacklesInRound.Text">
+        <object>%</object>
+      </resource>
+      <resource name="uAlarmThresholdIndShackle.Text">
+        <object>%</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Lijn</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Hiermee wordt de lijn getoond zoals gedefinieerd in Top</object>
+      </resource>
+      <resource name="uEmptyShackleSD.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uLoadCellWeightUnit.Text">
+        <object>Kg</object>
+      </resource>
+      <resource name="barBtnTareLoad.Caption">
+        <object>Tarragegevens laden</object>
+      </resource>
+      <resource name="barBtnTareLoad.Hint">
+        <object>Tarragegevens laden uit bestand dat naar het apparaat moet worden hersteld</object>
+      </resource>
+      <resource name="barBtnTareSave.Caption">
+        <object>Tarragegevens opslaan</object>
+      </resource>
+      <resource name="barBtnTareSave.Hint">
+        <object>Tarragegevens waarvan een back-up is gemaakt opslaan in een bestand</object>
+      </resource>
+      <resource name="TareSave.Error">
+        <object>Geen gegevens voor back-up van tarratabel gevonden in de database.</object>
+      </resource>
+      <resource name="TareSave.ErrorTitle">
+        <object>Fout bij het opslaan van tarragegevens</object>
+      </resource>
+      <resource name="TareSave.Dialog.Title">
+        <object>Opslaan als</object>
+      </resource>
+      <resource name="TareSave.Dialog.Failed">
+        <object>Kan tarragegevens niet opslaan</object>
+      </resource>
+      <resource name="TareLoad.Dialog.Title">
+        <object>Bestand selecteren...</object>
+      </resource>
+      <resource name="TareLoad.Dialog.Failed">
+        <object>Kan tarragegevens niet laden</object>
+      </resource>
+      <resource name="TareLoad.Confirm">
+        <object>Wilt u tarragegevens laden uit een bestand en deze herstellen naar het apparaat?</object>
+      </resource>
+      <resource name="TareLoad.ConfirmTitle">
+        <object>Tarragegevens uit bestand herstellen</object>
+      </resource>
+      <resource name="TareLoad.Result.Text">
+        <object>Controleer of u het correcte bestand hebt geselecteerd.</object>
+      </resource>
+      <resource name="TareLoad.Result.Caption">
+        <object>Kan gegevens niet lezen</object>
+      </resource>
+      <resource name="TareLoad.Restore.Failed">
+        <object>Kan gegevens van tarratabel niet herstellen uit bestand</object>
+      </resource>
+      <resource name="barBtnTareBackup.Hint">
+        <object>Back-up van gegevens uit tarratabel maken van TAP naar database</object>
+      </resource>
+      <resource name="barBtnTareRestore.Hint">
+        <object>Tarragegevens waarvan een back-up is gemaakt herstellen van database naar TAP</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Hiermee worden alle UI-items opnieuw geladen</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Standaardlay-outs van UI-items herstellen</object>
+      </resource>
+      <resource name="lblIndTareShacklesAllowed.Text">
+        <object>Max. lijnlading voor leren</object>
+      </resource>
+      <resource name="edIndTareShacklesAllowed.ToolTip">
+        <object>Definieert op welk niveau van gevulde haken de weger het leerproces voor de afzonderlijke tarra kan starten.</object>
+      </resource>
+      <resource name="lblBadShackleListThreshold.Text">
+        <object>Tabel met afkeuringsdrempel ongeldige haken</object>
+      </resource>
+      <resource name="edAlarmThresholdShacklesInRound.ToolTip">
+        <object>Er wordt een alarm gegenereerd als het percentage afgekeurde haken in één ronde hoger is dan deze waarde</object>
+      </resource>
+      <resource name="edAlarmThresholdIndShackle.ToolTip">
+        <object>Er wordt een alarm gegenereerd als het afkeuringspercentage voor een afzonderlijke haak hoger is dan deze waarde</object>
+      </resource>
+      <resource name="edBadShackleListThreshold.ToolTip">
+        <object>Een haak wordt toegevoegd aan de lijst met ongeldige haken als het afkeuringspercentage voor een afzonderlijke haak hoger is dan deze waarde</object>
+      </resource>
+      <resource name="edBadShackleResetThreshold.ToolTip">
+        <object>De afzonderlijke tarra van een haak wordt gereset als het afkeuringspercentage voor een afzonderlijke haak hoger is dan deze waarde</object>
+      </resource>
+      <resource name="edTareBackupInterval.ToolTip">
+        <object>Het interval waarmee de afzonderlijke tarragegevens worden opgehaald van de TAP en als back-up worden opgeslagen in de database</object>
+      </resource>
+      <resource name="edIndTareRoundsNeeded.ToolTip">
+        <object>Het aantal benodigde rondes om de afzonderlijke tarra te leren</object>
+      </resource>
+      <resource name="edIndTareKFactor.ToolTip">
+        <object>Elk nieuw gewicht van een lege haak wordt gematigd met deze factor voordat het wordt gebruikt in het recursieve filter voor berekening van de afzonderlijke tarra</object>
+      </resource>
+      <resource name="edGlobalTareActualPlus.ToolTip">
+        <object>Er wordt een alarm gegenereerd als de globale tarra deze drempel overschrijdt, zowel positief als negatief</object>
+      </resource>
+      <resource name="edEmptyShackleWeight.ToolTip">
+        <object>Schatting van het gewicht van lege haken, gebruikt voor de tarraberekening. Afzonderlijke tarra plus deze waarde bepaalt het werkelijke schakelgewicht</object>
+      </resource>
+      <resource name="edMinLineSpeed.ToolTip">
+        <object>De minimale lijnsnelheid voor het leren van de tarra</object>
+      </resource>
+      <resource name="edEmptyShackleSD.ToolTip">
+        <object>De maximale standaardafwijking voor lege haken die wordt gebruikt voor de prestatiebewaking</object>
+      </resource>
+      <resource name="edTareRejection.ToolTip">
+        <object>Als de tarra van de haak meer dan deze waarde afwijkt van de werkelijke tarra, wordt de haak afgekeurd voor de afzonderlijke en globale tarraberekening</object>
+      </resource>
+      <resource name="edIpAddress.ToolTip">
+        <object>Het IP-adres van het MWS2-apparaat dat TAP moet gebruiken bij het maken van de verbinding</object>
+      </resource>
+      <resource name="edPortNo.ToolTip">
+        <object>Het poortnummer van het MWS2-apparaat dat TAP moet gebruiken bij het maken van de verbinding</object>
+      </resource>
+      <resource name="edGlobalTareShacklesNeeded.ToolTip">
+        <object>Het aantal haken dat wordt gebruikt in de berekening van het verplaatsingsgemiddelde voor de globale tarra</object>
+      </resource>
+      <resource name="uBadShackleListThreshold.Text">
+        <object>%</object>
+      </resource>
+      <resource name="Send.Failed.Caption">
+        <object>Kan instellingen niet verzenden</object>
+      </resource>
+      <resource name="Send.Failed.Text">
+        <object>Controleer het systeemlogboek voor meer informatie.</object>
+      </resource>
+      <resource name="Send.SaveConfirm">
+        <object>Wilt u de gegevens opslaan en\ninstellingen verzenden voor het apparaat dat momenteel is geselecteerd?</object>
+      </resource>
+      <resource name="barBtnResetBadShackles.ToolTip">
+        <object>Hiermee worden alle ongeldige haken in het systeem opnieuw geleerd</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.ToolTip">
+        <object>Hiermee wordt de hele lijn opnieuw geleerd, zowel ongeldige als goede haken</object>
+      </resource>
+      <resource name="edClearProdPerc.ToolTip">
+        <object>Het percentage haken waardoor het alarm moet worden geactiveerd</object>
+      </resource>
+      <resource name="chkClearProdAllow.ToolTip">
+        <object>Als deze optie is ingeschakeld, is wissen van het product toegestaan</object>
+      </resource>
+      <resource name="chkClearProdDisable.ToolTip">
+        <object>Als deze optie is ingeschakeld, worden er geen producten gewist wanneer er een alarm is geactiveerd</object>
+      </resource>
+      <resource name="edAddProdPerc.ToolTip">
+        <object>Het percentage haken waardoor het alarm moet worden geactiveerd</object>
+      </resource>
+      <resource name="chkAddProdAllow.ToolTip">
+        <object>Als deze optie is ingeschakeld, is toewijzing van het product toegestaan</object>
+      </resource>
+      <resource name="chkAddProdDisable.ToolTip">
+        <object>Als deze optie is ingeschakeld, worden er geen producten toegewezen nadat er een alarm is geactiveerd</object>
+      </resource>
+      <resource name="edAddProdWeight.ToolTip">
+        <object>Het gewicht van het product dat moet worden toegevoegd</object>
+      </resource>
+      <resource name="edAddProdQuality.ToolTip">
+        <object>De kwaliteit van het product dat moet worden toegevoegd</object>
+      </resource>
+      <resource name="edAddProdArticle.ToolTip">
+        <object>De artikelcode van het product dat moet worden toegevoegd</object>
+      </resource>
+      <resource name="edPHMinProductWeight.ToolTip">
+        <object>Het minimale productgewicht dat moet worden geregistreerd</object>
+      </resource>
+      <resource name="edPHOffset.ToolTip">
+        <object>De gebruikte offset voor registratie van gewicht</object>
+      </resource>
+      <resource name="edPHCorrFactor.ToolTip">
+        <object>Het percentage dat moet worden gebruikt voor de correctiefactor</object>
+      </resource>
+      <resource name="chkPHDisplace.ToolTip">
+        <object>Als deze optie is ingeschakeld, wordt er een bepaald aantal haken verschoven</object>
+      </resource>
+      <resource name="edPHDisplaceShackles.ToolTip">
+        <object>Het aantal haken dat moet worden verschoven</object>
+      </resource>
+      <resource name="selTreatments.ToolTip">
+        <object>Hiermee wordt het type weger, de linkse poot, rechtse poot of het hele product gedefinieerd</object>
+      </resource>
+      <resource name="chkUseGiblet.ToolTip">
+        <object>Hiermee wordt gedefinieerd of de eetbare ingewanden moeten worden gebruikt bij het wegen</object>
+      </resource>
+      <resource name="edGibletWeight.ToolTip">
+        <object>Het te gebruiken gewicht van de eetbare ingewanden</object>
+      </resource>
+      <resource name="chkAutoRelearn.Text">
+        <object>Automatisch opnieuw leren inschakelen</object>
+      </resource>
+      <resource name="lblBadShackleResetThreshold.Text">
+        <object>Afkeuringsdrempel per haak</object>
+      </resource>
+      <resource name="TareBackup">
+        <object>Weet u zeker dat u een back-up wilt maken van de huidige bestaande tarratabel uit het TAP-systeem?</object>
+      </resource>
+      <resource name="TareRestore">
+        <object>Weet u zeker dat u de tarratabel waarvan momenteel een back-up is gemaakt wilt herstellen naar het TAP-systeem?</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.TapPerformanceTest" ServiceOnly="false">
+      <resource name="colLogShackleId.Caption">
+        <object>Haak</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>Id van de haak</object>
+      </resource>
+      <resource name="colLogRegTime.Caption">
+        <object>Registratietijd</object>
+      </resource>
+      <resource name="colLogRegTime.ToolTip">
+        <object>Tijdstip waarop het item naar de database werd geschreven</object>
+      </resource>
+      <resource name="colLogOldWeight.Caption">
+        <object>Vorig gewicht (##)</object>
+      </resource>
+      <resource name="colLogOldWeight.ToolTip">
+        <object>Hiermee wordt het vorige gewicht getoond</object>
+      </resource>
+      <resource name="colLogWeight.Caption">
+        <object>Nettogewicht (##)</object>
+      </resource>
+      <resource name="colLogWeight.ToolTip">
+        <object>Hiermee wordt het tarra-nettogewicht getoond</object>
+      </resource>
+      <resource name="colLogGrossWeight.Caption">
+        <object>Brutogewicht (##)</object>
+      </resource>
+      <resource name="colLogGrossWeight.ToolTip">
+        <object>Hiermee wordt het tarra-brutogewicht getoond</object>
+      </resource>
+      <resource name="colLogActualTare.Caption">
+        <object>Werkelijke tarra (##)</object>
+      </resource>
+      <resource name="colLogActualTare.ToolTip">
+        <object>Het werkelijke gewicht van de tarra</object>
+      </resource>
+      <resource name="colLogIndividualTare.Caption">
+        <object>Afzonderlijke tarra (##)</object>
+      </resource>
+      <resource name="colLogIndividualTare.ToolTip">
+        <object>Hiermee wordt de afzonderlijke tarra getoond</object>
+      </resource>
+      <resource name="colLogRoundsLearned.Caption">
+        <object>Aantal geleerde rondes</object>
+      </resource>
+      <resource name="colLogRoundsLearned.ToolTip">
+        <object>Hiermee wordt het aantal geleerde rondes getoond</object>
+      </resource>
+      <resource name="colLogWeightQuality.Caption">
+        <object>Gewichtskwaliteit</object>
+      </resource>
+      <resource name="colLogWeightQuality.ToolTip">
+        <object>Hiermee wordt de gewichtskwaliteit getoond</object>
+      </resource>
+      <resource name="colDeveloperInfo.Caption">
+        <object>Ontwikkelaarsinfo</object>
+      </resource>
+      <resource name="colDeveloperInfo.ToolTip">
+        <object>Informatie voor analyse door de ontwikkelaar</object>
+      </resource>
+      <resource name="grpWeighers.Text">
+        <object>Wegers</object>
+      </resource>
+      <resource name="grpLoggingHistory.Text">
+        <object>Geschiedenis van logboekregistratie</object>
+      </resource>
+      <resource name="grpTestState.Text">
+        <object>Teststatus</object>
+      </resource>
+      <resource name="grpTestProperties.Text">
+        <object>Testeigenschappen</object>
+      </resource>
+      <resource name="btnDelLog.ToolTip">
+        <object>Geselecteerde logboekregistratie verwijderen</object>
+      </resource>
+      <resource name="lblNoOfBirds.Text">
+        <object>Aantal producten</object>
+      </resource>
+      <resource name="lblDropsPerMin.Text">
+        <object>Hoeveelheid per minuut</object>
+      </resource>
+      <resource name="lblMinWeight.Text">
+        <object>Minimaal gewicht</object>
+      </resource>
+      <resource name="uMinWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblMaxWeight.Text">
+        <object>Maximaal gewicht</object>
+      </resource>
+      <resource name="uMaxWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblLogName.Text">
+        <object>Logboeknaam</object>
+      </resource>
+      <resource name="startStopButton.Text">
+        <object>Start</object>
+      </resource>
+      <resource name="WeigherLookup.Name">
+        <object>Naam</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Naam</object>
+      </resource>
+      <resource name="TestError.ParamFailed">
+        <object>Kan de prestatietest niet starten, controleer de parameters</object>
+      </resource>
+      <resource name="TestError.FailedToStart">
+        <object>Kan de prestatietest niet starten</object>
+      </resource>
+      <resource name="TestError.NoServer">
+        <object>Kan de test niet starten, geen verbinding met server</object>
+      </resource>
+      <resource name="TestError.Error">
+        <object>Fout</object>
+      </resource>
+      <resource name="TestError.FailedToStop">
+        <object>Kan de prestatietest niet stoppen</object>
+      </resource>
+      <resource name="TestButton.Start">
+        <object>Start</object>
+      </resource>
+      <resource name="TestButton.Stop">
+        <object>Stop</object>
+      </resource>
+      <resource name="Test.Finished">
+        <object>Prestatietest voltooid</object>
+      </resource>
+      <resource name="Test.Running">
+        <object>Prestatietest wordt uitgevoerd</object>
+      </resource>
+      <resource name="Test.Stopped">
+        <object>Prestatietest gestopt</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Wilt u de logboekvermelding:\n'{0}'\nverwijderen uit de database?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Logboekbestand verwijderen</object>
+      </resource>
+      <resource name="TapPerformanceTest.Text">
+        <object>Prestatietest</object>
+      </resource>
+      <resource name="Test.Info">
+        <object>Testparameters instellen en op Start klikken om de test te starten</object>
+      </resource>
+      <resource name="weigherList.ToolTip">
+        <object>Weger selecteren waarvoor test moet worden uitgevoerd</object>
+      </resource>
+      <resource name="loggingHistoryList.ToolTip">
+        <object>Logboek selecteren dat moet worden weergegeven</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Het geselecteerde logboek opslaan in een bestand</object>
+      </resource>
+      <resource name="grpResultGrid.Text">
+        <object>Resultaten</object>
+      </resource>
+      <resource name="edNoOfBirds.ToolTip">
+        <object>Hiermee wordt opgegeven hoeveel vogels er moeten worden uitgeworpen</object>
+      </resource>
+      <resource name="edDropsPerMin.ToolTip">
+        <object>Hiermee wordt opgegeven hoeveel vogels er per minuut moeten worden uitgeworpen</object>
+      </resource>
+      <resource name="edMinWeight.ToolTip">
+        <object>De specificatie voor het minimale gewicht van een vogel die moet worden uitgeworpen</object>
+      </resource>
+      <resource name="edMaxWeight.ToolTip">
+        <object>De specificatie voor het maximale gewicht van een vogel die moet worden uitgeworpen</object>
+      </resource>
+      <resource name="edLogName.ToolTip">
+        <object>De naam van het logboek dat hoort bij de prestatietest die moet worden uitgevoerd.</object>
+      </resource>
+      <resource name="startStopButton.ToolTip">
+        <object>Prestatietest activeren of stoppen als deze wordt uitgevoerd</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Sluiten</object>
+      </resource>
+      <resource name="btnClose.ToolTip">
+        <object>Hiermee wordt het dialoogvenster gesloten</object>
+      </resource>
+      <resource name="lblArticleCode.Text">
+        <object>Artikelcode</object>
+      </resource>
+      <resource name="lblDropDelay.Text">
+        <object>Uitwerpvertraging</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Settings.Mws2Settings" ServiceOnly="false">
+      <resource name="barBtnRefresh.Caption">
+        <object>Vernieuwen</object>
+      </resource>
+      <resource name="barBtnRefresh.Hint">
+        <object>Instellingen en gegevens vernieuwen vanaf apparaat</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Bevestigen</object>
+      </resource>
+      <resource name="barBtnConfirm.Hint">
+        <object>Bewerkte waarden opslaan in database</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Bewerkingen</object>
+      </resource>
+      <resource name="barSubOperations.Hint">
+        <object>Extra bewerkingen</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>GUI-item opnieuw laden</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Hiermee worden alle UI-items opnieuw geladen</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Standaardlay-out herstellen</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Standaardlay-outs van UI-items herstellen</object>
+      </resource>
+      <resource name="barBtnSend.Caption">
+        <object>Verzenden</object>
+      </resource>
+      <resource name="barBtnSend.Hint">
+        <object>Instellingen verzenden naar geselecteerd apparaat</object>
+      </resource>
+      <resource name="tabProperties.Text">
+        <object>Eigenschappen</object>
+      </resource>
+      <resource name="barBtnLoad.Caption">
+        <object>Laden uit bestand</object>
+      </resource>
+      <resource name="barBtnLoad.Hint">
+        <object>Laad registerinstellingen uit een lokaal bestand.</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Opslaan in bestand</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Sla registerinstellingen op in een lokaal bestand.</object>
+      </resource>
+      <resource name="barBtnGetSettings.Caption">
+        <object>MWS2-instellingen ophalen</object>
+      </resource>
+      <resource name="barBtnGetSettings.Hint">
+        <object>Importeer registerinstellingen voor geselecteerde MWS2-weger.</object>
+      </resource>
+      <resource name="colStatus.Caption">
+        <object>Status</object>
+      </resource>
+      <resource name="colStatus.Hint">
+        <object>Hiermee wordt de status van de instellingen getoond</object>
+      </resource>
+      <resource name="colTrack.Caption">
+        <object>Naam baan</object>
+      </resource>
+      <resource name="colTrack.ToolTip">
+        <object>Naam van de gewichtbaan die dit apparaat verwerkt</object>
+      </resource>
+      <resource name="colDownloadDate.Caption">
+        <object>Verzonden op</object>
+      </resource>
+      <resource name="colDownloadDate.ToolTip">
+        <object>Datum en tijd waarop instellingen werden verzonden naar apparaat</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Fout</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Laatste foutbericht weergeven</object>
+      </resource>
+      <resource name="colPropRegister.Caption">
+        <object>Register</object>
+      </resource>
+      <resource name="colPropRegister.ToolTip">
+        <object>Hiermee wordt het registernummer getoond</object>
+      </resource>
+      <resource name="colPropDescription.Caption">
+        <object>Beschrijving</object>
+      </resource>
+      <resource name="colPropDescription.ToolTip">
+        <object>Beschrijving van het register</object>
+      </resource>
+      <resource name="colPropFlags.Caption">
+        <object>Markeringen</object>
+      </resource>
+      <resource name="colPropFlags.ToolTip">
+        <object>De registermarkeringen</object>
+      </resource>
+      <resource name="colPropChangeable.Caption">
+        <object>Wijzigbaar</object>
+      </resource>
+      <resource name="colPropChangeable.ToolTip">
+        <object>Kan de waarde worden gewijzigd</object>
+      </resource>
+      <resource name="colPropContent.Caption">
+        <object>Actieve MWS2-parameters</object>
+      </resource>
+      <resource name="colPropContent.ToolTip">
+        <object>Hiermee wordt de inhoud van het apparaatregister getoond</object>
+      </resource>
+      <resource name="colPropContentDb.Caption">
+        <object>Parameters in database</object>
+      </resource>
+      <resource name="colPropContentDb.ToolTip">
+        <object>Hiermee worden de parameters getoond die zijn opgeslagen in de database</object>
+      </resource>
+      <resource name="Info.Refresh.Text">
+        <object>Gegevens worden opgehaald van MWS2-apparaat.\nEen ogenblik geduld.</object>
+      </resource>
+      <resource name="Info.Refresh">
+        <object>Gegevens laden</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Wilt u gegevens opslaan?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Instellingen opslaan</object>
+      </resource>
+      <resource name="Hint.NotInDevice">
+        <object>Instellingen niet in MWS2</object>
+      </resource>
+      <resource name="Hint.InDevice">
+        <object>Instellingen in MWS2</object>
+      </resource>
+      <resource name="Hint.Different">
+        <object>Instellingen van MWS2 en Innova zijn verschillend</object>
+      </resource>
+      <resource name="Hint.NoInfo">
+        <object>Kan info niet verkrijgen</object>
+      </resource>
+      <resource name="Load.Text">
+        <object>Gegevens in het raster en in de database worden overschreven.\nWilt u doorgaan?</object>
+      </resource>
+      <resource name="Load.Caption">
+        <object>Eigenschappen importeren</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Geen externe verbinding met de server.</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Externe fout</object>
+      </resource>
+      <resource name="LoadResult.Text">
+        <object>Kan gegevens niet lezen.</object>
+      </resource>
+      <resource name="LoadResult.Caption">
+        <object>Geen gegevens geladen</object>
+      </resource>
+      <resource name="Send.Info">
+        <object>Gegevens worden verzonden naar MWS2-apparaat.\nEen ogenblik geduld.</object>
+      </resource>
+      <resource name="Send.Confirm">
+        <object>Wilt u instellingen verzenden voor het apparaat dat momenteel is geselecteerd?</object>
+      </resource>
+      <resource name="Send.Title">
+        <object>Instellingen overbrengen</object>
+      </resource>
+      <resource name="LoadDialog.Title">
+        <object>Bestand selecteren...</object>
+      </resource>
+      <resource name="LoadDialog.Failed">
+        <object>Kan eigenschappen niet laden</object>
+      </resource>
+      <resource name="SaveDialog.Info">
+        <object>Gegevens moeten worden opgeslagen in database voordat ze worden geëxporteerd.</object>
+      </resource>
+      <resource name="SaveDialog.NoData">
+        <object>Geen eigenschapgegevens die moeten worden opgeslagen</object>
+      </resource>
+      <resource name="SaveDialog.NoData.Caption">
+        <object>Geen gegevens</object>
+      </resource>
+      <resource name="SaveDialog.Failed">
+        <object>Kan eigenschappen niet opslaan</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Apparaat</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Hiermee de naam getoond van het apparaat waarvoor de instellingen bestemd zijn</object>
+      </resource>
+      <resource name="SaveDialog.Title">
+        <object>Opslaan als</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Lijn</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Hiermee wordt de lijn getoond zoals gedefinieerd in Top</object>
+      </resource>
+      <resource name="Send.SaveConfirm">
+        <object>Wilt u de gegevens opslaan en\ninstellingen verzenden voor het apparaat dat momenteel is geselecteerd?</object>
+      </resource>
+      <resource name="Send.ConfirmOpen">
+        <object>Wilt u instellingen verzenden voor het apparaat dat momenteel is geselecteerd? \nWaarschuwing: Alle records op het apparaat worden overschreven</object>
+      </resource>
+      <resource name="Send.SaveConfirmOpen">
+        <object>Wilt u de gegevens opslaan en\ninstellingen verzenden voor het apparaat dat momenteel is geselecteerd? \nWaarschuwing: Alle records op het apparaat worden overschreven</object>
+      </resource>
+      <resource name="SendProtectedSettings">
+        <object>Toestaan dat beschermde MWS2-parameters worden overschreven</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Mws2Management" ServiceOnly="false">
+      <resource name="btnClose.Text">
+        <object>Sluiten</object>
+      </resource>
+      <resource name="grpSelectWeigher.Text">
+        <object>Weger</object>
+      </resource>
+      <resource name="WeigherLookup.Name">
+        <object>Naam</object>
+      </resource>
+      <resource name="Text">
+        <object>MWS2-beheer</object>
+      </resource>
+      <resource name="weigherList.ToolTip">
+        <object>Weger selecteren die moet worden beheerd</object>
+      </resource>
+      <resource name="btnClose.ToolTip">
+        <object>Het dialoogvenster sluiten</object>
+      </resource>
+      <resource name="grpMessage.Text">
+        <object>Meldingen</object>
+      </resource>
+      <resource name="tabPageCalibration.Text">
+        <object>Kalibratie</object>
+      </resource>
+      <resource name="tabPageCurve.Text">
+        <object>Curve</object>
+      </resource>
+      <resource name="tabPageScope.Text">
+        <object>Scope</object>
+      </resource>
+      <resource name="tabPageLogging.Text">
+        <object>Logboekregistratie</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Calibration" ServiceOnly="false">
+      <resource name="LoadCellWrongConnected">
+        <object>Loadcell is waarschijnlijk verkeerd aangesloten, controleer a.u.b de aansluitingen.</object>
+      </resource>
+      <resource name="lblStopped.Text">
+        <object>Gestopt</object>
+      </resource>
+      <resource name="lblEmptyWeight.Text">
+        <object>Leeg gewicht</object>
+      </resource>
+      <resource name="lblCalibrationWeight.Text">
+        <object>Kalibratiegewicht</object>
+      </resource>
+      <resource name="lblCalibrationOk.Text">
+        <object>Kalibratie OK</object>
+      </resource>
+      <resource name="lblDone.Text">
+        <object>Voltooid</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Annuleren</object>
+      </resource>
+      <resource name="RemoteError">
+        <object>Er is een fout opgetreden tijdens het kalibratieproces. Zie systeemlogboek.</object>
+      </resource>
+      <resource name="curWeightInfo.ToolTip">
+        <object>Getoonde gewicht is mogelijk pas nauwkeurig zodra het kalibratieproces is voltooid</object>
+      </resource>
+      <resource name="Status.DataReloading">
+        <object>Instellingen van weger opnieuw laden...</object>
+      </resource>
+      <resource name="Status.DataProcessing">
+        <object>Gegevens van weger verwerken...</object>
+      </resource>
+      <resource name="BtnNext.StartCalibration">
+        <object>Kalibratie starten</object>
+      </resource>
+      <resource name="BtnNext.RestartCalibration">
+        <object>Kalibratie opnieuw starten</object>
+      </resource>
+      <resource name="BtnNext.ConfirmCalibration">
+        <object>Kalibratie bevestigen</object>
+      </resource>
+      <resource name="Action.Start">
+        <object>Om de kalibratieprocedure te starten, vult u het kalibratiegewicht in en drukt u op de knop 'Kalibratie starten'.</object>
+      </resource>
+      <resource name="Action.Restart">
+        <object>Om de kalibratieprocedure opnieuw te starten, vult u het kalibratiegewicht in en drukt u op de knop 'Kalibratie opnieuw starten'.</object>
+      </resource>
+      <resource name="Action.WaitEmptyWeight">
+        <object>Zorg dat er geen gewicht aanwezig is en druk op de knop 'Volgende stap'.</object>
+      </resource>
+      <resource name="Action.WaitCalibrationWeight">
+        <object>Plaats het kalibratiegewicht en druk op de knop 'Volgende stap'.</object>
+      </resource>
+      <resource name="Action.WaitConfirmation">
+        <object>Druk op de knop 'Kalibratie bevestigen' om de nieuwe kalibratie op te slaan.</object>
+      </resource>
+      <resource name="Calibration.StartError">
+        <object>Geef een geldig kalibratiegewicht op.</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Kalibratie-instellingen</object>
+      </resource>
+      <resource name="grpAction.Text">
+        <object>Actie</object>
+      </resource>
+      <resource name="grpCalibration.Text">
+        <object>Kalibratie</object>
+      </resource>
+      <resource name="btnPrevStep.Text">
+        <object>Vorige stap</object>
+      </resource>
+      <resource name="btnPrevStep.ToolTip">
+        <object>Terug gaan naar de vorige stap in het proces</object>
+      </resource>
+      <resource name="btnNextStep.Text">
+        <object>Volgende stap</object>
+      </resource>
+      <resource name="btnCancel.ToolTip">
+        <object>Het proces annuleren</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Kalibratiegewicht:</object>
+      </resource>
+      <resource name="edWeight.ToolTip">
+        <object>Het kalibratiegewicht definiëren</object>
+      </resource>
+      <resource name="uWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblCurrentWeight.Text">
+        <object>Huidig gewicht:</object>
+      </resource>
+      <resource name="uCurrentWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="btnNextStep.ToolTip">
+        <object>Naar de volgende stap in het kalibratieproces gaan</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Scope" ServiceOnly="false">
+      <resource name="Error.ScopeDataCollection">
+        <object>Er is een fout opgetreden tijdens het opvragen van scope-gegevens. Controleer de verbinding met het apparaat.</object>
+      </resource>
+      <resource name="RetrievingScopeData">
+        <object>Scope-gegevens ophalen. Een ogenblik geduld.</object>
+      </resource>
+      <resource name="btnRefresh.Text">
+        <object>Vernieuwen</object>
+      </resource>
+      <resource name="btnSettings.Text">
+        <object>Instellingen</object>
+      </resource>
+      <resource name="Chart.Shackle.Text">
+        <object>Haak: </object>
+      </resource>
+      <resource name="Chart.AxisX.Text">
+        <object>Tijd (ms)</object>
+      </resource>
+      <resource name="Chart.AxisY.Text">
+        <object>Gewicht (##)</object>
+      </resource>
+      <resource name="Error.Chart.Binding">
+        <object>Er is een fout opgetreden tijdens verwerking van de gegevens</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Naam</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Avg">
+        <object>Gem.:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.PP">
+        <object>PP:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Time">
+        <object>Tijd:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Info">
+        <object>Info:</object>
+      </resource>
+      <resource name="EmpyScopeData">
+        <object>Scope-gegevens zijn leeg</object>
+      </resource>
+      <resource name="FileDlg.Files">
+        <object>bestanden</object>
+      </resource>
+      <resource name="FileDlg.Title">
+        <object>Locatie selecteren om scope-afbeelding op te slaan</object>
+      </resource>
+      <resource name="btnRefresh.ToolTIp">
+        <object>Nieuwe scope-gegevens ophalen</object>
+      </resource>
+      <resource name="btnSettings.ToolTip">
+        <object>Dialoogvenster met instellingen voor de scope openen</object>
+      </resource>
+      <resource name="btnSave.Text">
+        <object>Opslaan</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>De scope-afbeelding opslaan in een bestand</object>
+      </resource>
+      <resource name="selLog.ToolTip">
+        <object>Een logboek kiezen voor weergave als scope-afbeelding</object>
+      </resource>
+      <resource name="selLog.NullText">
+        <object>&lt;Selecteer log&gt;</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.ScopeSettingDialog" ServiceOnly="false">
+      <resource name="uVertMin.Text">
+        <object>##</object>
+      </resource>
+      <resource name="uVertMax.Text">
+        <object>##</object>
+      </resource>
+      <resource name="grpTiming.Text">
+        <object>Timing-instellingen</object>
+      </resource>
+      <resource name="lblScopeWindow.Text">
+        <object>Scope-venster</object>
+      </resource>
+      <resource name="chkSyncScope.Text">
+        <object>Scope synchroniseren</object>
+      </resource>
+      <resource name="lblPresampleTime.Text">
+        <object>Tijd voorafgaand aan monster</object>
+      </resource>
+      <resource name="grpFixedWindows.Text">
+        <object>Instellingen voor vast vensters</object>
+      </resource>
+      <resource name="chkUseFixedWindow.Text">
+        <object>Vast venster gebruiken</object>
+      </resource>
+      <resource name="lblVertMin.Text">
+        <object>Verticaal minimum</object>
+      </resource>
+      <resource name="lblVertMax.Text">
+        <object>Verticaal maximum</object>
+      </resource>
+      <resource name="grpLogging.Text">
+        <object>Logboekregistratie</object>
+      </resource>
+      <resource name="chkUseLogging.Text">
+        <object>Scope-gegevens opgehaald door logboek</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Annuleren</object>
+      </resource>
+      <resource name="edScopeWindow.ToolTip">
+        <object>Het aantal milliseconden dat moet worden toegepast voor scoping</object>
+      </resource>
+      <resource name="chkSyncScope.ToolTip">
+        <object>Als deze optie wordt geselecteerd, wordt er een aantal milliseconden geregistreerd voorafgaand aan de eerste activering, anders worden alle gegevens geregistreerd vanaf het moment dat de scoping wordt gestart</object>
+      </resource>
+      <resource name="edPresampleTime.ToolTip">
+        <object>Het aantal milliseconden dat moet worden getoond voor de eerste activering</object>
+      </resource>
+      <resource name="chkUseFixedWindow.ToolTip">
+        <object>Als deze optie wordt geselecteerd, kunt u het bereik van de y-as beperken</object>
+      </resource>
+      <resource name="edVertMin.ToolTip">
+        <object>De minimumwaarde op de y-as</object>
+      </resource>
+      <resource name="edVertMax.ToolTip">
+        <object>De maximumwaarde op de y-as</object>
+      </resource>
+      <resource name="chkUseLogging.ToolTip">
+        <object>Als deze optie wordt geselecteerd, worden de gegevenspunten van de scope geregistreerd in de database</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Logging" ServiceOnly="false">
+      <resource name="LoggingLookup.Name">
+        <object>Naam</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Wilt u de logboekvermelding:\n'{0}'\nverwijderen uit de database?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Logboekbestand verwijderen</object>
+      </resource>
+      <resource name="grpSelectLog.Text">
+        <object>Geschiedenis van logboekregistratie</object>
+      </resource>
+      <resource name="btnDelete.Text">
+        <object>Verwijderen</object>
+      </resource>
+      <resource name="colLogTime.Caption">
+        <object>Tijd (ms)</object>
+      </resource>
+      <resource name="colLogShackleId.Caption">
+        <object>Haak-id</object>
+      </resource>
+      <resource name="colLogTotalWeight.Caption">
+        <object>Brutogewicht</object>
+      </resource>
+      <resource name="colLogLoadCellWeight.Caption">
+        <object>Gewichtsensor</object>
+      </resource>
+      <resource name="colLogVibrationCellWeight.Caption">
+        <object>Trillingssensor</object>
+      </resource>
+      <resource name="colLogStartSensorState.Caption">
+        <object>Startsensor</object>
+      </resource>
+      <resource name="colLogStopSensorState.Caption">
+        <object>Stopsensor</object>
+      </resource>
+      <resource name="colLogWeighing.Caption">
+        <object>Weegvenster</object>
+      </resource>
+      <resource name="btnSave.Text">
+        <object>Opslaan</object>
+      </resource>
+      <resource name="selLog.ToolTip">
+        <object>Logboek selecteren dat moet worden weergegeven</object>
+      </resource>
+      <resource name="btnDelete.ToolTip">
+        <object>Geselecteerde logboekregistratie verwijderen</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Het geselecteerde logboek opslaan in een bestand</object>
+      </resource>
+      <resource name="colLogLoadCellWeight.ToolTip">
+        <object>Het gewicht op de weegcel</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>De id van de haak die werd gewogen</object>
+      </resource>
+      <resource name="colLogStartSensorState.ToolTip">
+        <object>1 als de startsensor actief is, 0 als de sensor niet actief is</object>
+      </resource>
+      <resource name="colLogStopSensorState.ToolTip">
+        <object>1 als de stopsensor actief is, 0 als de sensor niet actief is</object>
+      </resource>
+      <resource name="colLogTime.ToolTip">
+        <object>De gemeten tijd in ms vanaf het begin van het verzamelen van scope-gegevens</object>
+      </resource>
+      <resource name="colLogTotalWeight.ToolTip">
+        <object>Gewicht van weegcel min gewicht van trillingscel</object>
+      </resource>
+      <resource name="colLogVibrationCellWeight.ToolTip">
+        <object>Het gewicht op de trillingscel</object>
+      </resource>
+      <resource name="colLogWeighing.ToolTip">
+        <object>Hiermee wordt aangegeven of de weger daadwerkelijk gewichtgegevens verzamelt die verder worden verwerkt</object>
+      </resource>
+      <resource name="selLog.NullText">
+        <object>&lt;Selecteer log&gt;</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Curve" ServiceOnly="false">
+      <resource name="Error.Mws2DataRetrieval">
+        <object>Er is een fout opgetreden tijdens het ophalen van gegevens voor MWS2</object>
+      </resource>
+      <resource name="Error.TapDataRetrieval">
+        <object>Er is een fout opgetreden tijdens het ophalen van gegevens voor TAP</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Instellingen</object>
+      </resource>
+      <resource name="lblLoadCellCapacity.Text">
+        <object>Capaciteit weegcel (kg):</object>
+      </resource>
+      <resource name="lblCalibratedAt.Text">
+        <object>Gekalibreerd op:</object>
+      </resource>
+      <resource name="grpRegisterValues.Text">
+        <object>Kalibratiewaarden</object>
+      </resource>
+      <resource name="lblZero.Text">
+        <object>Nul</object>
+      </resource>
+      <resource name="lblReference.Text">
+        <object>Referentie</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Gewicht</object>
+      </resource>
+      <resource name="lblAdcValues.Text">
+        <object>ADC-waarden</object>
+      </resource>
+      <resource name="grpADCRamp.Text">
+        <object>Oplopende waarde ADC</object>
+      </resource>
+      <resource name="lblRamp.Text">
+        <object>Oplopende waarde</object>
+      </resource>
+      <resource name="lblAdcGram.Text">
+        <object>ADC/##</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageStaticWeight" ServiceOnly="false">
+      <resource name="colSWNo.Caption">
+        <object>Nee</object>
+      </resource>
+      <resource name="colSWNo.ToolTip">
+        <object>Teller voor item</object>
+      </resource>
+      <resource name="colSWTime.Caption">
+        <object>Tijd</object>
+      </resource>
+      <resource name="colSWTime.ToolTip">
+        <object>Datum/tijd waarop gewicht werd ontvangen door server</object>
+      </resource>
+      <resource name="colSWValue.Caption">
+        <object>Gewicht (##)</object>
+      </resource>
+      <resource name="colSWValue.ToolTip">
+        <object>Waarde statisch gewicht</object>
+      </resource>
+      <resource name="barBtnStartGetStaticWeight.Caption">
+        <object>Start</object>
+      </resource>
+      <resource name="barBtnStartGetStaticWeight.Hint">
+        <object>Ophalen van statisch gewicht starten/stoppen (max 10 minuten)</object>
+      </resource>
+      <resource name="barBtnStartLogging.Caption">
+        <object>Start</object>
+      </resource>
+      <resource name="barBtnStartLogging.Hint">
+        <object>Logboekregistratie van statisch gewicht starten/stoppen</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Opslaan</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Klikken om de gegevens op te slaan op een schijf</object>
+      </resource>
+      <resource name="barBtnClear.Caption">
+        <object>Tabel wissen</object>
+      </resource>
+      <resource name="barBtnClear.Hint">
+        <object>Klikken om de inhoud van de tabel te wissen</object>
+      </resource>
+      <resource name="grpStaticWeightDisplay.Text">
+        <object>Huidig statisch gewicht (##)</object>
+      </resource>
+      <resource name="grpStaticWeights.Text">
+        <object>Geschiedenis statische gewichten</object>
+      </resource>
+      <resource name="LogButton.Stop">
+        <object>Stop</object>
+      </resource>
+      <resource name="LogButton.Start">
+        <object>Start</object>
+      </resource>
+      <resource name="editIntervalTime.Caption">
+        <object>Intervaltijd (sec.)</object>
+      </resource>
+      <resource name="lblGrossWeight.Text">
+        <object>Brutogewicht (##):</object>
+      </resource>
+      <resource name="lblNetWeight.Text">
+        <object>Nettogewicht (##):</object>
+      </resource>
+      <resource name="btnAutoZero.Text">
+        <object>Automatisch nul</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2FirmUpgrade" ServiceOnly="false">
+      <resource name="Firmware.RetrievingFirmware">
+        <object>Firmwareversie ophalen.</object>
+      </resource>
+      <resource name="Firmware.NoFirmwareSelected">
+        <object>Upgrade kan niet worden gestart, selecteer een firmwarebestand.</object>
+      </resource>
+      <resource name="Firmware.ExceptionReadingFirmwareFile">
+        <object>Er is een uitzondering opgetreden tijdens het laden van de bestandsinhoud. Zie het logboek voor meer details.</object>
+      </resource>
+      <resource name="RemoteError">
+        <object>Er is een fout opgetreden tijdens het upgradeproces voor de firmware. Zie systeemlogboek.</object>
+      </resource>
+      <resource name="Firmware.Succesfull">
+        <object>Firmware-upgrade uitgevoerd naar versie:</object>
+      </resource>
+      <resource name="Firmware.Failed">
+        <object>Firmware-upgrade is mislukt</object>
+      </resource>
+      <resource name="Firmware.UpgradeInProgress">
+        <object>Er wordt een upgrade van de firmware uitgevoerd. Een ogenblik geduld.</object>
+      </resource>
+      <resource name="Firmware.Mws2NotInitialized">
+        <object>Het is momenteel niet mogelijk om MWS2-registers te lezen, waardoor de firmware-upgrade niet kan worden gestart. Dit kan enkele minuten duren.</object>
+      </resource>
+      <resource name="Upgrade.Confirm">
+        <object>Hiermee wordt de huidige firmwareversie overschreven. Weet u het zeker?</object>
+      </resource>
+      <resource name="Upgrade.Title">
+        <object>Upgrade van firmware uitvoeren</object>
+      </resource>
+      <resource name="Upgrade.NoRemoteOpenMode">
+        <object>In deze firmwareversie kunt u niet extern de open modus instellen op de MWS2. Stel de open modus in op de MWS2 zelf (zie de handleiding van de MWS2 voor verdere instructies). \nDruk op OK wanneer de MWS2 in de open modus staat, waarna de huidige firmwareversie wordt overschreven. \nDruk op Annuleren om de firmware-upgrade te stoppen</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Firmware instellingen</object>
+      </resource>
+      <resource name="lblCurrentFirmware.Text">
+        <object>Huidige firmware:</object>
+      </resource>
+      <resource name="lblFirmwareFile.Text">
+        <object>Firmware bestand:</object>
+      </resource>
+      <resource name="btnStartUpgrade.Text">
+        <object>Start upgrade</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

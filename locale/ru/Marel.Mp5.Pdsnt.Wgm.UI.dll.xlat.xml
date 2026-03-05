@@ -1,0 +1,2124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="ru">
+  <industry>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.SystemSetup.WgmSystemView" ServiceOnly="false">
+      <resource name="paramTabPage.Text">
+        <object>Направляющие взвешивания</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Код</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Название</object>
+      </resource>
+      <resource name="grpSystem.Text">
+        <object>Система</object>
+      </resource>
+      <resource name="sysPrgLookUp.ToolTip">
+        <object>Программа системы, управляющая системой</object>
+      </resource>
+      <resource name="siteLookUp.ToolTip">
+        <object>Место производства, к которому относится система</object>
+      </resource>
+      <resource name="sysAppLookUp.ToolTip">
+        <object>Приложения, управляющее системой</object>
+      </resource>
+      <resource name="lblSysProgram.Text">
+        <object>Программа системы:</object>
+      </resource>
+      <resource name="lblSite.Text">
+        <object>Место производства:</object>
+      </resource>
+      <resource name="lblApplication.Text">
+        <object>Приложение:</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Ошибка сохранения данных!</object>
+      </resource>
+      <resource name="Err.CancelEdit">
+        <object>Ошибка отмены!</object>
+      </resource>
+      <resource name="Err.NoObjectSelected">
+        <object>Не выбран объект</object>
+      </resource>
+      <resource name="Err.NoObjectSelectedCaption">
+        <object>Информация</object>
+      </resource>
+      <resource name="Err.DeletingStationChildren">
+        <object>Не удается удалить подгруппы станции</object>
+      </resource>
+      <resource name="Err.DeletingStationData">
+        <object>Не удается удалить станцию. На станции имеются данные.</object>
+      </resource>
+      <resource name="CardData.Title">
+        <object>Отсутствуют свойства</object>
+      </resource>
+      <resource name="EqmLookup.Config">
+        <object>Конфигурация</object>
+      </resource>
+      <resource name="EqmLookup.Line">
+        <object>Линия</object>
+      </resource>
+      <resource name="EqmLookup.DeviceName">
+        <object>Название устройства</object>
+      </resource>
+      <resource name="EqmLookup.DeviceId">
+        <object>Идентификатор устройства</object>
+      </resource>
+      <resource name="CardData.WeigherConfig">
+        <object>перед тем, как можно будет выполнить конфигурирование направляющих модуля взвешивания</object>
+      </resource>
+      <resource name="CardData.DataSaved">
+        <object>перед тем, как можно будет выполнить сохранение системы модуля взвешивания</object>
+      </resource>
+      <resource name="CardData.Text.Single">
+        <object>Необходимо определить следующее свойство</object>
+      </resource>
+      <resource name="CardData.Text.Multi">
+        <object>Необходимо определить следующие свойства</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Сохранить данные?</object>
+      </resource>
+      <resource name="Save.Title">
+        <object>Сохранить данные</object>
+      </resource>
+    </type>
+    <type name="Grid.Wgm.System" ServiceOnly="false">
+      <resource name="id">
+        <object>Идентификатор</object>
+      </resource>
+      <resource name="active">
+        <object>Активный</object>
+      </resource>
+      <resource name="name">
+        <object>Название направляющей</object>
+      </resource>
+      <resource name="wgmsystem">
+        <object>Система</object>
+      </resource>
+      <resource name="eqmdevice">
+        <object>Устройство EQM</object>
+      </resource>
+      <resource name="tapdevice Name">
+        <object>Устройство TAP</object>
+      </resource>
+      <resource name="tapdevice">
+        <object>Код устройства TAP</object>
+      </resource>
+      <resource name="mws2device Name">
+        <object>Устройство MWS2</object>
+      </resource>
+      <resource name="mws2device">
+        <object>Код устройства MWS2</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.ManagementView" ServiceOnly="false">
+      <resource name="colLine.Caption">
+        <object>Линия</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Название линии, частью которой является устройство</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Устройство</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Отображение названия устройства</object>
+      </resource>
+      <resource name="colConnection.Caption">
+        <object>Подключение</object>
+      </resource>
+      <resource name="colConnection.ToolTip">
+        <object>Отображение состояния подключения устройства</object>
+      </resource>
+      <resource name="colPerformanceMon.Caption">
+        <object>Монитор производительности</object>
+      </resource>
+      <resource name="colPerformanceMon.ToolTip">
+        <object>Процентное соотношение отклонения фактической пустой подвески SD в сравнении с конфигурированной глобальной пустой подвеской SD</object>
+      </resource>
+      <resource name="colEmptyShackle.Caption">
+        <object>Пустая подвеска SD (##)</object>
+      </resource>
+      <resource name="colEmptyShackle.ToolTip">
+        <object>Стандартное отклонение веса всех подвесок на линии</object>
+      </resource>
+      <resource name="colShackleMon.Caption">
+        <object>Монитор состояния подвески</object>
+      </resource>
+      <resource name="colShackleMon.ToolTip">
+        <object>Процентное соотношение допустимых подвесок в линии</object>
+      </resource>
+      <resource name="colActWeight.Caption">
+        <object>Фактический вес (##)</object>
+      </resource>
+      <resource name="colActWeight.ToolTip">
+        <object>Фактический вес подвески</object>
+      </resource>
+      <resource name="colLogging.Caption">
+        <object>Регистрация</object>
+      </resource>
+      <resource name="colLogging.ToolTip">
+        <object>Индикатор текущей активности входа в систему</object>
+      </resource>
+      <resource name="colLineRunning.Caption">
+        <object>Рабочая линия</object>
+      </resource>
+      <resource name="colLineRunning.ToolTip">
+        <object>Индикация рабочего режима линии</object>
+      </resource>
+      <resource name="barBtnRefresh.Caption">
+        <object>Обновить</object>
+      </resource>
+      <resource name="barBtnPerformanceTest.Caption">
+        <object>Проверка производительности</object>
+      </resource>
+      <resource name="barBtnMws2Management.Caption">
+        <object>Калибровка и определение границ</object>
+      </resource>
+      <resource name="colTrackName.Caption">
+        <object>Название направляющей</object>
+      </resource>
+      <resource name="colTrackName.ToolTip">
+        <object>Отображение названия направляющей в соответствии с определением в Innova</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Отображение последней внутренней ошибки направляющей</object>
+      </resource>
+      <resource name="barBtnRefresh.Hint">
+        <object>Обновление и повторная загрузка данных сеток</object>
+      </resource>
+      <resource name="barBtnMws2Management.Hint">
+        <object>Переход к диалоговому окну MWS2 для калибровки и определения границ</object>
+      </resource>
+      <resource name="barBtnPerformanceTest.Hint">
+        <object>Переход в диалоговое окно проверки производительности</object>
+      </resource>
+      <resource name="colTareShackleId.Caption">
+        <object>Идентификатор подвески</object>
+      </resource>
+      <resource name="colTareShackleId.ToolTip">
+        <object>Идентификатор подвески</object>
+      </resource>
+      <resource name="colTareNetWeight.Caption">
+        <object>Масса нетто (##)</object>
+      </resource>
+      <resource name="colTareNetWeight.ToolTip">
+        <object>Отображение массы нетто тары</object>
+      </resource>
+      <resource name="colTareGrossWeight.Caption">
+        <object>Масса брутто (##)</object>
+      </resource>
+      <resource name="colTareGrossWeight.ToolTip">
+        <object>Отображение массы брутто тары</object>
+      </resource>
+      <resource name="colTareGlobalTare.Caption">
+        <object>Общая тара (##)</object>
+      </resource>
+      <resource name="colTareGlobalTare.ToolTip">
+        <object>Отображение общей тары</object>
+      </resource>
+      <resource name="colTareIndividualTare.Caption">
+        <object>Отдельная тара (##)</object>
+      </resource>
+      <resource name="colTareIndividualTare.ToolTip">
+        <object>Отображение отдельной тары</object>
+      </resource>
+      <resource name="colTareRejectHistoryString.Caption">
+        <object>История отбраковки</object>
+      </resource>
+      <resource name="colTareRejectHistoryString.ToolTip">
+        <object>Отображение истории отбраковки тары</object>
+      </resource>
+      <resource name="colTareRoundsLearned.Caption">
+        <object>Количество заученных циклов</object>
+      </resource>
+      <resource name="colTareRoundsLearned.ToolTip">
+        <object>Отображение количества заученных циклов</object>
+      </resource>
+      <resource name="colBadShackleId.Caption">
+        <object>Идентификатор подвески</object>
+      </resource>
+      <resource name="colBadShackleId.ToolTip">
+        <object>Идентификатор подвески</object>
+      </resource>
+      <resource name="colBadGrossWeight.Caption">
+        <object>Масса брутто (##)</object>
+      </resource>
+      <resource name="colBadGrossWeight.ToolTip">
+        <object>Отображение массы брутто тары</object>
+      </resource>
+      <resource name="colBadNetWeight.Caption">
+        <object>Масса нетто (##)</object>
+      </resource>
+      <resource name="colBadNetWeight.ToolTip">
+        <object>Отображение массы нетто тары</object>
+      </resource>
+      <resource name="colBadGlobalTare.Caption">
+        <object>Общая тара (##)</object>
+      </resource>
+      <resource name="colBadGlobalTare.ToolTip">
+        <object>Отображение общей тары</object>
+      </resource>
+      <resource name="colBadIndividualTare.Caption">
+        <object>Отдельная тара (##)</object>
+      </resource>
+      <resource name="colBadIndividualTare.ToolTip">
+        <object>Отображение отдельной тары</object>
+      </resource>
+      <resource name="colBadRejectionHistoryString.Caption">
+        <object>История отбраковки</object>
+      </resource>
+      <resource name="colBadRejectionHistoryString.ToolTip">
+        <object>Отображение истории отбраковки тары</object>
+      </resource>
+      <resource name="colBadRoundsLearned.Caption">
+        <object>Количество заученных циклов</object>
+      </resource>
+      <resource name="colBadRoundsLearned.ToolTip">
+        <object>Отображение количества заученных циклов</object>
+      </resource>
+      <resource name="colLogShackleId.Caption">
+        <object>Идентификатор подвески</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>Идентификатор подвески</object>
+      </resource>
+      <resource name="colLogRegTime.Caption">
+        <object>Время регистрации</object>
+      </resource>
+      <resource name="colLogRegTime.ToolTip">
+        <object>Время внесения записи в базу данных</object>
+      </resource>
+      <resource name="colLogOldWeight.Caption">
+        <object>Предыдущий вес (##)</object>
+      </resource>
+      <resource name="colLogOldWeight.ToolTip">
+        <object>Отображение предыдущего веса</object>
+      </resource>
+      <resource name="colLogWeight.Caption">
+        <object>Масса нетто (##)</object>
+      </resource>
+      <resource name="colLogWeight.ToolTip">
+        <object>Отображение массы нетто тары</object>
+      </resource>
+      <resource name="colLogGrossWeight.Caption">
+        <object>Масса брутто (##)</object>
+      </resource>
+      <resource name="colLogGrossWeight.ToolTip">
+        <object>Отображение массы брутто тары</object>
+      </resource>
+      <resource name="colLogActualTare.Caption">
+        <object>Общая тара (##)</object>
+      </resource>
+      <resource name="colLogActualTare.ToolTip">
+        <object>Фактический вес тары</object>
+      </resource>
+      <resource name="colLogIndividualTare.Caption">
+        <object>Отдельная тара (##)</object>
+      </resource>
+      <resource name="colLogIndividualTare.ToolTip">
+        <object>Отображение отдельной тары</object>
+      </resource>
+      <resource name="colLogRoundsLearned.Caption">
+        <object>Количество заученных циклов</object>
+      </resource>
+      <resource name="colLogRoundsLearned.ToolTip">
+        <object>Отображение количества заученных циклов</object>
+      </resource>
+      <resource name="colLogWeightQuality.Caption">
+        <object>Качество веса</object>
+      </resource>
+      <resource name="colLogWeightQuality.ToolTip">
+        <object>Отображение качества веса</object>
+      </resource>
+      <resource name="colDeveloperInfo.Caption">
+        <object>Информация для разработчика</object>
+      </resource>
+      <resource name="colDeveloperInfo.ToolTip">
+        <object>Информация для проводимого разработчиком анализа</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Процедуры</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Перезагрузить элемент интерфейса пользователя</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Восстановить макет по умолчанию</object>
+      </resource>
+      <resource name="barBtnDesignMode.Caption">
+        <object>Режим моделирования</object>
+      </resource>
+      <resource name="barBtnRefreshTareGrid.Caption">
+        <object>Обновить</object>
+      </resource>
+      <resource name="barBtnRefreshTareGrid.Hint">
+        <object>Получение данных тары</object>
+      </resource>
+      <resource name="barBtnRefreshShackleGrid.Caption">
+        <object>Обновить</object>
+      </resource>
+      <resource name="barBtnRefreshShackleGrid.Hint">
+        <object>Получение данных непригодной подвески</object>
+      </resource>
+      <resource name="barBtnResetShackle.Caption">
+        <object>Повторное запоминание выбранных</object>
+      </resource>
+      <resource name="barBtnResetShackle.Hint">
+        <object>Повторное запоминание выбранных подвесок</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.Caption">
+        <object>Повторное запоминание всей линии</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.Hint">
+        <object>Повторное запоминание всей линии</object>
+      </resource>
+      <resource name="cbLoggingHistory.Caption">
+        <object>История регистрации:</object>
+      </resource>
+      <resource name="loggingHistoryLookup.NullText">
+        <object>&lt;Выберите регистрации&gt;</object>
+      </resource>
+      <resource name="barBtnDeleteLogging.Caption">
+        <object>Удалить</object>
+      </resource>
+      <resource name="barBtnDeleteLogging.Hint">
+        <object>Удалить выбранный журнал регистрации</object>
+      </resource>
+      <resource name="edLoggingMinWeight.Caption">
+        <object>Минимальная масса нетто (##):</object>
+      </resource>
+      <resource name="edLoggingMinWeight.Hint">
+        <object>Минимальный зарегистрированный вес</object>
+      </resource>
+      <resource name="edLoggingMaxWeight.Caption">
+        <object>Максимальная масса нетто (##)</object>
+      </resource>
+      <resource name="edLoggingMaxWeight.Hint">
+        <object>Максимальный зарегистрированный вес</object>
+      </resource>
+      <resource name="edLoggingRatio.Caption">
+        <object>Соотношение регистрации:</object>
+      </resource>
+      <resource name="edLoggingRatio.Hint">
+        <object>Регистрировать каждую N-ую подвеску, а не каждую подвеску (1 = все подвески)</object>
+      </resource>
+      <resource name="edLoggingName.Caption">
+        <object>Название регистрации:</object>
+      </resource>
+      <resource name="LogButton.Stop">
+        <object>Стоп</object>
+      </resource>
+      <resource name="LogButton.Start">
+        <object>Запуск</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Название</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Нет удаленного подключения к серверу</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Ошибка при подключении</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>Нет удаленного подключения к станции</object>
+      </resource>
+      <resource name="ResetShackels.Failed">
+        <object>Ошибка сброса подвесок</object>
+      </resource>
+      <resource name="ResetAllShackels.Failed">
+        <object>Ошибка сброса всех подвесок</object>
+      </resource>
+      <resource name="Logging.IllegalRange">
+        <object>Указан недопустимый диапазон веса</object>
+      </resource>
+      <resource name="Logging.IllegalRangeCaption">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="Logging.Failed">
+        <object>Ошибка процедуры регистрации</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Удалить запись журнала регистрации:\n“{0}“\nиз базы данных?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Удалить файл журнала регистрации</object>
+      </resource>
+      <resource name="edLoggingName.Hint">
+        <object>Введите название журнала регистрации. Если название введено не было, то оно будет создано автоматически.</object>
+      </resource>
+      <resource name="tabTare.Text">
+        <object>Пустые подвески</object>
+      </resource>
+      <resource name="tabBadShackles.Text">
+        <object>Недопустимые подвески</object>
+      </resource>
+      <resource name="tabLogging.Text">
+        <object>Динамическое взвешивание</object>
+      </resource>
+      <resource name="staticWeight.Caption">
+        <object>Статический вес (##)</object>
+      </resource>
+      <resource name="staticWeight.ToolTip">
+        <object>Статический вес подвески</object>
+      </resource>
+      <resource name="tabStaticWeight.Text">
+        <object>Статическое взвешивание</object>
+      </resource>
+      <resource name="cbLoggingHistory.Hint">
+        <object>Список доступных для выбора журналов регистрации</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Сохранить</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Сохранить выбранный журнал регистрации в файл</object>
+      </resource>
+      <resource name="barBtnStartStopLogging.Caption">
+        <object>Запуск</object>
+      </resource>
+      <resource name="barBtnStartStopLogging.Hint">
+        <object>Щелкните для запуска регистрации</object>
+      </resource>
+      <resource name="barSubOperations.Hint">
+        <object>Системные операции</object>
+      </resource>
+      <resource name="barBtnSaveTareGrid.Caption">
+        <object>Сохранить</object>
+      </resource>
+      <resource name="barBtnSaveTareGrid.Hint">
+        <object>Сохранение содержимого таблицы тары в файл</object>
+      </resource>
+      <resource name="barBtnSaveBadShackleGrid.Caption">
+        <object>Сохранить</object>
+      </resource>
+      <resource name="barBtnSaveBadShackleGrid.Hint">
+        <object>Сохранение содержимого таблицы непригодных подвесок в файл</object>
+      </resource>
+      <resource name="ResetShackle.Confirm">
+        <object>Будет выполнено повторное запоминание отдельной тары выбранных подвесок.\nПродолжить?</object>
+      </resource>
+      <resource name="ResetShackle.Title">
+        <object>Повторное запоминание выбранных подвесок</object>
+      </resource>
+      <resource name="ResetBadShackles.Confirm">
+        <object>Будет выполнено повторное запоминание отдельной тары всех непригодных подвесок.\nПродолжить?</object>
+      </resource>
+      <resource name="ResetBadShackles.Title">
+        <object>Повторно запомнить все недопустимые подвески</object>
+      </resource>
+      <resource name="ResetAllShackle.Confirm">
+        <object>Будет выполнено повторное запоминание отдельной тары и общей тары всех подвесок на линии.\nПродолжить?</object>
+      </resource>
+      <resource name="ResetAllShackle.Title">
+        <object>Повторно запомнить все подвески</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Перезагрузка всех элементов интерфейса пользователя</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Восстановление макетов по умолчанию всех элементов интерфейса пользователя</object>
+      </resource>
+      <resource name="barBtnDesignMode.Hint">
+        <object>Активация планирования сеток</object>
+      </resource>
+      <resource name="WgmStationNotPresent">
+        <object>Станция Wgm отсутствует в серверном приложении. Установлена ли лицензия?</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Settings.TapSettings" ServiceOnly="false">
+      <resource name="colStatus.Caption">
+        <object>Состояние</object>
+      </resource>
+      <resource name="colStatus.ToolTip">
+        <object>Отображение состояния настроек</object>
+      </resource>
+      <resource name="colTrack.Caption">
+        <object>Название направляющей</object>
+      </resource>
+      <resource name="colTrack.ToolTip">
+        <object>Название направляющей веса, управляющей данным устройством</object>
+      </resource>
+      <resource name="colDownloadDate.Caption">
+        <object>Oтправлено в</object>
+      </resource>
+      <resource name="colDownloadDate.ToolTip">
+        <object>Дата и время отправки настроек в устройство</object>
+      </resource>
+      <resource name="colTareBackup.Caption">
+        <object>Резервное копирование данных тары в</object>
+      </resource>
+      <resource name="colTareBackup.ToolTip">
+        <object>Дата и время выполнения резервного копирования данных тары из устройства</object>
+      </resource>
+      <resource name="tabSource.Text">
+        <object>Источник</object>
+      </resource>
+      <resource name="tabDetection.Text">
+        <object>Обнаружение продукта</object>
+      </resource>
+      <resource name="tabHandling.Text">
+        <object>Обработка продукта</object>
+      </resource>
+      <resource name="tabAlarms.Text">
+        <object>Аварийные сигналы</object>
+      </resource>
+      <resource name="tabTare.Text">
+        <object>Тара</object>
+      </resource>
+      <resource name="tabLogging.Text">
+        <object>Регистрация</object>
+      </resource>
+      <resource name="grpWeighingSource.Text">
+        <object>Источник взвешивания</object>
+      </resource>
+      <resource name="grpCommunication.Text">
+        <object>Связь с MWS2</object>
+      </resource>
+      <resource name="weighingSource.PrevWeight">
+        <object>Предыдущий вес</object>
+      </resource>
+      <resource name="weighingSource.LoadCell">
+        <object>Тензодатчик</object>
+      </resource>
+      <resource name="chkWholeProdWeigher.Text">
+        <object>Модуль взвешивания целого продукта</object>
+      </resource>
+      <resource name="lblIpAddress.Text">
+        <object>IP-адрес</object>
+      </resource>
+      <resource name="lblPortNo.Text">
+        <object>№ порта</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Устройство</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Отображение названия устройства, для которого задаются настройки</object>
+      </resource>
+      <resource name="grpClearProduct.Text">
+        <object>Удалить продукт</object>
+      </resource>
+      <resource name="grpAddProduct.Text">
+        <object>Добавить продукт</object>
+      </resource>
+      <resource name="lblClearProdNoOfShackles.Text">
+        <object>Срабатывает аварийный сигнал количества подвесок после рег./проц.</object>
+      </resource>
+      <resource name="chkClearProdAllow.Text">
+        <object>Разрешить удаление продукта</object>
+      </resource>
+      <resource name="chkClearProdDisable.Text">
+        <object>Отключить удаление продукта после аварийного сигнала</object>
+      </resource>
+      <resource name="lblAddProdNoOfShackles.Text">
+        <object>Срабатывает аварийный сигнал количества подвесок после рег./проц.</object>
+      </resource>
+      <resource name="chkAddProdAllow.Text">
+        <object>Разрешить назначение продукта</object>
+      </resource>
+      <resource name="chkAddProdDisable.Text">
+        <object>Отключить назначение продукта после аварийного сигнала</object>
+      </resource>
+      <resource name="lblAddProdWeight.Text">
+        <object>Вес</object>
+      </resource>
+      <resource name="lblAddProdQuality.Text">
+        <object>Качество</object>
+      </resource>
+      <resource name="lblAddProdArticle.Text">
+        <object>Товарный код</object>
+      </resource>
+      <resource name="grpWeightParam.Text">
+        <object>Параметры веса</object>
+      </resource>
+      <resource name="grpTreatment.Text">
+        <object>Обработка</object>
+      </resource>
+      <resource name="grpGiblet.Text">
+        <object>Потроха</object>
+      </resource>
+      <resource name="lblPHMinProductWeight.Text">
+        <object>Минимальный вес продукта</object>
+      </resource>
+      <resource name="lblPHOffset.Text">
+        <object>Смещение</object>
+      </resource>
+      <resource name="lblPHCorrFactor.Text">
+        <object>Поправочный коэффициент</object>
+      </resource>
+      <resource name="chkPHDisplace.Text">
+        <object>Сместить продукт</object>
+      </resource>
+      <resource name="lblPHDisplaceShackles.Text">
+        <object>Сместить подвески</object>
+      </resource>
+      <resource name="chkUseGiblet.Text">
+        <object>Использовать потроха</object>
+      </resource>
+      <resource name="lblGibletWeight.Text">
+        <object>Вес потрохов</object>
+      </resource>
+      <resource name="lblAddGiblet.Text">
+        <object>Добавить к товарному коду потроха</object>
+      </resource>
+      <resource name="treatment.Left">
+        <object>Левый</object>
+      </resource>
+      <resource name="treatment.Right">
+        <object>Правый</object>
+      </resource>
+      <resource name="treatment.Whole">
+        <object>Целый</object>
+      </resource>
+      <resource name="grpEfficency.Text">
+        <object>Эффективность</object>
+      </resource>
+      <resource name="grpGeneral.Text">
+        <object>Общая информация</object>
+      </resource>
+      <resource name="chkUseOvershootAlarms.Text">
+        <object>Использовать аварийный сигнал проскока</object>
+      </resource>
+      <resource name="lblOvershotLimit.Text">
+        <object>Предельный процент проскоков</object>
+      </resource>
+      <resource name="lblNoOvershootsAllowed.Text">
+        <object>Количество допустимых проскоков за прежний период до срабатывания аварийного сигнала</object>
+      </resource>
+      <resource name="chkUseBarOutsideAlarm.Text">
+        <object>Использовать стержни вне диапазона тревоги</object>
+      </resource>
+      <resource name="lblNoBarsForHistory.Text">
+        <object>Количество использованных стержней для истории</object>
+      </resource>
+      <resource name="lblNoBarsOutsideRange.Text">
+        <object>Количество стержней вне диапазона допустимое до срабатывания тревоги</object>
+      </resource>
+      <resource name="chkUseProdEfficiency.Text">
+        <object>Использовать тревогу внешнего диапазона продукта</object>
+      </resource>
+      <resource name="lblProdEffOutsideLimit.Text">
+        <object>Предельные значения эффективного внешнего диапазона продукта</object>
+      </resource>
+      <resource name="lblProdEffOutsideLimitHysteresis.Text">
+        <object>Гистерезис предельных значений эффективного внешнего диапазона продукта</object>
+      </resource>
+      <resource name="lblProdEffYellow.Text">
+        <object>Желтая планка полосы эффективности продукта</object>
+      </resource>
+      <resource name="chkSuppressAlarm.Text">
+        <object>Скрыть аварийный сигнал при нестабильной скорости линии</object>
+      </resource>
+      <resource name="grpTare.Text">
+        <object>Общая информация по таре</object>
+      </resource>
+      <resource name="grpIndividualTare.Text">
+        <object>Отдельная тара</object>
+      </resource>
+      <resource name="grpTareBackup.Text">
+        <object>Резервное копирование данных тары</object>
+      </resource>
+      <resource name="grpGlobalTare.Text">
+        <object>Общая тара</object>
+      </resource>
+      <resource name="lblTareRejection.Text">
+        <object>Ограничение по отбраковке тары</object>
+      </resource>
+      <resource name="lblEmptyShackleSD.Text">
+        <object>Макс. пустых подвесок SD</object>
+      </resource>
+      <resource name="lblEmptyShackleWeight.Text">
+        <object>Расчетный вес пустой подвески</object>
+      </resource>
+      <resource name="lblMinLineSpeed.Text">
+        <object>Минимальная скорость линии</object>
+      </resource>
+      <resource name="chkIndTareCorr.Text">
+        <object>Включить коррекцию отдельной тары</object>
+      </resource>
+      <resource name="lblIndTareRoundsNeeded.Text">
+        <object>Мин. кол-во пустых циклов для начального обучения</object>
+      </resource>
+      <resource name="lblIndTareKFactor.Text">
+        <object>Коэффициент затухания скользящего среднего</object>
+      </resource>
+      <resource name="lblIndTareRoundsRejected.Text">
+        <object>Количество циклов с отбраковкой</object>
+      </resource>
+      <resource name="chkEnableTareBackup.Text">
+        <object>Включить резервное копирование отдельной тары</object>
+      </resource>
+      <resource name="lblTareBackupInterval.Text">
+        <object>Интервал резервного копирования</object>
+      </resource>
+      <resource name="uTareBackupInterval.Text">
+        <object>мин</object>
+      </resource>
+      <resource name="chkGlobalTareCorr.Text">
+        <object>Включить коррекцию общей тары</object>
+      </resource>
+      <resource name="lblGlobalTareShacklesNeeded.Text">
+        <object>Количество подвесок для скользящего среднего</object>
+      </resource>
+      <resource name="lblGlobalTareActualPlus.Text">
+        <object>Порог аварийного сигнала для фактической тары</object>
+      </resource>
+      <resource name="lblAlarmThresholdShacklesInRound.Text">
+        <object>Количество отбракованных подвесок за цикл</object>
+      </resource>
+      <resource name="lblAlarmThresholdIndShackle.Text">
+        <object>Отбраковок на подвеску</object>
+      </resource>
+      <resource name="grpLogSettings.Text">
+        <object>Настройки регистрации</object>
+      </resource>
+      <resource name="chkOutputWeightData.Text">
+        <object>Данные выходного веса</object>
+      </resource>
+      <resource name="barBtnRefresh.Caption">
+        <object>Обновить</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Подтвердить</object>
+      </resource>
+      <resource name="barSubOpertions.Caption">
+        <object>Процедуры</object>
+      </resource>
+      <resource name="barBtnSend.Caption">
+        <object>Отправить</object>
+      </resource>
+      <resource name="barBtnTareBackup.Caption">
+        <object>Резервное копирование данных тары</object>
+      </resource>
+      <resource name="barBtnTareRestore.Caption">
+        <object>Восстановление данных тары</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Перезагрузить элемент интерфейса пользователя</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Восстановить макет по умолчанию</object>
+      </resource>
+      <resource name="Hint.NotInDevice">
+        <object>Настройки не в TAP</object>
+      </resource>
+      <resource name="Hint.InDevice">
+        <object>Настройки в TAP</object>
+      </resource>
+      <resource name="Hint.Different">
+        <object>Настройки систем TAP и Innova отличаются</object>
+      </resource>
+      <resource name="Hint.NoInfo">
+        <object>Не удается получить информацию</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Сохранить данные?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Сохранить настройки</object>
+      </resource>
+      <resource name="Send.Confirm">
+        <object>Отправить настройки на текущее выбранное устройство?</object>
+      </resource>
+      <resource name="Send.Title">
+        <object>Передать настройки</object>
+      </resource>
+      <resource name="Send.Failed">
+        <object>Ошибка отправки настроек</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>Нет удаленного подключения к серверу.</object>
+      </resource>
+      <resource name="SendError.Caption">
+        <object>Ошибка отправки</object>
+      </resource>
+      <resource name="TareBackup.Failed">
+        <object>Ошибка отправки запроса на резервное копирование таблицы тары</object>
+      </resource>
+      <resource name="TareRestore.Failed">
+        <object>Ошибка отправки запроса на восстановление таблицы тары</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Отображение последнего сообщения об ошибке</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Нет удаленного подключения к серверу.</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Ошибка при подключении</object>
+      </resource>
+      <resource name="TareAutoBackup.Failed">
+        <object>Ошибка обновления настроек резервного копирования таблицы</object>
+      </resource>
+      <resource name="TareBackup.Busy">
+        <object>Выполняется резервное копирование</object>
+      </resource>
+      <resource name="TareRestore.Busy">
+        <object>Выполняется восстановление</object>
+      </resource>
+      <resource name="colTareRestore.Caption">
+        <object>Данные тары восстановлены в</object>
+      </resource>
+      <resource name="colTareRestore.ToolTip">
+        <object>Дата и время восстановления данных тары</object>
+      </resource>
+      <resource name="uAddProdWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uPHMinProductWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uPHOffset.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uGibletWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uTareRejection.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uEmptyShackleWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uMinLineSpeed.Text">
+        <object>шт/ч</object>
+      </resource>
+      <resource name="uGlobalTareActualPlus.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uAlarmThresholdShacklesInRound.Text">
+        <object>%</object>
+      </resource>
+      <resource name="uAlarmThresholdIndShackle.Text">
+        <object>%</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Линия</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Отображение линии в соответствии с определением в Top</object>
+      </resource>
+      <resource name="uEmptyShackleSD.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uLoadCellWeightUnit.Text">
+        <object>кг</object>
+      </resource>
+      <resource name="barBtnTareLoad.Caption">
+        <object>Загрузка данных тары</object>
+      </resource>
+      <resource name="barBtnTareLoad.Hint">
+        <object>Загрузка данных тары из файла для восстановления в устройстве</object>
+      </resource>
+      <resource name="barBtnTareSave.Caption">
+        <object>Сохранение данных тары</object>
+      </resource>
+      <resource name="barBtnTareSave.Hint">
+        <object>Сохранение резервной копии данных тары в файл</object>
+      </resource>
+      <resource name="TareSave.Error">
+        <object>В базе данных не найдены данные резервного копирования таблицы тары.</object>
+      </resource>
+      <resource name="TareSave.ErrorTitle">
+        <object>Ошибка сохранения данных тары</object>
+      </resource>
+      <resource name="TareSave.Dialog.Title">
+        <object>Сохранить как</object>
+      </resource>
+      <resource name="TareSave.Dialog.Failed">
+        <object>Сбой сохранения данных тары</object>
+      </resource>
+      <resource name="TareLoad.Dialog.Title">
+        <object>Выберите файл...</object>
+      </resource>
+      <resource name="TareLoad.Dialog.Failed">
+        <object>Ошибка загрузки данных тары</object>
+      </resource>
+      <resource name="TareLoad.Confirm">
+        <object>Загрузить данные тары из файла и восстановить их в устройстве?</object>
+      </resource>
+      <resource name="TareLoad.ConfirmTitle">
+        <object>Восстановление данных тары из файла</object>
+      </resource>
+      <resource name="TareLoad.Result.Text">
+        <object>Убедитесь, что выбран правильный файл.</object>
+      </resource>
+      <resource name="TareLoad.Result.Caption">
+        <object>Ошибка считывания данных</object>
+      </resource>
+      <resource name="TareLoad.Restore.Failed">
+        <object>Ошибка восстановления данных таблицы тары из файла</object>
+      </resource>
+      <resource name="barBtnTareBackup.Hint">
+        <object>Резервное копирование данных таблицы тары из TAP в базу данных</object>
+      </resource>
+      <resource name="barBtnTareRestore.Hint">
+        <object>Восстановление резервной копии данных тары из базы данных в TAP</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Перезагрузка всех элементов интерфейса пользователя</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Восстановление макетов по умолчанию всех элементов интерфейса пользователя</object>
+      </resource>
+      <resource name="lblIndTareShacklesAllowed.Text">
+        <object>Макс. нагрузка линии для обучения</object>
+      </resource>
+      <resource name="edIndTareShacklesAllowed.ToolTip">
+        <object>Определение уровня заполнения подвесок, при котором модуль взвешивания может начать процедуру обучения для отдельной тары.</object>
+      </resource>
+      <resource name="lblBadShackleListThreshold.Text">
+        <object>Порог отбраковки для таблицы непригодных подвесок</object>
+      </resource>
+      <resource name="edAlarmThresholdShacklesInRound.ToolTip">
+        <object>Аварийный сигнал срабатывает в случае, если процентное соотношение отбракованных за один цикл подвесок превышает это значение</object>
+      </resource>
+      <resource name="edAlarmThresholdIndShackle.ToolTip">
+        <object>Аварийный сигнал срабатывает в случае, если процентное соотношение отбракованных отдельных подвесок превышает это значение</object>
+      </resource>
+      <resource name="edBadShackleListThreshold.ToolTip">
+        <object>Если процентное соотношение отбракованных отдельных подвесок превышает это значение, то в список непригодных подвесок добавляется еще одна подвеска</object>
+      </resource>
+      <resource name="edBadShackleResetThreshold.ToolTip">
+        <object>Если процентное соотношение отбракованных отдельных подвесок превышает это значение, то отдельная тара подвески сбрасывается</object>
+      </resource>
+      <resource name="edTareBackupInterval.ToolTip">
+        <object>Интервал, с которым данные отдельной тары будут получены из TAP и будет выполнено их резервное копирование в базу данных</object>
+      </resource>
+      <resource name="edIndTareRoundsNeeded.ToolTip">
+        <object>Количество циклов, необходимое для запоминания отдельной тары</object>
+      </resource>
+      <resource name="edIndTareKFactor.ToolTip">
+        <object>Вес каждой новой пустой подвески уменьшается посредством этого коэффициента, после чего используется в рекурсивном фильтре для расчета отдельной тары</object>
+      </resource>
+      <resource name="edGlobalTareActualPlus.ToolTip">
+        <object>При выходе значения общей тары за значение этого порога (отрицательное или положительное значение) срабатывает аварийный сигнал</object>
+      </resource>
+      <resource name="edEmptyShackleWeight.ToolTip">
+        <object>Оценка веса пустой подвески, используемая в расчете тары. Фактический вес подвески складывается из значения отдельной тары и этого значения</object>
+      </resource>
+      <resource name="edMinLineSpeed.ToolTip">
+        <object>Минимальная скорость линии для запоминания тары</object>
+      </resource>
+      <resource name="edEmptyShackleSD.ToolTip">
+        <object>Максимальное стандартное отклонение пустой подвески, используемое в мониторе производительности</object>
+      </resource>
+      <resource name="edTareRejection.ToolTip">
+        <object>Если тара в подвеске отклоняется от фактической тары на значение, превышающее данное значение, то подвеска будет отбракована для расчета отдельной и общей тары</object>
+      </resource>
+      <resource name="edIpAddress.ToolTip">
+        <object>IP-адрес устройства MWS2, используемый TAP при создании подключения</object>
+      </resource>
+      <resource name="edPortNo.ToolTip">
+        <object>Номер порта устройства MWS2, используемый TAP при создании подключения</object>
+      </resource>
+      <resource name="edGlobalTareShacklesNeeded.ToolTip">
+        <object>Количество подвесок, используемое при расчете скользящего среднего общей тары</object>
+      </resource>
+      <resource name="uBadShackleListThreshold.Text">
+        <object>%</object>
+      </resource>
+      <resource name="Send.Failed.Caption">
+        <object>Ошибка отправки настроек</object>
+      </resource>
+      <resource name="Send.Failed.Text">
+        <object>См. подробную информацию в журнале системы.</object>
+      </resource>
+      <resource name="Send.SaveConfirm">
+        <object>Сохранить данные и\nотправить настройки на текущее выбранное устройство?</object>
+      </resource>
+      <resource name="barBtnResetBadShackles.ToolTip">
+        <object>Повторное запоминание всех непригодных подвесок в системе</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.ToolTip">
+        <object>Повторное запоминание всей линии, т.е. и непригодных и пригодных подвесок</object>
+      </resource>
+      <resource name="edClearProdPerc.ToolTip">
+        <object>Процентное соотношение подвесок, которые должны активировать аварийный сигнал</object>
+      </resource>
+      <resource name="chkClearProdAllow.ToolTip">
+        <object>При включении этой опции разрешается удаление продукта</object>
+      </resource>
+      <resource name="chkClearProdDisable.ToolTip">
+        <object>При включении этой опции продукты не будут удаляться при сработавшем аварийном сигнале</object>
+      </resource>
+      <resource name="edAddProdPerc.ToolTip">
+        <object>Процентное соотношение подвесок, которые должны активировать аварийный сигнал</object>
+      </resource>
+      <resource name="chkAddProdAllow.ToolTip">
+        <object>При включении этой опции разрешается назначение продукта</object>
+      </resource>
+      <resource name="chkAddProdDisable.ToolTip">
+        <object>При включении этой опции продукты не будут назначаться при сработавшем аварийном сигнале</object>
+      </resource>
+      <resource name="edAddProdWeight.ToolTip">
+        <object>Вес добавляемых продуктов</object>
+      </resource>
+      <resource name="edAddProdQuality.ToolTip">
+        <object>Качество добавляемых продуктов</object>
+      </resource>
+      <resource name="edAddProdArticle.ToolTip">
+        <object>Товарный код добавляемых продуктов</object>
+      </resource>
+      <resource name="edPHMinProductWeight.ToolTip">
+        <object>Минимальный регистрируемый вес продукта</object>
+      </resource>
+      <resource name="edPHOffset.ToolTip">
+        <object>Смещение для регистрации веса</object>
+      </resource>
+      <resource name="edPHCorrFactor.ToolTip">
+        <object>Процентное соотношение, используемое для поправочного коэффициента</object>
+      </resource>
+      <resource name="chkPHDisplace.ToolTip">
+        <object>При включении этой опции будет смещено определенное количество подвесок</object>
+      </resource>
+      <resource name="edPHDisplaceShackles.ToolTip">
+        <object>Количество смещаемых подвесок</object>
+      </resource>
+      <resource name="selTreatments.ToolTip">
+        <object>Определение типа модуля взвешивания (левая ножка, правая ножка или целый продукт)</object>
+      </resource>
+      <resource name="chkUseGiblet.ToolTip">
+        <object>Определение того, будут ли включены в процедуру взвешивания потроха</object>
+      </resource>
+      <resource name="edGibletWeight.ToolTip">
+        <object>Вес используемых потрохов</object>
+      </resource>
+      <resource name="chkAutoRelearn.Text">
+        <object>Включение автоматического повторного запоминания</object>
+      </resource>
+      <resource name="lblBadShackleResetThreshold.Text">
+        <object>Порог отбраковки на подвеску</object>
+      </resource>
+      <resource name="TareBackup">
+        <object>Выполнить резервное копирование текущей существующей таблицы тары из системы TAP?</object>
+      </resource>
+      <resource name="TareRestore">
+        <object>Выполнить восстановление текущей резервной копии таблицы тары в систему TAP?</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.TapPerformanceTest" ServiceOnly="false">
+      <resource name="colLogShackleId.Caption">
+        <object>Подвеска</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>Идентификатор подвески</object>
+      </resource>
+      <resource name="colLogRegTime.Caption">
+        <object>Время регистрации</object>
+      </resource>
+      <resource name="colLogRegTime.ToolTip">
+        <object>Время внесения записи в базу данных</object>
+      </resource>
+      <resource name="colLogOldWeight.Caption">
+        <object>Предыдущий вес (##)</object>
+      </resource>
+      <resource name="colLogOldWeight.ToolTip">
+        <object>Отображение предыдущего веса</object>
+      </resource>
+      <resource name="colLogWeight.Caption">
+        <object>Масса нетто (##)</object>
+      </resource>
+      <resource name="colLogWeight.ToolTip">
+        <object>Отображение массы нетто тары</object>
+      </resource>
+      <resource name="colLogGrossWeight.Caption">
+        <object>Масса брутто (##)</object>
+      </resource>
+      <resource name="colLogGrossWeight.ToolTip">
+        <object>Отображение массы брутто тары</object>
+      </resource>
+      <resource name="colLogActualTare.Caption">
+        <object>Фактическая тара (##)</object>
+      </resource>
+      <resource name="colLogActualTare.ToolTip">
+        <object>Фактический вес тары</object>
+      </resource>
+      <resource name="colLogIndividualTare.Caption">
+        <object>Отдельная тара (##)</object>
+      </resource>
+      <resource name="colLogIndividualTare.ToolTip">
+        <object>Отображение отдельной тары</object>
+      </resource>
+      <resource name="colLogRoundsLearned.Caption">
+        <object>Количество заученных циклов</object>
+      </resource>
+      <resource name="colLogRoundsLearned.ToolTip">
+        <object>Отображение количества заученных циклов</object>
+      </resource>
+      <resource name="colLogWeightQuality.Caption">
+        <object>Качество веса</object>
+      </resource>
+      <resource name="colLogWeightQuality.ToolTip">
+        <object>Отображение качества веса</object>
+      </resource>
+      <resource name="colDeveloperInfo.Caption">
+        <object>Информация для разработчика</object>
+      </resource>
+      <resource name="colDeveloperInfo.ToolTip">
+        <object>Информация для проводимого разработчиком анализа</object>
+      </resource>
+      <resource name="grpWeighers.Text">
+        <object>Модули взвешивания</object>
+      </resource>
+      <resource name="grpLoggingHistory.Text">
+        <object>История регистрации</object>
+      </resource>
+      <resource name="grpTestState.Text">
+        <object>Состояние проверки</object>
+      </resource>
+      <resource name="grpTestProperties.Text">
+        <object>Свойства проверки</object>
+      </resource>
+      <resource name="btnDelLog.ToolTip">
+        <object>Удалить выбранный журнал регистрации</object>
+      </resource>
+      <resource name="lblNoOfBirds.Text">
+        <object>Количество продуктов</object>
+      </resource>
+      <resource name="lblDropsPerMin.Text">
+        <object>Количество в минуту</object>
+      </resource>
+      <resource name="lblMinWeight.Text">
+        <object>Минимальный вес</object>
+      </resource>
+      <resource name="uMinWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblMaxWeight.Text">
+        <object>Максимальный вес</object>
+      </resource>
+      <resource name="uMaxWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblLogName.Text">
+        <object>Название журнала регистрации</object>
+      </resource>
+      <resource name="startStopButton.Text">
+        <object>Запуск</object>
+      </resource>
+      <resource name="WeigherLookup.Name">
+        <object>Название</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Название</object>
+      </resource>
+      <resource name="TestError.ParamFailed">
+        <object>Не удается запустить проверку производительности, проверьте параметры</object>
+      </resource>
+      <resource name="TestError.FailedToStart">
+        <object>Не удается запустить проверку производительности</object>
+      </resource>
+      <resource name="TestError.NoServer">
+        <object>Не удается запустить проверку, нет соединения с сервером</object>
+      </resource>
+      <resource name="TestError.Error">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="TestError.FailedToStop">
+        <object>Не удается остановить проверку производительности</object>
+      </resource>
+      <resource name="TestButton.Start">
+        <object>Запуск</object>
+      </resource>
+      <resource name="TestButton.Stop">
+        <object>Стоп</object>
+      </resource>
+      <resource name="Test.Finished">
+        <object>Проверка производительности успешно завершена</object>
+      </resource>
+      <resource name="Test.Running">
+        <object>Выполняется проверка производительности</object>
+      </resource>
+      <resource name="Test.Stopped">
+        <object>Проверка производительности остановлена</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Удалить запись журнала регистрации:\n“{0}“\nиз базы данных?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Удалить файл журнала регистрации</object>
+      </resource>
+      <resource name="TapPerformanceTest.Text">
+        <object>Проверка производительности</object>
+      </resource>
+      <resource name="Test.Info">
+        <object>Установите параметры проверки и нажмите на пуск для запуска проверки</object>
+      </resource>
+      <resource name="weigherList.ToolTip">
+        <object>Выберите проверяемый модуль взвешивания</object>
+      </resource>
+      <resource name="loggingHistoryList.ToolTip">
+        <object>Выберите просматриваемый журнал</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Сохранить выбранный журнал регистрации в файл</object>
+      </resource>
+      <resource name="grpResultGrid.Text">
+        <object>Результаты</object>
+      </resource>
+      <resource name="edNoOfBirds.ToolTip">
+        <object>Указание количества сбрасываемых птиц</object>
+      </resource>
+      <resource name="edDropsPerMin.ToolTip">
+        <object>Указание количества сбрасываемых птиц в минуту</object>
+      </resource>
+      <resource name="edMinWeight.ToolTip">
+        <object>Минимальная весовая характеристика сбрасываемой птицы</object>
+      </resource>
+      <resource name="edMaxWeight.ToolTip">
+        <object>Максимальная весовая характеристика сбрасываемой птицы</object>
+      </resource>
+      <resource name="edLogName.ToolTip">
+        <object>Название журнала соответствует выполненной проверке производительности.</object>
+      </resource>
+      <resource name="startStopButton.ToolTip">
+        <object>Активировать проверку производительности или остановить выполняемую проверку</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Закрыть</object>
+      </resource>
+      <resource name="btnClose.ToolTip">
+        <object>Закрывание диалогового окна</object>
+      </resource>
+      <resource name="lblArticleCode.Text">
+        <object>Товарный код</object>
+      </resource>
+      <resource name="lblDropDelay.Text">
+        <object>Задержка сброса</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Settings.Mws2Settings" ServiceOnly="false">
+      <resource name="barBtnRefresh.Caption">
+        <object>Обновить</object>
+      </resource>
+      <resource name="barBtnRefresh.Hint">
+        <object>Обновление установки и данных из устройства</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Подтвердить</object>
+      </resource>
+      <resource name="barBtnConfirm.Hint">
+        <object>Сохранение измененных значений в базе данных</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Процедуры</object>
+      </resource>
+      <resource name="barSubOperations.Hint">
+        <object>Дополнительные процедуры</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Перезагрузить элемент интерфейса пользователя</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Перезагрузка всех элементов интерфейса пользователя</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Восстановить макет по умолчанию</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Восстановление макетов по умолчанию всех элементов интерфейса пользователя</object>
+      </resource>
+      <resource name="barBtnSend.Caption">
+        <object>Отправить</object>
+      </resource>
+      <resource name="barBtnSend.Hint">
+        <object>Отправка настроек на выбранное устройство</object>
+      </resource>
+      <resource name="tabProperties.Text">
+        <object>Свойства</object>
+      </resource>
+      <resource name="barBtnLoad.Caption">
+        <object>Загрузка из файла</object>
+      </resource>
+      <resource name="barBtnLoad.Hint">
+        <object>Загрузка настроек регистрации из локального файла.</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Сохранить в файл</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Сохранение настроек регистрации в локальный файл.</object>
+      </resource>
+      <resource name="barBtnGetSettings.Caption">
+        <object>Получить настройки MWS2</object>
+      </resource>
+      <resource name="barBtnGetSettings.Hint">
+        <object>Импорт настроек регистрации для выбранного модуля взвешивания MWS2.</object>
+      </resource>
+      <resource name="colStatus.Caption">
+        <object>Состояние</object>
+      </resource>
+      <resource name="colStatus.Hint">
+        <object>Отображение состояния настроек</object>
+      </resource>
+      <resource name="colTrack.Caption">
+        <object>Название направляющей</object>
+      </resource>
+      <resource name="colTrack.ToolTip">
+        <object>Название направляющей веса, управляющей данным устройством</object>
+      </resource>
+      <resource name="colDownloadDate.Caption">
+        <object>Отправлено в</object>
+      </resource>
+      <resource name="colDownloadDate.ToolTip">
+        <object>Дата и время отправки настроек в устройство</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Отображение последнего сообщения об ошибке</object>
+      </resource>
+      <resource name="colPropRegister.Caption">
+        <object>Регистрация</object>
+      </resource>
+      <resource name="colPropRegister.ToolTip">
+        <object>Отображение номера регистрации</object>
+      </resource>
+      <resource name="colPropDescription.Caption">
+        <object>Описание</object>
+      </resource>
+      <resource name="colPropDescription.ToolTip">
+        <object>Описание регистрации</object>
+      </resource>
+      <resource name="colPropFlags.Caption">
+        <object>Отметки</object>
+      </resource>
+      <resource name="colPropFlags.ToolTip">
+        <object>Отметки регистрации</object>
+      </resource>
+      <resource name="colPropChangeable.Caption">
+        <object>Изменяемый</object>
+      </resource>
+      <resource name="colPropChangeable.ToolTip">
+        <object>Возможность изменения значения</object>
+      </resource>
+      <resource name="colPropContent.Caption">
+        <object>Активные параметры MWS2</object>
+      </resource>
+      <resource name="colPropContent.ToolTip">
+        <object>Отображение содержимого регистрации устройства</object>
+      </resource>
+      <resource name="colPropContentDb.Caption">
+        <object>Параметры в базе данных</object>
+      </resource>
+      <resource name="colPropContentDb.ToolTip">
+        <object>Отображение сохраненных в базе данных параметров</object>
+      </resource>
+      <resource name="Info.Refresh.Text">
+        <object>Получение данных от устройства MWS2.\nПодождите!</object>
+      </resource>
+      <resource name="Info.Refresh">
+        <object>Загрузка данных</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Сохранить данные?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Сохранить настройки</object>
+      </resource>
+      <resource name="Hint.NotInDevice">
+        <object>Настройки не в MWS2</object>
+      </resource>
+      <resource name="Hint.InDevice">
+        <object>Настройки в MWS2</object>
+      </resource>
+      <resource name="Hint.Different">
+        <object>Настройки MWS2 и Innova отличаются</object>
+      </resource>
+      <resource name="Hint.NoInfo">
+        <object>Не удается получить информацию</object>
+      </resource>
+      <resource name="Load.Text">
+        <object>Данные в сетке и базе данных будут перезаписаны.\nПродолжить?</object>
+      </resource>
+      <resource name="Load.Caption">
+        <object>Импорт свойств</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Нет удаленного подключения к серверу.</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Удаленная ошибка</object>
+      </resource>
+      <resource name="LoadResult.Text">
+        <object>Ошибка считывания данных.</object>
+      </resource>
+      <resource name="LoadResult.Caption">
+        <object>Данные не загружены</object>
+      </resource>
+      <resource name="Send.Info">
+        <object>Отправка данных в устройство MWS2.\nПодождите!</object>
+      </resource>
+      <resource name="Send.Confirm">
+        <object>Отправить настройки на текущее выбранное устройство?</object>
+      </resource>
+      <resource name="Send.Title">
+        <object>Передать настройки</object>
+      </resource>
+      <resource name="LoadDialog.Title">
+        <object>Выберите файл...</object>
+      </resource>
+      <resource name="LoadDialog.Failed">
+        <object>Ошибка загрузки свойств</object>
+      </resource>
+      <resource name="SaveDialog.Info">
+        <object>Перед экспортом необходимо сохранить данные в базе данных.</object>
+      </resource>
+      <resource name="SaveDialog.NoData">
+        <object>Нет данных свойств для сохранения</object>
+      </resource>
+      <resource name="SaveDialog.NoData.Caption">
+        <object>Нет данных</object>
+      </resource>
+      <resource name="SaveDialog.Failed">
+        <object>Ошибка сохранения свойств</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Устройство</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Отображение названия устройства, для которого задаются настройки</object>
+      </resource>
+      <resource name="SaveDialog.Title">
+        <object>Сохранить как</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Линия</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Отображение линии в соответствии с определением в Top</object>
+      </resource>
+      <resource name="Send.SaveConfirm">
+        <object>Сохранить данные и\nотправить настройки на текущее выбранное устройство?</object>
+      </resource>
+      <resource name="Send.ConfirmOpen">
+        <object>Отправить настройки на текущее выбранное устройство? \nПредупреждение: Все записи на данном устройстве будут перезаписаны</object>
+      </resource>
+      <resource name="Send.SaveConfirmOpen">
+        <object>Сохранить данные и\nотправить настройки на текущее выбранное устройство? \nПредупреждение: Все записи на данном устройстве будут перезаписаны</object>
+      </resource>
+      <resource name="SendProtectedSettings">
+        <object>Разрешение перезаписи защищенных параметров MWS2</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Mws2Management" ServiceOnly="false">
+      <resource name="btnClose.Text">
+        <object>Закрыть</object>
+      </resource>
+      <resource name="grpSelectWeigher.Text">
+        <object>Модуль взвешивания</object>
+      </resource>
+      <resource name="WeigherLookup.Name">
+        <object>Название</object>
+      </resource>
+      <resource name="Text">
+        <object>Управление MWS2</object>
+      </resource>
+      <resource name="weigherList.ToolTip">
+        <object>Выберите модуль взвешивания для управления им</object>
+      </resource>
+      <resource name="btnClose.ToolTip">
+        <object>Закрыть диалоговое окно</object>
+      </resource>
+      <resource name="grpMessage.Text">
+        <object>Сообщения</object>
+      </resource>
+      <resource name="tabPageCalibration.Text">
+        <object>Калибровка</object>
+      </resource>
+      <resource name="tabPageCurve.Text">
+        <object>Криволинейная направляющая</object>
+      </resource>
+      <resource name="tabPageScope.Text">
+        <object>Область применения</object>
+      </resource>
+      <resource name="tabPageLogging.Text">
+        <object>Регистрация</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Calibration" ServiceOnly="false">
+      <resource name="lblStopped.Text">
+        <object>Остановлен</object>
+      </resource>
+      <resource name="lblEmptyWeight.Text">
+        <object>Вес пустой</object>
+      </resource>
+      <resource name="lblCalibrationWeight.Text">
+        <object>Калибровочный вес</object>
+      </resource>
+      <resource name="lblCalibrationOk.Text">
+        <object>Калибровка Ok</object>
+      </resource>
+      <resource name="lblDone.Text">
+        <object>Готово</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Отмена</object>
+      </resource>
+      <resource name="RemoteError">
+        <object>Ошибка во время калибровки. См. системный журнал.</object>
+      </resource>
+      <resource name="curWeightInfo.ToolTip">
+        <object>До завершения калибровки отображаемый вес может быть неверным</object>
+      </resource>
+      <resource name="Status.DataReloading">
+        <object>Перезагрузка настроек модуля взвешивания...</object>
+      </resource>
+      <resource name="Status.DataProcessing">
+        <object>Обработка данных модуля взвешивания...</object>
+      </resource>
+      <resource name="BtnNext.StartCalibration">
+        <object>Запуск калибровки</object>
+      </resource>
+      <resource name="BtnNext.RestartCalibration">
+        <object>Повторный запуск калибровки</object>
+      </resource>
+      <resource name="BtnNext.ConfirmCalibration">
+        <object>Подтвердить калибровку</object>
+      </resource>
+      <resource name="Action.Start">
+        <object>Для запуска процедуры калибровки введите калибровочный вес и нажмите кнопку «Запуск калибровки».</object>
+      </resource>
+      <resource name="Action.Restart">
+        <object>Для повторного запуска процедуры калибровки введите калибровочный вес и нажмите кнопку «Повторный запуск калибровки».</object>
+      </resource>
+      <resource name="Action.WaitEmptyWeight">
+        <object>Убедитесь в отсутствии веса и нажмите кнопку «Следующий этап».</object>
+      </resource>
+      <resource name="Action.WaitCalibrationWeight">
+        <object>Поместите калибровочный вес и нажмите кнопку «Следующий этап».</object>
+      </resource>
+      <resource name="Action.WaitConfirmation">
+        <object>Нажмите кнопку «Подтвердить калибровку», чтобы сохранить новое значение калибровки.</object>
+      </resource>
+      <resource name="Calibration.StartError">
+        <object>Используйте только допустимый калибровочный вес.</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Настройки калибровки</object>
+      </resource>
+      <resource name="grpAction.Text">
+        <object>Действие</object>
+      </resource>
+      <resource name="grpCalibration.Text">
+        <object>Калибровка</object>
+      </resource>
+      <resource name="btnPrevStep.Text">
+        <object>Предыдущий этап</object>
+      </resource>
+      <resource name="btnPrevStep.ToolTip">
+        <object>Переход к предыдущему этапу процедуры</object>
+      </resource>
+      <resource name="btnNextStep.Text">
+        <object>Следующий этап</object>
+      </resource>
+      <resource name="btnCancel.ToolTip">
+        <object>Отмена процедуры</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Калибровочный вес:</object>
+      </resource>
+      <resource name="edWeight.ToolTip">
+        <object>Определение калибровочного веса</object>
+      </resource>
+      <resource name="uWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblCurrentWeight.Text">
+        <object>Текущий вес:</object>
+      </resource>
+      <resource name="uCurrentWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="btnNextStep.ToolTip">
+        <object>Переход к следующему этапу процедуры калибровки</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Scope" ServiceOnly="false">
+      <resource name="Error.ScopeDataCollection">
+        <object>Ошибка во время запроса данных пределов. Убедитесь в наличии подключения к устройству.</object>
+      </resource>
+      <resource name="RetrievingScopeData">
+        <object>Получение данных пределов. Дождитесь завершения.</object>
+      </resource>
+      <resource name="btnRefresh.Text">
+        <object>Обновить</object>
+      </resource>
+      <resource name="btnSettings.Text">
+        <object>Настройки</object>
+      </resource>
+      <resource name="Chart.Shackle.Text">
+        <object>Подвеска: </object>
+      </resource>
+      <resource name="Chart.AxisX.Text">
+        <object>Время (мс)</object>
+      </resource>
+      <resource name="Chart.AxisY.Text">
+        <object>Вес (##)</object>
+      </resource>
+      <resource name="Error.Chart.Binding">
+        <object>Ошибка во время обработки данных</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Название</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Avg">
+        <object>Срд:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.PP">
+        <object>PP:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Time">
+        <object>Время:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Info">
+        <object>Инфо:</object>
+      </resource>
+      <resource name="EmpyScopeData">
+        <object>Данные пределов не представлены</object>
+      </resource>
+      <resource name="FileDlg.Files">
+        <object>файлы</object>
+      </resource>
+      <resource name="FileDlg.Title">
+        <object>Выберите место сохранения изображения пределов</object>
+      </resource>
+      <resource name="btnRefresh.ToolTIp">
+        <object>Получение новых данных пределов</object>
+      </resource>
+      <resource name="btnSettings.ToolTip">
+        <object>Открыть диалоговое окно пределов</object>
+      </resource>
+      <resource name="btnSave.Text">
+        <object>Сохранить</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Сохранить изображение пределов в файл</object>
+      </resource>
+      <resource name="selLog.ToolTip">
+        <object>Выбрать журнал для просмотра в качестве изображения пределов</object>
+      </resource>
+      <resource name="selLog.NullText">
+        <object>&lt;Выберите журнал для просмотра&gt;</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.ScopeSettingDialog" ServiceOnly="false">
+      <resource name="uVertMin.Text">
+        <object>##</object>
+      </resource>
+      <resource name="uVertMax.Text">
+        <object>##</object>
+      </resource>
+      <resource name="grpTiming.Text">
+        <object>Настройки синхронизации</object>
+      </resource>
+      <resource name="lblScopeWindow.Text">
+        <object>Окно пределов</object>
+      </resource>
+      <resource name="chkSyncScope.Text">
+        <object>Пределы синхронизации</object>
+      </resource>
+      <resource name="lblPresampleTime.Text">
+        <object>Время предварительной выборки</object>
+      </resource>
+      <resource name="grpFixedWindows.Text">
+        <object>Настройки фиксированного окна</object>
+      </resource>
+      <resource name="chkUseFixedWindow.Text">
+        <object>Использовать фиксированное окно</object>
+      </resource>
+      <resource name="lblVertMin.Text">
+        <object>Минимум по вертикали</object>
+      </resource>
+      <resource name="lblVertMax.Text">
+        <object>Максимум по вертикали</object>
+      </resource>
+      <resource name="grpLogging.Text">
+        <object>Регистрация</object>
+      </resource>
+      <resource name="chkUseLogging.Text">
+        <object>Регистрация полученных данных пределов</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>Ok</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Отмена</object>
+      </resource>
+      <resource name="edScopeWindow.ToolTip">
+        <object>Количество миллисекунд для определения предела</object>
+      </resource>
+      <resource name="chkSyncScope.ToolTip">
+        <object>При выборе количество миллисекунд будет зарегистрировано перед срабатыванием первого триггера. В противном случае все данные будут зарегистрированы с момента запуска определения пределов</object>
+      </resource>
+      <resource name="edPresampleTime.ToolTip">
+        <object>Количество миллисекунд, отображаемое перед первым триггером</object>
+      </resource>
+      <resource name="chkUseFixedWindow.ToolTip">
+        <object>При выборе позволяет ограничить диапазон по оси y</object>
+      </resource>
+      <resource name="edVertMin.ToolTip">
+        <object>Минимальное значение на оси y</object>
+      </resource>
+      <resource name="edVertMax.ToolTip">
+        <object>Максимальное значение на оси y</object>
+      </resource>
+      <resource name="chkUseLogging.ToolTip">
+        <object>При выборе точки данных пределов будут регистрироваться в базе данных</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Logging" ServiceOnly="false">
+      <resource name="LoggingLookup.Name">
+        <object>Название</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Удалить запись журнала регистрации:\n“{0}“\nиз базы данных?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Удалить файл журнала регистрации</object>
+      </resource>
+      <resource name="grpSelectLog.Text">
+        <object>История регистрации</object>
+      </resource>
+      <resource name="btnDelete.Text">
+        <object>Удалить</object>
+      </resource>
+      <resource name="colLogTime.Caption">
+        <object>Время (мс)</object>
+      </resource>
+      <resource name="colLogShackleId.Caption">
+        <object>Идентификатор подвески</object>
+      </resource>
+      <resource name="colLogTotalWeight.Caption">
+        <object>Масса брутто</object>
+      </resource>
+      <resource name="colLogLoadCellWeight.Caption">
+        <object>Датчик веса</object>
+      </resource>
+      <resource name="colLogVibrationCellWeight.Caption">
+        <object>Датчик вибрации</object>
+      </resource>
+      <resource name="colLogStartSensorState.Caption">
+        <object>Пусковой датчик</object>
+      </resource>
+      <resource name="colLogStopSensorState.Caption">
+        <object>Датчик останова</object>
+      </resource>
+      <resource name="colLogWeighing.Caption">
+        <object>Период процедуры взвешивания</object>
+      </resource>
+      <resource name="btnSave.Text">
+        <object>Сохранить</object>
+      </resource>
+      <resource name="selLog.ToolTip">
+        <object>Выберите просматриваемый журнал</object>
+      </resource>
+      <resource name="btnDelete.ToolTip">
+        <object>Удалить выбранную регистрацию</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Сохранить выбранный журнал регистрации в файл</object>
+      </resource>
+      <resource name="colLogLoadCellWeight.ToolTip">
+        <object>Вес на тензодатчике</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>Идентификатор взвешиваемой подвески</object>
+      </resource>
+      <resource name="colLogStartSensorState.ToolTip">
+        <object>1 если пусковой датчик активен, 0 если нет</object>
+      </resource>
+      <resource name="colLogStopSensorState.ToolTip">
+        <object>1 если датчик останова активен, 0 если нет</object>
+      </resource>
+      <resource name="colLogTime.ToolTip">
+        <object>Время в мс с начала сбора данных пределов</object>
+      </resource>
+      <resource name="colLogTotalWeight.ToolTip">
+        <object>Вес тензодатчика минус вес датчика вибрации</object>
+      </resource>
+      <resource name="colLogVibrationCellWeight.ToolTip">
+        <object>Вес на датчике вибрации</object>
+      </resource>
+      <resource name="colLogWeighing.ToolTip">
+        <object>Индикация того, что модуль взвешивания собирает обрабатываемые впоследствии данные</object>
+      </resource>
+      <resource name="selLog.NullText">
+        <object>&lt;Выберите журнал для просмотра&gt;</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Curve" ServiceOnly="false">
+      <resource name="Error.Mws2DataRetrieval">
+        <object>Ошибка при получении данных для MWS2</object>
+      </resource>
+      <resource name="Error.TapDataRetrieval">
+        <object>Ошибка при получении данных для TAP</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Настройки</object>
+      </resource>
+      <resource name="lblLoadCellCapacity.Text">
+        <object>Пропускная способность тензодатчика (кг):</object>
+      </resource>
+      <resource name="lblCalibratedAt.Text">
+        <object>Калибровка при:</object>
+      </resource>
+      <resource name="grpRegisterValues.Text">
+        <object>Значения калибровки</object>
+      </resource>
+      <resource name="lblZero.Text">
+        <object>Ноль</object>
+      </resource>
+      <resource name="lblReference.Text">
+        <object>Контроль</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Вес</object>
+      </resource>
+      <resource name="lblAdcValues.Text">
+        <object>Значения ADC</object>
+      </resource>
+      <resource name="grpADCRamp.Text">
+        <object>Значение изменения ADC по линейному закону</object>
+      </resource>
+      <resource name="lblRamp.Text">
+        <object>Значение изменения по линейному закону</object>
+      </resource>
+      <resource name="lblAdcGram.Text">
+        <object>ADC/##</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageStaticWeight" ServiceOnly="false">
+      <resource name="colSWNo.Caption">
+        <object>Нет</object>
+      </resource>
+      <resource name="colSWNo.ToolTip">
+        <object>Счетчик элемента</object>
+      </resource>
+      <resource name="colSWTime.Caption">
+        <object>Время</object>
+      </resource>
+      <resource name="colSWTime.ToolTip">
+        <object>Дата/время получения данных веса сервером</object>
+      </resource>
+      <resource name="colSWValue.Caption">
+        <object>Вес (##)</object>
+      </resource>
+      <resource name="colSWValue.ToolTip">
+        <object>Значение статического веса</object>
+      </resource>
+      <resource name="barBtnStartLogging.Caption">
+        <object>Запуск</object>
+      </resource>
+      <resource name="barBtnStartLogging.Hint">
+        <object>Запуск/останов регистрации статического веса</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Сохранить</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Щелкните, чтобы сохранить данные на диск</object>
+      </resource>
+      <resource name="barBtnClear.Caption">
+        <object>Очистить таблицу</object>
+      </resource>
+      <resource name="barBtnClear.Hint">
+        <object>Щелкните для удаления содержимого таблицы</object>
+      </resource>
+      <resource name="grpStaticWeightDisplay.Text">
+        <object>Текущий статический вес (##)</object>
+      </resource>
+      <resource name="grpStaticWeights.Text">
+        <object>История значений статического веса</object>
+      </resource>
+      <resource name="LogButton.Stop">
+        <object>Стоп</object>
+      </resource>
+      <resource name="LogButton.Start">
+        <object>Запуск</object>
+      </resource>
+      <resource name="editIntervalTime.Caption">
+        <object>Время интервала (сек.)</object>
+      </resource>
+      <resource name="lblGrossWeight.Text">
+        <object>Масса брутто (##):</object>
+      </resource>
+      <resource name="lblNetWeight.Text">
+        <object>Масса нетто (##):</object>
+      </resource>
+      <resource name="btnAutoZero.Text">
+        <object>Автообнуление</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2FirmUpgrade" ServiceOnly="false">
+      <resource name="Firmware.RetrievingFirmware">
+        <object>Получение версии прошивки.</object>
+      </resource>
+      <resource name="Firmware.NoFirmwareSelected">
+        <object>Не удается запустить обновление, выберите файл прошивки.</object>
+      </resource>
+      <resource name="Firmware.ExceptionReadingFirmwareFile">
+        <object>При загрузке содержимого файла произошло исключение. См. подробности в журнале.</object>
+      </resource>
+      <resource name="RemoteError">
+        <object>Ошибка во время обновления прошивки. См. системный журнал.</object>
+      </resource>
+      <resource name="Firmware.Succesfull">
+        <object>Прошивка обновлена до версии:</object>
+      </resource>
+      <resource name="Firmware.Failed">
+        <object>Ошибка обновления прошивки</object>
+      </resource>
+      <resource name="Firmware.UpgradeInProgress">
+        <object>Дождитесь окончания обновления прошивки.</object>
+      </resource>
+      <resource name="Firmware.Mws2NotInitialized">
+        <object>В настоящее время не удается считать данные регистрации MWS2, поэтому невозможно запустить обновление прошивки. Это может занять несколько минут.</object>
+      </resource>
+      <resource name="Upgrade.Confirm">
+        <object>Текущая версия прошивки будет перезаписана, продолжить?</object>
+      </resource>
+      <resource name="Upgrade.Title">
+        <object>Обновление прошивки</object>
+      </resource>
+      <resource name="Upgrade.NoRemoteOpenMode">
+        <object>Данная версия прошивки не позволяет удаленно перевести MWS2 в открытый режим, необходимо перевести MWS2 в открытый режим самостоятельно (см. инструкции в руководстве MWS2). \nНажмите ОК, когда MWS2 будет в открытом режиме, после чего текущая версия прошивки будет перезаписана. \nНажмите «Отмена» для остановки обновления прошивки</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Настройки прошивки</object>
+      </resource>
+      <resource name="lblCurrentFirmware.Text">
+        <object>Текущая прошивка:</object>
+      </resource>
+      <resource name="lblFirmwareFile.Text">
+        <object>Файл прошивки:</object>
+      </resource>
+      <resource name="btnStartUpgrade.Text">
+        <object>Начните обновление</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

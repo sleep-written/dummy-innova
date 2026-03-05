@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.Deboning.Integration.Services.DbItemImportHandler" ServiceOnly="false">
+      <resource name="NoCutPattern">
+        <object>Could not load cut pattern for deboning item</object>
+      </resource>
+      <resource name="InputError">
+        <object>Input error</object>
+      </resource>
+      <resource name="WrongRecordFormat">
+        <object>Got {0} record, but expected {1} record</object>
+      </resource>
+      <resource name="NoYieldGroup">
+        <object>Yield group missing from deboning item record</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Weight missing from deboning item record</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Integration.Services.IdContainerImportHandler" ServiceOnly="false">
+      <resource name="NoCutPatternInIdContainer">
+        <object>Cut pattern missing in IdContainer</object>
+      </resource>
+      <resource name="InputError">
+        <object>Input error</object>
+      </resource>
+      <resource name="WrongRecordFormat">
+        <object>Got {0} record, but expected {1} record</object>
+      </resource>
+      <resource name="NoMaterialInIdContainer">
+        <object>Material missing from IdContainer record.</object>
+      </resource>
+      <resource name="NoLotInIdContainer">
+        <object>Lot missing from IdContainer record</object>
+      </resource>
+      <resource name="NoWeightInIdContainer">
+        <object>Weight missing from IdContainer record</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Integration.Services.DeboningImportHandler" ServiceOnly="false">
+      <resource name="GetInputClientFailed">
+        <object>Getting input client failed</object>
+      </resource>
+      <resource name="NoInputFound">
+        <object>No input found for cut pattern {0}</object>
+      </resource>
+      <resource name="InputError">
+        <object>Input error</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

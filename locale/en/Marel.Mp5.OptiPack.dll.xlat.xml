@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.OptiPack.Configuration.SystemType" ServiceOnly="true">
+      <resource name="Packing">
+        <object>Packing stations</object>
+      </resource>
+      <resource name="Checkweigher">
+        <object>Checkweighers</object>
+      </resource>
+      <resource name="PackingServices">
+        <object>Packing services</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.OperationalStatus" ServiceOnly="false">
+      <resource name="NotRunning">
+        <object>Not running</object>
+      </resource>
+      <resource name="Working">
+        <object>Working</object>
+      </resource>
+      <resource name="Idle">
+        <object>Idle</object>
+      </resource>
+      <resource name="NotKnown">
+        <object>Not known</object>
+      </resource>
+      <resource name="NoService">
+        <object>No service</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.PackingStationResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>OK</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Database error</object>
+      </resource>
+      <resource name="LoadCachedData">
+        <object>Failed loading data from cache</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>Invalid station ID</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Error getting remote object</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Error loading interface information</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Error loading server information</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Remote call failed</object>
+      </resource>
+      <resource name="LoadServiceSetup">
+        <object>Error loading service setup</object>
+      </resource>
+      <resource name="InvalidProduct">
+        <object>Product not found</object>
+      </resource>
+      <resource name="NotImplemented">
+        <object>Operation not implemented</object>
+      </resource>
+      <resource name="NoObject">
+        <object>There is no object on which to operate</object>
+      </resource>
+      <resource name="QueryFailed">
+        <object>Failed to query data from server</object>
+      </resource>
+      <resource name="PackLoad">
+        <object>Failed to load pack information</object>
+      </resource>
+      <resource name="PackPrint">
+        <object>Failed to print pack label</object>
+      </resource>
+      <resource name="QcProcess">
+        <object>No QC process configured</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.PresetTareType" ServiceOnly="true">
+      <resource name="None">
+        <object>No preset tares</object>
+      </resource>
+      <resource name="List">
+        <object>Use product list tares</object>
+      </resource>
+      <resource name="System">
+        <object>Use system tares</object>
+      </resource>
+      <resource name="Manual">
+        <object>Use manual tares</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.TargetBatcherMethod" ServiceOnly="true">
+      <resource name="AbsMinimum">
+        <object>Minimum weight</object>
+      </resource>
+      <resource name="MinAverage">
+        <object>Average weight</object>
+      </resource>
+      <resource name="Echeck">
+        <object>E-Average weight</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.A542ProgramParameters" ServiceOnly="false">
+      <resource name="ClosureCount.Description">
+        <object>Closure count specifies the closure count.</object>
+      </resource>
+      <resource name="ClosureCount.DisplayName">
+        <object>Closure count.</object>
+      </resource>
+      <resource name="PluNumber.DisplayName">
+        <object>Plu number</object>
+      </resource>
+      <resource name="CloseTimeout.DisplayName">
+        <object>Close timeout</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.A542ProductParameters" ServiceOnly="false">
+      <resource name="ClearStatsAfterRound.DisplayName">
+        <object>Clear stats\nafter round</object>
+      </resource>
+      <resource name="PacksInAverage.DisplayName">
+        <object>Number of packs\nin track average</object>
+      </resource>
+      <resource name="UsePercentagesInTrackPack.DisplayName">
+        <object>Use percentages in\nTrackPack cutoff</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.DelfordProgramParamters" ServiceOnly="false">
+      <resource name="MetalRejectGate.Description">
+        <object>Discharge gate for metal rejects.</object>
+      </resource>
+      <resource name="MetalRejectGate.DisplayName">
+        <object>Metal reject gate</object>
+      </resource>
+      <resource name="MetalPecPackTimeout.Description">
+        <object>Metal PEC pack timeout.</object>
+      </resource>
+      <resource name="MetalPecPackTimeout.DisplayName">
+        <object>Metal PEC pack timeout</object>
+      </resource>
+      <resource name="MetalPecFullTimeout.Description">
+        <object>Metal PEC full timeout.</object>
+      </resource>
+      <resource name="MetalPecFullTimeout.DisplayName">
+        <object>Metal PEC full timeout</object>
+      </resource>
+      <resource name="DistributionGraphStart.DisplayName">
+        <object>Distribution graph start</object>
+      </resource>
+      <resource name="DistributionGraphStep.DisplayName">
+        <object>Distribution graph step</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.BatcherMethod" ServiceOnly="false">
+      <resource name="AbsMinimum">
+        <object>Abs Mininum</object>
+      </resource>
+      <resource name="MinAverage">
+        <object>Min Average</object>
+      </resource>
+      <resource name="ERule">
+        <object>E Rule</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.ParameterType" ServiceOnly="false">
+      <resource name="Value">
+        <object>Value</object>
+      </resource>
+      <resource name="Weight">
+        <object>Weight</object>
+      </resource>
+      <resource name="Length">
+        <object>Length</object>
+      </resource>
+      <resource name="Area">
+        <object>Area</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Data.StationDeviceStatus" ServiceOnly="false">
+      <resource name="Transmitting">
+        <object>Transmitting</object>
+      </resource>
+      <resource name="NoRemote">
+        <object>No remote</object>
+      </resource>
+      <resource name="NoServer">
+        <object>No station</object>
+      </resource>
+      <resource name="Offline">
+        <object>Off-line</object>
+      </resource>
+      <resource name="Idle">
+        <object>Idle</object>
+      </resource>
+      <resource name="Running">
+        <object>Running</object>
+      </resource>
+      <resource name="NoStatus">
+        <object>No setup</object>
+      </resource>
+      <resource name="Undefined">
+        <object>Unknown</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Not supported</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.BatcherSpeedAccuracy" ServiceOnly="false">
+      <resource name="Accuracy">
+        <object>1 (Accuracy)</object>
+      </resource>
+      <resource name="Two">
+        <object>2</object>
+      </resource>
+      <resource name="Three">
+        <object>3</object>
+      </resource>
+      <resource name="Four">
+        <object>4</object>
+      </resource>
+      <resource name="Five">
+        <object>5</object>
+      </resource>
+      <resource name="Speed">
+        <object>6 (Speed)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.ParameterFieldNames" ServiceOnly="false">
+      <resource name="Nominal">
+        <object>Nominal ($Q)</object>
+      </resource>
+      <resource name="T1">
+        <object>T1 ($Q)</object>
+      </resource>
+      <resource name="T2">
+        <object>T2 ($Q)</object>
+      </resource>
+      <resource name="MinWeight">
+        <object>Minimum ($Q)</object>
+      </resource>
+      <resource name="MaxWeight">
+        <object>Maximum ($Q)</object>
+      </resource>
+      <resource name="MaxWeightTol">
+        <object>Maximum ($Q)</object>
+      </resource>
+      <resource name="MinTolerance">
+        <object>Minimum tolerance ($Q)</object>
+      </resource>
+      <resource name="MaxTolerance">
+        <object>Maximum tolerance ($Q)</object>
+      </resource>
+      <resource name="Tare">
+        <object>Tare ($Q)</object>
+      </resource>
+      <resource name="LowLimit">
+        <object>Low limit ($Q)</object>
+      </resource>
+      <resource name="HighLimit">
+        <object>High limit ($Q)</object>
+      </resource>
+      <resource name="GateAccept">
+        <object>Accept</object>
+      </resource>
+      <resource name="GateUnder">
+        <object>Underweight</object>
+      </resource>
+      <resource name="GateOver">
+        <object>Overweight</object>
+      </resource>
+      <resource name="GateT1T2">
+        <object>T1-T2</object>
+      </resource>
+      <resource name="GateTNE">
+        <object>Within T1</object>
+      </resource>
+      <resource name="GateMetal">
+        <object>Metal reject</object>
+      </resource>
+      <resource name="GateNotWeighed">
+        <object>Not weighed</object>
+      </resource>
+      <resource name="GateUnused">
+        <object>Unused items</object>
+      </resource>
+      <resource name="BatchCode">
+        <object>Batch name</object>
+      </resource>
+      <resource name="BeltSpeed300">
+        <object>Belt speed in mm. Min 300.</object>
+      </resource>
+      <resource name="MetalPrgNo">
+        <object>Metal detector program number</object>
+      </resource>
+      <resource name="ProgramCode">
+        <object>Program code for IO</object>
+      </resource>
+      <resource name="TrendSample">
+        <object>Trend sample</object>
+      </resource>
+      <resource name="DistrGraphStart">
+        <object>Distribution graph start value</object>
+      </resource>
+      <resource name="DistrGraphStep">
+        <object>Distribution graph step value</object>
+      </resource>
+      <resource name="MetalPecFullTimeout">
+        <object>Metal PEC full timeout</object>
+      </resource>
+      <resource name="MetalPecPackTimeout">
+        <object>Metal PEC pack timeout</object>
+      </resource>
+      <resource name="BatchTime">
+        <object>Batch time (minutes)</object>
+      </resource>
+      <resource name="BatchSize">
+        <object>Batch size (pieces)</object>
+      </resource>
+      <resource name="BeltSpeed">
+        <object>Belt speed in m/s</object>
+      </resource>
+      <resource name="EjectorOutDelay">
+        <object>Ejector out delay (delay on arm timeout)</object>
+      </resource>
+      <resource name="HitPointAdjust">
+        <object>Hit point adjust (change to make arm hit earlier or later)</object>
+      </resource>
+      <resource name="DspId">
+        <object>Metal detector DSP id. 0 = off.</object>
+      </resource>
+      <resource name="PackLength">
+        <object>Metal detector pack length (item)</object>
+      </resource>
+      <resource name="ProductNumber">
+        <object>Metal detector product Number</object>
+      </resource>
+      <resource name="AcceptLimitHigh">
+        <object>Accept limit high. If meanweight is greater, output is set ($Q)</object>
+      </resource>
+      <resource name="AcceptLimitLow">
+        <object>Accept limit low. If meanweight is lesser, output is set ($Q)</object>
+      </resource>
+      <resource name="LimitHigh">
+        <object>Limit high. Upper item limit for regulator ($Q)</object>
+      </resource>
+      <resource name="LimitLow">
+        <object>Limit low. Lower item limit for regulator ($Q)</object>
+      </resource>
+      <resource name="MinimumPulseLength">
+        <object>Minimum pulse length</object>
+      </resource>
+      <resource name="OutputEnabled">
+        <object>Output enabled</object>
+      </resource>
+      <resource name="RegulatingInterval">
+        <object>Regulator interval</object>
+      </resource>
+      <resource name="RegulatorStrength">
+        <object>Regulator strength</object>
+      </resource>
+      <resource name="SamplesInMean">
+        <object>Samples in mean</object>
+      </resource>
+      <resource name="CloseTimeout">
+        <object>Close timeout</object>
+      </resource>
+      <resource name="ClosureCount">
+        <object>Closure count</object>
+      </resource>
+      <resource name="PluNumber">
+        <object>PLU number</object>
+      </resource>
+      <resource name="ClearStats">
+        <object>Clear stats after round</object>
+      </resource>
+      <resource name="PacksAverage">
+        <object>Number of packs in track average</object>
+      </resource>
+      <resource name="UsePercentage">
+        <object>Use percentage in TrackPack cutoff</object>
+      </resource>
+      <resource name="Priority">
+        <object>Priority</object>
+      </resource>
+      <resource name="WeightResolutionOverride">
+        <object>Live data histogram resolution override ($Q)</object>
+      </resource>
+      <resource name="WeighingRangeMin">
+        <object>Weighing range, min ($Q)</object>
+      </resource>
+      <resource name="WeighingRangeMax">
+        <object>Weighing range, max ($Q)</object>
+      </resource>
+      <resource name="GiveawayPct">
+        <object>Give away (%)</object>
+      </resource>
+      <resource name="CalculatedNominal">
+        <object>Target weight ($Q)</object>
+      </resource>
+      <resource name="FeedBackEnable">
+        <object>Feedback enable</object>
+      </resource>
+      <resource name="FeedBackEnableRegulatingInterval">
+        <object>FeedBack type</object>
+      </resource>
+      <resource name="VariableTare">
+        <object>Variable tare %</object>
+      </resource>
+      <resource name="NotHandled">
+        <object>Not handled</object>
+      </resource>
+      <resource name="Average">
+        <object>Average weight ($Q)</object>
+      </resource>
+      <resource name="AcceptWindow">
+        <object>+/- Accept window ($Q)</object>
+      </resource>
+      <resource name="Count">
+        <object>Number of pieces in product</object>
+      </resource>
+      <resource name="DeadZone">
+        <object>DeadZone around nominal weight ($Q)</object>
+      </resource>
+      <resource name="Interval">
+        <object>Interval between sending reports</object>
+      </resource>
+      <resource name="MaxCount">
+        <object>Size of the moving average queue</object>
+      </resource>
+      <resource name="TNE">
+        <object>TNE ($Q)</object>
+      </resource>
+      <resource name="RoundTime">
+        <object>Round time (sec.)</object>
+      </resource>
+      <resource name="RoundSize">
+        <object>Round size (pieces)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Printers.OptiPackEngine" ServiceOnly="false">
+      <resource name="optipack">
+        <object>Packing</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Printers.UltimateStationImageNodeManager" ServiceOnly="false">
+      <resource name="ultimatestationimage">
+        <object>UltimateStation Image</object>
+      </resource>
+      <resource name="lastitem">
+        <object>Last item</object>
+      </resource>
+      <resource name="lastpack">
+        <object>Last pack</object>
+      </resource>
+      <resource name="lastpallet">
+        <object>Last pallet</object>
+      </resource>
+      <resource name="laststack">
+        <object>Last stack</object>
+      </resource>
+      <resource name="product">
+        <object>Product</object>
+      </resource>
+      <resource name="orderline">
+        <object>Orderline</object>
+      </resource>
+      <resource name="order">
+        <object>Order</object>
+      </resource>
+      <resource name="xactpath">
+        <object>Transaction path</object>
+      </resource>
+      <resource name="nextitemorlastitem">
+        <object>Next or last item</object>
+      </resource>
+      <resource name="nextpackorlastpack">
+        <object>Next or last pack</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Printers.UltimateStationImageProductButtonNodeManager" ServiceOnly="false">
+      <resource name="ultimatestationimageproductbutton">
+        <object>Product button</object>
+      </resource>
+      <resource name="product">
+        <object>Product</object>
+      </resource>
+      <resource name="orderline">
+        <object>Orderline</object>
+      </resource>
+      <resource name="itempack">
+        <object>Item pack</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Printers.UltimateStationNodeManager" ServiceOnly="false">
+      <resource name="ultimatestation">
+        <object>UltimateStation</object>
+      </resource>
+      <resource name="packingstation">
+        <object>Packing station</object>
+      </resource>
+      <resource name="processunit">
+        <object>Process unit</object>
+      </resource>
+      <resource name="employee">
+        <object>Employee</object>
+      </resource>
+      <resource name="lastitem">
+        <object>Last item</object>
+      </resource>
+      <resource name="lastpack">
+        <object>Last pack</object>
+      </resource>
+      <resource name="lastpallet">
+        <object>Last pallet</object>
+      </resource>
+      <resource name="laststack">
+        <object>Last stack</object>
+      </resource>
+      <resource name="product">
+        <object>Product</object>
+      </resource>
+      <resource name="orderline">
+        <object>Orderline</object>
+      </resource>
+      <resource name="order">
+        <object>Order</object>
+      </resource>
+      <resource name="xactpath">
+        <object>Transaction path</object>
+      </resource>
+      <resource name="nextitemorlastitem">
+        <object>Next or last item</object>
+      </resource>
+      <resource name="nextpackorlastpack">
+        <object>Next or last pack</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

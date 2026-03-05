@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="cs">
+  <industry>
+    <type name="Marel.Mp5.Deboning.Configuration.BufferType" ServiceOnly="true">
+      <resource name="PeriodicSet">
+        <object>Pravidelné nastavení</object>
+      </resource>
+      <resource name="PeriodicSystem">
+        <object>Pravidelný příkaz</object>
+      </resource>
+      <resource name="Operator">
+        <object>Příkaz obsluhy</object>
+      </resource>
+      <resource name="AutomaticSensor">
+        <object>Automaticky podle snímače</object>
+      </resource>
+      <resource name="AutomaticWeight">
+        <object>Automaticky podle váhy</object>
+      </resource>
+      <resource name="Generic">
+        <object>Obecný</object>
+      </resource>
+      <resource name="AutomaticTask">
+        <object>Automaticky podle úkolu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.EmployeeCapability" ServiceOnly="false">
+      <resource name="Allow">
+        <object>Povolit produkt</object>
+      </resource>
+      <resource name="Deny">
+        <object>Zakázat produkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.GateType" ServiceOnly="true">
+      <resource name="Output">
+        <object>Jednoduchý výstup</object>
+      </resource>
+      <resource name="SystemBatching">
+        <object>Dávkování systému</object>
+      </resource>
+      <resource name="DeviceBatching">
+        <object>Dávkování zařízení</object>
+      </resource>
+      <resource name="Queue">
+        <object>Fronta kusu</object>
+      </resource>
+      <resource name="Qc">
+        <object>Řízení jakosti</object>
+      </resource>
+      <resource name="Infeed">
+        <object>Přivádění</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.SeparationType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Žádný</object>
+      </resource>
+      <resource name="SlaughterHouse">
+        <object>Podle jatek</object>
+      </resource>
+      <resource name="Category">
+        <object>Podle kategorie</object>
+      </resource>
+      <resource name="Lot">
+        <object>Podle dávky</object>
+      </resource>
+      <resource name="TrimLot">
+        <object>Podle dávky odřezků</object>
+      </resource>
+      <resource name="BaseItem">
+        <object>Podle základní jednotky</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.StationType" ServiceOnly="true">
+      <resource name="Generic">
+        <object>Obecný</object>
+      </resource>
+      <resource name="Input">
+        <object>Vstup</object>
+      </resource>
+      <resource name="CutUp">
+        <object>Členění</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Řízení jakosti</object>
+      </resource>
+      <resource name="Packing">
+        <object>Balení</object>
+      </resource>
+      <resource name="Downgrade">
+        <object>Zhoršení</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.TaskType" ServiceOnly="false">
+      <resource name="CutUp">
+        <object>Členění</object>
+      </resource>
+      <resource name="Criteria">
+        <object>Kritéria</object>
+      </resource>
+      <resource name="Piece">
+        <object>Závěrečná položka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.NodeType" ServiceOnly="false">
+      <resource name="Pattern">
+        <object>Uzel vzoru</object>
+      </resource>
+      <resource name="Task">
+        <object>Uzel úlohy</object>
+      </resource>
+      <resource name="TaskLine">
+        <object>Uzel úlohové linky</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.InspectionMode" ServiceOnly="false">
+      <resource name="Random">
+        <object>Náhodný</object>
+      </resource>
+      <resource name="Planned">
+        <object>Plánovaný</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Záložní na náhodný</object>
+      </resource>
+      <resource name="OperatorSelect">
+        <object>Obsluha vybírá režim</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.FallbackType" ServiceOnly="false">
+      <resource name="None">
+        <object>Žádný záložní</object>
+      </resource>
+      <resource name="Selected">
+        <object>Vybrané produkty</object>
+      </resource>
+      <resource name="Any">
+        <object>Libovolný produkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.PlanMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaven</object>
+      </resource>
+      <resource name="Rate">
+        <object>Rychlost prohlídky</object>
+      </resource>
+      <resource name="EmployeeAverage">
+        <object>Průměrný počet zaměstnanců</object>
+      </resource>
+      <resource name="EmployeeMaximum">
+        <object>Maximální počet zaměstnanců</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>Požadavek obsluhy</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>Externí požadavek</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.QcMethod" ServiceOnly="false">
+      <resource name="None">
+        <object>Žádné KJ</object>
+      </resource>
+      <resource name="NormalQc">
+        <object>Normální KJ</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Povolit zálohu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.ChangeReasonLogRType" ServiceOnly="false">
+      <resource name="TaskChange">
+        <object>Změna úlohy</object>
+      </resource>
+      <resource name="ProductChange">
+        <object>Změna produktu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.SelectionReason" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Není definován</object>
+      </resource>
+      <resource name="Random">
+        <object>Náhodný</object>
+      </resource>
+      <resource name="Rate">
+        <object>Rychlost prohlídky</object>
+      </resource>
+      <resource name="EmployeeAverage">
+        <object>Průměrný počet zaměstnanců</object>
+      </resource>
+      <resource name="EmployeeMaximum">
+        <object>Maximální počet zaměstnanců</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>Požadavek obsluhy</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>Externí požadavek</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.QcSelectionLogRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Běžný</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.DbItemRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Běžný</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Zrušený</object>
+      </resource>
+      <resource name="Missing">
+        <object>Chybějící</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.PieceLogRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Běžný</object>
+      </resource>
+      <resource name="NotHandled">
+        <object>Nezpracovaný</object>
+      </resource>
+      <resource name="Missing">
+        <object>Chybějící</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.LotStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Nespuštěný</object>
+      </resource>
+      <resource name="Active">
+        <object>Aktivní</object>
+      </resource>
+      <resource name="Completed">
+        <object>Hotový</object>
+      </resource>
+      <resource name="Blocked">
+        <object>Blokovaný</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Controllers.ServiceResult" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nenastavený výsledek</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Obecná chyba databáze</object>
+      </resource>
+      <resource name="LoadCachedData">
+        <object>Selhalo načítání dat z mezipaměti</object>
+      </resource>
+      <resource name="InvalidSystemId">
+        <object>Neplatné ID systému</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Chyba při načítání vzdáleného objektu</object>
+      </resource>
+      <resource name="LoadSystemInfo">
+        <object>Chyba při načítání informací o systému</object>
+      </resource>
+      <resource name="NoService">
+        <object>Systém nemá definovaný řídicí program</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Chyba při načítání informací o vzdáleném rozhraní</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Selhalo volání vzdáleného objektu</object>
+      </resource>
+      <resource name="LoadPattern">
+        <object>Selhalo načtení vzoru z mezipaměti</object>
+      </resource>
+      <resource name="LoadPatternNode">
+        <object>Ve vzoru není uzel vzoru</object>
+      </resource>
+      <resource name="NodeType">
+        <object>Neplatný typ uzlu</object>
+      </resource>
+      <resource name="InvalidControllerId">
+        <object>Neplatné ID řídicí jednotky</object>
+      </resource>
+      <resource name="InvalidStationId">
+        <object>Neplatné ID pracovní stanice</object>
+      </resource>
+      <resource name="ServerNotUp">
+        <object>Program serveru nebyl plně konfigurován</object>
+      </resource>
+      <resource name="InvalidTaskGroupId">
+        <object>Nepatné ID skupiny úkolů</object>
+      </resource>
+      <resource name="InterfaceType">
+        <object>Typ rozhraní dodávaného vzdálenou službou neodpovídá typu klienta</object>
+      </resource>
+      <resource name="LoadBaseItem">
+        <object>Nelze nahrát záznam základní položky</object>
+      </resource>
+      <resource name="LoadParentItem">
+        <object>Nelze nahrát záznam nadřazené položky</object>
+      </resource>
+      <resource name="LoadIndividual">
+        <object>Nelze nahrát jednotlivý záznam</object>
+      </resource>
+      <resource name="NoBid">
+        <object>Pro položku nebyla provedena žádná nabídka</object>
+      </resource>
+      <resource name="InvalidNodeId">
+        <object>Uzel není ve vzoru</object>
+      </resource>
+      <resource name="NoRootNode">
+        <object>Vzor nemá kořenový uzel</object>
+      </resource>
+      <resource name="LoadItem">
+        <object>Nelze nahrát záznam položky</object>
+      </resource>
+      <resource name="LoadProduct">
+        <object>Nelze nahrát záznam produktu</object>
+      </resource>
+      <resource name="NoInterface">
+        <object>Server pro požadovaný objekt nemá rozhraní</object>
+      </resource>
+      <resource name="InvalidPieceId">
+        <object>Neplatné ID kusu</object>
+      </resource>
+      <resource name="InvalidTaskType">
+        <object>Neplatný typ úkolu</object>
+      </resource>
+      <resource name="PieceActive">
+        <object>Dokud je aktivní jiný kus, nelze kus spustit</object>
+      </resource>
+      <resource name="TaskFinished">
+        <object>Tuto operaci nelze provést po dokončení úkolu</object>
+      </resource>
+      <resource name="TaskPending">
+        <object>Tuto operaci nelze provést při nevyřízeném úkolu</object>
+      </resource>
+      <resource name="EmptyTask">
+        <object>Tuto operaci nelze provést na prázdném úkolu</object>
+      </resource>
+      <resource name="NoBuffer">
+        <object>Na tomto produktu se nemůže projevit zásobník</object>
+      </resource>
+      <resource name="BufferBusy">
+        <object>Zásobník produktu je zaneprázdněný</object>
+      </resource>
+      <resource name="InvalidBufferIndex">
+        <object>Zadaná značka zásobníku je neplatná</object>
+      </resource>
+      <resource name="NoTask">
+        <object>Neexistuje aktuální úkol</object>
+      </resource>
+      <resource name="NoItemCreated">
+        <object>Operace jednotky nevrátila položku</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Úlohová linka vyžaduje hmotnost</object>
+      </resource>
+      <resource name="NoTaskGroup">
+        <object>V úkolu chybí skupina úkolů</object>
+      </resource>
+      <resource name="NoController">
+        <object>Řídicí jednotka pro skupinu úkolů nebyla nalezena</object>
+      </resource>
+      <resource name="UnitOpFailed">
+        <object>Provedení operace jednotky selhalo</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>Chybí informace provozní jednotky</object>
+      </resource>
+      <resource name="NoUnitOperation">
+        <object>Chybí informace operace jednotky</object>
+      </resource>
+      <resource name="PieceStatus">
+        <object>Nelze spustit kus se stavem != OK</object>
+      </resource>
+      <resource name="PatternError">
+        <object>Obecná chyba vzoru</object>
+      </resource>
+      <resource name="NoCriteriaLine">
+        <object>Nejsou vybrána kritéria linky a výchozí linka</object>
+      </resource>
+      <resource name="InvalidTaskLineId">
+        <object>ID úkolové linky není v aktuálním úkolu</object>
+      </resource>
+      <resource name="TaskLineNotAvailable">
+        <object>Nelze zvolit úkolovou linku</object>
+      </resource>
+      <resource name="CriteriaTask">
+        <object>Nelze spustit vybranou úlohu kritérií</object>
+      </resource>
+      <resource name="NoProduct">
+        <object>Je požadováno ID produktu</object>
+      </resource>
+      <resource name="NoStationUnitId">
+        <object>Kus nemá žádné ID jednotky pracovní stanice</object>
+      </resource>
+      <resource name="LoadProgram">
+        <object>Program není načten z databáze</object>
+      </resource>
+      <resource name="UnspecifiedError">
+        <object>Nespecifikovaná chyba</object>
+      </resource>
+      <resource name="NoQcTable">
+        <object>Pro stanici KJ není instalovaná tabulka KJ</object>
+      </resource>
+      <resource name="NotAllowed">
+        <object>Konfigurace neumožňuje operaci</object>
+      </resource>
+      <resource name="InvalidQcTableId">
+        <object>Neplatné ID tabulky KJ</object>
+      </resource>
+      <resource name="InQcMode">
+        <object>Kombinované KJ a pracovní stanice jsou v režimu KJ</object>
+      </resource>
+      <resource name="NotQcPiece">
+        <object>Kus není kusem KJ</object>
+      </resource>
+      <resource name="QcTable">
+        <object>Kus není v příslušné tabulce KJ</object>
+      </resource>
+      <resource name="NoPiece">
+        <object>Neexistuje aktuální kus</object>
+      </resource>
+      <resource name="InvalidOperation">
+        <object>Neznámá operace nebo neplatná operace pro kontext</object>
+      </resource>
+      <resource name="Exception">
+        <object>Obecná výjimka</object>
+      </resource>
+      <resource name="Timeout">
+        <object>Časový limit operace vypršel</object>
+      </resource>
+      <resource name="UnitOpNotLoaded">
+        <object>Operace jednotky není nahraná z mezipaměti</object>
+      </resource>
+      <resource name="NotInTaskGroup">
+        <object>Stanice není v uvedené skupině úkolů</object>
+      </resource>
+      <resource name="GateSeparationBlocked">
+        <object>Produkt nemůže být spuštěn kvůli omezení oddělení</object>
+      </resource>
+      <resource name="NoIdContainer">
+        <object>ID kontejneru nebylo nalezeno</object>
+      </resource>
+      <resource name="InvalidIdContainer">
+        <object>Neplatné ID kontejneru</object>
+      </resource>
+      <resource name="UpdateIdContainerError">
+        <object>Aktualizace záznamu ID kontejneru selhala</object>
+      </resource>
+      <resource name="LoadLot">
+        <object>Nelze nahrát záznam dávky</object>
+      </resource>
+      <resource name="NoAnimalLot">
+        <object>Chybějící dávka v záznamu zvířete</object>
+      </resource>
+      <resource name="NoIdContainerLot">
+        <object>Chybějící dávka v záznamu ID kontejneru</object>
+      </resource>
+      <resource name="NoTaskGroupFound">
+        <object>Skupina úkolů pro přesun kusu nebyla nalezena</object>
+      </resource>
+      <resource name="NoStation">
+        <object>V cílové skupině úkolů nebyla nalezena žádná stanice</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.Verifications.RuleViolationType" ServiceOnly="false">
+      <resource name="NoViolation">
+        <object>Žádné porušení</object>
+      </resource>
+      <resource name="Information">
+        <object>Informace</object>
+      </resource>
+      <resource name="Violation">
+        <object>Porušení</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.Verifications.MatchProcessStepsRule" ServiceOnly="false">
+      <resource name="DisplayName">
+        <object>Přizpůsobit pravidlo procesních kroků</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.Verifications.MatchTaskGroupsRule" ServiceOnly="false">
+      <resource name="DisplayName">
+        <object>Přizpůsobit pravidlo skupiny úkolů</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.CustomTaskCriteriaType" ServiceOnly="false">
+      <resource name="SystemMacro">
+        <object>Systémové makro</object>
+      </resource>
+      <resource name="PythonScript">
+        <object>Python skript</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

@@ -1,0 +1,1206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Presentation.SelectCatchDialog" ServiceOnly="false">
+      <resource name="Text">
+        <object>Please select which catch to import</object>
+      </resource>
+      <resource name="selectButton.Text">
+        <object>Select</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="colStartTime.Caption">
+        <object>Start time</object>
+      </resource>
+      <resource name="colEndTime.Caption">
+        <object>End time</object>
+      </resource>
+      <resource name="colWater.Caption">
+        <object>Waters</object>
+      </resource>
+      <resource name="colFishgear.Caption">
+        <object>Fish gear</object>
+      </resource>
+      <resource name="colCatchId.Caption">
+        <object>Catch id</object>
+      </resource>
+    </type>
+    
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Windows.Production.OrderStatusUC" ServiceOnly="false">
+      <resource name="grpSelectOrders.Text">
+        <object>Choose order</object>
+      </resource>
+      <resource name="btnRefreshGrid.Text">
+        <object>Refresh</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Order name</object>
+      </resource>
+      <resource name="colExtCode.Caption">
+        <object>External code</object>
+      </resource>
+      <resource name="colIsExportedToSif.Caption">
+        <object>Exported \nto SIF</object>
+      </resource>
+      <resource name="colId.Caption">
+        <object>Id</object>
+      </resource>
+      <resource name="colCustomerName.Caption">
+        <object>Customer</object>
+      </resource>
+      <resource name="colEndTime.Caption">
+        <object>Valid to</object>
+      </resource>
+      <resource name="colStartTime.Caption">
+        <object>Valid from</object>
+      </resource>
+      <resource name="btnExportSif.Caption">
+        <object>Export to SIF</object>
+      </resource>
+      <resource name="btnExportSifToolTip">
+        <object>Exports the selected orders to SIF. If more than one order is selected, they are exported as individual orders (sales in SIF).</object>
+      </resource>
+    </type>
+    
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Windows.ExportDialog" ServiceOnly="false">
+      <resource name="gridColumnId.Caption">
+        <object>Id</object>
+      </resource>
+      <resource name="gridColumnStatus.Caption">
+        <object>...</object>
+      </resource>
+      <resource name="gridColumnMessage.Caption">
+        <object>Message</object>
+      </resource>
+      <resource name="gridColumnWarningMessage.Caption">
+        <object>Warning</object>
+      </resource>
+      <resource name="StatusText">
+        <object>Exporting {0}/{1}...</object>
+      </resource>
+      <resource name="StatusTextFinished">
+        <object>Export finished</object>
+      </resource>
+    </type>
+    
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Presentation.MergeStationPresenter" ServiceOnly="false">
+      <resource name="UnitOpCompleted">
+        <object>The unit operation delete pack completed</object>
+      </resource>
+      <resource name="UnitOpFailed">
+        <object>The unit operation delete pack failed</object>
+      </resource>
+      <resource name="UnitOpCompletedPrint">
+        <object>The unit operation print pack completed</object>
+      </resource>
+      <resource name="UnitOpFailedPrint">
+        <object>The unit operation print pack failed</object>
+      </resource>
+    </type>
+    
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.M6000.CollectionCentralView" ServiceOnly="false">
+      <resource name="LabelControlFreeText.Text">
+        <object>Free text:</object>
+      </resource>
+      <resource name="LabelPlot.Text">
+        <object>Prod. Lot:</object>
+      </resource>
+      <resource name="LabelVessel.Text">
+        <object>Vessel:</object>
+      </resource>
+      <resource name="LabelEcoArea.Text">
+        <object>Eco. Area:</object>
+      </resource>
+      <resource name="LabelWaters.Text">
+        <object>Waters:</object>
+      </resource>
+      <resource name="LabelStatsRect.Text">
+        <object>Stat. Rect.:</object>
+      </resource>
+      <resource name="LabelPosition.Text">
+        <object>Position:</object>
+      </resource>
+      <resource name="LabelPOInfo.Text">
+        <object>Leftover grp.:</object>
+      </resource>
+      <resource name="LabelPrDay.Text">
+        <object>Prod. day:</object>
+      </resource>
+      <resource name="LabelLotInfo.Text">
+        <object>Vessel:</object>
+      </resource>
+      <resource name="ButtonCalcPosition.Text">
+        <object>Calc. Pos.</object>
+      </resource>
+      <resource name="ButtonStartPacking.Text">
+        <object>Pack ship</object>
+      </resource>
+      <resource name="ButtonResetLeftovers.Text">
+        <object>Reset leftovers</object>
+      </resource>
+      <resource name="ButtonToday.Text">
+        <object>Today</object>
+      </resource>
+      <resource name="CaptionLookupVessel">
+        <object>Vessel</object>
+      </resource>
+      <resource name="CaptionLookupEcoArea">
+        <object>Eco Area</object>
+      </resource>
+      <resource name="CaptionLookupWaters">
+        <object>Waters</object>
+      </resource>
+      <resource name="CaptionLookupPlot">
+        <object>Prod. Lot</object>
+      </resource>
+      <resource name="CaptionLookupFishgear">
+        <object>Fishing gear</object>
+      </resource>
+      <resource name="LabelFishGear.Text">
+        <object>Fish. Gear:</object>
+      </resource>
+      <resource name="LabelStartStopTime.Text">
+        <object>Start/End time:</object>
+      </resource>
+      <resource name="ButtonGetSalesFromSif.Text">
+        <object>Get sales</object>
+      </resource>
+      <resource name="labelFetchingData.Text">
+        <object>Fetching data from SIF!</object>
+      </resource>
+      <resource name="labelPleaseWait.Text">
+        <object>Please wait</object>
+      </resource>
+      <resource name="CantCreateCaptainVesselNeedsToBeSelected">
+        <object>Cant create captain, Vessel needs to be selected</object>
+      </resource>
+      <resource name="FatalErrorOccurredTryingToCreateCaptainSeeLogForDetail">
+        <object>Fatal error occurred trying to create captain, see log for details</object>
+      </resource>
+      <resource name="Error">
+        <object>Error</object>
+      </resource>
+      <resource name="CaptionLookupCaptain">
+        <object>Captain</object>
+      </resource>
+    </type>
+    
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Windows.Production.MarinePackUC" ServiceOnly="false">
+      <resource name="Lookup.Name.Caption">
+        <object>Name</object>
+      </resource>
+      <resource name="Lookup.ShName.Caption">
+        <object>Short name</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Code</object>
+      </resource>
+      <resource name="Lookup.HaulNumber.Caption">
+        <object>Haul number</object>
+      </resource>
+      <resource name="HaulTimeStartMissing">
+        <object>Haul start time must be defined</object>
+      </resource>
+      <resource name="HaulTimeEndMissing">
+        <object>Haul end time must be defined</object>
+      </resource>
+      <resource name="HaulTimeEndInvalid">
+        <object>Haul end time must be after haul start time</object>
+      </resource>
+      <resource name="HaulTimeStartInvalid">
+        <object>Haul start time must be after trip start time</object>
+      </resource>
+      <resource name="TripTimeStartMissing">
+        <object>Trip start time must be defined</object>
+      </resource>
+      <resource name="TripTimeEndMissing">
+        <object>Trip end time must be defined</object>
+      </resource>
+      <resource name="TripTimeEndInvalid">
+        <object>Trip end time must be after trip start time</object>
+      </resource>
+      <resource name="HaulEcoAreaMissing">
+        <object>Haul start economical area must be defined</object>
+      </resource>
+      <resource name="HaulEcoAreaEndMissing">
+        <object>Haul end economical area must be defined</object>
+      </resource>
+      <resource name="HaulIcesAreaMissing">
+        <object>Haul start waters must be defined</object>
+      </resource>
+      <resource name="HaulIcesAreaEndMissing">
+        <object>Haul end waters must be defined</object>
+      </resource>
+      <resource name="HaulFishingToolMissing">
+        <object>Haul fishing tool must be defined</object>
+      </resource>
+      <resource name="TripDepartureHarbourMissing">
+        <object>Trip departure harbour must be defined</object>
+      </resource>
+      <resource name="TripArrivalHarbourMissing">
+        <object>Trip arrival harbour must be defined</object>
+      </resource>
+      <resource name="TripLandingPlaceMissing">
+        <object>Trip landing place(s) must be defined</object>
+      </resource>
+      <resource name="MsgBoxCaptionInfo">
+        <object>Information</object>
+      </resource>
+      <resource name="MsgCaptionWarning">
+        <object>Warning</object>
+      </resource>
+      <resource name="TripInUse">
+        <object>Trip is in use and can't be canceled</object>
+      </resource>
+      <resource name="HaulInUse">
+        <object>Haul is in use and can't be canceled</object>
+      </resource>
+      <resource name="MsgHaulNotPacked">
+        <object>The haul being packed are not reported finished by the operator. \n\nAre you sure you want to pack another haul and here by finish the previous haul?</object>
+      </resource>
+      <resource name="SelectAll">
+        <object>(Select All)</object>
+      </resource>
+      <resource name="lblLandingPlace.Text">
+        <object>Landing place:</object>
+      </resource>
+      <resource name="lblPackingStatus.Text">
+        <object>Current packing status</object>
+      </resource>
+      <resource name="lblCurrTrip.Text">
+        <object>Current trip:</object>
+      </resource>
+      <resource name="lblCurrHaul.Text">
+        <object>Current haul:</object>
+      </resource>
+      <resource name="lblCurrProductList.Text">
+        <object>Current prod. list:</object>
+      </resource>
+      <resource name="lblTripName.Text">
+        <object>Trip name:</object>
+      </resource>
+      <resource name="lblDepartureDate.Text">
+        <object>Departure date:</object>
+      </resource>
+      <resource name="lblDepartureHarbour.Text">
+        <object>Departure harbour:</object>
+      </resource>
+      <resource name="lblArrivalDate.Text">
+        <object>Arrival date:</object>
+      </resource>
+      <resource name="lblArrivalHarbour.Text">
+        <object>Arrival harbour:</object>
+      </resource>
+      <resource name="lblProductList.Text">
+        <object>Product list:</object>
+      </resource>
+      <resource name="lblHaulToPack.Text">
+        <object>Haul:</object>
+      </resource>
+      <resource name="lblHaulName.Text">
+        <object>Haul name:</object>
+      </resource>
+      <resource name="lblHaulStartTime.Text">
+        <object>Start time:</object>
+      </resource>
+      <resource name="lblHaulStartEconomicalArea.Text">
+        <object>Start eco. area:</object>
+      </resource>
+      <resource name="lblHaulEndEconomicalArea.Text">
+        <object>End eco. area:</object>
+      </resource>
+      <resource name="lblHaulStartWaters.Text">
+        <object>Start waters:</object>
+      </resource>
+      <resource name="lblHaulEndWaters.Text">
+        <object>End waters:</object>
+      </resource>
+      <resource name="lblStartQuadrant.Text">
+        <object>Start quadrant:</object>
+      </resource>
+      <resource name="lblHaulStartPosition.Text">
+        <object>Start position:</object>
+      </resource>
+      <resource name="lblHaulStopPosition.Text">
+        <object>End position:</object>
+      </resource>
+      <resource name="lblFishingTool.Text">
+        <object>Fishing gear:</object>
+      </resource>
+      <resource name="lblHaulEndTime.Text">
+        <object>End time:</object>
+      </resource>
+      <resource name="lblHaulEndQuadrant.Text">
+        <object>End quadrant:</object>
+      </resource>
+      <resource name="btnTripStartCancel.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="btnTripStart.Text">
+        <object>Departure</object>
+      </resource>
+      <resource name="btnTripEndCancel.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="btnTripEnd.Text">
+        <object>Arrival</object>
+      </resource>
+      <resource name="btnStartpacking.Text">
+        <object>Begin packing</object>
+      </resource>
+      <resource name="btnStartHaulCancel.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="btnEndHaulCancel.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="grpTrip.Text">
+        <object>Trip</object>
+      </resource>
+      <resource name="grpHaul.Text">
+        <object>Haul</object>
+      </resource>
+      <resource name="grpPacking.Text">
+        <object>Packing</object>
+      </resource>
+      <resource name="tabPagePriceUpdate.Text">
+        <object>Price update</object>
+      </resource>
+      <resource name="tabPageProductionControl.Text">
+        <object>Production control</object>
+      </resource>
+      <resource name="tabPageHaulStatus.Text">
+        <object>Haul status</object>
+      </resource>
+      <resource name="tabPageTripStatus.Text">
+        <object>Trip status</object>
+      </resource>
+      <resource name="tabPageOrderStatus.Text">
+        <object>Order status</object>
+      </resource>
+      <resource name="tabPageHaulStatusCollectionCentral">
+        <object>Vessel overview</object>
+      </resource>
+      <resource name="tabPageTripStatusCollectionCentral">
+        <object>Leftover-group overview</object>
+      </resource>
+      <resource name="btnTripStart.ToolTip">
+        <object>Start a new trip</object>
+      </resource>
+      <resource name="btnTripStartCancel.ToolTip">
+        <object>Cancel that you started this trip</object>
+      </resource>
+      <resource name="btnTripEndCancel.ToolTip">
+        <object>Cancel that you ended this trip</object>
+      </resource>
+      <resource name="btnTripEnd.ToolTip">
+        <object>End the trip</object>
+      </resource>
+      <resource name="btnStartpacking.ToolTip">
+        <object>Start packing using the selected productlist, trip and haul</object>
+      </resource>
+      <resource name="btnStartHaulCancel.ToolTip">
+        <object>Cancel that you started this haul</object>
+      </resource>
+      <resource name="btnEndHaulCancel.ToolTip">
+        <object>Cancel that you ended this haul</object>
+      </resource>
+      <resource name="MsgHaulNotSelected">
+        <object>Please select a haul before starting the packing process.</object>
+      </resource>
+      <resource name="MsgProductListNotSelected">
+        <object>Please select a product list before starting the packing process.</object>
+      </resource>
+      <resource name="btnResendProductList.Text">
+        <object>Resend list</object>
+      </resource>
+      <resource name="btnResendProductList.ToolTip">
+        <object>Resends the selected product list. To be used when the product list have been changed.</object>
+      </resource>
+      <resource name="MsgPackHaul">
+        <object>Do you want to start packing the haul, you just finished?</object>
+      </resource>
+      <resource name="btnStartHaulPassive">
+        <object>Set</object>
+      </resource>
+      <resource name="btnStartHaulActive">
+        <object>Start haul</object>
+      </resource>
+      <resource name="btnEndHaulPassive">
+        <object>Haul</object>
+      </resource>
+      <resource name="btnEndHaulActive">
+        <object>End haul</object>
+      </resource>
+      <resource name="btnStartHaulPassiveTooltip">
+        <object>Set the net</object>
+      </resource>
+      <resource name="btnStartHaulActiveTooltip">
+        <object>Start the haul (start trawling)</object>
+      </resource>
+      <resource name="btnEndHaulPassiveTooltip">
+        <object>Withdraw the net</object>
+      </resource>
+      <resource name="btnEndHaulActiveTooltip">
+        <object>End the haul (stop trawling and withdraw)</object>
+      </resource>
+      <resource name="lblNumberOfTools.Text">
+        <object>Number of nets:</object>
+      </resource>
+      <resource name="lblCaptain.Text">
+        <object>Captain:</object>
+      </resource>
+
+	  <resource name="lblHaulStartNation.Text">
+		<object>Start Nation:</object>
+	  </resource>
+	  <resource name="lblHaulEndNation.Text">
+		<object>Stop Nation:</object>
+	  </resource>
+	  <resource name="HaulNationMissing">
+		<object>Haul nation must be defined</object>
+	  </resource>
+
+	</type>
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Windows.Production.MarinePackView" ServiceOnly="false">
+      <resource name="btnRefresh.Caption">
+        <object>Refresh</object>
+      </resource>
+      <resource name="MsgBoxCaptionInfo">
+        <object>Information</object>
+      </resource>
+      <resource name="MsgCaptionWarning">
+        <object>Warning</object>
+      </resource>
+      <resource name="MsgCaptionClose">
+        <object>Confirm close</object>
+      </resource>
+      <resource name="MsgClose">
+        <object>Are you sure you want to close Marine Pack Production Control?</object>
+      </resource>
+      <resource name="ExportTripSuccess">
+        <object>Exporting trip was successfull</object>
+      </resource>
+      <resource name="ExportTripFailure">
+        <object>Exporting trip failed</object>
+      </resource>
+      <resource name="ExportHaulSuccess">
+        <object>Exporting haul was successfull.</object>
+      </resource>
+      <resource name="ExportDisclaimerElog">
+        <object>\n\nPlease check that data are valid before sending to Elog.</object>
+      </resource>
+      <resource name="ExportHaulFailure">
+        <object>Exporting haul failed</object>
+      </resource>
+      <resource name="ExportFailureConnectionElog">
+        <object>Can't connect to Elog. Please check that Elog is started and cables are ok. Then try exporting again.</object>
+      </resource>
+      <resource name="ConnectFailure">
+        <object>Connection failed</object>
+      </resource>
+      <resource name="DkElogConnectFailed">
+        <object>Can't connect to DK Elog. Please check that Elog is started and cables are ok. Then close Marine Pack window and try again.</object>
+      </resource>
+      <resource name="VerifyDkElogFailed">
+        <object>Failed to verify Marine Pack database against Elog</object>
+      </resource>
+      <resource name="LicenseFailureElog">
+        <object>Exporting to electronic logbook requires a license. This license is not installed.</object>
+      </resource>      
+      <resource name="ExportSifHeader">
+        <object>Exporting to SIF</object>
+      </resource>
+      <resource name="ExportCsvHeader">
+        <object>Exporting to CSV file</object>
+      </resource>
+      <resource name="Err.IsRefreshingData">
+        <object>Error refreshing data</object>
+      </resource>
+      <resource name="ExportingToSifFailedPo">
+        <object>Exporting to SIF failed. Po=</object>
+      </resource>
+      <resource name="Result">
+        <object>Result:</object>
+      </resource>
+      <resource name="ExceptionSeelogForDetails">
+        <object>Exception,  See log for details</object>
+      </resource>
+      <resource name="ExportingToSifFailedOrder">
+        <object>Exporting to SIF failed. Order=</object>
+      </resource>
+      <resource name="ExportingToCsvFailedPo">
+        <object>Exporting to Csv failed. Po=</object>
+      </resource>
+      <resource name="ErrorSettingUp">
+        <object>Error setting up</object>
+      </resource>
+      <resource name="ExportHandler">
+        <object>export handler</object>
+      </resource>
+    </type>
+    
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Windows.Production.PriceUpdateControl" ServiceOnly="false">
+      <resource name="grpUpdatePrice.Text">
+        <object>Update price</object>
+      </resource>
+      <resource name="lblTimeToFrom.Text">
+        <object>Time from/to</object>
+      </resource>
+      <resource name="lblTrip.Text">
+        <object>Trip:</object>
+      </resource>
+      <resource name="barButtonConfirm.Caption">
+        <object>Confirm</object>
+      </resource>
+      <resource name="btnRefreshGrid.Text">
+        <object>Refresh grid</object>
+      </resource>
+      <resource name="grpProducts.Text">
+        <object>Products</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Product name</object>
+      </resource>
+      <resource name="colShname.Caption">
+        <object>Short name</object>
+      </resource>
+      <resource name="colMaterial.Caption">
+        <object>Id</object>
+      </resource>
+      <resource name="colMaterialPrice.Caption">
+        <object>Standard product price</object>
+      </resource>
+      <resource name="colPackPrice.Caption">
+        <object>Actual product price</object>
+      </resource>
+    </type>
+    
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Windows.Production.HaulStatusUC" ServiceOnly="false">
+      <resource name="grpSelectHauls.Text">
+        <object>Select Hauls</object>
+      </resource>
+      <resource name="grpSelectHaulsCollectionCentral">
+        <object>Select vessel lot</object>
+      </resource>
+      <resource name="lblTimeToFrom.Text">
+        <object>Haul from/to</object>
+      </resource>
+      <resource name="lblTrip.Text">
+        <object>Trip:</object>
+      </resource>
+      <resource name="btnRefreshGrid.Text">
+        <object>Refresh grid</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Haul name</object>
+      </resource>
+      <resource name="colNameCollectionCentral">
+        <object>Vessel lot</object>
+      </resource>
+      <resource name="colExtCode.Caption">
+        <object>Extern code</object>
+      </resource>
+      <resource name="colHaulStartTime.Caption">
+        <object>Start</object>
+      </resource>
+      <resource name="colHaulEndTime.Caption">
+        <object>End</object>
+      </resource>
+      <resource name="colHaulIsStartedActive">
+        <object>Started</object>
+      </resource>
+      <resource name="colHaulIsStoppedActive">
+        <object>Ended</object>
+      </resource>
+      <resource name="colHaulIsStartedPassive">
+        <object>Gear set</object>
+      </resource>
+      <resource name="colHaulIsStoppedPassive">
+        <object>Gear hauled</object>
+      </resource>
+      <resource name="colHaulIsPacked.Caption">
+        <object>Packed</object>
+      </resource>
+      <resource name="colHaulStartIsExportedToElog.Caption">
+        <object>Gear set exported</object>
+      </resource>
+      <resource name="colHaulCatchIsExportedToElog.Caption">
+        <object>Catch exported</object>
+      </resource>
+      <resource name="colHaulId.Caption">
+        <object>Haul id</object>
+      </resource>
+      <resource name="colHaulIdCollectionCentral">
+        <object>Vessel lot id</object>
+      </resource>
+      <resource name="btnExportToElog.Caption">
+        <object>Export to Elog</object>
+      </resource>
+      <resource name="btnExportToElogToolTipActive">
+        <object>Exports the selected hauls to Elog. Only hauls that are packed but not exported may be exported. If more then one haul is selected, they are still exported as single hauls.</object>
+      </resource>
+      <resource name="btnExportToElogToolTipPassive">
+        <object>Exports the selected hauls to Elog. Hauls wher the gear is set but not hauled gets eksported as set-the-net, hauls that are packed gets exported as a catch.  If more then one haul is selected, they are still exported as single hauls.</object>
+      </resource>
+      <resource name="btnTestDatabase.Caption">
+        <object>Test database</object>
+      </resource>
+      <resource name="btnTestDatabase.Hint">
+        <object>Verifies that data in Marine Pack database is being accepted by Elog. Shows list of data that is not compatible</object>
+      </resource>
+      <resource name="grpExport.Text">
+        <object>Exporting</object>
+      </resource>
+      <resource name="grpHaulStatus.Text">
+        <object>Haul status</object>
+      </resource>
+      <resource name="grpHaulStatusCollectionCentral">
+        <object>Vessel lot status</object>
+      </resource>
+      <resource name="btnSetHaulStatusPacked.Caption">
+        <object>Mark as packed</object>
+      </resource>
+      <resource name="btnSetHaulStatusPacked.Hint">
+        <object>Sets status on selected haul(s) to packed. Hauls that are not stopped or is packed are omitted</object>
+      </resource>
+      <resource name="MsgBox_ErrorOccurredStoringDiscard">
+        <object>Error occurred storing discard</object>
+      </resource>
+      <resource name="MsgBox_ERROR">
+        <object>ERROR</object>
+      </resource>
+      <resource name="MsgBox_DoYuoWantToDiscardChanges">
+        <object>Do you want to save Discard changes?</object>
+      </resource>
+      <resource name="MsgBox_ChangesMadeToDiscard">
+        <object>Changes made to Discards</object>
+      </resource>
+      <resource name="MsgBox_ErrorSettingUpForDiscardHandling">
+        <object>Error setting up Discard handling</object>
+      </resource>
+      <resource name="MsgBox_SeeLogForDetails">
+        <object>(See log for details)</object>
+      </resource>
+      <resource name="buttonRemoveDiscard.Caption">
+        <object>Remove</object>
+      </resource>
+      <resource name="buttonAddDiscard.Caption">
+        <object>Add</object>
+      </resource>
+      <resource name="buttonConfirmDiscard.Caption">
+        <object>Confirm</object>
+      </resource>
+      <resource name="groupControlDisard.Text">
+        <object>Discard</object>
+      </resource>
+      <resource name="colMaterialId.Caption">
+        <object>Product</object>
+      </resource>
+      <resource name="colNRegs.Caption">
+        <object>Number</object>
+      </resource>
+      <resource name="colWeight.Caption">
+        <object>Weight</object>
+      </resource>
+      <resource name="colDeMinimis.Caption">
+        <object>DIM (De Minimis)</object>
+      </resource>
+      <resource name="MsgBox_NoTripWasFoundForThisCatch">
+        <object>No trip was found for this catch</object>
+      </resource>
+      <resource name="MsgBox_NotAllDataWereSavedCorrect">
+        <object>Not all data were saved correct, please check</object>
+      </resource>
+      <resource name="MsgBox_FoundMoreThanOneDiscardProductFor">
+        <object>Found more than one Discard product for</object>
+      </resource>
+      <resource name="MsgBox_CannotFindDiscardProductFor">
+        <object>Cannot find Discard product for</object>
+      </resource>
+      <resource name="MsgBox_WithDimSet">
+        <object>with DIM set</object>
+      </resource>
+      <resource name="MsgBox_WithoutDimSet">
+        <object>without DIM set</object>
+      </resource>      
+    </type>
+    
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Windows.Production.ShowElogValidateResult" ServiceOnly="false">
+      <resource name="MainText">
+        <object>Result of Elog validation</object>
+      </resource>
+      <resource name="btnOK.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnFix.Text">
+        <object>Fix differences</object>
+      </resource>
+      <resource name="btnFix.ToolTip">
+        <object>Fix differences in Marine Pack database. Only Fishgear, Nations and Harbours may be fixed.</object>
+      </resource>
+      <resource name="ValidateOk">
+        <object>The Marine Pack database is 100% compatible with Elog</object>
+      </resource>
+      <resource name="ValidateFail">
+        <object>The Marine Pack database contains these values that are not compatible with Elog:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Windows.Production.TripStatusUC" ServiceOnly="false">
+      <resource name="grpSelectTrips.Text">
+        <object>Choose trip</object>
+      </resource>
+      <resource name="grpSelectTripsCollectionCentral">
+        <object>Choose leftover group</object>
+      </resource>
+      <resource name="btnRefreshGrid.Text">
+        <object>Refresh</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Trip name</object>
+      </resource>
+      <resource name="colNameCollectionCentral">
+        <object>Leftover grp.</object>
+      </resource>
+      <resource name="colTripStartTime.Caption">
+        <object>Start</object>
+      </resource>
+      <resource name="colTripEndTime.Caption">
+        <object>End</object>
+      </resource>
+      <resource name="colTripIsStarted.Caption">
+        <object>Started</object>
+      </resource>
+      <resource name="colTripIsEnded.Caption">
+        <object>Finished</object>
+      </resource>
+      <resource name="colExtCode.Caption">
+        <object>External code</object>
+      </resource>
+      <resource name="coltripIsExportedToSif.Caption">
+        <object>Exported \nto SIF</object>
+      </resource>
+      <resource name="colTripStartIsExportedToDkElog.Caption">
+        <object>Exported trip \nstart to DK Elog</object>
+      </resource>
+      <resource name="colTripEndIsExportedToDkElog.Caption">
+        <object>Exported trip \nend to DK Elog</object>
+      </resource>
+      <resource name="coltripIsExportedToCsv.Caption">
+        <object>Exported \nto CSV</object>
+      </resource>
+      <resource name="colTripId.Caption">
+        <object>Trip id</object>
+      </resource>
+      <resource name="colTripIdCollectionCentral">
+        <object>Leftover grp. id</object>
+      </resource>
+      <resource name="btnExportSif.Caption">
+        <object>Export to SIF</object>
+      </resource>
+      <resource name="btnExportSifToolTip">
+        <object>Exports the selected trips to SIF. Only trips that are finished will be exported. If more than one trip is selected, they are exported as individual trips.</object>
+      </resource>
+      <resource name="btnExportSifToolTipCC">
+        <object>Exports the selected leftover groups to SIF. If more than one group is selected, they are exported as individual groups.</object>
+      </resource>
+      <resource name="btnExportDkElog.Caption">
+        <object>Export DK Elog</object>
+      </resource>
+      <resource name="btnExportDkElog.Hint">
+        <object>Exports the selected trips to the Danish electronic logbook. If the trip is finished it gets exported as an arrival otherwise as a departure. If more than one trip is selected, they are exported as individual trips.</object>
+      </resource>
+      <resource name="btnExportCsv.Caption">
+        <object>Export to CSV</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Presentation.CollectionCentralPresenter" ServiceOnly="false">
+      <resource name="ValueRequired">
+        <object>{0} value required.</object>
+      </resource>
+      <resource name="MissingVessel">
+        <object>Vessel</object>
+      </resource>
+      <resource name="MissingPosition">
+        <object>Position</object>
+      </resource>
+      <resource name="MissingWaters">
+        <object>Waters</object>
+      </resource>
+      <resource name="MissingPlot">
+        <object>Production Lot</object>
+      </resource>
+      <resource name="MissingFishgear">
+        <object>Fishing Gear</object>
+      </resource>
+      <resource name="MissingEndTime">
+        <object>End time</object>
+      </resource>
+      <resource name="MissingStartTime">
+        <object>Start time</object>
+      </resource>
+      <resource name="MissingEconomicalArea">
+        <object>EconomicalArea</object>
+      </resource>
+      <resource name="MissingStatisticalRectangle">
+        <object>StatisticalRectangle</object>
+      </resource>
+      <resource name="InvalidPosition">
+        <object>Invalid position {0}.</object>
+      </resource>
+      <resource name="CalculatePositionMessage">
+        <object>Lookup waters and statistical rectangle from position.</object>
+      </resource>
+      <resource name="StartPackingCaption">
+        <object>Start packing</object>
+      </resource>
+      <resource name="HaulNotPackedPrompt">
+        <object>The haul {0} being packed are not reported finished by the operator.\nAre you sure you want to pack another haul?</object>
+      </resource>
+      <resource name="StartPackingMessage">
+        <object>Haul {0} ready to pack.</object>
+      </resource>
+      <resource name="ResetLeftoversCaption">
+        <object>Reset leftovers</object>
+      </resource>
+      <resource name="ResetLeftoversPrompt">
+        <object>Reseting leftovers will make any pending packs unavailable for re-pack. Continue?</object>
+      </resource>
+      <resource name="ResetLeftoversMessage">
+        <object>Reset leftovers succeeded.</object>
+      </resource>
+      <resource name="CatchFoundSif">
+        <object>Catch {0} imported from SIF.</object>
+      </resource>
+      <resource name="CatchNotFoundSif">
+        <object>No catch found in SIF.</object>
+      </resource>
+      <resource name="VesselNoSifId">
+        <object>Vessel has no numeric SIF identifier in Dimension 1.</object>
+      </resource>
+      <resource name="SalesFoundSif">
+        <object> sales found in SIF.</object>
+      </resource>
+      <resource name="SalesNotFoundSif">
+        <object>No sales found in SIF.</object>
+      </resource>
+      <resource name="SaleErrorSif">
+        <object>Sale {0} not imported from SIF - error.</object>
+      </resource>
+      <resource name="SaleNoCatchesSif">
+        <object>Sale {0} not imported from SIF - no catches.</object>
+      </resource>
+      <resource name="SaleFoundSif">
+        <object>Sale {0} imported from SIF with success. {1} catch(es) found.</object>
+      </resource>
+      <resource name="MissingCaptain">
+        <object>Captain</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.M6000.CollectionCentralCE" ServiceOnly="false">
+      <resource name="InvalidPrunitConfig">
+        <object>Non-existing process unit</object>
+      </resource>
+      <resource name="InvalidXmlConfig">
+        <object>Invalid XML configuration</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.M6000.MergeStationCE" ServiceOnly="false">
+      <resource name="InvalidPrunitConfig">
+        <object>Non-existing process unit</object>
+      </resource>
+      <resource name="InvalidXmlConfig">
+        <object>Invalid XML configuration</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Presentation.CollectionCentralPresenter" ServiceOnly="false">
+      <resource name="UnitOpCompleted">
+        <object>The unit operation delete pack completed</object>
+      </resource>
+      <resource name="UnitOpFailed">
+        <object>The unit operation delete pack failed</object>
+      </resource>
+      <resource name="UnitOpCompletedPrint">
+        <object>The unit operation print pack completed</object>
+      </resource>
+      <resource name="UnitOpFailedPrint">
+        <object>The unit operation print pack failed</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.M6000.MergeStationView" ServiceOnly="false">
+      <resource name="ButtonMergeOption.Text">
+        <object>Merge Option</object>
+      </resource>
+      <resource name="ButtonRefresh.Text">
+        <object>Refresh</object>
+      </resource>
+      <resource name="ButtonSelectAll.Text">
+        <object>Select All</object>
+      </resource>
+      <resource name="ButtonDeselectAll.Text">
+        <object>Deselect All</object>
+      </resource>
+      <resource name="ButtonPreviousPage.Text">
+        <object>Previous</object>
+      </resource>
+      <resource name="ButtonNextPage.Text">
+        <object>Next</object>
+      </resource>
+      <resource name="ButtonMergeLeftOvers.Text">
+        <object>Merge</object>
+      </resource>
+      <resource name="gridColumnProductName.Caption">
+        <object>Product name</object>
+      </resource>
+      <resource name="gridColumnPackNumber1.Caption">
+        <object>Pack number1</object>
+      </resource>
+      <resource name="gridColumnPackNumber2.Caption">
+        <object>Pack number2</object>
+      </resource>
+      <resource name="gridColumnWeight1.Caption">
+        <object>Weight1</object>
+      </resource>
+      <resource name="gridColumnWeight2.Caption">
+        <object>Weight2</object>
+      </resource>
+      <resource name="gridColumnSumWeight.Caption">
+        <object>Sum weight</object>
+      </resource>
+      <resource name="gridColumnMaxWeight.Caption">
+        <object>Max weight</object>
+      </resource>
+      <resource name="gridColumnMinWeight.Caption">
+        <object>Min weight</object>
+      </resource>
+      <resource name="LabelPrDay.Text">
+        <object>Prod. day:</object>
+      </resource>
+      <resource name="LabelPOInfo.Text">
+        <object>Leftovers grp.:</object>
+      </resource>
+      <resource name="LabelLotInfo.Text">
+        <object>Vessels:</object>
+      </resource>
+      <resource name="MergeFromTo">
+        <object>Merge {0} => {1} </object>
+      </resource>
+      <resource name="MergingProductName">
+        <object>Merging product name: {0} </object>
+      </resource>
+      <resource name="NoSelectedLeftOvers">
+        <object>There is no selected left overs to Merge</object>
+      </resource>
+      <resource name="LeftOverAmount">
+        <object>Left Overs Amount: {0}</object>
+      </resource>
+      <resource name="NoLeftOverToMerge">
+        <object>There is no left overs to Merge</object>
+      </resource>
+      <resource name="MergeChoice">
+        <object>Are you sure you want to merge the selected products</object>
+      </resource>
+      <resource name="MergeOperationCancelled">
+        <object>Merge operation has been cancelled</object>
+      </resource>
+      <resource name="StartMerging">
+        <object>Start merging</object>
+      </resource>
+      <resource name="UnitOpFailed">
+        <object>The unit operation delete pack failed</object>
+      </resource>
+      <resource name="checkEditCheckWaterArea.Text">
+        <object>Check water matches</object>
+      </resource>
+      <resource name="checkEditMoveWhenNoMatch.Text">
+        <object>Move box when no match</object>
+      </resource>
+      <resource name="checkEditMoveWhenTooHeavy.Text">
+        <object>Move box when too heavy</object>
+      </resource>
+      <resource name="checkEditLinkBoxTooHeavy.Text">
+        <object>Link boxes when too heavy</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Presentation.SelectSaleDialog" ServiceOnly="false">
+      <resource name="Text">
+        <object>Please select which sale to import</object>
+      </resource>
+      <resource name="selectButton.Text">
+        <object>Select</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="colTransActionTime.Caption">
+        <object>Trans.Time</object>
+      </resource>
+      <resource name="colOrderNo.Caption">
+        <object>Order</object>
+      </resource>
+      <resource name="colSalesLot.Caption">
+        <object>Sales lot</object>
+      </resource>
+      <resource name="colSaleId.Caption">
+        <object>Sales id</object>
+      </resource>  
+    </type>
+    <type name="Marel.Mp5.Solutions.MarinePack.UI.Windows.Data.PackStamping.PackStampingView" ServiceOnly="false">
+      <resource name="colOrderCustomerId.Caption">
+        <object>Collector id</object>
+      </resource>
+      <resource name="colOrderCustomerName.Caption">
+        <object>Collector</object>
+      </resource>
+      <resource name="colPackCheckStatus.Caption">
+        <object>Box status</object>
+      </resource>
+      <resource name="colPackCurNominal.Caption">
+        <object>Current nominal ($W)</object>
+      </resource>
+      <resource name="colPackCurWeight.Caption">
+        <object>Current weight ($W)</object>
+      </resource>
+      <resource name="colPackDevice.Caption">
+        <object>Scale(id)</object>
+      </resource>
+      <resource name="colPackDeviceName.Caption">
+        <object>Scale</object>
+      </resource>
+      <resource name="colPackGross.Caption">
+        <object>Gross weight ($W)</object>
+      </resource>
+      <resource name="colPackLot.Caption">
+        <object>Haul id</object>
+      </resource>
+      <resource name="colPackLotName.Caption">
+        <object>Haul</object>
+      </resource>
+      <resource name="colPackLotStartRmArea.Caption">
+        <object>Waters if</object>
+      </resource>
+      <resource name="colPackLotStartRmAreaName.Caption">
+        <object>Waters</object>
+      </resource>
+      <resource name="colPackMaterial.Caption">
+        <object>Product id</object>
+      </resource>
+      <resource name="colPackMaterialName.Caption">
+        <object>Product</object>
+      </resource>
+      <resource name="colPackNominal.Caption">
+        <object>Nominal weight($W)</object>
+      </resource>
+      <resource name="colPackNominalL.Caption">
+        <object>Labelled weight</object>
+      </resource>
+      <resource name="colPackNominalU.Caption">
+        <object>Nominal unit</object>
+      </resource>
+      <resource name="colPackNominalUShort.Caption">
+        <object>Nominal unit</object>
+      </resource>      
+      <resource name="colPackNumber.Caption">
+        <object>Number</object>
+      </resource>
+      <resource name="colPackPLot.Caption">
+        <object>Production lot</object>
+      </resource>
+      <resource name="colPackPLotName.Caption">
+        <object>Production lot</object>
+      </resource>
+      <resource name="colPackPO.Caption">
+        <object>Trip code id</object>
+      </resource>
+      <resource name="colPackPoName.Caption">
+        <object>Trip code</object>
+      </resource>
+      <resource name="colPackPOrder.Caption">
+        <object>Collector order</object>
+      </resource>
+      <resource name="colPackPrDay.Caption">
+        <object>Production day</object>
+      </resource>
+      <resource name="colPackProcessNum.Caption">
+        <object>Box trip counter</object>
+      </resource>
+      <resource name="colPackPrPeriod.Caption">
+        <object>Process period</object>
+      </resource>
+      <resource name="colPackPrUnit.Caption">
+        <object>Process unit</object>
+      </resource>
+      <resource name="colPackPrUnitName.Caption">
+        <object>Rec. mpde</object>
+      </resource>
+      <resource name="colPackQaMark.Caption">
+        <object>Quality id</object>
+      </resource>
+      <resource name="colPackQaMarkName.Caption">
+        <object>Quality</object>
+      </resource>
+      <resource name="colPackRecordId.Caption">
+        <object>Id</object>
+      </resource>
+      <resource name="colPackRecType.Caption">
+        <object>Record type</object>
+      </resource>
+      <resource name="colPackRegTime.Caption">
+        <object>Recording time</object>
+      </resource>
+      <resource name="colPackSscc.Caption">
+        <object>SSCC</object>
+      </resource>
+      <resource name="colPackStatus.Caption">
+        <object>Status</object>
+      </resource>
+      <resource name="colPackTare.Caption">
+        <object>Tara weight ($W)</object>
+      </resource>
+      <resource name="colPackTarget.Caption">
+        <object>Target weight($W)</object>
+      </resource>
+      <resource name="colPackWeight.Caption">
+        <object>Weight ($W)</object>
+      </resource>
+      <resource name="colPackLotKillMethod.Caption">
+        <object>Fishgear id</object>
+      </resource>
+      <resource name="colPackLotKillMethodName.Caption">
+        <object>Fishgear</object>
+      </resource>
+      <resource name="colPackSite.Caption">
+        <object>Site id</object>
+      </resource>
+      <resource name="colPackSiteName.Caption">
+        <object>Site</object>
+      </resource>
+
+      <resource name="filterButton.Caption">
+        <object>Autofilter</object>
+      </resource>
+      <resource name="refreshButton.Caption">
+        <object>Refresh</object>
+      </resource>
+      <resource name="confirmButton.Caption">
+        <object>Confirm</object>
+      </resource>
+      <resource name="operationsButton.Caption">
+        <object>Operationer</object>
+      </resource>
+      <resource name="ClearCheckBoxesButton.Caption">
+        <object>Reset check boxes</object>
+      </resource>
+      <resource name="barCheckItemGroup.Caption">
+        <object>Grouping</object>
+      </resource>
+      <resource name="barCheckItemGroupDetail.Caption">
+        <object>Group. detail</object>
+      </resource>      
+      
+    </type>
+
+  </industry>
+</resources>

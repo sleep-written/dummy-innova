@@ -121,11 +121,13 @@ export class ProcOrderL extends BaseEntity {
     @JoinColumn({ name: 'expire1method' })
     expire1method?: Relation<ExpireMethod | null>;
 
-    @ManyToOne(_ => ProcMaterials, r => r.procOrderLTaraCaja, { nullable: true })
+    // Tara caja
+    @ManyToOne(_ => ProcMaterials, r => r.procOrderLPkPackaging, { nullable: true })
     @JoinColumn({ name: 'pkpackaging' })
-    taraCaja?: Relation<ProcMaterials | null>;
+    pkPackaging?: Relation<ProcMaterials | null>;
 
-    @ManyToOne(_ => ProcMaterials, r => r.procOrderLTaraBolsa, { nullable: true })
+    // Tara bolsa
+    @ManyToOne(_ => ProcMaterials, r => r.procOrderLItPackaging, { nullable: true })
     @JoinColumn({ name: 'itpackaging' })
-    taraBolsa?: Relation<ProcMaterials | null>;
+    itPackaging?: Relation<ProcMaterials | null>;
 }

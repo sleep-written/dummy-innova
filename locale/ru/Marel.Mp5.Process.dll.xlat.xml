@@ -1,0 +1,1806 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="ru">
+  <industry>
+    <type name="Marel.Mp5.Process.Process.LineType" ServiceOnly="true">
+      <resource name="ProcessUnit">
+        <object>Блок обработки</object>
+      </resource>
+      <resource name="BasicLine">
+        <object>Линия</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanType" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Без плана</object>
+      </resource>
+      <resource name="ContextPlan">
+        <object>Общий план</object>
+      </resource>
+      <resource name="SplitPlan">
+        <object>Разбить план</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessState" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Не установлен</object>
+      </resource>
+      <resource name="NoWork">
+        <object>Внерабочее время</object>
+      </resource>
+      <resource name="Running">
+        <object>Выполнение</object>
+      </resource>
+      <resource name="Idle">
+        <object>Ожидание</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Остановлено</object>
+      </resource>
+      <resource name="Breakdown">
+        <object>Распределение</object>
+      </resource>
+      <resource name="NotProgrammed">
+        <object>Незапрограммировано</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessCounterType" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Не используется</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>На блок обработки</object>
+      </resource>
+      <resource name="Line">
+        <object>На линию</object>
+      </resource>
+      <resource name="Section">
+        <object>На секцию</object>
+      </resource>
+      <resource name="Department">
+        <object>На отдел</object>
+      </resource>
+      <resource name="Site">
+        <object>На месторасположение</object>
+      </resource>
+      <resource name="Station">
+        <object>На станцию</object>
+      </resource>
+      <resource name="StationGroup">
+        <object>На группу станций</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.AutoManual" ServiceOnly="true">
+      <resource name="Automatic">
+        <object>Автоматически</object>
+      </resource>
+      <resource name="Manual">
+        <object>Вручную</object>
+      </resource>
+      <resource name="AllowManual">
+        <object>Разрешить ручной режим</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessPeriodType" ServiceOnly="true">
+      <resource name="Daily">
+        <object>Ежедневно</object>
+      </resource>
+      <resource name="OnActivity">
+        <object>При изменении активности</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextSelect" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Не используется</object>
+      </resource>
+      <resource name="Direct">
+        <object>Изменить непосредственно</object>
+      </resource>
+      <resource name="DirectAssigned">
+        <object>Изменить непосредственно, использовать назначенные элементы</object>
+      </resource>
+      <resource name="DirectStopped">
+        <object>Изменить непосредственно после остановки</object>
+      </resource>
+      <resource name="DirectAssignedStopped">
+        <object>Изменить непосредственно после остановки, использовать назначенные элементы</object>
+      </resource>
+      <resource name="Pending">
+        <object>Начать режим ожидания</object>
+      </resource>
+      <resource name="PendingAssigned">
+        <object>Начать режим ожидания, использовать назначенные элементы</object>
+      </resource>
+      <resource name="PendingStopped">
+        <object>Начать режим ожидания после остановки</object>
+      </resource>
+      <resource name="PendingAssignedStopped">
+        <object>Начать режим ожидания после остановки, использовать назначенные элементы</object>
+      </resource>
+      <resource name="ForwardPending">
+        <object>Разрешить только ожидаемую переадресацию</object>
+      </resource>
+      <resource name="ForwardDirect">
+        <object>Разрешить только прямую переадресацию</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanMethod" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Без плана</object>
+      </resource>
+      <resource name="Relaxed">
+        <object>Ослабленный</object>
+      </resource>
+      <resource name="NoSequence">
+        <object>Строгий, без последовательности</object>
+      </resource>
+      <resource name="Sequence">
+        <object>Строгий, последовательно</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextType" ServiceOnly="true">
+      <resource name="NoContext">
+        <object>Без контекста</object>
+      </resource>
+      <resource name="LocalApplication">
+        <object>Приложение</object>
+      </resource>
+      <resource name="LocalSystem">
+        <object>Система</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Блок обработки</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.SystemType" ServiceOnly="false">
+      <resource name="Other">
+        <object>Другое</object>
+      </resource>
+      <resource name="Species">
+        <object>Виды</object>
+      </resource>
+      <resource name="Section">
+        <object>Секция</object>
+      </resource>
+      <resource name="Input">
+        <object>Вход</object>
+      </resource>
+      <resource name="Primary">
+        <object>Основной </object>
+      </resource>
+      <resource name="Secondary">
+        <object>Дополнительный</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>Третьего порядка</object>
+      </resource>
+      <resource name="Waste">
+        <object>Потери</object>
+      </resource>
+      <resource name="Fat">
+        <object>Жир</object>
+      </resource>
+      <resource name="Bones">
+        <object>Кости</object>
+      </resource>
+      <resource name="Skin">
+        <object>Кожа</object>
+      </resource>
+      <resource name="Offal">
+        <object>Потроха</object>
+      </resource>
+      <resource name="Ingredient">
+        <object>Ингредиент</object>
+      </resource>
+      <resource name="Packaging">
+        <object>Упаковка</object>
+      </resource>
+      <resource name="PieceType">
+        <object>Тип предмета</object>
+      </resource>
+      <resource name="ColorType">
+        <object>Цвет</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoDeliveryStatus" ServiceOnly="false">
+      <resource name="NotOrdered">
+        <object>Не заказан</object>
+      </resource>
+      <resource name="InStorage">
+        <object>На хранении</object>
+      </resource>
+      <resource name="EnRoute">
+        <object>В пути</object>
+      </resource>
+      <resource name="Receiving">
+        <object>Получение, не доступно</object>
+      </resource>
+      <resource name="ReceivingAvailable">
+        <object>Получение, доступно</object>
+      </resource>
+      <resource name="Holding">
+        <object>Удержание</object>
+      </resource>
+      <resource name="Available">
+        <object>Доступно</object>
+      </resource>
+      <resource name="Completed">
+        <object>Завершено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.PrivateObjectType" ServiceOnly="false">
+      <resource name="Mateial">
+        <object>Продукт</object>
+      </resource>
+      <resource name="Customer">
+        <object>Заказчик</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Линия для заказа</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.CountMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Принять все</object>
+      </resource>
+      <resource name="Range">
+        <object>Мин. и макс.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextColumn" ServiceOnly="false">
+      <resource name="Activity">
+        <object>Активность</object>
+      </resource>
+      <resource name="Po">
+        <object>Заказ на поставку</object>
+      </resource>
+      <resource name="Batch">
+        <object>Порция</object>
+      </resource>
+      <resource name="Lot">
+        <object>Партия</object>
+      </resource>
+      <resource name="Plot">
+        <object>Партия продукции</object>
+      </resource>
+      <resource name="Rmarea">
+        <object>Область ресурсов</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Удержание</object>
+      </resource>
+      <resource name="Available">
+        <object>Доступно</object>
+      </resource>
+      <resource name="Completed">
+        <object>Завершено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotRecord" ServiceOnly="false">
+      <resource name="AutoName">
+        <object>Партия</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>L</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.YieldGroupRecord" ServiceOnly="true">
+      <resource name="AutoName">
+        <object>Группа выхода продукта</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>Y</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.ChainType" ServiceOnly="true">
+      <resource name="TracePo">
+        <object>Записать заказы на поставку</object>
+      </resource>
+      <resource name="TraceBatch">
+        <object>Записать номера партии</object>
+      </resource>
+      <resource name="TraceLot">
+        <object>Записать партии</object>
+      </resource>
+      <resource name="TracePack">
+        <object>Записать пакеты</object>
+      </resource>
+      <resource name="TraceCollection">
+        <object>Записать коллекцию</object>
+      </resource>
+      <resource name="TraceInterval">
+        <object>Запись по времени</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.UnitStatus" ServiceOnly="true">
+      <resource name="PendingAuto">
+        <object>Ожидание автоматического запуска</object>
+      </resource>
+      <resource name="PendingManual">
+        <object>Ожидание запуска вручную</object>
+      </resource>
+      <resource name="Active">
+        <object>Активный блок</object>
+      </resource>
+      <resource name="Ending">
+        <object>Блок заканчивается</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.TransactionType" ServiceOnly="true">
+      <resource name="UnitSchedule">
+        <object>Блок запланирован</object>
+      </resource>
+      <resource name="UnitStart">
+        <object>Блок начат</object>
+      </resource>
+      <resource name="UnitEnd">
+        <object>Блок закончен</object>
+      </resource>
+      <resource name="OnHold">
+        <object>На удержании</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.TransferStatus" ServiceOnly="false">
+      <resource name="NoTransfer">
+        <object>Без трансфера</object>
+      </resource>
+      <resource name="ReadyForTransfer">
+        <object>Трансфер готов</object>
+      </resource>
+      <resource name="TransferComplete">
+        <object>Трансфер завершен</object>
+      </resource>
+      <resource name="TransferReceive">
+        <object>Получен заказ на трансфер</object>
+      </resource>
+      <resource name="TransferInProgress">
+        <object>Выполняется трансфер</object>
+      </resource>
+      <resource name="TransferError">
+        <object>Ошибка трансфера</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderLineStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Закрыто</object>
+      </resource>
+      <resource name="Open">
+        <object>Открыть</object>
+      </resource>
+      <resource name="Complete">
+        <object>Завершить</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Отменено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AssignType" ServiceOnly="false">
+      <resource name="All">
+        <object>Разрешить все</object>
+      </resource>
+      <resource name="Production">
+        <object>Разрешить продукцию</object>
+      </resource>
+      <resource name="Direct">
+        <object>Разрешить напрямую</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintObjectType" ServiceOnly="false">
+      <resource name="Inventory">
+        <object>Инвентарная ведомость</object>
+      </resource>
+      <resource name="Po">
+        <object>Заказ на поставку</object>
+      </resource>
+      <resource name="Supplier">
+        <object>Поставщик</object>
+      </resource>
+      <resource name="Site">
+        <object>Месторасположение</object>
+      </resource>
+      <resource name="Category">
+        <object>Категория</object>
+      </resource>
+      <resource name="SectionType">
+        <object>Тип секции</object>
+      </resource>
+      <resource name="BornIn">
+        <object>Рожденный в</object>
+      </resource>
+      <resource name="RaisedIn">
+        <object>Выращенный в </object>
+      </resource>
+      <resource name="FatClass">
+        <object>Класс жирности</object>
+      </resource>
+      <resource name="Lot">
+        <object>Партия</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintType" ServiceOnly="false">
+      <resource name="OnlyFrom">
+        <object>Только из</object>
+      </resource>
+      <resource name="NotFrom">
+        <object>Не из</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ProcessAssignType" ServiceOnly="false">
+      <resource name="Fixed">
+        <object>Постоянный</object>
+      </resource>
+      <resource name="Regular">
+        <object>Временный</object>
+      </resource>
+      <resource name="Planned">
+        <object>Плановый</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.ForwardType" ServiceOnly="true">
+      <resource name="NoForward">
+        <object>Без переадресации</object>
+      </resource>
+      <resource name="ForwardAll">
+        <object>Переадресовать все</object>
+      </resource>
+      <resource name="ForwardActivity">
+        <object>Переадресовать активность</object>
+      </resource>
+      <resource name="ForwardPo">
+        <object>Переадресовать заказ на поставку</object>
+      </resource>
+      <resource name="ForwardBatch">
+        <object>Переадресовать порцию</object>
+      </resource>
+      <resource name="ForwardLot">
+        <object>Переадресовать партию</object>
+      </resource>
+      <resource name="ForwardPlot">
+        <object>Переадресовать партию продукции</object>
+      </resource>
+      <resource name="ForwardRmarea">
+        <object>Переадресовать область ресурсов</object>
+      </resource>
+      <resource name="ForwardShift">
+        <object>Переадресовать смену</object>
+      </resource>
+      <resource name="ForwardProfileId">
+        <object>Переадресовать период профиля</object>
+      </resource>
+      <resource name="ForwardPrday">
+        <object>Переадресовать день производственного процесса</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Не начата</object>
+      </resource>
+      <resource name="Active">
+        <object>Активна</object>
+      </resource>
+      <resource name="Completed">
+        <object>Завершена</object>
+      </resource>
+      <resource name="OnHold">
+        <object>На удержании</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineType" ServiceOnly="false">
+      <resource name="ContextPlan">
+        <object>План контекста</object>
+      </resource>
+      <resource name="ActivityPlan">
+        <object>Активность</object>
+      </resource>
+      <resource name="PoPlan">
+        <object>Заказ на поставку</object>
+      </resource>
+      <resource name="BatchPlan">
+        <object>Порция</object>
+      </resource>
+      <resource name="LotPlan">
+        <object>Партия</object>
+      </resource>
+      <resource name="PlotPlan">
+        <object>Партия продукции</object>
+      </resource>
+      <resource name="RmareaPlan">
+        <object>Область ресурсов</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.InventoryType" ServiceOnly="false">
+      <resource name="Itemized">
+        <object>Инвентарная ведомость подразделения</object>
+      </resource>
+      <resource name="Container">
+        <object>Инвентарная ведомость лотка</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Инвентарная ведомость без детализации</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationStatus" ServiceOnly="false">
+      <resource name="Empty">
+        <object>Пустой</object>
+      </resource>
+      <resource name="Filling">
+        <object>Наполнение</object>
+      </resource>
+      <resource name="Full">
+        <object>Полный</object>
+      </resource>
+      <resource name="Emptying">
+        <object>Опустошение</object>
+      </resource>
+      <resource name="ConfirmEmpty">
+        <object>Подтвердить, что пустой</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationUse" ServiceOnly="true">
+      <resource name="NoLocations">
+        <object>Без месторасположения</object>
+      </resource>
+      <resource name="AllowLocations">
+        <object>Разрешить месторасположения</object>
+      </resource>
+      <resource name="UseLocations">
+        <object>Использовать месторасположения</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.BlockType" ServiceOnly="true">
+      <resource name="NoBlock">
+        <object>Не блокировать</object>
+      </resource>
+      <resource name="HardwareBlock">
+        <object>Блокировка оборудования</object>
+      </resource>
+      <resource name="OperatorBlock">
+        <object>Блокировка оператора</object>
+      </resource>
+      <resource name="HwOpBlock">
+        <object>Блокировка оборудования и оператора</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PrdayStart" ServiceOnly="true">
+      <resource name="NotStarted">
+        <object>Не начата</object>
+      </resource>
+      <resource name="Automatic">
+        <object>Начата автоматически</object>
+      </resource>
+      <resource name="Manual">
+        <object>Начата вручную</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CheckStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Не установлен</object>
+      </resource>
+      <resource name="OkOverTarget">
+        <object>ОК, над целью</object>
+      </resource>
+      <resource name="OkOnTarget">
+        <object>ОК, на цели</object>
+      </resource>
+      <resource name="OkUnderTarget">
+        <object>ОК, под целью</object>
+      </resource>
+      <resource name="OkT1">
+        <object>ОК, под T1</object>
+      </resource>
+      <resource name="RejectOver">
+        <object>Отбраковать, над целью</object>
+      </resource>
+      <resource name="RejectT1">
+        <object>Отбраковать, над T1</object>
+      </resource>
+      <resource name="RejectT2">
+        <object>Отбраковать, под T1</object>
+      </resource>
+      <resource name="RejectUnder">
+        <object>Отбраковка недовеса</object>
+      </resource>
+      <resource name="RejectMetal">
+        <object>Отбраковка из-за металла</object>
+      </resource>
+      <resource name="RejectLabel">
+        <object>Отбраковка наклейки</object>
+      </resource>
+      <resource name="RejectQa">
+        <object>Отбраковка проверки качества</object>
+      </resource>
+      <resource name="RejectOther">
+        <object>Отбраковка по другим причинам</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Единица продукции</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Удалить</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Сжатый</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Истрачено</object>
+      </resource>
+      <resource name="Returned">
+        <object>Возвращено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.AssignStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Открыть</object>
+      </resource>
+      <resource name="OpenManual">
+        <object>Открыть для операций</object>
+      </resource>
+      <resource name="Closed">
+        <object>Закрыто</object>
+      </resource>
+      <resource name="ClosedManual">
+        <object>Закрыто вручную</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Пакет</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Без детализации</object>
+      </resource>
+      <resource name="Pending">
+        <object>Ожидающий</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Удалено</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Неверный</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Сжатый</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Истрачено</object>
+      </resource>
+      <resource name="Returned">
+        <object>Возвращено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Коллекция</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Удалено</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Истрачено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.BomRType" ServiceOnly="false">
+      <resource name="None">
+        <object>Нет</object>
+      </resource>
+      <resource name="Input">
+        <object>Вход</object>
+      </resource>
+      <resource name="Output">
+        <object>Выход</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Создан</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>В инвентарную ведомость</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Из инвентарной ведомости</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>В заказ</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Из заказа</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>В коллекцию</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Из коллекции</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Удалено</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Истрачено</object>
+      </resource>
+      <resource name="ConsumedPartial">
+        <object>Частично истрачено</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Не истрачено</object>
+      </resource>
+      <resource name="DeConsumedPartial">
+        <object>Частично не истрачено</object>
+      </resource>
+      <resource name="Returned">
+        <object>Возвращено</object>
+      </resource>
+      <resource name="Opened">
+        <object>Открыто</object>
+      </resource>
+      <resource name="Closed">
+        <object>Закрыто</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Создан</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>В инвентарную ведомость</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Из инвентарной ведомости</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>В заказ</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Из заказа</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>В коллекцию</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Из коллекции</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Удалено</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Истрачено</object>
+      </resource>
+      <resource name="Opened">
+        <object>Открыто</object>
+      </resource>
+      <resource name="Closed">
+        <object>Закрыто</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.MatxferRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Трансфер</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Удалено</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Неверный</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Сжатый</object>
+      </resource>
+      <resource name="Yield">
+        <object>Выход продукта</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Обратный</object>
+      </resource>
+      <resource name="Generated">
+        <object>Произведено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.TimeRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Время</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Выходной день</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Удалено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.AccessLogRType" ServiceOnly="false">
+      <resource name="Granted">
+        <object>Доступ разрешен</object>
+      </resource>
+      <resource name="NotInGroup">
+        <object>Не в группе доступа</object>
+      </resource>
+      <resource name="NotAtThisTime">
+        <object>Неверное время доступа</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>Неверный идентификатор</object>
+      </resource>
+      <resource name="IsIn">
+        <object>Уже внутри</object>
+      </resource>
+      <resource name="IsOut">
+        <object>Уже снаружи</object>
+      </resource>
+      <resource name="TimeReg">
+        <object>Регистрация времени</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ContainerRType" ServiceOnly="false">
+      <resource name="Assign">
+        <object>Назначенное подразделение</object>
+      </resource>
+      <resource name="Position">
+        <object>Изменение положения</object>
+      </resource>
+      <resource name="DeAssign">
+        <object>Неназначенное подразделение</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationClass" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Не установлен</object>
+      </resource>
+      <resource name="CreateItem">
+        <object>Создать элемент</object>
+      </resource>
+      <resource name="CreatePack">
+        <object>Создать пакет</object>
+      </resource>
+      <resource name="Item">
+        <object>Операция с элементом</object>
+      </resource>
+      <resource name="Pack">
+        <object>Операция с пакетом</object>
+      </resource>
+      <resource name="IdContainer">
+        <object>Операция с лотком</object>
+      </resource>
+      <resource name="Stack">
+        <object>Операция с набором</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Операция с поддоном</object>
+      </resource>
+      <resource name="Container">
+        <object>Операция с контейнером</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Операция с грузом</object>
+      </resource>
+      <resource name="CreateCollection">
+        <object>Создать коллекцию</object>
+      </resource>
+      <resource name="CreateTransaction">
+        <object>Создать транзакцию</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Операция инвентаризации</object>
+      </resource>
+      <resource name="Order">
+        <object>Операция заказа</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Операция заказа линии</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderType" ServiceOnly="true">
+      <resource name="Login">
+        <object>Вход в системы</object>
+      </resource>
+      <resource name="LoginAndAccess">
+        <object>Вход в систему и управление доступом</object>
+      </resource>
+      <resource name="Logout">
+        <object>Выход из системы</object>
+      </resource>
+      <resource name="LogoutAndExit">
+        <object>Выход из системы и управление доступом</object>
+      </resource>
+      <resource name="AccessControl">
+        <object>Управление доступом</object>
+      </resource>
+      <resource name="SignalOut">
+        <object>Выход сигнала</object>
+      </resource>
+      <resource name="RegisterId">
+        <object>Зарегистрировать идентификатор</object>
+      </resource>
+      <resource name="ExitControl">
+        <object>Управление выходом</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderLogging" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Запись в журнал не выполняется</object>
+      </resource>
+      <resource name="LogAccess">
+        <object>Доступ к журналу</object>
+      </resource>
+      <resource name="LogUse">
+        <object>Записывать в журнал все случаи использования</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Costing.CostBase" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Не установлен</object>
+      </resource>
+      <resource name="PerDay">
+        <object>Фиксированное количество в день</object>
+      </resource>
+      <resource name="PerInput">
+        <object>На единицу сырья</object>
+      </resource>
+      <resource name="PerOutput">
+        <object>На единицу продукта</object>
+      </resource>
+      <resource name="PerRuntime">
+        <object>За час времени обработки</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.ExpiryReferenceDate" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>День производственного процесса</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Время регистрации</object>
+      </resource>
+      <resource name="PoFirstDay">
+        <object>Первый день поставки по заказу на поставку</object>
+      </resource>
+      <resource name="PoLastDay">
+        <object>Последний день поставки по заказу на поставку</object>
+      </resource>
+      <resource name="PoDeliveryTime">
+        <object>Время доставки по заказу на поставку</object>
+      </resource>
+      <resource name="PoCatchDay">
+        <object>День поставки по заказу на поставку</object>
+      </resource>
+      <resource name="OrderPoFirstDay">
+        <object>Назначить день первой поставки по заказу на поставку</object>
+      </resource>
+      <resource name="OrderPoLastDay">
+        <object>Назначить день последней поставки по заказу на поставку</object>
+      </resource>
+      <resource name="OrderPoDeliveryTime">
+        <object>Назначить время доставки по заказу на поставку</object>
+      </resource>
+      <resource name="OrderPoCatchDay">
+        <object>Назначить день поставки по заказу на поставку</object>
+      </resource>
+      <resource name="Custom">
+        <object>Настроено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyContextType" ServiceOnly="true">
+      <resource name="TargetSource">
+        <object>Источник заданной траектории</object>
+      </resource>
+      <resource name="TargetDestination">
+        <object>Назначение заданной траектории</object>
+      </resource>
+      <resource name="CopySource">
+        <object>Источник пути для копирования</object>
+      </resource>
+      <resource name="CopyDestination">
+        <object>Назначение пути для копирования</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyMethod" ServiceOnly="true">
+      <resource name="Add">
+        <object>Добавить</object>
+      </resource>
+      <resource name="Subtract">
+        <object>Вычесть</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PackRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Без записи</object>
+      </resource>
+      <resource name="Instance">
+        <object>Записать каждый пакет</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PathRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Без записи</object>
+      </resource>
+      <resource name="Instance">
+        <object>Записать каждую транзакцию</object>
+      </resource>
+      <resource name="Periodic">
+        <object>Записывать периодически</object>
+      </resource>
+      <resource name="Update">
+        <object>Обновить одну запись</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.SelectRuleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>Выбор входа</object>
+      </resource>
+      <resource name="Output">
+        <object>Выбор выхода</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.PlotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Удержание</object>
+      </resource>
+      <resource name="Available">
+        <object>Доступно</object>
+      </resource>
+      <resource name="Completed">
+        <object>Завершена</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.ContextSource" ServiceOnly="true">
+      <resource name="Reference">
+        <object>Автоматически</object>
+      </resource>
+      <resource name="Source">
+        <object>Источник</object>
+      </resource>
+      <resource name="Destination">
+        <object>Назначение</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.Result" ServiceOnly="false">
+      <resource name="Ok">
+        <object>ОК</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Операция не поддерживается</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>Отсутствуют сведения блока обработки</object>
+      </resource>
+      <resource name="NoMaterial">
+        <object>Отсутствуют сведения о материалах</object>
+      </resource>
+      <resource name="NoProcessPeriod">
+        <object>Отсутствуют сведения о периоде обработки</object>
+      </resource>
+      <resource name="NoProductionDay">
+        <object>Отсутствуют сведения о дне производственного процесса</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Произошла ошибка базы данных</object>
+      </resource>
+      <resource name="NoSSCC">
+        <object>В компании отсутствуют сведения о коде SSCC</object>
+      </resource>
+      <resource name="CreateSSCC">
+        <object>Не удалось создать код SSCC, возможно, недопустимый префикс</object>
+      </resource>
+      <resource name="HasOrder">
+        <object>Блок назначен для заказа</object>
+      </resource>
+      <resource name="InStack">
+        <object>Блок назначен для набора</object>
+      </resource>
+      <resource name="OnPallet">
+        <object>Блок назначен для поддона</object>
+      </resource>
+      <resource name="InContainer">
+        <object>Блок назначен для контейнера</object>
+      </resource>
+      <resource name="InShipment">
+        <object>Блок назначен для груза</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Нет подходящего заказа</object>
+      </resource>
+      <resource name="IterationTransaction">
+        <object>Транзакция не допустима в итерации</object>
+      </resource>
+      <resource name="NoCreateCount">
+        <object>Отсутствует количество блоков</object>
+      </resource>
+      <resource name="XmlParse">
+        <object>Не удалось выполнить анализ XML</object>
+      </resource>
+      <resource name="NoStation">
+        <object>Отсутствуют сведения о станции</object>
+      </resource>
+      <resource name="NoPo">
+        <object>Отсутствуют сведения о заказе на поставку</object>
+      </resource>
+      <resource name="NoPlot">
+        <object>Отсутствуют сведения о партии продукции</object>
+      </resource>
+      <resource name="NoCurrentPack">
+        <object>Нет текущего пакета</object>
+      </resource>
+      <resource name="Conversion">
+        <object>Не удалось преобразовать строку в значение</object>
+      </resource>
+      <resource name="OrderNotFound">
+        <object>Не удалось загрузить сведения о заказе из базы данных</object>
+      </resource>
+      <resource name="MaterialNotFound">
+        <object>Не удалось загрузить сведения о материале из базы данных</object>
+      </resource>
+      <resource name="UnitType">
+        <object>Недопустимый тип блока для операции</object>
+      </resource>
+      <resource name="OperationLoad">
+        <object>Не удалось загрузить сведения об операции из базы данных</object>
+      </resource>
+      <resource name="NoPack">
+        <object>Отсутствуют сведения о пакете</object>
+      </resource>
+      <resource name="NoSite">
+        <object>Отсутствуют сведения о месторасположении</object>
+      </resource>
+      <resource name="Configuration">
+        <object>Недопустимая конфигурация операции</object>
+      </resource>
+      <resource name="InvalidScope">
+        <object>Недопустимые границы поиска блока</object>
+      </resource>
+      <resource name="NoStack">
+        <object>Отсутствуют сведения о наборе</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>Отсутствуют сведения о поддоне</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>Состояние коллекции не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>Отсутствуют сведения о коллекции</object>
+      </resource>
+      <resource name="NotInStack">
+        <object>Блок отсутствует в наборе</object>
+      </resource>
+      <resource name="NotOnPallet">
+        <object>Блок отсутствует на поддоне</object>
+      </resource>
+      <resource name="NotInContainer">
+        <object>Блок отсутствует в контейнере</object>
+      </resource>
+      <resource name="NotInShipment">
+        <object>Блок отсутствует в грузе</object>
+      </resource>
+      <resource name="NoInventory">
+        <object>Отсутствуют сведения об инвентарной ведомости</object>
+      </resource>
+      <resource name="NoItem">
+        <object>Отсутствуют сведения об элементе</object>
+      </resource>
+      <resource name="NoOrderLine">
+        <object>Отсутствуют сведения о линии для заказа</object>
+      </resource>
+      <resource name="Transaction">
+        <object>Ошибка транзакции</object>
+      </resource>
+      <resource name="NotInventory">
+        <object>Указанный блок обработки отсутствует в инвентарной ведомости</object>
+      </resource>
+      <resource name="InventoryReject">
+        <object>Блок не входил в инвентарную ведомость</object>
+      </resource>
+      <resource name="OnInventory">
+        <object>Блок уже входит в инвентарную ведомость</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>Блок отсутствует в инвентарной ведомости</object>
+      </resource>
+      <resource name="UnitStatus">
+        <object>Состояние блока не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="NoContainer">
+        <object>Отсутствуют сведения о контейнере</object>
+      </resource>
+      <resource name="NoShipment">
+        <object>Отсутствуют сведения о грузе</object>
+      </resource>
+      <resource name="LoadSite">
+        <object>Не удалось загрузить сведения о месторасположении из базы данных</object>
+      </resource>
+      <resource name="LoadCompany">
+        <object>Не удалось загрузить сведения о компании из базы данных</object>
+      </resource>
+      <resource name="HasPacks">
+        <object>Невозможно выполнить операцию, поскольку в коллекции имеются пакеты </object>
+      </resource>
+      <resource name="HasStacks">
+        <object>Невозможно выполнить операцию, поскольку в коллекции имеются наборы</object>
+      </resource>
+      <resource name="HasPallets">
+        <object>Невозможно выполнить операцию, поскольку в коллекции имеются поддоны</object>
+      </resource>
+      <resource name="HasContainers">
+        <object>Невозможно выполнить операцию, поскольку в коллекции имеются контейнеры</object>
+      </resource>
+      <resource name="FailOperation">
+        <object>Операция явно не удалась</object>
+      </resource>
+      <resource name="InPack">
+        <object>Блок уже в пакете</object>
+      </resource>
+      <resource name="NotInPack">
+        <object>Блок отсутствует в пакете</object>
+      </resource>
+      <resource name="PackStatus">
+        <object>Состояние пакета не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="OrderType">
+        <object>Недопустимый тип заказа для операции</object>
+      </resource>
+      <resource name="Exception">
+        <object>Исключение в приложении</object>
+      </resource>
+      <resource name="OperationClass">
+        <object>Недопустимый класс операции</object>
+      </resource>
+      <resource name="NoSource">
+        <object>Отсутствуют сведения о блоке обработки источника</object>
+      </resource>
+      <resource name="NoDestination">
+        <object>Отсутствуют сведения о блоке обработки назначения</object>
+      </resource>
+      <resource name="MaterialTransaction">
+        <object>Не удалось записать транзакцию материала</object>
+      </resource>
+      <resource name="MatchContext">
+        <object>Состояние блока обработки не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="TransactionConfig">
+        <object>Система тразакций не настроена для операции</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Не удалось получить интерфейс дистанционного обслуживания</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Не найдены сведения об интерфейсе удаленного устройства</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Не найдены сведения об интерфейсе удаленного сервера</object>
+      </resource>
+      <resource name="NoOperationData">
+        <object>Отсутствуют данные об операции</object>
+      </resource>
+      <resource name="NoPrintFields">
+        <object>Отсутствуют сведения о поле для печати</object>
+      </resource>
+      <resource name="NoPieceCount">
+        <object>Отсутствуют сведения о подсчете количества кусков</object>
+      </resource>
+      <resource name="ItemLoad">
+        <object>Не удалось загрузить запись элемента</object>
+      </resource>
+      <resource name="ItemInsert">
+        <object>Не удалось вставить запись элемента</object>
+      </resource>
+      <resource name="ItemUpdate">
+        <object>Не удалось обновить запись элемента</object>
+      </resource>
+      <resource name="ItemRType">
+        <object>Тип записи элемента не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="PackLoad">
+        <object>Не удалось загрузить запись пакета</object>
+      </resource>
+      <resource name="PackInsert">
+        <object>Не удалось вставить запись пакета</object>
+      </resource>
+      <resource name="PackUpdate">
+        <object>Не удалось обновить запись пакета</object>
+      </resource>
+      <resource name="PackRType">
+        <object>Тип записи пакета не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="CollectionLoad">
+        <object>Не удалось загрузить запись коллекции</object>
+      </resource>
+      <resource name="CollectionInsert">
+        <object>Не удалось вставить запись коллекции</object>
+      </resource>
+      <resource name="CollectionUpdate">
+        <object>Не удалось обновить запись коллекции</object>
+      </resource>
+      <resource name="CollectionRType">
+        <object>Тип записи коллекции не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="CollectionUnitType">
+        <object>Тип блоков в коллекции не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="NoOrderStatus">
+        <object>Отсутствуют сведения о состоянии выполнения заказа</object>
+      </resource>
+      <resource name="NotInOrder">
+        <object>Блок не назначен для заказа</object>
+      </resource>
+      <resource name="OrderLoad">
+        <object>Не удалось загрузить сведения о заказе из базы данных</object>
+      </resource>
+      <resource name="OrderLineLoad">
+        <object>Не удалось загрузить сведения о линии для заказа из базы данных</object>
+      </resource>
+      <resource name="OrderStatus">
+        <object>Состояние заказа не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="OrderLineStatus">
+        <object>Состояние линии для заказа не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Не удалось создать блок обработки для выполнения операции</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Выполняется операция</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Результат не установлен</object>
+      </resource>
+      <resource name="NoExternalNumber">
+        <object>Отсутствует количество внешних устройств</object>
+      </resource>
+      <resource name="NoExternalCode">
+        <object>Отсутствует код внешнего устройства</object>
+      </resource>
+      <resource name="PrintFailed">
+        <object>Не удалось выполнить операцию печати</object>
+      </resource>
+      <resource name="CustomOpNotLoaded">
+        <object>Специальная операция не загружена</object>
+      </resource>
+      <resource name="CustomOpInfoMissing">
+        <object>Отсутствуют сведения о частях специальной операции</object>
+      </resource>
+      <resource name="CustomOpXmlMissing">
+        <object>Отсутствуют сведения об определении XML специальной операции</object>
+      </resource>
+      <resource name="CustomException">
+        <object>Исключение в специальной операции</object>
+      </resource>
+      <resource name="Validation">
+        <object>Ошибка проверки достоверности</object>
+      </resource>
+      <resource name="PreOperation">
+        <object>Ошибка предварительной операции</object>
+      </resource>
+      <resource name="DoOperation">
+        <object>Ошибка операции</object>
+      </resource>
+      <resource name="PostOperation">
+        <object>Ошибка после операции</object>
+      </resource>
+      <resource name="NoCatchDay">
+        <object>Отсутствуют сведения о дате поставки</object>
+      </resource>
+      <resource name="InvalidInventory">
+        <object>Недопустимая инвентарная ведомость для операции</object>
+      </resource>
+      <resource name="LoadType">
+        <object>Неисправный тип загрузки</object>
+      </resource>
+      <resource name="UnitCount">
+        <object>Указано недопустимое количество блоков</object>
+      </resource>
+      <resource name="ConvertedInventory">
+        <object>Преобразованная коллекция находится в инвентарной ведомости, не соответствующей инвентарной ведомости пакета</object>
+      </resource>
+      <resource name="ConvertedOrder">
+        <object>Преобразованная коллекция находится в заказе, не соответствующем заказу пакета</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Отсутствуют сведения о массе</object>
+      </resource>
+      <resource name="NoProperty">
+        <object>Отсутствует имя свойства</object>
+      </resource>
+      <resource name="NotProperty">
+        <object>Данное имя не является именем свойства</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Блок удерживается для контроля качества</object>
+      </resource>
+      <resource name="PoStatus">
+        <object>Состояние заказа на поставку не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="InvalidPartialAmount">
+        <object>Невозможно изменить блок с помощью указанного количества</object>
+      </resource>
+      <resource name="NoPoLine">
+        <object>Линия заказа на поставку не соответствует указанному продукту</object>
+      </resource>
+      <resource name="HasPoLine">
+        <object>Линия заказа на поставку уже назначена</object>
+      </resource>
+      <resource name="NoMaterialTransaction">
+        <object>Транзакция материала не записана</object>
+      </resource>
+      <resource name="NoStockTake">
+        <object>Отсутствует активный переучет</object>
+      </resource>
+      <resource name="StartStockTake">
+        <object>Не удалось начать переучет, возможно, он уже активен</object>
+      </resource>
+      <resource name="StockTakeMethod">
+        <object>Метод учета инвентарных запасов не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="StockTakeUnitLoad">
+        <object>Недостоверная информация о переучете для блока</object>
+      </resource>
+      <resource name="StockTakeUnitType">
+        <object>Переучет не настроен для этого типа блоков</object>
+      </resource>
+      <resource name="StockTakeStatus">
+        <object>Состояние переучета не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="ScriptingError">
+        <object>Ошибка выполнения сценария</object>
+      </resource>
+      <resource name="InventoryKeepMin">
+        <object>Блок еще недостаточно старый</object>
+      </resource>
+      <resource name="InventoryKeepMax">
+        <object>Блок слишком старый</object>
+      </resource>
+      <resource name="NoValue">
+        <object>Отсутствует значение блока</object>
+      </resource>
+      <resource name="LogRecordLoad">
+        <object>Ошибка загрузки записи журнала</object>
+      </resource>
+      <resource name="LogRecordExecuted">
+        <object>Запись в журнале уже выполнена</object>
+      </resource>
+      <resource name="InventoryType">
+        <object>Тип инвентарной ведомости не позволяет выполнить операцию</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>Отсутствуют сведения о порции</object>
+      </resource>
+      <resource name="NoLot">
+        <object>Отсутствуют сведения о партии</object>
+      </resource>
+      <resource name="NoProductionLot">
+        <object>Отсутствуют сведения о партии продукции</object>
+      </resource>
+      <resource name="NoRmArea">
+        <object>Отсутствуют сведения об области ресурсов</object>
+      </resource>
+      <resource name="InvalidAmount">
+        <object>Неверное количество</object>
+      </resource>
+      <resource name="NoInventoryStatus">
+        <object>Не найдена запись о состоянии инвентарной ведомости</object>
+      </resource>
+      <resource name="MultipleInventoryStatus">
+        <object>Найдено несколько записей о состоянии инвентарной ведомости</object>
+      </resource>
+      <resource name="FeatureNotLicensed">
+        <object>Функция не лицензирована</object>
+      </resource>
+      <resource name="CodeNotFound">
+        <object>Объект с указанным кодом не найден</object>
+      </resource>
+      <resource name="InvalidMessageFields">
+        <object>Неправильная настройка поля для сообщения</object>
+      </resource>
+      <resource name="BomNotFound">
+        <object>Ведомость материалов в базе данных не найдена</object>
+      </resource>
+      <resource name="NotInBom">
+        <object>Указанный продукт отсутствует в ведомости материалов</object>
+      </resource>
+      <resource name="NoBom">
+        <object>Ведомость материалов не указана</object>
+      </resource>
+      <resource name="NoBomRType">
+        <object>"&gt;Тип записи в ведомости материалов не указан</object>
+      </resource>
+      <resource name="PrunitBom">
+        <object>В производственном подразделении отсутствуют необходимые сведения о ведомости материалов</object>
+      </resource>
+      <resource name="LotBom">
+        <object>В партии отсутствуют необходимые сведения о ведомости материалов</object>
+      </resource>
+      <resource name="ProductionLotBom">
+        <object>В партии продукции отсутствуют необходимые сведения о ведомости материалов</object>
+      </resource>
+      <resource name="InvalidDate">
+        <object>Недопустимые данные для операции</object>
+      </resource>
+      <resource name="PartialAdjust">
+        <object>Невозможно исправить содержимое частичного пакета</object>
+      </resource>
+      <resource name="NoCategory">
+        <object>Отсутствуют сведения о категории</object>
+      </resource>
+      <resource name="NoQuality">
+        <object>Отсутствуют сведения о качестве</object>
+      </resource>
+      <resource name="NoFatClass">
+        <object>Отсутствуют сведения о классе жирности</object>
+      </resource>
+      <resource name="SelectYieldGroup">
+        <object>Не удалось выбрать группу выхода продукта</object>
+      </resource>
+      <resource name="NoRiCountry">
+        <object>Отсутствуют сведения о стране происхождения</object>
+      </resource>
+      <resource name="NoBrCountry">
+        <object>Отсутствуют сведения о стране выращивания</object>
+      </resource>
+      <resource name="NoSlaughterHouse">
+        <object>Отсутствуют сведения о скотобойне</object>
+      </resource>
+      <resource name="NoSlaughterDay">
+        <object>Отсутствуют сведения о дате забоя скота</object>
+      </resource>
+      <resource name="NoProcessor">
+        <object>Отсутствуют сведения о перерабатывающем предприятии</object>
+      </resource>
+      <resource name="SelectLot">
+        <object>Не удалось выбрать партию</object>
+      </resource>
+      <resource name="IndividualLoad">
+        <object>Не удалось загрузить отдельную запись</object>
+      </resource>
+      <resource name="NoYieldGroup">
+        <object>Отсутствуют сведения о группе выхода продукта</object>
+      </resource>
+      <resource name="PalletNotReserved">
+        <object>Поддон зарезервирован для заказа</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>Продукты не совпадают</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.EmployeeResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>ОК</object>
+      </resource>
+      <resource name="DbError">
+        <object>Ошибка базы данных</object>
+      </resource>
+      <resource name="NotFound">
+        <object>Сотрудник не найден</object>
+      </resource>
+      <resource name="MultipleFound">
+        <object>Поиск обнаружил несколько записей</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Неверные сведения о сотруднике</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>По списку</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Все</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.NumberMethod" ServiceOnly="false">
+      <resource name="OwnNumber">
+        <object>Собственные номера</object>
+      </resource>
+      <resource name="ParentNumber">
+        <object>Из основного заказа</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Закрыто</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Отменено</object>
+      </resource>
+      <resource name="OnHold">
+        <object>На удержании</object>
+      </resource>
+      <resource name="Open">
+        <object>Открыть</object>
+      </resource>
+      <resource name="Complete">
+        <object>Завершить</object>
+      </resource>
+      <resource name="CompleteClosed">
+        <object>Полностью &amp; закрыто</object>
+      </resource>
+      <resource name="Dispatched">
+        <object>Отправлено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderType" ServiceOnly="false">
+      <resource name="Customer">
+        <object>Продажи</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Инвентарная ведомость</object>
+      </resource>
+      <resource name="Production">
+        <object>Продукция </object>
+      </resource>
+      <resource name="Transfer">
+        <object>Трансфер</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationSetType" ServiceOnly="true">
+      <resource name="Generic">
+        <object>Обобщенные</object>
+      </resource>
+      <resource name="DefaultItem">
+        <object>Элемент по умолчанию</object>
+      </resource>
+      <resource name="DefaultPack">
+        <object>Пакет по умолчанию</object>
+      </resource>
+      <resource name="DefaultStack">
+        <object>Набор по умолчанию</object>
+      </resource>
+      <resource name="DefaultPallet">
+        <object>Поддон по умолчанию</object>
+      </resource>
+      <resource name="DefaultContainer">
+        <object>Контейнер по умолчанию</object>
+      </resource>
+      <resource name="DefaultShipment">
+        <object>Груз по умолчанию</object>
+      </resource>
+      <resource name="DefaultOrder">
+        <object>Заказ по умолчанию</object>
+      </resource>
+      <resource name="DefaultOrderLine">
+        <object>Линия для заказа по умолчанию</object>
+      </resource>
+      <resource name="DefaultInventory">
+        <object>Инвентарная ведомость по умолчанию</object>
+      </resource>
+      <resource name="DefaultTransaction">
+        <object>Транзакция по умолчанию</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.DataStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Открыто</object>
+      </resource>
+      <resource name="Closed">
+        <object>Закрыто</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Неверный</object>
+      </resource>
+      <resource name="PendingClose">
+        <object>Ожидание закрытия</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.UnitInventoryStatus" ServiceOnly="false">
+      <resource name="Available">
+        <object>Доступно</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Удержано для контроля качества</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.CountStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>Не найдено</object>
+      </resource>
+      <resource name="Left">
+        <object>Левый</object>
+      </resource>
+      <resource name="Entered">
+        <object>Введено</object>
+      </resource>
+      <resource name="Found">
+        <object>Найдено</object>
+      </resource>
+      <resource name="New">
+        <object>Создать</object>
+      </resource>
+      <resource name="Error">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="RType">
+        <object>Недопустимое состояние</object>
+      </resource>
+      <resource name="NotLeft">
+        <object>Не оставлено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Нет данных переучета</object>
+      </resource>
+      <resource name="CountUnits">
+        <object>Элементы-счетчики и пакеты</object>
+      </resource>
+      <resource name="CountStacks">
+        <object>Подсчет наборов</object>
+      </resource>
+      <resource name="CountPallets">
+        <object>Подсчет поддонов</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeStatus" ServiceOnly="false">
+      <resource name="Active">
+        <object>Активен</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Отменен</object>
+      </resource>
+      <resource name="CountDone">
+        <object>Подсчет выполнен</object>
+      </resource>
+      <resource name="Completed">
+        <object>Завершен</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeType" ServiceOnly="false">
+      <resource name="Count">
+        <object>Подсчет блоков</object>
+      </resource>
+      <resource name="Snapshot">
+        <object>Краткая характеристика</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoAcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>По списку</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Все</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Utilities.FormatText" ServiceOnly="false">
+      <resource name="Stack">
+        <object>Набор</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Поддон</object>
+      </resource>
+      <resource name="Order">
+        <object>Заказ</object>
+      </resource>
+      <resource name="UnlimitedOrder">
+        <object>неограниченный</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>нет</object>
+      </resource>
+      <resource name="Packs">
+        <object>пакеты</object>
+      </resource>
+      <resource name="Items">
+        <object>пункты</object>
+      </resource>
+      <resource name="Pcs">
+        <object>шт.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.IdContainer.IdContainerModel" ServiceOnly="false">
+      <resource name="welcome">
+        <object>Готов к работе</object>
+      </resource>
+      <resource name="clear">
+        <object>Очистить</object>
+      </resource>
+      <resource name="record">
+        <object>Запись</object>
+      </resource>
+      <resource name="ExtId1">
+        <object>Чип 1: </object>
+      </resource>
+      <resource name="ExtId2">
+        <object>Чип 2: </object>
+      </resource>
+      <resource name="ExtCode">
+        <object>Номер на чане:  </object>
+      </resource>
+    </type>
+  </industry>
+</resources>

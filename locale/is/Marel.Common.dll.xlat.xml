@@ -1,0 +1,949 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="is">
+  <industry>
+    <type name="Marel.Common.Terminals.ScreenSystem" ServiceOnly="false">
+      <resource name="ShutdownMessage">
+        <object>- KERFI NIÐRI -</object>
+      </resource>
+      <resource name="MomentMessage">
+        <object>Andartak...</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.ListScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Velja</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Hætta</object>
+      </resource>
+      <resource name="SortByCodeLegend">
+        <object>Kóði</object>
+      </resource>
+      <resource name="SortByNameLegend">
+        <object>Nafn</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.FieldScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Velja</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Hætta</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.DeviceStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Óskilgreint</object>
+      </resource>
+      <resource name="NoInterface">
+        <object>Tengibúnaður niðri</object>
+      </resource>
+      <resource name="NoRouter">
+        <object>Tengiforrit niðri</object>
+      </resource>
+      <resource name="Offline">
+        <object>Ótengt</object>
+      </resource>
+      <resource name="PresumedOnline">
+        <object>Tengt (fast)</object>
+      </resource>
+      <resource name="Online">
+        <object>Tengt</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Diagnostics.LogEntryType" ServiceOnly="false">
+      <resource name="Information">
+        <object>Skilaboð</object>
+      </resource>
+      <resource name="UsageLog">
+        <object>Notkun</object>
+      </resource>
+      <resource name="Warning">
+        <object>Aðvörun</object>
+      </resource>
+      <resource name="Error">
+        <object>Villa</object>
+      </resource>
+      <resource name="Fatal">
+        <object>Alvarleg villa</object>
+      </resource>
+      <resource name="UnhandledException">
+        <object>Keyrsluvilla</object>
+      </resource>
+      <resource name="Trace">
+        <object>Keyrsluloggur</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Sockets.ConnectionStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ekki sett</object>
+      </resource>
+      <resource name="Idle">
+        <object>Óvirk</object>
+      </resource>
+      <resource name="Unconnected">
+        <object>Ótengt</object>
+      </resource>
+      <resource name="Connecting">
+        <object>Reynir tengingu</object>
+      </resource>
+      <resource name="Connected">
+        <object>Tengt</object>
+      </resource>
+      <resource name="Disconnected">
+        <object>Frátengt</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmManagement" ServiceOnly="false">
+      <resource name="Units">
+        <object>Fjöldi</object>
+      </resource>
+      <resource name="Weight">
+        <object>Þyngd</object>
+      </resource>
+      <resource name="Volume">
+        <object>Rúmmál</object>
+      </resource>
+      <resource name="Length">
+        <object>Lengd</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmProduct" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="Units">
+        <object>Einingar</object>
+      </resource>
+      <resource name="Pieces">
+        <object>Stykki</object>
+      </resource>
+      <resource name="Feet">
+        <object>Fet</object>
+      </resource>
+      <resource name="Meters">
+        <object>Metrar</object>
+      </resource>
+      <resource name="Liters">
+        <object>Lítrar</object>
+      </resource>
+      <resource name="UsLiquidGallons">
+        <object>US gallon</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmSystem" ServiceOnly="false">
+      <resource name="Si">
+        <object>SI</object>
+      </resource>
+      <resource name="European">
+        <object>Evrópskt</object>
+      </resource>
+      <resource name="Imperial">
+        <object>Fet-pund</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmWeight" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Milligrams">
+        <object>mg</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="OunceEights">
+        <object>oz/8</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmLength" ServiceOnly="false">
+      <resource name="Meters">
+        <object>m</object>
+      </resource>
+      <resource name="Millimeters">
+        <object>mm</object>
+      </resource>
+      <resource name="Centimeters">
+        <object>sm</object>
+      </resource>
+      <resource name="Inches">
+        <object>tommur</object>
+      </resource>
+      <resource name="Feet">
+        <object>fet</object>
+      </resource>
+      <resource name="Pixels">
+        <object>punktar</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.FormatSpecification" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Óskilgreint</object>
+      </resource>
+      <resource name="Point000001">
+        <object>0.000001</object>
+      </resource>
+      <resource name="Point000002">
+        <object>0.000002</object>
+      </resource>
+      <resource name="Point000005">
+        <object>0.000005</object>
+      </resource>
+      <resource name="Point00001">
+        <object>0.00001</object>
+      </resource>
+      <resource name="Point00002">
+        <object>0.00002</object>
+      </resource>
+      <resource name="Point00005">
+        <object>0.00005</object>
+      </resource>
+      <resource name="Point0001">
+        <object>0.0001</object>
+      </resource>
+      <resource name="Point0002">
+        <object>0.0002</object>
+      </resource>
+      <resource name="Point0005">
+        <object>0.0005</object>
+      </resource>
+      <resource name="Point001">
+        <object>0.001</object>
+      </resource>
+      <resource name="Point002">
+        <object>0.002</object>
+      </resource>
+      <resource name="Point005">
+        <object>0.005</object>
+      </resource>
+      <resource name="Point01">
+        <object>0.01</object>
+      </resource>
+      <resource name="Point02">
+        <object>0.02</object>
+      </resource>
+      <resource name="Point05">
+        <object>0.05</object>
+      </resource>
+      <resource name="Point1">
+        <object>0.1</object>
+      </resource>
+      <resource name="Point2">
+        <object>0.2</object>
+      </resource>
+      <resource name="Point5">
+        <object>0.5</object>
+      </resource>
+      <resource name="N1">
+        <object>1</object>
+      </resource>
+      <resource name="N2">
+        <object>2</object>
+      </resource>
+      <resource name="N5">
+        <object>5</object>
+      </resource>
+      <resource name="N10">
+        <object>10</object>
+      </resource>
+      <resource name="N20">
+        <object>20</object>
+      </resource>
+      <resource name="N50">
+        <object>50</object>
+      </resource>
+      <resource name="Max">
+        <object>Hámark</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.NominalMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Breytileg þyngd, % yfirvigt</object>
+      </resource>
+      <resource name="FixWeightFg">
+        <object>Nafnvigt, föst yfirvigt</object>
+      </resource>
+      <resource name="FixWeightVg">
+        <object>Nafnvigt, % yfirvigt</object>
+      </resource>
+      <resource name="FixWeightE">
+        <object>e, án yfirvigtar</object>
+      </resource>
+      <resource name="FixWeightEFg">
+        <object>e, föst yfirvigt</object>
+      </resource>
+      <resource name="FixWeightEVg">
+        <object>e, % yfirvigt</object>
+      </resource>
+      <resource name="Range">
+        <object>Nafnvigtarsvið</object>
+      </resource>
+      <resource name="Step">
+        <object>Nafnvigtarskref</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ótilgreint</object>
+      </resource>
+      <resource name="Button">
+        <object>Takka</object>
+      </resource>
+      <resource name="Preset">
+        <object>Handvirk</object>
+      </resource>
+      <resource name="Auto">
+        <object>Sjálfvirk</object>
+      </resource>
+      <resource name="System">
+        <object>Kerfis</object>
+      </resource>
+      <resource name="Calculated">
+        <object>Reiknuð</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Gender" ServiceOnly="false">
+      <resource name="Female">
+        <object>Kona</object>
+      </resource>
+      <resource name="Male">
+        <object>Karl</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Ótilgreint</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.AccuracyMode" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Óskilgreint</object>
+      </resource>
+      <resource name="Low">
+        <object>Lítil</object>
+      </resource>
+      <resource name="Medium">
+        <object>Meðal</object>
+      </resource>
+      <resource name="High">
+        <object>Há</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.FlowUnit" ServiceOnly="false">
+      <resource name="Percentage">
+        <object>Hlutfall</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>Stk/mín</object>
+      </resource>
+      <resource name="WeightPerHour">
+        <object>Magn/klst</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Óskilgreint</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.LaneSpecification" ServiceOnly="false">
+      <resource name="OneSide">
+        <object>Einnar brautar</object>
+      </resource>
+      <resource name="TwoSide">
+        <object>Tveggja brauta</object>
+      </resource>
+      <resource name="Lane1">
+        <object>Braut 1</object>
+      </resource>
+      <resource name="Lane2">
+        <object>Braut 2</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.RecordingMethod" ServiceOnly="false">
+      <resource name="Manual">
+        <object>Handvirk</object>
+      </resource>
+      <resource name="Auto">
+        <object>Sjálfvirk</object>
+      </resource>
+      <resource name="Stable">
+        <object>Stöðug</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Resources.Industry" ServiceOnly="false">
+      <resource name="Neutral">
+        <object>Óháð iðnaði</object>
+      </resource>
+      <resource name="Fish">
+        <object>Fiskur</object>
+      </resource>
+      <resource name="Meat">
+        <object>Kjöt</object>
+      </resource>
+      <resource name="Poultry">
+        <object>Alifugl</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTime" ServiceOnly="false">
+      <resource name="Seconds">
+        <object>sek</object>
+      </resource>
+      <resource name="Milliseconds">
+        <object>ms</object>
+      </resource>
+      <resource name="Minutes">
+        <object>mín</object>
+      </resource>
+      <resource name="Hours">
+        <object>klst</object>
+      </resource>
+      <resource name="Days">
+        <object>dag</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.UnitType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ótilgreint</object>
+      </resource>
+      <resource name="Pack">
+        <object>Pakki</object>
+      </resource>
+      <resource name="Stack">
+        <object>Stafli</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Bretti</object>
+      </resource>
+      <resource name="Container">
+        <object>Flutningseining</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Afskipun</object>
+      </resource>
+      <resource name="Item">
+        <object>Askja</object>
+      </resource>
+      <resource name="GraderPiece">
+        <object>Stykki</object>
+      </resource>
+      <resource name="Individual">
+        <object>Dýr</object>
+      </resource>
+      <resource name="TrimPiece">
+        <object>Snyrt stykki</object>
+      </resource>
+      <resource name="CollectionMix">
+        <object>Blandaðar einingar</object>
+      </resource>
+      <resource name="MaterialTransaction">
+        <object>Afurð</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.AppRecordType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Ótilgreint</object>
+      </resource>
+      <resource name="Input">
+        <object>Inntak, almennt</object>
+      </resource>
+      <resource name="Output">
+        <object>Úttak, almennt</object>
+      </resource>
+      <resource name="TrimInput">
+        <object>Inntak, snyrting</object>
+      </resource>
+      <resource name="TrimOutput">
+        <object>Úttak, snyrting</object>
+      </resource>
+      <resource name="BypassInput">
+        <object>Inntak, bypass</object>
+      </resource>
+      <resource name="BypassOutput">
+        <object>Úttak, bypass</object>
+      </resource>
+      <resource name="TrimUnknown">
+        <object>Óþekkt, snyrting</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ótilgreind</object>
+      </resource>
+      <resource name="Button">
+        <object>Hnappur</object>
+      </resource>
+      <resource name="Preset">
+        <object>Forstillt</object>
+      </resource>
+      <resource name="Auto">
+        <object>Sjálfvirk</object>
+      </resource>
+      <resource name="System">
+        <object>Kerfisstillt</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.BatchingMode" ServiceOnly="false">
+      <resource name="None">
+        <object>Engin skömmtun</object>
+      </resource>
+      <resource name="Weight">
+        <object>Skömmtun eftir þyngd</object>
+      </resource>
+      <resource name="IntelligentWeight">
+        <object>Samval eftir þyngd</object>
+      </resource>
+      <resource name="Count">
+        <object>Skömmtun eftir fjölda</object>
+      </resource>
+      <resource name="Slave">
+        <object>Þræll</object>
+      </resource>
+      <resource name="MultiTarget">
+        <object>Skrefþyngd</object>
+      </resource>
+      <resource name="MeanWeight">
+        <object>Meðalþyngd</object>
+      </resource>
+      <resource name="Rate">
+        <object>Magn</object>
+      </resource>
+      <resource name="RateAndAverage">
+        <object>Magn+meðalþyngd</object>
+      </resource>
+      <resource name="Share">
+        <object>Deila</object>
+      </resource>
+      <resource name="FillRate">
+        <object>Áfyllingarhraði</object>
+      </resource>
+      <resource name="Weight2nd">
+        <object>Skömmtun e. þyngd, til vara</object>
+      </resource>
+      <resource name="IntelligentWeight2nd">
+        <object>Samval e. þyngd, til vara</object>
+      </resource>
+      <resource name="Count2nd">
+        <object>Skömmtun e. fjölda, til vara</object>
+      </resource>
+      <resource name="MeanWeight2nd">
+        <object>Meðalþyngd, til vara</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Ótilgreint</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.RejectLevel" ServiceOnly="false">
+      <resource name="None">
+        <object>Engin höfnun</object>
+      </resource>
+      <resource name="Lowest">
+        <object>Lágmark</object>
+      </resource>
+      <resource name="Low">
+        <object>Lítil</object>
+      </resource>
+      <resource name="Medium">
+        <object>Meðal</object>
+      </resource>
+      <resource name="High">
+        <object>Há</object>
+      </resource>
+      <resource name="Highest">
+        <object>Hámark</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.GeneralMessage" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Velja</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Hætta</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.SelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu línu</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.WSelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu atriði</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Utilities.ParamDataType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Óskilgreind</object>
+      </resource>
+      <resource name="Bool">
+        <object>Rökaðgerð</object>
+      </resource>
+      <resource name="Int">
+        <object>Heiltala</object>
+      </resource>
+      <resource name="Float">
+        <object>Rauntala</object>
+      </resource>
+      <resource name="String">
+        <object>Strengur</object>
+      </resource>
+      <resource name="Enum">
+        <object>Upptalning</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTare" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Percentage">
+        <object>%</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.IdContainerStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>Fann ekki</object>
+      </resource>
+      <resource name="NoId">
+        <object>Ekkert auðkenni</object>
+      </resource>
+      <resource name="Ok">
+        <object>Í lagi</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ógilt</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Ekki þungd</object>
+      </resource>
+      <resource name="Exception">
+        <object>Villa</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.M3000PieceStatus" ServiceOnly="false">
+      <resource name="Accepted">
+        <object>Stykki samþykkt</object>
+      </resource>
+      <resource name="TooLong">
+        <object>Stykki of langt</object>
+      </resource>
+      <resource name="BadZero">
+        <object>Slæmt núll við vigtun</object>
+      </resource>
+      <resource name="Unstable">
+        <object>Óstöðug vigt</object>
+      </resource>
+      <resource name="UnderWeight">
+        <object>Stykki of létt</object>
+      </resource>
+      <resource name="OverWeight">
+        <object>Stykki of þungt</object>
+      </resource>
+      <resource name="Previous">
+        <object>Tæki upptekið af fyrra stykki</object>
+      </resource>
+      <resource name="BadRead">
+        <object>Of fáar mælingar</object>
+      </resource>
+      <resource name="MarginalRead">
+        <object>Mælingar rétt innan sviðs</object>
+      </resource>
+      <resource name="GoodRead">
+        <object>Nægjanlegur fjöldi mælinga</object>
+      </resource>
+      <resource name="NotUsed">
+        <object>Stykki er utan allra flokka</object>
+      </resource>
+      <resource name="Blocked">
+        <object>Öll hlutaðeigandi hlið eru upptekin</object>
+      </resource>
+      <resource name="IntelligentReject">
+        <object>Hafnað vegna samvals</object>
+      </resource>
+      <resource name="FormMissing">
+        <object>Ógilt form</object>
+      </resource>
+      <resource name="TooClose">
+        <object>Stykki of nálægt fyrra stykki</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Stykki ekki vigtað</object>
+      </resource>
+      <resource name="NoGate">
+        <object>Ekkert hlið fyrir afurð</object>
+      </resource>
+      <resource name="Missing">
+        <object>Stykki týndist í vinnslu</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Engin virk pöntun</object>
+      </resource>
+      <resource name="TypeBlock">
+        <object>Ekkert pláss fyrir stykki</object>
+      </resource>
+      <resource name="RateReject">
+        <object>Stykki hafnað af flæðistýringu</object>
+      </resource>
+      <resource name="CheckTooLight">
+        <object>Of létt</object>
+      </resource>
+      <resource name="CheckTooLight2xTNE">
+        <object>Aðeins of létt</object>
+      </resource>
+      <resource name="CheckTooHeavy">
+        <object>Of þungt</object>
+      </resource>
+      <resource name="CheckTNE">
+        <object>Hafnað innan TNE</object>
+      </resource>
+      <resource name="CheckNoGate">
+        <object>Ekkert höfnunar hlið</object>
+      </resource>
+      <resource name="ExtremelyLong">
+        <object>Stykki er allt of langt</object>
+      </resource>
+      <resource name="LengthOnly">
+        <object>Stykki vigtaðist ekki</object>
+      </resource>
+      <resource name="NoResultError">
+        <object>Engin vigtargæði fengust frá CWU</object>
+      </resource>
+      <resource name="TooShort">
+        <object>Stykki of stutt</object>
+      </resource>
+      <resource name="NoBatchNoGate">
+        <object>Engin skammtur, gat ekki startað nýjum</object>
+      </resource>
+      <resource name="RateNoGate">
+        <object>Flæðihöfnun, gat ekki startað skammti</object>
+      </resource>
+      <resource name="BlockedNoGate">
+        <object>Hlið upptekið, gat ekki startað skammti</object>
+      </resource>
+      <resource name="RejectToFewGates">
+        <object>Of fá hlið fyrir afurð</object>
+      </resource>
+      <resource name="FillRateNoGate">
+        <object>Hafnað af afyllingar algrími</object>
+      </resource>
+      <resource name="NoMasterConnection">
+        <object>Engin tenging við yfirflokkara</object>
+      </resource>
+      <resource name="NoProgramActive">
+        <object>Enginn flokkunarlykill virkur</object>
+      </resource>
+      <resource name="InnovaCommunicating">
+        <object>Samskipti Innova og flokkara</object>
+      </resource>
+      <resource name="InvalidPrebatch">
+        <object>Stykki ógilt, CL</object>
+      </resource>
+      <resource name="Contaminant">
+        <object>Aðskotahlutur í stykki</object>
+      </resource>
+      <resource name="RejectTooFat">
+        <object>Stykki of feitt</object>
+      </resource>
+      <resource name="RejectTooLean">
+        <object>Stykki of magurt</object>
+      </resource>
+      <resource name="RejectTooFatAndLean">
+        <object>Stykki of feitt og magurt</object>
+      </resource>
+      <resource name="RejectGateClosed">
+        <object>Hlið lokað</object>
+      </resource>
+      <resource name="RejectTooHeavy">
+        <object>Stykki of þungt</object>
+      </resource>
+      <resource name="RejectTooThick">
+        <object>Stykki of þykkt</object>
+      </resource>
+      <resource name="TrackMissing">
+        <object>Óþekkt stykki</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmFlowrate" ServiceOnly="false">
+      <resource name="KilogramsPerSecond">
+        <object>Kilógram á sekúndu</object>
+      </resource>
+      <resource name="TonsPerHour">
+        <object>Tonn á klst.</object>
+      </resource>
+      <resource name="PoundsPerHour">
+        <object>Pund á klst.</object>
+      </resource>
+      <resource name="KilogramsPerMinute">
+        <object>Kílógram á mínútu</object>
+      </resource>
+      <resource name="KilogramsPerHour">
+        <object>Kílógram á klst.</object>
+      </resource>
+      <resource name="PoundsPerSecond">
+        <object>Pund á sekúndu</object>
+      </resource>
+      <resource name="PoundsPerMinute">
+        <object>Pund á mínútu</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>Stykki á mínútu</object>
+      </resource>
+      <resource name="PiecesPerHour">
+        <object>Stykki á klst.</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmRecordProduct" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Milligrams">
+        <object>mg</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="OunceEights">
+        <object>oz/8</object>
+      </resource>
+      <resource name="Units">
+        <object>Einingar</object>
+      </resource>
+      <resource name="Pieces">
+        <object>Stykki</object>
+      </resource>
+      <resource name="Feet">
+        <object>Fet</object>
+      </resource>
+      <resource name="Meters">
+        <object>Metrar</object>
+      </resource>
+      <resource name="Liters">
+        <object>Lítrar</object>
+      </resource>
+      <resource name="UsLiquidGallons">
+        <object>US gallon</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmVolume" ServiceOnly="false">
+      <resource name="CubicMeters">
+        <object>Rúmmetrar</object>
+      </resource>
+      <resource name="Milliliters">
+        <object>Millilítrar</object>
+      </resource>
+      <resource name="CubicFeet">
+        <object>Rúmfet</object>
+      </resource>
+      <resource name="Liters">
+        <object>Lítrar</object>
+      </resource>
+      <resource name="UsLiquidGallons">
+        <object>US gallon</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Exceptions.RemoteResult" ServiceOnly="false">
+      <resource name="NotSupported">
+        <object>Ólögleg aðgerð.</object>
+      </resource>
+      <resource name="Exception">
+        <object>Villa í samskiptum við netþjón.</object>
+      </resource>
+      <resource name="InitError">
+        <object>Villa við uppsetningu á fjartengingu til netþjóns.</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Villa í notkun á fjartengingu til netþjóns.</object>
+      </resource>
+      <resource name="NoStationManager">
+        <object>Fann ekki stjóra.</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Fann ekki netþjón.</object>
+      </resource>
+      <resource name="HostException">
+        <object>Villa í hýsil.</object>
+      </resource>
+      <resource name="Timeout">
+        <object>Rann út á tíma.</object>
+      </resource>
+      <resource name="CommandError">
+        <object>Villa í skipun.</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Resources.LocalizedBoolTypeConverter" ServiceOnly="false">
+      <resource name="True">
+        <object>Já</object>
+      </resource>
+      <resource name="False">
+        <object>Nei</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Utilities.PasswordScore" ServiceOnly="false">
+      <resource name="Blank">
+        <object>Autt</object>
+      </resource>
+      <resource name="VeryWeak">
+        <object>Mjög veikt</object>
+      </resource>
+      <resource name="Weak">
+        <object>Veikt</object>
+      </resource>
+      <resource name="Medium">
+        <object>Miðlungs</object>
+      </resource>
+      <resource name="Strong">
+        <object>Sterkt</object>
+      </resource>
+      <resource name="VeryStrong">
+        <object>Mjög sterkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeeStatus" ServiceOnly="false">
+      <resource name="NotScheduled">
+        <object>Ekkert áætlað</object>
+      </resource>
+      <resource name="Unscheduled">
+        <object>Ekki áætlað</object>
+      </resource>
+      <resource name="LineRestraint">
+        <object>Takmörkun á línu</object>
+      </resource>
+      <resource name="Idle">
+        <object>Aðgerðarleysi</object>
+      </resource>
+      <resource name="Failure">
+        <object>Bilun</object>
+      </resource>
+      <resource name="Running">
+        <object>Keyrsla</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

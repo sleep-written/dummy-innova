@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="is">
+  <industry>
+    <type name="Marel.Mp5.Deboning.Configuration.BufferType" ServiceOnly="true">
+      <resource name="PeriodicSet">
+        <object>Sett</object>
+      </resource>
+      <resource name="PeriodicSystem">
+        <object>Sett losað frá kerfi</object>
+      </resource>
+      <resource name="Operator">
+        <object>Losun frá kerfi</object>
+      </resource>
+      <resource name="AutomaticSensor">
+        <object>Losun eftir skynjara</object>
+      </resource>
+      <resource name="AutomaticWeight">
+        <object>Losun eftir þyngd</object>
+      </resource>
+      <resource name="Generic">
+        <object>Engin losun</object>
+      </resource>
+      <resource name="AutomaticTask">
+        <object>Losun eftir aðgerð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.EmployeeCapability" ServiceOnly="false">
+      <resource name="Allow">
+        <object>Leyfa afurð</object>
+      </resource>
+      <resource name="Deny">
+        <object>Banna afurð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.GateType" ServiceOnly="true">
+      <resource name="Output">
+        <object>Úttak</object>
+      </resource>
+      <resource name="SystemBatching">
+        <object>Skammtað af kerfi</object>
+      </resource>
+      <resource name="DeviceBatching">
+        <object>Skammtað af tæki</object>
+      </resource>
+      <resource name="Queue">
+        <object>Stykkjalisti</object>
+      </resource>
+      <resource name="Qc">
+        <object>Gæðaskoðun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.SeparationType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Enginn</object>
+      </resource>
+      <resource name="SlaughterHouse">
+        <object>Eftir sláturhúsum</object>
+      </resource>
+      <resource name="Category">
+        <object>Eftir flokkum</object>
+      </resource>
+      <resource name="Lot">
+        <object>Eftir lotum</object>
+      </resource>
+      <resource name="TrimLot">
+        <object>Eftir afskurðarlotum</object>
+      </resource>
+      <resource name="BaseItem">
+        <object>Eftir innskráðum stykkjum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.StationType" ServiceOnly="true">
+      <resource name="Generic">
+        <object>Almennt</object>
+      </resource>
+      <resource name="Input">
+        <object>Inntak</object>
+      </resource>
+      <resource name="CutUp">
+        <object>Skurður</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Gæðaskoðun</object>
+      </resource>
+      <resource name="Packing">
+        <object>Pökkun</object>
+      </resource>
+      <resource name="Downgrade">
+        <object>Gæðalækkun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.TaskType" ServiceOnly="false">
+      <resource name="CutUp">
+        <object>Niðurskurður</object>
+      </resource>
+      <resource name="Criteria">
+        <object>Skilyrði</object>
+      </resource>
+      <resource name="Piece">
+        <object>Lokastykki</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.NodeType" ServiceOnly="false">
+      <resource name="Pattern">
+        <object>Skurðarmynstur</object>
+      </resource>
+      <resource name="Task">
+        <object>Aðgerð</object>
+      </resource>
+      <resource name="TaskLine">
+        <object>Aðgerðarlína</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.InspectionMode" ServiceOnly="false">
+      <resource name="Random">
+        <object>Af handahófi</object>
+      </resource>
+      <resource name="Planned">
+        <object>Skipulögð</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Blönduð</object>
+      </resource>
+      <resource name="OperatorSelect">
+        <object>Valið af skoðunaraðila</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.FallbackType" ServiceOnly="false">
+      <resource name="None">
+        <object>Skipting ekki leyfileg</object>
+      </resource>
+      <resource name="Selected">
+        <object>Fyrir valdar afurðir</object>
+      </resource>
+      <resource name="Any">
+        <object>Fyrir allar afurðir</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.PlanMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ekki planað</object>
+      </resource>
+      <resource name="Rate">
+        <object>Skammtafjöldi</object>
+      </resource>
+      <resource name="EmployeeAverage">
+        <object>Meðaltal starfsmanns</object>
+      </resource>
+      <resource name="EmployeeMaximum">
+        <object>Gallaslys</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>Pantað af skoðara</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>Pantað af kerfi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.QcMethod" ServiceOnly="false">
+      <resource name="None">
+        <object>Engin</object>
+      </resource>
+      <resource name="NormalQc">
+        <object>Venjuleg</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Blönduð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.ChangeReasonLogRType" ServiceOnly="false">
+      <resource name="TaskChange">
+        <object>Skipt um aðgerð</object>
+      </resource>
+      <resource name="ProductChange">
+        <object>Skipt um afurð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.SelectionReason" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Ótilgreing</object>
+      </resource>
+      <resource name="Random">
+        <object>Af handahófi</object>
+      </resource>
+      <resource name="Rate">
+        <object>Skammtafjöldi</object>
+      </resource>
+      <resource name="EmployeeAverage">
+        <object>Meðaltal starfsmanns</object>
+      </resource>
+      <resource name="EmployeeMaximum">
+        <object>Gallaslys</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>Pantað af skoðara</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>Pantað af kerfi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.QcSelectionLogRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Færsla</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.DbItemRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Færsla</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Hent</object>
+      </resource>
+      <resource name="Missing">
+        <object>Týnd</object>
+      </resource>
+      <resource name="Calculated">
+        <object>Reiknuð</object>
+      </resource>
+      <resource name="FinalProduct">
+        <object>Loka afurð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.PieceLogRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Stykki</object>
+      </resource>
+      <resource name="NotHandled">
+        <object>Ekki höndlað</object>
+      </resource>
+      <resource name="Missing">
+        <object>Týnt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.LotStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Ekki hafin</object>
+      </resource>
+      <resource name="Active">
+        <object>Virk</object>
+      </resource>
+      <resource name="Completed">
+        <object>Búin</object>
+      </resource>
+      <resource name="Blocked">
+        <object>Blokkeruð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Controllers.ServiceResult" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Result not set</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>General database error</object>
+      </resource>
+      <resource name="LoadCachedData">
+        <object>Failed loading data from cache</object>
+      </resource>
+      <resource name="InvalidSystemId">
+        <object>Invalid system ID</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Error getting remote object</object>
+      </resource>
+      <resource name="LoadSystemInfo">
+        <object>Error loading information about system</object>
+      </resource>
+      <resource name="NoService">
+        <object>The system has no control program defined</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Error loading information about remote interface</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Remote object call failed</object>
+      </resource>
+      <resource name="LoadPattern">
+        <object>Pattern not loaded from cache</object>
+      </resource>
+      <resource name="LoadPatternNode">
+        <object>Pattern node not in pattern</object>
+      </resource>
+      <resource name="NodeType">
+        <object>Invalid type of node</object>
+      </resource>
+      <resource name="InvalidControllerId">
+        <object>Invalid controller ID</object>
+      </resource>
+      <resource name="InvalidStationId">
+        <object>Invalid station ID</object>
+      </resource>
+      <resource name="ServerNotUp">
+        <object>The server program has not been fully configured</object>
+      </resource>
+      <resource name="InvalidTaskGroupId">
+        <object>Invalid task group ID</object>
+      </resource>
+      <resource name="InterfaceType">
+        <object>The type of interface supplied by the remote service does not match the client type</object>
+      </resource>
+      <resource name="LoadBaseItem">
+        <object>Base item record could not be loaded</object>
+      </resource>
+      <resource name="LoadParentItem">
+        <object>Parent item record could not be loaded</object>
+      </resource>
+      <resource name="LoadIndividual">
+        <object>Individual record could not be loaded</object>
+      </resource>
+      <resource name="NoBid">
+        <object>No bid was made for the item</object>
+      </resource>
+      <resource name="InvalidNodeId">
+        <object>Node is not in pattern</object>
+      </resource>
+      <resource name="NoRootNode">
+        <object>Pattern does not have a root node</object>
+      </resource>
+      <resource name="LoadItem">
+        <object>Item record could not be loaded</object>
+      </resource>
+      <resource name="LoadProduct">
+        <object>Product record could not be loaded</object>
+      </resource>
+      <resource name="NoInterface">
+        <object>Server does not have an interface to the requested object</object>
+      </resource>
+      <resource name="InvalidPieceId">
+        <object>Invalid piece ID</object>
+      </resource>
+      <resource name="InvalidTaskType">
+        <object>Invalid task type</object>
+      </resource>
+      <resource name="PieceActive">
+        <object>Can't start a piece while another piece is active</object>
+      </resource>
+      <resource name="TaskFinished">
+        <object>Cannot perform this operation when the task is finished</object>
+      </resource>
+      <resource name="TaskPending">
+        <object>Cannot perform this operation when a job is pending</object>
+      </resource>
+      <resource name="EmptyTask">
+        <object>Cannot perform this operation on an empty task</object>
+      </resource>
+      <resource name="NoBuffer">
+        <object>There is no buffer to take on the product</object>
+      </resource>
+      <resource name="BufferBusy">
+        <object>The product buffer is busy</object>
+      </resource>
+      <resource name="InvalidBufferIndex">
+        <object>The specified buffer index is invalid</object>
+      </resource>
+      <resource name="NoTask">
+        <object>There is no current task</object>
+      </resource>
+      <resource name="NoItemCreated">
+        <object>The unit operation did not return an item</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Weight required for task line</object>
+      </resource>
+      <resource name="NoTaskGroup">
+        <object>Task is missing a task group</object>
+      </resource>
+      <resource name="NoController">
+        <object>Controller for task group not found</object>
+      </resource>
+      <resource name="UnitOpFailed">
+        <object>Failed executing unit operation</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>Process unit information missing</object>
+      </resource>
+      <resource name="NoUnitOperation">
+        <object>Unit operation information missing</object>
+      </resource>
+      <resource name="PieceStatus">
+        <object>Cannot start piece with status != OK</object>
+      </resource>
+      <resource name="PatternError">
+        <object>General pattern error</object>
+      </resource>
+      <resource name="NoCriteriaLine">
+        <object>No criteria line selected and no default line</object>
+      </resource>
+      <resource name="InvalidTaskLineId">
+        <object>The task line id is not in the current task</object>
+      </resource>
+      <resource name="TaskLineNotAvailable">
+        <object>The task line cannot be selected</object>
+      </resource>
+      <resource name="CriteriaTask">
+        <object>A selected criteria task cannot be started</object>
+      </resource>
+      <resource name="NoProduct">
+        <object>Product id is required</object>
+      </resource>
+      <resource name="NoStationUnitId">
+        <object>Piece has no station unit ID</object>
+      </resource>
+      <resource name="LoadProgram">
+        <object>Program not loaded from database</object>
+      </resource>
+      <resource name="UnspecifiedError">
+        <object>Unspecified error</object>
+      </resource>
+      <resource name="NoQcTable">
+        <object>No QC table installed for QC station</object>
+      </resource>
+      <resource name="NotAllowed">
+        <object>Configuration does not allow operation</object>
+      </resource>
+      <resource name="InvalidQcTableId">
+        <object>Invalid QC table ID</object>
+      </resource>
+      <resource name="InQcMode">
+        <object>Combined QC and workstation is in QC mode</object>
+      </resource>
+      <resource name="NotQcPiece">
+        <object>Piece is not a QC piece</object>
+      </resource>
+      <resource name="QcTable">
+        <object>Piece is not on an appropriate QC table</object>
+      </resource>
+      <resource name="NoPiece">
+        <object>There is no current piece</object>
+      </resource>
+      <resource name="InvalidOperation">
+        <object>Unknown operation or invalid operation for context</object>
+      </resource>
+      <resource name="Exception">
+        <object>General exception</object>
+      </resource>
+      <resource name="Timeout">
+        <object>Operation timed out</object>
+      </resource>
+      <resource name="UnitOpNotLoaded">
+        <object>Unit operation not loaded from cache</object>
+      </resource>
+      <resource name="NotInTaskGroup">
+        <object>The station is not in the indicated task group</object>
+      </resource>
+      <resource name="NoTaskGroupFound">
+        <object>Enginn vinnsluhópur fannst fyrir stykkið</object>
+      </resource>
+      <resource name="NoStation">
+        <object>Ekkert stæði fannst í vinnsluhópnum</object>
+      </resource>
+      <resource name="BufferTransfer">
+        <object>Engin stæði tiltæk</object>
+      </resource>
+      <resource name="InvalidData">
+        <object>Gögn eru ekki nýtanleg</object>
+      </resource>
+      <resource name="InvalidDeviceControllerId">
+        <object>Tækjastýring er ólögleg</object>
+      </resource>
+      <resource name="InvalidPrinter">
+        <object>Ekki gildur prentari</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Enginn biðlari fannst</object>
+      </resource>
+      <resource name="LoadTaskGroup">
+        <object>Vinnslugrúppa fannst ekki</object>
+      </resource>
+      <resource name="NotBatchingStation">
+        <object>Stæði er ekki skömmtunarstæði</object>
+      </resource>
+      <resource name="Ok">
+        <object>Ok</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.Verifications.RuleViolationType" ServiceOnly="false">
+      <resource name="NoViolation">
+        <object>Engin villa</object>
+      </resource>
+      <resource name="Information">
+        <object>Upplýsingar</object>
+      </resource>
+      <resource name="Violation">
+        <object>Villa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.CustomTaskCriteriaType" ServiceOnly="false">
+      <resource name="SystemMacro">
+        <object>Kerfisfjölvi</object>
+      </resource>
+      <resource name="PythonScript">
+        <object>Python skrifta</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

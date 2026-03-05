@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="zh-CN">
+  <industry>
+    <type name="Marel.Mp5.Trimming.Configuration.StationInfeedStatus" ServiceOnly="false">
+      <resource name="Idle">
+        <object>空转</object>
+      </resource>
+      <resource name="Working">
+        <object>工作中</object>
+      </resource>
+      <resource name="Requesting">
+        <object>请求中</object>
+      </resource>
+      <resource name="Delivering">
+        <object>发货中</object>
+      </resource>
+      <resource name="Changeover">
+        <object>转换</object>
+      </resource>
+      <resource name="Clear">
+        <object>清除</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.PlanMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="Rate">
+        <object>检验速度</object>
+      </resource>
+      <resource name="TrimmerAverage">
+        <object>员工平均值</object>
+      </resource>
+      <resource name="TrimmerMaximum">
+        <object>员工最大值</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>操作员请求</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>外部请求</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.QcMethod" ServiceOnly="false">
+      <resource name="None">
+        <object>无</object>
+      </resource>
+      <resource name="NormalQc">
+        <object>标准</object>
+      </resource>
+      <resource name="Fallback">
+        <object>后备</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Data.TrimRType" ServiceOnly="false">
+      <resource name="Input">
+        <object>输入</object>
+      </resource>
+      <resource name="Output">
+        <object>输出</object>
+      </resource>
+      <resource name="Bypass">
+        <object>旁路</object>
+      </resource>
+      <resource name="Deleted">
+        <object>已删除</object>
+      </resource>
+      <resource name="NoSource">
+        <object>无来源</object>
+      </resource>
+      <resource name="NotHandled">
+        <object>未解决</object>
+      </resource>
+      <resource name="Missing">
+        <object>缺失</object>
+      </resource>
+      <resource name="CopiedInput">
+        <object>已复制输入</object>
+      </resource>
+      <resource name="CopiedOutput">
+        <object>已复制输出</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Data.ProductCategory" ServiceOnly="false">
+      <resource name="RawMaterial">
+        <object>输入</object>
+      </resource>
+      <resource name="Primary">
+        <object>初级</object>
+      </resource>
+      <resource name="Secondary">
+        <object>次级</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>第三级</object>
+      </resource>
+      <resource name="Waste">
+        <object>垃圾</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.InspectionMode" ServiceOnly="false">
+      <resource name="Random">
+        <object>随机</object>
+      </resource>
+      <resource name="Planned">
+        <object>计划</object>
+      </resource>
+      <resource name="Fallback">
+        <object>后备</object>
+      </resource>
+      <resource name="OperatorSelect">
+        <object>操作员选择</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.FallbackType" ServiceOnly="false">
+      <resource name="None">
+        <object>无</object>
+      </resource>
+      <resource name="Selected">
+        <object>对于已选产品</object>
+      </resource>
+      <resource name="Any">
+        <object>对于任何产品</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.SystemType" ServiceOnly="true">
+      <resource name="Standard">
+        <object>标准</object>
+      </resource>
+      <resource name="Group">
+        <object>分组工位</object>
+      </resource>
+      <resource name="Manual">
+        <object>手动</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.DeviceRole" ServiceOnly="true">
+      <resource name="NotSpecified">
+        <object>未指定</object>
+      </resource>
+      <resource name="ProductInput">
+        <object>产品输入</object>
+      </resource>
+      <resource name="ProductOutput">
+        <object>产品输出</object>
+      </resource>
+      <resource name="SecondaryProductOutput">
+        <object>副产品输出</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.BufferType" ServiceOnly="true">
+      <resource name="PeriodicSet">
+        <object>周期设置</object>
+      </resource>
+      <resource name="MpsPeriod">
+        <object>MPS 周期</object>
+      </resource>
+      <resource name="MpsOperator">
+        <object>MPS 操作员</object>
+      </resource>
+      <resource name="Automatic">
+        <object>自动</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.GateType" ServiceOnly="true">
+      <resource name="Simple">
+        <object>简单</object>
+      </resource>
+      <resource name="Batching">
+        <object>分批</object>
+      </resource>
+      <resource name="Grading">
+        <object>分级</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>质量控制</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.StationType" ServiceOnly="true">
+      <resource name="Infeed">
+        <object>进料</object>
+      </resource>
+      <resource name="Trimming">
+        <object>切割</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>质量控制</object>
+      </resource>
+      <resource name="Packing">
+        <object>包装</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Line.RoleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>输入</object>
+      </resource>
+      <resource name="Output">
+        <object>输出</object>
+      </resource>
+      <resource name="CopyInput">
+        <object>复制输入</object>
+      </resource>
+      <resource name="CopyOutput">
+        <object>复制输出</object>
+      </resource>
+      <resource name="Mixed">
+        <object>已混合</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

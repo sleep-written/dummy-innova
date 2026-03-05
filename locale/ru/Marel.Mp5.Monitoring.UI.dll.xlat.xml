@@ -1,0 +1,912 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="ru">
+  <industry>
+    <type name="Grid.Alarms.AlarmEvents" ServiceOnly="false">
+      <resource name="base_alarmevents_id">
+        <object>Идентификатор</object>
+      </resource>
+      <resource name="base_alarms_name">
+        <object>Аварийный сигнал</object>
+      </resource>
+      <resource name="base_alarmevents_state">
+        <object>Состояние</object>
+      </resource>
+      <resource name="base_alarmevents_statedescription">
+        <object>Описание состояния</object>
+      </resource>
+      <resource name="base_alarmevents_stateshortdescription">
+        <object>Краткое описание состояния</object>
+      </resource>
+      <resource name="base_alarmevents_alarmon">
+        <object>Аварийный сигнал вкл</object>
+      </resource>
+      <resource name="base_alarmevents_regtime">
+        <object>Время рег</object>
+      </resource>
+      <resource name="base_alarmevents_rstat">
+        <object>Запись состояния</object>
+      </resource>
+      <resource name="base_alarmevents_alarmoccurred">
+        <object>Сработал аварийный сигнал</object>
+      </resource>
+      <resource name="base_alarmevents_stateparamvalues">
+        <object>Параметр\nзначения состояния</object>
+      </resource>
+      <resource name="base_alarms_code">
+        <object>Код аварийного сигнала</object>
+      </resource>
+      <resource name="base_alarms_ownertype">
+        <object>Тип владельца</object>
+      </resource>
+      <resource name="base_alarms_owner">
+        <object>Код владельца</object>
+      </resource>
+      <resource name="base_alarms_owner Name">
+        <object>Владелец</object>
+      </resource>
+      <resource name="base_alarmevents_prperiod">
+        <object>Период обработки</object>
+      </resource>
+      <resource name="base_alarmevents_sprperiod">
+        <object>Период подпроцесса</object>
+      </resource>
+      <resource name="base_alarmevents_usercommentid">
+        <object>Комментарий пользователя</object>
+      </resource>
+      <resource name="base_alarmevents_alarm">
+        <object>Идентификатор аварийного сигнала</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.Alarms" ServiceOnly="false">
+      <resource name="alarm">
+        <object>Идентификатор аварийного сигнала</object>
+      </resource>
+      <resource name="code">
+        <object>Код</object>
+      </resource>
+      <resource name="name">
+        <object>Название</object>
+      </resource>
+      <resource name="description">
+        <object>Описание</object>
+      </resource>
+      <resource name="priority">
+        <object>Приоритет</object>
+      </resource>
+      <resource name="ownertype">
+        <object>Тип владельца</object>
+      </resource>
+      <resource name="owner Name">
+        <object>Владелец</object>
+      </resource>
+      <resource name="state">
+        <object>Состояние</object>
+      </resource>
+      <resource name="statedescription">
+        <object>Описание состояния</object>
+      </resource>
+      <resource name="stateshortdescription">
+        <object>Краткое описание состояния</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Аварийный сигнал вкл</object>
+      </resource>
+      <resource name="lastupdate">
+        <object>Время последнего обновления</object>
+      </resource>
+      <resource name="active">
+        <object>Активный</object>
+      </resource>
+      <resource name="Groups">
+        <object>Группы</object>
+      </resource>
+      <resource name="owner">
+        <object>код владельца</object>
+      </resource>
+      <resource name="alarmlevel">
+        <object>Уровень аварийного сигнала</object>
+      </resource>
+      <resource name="alarmconfig">
+        <object>Конфигурация аварийного сигнала</object>
+      </resource>
+      <resource name="stateparamvalues">
+        <object>Параметр\nзначения состояния</object>
+      </resource>
+      <resource name="image">
+        <object>Изображение</object>
+      </resource>
+      <resource name="imagex">
+        <object>Изображение по оси координат x</object>
+      </resource>
+      <resource name="imagey">
+        <object>Изображение по оси координат y</object>
+      </resource>
+      <resource name="notificationdelay">
+        <object>Задержка\nуведомления</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.Alarms.Groups" ServiceOnly="false">
+      <resource name="alarm">
+        <object>Идентификатор аварийного сигнала</object>
+      </resource>
+      <resource name="alarmgroup">
+        <object>Код группы аварийных сигналов</object>
+      </resource>
+      <resource name="alarmgroup Name">
+        <object>Группа аварийных сигналов</object>
+      </resource>
+      <resource name="sequence">
+        <object>Последовательность</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>Идентификатор</object>
+      </resource>
+      <resource name="code">
+        <object>Код</object>
+      </resource>
+      <resource name="name">
+        <object>Название</object>
+      </resource>
+      <resource name="shname">
+        <object>Краткое</object>
+      </resource>
+      <resource name="extcode">
+        <object>Внешний код</object>
+      </resource>
+      <resource name="pattern">
+        <object>Схема</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Размер 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Размер 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Размер 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Размер 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Текст 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Текст 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Текст 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Текст 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Текст 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Текст 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Текст 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Текст 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Активный</object>
+      </resource>
+      <resource name="NotificationGroups">
+        <object>Уведомления</object>
+      </resource>
+      <resource name="GroupMembers">
+        <object>Члены группы</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups.NotificationGroups" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>Группа аварийных сигналов</object>
+      </resource>
+      <resource name="receiver">
+        <object>Код получателя</object>
+      </resource>
+      <resource name="receiver Name">
+        <object>Получатель</object>
+      </resource>
+      <resource name="receiver Name.Hint">
+        <object>Получатель зависит от типа получателя</object>
+      </resource>
+      <resource name="receivertype">
+        <object>Тип получателя</object>
+      </resource>
+      <resource name="notificationprovider Name">
+        <object>Уведомитель</object>
+      </resource>
+      <resource name="notificationprovider">
+        <object>Код уведомителя</object>
+      </resource>
+      <resource name="id">
+        <object>Идентификатор</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Уведомление об аварийном сигнале вкл</object>
+      </resource>
+      <resource name="alarmon.hint">
+        <object>Отправлять уведомление при срабатывании аварийного сигнала</object>
+      </resource>
+      <resource name="alarmoff">
+        <object>Уведомление об аварийном сигнале выкл</object>
+      </resource>
+      <resource name="alarmoff.hint">
+        <object>Отправлять уведомление при отключении аварийного сигнала</object>
+      </resource>
+      <resource name="weekdays">
+        <object>Рабочие дни</object>
+      </resource>
+      <resource name="weekdays.hint">
+        <object>Отправлять уведомление по рабочим дням</object>
+      </resource>
+      <resource name="weekends">
+        <object>Выходные</object>
+      </resource>
+      <resource name="weekends.hint">
+        <object>Отправлять уведомление по выходным</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups.GroupMembers" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>Группа аварийных сигналов</object>
+      </resource>
+      <resource name="id">
+        <object>Идентификатор</object>
+      </resource>
+      <resource name="sequence">
+        <object>Последовательность</object>
+      </resource>
+      <resource name="alarm Name">
+        <object>Аварийный сигнал</object>
+      </resource>
+      <resource name="alarm">
+        <object>Код аварийного сигнала</object>
+      </resource>
+      <resource name="alarm.lookup.name">
+        <object>Название</object>
+      </resource>
+      <resource name="alarm.lookup.code">
+        <object>Код</object>
+      </resource>
+      <resource name="alarm.lookup.owner">
+        <object>Владелец</object>
+      </resource>
+    </type>
+    <type name="Grid.Notifications.Notifications" ServiceOnly="false">
+      <resource name="mon_alarmnotifications_notificationprovider Name">
+        <object>Уведомитель</object>
+      </resource>
+      <resource name="base_alarmevents_alarmon">
+        <object>Аварийный сигнал вкл</object>
+      </resource>
+      <resource name="mon_alarmnotifications_id">
+        <object>Идентификатор уведомления</object>
+      </resource>
+      <resource name="mon_alarmnotifications_alarmevent">
+        <object>Идентификатор события аварийного сигнала</object>
+      </resource>
+      <resource name="mon_alarmnotifications_sendtime">
+        <object>Время отправки</object>
+      </resource>
+      <resource name="mon_alarmnotifications_regtime">
+        <object>Время регистрации</object>
+      </resource>
+      <resource name="mon_alarmnotifications_receivertype">
+        <object>Тип получателя</object>
+      </resource>
+      <resource name="mon_alarmnotifications_alarmnotificationgroupids">
+        <object>Группы уведомлений аварийных сигналов</object>
+      </resource>
+      <resource name="mon_alarmnotifications_info">
+        <object>Инфо</object>
+      </resource>
+      <resource name="mon_alarmnotifications_rstat">
+        <object>Состояние уведомления</object>
+      </resource>
+      <resource name="base_alarmevents_state">
+        <object>Состояние события</object>
+      </resource>
+      <resource name="base_alarmevents_statedescription">
+        <object>Описание события</object>
+      </resource>
+      <resource name="base_alarmevents_stateshortdescription">
+        <object>Краткое описание события</object>
+      </resource>
+      <resource name="base_alarmevents_regtime">
+        <object>Время регистрации события</object>
+      </resource>
+      <resource name="mon_alarmnotifications_notificationprovider">
+        <object>Код уведомителя</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.ExternalOwners" ServiceOnly="false">
+      <resource name="alarmowner">
+        <object>Идентификатор</object>
+      </resource>
+      <resource name="code">
+        <object>Код</object>
+      </resource>
+      <resource name="name">
+        <object>Название</object>
+      </resource>
+      <resource name="shname">
+        <object>Краткое</object>
+      </resource>
+      <resource name="extcode">
+        <object>Внешний код</object>
+      </resource>
+      <resource name="pattern">
+        <object>Схема</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Размер 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Размер 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Размер 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Размер 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Текст 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Текст 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Текст 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Текст 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Текст 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Текст 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Текст 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Текст 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Активный</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.ExternalEvents" ServiceOnly="false">
+      <resource name="id">
+        <object>Идентификатор</object>
+      </resource>
+      <resource name="owner">
+        <object>Код владельца</object>
+      </resource>
+      <resource name="owner Name">
+        <object>Владелец</object>
+      </resource>
+      <resource name="code">
+        <object>Код</object>
+      </resource>
+      <resource name="state">
+        <object>Состояние</object>
+      </resource>
+      <resource name="statedescription">
+        <object>Описание состояния</object>
+      </resource>
+      <resource name="stateshortdescription">
+        <object>Краткое описание состояния</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Аварийный сигнал вкл</object>
+      </resource>
+      <resource name="regtime">
+        <object>Время рег</object>
+      </resource>
+      <resource name="rstat">
+        <object>Запись состояния</object>
+      </resource>
+      <resource name="alarmoccurred">
+        <object>Сработал аварийный сигнал</object>
+      </resource>
+      <resource name="stateparamvalues">
+        <object>Параметр\nзначения состояния</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.AlarmConfigurations" ServiceOnly="false">
+      <resource name="alarmconfiguration">
+        <object>Идентификатор</object>
+      </resource>
+      <resource name="code">
+        <object>Код</object>
+      </resource>
+      <resource name="name">
+        <object>Название</object>
+      </resource>
+      <resource name="shname">
+        <object>Краткое</object>
+      </resource>
+      <resource name="extcode">
+        <object>Внешний код</object>
+      </resource>
+      <resource name="pattern">
+        <object>Схема</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Размер 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Размер 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Размер 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Размер 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Текст 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Текст 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Текст 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Текст 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Текст 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Текст 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Текст 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Текст 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Активный</object>
+      </resource>
+      <resource name="Events">
+        <object>Определения события аварийного сигнала</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.AlarmConfigurationl" ServiceOnly="false">
+      <resource name="id">
+        <object>Идентификатор</object>
+      </resource>
+      <resource name="alarmconfiguration">
+        <object>Код конфигурации аварийного сигнала</object>
+      </resource>
+      <resource name="alarmconfiguration Name">
+        <object>Конфигурация аварийного сигнала</object>
+      </resource>
+      <resource name="eventid">
+        <object>Идентификатор события</object>
+      </resource>
+      <resource name="eventcode">
+        <object>Код события</object>
+      </resource>
+      <resource name="alarmlevel">
+        <object>Уровень</object>
+      </resource>
+      <resource name="priority">
+        <object>Приоритет</object>
+      </resource>
+      <resource name="description">
+        <object>Описание</object>
+      </resource>
+      <resource name="params">
+        <object>Параметры</object>
+      </resource>
+      <resource name="linecode">
+        <object>Код линии</object>
+      </resource>
+      <resource name="linedescription">
+        <object>Описание линии</object>
+      </resource>
+      <resource name="systemcode">
+        <object>Код системы</object>
+      </resource>
+      <resource name="systemdescription">
+        <object>Описание системы</object>
+      </resource>
+      <resource name="modulecode">
+        <object>Код модуля</object>
+      </resource>
+      <resource name="moduledescription">
+        <object>Описание модуля</object>
+      </resource>
+      <resource name="unitcode">
+        <object>Код блока</object>
+      </resource>
+      <resource name="unitdescription">
+        <object>Описание блока</object>
+      </resource>
+      <resource name="devicecode">
+        <object>Код устройства</object>
+      </resource>
+      <resource name="devicedescription">
+        <object>Описание устройства</object>
+      </resource>
+      <resource name="solution">
+        <object>Решение</object>
+      </resource>
+      <resource name="solutionurl">
+        <object>Ссылка на решение</object>
+      </resource>
+      <resource name="usermanualurl">
+        <object>Ссылка на руководство по эксплуатации</object>
+      </resource>
+      <resource name="customeralarmdescription">
+        <object>Клиентское описание аварийного сигнала</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmConfigurations" ServiceOnly="false">
+      <resource name="Warning.Text">
+        <object>Существующие записи для выбранной группы будут перезаписаны.\nПродолжить?</object>
+      </resource>
+      <resource name="Warning.Caption">
+        <object>Предупреждение</object>
+      </resource>
+      <resource name="FileDlg.Files">
+        <object>Файлы</object>
+      </resource>
+      <resource name="FileDlg.AllFiles">
+        <object>Все файлы</object>
+      </resource>
+      <resource name="FileDlg.Title">
+        <object>Выберите импортируемый файл конфигурации</object>
+      </resource>
+      <resource name="FileDlg.Failed">
+        <object>Ошибка загрузки файла</object>
+      </resource>
+      <resource name="importFromFileButton">
+        <object>Импорт из файла</object>
+      </resource>
+      <resource name="importFromFileButtonHint">
+        <object>Щелкните для импорта файла CSV с аварийными сигналами</object>
+      </resource>
+      <resource name="Import.Failed">
+        <object>Ошибка импорта файла.</object>
+      </resource>
+      <resource name="importFromDeviceButton">
+        <object>Импорт из устройства</object>
+      </resource>
+      <resource name="importFromDeviceButtonHint">
+        <object>Щелкните для импорта определений аварийных сигналов из устройства</object>
+      </resource>
+      <resource name="GroupExistsErrorMessage">
+        <object>          Группа с названием {0} имеется в базе данных.\n          Если группа была удалена или деактивирована, то она будет активирована повторно.\n          При импорте будут перезаписаны существующие члены группы.\n          Продолжить?        </object>
+      </resource>
+      <resource name="Warning">
+        <object>Предупреждение</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmDescription" ServiceOnly="false">
+      <resource name="errorText.NoDescription">
+        <object>Описание недоступно</object>
+      </resource>
+      <resource name="AlarmDescription">
+        <object>Описание аварийного сигнала</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmImage" ServiceOnly="false">
+      <resource name="errorText.NoImage">
+        <object>Изображение недоступно</object>
+      </resource>
+      <resource name="AlarmImage">
+        <object>Изображение аварийного сигнала</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmList" ServiceOnly="false">
+      <resource name="colListId.Caption">
+        <object>Нет</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Название</object>
+      </resource>
+      <resource name="colAlarmLevel.Caption">
+        <object>Уровень аварийного сигнала</object>
+      </resource>
+      <resource name="AlarmList">
+        <object>Список аварийных сигналов</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmDeviceController" ServiceOnly="true">
+      <resource name="AlarmImage">
+        <object>Изображение аварийного сигнала</object>
+      </resource>
+      <resource name="AlarmImage.Hint">
+        <object>Просмотр изображения аварийных сигналов на данном устройстве</object>
+      </resource>
+      <resource name="AlarmList">
+        <object>Список аварийных сигналов</object>
+      </resource>
+      <resource name="AlarmList.Hint">
+        <object>Просмотр списка сработавших аварийных сигналов на данном устройстве</object>
+      </resource>
+      <resource name="AlarmDescription">
+        <object>Описание аварийного сигнала</object>
+      </resource>
+      <resource name="AlarmDescription.Hint">
+        <object>Просмотр описания выбранного аварийного сигнала на данном устройстве</object>
+      </resource>
+      <resource name="Group.Devices">
+        <object>Устройства</object>
+      </resource>
+      <resource name="AlarmDefaultLayout">
+        <object>Макет по умолчанию</object>
+      </resource>
+      <resource name="AlarmDefaultLayout.Hint">
+        <object>Вставка макета по умолчанию для монитора устройства аварийной сигнализации на панели инструментов</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmStatus.AlarmLamp" ServiceOnly="true">
+      <resource name="AlarmLamp.Text">
+        <object>Лампа аварийного сигнала</object>
+      </resource>
+      <resource name="Group.Alarms">
+        <object>Аварийные сигналы</object>
+      </resource>
+      <resource name="AlarmLamp.Hint">
+        <object>Этот компонент используется для контроля выбранных аварийных сигналов</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmStatus.AlarmMonitor" ServiceOnly="true">
+      <resource name="AlarmMonitor.Text">
+        <object>Монитор аварийных сигналов</object>
+      </resource>
+      <resource name="Group.Alarms">
+        <object>Аварийные сигналы</object>
+      </resource>
+      <resource name="AlarmMonitor.Hint">
+        <object>Этот компонент используется для контроля выбранных аварийных сигналов, отображается на сетке</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.AlarmStatus.AlarmMonitor" ServiceOnly="false">
+      <resource name="colCode.Caption">
+        <object>Код</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Название</object>
+      </resource>
+      <resource name="colState.Caption">
+        <object>Состояние</object>
+      </resource>
+      <resource name="colAlarm.Caption">
+        <object>Аварийный сигнал</object>
+      </resource>
+      <resource name="colTime.Caption">
+        <object>Время</object>
+      </resource>
+      <resource name="colDetails.Caption">
+        <object>Подробная информация</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmGroupEventSelection" ServiceOnly="false">
+      <resource name="grpEventsGrid.Text">
+        <object>Выбор события</object>
+      </resource>
+      <resource name="colAlarmId.Caption">
+        <object>Идентификатор</object>
+      </resource>
+      <resource name="colAlarmLevel.Caption">
+        <object>Уровень</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Линия</object>
+      </resource>
+      <resource name="colLineCode.Caption">
+        <object>Код линии</object>
+      </resource>
+      <resource name="colModule.Caption">
+        <object>Модуль</object>
+      </resource>
+      <resource name="colModuleCode.Caption">
+        <object>Код модуля</object>
+      </resource>
+      <resource name="colUnit.Caption">
+        <object>Блок</object>
+      </resource>
+      <resource name="colUnitCode.Caption">
+        <object>Код блока</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Устройство</object>
+      </resource>
+      <resource name="colDeviceCode.Caption">
+        <object>Код устройства</object>
+      </resource>
+      <resource name="colDescription.Caption">
+        <object>Описание</object>
+      </resource>
+      <resource name="colOwnerName.Caption">
+        <object>Владелец</object>
+      </resource>
+      <resource name="colConfigurationName.Caption">
+        <object>Название конфигурации</object>
+      </resource>
+      <resource name="colGroupName.Caption">
+        <object>Название группы аварийных сигналов</object>
+      </resource>
+      <resource name="colCustomerDesc.Caption">
+        <object>Клиентское описание аварийного сигнала</object>
+      </resource>
+      <resource name="colAlarmGroup.Caption">
+        <object>Идентификатор группы аварийных сигналов</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Отмена</object>
+      </resource>
+      <resource name="AlarmGroupEventSelection.Text">
+        <object>Выбор события</object>
+      </resource>
+      <resource name="colSystemDesc.Caption">
+        <object>Система</object>
+      </resource>
+      <resource name="colSystemCode.Caption">
+        <object>Код системы</object>
+      </resource>
+      <resource name="colAlarmCode.Caption">
+        <object>Код аварийного сигнала</object>
+      </resource>
+      <resource name="colAlarmName.Caption">
+        <object>Название аварийного сигнала</object>
+      </resource>
+      <resource name="btnSelectAll.Text">
+        <object>Выбрать все</object>
+      </resource>
+      <resource name="btnUnselectAll.Text">
+        <object>Снять выделение</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmGroups" ServiceOnly="false">
+      <resource name="ConfigureGroups">
+        <object>Конфигурация группы аварийных сигналов</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AddAlarmParameter" ServiceOnly="false">
+      <resource name="AddAlarmParameter.Text">
+        <object>Создать параметры аварийного сигнала</object>
+      </resource>
+      <resource name="grpHeader.Text">
+        <object>Выбор типа параметра</object>
+      </resource>
+      <resource name="grpParamTypes.Text">
+        <object>Определения описания</object>
+      </resource>
+      <resource name="lblNrOfDescr.Text">
+        <object>Количество описаний:</object>
+      </resource>
+      <resource name="btnUpdate.Text">
+        <object>Обновить</object>
+      </resource>
+      <resource name="lblIdHeader.Text">
+        <object>Идентификатор</object>
+      </resource>
+      <resource name="lblDescrHeader.Text">
+        <object>Описание</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Отмена</object>
+      </resource>
+      <resource name="Generic">
+        <object>Общая</object>
+      </resource>
+      <resource name="Temperature">
+        <object>Температура</object>
+      </resource>
+      <resource name="Velocity">
+        <object>Скорость</object>
+      </resource>
+      <resource name="Weight">
+        <object>Вес</object>
+      </resource>
+      <resource name="WeightBig">
+        <object>WeightBig</object>
+      </resource>
+      <resource name="Pressure">
+        <object>Давление</object>
+      </resource>
+      <resource name="Power">
+        <object>Питание</object>
+      </resource>
+      <resource name="PowerBig">
+        <object>PowerBig</object>
+      </resource>
+      <resource name="TimeMinutes">
+        <object>Время в минутах</object>
+      </resource>
+      <resource name="TimeHour">
+        <object>Время в часах</object>
+      </resource>
+      <resource name="Description">
+        <object>Описание</object>
+      </resource>
+      <resource name="BitmaskDescription">
+        <object>Описание битовой маски</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AddCodeDescriptionEntry" ServiceOnly="false">
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Закрыть</object>
+      </resource>
+      <resource name="lblDesc.Text">
+        <object>Описание</object>
+      </resource>
+      <resource name="lblCode.Text">
+        <object>Код</object>
+      </resource>
+      <resource name="lblEntryType.Text">
+        <object>Тип записи</object>
+      </resource>
+      <resource name="item1">
+        <object>Код и описание</object>
+      </resource>
+      <resource name="item2">
+        <object>Описание</object>
+      </resource>
+      <resource name="AddCodeDescriptionEntry.Text">
+        <object>Добавить запись</object>
+      </resource>
+      <resource name="ErrorCaption">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="DescEmpty">
+        <object>Добавляемое описание не может быть пустым</object>
+      </resource>
+      <resource name="CodeDescEmpty">
+        <object>Код и/или описание не могут быть пустыми</object>
+      </resource>
+      <resource name="DuplicateMessage">
+        <object>Значение (значения) уже существуют</object>
+      </resource>
+      <resource name="ValueNotAddedMessage">
+        <object>При добавлении значений произошла ошибка. См. подробности в журнале.</object>
+      </resource>
+      <resource name="ValuesAddedMessage">
+        <object>Значение (значения) успешно добавлены</object>
+      </resource>
+      <resource name="SuccessCaption">
+        <object>Выполнено</object>
+      </resource>
+      <resource name="DuplicateCaption">
+        <object>Дублировать</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

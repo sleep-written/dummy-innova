@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fi">
+  <industry>    
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Collectors.ScopeDataCollector" ServiceOnly="false">
+      <resource name="Err.Timeout">
+        <object>Aikakatkaisu skoopin tiedonkeruun aikana. Tietoa ei kerätty tarpeeksi.</object>
+      </resource>    
+      <resource name="Err.NoPreSampleData">
+        <object>Esinäytetietoja ei voitu kerätä käynnistysanturin puuttuvien signaalien vuoksi.</object>
+      </resource>
+      <resource name="Err.WrongDeviceMode">
+        <object>Skoopin tiedonkeruun käynnistys epäonnistui. Laite ei käy tilassa 90-93</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2DeviceHandler" ServiceOnly="false">
+      <resource name="Err.OfflineCallFailed">
+        <object>Laite ei ole online-tilassa. {0} epäonnistui</object>
+      </resource>    
+      <resource name="Err.ReadRegisterTimeout">
+        <object>Aikakatkaisu rekisteriä luettaessa</object>
+      </resource>
+      <resource name="Err.GetStatus">
+        <object>GetStatus-komennon suoritus epäonnistui</object>
+      </resource>
+      <resource name="Err.GetRegisters">
+        <object>GetRegisters-komennon suoritus epäonnistui</object>
+      </resource>
+      <resource name="Err.PutGetRegisters">
+        <object>PutGetRegisters-komennon suoritus epäonnistui</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2RawDataHandler" ServiceOnly="false">
+      <resource name="Err.NotOnline">
+        <object>MWS2-laite ei ole online-tilassa</object>
+      </resource>    
+      <resource name="Err.ScopeCollectionBusy">
+        <object>Skoopin tiedonkeruu on jo käynnissä. Odota, kunnes valmis...</object>
+      </resource>
+      <resource name="Err.StaticWeightTimeout">
+        <object>Odotetaan staattisen painon aikakatkaisua</object>
+      </resource>
+      <resource name="Err.NoDataFromDevice">
+        <object>Laitteesta ei saada tietoja</object>
+      </resource>
+      <resource name="Err.DeviceInWrongMode">
+        <object>Laite ei käy tilassa 90-93. Staattisen painon haku ei onnistu</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

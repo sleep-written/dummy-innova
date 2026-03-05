@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="is">
+  <industry>
+    <type name="Marel.Mp5.Trimming.Configuration.StationInfeedStatus" ServiceOnly="false">
+      <resource name="Idle">
+        <object>Laus</object>
+      </resource>
+      <resource name="Working">
+        <object>Í vinnslu</object>
+      </resource>
+      <resource name="Requesting">
+        <object>Pöntun umbeðin</object>
+      </resource>
+      <resource name="Delivering">
+        <object>Pöntun afgreidd</object>
+      </resource>
+      <resource name="Changeover">
+        <object>Í yfirskiptingu</object>
+      </resource>
+      <resource name="Clear">
+        <object>Tilbúin</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.PlanMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ekki planað</object>
+      </resource>
+      <resource name="Rate">
+        <object>Skammtafjöldi</object>
+      </resource>
+      <resource name="TrimmerAverage">
+        <object>Meðaltal starfsmanns</object>
+      </resource>
+      <resource name="TrimmerMaximum">
+        <object>Gallaslys</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>Pantað af skoðara</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>Pantað af kerfi</object>
+      </resource>
+      <resource name="Equilibrate">
+        <object>Jafnvægi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.QcMethod" ServiceOnly="false">
+      <resource name="None">
+        <object>Engin</object>
+      </resource>
+      <resource name="NormalQc">
+        <object>Venjuleg</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Blönduð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Data.TrimRType" ServiceOnly="false">
+      <resource name="Input">
+        <object>Innvegið</object>
+      </resource>
+      <resource name="Output">
+        <object>Útvegið</object>
+      </resource>
+      <resource name="Bypass">
+        <object>Framhjá</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Eytt</object>
+      </resource>
+      <resource name="NoSource">
+        <object>Óþekkt</object>
+      </resource>
+      <resource name="NotHandled">
+        <object>Ekki höndlað</object>
+      </resource>
+      <resource name="Missing">
+        <object>Týnt</object>
+      </resource>
+      <resource name="CopiedInput">
+        <object>Innvegið, afritað</object>
+      </resource>
+      <resource name="CopiedOutput">
+        <object>Útvegið, afritað</object>
+      </resource>
+      <resource name="Rework">
+        <object>Endurunnið</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Data.ProductCategory" ServiceOnly="false">
+      <resource name="RawMaterial">
+        <object>Inntaksefni</object>
+      </resource>
+      <resource name="Primary">
+        <object>Aðalafurð</object>
+      </resource>
+      <resource name="Secondary">
+        <object>Aukaafurð</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>Afskurður</object>
+      </resource>
+      <resource name="Waste">
+        <object>Rusl</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.InspectionMode" ServiceOnly="false">
+      <resource name="Random">
+        <object>Af handahófi</object>
+      </resource>
+      <resource name="Planned">
+        <object>Skipulögð</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Blönduð</object>
+      </resource>
+      <resource name="OperatorSelect">
+        <object>Valið af skoðunaraðila</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.FallbackType" ServiceOnly="false">
+      <resource name="None">
+        <object>Skipting ekki leyfileg</object>
+      </resource>
+      <resource name="Selected">
+        <object>Fyrir valdar afurðir</object>
+      </resource>
+      <resource name="Any">
+        <object>Fyrir allar afurðir</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.SystemType" ServiceOnly="true">
+      <resource name="Standard">
+        <object>Venjulegt</object>
+      </resource>
+      <resource name="Group">
+        <object>Hópstæði</object>
+      </resource>
+      <resource name="Manual">
+        <object>Bakkakerfi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.DeviceRole" ServiceOnly="true">
+      <resource name="NotSpecified">
+        <object>Ekki tiltekið</object>
+      </resource>
+      <resource name="ProductInput">
+        <object>Inntaksstýring</object>
+      </resource>
+      <resource name="ProductOutput">
+        <object>Úttaksstýring</object>
+      </resource>
+      <resource name="SecondaryProductOutput">
+        <object>Aukaúttakstrýring</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.BufferType" ServiceOnly="true">
+      <resource name="PeriodicSet">
+        <object>Tímastillt</object>
+      </resource>
+      <resource name="MpsPeriod">
+        <object>MPS tímastillt</object>
+      </resource>
+      <resource name="MpsOperator">
+        <object>MPS handvirkt</object>
+      </resource>
+      <resource name="Automatic">
+        <object>Sjálfvirkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.GateType" ServiceOnly="true">
+      <resource name="Simple">
+        <object>Engin skömmtun</object>
+      </resource>
+      <resource name="Batching">
+        <object>Skömmtun</object>
+      </resource>
+      <resource name="Grading">
+        <object>Flokkarahlið</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Gæðaskoðun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.StationType" ServiceOnly="true">
+      <resource name="Infeed">
+        <object>Innmötun</object>
+      </resource>
+      <resource name="Trimming">
+        <object>Snyrting</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Gæðaskoðun</object>
+      </resource>
+      <resource name="Packing">
+        <object>Pökkun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Line.RoleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>Inntak</object>
+      </resource>
+      <resource name="Output">
+        <object>Úttak</object>
+      </resource>
+      <resource name="CopyInput">
+        <object>Afrita inntak</object>
+      </resource>
+      <resource name="CopyOutput">
+        <object>Afrita úttak</object>
+      </resource>
+      <resource name="Mixed">
+        <object>Blandað</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

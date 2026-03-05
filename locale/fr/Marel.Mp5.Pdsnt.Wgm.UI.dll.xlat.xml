@@ -1,0 +1,2124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fr">
+  <industry>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.SystemSetup.WgmSystemView" ServiceOnly="false">
+      <resource name="paramTabPage.Text">
+        <object>Lignes de pesage</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Code</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Nom</object>
+      </resource>
+      <resource name="grpSystem.Text">
+        <object>Système</object>
+      </resource>
+      <resource name="sysPrgLookUp.ToolTip">
+        <object>Programme du système commandant le système</object>
+      </resource>
+      <resource name="siteLookUp.ToolTip">
+        <object>Site dont le système fait partie</object>
+      </resource>
+      <resource name="sysAppLookUp.ToolTip">
+        <object>Application traitant le système</object>
+      </resource>
+      <resource name="lblSysProgram.Text">
+        <object>Programme du système:</object>
+      </resource>
+      <resource name="lblSite.Text">
+        <object>Site:</object>
+      </resource>
+      <resource name="lblApplication.Text">
+        <object>Application:</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Erreur de sauvegarde!</object>
+      </resource>
+      <resource name="Err.CancelEdit">
+        <object>Erreur d'annulation!</object>
+      </resource>
+      <resource name="Err.NoObjectSelected">
+        <object>Aucun objet sélectionné.</object>
+      </resource>
+      <resource name="Err.NoObjectSelectedCaption">
+        <object>Informations</object>
+      </resource>
+      <resource name="Err.DeletingStationChildren">
+        <object>Impossible d'effacer un enfant du poste.</object>
+      </resource>
+      <resource name="Err.DeletingStationData">
+        <object>Impossible d'effacer le poste. Il comprend des données.</object>
+      </resource>
+      <resource name="CardData.Title">
+        <object>Caractéristiques manquent</object>
+      </resource>
+      <resource name="EqmLookup.Config">
+        <object>Config</object>
+      </resource>
+      <resource name="EqmLookup.Line">
+        <object>Ligne</object>
+      </resource>
+      <resource name="EqmLookup.DeviceName">
+        <object>Nom du dispositif</object>
+      </resource>
+      <resource name="EqmLookup.DeviceId">
+        <object>ID du dispositif</object>
+      </resource>
+      <resource name="CardData.WeigherConfig">
+        <object>avant que les lignes de pesage ne puissent être configurées</object>
+      </resource>
+      <resource name="CardData.DataSaved">
+        <object>avant que le système de pesage ne puisse être sauvegardé</object>
+      </resource>
+      <resource name="CardData.Text.Single">
+        <object>La caractéristique suivante doit être définie</object>
+      </resource>
+      <resource name="CardData.Text.Multi">
+        <object>Les caractéristiques suivantes doivent être définies</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Voulez-vous sauvegarder les données?</object>
+      </resource>
+      <resource name="Save.Title">
+        <object>Sauvegarder</object>
+      </resource>
+    </type>
+    <type name="Grid.Wgm.System" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="active">
+        <object>Actif</object>
+      </resource>
+      <resource name="name">
+        <object>Nom de la ligne</object>
+      </resource>
+      <resource name="wgmsystem">
+        <object>Système</object>
+      </resource>
+      <resource name="eqmdevice">
+        <object>Dispositif EQM</object>
+      </resource>
+      <resource name="tapdevice Name">
+        <object>Dispositif TAP</object>
+      </resource>
+      <resource name="tapdevice">
+        <object>Code du dispositif TAP</object>
+      </resource>
+      <resource name="mws2device Name">
+        <object>Dispositif MWS2</object>
+      </resource>
+      <resource name="mws2device">
+        <object>Code du dispositif MWS2</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.ManagementView" ServiceOnly="false">
+      <resource name="colLine.Caption">
+        <object>Ligne</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Nom de la ligne dont le dispositif fait partie</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Dispositif</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Affiche le nom du dispositif</object>
+      </resource>
+      <resource name="colConnection.Caption">
+        <object>Connexion</object>
+      </resource>
+      <resource name="colConnection.ToolTip">
+        <object>Affiche le statut de connexion du dispositif</object>
+      </resource>
+      <resource name="colPerformanceMon.Caption">
+        <object>Suivi de performance</object>
+      </resource>
+      <resource name="colPerformanceMon.ToolTip">
+        <object>Pourcentage de déviation de la mémoire SD actuelle de crochets vides par rapport à la mémoire SD globale de crochets vides.</object>
+      </resource>
+      <resource name="colEmptyShackle.Caption">
+        <object>Mémoire SD de crochets vides (##)</object>
+      </resource>
+      <resource name="colEmptyShackle.ToolTip">
+        <object>Déviation de poids standard de tous les crochets de la ligne</object>
+      </resource>
+      <resource name="colShackleMon.Caption">
+        <object>Suivi de l'état des crochets</object>
+      </resource>
+      <resource name="colShackleMon.ToolTip">
+        <object>Pourcentage de bons crochets de la ligne</object>
+      </resource>
+      <resource name="colActWeight.Caption">
+        <object>Poids actuel (##)</object>
+      </resource>
+      <resource name="colActWeight.ToolTip">
+        <object>Poids actuel du crochet</object>
+      </resource>
+      <resource name="colLogging.Caption">
+        <object>Se connecter</object>
+      </resource>
+      <resource name="colLogging.ToolTip">
+        <object>Affiche si se connecter est actif</object>
+      </resource>
+      <resource name="colLineRunning.Caption">
+        <object>Ligne en marche</object>
+      </resource>
+      <resource name="colLineRunning.ToolTip">
+        <object>Affiche si la ligne est en marche</object>
+      </resource>
+      <resource name="barBtnRefresh.Caption">
+        <object>rafraîchir</object>
+      </resource>
+      <resource name="barBtnPerformanceTest.Caption">
+        <object>Test de performance</object>
+      </resource>
+      <resource name="barBtnMws2Management.Caption">
+        <object>Etalonnage et Portée</object>
+      </resource>
+      <resource name="colTrackName.Caption">
+        <object>Nom de la ligne</object>
+      </resource>
+      <resource name="colTrackName.ToolTip">
+        <object>Affiche le nom de la ligne défini en Innova</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Erreur</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Afficher la dernière erreur interne de la ligne</object>
+      </resource>
+      <resource name="barBtnRefresh.Hint">
+        <object>Raffaîchir et recharger les données de grille</object>
+      </resource>
+      <resource name="barBtnMws2Management.Hint">
+        <object>Ouvre le dialogue de gestion MWS2 pour étalonnage et portée.</object>
+      </resource>
+      <resource name="barBtnPerformanceTest.Hint">
+        <object>Ouvre le dialogue de test de performance</object>
+      </resource>
+      <resource name="colTareShackleId.Caption">
+        <object>ID du crochet</object>
+      </resource>
+      <resource name="colTareShackleId.ToolTip">
+        <object>ID du crochet</object>
+      </resource>
+      <resource name="colTareNetWeight.Caption">
+        <object>Poids net (##)</object>
+      </resource>
+      <resource name="colTareNetWeight.ToolTip">
+        <object>Affiche la tare et le poids net</object>
+      </resource>
+      <resource name="colTareGrossWeight.Caption">
+        <object>Poids brut (##)</object>
+      </resource>
+      <resource name="colTareGrossWeight.ToolTip">
+        <object>Affiche la tare et le poids brut</object>
+      </resource>
+      <resource name="colTareGlobalTare.Caption">
+        <object>Tare globale (##)</object>
+      </resource>
+      <resource name="colTareGlobalTare.ToolTip">
+        <object>Affiche la tare globale</object>
+      </resource>
+      <resource name="colTareIndividualTare.Caption">
+        <object>Tare individuelle (##)</object>
+      </resource>
+      <resource name="colTareIndividualTare.ToolTip">
+        <object>Affiche la tare individuelle</object>
+      </resource>
+      <resource name="colTareRejectHistoryString.Caption">
+        <object>Historique des rejetés</object>
+      </resource>
+      <resource name="colTareRejectHistoryString.ToolTip">
+        <object>Affiche l'historique des tares rejetées</object>
+      </resource>
+      <resource name="colTareRoundsLearned.Caption">
+        <object>Nbr de tours d'enseignement</object>
+      </resource>
+      <resource name="colTareRoundsLearned.ToolTip">
+        <object>Affiche le nombre de tours d'enseignement</object>
+      </resource>
+      <resource name="colBadShackleId.Caption">
+        <object>ID du crochet</object>
+      </resource>
+      <resource name="colBadShackleId.ToolTip">
+        <object>ID du crochet</object>
+      </resource>
+      <resource name="colBadGrossWeight.Caption">
+        <object>Poids brut (##)</object>
+      </resource>
+      <resource name="colBadGrossWeight.ToolTip">
+        <object>Affiche la tare et le poids brut</object>
+      </resource>
+      <resource name="colBadNetWeight.Caption">
+        <object>Poids net (##)</object>
+      </resource>
+      <resource name="colBadNetWeight.ToolTip">
+        <object>Affiche la tare et le poids net</object>
+      </resource>
+      <resource name="colBadGlobalTare.Caption">
+        <object>Tare globale (##)</object>
+      </resource>
+      <resource name="colBadGlobalTare.ToolTip">
+        <object>Affiche la tare globale</object>
+      </resource>
+      <resource name="colBadIndividualTare.Caption">
+        <object>Tare individuelle (##)</object>
+      </resource>
+      <resource name="colBadIndividualTare.ToolTip">
+        <object>Affiche la tare individuelle</object>
+      </resource>
+      <resource name="colBadRejectionHistoryString.Caption">
+        <object>Historique des rejetés</object>
+      </resource>
+      <resource name="colBadRejectionHistoryString.ToolTip">
+        <object>Affiche l'historique des tares rejetées</object>
+      </resource>
+      <resource name="colBadRoundsLearned.Caption">
+        <object>Nbr de tours d'enseignement</object>
+      </resource>
+      <resource name="colBadRoundsLearned.ToolTip">
+        <object>Affiche le nombre de tours d'enseignement</object>
+      </resource>
+      <resource name="colLogShackleId.Caption">
+        <object>ID du crochet</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>ID du crochet</object>
+      </resource>
+      <resource name="colLogRegTime.Caption">
+        <object>Heure d'enregistrement</object>
+      </resource>
+      <resource name="colLogRegTime.ToolTip">
+        <object>Heure d'enregistrement dans la base de données</object>
+      </resource>
+      <resource name="colLogOldWeight.Caption">
+        <object>Poids précédent (##)</object>
+      </resource>
+      <resource name="colLogOldWeight.ToolTip">
+        <object>Affiche le poids précédent</object>
+      </resource>
+      <resource name="colLogWeight.Caption">
+        <object>Poids net (##)</object>
+      </resource>
+      <resource name="colLogWeight.ToolTip">
+        <object>Affiche la tare et le poids net</object>
+      </resource>
+      <resource name="colLogGrossWeight.Caption">
+        <object>Poids brut (##)</object>
+      </resource>
+      <resource name="colLogGrossWeight.ToolTip">
+        <object>Affiche la tare et le poids brut</object>
+      </resource>
+      <resource name="colLogActualTare.Caption">
+        <object>Tare globale (##)</object>
+      </resource>
+      <resource name="colLogActualTare.ToolTip">
+        <object>La tare actuelle</object>
+      </resource>
+      <resource name="colLogIndividualTare.Caption">
+        <object>Tare individuelle (##)</object>
+      </resource>
+      <resource name="colLogIndividualTare.ToolTip">
+        <object>Affiche la tare individuelle</object>
+      </resource>
+      <resource name="colLogRoundsLearned.Caption">
+        <object>Nbr de tours d'enseignement</object>
+      </resource>
+      <resource name="colLogRoundsLearned.ToolTip">
+        <object>Affiche le nombre de tours d'enseignement</object>
+      </resource>
+      <resource name="colLogWeightQuality.Caption">
+        <object>Qualité du poids</object>
+      </resource>
+      <resource name="colLogWeightQuality.ToolTip">
+        <object>Affiche la qualité du poids</object>
+      </resource>
+      <resource name="colDeveloperInfo.Caption">
+        <object>Infos de développeur</object>
+      </resource>
+      <resource name="colDeveloperInfo.ToolTip">
+        <object>Informations pour l'analyse par le développeur</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Opérations</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Recharger l'objet d'interface graphique</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Réparer l'arrangement par défaut</object>
+      </resource>
+      <resource name="barBtnDesignMode.Caption">
+        <object>Mode design</object>
+      </resource>
+      <resource name="barBtnRefreshTareGrid.Caption">
+        <object>rafraîchir</object>
+      </resource>
+      <resource name="barBtnRefreshTareGrid.Hint">
+        <object>Retrouver les données de tarage</object>
+      </resource>
+      <resource name="barBtnRefreshShackleGrid.Caption">
+        <object>rafraîchir</object>
+      </resource>
+      <resource name="barBtnRefreshShackleGrid.Hint">
+        <object>Retrouver les données de mauvais crochets</object>
+      </resource>
+      <resource name="barBtnResetShackle.Caption">
+        <object>Réenseignement sélectionné</object>
+      </resource>
+      <resource name="barBtnResetShackle.Hint">
+        <object>Réenseigner les crochets sélectionnes</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.Caption">
+        <object>Réenseigner la ligne entière</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.Hint">
+        <object>Réenseigner la ligne entière</object>
+      </resource>
+      <resource name="cbLoggingHistory.Caption">
+        <object>Historique de journal:</object>
+      </resource>
+      <resource name="loggingHistoryLookup.NullText">
+        <object>&lt;Sélectionnez l'exploitation forestière&gt;</object>
+      </resource>
+      <resource name="barBtnDeleteLogging.Caption">
+        <object>Effacer</object>
+      </resource>
+      <resource name="barBtnDeleteLogging.Hint">
+        <object>Effacer le loguage sélectionné</object>
+      </resource>
+      <resource name="edLoggingMinWeight.Caption">
+        <object>Poids net min (##):</object>
+      </resource>
+      <resource name="edLoggingMinWeight.Hint">
+        <object>Poids minimal à loguer:</object>
+      </resource>
+      <resource name="edLoggingMaxWeight.Caption">
+        <object>Poids net max (##):</object>
+      </resource>
+      <resource name="edLoggingMaxWeight.Hint">
+        <object>Poids maximal à loguer:</object>
+      </resource>
+      <resource name="edLoggingRatio.Caption">
+        <object>Ratio de journal</object>
+      </resource>
+      <resource name="edLoggingRatio.Hint">
+        <object>Journal de chaque Nième crochet au lieu de chaque crochet (1 = tous les crochets)</object>
+      </resource>
+      <resource name="edLoggingName.Caption">
+        <object>Nom du journal</object>
+      </resource>
+      <resource name="LogButton.Stop">
+        <object>Arrêt</object>
+      </resource>
+      <resource name="LogButton.Start">
+        <object>Marche</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Nom</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Aucune connexion à distance au serveur</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Erreur de connexion</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>Aucune connexion à distance au poste</object>
+      </resource>
+      <resource name="ResetShackels.Failed">
+        <object>Réamorçage des crochets échoué</object>
+      </resource>
+      <resource name="ResetAllShackels.Failed">
+        <object>Réamorçage de tous les crochets échoué</object>
+      </resource>
+      <resource name="Logging.IllegalRange">
+        <object>Plage de poids invalide spécifiée</object>
+      </resource>
+      <resource name="Logging.IllegalRangeCaption">
+        <object>Erreur</object>
+      </resource>
+      <resource name="Logging.Failed">
+        <object>Opération journal échouée.</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Voulez-vous effacer l'entrée de journal:\n'{0}'\nde la base de données?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Effacer le journal</object>
+      </resource>
+      <resource name="edLoggingName.Hint">
+        <object>Saisir le nom du journal. Sinon, le nom sera créé automatiquement.</object>
+      </resource>
+      <resource name="tabTare.Text">
+        <object>Crochets vides</object>
+      </resource>
+      <resource name="tabBadShackles.Text">
+        <object>Mauvais crochets</object>
+      </resource>
+      <resource name="tabLogging.Text">
+        <object>Pesage dynamique</object>
+      </resource>
+      <resource name="staticWeight.Caption">
+        <object>Poids statique (##)</object>
+      </resource>
+      <resource name="staticWeight.ToolTip">
+        <object>Poids statique du crochet</object>
+      </resource>
+      <resource name="tabStaticWeight.Text">
+        <object>Pesage statique</object>
+      </resource>
+      <resource name="cbLoggingHistory.Hint">
+        <object>Liste des journaux pour la sélection</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Sauvegarder</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Sauvegarder le journal sélection à un fichier</object>
+      </resource>
+      <resource name="barBtnStartStopLogging.Caption">
+        <object>Marche</object>
+      </resource>
+      <resource name="barBtnStartStopLogging.Hint">
+        <object>Cliquer pour démarrer le journal</object>
+      </resource>
+      <resource name="barSubOperations.Hint">
+        <object>Opérations du système</object>
+      </resource>
+      <resource name="barBtnSaveTareGrid.Caption">
+        <object>Sauvegarder</object>
+      </resource>
+      <resource name="barBtnSaveTareGrid.Hint">
+        <object>Sauvegarder le contenu de la table de tarage au fichier</object>
+      </resource>
+      <resource name="barBtnSaveBadShackleGrid.Caption">
+        <object>Sauvegarder</object>
+      </resource>
+      <resource name="barBtnSaveBadShackleGrid.Hint">
+        <object>Sauvegarder le contenu de la table de mauvais crochets au fichier</object>
+      </resource>
+      <resource name="ResetShackle.Confirm">
+        <object>La tare individuelle des crochets sélectionnés sera réenseignée.\nVoulez-vous continuer?</object>
+      </resource>
+      <resource name="ResetShackle.Title">
+        <object>Réenseigner les crochets sélectionnes</object>
+      </resource>
+      <resource name="ResetBadShackles.Confirm">
+        <object>La tare individuelle de tous les mauvais crochets sera réenseignée.\nVoulez-vous continuer?</object>
+      </resource>
+      <resource name="ResetBadShackles.Title">
+        <object>Réenseigner tous les mauvais crochets</object>
+      </resource>
+      <resource name="ResetAllShackle.Confirm">
+        <object>Les tares individuelle et globale de tous les crochets de la ligne seront réenseignées.\nVoulez-vous continuer?</object>
+      </resource>
+      <resource name="ResetAllShackle.Title">
+        <object>Réenseigner tous les crochets</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Recharge tous les objets d'IU</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Réparer l'arrangement par défaut des objets d'IU</object>
+      </resource>
+      <resource name="barBtnDesignMode.Hint">
+        <object>Rend les grilles designables</object>
+      </resource>
+      <resource name="WgmStationNotPresent">
+        <object>Poste wgm manque à l'application de serveur. La licence a bien été installée?</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Settings.TapSettings" ServiceOnly="false">
+      <resource name="colStatus.Caption">
+        <object>Statut</object>
+      </resource>
+      <resource name="colStatus.ToolTip">
+        <object>Affiche le statut des réglages</object>
+      </resource>
+      <resource name="colTrack.Caption">
+        <object>Nom de la ligne</object>
+      </resource>
+      <resource name="colTrack.ToolTip">
+        <object>Nom de la ligne de pesage traitant ce dispositif</object>
+      </resource>
+      <resource name="colDownloadDate.Caption">
+        <object>Envoyé à</object>
+      </resource>
+      <resource name="colDownloadDate.ToolTip">
+        <object>Date et heure d'envoi des réglages au dispositif</object>
+      </resource>
+      <resource name="colTareBackup.Caption">
+        <object>Sauvegarde des données de tarage:</object>
+      </resource>
+      <resource name="colTareBackup.ToolTip">
+        <object>Date et heure de la sauvegarde des données de tarage du dispositif</object>
+      </resource>
+      <resource name="tabSource.Text">
+        <object>Source</object>
+      </resource>
+      <resource name="tabDetection.Text">
+        <object>Détection de produits</object>
+      </resource>
+      <resource name="tabHandling.Text">
+        <object>Traitement de produits</object>
+      </resource>
+      <resource name="tabAlarms.Text">
+        <object>Alarmes</object>
+      </resource>
+      <resource name="tabTare.Text">
+        <object>Tarage</object>
+      </resource>
+      <resource name="tabLogging.Text">
+        <object>Journal</object>
+      </resource>
+      <resource name="grpWeighingSource.Text">
+        <object>Source de pesage</object>
+      </resource>
+      <resource name="grpCommunication.Text">
+        <object>Communication MWS2</object>
+      </resource>
+      <resource name="weighingSource.PrevWeight">
+        <object>Poids précédent</object>
+      </resource>
+      <resource name="weighingSource.LoadCell">
+        <object>Capteur de force</object>
+      </resource>
+      <resource name="chkWholeProdWeigher.Text">
+        <object>Peseur de produits entiers</object>
+      </resource>
+      <resource name="lblIpAddress.Text">
+        <object>Adresse IP</object>
+      </resource>
+      <resource name="lblPortNo.Text">
+        <object>Port No.</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Dispositif</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Affiche le nom du dispositif auquel les réglages sont destinés</object>
+      </resource>
+      <resource name="grpClearProduct.Text">
+        <object>Effacer le produit</object>
+      </resource>
+      <resource name="grpAddProduct.Text">
+        <object>Ajouter le produit</object>
+      </resource>
+      <resource name="lblClearProdNoOfShackles.Text">
+        <object>Nombre de crochets dès l'alarme det/pp</object>
+      </resource>
+      <resource name="chkClearProdAllow.Text">
+        <object>Permettre l'effacement de produit</object>
+      </resource>
+      <resource name="chkClearProdDisable.Text">
+        <object>Rendre impossible l'effacement de produit dès l'alarme</object>
+      </resource>
+      <resource name="lblAddProdNoOfShackles.Text">
+        <object>Nombre de crochets dès l'alarme det/pp</object>
+      </resource>
+      <resource name="chkAddProdAllow.Text">
+        <object>Permettre l'attribution de produit</object>
+      </resource>
+      <resource name="chkAddProdDisable.Text">
+        <object>Rendre impossible l'attribution de produit dès l'alarme</object>
+      </resource>
+      <resource name="lblAddProdWeight.Text">
+        <object>Poids</object>
+      </resource>
+      <resource name="lblAddProdQuality.Text">
+        <object>Qualité</object>
+      </resource>
+      <resource name="lblAddProdArticle.Text">
+        <object>Code d'article</object>
+      </resource>
+      <resource name="grpWeightParam.Text">
+        <object>Paramètres du poids</object>
+      </resource>
+      <resource name="grpTreatment.Text">
+        <object>Traitement</object>
+      </resource>
+      <resource name="grpGiblet.Text">
+        <object>Abats</object>
+      </resource>
+      <resource name="lblPHMinProductWeight.Text">
+        <object>Poids minimal du produit</object>
+      </resource>
+      <resource name="lblPHOffset.Text">
+        <object>Compensation</object>
+      </resource>
+      <resource name="lblPHCorrFactor.Text">
+        <object>Coefficient correcteur</object>
+      </resource>
+      <resource name="chkPHDisplace.Text">
+        <object>Déplacer le produit</object>
+      </resource>
+      <resource name="lblPHDisplaceShackles.Text">
+        <object>Déplacer les crochets</object>
+      </resource>
+      <resource name="chkUseGiblet.Text">
+        <object>Utiliser les abats</object>
+      </resource>
+      <resource name="lblGibletWeight.Text">
+        <object>Poids des abats</object>
+      </resource>
+      <resource name="lblAddGiblet.Text">
+        <object>Ajouter au code d'article pour les abats</object>
+      </resource>
+      <resource name="treatment.Left">
+        <object>Gauche</object>
+      </resource>
+      <resource name="treatment.Right">
+        <object>Droit</object>
+      </resource>
+      <resource name="treatment.Whole">
+        <object>Entier</object>
+      </resource>
+      <resource name="grpEfficency.Text">
+        <object>Efficience</object>
+      </resource>
+      <resource name="grpGeneral.Text">
+        <object>Généralités</object>
+      </resource>
+      <resource name="chkUseOvershootAlarms.Text">
+        <object>Utiliser l'alarme de dépassement</object>
+      </resource>
+      <resource name="lblOvershotLimit.Text">
+        <object>Pourcentage limite de dépassement</object>
+      </resource>
+      <resource name="lblNoOvershootsAllowed.Text">
+        <object>Nombre de dépasements admis pour l'historique avant l'alarme</object>
+      </resource>
+      <resource name="chkUseBarOutsideAlarm.Text">
+        <object>Utiliser des barres au-delà de la plage d'alarme</object>
+      </resource>
+      <resource name="lblNoBarsForHistory.Text">
+        <object>Nombre de barres utilisées pour l'historique</object>
+      </resource>
+      <resource name="lblNoBarsOutsideRange.Text">
+        <object>Nombre de barres au-delà de la plage admises avant l'alarme</object>
+      </resource>
+      <resource name="chkUseProdEfficiency.Text">
+        <object>Utiliser l'alarme d'efficience de produit dépassant la plage</object>
+      </resource>
+      <resource name="lblProdEffOutsideLimit.Text">
+        <object>Efficience de produit dépassant les limites de la plage</object>
+      </resource>
+      <resource name="lblProdEffOutsideLimitHysteresis.Text">
+        <object>Hystérésis d'efficience de produit dépassant les limites de la plage</object>
+      </resource>
+      <resource name="lblProdEffYellow.Text">
+        <object>Fourchette de la barre jaune d'efficience de produit</object>
+      </resource>
+      <resource name="chkSuppressAlarm.Text">
+        <object>Ne pas faie l'alarme quand la vitesse de la ligne est instable</object>
+      </resource>
+      <resource name="grpTare.Text">
+        <object>Tare générale</object>
+      </resource>
+      <resource name="grpIndividualTare.Text">
+        <object>Tare individuelle</object>
+      </resource>
+      <resource name="grpTareBackup.Text">
+        <object>Sauvegarde des données de tarage:</object>
+      </resource>
+      <resource name="grpGlobalTare.Text">
+        <object>Tare globale</object>
+      </resource>
+      <resource name="lblTareRejection.Text">
+        <object>Limite de rejet de tare</object>
+      </resource>
+      <resource name="lblEmptyShackleSD.Text">
+        <object>Mémoire SD de crochets vides max</object>
+      </resource>
+      <resource name="lblEmptyShackleWeight.Text">
+        <object>Poids estimé du crochet vide</object>
+      </resource>
+      <resource name="lblMinLineSpeed.Text">
+        <object>Vitesse minimale de la ligne</object>
+      </resource>
+      <resource name="chkIndTareCorr.Text">
+        <object>Permettre la correction de la tare individuelle</object>
+      </resource>
+      <resource name="lblIndTareRoundsNeeded.Text">
+        <object>Minimum de tours vides pour l'enseignement initial</object>
+      </resource>
+      <resource name="lblIndTareKFactor.Text">
+        <object>Déplacement du coefficient moyen d'amortissement</object>
+      </resource>
+      <resource name="lblIndTareRoundsRejected.Text">
+        <object>Nombre de tours rejeté</object>
+      </resource>
+      <resource name="chkEnableTareBackup.Text">
+        <object>Permettre la sauvegarde des tares individuelles</object>
+      </resource>
+      <resource name="lblTareBackupInterval.Text">
+        <object>Intervalle de sauvegarde</object>
+      </resource>
+      <resource name="uTareBackupInterval.Text">
+        <object>min</object>
+      </resource>
+      <resource name="chkGlobalTareCorr.Text">
+        <object>Permettre la correction de la tare globale</object>
+      </resource>
+      <resource name="lblGlobalTareShacklesNeeded.Text">
+        <object>Nombre de crochets pour le déplacement de la moyenne</object>
+      </resource>
+      <resource name="lblGlobalTareActualPlus.Text">
+        <object>Seuil d'alarme pour la tare réelle</object>
+      </resource>
+      <resource name="lblAlarmThresholdShacklesInRound.Text">
+        <object>Crochets rejetés par tour</object>
+      </resource>
+      <resource name="lblAlarmThresholdIndShackle.Text">
+        <object>Rejet par crochet</object>
+      </resource>
+      <resource name="grpLogSettings.Text">
+        <object>Réglage du journal</object>
+      </resource>
+      <resource name="chkOutputWeightData.Text">
+        <object>Données de la sortie de poids</object>
+      </resource>
+      <resource name="barBtnRefresh.Caption">
+        <object>rafraîchir</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Valider</object>
+      </resource>
+      <resource name="barSubOpertions.Caption">
+        <object>Opérations</object>
+      </resource>
+      <resource name="barBtnSend.Caption">
+        <object>Envoyer</object>
+      </resource>
+      <resource name="barBtnTareBackup.Caption">
+        <object>Sauvegarder les données de tarage</object>
+      </resource>
+      <resource name="barBtnTareRestore.Caption">
+        <object>Réparer les données de tarage</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Recharger l'objet d'interface graphique</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Réparer l'arrangement par défaut</object>
+      </resource>
+      <resource name="Hint.NotInDevice">
+        <object>Réglage pas au TAP</object>
+      </resource>
+      <resource name="Hint.InDevice">
+        <object>Réglage au TAP</object>
+      </resource>
+      <resource name="Hint.Different">
+        <object>Réglage entre TAP et Innova différent</object>
+      </resource>
+      <resource name="Hint.NoInfo">
+        <object>Impossible d'avoir des infos</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Voulez-vous sauvegarder les données?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Sauvegarder les données</object>
+      </resource>
+      <resource name="Send.Confirm">
+        <object>Voulez-vous envoyer le réglage au dispositif sélectionné maintenant?</object>
+      </resource>
+      <resource name="Send.Title">
+        <object>Transmettre le réglage</object>
+      </resource>
+      <resource name="Send.Failed">
+        <object>Envoi du réglage échoué</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>Aucune connexion à distance au serveur</object>
+      </resource>
+      <resource name="SendError.Caption">
+        <object>Erreur d'envoi</object>
+      </resource>
+      <resource name="TareBackup.Failed">
+        <object>Envoi de la demande de sauvegarde de la table de tarage échoué</object>
+      </resource>
+      <resource name="TareRestore.Failed">
+        <object>Envoi de la demande de réparation de la table de tarage échoué</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Erreur</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Afficher le dernier message d'erreur</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Aucune connexion à distance au serveur</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Erreur de connexion</object>
+      </resource>
+      <resource name="TareAutoBackup.Failed">
+        <object>Mise à jour de la table du réglage de sauvegarde échouée.</object>
+      </resource>
+      <resource name="TareBackup.Busy">
+        <object>Sauvegarde en cours</object>
+      </resource>
+      <resource name="TareRestore.Busy">
+        <object>Réparation en cours</object>
+      </resource>
+      <resource name="colTareRestore.Caption">
+        <object>Données de tarage réparées le</object>
+      </resource>
+      <resource name="colTareRestore.ToolTip">
+        <object>Date et heure de réparation des données de tarage</object>
+      </resource>
+      <resource name="uAddProdWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uPHMinProductWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uPHOffset.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uGibletWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uTareRejection.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uEmptyShackleWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uMinLineSpeed.Text">
+        <object>nr/h</object>
+      </resource>
+      <resource name="uGlobalTareActualPlus.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uAlarmThresholdShacklesInRound.Text">
+        <object>%</object>
+      </resource>
+      <resource name="uAlarmThresholdIndShackle.Text">
+        <object>%</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Ligne</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Affiche la ligne définie en TOP</object>
+      </resource>
+      <resource name="uEmptyShackleSD.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uLoadCellWeightUnit.Text">
+        <object>kg</object>
+      </resource>
+      <resource name="barBtnTareLoad.Caption">
+        <object>Charger les données de tarage</object>
+      </resource>
+      <resource name="barBtnTareLoad.Hint">
+        <object>Charger les données de tarage du fichier à réparer pour le dispositif</object>
+      </resource>
+      <resource name="barBtnTareSave.Caption">
+        <object>Sauvegarder les données de tarage</object>
+      </resource>
+      <resource name="barBtnTareSave.Hint">
+        <object>Sauvegarder la sauvegarde des données de tarage dans un fichier</object>
+      </resource>
+      <resource name="TareSave.Error">
+        <object>Données de sauvegaarde pour la table de tarage introuvables dans la base de données.</object>
+      </resource>
+      <resource name="TareSave.ErrorTitle">
+        <object>Erreur de sauvegarde des données de tarage</object>
+      </resource>
+      <resource name="TareSave.Dialog.Title">
+        <object>Mémoriser sous</object>
+      </resource>
+      <resource name="TareSave.Dialog.Failed">
+        <object>Mémorisation des données de tarage échouée.</object>
+      </resource>
+      <resource name="TareLoad.Dialog.Title">
+        <object>Sélectionner le fichier …</object>
+      </resource>
+      <resource name="TareLoad.Dialog.Failed">
+        <object>Chargement des données de tarage échoué.</object>
+      </resource>
+      <resource name="TareLoad.Confirm">
+        <object>Voulez-vous charger des données de tarage d'un fichier pour les réparer à un dispositif?</object>
+      </resource>
+      <resource name="TareLoad.ConfirmTitle">
+        <object>Réparation des données de tarage d'un fichier en cours.</object>
+      </resource>
+      <resource name="TareLoad.Result.Text">
+        <object>Vous assurer que vous avez sélectionné le fichier correct s.v.p.</object>
+      </resource>
+      <resource name="TareLoad.Result.Caption">
+        <object>Lecture des données échouée.</object>
+      </resource>
+      <resource name="TareLoad.Restore.Failed">
+        <object>Réparation des données de tarage d'un fichier échouée.</object>
+      </resource>
+      <resource name="barBtnTareBackup.Hint">
+        <object>Sauvegarde des données de tarage de TAP à la base de données.</object>
+      </resource>
+      <resource name="barBtnTareRestore.Hint">
+        <object>Remise de la sauvegarde des données de tarage de la base de données à TAP</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Recharge tous les objets d'IU</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Remet les arrangement par défaut des objets d'IU</object>
+      </resource>
+      <resource name="lblIndTareShacklesAllowed.Text">
+        <object>Charge maximale de la ligne pour l'enseignement</object>
+      </resource>
+      <resource name="edIndTareShacklesAllowed.ToolTip">
+        <object>Définit à quel niveau de crochets remplis le peseur peut démarrer le processus d'enseignement pour la tare individuelle.</object>
+      </resource>
+      <resource name="lblBadShackleListThreshold.Text">
+        <object>Seuil de rejet pour la table de mauvais crochets.</object>
+      </resource>
+      <resource name="edAlarmThresholdShacklesInRound.ToolTip">
+        <object>L'alarme est donnée quand le pourcentage de crochets rejetés dans un tour est supérieur à cette valeur.</object>
+      </resource>
+      <resource name="edAlarmThresholdIndShackle.ToolTip">
+        <object>L'alarme est donnée quand le pourcentage de crochets individuels rejetés dans un tour est supérieur à cette valeur.</object>
+      </resource>
+      <resource name="edBadShackleListThreshold.ToolTip">
+        <object>Un crochet est ajouté à la liste des mauvais crochets quand le pourcentage de crochets individuels rejetés est supérieur à cette valeur.</object>
+      </resource>
+      <resource name="edBadShackleResetThreshold.ToolTip">
+        <object>La tare individuelle d'un crochet est réamorcée quand le pourcentage de crochets individuels rejetés est supérieur à cette valeur.</object>
+      </resource>
+      <resource name="edTareBackupInterval.ToolTip">
+        <object>L'intervalle de rappel de données de tare individuelle de TAP et de sauvegarde dans la base de données.</object>
+      </resource>
+      <resource name="edIndTareRoundsNeeded.ToolTip">
+        <object>Le nombre de tours nécessaires à l'enseignement de la tare individuelle.</object>
+      </resource>
+      <resource name="edIndTareKFactor.ToolTip">
+        <object>Chaque nouveau crochet vide est modéré par ce coefficient avant d'être utilise au filtre récursif pour le calcul de la tare individuelle.</object>
+      </resource>
+      <resource name="edGlobalTareActualPlus.ToolTip">
+        <object>L'alarme est donnée quand la tare globale passe ce seuil en haut ou en bas.</object>
+      </resource>
+      <resource name="edEmptyShackleWeight.ToolTip">
+        <object>Estimation du poids du crochet vide servant au calcul de la tare. La tare individuelle plus cette valeur déterminent le poids réel du crochet.</object>
+      </resource>
+      <resource name="edMinLineSpeed.ToolTip">
+        <object>La vitesse minimale de la ligne pour l'enseignement de la tare.</object>
+      </resource>
+      <resource name="edEmptyShackleSD.ToolTip">
+        <object>La déviation standard maximale de crochet vide servant au suivi de performance.</object>
+      </resource>
+      <resource name="edTareRejection.ToolTip">
+        <object>Quand la valeur de cette déviation est supérieure à la tare réelle, ce crochet est rejeté pour le calcul des tares individuele et globale.</object>
+      </resource>
+      <resource name="edIpAddress.ToolTip">
+        <object>L'adresse IP du dispositif MWS2 pour TAP pour faire la connexion.</object>
+      </resource>
+      <resource name="edPortNo.ToolTip">
+        <object>Le numéro de port du dispositif MWS2 pour TAP pour faire la connexion.</object>
+      </resource>
+      <resource name="edGlobalTareShacklesNeeded.ToolTip">
+        <object>Le nombre de crochets utilisés pour le calcul de la tare globale moyenne changeante.</object>
+      </resource>
+      <resource name="uBadShackleListThreshold.Text">
+        <object>%</object>
+      </resource>
+      <resource name="Send.Failed.Caption">
+        <object>Envoi du réglage échoué</object>
+      </resource>
+      <resource name="Send.Failed.Text">
+        <object>Veuillez voir le journal du système pour plus d'infos.</object>
+      </resource>
+      <resource name="Send.SaveConfirm">
+        <object>Voulez-vous mémoriser les données et\nenvoyer le réglage pour le dispositif sélectionné?</object>
+      </resource>
+      <resource name="barBtnResetBadShackles.ToolTip">
+        <object>Réenseigne tous les mauvais crochets du système.</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.ToolTip">
+        <object>Réenseigne la ligne entière, soit les bons et mauvais crochets.</object>
+      </resource>
+      <resource name="edClearProdPerc.ToolTip">
+        <object>Le pourcentage de crochets devant donner l'alarme.</object>
+      </resource>
+      <resource name="chkClearProdAllow.ToolTip">
+        <object>Si autorisé, l'enlèvement de produits est permis.</object>
+      </resource>
+      <resource name="chkClearProdDisable.ToolTip">
+        <object>Si autorisé, aucun produit ne sera enlevé quand une alarme a été donnée.</object>
+      </resource>
+      <resource name="edAddProdPerc.ToolTip">
+        <object>Le pourcentage de crochets devant donner l'alarme.</object>
+      </resource>
+      <resource name="chkAddProdAllow.ToolTip">
+        <object>Si autorisé, l'attribution de produits est permis.</object>
+      </resource>
+      <resource name="chkAddProdDisable.ToolTip">
+        <object>Si autorisé, aucun produit ne sera attribué quand une alarme a été donnée.</object>
+      </resource>
+      <resource name="edAddProdWeight.ToolTip">
+        <object>Le poids du produit à ajouter.</object>
+      </resource>
+      <resource name="edAddProdQuality.ToolTip">
+        <object>La qualité du produit à ajouter.</object>
+      </resource>
+      <resource name="edAddProdArticle.ToolTip">
+        <object>Le code d'article du produit à ajouter.</object>
+      </resource>
+      <resource name="edPHMinProductWeight.ToolTip">
+        <object>Le poids minimal du produit à enregistrer.</object>
+      </resource>
+      <resource name="edPHOffset.ToolTip">
+        <object>La déviation utilisée pour l'enregistrement des poids.</object>
+      </resource>
+      <resource name="edPHCorrFactor.ToolTip">
+        <object>Le pourcentage à utiliser pour le coefficient correctif.</object>
+      </resource>
+      <resource name="chkPHDisplace.ToolTip">
+        <object>Si autorisé, un certain nombre de crochets sont déplacés.</object>
+      </resource>
+      <resource name="edPHDisplaceShackles.ToolTip">
+        <object>Le nombre de crochets à déplacer.</object>
+      </resource>
+      <resource name="selTreatments.ToolTip">
+        <object>Définit le type de peseur: cuisse droite, gauche ou produit entier.</object>
+      </resource>
+      <resource name="chkUseGiblet.ToolTip">
+        <object>Définit si les abats doivent être utilisés pour le pesage.</object>
+      </resource>
+      <resource name="edGibletWeight.ToolTip">
+        <object>Le poids des abats à utiliser.</object>
+      </resource>
+      <resource name="chkAutoRelearn.Text">
+        <object>Autorise le réenseignement automatique.</object>
+      </resource>
+      <resource name="lblBadShackleResetThreshold.Text">
+        <object>Seuil de rejet par crochet.</object>
+      </resource>
+      <resource name="TareBackup">
+        <object>Voulez-vous vraiment sauvegarder la table des tares existante au système TAP?</object>
+      </resource>
+      <resource name="TareRestore">
+        <object>Voulez-vous vraiment remettre la table des tares sauvegardée au système TAP?</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.TapPerformanceTest" ServiceOnly="false">
+      <resource name="colLogShackleId.Caption">
+        <object>Crochet</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>ID du crochet</object>
+      </resource>
+      <resource name="colLogRegTime.Caption">
+        <object>Heure d'enregistrement</object>
+      </resource>
+      <resource name="colLogRegTime.ToolTip">
+        <object>Heure de sauvegarde dans la base de données</object>
+      </resource>
+      <resource name="colLogOldWeight.Caption">
+        <object>Poids précédent (##)</object>
+      </resource>
+      <resource name="colLogOldWeight.ToolTip">
+        <object>Affiche le poids précédent</object>
+      </resource>
+      <resource name="colLogWeight.Caption">
+        <object>Poids net (##)</object>
+      </resource>
+      <resource name="colLogWeight.ToolTip">
+        <object>Affiche le poids net.</object>
+      </resource>
+      <resource name="colLogGrossWeight.Caption">
+        <object>Poids brut (##)</object>
+      </resource>
+      <resource name="colLogGrossWeight.ToolTip">
+        <object>Affiche le poids brut</object>
+      </resource>
+      <resource name="colLogActualTare.Caption">
+        <object>Tare réelle (##)</object>
+      </resource>
+      <resource name="colLogActualTare.ToolTip">
+        <object>La tare réelle</object>
+      </resource>
+      <resource name="colLogIndividualTare.Caption">
+        <object>Tare individuelle (##)</object>
+      </resource>
+      <resource name="colLogIndividualTare.ToolTip">
+        <object>Affiche la tare individuelle</object>
+      </resource>
+      <resource name="colLogRoundsLearned.Caption">
+        <object>Nbr de tours d'enseignement</object>
+      </resource>
+      <resource name="colLogRoundsLearned.ToolTip">
+        <object>Affiche le nombre de tours d'enseignement</object>
+      </resource>
+      <resource name="colLogWeightQuality.Caption">
+        <object>Qualité du poids</object>
+      </resource>
+      <resource name="colLogWeightQuality.ToolTip">
+        <object>Affiche la qualité du poids</object>
+      </resource>
+      <resource name="colDeveloperInfo.Caption">
+        <object>Infos de développeur</object>
+      </resource>
+      <resource name="colDeveloperInfo.ToolTip">
+        <object>Informations pour l'analyse par le développeur</object>
+      </resource>
+      <resource name="grpWeighers.Text">
+        <object>Peseurs</object>
+      </resource>
+      <resource name="grpLoggingHistory.Text">
+        <object>Historique de journal:</object>
+      </resource>
+      <resource name="grpTestState.Text">
+        <object>Etat du test</object>
+      </resource>
+      <resource name="grpTestProperties.Text">
+        <object>Caractéristiques du test</object>
+      </resource>
+      <resource name="btnDelLog.ToolTip">
+        <object>Effacer le journal sélectionné</object>
+      </resource>
+      <resource name="lblNoOfBirds.Text">
+        <object>Nombre de produits</object>
+      </resource>
+      <resource name="lblDropsPerMin.Text">
+        <object>Nombre par minute</object>
+      </resource>
+      <resource name="lblMinWeight.Text">
+        <object>Poids minimal</object>
+      </resource>
+      <resource name="uMinWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblMaxWeight.Text">
+        <object>Poids maximal</object>
+      </resource>
+      <resource name="uMaxWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblLogName.Text">
+        <object>Nom du journal</object>
+      </resource>
+      <resource name="startStopButton.Text">
+        <object>Marche</object>
+      </resource>
+      <resource name="WeigherLookup.Name">
+        <object>Nom</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Nom</object>
+      </resource>
+      <resource name="TestError.ParamFailed">
+        <object>Démarrage du test de performance impossible, vérifier les paramètres</object>
+      </resource>
+      <resource name="TestError.FailedToStart">
+        <object>Démarrage du test de performance impossible</object>
+      </resource>
+      <resource name="TestError.NoServer">
+        <object>Démarrage du test impossible, aucune connexion au serveur</object>
+      </resource>
+      <resource name="TestError.Error">
+        <object>Erreur</object>
+      </resource>
+      <resource name="TestError.FailedToStop">
+        <object>Arrêt du test de performance impossible</object>
+      </resource>
+      <resource name="TestButton.Start">
+        <object>Marche</object>
+      </resource>
+      <resource name="TestButton.Stop">
+        <object>Arrêt</object>
+      </resource>
+      <resource name="Test.Finished">
+        <object>Test de performance réussi</object>
+      </resource>
+      <resource name="Test.Running">
+        <object>Test de performance en cours</object>
+      </resource>
+      <resource name="Test.Stopped">
+        <object>Test de performance arrêté</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Voulez-vous effacer l'entrée de journal:\n'{0}'\nde la base de données?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Effacer le fichier du journal</object>
+      </resource>
+      <resource name="TapPerformanceTest.Text">
+        <object>Test de performance</object>
+      </resource>
+      <resource name="Test.Info">
+        <object>Régler les paramètres du test de cliquer marche pour le démarrer.</object>
+      </resource>
+      <resource name="weigherList.ToolTip">
+        <object>Sélectionner le peseur à tester</object>
+      </resource>
+      <resource name="loggingHistoryList.ToolTip">
+        <object>Sélectionner le journal à voir</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Mémoriser le journal sélectionné dans un fichier</object>
+      </resource>
+      <resource name="grpResultGrid.Text">
+        <object>Résultats</object>
+      </resource>
+      <resource name="edNoOfBirds.ToolTip">
+        <object>Spécifie combien de produits à décrocher</object>
+      </resource>
+      <resource name="edDropsPerMin.ToolTip">
+        <object>Spécifie combien de produits à décrocher par minute</object>
+      </resource>
+      <resource name="edMinWeight.ToolTip">
+        <object>Spécification du poids minimal du produit à décroher</object>
+      </resource>
+      <resource name="edMaxWeight.ToolTip">
+        <object>Spécification du poids maximal du produit à décroher</object>
+      </resource>
+      <resource name="edLogName.ToolTip">
+        <object>Nom du journal pour le test de performance à faire.</object>
+      </resource>
+      <resource name="startStopButton.ToolTip">
+        <object>Activer le test de performance ou arrêter quand il est en cours.</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Fermer</object>
+      </resource>
+      <resource name="btnClose.ToolTip">
+        <object>Ferme le dialogue</object>
+      </resource>
+      <resource name="lblArticleCode.Text">
+        <object>Code d'article</object>
+      </resource>
+      <resource name="lblDropDelay.Text">
+        <object>Délai de décrochage</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Settings.Mws2Settings" ServiceOnly="false">
+      <resource name="barBtnRefresh.Caption">
+        <object>rafraîchir</object>
+      </resource>
+      <resource name="barBtnRefresh.Hint">
+        <object>rafraîchir l'arrangement et les données du dispositif</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Valider</object>
+      </resource>
+      <resource name="barBtnConfirm.Hint">
+        <object>Mémoriser les valeurs modifiées dans la base de données</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Opérations</object>
+      </resource>
+      <resource name="barSubOperations.Hint">
+        <object>Opérations supplémentaires</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Recharger l'objet d'interface graphique</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Recharge tous les objets d'IU</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Remettre l'arrangement par défaut</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Remet les arrangement par défaut des objets d'IU</object>
+      </resource>
+      <resource name="barBtnSend.Caption">
+        <object>Envoyer</object>
+      </resource>
+      <resource name="barBtnSend.Hint">
+        <object>Envoyer le réglage au dispositif sélectionné</object>
+      </resource>
+      <resource name="tabProperties.Text">
+        <object>Caractéristiques</object>
+      </resource>
+      <resource name="barBtnLoad.Caption">
+        <object>Charger du fichier</object>
+      </resource>
+      <resource name="barBtnLoad.Hint">
+        <object>Charger l'index de réglage d'un fichier local.</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Mémoriser au fichier</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Mémoriser l'index de réglage à un fihier local</object>
+      </resource>
+      <resource name="barBtnGetSettings.Caption">
+        <object>Chercher le réglage de MWS2</object>
+      </resource>
+      <resource name="barBtnGetSettings.Hint">
+        <object>Importer l'index de réglage pour le peseur MWS2 sélectionné.</object>
+      </resource>
+      <resource name="colStatus.Caption">
+        <object>Statut</object>
+      </resource>
+      <resource name="colStatus.Hint">
+        <object>Affiche le statut du réglage</object>
+      </resource>
+      <resource name="colTrack.Caption">
+        <object>Nom de la ligne</object>
+      </resource>
+      <resource name="colTrack.ToolTip">
+        <object>Nom de la ligne de pesage traitant ce dispositif</object>
+      </resource>
+      <resource name="colDownloadDate.Caption">
+        <object>Envoyé à</object>
+      </resource>
+      <resource name="colDownloadDate.ToolTip">
+        <object>Date et heure d'envoi du réglage au dispositif</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Erreur</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Affiche le dernier message d'erreur</object>
+      </resource>
+      <resource name="colPropRegister.Caption">
+        <object>Index</object>
+      </resource>
+      <resource name="colPropRegister.ToolTip">
+        <object>Affiche le numéro de l'index</object>
+      </resource>
+      <resource name="colPropDescription.Caption">
+        <object>Description</object>
+      </resource>
+      <resource name="colPropDescription.ToolTip">
+        <object>Description de l'index</object>
+      </resource>
+      <resource name="colPropFlags.Caption">
+        <object>Fanions</object>
+      </resource>
+      <resource name="colPropFlags.ToolTip">
+        <object>Les fanions de l'index</object>
+      </resource>
+      <resource name="colPropChangeable.Caption">
+        <object>Changeable</object>
+      </resource>
+      <resource name="colPropChangeable.ToolTip">
+        <object>Est-ce que la valeur peut être changée?</object>
+      </resource>
+      <resource name="colPropContent.Caption">
+        <object>Paramètres du MWS2 actif</object>
+      </resource>
+      <resource name="colPropContent.ToolTip">
+        <object>Affiche le contenu de l'index du dispositif</object>
+      </resource>
+      <resource name="colPropContentDb.Caption">
+        <object>Paramètres de la base de données</object>
+      </resource>
+      <resource name="colPropContentDb.ToolTip">
+        <object>Affiche les paramètres mémorisés dans la base de données</object>
+      </resource>
+      <resource name="Info.Refresh.Text">
+        <object>Recherche des données du dispositif MWS2 en cours.\nVeuillez patienter!</object>
+      </resource>
+      <resource name="Info.Refresh">
+        <object>Chargement des données en cours</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Voulez-vous mémoriser les données ?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Mémoriser le réglage</object>
+      </resource>
+      <resource name="Hint.NotInDevice">
+        <object>Réglage pas au MWS2</object>
+      </resource>
+      <resource name="Hint.InDevice">
+        <object>Réglage au MWS2</object>
+      </resource>
+      <resource name="Hint.Different">
+        <object>Réglage différent entre MWS2 et Innova</object>
+      </resource>
+      <resource name="Hint.NoInfo">
+        <object>Impossible de trouver les infos</object>
+      </resource>
+      <resource name="Load.Text">
+        <object>Les données de la grille et de la base de données seront écrasees.\nVoulez-vous continuer?</object>
+      </resource>
+      <resource name="Load.Caption">
+        <object>Importer les caractéristiques</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Aucune connexion RDP au serveur</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Erreur d'RDP</object>
+      </resource>
+      <resource name="LoadResult.Text">
+        <object>Lecture des données échouée.</object>
+      </resource>
+      <resource name="LoadResult.Caption">
+        <object>Données pas chargées.</object>
+      </resource>
+      <resource name="Send.Info">
+        <object>Envoi de données au dispositif MWS2 en cours.\nVeuillez patienter!</object>
+      </resource>
+      <resource name="Send.Confirm">
+        <object>Voulez-vous envoyer le réglage au dispositif sélectionné maintenant?</object>
+      </resource>
+      <resource name="Send.Title">
+        <object>Transmettre le réglage</object>
+      </resource>
+      <resource name="LoadDialog.Title">
+        <object>Sélectionner le fichier …</object>
+      </resource>
+      <resource name="LoadDialog.Failed">
+        <object>Chargement des caractéristiques échoué</object>
+      </resource>
+      <resource name="SaveDialog.Info">
+        <object>Les données doivent être mémorisées dans la base de données avant leur exportation.</object>
+      </resource>
+      <resource name="SaveDialog.NoData">
+        <object>Pas de données des caractéristiques à mémoriser.</object>
+      </resource>
+      <resource name="SaveDialog.NoData.Caption">
+        <object>Pas de données.</object>
+      </resource>
+      <resource name="SaveDialog.Failed">
+        <object>Mémorisation des caractéristiques échouée.</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Dispositif</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Affiche le nom du dispositif auquel le réglage est destiné.</object>
+      </resource>
+      <resource name="SaveDialog.Title">
+        <object>Mémoriser sous</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Ligne</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Affiche la ligne définie en TOP</object>
+      </resource>
+      <resource name="Send.SaveConfirm">
+        <object>Voulez-vous mémoriser les données et\nenvoyer le réglage pour le dispositif sélectionné?</object>
+      </resource>
+      <resource name="Send.ConfirmOpen">
+        <object>Voulez-vous envoyer le réglage au dispositif sélectionné maintenant?\nAvertissment: tous les fichiers du dispositif seront écrasés.</object>
+      </resource>
+      <resource name="Send.SaveConfirmOpen">
+        <object>Voulez-vous mémoriser les données et\nenvoyer le réglage pour le dispositif sélectionné?\nAvertissement: tous les fichiers du dispositif seront écrasés.</object>
+      </resource>
+      <resource name="SendProtectedSettings">
+        <object>Permettre l'écrasement des paramètres MWS2 protégés.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Mws2Management" ServiceOnly="false">
+      <resource name="btnClose.Text">
+        <object>Fermer</object>
+      </resource>
+      <resource name="grpSelectWeigher.Text">
+        <object>Peseur</object>
+      </resource>
+      <resource name="WeigherLookup.Name">
+        <object>Nom</object>
+      </resource>
+      <resource name="Text">
+        <object>Gestion MWS2</object>
+      </resource>
+      <resource name="weigherList.ToolTip">
+        <object>Sélectionner le peseur à gérer</object>
+      </resource>
+      <resource name="btnClose.ToolTip">
+        <object>Fermer le dialogue</object>
+      </resource>
+      <resource name="grpMessage.Text">
+        <object>Messages</object>
+      </resource>
+      <resource name="tabPageCalibration.Text">
+        <object>Etalonnage</object>
+      </resource>
+      <resource name="tabPageCurve.Text">
+        <object>Courbe</object>
+      </resource>
+      <resource name="tabPageScope.Text">
+        <object>portée</object>
+      </resource>
+      <resource name="tabPageLogging.Text">
+        <object>Journal</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Calibration" ServiceOnly="false">
+      <resource name="lblStopped.Text">
+        <object>Arrêté</object>
+      </resource>
+      <resource name="lblEmptyWeight.Text">
+        <object>Poids vide</object>
+      </resource>
+      <resource name="lblCalibrationWeight.Text">
+        <object>Poids d'étalonnage</object>
+      </resource>
+      <resource name="lblCalibrationOk.Text">
+        <object>Etalonnage OK</object>
+      </resource>
+      <resource name="lblDone.Text">
+        <object>Fait</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Annuler</object>
+      </resource>
+      <resource name="RemoteError">
+        <object>Une erreur s'est produite pendant l'étalonnage. Voir le journal du système.</object>
+      </resource>
+      <resource name="curWeightInfo.ToolTip">
+        <object>Le poids affiché peut être imprécis tant que l'étalonnage n'est pas fini.</object>
+      </resource>
+      <resource name="Status.DataReloading">
+        <object>Rechargement du réglage du peseur … en cours</object>
+      </resource>
+      <resource name="Status.DataProcessing">
+        <object>Traitement des données du peseur … en cours</object>
+      </resource>
+      <resource name="BtnNext.StartCalibration">
+        <object>Démarrer l'étalonnage.</object>
+      </resource>
+      <resource name="BtnNext.RestartCalibration">
+        <object>Redémarrer l'étalonnage.</object>
+      </resource>
+      <resource name="BtnNext.ConfirmCalibration">
+        <object>Valider l'étalonnage.</object>
+      </resource>
+      <resource name="Action.Start">
+        <object>"Pour démarrer l'étalonnage, saisir le poids d'étalonnage et presser le bouton ""Démarrer l'étalonnage""."</object>
+      </resource>
+      <resource name="Action.Restart">
+        <object>"Pour redémarrer l'étalonnage, saisir le poids d'étalonnage et presser le bouton ""Redémarrer l'étalonnage""."</object>
+      </resource>
+      <resource name="Action.WaitEmptyWeight">
+        <object>"Vous assurer qu'il n'y a pas de poids et presser le bouton ""Etape suivante""."</object>
+      </resource>
+      <resource name="Action.WaitCalibrationWeight">
+        <object>"Mettre le poids d'étalonnage et presser le bouton ""Etape suivante""."</object>
+      </resource>
+      <resource name="Action.WaitConfirmation">
+        <object>"Presser le bouton ""Valider l'étalonnage"" pour valider le nouvel étalonnage."</object>
+      </resource>
+      <resource name="Calibration.StartError">
+        <object>Veuillez donner un poids d'étalonnage valide.</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Réglage d'étalonnage</object>
+      </resource>
+      <resource name="grpAction.Text">
+        <object>Action</object>
+      </resource>
+      <resource name="grpCalibration.Text">
+        <object>Etalonnage</object>
+      </resource>
+      <resource name="btnPrevStep.Text">
+        <object>Etap précédente</object>
+      </resource>
+      <resource name="btnPrevStep.ToolTip">
+        <object>Retourner à l'étape précédente du procès.</object>
+      </resource>
+      <resource name="btnNextStep.Text">
+        <object>Etape suivante</object>
+      </resource>
+      <resource name="btnCancel.ToolTip">
+        <object>Annuler le procès</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Poids d'étalonnage:</object>
+      </resource>
+      <resource name="edWeight.ToolTip">
+        <object>Définir le poids d'étalonnage</object>
+      </resource>
+      <resource name="uWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblCurrentWeight.Text">
+        <object>Poids actuel:</object>
+      </resource>
+      <resource name="uCurrentWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="btnNextStep.ToolTip">
+        <object>Passer à l'étape suivante d'étalonnage.</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Scope" ServiceOnly="false">
+      <resource name="Error.ScopeDataCollection">
+        <object>Une erreur s'est produite pendant la demande des données de portée. Veuillez vérifier la connexion du dispositif.</object>
+      </resource>
+      <resource name="RetrievingScopeData">
+        <object>Cherchant les données de portée. Veuillez patienter.</object>
+      </resource>
+      <resource name="btnRefresh.Text">
+        <object>Rafraîchir</object>
+      </resource>
+      <resource name="btnSettings.Text">
+        <object>Réglage</object>
+      </resource>
+      <resource name="Chart.Shackle.Text">
+        <object>Crochet:</object>
+      </resource>
+      <resource name="Chart.AxisX.Text">
+        <object>Durée (ms)</object>
+      </resource>
+      <resource name="Chart.AxisY.Text">
+        <object>Poids (##)</object>
+      </resource>
+      <resource name="Error.Chart.Binding">
+        <object>Une erreur s'est produite pendant le traitement des données.</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Nom</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Avg">
+        <object>Moyen:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.PP">
+        <object>PP:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Time">
+        <object>Heure:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Info">
+        <object>Infos:</object>
+      </resource>
+      <resource name="EmpyScopeData">
+        <object>Données de portée vide.</object>
+      </resource>
+      <resource name="FileDlg.Files">
+        <object>Fichiers</object>
+      </resource>
+      <resource name="FileDlg.Title">
+        <object>Sélectionner la position pour mémoriser l'image de la portée</object>
+      </resource>
+      <resource name="btnRefresh.ToolTIp">
+        <object>Chercher les nouvelles données de la portée</object>
+      </resource>
+      <resource name="btnSettings.ToolTip">
+        <object>Ouvrir le dialogue de réglage pour la portée</object>
+      </resource>
+      <resource name="btnSave.Text">
+        <object>Mémoriser</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Mémoriser l'image de la portée au fichier</object>
+      </resource>
+      <resource name="selLog.ToolTip">
+        <object>Choisir un journal à considérr comme un image de la portée</object>
+      </resource>
+      <resource name="selLog.NullText">
+        <object>&lt;Sélectionnez l'exploitation forestière&gt;</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.ScopeSettingDialog" ServiceOnly="false">
+      <resource name="uVertMin.Text">
+        <object>##</object>
+      </resource>
+      <resource name="uVertMax.Text">
+        <object>##</object>
+      </resource>
+      <resource name="grpTiming.Text">
+        <object>Réglage de l'heure</object>
+      </resource>
+      <resource name="lblScopeWindow.Text">
+        <object>Fenêtre de la portée</object>
+      </resource>
+      <resource name="chkSyncScope.Text">
+        <object>Synchroniser la portée</object>
+      </resource>
+      <resource name="lblPresampleTime.Text">
+        <object>Durée d'échantillonnage</object>
+      </resource>
+      <resource name="grpFixedWindows.Text">
+        <object>Réglage des fenêtres fixes</object>
+      </resource>
+      <resource name="chkUseFixedWindow.Text">
+        <object>Utiliser la fenêtre fixe</object>
+      </resource>
+      <resource name="lblVertMin.Text">
+        <object>Minimum vertical</object>
+      </resource>
+      <resource name="lblVertMax.Text">
+        <object>Maximum vertical</object>
+      </resource>
+      <resource name="grpLogging.Text">
+        <object>Journal</object>
+      </resource>
+      <resource name="chkUseLogging.Text">
+        <object>Données de la portée trouvées au journal</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Annuler</object>
+      </resource>
+      <resource name="edScopeWindow.ToolTip">
+        <object>Le nombre de millisecondes à montrer.</object>
+      </resource>
+      <resource name="chkSyncScope.ToolTip">
+        <object>Vérifié, un certain nombre de millisecondes se déroulent avant le premier déclenchement. Sinon, toutes les données seront mises au journal dès le début de la portée.</object>
+      </resource>
+      <resource name="edPresampleTime.ToolTip">
+        <object>Le nombre de millisecondes à montrer avant le premier déclenchement.</object>
+      </resource>
+      <resource name="chkUseFixedWindow.ToolTip">
+        <object>Vérifié, cela permet de limiter la plage de l'axe des y.</object>
+      </resource>
+      <resource name="edVertMin.ToolTip">
+        <object>La valeur minimale en ordonnée.</object>
+      </resource>
+      <resource name="edVertMax.ToolTip">
+        <object>La valeur maximale en ordonnée.</object>
+      </resource>
+      <resource name="chkUseLogging.ToolTip">
+        <object>Vérifiés, les pointes des données de la portée seront mises au journal de la base de données.</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Logging" ServiceOnly="false">
+      <resource name="LoggingLookup.Name">
+        <object>Nom</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Voulez-vous effacer l'entrée de journal:\n'{0}'\nde la base de données?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Effacer le fichier du journal</object>
+      </resource>
+      <resource name="grpSelectLog.Text">
+        <object>Historique de journal:</object>
+      </resource>
+      <resource name="btnDelete.Text">
+        <object>Effacer</object>
+      </resource>
+      <resource name="colLogTime.Caption">
+        <object>Durée (ms)</object>
+      </resource>
+      <resource name="colLogShackleId.Caption">
+        <object>ID de crochet</object>
+      </resource>
+      <resource name="colLogTotalWeight.Caption">
+        <object>Poids brut</object>
+      </resource>
+      <resource name="colLogLoadCellWeight.Caption">
+        <object>Détecteur de poids</object>
+      </resource>
+      <resource name="colLogVibrationCellWeight.Caption">
+        <object>Détecteur de vibration</object>
+      </resource>
+      <resource name="colLogStartSensorState.Caption">
+        <object>Détecteur de démarrage</object>
+      </resource>
+      <resource name="colLogStopSensorState.Caption">
+        <object>Détecteur d'arrêt</object>
+      </resource>
+      <resource name="colLogWeighing.Caption">
+        <object>Fenêtre de pesage</object>
+      </resource>
+      <resource name="btnSave.Text">
+        <object>Mémoriser</object>
+      </resource>
+      <resource name="selLog.ToolTip">
+        <object>Sélectionner le journal à voir</object>
+      </resource>
+      <resource name="btnDelete.ToolTip">
+        <object>Effacer le journal sélectionné</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Mémoriser le journal sélectionné dans un fichier</object>
+      </resource>
+      <resource name="colLogLoadCellWeight.ToolTip">
+        <object>Le poids du capteur de force </object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>ID du crochet qui vient d'être pesé.</object>
+      </resource>
+      <resource name="colLogStartSensorState.ToolTip">
+        <object>1 si le détecteur de démarrage est actif, 0 si insactif</object>
+      </resource>
+      <resource name="colLogStopSensorState.ToolTip">
+        <object>1 si le détecteur d'arrêt est actif, 0 si insactif</object>
+      </resource>
+      <resource name="colLogTime.ToolTip">
+        <object>La durée en ms mesurée dès le démarrage de la collecte des données de portée</object>
+      </resource>
+      <resource name="colLogTotalWeight.ToolTip">
+        <object>Poids du capteur de force moins le poids du capteur de vibration</object>
+      </resource>
+      <resource name="colLogVibrationCellWeight.ToolTip">
+        <object>Le poids du capteur de vibratin</object>
+      </resource>
+      <resource name="colLogWeighing.ToolTip">
+        <object>Montre si le peseur est en train de réunir des données de poids à traiter ultérieurement</object>
+      </resource>
+      <resource name="selLog.NullText">
+        <object>&lt;Sélectionnez l'exploitation forestière&gt;</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Curve" ServiceOnly="false">
+      <resource name="Error.Mws2DataRetrieval">
+        <object>Une erreur s'est produite pendant la recherche de données pour MWS2</object>
+      </resource>
+      <resource name="Error.TapDataRetrieval">
+        <object>Une erreur s'est produite pendant la recherche de données pour TAP</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Réglage</object>
+      </resource>
+      <resource name="lblLoadCellCapacity.Text">
+        <object>Capacité du capteur de force (kg):</object>
+      </resource>
+      <resource name="lblCalibratedAt.Text">
+        <object>Etalonnage le:</object>
+      </resource>
+      <resource name="grpRegisterValues.Text">
+        <object>Valeurs d'étalonnage</object>
+      </resource>
+      <resource name="lblZero.Text">
+        <object>Zéro</object>
+      </resource>
+      <resource name="lblReference.Text">
+        <object>Référence</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Poids</object>
+      </resource>
+      <resource name="lblAdcValues.Text">
+        <object>Valeurs CAN</object>
+      </resource>
+      <resource name="grpADCRamp.Text">
+        <object>Valeur de seuil CAN</object>
+      </resource>
+      <resource name="lblRamp.Text">
+        <object>Valeur de seuil</object>
+      </resource>
+      <resource name="lblAdcGram.Text">
+        <object>CAN/##</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageStaticWeight" ServiceOnly="false">
+      <resource name="colSWNo.Caption">
+        <object>Non</object>
+      </resource>
+      <resource name="colSWNo.ToolTip">
+        <object>Compteur pour objet</object>
+      </resource>
+      <resource name="colSWTime.Caption">
+        <object>Heure:</object>
+      </resource>
+      <resource name="colSWTime.ToolTip">
+        <object>Date et heure de réception du poids par le serveur</object>
+      </resource>
+      <resource name="colSWValue.Caption">
+        <object>Poids (##)</object>
+      </resource>
+      <resource name="colSWValue.ToolTip">
+        <object>Valeur de poids statique</object>
+      </resource>
+      <resource name="barBtnStartLogging.Caption">
+        <object>Marche</object>
+      </resource>
+      <resource name="barBtnStartLogging.Hint">
+        <object>Marche/Arrêt du journal du poids statique</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Mémoriser</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Cliquer pour mémoriser les données sur un disque</object>
+      </resource>
+      <resource name="barBtnClear.Caption">
+        <object>Enlever le tableau</object>
+      </resource>
+      <resource name="barBtnClear.Hint">
+        <object>Cliquer pour enlever le contenu du tableau</object>
+      </resource>
+      <resource name="grpStaticWeightDisplay.Text">
+        <object>Poids statique actuel (##)</object>
+      </resource>
+      <resource name="grpStaticWeights.Text">
+        <object>Historique des poids statiques</object>
+      </resource>
+      <resource name="LogButton.Stop">
+        <object>Arrêt</object>
+      </resource>
+      <resource name="LogButton.Start">
+        <object>Marche</object>
+      </resource>
+      <resource name="editIntervalTime.Caption">
+        <object>Intervalle (sec.)</object>
+      </resource>
+      <resource name="lblGrossWeight.Text">
+        <object>Poids brut (##)</object>
+      </resource>
+      <resource name="lblNetWeight.Text">
+        <object>Poids net (##)</object>
+      </resource>
+      <resource name="btnAutoZero.Text">
+        <object>Zéro autom.</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2FirmUpgrade" ServiceOnly="false">
+      <resource name="Firmware.RetrievingFirmware">
+        <object>Trouvant la version du firmware.</object>
+      </resource>
+      <resource name="Firmware.NoFirmwareSelected">
+        <object>La mise à jour ne peut pas commencer. Veuillez sélectionner un fichier de firmware.</object>
+      </resource>
+      <resource name="Firmware.ExceptionReadingFirmwareFile">
+        <object>Une exception s'est produite pendant le chargement du contenu du fichier. Voir le journal pour les détails.</object>
+      </resource>
+      <resource name="RemoteError">
+        <object>Une erreur s'est produite pendant la mise à jour du firmware. Voir le journal du système.</object>
+      </resource>
+      <resource name="Firmware.Succesfull">
+        <object>Mise à jour réussie du firmware à la version:</object>
+      </resource>
+      <resource name="Firmware.Failed">
+        <object>Mise à jour du firmware échouée.</object>
+      </resource>
+      <resource name="Firmware.UpgradeInProgress">
+        <object>Veuillez patienter. Mise à jour du firmware en cours.</object>
+      </resource>
+      <resource name="Firmware.Mws2NotInitialized">
+        <object>En ce moment, la lecture des index MWS2 est impossible, ce qui empêche la mise à jour du firmware. Cela peut durer quelques minutes.</object>
+      </resource>
+      <resource name="Upgrade.Confirm">
+        <object>La version actuelle du firmware sera écrasé. Vous êtes sur?</object>
+      </resource>
+      <resource name="Upgrade.Title">
+        <object>Mise à jour du firmware</object>
+      </resource>
+      <resource name="Upgrade.NoRemoteOpenMode">
+        <object>Cette version du firmware ne permet pas de mettre en mode ouvert le MWS2 à distance. Veuillez mettre le mode ouvert au MWS2 même (voir le mode d'emploi MWS2 comment faire).\nPresser OK quand MWS2 est en mode ouvert et la version actuelle du firmware sera écrasée.\nPresser Annuler pour arrêter la mise à jour du firmware.</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Réglages du firmware</object>
+      </resource>
+      <resource name="lblCurrentFirmware.Text">
+        <object>Firmware actuel:</object>
+      </resource>
+      <resource name="lblFirmwareFile.Text">
+        <object>Fichier du firmware:</object>
+      </resource>
+      <resource name="btnStartUpgrade.Text">
+        <object>Lancer mise à niveau</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

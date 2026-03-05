@@ -1,0 +1,873 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="pl">
+  <industry>
+    <type name="Marel.Common.Terminals.ScreenSystem" ServiceOnly="false">
+      <resource name="ShutdownMessage">
+        <object>— WYŁĄCZANIE SYSTEMU -</object>
+      </resource>
+      <resource name="MomentMessage">
+        <object>Proszę czekać...</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.ListScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Wybór</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Wstecz</object>
+      </resource>
+      <resource name="SortByCodeLegend">
+        <object>Kod</object>
+      </resource>
+      <resource name="SortByNameLegend">
+        <object>Nazwa</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.FieldScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Wybór</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Wstecz</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.DeviceStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nieustawione</object>
+      </resource>
+      <resource name="NoInterface">
+        <object>Brak interfejsu</object>
+      </resource>
+      <resource name="NoRouter">
+        <object>Brak routera</object>
+      </resource>
+      <resource name="Offline">
+        <object>Niepodłączone</object>
+      </resource>
+      <resource name="PresumedOnline">
+        <object>Założono podłączenie</object>
+      </resource>
+      <resource name="Online">
+        <object>Online</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Diagnostics.LogEntryType" ServiceOnly="false">
+      <resource name="Information">
+        <object>Informacje</object>
+      </resource>
+      <resource name="UsageLog">
+        <object>Dziennik eksploatacji</object>
+      </resource>
+      <resource name="Warning">
+        <object>Ostrzeżenie</object>
+      </resource>
+      <resource name="Error">
+        <object>Błąd</object>
+      </resource>
+      <resource name="Fatal">
+        <object>Krytyczny</object>
+      </resource>
+      <resource name="UnhandledException">
+        <object>Nieobsługiwany wyjątek</object>
+      </resource>
+      <resource name="Trace">
+        <object>Œlad</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Sockets.ConnectionStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nieustawione</object>
+      </resource>
+      <resource name="Idle">
+        <object>Bezczynność</object>
+      </resource>
+      <resource name="Unconnected">
+        <object>Niepołączone</object>
+      </resource>
+      <resource name="Connecting">
+        <object>Połączenie</object>
+      </resource>
+      <resource name="Connected">
+        <object>Połączony</object>
+      </resource>
+      <resource name="Disconnected">
+        <object>Rozłączony</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmManagement" ServiceOnly="false">
+      <resource name="Units">
+        <object>Jednostki</object>
+      </resource>
+      <resource name="Weight">
+        <object>Waga</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmProduct" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="Units">
+        <object>Jednostki</object>
+      </resource>
+      <resource name="Pieces">
+        <object>Elementy</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmSystem" ServiceOnly="false">
+      <resource name="Si">
+        <object>SI</object>
+      </resource>
+      <resource name="European">
+        <object>Europejskie</object>
+      </resource>
+      <resource name="Imperial">
+        <object>Jednostki miary i wagi angielskie</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmWeight" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Milligrams">
+        <object>mg</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="OunceEights">
+        <object>oz/8</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmLength" ServiceOnly="false">
+      <resource name="Meters">
+        <object>m</object>
+      </resource>
+      <resource name="Millimeters">
+        <object>mm</object>
+      </resource>
+      <resource name="Centimeters">
+        <object>cm</object>
+      </resource>
+      <resource name="Inches">
+        <object>cale</object>
+      </resource>
+      <resource name="Feet">
+        <object>stopy</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.FormatSpecification" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nieustawione</object>
+      </resource>
+      <resource name="Point000001">
+        <object>0.000001</object>
+      </resource>
+      <resource name="Point000002">
+        <object>0.000002</object>
+      </resource>
+      <resource name="Point000005">
+        <object>0.000005</object>
+      </resource>
+      <resource name="Point00001">
+        <object>0.00001</object>
+      </resource>
+      <resource name="Point00002">
+        <object>0.00002</object>
+      </resource>
+      <resource name="Point00005">
+        <object>0.00005</object>
+      </resource>
+      <resource name="Point0001">
+        <object>0.0001</object>
+      </resource>
+      <resource name="Point0002">
+        <object>0.0002</object>
+      </resource>
+      <resource name="Point0005">
+        <object>0.0005</object>
+      </resource>
+      <resource name="Point001">
+        <object>0.001</object>
+      </resource>
+      <resource name="Point002">
+        <object>0.002</object>
+      </resource>
+      <resource name="Point005">
+        <object>0.005</object>
+      </resource>
+      <resource name="Point01">
+        <object>0.01</object>
+      </resource>
+      <resource name="Point02">
+        <object>0.02</object>
+      </resource>
+      <resource name="Point05">
+        <object>0.05</object>
+      </resource>
+      <resource name="Point1">
+        <object>0.1</object>
+      </resource>
+      <resource name="Point2">
+        <object>0.2</object>
+      </resource>
+      <resource name="Point5">
+        <object>0.5</object>
+      </resource>
+      <resource name="N1">
+        <object>1</object>
+      </resource>
+      <resource name="N2">
+        <object>2</object>
+      </resource>
+      <resource name="N5">
+        <object>5</object>
+      </resource>
+      <resource name="N10">
+        <object>10</object>
+      </resource>
+      <resource name="N20">
+        <object>20</object>
+      </resource>
+      <resource name="N50">
+        <object>50</object>
+      </resource>
+      <resource name="Max">
+        <object>Maks.</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.NominalMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Automatyczna waga sortująca, % naddatku</object>
+      </resource>
+      <resource name="FixWeightFg">
+        <object>Nominalna, ustalony naddatek</object>
+      </resource>
+      <resource name="FixWeightVg">
+        <object>Nominalna, % naddatku</object>
+      </resource>
+      <resource name="FixWeightE">
+        <object>e, bez naddatku</object>
+      </resource>
+      <resource name="FixWeightEFg">
+        <object>e, ustalony naddatek</object>
+      </resource>
+      <resource name="FixWeightEVg">
+        <object>e, % naddatku</object>
+      </resource>
+      <resource name="Range">
+        <object>Zakres masy nominalnej</object>
+      </resource>
+      <resource name="Step">
+        <object>Kroki masy nominalnej</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nieustawione</object>
+      </resource>
+      <resource name="Button">
+        <object>Przycisk</object>
+      </resource>
+      <resource name="Preset">
+        <object>Wstępne ustawienie</object>
+      </resource>
+      <resource name="Auto">
+        <object>Auto</object>
+      </resource>
+      <resource name="System">
+        <object>System</object>
+      </resource>
+      <resource name="Calculated">
+        <object>Obliczone</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Gender" ServiceOnly="false">
+      <resource name="Female">
+        <object>Żeńska</object>
+      </resource>
+      <resource name="Male">
+        <object>Męska</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Nieokreślone</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.AccuracyMode" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nieustawione</object>
+      </resource>
+      <resource name="Low">
+        <object>Niska</object>
+      </resource>
+      <resource name="Medium">
+        <object>Średnia</object>
+      </resource>
+      <resource name="High">
+        <object>Wysoka</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.FlowUnit" ServiceOnly="false">
+      <resource name="Percentage">
+        <object>Odsetek</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>Elementy/min</object>
+      </resource>
+      <resource name="WeightPerHour">
+        <object>Masa/godz.</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Nieustawione</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.LaneSpecification" ServiceOnly="false">
+      <resource name="OneSide">
+        <object>Jednotorowa</object>
+      </resource>
+      <resource name="Lane1">
+        <object>Tor 1</object>
+      </resource>
+      <resource name="Lane2">
+        <object>Tor 2</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.RecordingMethod" ServiceOnly="false">
+      <resource name="Manual">
+        <object>Ręczna</object>
+      </resource>
+      <resource name="Auto">
+        <object>Automatyczna</object>
+      </resource>
+      <resource name="Stable">
+        <object>Stabilna</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Resources.Industry" ServiceOnly="false">
+      <resource name="Neutral">
+        <object>Neutralne przemysłowo</object>
+      </resource>
+      <resource name="Fish">
+        <object>Ryby</object>
+      </resource>
+      <resource name="Meat">
+        <object>Mięso</object>
+      </resource>
+      <resource name="Poultry">
+        <object>Drób</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTime" ServiceOnly="false">
+      <resource name="Seconds">
+        <object>s</object>
+      </resource>
+      <resource name="Milliseconds">
+        <object>ms</object>
+      </resource>
+      <resource name="Minutes">
+        <object>min</object>
+      </resource>
+      <resource name="Hours">
+        <object>godz.</object>
+      </resource>
+      <resource name="Days">
+        <object>dzień</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.UnitType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nieustawione</object>
+      </resource>
+      <resource name="Pack">
+        <object>Opakowanie</object>
+      </resource>
+      <resource name="Stack">
+        <object>Stos</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Paleta</object>
+      </resource>
+      <resource name="Container">
+        <object>Pojemnik</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Wysyłka</object>
+      </resource>
+      <resource name="Item">
+        <object>Element</object>
+      </resource>
+      <resource name="GraderPiece">
+        <object>Element</object>
+      </resource>
+      <resource name="Individual">
+        <object>Zwierzę</object>
+      </resource>
+      <resource name="TrimPiece">
+        <object>Wykrawanie</object>
+      </resource>
+      <resource name="CollectionMix">
+        <object>Jednostki mieszane</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.AppRecordType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Nieokreślone</object>
+      </resource>
+      <resource name="Input">
+        <object>Wejście ogólne</object>
+      </resource>
+      <resource name="Output">
+        <object>Wyjście ogólne</object>
+      </resource>
+      <resource name="TrimInput">
+        <object>Wejście wykrawania</object>
+      </resource>
+      <resource name="TrimOutput">
+        <object>Wyjście wykrawania</object>
+      </resource>
+      <resource name="BypassInput">
+        <object>Wejście omijania</object>
+      </resource>
+      <resource name="BypassOutput">
+        <object>Wyjście omijania</object>
+      </resource>
+      <resource name="TrimUnknown">
+        <object>Nieznane wykrawanie</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nieustawione</object>
+      </resource>
+      <resource name="Button">
+        <object>Przycisk</object>
+      </resource>
+      <resource name="Preset">
+        <object>Wstępne ustawienie</object>
+      </resource>
+      <resource name="Auto">
+        <object>Automatyczna</object>
+      </resource>
+      <resource name="System">
+        <object>System</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.BatchingMode" ServiceOnly="false">
+      <resource name="None">
+        <object>Brak</object>
+      </resource>
+      <resource name="Weight">
+        <object>Wg wagi</object>
+      </resource>
+      <resource name="IntelligentWeight">
+        <object>Porcjowanie inteligentne wg wagi</object>
+      </resource>
+      <resource name="Count">
+        <object>Wg liczby</object>
+      </resource>
+      <resource name="Slave">
+        <object>Podległa</object>
+      </resource>
+      <resource name="MultiTarget">
+        <object>Wiele dozowników docelowych</object>
+      </resource>
+      <resource name="MeanWeight">
+        <object>Masa śr.</object>
+      </resource>
+      <resource name="Rate">
+        <object>Wydajność</object>
+      </resource>
+      <resource name="RateAndAverage">
+        <object>Wydajność średnia</object>
+      </resource>
+      <resource name="Share">
+        <object>Podział</object>
+      </resource>
+      <resource name="FillRate">
+        <object>Wydajność napełniania</object>
+      </resource>
+      <resource name="Weight2nd">
+        <object>Wg masy, 2.</object>
+      </resource>
+      <resource name="IntelligentWeight2nd">
+        <object>Porcjowanie inteligentne wg masy, 2.</object>
+      </resource>
+      <resource name="Count2nd">
+        <object>Wg liczby, 2.</object>
+      </resource>
+      <resource name="MeanWeight2nd">
+        <object>Masa średnia, 2.</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Nieustawione</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.RejectLevel" ServiceOnly="false">
+      <resource name="None">
+        <object>Bez odrzutu</object>
+      </resource>
+      <resource name="Lowest">
+        <object>Najniższa</object>
+      </resource>
+      <resource name="Low">
+        <object>Niska</object>
+      </resource>
+      <resource name="Medium">
+        <object>Średnia</object>
+      </resource>
+      <resource name="High">
+        <object>Wysoka</object>
+      </resource>
+      <resource name="Highest">
+        <object>Najwyższa</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.GeneralMessage" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Wybór</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Wyjście</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.SelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz element</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.WSelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz element</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Utilities.ParamDataType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nieustawione</object>
+      </resource>
+      <resource name="Bool">
+        <object>Boolowskie</object>
+      </resource>
+      <resource name="Int">
+        <object>Liczba całkowita</object>
+      </resource>
+      <resource name="Float">
+        <object>Liczba zmiennoprzecinkowa</object>
+      </resource>
+      <resource name="String">
+        <object>Łańcuch</object>
+      </resource>
+      <resource name="Enum">
+        <object>Wyliczanie</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTare" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Percentage">
+        <object>%</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeeFigure" ServiceOnly="false">
+      <resource name="OEE">
+        <object>OEE</object>
+      </resource>
+      <resource name="Availability">
+        <object>Dostępność</object>
+      </resource>
+      <resource name="Performance">
+        <object>Wydajność</object>
+      </resource>
+      <resource name="Quality">
+        <object>Jakość</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeePerformanceReasons" ServiceOnly="false">
+      <resource name="Unknown loss">
+        <object>Nieznana strata</object>
+      </resource>
+      <resource name="Line speed">
+        <object>Prędkość linii</object>
+      </resource>
+      <resource name="Hang in loss">
+        <object>Strata zawieszenia</object>
+      </resource>
+      <resource name="Plucker loss">
+        <object>Strata skubarki</object>
+      </resource>
+      <resource name="Processing loss">
+        <object>Strata przetwarzania</object>
+      </resource>
+      <resource name="Packs not transferred">
+        <object>Opakowania nieprzekazane</object>
+      </resource>
+      <resource name="PGI loss">
+        <object>Strata PGI</object>
+      </resource>
+      <resource name="High product temperature">
+        <object>Wysoka temperatura produktu</object>
+      </resource>
+      <resource name="Rehang loss">
+        <object>Strata ponownego zawieszania</object>
+      </resource>
+      <resource name="Bad flock">
+        <object>Niewłaściwe stado</object>
+      </resource>
+      <resource name="Heavy products">
+        <object>Produkty ciężkie</object>
+      </resource>
+      <resource name="Rehang loss TRDE">
+        <object>Strata ponownego zawieszania TRDE</object>
+      </resource>
+      <resource name="Rehang loss TREC">
+        <object>Strata ponownego zawieszania TREC</object>
+      </resource>
+      <resource name="Rehang loss Evisceration">
+        <object>Strata ponownego zawieszania – patroszenie</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeePerformanceReasonType" ServiceOnly="false">
+      <resource name="SpeedLoss">
+        <object>Utrata prędkości</object>
+      </resource>
+      <resource name="ProductLoss">
+        <object>Strata produktu</object>
+      </resource>
+      <resource name="Unknown">
+        <object>Nieznane</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeeQualityReasons" ServiceOnly="false">
+      <resource name="Unknown loss">
+        <object>Nieznana strata</object>
+      </resource>
+      <resource name="Scalding damage">
+        <object>Uszkodzenie przez oparzenie</object>
+      </resource>
+      <resource name="No scalding">
+        <object>Brak oparzenia</object>
+      </resource>
+      <resource name="No electro stimulation">
+        <object>Brak stymulacji elektrycznej</object>
+      </resource>
+      <resource name="Short electro stimulation">
+        <object>Krótka stymulacja elektryczna</object>
+      </resource>
+      <resource name="No neck skin cutting">
+        <object>Brak przecinania skóry szyi</object>
+      </resource>
+      <resource name="Veterinarian downgrade">
+        <object>Degradacja weterynaryjna</object>
+      </resource>
+      <resource name="No vent cutting vacuum">
+        <object>Brak podciśnienia cięcia steków</object>
+      </resource>
+      <resource name="No final inspection vacuum">
+        <object>Brak podciśnienia inspekcji końcowej</object>
+      </resource>
+      <resource name="CropperNotCleaned">
+        <object>Obcinak nieoczyszczony</object>
+      </resource>
+      <resource name="Visual defects">
+        <object>Wady widoczne</object>
+      </resource>
+      <resource name="One legged product">
+        <object>Produkt z jedną nogą</object>
+      </resource>
+      <resource name="No gall bladder removing vacuum">
+        <object>Brak podciśnienia usuwania woreczka żółciowego</object>
+      </resource>
+      <resource name="No gizzard peeling">
+        <object>Brak usuwania żołądka</object>
+      </resource>
+      <resource name="No heart lung separation">
+        <object>Brak oddzielania płuc od serca</object>
+      </resource>
+      <resource name="One legged plucker">
+        <object>Skubarka produktów z jedną nogą</object>
+      </resource>
+      <resource name="One legged TRDE">
+        <object>TRDE z jedną nogą</object>
+      </resource>
+      <resource name="One legged TREC">
+        <object>TREC z jedną nogą</object>
+      </resource>
+      <resource name="One legged TRCS">
+        <object>TRCS z jedną nogą</object>
+      </resource>
+      <resource name="One legged Hang in">
+        <object>Zawieszanie produktów z jedną nogą</object>
+      </resource>
+      <resource name="No weight received">
+        <object>Nie otrzymano wagi</object>
+      </resource>
+      <resource name="Product not assigned">
+        <object>Produkt nieprzypisany</object>
+      </resource>
+      <resource name="Dropstation failure">
+        <object>Usterka stacji zrzutu</object>
+      </resource>
+      <resource name="One legged drop">
+        <object>Zrzut produktów z jedną nogą</object>
+      </resource>
+      <resource name="Dropped at lineclearer">
+        <object>Zrzut przy oczyszczaku linii</object>
+      </resource>
+      <resource name="Dropped at TRCS">
+        <object>Zrzut przy TRCS</object>
+      </resource>
+      <resource name="No drop due to ACM">
+        <object>Brak zrzutu z powodu ACM</object>
+      </resource>
+      <resource name="No drop due to remote stop">
+        <object>Brak zrzutu z powodu zatrzymania zdalnego</object>
+      </resource>
+      <resource name="Processing loss">
+        <object>Strata przetwarzania</object>
+      </resource>
+      <resource name="Dropped at TRDE">
+        <object>Zrzut przy TRDE</object>
+      </resource>
+      <resource name="Dropped at TREC">
+        <object>Zrzut przy TREC</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeeQualityReasonType" ServiceOnly="false">
+      <resource name="Scrap">
+        <object>Odpad</object>
+      </resource>
+      <resource name="Rework">
+        <object>Przeróbka</object>
+      </resource>
+      <resource name="InProcessDamage">
+        <object>Uszkodzenie procesowe</object>
+      </resource>
+      <resource name="InProcessExpiration">
+        <object>Wygaśnięcie procesowe</object>
+      </resource>
+      <resource name="DeficientProcessing">
+        <object>Wadliwe przetworzenie</object>
+      </resource>
+      <resource name="Unknown">
+        <object>Nieznane</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeeStatus" ServiceOnly="false">
+      <resource name="NotScheduled">
+        <object>Niezaplanowany</object>
+      </resource>
+      <resource name="Unscheduled">
+        <object>Usunięty z planu</object>
+      </resource>
+      <resource name="LineRestraint">
+        <object>Ograniczenie linii</object>
+      </resource>
+      <resource name="Idle">
+        <object>Bezczynność</object>
+      </resource>
+      <resource name="Failure">
+        <object>Usterka</object>
+      </resource>
+      <resource name="Running">
+        <object>Działanie</object>
+      </resource>
+      <resource name="Unknown">
+        <object>Nieznane</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeeStdStopReason" ServiceOnly="false">
+      <resource name="Device offline">
+        <object>Urządzenie wyłączone</object>
+      </resource>
+      <resource name="Line restraint in">
+        <object>Ogranicznik linii wewnątrz</object>
+      </resource>
+      <resource name="Line restraint out">
+        <object>Ogranicznik linii na zewnątrz</object>
+      </resource>
+      <resource name="Waiting for staff">
+        <object>Oczekiwanie na personel</object>
+      </resource>
+      <resource name="BreakScheduled">
+        <object>Planowana przerwa</object>
+      </resource>
+      <resource name="Setup">
+        <object>Ustawienia</object>
+      </resource>
+      <resource name="Waiting for material">
+        <object>Oczekiwanie na materiał</object>
+      </resource>
+      <resource name="Waiting for tech staff">
+        <object>Oczekiwanie na personel techniczny</object>
+      </resource>
+      <resource name="No production">
+        <object>Brak produkcji</object>
+      </resource>
+      <resource name="Testing">
+        <object>Kontrola</object>
+      </resource>
+      <resource name="Maintenance">
+        <object>Konserwacja</object>
+      </resource>
+      <resource name="TAP device offline">
+        <object>Urządzenie TAP wyłączone</object>
+      </resource>
+      <resource name="General">
+        <object>Informacje ogólne</object>
+      </resource>
+      <resource name="Idle break">
+        <object>Przerwa w stanie bezczynności</object>
+      </resource>
+      <resource name="Start up">
+        <object>Uruchamianie</object>
+      </resource>
+      <resource name="Emergency stop">
+        <object>Zatrzymanie awaryjne</object>
+      </resource>
+      <resource name="Flock change">
+        <object>Zmiana stada</object>
+      </resource>
+      <resource name="Line stopped">
+        <object>Linia zatrzymana</object>
+      </resource>
+      <resource name="OEE plugin not started">
+        <object>Plugin OEE nieuruchomiony</object>
+      </resource>
+      <resource name="No orders">
+        <object>Brak zleceń</object>
+      </resource>
+      <resource name="Scheduled break">
+        <object>Planowana przerwa</object>
+      </resource>
+      <resource name="Generic failure">
+        <object>Usterka rodzajowa</object>
+      </resource>
+      <resource name="No products available">
+        <object>Brak dostępnych produktów</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

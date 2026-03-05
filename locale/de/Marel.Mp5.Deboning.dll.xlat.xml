@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="de">
+  <industry>
+    <type name="Marel.Mp5.Deboning.Configuration.BufferType" ServiceOnly="true">
+      <resource name="PeriodicSet">
+        <object>Satz</object>
+      </resource>
+      <resource name="PeriodicSystem">
+        <object>Periodisch gesteuert</object>
+      </resource>
+      <resource name="Operator">
+        <object>System gesteuert</object>
+      </resource>
+      <resource name="AutomaticSensor">
+        <object>Automatisch nach Sensor</object>
+      </resource>
+      <resource name="AutomaticWeight">
+        <object>Automatisch nach Gewicht</object>
+      </resource>
+      <resource name="Generic">
+        <object>Generic</object>
+      </resource>
+      <resource name="AutomaticTask">
+        <object>Automatisch nach Aufgabe</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.EmployeeCapability" ServiceOnly="false">
+      <resource name="Allow">
+        <object>Produkt zulassen</object>
+      </resource>
+      <resource name="Deny">
+        <object>Produkt ablehnen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.GateType" ServiceOnly="true">
+      <resource name="Output">
+        <object>Einfache Ausgabe</object>
+      </resource>
+      <resource name="SystemBatching">
+        <object>System Chargierung</object>
+      </resource>
+      <resource name="DeviceBatching">
+        <object>Geräte Chargierung</object>
+      </resource>
+      <resource name="Queue">
+        <object>Stück Reihenfolge</object>
+      </resource>
+      <resource name="Qc">
+        <object>Qualitätskontrolle</object>
+      </resource>
+      <resource name="Infeed">
+        <object>Eingabe</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.SeparationType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Keine Trennung</object>
+      </resource>
+      <resource name="SlaughterHouse">
+        <object>Nach Schlachthaus</object>
+      </resource>
+      <resource name="Category">
+        <object>Nach Kategorie</object>
+      </resource>
+      <resource name="Lot">
+        <object>Nach Los</object>
+      </resource>
+      <resource name="TrimLot">
+        <object>Nach Trimm Los</object>
+      </resource>
+      <resource name="BaseItem">
+        <object>Nach Basisobjekt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Configuration.StationType" ServiceOnly="true">
+      <resource name="Generic">
+        <object>Allgemeine</object>
+      </resource>
+      <resource name="Input">
+        <object>Eingabe</object>
+      </resource>
+      <resource name="CutUp">
+        <object>Zerlegung</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Qualitätskontrolle</object>
+      </resource>
+      <resource name="Packing">
+        <object>Verpackung</object>
+      </resource>
+      <resource name="Downgrade">
+        <object>Degradieren</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.TaskType" ServiceOnly="false">
+      <resource name="CutUp">
+        <object>Zerlegung</object>
+      </resource>
+      <resource name="Criteria">
+        <object>Kriterium</object>
+      </resource>
+      <resource name="Piece">
+        <object>Endobjekt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.NodeType" ServiceOnly="false">
+      <resource name="Pattern">
+        <object>Schnittmuster</object>
+      </resource>
+      <resource name="Task">
+        <object>Aufgabe</object>
+      </resource>
+      <resource name="TaskLine">
+        <object>Aufgabelinie</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.InspectionMode" ServiceOnly="false">
+      <resource name="Random">
+        <object>Nach Zufall</object>
+      </resource>
+      <resource name="Planned">
+        <object>Geplant</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Zurückschalten "Nach Zufall"</object>
+      </resource>
+      <resource name="OperatorSelect">
+        <object>Vom Bediener gewählt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.FallbackType" ServiceOnly="false">
+      <resource name="None">
+        <object>Kein Zurückschalten</object>
+      </resource>
+      <resource name="Selected">
+        <object>Ausgewählte Produkte</object>
+      </resource>
+      <resource name="Any">
+        <object>Jedes Produkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.PlanMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nicht festgelegt</object>
+      </resource>
+      <resource name="Rate">
+        <object>Inspektionsfolge</object>
+      </resource>
+      <resource name="EmployeeAverage">
+        <object>Mitarbeiter durchschnitt</object>
+      </resource>
+      <resource name="EmployeeMaximum">
+        <object>Mitarbeiter Maximum</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>Biedienerabfrage</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>Externe Abfrage</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.QcMethod" ServiceOnly="false">
+      <resource name="None">
+        <object>Keine QC</object>
+      </resource>
+      <resource name="NormalQc">
+        <object>Normale QC</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Zurückscahlen erlauben</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.ChangeReasonLogRType" ServiceOnly="false">
+      <resource name="TaskChange">
+        <object>Aufgabe ändern</object>
+      </resource>
+      <resource name="ProductChange">
+        <object>Produkt wechseln</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Qc.SelectionReason" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Nicht definiert</object>
+      </resource>
+      <resource name="Random">
+        <object>Zufall</object>
+      </resource>
+      <resource name="Rate">
+        <object>Inspektionsfolge</object>
+      </resource>
+      <resource name="EmployeeAverage">
+        <object>Mitarbeiter Durschnitt</object>
+      </resource>
+      <resource name="EmployeeMaximum">
+        <object>Mitarbeiter Maximum</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>Biedienerabfraget</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>Externe Abfrage</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.QcSelectionLogRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Regulär</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.DbItemRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Regulär</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Abgebrochen</object>
+      </resource>
+      <resource name="Missing">
+        <object>Fehlt</object>
+      </resource>
+      <resource name="Calculated">
+        <object>Berechnet</object>
+      </resource>
+      <resource name="FinalProduct">
+        <object>Endprodukt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.PieceLogRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Regulär</object>
+      </resource>
+      <resource name="NotHandled">
+        <object>Nicht Unterstützt</object>
+      </resource>
+      <resource name="Missing">
+        <object>Fehlend</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Data.LotStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Nicht gestartet</object>
+      </resource>
+      <resource name="Active">
+        <object>Aktive</object>
+      </resource>
+      <resource name="Completed">
+        <object>Abgeschlossen</object>
+      </resource>
+      <resource name="Blocked">
+        <object>Blockiert</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.Controllers.ServiceResult" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ergebniss nicht gewählt</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Allgemeiner Datenbankfehler</object>
+      </resource>
+      <resource name="LoadCachedData">
+        <object>Speicherlesefehler</object>
+      </resource>
+      <resource name="InvalidSystemId">
+        <object>Ungültige  System ID</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Fernwartungsverbindungsfehler</object>
+      </resource>
+      <resource name="LoadSystemInfo">
+        <object>Fehler beim Laden der Systeminformationen</object>
+      </resource>
+      <resource name="NoService">
+        <object>Im System ist kein Kontrollprogramm angelegt</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Fehler beim Laden der Fernwartungsinformationen</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Ausgewähltes Objekt antwortet nicht</object>
+      </resource>
+      <resource name="LoadPattern">
+        <object>Schnittmuster nicht aus dem Speicher geladen</object>
+      </resource>
+      <resource name="LoadPatternNode">
+        <object>Fehler im Schnittmuster - Knotenpunkt nicht enhalten</object>
+      </resource>
+      <resource name="NodeType">
+        <object>Knotenpunkt ungültig</object>
+      </resource>
+      <resource name="InvalidControllerId">
+        <object>Ungültige Kontroller ID</object>
+      </resource>
+      <resource name="InvalidStationId">
+        <object>Ungültige Stations ID</object>
+      </resource>
+      <resource name="ServerNotUp">
+        <object>Das Server Programm ist nicht vollständig konfiguriert</object>
+      </resource>
+      <resource name="InvalidTaskGroupId">
+        <object>Ungültige Aufgabengruppen ID</object>
+      </resource>
+      <resource name="InterfaceType">
+        <object>Schnittstellentyp stimmt nicht mit Zieltyp überein</object>
+      </resource>
+      <resource name="LoadBaseItem">
+        <object>Basisstypeintrag konnte nicht geladen werden</object>
+      </resource>
+      <resource name="LoadParentItem">
+        <object>Stammdateneintrag konnte nicht geladen werden</object>
+      </resource>
+      <resource name="LoadIndividual">
+        <object>Einzeleintrag konnte nicht geladen werden</object>
+      </resource>
+      <resource name="NoBid">
+        <object>Keine Zielstation frei- Warten...</object>
+      </resource>
+      <resource name="InvalidNodeId">
+        <object>Knotenpunkt nicht im Schnittmuster</object>
+      </resource>
+      <resource name="NoRootNode">
+        <object>Schnittmuster hat kein Ausgangsknotenpunkt</object>
+      </resource>
+      <resource name="LoadItem">
+        <object>Stückdaten konnte nicht geladen werden</object>
+      </resource>
+      <resource name="LoadProduct">
+        <object>Produktdaten konnte nicht geladen werden</object>
+      </resource>
+      <resource name="NoInterface">
+        <object>Server hat keine Schnittstelle zu dem angfragten Objekt</object>
+      </resource>
+      <resource name="InvalidPieceId">
+        <object>Ungültige Stück ID</object>
+      </resource>
+      <resource name="InvalidTaskType">
+        <object>Ungültiger Aufgaben typ</object>
+      </resource>
+      <resource name="PieceActive">
+        <object>Kann kein Stück gestartet werden - Anders Stück noch aktive</object>
+      </resource>
+      <resource name="TaskFinished">
+        <object>Aktion nicht möglich wenn Aufgabe schon beendet ist </object>
+      </resource>
+      <resource name="TaskPending">
+        <object>Aktion nicht möglich, wenn Aufage ausgeführt wird</object>
+      </resource>
+      <resource name="EmptyTask">
+        <object>Aktion nicht möglich bei leerer Aufgabenliste</object>
+      </resource>
+      <resource name="NoBuffer">
+        <object>Kein Puffer frei um Produkt anzunehmen</object>
+      </resource>
+      <resource name="BufferBusy">
+        <object>Der Produktpuffer ist ausgelastet</object>
+      </resource>
+      <resource name="InvalidBufferIndex">
+        <object>Der festgelegte Pufferindex ist ungültig</object>
+      </resource>
+      <resource name="NoTask">
+        <object>Momentan keine Aufgabe</object>
+      </resource>
+      <resource name="NoItemCreated">
+        <object>Die Geräteeinheit findet keinen Eintrag</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Gweicht nötig für den Aufgabeneintrag</object>
+      </resource>
+      <resource name="NoTaskGroup">
+        <object>Aufgabe felht in der Aufgabengruppe</object>
+      </resource>
+      <resource name="NoController">
+        <object>Steuerung für Aufgabengruppe nicht gefunden</object>
+      </resource>
+      <resource name="UnitOpFailed">
+        <object>Ausführung nicht möglich</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>Informationen der Prozesseinheit fehlen</object>
+      </resource>
+      <resource name="NoUnitOperation">
+        <object>Einheitenoperation fehlt</object>
+      </resource>
+      <resource name="PieceStatus">
+        <object>Stück mit Status != OK kann nicht gestartet </object>
+      </resource>
+      <resource name="PatternError">
+        <object>Allgemneiner Schnittmusterfehler</object>
+      </resource>
+      <resource name="NoCriteriaLine">
+        <object>Keine Kriteriums- und keine Standartzeile ausgewählt</object>
+      </resource>
+      <resource name="InvalidTaskLineId">
+        <object>Die Aufgabe ist nicht in der ausgewählten Auzfgabengruppe  </object>
+      </resource>
+      <resource name="TaskLineNotAvailable">
+        <object>Die Aufgabe kann nicht ausgewählt werden</object>
+      </resource>
+      <resource name="CriteriaTask">
+        <object>Eine ausgewählte Kriteriumsaufgabe kann nicht gestartet werden </object>
+      </resource>
+      <resource name="NoProduct">
+        <object>Produkt Id is notwendig</object>
+      </resource>
+      <resource name="NoStationUnitId">
+        <object>Stück hat keine Stationseinheits ID</object>
+      </resource>
+      <resource name="LoadProgram">
+        <object>Programm nicht aus der Datenbank geladen</object>
+      </resource>
+      <resource name="UnspecifiedError">
+        <object>Unspezifizierter Fehler error</object>
+      </resource>
+      <resource name="NoQcTable">
+        <object>Keine QC-Übesicht for diese Station installiert </object>
+      </resource>
+      <resource name="NotAllowed">
+        <object>Konfiguration erlaubt keine Eingabe</object>
+      </resource>
+      <resource name="InvalidQcTableId">
+        <object>Ungültige QC Tabellen ID</object>
+      </resource>
+      <resource name="InQcMode">
+        <object>Station ist im QC Modus</object>
+      </resource>
+      <resource name="NotQcPiece">
+        <object>Stück ist kein QC Stück</object>
+      </resource>
+      <resource name="QcTable">
+        <object>Stück ist auf keinem geeigneten QC Tisch zu finden</object>
+      </resource>
+      <resource name="NoPiece">
+        <object>Kein aktuelles Stück verfügbar</object>
+      </resource>
+      <resource name="InvalidOperation">
+        <object>Unbekannte oder ungültige Bedienen in diesem Zusammenhang </object>
+      </resource>
+      <resource name="Exception">
+        <object>Allgemeiner Ausnahmefall</object>
+      </resource>
+      <resource name="Timeout">
+        <object>Zeit abgelaufen für diese Bedienung</object>
+      </resource>
+      <resource name="UnitOpNotLoaded">
+        <object>Arbeitsablauf nicht vom Speicher geladen</object>
+      </resource>
+      <resource name="NotInTaskGroup">
+        <object>Die Station ist nicht in der angegebenen Aufgabengruppe </object>
+      </resource>
+      <resource name="GateSeparationBlocked">
+        <object>Produkt kann nicht wegen Beschränkungen nicht gestartet werden.</object>
+      </resource>
+      <resource name="NoIdContainer">
+        <object>ID-Container nicht gefunden</object>
+      </resource>
+      <resource name="InvalidIdContainer">
+        <object>Ungültiger ID-Container</object>
+      </resource>
+      <resource name="UpdateIdContainerError">
+        <object>Aktualisierung des ID-Container-Datensatzes fehlgeschlagen</object>
+      </resource>
+      <resource name="LoadLot">
+        <object>Losdatensatz konnte nicht geladen werden</object>
+      </resource>
+      <resource name="NoAnimalLot">
+        <object>Los fehlt in Datensatz des Tieres</object>
+      </resource>
+      <resource name="NoIdContainerLot">
+        <object>Los fehlt im ID-Container-Datensatz</object>
+      </resource>
+      <resource name="NoTaskGroupFound">
+        <object>Aufgabengruppe für sich bewegendes Stück nicht gefunden</object>
+      </resource>
+      <resource name="NoStation">
+        <object>Keine Station in Zielaufgabengruppe gefunden</object>
+      </resource>
+      <resource name="BufferTransfer">
+        <object>Keine Stationen verfügbar</object>
+      </resource>
+      <resource name="InvalidData">
+        <object>Ungültige Daten</object>
+      </resource>
+      <resource name="InvalidDeviceControllerId">
+        <object>Ungültiger Gerät-Controller</object>
+      </resource>
+      <resource name="InvalidPrinter">
+        <object>Ungültiger Drucker </object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Serverinformationen konnten nicht geladen werden</object>
+      </resource>
+      <resource name="LoadTaskGroup">
+        <object>Aufgabengruppe konnte nicht geladen werden</object>
+      </resource>
+      <resource name="NotBatchingStation">
+        <object>Station ist nicht als Chargenbildungsstation konfiguriert</object>
+      </resource>
+      <resource name="Ok">
+        <object>OK</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.Verifications.RuleViolationType" ServiceOnly="false">
+      <resource name="NoViolation">
+        <object>Kein Fehler</object>
+      </resource>
+      <resource name="Information">
+        <object>Information</object>
+      </resource>
+      <resource name="Violation">
+        <object>Fehler</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.Verifications.MatchProcessStepsRule" ServiceOnly="false">
+      <resource name="DisplayName">
+        <object>Prozessschritte anpassen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.Verifications.MatchTaskGroupsRule" ServiceOnly="false">
+      <resource name="DisplayName">
+        <object>Aufgabegruppe anpassen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.CutPatterns.CustomTaskCriteriaType" ServiceOnly="false">
+      <resource name="SystemMacro">
+        <object>System Makro</object>
+      </resource>
+      <resource name="PythonScript">
+        <object>Python Skript</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources culture="nl">
+  <industry>    
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Collectors.ScopeDataCollector" ServiceOnly="false">
+      <resource name="Err.Timeout">
+        <object>Er is een time-out opgetreden tijdens het verzamelen van scope-gegevens. Onvoldoende gegevens verzameld.</object>
+      </resource>    
+      <resource name="Err.NoPreSampleData">
+        <object>Gegevens voorafgaand aan monster kunnen niet worden verzameld wegens ontbrekende signalen van de startsensor.</object>
+      </resource>
+      <resource name="Err.WrongDeviceMode">
+        <object>Kan verzamelen van scope-gegevens niet starten. Apparaat is niet actief in modus 90-93</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2DeviceHandler" ServiceOnly="false">
+      <resource name="Err.OfflineCallFailed">
+        <object>Apparaat is niet online. {0} mislukt</object>
+      </resource>    
+      <resource name="Err.ReadRegisterTimeout">
+        <object>Time-out bij lezen van register</object>
+      </resource>
+      <resource name="Err.GetStatus">
+        <object>Kan GetStatus niet uitvoeren</object>
+      </resource>
+      <resource name="Err.GetRegisters">
+        <object>Kan GetRegisters niet uitvoeren</object>
+      </resource>
+      <resource name="Err.PutGetRegisters">
+        <object>Kan PutGetRegisters niet uitvoeren</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2RawDataHandler" ServiceOnly="false">
+      <resource name="Err.NotOnline">
+        <object>MWS2-apparaat niet online</object>
+      </resource>    
+      <resource name="Err.ScopeCollectionBusy">
+        <object>Verzamelen van scope-gegevens wordt al uitgevoerd. Wacht totdat het verzamelen is voltooid...</object>
+      </resource>
+      <resource name="Err.StaticWeightTimeout">
+        <object>Wachten op time-out voor statisch gewicht</object>
+      </resource>
+      <resource name="Err.NoDataFromDevice">
+        <object>Kan geen gegevens ophalen van apparaat</object>
+      </resource>
+      <resource name="Err.DeviceInWrongMode">
+        <object>Het apparaat is niet actief in modus 90-93. Ophalen van statisch gewicht is niet mogelijk</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fr">
+  <industry>
+    <type name="Marel.Mp5.Trimming.Configuration.StationInfeedStatus" ServiceOnly="false">
+      <resource name="Idle">
+        <object>Au repos</object>
+      </resource>
+      <resource name="Working">
+        <object>En service</object>
+      </resource>
+      <resource name="Requesting">
+        <object>Demande…</object>
+      </resource>
+      <resource name="Delivering">
+        <object>Livraison…</object>
+      </resource>
+      <resource name="Changeover">
+        <object>Remplacer</object>
+      </resource>
+      <resource name="Clear">
+        <object>Effacer</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.PlanMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Non défini</object>
+      </resource>
+      <resource name="Rate">
+        <object>Taux d’inspection</object>
+      </resource>
+      <resource name="TrimmerAverage">
+        <object>Moyenne employé</object>
+      </resource>
+      <resource name="TrimmerMaximum">
+        <object>Maximum employé</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>Demande opérateur</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>Demande externe</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.QcMethod" ServiceOnly="false">
+      <resource name="None">
+        <object>Sans</object>
+      </resource>
+      <resource name="NormalQc">
+        <object>Normal</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Réserve</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Data.TrimRType" ServiceOnly="false">
+      <resource name="Input">
+        <object>Entrée</object>
+      </resource>
+      <resource name="Output">
+        <object>Sortie</object>
+      </resource>
+      <resource name="Bypass">
+        <object>Ignorer</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Supprimé</object>
+      </resource>
+      <resource name="NoSource">
+        <object>Pas de source</object>
+      </resource>
+      <resource name="NotHandled">
+        <object>Non géré</object>
+      </resource>
+      <resource name="Missing">
+        <object>Manquant</object>
+      </resource>
+      <resource name="CopiedInput">
+        <object>Entrée copiée</object>
+      </resource>
+      <resource name="CopiedOutput">
+        <object>Sortie copiée</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Data.ProductCategory" ServiceOnly="false">
+      <resource name="RawMaterial">
+        <object>Entrée Brut</object>
+      </resource>
+      <resource name="Primary">
+        <object>Primaire</object>
+      </resource>
+      <resource name="Secondary">
+        <object>Secondaire</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>Tertiaire</object>
+      </resource>
+      <resource name="Waste">
+        <object>Déchets</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.InspectionMode" ServiceOnly="false">
+      <resource name="Random">
+        <object>Aléatoire</object>
+      </resource>
+      <resource name="Planned">
+        <object>Planifié</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Réserve</object>
+      </resource>
+      <resource name="OperatorSelect">
+        <object>Choix de l’opérateur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.FallbackType" ServiceOnly="false">
+      <resource name="None">
+        <object>Sans</object>
+      </resource>
+      <resource name="Selected">
+        <object>Pour les produits sélectionnés</object>
+      </resource>
+      <resource name="Any">
+        <object>Pour tous les produits</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.SystemType" ServiceOnly="true">
+      <resource name="Standard">
+        <object>Standard</object>
+      </resource>
+      <resource name="Group">
+        <object>Postes de groupe</object>
+      </resource>
+      <resource name="Manual">
+        <object>Manuel</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.DeviceRole" ServiceOnly="true">
+      <resource name="NotSpecified">
+        <object>Non spécifié</object>
+      </resource>
+      <resource name="ProductInput">
+        <object>Entrée de produits</object>
+      </resource>
+      <resource name="ProductOutput">
+        <object>Sortie de produits</object>
+      </resource>
+      <resource name="SecondaryProductOutput">
+        <object>Secondary product output</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.BufferType" ServiceOnly="true">
+      <resource name="PeriodicSet">
+        <object>Jeu périodique</object>
+      </resource>
+      <resource name="MpsPeriod">
+        <object>Période MPS</object>
+      </resource>
+      <resource name="MpsOperator">
+        <object>Opérateur MPS</object>
+      </resource>
+      <resource name="Automatic">
+        <object>Automatique</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.GateType" ServiceOnly="true">
+      <resource name="Simple">
+        <object>Simple</object>
+      </resource>
+      <resource name="Batching">
+        <object>Colisage</object>
+      </resource>
+      <resource name="Grading">
+        <object>Calibrage</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Contrôle qualité</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.StationType" ServiceOnly="true">
+      <resource name="Infeed">
+        <object>Alimentation</object>
+      </resource>
+      <resource name="Trimming">
+        <object>Parage</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Contrôle qualité</object>
+      </resource>
+      <resource name="Packing">
+        <object>Conditionnement</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Line.RoleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>Entrée</object>
+      </resource>
+      <resource name="Output">
+        <object>Sortie</object>
+      </resource>
+      <resource name="CopyInput">
+        <object>Copier l’entrée</object>
+      </resource>
+      <resource name="CopyOutput">
+        <object>Copier la sortie</object>
+      </resource>
+      <resource name="Mixed">
+        <object>Mélangé</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

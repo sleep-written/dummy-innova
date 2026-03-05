@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="ru">
+  <industry>
+    <type name="Marel.Mp5.Base.Programs.ExecutableType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Не установлен</object>
+      </resource>
+      <resource name="Binary">
+        <object>Исполняемый файл</object>
+      </resource>
+      <resource name="Command">
+        <object>Командный файл</object>
+      </resource>
+      <resource name="AppDomain">
+        <object>Исполняемый файл AppDomain</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Не установлен</object>
+      </resource>
+      <resource name="ProgramManager">
+        <object>Диспетчер программ</object>
+      </resource>
+      <resource name="NetworkRouter">
+        <object>Маршрутизатор сети</object>
+      </resource>
+      <resource name="SystemService">
+        <object>Системная служба</object>
+      </resource>
+      <resource name="ControlProgram">
+        <object>Программа управления</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduleType" ServiceOnly="true">
+      <resource name="Never">
+        <object>Никогда</object>
+      </resource>
+      <resource name="Sequence">
+        <object>В запрограммированной последовательности</object>
+      </resource>
+      <resource name="Daily">
+        <object>Ежедневно</object>
+      </resource>
+      <resource name="Weekly">
+        <object>Еженедельно</object>
+      </resource>
+      <resource name="Monthly">
+        <object>Ежемесячно</object>
+      </resource>
+      <resource name="Yearly">
+        <object>Ежегодно</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Исходный</object>
+      </resource>
+      <resource name="Error">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="Running">
+        <object>Выполнение</object>
+      </resource>
+      <resource name="Stopping">
+        <object>Остановка</object>
+      </resource>
+      <resource name="Dead">
+        <object>Заблокировано</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Остановлено</object>
+      </resource>
+      <resource name="RunWait">
+        <object>Ожидание запуска</object>
+      </resource>
+      <resource name="StopWait">
+        <object>Ожидание остановки</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ExecuteProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Инициализированный</object>
+      </resource>
+      <resource name="Executing">
+        <object>Выполнение</object>
+      </resource>
+      <resource name="Completed">
+        <object>Завершено</object>
+      </resource>
+      <resource name="CompletedLate">
+        <object>Завершено поздно</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Прервано</object>
+      </resource>
+      <resource name="Error">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="Terminating">
+        <object>Прерывание</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ManagerState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Исходный</object>
+      </resource>
+      <resource name="RefreshingList">
+        <object>Обновление списка программ</object>
+      </resource>
+      <resource name="Running">
+        <object>Выполнение</object>
+      </resource>
+      <resource name="Shutdown">
+        <object>Отключение</object>
+      </resource>
+      <resource name="ShutdownMsg">
+        <object>Отключение системной службы</object>
+      </resource>
+      <resource name="ShutdownComplete">
+        <object>Отключение завершено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ResponseState" ServiceOnly="true">
+      <resource name="CantCheck">
+        <object>Невозможно выполнить проверку</object>
+      </resource>
+      <resource name="NotChecked">
+        <object>Проверка не выполнялась</object>
+      </resource>
+      <resource name="Responding">
+        <object>Отвечает</object>
+      </resource>
+      <resource name="NotResponding">
+        <object>Не отвечает</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduledProgramState" ServiceOnly="true">
+      <resource name="Executed">
+        <object>Выполнено</object>
+      </resource>
+      <resource name="ExecutedWait">
+        <object>Выполнено по истечении запланированного времени</object>
+      </resource>
+      <resource name="ExecutedRequest">
+        <object>Выполнено по запросу</object>
+      </resource>
+      <resource name="Missed">
+        <object>Отсутствует запланированное время</object>
+      </resource>
+      <resource name="StoppedOnTime">
+        <object>Завершено</object>
+      </resource>
+      <resource name="StoppedLate">
+        <object>Завершено поздно</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Прервано</object>
+      </resource>
+      <resource name="Error">
+        <object>Ошибка</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.InterfaceType" ServiceOnly="true">
+      <resource name="NotHandled">
+        <object>Не обработан</object>
+      </resource>
+      <resource name="TcpIpMarel">
+        <object>TCP/IP Marel</object>
+      </resource>
+      <resource name="TcpIpOther">
+        <object>TCP/IP другое</object>
+      </resource>
+      <resource name="Rs232">
+        <object>RS232</object>
+      </resource>
+      <resource name="LonMarel">
+        <object>LON</object>
+      </resource>
+      <resource name="CanMaster">
+        <object>CAN через CanMaster</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Не указан</object>
+      </resource>
+      <resource name="Limited">
+        <object>Ограниченный</object>
+      </resource>
+      <resource name="Unlimited">
+        <object>Неограниченный</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseLogType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Не указан</object>
+      </resource>
+      <resource name="Issued">
+        <object>Лицензия выдана</object>
+      </resource>
+      <resource name="Returned">
+        <object>Лицензия возвращена</object>
+      </resource>
+      <resource name="LeaseExpired">
+        <object>Срок аренды истек</object>
+      </resource>
+      <resource name="UnknownType">
+        <object>Неизвестный тип лицензии</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.AccessLevel" ServiceOnly="false">
+      <resource name="Undefined">
+        <object>Не определено</object>
+      </resource>
+      <resource name="PersonalData">
+        <object>Сотрудник</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Абонент терминала</object>
+      </resource>
+      <resource name="Operator">
+        <object>Оператор</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Супервизор</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Администратор</object>
+      </resource>
+      <resource name="Service">
+        <object>Обслуживающий персонал</object>
+      </resource>
+      <resource name="Developer">
+        <object>Разработчик</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.LookupType" ServiceOnly="false">
+      <resource name="NoLookup">
+        <object>Поиск не выполняется</object>
+      </resource>
+      <resource name="Named">
+        <object>Поиск именованного объекта</object>
+      </resource>
+      <resource name="Numbered">
+        <object>Поиск идентификатора записи</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.ReferenceDateMethod" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Не установлен</object>
+      </resource>
+      <resource name="ProcessPeriod">
+        <object>Период обработки</object>
+      </resource>
+      <resource name="Date">
+        <object>Дата</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CompressMethod" ServiceOnly="true">
+      <resource name="GroupBy">
+        <object>Группа </object>
+      </resource>
+      <resource name="Sum">
+        <object>Сумма</object>
+      </resource>
+      <resource name="Min">
+        <object>Минимальная</object>
+      </resource>
+      <resource name="Max">
+        <object>Максимальная</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryChangeType" ServiceOnly="true">
+      <resource name="Insert">
+        <object>Вставлена</object>
+      </resource>
+      <resource name="Updated">
+        <object>Обновлена</object>
+      </resource>
+      <resource name="Delete">
+        <object>Удалена</object>
+      </resource>
+      <resource name="AppSpecific">
+        <object>Специальная операция</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryLogLevel" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Запись в журнал не выполняется</object>
+      </resource>
+      <resource name="BasicLogging">
+        <object>Операции с записями в журнале</object>
+      </resource>
+      <resource name="FullLogging">
+        <object>Запись в журнале всех операций</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationStatus" ServiceOnly="false">
+      <resource name="InActive">
+        <object>Неактивная запись</object>
+      </resource>
+      <resource name="Pending">
+        <object>Операция отложена</object>
+      </resource>
+      <resource name="Current">
+        <object>Готово</object>
+      </resource>
+      <resource name="Error">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="Ongoing">
+        <object>Выполняется настройка</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.UpdateAction" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Действие отсутствует</object>
+      </resource>
+      <resource name="ExecProgram">
+        <object>Выполнить программу</object>
+      </resource>
+      <resource name="SendRequest">
+        <object>Отправить запрос</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterType" ServiceOnly="false">
+      <resource name="NotSpecified">
+        <object>Не указан</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupType" ServiceOnly="false">
+      <resource name="PersonalData">
+        <object>Личные данные</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Абонент терминала</object>
+      </resource>
+      <resource name="Operator">
+        <object>Оператор</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Супервизор</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Администратор</object>
+      </resource>
+      <resource name="Service">
+        <object>Обслуживающий персонал</object>
+      </resource>
+      <resource name="Custom">
+        <object>Доступ к программному обеспечению</object>
+      </resource>
+      <resource name="LocationAccess">
+        <object>Доступ к местоположению </object>
+      </resource>
+      <resource name="General">
+        <object>Общая цель</object>
+      </resource>
+      <resource name="Developer">
+        <object>Разработчик</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.GroupAreaType" ServiceOnly="false">
+      <resource name="NoType">
+        <object>Область отсутствует</object>
+      </resource>
+      <resource name="Site">
+        <object>Месторасположение</object>
+      </resource>
+      <resource name="Department">
+        <object>Отдел</object>
+      </resource>
+      <resource name="Section">
+        <object>Секция</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Блок обработки</object>
+      </resource>
+      <resource name="Station">
+        <object>Станция</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupTimeType" ServiceOnly="false">
+      <resource name="NoRestriction">
+        <object>Без ограничений</object>
+      </resource>
+      <resource name="Weekday">
+        <object>День недели</object>
+      </resource>
+      <resource name="MonthDay">
+        <object>День месяца</object>
+      </resource>
+      <resource name="OnDuty">
+        <object>При исполнении служебных обязанностей</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.GuiNodeType" ServiceOnly="true">
+      <resource name="ControlForm">
+        <object>Форма управления</object>
+      </resource>
+      <resource name="Folder">
+        <object>Папка</object>
+      </resource>
+      <resource name="UserGrid">
+        <object>Таблица пользователя</object>
+      </resource>
+      <resource name="Log">
+        <object>Журнал</object>
+      </resource>
+      <resource name="Report">
+        <object>Отчет</object>
+      </resource>
+      <resource name="SetupGrid">
+        <object>Таблица настройки</object>
+      </resource>
+      <resource name="DocumentTree">
+        <object>Дерево документа</object>
+      </resource>
+      <resource name="Chart">
+        <object>Диаграмма</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.DeviceRecord" ServiceOnly="false">
+      <resource name="CanFormat">
+        <object>Устройство CAN {0} на {1}</object>
+      </resource>
+      <resource name="LonFormat">
+        <object>Устройство LON {0} на {1}</object>
+      </resource>
+      <resource name="Rs232Format">
+        <object>Устройство RS232 на {0}</object>
+      </resource>
+      <resource name="TcpMarelFormat">
+        <object>Устройство Marel TCP/IP на {0}</object>
+      </resource>
+      <resource name="TcpGenericFormat">
+        <object>Универсальное устройство TCP/IP {0}, порт{1}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.Records.StandardRecord" ServiceOnly="false">
+      <resource name="Copy">
+        <object>Копия</object>
+      </resource>
+      <resource name="Of">
+        <object>из</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.ClientSupport.ObjectActiveType" ServiceOnly="false">
+      <resource name="Inactive">
+        <object>Неактивный</object>
+      </resource>
+      <resource name="Active">
+        <object>Активный</object>
+      </resource>
+      <resource name="Both">
+        <object>И то, и другое</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Connections.PortType" ServiceOnly="true">
+      <resource name="RemotingTcp">
+        <object>Дистанционная связь TCP</object>
+      </resource>
+      <resource name="RemotingHttp">
+        <object>Дистанционная связь HTTP</object>
+      </resource>
+      <resource name="SSI">
+        <object>Гнездо</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaDateTimeType" ServiceOnly="false">
+      <resource name="Unspecified">
+        <object>Не указан</object>
+      </resource>
+      <resource name="ProductionDayFromTo">
+        <object>Диапазон дней производственного процесса</object>
+      </resource>
+      <resource name="DateFromTo">
+        <object>Диапазон дат</object>
+      </resource>
+      <resource name="DateTimeFromTo">
+        <object>Диапазон дат и времени</object>
+      </resource>
+      <resource name="ProductionDaySingle">
+        <object>День производственного процесса</object>
+      </resource>
+      <resource name="DateSingle">
+        <object>Дата</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaType" ServiceOnly="false">
+      <resource name="Lookup">
+        <object>Поиск</object>
+      </resource>
+      <resource name="DateTime">
+        <object>Дата и время</object>
+      </resource>
+      <resource name="SingleInteger">
+        <object>Единичное целое</object>
+      </resource>
+      <resource name="IntegerList">
+        <object>Список целых чисел</object>
+      </resource>
+      <resource name="SingleFloat">
+        <object>Единичное с плавающей запятой</object>
+      </resource>
+      <resource name="String">
+        <object>Строка</object>
+      </resource>
+      <resource name="CheckBox">
+        <object>Флажок</object>
+      </resource>
+      <resource name="ComboBox">
+        <object>Комбинированное окно</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.DataRecordType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Регулярный</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Общий</object>
+      </resource>
+      <resource name="Pending">
+        <object>Ожидающий</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Удалено</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Неверный</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Сжатый</object>
+      </resource>
+      <resource name="Partial">
+        <object>Частичный</object>
+      </resource>
+      <resource name="Yield">
+        <object>Выход продукта</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Обратный</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Выходной день</object>
+      </resource>
+      <resource name="Generated">
+        <object>Произведено</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Истрачено</object>
+      </resource>
+      <resource name="Returned">
+        <object>Возвращено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationOpType" ServiceOnly="true">
+      <resource name="Send">
+        <object>Отправить</object>
+      </resource>
+      <resource name="Get">
+        <object>Получить</object>
+      </resource>
+      <resource name="GetCopy">
+        <object>Получить копию</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterDataType" ServiceOnly="false">
+      <resource name="Integer">
+        <object>Целое</object>
+      </resource>
+      <resource name="Float">
+        <object>Число с плавающей запятой</object>
+      </resource>
+      <resource name="String">
+        <object>Строка</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.StatusCheckMode" ServiceOnly="false">
+      <resource name="PendingOnline">
+        <object>Задержка до включения</object>
+      </resource>
+      <resource name="Online">
+        <object>Только когда включен</object>
+      </resource>
+      <resource name="NoCheck">
+        <object>Проверка состояния не выполнялась</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ProgramType" ServiceOnly="true">
+      <resource name="Unkown">
+        <object>Неизвестный</object>
+      </resource>
+      <resource name="SystemProgram">
+        <object>Системная программа</object>
+      </resource>
+      <resource name="ScheduledProgram">
+        <object>Программа, выполняемая по расписанию</object>
+      </resource>
+      <resource name="RequestedProgram">
+        <object>Программа, выполняемая по запросу</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.KeyType" ServiceOnly="true">
+      <resource name="Temporary">
+        <object>Временный</object>
+      </resource>
+      <resource name="Permanent">
+        <object>Постоянный</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.LogReason" ServiceOnly="true">
+      <resource name="UnknownFeature">
+        <object>Неизвестная функция</object>
+      </resource>
+      <resource name="MaxInstances">
+        <object>Достигнуто максимальное количество экземпляров</object>
+      </resource>
+      <resource name="UnknownVersion">
+        <object>Запрошена неизвестная версия</object>
+      </resource>
+      <resource name="SignatureFailure">
+        <object>Подпись не совпадает</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.AlarmConfigurationListRecordCsvFileReader" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Ошибка при обработке строки из файла CSV</object>
+      </resource>
+      <resource name="ErrorCreatingRecord">
+        <object>Исключение при записи данных в журнал конфигурации аварийных сигналов</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.ImportCsvFile" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Ошибка при обработке строки из файла CSV</object>
+      </resource>
+      <resource name="ErrorCreatingRecord">
+        <object>Исключение при записи данных в журнал конфигурации аварийных сигналов</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.ExportCsvFile" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Ошибка при обработке строки из файла CSV</object>
+      </resource>
+      <resource name="ErrorCreatingRecord">
+        <object>Исключение при записи данных в журнал конфигурации аварийных сигналов</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

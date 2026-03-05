@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="cs">
+  <industry>
+    <type name="Marel.Mp5.Grading.Configuration.SlaveMode" ServiceOnly="true">
+      <resource name="NotSlave">
+        <object>Není podřízený</object>
+      </resource>
+      <resource name="PartSlave">
+        <object>Část. podřízený</object>
+      </resource>
+      <resource name="AllSlave">
+        <object>Podřízená jednotka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.GateType" ServiceOnly="true">
+      <resource name="SimpleOutput">
+        <object>Jednoduchý výstup</object>
+      </resource>
+      <resource name="Bin">
+        <object>Zásobník</object>
+      </resource>
+      <resource name="CheckBin">
+        <object>Zkontrolujte zásobník</object>
+      </resource>
+      <resource name="FlowControl">
+        <object>Kontrola průchodu</object>
+      </resource>
+      <resource name="BatchingReject">
+        <object>Vyřazení dávky</object>
+      </resource>
+      <resource name="ContaminantReject">
+        <object>Vyřazení nečistotami</object>
+      </resource>
+      <resource name="ContaminantRejectOverFlow">
+        <object>Vyřazení přeplnění nečistotami</object>
+      </resource>
+      <resource name="UncorrelatedReject">
+        <object>Vyřazení bez korelace</object>
+      </resource>
+      <resource name="BatchingRejectOverFlow">
+        <object>Vyřazení přeplnění dávkami</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.DischargeType" ServiceOnly="true">
+      <resource name="None">
+        <object>Žádný</object>
+      </resource>
+      <resource name="Belt">
+        <object>Pás</object>
+      </resource>
+      <resource name="Cabin">
+        <object>Skříň</object>
+      </resource>
+      <resource name="Vertical">
+        <object>Svislý</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.WeigherType" ServiceOnly="true">
+      <resource name="Belt">
+        <object>Pás</object>
+      </resource>
+      <resource name="Hopper">
+        <object>Násypka</object>
+      </resource>
+      <resource name="Platform">
+        <object>Plošina</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.LaneType" ServiceOnly="true">
+      <resource name="Single">
+        <object>Jednoduchý</object>
+      </resource>
+      <resource name="Left">
+        <object>Levý</object>
+      </resource>
+      <resource name="Right">
+        <object>Pravý</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.SystemType" ServiceOnly="true">
+      <resource name="Simple">
+        <object>Jednoduché třídění</object>
+      </resource>
+      <resource name="PassivePacking">
+        <object>Pasivní balení</object>
+      </resource>
+      <resource name="ActivePacking">
+        <object>Aktivní balení</object>
+      </resource>
+      <resource name="Reporting">
+        <object>Oznámení</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.DataType" ServiceOnly="true">
+      <resource name="Boolean">
+        <object>Booleovský operátor</object>
+      </resource>
+      <resource name="Byte">
+        <object>Bajt</object>
+      </resource>
+      <resource name="Sbyte">
+        <object>Bajt se znaménkem</object>
+      </resource>
+      <resource name="Uint16">
+        <object>16bitové celé číslo bez znaménka</object>
+      </resource>
+      <resource name="Uint32">
+        <object>32bitové celé číslo bez znaménka</object>
+      </resource>
+      <resource name="Int32">
+        <object>32bitové celé číslo</object>
+      </resource>
+      <resource name="Float">
+        <object>Číslo s plovoucí řádovou čárkou</object>
+      </resource>
+      <resource name="String">
+        <object>Řetězec</object>
+      </resource>
+      <resource name="Ustring">
+        <object>Řetězec Unicode</object>
+      </resource>
+      <resource name="Enum">
+        <object>Výčet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.BatchDetails" ServiceOnly="false">
+      <resource name="None">
+        <object>Žádný</object>
+      </resource>
+      <resource name="Simple">
+        <object>Jednoduché</object>
+      </resource>
+      <resource name="ProductDetails">
+        <object>Podrobnosti produktu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.PieceDetails" ServiceOnly="false">
+      <resource name="None">
+        <object>Žádný</object>
+      </resource>
+      <resource name="Simple">
+        <object>Jednoduché</object>
+      </resource>
+      <resource name="UpdatePackId">
+        <object>Aktualizovat identifikaci balíčku</object>
+      </resource>
+      <resource name="PostBatch">
+        <object>Poslat dávku</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.PieceRecordType" ServiceOnly="false">
+      <resource name="PhysicalGrading">
+        <object>Fyzické</object>
+      </resource>
+      <resource name="ExtraGrading">
+        <object>Zvláštní</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.BatchRecordType" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Neznámé</object>
+      </resource>
+      <resource name="Batch">
+        <object>Dávka</object>
+      </resource>
+      <resource name="PeriodicBatch">
+        <object>Pravidelná dávka</object>
+      </resource>
+      <resource name="IncompleteBatch">
+        <object>Neúplná dávka</object>
+      </resource>
+      <resource name="ExternalBatch">
+        <object>Externí dávka</object>
+      </resource>
+      <resource name="RejectUnderweight">
+        <object>Vyřazeno kvůli podváze</object>
+      </resource>
+      <resource name="RejectOverweight">
+        <object>Vyřazeno kvůli převažku</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.ValueType" ServiceOnly="false">
+      <resource name="Weight">
+        <object>Hmotnost</object>
+      </resource>
+      <resource name="Width">
+        <object>Šířka</object>
+      </resource>
+      <resource name="Height">
+        <object>Výška</object>
+      </resource>
+      <resource name="Length">
+        <object>Délka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.GradingOperationResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Operace byla dokončena úspěšně.</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Došlo k obecné chybě databáze.</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Operace není podporována.</object>
+      </resource>
+      <resource name="NoGate">
+        <object>Propust na stroji neexistuje.</object>
+      </resource>
+      <resource name="NoSetup">
+        <object>Propust není přiřazena k nastavení.</object>
+      </resource>
+      <resource name="NoGrade">
+        <object>Propust není přiřazena k třídiči.</object>
+      </resource>
+      <resource name="GraderOffline">
+        <object>Stroj je momentálně offline.</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>Žádná použitelná paleta.</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>Žádná platná kolekce.</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>Stav kolekce neumožňuje operaci.</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>Produkt u propusti neodpovídá produktu kolekce.</object>
+      </resource>
+      <resource name="Exception">
+        <object>Výjimka aplikace.</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Informace o rozhraní služby třídění nelze načíst.</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Informace o programu serveru služby třídění nelze načíst.</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Získávání vzdáleného objektu proxy.</object>
+      </resource>
+      <resource name="RemoteException">
+        <object>Vzdálený objekt vyvolal nespecifikovanou výjimku.</object>
+      </resource>
+      <resource name="NoGrader">
+        <object>Třídič v daném systému třídění neexistuje.</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>Operace vyžaduje platnou dávku</object>
+      </resource>
+      <resource name="ItemAdded">
+        <object>Zadaná položka byla úspěšně přidána</object>
+      </resource>
+      <resource name="ItemUpdated">
+        <object>Existující položka byla aktualizována o danou položku</object>
+      </resource>
+      <resource name="ItemDeleted">
+        <object>Zadaná položka byla úspěšně smazána</object>
+      </resource>
+      <resource name="NoItem">
+        <object>Neexistuje položka, která odpovídá zadaným kritériím</object>
+      </resource>
+      <resource name="NoQueue">
+        <object>Zadaná fronta neexistuje</object>
+      </resource>
+      <resource name="NoProductRecipe">
+        <object>Předpis produktu neexistuje</object>
+      </resource>
+      <resource name="NoProductRecipeActive">
+        <object>Žádný předpis produktu není v současné době v aktivním třídění</object>
+      </resource>
+      <resource name="NoProgramActive">
+        <object>Žádný program není v současné době aktivní, před spuštěním předpisu nějaký program spusťte.</object>
+      </resource>
+      <resource name="NotCurrentProgram">
+        <object>Operace nemůže být provedena, protože třídič nepracuje s aktivním programem Innova</object>
+      </resource>
+      <resource name="UploadError">
+        <object>Konfiguraci se do třídiče nepodařilo odeslat nebo třídič konfiguraci nepřijal</object>
+      </resource>
+      <resource name="ProductStartError">
+        <object>Na třídiči nelze produkt spustit</object>
+      </resource>
+      <resource name="ProductStopError">
+        <object>Na třídiči nelze produkt zastavit</object>
+      </resource>
+      <resource name="NoGradingSystem">
+        <object>Třídicí systém není dostupný</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.CommandType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="Write">
+        <object>Zapsat</object>
+      </resource>
+      <resource name="Execute">
+        <object>Spustit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.ConfigurationExecOrder" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="BeforeProgram">
+        <object>Před konfigurací programu</object>
+      </resource>
+      <resource name="Program">
+        <object>S konfigurací programu</object>
+      </resource>
+      <resource name="AfterProgram">
+        <object>Po konfiguraci programu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.WorkstationType" ServiceOnly="true">
+      <resource name="InputPackingStation">
+        <object>Vstup</object>
+      </resource>
+      <resource name="OutputPackingStation">
+        <object>Balení</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Activity.GradeType" ServiceOnly="false">
+      <resource name="Product">
+        <object>Produkt</object>
+      </resource>
+      <resource name="Recipe">
+        <object>Předpis</object>
+      </resource>
+      <resource name="ProductRecipe">
+        <object>Předpis produktu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.IntelligentBatchingMode" ServiceOnly="false">
+      <resource name="Priority">
+        <object>Priorita</object>
+      </resource>
+      <resource name="BestBid">
+        <object>Nejlepší nabídka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Devices.A600.RoundRobinBatching" ServiceOnly="true">
+      <resource name="None">
+        <object>Žádný</object>
+      </resource>
+      <resource name="Piece">
+        <object>Kus</object>
+      </resource>
+      <resource name="Batch">
+        <object>Dávka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Devices.A600.RoundRobinGrading" ServiceOnly="true">
+      <resource name="None">
+        <object>Žádný</object>
+      </resource>
+      <resource name="Piece">
+        <object>Kus</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Devices.A600.CompletionOperatorBatching" ServiceOnly="true">
+      <resource name="Either">
+        <object>Kterýkoli</object>
+      </resource>
+      <resource name="Both">
+        <object>Obojí</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Devices.A600.RejectLevel" ServiceOnly="true">
+      <resource name="None">
+        <object>Žádný</object>
+      </resource>
+      <resource name="Low">
+        <object>Nízký</object>
+      </resource>
+      <resource name="Medium">
+        <object>Střední</object>
+      </resource>
+      <resource name="High">
+        <object>Vysoký</object>
+      </resource>
+      <resource name="Maximum">
+        <object>Maximum</object>
+      </resource>
+      <resource name="Proportional">
+        <object>Proporční</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.RecipeError" ServiceOnly="false">
+      <resource name="TargetWeightOrMinCountMustBeGreaterThanZero">
+        <object>Cílová hmotnost nebo min. počet musí být větší než 0</object>
+      </resource>
+      <resource name="MaximumItemLimitMustBeGreaterThanMinimumItemLimit">
+        <object>Maximální omezení položky musí být větší než minimální omezení položky</object>
+      </resource>
+      <resource name="MaximumCountMustBeGreaterThanMinimumCount">
+        <object>Maximální počet musí být vyšší než minimální počet</object>
+      </resource>
+      <resource name="MinimumCountMustBeGreaterThanZero">
+        <object>Minimální počet musí být větší než 0</object>
+      </resource>
+      <resource name="TrayPatternError">
+        <object>Chyba vzoru zásobníku</object>
+      </resource>
+      <resource name="TooFewItemsToReachTargetWeight">
+        <object>Příliš málo položek k dosažení požadované cílové hmotnosti</object>
+      </resource>
+      <resource name="EnterNameForRecipe">
+        <object>Zadejte název předpisu</object>
+      </resource>
+      <resource name="PriorityMissingForRecipe">
+        <object>Zadejte prioritu předpisu</object>
+      </resource>
+      <resource name="MaximumCountMustBeEmpty">
+        <object>V úloze součtu musí být maximální počet prázdný</object>
+      </resource>
+      <resource name="ItemTypeMappingError">
+        <object>Chyba mapování typu položky</object>
+      </resource>
+      <resource name="UnknownParserError">
+        <object>Neznámá chyba parseru</object>
+      </resource>
+    </type> 
+    <type name="Marel.Mp5.Grading.Configuration.WebServiceErrorCodes" ServiceOnly="false">
+      <resource name="UNDEFINED_ERROR">
+        <object>Nedefinovaná chyba</object>
+      </resource>
+      <resource name="TARGET_WEIGHT">
+        <object>Cílová hmotnost nebo min. počet musí být větší než 0</object>
+      </resource>
+      <resource name="MAX_LIMIT_MUST_EXCEED_MIN_LIMIT">
+        <object>Maximální omezení položky musí být větší než minimální omezení položky</object>
+      </resource>
+      <resource name="MAX_COUNT_MUST_EXCEED_MIN_COUNT">
+        <object>Maximální počet musí být vyšší než minimální počet</object>
+      </resource>
+      <resource name="MIN_COUNT_MUST_EXCEED_ZERO">
+        <object>Minimální počet musí být větší než 0</object>
+      </resource>
+      <resource name="TRAY_PATTERN_ERROR">
+        <object>Chyba vzoru zásobníku</object>
+      </resource>
+      <resource name="TOO_FEW_ITEMS_FOR_TARGET_WEIGHT">
+        <object>Příliš málo položek k dosažení požadované cílové hmotnosti</object>
+      </resource>
+      <resource name="RECIPE_NAME_MISSING">
+        <object>Chybí název předpisu</object>
+      </resource>
+      <resource name="RECIPE_PRIO_MISSING">
+        <object>Priorita předpisu</object>
+      </resource>
+      <resource name="MAX_COUNT_MUST_BE_EMPTY_IN_COUNT_JOB">
+        <object>V úloze součtu musí být maximální počet prázdný</object>
+      </resource>
+      <resource name="ITEM_TYPE_MAPPING_ERROR">
+        <object>Chyba mapování typu položky</object>
+      </resource>
+      <resource name="RECIPE_UNKNOWN_ERROR">
+        <object>Neznámá chyba parseru</object>
+      </resource>
+      <resource name="WRONG_COMMAND_FORMAT">
+        <object>Špatný formát příkazu</object>
+      </resource>
+      <resource name="FILE_DOES_NOT_EXIST">
+        <object>Soubor neexistuje</object>
+      </resource>
+      <resource name="PRODUCT_SETUP_GENERAL_ERROR">
+        <object>Obecná chyba při nastavení produktu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.DataCollectorSampleSet" ServiceOnly="true">
+      <resource name="None">
+        <object>Žádná data</object>
+      </resource>
+      <resource name="Period">
+        <object>Údaje pro všechny přijaté položky v aktuálním provozním intervalu</object>
+      </resource>
+      <resource name="Trip">
+        <object>Data od posledního vynulování (aktivace)</object>
+      </resource>
+      <resource name="MaxCount">
+        <object>Data za posledních N přijatých položek</object>
+      </resource>
+      <resource name="MaxAge">
+        <object>Data za položky přijaté během posledních N minut</object>
+      </resource>
+      <resource name="All">
+        <object>Všechny dostupné sady vzorků</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Activity.OperationEventTypes" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Neznámé</object>
+      </resource>
+      <resource name="ProgramStopped">
+        <object>Program byl zastaven</object>
+      </resource>
+      <resource name="ProgramStarted">
+        <object>Program byl spuštěn</object>
+      </resource>
+      <resource name="ProgramModified">
+        <object>Program byl upraven</object>
+      </resource>
+      <resource name="ProgramDeleted">
+        <object>Program byl vymazán</object>
+      </resource>
+      <resource name="ProgramCreated">
+        <object>Program byl vytvořen</object>
+      </resource>
+      <resource name="RecipeStopped">
+        <object>Předpis byl zastaven</object>
+      </resource>
+      <resource name="RecipeStarted">
+        <object>Předpis byl spuštěn</object>
+      </resource>
+      <resource name="RecipeModified">
+        <object>Předpis byl upraven</object>
+      </resource>
+      <resource name="RecipeDeleted">
+        <object>Předpis byl smazán</object>
+      </resource>
+      <resource name="RecipeCreated">
+        <object>Předpis byl vytvořen</object>
+      </resource>
+      <resource name="RecipeQuickAdjust">
+        <object>Rychlé upravení předpisu</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

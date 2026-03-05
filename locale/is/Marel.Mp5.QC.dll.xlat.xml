@@ -1,0 +1,677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="is">
+  <industry>
+    <type name="Marel.Mp5.QC.Data.FastLane" ServiceOnly="false">
+      <resource name="Normal">
+        <object>Hefðbundið</object>
+      </resource>
+      <resource name="Fast">
+        <object>Hratt</object>
+      </resource>
+      <resource name="Express">
+        <object>Hraðar</object>
+      </resource>
+      <resource name="DoubleExpress">
+        <object>Hraðast</object>
+      </resource>
+      <resource name="SkipScreenMap">
+        <object>Sleppa skjálista</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.LimitType" ServiceOnly="false">
+      <resource name="Automatic">
+        <object>Sjálfvirk</object>
+      </resource>
+      <resource name="Greater">
+        <object>Stærri</object>
+      </resource>
+      <resource name="GreaterEqual">
+        <object>Stærri eða jöfn</object>
+      </resource>
+      <resource name="Less">
+        <object>Minni</object>
+      </resource>
+      <resource name="LessEqual">
+        <object>Minni eða jöfn</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.GradeType" ServiceOnly="false">
+      <resource name="Under">
+        <object>Of smátt</object>
+      </resource>
+      <resource name="Valid">
+        <object>Í lagi</object>
+      </resource>
+      <resource name="Over">
+        <object>Of stórt</object>
+      </resource>
+      <resource name="Outside">
+        <object>Utan marka</object>
+      </resource>
+      <resource name="UnderA">
+        <object>Of smátt A</object>
+      </resource>
+      <resource name="UnderB">
+        <object>Of smátt B</object>
+      </resource>
+      <resource name="OverA">
+        <object>Of stórt A</object>
+      </resource>
+      <resource name="OverB">
+        <object>Of stórt B</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.InspectionItem" ServiceOnly="false">
+      <resource name="Name.DisplayName">
+        <object>Heiti</object>
+      </resource>
+      <resource name="Name.Description">
+        <object>Heiti skoðunaratriðis</object>
+      </resource>
+      <resource name="Um.DisplayName">
+        <object>Mælieining</object>
+      </resource>
+      <resource name="Um.Description">
+        <object>Mælieining sem notuð er þegar gögn fyrir þetta skoðunaratriði eru vistuð.</object>
+      </resource>
+      <resource name="DefectClass.DisplayName">
+        <object>Gallastig</object>
+      </resource>
+      <resource name="DefectClass.Description">
+        <object>Gallastig</object>
+      </resource>
+      <resource name="Factor.DisplayName">
+        <object>Margföldunarstuðull</object>
+      </resource>
+      <resource name="Factor.Description">
+        <object>Margföldunarstuðull notaður til að reikna skor fyrir þetta skoðunaratriði</object>
+      </resource>
+      <resource name="CanSkip.DisplayName">
+        <object>Má sleppa</object>
+      </resource>
+      <resource name="CanRepeat.DisplayName">
+        <object>Má endurtaka</object>
+      </resource>
+      <resource name="RecordDetails.DisplayName">
+        <object>Skrá nánari upplýsingar</object>
+      </resource>
+      <resource name="IsEmpItem.DisplayName">
+        <object>Skrá starfsmann</object>
+      </resource>
+      <resource name="Label.DisplayName">
+        <object>Breytunafn</object>
+      </resource>
+      <resource name="WeightRecordingMethod.DisplayName">
+        <object>Skrán.aðferð vogar</object>
+      </resource>
+      <resource name="UsePlusAndMinusButtons.DisplayName">
+        <object>+/- takkar</object>
+      </resource>
+      <resource name="RequireMethod.DisplayName">
+        <object>Krafa um gildi</object>
+      </resource>
+      <resource name="Name.Category">
+        <object>Skoðunaratriði</object>
+      </resource>
+      <resource name="Factor.Category">
+        <object>Gallatalning</object>
+      </resource>
+      <resource name="RequireMethod.Category">
+        <object>Gagnaöflun</object>
+      </resource>
+      <resource name="CanRepeat.Category">
+        <object>Gagnaöflun</object>
+      </resource>
+      <resource name="RecordDetails.Category">
+        <object>Gagnaöflun</object>
+      </resource>
+      <resource name="IsEmpItem.Category">
+        <object>Gagnaöflun</object>
+      </resource>
+      <resource name="Label.Category">
+        <object>Formúla</object>
+      </resource>
+      <resource name="WeightRecordingMethod.Category">
+        <object>Vogarstillingar</object>
+      </resource>
+      <resource name="UsePlusAndMinusButtons.Category">
+        <object>Gagnaöflun</object>
+      </resource>
+      <resource name="HideUncheckedDefectClasses.Category">
+        <object>Gallastig</object>
+      </resource>
+      <resource name="OrderBy.Category">
+        <object>Gagnaöflun</object>
+      </resource>
+      <resource name="OrderBy.Description">
+        <object>Hvernig gögnunum er raðað sem valið er úr</object>
+      </resource>
+      <resource name="OrderBy.DisplayName">
+        <object>Röðun gagna</object>
+      </resource>
+      <resource name="ColumnCount.Category">
+        <object>Viðmót</object>
+      </resource>
+      <resource name="ColumnCount.DisplayName">
+        <object>Fjöldi dálka</object>
+      </resource>
+      <resource name="UseDefaultValue.Category">
+        <object>Gagnaöflun</object>
+      </resource>
+      <resource name="UseDefaultValue.DisplayName">
+        <object>Nota sjálfgefið gildi</object>
+      </resource>
+      <resource name="DisplayMethod.Category">
+        <object>Viðmót</object>
+      </resource>
+      <resource name="DisplayMethod.DisplayName">
+        <object>Birtingaraðferð</object>
+      </resource>
+      <resource name="Condition.DisplayName">
+        <object>Skilyrði fyrir sýnileika</object>
+      </resource>
+      <resource name="Condition.Category">
+        <object>Gagnaöflun</object>
+      </resource>
+      <resource name="FixedGroup.Category">
+        <object>Gagnaöflun</object>
+      </resource>
+      <resource name="DefaultDepartment.Category">
+        <object>Gagnaöflun</object>
+      </resource>
+      <resource name="ReadOnly.DisplayName">
+        <object>Ritvarið</object>
+      </resource>
+      <resource name="ReadOnly.Category">
+        <object>Gagnaöflun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.ListItem" ServiceOnly="false">
+      <resource name="ValueListId.DisplayName">
+        <object>Fellilisti</object>
+      </resource>
+      <resource name="ValueListId.Description">
+        <object>Heiti fellilista sem notaður er við útfyllingu þessa skoðunaratriðis</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.ScoreClass" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ekki sett</object>
+      </resource>
+      <resource name="Ok">
+        <object>Í lagi</object>
+      </resource>
+      <resource name="NotOk">
+        <object>Ekki í lagi</object>
+      </resource>
+      <resource name="Defective">
+        <object>Gallað</object>
+      </resource>
+      <resource name="Unacceptable">
+        <object>Óviðunandi</object>
+      </resource>
+      <resource name="Unsafe">
+        <object>Óöruggt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.ScoreType" ServiceOnly="false">
+      <resource name="None">
+        <object>Engin</object>
+      </resource>
+      <resource name="Absolute">
+        <object>Fast skor</object>
+      </resource>
+      <resource name="RelativeWeight">
+        <object>Hlutfallsleg þyngd</object>
+      </resource>
+      <resource name="RelativePieces">
+        <object>Hlutfallslegur fjöldi stykkja</object>
+      </resource>
+      <resource name="Relative">
+        <object>Hlutfallslega</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.DeploymentPlatform" ServiceOnly="false">
+      <resource name="M6000">
+        <object>M6000</object>
+      </resource>
+      <resource name="StandardPocketPC">
+        <object>Venjulegur Pocket PC</object>
+      </resource>
+      <resource name="SquarePocketPC">
+        <object>Ferkantaður Pocket PC</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ResponseSetType" ServiceOnly="false">
+      <resource name="Inclusive">
+        <object>Bregðast við öllu</object>
+      </resource>
+      <resource name="Exclusive">
+        <object>Velja eitt viðbragð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.InspectionRType" ServiceOnly="false">
+      <resource name="Normal">
+        <object>Eðlileg</object>
+      </resource>
+      <resource name="Grouped">
+        <object>Hópuð</object>
+      </resource>
+      <resource name="Test">
+        <object>Prófun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ScheduleType" ServiceOnly="false">
+      <resource name="Never">
+        <object>Aldrei</object>
+      </resource>
+      <resource name="Hourly">
+        <object>Á klukkutíma fresti</object>
+      </resource>
+      <resource name="Daily">
+        <object>Daglega</object>
+      </resource>
+      <resource name="Weekly">
+        <object>Vikulega</object>
+      </resource>
+      <resource name="Monthly">
+        <object>Mánaðarlega</object>
+      </resource>
+      <resource name="Yearly">
+        <object>Árlega</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.PlannedStatus" ServiceOnly="false">
+      <resource name="Schedule">
+        <object>Skoðun plönuð</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Skoðun í gangi</object>
+      </resource>
+      <resource name="NotCompleted">
+        <object>Skoðun ólokið</object>
+      </resource>
+      <resource name="Completed">
+        <object>Skoðun lokið</object>
+      </resource>
+      <resource name="Requested">
+        <object>Skoðun umbeðin</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ValueType" ServiceOnly="false">
+      <resource name="Integer">
+        <object>Heiltala</object>
+      </resource>
+      <resource name="Decimal">
+        <object>Brotatala</object>
+      </resource>
+      <resource name="String">
+        <object>Strengur</object>
+      </resource>
+      <resource name="Defect">
+        <object>Galli</object>
+      </resource>
+      <resource name="List">
+        <object>Listi</object>
+      </resource>
+      <resource name="Date">
+        <object>Dagsetning</object>
+      </resource>
+      <resource name="Time">
+        <object>Tími</object>
+      </resource>
+      <resource name="DateTime">
+        <object>Dagsetning og tími</object>
+      </resource>
+      <resource name="Temperature">
+        <object>Hitastig</object>
+      </resource>
+      <resource name="PackWeight">
+        <object>Þyngd pakka</object>
+      </resource>
+      <resource name="Weight">
+        <object>Þyngd</object>
+      </resource>
+      <resource name="Po">
+        <object>Innkaupapöntun</object>
+      </resource>
+      <resource name="Batch">
+        <object>Lotunúmer</object>
+      </resource>
+      <resource name="Lot">
+        <object>Lota</object>
+      </resource>
+      <resource name="ProductionLot">
+        <object>Framleiðslulota</object>
+      </resource>
+      <resource name="RmArea">
+        <object>Hráefnissvæði</object>
+      </resource>
+      <resource name="Employee">
+        <object>Starfsmaður</object>
+      </resource>
+      <resource name="Product">
+        <object>Afurð</object>
+      </resource>
+      <resource name="Specie">
+        <object>Dýrategund</object>
+      </resource>
+      <resource name="ProductionDay">
+        <object>Vinnsludagur</object>
+      </resource>
+      <resource name="TargetWeight">
+        <object>Umbeðin þyngd</object>
+      </resource>
+      <resource name="SampleWeight">
+        <object>Þyngd sýnis</object>
+      </resource>
+      <resource name="SamplePieces">
+        <object>Stykkjafjöldi í sýni</object>
+      </resource>
+      <resource name="Order">
+        <object>Pöntun</object>
+      </resource>
+      <resource name="ObjectId">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="RecordId">
+        <object>Færslunúmer</object>
+      </resource>
+      <resource name="UnitSSCC">
+        <object>SSCC einingar</object>
+      </resource>
+      <resource name="Picture">
+        <object>Ljósmynd</object>
+      </resource>
+      <resource name="Video">
+        <object>Video</object>
+      </resource>
+      <resource name="Audio">
+        <object>Hljóð</object>
+      </resource>
+      <resource name="LongString">
+        <object>Langur strengur</object>
+      </resource>
+      <resource name="Formula">
+        <object>Formúla</object>
+      </resource>
+      <resource name="PieceWeight">
+        <object>Stykkjaþyngd</object>
+      </resource>
+      <resource name="Tare">
+        <object>Tara</object>
+      </resource>
+      <resource name="ResetPTare">
+        <object>Núlla pre-set töru</object>
+      </resource>
+      <resource name="NonConformity">
+        <object>Frábrigði</object>
+      </resource>
+      <resource name="Packaging">
+        <object>Pökkunarefni</object>
+      </resource>
+      <resource name="PieceProduct">
+        <object>Afurð stykkis</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ObjectType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Almennt</object>
+      </resource>
+      <resource name="Material">
+        <object>Afurð</object>
+      </resource>
+      <resource name="MaterialType">
+        <object>Afurðategund</object>
+      </resource>
+      <resource name="Parent">
+        <object>Foreldri</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.SelectMethod" ServiceOnly="false">
+      <resource name="EmployeeAverage">
+        <object>Meðaltal starfsmanns</object>
+      </resource>
+      <resource name="EmployeeMaximum">
+        <object>Gallaslys</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>Pantað af kerfi</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>Pantað af skoðara</object>
+      </resource>
+      <resource name="Random">
+        <object>Af handahófi</object>
+      </resource>
+      <resource name="Rate">
+        <object>Skammtafjöldi</object>
+      </resource>
+      <resource name="Unknown">
+        <object>Óþekkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.InspectionStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Ekki hafin</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Í gangi</object>
+      </resource>
+      <resource name="Completed">
+        <object>Lokið</object>
+      </resource>
+      <resource name="Confirmed">
+        <object>Staðfest</object>
+      </resource>
+      <resource name="SignatureMissing">
+        <object>Undirskrift vantar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.NonConformityStatus" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Óþekkt</object>
+      </resource>
+      <resource name="Unresolved">
+        <object>Óleyst</object>
+      </resource>
+      <resource name="Resolved">
+        <object>Leyst</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Eytt</object>
+      </resource>
+      <resource name="Confirmed">
+        <object>Staðfest</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.ItemConfigs.BaseOrderByConfig" ServiceOnly="false">
+      <resource name="SortOrder.DisplayName">
+        <object>Röðun</object>
+      </resource>
+      <resource name="SortOrder.Description">
+        <object>Raða gögnum í vaxandi eða minnkandi röð</object>
+      </resource>
+      <resource name="ColumnName.DisplayName">
+        <object>Dálkheiti</object>
+      </resource>
+      <resource name="ColumnName.Description">
+        <object>Heiti dálksins í gagnagrunni</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.ItemConfigs.OrderBy" ServiceOnly="false">
+      <resource name="Asc">
+        <object>Vaxandi</object>
+      </resource>
+      <resource name="Desc">
+        <object>Minnkandi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.MaintenanceStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Ekki byrjað</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Í vinnslu</object>
+      </resource>
+      <resource name="Completed">
+        <object>Klárað</object>
+      </resource>
+      <resource name="Confirmed">
+        <object>Staðfest</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ResponseType" ServiceOnly="false">
+      <resource name="RaiseAlarm">
+        <object>Kveikja á viðvörun</object>
+      </resource>
+      <resource name="RunUnitOperation">
+        <object>Keyra einingaaðgerð</object>
+      </resource>
+      <resource name="ScheduleInspection">
+        <object>Skipuleggja skoðun</object>
+      </resource>
+      <resource name="StartNonConformity">
+        <object>Skrá frábrigði</object>
+      </resource>
+      <resource name="ManualResponse">
+        <object>Handvirkt viðbragð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.FormulaItem" ServiceOnly="false">
+      <resource name="InvalidFormula">
+        <object>Formúla er ekki gild</object>
+      </resource>
+      <resource name="Formula.DisplayName">
+        <object>Formúla</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.DisplayMethod" ServiceOnly="false">
+      <resource name="Text">
+        <object>Texti</object>
+      </resource>
+      <resource name="TextAndPicture">
+        <object>Texti og mynd</object>
+      </resource>
+      <resource name="Picture">
+        <object>Mynd</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.NonConformityItem" ServiceOnly="false">
+      <resource name="FixedGroup.DisplayName">
+        <object>Föst tegund</object>
+      </resource>
+      <resource name="DefaultDepartment.DisplayName">
+        <object>Sjálfgefin deild</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.MDM.QCSchema" ServiceOnly="false">
+      <resource name="Marel.Mp5.QC.Configuration.ProcessRecordType">
+        <object>Skoðunarferli</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ProcedureRecordType">
+        <object>Skoðunarlistar</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.DefectClassRecordType">
+        <object>Gallaflokkar</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.CalculatorRecordType">
+        <object>Reikniforrit</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.InspectionItemRecordType">
+        <object>Skoðunaratriði</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.InspectionItemClassRecordType">
+        <object>Flokkar skoðunaratriða</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ResponseRecordType">
+        <object>Viðbrögð</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ResponseSetRecordType">
+        <object>Viðbragðasett</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueListRecordType">
+        <object>Vallistar</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.NonConformitySeverityRecordType">
+        <object>Alvarleiki frábrigða</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.NonConformityGroupRecordType">
+        <object>Tegundir frábrigða</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.StandardCriteriaRecordType">
+        <object>Kríteríur</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ContextRecordType">
+        <object>Vensl</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.CustomerContextRecordType">
+        <object>Sértæk vensli viðskiptavina</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ItemLimitsRecordType">
+        <object>Mörk skoðunaratriða</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueClassHeaderRecordType">
+        <object>Flokkun stakra gilda</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueGradeHeaderRecordType">
+        <object>Flokkun endurtekinna gilda</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ProcedureItemRecordType">
+        <object>Skoðunaratriði í skoðunarlista</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ScreenRecordType">
+        <object>Skjáir</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ScreenItemRecordType">
+        <object>Skjáatriði</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueListLineRecordType">
+        <object>Vallista atriði</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueGradeRecordType">
+        <object>Flokkur endurtekinna gilda</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueGradeResultRecordType">
+        <object>Niðurstaða flokkunar endurtekinna gilda</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueClassRecordType">
+        <object>Flokkur stakra gilda</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.InspectionItemClassLineRecordType">
+        <object>Flokkun skoðunaratriða</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ProcedureResultRecordType">
+        <object>Viðbragðasett skoðunarlista</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ProcedureClassRecordType">
+        <object>Gallaflokkar skoðunarlista</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ResponseSetLineRecordType">
+        <object>Viðbrögð í viðbragðasetti</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.NonConformityReasonRecordType">
+        <object>Frávik</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.NonConformityResolutionRecordType">
+        <object>Úrbætur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.InspectionCriteriaProvider" ServiceOnly="false">
+      <resource name="DeleteHierarchy">
+        <object>Eyða tengdum færslum</object>
+      </resource>
+      <resource name="DeleteHierarchyDescription">
+        <object>Eyða færslum sem falla ekki innan líftíma gagna og öllum færslum tengdum þeim</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.NonConformityResolutionType" ServiceOnly="false">
+      <resource name="Temporary">
+        <object>Tímabundin</object>
+      </resource>
+      <resource name="Permanent">
+        <object>Varanleg</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

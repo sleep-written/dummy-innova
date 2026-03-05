@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.QC.Data.FastLane" ServiceOnly="false">
+      <resource name="Normal">
+        <object>Normal</object>
+      </resource>
+      <resource name="Fast">
+        <object>Fast</object>
+      </resource>
+      <resource name="Express">
+        <object>Express</object>
+      </resource>
+      <resource name="DoubleExpress">
+        <object>Double express</object>
+      </resource>
+      <resource name="SkipScreenMap">
+        <object>Skip screen map view</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.LimitType" ServiceOnly="false">
+      <resource name="Automatic">
+        <object>Automatic</object>
+      </resource>
+      <resource name="Greater">
+        <object>Greater</object>
+      </resource>
+      <resource name="GreaterEqual">
+        <object>Greater or equal</object>
+      </resource>
+      <resource name="Less">
+        <object>Less</object>
+      </resource>
+      <resource name="LessEqual">
+        <object>Less or equal</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.GradeType" ServiceOnly="false">
+      <resource name="Under">
+        <object>Undersize</object>
+      </resource>
+      <resource name="Valid">
+        <object>Valid</object>
+      </resource>
+      <resource name="Over">
+        <object>Oversize</object>
+      </resource>
+      <resource name="Outside">
+        <object>Under or oversized</object>
+      </resource>
+      <resource name="UnderA">
+        <object>Undersize A</object>
+      </resource>
+      <resource name="UnderB">
+        <object>Undersize B</object>
+      </resource>
+      <resource name="OverA">
+        <object>Oversize A</object>
+      </resource>
+      <resource name="OverB">
+        <object>Oversize B</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.InspectionItem" ServiceOnly="false">
+      <resource name="Name.DisplayName">
+        <object>Name</object>
+      </resource>
+      <resource name="Name.Description">
+        <object>Inspection item name</object>
+      </resource>
+      <resource name="Um.DisplayName">
+        <object>Unit of measurement</object>
+      </resource>
+      <resource name="Um.Description">
+        <object>The unit of measurement used when storing values for this inpsection item</object>
+      </resource>
+      <resource name="DefectClass.DisplayName">
+        <object>Defect class</object>
+      </resource>
+      <resource name="DefectClass.Description">
+        <object>Defect class</object>
+      </resource>
+      <resource name="Factor.DisplayName">
+        <object>Multiplication factor</object>
+      </resource>
+      <resource name="Factor.Description">
+        <object>Multiplication factor used to calculate score for this inspection item.</object>
+      </resource>
+      <resource name="CanSkip.DisplayName">
+        <object>Can skip</object>
+      </resource>
+      <resource name="CanRepeat.DisplayName">
+        <object>Can repeat</object>
+      </resource>
+      <resource name="RecordDetails.DisplayName">
+        <object>Record details</object>
+      </resource>
+      <resource name="IsEmpItem.DisplayName">
+        <object>Record employee</object>
+      </resource>
+      <resource name="Label.DisplayName">
+        <object>Label</object>
+      </resource>
+      <resource name="WeightRecordingMethod.DisplayName">
+        <object>Scale rec.method</object>
+      </resource>
+      <resource name="UsePlusAndMinusButtons.DisplayName">
+        <object>Inc/dec buttons</object>
+      </resource>
+      <resource name="RequireMethod.DisplayName">
+        <object>Require method</object>
+      </resource>
+      <resource name="Name.Category">
+        <object>Inspection item</object>
+      </resource>
+      <resource name="Factor.Category">
+        <object>Defect counting</object>
+      </resource>
+      <resource name="RequireMethod.Category">
+        <object>Data gathering</object>
+      </resource>
+      <resource name="CanRepeat.Category">
+        <object>Data gathering</object>
+      </resource>
+      <resource name="RecordDetails.Category">
+        <object>Data gathering</object>
+      </resource>
+      <resource name="IsEmpItem.Category">
+        <object>Data gathering</object>
+      </resource>
+      <resource name="Label.Category">
+        <object>Formula</object>
+      </resource>
+      <resource name="WeightRecordingMethod.Category">
+        <object>Scale configuration</object>
+      </resource>
+      <resource name="UsePlusAndMinusButtons.Category">
+        <object>Data gathering</object>
+      </resource>
+      <resource name="HideUncheckedDefectClasses.Category">
+        <object>Defect class</object>
+      </resource>
+      <resource name="OrderBy.Category">
+        <object>Data gathering</object>
+      </resource>
+      <resource name="OrderBy.Description">
+        <object>Choose the ordering of the values displayed</object>
+      </resource>
+      <resource name="OrderBy.DisplayName">
+        <object>Order by</object>
+      </resource>
+      <resource name="ColumnCount.Category">
+        <object>Layout</object>
+      </resource>
+      <resource name="ColumnCount.DisplayName">
+        <object>Column count</object>
+      </resource>
+      <resource name="UseDefaultValue.Category">
+        <object>Data gathering</object>
+      </resource>
+      <resource name="UseDefaultValue.DisplayName">
+        <object>Use default value</object>
+      </resource>
+      <resource name="DisplayMethod.Category">
+        <object>Layout</object>
+      </resource>
+      <resource name="DisplayMethod.DisplayName">
+        <object>Display method</object>
+      </resource>
+      <resource name="Condition.DisplayName">
+        <object>Condition</object>
+      </resource>
+      <resource name="Condition.Category">
+        <object>Data gathering</object>
+      </resource>
+      <resource name="FixedGroup.Category">
+        <object>Data gathering</object>
+      </resource>
+      <resource name="DefaultDepartment.Category">
+        <object>Data gathering</object>
+      </resource>
+      <resource name="ReadOnly.DisplayName">
+        <object>Read only</object>
+      </resource>
+      <resource name="ReadOnly.Category">
+        <object>Data gathering</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.ListItem" ServiceOnly="false">
+      <resource name="ValueListId.DisplayName">
+        <object>Value list</object>
+      </resource>
+      <resource name="ValueListId.Description">
+        <object>The name of the value list used in combination with this item</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.ScoreClass" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Not set</object>
+      </resource>
+      <resource name="Ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="NotOk">
+        <object>Not ok</object>
+      </resource>
+      <resource name="Defective">
+        <object>Defective</object>
+      </resource>
+      <resource name="Unacceptable">
+        <object>Unacceptable</object>
+      </resource>
+      <resource name="Unsafe">
+        <object>Unsafe</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.ScoreType" ServiceOnly="false">
+      <resource name="None">
+        <object>None</object>
+      </resource>
+      <resource name="Absolute">
+        <object>Absolute</object>
+      </resource>
+      <resource name="RelativeWeight">
+        <object>Relative weight</object>
+      </resource>
+      <resource name="RelativePieces">
+        <object>Relative pieces</object>
+      </resource>
+      <resource name="Relative">
+        <object>Relative</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.DeploymentPlatform" ServiceOnly="false">
+      <resource name="M6000">
+        <object>M6000</object>
+      </resource>
+      <resource name="StandardPocketPC">
+        <object>Standard Pocket PC</object>
+      </resource>
+      <resource name="SquarePocketPC">
+        <object>Square Pocket PC</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ResponseSetType" ServiceOnly="false">
+      <resource name="Inclusive">
+        <object>Inclusive</object>
+      </resource>
+      <resource name="Exclusive">
+        <object>Exclusive</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.InspectionRType" ServiceOnly="false">
+      <resource name="Normal">
+        <object>Normal</object>
+      </resource>
+      <resource name="Grouped">
+        <object>Grouped</object>
+      </resource>
+      <resource name="Test">
+        <object>Test</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ScheduleType" ServiceOnly="false">
+      <resource name="Never">
+        <object>Never</object>
+      </resource>
+      <resource name="Hourly">
+        <object>Hourly</object>
+      </resource>
+      <resource name="Daily">
+        <object>Daily</object>
+      </resource>
+      <resource name="Weekly">
+        <object>Weekly</object>
+      </resource>
+      <resource name="Monthly">
+        <object>Monthly</object>
+      </resource>
+      <resource name="Yearly">
+        <object>Yearly</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.PlannedStatus" ServiceOnly="false">
+      <resource name="Schedule">
+        <object>Schedule</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Inspection in progress</object>
+      </resource>
+      <resource name="NotCompleted">
+        <object>Inspection not completed</object>
+      </resource>
+      <resource name="Completed">
+        <object>Inspection completed</object>
+      </resource>
+      <resource name="Requested">
+        <object>Inspection requested</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ValueType" ServiceOnly="false">
+      <resource name="Integer">
+        <object>Integer</object>
+      </resource>
+      <resource name="Decimal">
+        <object>Decimal</object>
+      </resource>
+      <resource name="String">
+        <object>String</object>
+      </resource>
+      <resource name="Defect">
+        <object>Defect</object>
+      </resource>
+      <resource name="List">
+        <object>List</object>
+      </resource>
+      <resource name="Date">
+        <object>Date</object>
+      </resource>
+      <resource name="Time">
+        <object>Time</object>
+      </resource>
+      <resource name="DateTime">
+        <object>Date and time</object>
+      </resource>
+      <resource name="Temperature">
+        <object>Temperature</object>
+      </resource>
+      <resource name="PackWeight">
+        <object>Pack weight</object>
+      </resource>
+      <resource name="Weight">
+        <object>Weight</object>
+      </resource>
+      <resource name="Po">
+        <object>Purchase order</object>
+      </resource>
+      <resource name="Batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="Lot">
+        <object>Lot</object>
+      </resource>
+      <resource name="ProductionLot">
+        <object>Production lot</object>
+      </resource>
+      <resource name="RmArea">
+        <object>RmArea</object>
+      </resource>
+      <resource name="Employee">
+        <object>Employee</object>
+      </resource>
+      <resource name="Product">
+        <object>Product</object>
+      </resource>
+      <resource name="Specie">
+        <object>Specie</object>
+      </resource>
+      <resource name="ProductionDay">
+        <object>Production day</object>
+      </resource>
+      <resource name="TargetWeight">
+        <object>Target weight</object>
+      </resource>
+      <resource name="SampleWeight">
+        <object>Sample weight</object>
+      </resource>
+      <resource name="SamplePieces">
+        <object>Sample pieces</object>
+      </resource>
+      <resource name="Order">
+        <object>Order</object>
+      </resource>
+      <resource name="ObjectId">
+        <object>ObjectId</object>
+      </resource>
+      <resource name="RecordId">
+        <object>RecordId</object>
+      </resource>
+      <resource name="UnitSSCC">
+        <object>Unit SSCC</object>
+      </resource>
+      <resource name="Picture">
+        <object>Picture</object>
+      </resource>
+      <resource name="Video">
+        <object>Video</object>
+      </resource>
+      <resource name="Audio">
+        <object>Audio</object>
+      </resource>
+      <resource name="LongString">
+        <object>Long string</object>
+      </resource>
+      <resource name="Formula">
+        <object>Formula</object>
+      </resource>
+      <resource name="PieceWeight">
+        <object>Piece weight</object>
+      </resource>
+      <resource name="Tare">
+        <object>Tare </object>
+      </resource>
+      <resource name="ResetPTare">
+        <object>Reset pre-set tare</object>
+      </resource>
+      <resource name="NonConformity">
+        <object>Non-conformity</object>
+      </resource>
+      <resource name="Packaging">
+        <object>Packaging</object>
+      </resource>
+      <resource name="PieceProduct">
+        <object>Piece product</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ObjectType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Generic</object>
+      </resource>
+      <resource name="Material">
+        <object>Material</object>
+      </resource>
+      <resource name="MaterialType">
+        <object>Material type</object>
+      </resource>
+      <resource name="Parent">
+        <object>Parent</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.SelectMethod" ServiceOnly="false">
+      <resource name="EmployeeAverage">
+        <object>EmployeeAverage</object>
+      </resource>
+      <resource name="EmployeeMaximum">
+        <object>EmployeeMaximum</object>
+      </resource>
+      <resource name="ExternalRequest">
+        <object>ExternalRequest</object>
+      </resource>
+      <resource name="OperatorRequest">
+        <object>OperatorRequest</object>
+      </resource>
+      <resource name="Random">
+        <object>Random</object>
+      </resource>
+      <resource name="Rate">
+        <object>Rate</object>
+      </resource>
+      <resource name="Unknown">
+        <object>Unknown</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.DefectItem" ServiceOnly="false">
+      <resource name="DefectClassCategory">
+        <object>Defect class</object>
+      </resource>
+      <resource name="HideUncheckedDefectClasses.DisplayName">
+        <object>Hide unchecked</object>
+      </resource>
+      <resource name="HideUncheckedDefectClasses.Description">
+        <object>If checked, only the checed defect classes will be visible. If left unchecked all unchecked defect classes will be visible but disabled</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.InspectionStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Not started</object>
+      </resource>
+      <resource name="InProgress">
+        <object>In progress</object>
+      </resource>
+      <resource name="Completed">
+        <object>Completed</object>
+      </resource>
+      <resource name="Confirmed">
+        <object>Confirmed</object>
+      </resource>
+      <resource name="SignatureMissing">
+        <object>Signature missing</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.NonConformityStatus" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Unknown</object>
+      </resource>
+      <resource name="Unresolved">
+        <object>Unresolved</object>
+      </resource>
+      <resource name="Resolved">
+        <object>Resolved</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Deleted</object>
+      </resource>
+      <resource name="Confirmed">
+        <object>Confirmed</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.ItemConfigs.BaseOrderByConfig" ServiceOnly="false">
+      <resource name="SortOrder.DisplayName">
+        <object>Sort order</object>
+      </resource>
+      <resource name="SortOrder.Description">
+        <object>ASC for results in ascending order and DESC for results in descending order</object>
+      </resource>
+      <resource name="ColumnName.DisplayName">
+        <object>Column name</object>
+      </resource>
+      <resource name="ColumnName.Description">
+        <object>The name of the column in the database</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.ItemConfigs.OrderBy" ServiceOnly="false">
+      <resource name="Asc">
+        <object>Ascending</object>
+      </resource>
+      <resource name="Desc">
+        <object>Descending</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Data.MaintenanceStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Not started</object>
+      </resource>
+      <resource name="InProgress">
+        <object>In progress</object>
+      </resource>
+      <resource name="Completed">
+        <object>Completed</object>
+      </resource>
+      <resource name="Confirmed">
+        <object>Confirmed</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.ResponseType" ServiceOnly="false">
+      <resource name="RaiseAlarm">
+        <object>Raise alarm</object>
+      </resource>
+      <resource name="RunUnitOperation">
+        <object>Run unit operation</object>
+      </resource>
+      <resource name="ScheduleInspection">
+        <object>Schedule inspection</object>
+      </resource>
+      <resource name="StartNonConformity">
+        <object>Start non-conformity</object>
+      </resource>
+      <resource name="ManualResponse">
+        <object>Manual response</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.FormulaItem" ServiceOnly="false">
+      <resource name="InvalidFormula">
+        <object>Formula is not valid</object>
+      </resource>
+      <resource name="Formula.DisplayName">
+        <object>Formula</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.DisplayMethod" ServiceOnly="false">
+      <resource name="Text">
+        <object>Text</object>
+      </resource>
+      <resource name="TextAndPicture">
+        <object>Text and picture</object>
+      </resource>
+      <resource name="Picture">
+        <object>Picture</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Inspection.Items.NonConformityItem" ServiceOnly="false">
+      <resource name="FixedGroup.DisplayName">
+        <object>Fixed group</object>
+      </resource>
+      <resource name="DefaultDepartment.DisplayName">
+        <object>Default department</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.MDM.QCSchema" ServiceOnly="false">
+      <resource name="Marel.Mp5.QC.Configuration.ProcessRecordType">
+        <object>Processes</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ProcedureRecordType">
+        <object>Procedures</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.DefectClassRecordType">
+        <object>Defect classes</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.CalculatorRecordType">
+        <object>Calculators</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.InspectionItemRecordType">
+        <object>Inspection items</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.InspectionItemClassRecordType">
+        <object>Inspection item classes</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ResponseRecordType">
+        <object>Responses</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ResponseSetRecordType">
+        <object>Response sets</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueListRecordType">
+        <object>Value lists</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.NonConformitySeverityRecordType">
+        <object>Non-conformity severities</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.NonConformityGroupRecordType">
+        <object>Non-conformity groups</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.StandardCriteriaRecordType">
+        <object>Criteria</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ContextRecordType">
+        <object>Contexts</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.CustomerContextRecordType">
+        <object>Customer contexts</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ItemLimitsRecordType">
+        <object>Item limits</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueClassHeaderRecordType">
+        <object>Value class headers</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueGradeHeaderRecordType">
+        <object>Value grade headers</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ProcedureItemRecordType">
+        <object>Procedure items</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ScreenRecordType">
+        <object>Screens</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ScreenItemRecordType">
+        <object>Screen items</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueListLineRecordType">
+        <object>Value list options</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueGradeRecordType">
+        <object>Value grades</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueGradeResultRecordType">
+        <object>Value grade results</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ValueClassRecordType">
+        <object>Value classes</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.InspectionItemClassLineRecordType">
+        <object>Inspection item classification</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ProcedureResultRecordType">
+        <object>Procedure response sets</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ProcedureClassRecordType">
+        <object>Procedure defect classes</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.ResponseSetLineRecordType">
+        <object>Responses in response sets</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.NonConformityReasonRecordType">
+        <object>Non-conformances</object>
+      </resource>
+      <resource name="Marel.Mp5.QC.Configuration.NonConformityResolutionRecordType">
+        <object>Corrective actions</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.Configuration.NonConformityResolutionType" ServiceOnly="false">
+      <resource name="Temporary">
+        <object>Temporary</object>
+      </resource>
+      <resource name="Permanent">
+        <object>Permanent</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="ru">
+  <industry>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.ManagePrunit" ServiceOnly="false">
+      <resource name="ActivityPrompt">
+        <object>Активность: </object>
+      </resource>
+      <resource name="BatchPrompt">
+        <object>Порция    : </object>
+      </resource>
+      <resource name="PoPrompt">
+        <object>Зак. на пост.: </object>
+      </resource>
+      <resource name="LotPrompt">
+        <object>Партия    : </object>
+      </resource>
+      <resource name="PlotPrompt">
+        <object>Партия пр.: </object>
+      </resource>
+      <resource name="RmAreaPrompt">
+        <object>Обл. метки: </object>
+      </resource>
+      <resource name="StartLegend">
+        <object>Начать</object>
+      </resource>
+      <resource name="NextLegend">
+        <object>Следующий</object>
+      </resource>
+      <resource name="OpsLegend">
+        <object>Операции</object>
+      </resource>
+      <resource name="StartActivityCaption">
+        <object>Начать ожидание активности</object>
+      </resource>
+      <resource name="StartBatchCaption">
+        <object>Начать ожидание порции</object>
+      </resource>
+      <resource name="StartPoCaption">
+        <object>Начать ожид. заказа на пост.</object>
+      </resource>
+      <resource name="StartLotCaption">
+        <object>Начать ожидание партии</object>
+      </resource>
+      <resource name="StartPlotCaption">
+        <object>Начать ожидание партии прод.</object>
+      </resource>
+      <resource name="StartRmAreaCaption">
+        <object>Начать ожидание обл. ресурсов</object>
+      </resource>
+      <resource name="SelectOperationCaption">
+        <object>Выбор операции</object>
+      </resource>
+      <resource name="SetManualPrdayOp">
+        <object>Уст. вручную день пр. проц.</object>
+      </resource>
+      <resource name="SetAutoPrdayOp">
+        <object>Автовосст. дня пр. процесса</object>
+      </resource>
+      <resource name="SetManualShiftOp">
+        <object>Установить смену вручную</object>
+      </resource>
+      <resource name="SetAutoShiftOp">
+        <object>Восст. смену автоматически</object>
+      </resource>
+      <resource name="SetManualProfileOp">
+        <object>Уст. вручную период профиля</object>
+      </resource>
+      <resource name="SetAutoProfileOp">
+        <object>Восст. профиль автоматич.</object>
+      </resource>
+      <resource name="NoDateSet">
+        <object>(без даты)</object>
+      </resource>
+      <resource name="NoShiftSet">
+        <object>(без смены)</object>
+      </resource>
+      <resource name="WorkPeriodType">
+        <object>Работа</object>
+      </resource>
+      <resource name="BreakPeriodType">
+        <object>Перерыв</object>
+      </resource>
+      <resource name="NoPeriodSet">
+        <object>(без периода)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectObject" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Выделить линию</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectActivity" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Выбрать активность</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectComposite" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Выбрать комбинир. активность</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectLot" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Выбрать партию</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectProductionLot" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Выбрать партию продукции</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectOrder" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Выбрать заказ</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectPo" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Выбрать заказ на поставку</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectPrunit" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Выбрать блок обработки</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectRmArea" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Выбрать область ресурсов</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectShift" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Выбрать смену</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectProfilePeriod" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Выбрать рабочий период</object>
+      </resource>
+      <resource name="WorkPeriodType">
+        <object>Работа</object>
+      </resource>
+      <resource name="BreakPeriodType">
+        <object>Перерыв</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectDate" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Выбрать дату</object>
+      </resource>
+      <resource name="DatePrompt">
+        <object>Дата: </object>
+      </resource>
+      <resource name="DayLegend">
+        <object>Дни</object>
+      </resource>
+      <resource name="MonthLegend">
+        <object>Месяцы</object>
+      </resource>
+      <resource name="YearLegend">
+        <object>Годы</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectUnitOperation" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Выбор операции</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectRegistration" ServiceOnly="false">
+      <resource name="SitePrompt">
+        <object>Код месторасположения: </object>
+      </resource>
+      <resource name="IdPrompt">
+        <object>Идентификатор: </object>
+      </resource>
+      <resource name="errorfetchingobject">
+        <object>Ошибка при восстановлении объекта</object>
+      </resource>
+      <resource name="wgt">
+        <object>Масса: {0}</object>
+      </resource>
+      <resource name="ok">
+        <object>ОК</object>
+      </resource>
+      <resource name="ScreenCaptionItem">
+        <object>Ввод идентификатора элемента</object>
+      </resource>
+      <resource name="ScreenCaptionPack">
+        <object>Ввод идентификатора пакета</object>
+      </resource>
+      <resource name="ScreenCaptionContainer">
+        <object>Ввод идентификатора контейнера</object>
+      </resource>
+      <resource name="ScreenCaptionStack">
+        <object>Ввод идентификатора набора</object>
+      </resource>
+      <resource name="ScreenCaptionShipment">
+        <object>Ввод идентификатора груза</object>
+      </resource>
+      <resource name="ScreenCaptionPallet">
+        <object>Ввод идентификатора поддона</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectRegistrationViaFinder" ServiceOnly="false">
+      <resource name="errorfetchingobject">
+        <object>Ошибка при вызове объекта</object>
+      </resource>
+      <resource name="wgt">
+        <object>Масса:</object>
+      </resource>
+      <resource name="ok">
+        <object>ОК</object>
+      </resource>
+      <resource name="PackFinderById_caption">
+        <object>Ввод идентификатора</object>
+      </resource>
+      <resource name="PackFinderBySSCC_caption">
+        <object>Ввод кода SSCC</object>
+      </resource>
+      <resource name="PackFinderByExtnum_caption">
+        <object>Ввод количества внешних устройств</object>
+      </resource>
+      <resource name="PackFinderBySiteAndNumber_caption">
+        <object>Месторасположение и количество</object>
+      </resource>
+      <resource name="PackFinderByOrderAndOrderNum_caption">
+        <object>Заказ и количество</object>
+      </resource>
+      <resource name="PackFinderByInventoryAndInvNum_caption">
+        <object>Инвентарная ведомость и количество</object>
+      </resource>
+      <resource name="CollectionFinderById_caption">
+        <object>Ввод идентификатора</object>
+      </resource>
+      <resource name="CollectionFinderBySSCC_caption">
+        <object>Ввод кода SSCC</object>
+      </resource>
+      <resource name="CollectionFinderByExtnum_caption">
+        <object>Ввод количества внешних устройств</object>
+      </resource>
+      <resource name="CollectionFinderBySiteAndNumber_caption">
+        <object>Месторасположение и количество</object>
+      </resource>
+      <resource name="CollectionFinderByOrderAndOrderNum_caption">
+        <object>Заказ и количество</object>
+      </resource>
+      <resource name="CollectionFinderByInventoryAndInvNum_caption">
+        <object>Инвентарная ведомость и количество</object>
+      </resource>
+      <resource name="ItemFinderById_caption">
+        <object>Ввод идентификатора</object>
+      </resource>
+      <resource name="ItemFinderByExtnum_caption">
+        <object>Ввод количества внешних устройств</object>
+      </resource>
+      <resource name="ItemFinderBySiteAndNumber_caption">
+        <object>Месторасположение и количество</object>
+      </resource>
+      <resource name="ItemFinderByDeviceAndAlibi_caption">
+        <object>Устройство и алиби </object>
+      </resource>
+      <resource name="PackFinderById_numberprompt">
+        <object>Номер:</object>
+      </resource>
+      <resource name="PackFinderBySSCC_numberprompt">
+        <object>Код SSCC:</object>
+      </resource>
+      <resource name="PackFinderByExtnum_numberprompt">
+        <object>Номер:</object>
+      </resource>
+      <resource name="PackFinderBySiteAndNumber_numberprompt">
+        <object>Номер:</object>
+      </resource>
+      <resource name="PackFinderByOrderAndOrderNum_numberprompt">
+        <object>Номер:</object>
+      </resource>
+      <resource name="PackFinderByInventoryAndInvNum_numberprompt">
+        <object>Номер:</object>
+      </resource>
+      <resource name="CollectionFinderById_numberprompt">
+        <object>Номер:</object>
+      </resource>
+      <resource name="CollectionFinderBySSCC_numberprompt">
+        <object>Код SSCC:</object>
+      </resource>
+      <resource name="CollectionFinderByExtnum_numberprompt">
+        <object>Номер:</object>
+      </resource>
+      <resource name="CollectionFinderBySiteAndNumber_numberprompt">
+        <object>Номер:</object>
+      </resource>
+      <resource name="CollectionFinderByOrderAndOrderNum_numberprompt">
+        <object>Номер:</object>
+      </resource>
+      <resource name="CollectionFinderByInventoryAndInvNum_numberprompt">
+        <object>Номер:</object>
+      </resource>
+      <resource name="ItemFinderById_numberprompt">
+        <object>Номер:</object>
+      </resource>
+      <resource name="ItemFinderByExtnum_numberprompt">
+        <object>Номер:</object>
+      </resource>
+      <resource name="ItemFinderBySiteAndNumber_numberprompt">
+        <object>Номер:</object>
+      </resource>
+      <resource name="ItemFinderByDeviceAndAlibi_numberprompt">
+        <object>Алиби:</object>
+      </resource>
+      <resource name="PackFinderBySiteAndNumber_objectprompt">
+        <object>Месторасположение:</object>
+      </resource>
+      <resource name="PackFinderByOrderAndOrderNum_objectprompt">
+        <object>Заказ:</object>
+      </resource>
+      <resource name="PackFinderByInventoryAndInvNum_objectprompt">
+        <object>Инвент.  :</object>
+      </resource>
+      <resource name="CollectionFinderBySiteAndNumber_objectprompt">
+        <object>Месторасположение:</object>
+      </resource>
+      <resource name="CollectionFinderByOrderAndOrderNum_objectprompt">
+        <object>Заказ:</object>
+      </resource>
+      <resource name="CollectionFinderByInventoryAndInvNum_objectprompt">
+        <object>Инвент.  :</object>
+      </resource>
+      <resource name="ItemFinderBySiteAndNumber_objectprompt">
+        <object>Месторасположение:</object>
+      </resource>
+      <resource name="ItemFinderByDeviceAndAlibi_objectprompt">
+        <object>Устройство:</object>
+      </resource>
+      <resource name="clear">
+        <object>Очистить</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.EmployeeLogin" ServiceOnly="false">
+      <resource name="EmployeePrompt">
+        <object>Сотрудник:</object>
+      </resource>
+      <resource name="PasswordPrompt">
+        <object>Пароль   :</object>
+      </resource>
+      <resource name="InvalidPassword">
+        <object>Недопустимый пароль</object>
+      </resource>
+      <resource name="PasswordOk">
+        <object>Пароль OK</object>
+      </resource>
+      <resource name="LoginLegend">
+        <object>Вход</object>
+      </resource>
+      <resource name="NameLabel">
+        <object>Имя     :</object>
+      </resource>
+      <resource name="ScreenCaption">
+        <object>Вход</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.RfidDisplay" ServiceOnly="false">
+      <resource name="Caption">
+        <object />
+      </resource>
+      <resource name="Clear">
+        <object>Очистить</object>
+      </resource>
+      <resource name="IdNotFound">
+        <object>Не найдено</object>
+      </resource>
+      <resource name="IdLabel">
+        <object>Идентификатор: </object>
+      </resource>
+      <resource name="WeightLabel">
+        <object>Масса: </object>
+      </resource>
+      <resource name="TimeLabel">
+        <object>Время   : </object>
+      </resource>
+      <resource name="UnitLabel">
+        <object>Блок    : </object>
+      </resource>
+      <resource name="MaterialLabel">
+        <object>Продукт : </object>
+      </resource>
+      <resource name="PoLabel">
+        <object>ЗакПост.: </object>
+      </resource>
+      <resource name="BatchLabel">
+        <object>Порция  : </object>
+      </resource>
+      <resource name="LotLabel">
+        <object>Партия  : </object>
+      </resource>
+      <resource name="ProductionLotLabel">
+        <object>ПартПрод: </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.EmployeeId" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Назначить идент-р сотруднику</object>
+      </resource>
+      <resource name="EmployeeCaption">
+        <object>Выбрать сотрудника</object>
+      </resource>
+      <resource name="IdLabel">
+        <object>Идентификатор:</object>
+      </resource>
+      <resource name="EmployeeLabel">
+        <object>Сотрудник:</object>
+      </resource>
+      <resource name="MultipleFound">
+        <object>(найдено несколько)</object>
+      </resource>
+      <resource name="Clear">
+        <object>Очист</object>
+      </resource>
+      <resource name="Assign">
+        <object>Пуст</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectProductList" ServiceOnly="false">
+      <resource name="SelectProductList">
+        <object>Выбрать продукт</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.CreatePo" ServiceOnly="false">
+      <resource name="supplierLabel">
+        <object>Поставщик           :</object>
+      </resource>
+      <resource name="codeLabel">
+        <object>Код                 :</object>
+      </resource>
+      <resource name="fcdayLabel">
+        <object>День первой поставки:</object>
+      </resource>
+      <resource name="harbourLabel">
+        <object>Порт                :</object>
+      </resource>
+      <resource name="ScreenCaption">
+        <object>Создание нового заказа на поставку</object>
+      </resource>
+      <resource name="PoCreated">
+        <object>Заказ на поставку создан</object>
+      </resource>
+      <resource name="DateParseError">
+        <object>Не удалось выполнить анализ ввода даты</object>
+      </resource>
+      <resource name="PoNotCreated">
+        <object>Заказ на поставку не создан</object>
+      </resource>
+      <resource name="SupplierMissing">
+        <object>Выберите поставщика</object>
+      </resource>
+      <resource name="HarbourMissing">
+        <object>Выберите порт</object>
+      </resource>
+      <resource name="CodeMissing">
+        <object>Введите код</object>
+      </resource>
+      <resource name="CreateLegend">
+        <object>Создать</object>
+      </resource>
+    </type>
+  </industry>
+  <industry name="Fish">
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.CreatePo" ServiceOnly="false">
+      <resource name="fcdayLabel">
+        <object>День первой поставки:</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

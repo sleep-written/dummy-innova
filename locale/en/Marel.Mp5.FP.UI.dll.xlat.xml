@@ -1,0 +1,2184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.FP.UI.Windows.Setup.UserControls.MachineHeaderUC" ServiceOnly="false">
+      <resource name="groupMachines.Text">
+        <object>Machines</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Setup.UserControls.ProgramHeaderUC" ServiceOnly="false">
+      <resource name="groupProgramHeaders.Text">
+        <object>Programs</object>
+      </resource>
+      <resource name="colProgramId.Caption">
+        <object>Id</object>
+      </resource>
+      <resource name="colDeviceId.Caption">
+        <object>Device id</object>
+      </resource>
+      <resource name="colCode.Caption">
+        <object>Code</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Name</object>
+      </resource>
+      <resource name="colShName.Caption">
+        <object>Short name</object>
+      </resource>
+      <resource name="colUnitType.Caption">
+        <object>Unit</object>
+      </resource>
+      <resource name="colVerifyStatus.Caption">
+        <object>Verified</object>
+      </resource>
+      <resource name="colValidationErrorDescription.Caption">
+        <object>Error description</object>
+      </resource>
+      <resource name="colProgramTypeStr.Caption">
+        <object>Type</object>
+      </resource>
+      <resource name="colProgramActive.Caption">
+        <object>Active</object>
+      </resource>
+      <resource name="colPrUnit.Caption">
+        <object>Proc.Unit</object>
+      </resource>
+      <resource name="colCapacity.Caption">
+        <object>Capacity</object>
+      </resource>
+      <resource name="colCapacityUnit.Caption">
+        <object>Capacity unit</object>
+      </resource>
+      <resource name="PrUnitLookup_NotDefined">
+        <object>Not defined</object>
+      </resource>
+      <resource name="Validation_NoName">
+        <object>Name cannot be empty.</object>
+      </resource>
+      <resource name="Validation_NoShortName">
+        <object>Short name cannot be empty.</object>
+      </resource>
+      <resource name="Validation_Capacity">
+        <object>Capacity cannot be empty.</object>
+      </resource>
+      <resource name="Validation_Product">
+        <object>Input product cannot be empty.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Setup.UserControls.ProgramDetailsUC" ServiceOnly="false">
+      <resource name="groupProgramDetails.text">
+        <object>Program details</object>
+      </resource>
+      <resource name="labelHeaderTechMax.text">
+        <object>Tech. max.</object>
+      </resource>
+      <resource name="labelHeaderUserMax.text">
+        <object>User max.</object>
+      </resource>
+      <resource name="labelHeaderSetpoint.text">
+        <object>Setpoint</object>
+      </resource>
+      <resource name="labelHeaderUserMin.text">
+        <object>User min.</object>
+      </resource>
+      <resource name="labelHeaderTechMin.text">
+        <object>Tech. min.</object>
+      </resource>
+      <resource name="labelHeaderParameter.text">
+        <object>Parameter</object>
+      </resource>
+      <resource name="ValueOnHasBeenChangedToToComplyWithTheValueOf">
+        <object>{0} value on {1:F1} {4} has been changed to {3:F1} {5} to comply with the value of {2}</object>
+      </resource>
+      <resource name="TheUserLimitsHasAlsoBeenChanged">
+        <object>The user limits has also been changed</object>
+      </resource>
+      <resource name="ValueOnCantBeChangedToToComplyWithTheValueOfTheNewValueIsOutsideTechLimits">
+        <object>{0} value on {1:F1} {4} CANT be changed to {3:F1} {5} to comply with the value of {2} - the new value is outside tech. limits</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Setup.UserControls.ParamValueBoolUC" ServiceOnly="false">
+      <resource name="ToggleAllowed">
+        <object>Toggle allowed</object>
+      </resource>
+      <resource name="ToggleNotAllowed">
+        <object>Toggle not allowed</object>
+      </resource>
+      <resource name="Yes">
+        <object>Yes</object>
+      </resource>
+      <resource name="No">
+        <object>No</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Setup.UserControls.ParamValueTimeUC" ServiceOnly="false">
+      <resource name="TimeUnit">
+        <object>hh:mm:ss</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Setup.UserControls.ParamValueFloatUC" ServiceOnly="false">
+      <resource name="TheMarkedValuesHasBeenAdjustedAccordingToTheFixedRules">
+        <object>The marked values has been adjusted according to the fixed rules</object>
+      </resource>
+      <resource name="ValuesAreInvalid_MustComplyTo">
+        <object>Values are invalid - must comply to</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.ParamNames" ServiceOnly="false">
+      <resource name="R.active_recipe.dwelltime.Value">
+        <object>Target dwell time</object>
+      </resource>
+      <resource name="S.P.Press_exhaust">
+        <object>Pressure exhaust calibrated with zero zone 2</object>
+      </resource>
+      <resource name="mt0708.probe_offset">
+        <object>EMF offset dew point probe zone 1</object>
+      </resource>
+      <resource name="mt5708.probe_offset">
+        <object>EMF offset dew point probe zone 2</object>
+      </resource>
+      <resource name="C.T.Time_Remaining">
+        <object>Remaining time until climate changed</object>
+      </resource>
+      <resource name="T.BT_Remaining_Time_To_Empty">
+        <object>Remaining emptying time base tower</object>
+      </resource>
+      <resource name="T.ST_Remaining_Time_To_Empty">
+        <object>Remaining emptying time secondary tower</object>
+      </resource>
+      <resource name="O.T.P_Max">
+        <object>PID upbound</object>
+      </resource>
+      <resource name="O.T.P_Out">
+        <object>Estimated power output</object>
+      </resource>
+      <resource name="T.I.Act_Speed">
+        <object>Actual infeed conveyor speed</object>
+      </resource>
+      <resource name="T.T.Act_Speed">
+        <object>Actual non-stick conveyor speed</object>
+      </resource>
+      <resource name="T.M.Act_Speed">
+        <object>Actual lower conveyor speed</object>
+      </resource>
+      <resource name="_20U1.motor_current">
+        <object>Current infeed conveyor</object>
+      </resource>
+      <resource name="_20U2.motor_current">
+        <object>Current non-stick conveyor</object>
+      </resource>
+      <resource name="_20U3.motor_current">
+        <object>Current lower conveyor</object>
+      </resource>
+      <resource name="M.Infeed_Belt_Running_Hours">
+        <object>Infeed conveyor running hours</object>
+      </resource>
+      <resource name="M.Infeed_Belt_Traveled_Distance">
+        <object>Infeed conveyor traveled distance</object>
+      </resource>
+      <resource name="M.Teflon_Belt_Running_Hours">
+        <object>Non-stick conveyor running hours</object>
+      </resource>
+      <resource name="M.Teflon_Belt_Traveled_Distance">
+        <object>Non-stick conveyor traveled distance</object>
+      </resource>
+      <resource name="M.Main_Belt_Traveled_Distance">
+        <object>Main conveyor traveled distance</object>
+      </resource>
+      <resource name="O.L.State">
+        <object>Level of frying oil</object>
+      </resource>
+      <resource name="P.F.P_fill">
+        <object>Actual fill pressure</object>
+      </resource>
+      <resource name="Temperature1">
+        <object>Temperature zone 1</object>
+      </resource>
+      <resource name="Temperature2">
+        <object>Temperature zone 2</object>
+      </resource>
+      <resource name="Dewpoint">
+        <object>Dew point</object>
+      </resource>
+      <resource name="ExhaustValve">
+        <object>Exhaust valve</object>
+      </resource>
+      <resource name="SpeedDifferenceOutfeedToMain">
+        <object>Speed difference outfeed to main</object>
+      </resource>
+      <resource name="PreWash">
+        <object>Pre wash</object>
+      </resource>
+      <resource name="Dewpoint1">
+        <object>Dew point zone 1</object>
+      </resource>
+      <resource name="Dewpoint2">
+        <object>Dew point zone 2</object>
+      </resource>
+      <resource name="Airspeed1">
+        <object>Airspeed zone 1</object>
+      </resource>
+      <resource name="Airspeed2">
+        <object>Airspeed zone 2</object>
+      </resource>
+      <resource name="WaterOnBottom1">
+        <object>Water on bottom zone 1</object>
+      </resource>
+      <resource name="WaterOnBottom2">
+        <object>Water on bottom zone 2</object>
+      </resource>
+      <resource name="SoakingFilled">
+        <object>Soaking filled</object>
+      </resource>
+      <resource name="WasherBrushesOn">
+        <object>Washer brushes on</object>
+      </resource>
+      <resource name="WasherPumpOn">
+        <object>Washer pump on</object>
+      </resource>
+      <resource name="WasherCleanSprayOn">
+        <object>Washer clean spray on</object>
+      </resource>
+      <resource name="BeltWasherFan">
+        <object>Belt washer fan</object>
+      </resource>
+      <resource name="AutoFlushOn">
+        <object>Auto flush on</object>
+      </resource>
+      <resource name="FlushPeriodBrush">
+        <object>Flush period brush</object>
+      </resource>
+      <resource name="DwellTime">
+        <object>Dwell time</object>
+      </resource>
+      <resource name="InfeedConveyor">
+        <object>Infeed conveyor</object>
+      </resource>
+      <resource name="SpeedDifferenceInfeedToMain">
+        <object>Speed difference infeed to main</object>
+      </resource>
+      <resource name="SpeedDifferenceTeflonToMain">
+        <object>Speed Difference teflon to main</object>
+      </resource>
+      <resource name="SetpointTemperature">
+        <object>Setpoint temperature</object>
+      </resource>
+      <resource name="OilCirculationPumpSpeed">
+        <object>Oil circulation pump speed</object>
+      </resource>
+      <resource name="TopUpTankNumber">
+        <object>Top up tank number</object>
+      </resource>
+      <resource name="B.T.SP">
+        <object>Target temperature zone 1 after ramper</object>
+      </resource>
+      <resource name="S.T.SP">
+        <object>Target temperature zone 2 after ramper</object>
+      </resource>
+      <resource name="B.H.SP_Tdp">
+        <object>Target humidity dewpoint zone 1</object>
+      </resource>
+      <resource name="S.H.SP_Tdp">
+        <object>Target humidity dewpoint zone 2</object>
+      </resource>
+      <resource name="B.A.SP_v_air">
+        <object>Target airspeed zone 1</object>
+      </resource>
+      <resource name="S.A.SP_v_air">
+        <object>Target airspeed zone 2</object>
+      </resource>
+      <resource name="T.B.Beltspeed_m_m">
+        <object>Target dwelltime</object>
+      </resource>
+      <resource name="B.T.T_air">
+        <object>Current temperature zone 1</object>
+      </resource>
+      <resource name="S.T.T_air">
+        <object>Current temperature zone 2</object>
+      </resource>
+      <resource name="mt0708.dew_value">
+        <object>Current humidity dewpoint zone 1</object>
+      </resource>
+      <resource name="mt5708.dew_value">
+        <object>Current humidity dewpoint zone 2</object>
+      </resource>
+      <resource name="B.A.v_air_meas">
+        <object>Actual speed main fan zone 1</object>
+      </resource>
+      <resource name="S.A.v_air_meas">
+        <object>Actual speed main fan zone 2</object>
+      </resource>
+      <resource name="T.A.Dwelltime">
+        <object>Current dwelltime</object>
+      </resource>
+      <resource name="R.active_recipe.recycling_spray.Value">
+        <object>Target recycling spray </object>
+      </resource>
+      <resource name="R.active_recipe.soaking_BT.Value">
+        <object>Target water in Soaking</object>
+      </resource>
+      <resource name="R.active_recipe.water_bottom_BT.Value">
+        <object>Target water on bottom level zone 1</object>
+      </resource>
+      <resource name="R.active_recipe.water_bottom_ST.Value">
+        <object>Target water on bottom level zone 2</object>
+      </resource>
+      <resource name="R.active_recipe.clean_spray.Value">
+        <object>Target clean spray</object>
+      </resource>
+      <resource name="B.P.Press_exhaust">
+        <object>Pressure exhaust calibrated with zero zone 2</object>
+      </resource>
+      <resource name="B.P.Press_SP_exhaust">
+        <object>Pressure exhaust current setpoint zone 2</object>
+      </resource>
+      <resource name="S.P.Press_SP_exhaust">
+        <object>Pressure exhaust current setpoint zone 2</object>
+      </resource>
+      <resource name="FV0612.Value">
+        <object>Control valve oil (Base Tower.Temp control)</object>
+      </resource>
+      <resource name="FV0705.Value">
+        <object>Control valve exhaust air (Base Tower.Humidity Control)</object>
+      </resource>
+      <resource name="FV5705.Value">
+        <object>Control valve exhaust air (Secondary Tower.Humidity Control)</object>
+      </resource>
+      <resource name="PT0707.Value">
+        <object>Pressure exhaust (Base Tower.Humidity Control)</object>
+      </resource>
+      <resource name="PT5707.Value">
+        <object>Pressure exhaust (Secondary Tower.Humidity Control)</object>
+      </resource>
+      <resource name="TT0613.Value">
+        <object>Temp oil supply (Base Tower.Temp control)</object>
+      </resource>
+      <resource name="FV0712.Value">
+        <object>Control valve steam (Base Tower.Humidity Control)</object>
+      </resource>
+      <resource name="FV0717.Value">
+        <object>Control valve makeup air (Base Tower.Humidity Control)</object>
+      </resource>
+      <resource name="FV5612.Value">
+        <object>Control valve Oil (Secondary Tower.Temp control)</object>
+      </resource>
+      <resource name="FV5712.Value">
+        <object>Control valve steam (Secondary Tower.Humidity Control)</object>
+      </resource>
+      <resource name="FV5717.Value">
+        <object>Control valve makeup air (Secondary Tower.Humidity Control)</object>
+      </resource>
+      <resource name="PT0710.Value">
+        <object>Pressure steam supply (Base Tower.Humidity Control)</object>
+      </resource>
+      <resource name="B.C.woblevel">
+        <object>Current water on bottom level zone 1</object>
+      </resource>
+      <resource name="S.C.woblevel">
+        <object>Current water on bottom level zone 2</object>
+      </resource>
+      <resource name="C.State">
+        <object>main status of the machine</object>
+      </resource>
+      <resource name="VFD0502.in.Motor_current">
+        <object>Actual current main fan zone 1</object>
+      </resource>
+      <resource name="VFD5502.in.Motor_current">
+        <object>Actual current main fan zone 2</object>
+      </resource>
+      <resource name="B.T.P_heat_exchanger">
+        <object>Setpoint power for temperature zone 1</object>
+      </resource>
+      <resource name="S.T.P_heat_exchanger">
+        <object>Setpoint power for temperature zone 2</object>
+      </resource>
+      <resource name="C.T.State_bt">
+        <object>transition status zone 1</object>
+      </resource>
+      <resource name="C.T.State_st">
+        <object>transition status zone 2</object>
+      </resource>
+      <resource name="mt0708.probe_temp">
+        <object>temperature dewpoint probe zone 1</object>
+      </resource>
+      <resource name="mt5708.probe_temp">
+        <object>temperature dewpoint probe zone 2</object>
+      </resource>
+      <resource name="PT5710.Value">
+        <object>Pressure steam supply (Secondary Tower.Humidity Control)</object>
+      </resource>
+      <resource name="B.H.Mass_flow_steam">
+        <object>calulated actual steam amount zone 1</object>
+      </resource>
+      <resource name="S.H.Mass_flow_steam">
+        <object>calulated actual steam amount zone 2</object>
+      </resource>
+      <resource name="TT0601.Value">
+        <object>Temp before HE  (Base Tower.Temp control)</object>
+      </resource>
+      <resource name="TT0603.Value">
+        <object>Temp after HE (Base Tower.Temp control)</object>
+      </resource>
+      <resource name="TT0605.Value">
+        <object>Temp oil HE in (Base Tower.Temp control)</object>
+      </resource>
+      <resource name="TT0606.Value">
+        <object>Temp oil HE out (Base Tower.Temp control)</object>
+      </resource>
+      <resource name="TT5601.Value">
+        <object>Temp before HE (Secondary Tower.Temp control)</object>
+      </resource>
+      <resource name="TT5603.Value">
+        <object>Temp after HE (Secondary Tower.Temp control)</object>
+      </resource>
+      <resource name="TT5605.Value">
+        <object>Temp oil HE in (Secondary Tower.Temp control)</object>
+      </resource>
+      <resource name="TT5606.Value">
+        <object>Temp oil HE out (Secondary Tower.Temp control)</object>
+      </resource>
+      <resource name="B.T.Kr">
+        <object>Controller gain temperature zone 1</object>
+      </resource>
+      <resource name="S.T.Kr">
+        <object>Controller gain temperature zone 2</object>
+      </resource>
+      <resource name="B.H.Kr">
+        <object>controller gain humidity zone 1</object>
+      </resource>
+      <resource name="S.H.Kr">
+        <object>controller gain humidity zone 2</object>
+      </resource>
+      <resource name="B.P.Press_offset_value">
+        <object>calibrated offset exhaust press. zone 1</object>
+      </resource>
+      <resource name="S.P.Press_offset_value">
+        <object>calibrated offset exhaust press. zone 2</object>
+      </resource>
+      <resource name="C.C.Current_Step">
+        <object>actual cleaning program profile step</object>
+      </resource>
+      <resource name="C.C.Paused">
+        <object>cleaning program has stopped on alarm, or belt was stopped, or the user pressed pause</object>
+      </resource>
+      <resource name="C.C.Seconds_In">
+        <object>actual wash/pump time during cleaning , belt runs, on wash temperature, and enough water</object>
+      </resource>
+      <resource name="PS0718.Value">
+        <object>Exhaust fan running detection zone 1</object>
+      </resource>
+      <resource name="PS5718.Value">
+        <object>Exhaust fan running detection zone 1</object>
+      </resource>
+      <resource name="R.config.Belt.Overdrive">
+        <object>Belt overdrive</object>
+      </resource>
+      <resource name="T.C.bd_belt_force">
+        <object>Actual base drum frequency drive current</object>
+      </resource>
+      <resource name="T.C.mp_belt_force">
+        <object>Actual master pickup frequency drive current</object>
+      </resource>
+      <resource name="T.C.sd_belt_force">
+        <object>Actual secondary drum frequency drive current</object>
+      </resource>
+      <resource name="T.C.sp_belt_force">
+        <object>Actual slave pickup frequency drive current</object>
+      </resource>
+      <resource name="T.C.status">
+        <object>Transport status</object>
+      </resource>
+      <resource name="T.SP.H.out_hz">
+        <object>Slave pick-up motor output frequency</object>
+      </resource>
+      <resource name="T_bd_dev_block.Sp_in">
+        <object>Base drum motor setpoint</object>
+      </resource>
+      <resource name="T_mp_dev_block.RPM_Pv">
+        <object>Master pick-up motor</object>
+      </resource>
+      <resource name="T_mp_dev_block.Sp_in">
+        <object>Master pick-up motor set point</object>
+      </resource>
+      <resource name="T_sd_dev_block.Sp_in">
+        <object>Secondary drum motor setpoint</object>
+      </resource>
+      <resource name="T.W.Act_weight">
+        <object>Actual weight on belt</object>
+      </resource>
+      <resource name="C.Transition_Time_BT_Remaining">
+        <object>Remaining emptying time base tower</object>
+      </resource>
+      <resource name="C.Transition_Time_ST_Remaining">
+        <object>Remaining emptying time secondary tower</object>
+      </resource>
+      <resource name="U.P.Status_Light_Colour">
+        <object>Status light (0 = off, 1 = Red, 2 = Yellow, 3 = Green, 4 = White, 5 = Blue)</object>
+      </resource>
+      <resource name="B.T.P_max">
+        <object>Maximum thermal power zone 1</object>
+      </resource>
+      <resource name="S.T.P_max">
+        <object>Maximum thermal power zone 2</object>
+      </resource>
+      <resource name="M.Main_Belt_Running_Hours">
+        <object>Running hours main conveyor</object>
+      </resource>
+      <resource name="M.Main_Belt_Running_Distance">
+        <object>Running distance main conveyor</object>
+      </resource>
+      <resource name="M.Outfeed_Belt_Running_Hours">
+        <object>Running hours outfeed conveyor</object>
+      </resource>
+      <resource name="M.Outfeed_Belt_Running_Distance">
+        <object>Running distance outfeed conveyor</object>
+      </resource>
+      <resource name="mt0708.probe_imped">
+        <object>Impedance dewpoint probe zone 1</object>
+      </resource>
+      <resource name="mt0708.pid_out_htr">
+        <object>Dewpoint probe heater PWM zone 1</object>
+      </resource>
+      <resource name="mt0708.ramp_out_htr">
+        <object>Ramped target temperature dewpoint probe zone 1</object>
+      </resource>
+      <resource name="B.H.Emf_out">
+        <object>EMF dewpoint probe zone 1</object>
+      </resource>
+      <resource name="B.H.Emf_diff">
+        <object>EMF offset dewpoint probe zone 1</object>
+      </resource>
+      <resource name="OT0722.Value">
+        <object>OT0722.Value</object>
+      </resource>
+      <resource name="TT0721.Value">
+        <object>TT0721.Value</object>
+      </resource>
+      <resource name="U.G.Calgas_O2_BT">
+        <object>U.G.Calgas_O2_BT</object>
+      </resource>
+      <resource name="mt5708.probe_imped">
+        <object>Impedance dewpoint probe zone 2</object>
+      </resource>
+      <resource name="mt5708.pid_out_htr">
+        <object>Dewpoint probe heater PWM zone 2</object>
+      </resource>
+      <resource name="mt5708.ramp_out_htr">
+        <object>Ramped target temperature dewpoint probe zone 2</object>
+      </resource>
+      <resource name="S.H.Emf_out">
+        <object>EMF dewpoint probe zone 2</object>
+      </resource>
+      <resource name="S.H.Emf_diff">
+        <object>EMF offset dewpoint probe zone 2</object>
+      </resource>
+      <resource name="OT5722.Value">
+        <object>OT5722.Value</object>
+      </resource>
+      <resource name="TT5721.Value">
+        <object>TT5721.Value</object>
+      </resource>
+      <resource name="U.G.Calgas_O2_ST">
+        <object>U.G.Calgas_O2_ST</object>
+      </resource>
+      <resource name="RS.Active_recipe.Fill_pressure.Value">
+        <object>Target fill pressure</object>
+      </resource>
+      <resource name="RS.Active_recipe.Nr_of_strokes.Value">
+        <object>Target nr of strokes</object>
+      </resource>
+      <resource name="RS.Active_recipe.Infeed_pressure.Value">
+        <object>Target infeed pressure</object>
+      </resource>
+      <resource name="RS.Active_recipe.Relaxation_pressure.Value">
+        <object>Target relaxation pressure</object>
+      </resource>
+      <resource name="T.C.Speed_m_min">
+        <object>Actual beltspeed</object>
+      </resource>
+      <resource name="F.R_.Act_nr_of_strokes_per_min">
+        <object>Actual stroke counter</object>
+      </resource>
+      <resource name="P.F.Act_fill_pressure_mean">
+        <object>Average pressure between strokes</object>
+      </resource>
+      <resource name="P.F.Act_fill_pressure_range">
+        <object>Min and max pressure between strokes divided by 2</object>
+      </resource>
+      <resource name="F.R_.Act_nr_of_strokes_accum">
+        <object>Total number of strokes</object>
+      </resource>
+      <resource name="P.F.Act_dough_temperature">
+        <object>Dough temperature in</object>
+      </resource>
+      <resource name="O.T.T_Setpoint">
+        <object>Setpoint frying oil temperature</object>
+      </resource>
+      <resource name="RS.Active_recipe.Oil_circulation_pump_speed.Value">
+        <object>Setpoint oil circualtion speed</object>
+      </resource>
+      <resource name="RS.Active_recipe.Speed_difference_teflon_to_Main.Value">
+        <object>Setpoint Dwell time</object>
+      </resource>
+      <resource name="RS.Active_recipe.Speed_difference_infeed_to_main.Value">
+        <object>Setpoint teflon belt speed difference</object>
+      </resource>
+      <resource name="RS.Active_recipe.Dwell_time.Value">
+        <object>Setpoint infeed belt speed difference</object>
+      </resource>
+      <resource name="T.C.State">
+        <object>Transport state</object>
+      </resource>
+      <resource name="C.C.State">
+        <object>Cleaning state</object>
+      </resource>
+      <resource name="_40TT1.Value">
+        <object>Process oil outfeed  temperature</object>
+      </resource>
+      <resource name="_40TT2.Value">
+        <object>Thermal oil supply temperature</object>
+      </resource>
+      <resource name="O.T.T_Setpoint_Ramped">
+        <object>Setpoint ramped</object>
+      </resource>
+      <resource name="O.T.Settings_Temperature.Kr">
+        <object>PID control gain</object>
+      </resource>
+      <resource name="O.T.Settings_Temperature.UpBound">
+        <object>PID upbound</object>
+      </resource>
+      <resource name="O.T.P_Out_Electrical">
+        <object>Estimated electrical power setpoint</object>
+      </resource>
+      <resource name="O.T.P_Out_Thermal">
+        <object>Estimated thermal power setpoint</object>
+      </resource>
+      <resource name="O.T.Rpk">
+        <object>PID Rpk</object>
+      </resource>
+      <resource name="O.T.Rik">
+        <object>PID Rik</object>
+      </resource>
+      <resource name="O.T.Ryk">
+        <object>PID output</object>
+      </resource>
+      <resource name="_40FV1.Value">
+        <object>Thermal oil valve position</object>
+      </resource>
+      <resource name="_42K1">
+        <object>Fill request</object>
+      </resource>
+      <resource name="_42K2">
+        <object>Empty request</object>
+      </resource>
+      <resource name="_42K3">
+        <object>Suppletion request</object>
+      </resource>
+      <resource name="RS.Active_recipe.Nr_of_rows.Value">
+        <object>Drum, nr of rows</object>
+      </resource>
+      <resource name="RS.Active_recipe.Weight_per_row.Value">
+        <object>Drum, row weight</object>
+      </resource>
+      <resource name="RS.Active_recipe.Products_per_row.Value">
+        <object>Drum, nr of products per row</object>
+      </resource>
+      <resource name="CALC_RP_TotalCount">
+        <object>Total count</object>
+      </resource>
+      <resource name="CALC_RP_TotalWeight">
+        <object>Total weight</object>
+      </resource>
+      <resource name="CALC_RP_ThroughputCount">
+        <object>Throughput (pcs/h) average</object>
+      </resource>
+      <resource name="CALC_RP_ThroughputWeight">
+        <object>Throughput (kg/h) average</object>
+      </resource>
+      <resource name="CALC_RP_ThroughputCountCurrent">
+        <object>Throughput (pcs/h) current</object>
+      </resource>
+      <resource name="CALC_RP_ThroughputWeightCurrent">
+        <object>Throughput (kg/h) current</object>
+      </resource>
+      <resource name="T.BT_Load">
+        <object>Load in base tower</object>
+      </resource>
+      <resource name="T.ST_Load">
+        <object>Load in secondary tower</object>
+      </resource>
+      <resource name="FillPressure">
+        <object>Fill pressure</object>
+      </resource>
+      <resource name="DrumSpeed">
+        <object>Drum speed</object>
+      </resource>
+      <resource name="ConvSpeed">
+        <object>Conveyor speed</object>
+      </resource>
+      <resource name="NrOfRows">
+        <object>Number of Rows</object>
+      </resource>
+      <resource name="InfeedPressure">
+        <object>Infeed pressure</object>
+      </resource>
+      <resource name="OutfeedPressure">
+        <object>Outfeed pressure</object>
+      </resource>
+      <resource name="RelaxationPressure">
+        <object>Relaxation pressure</object>
+      </resource>
+      <resource name="KnifePressure">
+        <object>Knife pressure</object>
+      </resource>
+      <resource name="EjectionContinuous">
+        <object>Ejection continuous</object>
+      </resource>
+      <resource name="RowWeight">
+        <object>Row weight</object>
+      </resource>
+      <resource name="ProductsPerRow">
+        <object>Products per row</object>
+      </resource>
+      <resource name="NrOfProductsRow">
+        <object>Number of Products per row</object>
+      </resource>
+      <resource name="BeltSpeed">
+        <object>Conveyor speed</object>
+      </resource>
+      <resource name="BatterPumpSpeed">
+        <object>Batter pump speed</object>
+      </resource>
+      <resource name="BlowerSpeed">
+        <object>Blower speed</object>
+      </resource>
+      <resource name="Blower">
+        <object>Blower speed</object>
+      </resource>
+      <resource name="BatterCurtainHeight">
+        <object>Manual curtain height</object>
+      </resource>
+      <resource name="BatterUnderbed">
+        <object>Manual underbed valve position</object>
+      </resource>
+      <resource name="AngleTopKnife">
+        <object>Manual angle top blower knife</object>
+      </resource>
+      <resource name="AngleBottomKnife">
+        <object>Manual angle bottom blower knife</object>
+      </resource>
+      <resource name="HeightTopKnife">
+        <object>Manual height top blower knife</object>
+      </resource>
+      <resource name="AirTopKnife">
+        <object>Manual valve to top blower knife</object>
+      </resource>
+      <resource name="AirBottomKnife">
+        <object>Manual valve to bottom blower knife</object>
+      </resource>
+      <resource name="Outfeed">
+        <object>Outfeed conveyor speed</object>
+      </resource>
+      <resource name="UpperbeltInfeedHeight">
+        <object>Manual height upperbelt infeed</object>
+      </resource>
+      <resource name="UpperbeltOutfeedHeight">
+        <object>Manual height upperbelt outfeed</object>
+      </resource>
+      <resource name="TempuraLevel">
+        <object>Manual tempura level</object>
+      </resource>
+      <resource name="stUnit.Status.state">
+        <object>Pack ml state</object>
+      </resource>
+      <resource name="stUnit.Status.mode">
+        <object>Pack ml mode</object>
+      </resource>
+      <resource name="stCm._20U1.Status.ActualSpeed">
+        <object>Actual conveyor speed</object>
+      </resource>
+      <resource name="stCm._20U2.Status.ActualSpeed">
+        <object>Actual outfeed conveyor speed</object>
+      </resource>
+      <resource name="stCm._45U1.Status.ActualSpeed">
+        <object>Actual blower speed</object>
+      </resource>
+      <resource name="stCm._42TT1.Status.PV">
+        <object>Batter temperature</object>
+      </resource>
+      <resource name="stCm._42U8.Status.ActualSpeed">
+        <object>Actual batter pump speed</object>
+      </resource>
+      <resource name="TotalMixAmount">
+        <object>Total mix</object>
+      </resource>
+      <resource name="Coating wheel">
+        <object>Coating wheel speed</object>
+      </resource>
+      <resource name="Vibrator_Bunker">
+        <object>Bunker vibrator speed</object>
+      </resource>
+      <resource name="tickler_mech">
+        <object>Manual tickler position</object>
+      </resource>
+      <resource name="plough">
+        <object>Manual plought underbed height</object>
+      </resource>
+      <resource name="fresh_crumb">
+        <object>Manual fresh crumb</object>
+      </resource>
+      <resource name="bunker_opening">
+        <object>Manual bunker opening</object>
+      </resource>
+      <resource name="crumb_size">
+        <object>Manual crumb Size</object>
+      </resource>
+      <resource name="lower_bed">
+        <object>Manual lower bed</object>
+      </resource>
+      <resource name="Upperbed">
+        <object>Upperbed conveyor speed</object>
+      </resource>
+      <resource name="Tumbler">
+        <object>Tumbler speed</object>
+      </resource>
+      <resource name="Outfeed_wheel">
+        <object>Spreading wheel speed</object>
+      </resource>
+      <resource name="Tickler">
+        <object>Active tickler speed</object>
+      </resource>
+      <resource name="bag_size">
+        <object>Bag size</object>
+      </resource>
+      <resource name="amount_of_bags">
+        <object>Number of bags</object>
+      </resource>
+      <resource name="amount_of_water">
+        <object>Amount of water</object>
+      </resource>
+      <resource name="viscosity">
+        <object>Viscosity</object>
+      </resource>
+      <resource name="viscosity_tollerance">
+        <object>Viscosity tolerance</object>
+      </resource>
+      <resource name="mix_speed">
+        <object>Mix speed</object>
+      </resource>
+      <resource name="mix_time">
+        <object>Mix time</object>
+      </resource>
+      <resource name="mix_ratio">
+        <object>Mix ratio</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Setup.FpProgramCloneProgram" ServiceOnly="false">
+      <resource name="labelMachine.text">
+        <object>Machine:</object>
+      </resource>
+      <resource name="labelProgramName.text">
+        <object>Program name:</object>
+      </resource>
+      <resource name="labelProgramNameShort.text">
+        <object>Program name short:</object>
+      </resource>
+      <resource name="labelUnit.text">
+        <object>Unit:</object>
+      </resource>
+      <resource name="comboBoxProgramType.text">
+        <object>Program type:</object>
+      </resource>
+      <resource name="LabelPrUnitlookUp.text">
+        <object>Process unit:</object>
+      </resource>
+      <resource name="labelCapacityUnit.text">
+        <object>Capacity unit:</object>
+      </resource>
+      <resource name="labelCapacity.text">
+        <object>Capacity:</object>
+      </resource>
+      <resource name="buttonOk.text">
+        <object>OK</object>
+      </resource>
+      <resource name="buttonCancel.text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="Prog.Type">
+        <object>Prog.Type</object>
+      </resource>
+      <resource name="SelectPrunit">
+        <object>Select process unit</object>
+      </resource>
+      <resource name="SelectProduct">
+        <object>Select product</object>
+      </resource>
+      <resource name="MsgBoxTxt_ProgramNameIsRequired">
+        <object>A program name is required</object>
+      </resource>
+      <resource name="MsgBoxTxt_ProgramTypeIsRequired">
+        <object>A program type is required</object>
+      </resource>
+      <resource name="MsgBoxTxt_CapacitysUnitIsRequired">
+        <object>A capacity unit is required</object>
+      </resource>
+      <resource name="MsgBoxTxt_CapacitysIsRequired">
+        <object>A valid capacity is required</object>
+      </resource>
+      <resource name="MsgBoxTxt_ProductIsRequired">
+        <object>An input product is required</object>
+      </resource>
+      <resource name="MsgBoxHdr_ErrorInData">
+        <object>Error in data</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Setup.FpProgramView" ServiceOnly="false">
+      <resource name="newButton.Caption">
+        <object>New</object>
+      </resource>
+      <resource name="deleteButton.Caption">
+        <object>Delete</object>
+      </resource>
+      <resource name="cloneButton.Caption">
+        <object>Clone</object>
+      </resource>
+      <resource name="refreshButton.Caption">
+        <object>Refresh</object>
+      </resource>
+      <resource name="confirmButton.Caption">
+        <object>Confirm</object>
+      </resource>
+      <resource name="cancelButton.Caption">
+        <object>Cancel</object>
+      </resource>
+      <resource name="operationsButton.Caption">
+        <object>Operation</object>
+      </resource>
+      <resource name="programsActiveButton.Caption">
+        <object>Active</object>
+      </resource>
+      <resource name="programsInactiveButton.Caption">
+        <object>Inactive</object>
+      </resource>
+      <resource name="programsAllButton.Caption">
+        <object>Both</object>
+      </resource>
+      <resource name="restoreLayoutButton.Caption">
+        <object>Restore layout</object>
+      </resource>
+      <resource name="autoFilterButton2.Caption">
+        <object>Autofilter (programs)</object>
+      </resource>
+      <resource name="WinTitle_NewFpProgram">
+        <object>New FP program</object>
+      </resource>
+      <resource name="WinTitle_CloneFpProgram">
+        <object>Clone FP program</object>
+      </resource>
+      <resource name="CreateNewProgramError">
+        <object>Create new program error</object>
+      </resource>
+      <resource name="CloneProgramError">
+        <object>Clone program error</object>
+      </resource>
+      <resource name="OfProgramType">
+        <object>of program type:</object>
+      </resource>
+      <resource name="PleaseSelectMachineToCreateNewProgramFor">
+        <object>Please select a machine to create a new program for</object>
+      </resource>
+      <resource name="CantCreateNewProgram">
+        <object>Cannot create a new program because</object>
+      </resource>
+      <resource name="NoTemplatesFoundForDevice">
+        <object> no templates found for device:</object>
+      </resource>
+      <resource name="PlsMakeSureTemplateIsImportedSeeManual">
+        <object>Please make sure the template is imported for the machine, see Further Processing Manual for details.</object>
+      </resource>
+      <resource name="FatalError">
+        <object>Fatal ERROR</object>
+      </resource>
+      <resource name="ValidationError">
+        <object>Validation error</object>
+      </resource>
+      <resource name="ErrorCreatingNewProgram">
+        <object>Error creating new program</object>
+      </resource>
+      <resource name="ErrorDeletingProgram">
+        <object>Error deleting program</object>
+      </resource>
+      <resource name="ErrorCloningProgram">
+        <object>Error cloning program</object>
+      </resource>
+      <resource name="ErrorRefreshingProgram">
+        <object>Error refreshing program</object>
+      </resource>
+      <resource name="ErrorSavingProgram">
+        <object>Error saving program</object>
+      </resource>
+      <resource name="TheSettingsCannotBeSaveBecauseThereAreInvalidValues">
+        <object>The settings cannot be saved, because there are invalid values in the program.</object>
+      </resource>
+      <resource name="CorrectTheValuesAndTryAgain">
+        <object>Correct the values and try again</object>
+      </resource>
+      <resource name="ErrorCancellingProgramChanges">
+        <object>Error canceling program changes</object>
+      </resource>
+      <resource name="DoYouWantToDeleteTheProgram">
+        <object>Do you want to delete the program ?</object>
+      </resource>
+      <resource name="DeleteProgram">
+        <object>Delete program</object>
+      </resource>
+      <resource name="ThereAreUnsavedProgramChangesDoYouWantToDiscardThose">
+        <object>There are unsaved program changes\nDo you want to discard those ?</object>
+      </resource>
+      <resource name="ChangingActiveProgram">
+        <object>Changing active program</object>
+      </resource>
+      <resource name="Validation_InvalidProgramValues">
+        <object>Invalid program detail values</object>
+      </resource>
+    </type>
+    <type name="Grid.FP.SystemSetup" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="device">
+        <object>Device Code</object>
+      </resource>
+      <resource name="prunit">
+        <object>Process Unit Code</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="system">
+        <object>System Id</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>Process Unit</object>
+      </resource>
+      <resource name="device Name">
+        <object>Device</object>
+      </resource>
+      <resource name="mirrored">
+        <object>Mirrored</object>
+      </resource>
+      <resource name="active">
+        <object>Active</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.SystemSetup.FPSystemView" ServiceOnly="true">
+      <resource name="Lookup.Name.Caption">
+        <object>Name</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Code</object>
+      </resource>
+      <resource name="Err.RefreshingData">
+        <object>Error refreshing data!</object>
+      </resource>
+      <resource name="Warning.DeleteSystem">
+        <object>Deleting this system will delete stations and programs for the system!</object>
+      </resource>
+      <resource name="Err.DeletingStationChildren">
+        <object>Can't delete children of the station.</object>
+      </resource>
+      <resource name="Err.CancelEdit">
+        <object>Error canceling!</object>
+      </resource>
+      <resource name="Err.NoObjectSelected">
+        <object>No object is selected</object>
+      </resource>
+      <resource name="Err.NoObjectSelectedCaption">
+        <object>Information</object>
+      </resource>
+      <resource name="Err.NewProgram">
+        <object>Error creating new program</object>
+      </resource>
+      <resource name="Lookup.Active.Caption">
+        <object>Active</object>
+      </resource>
+      <resource name="lblSysProgram.Text">
+        <object>System Program:</object>
+      </resource>
+      <resource name="lblSite.Text">
+        <object>Site:</object>
+      </resource>
+      <resource name="lblApplication.Text">
+        <object>Application:</object>
+      </resource>
+      <resource name="sysPrgLookUp.ToolTip">
+        <object>System program running the system</object>
+      </resource>
+      <resource name="siteLookUp.ToolTip">
+        <object>Site the system belongs to</object>
+      </resource>
+      <resource name="sysAppLookUp.ToolTip">
+        <object>Application handling the system</object>
+      </resource>
+      <resource name="grpSystem.Text">
+        <object>System</object>
+      </resource>
+      <resource name="StationDeviceConfig">
+        <object>Station Device Configuration</object>
+      </resource>
+      <resource name="ImportDeviceOffline">
+        <object>Device is currently offline. Do you want to open a local template file?</object>
+      </resource>
+      <resource name="ImportDialogFilter">
+        <object>Template files (*.xml)|*.xml|All files (*.*)|*.*</object>
+      </resource>
+      <resource name="ImportDialogTitle">
+        <object>Please select a template file for import</object>
+      </resource>
+      <resource name="ImportResultTitle">
+        <object>Import template</object>
+      </resource>
+      <resource name="ImportAbortTitle">
+        <object>Import template</object>
+      </resource>
+      <resource name="ImportAbortText">
+        <object>Operation is taking longer than expected. Abort operation?</object>
+      </resource>
+      <resource name="btnImport.Caption">
+        <object>Import</object>
+      </resource>
+      <resource name="btnImport.Hint">
+        <object>Import device template</object>
+      </resource>
+      <resource name="btnImportFromDevice.Caption">
+        <object>Import from device</object>
+      </resource>
+      <resource name="btnImportFromFile.Caption">
+        <object>Import from file</object>
+      </resource>
+    </type>
+    <type name="Grid.FP.EventData" ServiceOnly="false">
+      <resource name="fp_eventdata_id">
+        <object>Id</object>
+      </resource>
+      <resource name="fp_eventdata_event">
+        <object>Event Id</object>
+      </resource>
+      <resource name="fp_eventdata_regtime">
+        <object>Reg.Time</object>
+      </resource>
+      <resource name="fp_eventdata_value">
+        <object>Value</object>
+      </resource>
+      <resource name="fp_eventdata_source">
+        <object>Source</object>
+      </resource>
+      <resource name="fp_eventdata_prperiod">
+        <object>Proc.Period</object>
+      </resource>
+      <resource name="fp_eventdata_sprperiod">
+        <object>Sub Proc.Period</object>
+      </resource>
+      <resource name="procprperiods_begtime">
+        <object>Period begin</object>
+      </resource>
+      <resource name="procprperiods_endtime">
+        <object>Period end</object>
+      </resource>
+      <resource name="sprocprperiods_begtime">
+        <object>Subperiod begin</object>
+      </resource>
+      <resource name="sprocprperiods_endtime">
+        <object>Subperioad end</object>
+      </resource>
+      <resource name="fpevents_name">
+        <object>Event name</object>
+      </resource>
+      <resource name="fpevents_device">
+        <object>Device code</object>
+      </resource>
+      <resource name="fpevents_device Name">
+        <object>Device</object>
+      </resource>
+      <resource name="fpevents_prunit">
+        <object>Process unit code</object>
+      </resource>
+      <resource name="fpevents_prunit Name">
+        <object>Process unit</object>
+      </resource>
+      <resource name="fpevents_number">
+        <object>Device event number</object>
+      </resource>
+    </type>
+    <type name="Grid.FP.Event" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="number">
+        <object>Event number</object>
+      </resource>
+      <resource name="name">
+        <object>Event name</object>
+      </resource>
+      <resource name="device">
+        <object>Device code</object>
+      </resource>
+      <resource name="device Name">
+        <object>Device</object>
+      </resource>
+      <resource name="prunit">
+        <object>Pr.Unit code</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>Process unit</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Grid.FP.ProgramValueHistory" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="parameter">
+        <object>Parameter</object>
+      </resource>
+      <resource name="program">
+        <object>Program code</object>
+      </resource>
+      <resource name="program Name">
+        <object>Program</object>
+      </resource>
+      <resource name="prunit">
+        <object>Process unit code</object>
+      </resource>
+      <resource name="regtime">
+        <object>Regtime</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>Process unit</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Process period</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Sub-process period</object>
+      </resource>
+      <resource name="type">
+        <object>Type</object>
+      </resource>
+      <resource name="value">
+        <object>Value</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.FP.DashController" ServiceOnly="false">
+      <resource name="FPGaugeControl.DisplayName">
+        <object>Gauge</object>
+      </resource>
+      <resource name="MosOvenDefaultLayout.DisplayName">
+        <object>Mos oven default layout</object>
+      </resource>
+      <resource name="FPQCDataControl.DisplayName">
+        <object>QC Data Control</object>
+      </resource>
+      <resource name="FPQCDataControl.Hint">
+        <object>Configurable QC data component for FP dashboards</object>
+      </resource>
+      <resource name="FPNumericControl.DisplayName">
+        <object>Numeric program value</object>
+      </resource>
+      <resource name="FPBatchProgress.DisplayName">
+        <object>Batch progress</object>
+      </resource>
+      <resource name="FPCaptionedLabel.DisplayName">
+        <object>Label with caption</object>
+      </resource>
+      <resource name="FPLabelControl.DisplayName">
+        <object>Label</object>
+      </resource>
+      <resource name=" FPPictureBox.DisplayName">
+        <object>Picture Box</object>
+      </resource>
+      <resource name="FPProcessLabelControl.DisplayName">
+        <object>Aggregation label</object>
+      </resource>
+      <resource name="FPProcessStatusControl.DisplayName">
+        <object>Process status</object>
+      </resource>
+      <resource name="FPStationListControl.DisplayName">
+        <object>Station list</object>
+      </resource>
+      <resource name="FPStatusControl.DisplayName">
+        <object>Status lamp</object>
+      </resource>
+      <resource name="LineOverviewDefaultLayout.DisplayName">
+        <object>Line overview default layout</object>
+      </resource>
+      <resource name="FPDeviceImageControl.DisplayName">
+        <object>Device image</object>
+      </resource>
+      <resource name="FPProductionLineControl.DisplayName">
+        <object>Line overview</object>
+      </resource>
+      <resource name="FPLinkedLabel.DisplayNamee">
+        <object>Label device info linked</object>
+      </resource>
+      <resource name="FPLinkedLabel.Hint">
+        <object>Label where text will taken from the control who opened this linked page</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Dashboard.FPQCDataControl" ServiceOnly="false">
+      <resource name="LastSampleText">
+        <object>Last Sample</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Dashboard.FPDashControl" ServiceOnly="false">
+      <resource name="Status.Activated">
+        <object>Activated</object>
+      </resource>
+      <resource name="ErrorInTheRangeExpression">
+        <object>Error in the range expression</object>
+      </resource>
+      <resource name="InTheDashboardControlWithTheCaption">
+        <object>in the dashboard component with the caption</object>
+      </resource>
+      <resource name="MsgBoxTitle_DashboardRangeExpressionError">
+        <object>Dashboard Range expression error</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Dashboard.FPBatchProgress" ServiceOnly="false">
+      <resource name="remainingTimeCaption.Text">
+        <object>Estimated remaining time: (hh:mm)</object>
+      </resource>
+      <resource name="Label.NoData">
+        <object>No active recipe batch</object>
+      </resource>
+      <resource name="Label.NoBatchProgress">
+        <object>No batch progress available</object>
+      </resource>
+      <resource name="Label.NoUnit">
+        <object>No unit available</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Dashboard.FPGaugeControl" ServiceOnly="false">
+      <resource name="Empty">
+        <object>Empty</object>
+      </resource>
+      <resource name="Gauge.NoData">
+        <object>No data</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Dashboard.FPNumericControl" ServiceOnly="false">
+      <resource name="Label.NoData">
+        <object>- - - - -</object>
+      </resource>
+      <resource name="Bool.On">
+        <object>On</object>
+      </resource>
+      <resource name="Bool.Off">
+        <object>Off</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Dashboard.SelectFromTo" ServiceOnly="false">
+      <resource name="labelFrom.Text">
+        <object>From</object>
+      </resource>
+      <resource name="labelTo.Text">
+        <object>To</object>
+      </resource>
+      <resource name="LabelAutoupdate.Text">
+        <object>Auto update</object>
+      </resource>
+      <resource name="FPSelectFromToControl.DisplayName">
+        <object>Select From/To</object>
+      </resource>
+      <resource name="Toolbox.SelectPeriod">
+        <object>Select period</object>
+      </resource>
+      <resource name="Lookup_Nothing selected">
+        <object> - Nothing selected -</object>
+      </resource>
+      <resource name="Lookup_NoneWithinPeriod">
+        <object> - None within period -</object>
+      </resource>
+      <resource name="ComboSelect_Programs">
+        <object>Programs</object>
+      </resource>
+      <resource name="ComboSelect_BatchRecipe">
+        <object>Batch recipes</object>
+      </resource>
+      <resource name="Time">
+        <object>Time</object>
+      </resource>
+      <resource name="Batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="Prod">
+        <object>Prod.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.AlarmNames" ServiceOnly="false">
+      <resource name="BT: Lost communication with base tower">
+        <object>BT: Lost communication with base tower</object>
+      </resource>
+      <resource name="Fault emergency relxxay">
+        <object>Fault emergency relxxay</object>
+      </resource>
+      <resource name="The system is powering up now">
+        <object>The system is powering up now</object>
+      </resource>
+      <resource name="Emergency stop activated electrical panel">
+        <object>Emergency stop activated electrical panel</object>
+      </resource>
+      <resource name="Emergency stop activated infeed left">
+        <object>Emergency stop activated infeed left</object>
+      </resource>
+      <resource name="Fault emergency relay">
+        <object>Fault emergency relay</object>
+      </resource>
+      <resource name="Emergency stop activated HMI">
+        <object>Emergency stop activated HMI</object>
+      </resource>
+      <resource name="Emergency stop activated infeed right">
+        <object>Emergency stop activated infeed right</object>
+      </resource>
+      <resource name="Emergency stop activated outfeed left">
+        <object>Emergency stop activated outfeed left</object>
+      </resource>
+      <resource name="Emergency stop activated outfeed right">
+        <object>Emergency stop activated outfeed right</object>
+      </resource>
+      <resource name="24VDC not OK">
+        <object>24VDC not OK</object>
+      </resource>
+      <resource name="Maximum temperature switch tripped">
+        <object>Maximum temperature switch tripped</object>
+      </resource>
+      <resource name="Fire detected">
+        <object>Fire detected</object>
+      </resource>
+      <resource name="Fire detecion system not OK">
+        <object>Fire detection system not OK</object>
+      </resource>
+      <resource name="Block valve opened">
+        <object>Block valve opened</object>
+      </resource>
+      <resource name="Block valve closed">
+        <object>Block valve closed</object>
+      </resource>
+      <resource name="Block valve failure">
+        <object>Block valve failure</object>
+      </resource>
+      <resource name="Very slow or no communication with HMI">
+        <object>Very slow or no communication with HMI</object>
+      </resource>
+      <resource name="No communications with I/O rack 1">
+        <object>No communications with I/O rack 1</object>
+      </resource>
+      <resource name="No communications with I/O rack 2">
+        <object>No communications with I/O rack 2</object>
+      </resource>
+      <resource name="Low oil level detected">
+        <object>Low oil level detected</object>
+      </resource>
+      <resource name="Low water level detected">
+        <object>Low water level detected</object>
+      </resource>
+      <resource name="High oil level detected">
+        <object>High oil level detected</object>
+      </resource>
+      <resource name="Sensor fault oil level system">
+        <object>Sensor fault oil level system</object>
+      </resource>
+      <resource name="Circuit breaker frying bin circulation pump tripped">
+        <object>Circuit breaker frying bin circulation pump tripped</object>
+      </resource>
+      <resource name="Frying bin circulation pump drive communications error">
+        <object>Frying bin circulation pump drive communications error</object>
+      </resource>
+      <resource name="Frying bin circulation pump drive error">
+        <object>Frying bin circulation pump drive error</object>
+      </resource>
+      <resource name="Process temperature more than 5C above setpoint">
+        <object>Process temperature more than 5C above setpoint</object>
+      </resource>
+      <resource name="Process temperature more than 5C below setpoint">
+        <object>Process temperature more than 5C below setpoint</object>
+      </resource>
+      <resource name="Process temperature more than 10C below setpoint">
+        <object>Process temperature more than 10C below setpoint</object>
+      </resource>
+      <resource name="Temperature sensor fault">
+        <object>Temperature sensor fault</object>
+      </resource>
+      <resource name="Softstarter thermal oil pump faulted">
+        <object>Softstarter thermal oil pump faulted</object>
+      </resource>
+      <resource name="Thermal oil valve fault">
+        <object>Thermal oil valve fault</object>
+      </resource>
+      <resource name="Thermal oil pump circuit breaker tripped">
+        <object>Thermal oil pump circuit breaker tripped</object>
+      </resource>
+      <resource name="Thermal oil boiler temperature decreasing quickly">
+        <object>Thermal oil boiler temperature decreasing quickly</object>
+      </resource>
+      <resource name="Thermal oil boiler temperature too low">
+        <object>Thermal oil boiler temperature too low</object>
+      </resource>
+      <resource name="Circuit breaker electrical heaters group 1 tripped">
+        <object>Circuit breaker electrical heaters group 1 tripped</object>
+      </resource>
+      <resource name="Circuit breaker electrical heaters group 2 tripped">
+        <object>Circuit breaker electrical heaters group 2 tripped</object>
+      </resource>
+      <resource name="Circuit breaker electrical heaters group 3 tripped">
+        <object>Circuit breaker electrical heaters group 3 tripped</object>
+      </resource>
+      <resource name="Circuit breaker electrical heaters group 4 tripped">
+        <object>Circuit breaker electrical heaters group 4 tripped</object>
+      </resource>
+      <resource name="Circuit breaker electrical heaters group 5 tripped">
+        <object>Circuit breaker electrical heaters group 5 tripped</object>
+      </resource>
+      <resource name="Circuit breaker electrical heaters group 6 tripped">
+        <object>Circuit breaker electrical heaters group 6 tripped</object>
+      </resource>
+      <resource name="Circuit breaker electrical heaters group 7 tripped">
+        <object>Circuit breaker electrical heaters group 7 tripped</object>
+      </resource>
+      <resource name="Circuit breaker electrical heaters group 8 tripped">
+        <object>Circuit breaker electrical heaters group 8 tripped</object>
+      </resource>
+      <resource name="Circuit breaker electrical heaters group 9 tripped">
+        <object>Circuit breaker electrical heaters group 9 tripped</object>
+      </resource>
+      <resource name="Circuit breaker electrical heaters group 10 tripped">
+        <object>Circuit breaker electrical heaters group 10 tripped</object>
+      </resource>
+      <resource name="Circuit breaker electrical heaters group 11 tripped">
+        <object>Circuit breaker electrical heaters group 11 tripped</object>
+      </resource>
+      <resource name="Circuit breaker electrical heaters group 12 tripped">
+        <object>Circuit breaker electrical heaters group 12 tripped</object>
+      </resource>
+      <resource name="Heater group 1 actuated, but not on (relay stuck in off position)">
+        <object>Heater group 1 actuated, but not on (relay stuck in off position)</object>
+      </resource>
+      <resource name="Heater group 2 actuated, but not on (relay stuck in off position)">
+        <object>Heater group 2 actuated, but not on (relay stuck in off position)</object>
+      </resource>
+      <resource name="Heater group 3 actuated, but not on (relay stuck in off position)">
+        <object>Heater group 3 actuated, but not on (relay stuck in off position)</object>
+      </resource>
+      <resource name="Heater group 4 actuated, but not on (relay stuck in off position)">
+        <object>Heater group 4 actuated, but not on (relay stuck in off position)</object>
+      </resource>
+      <resource name="Heater group 5 actuated, but not on (relay stuck in off position)">
+        <object>Heater group 5 actuated, but not on (relay stuck in off position)</object>
+      </resource>
+      <resource name="Heater group 6 actuated, but not on (relay stuck in off position)">
+        <object>Heater group 6 actuated, but not on (relay stuck in off position)</object>
+      </resource>
+      <resource name="Heater group 7 actuated, but not on (relay stuck in off position)">
+        <object>Heater group 7 actuated, but not on (relay stuck in off position)</object>
+      </resource>
+      <resource name="Heater group 8 actuated, but not on (relay stuck in off position)">
+        <object>Heater group 8 actuated, but not on (relay stuck in off position)</object>
+      </resource>
+      <resource name="Heater group 9 actuated, but not on (relay stuck in off position)">
+        <object>Heater group 9 actuated, but not on (relay stuck in off position)</object>
+      </resource>
+      <resource name="Heater group 10 actuated, but not on (relay stuck in off position)">
+        <object>Heater group 10 actuated, but not on (relay stuck in off position)</object>
+      </resource>
+      <resource name="Heater group 11 actuated, but not on (relay stuck in off position)">
+        <object>Heater group 11 actuated, but not on (relay stuck in off position)</object>
+      </resource>
+      <resource name="Heater group 12 actuated, but not on (relay stuck in off position)">
+        <object>Heater group 12 actuated, but not on (relay stuck in off position)</object>
+      </resource>
+      <resource name="Heater group 1 not actuated, but on (relay stuck in on position)">
+        <object>Heater group 1 not actuated, but on (relay stuck in on position)</object>
+      </resource>
+      <resource name="Heater group 2 not actuated, but on (relay stuck in on position)">
+        <object>Heater group 2 not actuated, but on (relay stuck in on position)</object>
+      </resource>
+      <resource name="Heater group 3 not actuated, but on (relay stuck in on position)">
+        <object>Heater group 3 not actuated, but on (relay stuck in on position)</object>
+      </resource>
+      <resource name="Heater group 4 not actuated, but on (relay stuck in on position)">
+        <object>Heater group 4 not actuated, but on (relay stuck in on position)</object>
+      </resource>
+      <resource name="Heater group 5 not actuated, but on (relay stuck in on position)">
+        <object>Heater group 5 not actuated, but on (relay stuck in on position)</object>
+      </resource>
+      <resource name="Heater group 6 not actuated, but on (relay stuck in on position)">
+        <object>Heater group 6 not actuated, but on (relay stuck in on position)</object>
+      </resource>
+      <resource name="Heater group 7 not actuated, but on (relay stuck in on position)">
+        <object>Heater group 7 not actuated, but on (relay stuck in on position)</object>
+      </resource>
+      <resource name="Heater group 8 not actuated, but on (relay stuck in on position)">
+        <object>Heater group 8 not actuated, but on (relay stuck in on position)</object>
+      </resource>
+      <resource name="Heater group 9 not actuated, but on (relay stuck in on position)">
+        <object>Heater group 9 not actuated, but on (relay stuck in on position)</object>
+      </resource>
+      <resource name="Heater group 10 not actuated, but on (relay stuck in on position)">
+        <object>Heater group 10 not actuated, but on (relay stuck in on position)</object>
+      </resource>
+      <resource name="Heater group 11 not actuated, but on (relay stuck in on position)">
+        <object>Heater group 11 not actuated, but on (relay stuck in on position)</object>
+      </resource>
+      <resource name="Heater group 12 not actuated, but on (relay stuck in on position)">
+        <object>Heater group 12 not actuated, but on (relay stuck in on position)</object>
+      </resource>
+      <resource name="Hood misalignment">
+        <object>Hood misalignment</object>
+      </resource>
+      <resource name="Circuit breaker hoist motor infeed tripped">
+        <object>Circuit breaker hoist motor infeed tripped</object>
+      </resource>
+      <resource name="Circuit breaker hoist motor outfeed tripped">
+        <object>Circuit breaker hoist motor outfeed tripped</object>
+      </resource>
+      <resource name="Sensor fault hoist motor infeed">
+        <object>Sensor fault hoist motor infeed</object>
+      </resource>
+      <resource name="Sensor fault hoist motor outfeed">
+        <object>Sensor fault hoist motor outfeed</object>
+      </resource>
+      <resource name="Temperature above 60C whilst hood not in lowest position">
+        <object>Temperature above 60C whilst hood not in lowest position</object>
+      </resource>
+      <resource name="Hood not in lowest position">
+        <object>Hood not in lowest position</object>
+      </resource>
+      <resource name="Circuit breaker scraper conveyor tripped">
+        <object>Circuit breaker scraper conveyor tripped</object>
+      </resource>
+      <resource name="Scraper conveyor time out">
+        <object>Scraper conveyor time out</object>
+      </resource>
+      <resource name="Circuit breaker residue discharge conveyor tripped">
+        <object>Circuit breaker residue discharge conveyor tripped</object>
+      </resource>
+      <resource name="Residue discharge conveyor not detected">
+        <object>Residue discharge conveyor not detected</object>
+      </resource>
+      <resource name="Circuit breaker lower conveyor drive tripped">
+        <object>Circuit breaker lower conveyor drive tripped</object>
+      </resource>
+      <resource name="Circuit breaker non-stick conveyor drive tripped">
+        <object>Circuit breaker non-stick conveyor drive tripped</object>
+      </resource>
+      <resource name="Circuit breaker infeed conveyor drive tripped">
+        <object>Circuit breaker infeed conveyor drive tripped</object>
+      </resource>
+      <resource name="lower conveyor communications error">
+        <object>lower conveyor communications error</object>
+      </resource>
+      <resource name="non-stickconveyor drive communications error">
+        <object>non-stickconveyor drive communications error</object>
+      </resource>
+      <resource name="Infeed conveyor drive communications error">
+        <object>Infeed conveyor drive communications error</object>
+      </resource>
+      <resource name="lower conveyor drive error">
+        <object>lower conveyor drive error</object>
+      </resource>
+      <resource name="non-stick conveyor drive error">
+        <object>non-stick conveyor drive error</object>
+      </resource>
+      <resource name="Infeed conveyor drive error">
+        <object>Infeed conveyor drive error</object>
+      </resource>
+      <resource name="Infeed conveyor not connected">
+        <object>Infeed conveyor not connected</object>
+      </resource>
+      <resource name="Circuit breaker CIP pump tripped">
+        <object>Circuit breaker CIP pump tripped</object>
+      </resource>
+      <resource name="Circuit breaker exhaust fan infeed tripped">
+        <object>Circuit breaker exhaust fan infeed tripped</object>
+      </resource>
+      <resource name="Circuit breaker exhaust fan outfeed tripped">
+        <object>Circuit breaker exhaust fan outfeed tripped</object>
+      </resource>
+      <resource name="Emergency stop 1 TRP">
+        <object>Emergency stop 1 TRP</object>
+      </resource>
+      <resource name="Emergency stop 2 TRP">
+        <object>Emergency stop 2 TRP</object>
+      </resource>
+      <resource name="Defect roller drive">
+        <object>Defect roller drive</object>
+      </resource>
+      <resource name="Defect shoe / belt drive">
+        <object>Defect shoe / belt drive</object>
+      </resource>
+      <resource name="Air pressure not ready">
+        <object>Air pressure not ready</object>
+      </resource>
+      <resource name="Fill.press. too low">
+        <object>Fill.press. too low</object>
+      </resource>
+      <resource name="Min. fill.press. not reached">
+        <object>Min. fill.press. not reached</object>
+      </resource>
+      <resource name="Roller wrong nr of rows">
+        <object>Roller wrong nr of rows</object>
+      </resource>
+      <resource name="Shoe not closed">
+        <object>Shoe not closed</object>
+      </resource>
+      <resource name="Defect shoe drive">
+        <object>Defect shoe drive</object>
+      </resource>
+      <resource name="Close protection cover">
+        <object>Close protection cover</object>
+      </resource>
+      <resource name="Protection cover open">
+        <object>Protection cover open</object>
+      </resource>
+      <resource name="Roller not bolted">
+        <object>Roller not bolted</object>
+      </resource>
+      <resource name="Bolt roller">
+        <object>Bolt roller</object>
+      </resource>
+      <resource name="Emergency circuit not OK">
+        <object>Emergency circuit not OK</object>
+      </resource>
+      <resource name="Emergency stop pump left">
+        <object>Emergency stop pump left</object>
+      </resource>
+      <resource name="Emergency stop pump right">
+        <object>Emergency stop pump right</object>
+      </resource>
+      <resource name="Pump door not closed">
+        <object>Pump door not closed</object>
+      </resource>
+      <resource name="Steps not in safe position">
+        <object>Steps not in safe position</object>
+      </resource>
+      <resource name="Defect FC pressure screw">
+        <object>Defect FC pressure screw</object>
+      </resource>
+      <resource name="Defect FC infeed screw">
+        <object>Defect FC infeed screw</object>
+      </resource>
+      <resource name="Pump not connected">
+        <object>Pump not connected</object>
+      </resource>
+      <resource name="Hopper not in position">
+        <object>Hopper not in position</object>
+      </resource>
+      <resource name="Pressure too low">
+        <object>Pressure too low</object>
+      </resource>
+      <resource name="Pressure too high">
+        <object>Pressure too high</object>
+      </resource>
+      <resource name="Pressure peak too high">
+        <object>Pressure peak too high</object>
+      </resource>
+      <resource name="Remote locked">
+        <object>Remote locked</object>
+      </resource>
+      <resource name="Batch ready">
+        <object>Batch ready</object>
+      </resource>
+      <resource name="Failure pump">
+        <object>Failure pump</object>
+      </resource>
+      <resource name="Fill press too high">
+        <object>Fill press too high</object>
+      </resource>
+      <resource name="Max press exceeded">
+        <object>Max press exceeded</object>
+      </resource>
+      <resource name="conveyor not OK">
+        <object>conveyor not OK</object>
+      </resource>
+      <resource name="fill pressure changed by user">
+        <object>fill pressure changed by user</object>
+      </resource>
+      <resource name="nr of strokes changed by user">
+        <object>nr of strokes changed by user</object>
+      </resource>
+      <resource name="conveyor speed changed by user">
+        <object>conveyor speed changed by user</object>
+      </resource>
+      <resource name="nr of rows changed by user">
+        <object>nr of rows changed by user</object>
+      </resource>
+      <resource name="infeed pressure changed by user">
+        <object>infeed pressure changed by user</object>
+      </resource>
+      <resource name="Relaxation_pressure changed by user">
+        <object>Relaxation_pressure changed by user</object>
+      </resource>
+      <resource name="recipe items (fill press">
+        <object>recipe items (fill press</object>
+      </resource>
+      <resource name="first scan">
+        <object>first scan</object>
+      </resource>
+      <resource name="physical button START pressed">
+        <object>physical button START pressed</object>
+      </resource>
+      <resource name="hmi button START pressed">
+        <object>hmi button START pressed</object>
+      </resource>
+      <resource name="hmi START conveyor pressed">
+        <object>hmi START conveyor pressed</object>
+      </resource>
+      <resource name="hmi STOP conveyor pressed">
+        <object>hmi STOP conveyor pressed</object>
+      </resource>
+      <resource name="Estop pressed">
+        <object>Estop pressed</object>
+      </resource>
+      <resource name="Estop resolved">
+        <object>Estop resolved</object>
+      </resource>
+      <resource name="System state changed to">
+        <object>System state changed to</object>
+      </resource>
+      <resource name="hood closed">
+        <object>hood closed</object>
+      </resource>
+      <resource name="hood opened">
+        <object>hood opened</object>
+      </resource>
+      <resource name="Roller bolted">
+        <object>Roller bolted</object>
+      </resource>
+      <resource name="roller unbolted">
+        <object>roller unbolted</object>
+      </resource>
+      <resource name="roller not unbolted">
+        <object>roller not unbolted</object>
+      </resource>
+      <resource name="Rack closed">
+        <object>Rack closed</object>
+      </resource>
+      <resource name="Rack opened">
+        <object>Rack opened</object>
+      </resource>
+      <resource name="Pump conneded">
+        <object>Pump conneded</object>
+      </resource>
+      <resource name="Pump disconnected">
+        <object>Pump disconnected</object>
+      </resource>
+      <resource name="dummy connected">
+        <object>dummy connected</object>
+      </resource>
+      <resource name="dummy disconnected">
+        <object>dummy disconnected</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.EventNames" ServiceOnly="false">
+      <resource name="Info: Temperaturechanged to %N">
+        <object>Info: Temperature changed to %N</object>
+      </resource>
+      <resource name="Info: Dwelltime changed to %N">
+        <object>Info: Dwelltime changed to %N</object>
+      </resource>
+      <resource name="Info: Speed difference teflon to main belt changed to %N">
+        <object>Info: Speed difference teflon to main belt changed to %N</object>
+      </resource>
+      <resource name="Info: Speed difference infeed to main belt changed to %N">
+        <object>Info: Speed difference infeed to main belt changed to %N</object>
+      </resource>
+      <resource name="Info: Oil circulation pump speed changed to %N">
+        <object>Info: Oil circulation pump speed changed to %N</object>
+      </resource>
+      <resource name="Info: Process started from touchscreen">
+        <object>Info: Process started from touchscreen</object>
+      </resource>
+      <resource name="Info: Process started from physical button">
+        <object>Info: Process started from physical button</object>
+      </resource>
+      <resource name="Info: Process stopped from touchscreen">
+        <object>Info: Process stopped from touchscreen</object>
+      </resource>
+      <resource name="Info: Process stopped from physical button">
+        <object>Info: Process stopped from physical button</object>
+      </resource>
+      <resource name="Info: Transport started from touchscreen">
+        <object>Info: Transport started from touchscreen</object>
+      </resource>
+      <resource name="Info: Transport stopped from touchscreen">
+        <object>Info: Transport stopped from touchscreen</object>
+      </resource>
+      <resource name="Info: Hood up button pressed on touchscreen">
+        <object>Info: Hood up button pressed on touchscreen</object>
+      </resource>
+      <resource name="Info: Hood down button pressed on touchscreen">
+        <object>Info: Hood down button pressed on touchscreen</object>
+      </resource>
+      <resource name="Info: Cleaning started from touchscreen">
+        <object>Info: Cleaning started from touchscreen</object>
+      </resource>
+      <resource name="Info: Cleaning paused from touchscreen">
+        <object>Info: Cleaning paused from touchscreen</object>
+      </resource>
+      <resource name="Info: Cleaning stopped from touchscreen">
+        <object>Info: Cleaning stopped from touchscreen</object>
+      </resource>
+      <resource name="Info: Transport started in cleaning from touchscreen">
+        <object>Info: Transport started in cleaning from touchscreen</object>
+      </resource>
+      <resource name="Info: Transport stopped in cleaning from touchscreen">
+        <object>Info: Transport stopped in cleaning from touchscreen</object>
+      </resource>
+      <resource name="Info: Scraper belt started from touchscreen">
+        <object>Info: Scraper belt started from touchscreen</object>
+      </resource>
+      <resource name="Info: Scraper belt stopped from touchscreen">
+        <object>Info: Scraper belt stopped from touchscreen</object>
+      </resource>
+      <resource name="Info: New recipe activated">
+        <object>Info: New recipe activated</object>
+      </resource>
+      <resource name="Info: Recipe saved">
+        <object>Info: Recipe saved</object>
+      </resource>
+      <resource name="Info: Recipe copied">
+        <object>Info: Recipe copied</object>
+      </resource>
+      <resource name="Info: Recipe pasted">
+        <object>Info: Recipe pasted</object>
+      </resource>
+      <resource name="Info: Manual cleaning started from touchscreen">
+        <object>Info: Manual cleaning started from touchscreen</object>
+      </resource>
+      <resource name="Info: Manual cleaning stopped from touchscreen">
+        <object>Info: Manual cleaning stopped from touchscreen</object>
+      </resource>
+      <resource name="Info: Scraper belt started in cleaning from touchscreen">
+        <object>Info: Scraper belt started in cleaning from touchscreen</object>
+      </resource>
+      <resource name="Info: Scraper belt stopped in cleaning from touchscreen">
+        <object>Info: Scraper belt stopped in cleaning from touchscreen</object>
+      </resource>
+      <resource name="Info: Transport started from physical button">
+        <object>Info: Transport started from physical button</object>
+      </resource>
+      <resource name="Info: Transport stopped from physical button">
+        <object>Info: Transport stopped from physical button</object>
+      </resource>
+      <resource name="Info: Transport started in manual cleaning from touchscreen">
+        <object>Info: Transport started in manual cleaning from touchscreen</object>
+      </resource>
+      <resource name="Info: System status changed to ">
+        <object>Info: System status changed to </object>
+      </resource>
+      <resource name="Info: Transport status changed to ">
+        <object>Info: Transport status changed to </object>
+      </resource>
+      <resource name="Info: Cleaning step changed to ">
+        <object>Info: Cleaning step changed to </object>
+      </resource>
+      <resource name="Info: Filling step changed to ">
+        <object>Info: Filling step changed to </object>
+      </resource>
+      <resource name="Info: Emptying step changed to ">
+        <object>Info: Emptying step changed to </object>
+      </resource>
+      <resource name="Info: Oil in bin is being topped up">
+        <object>Info: Oil in bin is being topped up</object>
+      </resource>
+      <resource name="Info: Hood fully closed">
+        <object>Info: Hood fully closed</object>
+      </resource>
+      <resource name="Info: Hood fully opened">
+        <object>Info: Hood fully opened</object>
+      </resource>
+      <resource name="Info: Block valve opened">
+        <object>Info: Block valve opened</object>
+      </resource>
+      <resource name="Info: Block valve closed">
+        <object>Info: Block valve closed</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Dashboard.FPAlarmEventListControl" ServiceOnly="false">
+      <resource name="txtCaptionText.Text">
+        <object>Alarm and Event List</object>
+      </resource>
+      <resource name="Status.Activated">
+        <object>Activated</object>
+      </resource>
+      <resource name="List.NoData">
+        <object>No data</object>
+      </resource>
+      <resource name="colAlarmIcon.Caption">
+        <object />
+      </resource>
+      <resource name="colEventNumber.Caption">
+        <object>Event</object>
+      </resource>
+      <resource name="colRegTime.Caption">
+        <object>Registration time</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Owner</object>
+      </resource>
+      <resource name="colDetails.Caption">
+        <object>Detail</object>
+      </resource>
+      <resource name="colEventValue.Caption">
+        <object>Event value</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Dashboard.FpSelectTags" ServiceOnly="false">
+      <resource name="buttonCancel.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="buttonOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="buttonClearSelection.Text">
+        <object>Clear selection</object>
+      </resource>
+      <resource name="colDeviceId.Caption">
+        <object>Device id</object>
+      </resource>
+      <resource name="colDeviceName.Caption">
+        <object>Device name</object>
+      </resource>
+      <resource name="colParameterNumber.Caption">
+        <object>Number</object>
+      </resource>
+      <resource name="colTagName.Caption">
+        <object>Tag name</object>
+      </resource>
+      <resource name="colSelected.Caption">
+        <object>Selected</object>
+      </resource>
+      <resource name="colDisplayName.Caption">
+        <object>Description</object>
+      </resource>
+      <resource name="colUmTxt.Caption">
+        <object>Unit</object>
+      </resource>
+      <resource name="Text">
+        <object>Select tags</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Dashboard.FPRunChartControl" ServiceOnly="false">
+      <resource name="buttonSelectTags.Text">
+        <object>Select tags</object>
+      </resource>
+      <resource name="Toolbox.DisplayName">
+        <object>Run chart</object>
+      </resource>
+      <resource name="Toolbox.DisplayName.Hint">
+        <object>shows data for a selection of tags within a period</object>
+      </resource>
+      <resource name="AxisXTitle">
+        <object>Time</object>
+      </resource>
+      <resource name="AxisYTitle">
+        <object>Count</object>
+      </resource>
+      <resource name="Status.Activated">
+        <object>Activated</object>
+      </resource>
+      <resource name="AveragingOver">
+        <object>Averaging over</object>
+      </resource>
+      <resource name="checkBoxUseLongName.Text">
+        <object>Use long name</object>
+      </resource>
+      <resource name="LogDataQueryTimeout">
+        <object>Too many datapoints, try selecting fewer days.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Dashboard.Common.TagConfigEditorForm" ServiceOnly="false">
+      <resource name="Text">
+        <object>Select tag</object>
+      </resource>
+      <resource name="buttonOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="buttonCancel.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="colNumber.Caption">
+        <object>#</object>
+      </resource>
+      <resource name="colShortName.Caption">
+        <object>Tag name</object>
+      </resource>
+      <resource name="colLongName.Caption">
+        <object>Description</object>
+      </resource>
+      <resource name="colUnit.Caption">
+        <object>Unit</object>
+      </resource>
+      <resource name="labelManName.Text">
+        <object>Custom tag name</object>
+      </resource>
+      <resource name="buttonManName.Text">
+        <object>Add tag name</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Dashboard.QcControlChart" ServiceOnly="false">
+      <resource name="Toolbox.DisplayName">
+        <object>Control chart</object>
+      </resource>
+      <resource name="Toolbox.DisplayName.Hint">
+        <object>Show QC recordings</object>
+      </resource>
+      <resource name="AxisXTitle">
+        <object>Time</object>
+      </resource>
+      <resource name="AxisYTitle">
+        <object>Weight</object>
+      </resource>
+      <resource name="Status.Activated">
+        <object>Activated</object>
+      </resource>
+      <resource name="QueryTimeout">
+        <object>Too many datapoints, try selecting fewer days.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Dashboard.FpThroughputOverview" ServiceOnly="false">
+      <resource name="Toolbox.DisplayName">
+        <object>Throughput overview</object>
+      </resource>
+      <resource name="Toolbox.DisplayName.Hint">
+        <object>Show throughput for a FP line -  based on Revoportioners order production</object>
+      </resource>
+      <resource name="AxisXTitle">
+        <object>Time</object>
+      </resource>
+      <resource name="AxisYTitle">
+        <object>Throughput</object>
+      </resource>
+      <resource name="Status.Activated">
+        <object>Activated</object>
+      </resource>
+      <resource name="QueryTimeout">
+        <object>Too many datapoints, try selecting fewer days.</object>
+      </resource>
+      <resource name="NoData">
+        <object>No available throughput data for the selected period</object>
+      </resource>
+
+    </type>
+    <type name="Marel.Mp5.FP.UI.Windows.Dashboard.FPProductionLineControl" ServiceOnly="false">
+      <resource name="NoLineSetup">
+        <object>No line setup currently active on the line.</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="is">
+  <industry>
+    <type name="Marel.Mp5.Integration2.Services.ImportEngine.StandardRecordImportHandler" ServiceOnly="true">
+      <resource name="Standard.TypeUnknown">
+        <object>Þessi innflutningsleið vinnur ekki með gögn af þessari tengund</object>
+      </resource>
+      <resource name="Standard.NoObjectFile">
+        <object>Lesari skilaði engum gögnum.</object>
+      </resource>
+      <resource name="Standard.NoObjectRecord">
+        <object>Gagnahlutur ekki búin til.</object>
+      </resource>
+      <resource name="Standard.UnkownObjectType">
+        <object>Óþekkt tengund af gögnum.</object>
+      </resource>
+      <resource name="Standard.ErrorHalted">
+        <object>Villa við innlestur og lestur stoppaður.</object>
+      </resource>
+      <resource name="Standard.ErrorNotHalted">
+        <object>Villa við innlestur en lestur ekki stoppaður.</object>
+      </resource>
+      <resource name="Standard.RecordRejected">
+        <object>Gagnategund {0} ekki samþykkt.</object>
+      </resource>
+      <resource name="Standard.RecordVerifyError">
+        <object>Gagnategund {0} með villu.</object>
+      </resource>
+      <resource name="Standard.NotInitialized">
+        <object>Innflutningsleið hefur ekki verið uppsett</object>
+      </resource>
+      <resource name="Standard.NoProcess">
+        <object>Fann ekki vinnsluþátt með kóða</object>
+      </resource>
+      <resource name="Standard.NoActivity">
+        <object>Fann ekki vinnslulykill með kóða: {0} eða skrá gæti verið óvirk</object>
+      </resource>
+      <resource name="Standard.RecordNotActive">
+        <object>Skrá er ekki virk</object>
+      </resource>
+      <resource name="Standard.NoPO">
+        <object>Fann ekki innkaupapöntun með kóða</object>
+      </resource>
+      <resource name="Standard.NoLot">
+        <object>Fann ekki lotu með kóða</object>
+      </resource>
+      <resource name="Standard.NoPlot">
+        <object>Fann ekki framleiðslulotu með kóða</object>
+      </resource>
+      <resource name="Standard.NoRmArea">
+        <object>Fann ekki hráefnisvæði með kóða</object>
+      </resource>
+      <resource name="Standard.InvalidBatch">
+        <object>Ógild gildi fyrir lotunúmer</object>
+      </resource>
+      <resource name="Standard.NoValueProperty">
+        <object>Breyta fyrir gildi vantar</object>
+      </resource>
+      <resource name="Standard.NoDateFormatProperty">
+        <object>Breyta fyrir dagsetning vantar</object>
+      </resource>
+      <resource name="Standard.NoShift">
+        <object>Fann ekki vakt með kóða</object>
+      </resource>
+      <resource name="Standard.NoProfilePeriodValue">
+        <object>Ógild gildi fyrir Profile Period</object>
+      </resource>
+      <resource name="Standard.InvalidRecordType">
+        <object>Óþekkt gagnategund ({0}) móttekin, engin stilling á við.</object>
+      </resource>
+      <resource name="Standard.EmptyDataObject">
+        <object>Gagnahlutur er tómur</object>
+      </resource>
+      <resource name="Standard.CreationFailed">
+        <object>Gat ekki búið til</object>
+      </resource>
+      <resource name="Standard.InvalidColumn">
+        <object>Óþekkt nafn á dálki '{0}' fyrir skrá '{1}'</object>
+      </resource>
+      <resource name="Standard.ReqForeignKey">
+        <object>Nauðsynlegur tilvísunarlykill fyrir breytu: '{0}' með gildið:'{1}' fannst ekki.</object>
+      </resource>
+      <resource name="Standard.ForeignKeyInfo">
+        <object>Tilvísunarlykill fyrir breytu: '{0}' með gildið:'{1}' fannst ekki.
+\nHeld áfram að búa til gagnahlut þar sem þennan lykil þarf ekki.
+\nIf dálkurinn fyrir þennan lykil er merktur sem nauðsynlegur í uppsetningu, þá mun er ekki hæg að skrifa skrá í gagnagrunn, annars er það hægt. </object>
+      </resource>
+      <resource name="Standard.PropertyNotSet">
+        <object>Breyta '{0}' ekki sett.</object>
+      </resource>
+      <resource name="Standard.TypeNotFound">
+        <object>Tengund {0} ekki fundin hlöðnum assembly</object>
+      </resource>
+      <resource name="Standard.TransactionalUnitOp">
+        <object>Transactional stilling á innflutningsleið fyrir einingaaðgerðir má ekki vera stillt á true.</object>
+      </resource>
+      <resource name="Standard.TransactionalAction">
+        <object>Transactional stilling á innflutningsleið fyrir aðgerðir (actions) má ekki vera stillt á true.</object>
+      </resource>
+      <resource name="Import.Begin">
+        <object>Innflutningur byrjar</object>
+      </resource>
+      <resource name="Import.End">
+        <object>Innflutningur endar</object>
+      </resource>
+      <resource name="DBSP.ImportFailed">
+        <object>Villa við innflutning á gögnum frá Stored Procedure í gagnagrunni.</object>
+      </resource>
+      <resource name="Csv.NoMappingFile">
+        <object>Engin flutningslýsing fundin fyrir</object>
+      </resource>
+      <resource name="Import.FileError">
+        <object>Villa við innflutning á skrá</object>
+      </resource>
+      <resource name="Import.MQXFailed">
+        <object>Villa við innflutning á skrá frá skilaboðaröð með einkenni</object>
+      </resource>
+      <resource name="Standard.ProcessContextOption">
+        <object>Vinnsluaðferð {0} ekki virkt í uppsetingu fyrir forrit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.Services.ImportEngine.Wcf.ImportPortalService" ServiceOnly="true">
+      <resource name="Import.Begin">
+        <object>Innflutningur byrjar</object>
+      </resource>
+      <resource name="Import.End">
+        <object>Innflutningur endar</object>
+      </resource>
+      <resource name="Import.Failed">
+        <object>Villa við innflutning á wcf gögnum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.Services.ImportEngine.Wcf.TEHubXmlImportHandler" ServiceOnly="false">
+      <resource name="AlarmDesc">
+        <object>Skilaboð móttekin frá miðstöð</object>
+      </resource>
+      <resource name="AlarmStateDesc">
+        <object>Flutningur {0} heppnaðist</object>
+      </resource>
+      <resource name="AlarmAckDesc">
+        <object>Staðfesting móttekin frá miðstöð</object>
+      </resource>
+      <resource name="AlarmAckStateDesc">
+        <object>Flutningur {0} {1}heppnaðist</object>
+      </resource>
+      <resource name="AlarmErrorDesc">
+        <object>Villa barst</object>
+      </resource>
+      <resource name="AlarmErrorStateDesc">
+        <object>Flutningur {0} {1}tókst ekki</object>
+      </resource>
+      <resource name="OrderCodeText">
+        <object>fyrir pöntun {0}</object>
+      </resource>
+      <resource name="AlarmFailedDesc">
+        <object>Flutningur tókst ekki</object>
+      </resource>
+      <resource name="AlarmFailedName">
+        <object>Flutningur</object>
+      </resource>
+      <resource name="AlarmAckName">
+        <object>Flutningur staðfestur</object>
+      </resource>
+      <resource name="AlarmName">
+        <object>Flutningur tókst ekki</object>
+      </resource>
+      <resource name="AlarmReceivedName">
+        <object>Pöntun móttekin</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

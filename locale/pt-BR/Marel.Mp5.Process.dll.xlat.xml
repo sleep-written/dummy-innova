@@ -1,0 +1,1783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="pt-BR">
+  <industry>
+    <type name="Marel.Mp5.Process.Process.LineType" ServiceOnly="true">
+      <resource name="ProcessUnit">
+        <object>Unidade de produção</object>
+      </resource>
+      <resource name="BasicLine">
+        <object>Linha</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanType" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Sem plano</object>
+      </resource>
+      <resource name="ContextPlan">
+        <object>Plano comum</object>
+      </resource>
+      <resource name="SplitPlan">
+        <object>Dividir plano</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessState" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Não configurado</object>
+      </resource>
+      <resource name="NoWork">
+        <object>Horas externas</object>
+      </resource>
+      <resource name="Running">
+        <object>Em execução</object>
+      </resource>
+      <resource name="Idle">
+        <object>Ocioso</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Interrompido</object>
+      </resource>
+      <resource name="Breakdown">
+        <object>Divisão</object>
+      </resource>
+      <resource name="NotProgrammed">
+        <object>Não programado</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessCounterType" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Não utilizado</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Por unidade de produção</object>
+      </resource>
+      <resource name="Line">
+        <object>Por linha</object>
+      </resource>
+      <resource name="Section">
+        <object>Por seção</object>
+      </resource>
+      <resource name="Department">
+        <object>Por departamento</object>
+      </resource>
+      <resource name="Site">
+        <object>Por local</object>
+      </resource>
+      <resource name="Station">
+        <object>Por estação</object>
+      </resource>
+      <resource name="StationGroup">
+        <object>Por grupos de estação</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.AutoManual" ServiceOnly="true">
+      <resource name="Automatic">
+        <object>Automático</object>
+      </resource>
+      <resource name="Manual">
+        <object>Manual</object>
+      </resource>
+      <resource name="AllowManual">
+        <object>Permitir manual</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessPeriodType" ServiceOnly="true">
+      <resource name="Daily">
+        <object>Diariamente</object>
+      </resource>
+      <resource name="OnActivity">
+        <object>Na alteração da atividade</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextSelect" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Não utilizado</object>
+      </resource>
+      <resource name="Direct">
+        <object>Alterar diretamente</object>
+      </resource>
+      <resource name="DirectAssigned">
+        <object>Alterar diretamente, usar itens nomeados</object>
+      </resource>
+      <resource name="DirectStopped">
+        <object>Alterar diretamente ao parar</object>
+      </resource>
+      <resource name="DirectAssignedStopped">
+        <object>Alterar diretamente ao parar, usar itens nomeados</object>
+      </resource>
+      <resource name="Pending">
+        <object>Início pendente</object>
+      </resource>
+      <resource name="PendingAssigned">
+        <object>Início pendente, usar itens nomeados</object>
+      </resource>
+      <resource name="PendingStopped">
+        <object>Início pendente ao parar</object>
+      </resource>
+      <resource name="PendingAssignedStopped">
+        <object>Início pendente ao parar, usar itens nomeados</object>
+      </resource>
+      <resource name="ForwardPending">
+        <object>Permitir somente encaminhamento pendente</object>
+      </resource>
+      <resource name="ForwardDirect">
+        <object>Permitir somente encaminhamento direto</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanMethod" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Sem plano</object>
+      </resource>
+      <resource name="Relaxed">
+        <object>Reduzido</object>
+      </resource>
+      <resource name="NoSequence">
+        <object>Estrito, sem seqüência</object>
+      </resource>
+      <resource name="Sequence">
+        <object>Estrito, em seqüência</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextType" ServiceOnly="true">
+      <resource name="NoContext">
+        <object>Sem contexto</object>
+      </resource>
+      <resource name="LocalApplication">
+        <object>Aplicativo</object>
+      </resource>
+      <resource name="LocalSystem">
+        <object>Sistema</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Unidade de produção</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.SystemType" ServiceOnly="false">
+      <resource name="Other">
+        <object>Outro</object>
+      </resource>
+      <resource name="Species">
+        <object>Espécie</object>
+      </resource>
+      <resource name="Section">
+        <object>Seção</object>
+      </resource>
+      <resource name="Input">
+        <object>Entrada</object>
+      </resource>
+      <resource name="Primary">
+        <object>Principal </object>
+      </resource>
+      <resource name="Secondary">
+        <object>Secundário</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>Terciário</object>
+      </resource>
+      <resource name="Waste">
+        <object>Descarte</object>
+      </resource>
+      <resource name="Fat">
+        <object>Gordura</object>
+      </resource>
+      <resource name="Bones">
+        <object>Ossos</object>
+      </resource>
+      <resource name="Skin">
+        <object>Pele</object>
+      </resource>
+      <resource name="Offal">
+        <object>Sobra</object>
+      </resource>
+      <resource name="Ingredient">
+        <object>Ingrediente</object>
+      </resource>
+      <resource name="Packaging">
+        <object>Embalagem</object>
+      </resource>
+      <resource name="PieceType">
+        <object>Tipo de peça</object>
+      </resource>
+      <resource name="ColorType">
+        <object>Cor</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoDeliveryStatus" ServiceOnly="false">
+      <resource name="NotOrdered">
+        <object>Não solicitado</object>
+      </resource>
+      <resource name="InStorage">
+        <object>Em armazenamento</object>
+      </resource>
+      <resource name="EnRoute">
+        <object>Em trânsito</object>
+      </resource>
+      <resource name="Receiving">
+        <object>Recebendo, indisponível</object>
+      </resource>
+      <resource name="ReceivingAvailable">
+        <object>Recebendo, disponível</object>
+      </resource>
+      <resource name="Holding">
+        <object>Em espera</object>
+      </resource>
+      <resource name="Available">
+        <object>Disponível</object>
+      </resource>
+      <resource name="Completed">
+        <object>Concluído</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.PrivateObjectType" ServiceOnly="false">
+      <resource name="Mateial">
+        <object>Produto</object>
+      </resource>
+      <resource name="Customer">
+        <object>Cliente</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Linha da ordem</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.CountMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Aceitar tudo</object>
+      </resource>
+      <resource name="Range">
+        <object>Mín. e máx.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextColumn" ServiceOnly="false">
+      <resource name="Activity">
+        <object>Atividade</object>
+      </resource>
+      <resource name="Po">
+        <object>Ordem de compra</object>
+      </resource>
+      <resource name="Batch">
+        <object>Arquivo</object>
+      </resource>
+      <resource name="Lot">
+        <object>Lote</object>
+      </resource>
+      <resource name="Plot">
+        <object>Lote de produção</object>
+      </resource>
+      <resource name="Rmarea">
+        <object>Área de recursos</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Em espera</object>
+      </resource>
+      <resource name="Available">
+        <object>Disponível</object>
+      </resource>
+      <resource name="Completed">
+        <object>Concluído</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotRecord" ServiceOnly="false">
+      <resource name="AutoName">
+        <object>Lote</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>L</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.YieldGroupRecord" ServiceOnly="true">
+      <resource name="AutoName">
+        <object>Grupo de rendimento</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>R</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.ChainType" ServiceOnly="true">
+      <resource name="TracePo">
+        <object>Rastrear OCs</object>
+      </resource>
+      <resource name="TraceBatch">
+        <object>Rastrear número de arquivos</object>
+      </resource>
+      <resource name="TraceLot">
+        <object>Rastrear lotes</object>
+      </resource>
+      <resource name="TracePack">
+        <object>Rastrear pacotes</object>
+      </resource>
+      <resource name="TraceCollection">
+        <object>Rastrear coleta</object>
+      </resource>
+      <resource name="TraceInterval">
+        <object>Rastrear por hora</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.UnitStatus" ServiceOnly="true">
+      <resource name="PendingAuto">
+        <object>Aguardando para iniciar automaticamente</object>
+      </resource>
+      <resource name="PendingManual">
+        <object>Aguardando para iniciar manualmente</object>
+      </resource>
+      <resource name="Active">
+        <object>Unidade ativa</object>
+      </resource>
+      <resource name="Ending">
+        <object>Unidade em término</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.TransactionType" ServiceOnly="true">
+      <resource name="UnitSchedule">
+        <object>Unidade agendada</object>
+      </resource>
+      <resource name="UnitStart">
+        <object>Unidade iniciada</object>
+      </resource>
+      <resource name="UnitEnd">
+        <object>Unidade concluída</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Em espera</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.TransferStatus" ServiceOnly="false">
+      <resource name="NoTransfer">
+        <object>Sem transferência</object>
+      </resource>
+      <resource name="ReadyForTransfer">
+        <object>Transferência pronta</object>
+      </resource>
+      <resource name="TransferComplete">
+        <object>Transferência concluída</object>
+      </resource>
+      <resource name="TransferReceive">
+        <object>Ordem de transferência recebida</object>
+      </resource>
+      <resource name="TransferInProgress">
+        <object>Transferência em andamento</object>
+      </resource>
+      <resource name="TransferError">
+        <object>Erro de transferência</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderLineStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Fechado</object>
+      </resource>
+      <resource name="Open">
+        <object>Abrir</object>
+      </resource>
+      <resource name="Complete">
+        <object>Concluir</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Cancelado</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AssignType" ServiceOnly="false">
+      <resource name="All">
+        <object>Permissão total</object>
+      </resource>
+      <resource name="Production">
+        <object>Produção permitida</object>
+      </resource>
+      <resource name="Direct">
+        <object>Permissão direta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintObjectType" ServiceOnly="false">
+      <resource name="Inventory">
+        <object>Inventário</object>
+      </resource>
+      <resource name="Po">
+        <object>Ordem de compra</object>
+      </resource>
+      <resource name="Supplier">
+        <object>Fornecedor</object>
+      </resource>
+      <resource name="Site">
+        <object>Local</object>
+      </resource>
+      <resource name="Category">
+        <object>Categoria</object>
+      </resource>
+      <resource name="SectionType">
+        <object>Tipo de seção</object>
+      </resource>
+      <resource name="BornIn">
+        <object>Nascido em</object>
+      </resource>
+      <resource name="RaisedIn">
+        <object>Criado em</object>
+      </resource>
+      <resource name="FatClass">
+        <object>Classe de gordura</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintType" ServiceOnly="false">
+      <resource name="OnlyFrom">
+        <object>Somente de</object>
+      </resource>
+      <resource name="NotFrom">
+        <object>Não de</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ProcessAssignType" ServiceOnly="false">
+      <resource name="Fixed">
+        <object>Fixo</object>
+      </resource>
+      <resource name="Regular">
+        <object>Temporário</object>
+      </resource>
+      <resource name="Planned">
+        <object>Planejado</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.ForwardType" ServiceOnly="true">
+      <resource name="NoForward">
+        <object>Sem encaminhar</object>
+      </resource>
+      <resource name="ForwardAll">
+        <object>Encaminhar tudo</object>
+      </resource>
+      <resource name="ForwardActivity">
+        <object>Encaminhar atividade</object>
+      </resource>
+      <resource name="ForwardPo">
+        <object>Encaminhar OC</object>
+      </resource>
+      <resource name="ForwardBatch">
+        <object>Encaminhar arquivo</object>
+      </resource>
+      <resource name="ForwardLot">
+        <object>Encaminhar lote</object>
+      </resource>
+      <resource name="ForwardPlot">
+        <object>Encaminhar lote de produção</object>
+      </resource>
+      <resource name="ForwardRmarea">
+        <object>Encaminhar área de recurso</object>
+      </resource>
+      <resource name="ForwardShift">
+        <object>Encaminhar turno</object>
+      </resource>
+      <resource name="ForwardProfileId">
+        <object>Encaminhar perfil do período</object>
+      </resource>
+      <resource name="ForwardPrday">
+        <object>Encaminhar dia de produção</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Não iniciado</object>
+      </resource>
+      <resource name="Active">
+        <object>Ativo</object>
+      </resource>
+      <resource name="Completed">
+        <object>Concluído</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Em espera</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineType" ServiceOnly="false">
+      <resource name="ContextPlan">
+        <object>Plano de contexto</object>
+      </resource>
+      <resource name="ActivityPlan">
+        <object>Atividade</object>
+      </resource>
+      <resource name="PoPlan">
+        <object>OC</object>
+      </resource>
+      <resource name="BatchPlan">
+        <object>Arquivo</object>
+      </resource>
+      <resource name="LotPlan">
+        <object>Lote</object>
+      </resource>
+      <resource name="PlotPlan">
+        <object>Lote de produção</object>
+      </resource>
+      <resource name="RmareaPlan">
+        <object>Área de recursos</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.InventoryType" ServiceOnly="false">
+      <resource name="Itemized">
+        <object>Inventário da unidade</object>
+      </resource>
+      <resource name="Container">
+        <object>Inventário de bandeja</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Inventário não detalhado</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationStatus" ServiceOnly="false">
+      <resource name="Empty">
+        <object>Vazio</object>
+      </resource>
+      <resource name="Filling">
+        <object>Preenchendo</object>
+      </resource>
+      <resource name="Full">
+        <object>Preenchido</object>
+      </resource>
+      <resource name="Emptying">
+        <object>Esvaziando</object>
+      </resource>
+      <resource name="ConfirmEmpty">
+        <object>Confirmar esvaziamento</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationUse" ServiceOnly="true">
+      <resource name="NoLocations">
+        <object>Sem locais</object>
+      </resource>
+      <resource name="AllowLocations">
+        <object>Permitir locais</object>
+      </resource>
+      <resource name="UseLocations">
+        <object>Usar locais</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.BlockType" ServiceOnly="true">
+      <resource name="NoBlock">
+        <object>Não bloquear</object>
+      </resource>
+      <resource name="HardwareBlock">
+        <object>Bloquear hardware</object>
+      </resource>
+      <resource name="OperatorBlock">
+        <object>Bloquear operador</object>
+      </resource>
+      <resource name="HwOpBlock">
+        <object>Bloquear hardware e operador</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PrdayStart" ServiceOnly="true">
+      <resource name="NotStarted">
+        <object>Não iniciado</object>
+      </resource>
+      <resource name="Automatic">
+        <object>Iniciado automaticamente</object>
+      </resource>
+      <resource name="Manual">
+        <object>Iniciado manualmente</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CheckStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Não configurado</object>
+      </resource>
+      <resource name="OkOverTarget">
+        <object>Ok, acima da média</object>
+      </resource>
+      <resource name="OkOnTarget">
+        <object>Ok, na média</object>
+      </resource>
+      <resource name="OkUnderTarget">
+        <object>Ok, abaixo da média</object>
+      </resource>
+      <resource name="OkT1">
+        <object>Ok, abaixo de T1</object>
+      </resource>
+      <resource name="RejectOver">
+        <object>Rejeitar, acima da média</object>
+      </resource>
+      <resource name="RejectT1">
+        <object>Rejeitar, acima de T1</object>
+      </resource>
+      <resource name="RejectT2">
+        <object>Rejeitar, abaixo de T1</object>
+      </resource>
+      <resource name="RejectUnder">
+        <object>Rejeição de subpeso</object>
+      </resource>
+      <resource name="RejectMetal">
+        <object>Rejeição de metal</object>
+      </resource>
+      <resource name="RejectLabel">
+        <object>Rejeição de etiqueta</object>
+      </resource>
+      <resource name="RejectQa">
+        <object>Rejeição de QA</object>
+      </resource>
+      <resource name="RejectOther">
+        <object>Outra rejeição</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Item</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Excluir</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Compactado</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Consumido</object>
+      </resource>
+      <resource name="Returned">
+        <object>Devolvido</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.AssignStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Abrir</object>
+      </resource>
+      <resource name="OpenManual">
+        <object>Abrir para operações</object>
+      </resource>
+      <resource name="Closed">
+        <object>Fechado</object>
+      </resource>
+      <resource name="ClosedManual">
+        <object>Fechado manualmente</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Pacote</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Não detalhado</object>
+      </resource>
+      <resource name="Pending">
+        <object>Pendente</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Excluído</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Inválido</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Compactado</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Consumido</object>
+      </resource>
+      <resource name="Returned">
+        <object>Devolvido</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Coleta</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Excluído</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Consumido</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.BomRType" ServiceOnly="false">
+      <resource name="None">
+        <object>Nenhum</object>
+      </resource>
+      <resource name="Input">
+        <object>Entrada</object>
+      </resource>
+      <resource name="Output">
+        <object>Saída</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Criado</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Para o inventário</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Do inventário</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Para a ordem</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Da ordem</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Para coleta</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Da coleta</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Excluído</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Consumido</object>
+      </resource>
+      <resource name="ConsumedPartial">
+        <object>Consumo parcial</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Não consumido</object>
+      </resource>
+      <resource name="DeConsumedPartial">
+        <object>Não consumo parcial</object>
+      </resource>
+      <resource name="Returned">
+        <object>Devolvido</object>
+      </resource>
+      <resource name="Opened">
+        <object>Aberto</object>
+      </resource>
+      <resource name="Closed">
+        <object>Fechado</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Criado</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Para o inventário</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Do inventário</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Para a ordem</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Da ordem</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Para coleta</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Da coleta</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Excluído</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Consumido</object>
+      </resource>
+      <resource name="Opened">
+        <object>Aberto</object>
+      </resource>
+      <resource name="Closed">
+        <object>Fechado</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.MatxferRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Transferir</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Excluído</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Inválido</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Compactado</object>
+      </resource>
+      <resource name="Yield">
+        <object>Rendimento</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Reverter</object>
+      </resource>
+      <resource name="Generated">
+        <object>Gerado</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.TimeRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Hora</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Feriado</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Excluído</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.AccessLogRType" ServiceOnly="false">
+      <resource name="Granted">
+        <object>Acesso concedido</object>
+      </resource>
+      <resource name="NotInGroup">
+        <object>Não está no grupo de acesso</object>
+      </resource>
+      <resource name="NotAtThisTime">
+        <object>Hora de acesso inválida</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>Id inválido</object>
+      </resource>
+      <resource name="IsIn">
+        <object>Já está dentro</object>
+      </resource>
+      <resource name="IsOut">
+        <object>Já está fora</object>
+      </resource>
+      <resource name="TimeReg">
+        <object>Hora do registro</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ContainerRType" ServiceOnly="false">
+      <resource name="Assign">
+        <object>Unidade atribuída</object>
+      </resource>
+      <resource name="Position">
+        <object>Alteração de posição</object>
+      </resource>
+      <resource name="DeAssign">
+        <object>Unidade desatribuída</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationClass" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Não configurado</object>
+      </resource>
+      <resource name="CreateItem">
+        <object>Criar item</object>
+      </resource>
+      <resource name="CreatePack">
+        <object>Criar pacote</object>
+      </resource>
+      <resource name="Item">
+        <object>Operação do item</object>
+      </resource>
+      <resource name="Pack">
+        <object>Operação de empacotamento</object>
+      </resource>
+      <resource name="IdContainer">
+        <object>Operação de bandeja</object>
+      </resource>
+      <resource name="Stack">
+        <object>Operação de pilha</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Operação de palete</object>
+      </resource>
+      <resource name="Container">
+        <object>Operação de contêiner</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Operação de carregamento</object>
+      </resource>
+      <resource name="CreateCollection">
+        <object>Criar coleta</object>
+      </resource>
+      <resource name="CreateTransaction">
+        <object>Criar transação</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Operação de inventário</object>
+      </resource>
+      <resource name="Order">
+        <object>Operação de ordem</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Operação de linha de ordem</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderType" ServiceOnly="true">
+      <resource name="Login">
+        <object>Login</object>
+      </resource>
+      <resource name="LoginAndAccess">
+        <object>Login e controle de acesso</object>
+      </resource>
+      <resource name="Logout">
+        <object>Logout</object>
+      </resource>
+      <resource name="LogoutAndExit">
+        <object>Logout e controle de acesso</object>
+      </resource>
+      <resource name="AccessControl">
+        <object>Controle de acesso</object>
+      </resource>
+      <resource name="SignalOut">
+        <object>Saída de sinal</object>
+      </resource>
+      <resource name="RegisterId">
+        <object>Registrar id</object>
+      </resource>
+      <resource name="ExitControl">
+        <object>Controle de saída</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderLogging" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Sem Log</object>
+      </resource>
+      <resource name="LogAccess">
+        <object>Acesso ao Log</object>
+      </resource>
+      <resource name="LogUse">
+        <object>Registrar todos os Log's</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Costing.CostBase" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Não configurado</object>
+      </resource>
+      <resource name="PerDay">
+        <object>Fixo por dia</object>
+      </resource>
+      <resource name="PerInput">
+        <object>Por unidade de matéria prima</object>
+      </resource>
+      <resource name="PerOutput">
+        <object>Por unidade de produto</object>
+      </resource>
+      <resource name="PerRuntime">
+        <object>Por hora de tempo de execução</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.ExpiryReferenceDate" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Dia de produção</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Hora do registro</object>
+      </resource>
+      <resource name="PoFirstDay">
+        <object>Primeiro dia de retirada da OC</object>
+      </resource>
+      <resource name="PoLastDay">
+        <object>Último dia de retirada da OC</object>
+      </resource>
+      <resource name="PoDeliveryTime">
+        <object>Hora de entrega da OC</object>
+      </resource>
+      <resource name="PoCatchDay">
+        <object>Dia de retirada da OC</object>
+      </resource>
+      <resource name="OrderPoFirstDay">
+        <object>Solicitar primeiro dia de retirada da OC</object>
+      </resource>
+      <resource name="OrderPoLastDay">
+        <object>Solicitar último dia de retirada da OC</object>
+      </resource>
+      <resource name="OrderPoDeliveryTime">
+        <object>Solicitar hora da entrega da OC</object>
+      </resource>
+      <resource name="OrderPoCatchDay">
+        <object>Solicitar dia de retirada da OC</object>
+      </resource>
+      <resource name="Custom">
+        <object>Customizado</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyContextType" ServiceOnly="true">
+      <resource name="TargetSource">
+        <object>Origem do caminho de destino</object>
+      </resource>
+      <resource name="TargetDestination">
+        <object>Destino do caminho de destino</object>
+      </resource>
+      <resource name="CopySource">
+        <object>Copiar origem do caminho</object>
+      </resource>
+      <resource name="CopyDestination">
+        <object>Copiar caminho de destino</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyMethod" ServiceOnly="true">
+      <resource name="Add">
+        <object>Adicionar</object>
+      </resource>
+      <resource name="Subtract">
+        <object>Subtrair</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PackRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Sem gravação</object>
+      </resource>
+      <resource name="Instance">
+        <object>Registrar cada pacote</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PathRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Sem gravação</object>
+      </resource>
+      <resource name="Instance">
+        <object>Gravar cada transação</object>
+      </resource>
+      <resource name="Periodic">
+        <object>Gravar periodicamente</object>
+      </resource>
+      <resource name="Update">
+        <object>Atualizar um registro</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.SelectRuleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>Seleção de entrada</object>
+      </resource>
+      <resource name="Output">
+        <object>Seleção de saída</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.PlotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Em espera</object>
+      </resource>
+      <resource name="Available">
+        <object>Disponível</object>
+      </resource>
+      <resource name="Completed">
+        <object>Concluído</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.ContextSource" ServiceOnly="true">
+      <resource name="Reference">
+        <object>Automático</object>
+      </resource>
+      <resource name="Source">
+        <object>Origem</object>
+      </resource>
+      <resource name="Destination">
+        <object>Destino</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.Result" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Operação não suportada</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>Estão faltando informações da unidade de produção</object>
+      </resource>
+      <resource name="NoMaterial">
+        <object>Estão faltando informações de material</object>
+      </resource>
+      <resource name="NoProcessPeriod">
+        <object>Estão faltando informações do período de produção</object>
+      </resource>
+      <resource name="NoProductionDay">
+        <object>Estão faltando informações do dia de produção</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Ocorreu um erro no banco de dados.</object>
+      </resource>
+      <resource name="NoSSCC">
+        <object>A empresa está sem as informações de SSCC</object>
+      </resource>
+      <resource name="CreateSSCC">
+        <object>Não foi possível criar SSCC, o prefixo pode estar inválido</object>
+      </resource>
+      <resource name="HasOrder">
+        <object>A unidade está atribuída a uma ordem</object>
+      </resource>
+      <resource name="InStack">
+        <object>A unidade está atribuída a uma pilha</object>
+      </resource>
+      <resource name="OnPallet">
+        <object>A unidade está atribuída a um palete</object>
+      </resource>
+      <resource name="InContainer">
+        <object>A unidade está atribuída a um contêiner</object>
+      </resource>
+      <resource name="InShipment">
+        <object>A unidade está atribuída a um carregamento</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Ordem não aplicável</object>
+      </resource>
+      <resource name="IterationTransaction">
+        <object>Transação não permitida em iteração</object>
+      </resource>
+      <resource name="NoCreateCount">
+        <object>Esá faltando o número de unidades</object>
+      </resource>
+      <resource name="XmlParse">
+        <object>Não foi possível analisar XML</object>
+      </resource>
+      <resource name="NoStation">
+        <object>Está faltando informações da estação</object>
+      </resource>
+      <resource name="NoPo">
+        <object>Estão faltando informações da ordem de compra</object>
+      </resource>
+      <resource name="NoPlot">
+        <object>Estão faltando informações do lote de produção</object>
+      </resource>
+      <resource name="NoCurrentPack">
+        <object>Sem pacote atual</object>
+      </resource>
+      <resource name="Conversion">
+        <object>Falha em string para conversão de valor</object>
+      </resource>
+      <resource name="OrderNotFound">
+        <object>Não foi possível carregar a ordem do banco de dados</object>
+      </resource>
+      <resource name="MaterialNotFound">
+        <object>Não foi possível carregar o material do banco de dados</object>
+      </resource>
+      <resource name="UnitType">
+        <object>Tipo de unidade inválido para a operação</object>
+      </resource>
+      <resource name="OperationLoad">
+        <object>Não foi possível carregar a operação do banco de dados</object>
+      </resource>
+      <resource name="NoPack">
+        <object>Estão faltando informações sobre o pacote</object>
+      </resource>
+      <resource name="NoSite">
+        <object>Estão faltando informações sobre os locais</object>
+      </resource>
+      <resource name="Configuration">
+        <object>Configuração de operação inválida</object>
+      </resource>
+      <resource name="InvalidScope">
+        <object>Escopo de pesquisa da unidade inválida</object>
+      </resource>
+      <resource name="NoStack">
+        <object>Estão faltando informações sobre pilhas</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>As informações de palete estão ausentes</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>Status da coleta não permite operação</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>Estão faltando informações sobre a coleta</object>
+      </resource>
+      <resource name="NotInStack">
+        <object>A unidade não está na pilha</object>
+      </resource>
+      <resource name="NotOnPallet">
+        <object>A unidade não está no palete</object>
+      </resource>
+      <resource name="NotInContainer">
+        <object>A unidade não está no contêiner</object>
+      </resource>
+      <resource name="NotInShipment">
+        <object>A unidade não está no carregamento</object>
+      </resource>
+      <resource name="NoInventory">
+        <object>As informações de inventário estão ausentes</object>
+      </resource>
+      <resource name="NoItem">
+        <object>Estão faltando informações sobre este item</object>
+      </resource>
+      <resource name="NoOrderLine">
+        <object>Estão faltando informações sobre esta linha</object>
+      </resource>
+      <resource name="Transaction">
+        <object>Erro de transação</object>
+      </resource>
+      <resource name="NotInventory">
+        <object>A unidade de produção especificada não está em inventário</object>
+      </resource>
+      <resource name="InventoryReject">
+        <object>O inventário não aceitou a unidade</object>
+      </resource>
+      <resource name="OnInventory">
+        <object>A unidade já está no inventário</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>A unidade não está no inventário</object>
+      </resource>
+      <resource name="UnitStatus">
+        <object>O status da unidade não permite operação</object>
+      </resource>
+      <resource name="NoContainer">
+        <object>Estão faltando informações sobre este contêiner</object>
+      </resource>
+      <resource name="NoShipment">
+        <object>Estão faltando informações sobre este carregamento</object>
+      </resource>
+      <resource name="LoadSite">
+        <object>Não foi possível carregar as informações do local pelo banco de dados</object>
+      </resource>
+      <resource name="LoadCompany">
+        <object>Não foi possível carregar as informações da empresa pelo banco de dados</object>
+      </resource>
+      <resource name="HasPacks">
+        <object>Não foi possível executar a operação porque a coleta possui pacotes </object>
+      </resource>
+      <resource name="HasStacks">
+        <object>Não foi possível executar a operação porque a coleta possui pilhas</object>
+      </resource>
+      <resource name="HasPallets">
+        <object>Não foi possível executar a operação porque a coleta possui paletes</object>
+      </resource>
+      <resource name="HasContainers">
+        <object>Não foi possível executar a operação porque a coleta possui contêineres</object>
+      </resource>
+      <resource name="FailOperation">
+        <object>A operações foi feita explicitamente para falhar</object>
+      </resource>
+      <resource name="InPack">
+        <object>A unidade já está em um pacote</object>
+      </resource>
+      <resource name="NotInPack">
+        <object>A unidade não está em um pacote</object>
+      </resource>
+      <resource name="PackStatus">
+        <object>O status do pacote não permite operação</object>
+      </resource>
+      <resource name="OrderType">
+        <object>Tipo inválido de ordem para a operação</object>
+      </resource>
+      <resource name="Exception">
+        <object>Exceção de aplicação</object>
+      </resource>
+      <resource name="OperationClass">
+        <object>Classe de operação inválida</object>
+      </resource>
+      <resource name="NoSource">
+        <object>Estão faltando informações sobre a origem da unidade de produção</object>
+      </resource>
+      <resource name="NoDestination">
+        <object>Estão faltando informações sobre o destino da unidade de produção</object>
+      </resource>
+      <resource name="MaterialTransaction">
+        <object>Não foi possível registrar a transação de material</object>
+      </resource>
+      <resource name="MatchContext">
+        <object>O status da unidade de produção não permite operação</object>
+      </resource>
+      <resource name="TransactionConfig">
+        <object>Não foi possível configurar o sistema de transação para a operação</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Falha ao obter interface do serviço remoto</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>As informações da interface remota não foram localizadas</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>As informações do servidor remoto não foram localizadas</object>
+      </resource>
+      <resource name="NoOperationData">
+        <object>Dados de operação ausentes</object>
+      </resource>
+      <resource name="NoPrintFields">
+        <object>Estão faltando informações sobre os campos de impressão</object>
+      </resource>
+      <resource name="NoPieceCount">
+        <object>Estão faltando informações sobre a contagem de peças</object>
+      </resource>
+      <resource name="ItemLoad">
+        <object>Não foi possível carregar o registro de item</object>
+      </resource>
+      <resource name="ItemInsert">
+        <object>Não foi possível inserir o registro de item</object>
+      </resource>
+      <resource name="ItemUpdate">
+        <object>Não foi possível atualizar o registro de item</object>
+      </resource>
+      <resource name="ItemRType">
+        <object>O tipo de registro de item não permite operação</object>
+      </resource>
+      <resource name="PackLoad">
+        <object>Não foi possível carregar o registro do pacote</object>
+      </resource>
+      <resource name="PackInsert">
+        <object>Não foi possível inserir o registro de pacote</object>
+      </resource>
+      <resource name="PackUpdate">
+        <object>Não foi possível atualizar o registro de pacote</object>
+      </resource>
+      <resource name="PackRType">
+        <object>O tipo de registro de pacote não permite operação</object>
+      </resource>
+      <resource name="CollectionLoad">
+        <object>Não foi possível carregar o registro de coleta</object>
+      </resource>
+      <resource name="CollectionInsert">
+        <object>Não foi possível inserir o registro de coleta</object>
+      </resource>
+      <resource name="CollectionUpdate">
+        <object>Não foi possível atualizar o registro de coleta</object>
+      </resource>
+      <resource name="CollectionRType">
+        <object>O tipo de registro de coleta não permite operação</object>
+      </resource>
+      <resource name="CollectionUnitType">
+        <object>O tipo das unidades na coleta não permite operação</object>
+      </resource>
+      <resource name="NoOrderStatus">
+        <object>Estão faltando informações sobre o status da ordem</object>
+      </resource>
+      <resource name="NotInOrder">
+        <object>A unidade não está atribuída a uma ordem</object>
+      </resource>
+      <resource name="OrderLoad">
+        <object>Não foi possível carregar as informações da ordem pelo banco de dados</object>
+      </resource>
+      <resource name="OrderLineLoad">
+        <object>Não foi possível carregar as informações da linha pelo banco de dados</object>
+      </resource>
+      <resource name="OrderStatus">
+        <object>O status da ordem não permite operação</object>
+      </resource>
+      <resource name="OrderLineStatus">
+        <object>O status da linha de ordem não permite operação</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Não foi possível criar a unidade de produção para a operação</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Operação em andamento</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Resultado não configurado</object>
+      </resource>
+      <resource name="NoExternalNumber">
+        <object>Número externo não existe</object>
+      </resource>
+      <resource name="NoExternalCode">
+        <object>Código externo não existe</object>
+      </resource>
+      <resource name="PrintFailed">
+        <object>Falha na operação de impressão</object>
+      </resource>
+      <resource name="CustomOpNotLoaded">
+        <object>A operação personalizada não foi carregada</object>
+      </resource>
+      <resource name="CustomOpInfoMissing">
+        <object>Estão faltando informações sobre a operação personalizada</object>
+      </resource>
+      <resource name="CustomOpXmlMissing">
+        <object>Estão faltando informações sobre a definição de operação personalizada do XML</object>
+      </resource>
+      <resource name="CustomException">
+        <object>Exceção em operação personalizada</object>
+      </resource>
+      <resource name="Validation">
+        <object>Erro de validação</object>
+      </resource>
+      <resource name="PreOperation">
+        <object>Erro de pré-operação</object>
+      </resource>
+      <resource name="DoOperation">
+        <object>Erro de operação</object>
+      </resource>
+      <resource name="PostOperation">
+        <object>Erro de pós-operação</object>
+      </resource>
+      <resource name="NoCatchDay">
+        <object>Estão faltando informações sobre o dia de retirada</object>
+      </resource>
+      <resource name="InvalidInventory">
+        <object>Inventário inválido para a operação</object>
+      </resource>
+      <resource name="LoadType">
+        <object>Falha ao carregar tipo</object>
+      </resource>
+      <resource name="UnitCount">
+        <object>Número inválido de unidades especificadas</object>
+      </resource>
+      <resource name="ConvertedInventory">
+        <object>A coleta convertida está em um inventário que não corresponde ao inventário do pacote</object>
+      </resource>
+      <resource name="ConvertedOrder">
+        <object>A coleta convertida está em uma ordem que não corresponde ao pedido do pacote</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Estão faltando informações sobre o peso</object>
+      </resource>
+      <resource name="NoProperty">
+        <object>Estão faltando informações sobre o nome da propriedade</object>
+      </resource>
+      <resource name="NotProperty">
+        <object>Um determinado nome não é nome de uma propriedade</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Unidade em espera para CQ</object>
+      </resource>
+      <resource name="PoStatus">
+        <object>O status da ordem de compra não permite operação</object>
+      </resource>
+      <resource name="InvalidPartialAmount">
+        <object>A unidade não pode ser modificada com o valor especificado</object>
+      </resource>
+      <resource name="NoPoLine">
+        <object>Nenhuma linha de OC corresponde ao produto especificado</object>
+      </resource>
+      <resource name="HasPoLine">
+        <object>Linha de OC já atribuída</object>
+      </resource>
+      <resource name="NoMaterialTransaction">
+        <object>Transação de material não gravada</object>
+      </resource>
+      <resource name="NoStockTake">
+        <object>Sem contagem de estoque ativa</object>
+      </resource>
+      <resource name="StartStockTake">
+        <object>Não foi possível iniciar a contagem de estoque, uma outra já pode estar ativa</object>
+      </resource>
+      <resource name="StockTakeMethod">
+        <object>O método de contagem de estoque do inventário não permite a operação</object>
+      </resource>
+      <resource name="StockTakeUnitLoad">
+        <object>Informações inválidas de contagem de estoque para uma unidade</object>
+      </resource>
+      <resource name="StockTakeUnitType">
+        <object>A contagem de estoque não está configurada para este tipo de unidade</object>
+      </resource>
+      <resource name="StockTakeStatus">
+        <object>O status da contagem de estoque não permite a operação</object>
+      </resource>
+      <resource name="ScriptingError">
+        <object>Erro ao executar o script</object>
+      </resource>
+      <resource name="InventoryKeepMin">
+        <object>A unidade não é antiga o suficiente</object>
+      </resource>
+      <resource name="InventoryKeepMax">
+        <object>A unidade é antiga demais</object>
+      </resource>
+      <resource name="NoValue">
+        <object>O valor da unidade está faltando</object>
+      </resource>
+      <resource name="LogRecordLoad">
+        <object>Erro ao carregar a gravação do registro</object>
+      </resource>
+      <resource name="LogRecordExecuted">
+        <object>A gravação do registro já foi executada</object>
+      </resource>
+      <resource name="InventoryType">
+        <object>O tipo de inventário não permite a operação</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>Estão faltando informações do arquivo</object>
+      </resource>
+      <resource name="NoLot">
+        <object>Estão faltando informações do lote</object>
+      </resource>
+      <resource name="NoProductionLot">
+        <object>Estão faltando informações sobre o lote de produção</object>
+      </resource>
+      <resource name="NoRmArea">
+        <object>Estão faltando informações sobre a área de recurso</object>
+      </resource>
+      <resource name="InvalidAmount">
+        <object>Quantia inválida</object>
+      </resource>
+      <resource name="NoInventoryStatus">
+        <object>O registro de status do inventário não foi localizado</object>
+      </resource>
+      <resource name="MultipleInventoryStatus">
+        <object>Os registros múltiplos de status do inventário não foram localizados</object>
+      </resource>
+      <resource name="FeatureNotLicensed">
+        <object>Recurso não licenciado</object>
+      </resource>
+      <resource name="CodeNotFound">
+        <object>Um objeto com código especificado não foi localizado</object>
+      </resource>
+      <resource name="InvalidMessageFields">
+        <object>A configuração de campo para a mensagem é inválida</object>
+      </resource>
+      <resource name="BomNotFound">
+        <object>A Lista de mat. não foi localizada no banco de dados</object>
+      </resource>
+      <resource name="NotInBom">
+        <object>O produto especificado não está na Lista de mat.</object>
+      </resource>
+      <resource name="NoBom">
+        <object>Nenhuma Lista de mat. foi especificada</object>
+      </resource>
+      <resource name="NoBomRType">
+        <object>"&gt;Nenhum tipo de registro de Lista de mat. foi especificado</object>
+      </resource>
+      <resource name="PrunitBom">
+        <object>A unidade de produção não possui as informações obrigatórias da Lista de mat.</object>
+      </resource>
+      <resource name="LotBom">
+        <object>O lote não possui as informações obrigatórias da Lista de mat.</object>
+      </resource>
+      <resource name="ProductionLotBom">
+        <object>O lote de produção não possui as informações obrigatórias da Lista de mat.</object>
+      </resource>
+      <resource name="InvalidDate">
+        <object>Data inválida para a operação</object>
+      </resource>
+      <resource name="PartialAdjust">
+        <object>O conteúdo de um pacote parcial não pode ser ajustado</object>
+      </resource>
+      <resource name="NoCategory">
+        <object>Estão faltando informações sobre a categoria</object>
+      </resource>
+      <resource name="NoQuality">
+        <object>Estão faltando informações sobre a qualidade</object>
+      </resource>
+      <resource name="NoFatClass">
+        <object>Estão faltando informações sobre a classe de gordura</object>
+      </resource>
+      <resource name="SelectYieldGroup">
+        <object>Falha ao selecionar o grupo de rendimento</object>
+      </resource>
+      <resource name="NoRiCountry">
+        <object>Estão faltando informações sobre o país de origem</object>
+      </resource>
+      <resource name="NoBrCountry">
+        <object>Estão faltando informações sobre a origem da criação</object>
+      </resource>
+      <resource name="NoSlaughterHouse">
+        <object>Estão faltando informações sobre o abatedouro</object>
+      </resource>
+      <resource name="NoSlaughterDay">
+        <object>Estão faltando informações sobre o dia de abate</object>
+      </resource>
+      <resource name="NoProcessor">
+        <object>Estão faltando informações sobre a produção</object>
+      </resource>
+      <resource name="SelectLot">
+        <object>Falha ao selecionar o lote</object>
+      </resource>
+      <resource name="IndividualLoad">
+        <object>Não foi possível carregar o registro individual</object>
+      </resource>
+      <resource name="NoYieldGroup">
+        <object>Estão faltando informações sobre o grupo de rendimento</object>
+      </resource>
+      <resource name="PalletNotReserved">
+        <object>O palete não está reservado para ordem</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>Os produtos não correspondem</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.EmployeeResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>OK</object>
+      </resource>
+      <resource name="DbError">
+        <object>Erro do banco de dados</object>
+      </resource>
+      <resource name="NotFound">
+        <object>Funcionário não localizado</object>
+      </resource>
+      <resource name="MultipleFound">
+        <object>Pesquisa retornou vários registros</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Informações inválidas de funcionários</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>Por lista</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Tudo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.NumberMethod" ServiceOnly="false">
+      <resource name="OwnNumber">
+        <object>Números próprios</object>
+      </resource>
+      <resource name="ParentNumber">
+        <object>Da ordem principal</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Fechado</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Cancelado</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Em espera</object>
+      </resource>
+      <resource name="Open">
+        <object>Abrir</object>
+      </resource>
+      <resource name="Complete">
+        <object>Concluído</object>
+      </resource>
+      <resource name="CompleteClosed">
+        <object>Concluído e fechado</object>
+      </resource>
+      <resource name="Dispatched">
+        <object>Despachado</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderType" ServiceOnly="false">
+      <resource name="Customer">
+        <object>Vendas</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Inventário</object>
+      </resource>
+      <resource name="Production">
+        <object>Produção </object>
+      </resource>
+      <resource name="Transfer">
+        <object>Transferir</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationSetType" ServiceOnly="true">
+      <resource name="Generic">
+        <object>Genérico</object>
+      </resource>
+      <resource name="DefaultItem">
+        <object>Item padrão</object>
+      </resource>
+      <resource name="DefaultPack">
+        <object>Pacote padrão</object>
+      </resource>
+      <resource name="DefaultStack">
+        <object>Pilha padrão</object>
+      </resource>
+      <resource name="DefaultPallet">
+        <object>Palete padrão</object>
+      </resource>
+      <resource name="DefaultContainer">
+        <object>Contêiner padrão</object>
+      </resource>
+      <resource name="DefaultShipment">
+        <object>Carregamento padrão</object>
+      </resource>
+      <resource name="DefaultOrder">
+        <object>Ordem padrão</object>
+      </resource>
+      <resource name="DefaultOrderLine">
+        <object>Linha de ordem padrão</object>
+      </resource>
+      <resource name="DefaultInventory">
+        <object>Inventário padrão</object>
+      </resource>
+      <resource name="DefaultTransaction">
+        <object>Transação padrão</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.DataStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Abrir</object>
+      </resource>
+      <resource name="Closed">
+        <object>Fechado</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Inválido</object>
+      </resource>
+      <resource name="PendingClose">
+        <object>Pendente para fechamento</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.UnitInventoryStatus" ServiceOnly="false">
+      <resource name="Available">
+        <object>Disponível</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Em espera para CQ</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.CountStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>Não localizado</object>
+      </resource>
+      <resource name="Left">
+        <object>Restante</object>
+      </resource>
+      <resource name="Entered">
+        <object>Inserido</object>
+      </resource>
+      <resource name="Found">
+        <object>Localizado</object>
+      </resource>
+      <resource name="New">
+        <object>Novo</object>
+      </resource>
+      <resource name="Error">
+        <object>Erro</object>
+      </resource>
+      <resource name="RType">
+        <object>Status inválido</object>
+      </resource>
+      <resource name="NotLeft">
+        <object>Não há restante</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Sem contagens do estoque</object>
+      </resource>
+      <resource name="CountUnits">
+        <object>Contar itens e pacotes</object>
+      </resource>
+      <resource name="CountStacks">
+        <object>Contar pilhas</object>
+      </resource>
+      <resource name="CountPallets">
+        <object>Contar paletes</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeStatus" ServiceOnly="false">
+      <resource name="Active">
+        <object>Ativo</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Cancelado</object>
+      </resource>
+      <resource name="CountDone">
+        <object>Contagem concluída</object>
+      </resource>
+      <resource name="Completed">
+        <object>Concluído</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeType" ServiceOnly="false">
+      <resource name="Count">
+        <object>Contagem de unidade</object>
+      </resource>
+      <resource name="Snapshot">
+        <object>Instantâneo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoAcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>Por lista</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Tudo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Utilities.FormatText" ServiceOnly="false">
+      <resource name="Stack">
+        <object>Pilha</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Palete</object>
+      </resource>
+      <resource name="Order">
+        <object>Ordem</object>
+      </resource>
+      <resource name="UnlimitedOrder">
+        <object>ilimitado</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>nenhum</object>
+      </resource>
+      <resource name="Packs">
+        <object>pacotes</object>
+      </resource>
+      <resource name="Items">
+        <object>itens</object>
+      </resource>
+      <resource name="Pcs">
+        <object>pçs</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

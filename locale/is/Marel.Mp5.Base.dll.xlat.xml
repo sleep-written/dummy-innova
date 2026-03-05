@@ -1,0 +1,988 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="is">
+  <industry>
+    <type name="Marel.Mp5.Base.Programs.ExecutableType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Óskilgreint</object>
+      </resource>
+      <resource name="Binary">
+        <object>Sjálfstæð keyrsluskrá</object>
+      </resource>
+      <resource name="Command">
+        <object>Skipanaskrá</object>
+      </resource>
+      <resource name="AppDomain">
+        <object>AppDomain keyrsluskrá</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Óskilgreint</object>
+      </resource>
+      <resource name="ProgramManager">
+        <object>Kerfisstjóri</object>
+      </resource>
+      <resource name="NetworkRouter">
+        <object>Netforrit</object>
+      </resource>
+      <resource name="SystemService">
+        <object>Kerfisþjónusta</object>
+      </resource>
+      <resource name="ControlProgram">
+        <object>Stýriforrit</object>
+      </resource>
+      <resource name="IpcUI">
+        <object>IPC viðmót</object>
+      </resource>
+      <resource name="WebApplication">
+        <object>Vefforrit</object>
+      </resource>
+      <resource name="WsServer">
+        <object>Vefþjónn</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduleType" ServiceOnly="true">
+      <resource name="Never">
+        <object>Aldrei</object>
+      </resource>
+      <resource name="Sequence">
+        <object>Í röð af forritum</object>
+      </resource>
+      <resource name="Daily">
+        <object>Daglega</object>
+      </resource>
+      <resource name="Weekly">
+        <object>Vikulega</object>
+      </resource>
+      <resource name="Monthly">
+        <object>Mánaðarlega</object>
+      </resource>
+      <resource name="Yearly">
+        <object>Árlega</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Frumstillt</object>
+      </resource>
+      <resource name="Error">
+        <object>Villa</object>
+      </resource>
+      <resource name="Running">
+        <object>Keyrir</object>
+      </resource>
+      <resource name="Stopping">
+        <object>Stöðvar</object>
+      </resource>
+      <resource name="Dead">
+        <object>Dautt</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Stopp</object>
+      </resource>
+      <resource name="RunWait">
+        <object>Bíður eftir keyrslu</object>
+      </resource>
+      <resource name="StopWait">
+        <object>Bíður eftir niðurkeyrslu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ExecuteProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Upphafstillt</object>
+      </resource>
+      <resource name="Executing">
+        <object>Keyrir</object>
+      </resource>
+      <resource name="Completed">
+        <object>Keyrslu lokið</object>
+      </resource>
+      <resource name="CompletedLate">
+        <object>Keyrslu lokið seint</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Keyrsla stöðvuð</object>
+      </resource>
+      <resource name="Error">
+        <object>Villa</object>
+      </resource>
+      <resource name="Terminating">
+        <object>Stöðva keyrslu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ManagerState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Frumstillt</object>
+      </resource>
+      <resource name="RefreshingList">
+        <object>Endurnýjar forritslista</object>
+      </resource>
+      <resource name="Running">
+        <object>Keyrir</object>
+      </resource>
+      <resource name="Shutdown">
+        <object>Keyrir niður</object>
+      </resource>
+      <resource name="ShutdownMsg">
+        <object>Keyrir niður kerfisþjónustu</object>
+      </resource>
+      <resource name="ShutdownComplete">
+        <object>Öll forrit stöðvuð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ResponseState" ServiceOnly="true">
+      <resource name="CantCheck">
+        <object>Ekki vitað</object>
+      </resource>
+      <resource name="NotChecked">
+        <object>Ekki athugað</object>
+      </resource>
+      <resource name="Responding">
+        <object>Svarar</object>
+      </resource>
+      <resource name="NotResponding">
+        <object>Svarar ekki</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduledProgramState" ServiceOnly="true">
+      <resource name="Executed">
+        <object>Keyrt</object>
+      </resource>
+      <resource name="ExecutedWait">
+        <object>Keyrði á eftir áætlun</object>
+      </resource>
+      <resource name="ExecutedRequest">
+        <object>Keyrt handvirkt</object>
+      </resource>
+      <resource name="Missed">
+        <object>Keyrði ekki á áætlun</object>
+      </resource>
+      <resource name="StoppedOnTime">
+        <object>Keyrslu lokið</object>
+      </resource>
+      <resource name="StoppedLate">
+        <object>Keyrslu lauk seint</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Drepið</object>
+      </resource>
+      <resource name="Error">
+        <object>Villa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.InterfaceType" ServiceOnly="true">
+      <resource name="NotHandled">
+        <object>Utan kerfis</object>
+      </resource>
+      <resource name="TcpIpMarel">
+        <object>TCP/IP Marel</object>
+      </resource>
+      <resource name="TcpIpOther">
+        <object>TCP/IP Annað</object>
+      </resource>
+      <resource name="Rs232">
+        <object>RS232</object>
+      </resource>
+      <resource name="LonMarel">
+        <object>LON</object>
+      </resource>
+      <resource name="CanMaster">
+        <object>CAN í gegnum CanMaster</object>
+      </resource>
+      <resource name="BluetoothRs232">
+        <object>Bluetooth í gegnum RS232</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ótilgreint</object>
+      </resource>
+      <resource name="Limited">
+        <object>Takmarkað</object>
+      </resource>
+      <resource name="Unlimited">
+        <object>Ótakmarkað</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseLogType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ótilgreint</object>
+      </resource>
+      <resource name="Issued">
+        <object>Leyfi úthlutað</object>
+      </resource>
+      <resource name="Returned">
+        <object>Leyfi skilað</object>
+      </resource>
+      <resource name="LeaseExpired">
+        <object>Leyfi útrunnið</object>
+      </resource>
+      <resource name="UnknownType">
+        <object>Óþekkt leyfistegund</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.AccessLevel" ServiceOnly="false">
+      <resource name="Undefined">
+        <object>Óskilgreint</object>
+      </resource>
+      <resource name="PersonalData">
+        <object>Starfsmaður</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Skoðun</object>
+      </resource>
+      <resource name="Operator">
+        <object>Notandi</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Stjórnandi</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Kerfisumsjón</object>
+      </resource>
+      <resource name="Service">
+        <object>Þjónusta</object>
+      </resource>
+      <resource name="Developer">
+        <object>Þróun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.LookupType" ServiceOnly="false">
+      <resource name="NoLookup">
+        <object>Ekki tilvísun</object>
+      </resource>
+      <resource name="Named">
+        <object>Tilvísun í hlutfærslu</object>
+      </resource>
+      <resource name="Numbered">
+        <object>Tilvísun í auðkennda færslu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.ReferenceDateMethod" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Óskilgreint</object>
+      </resource>
+      <resource name="ProcessPeriod">
+        <object>Vinnslutímabil</object>
+      </resource>
+      <resource name="Date">
+        <object>Dagsetning</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CompressMethod" ServiceOnly="true">
+      <resource name="GroupBy">
+        <object>Grúppa</object>
+      </resource>
+      <resource name="Sum">
+        <object>Summa</object>
+      </resource>
+      <resource name="Min">
+        <object>Minnsta gildi</object>
+      </resource>
+      <resource name="Max">
+        <object>Hæsta gildi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryChangeType" ServiceOnly="true">
+      <resource name="Insert">
+        <object>Ný færsla búin til</object>
+      </resource>
+      <resource name="Updated">
+        <object>Færslu breytt</object>
+      </resource>
+      <resource name="Delete">
+        <object>Færslu eytt</object>
+      </resource>
+      <resource name="AppSpecific">
+        <object>Sértæk aðgerð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryLogLevel" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Enginn loggur</object>
+      </resource>
+      <resource name="BasicLogging">
+        <object>Logga færsluaðgerðir</object>
+      </resource>
+      <resource name="FullLogging">
+        <object>Logga allar aðgerðir</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationStatus" ServiceOnly="false">
+      <resource name="InActive">
+        <object>Óvirk færsla</object>
+      </resource>
+      <resource name="Pending">
+        <object>Aðgerð í bið</object>
+      </resource>
+      <resource name="Current">
+        <object>Í lagi</object>
+      </resource>
+      <resource name="Error">
+        <object>Villa</object>
+      </resource>
+      <resource name="Ongoing">
+        <object>Aðgerð í gangi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.UpdateAction" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ekkert gert</object>
+      </resource>
+      <resource name="ExecProgram">
+        <object>Keyra forrit</object>
+      </resource>
+      <resource name="SendRequest">
+        <object>Senda beiðni</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterType" ServiceOnly="false">
+      <resource name="NotSpecified">
+        <object>Ótilgreint</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupType" ServiceOnly="false">
+      <resource name="PersonalData">
+        <object>Prívat gögn</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Skoðun</object>
+      </resource>
+      <resource name="Operator">
+        <object>Rekstur</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Umsjón</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Kerfisumsjón</object>
+      </resource>
+      <resource name="Service">
+        <object>Þjónusta</object>
+      </resource>
+      <resource name="Custom">
+        <object>Hugbúnaðaraðgangur</object>
+      </resource>
+      <resource name="LocationAccess">
+        <object>Húsaðgangur</object>
+      </resource>
+      <resource name="General">
+        <object>Almennt</object>
+      </resource>
+      <resource name="Developer">
+        <object>Þróun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.GroupAreaType" ServiceOnly="false">
+      <resource name="NoType">
+        <object>Ekkert svæði</object>
+      </resource>
+      <resource name="Site">
+        <object>Hús</object>
+      </resource>
+      <resource name="Department">
+        <object>Deild</object>
+      </resource>
+      <resource name="Section">
+        <object>Vinnsludeild</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Vinnsluþáttur</object>
+      </resource>
+      <resource name="Station">
+        <object>Vinnustöð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupTimeType" ServiceOnly="false">
+      <resource name="NoRestriction">
+        <object>Engin tímamörk</object>
+      </resource>
+      <resource name="Weekday">
+        <object>Vikudagur</object>
+      </resource>
+      <resource name="MonthDay">
+        <object>Mánaðardagur</object>
+      </resource>
+      <resource name="OnDuty">
+        <object>Á vakt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.GuiNodeType" ServiceOnly="true">
+      <resource name="ControlForm">
+        <object>Stýrimynd</object>
+      </resource>
+      <resource name="Folder">
+        <object>Mappa</object>
+      </resource>
+      <resource name="UserGrid">
+        <object>Notendatafla</object>
+      </resource>
+      <resource name="Log">
+        <object>Loggur</object>
+      </resource>
+      <resource name="Report">
+        <object>Skýrsla</object>
+      </resource>
+      <resource name="SetupGrid">
+        <object>Uppsetningartafla</object>
+      </resource>
+      <resource name="DocumentTree">
+        <object>Skjalatré</object>
+      </resource>
+      <resource name="Chart">
+        <object>Graf</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.DeviceRecord" ServiceOnly="false">
+      <resource name="CanFormat">
+        <object>CAN tæki {0} í gegnum {1}</object>
+      </resource>
+      <resource name="LonFormat">
+        <object>LON tæki {0} á {1}</object>
+      </resource>
+      <resource name="Rs232Format">
+        <object>RS232 tæki á {0}</object>
+      </resource>
+      <resource name="TcpMarelFormat">
+        <object>Marel TCP/IP tæki {0}</object>
+      </resource>
+      <resource name="TcpGenericFormat">
+        <object>TCP/IP tæki {0}, port {1}</object>
+      </resource>
+      <resource name="BluetoothRs232Format">
+        <object>Bluetooth tæki {0}, RS232 port {1}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.Records.StandardRecord" ServiceOnly="false">
+      <resource name="Copy">
+        <object>Afrit</object>
+      </resource>
+      <resource name="Of">
+        <object>af</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.ClientSupport.ObjectActiveType" ServiceOnly="false">
+      <resource name="Inactive">
+        <object>Óvirkt</object>
+      </resource>
+      <resource name="Active">
+        <object>Virkt</object>
+      </resource>
+      <resource name="Both">
+        <object>Bæði</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Connections.PortType" ServiceOnly="true">
+      <resource name="RemotingTcp">
+        <object>Fjartenging TCP</object>
+      </resource>
+      <resource name="RemotingHttp">
+        <object>Fjartenging HTTP</object>
+      </resource>
+      <resource name="SSI">
+        <object>Tengill</object>
+      </resource>
+      <resource name="HttpWebServer">
+        <object>HTTP Vefþjónn</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaDateTimeType" ServiceOnly="false">
+      <resource name="Unspecified">
+        <object>Ekki tiltekið</object>
+      </resource>
+      <resource name="ProductionDayFromTo">
+        <object>Vinnsludagar</object>
+      </resource>
+      <resource name="DateFromTo">
+        <object>Dagar</object>
+      </resource>
+      <resource name="DateTimeFromTo">
+        <object>Dagseting og tími</object>
+      </resource>
+      <resource name="ProductionDaySingle">
+        <object>Vinnsludagur</object>
+      </resource>
+      <resource name="DateSingle">
+        <object>Dagsetning</object>
+      </resource>
+      <resource name="SingleDateFromTo">
+        <object>Milli dagsetninga</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaType" ServiceOnly="false">
+      <resource name="Lookup">
+        <object>Uppfletting</object>
+      </resource>
+      <resource name="DateTime">
+        <object>Dags. og tími</object>
+      </resource>
+      <resource name="SingleInteger">
+        <object>Stök heiltala</object>
+      </resource>
+      <resource name="IntegerList">
+        <object>Heiltölulisti</object>
+      </resource>
+      <resource name="SingleFloat">
+        <object>Stök rauntala</object>
+      </resource>
+      <resource name="String">
+        <object>Strengur</object>
+      </resource>
+      <resource name="CheckBox">
+        <object>Tékkbox</object>
+      </resource>
+      <resource name="ComboBox">
+        <object>Fellilisti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.DataRecordType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Skráning</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Summa</object>
+      </resource>
+      <resource name="Pending">
+        <object>Óklár</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Eydd</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ógild</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Þjöppuð</object>
+      </resource>
+      <resource name="Partial">
+        <object>Hluti</object>
+      </resource>
+      <resource name="Yield">
+        <object>Nýting</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Bakfærsla</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Frí</object>
+      </resource>
+      <resource name="Generated">
+        <object>Kerfisskráning</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Notuð</object>
+      </resource>
+      <resource name="Returned">
+        <object>Skilað</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationOpType" ServiceOnly="true">
+      <resource name="Send">
+        <object>Senda</object>
+      </resource>
+      <resource name="Get">
+        <object>Sækja</object>
+      </resource>
+      <resource name="GetCopy">
+        <object>Sækja afrit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterDataType" ServiceOnly="false">
+      <resource name="Integer">
+        <object>Heiltala</object>
+      </resource>
+      <resource name="Float">
+        <object>Rauntala</object>
+      </resource>
+      <resource name="String">
+        <object>Strengur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.StatusCheckMode" ServiceOnly="false">
+      <resource name="PendingOnline">
+        <object>Bíður þar til tenging næst</object>
+      </resource>
+      <resource name="Online">
+        <object>Aðeins ef tenging virk</object>
+      </resource>
+      <resource name="NoCheck">
+        <object>Staða ekki athuguð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ProgramType" ServiceOnly="true">
+      <resource name="Unkown">
+        <object>Óþekkt</object>
+      </resource>
+      <resource name="SystemProgram">
+        <object>Kerfisforrit</object>
+      </resource>
+      <resource name="ScheduledProgram">
+        <object>Tímasett keyrsla</object>
+      </resource>
+      <resource name="RequestedProgram">
+        <object>Umbeðin keyrsla</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.KeyType" ServiceOnly="true">
+      <resource name="Temporary">
+        <object>Tímabundinn</object>
+      </resource>
+      <resource name="Permanent">
+        <object>Varanlegur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.LogReason" ServiceOnly="true">
+      <resource name="UnknownFeature">
+        <object>Leyfishluti óþekktur</object>
+      </resource>
+      <resource name="MaxInstances">
+        <object>Hámarksfjölda tilvika náð</object>
+      </resource>
+      <resource name="UnknownVersion">
+        <object>Útgáfa óþekkt</object>
+      </resource>
+      <resource name="SignatureFailure">
+        <object>Undirskrift stemmir ekki</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Configuration.VerifyStatus" ServiceOnly="false">
+      <resource name="NotVerified">
+        <object>Ekki staðfest</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ógilt</object>
+      </resource>
+      <resource name="Verified">
+        <object>Staðfest</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.ClientSupport.RequireMethod" ServiceOnly="false">
+      <resource name="NotRequired">
+        <object>Ekki krafist</object>
+      </resource>
+      <resource name="RequiredToSave">
+        <object>Krafist til að vista</object>
+      </resource>
+      <resource name="RequiredToComplete">
+        <object>Krafist til að ljúka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.PluginHost.PluginRunState" ServiceOnly="true">
+      <resource name="Unknown">
+        <object>Óþekkt</object>
+      </resource>
+      <resource name="Initial">
+        <object>Frumstilling</object>
+      </resource>
+      <resource name="Error">
+        <object>Villa</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Stöðvað</object>
+      </resource>
+      <resource name="Started">
+        <object>Í keyrslu</object>
+      </resource>
+      <resource name="RestartWait">
+        <object>Bíð eftir endurræsingu</object>
+      </resource>
+      <resource name="StartWait">
+        <object>Bíð efir keyrslu</object>
+      </resource>
+      <resource name="StopWait">
+        <object>Bíð eftir niðurkeyslu</object>
+      </resource>
+      <resource name="UnloadWait">
+        <object>Bíð eftir afhleðslu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.AlarmOwnerType" ServiceOnly="false">
+      <resource name="External">
+        <object>Ytra kerfi</object>
+      </resource>
+      <resource name="Device">
+        <object>Tæki</object>
+      </resource>
+      <resource name="ProgramMonitoring">
+        <object>Eftirlit forrita</object>
+      </resource>
+      <resource name="ServerMonitoring">
+        <object>Eftirlit þjóns</object>
+      </resource>
+      <resource name="DatabaseMonitoring">
+        <object>Eftirlit gagnagrunns</object>
+      </resource>
+      <resource name="SystemMonitoring">
+        <object>Eftirlit kerfis</object>
+      </resource>
+      <resource name="JobEngine">
+        <object>Verkefna vél</object>
+      </resource>
+      <resource name="Plugin">
+        <object>Viðbætur</object>
+      </resource>
+      <resource name="DatabaseMaintenance">
+        <object>Viðhald gagnagruns</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Gæðaeftirlit</object>
+      </resource>
+      <resource name="QualityControlResponse">
+        <object>Viðbragð í gæðaeftirliti</object>
+      </resource>
+      <resource name="QualityControlNonConformities">
+        <object>Frábrigði í gæðaeftirliti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Diagnostics.LogCriteriaProvider" ServiceOnly="false">
+      <resource name="Critical">
+        <object>Villur</object>
+      </resource>
+      <resource name="CriticalDescription">
+        <object>Færslur sem hafa villustig Villa, Alvarleg villa eða Keyrsluvilla</object>
+      </resource>
+      <resource name="NonCritical">
+        <object>Upplýsingar</object>
+      </resource>
+      <resource name="NonCriticalDescription">
+        <object>Færslur sem hafa villustig Aðvörun, Notkun eða Skilaboð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.DbMaintenance.DbmCleanStatus" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Óþekkt</object>
+      </resource>
+      <resource name="CleaningInProcess">
+        <object>Verið að hreinsa</object>
+      </resource>
+      <resource name="Completed">
+        <object>Lokið</object>
+      </resource>
+      <resource name="CompletedNoOldData">
+        <object>Lokið - engu eytt</object>
+      </resource>
+      <resource name="NotCompleted">
+        <object>Ólokið</object>
+      </resource>
+      <resource name="StoppedManually">
+        <object>Stöðvað handvirkt</object>
+      </resource>
+      <resource name="Error">
+        <object>Villa</object>
+      </resource>
+      <resource name="CleaningStarted">
+        <object>Hreinsun hafin</object>
+      </resource>
+      <resource name="NoBackup">
+        <object>Ekkert afrit af grunni</object>
+      </resource>
+      <resource name="GettingMinDate">
+        <object>Sæki minnstu dagsetningu</object>
+      </resource>
+      <resource name="RebuildingIndexes">
+        <object>Uppfæri atriðaskrá</object>
+      </resource>
+      <resource name="UpdatingStatistics">
+        <object>Uppfæri tölfræði</object>
+      </resource>
+      <resource name="IndexPendingForUpdate">
+        <object>Í bið eftir uppfærslu</object>
+      </resource>
+      <resource name="ReqIndexStatus">
+        <object>Staðan á uppfærslu á atriðaskrá</object>
+      </resource>
+      <resource name="ReqCompleted">
+        <object>Uppfærslu lokið</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.RecordHistoryEntryType" ServiceOnly="false">
+      <resource name="Log">
+        <object>Atburðaskrá</object>
+      </resource>
+      <resource name="Audit">
+        <object>Endurskoðun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.RecordHistoryCriteriaProvider" ServiceOnly="false">
+      <resource name="AuditTrailQc">
+        <object>Endurskoðun, gæðaeftirlit</object>
+      </resource>
+      <resource name="AuditTrailQcDescription">
+        <object>Færslur sem eru fyrir endurskoðun fyrir töflur sem byrja á qc_</object>
+      </resource>
+      <resource name="AuditTrailDefault">
+        <object>Endurskoðun, sjálfgefið</object>
+      </resource>
+      <resource name="AuditTrailDefaultDescription">
+        <object>Færslur sem eru fyrir endurskoðun fyrir töflur sem byrja ekki á qc_</object>
+      </resource>
+      <resource name="LogDefault">
+        <object>Skráning, sjálfgefið</object>
+      </resource>
+      <resource name="LogDefaultDescription">
+        <object>Færslur sem eru fyrir skráningar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.LoginType" ServiceOnly="false">
+      <resource name="ActiveDirectory">
+        <object>Active Directory</object>
+      </resource>
+      <resource name="Numeric">
+        <object>Númer</object>
+      </resource>
+      <resource name="Textual">
+        <object>Texti</object>
+      </resource>
+      <resource name="PlainText">
+        <object>Hreinn texti</object>
+      </resource>
+      <resource name="IdReader">
+        <object>Auðkennislesari</object>
+      </resource>
+      <resource name="Barcode">
+        <object>Strikamerki</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.LoginResult" ServiceOnly="false">
+      <resource name="Success">
+        <object>Innskráning tókst</object>
+      </resource>
+      <resource name="Failed">
+        <object>Villa við innskráningu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Reporting.Exporter.ReportOffsetType" ServiceOnly="false">
+      <resource name="LastHour">
+        <object>Síðasta klukkustund</object>
+      </resource>
+      <resource name="DaySoFar">
+        <object>Það sem af er degi</object>
+      </resource>
+      <resource name="Yesterday">
+        <object>Gær</object>
+      </resource>
+      <resource name="Last7Days">
+        <object>Síðustu sjö dagar</object>
+      </resource>
+      <resource name="Last30Days">
+        <object>Síðustu þrjátíu dagar</object>
+      </resource>
+      <resource name="LastCalendarMonth">
+        <object>Síðasti mánuður</object>
+      </resource>
+      <resource name="CurrentProductionDay">
+        <object>Núverandi framleiðsludagur</object>
+      </resource>
+      <resource name="Tomorrow">
+        <object>Á morgun</object>
+      </resource>
+      <resource name="Next7Days">
+        <object>Næstu sjö dagar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.Pluto.PlutoProgramUtils" ServiceOnly="false">
+      <resource name="GetProgramFailed">
+        <object>Gat ekki sótt forrit frá tæki.</object>
+      </resource>
+      <resource name="StoreProgramFailed">
+        <object>Gat ekki vistað forrit '({0}) {1}' í tæki</object>
+      </resource>
+      <resource name="StoreProgramTries">
+        <object>prófað {0} sinnum.</object>
+      </resource>
+      <resource name="NoProgramContent">
+        <object>Ekkert innihald í forriti.</object>
+      </resource>
+      <resource name="ProgramValidationFailed">
+        <object>Gat ekki sannreint forrit að nafni</object>
+      </resource>
+      <resource name="ProgramActivateFailed">
+        <object>Gat ekki virkjað forrit með auðkennið</object>
+      </resource>
+      <resource name="ProgramDeleteFailed">
+        <object>Gat ekki eytt forrit með auðkennið</object>
+      </resource>
+      <resource name="ErrGettingProgram">
+        <object>Gat ekki sótt forrit með auðkennið {0}, tækja auðkenni {1} frá tæki.</object>
+      </resource>
+      <resource name="ExportFailed">
+        <object>Gat ekki send forrit.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Diagnostics.UserInterfaceUsageAction" ServiceOnly="false">
+      <resource name="Open">
+        <object>Opna</object>
+      </resource>
+      <resource name="Activate">
+        <object>Virkja</object>
+      </resource>
+      <resource name="Transition">
+        <object>Yfirfærsla</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.Clm.Common.LicenseCodeBusinessLines" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Óþekkt</object>
+      </resource>
+      <resource name="DeviceControl">
+        <object>Tækjastýring</object>
+      </resource>
+      <resource name="IntegratedSolution">
+        <object>Lausnir</object>
+      </resource>
+      <resource name="MES">
+        <object>MES</object>
+      </resource>
+      <resource name="Core">
+        <object>Kjarni</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.DbMaintenance.DbmIndexBuildStatus" ServiceOnly="false">
+      <resource name="IndexInfoUpdated">
+        <object>Beiðni um upplýsingar á atriðaskrá</object>
+      </resource>
+      <resource name="IndexBuildProgress">
+        <object>Uppfæri atriðaskrá</object>
+      </resource>
+      <resource name="IndexBuildCompleted">
+        <object>Uppfærsla lokið</object>
+      </resource>
+      <resource name="StatisticBuildProgress">
+        <object>Uppfæri tölfræði</object>
+      </resource>
+      <resource name="IndexError">
+        <object>Villa</object>
+      </resource>
+      <resource name="IndexInfoError">
+        <object>Villa við uppfærslu á upplýsingum</object>
+      </resource>
+      <resource name="IndexStopped">
+        <object>Uppfærsla stöðvuð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.AlarmConfigurationListRecordCsvFileReader" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Villa við lestur á línu úr CSV skrá.</object>
+      </resource>
+      <resource name="ErrorCreatingRecord">
+        <object>Villa við skrif á gögnum í alarm configuration gagnagrunnstöflu.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.ImportCsvFile" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Villa við lestur á línu úr CSV skrá.</object>
+      </resource>
+      <resource name="ErrorCreatingRecord">
+        <object>Villa við skrif á gögnum í alarm configuration gagnagrunnstöflu.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.ExportCsvFile" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Villa við lestur á línu úr CSV skrá.</object>
+      </resource>
+      <resource name="ErrorCreatingRecord">
+        <object>Villa við skrif á gögnum í alarm configuration gagnagrunnstöflu.</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

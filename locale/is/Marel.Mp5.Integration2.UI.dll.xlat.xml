@@ -1,0 +1,1835 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="is">
+  <industry>
+    <type name="Marel.Mp5.Integration2.UI.Windows.SyncEngine.Utils" ServiceOnly="true">
+      <resource name="NoService">
+        <object>Integration Synchronization Engine þjónustan fannst ekki. Athugið stillingar á Integration Services.</object>
+      </resource>
+      <resource name="Error">
+        <object>Villa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.SyncEngine.SynchronizeViewExtension" ServiceOnly="true">
+      <resource name="Synchronize">
+        <object>Samstilla</object>
+      </resource>
+      <resource name="SynchronizeHint">
+        <object>Samstilla gögn</object>
+      </resource>
+      <resource name="SyncConfirmMsg">
+        <object>Ertu viss um að þú viljir keyra samstillingu núna?</object>
+      </resource>
+      <resource name="SyncProgress">
+        <object>Samstilling keyrir...</object>
+      </resource>
+      <resource name="ErrorSync">
+        <object>Villa kom upp við samstillingu gagna.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.SyncEngine.ProfilesViewExtension" ServiceOnly="true">
+      <resource name="CreateSnapshot">
+        <object>Ný skyndimynd</object>
+      </resource>
+      <resource name="CreateSnapshotHint">
+        <object>Búa til nýja skyndimynd af gögnum</object>
+      </resource>
+      <resource name="ExportSnapshot">
+        <object>Flytja út</object>
+      </resource>
+      <resource name="ExportSnapshotHint">
+        <object>Flytja skyndimynd út í skrá</object>
+      </resource>
+      <resource name="ImportSnapshot">
+        <object>Flytja inn</object>
+      </resource>
+      <resource name="ImportSnapshotHint">
+        <object>Flytja skyndmynd inn frá skrá</object>
+      </resource>
+      <resource name="CreateActionPlan">
+        <object>Ný aðgerðaráætlun</object>
+      </resource>
+      <resource name="CreateActionPlanHint">
+        <object>Ber saman skyndimynd á móti staðværum gögnum og býr til aðgerðaplan fyrir samstillingu gagna</object>
+      </resource>
+      <resource name="EditActionPlan">
+        <object>Breyta aðgerðaráætlun</object>
+      </resource>
+      <resource name="EditActionPlanHint">
+        <object>Breyta eða skoða aðgerðaráætlun</object>
+      </resource>
+      <resource name="CreatingSnapshot">
+        <object>Bý til skyndimynd...</object>
+      </resource>
+      <resource name="ErrorCreatingSnapshot">
+        <object>Villa kom upp við gerð skyndimyndar.</object>
+      </resource>
+      <resource name="ExportingSnapshot">
+        <object>Flyt út skyndimynd...</object>
+      </resource>
+      <resource name="ErrorExportingSnapshot">
+        <object>Villa kom upp við útflutning skyndimyndar.</object>
+      </resource>
+      <resource name="Importing">
+        <object>Flyt inn skyndimynd...</object>
+      </resource>
+      <resource name="ImportError">
+        <object>Villa kom upp við innflutning skyndimyndar.</object>
+      </resource>
+      <resource name="ConfirmActionPlan">
+        <object>Það er þegar til aðgerðaráætlun fyrir uppsetning {0}. Viltu búa til nýja aðgerðaráætlun og yfirskrifa þar með þá aðgerðaráætlun sem þegar er til?</object>
+      </resource>
+      <resource name="CreatingActionPlan">
+        <object>Bú til aðgerðaráætlun...</object>
+      </resource>
+      <resource name="NoActionsInPlan">
+        <object>Aðgerðaráætlunin sem búin var til inniheldur engar aðgerðir því enginn munur fannst á skyndimynd og staðværum gögnum.</object>
+      </resource>
+      <resource name="ErrorCreatingActionPlan">
+        <object>Villa kom upp við smíði aðgerðaráætlunar.</object>
+      </resource>
+      <resource name="saveFileDialog.Filter">
+        <object>XML skrár (*.xml)|*.xml|Allar skrár|*.*</object>
+      </resource>
+      <resource name="openFileDialog.Filter">
+        <object>XML skrár (*.xml)|*.xml|All skrár|*.*</object>
+      </resource>
+    </type>
+    <type name="Grid.SyncEngine.Profiles" ServiceOnly="true">
+      <resource name="id">
+        <object>Einkenni</object>
+      </resource>
+      <resource name="code">
+        <object>Kóði</object>
+      </resource>
+      <resource name="name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="shname">
+        <object>Stutt</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ytri kóði</object>
+      </resource>
+      <resource name="pattern">
+        <object>Snið</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Vídd 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Vídd 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Vídd 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Vídd 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Texti 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Texti 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Texti 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Texti 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Texti 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Texti 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Texti 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Texti 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Virkt</object>
+      </resource>
+      <resource name="profiletype">
+        <object>Tegund uppsetningar</object>
+      </resource>
+      <resource name="importedtime">
+        <object>Tími influtnings</object>
+      </resource>
+      <resource name="actionplantime">
+        <object>Tími aðgerðaráætlunar</object>
+      </resource>
+      <resource name="snapshottime">
+        <object>Tími skyndimyndar</object>
+      </resource>
+      <resource name="sourceurl">
+        <object>URL fyrirmyndar</object>
+      </resource>
+      <resource name="Details">
+        <object>Gagnapunktar</object>
+      </resource>
+    </type>
+    <type name="Grid.SyncEngine.DataPoints" ServiceOnly="true">
+      <resource name="id">
+        <object>Einkenni</object>
+      </resource>
+      <resource name="profile">
+        <object>Uppsetning</object>
+      </resource>
+      <resource name="name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="sequence">
+        <object>Röð</object>
+      </resource>
+      <resource name="active">
+        <object>Virkt</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Grid.SyncEngine.Actions" ServiceOnly="true">
+      <resource name="id">
+        <object>Einkenni</object>
+      </resource>
+      <resource name="datapoint">
+        <object>Gagnapunktur</object>
+      </resource>
+      <resource name="sequence">
+        <object>Röð</object>
+      </resource>
+      <resource name="reason">
+        <object>Ástæða</object>
+      </resource>
+      <resource name="localkey">
+        <object>Staðvær lykill</object>
+      </resource>
+      <resource name="action">
+        <object>Aðgerð</object>
+      </resource>
+      <resource name="status">
+        <object>Staða</object>
+      </resource>
+      <resource name="statustext">
+        <object>Texti stöðu</object>
+      </resource>
+      <resource name="Details">
+        <object>Dálkar</object>
+      </resource>
+    </type>
+    <type name="Grid.SyncEngine.ActionParams" ServiceOnly="true">
+      <resource name="id">
+        <object>Einkenni</object>
+      </resource>
+      <resource name="action">
+        <object>Aðgerð</object>
+      </resource>
+      <resource name="name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="value">
+        <object>Gildi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportImport.ExportPacksView" ServiceOnly="true">
+      <resource name="MustSelectPo">
+        <object>Þú verður að velja eina eða fleiri innkaupapantanir.</object>
+      </resource>
+      <resource name="MustSelectFilename">
+        <object>Þú verður að tilgreina skráarnafn.</object>
+      </resource>
+      <resource name="ExportingPacks">
+        <object>Flyt út pakka...</object>
+      </resource>
+      <resource name="ExportCompleted">
+        <object>Útflutningi lokið á {0} pökkum.</object>
+      </resource>
+      <resource name="ExportIOError">
+        <object>Villa kom upp við afritun á niðurstöðum útflutnings. {0}</object>
+      </resource>
+      <resource name="ExportError">
+        <object>Villa kom upp við útflutning. {0}</object>
+      </resource>
+      <resource name="buttonExport.Text">
+        <object>&amp;Flytja út</object>
+      </resource>
+      <resource name="groupControlCriteria.Text">
+        <object>Stillingar útflutnings</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportImport.ImportPacksCE" ServiceOnly="true">
+      <resource name="AccessDescription">
+        <object>Stilla sjálfgefin og föst gildi fyrir innflutning.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportImport.ImportPacksView" ServiceOnly="true">
+      <resource name="CheckingServerStatus">
+        <object>Athuga stöðu á miðlara...</object>
+      </resource>
+      <resource name="GettingServerStatus">
+        <object>Sæki stöðu um innflutning frá miðlara...</object>
+      </resource>
+      <resource name="LookupName">
+        <object>Nafn</object>
+      </resource>
+      <resource name="LookupCode">
+        <object>Kóði</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>-Enginn vinnsluþáttur-</object>
+      </resource>
+      <resource name="NoUnitOp">
+        <object>-Engin einingaaðgerð-</object>
+      </resource>
+      <resource name="SeeLogFile">
+        <object>Nánari lýsing er í Innova kerfislogg.</object>
+      </resource>
+      <resource name="GeneralError">
+        <object>Villa:</object>
+      </resource>
+      <resource name="FileNotExists">
+        <object>Innflutningsskrá finnst ekki.</object>
+      </resource>
+      <resource name="Submitting">
+        <object>Sendi innflutningsskrá á miðlara...</object>
+      </resource>
+      <resource name="NotAvailable">
+        <object>-Ekki fáanleg-</object>
+      </resource>
+      <resource name="RejectFileInfo">
+        <object>Höfnunarskrá fyrir þessa samantekt er: {0}</object>
+      </resource>
+      <resource name="groupControlSettings.Text">
+        <object>Stillingar innflutnings</object>
+      </resource>
+      <resource name="groupControlStatus.Text">
+        <object>Staða innflutnings</object>
+      </resource>
+      <resource name="labelIsTestImport.Text">
+        <object>Prufu-innflutningur</object>
+      </resource>
+      <resource name="labelControl8.Text">
+        <object>Lokið:</object>
+      </resource>
+      <resource name="labelControl11.Text">
+        <object>Hafnað:</object>
+      </resource>
+      <resource name="labelControl10.Text">
+        <object>Fluttir inn:</object>
+      </resource>
+      <resource name="labelControl12.Text">
+        <object>Staða:</object>
+      </resource>
+      <resource name="labelControl9.Text">
+        <object>Samtals pakkar:</object>
+      </resource>
+      <resource name="labelControl6.Text">
+        <object>Hófst:</object>
+      </resource>
+      <resource name="labelControl5.Text">
+        <object>Nafn innflutnings:</object>
+      </resource>
+      <resource name="labelControl4.Text">
+        <object>Sjá nánar í logg skrám</object>
+      </resource>
+      <resource name="buttonCancelImport.Text">
+        <object>H&amp;ætta innflutningi</object>
+      </resource>
+      <resource name="groupControlAction.Text">
+        <object>Innflutningur á pökkum</object>
+      </resource>
+      <resource name="buttonImport.Text">
+        <object>Flytja &amp;inn</object>
+      </resource>
+      <resource name="checkEditTest.Properties.Caption">
+        <object>Einungis &amp;prófa innflutning</object>
+      </resource>
+      <resource name="labelControl2.Text">
+        <object>Vinnsluþáttur:</object>
+      </resource>
+      <resource name="labelControl1.Text">
+        <object>Innflutningsskrá:</object>
+      </resource>
+      <resource name="labelControl3.Text">
+        <object>Einingaaðgerð:</object>
+      </resource>
+      <resource name="openFileDialog.Filter">
+        <object>XML skrár (*.xml)|*.xml|Allar skrár|*.*</object>
+      </resource>
+    </type>
+    <type name="Grid.ImportEngine.ImportProcesses" ServiceOnly="true">
+      <resource name="importprocess">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="code">
+        <object>Kóði</object>
+      </resource>
+      <resource name="name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="shname">
+        <object>Stutt</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ytri kóði</object>
+      </resource>
+      <resource name="pattern">
+        <object>Snið</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Vídd 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Vídd 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Vídd 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Vídd 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Texti 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Texti 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Texti 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Texti 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Texti 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Texti 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Texti 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Texti 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Virkt</object>
+      </resource>
+      <resource name="Details">
+        <object>Stillingar</object>
+      </resource>
+    </type>
+    <type name="Grid.ImportEngine.ImportProcessDetails" ServiceOnly="true">
+      <resource name="importprocessdetail">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="importprocess">
+        <object>Auðkenni gagnainnflutningferils</object>
+      </resource>
+      <resource name="assemblyid">
+        <object>Klasaskrá</object>
+      </resource>
+      <resource name="recordclassname">
+        <object>Klasi</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="sequence">
+        <object>Röð</object>
+      </resource>
+      <resource name="description">
+        <object>Lýsing</object>
+      </resource>
+    </type>
+    <type name="Grid.ImportEngine.Handlers" ServiceOnly="true">
+      <resource name="importhandler">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="code">
+        <object>Kóði</object>
+      </resource>
+      <resource name="name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="shname">
+        <object>Stutt</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ytri kóði</object>
+      </resource>
+      <resource name="pattern">
+        <object>Snið</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Vídd 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Vídd 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Vídd 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Vídd 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Texti 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Texti 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Texti 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Texti 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Texti 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Texti 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Texti 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Texti 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Virkt</object>
+      </resource>
+      <resource name="assemblyid">
+        <object>Klasaskrá</object>
+      </resource>
+      <resource name="classname">
+        <object>Klasi</object>
+      </resource>
+      <resource name="importprocess">
+        <object>Kóði gagnainnflutningsferils</object>
+      </resource>
+      <resource name="importprocess Name">
+        <object>Gagnainnflutningsferill</object>
+      </resource>
+    </type>
+    <type name="Grid.ExportEngine.ExportHandlers" ServiceOnly="true">
+      <resource name="exporthandler">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="code">
+        <object>Kóði</object>
+      </resource>
+      <resource name="name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="shname">
+        <object>Stutt</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ytri kóði</object>
+      </resource>
+      <resource name="pattern">
+        <object>Snið</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Vídd 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Vídd 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Vídd 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Vídd 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Texti 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Texti 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Texti 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Texti 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Texti 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Texti 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Texti 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Texti 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Virkt</object>
+      </resource>
+      <resource name="handlerassembly">
+        <object>Klasaskrá</object>
+      </resource>
+      <resource name="handlertypename">
+        <object>Klasi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ImportEngine.ImportProcessDesigner" ServiceOnly="true">
+      <resource name="btnDesign">
+        <object>Hanna stillingar</object>
+      </resource>
+      <resource name="Error">
+        <object>Villa</object>
+      </resource>
+      <resource name="ErrorInfo">
+        <object>Vinsamlegast veldu klasa til að hanna stillingar fyrir.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ImportEngine.ImportProcessDesignerView" ServiceOnly="true">
+      <resource name="lblColumnProperties.Text">
+        <object>Eiginleikar dálka:</object>
+      </resource>
+      <resource name="advancedButton.Text">
+        <object>Nánar</object>
+      </resource>
+      <resource name="queryButton.Text">
+        <object>Fyrirspurn</object>
+      </resource>
+      <resource name="queryButton.ToolTip">
+        <object>Til að búa til einfalda fyrirspurn fyrir þessa töflu.</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>Staðfesta</object>
+      </resource>
+      <resource name="okButton.ToolTip">
+        <object>Lokar forminu og vistar gögn í xml dálk.</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Hætta við</object>
+      </resource>
+      <resource name="cancelButton.ToolTip">
+        <object>Lokar forminu án þess að vista gögn.</object>
+      </resource>
+      <resource name="docButton.Text">
+        <object>Skjal</object>
+      </resource>
+      <resource name="docButton.ToolTip">
+        <object>Býr til skjal með upplýsingum um innflutning fyrir þessa töflu.</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Nafn dálks</object>
+      </resource>
+      <resource name="colDefaultValue.Caption">
+        <object>Sjálfgefið gildi</object>
+      </resource>
+      <resource name="colFixedValue.Caption">
+        <object>Fast gildi</object>
+      </resource>
+      <resource name="colSuppressUpdates.Caption">
+        <object>Hindra uppfærslu</object>
+      </resource>
+      <resource name="colLookupPublicKey.Caption">
+        <object>Uppflettidálkur</object>
+      </resource>
+      <resource name="colLookupTableName.Caption">
+        <object>Nafn uppflettitöflu</object>
+      </resource>
+      <resource name="colLookupTableId.Caption">
+        <object>Auðkenni uppflettitöflu</object>
+      </resource>
+      <resource name="colPublicKey.Caption">
+        <object>Lykildálkur</object>
+      </resource>
+      <resource name="CaptionText">
+        <object>Hönnun á stillingum fyrir</object>
+      </resource>
+      <resource name="docFileFilter">
+        <object>htm skrár (*.htm)|*.htm|Allar skrár (*.*)|*.*</object>
+      </resource>
+      <resource name="queryFileFilter">
+        <object>xml skrár (*.xml)|*.xml</object>
+      </resource>
+      <resource name="colRequired.Caption">
+        <object>Nauðsynlegt</object>
+      </resource>
+      <resource name="colPublicKey.ToolTip">
+        <object>Skilgreinir ef dálkurinn er lykildálkur.</object>
+      </resource>
+      <resource name="colDefaultValue.ToolTip">
+        <object>Gildi frá þessum dálki skal notað ef ekkert gildi er í innfluttum gögnum.</object>
+      </resource>
+      <resource name="colFixedValue.ToolTip">
+        <object>Gildi frá þessum dálki skal alltaf nota, óháð því hvaða gildi er í innfluttum gögnum.</object>
+      </resource>
+      <resource name="colSuppressUpdates.ToolTip">
+        <object>Skilgreinir ef ný gildi skulu skráð í viðkomandi dálk en ekki uppfærð.</object>
+      </resource>
+      <resource name="colLookupPublicKey.ToolTip">
+        <object>Skilgreinir nafn á dálki sem vísað er í.</object>
+      </resource>
+      <resource name="colLookupTableName.ToolTip">
+        <object>Skilgreinir nafn á töflu sem vísað er í.</object>
+      </resource>
+      <resource name="colLookupTableId.ToolTip">
+        <object>Skilgreinir kennidálk á töflu sem vísað er í.</object>
+      </resource>
+      <resource name="colRequired.ToolTip">
+        <object>Skilgreinir ef gögn fyrir þennan dálk verða að vera skilgreind í innfluttum gögnum.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ImportEngine.ImportProcessDesignerViewAdvanced" ServiceOnly="true">
+      <resource name="lblStoredProcedure.Text">
+        <object>Stefja</object>
+      </resource>
+      <resource name="lblUpdStoredProcedure.Text">
+        <object>Uppfærslustefja</object>
+      </resource>
+      <resource name="storedProcedure.ToolTip">
+        <object>Nafn á stefju sem er kölluð þegar ný færsla er sett inn.</object>
+      </resource>
+      <resource name="updateStoredProcedure.ToolTip">
+        <object>Nafn á stefju sem er kölluð þegar færsla er uppfærð.</object>
+      </resource>
+      <resource name="ignoreNulls.Properties.Caption">
+        <object>Hunsa Null gildi í niðurstöðu DBSP innflutningsleiðar</object>
+      </resource>
+      <resource name="storedProceduresGroup.Text">
+        <object>Sérhæfð meðhöndlun gagna</object>
+      </resource>
+      <resource name="codeMappingGroup.Text">
+        <object>Möppun kóða</object>
+      </resource>
+      <resource name="lblCodeMappingProviderColumn.Text">
+        <object>Dálkur með auðkenni sendanda</object>
+      </resource>
+      <resource name="codeMappingProviderColumn.ToolTip">
+        <object>Nafn dálksins í skránni sem inniheldur auðkenni sendanda</object>
+      </resource>
+      <resource name="codeMappingInclude.Text">
+        <object>Flytja inn auðkenni sendanda</object>
+      </resource>
+      <resource name="Text">
+        <object>Nánar</object>
+      </resource>
+    </type>
+    <type name="Grid.ImportEngine.ImportLogs" ServiceOnly="true">
+      <resource name="importhandler">
+        <object>Kóði innflutningsleiðar</object>
+      </resource>
+      <resource name="importhandler Name">
+        <object>Innflutningsleið</object>
+      </resource>
+      <resource name="importprocess">
+        <object>Kóði Innflutningsferils</object>
+      </resource>
+      <resource name="importprocess Name">
+        <object>Innflutningsferill</object>
+      </resource>
+      <resource name="id">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="regtime">
+        <object>Skráning</object>
+      </resource>
+      <resource name="logtype">
+        <object>Tegund skráningar</object>
+      </resource>
+      <resource name="importtype">
+        <object>Tegund innflutnings</object>
+      </resource>
+      <resource name="importprocessdetail">
+        <object>Innflutningsferilsskrá</object>
+      </resource>
+      <resource name="sourcename">
+        <object>Uppruni</object>
+      </resource>
+      <resource name="dest">
+        <object>Viðtakandi</object>
+      </resource>
+      <resource name="destname">
+        <object>Nafn viðtakanda</object>
+      </resource>
+      <resource name="internaldata">
+        <object>Innri gögn</object>
+      </resource>
+      <resource name="errortext">
+        <object>Villulýsing</object>
+      </resource>
+      <resource name="fieldname">
+        <object>Svið sem brást</object>
+      </resource>
+      <resource name="errorinfo">
+        <object>Upplýsingar um villu</object>
+      </resource>
+      <resource name="regtime.hint">
+        <object>Skráningartími</object>
+      </resource>
+      <resource name="logtype.hint">
+        <object>Tengund skráningar</object>
+      </resource>
+      <resource name="importtype.hint">
+        <object>Tegund innflutnings</object>
+      </resource>
+      <resource name="importhandler Name.hint">
+        <object>Nafn á innflutningsleið</object>
+      </resource>
+      <resource name="importhandler.hint">
+        <object>Kóði á innflutningsleið</object>
+      </resource>
+      <resource name="importprocess Name.hint">
+        <object>Nafn á innflutningsferils</object>
+      </resource>
+      <resource name="importprocess.hint">
+        <object>Kóði á innflutningsferli</object>
+      </resource>
+      <resource name="importprocessdetail.hint">
+        <object>Nafn á innflutningsferilsskrá</object>
+      </resource>
+      <resource name="sourcename.hint">
+        <object>Uppruni innflutnings</object>
+      </resource>
+      <resource name="dest.hint">
+        <object>Gagnagrunns einkenni á færslu ef object</object>
+      </resource>
+      <resource name="destname.hint">
+        <object>Nafn á töflu sem skrifað er í</object>
+      </resource>
+      <resource name="fieldname.hint">
+        <object>Nafn sviðs sem villa kom upp í</object>
+      </resource>
+      <resource name="errortext.hint">
+        <object>Stutt lýsing á villu</object>
+      </resource>
+      <resource name="internaldata.hint">
+        <object>Gögn sem verið er að flytja inn frá, ef aðgengileg</object>
+      </resource>
+      <resource name="errorinfo.hint">
+        <object>Nánari lýsing á villu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.ExportTables" ServiceOnly="true">
+      <resource name="id">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="assemblyid">
+        <object>Klasaskrá</object>
+      </resource>
+      <resource name="recordclassname">
+        <object>Klasi</object>
+      </resource>
+      <resource name="expregtime">
+        <object>Tími útrunnið</object>
+      </resource>
+      <resource name="GenerateButton">
+        <object>Virkja</object>
+      </resource>
+      <resource name="GenerateButtonHint">
+        <object>Smelltu til að búa til útflutningstöflur fyrir valdar færslur.</object>
+      </resource>
+      <resource name="Error.GenerateSelected">
+        <object>Villa við framleiðslu á útflutningstöflu</object>
+      </resource>
+      <resource name="SelectError.Text">
+        <object>Vinsamlegast veldu færslu(r)</object>
+      </resource>
+      <resource name="SelectError.Caption">
+        <object>Engin færsla valin</object>
+      </resource>
+      <resource name="Error.GenerateAll">
+        <object>Villa við framleiðslu á öllum færslum</object>
+      </resource>
+      <resource name="Warning.Text">
+        <object>Útflutningstöflur sem áður hafa verið búnar til verður eitt,\nog nýjar búnar til.\nViltu halda áfram?</object>
+      </resource>
+      <resource name="Warning.Caption">
+        <object>Staðfesting</object>
+      </resource>
+      <resource name="Error.CleanTable">
+        <object>Villa við hreinsun á útflutningstöflum</object>
+      </resource>
+      <resource name="CleanButton">
+        <object>Hreinsa</object>
+      </resource>
+      <resource name="CleanButtonHint">
+        <object>Smelltu til að hreinsa út útflutningstöflur og triggera sem hafa verið eitt.</object>
+      </resource>
+      <resource name="Error.ItemParam">
+        <object>Klasa auðkenni eða nafn ekki skilgreint</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="DesignButton">
+        <object>Stillingar</object>
+      </resource>
+      <resource name="DesignButtonHint">
+        <object>Smelltu til að stilla xml stillingar fyrir valin atriði.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.ResendWSStagingDataViewExtension" ServiceOnly="true">
+      <resource name="ResendWSStagingDataButtonCaption">
+        <object>Endursenda gögn</object>
+      </resource>
+      <resource name="ResendWSStagingDataButtonHint">
+        <object>Endursendir gögn fyrir valdnar raðir</object>
+      </resource>
+      <resource name="RescheduleWSStagingDataButtonCaption">
+        <object>Setja gögn á áætlun</object>
+      </resource>
+      <resource name="RescheduleWSStagingDataButtonHint">
+        <object>Setur gögn á áætlun fyrir valdnar raðir</object>
+      </resource>
+      <resource name="ResendStagingDataFailed">
+        <object>Ekki tókst að senda gögn.</object>
+      </resource>
+      <resource name="ErrorDisconnect">
+        <object>Þjónusta ótengd.</object>
+      </resource>
+      <resource name="Error">
+        <object>Villa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MissingAddonLicenseView" ServiceOnly="false">
+      <resource name="MissingAddOnLicense">
+        <object>Leyfislykillinn þinn inniheldur ekki "{0}" viðbótina.</object>
+      </resource>
+    </type>
+    <type name="Grid.ExportEngine.Destinations" ServiceOnly="true">
+      <resource name="site">
+        <object>Kóði verksmiðja</object>
+      </resource>
+      <resource name="site Name">
+        <object>Verksmiðja</object>
+      </resource>
+      <resource name="destination">
+        <object>Gagnamappa</object>
+      </resource>
+    </type>
+    <type name="Grid.ExportEngine.ExportTableProfiles" ServiceOnly="true">
+      <resource name="active">
+        <object>Virkt</object>
+      </resource>
+      <resource name="code">
+        <object>Kóði</object>
+      </resource>
+      <resource name="description1">
+        <object>Texti 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Texti 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Texti 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Texti 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Texti 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Texti 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Texti 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Texti 8</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Vídd 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Vídd 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Vídd 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Vídd 4</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ytri kóði</object>
+      </resource>
+      <resource name="name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="pattern">
+        <object>Snið</object>
+      </resource>
+      <resource name="profile">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="shname">
+        <object>Stutt</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Grid.ExportEngine.ExportProfiles.Tables" ServiceOnly="true">
+      <resource name="profile">
+        <object>Prófíll</object>
+      </resource>
+      <resource name="exporttable">
+        <object>Klasaskrá</object>
+      </resource>
+      <resource name="onlyifowner">
+        <object>Aðeins ef eigandi</object>
+      </resource>
+    </type>
+    <type name="Grid.ExportEngine.ExportProfiles.Destinations" ServiceOnly="true">
+      <resource name="site">
+        <object>Kóði verksmiðju</object>
+      </resource>
+      <resource name="site Name">
+        <object>Verksmiðja</object>
+      </resource>
+      <resource name="profile">
+        <object>Prófíll</object>
+      </resource>
+    </type>
+    <type name="Grid.ExportEngine.ExportLogs" ServiceOnly="true">
+      <resource name="exporthandler">
+        <object>Kóði útflutningsleiðar</object>
+      </resource>
+      <resource name="exporthandler Name">
+        <object>Útflutningsleið</object>
+      </resource>
+      <resource name="id">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="regtime">
+        <object>Skráning</object>
+      </resource>
+      <resource name="logtype">
+        <object>Tegund skráningar</object>
+      </resource>
+      <resource name="destname">
+        <object>Skrá</object>
+      </resource>
+      <resource name="rawdata">
+        <object>Hrágögn</object>
+      </resource>
+      <resource name="errortext">
+        <object>Villulýsing</object>
+      </resource>
+      <resource name="errorinfo">
+        <object>Upplýsingar um villu</object>
+      </resource>
+      <resource name="regtime.hint">
+        <object>Skráningartími</object>
+      </resource>
+      <resource name="logtype.hint">
+        <object>Tengund skráningar</object>
+      </resource>
+      <resource name="exporthandler Name.hint">
+        <object>Nafn á útflutningsleið</object>
+      </resource>
+      <resource name="exporthandler.hint">
+        <object>Kóði á útflutningsleið</object>
+      </resource>
+      <resource name="destname.hint">
+        <object>Nafn á skrá sem skrifað er í</object>
+      </resource>
+      <resource name="errortext.hint">
+        <object>Stutt lýsing á villu</object>
+      </resource>
+      <resource name="rawdata.hint">
+        <object>Gögn sem verið er að flytja út, ef aðgengileg</object>
+      </resource>
+      <resource name="errorinfo.hint">
+        <object>Nánari lýsing á villu</object>
+      </resource>
+    </type>
+    <type name="Grid.MasterDataManagement.Configuration" ServiceOnly="true">
+      <resource name="configuration">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="active">
+        <object>Virkt</object>
+      </resource>
+      <resource name="code">
+        <object>Kóði</object>
+      </resource>
+      <resource name="description1">
+        <object>Texti 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Texti 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Texti 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Texti 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Texti 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Texti 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Texti 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Texti 8</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Vídd 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Vídd 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Vídd 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Vídd 4</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ytri kóði</object>
+      </resource>
+      <resource name="name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="shname">
+        <object>Stutt nafn</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="objecttemplate">
+        <object>Sniðmát</object>
+      </resource>
+      <resource name="pattern">
+        <object>Snið</object>
+      </resource>
+      <resource name="schemaassemblyid">
+        <object>Klasaskrá skema</object>
+      </resource>
+      <resource name="schemaclassname">
+        <object>Skema klasi</object>
+      </resource>
+      <resource name="Details">
+        <object>Stillingar</object>
+      </resource>
+      <resource name="Sites">
+        <object>Hús</object>
+      </resource>
+    </type>
+    <type name="Grid.MasterDataManagement.ConfigurationDetail" ServiceOnly="true">
+      <resource name="configurationdetail">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="configuration">
+        <object>Auðkenni stillinga</object>
+      </resource>
+      <resource name="sequence">
+        <object>Röð</object>
+      </resource>
+      <resource name="description">
+        <object>Lýsing</object>
+      </resource>
+      <resource name="assemblyid">
+        <object>Klasaskrá</object>
+      </resource>
+      <resource name="recordclassname">
+        <object>Klasi</object>
+      </resource>
+      <resource name="resourcemodule">
+        <object>Þýðingaskrá</object>
+      </resource>
+      <resource name="resourcetype">
+        <object>Þýðinga gerð</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Grid.MasterDataManagement.ConfigurationSite" ServiceOnly="true">
+      <resource name="configurationsite">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="configuration">
+        <object>Auðkenni stillinga</object>
+      </resource>
+      <resource name="site">
+        <object>Kóði verksmiðju</object>
+      </resource>
+      <resource name="site Name">
+        <object>Verksmiðja</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.ConfigurationDesignerView" ServiceOnly="true">
+      <resource name="lblColumnConfiguration.Text">
+        <object>Dálka stillingar:</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>Í lagi</object>
+      </resource>
+      <resource name="okButton.ToolTip">
+        <object>Lokar og vistar XML gögn</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Hætta við</object>
+      </resource>
+      <resource name="cancelButton.ToolTip">
+        <object>Hætta við og loka án þess að vista</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Dálka nafn</object>
+      </resource>
+      <resource name="colDefaultValue.Caption">
+        <object>Sjálfgefið gildi</object>
+      </resource>
+      <resource name="colUpdates.Caption">
+        <object>Uppfæra</object>
+      </resource>
+      <resource name="CaptionText">
+        <object>Nánari stillingar samþættingu gagna fyrir</object>
+      </resource>
+      <resource name="colDefaultValue.ToolTip">
+        <object>Sjálfgefið gildi ef ekkert annað gildi er valið.</object>
+      </resource>
+      <resource name="colUpdates.ToolTip">
+        <object>Ef valið verður dálkur uppfærður</object>
+      </resource>
+      <resource name="objectIdentifierLabel.Text">
+        <object>Snið auðkennis:</object>
+      </resource>
+      <resource name="tableFilterLabel.Text">
+        <object>Töflu sía:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.ConfigurationDesigner" ServiceOnly="true">
+      <resource name="btnDesign">
+        <object>Ítarleg hönnun </object>
+      </resource>
+      <resource name="btnActivate">
+        <object>Virkja</object>
+      </resource>
+      <resource name="Error">
+        <object>Villa</object>
+      </resource>
+      <resource name="ErrorInfo">
+        <object>Klasi verður að vera valin áður en hægt er að hanna ítarlega</object>
+      </resource>
+      <resource name="LoseChanges">
+        <object>Allar stillingar munu tapast. Viltu halda áfram?</object>
+      </resource>
+      <resource name="ReplacingSchema">
+        <object>Skipt um skema</object>
+      </resource>
+      <resource name="FailedToCreateDetail">
+        <object>Tókst ekki að búa til stillingar fyrir valið skema:</object>
+      </resource>
+      <resource name="SchemaChangedWarning">
+        <object>Skemað hefur breyst. Nauðsynlegt er að búa til allar stillingar samkvæmt nýju skema til að geta vistað þessar breytingar.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.SingleTile" ServiceOnly="false">
+      <resource name="NeverUpdated">
+        <object>Aldrei</object>
+      </resource>
+      <resource name="DateFormat">
+        <object>{0:g}</object>
+      </resource>
+      <resource name="CreatingChangeset">
+        <object>Bý til breytingalista</object>
+      </resource>
+      <resource name="Wait">
+        <object>Vinnsla í gangi...</object>
+      </resource>
+      <resource name="CreatedCaption">
+        <object>Búið til</object>
+      </resource>
+      <resource name="ChangesReady">
+        <object>Breytingalisti tilbúinn</object>
+      </resource>
+      <resource name="lastUpdatedCaption.Text">
+        <object>Síðasta samþætting:</object>
+      </resource>
+      <resource name="statusCaption.Text">
+        <object>Staða biðminnis:</object>
+      </resource>
+      <resource name="syncButton.Text">
+        <object>Samþætta</object>
+      </resource>
+      <resource name="viewChangesetInBufferButton.Text">
+        <object>Skoða breytingalista</object>
+      </resource>
+      <resource name="clearBufferButton.Text">
+        <object>Hreinsa</object>
+      </resource>
+      <resource name="viewChangesetHistoryButton.Text">
+        <object>Skoða breytingasögu</object>
+      </resource>
+      <resource name="cancelChangesetButton.Text">
+        <object>Hætta við</object>
+      </resource>
+      <resource name="applyChangesetButton.Text">
+        <object>Virkja</object>
+      </resource>
+      <resource name="InUse">
+        <object>Annar notandi er að samþætta við þennan þjón. Vinsamlegast reynið síðar.</object>
+      </resource>
+      <resource name="InvalidConfig">
+        <object>Ógild uppsetning, villa við gerð breytingalista. Vinsamlegast verið viss um að uppsettning sé rétt.</object>
+      </resource>
+      <resource name="InvalidConnectionString">
+        <object>Ekki tókst að tengjast þjóni. Vinsamlegast athugið hvort að tengistrengur sé réttur.</object>
+      </resource>
+      <resource name="NoCS">
+        <object>Tengi streng vantar í stillingar.</object>
+      </resource>
+      <resource name="IllegalCS">
+        <object>Tengi strengur rangur.</object>
+      </resource>
+      <resource name="ServerTimeout">
+        <object>Tímamörk gagnagruns tengingar náð.</object>
+      </resource>
+      <resource name="CannotOpenDatabase">
+        <object>Ekki hægt að opna tengingu við gagnagrunn.</object>
+      </resource>
+      <resource name="LoginFailed">
+        <object>Villa í innskráningu í gagnagrunn. </object>
+      </resource>
+      <resource name="LockTimeout">
+        <object>Gagnagruns læsing á. Reyndu aftur eða hafðu samband við kerfisstjóra gagnagruns.</object>
+      </resource>
+      <resource name="UnknownDatabaseError">
+        <object>Óþekkt gagnagruns villa. </object>
+      </resource>
+      <resource name="UnknownError">
+        <object>Óþekkt villa</object>
+      </resource>
+      <resource name="NoColumns">
+        <object>Vantar uppfærsludálka. Skoðið samþættingar stillingar.</object>
+      </resource>
+      <resource name="NoConfig">
+        <object>Stillingar innihalda engin gögn til að samþætta.</object>
+      </resource>
+      <resource name="BufferApplying">
+        <object>Ekki var hægt að samþætta. \nBiðstaða er í notkun.</object>
+      </resource>
+      <resource name="BufferReceiving">
+        <object>Ekki var hægt að samþætta. \nBiðstaða er að taka á móti breytingum.</object>
+      </resource>
+      <resource name="UnknownApplyingError">
+        <object>Óþekkt villa við virkjun breytingalista</object>
+      </resource>
+      <resource name="ErrorCaption">
+        <object>Villu upplýsingar</object>
+      </resource>
+      <resource name="Transferring">
+        <object>Flyt gögn</object>
+      </resource>
+      <resource name="FilterError">
+        <object>Villa í töflu síu. Skoðið samþættingar stillingar.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.ProductionSites" ServiceOnly="false">
+      <resource name="RefreshButton">
+        <object>Uppfæra</object>
+      </resource>
+      <resource name="ClientTimeout">
+        <object>Ekki tókst að hafa samband við þjón.</object>
+      </resource>
+      <resource name="ClientTimeoutTitle">
+        <object>Tenging mistókst.</object>
+      </resource>
+      <resource name="BackButton">
+        <object>Til baka</object>
+      </resource>
+      <resource name="ConfirmButton">
+        <object>Staðfesta</object>
+      </resource>
+      <resource name="ChangesetButton">
+        <object>Skoða nánar</object>
+      </resource>
+      <resource name="previewChangeSet">
+        <object>Viltu skoða breytingar áður en þú staðfestir?</object>
+      </resource>
+      <resource name="applyChangeset">
+        <object>Virkja breytingar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.ChangesetDetails.ChangesGrid" ServiceOnly="false">
+      <resource name="ObjectIdentifier">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="NewChanged">
+        <object>Nýtt/Breytt</object>
+      </resource>
+      <resource name="ColumnName">
+        <object>Dálkanafn</object>
+      </resource>
+      <resource name="OldValue">
+        <object>Gildi fyrir</object>
+      </resource>
+      <resource name="NewValue">
+        <object>Gildi eftir</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.ChangesetDetails.ChangesetComparison" ServiceOnly="false">
+      <resource name="Created">
+        <object>Búið til</object>
+      </resource>
+      <resource name="DateFormat">
+        <object>{0:g}</object>
+      </resource>
+      <resource name="NoChanges">
+        <object>Það eru engar breytingar í þessum breytingalista</object>
+      </resource>
+      <resource name="ObjectType">
+        <object>Tegund hluta</object>
+      </resource>
+      <resource name="Changes">
+        <object>Breytingar</object>
+      </resource>
+      <resource name="CaptionChangeset">
+        <object>Breytingar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.History.ChangesetHistoryUC" ServiceOnly="false">
+      <resource name="Status">
+        <object>Staða</object>
+      </resource>
+      <resource name="Created">
+        <object>Búið til</object>
+      </resource>
+      <resource name="Applied">
+        <object>Breytingar settar inn</object>
+      </resource>
+      <resource name="DateFormat">
+        <object>{0:g}</object>
+      </resource>
+      <resource name="Summary">
+        <object>Samantekt</object>
+      </resource>
+      <resource name="HistoryCaption">
+        <object>Breytingasaga</object>
+      </resource>
+      <resource name="New">
+        <object>ný</object>
+      </resource>
+      <resource name="Changed">
+        <object>breytt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.MasterDataManagement.ChangesetDetail.ChangesetDataForGrid" ServiceOnly="false">
+      <resource name="New">
+        <object>ný</object>
+      </resource>
+      <resource name="Changed">
+        <object>breytt</object>
+      </resource>
+      <resource name="Deleted">
+        <object>eytt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.TransferEngine.TransferOrderHubSelectorDialog" ServiceOnly="false">
+      <resource name="Text">
+        <object>Pantana flutningur</object>
+      </resource>
+      <resource name="destinationLabel.Text">
+        <object>Móttakandi</object>
+      </resource>
+      <resource name="transferOrdersButton.Text">
+        <object>Senda</object>
+      </resource>
+      <resource name="progressGroupControl.Text">
+        <object>Framvinda</object>
+      </resource>
+      <resource name="customerLookup.ToolTip">
+        <object>Veldu mótakanda</object>
+      </resource>
+      <resource name="closeButton.Text">
+        <object>Loka</object>
+      </resource>
+      <resource name="sizeControl.Text">
+        <object>Meiri upplýsingar</object>
+      </resource>
+      <resource name="sizeControlLess.Text">
+        <object>Minni upplýsingar</object>
+      </resource>
+    </type>
+    <type name="Grid.TransferEngine.TransferHubHistory" ServiceOnly="false">
+      <resource name="historyid">
+        <object>Yfirlit auðkenni</object>
+      </resource>
+      <resource name="transferid">
+        <object>Auðkenni flutnings</object>
+      </resource>
+      <resource name="transfermethod">
+        <object>Flutningsaðferð</object>
+      </resource>
+      <resource name="transferstatus">
+        <object>Staða flutnings</object>
+      </resource>
+      <resource name="sendingsite">
+        <object>Sendandi</object>
+      </resource>
+      <resource name="receivingsite">
+        <object>Móttakandi</object>
+      </resource>
+      <resource name="order">
+        <object>Pöntun kóði</object>
+      </resource>
+      <resource name="order Name">
+        <object>Pöntun</object>
+      </resource>
+      <resource name="HistoryDetails">
+        <object>Ítarlegar upplýsingar</object>
+      </resource>
+      <resource name="regtime">
+        <object>Skráningartími</object>
+      </resource>
+      <resource name="lastupdated">
+        <object>Síðast uppfært</object>
+      </resource>
+      <resource name="transferorigin">
+        <object>Uppruni flutnings</object>
+      </resource>
+      <resource name="shipment">
+        <object>Auðkenni afskipunar</object>
+      </resource>
+    </type>
+    <type name="Grid.TransferEngine.TransferHubHistoryDetails" ServiceOnly="false">
+      <resource name="id">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="transferid">
+        <object>Auðkenni flutnings</object>
+      </resource>
+      <resource name="regtime">
+        <object>Skráningartími</object>
+      </resource>
+      <resource name="receivetime">
+        <object>Móttökutími</object>
+      </resource>
+      <resource name="transfertype">
+        <object>Tegund flutnings</object>
+      </resource>
+      <resource name="operator">
+        <object>Notandi</object>
+      </resource>
+      <resource name="operatorcode">
+        <object>Kóði notanda</object>
+      </resource>
+      <resource name="contents">
+        <object>Innihald</object>
+      </resource>
+      <resource name="errormessage">
+        <object>Villuskilaboð</object>
+      </resource>
+    </type>
+    <type name="Grid.TransferHub.IdentityMap" ServiceOnly="false">
+      <resource name="mapping">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="identity">
+        <object>Notendanafn</object>
+      </resource>
+      <resource name="password">
+        <object>Lykilorð</object>
+      </resource>
+      <resource name="sitecode">
+        <object>Kóði húss</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.TransferEngine.HubPasswordEncoder" ServiceOnly="false">
+      <resource name="PasswordButtonCaption">
+        <object>Lykilorð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.TransferEngine.HubPasswordEncoderChooserForm" ServiceOnly="false">
+      <resource name="passwordLabelControl.Text">
+        <object>Nýtt lykilorð</object>
+      </resource>
+      <resource name="Text">
+        <object>Lykilorð</object>
+      </resource>
+      <resource name="confirmPasswordLabelControl.Text">
+        <object>Lykilorð staðfest</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Hætta við</object>
+      </resource>
+      <resource name="EmptyPasswordToolTip">
+        <object>Lykilorð má ekki vera tómt</object>
+      </resource>
+      <resource name="MismatchPasswordToolTip">
+        <object>Lykilorð og staðfesting lykilorðs eru mismunandi</object>
+      </resource>
+      <resource name="infoLabelControl.Text">
+        <object>Lykilorð er óþarft þegar notast er við Windows auðkenni</object>
+      </resource>
+      <resource name="passwordGroupControl.Text">
+        <object>Flutningslykilorð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.TransferEngine.TransferOrderByEmail" ServiceOnly="false">
+      <resource name="EmailButtonCaption">
+        <object>Senda með tölvupósti</object>
+      </resource>
+      <resource name="TooManySelectedError">
+        <object>Vinsamlega veldu aðeins eina röð</object>
+      </resource>
+      <resource name="TransferHubHistoryRecordError">
+        <object>Ekki tókst að sækja flutningsupplýsingar</object>
+      </resource>
+      <resource name="OrderRecordError">
+        <object>Engin pöntun fannst</object>
+      </resource>
+      <resource name="EmailClientError">
+        <object>Villa kom upp við að keyra upp tölvupóstþjón.</object>
+      </resource>
+      <resource name="InvalidData">
+        <object>Ófullnægjandi gögn. Hætt við sendingu.</object>
+      </resource>
+      <resource name="CreateEmailError">
+        <object>Villa kom upp við að búa til tölvupóst.</object>
+      </resource>
+      <resource name="OrderXmlError">
+        <object>Ekkert xml fannst sem lýsir pöntun</object>
+      </resource>
+    </type>
+    <type name="Grids.Common.CodeMapping" ServiceOnly="false">
+      <resource name="codemapping">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="tablename">
+        <object>Töflunafn</object>
+      </resource>
+      <resource name="provider">
+        <object>Kóði sendanda</object>
+      </resource>
+      <resource name="provider Name">
+        <object>Sendandi</object>
+      </resource>
+      <resource name="providercode">
+        <object>Kóði notaður af sendanda</object>
+      </resource>
+      <resource name="objectid">
+        <object>Kóði hlutar</object>
+      </resource>
+      <resource name="objectid Name">
+        <object>Hlutur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.TransferEngine.TransferHistoryOperations" ServiceOnly="false">
+      <resource name="ReimportButton">
+        <object>Reyna innflutning</object>
+      </resource>
+      <resource name="ReimportButtonHint">
+        <object>Reyna aftur að flytja inn valda pöntun</object>
+      </resource>
+      <resource name="AttemptingRetryMessage">
+        <object>Reyni aftur að flytja inn pöntun með auðkenni {0}</object>
+      </resource>
+      <resource name="ImportReceived">
+        <object>Innflutningur á pöntun með auðkenni {0} tókst</object>
+      </resource>
+      <resource name="ImportComplete">
+        <object>Innflutningur á pöntun með auðkenni {0} er lokið</object>
+      </resource>
+      <resource name="ImportError">
+        <object>Innflutningur á pöntun með auðkenni {0} mistókst</object>
+      </resource>
+      <resource name="InvalidData">
+        <object>Ófullnægjandi gögn. Hætt við sendingu.</object>
+      </resource>
+      <resource name="TooManySelectedError">
+        <object>Vinsamlega veldu aðeins eina röð.</object>
+      </resource>
+      <resource name="TransferHubHistoryRecordError">
+        <object>Ekki tókst að sækja flutningsupplýsingar.</object>
+      </resource>
+      <resource name="AttemtingFileImportMessage">
+        <object>Reyni skráarinnflutning...</object>
+      </resource>
+      <resource name="FileImportReceived">
+        <object>Innflutningur á skrá tókst</object>
+      </resource>
+      <resource name="FileImportComplete">
+        <object>Innflutningi á skrá er lokið</object>
+      </resource>
+      <resource name="FileImportError">
+        <object>Innflutningur á skrá mistókst</object>
+      </resource>
+      <resource name="ImportFileButtonCaption">
+        <object>Flytja inn skrá</object>
+      </resource>
+      <resource name="ImportFileButtonHint">
+        <object>Velja skrá til að flytja inn</object>
+      </resource>
+      <resource name="RetryTransfer">
+        <object>Flytja pöntun aftur</object>
+      </resource>
+      <resource name="FileDialogTitle">
+        <object>Veldu skrá til að flytja inn</object>
+      </resource>
+      <resource name="IOExceptionCaption">
+        <object>Ekki tókst að lesa skrá</object>
+      </resource>
+      <resource name="RetryTransferHint">
+        <object>Reyna aftur að senda valda pöntun</object>
+      </resource>
+      <resource name="FileType">
+        <object>XML skrár</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.ExportTableAddSchema" ServiceOnly="false">
+      <resource name="SchemaButtonCaption">
+        <object>Bæta við skema</object>
+      </resource>
+      <resource name="SchemaButtonHint">
+        <object>Bæta skema við valinn prófíl</object>
+      </resource>
+      <resource name="TooManySelectedError">
+        <object>Vinsamlega veldu aðeins einn prófíl</object>
+      </resource>
+      <resource name="DeletedTable">
+        <object>Útflutningstöflu fyrir {0} sleppt, henni hefur verið eytt en hún ekki hreinsuð út, vinsamlega hreinsaðu útflutningstöflur og reyndu aftur.</object>
+      </resource>
+      <resource name="Warning">
+        <object>Viðvörun</object>
+      </resource>
+      <resource name="InvalidData">
+        <object>Ófullnægjandi gögn.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.ExportTableSelectSchema" ServiceOnly="false">
+      <resource name="schemaGroupControl.Text">
+        <object>Skema</object>
+      </resource>
+      <resource name="closeButton.Text">
+        <object>Hætta við</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="Text">
+        <object>Velja skema</object>
+      </resource>
+      <resource name="selectSchemaLabel.Text">
+        <object>Vinsamlega veldu skema</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.InitialDataExport" ServiceOnly="false">
+      <resource name="NoProfileSelected">
+        <object>Enginn prófíll valinn.</object>
+      </resource>
+      <resource name="WarningMessage">
+        <object>Þessi aðgerð mun afrita öll gögn fyrir allar gagnatýpur í prófíl: {0} inn í útflutningstöflur. {1}Ertu viss um að þú viljir halda áfram?</object>
+      </resource>
+      <resource name="initialDataButtonCaption">
+        <object>Útflutningur upphafsgagna</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.InitialDataExportForm" ServiceOnly="false">
+      <resource name="browseButton.Text">
+        <object>Leita</object>
+      </resource>
+      <resource name="startButton.Text">
+        <object>Byrja</object>
+      </resource>
+      <resource name="stopButton.Text">
+        <object>Stoppa</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Loka</object>
+      </resource>
+      <resource name="destinationFolderLabel.Text">
+        <object>Gagnamappa:</object>
+      </resource>
+      <resource name="batchSizeLabel.Text">
+        <object>Skammtastærð:</object>
+      </resource>
+      <resource name="warningLabel.Text">
+        <object>Þessi aðgerð flytur út öll gögn sem skilgreind eru í völdum prófil. Þessi aðgerð getur tekið langan tíma.</object>
+      </resource>
+      <resource name="optionsGroupControl.Text">
+        <object>Stillingar</object>
+      </resource>
+      <resource name="statusGroupControl.Text">
+        <object>Staða</object>
+      </resource>
+      <resource name="warningGroupControl.Text">
+        <object>Viðvörun</object>
+      </resource>
+      <resource name="Text">
+        <object>Útflutningur upphafsgagna</object>
+      </resource>
+      <resource name="InvalidBatchSize">
+        <object>Ógild skammtastærð</object>
+      </resource>
+      <resource name="InvalidFolder">
+        <object>Gagnamappa er ekki til</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.UI.Windows.ExportEngine.WebServiceStagingData" ServiceOnly="false">
+      <resource name="id">
+        <object>Einkenni</object>
+      </resource>
+      <resource name="exporttype">
+        <object>Útflutnings tegund</object>
+      </resource>
+      <resource name="regtime">
+        <object>Skráningartími</object>
+      </resource>
+      <resource name="data">
+        <object>Gögn</object>
+      </resource>
+      <resource name="status">
+        <object>Staða</object>
+      </resource>
+      <resource name="retrycount">
+        <object>Fjöldi endursendinga</object>
+      </resource>
+      <resource name="lastretry">
+        <object>Síðasta endursendingar dagsetning</object>
+      </resource>
+      <resource name="transfertime">
+        <object>Flutningstími</object>
+      </resource>
+      <resource name="lasterror">
+        <object>Síðasta villa</object>
+      </resource>
+      <resource name="response">
+        <object>Svar</object>
+      </resource>
+      <resource name="responsestatus">
+        <object>Staða svars</object>
+      </resource>
+      <resource name="queryparams">
+        <object>Færibreytur fyrirspurnar</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

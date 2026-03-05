@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="is">
+  <industry>
+    <type name="Marel.Mp5.Grading.Configuration.SlaveMode" ServiceOnly="true">
+      <resource name="NotSlave">
+        <object>Ekki þræll</object>
+      </resource>
+      <resource name="PartSlave">
+        <object>Þræll að hluta</object>
+      </resource>
+      <resource name="AllSlave">
+        <object>Þræll</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.GateType" ServiceOnly="true">
+      <resource name="SimpleOutput">
+        <object>Úttak</object>
+      </resource>
+      <resource name="Bin">
+        <object>Baukur</object>
+      </resource>
+      <resource name="CheckBin">
+        <object>Vigtarbaukur</object>
+      </resource>
+      <resource name="FlowControl">
+        <object>Flæðistýring</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.DischargeType" ServiceOnly="true">
+      <resource name="None">
+        <object>Engin</object>
+      </resource>
+      <resource name="Belt">
+        <object>Belti</object>
+      </resource>
+      <resource name="Cabin">
+        <object>Hólf</object>
+      </resource>
+      <resource name="Vertical">
+        <object>Fallútkast</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.WeigherType" ServiceOnly="true">
+      <resource name="Belt">
+        <object>Belti</object>
+      </resource>
+      <resource name="Hopper">
+        <object>Trog</object>
+      </resource>
+      <resource name="Platform">
+        <object>Pallur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.LaneType" ServiceOnly="true">
+      <resource name="Single">
+        <object>Einföld</object>
+      </resource>
+      <resource name="Left">
+        <object>Vinstri</object>
+      </resource>
+      <resource name="Right">
+        <object>Hægri</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.SystemType" ServiceOnly="true">
+      <resource name="Simple">
+        <object>Einfalt flokkunarkerfi</object>
+      </resource>
+      <resource name="PassivePacking">
+        <object>Óvirk pökkun</object>
+      </resource>
+      <resource name="ActivePacking">
+        <object>Virk pökkun</object>
+      </resource>
+      <resource name="Reporting">
+        <object>Skýrslur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.DataType" ServiceOnly="true">
+      <resource name="Boolean">
+        <object>Boolean</object>
+      </resource>
+      <resource name="Byte">
+        <object>Bæti</object>
+      </resource>
+      <resource name="Sbyte">
+        <object>Merkt bæti (-128 til 127)</object>
+      </resource>
+      <resource name="Uint16">
+        <object>16-bita fjöldatala</object>
+      </resource>
+      <resource name="Uint32">
+        <object>32-bita fjöldatala</object>
+      </resource>
+      <resource name="Int32">
+        <object>32-bita heiltala</object>
+      </resource>
+      <resource name="Float">
+        <object>Rauntala</object>
+      </resource>
+      <resource name="String">
+        <object>Strengur</object>
+      </resource>
+      <resource name="Ustring">
+        <object>Unicode strengur</object>
+      </resource>
+      <resource name="Enum">
+        <object>Upptalning</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.BatchDetails" ServiceOnly="false">
+      <resource name="None">
+        <object>Enginn</object>
+      </resource>
+      <resource name="Simple">
+        <object>Einfaldur</object>
+      </resource>
+      <resource name="ProductDetails">
+        <object>Með afurðaupplýsingum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.PieceDetails" ServiceOnly="false">
+      <resource name="None">
+        <object>Enginn</object>
+      </resource>
+      <resource name="Simple">
+        <object>Einfaldur</object>
+      </resource>
+      <resource name="UpdatePackId">
+        <object>Uppfærður með auðkenni pakka</object>
+      </resource>
+      <resource name="PostBatch">
+        <object>Með auðkenni pakka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.PieceRecordType" ServiceOnly="false">
+      <resource name="PhysicalGrading">
+        <object>Raunskráning</object>
+      </resource>
+      <resource name="ExtraGrading">
+        <object>Aukaflokkun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.BatchRecordType" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Óþekkt</object>
+      </resource>
+      <resource name="Batch">
+        <object>Skammtur</object>
+      </resource>
+      <resource name="PeriodicBatch">
+        <object>Tímabil</object>
+      </resource>
+      <resource name="IncompleteBatch">
+        <object>Óklár skammtur</object>
+      </resource>
+      <resource name="ExternalBatch">
+        <object>?External batch</object>
+      </resource>
+      <resource name="RejectUnderweight">
+        <object>Hafnað v. undirvigtar</object>
+      </resource>
+      <resource name="RejectOverweight">
+        <object>Hafnað v. yfirvigtar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.ValueType" ServiceOnly="false">
+      <resource name="Weight">
+        <object>Þyngd</object>
+      </resource>
+      <resource name="Width">
+        <object>Breidd</object>
+      </resource>
+      <resource name="Height">
+        <object>Hæð</object>
+      </resource>
+      <resource name="Length">
+        <object>Lengd</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.GradingOperationResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Aðgerð framkvæmd eðlilega.</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Gagnagrunnsvilla kom upp.</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Aðgerð ekki studd.</object>
+      </resource>
+      <resource name="NoGate">
+        <object>Hlið er ekki á flokkara.</object>
+      </resource>
+      <resource name="NoSetup">
+        <object>Flokkunaruppsetning ekki á viðkomandi hliði.</object>
+      </resource>
+      <resource name="NoGrade">
+        <object>Afurð ekki á viðkomandi hliði.</object>
+      </resource>
+      <resource name="GraderOffline">
+        <object>Ekkert netsamband við flokkara.</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>Bretti ekki skráð undir flokkara.</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>Brettaskráning finnst ekki.</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>Staða brettis röng.</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>Afurð á hliði er ekki sú sama og skráð er á bretti.</object>
+      </resource>
+      <resource name="Exception">
+        <object>Óskilgreind villa.</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Ekki tókst að ná í tengiupplýsingar fyrir flokkunarþjónustuna.</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Ekki tókst að ná í upplýsingar um kerfisforrit fyrir flokkunarþjónustuna.</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Ekki tókst að tengjast flokkunarþjónustunni.</object>
+      </resource>
+      <resource name="RemoteException">
+        <object>Flokkunarþjónustan skilaði óksilgreindri villu.</object>
+      </resource>
+      <resource name="NoGrader">
+        <object>Flokkari ekki skilgreindur í flokkunarkerfi.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.CommandType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Óskilgeind</object>
+      </resource>
+      <resource name="Write">
+        <object>Skrifa gildi</object>
+      </resource>
+      <resource name="Execute">
+        <object>Framkvæmd</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.ConfigurationExecOrder" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Óskilgreint</object>
+      </resource>
+      <resource name="BeforeProgram">
+        <object>Undan flokkunarlykli</object>
+      </resource>
+      <resource name="Program">
+        <object>Með flokkunarlykli</object>
+      </resource>
+      <resource name="AfterProgram">
+        <object>Eftir flokkunarlykli</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.WorkstationType" ServiceOnly="true">
+      <resource name="InputPackingStation">
+        <object>Inntak</object>
+      </resource>
+      <resource name="OutputPackingStation">
+        <object>Pökkun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.IntelligentBatchingMode" ServiceOnly="false">
+      <resource name="Priority">
+        <object>Forgangur</object>
+      </resource>
+      <resource name="BestBid">
+        <object>Besta boð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Devices.A600.RoundRobinBatching" ServiceOnly="true">
+      <resource name="None">
+        <object>Ekkert</object>
+      </resource>
+      <resource name="Piece">
+        <object>Stykki</object>
+      </resource>
+      <resource name="Batch">
+        <object>Skammtur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Devices.A600.RoundRobinGrading" ServiceOnly="true">
+      <resource name="None">
+        <object>Ekkert</object>
+      </resource>
+      <resource name="Piece">
+        <object>Stykki</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

@@ -1,0 +1,1 @@
+export { KendoGridFiltersModule } from './kendo-grid-filters-module';

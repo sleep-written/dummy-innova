@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fi">
+  <industry>
+    <type name="Marel.Mp5.Base.Programs.ExecutableType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="Binary">
+        <object>Erillinen suoritettava tiedosto</object>
+      </resource>
+      <resource name="Command">
+        <object>Komentotiedosto</object>
+      </resource>
+      <resource name="AppDomain">
+        <object>Sovellustoimialueen suoritettava tiedosto</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="ProgramManager">
+        <object>Ohjelmanhallinta</object>
+      </resource>
+      <resource name="NetworkRouter">
+        <object>Laitereititin</object>
+      </resource>
+      <resource name="SystemService">
+        <object>Järjestelmäpalvelu</object>
+      </resource>
+      <resource name="ControlProgram">
+        <object>Hallintaohjelma</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduleType" ServiceOnly="true">
+      <resource name="Never">
+        <object>Ei koskaan</object>
+      </resource>
+      <resource name="Sequence">
+        <object>Ohjelman prosessissa</object>
+      </resource>
+      <resource name="Daily">
+        <object>Päivittäin</object>
+      </resource>
+      <resource name="Weekly">
+        <object>Viikoittain</object>
+      </resource>
+      <resource name="Monthly">
+        <object>Kuukausittain</object>
+      </resource>
+      <resource name="Yearly">
+        <object>Vuosittain</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Alkuperäinen</object>
+      </resource>
+      <resource name="Error">
+        <object>Virhe</object>
+      </resource>
+      <resource name="Running">
+        <object>Käynnissä</object>
+      </resource>
+      <resource name="Stopping">
+        <object>Pysähtymässä</object>
+      </resource>
+      <resource name="Dead">
+        <object>Kuollut</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Pysäytetty</object>
+      </resource>
+      <resource name="RunWait">
+        <object>Odottaa käynnistystä</object>
+      </resource>
+      <resource name="StopWait">
+        <object>Odottaa pysäytystä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ExecuteProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Alustettu</object>
+      </resource>
+      <resource name="Executing">
+        <object>Suorittaa</object>
+      </resource>
+      <resource name="Completed">
+        <object>Suoritettu</object>
+      </resource>
+      <resource name="CompletedLate">
+        <object>Suoritettu myöhässä</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Päätetty</object>
+      </resource>
+      <resource name="Error">
+        <object>Virhe</object>
+      </resource>
+      <resource name="Terminating">
+        <object>Päätetään</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ManagerState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Alkuperäinen</object>
+      </resource>
+      <resource name="RefreshingList">
+        <object>Päivitetään ohjelmaluetteloa</object>
+      </resource>
+      <resource name="Running">
+        <object>Käynnissä</object>
+      </resource>
+      <resource name="Shutdown">
+        <object>Sammutetaan</object>
+      </resource>
+      <resource name="ShutdownMsg">
+        <object>Sammutetaan järjestelmäpalvelua</object>
+      </resource>
+      <resource name="ShutdownComplete">
+        <object>Sammutus suoritettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ResponseState" ServiceOnly="true">
+      <resource name="CantCheck">
+        <object>Ei voida tarkistaa</object>
+      </resource>
+      <resource name="NotChecked">
+        <object>Ei tarkistettu</object>
+      </resource>
+      <resource name="Responding">
+        <object>Vastaa</object>
+      </resource>
+      <resource name="NotResponding">
+        <object>Ei vastaa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduledProgramState" ServiceOnly="true">
+      <resource name="Executed">
+        <object>Suoritettu</object>
+      </resource>
+      <resource name="ExecutedWait">
+        <object>Suoritettu määritetyn ajan jälkeen</object>
+      </resource>
+      <resource name="ExecutedRequest">
+        <object>Suoritettu pyynnöstä</object>
+      </resource>
+      <resource name="Missed">
+        <object>Määritetty aika meni ohi</object>
+      </resource>
+      <resource name="StoppedOnTime">
+        <object>Suoritettu</object>
+      </resource>
+      <resource name="StoppedLate">
+        <object>Suoritettu myöhässä</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Päätetty</object>
+      </resource>
+      <resource name="Error">
+        <object>Virhe</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.InterfaceType" ServiceOnly="true">
+      <resource name="NotHandled">
+        <object>Ei käsitelty</object>
+      </resource>
+      <resource name="TcpIpMarel">
+        <object>TCP/IP – Marel</object>
+      </resource>
+      <resource name="TcpIpOther">
+        <object>TCP/IP – muu</object>
+      </resource>
+      <resource name="Rs232">
+        <object>RS232</object>
+      </resource>
+      <resource name="LonMarel">
+        <object>LON</object>
+      </resource>
+      <resource name="CanMaster">
+        <object>CAN CanMasterin kautta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Määrittämätön</object>
+      </resource>
+      <resource name="Limited">
+        <object>Rajoitettu</object>
+      </resource>
+      <resource name="Unlimited">
+        <object>Rajoittamaton</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseLogType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="Issued">
+        <object>Käyttöoikeus myönnetty</object>
+      </resource>
+      <resource name="Returned">
+        <object>Käyttöoikeus palautettu</object>
+      </resource>
+      <resource name="LeaseExpired">
+        <object>Vuokrasopimus umpeutunut</object>
+      </resource>
+      <resource name="UnknownType">
+        <object>Tuntematon käyttöoikeustyyppi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.AccessLevel" ServiceOnly="false">
+      <resource name="Undefined">
+        <object>Määrittelemätön</object>
+      </resource>
+      <resource name="PersonalData">
+        <object>Työntekijä</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Tarkkailija</object>
+      </resource>
+      <resource name="Operator">
+        <object>Käyttäjä</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Valvoja</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Pääkäyttäjä</object>
+      </resource>
+      <resource name="Service">
+        <object>Huolto</object>
+      </resource>
+      <resource name="Developer">
+        <object>Kehittäjä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.LookupType" ServiceOnly="false">
+      <resource name="NoLookup">
+        <object>Ei hakua</object>
+      </resource>
+      <resource name="Named">
+        <object>Nimetty objektihaku</object>
+      </resource>
+      <resource name="Numbered">
+        <object>Tietuetunnushaku</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.ReferenceDateMethod" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="ProcessPeriod">
+        <object>Käsittelyjakso</object>
+      </resource>
+      <resource name="Date">
+        <object>Päivämäärä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CompressMethod" ServiceOnly="true">
+      <resource name="GroupBy">
+        <object>Ryhmä </object>
+      </resource>
+      <resource name="Sum">
+        <object>Summa</object>
+      </resource>
+      <resource name="Min">
+        <object>Vähintään</object>
+      </resource>
+      <resource name="Max">
+        <object>Enintään</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryChangeType" ServiceOnly="true">
+      <resource name="Insert">
+        <object>Lisätty</object>
+      </resource>
+      <resource name="Updated">
+        <object>Päivitetty</object>
+      </resource>
+      <resource name="Delete">
+        <object>Poistettu</object>
+      </resource>
+      <resource name="AppSpecific">
+        <object>Erikoistoiminto</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryLogLevel" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Ei kirjaamista</object>
+      </resource>
+      <resource name="BasicLogging">
+        <object>Kirjaa tietuetoiminnot</object>
+      </resource>
+      <resource name="FullLogging">
+        <object>Kirjaa kaikki toiminnot</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationStatus" ServiceOnly="false">
+      <resource name="InActive">
+        <object>Passiivinen tietue</object>
+      </resource>
+      <resource name="Pending">
+        <object>Toiminto odottaa</object>
+      </resource>
+      <resource name="Current">
+        <object>Valmis</object>
+      </resource>
+      <resource name="Error">
+        <object>Virhe</object>
+      </resource>
+      <resource name="Ongoing">
+        <object>Määritys käynnissä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.UpdateAction" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ei toimintaa</object>
+      </resource>
+      <resource name="ExecProgram">
+        <object>Suorita ohjelma</object>
+      </resource>
+      <resource name="SendRequest">
+        <object>Lähetä pyyntö</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterType" ServiceOnly="false">
+      <resource name="NotSpecified">
+        <object>Ei määritetty</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupType" ServiceOnly="false">
+      <resource name="PersonalData">
+        <object>Henkilökohtaiset tiedot</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Tarkkailija</object>
+      </resource>
+      <resource name="Operator">
+        <object>Käyttäjä</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Valvoja</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Pääkäyttäjä</object>
+      </resource>
+      <resource name="Service">
+        <object>Huolto</object>
+      </resource>
+      <resource name="Custom">
+        <object>Ohjelmiston käyttö</object>
+      </resource>
+      <resource name="LocationAccess">
+        <object>Sijainnin käyttö </object>
+      </resource>
+      <resource name="General">
+        <object>Yleinen tarkoitus</object>
+      </resource>
+      <resource name="Developer">
+        <object>Kehittäjä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.GroupAreaType" ServiceOnly="false">
+      <resource name="NoType">
+        <object>Ei aluetta</object>
+      </resource>
+      <resource name="Site">
+        <object>Paikka</object>
+      </resource>
+      <resource name="Department">
+        <object>Osasto</object>
+      </resource>
+      <resource name="Section">
+        <object>Osa</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Käsittely-yksikkö</object>
+      </resource>
+      <resource name="Station">
+        <object>Asema</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupTimeType" ServiceOnly="false">
+      <resource name="NoRestriction">
+        <object>Ei rajoitusta</object>
+      </resource>
+      <resource name="Weekday">
+        <object>Viikonpäivä</object>
+      </resource>
+      <resource name="MonthDay">
+        <object>Kuukauden päivä</object>
+      </resource>
+      <resource name="OnDuty">
+        <object>Työssä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.GuiNodeType" ServiceOnly="true">
+      <resource name="ControlForm">
+        <object>Hallintalomake</object>
+      </resource>
+      <resource name="Folder">
+        <object>Kansio</object>
+      </resource>
+      <resource name="UserGrid">
+        <object>Käyttäjäruudukko</object>
+      </resource>
+      <resource name="Log">
+        <object>Loki</object>
+      </resource>
+      <resource name="Report">
+        <object>Raportti</object>
+      </resource>
+      <resource name="SetupGrid">
+        <object>Määritä ruudukko</object>
+      </resource>
+      <resource name="DocumentTree">
+        <object>Tiedostopuu</object>
+      </resource>
+      <resource name="Chart">
+        <object>Kaavio</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.DeviceRecord" ServiceOnly="false">
+      <resource name="CanFormat">
+        <object>CAN-laite {0} kohteessa {1}</object>
+      </resource>
+      <resource name="LonFormat">
+        <object>LON-laite {0} kohteessa {1}</object>
+      </resource>
+      <resource name="Rs232Format">
+        <object>RS232-laite kohteessa {0}</object>
+      </resource>
+      <resource name="TcpMarelFormat">
+        <object>Marelin TCP/IP-laite {0}</object>
+      </resource>
+      <resource name="TcpGenericFormat">
+        <object>Yleinen TCP/IP-laite {0}, portti {1}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.Records.StandardRecord" ServiceOnly="false">
+      <resource name="Copy">
+        <object>Kopioi</object>
+      </resource>
+      <resource name="Of">
+        <object>/</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.ClientSupport.ObjectActiveType" ServiceOnly="false">
+      <resource name="Inactive">
+        <object>Passiivinen</object>
+      </resource>
+      <resource name="Active">
+        <object>Aktiivinen</object>
+      </resource>
+      <resource name="Both">
+        <object>Molemmat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Connections.PortType" ServiceOnly="true">
+      <resource name="RemotingTcp">
+        <object>etä-TCP</object>
+      </resource>
+      <resource name="RemotingHttp">
+        <object>etä-HTTP</object>
+      </resource>
+      <resource name="SSI">
+        <object>Vastake</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaDateTimeType" ServiceOnly="false">
+      <resource name="Unspecified">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="ProductionDayFromTo">
+        <object>Tuotantopäiväalue</object>
+      </resource>
+      <resource name="DateFromTo">
+        <object>Päivämääräalue</object>
+      </resource>
+      <resource name="DateTimeFromTo">
+        <object>Päivämäärän ja kellonajan alue</object>
+      </resource>
+      <resource name="ProductionDaySingle">
+        <object>Tuotantopäivä</object>
+      </resource>
+      <resource name="DateSingle">
+        <object>Päivämäärä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaType" ServiceOnly="false">
+      <resource name="Lookup">
+        <object>Haku</object>
+      </resource>
+      <resource name="DateTime">
+        <object>Päivämäärä ja kellonaika</object>
+      </resource>
+      <resource name="SingleInteger">
+        <object>Yksittäinen kokonaisluku</object>
+      </resource>
+      <resource name="IntegerList">
+        <object>Kokonaislukuluettelo</object>
+      </resource>
+      <resource name="SingleFloat">
+        <object>Yksittäinen liukuluku</object>
+      </resource>
+      <resource name="String">
+        <object>Merkkijono</object>
+      </resource>
+      <resource name="CheckBox">
+        <object>Valintaruutu</object>
+      </resource>
+      <resource name="ComboBox">
+        <object>Yhdistelmäruutu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.DataRecordType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Tavallinen</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Yhteensä</object>
+      </resource>
+      <resource name="Pending">
+        <object>Odottaa</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Poistettu</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Virheellinen</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Pakattu</object>
+      </resource>
+      <resource name="Partial">
+        <object>Osittainen</object>
+      </resource>
+      <resource name="Yield">
+        <object>Tuotto</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Käänteinen</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Loma</object>
+      </resource>
+      <resource name="Generated">
+        <object>Luotu</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Käytetty</object>
+      </resource>
+      <resource name="Returned">
+        <object>Palautettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationOpType" ServiceOnly="true">
+      <resource name="Send">
+        <object>Lähetä</object>
+      </resource>
+      <resource name="Get">
+        <object>Hae</object>
+      </resource>
+      <resource name="GetCopy">
+        <object>Hae kopio</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterDataType" ServiceOnly="false">
+      <resource name="Integer">
+        <object>Kokonaisluku</object>
+      </resource>
+      <resource name="Float">
+        <object>Liukuluku</object>
+      </resource>
+      <resource name="String">
+        <object>Merkkijono</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.StatusCheckMode" ServiceOnly="false">
+      <resource name="PendingOnline">
+        <object>Odottaa, kunnes online</object>
+      </resource>
+      <resource name="Online">
+        <object>Vain online-tilassa</object>
+      </resource>
+      <resource name="NoCheck">
+        <object>Tilaa ei tarkistettu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ProgramType" ServiceOnly="true">
+      <resource name="Unkown">
+        <object>Tuntematon</object>
+      </resource>
+      <resource name="SystemProgram">
+        <object>Järjestelmäohjelma</object>
+      </resource>
+      <resource name="ScheduledProgram">
+        <object>Ajoitettu ohjelma</object>
+      </resource>
+      <resource name="RequestedProgram">
+        <object>Pyydetty ohjelma</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.KeyType" ServiceOnly="true">
+      <resource name="Temporary">
+        <object>Väliaikainen</object>
+      </resource>
+      <resource name="Permanent">
+        <object>Pysyvä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.LogReason" ServiceOnly="true">
+      <resource name="UnknownFeature">
+        <object>Tuntematon ominaisuus</object>
+      </resource>
+      <resource name="MaxInstances">
+        <object>Suurin mahdollinen esiintymämäärä täynnä</object>
+      </resource>
+      <resource name="UnknownVersion">
+        <object>Pyydettiin tuntematonta versiota</object>
+      </resource>
+      <resource name="SignatureFailure">
+        <object>Allekirjoitukset eivät täsmää</object>
+      </resource>
+      <resource name="HandlerOverride">
+        <object>Käsittelijän ohitus</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.AlarmConfigurationListRecordCsvFileReader" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Virhe käsiteltäessä linjaa CSV-tiedostosta</object>
+      </resource>
+      <resource name="ErrorCreatingRecord">
+        <object>Poikkeus kirjoitettaessa tietoja konfigurointitietueeseen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.ImportCsvFile" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Virhe käsiteltäessä linjaa CSV-tiedostosta</object>
+      </resource>
+      <resource name="ErrorCreatingRecord">
+        <object>Poikkeus kirjoitettaessa tietoja konfigurointitietueeseen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.ExportCsvFile" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Virhe käsiteltäessä linjaa CSV-tiedostosta</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

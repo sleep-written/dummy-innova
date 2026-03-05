@@ -1,0 +1,977 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="zh-CN">
+  <industry>
+    <type name="Marel.Common.Terminals.ScreenSystem" ServiceOnly="false">
+      <resource name="ShutdownMessage">
+        <object>- 系统关闭 -</object>
+      </resource>
+      <resource name="MomentMessage">
+        <object>稍等片刻...</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.ListScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Ok</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Exit</object>
+      </resource>
+      <resource name="SortByCodeLegend">
+        <object>代码</object>
+      </resource>
+      <resource name="SortByNameLegend">
+        <object>名称</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.FieldScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Ok</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Exit</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.DeviceStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="NoInterface">
+        <object>无界面</object>
+      </resource>
+      <resource name="NoRouter">
+        <object>无路由器</object>
+      </resource>
+      <resource name="Offline">
+        <object>离线</object>
+      </resource>
+      <resource name="PresumedOnline">
+        <object>假定在线</object>
+      </resource>
+      <resource name="Online">
+        <object>在线</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Diagnostics.LogEntryType" ServiceOnly="false">
+      <resource name="Information">
+        <object>信息</object>
+      </resource>
+      <resource name="UsageLog">
+        <object>使用日志</object>
+      </resource>
+      <resource name="Warning">
+        <object>警告</object>
+      </resource>
+      <resource name="Error">
+        <object>错误</object>
+      </resource>
+      <resource name="Fatal">
+        <object>重大错误</object>
+      </resource>
+      <resource name="UnhandledException">
+        <object>未处理异常</object>
+      </resource>
+      <resource name="Trace">
+        <object>跟踪</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Sockets.ConnectionStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="Idle">
+        <object>空转</object>
+      </resource>
+      <resource name="Unconnected">
+        <object>未连接</object>
+      </resource>
+      <resource name="Connecting">
+        <object>连接</object>
+      </resource>
+      <resource name="Connected">
+        <object>已连接</object>
+      </resource>
+      <resource name="Disconnected">
+        <object>未连接</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmManagement" ServiceOnly="false">
+      <resource name="Units">
+        <object>单位</object>
+      </resource>
+      <resource name="Weight">
+        <object>重量</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmProduct" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="Units">
+        <object>单位</object>
+      </resource>
+      <resource name="Pieces">
+        <object>物件</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmSystem" ServiceOnly="false">
+      <resource name="Si">
+        <object>SI</object>
+      </resource>
+      <resource name="European">
+        <object>欧洲</object>
+      </resource>
+      <resource name="Imperial">
+        <object>英制</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmWeight" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Milligrams">
+        <object>mg</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="OunceEights">
+        <object>oz/8</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmLength" ServiceOnly="false">
+      <resource name="Meters">
+        <object>m</object>
+      </resource>
+      <resource name="Millimeters">
+        <object>mm</object>
+      </resource>
+      <resource name="Centimeters">
+        <object>cm</object>
+      </resource>
+      <resource name="Inches">
+        <object>英寸</object>
+      </resource>
+      <resource name="Feet">
+        <object>英尺</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.FormatSpecification" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="Point000001">
+        <object>0.000001</object>
+      </resource>
+      <resource name="Point000002">
+        <object>0.000002</object>
+      </resource>
+      <resource name="Point000005">
+        <object>0.000005</object>
+      </resource>
+      <resource name="Point00001">
+        <object>0.00001</object>
+      </resource>
+      <resource name="Point00002">
+        <object>0.00002</object>
+      </resource>
+      <resource name="Point00005">
+        <object>0.00005</object>
+      </resource>
+      <resource name="Point0001">
+        <object>0.0001</object>
+      </resource>
+      <resource name="Point0002">
+        <object>0.0002</object>
+      </resource>
+      <resource name="Point0005">
+        <object>0.0005</object>
+      </resource>
+      <resource name="Point001">
+        <object>0.001</object>
+      </resource>
+      <resource name="Point002">
+        <object>0.002</object>
+      </resource>
+      <resource name="Point005">
+        <object>0.005</object>
+      </resource>
+      <resource name="Point01">
+        <object>0.01</object>
+      </resource>
+      <resource name="Point02">
+        <object>0.02</object>
+      </resource>
+      <resource name="Point05">
+        <object>0.05</object>
+      </resource>
+      <resource name="Point1">
+        <object>0.1</object>
+      </resource>
+      <resource name="Point2">
+        <object>0.2</object>
+      </resource>
+      <resource name="Point5">
+        <object>0.5</object>
+      </resource>
+      <resource name="N1">
+        <object>1</object>
+      </resource>
+      <resource name="N2">
+        <object>2</object>
+      </resource>
+      <resource name="N5">
+        <object>5</object>
+      </resource>
+      <resource name="N10">
+        <object>10</object>
+      </resource>
+      <resource name="N20">
+        <object>20</object>
+      </resource>
+      <resource name="N50">
+        <object>50</object>
+      </resource>
+      <resource name="Max">
+        <object>最大值</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.NominalMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>校准，% 废料</object>
+      </resource>
+      <resource name="FixWeightFg">
+        <object>标称固定废料</object>
+      </resource>
+      <resource name="FixWeightVg">
+        <object>标称，% 废料</object>
+      </resource>
+      <resource name="FixWeightE">
+        <object>e，无废料</object>
+      </resource>
+      <resource name="FixWeightEFg">
+        <object>e，固定废料</object>
+      </resource>
+      <resource name="FixWeightEVg">
+        <object>e，% 废料</object>
+      </resource>
+      <resource name="Range">
+        <object>标称范围</object>
+      </resource>
+      <resource name="Step">
+        <object>标称步骤</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="Button">
+        <object>按钮</object>
+      </resource>
+      <resource name="Preset">
+        <object>预置</object>
+      </resource>
+      <resource name="Auto">
+        <object>自动</object>
+      </resource>
+      <resource name="System">
+        <object>系统</object>
+      </resource>
+      <resource name="Calculated">
+        <object>已计算</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Gender" ServiceOnly="false">
+      <resource name="Female">
+        <object>女性</object>
+      </resource>
+      <resource name="Male">
+        <object>男性</object>
+      </resource>
+      <resource name="NotSet">
+        <object>未指定</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.AccuracyMode" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="Low">
+        <object>低</object>
+      </resource>
+      <resource name="Medium">
+        <object>中等</object>
+      </resource>
+      <resource name="High">
+        <object>高</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.FlowUnit" ServiceOnly="false">
+      <resource name="Percentage">
+        <object>百分比</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>件数/分钟</object>
+      </resource>
+      <resource name="WeightPerHour">
+        <object>重量/小时</object>
+      </resource>
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.LaneSpecification" ServiceOnly="false">
+      <resource name="OneSide">
+        <object>一侧</object>
+      </resource>
+      <resource name="TwoSide">
+        <object>两侧</object>
+      </resource>
+      <resource name="Lane1">
+        <object>通道 1</object>
+      </resource>
+      <resource name="Lane2">
+        <object>通道 2</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.RecordingMethod" ServiceOnly="false">
+      <resource name="Manual">
+        <object>手动</object>
+      </resource>
+      <resource name="Auto">
+        <object>自动</object>
+      </resource>
+      <resource name="Stable">
+        <object>稳定</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Resources.Industry" ServiceOnly="false">
+      <resource name="Neutral">
+        <object>行业中性</object>
+      </resource>
+      <resource name="Fish">
+        <object>鱼肉</object>
+      </resource>
+      <resource name="Meat">
+        <object>肉类</object>
+      </resource>
+      <resource name="Poultry">
+        <object>禽肉</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTime" ServiceOnly="false">
+      <resource name="Seconds">
+        <object>秒</object>
+      </resource>
+      <resource name="Milliseconds">
+        <object>毫秒</object>
+      </resource>
+      <resource name="Minutes">
+        <object>分钟</object>
+      </resource>
+      <resource name="Hours">
+        <object>小时</object>
+      </resource>
+      <resource name="Days">
+        <object>日期</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.UnitType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="Pack">
+        <object>包装</object>
+      </resource>
+      <resource name="Stack">
+        <object>堆</object>
+      </resource>
+      <resource name="Pallet">
+        <object>托盘</object>
+      </resource>
+      <resource name="Container">
+        <object>集装箱</object>
+      </resource>
+      <resource name="Shipment">
+        <object>装运</object>
+      </resource>
+      <resource name="Item">
+        <object>项目</object>
+      </resource>
+      <resource name="GraderPiece">
+        <object>物件</object>
+      </resource>
+      <resource name="Individual">
+        <object>动物</object>
+      </resource>
+      <resource name="TrimPiece">
+        <object>切割</object>
+      </resource>
+      <resource name="CollectionMix">
+        <object>混合单位</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.AppRecordType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>未指定</object>
+      </resource>
+      <resource name="Input">
+        <object>总输入</object>
+      </resource>
+      <resource name="Output">
+        <object>总输出</object>
+      </resource>
+      <resource name="TrimInput">
+        <object>切割输入</object>
+      </resource>
+      <resource name="TrimOutput">
+        <object>切割输出</object>
+      </resource>
+      <resource name="BypassInput">
+        <object>旁路输入</object>
+      </resource>
+      <resource name="BypassOutput">
+        <object>旁路输出</object>
+      </resource>
+      <resource name="TrimUnknown">
+        <object>未知切割</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="Button">
+        <object>按钮</object>
+      </resource>
+      <resource name="Preset">
+        <object>预置</object>
+      </resource>
+      <resource name="Auto">
+        <object>自动</object>
+      </resource>
+      <resource name="System">
+        <object>系统</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.BatchingMode" ServiceOnly="false">
+      <resource name="None">
+        <object>无</object>
+      </resource>
+      <resource name="Weight">
+        <object>按重量</object>
+      </resource>
+      <resource name="IntelligentWeight">
+        <object>按重量了解</object>
+      </resource>
+      <resource name="Count">
+        <object>按计数</object>
+      </resource>
+      <resource name="Slave">
+        <object>从属器</object>
+      </resource>
+      <resource name="MultiTarget">
+        <object>多目标</object>
+      </resource>
+      <resource name="MeanWeight">
+        <object>平均重量</object>
+      </resource>
+      <resource name="Rate">
+        <object>速度</object>
+      </resource>
+      <resource name="RateAndAverage">
+        <object>平均速度</object>
+      </resource>
+      <resource name="Share">
+        <object>分摊</object>
+      </resource>
+      <resource name="FillRate">
+        <object>填充速度</object>
+      </resource>
+      <resource name="Weight2nd">
+        <object>按重量，第二</object>
+      </resource>
+      <resource name="IntelligentWeight2nd">
+        <object>按重量了解，第二</object>
+      </resource>
+      <resource name="Count2nd">
+        <object>按计数，第二</object>
+      </resource>
+      <resource name="MeanWeight2nd">
+        <object>平均重量，第二</object>
+      </resource>
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.RejectLevel" ServiceOnly="false">
+      <resource name="None">
+        <object>不拒绝</object>
+      </resource>
+      <resource name="Lowest">
+        <object>最低</object>
+      </resource>
+      <resource name="Low">
+        <object>低</object>
+      </resource>
+      <resource name="Medium">
+        <object>中等</object>
+      </resource>
+      <resource name="High">
+        <object>高</object>
+      </resource>
+      <resource name="Highest">
+        <object>最高</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.GeneralMessage" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>选定范围</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>退出</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.SelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>选择项目</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.WSelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>选择项目</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Utilities.ParamDataType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="Bool">
+        <object>布尔型</object>
+      </resource>
+      <resource name="Int">
+        <object>整数</object>
+      </resource>
+      <resource name="Float">
+        <object>浮点型</object>
+      </resource>
+      <resource name="String">
+        <object>字符串</object>
+      </resource>
+      <resource name="Enum">
+        <object>枚举</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTare" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Percentage">
+        <object>%</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.IdContainerStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>未找到</object>
+      </resource>
+      <resource name="NoId">
+        <object>无 id</object>
+      </resource>
+      <resource name="Ok">
+        <object>确定</object>
+      </resource>
+      <resource name="Invalid">
+        <object>无效</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>无重量</object>
+      </resource>
+      <resource name="Exception">
+        <object>异常</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.M3000PieceStatus" ServiceOnly="false">
+      <resource name="Accepted">
+        <object>已接受项目</object>
+      </resource>
+      <resource name="TooLong">
+        <object>项目过长</object>
+      </resource>
+      <resource name="BadZero">
+        <object>称重项目时出现坏零</object>
+      </resource>
+      <resource name="Unstable">
+        <object>不稳定称重</object>
+      </resource>
+      <resource name="UnderWeight">
+        <object>项目过轻</object>
+      </resource>
+      <resource name="OverWeight">
+        <object>项目过重</object>
+      </resource>
+      <resource name="Previous">
+        <object>分级机忙于上一项目</object>
+      </resource>
+      <resource name="BadRead">
+        <object>少数措施</object>
+      </resource>
+      <resource name="MarginalRead">
+        <object>措施边际次数</object>
+      </resource>
+      <resource name="GoodRead">
+        <object>适当数量措施</object>
+      </resource>
+      <resource name="NotUsed">
+        <object>项目不符合任何标准</object>
+      </resource>
+      <resource name="Blocked">
+        <object>所有相关分拣门封锁</object>
+      </resource>
+      <resource name="IntelligentReject">
+        <object>智能批量拒绝</object>
+      </resource>
+      <resource name="FormMissing">
+        <object>指定形式缺失</object>
+      </resource>
+      <resource name="TooClose">
+        <object>项目过于接近上一项</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>该项无重量</object>
+      </resource>
+      <resource name="NoGate">
+        <object>未向分拣门分配产品</object>
+      </resource>
+      <resource name="Missing">
+        <object>操作中项目缺失</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>无活动订单</object>
+      </resource>
+      <resource name="TypeBlock">
+        <object>无物件种类空间</object>
+      </resource>
+      <resource name="RateReject">
+        <object>速度算法拒绝该项</object>
+      </resource>
+      <resource name="CheckTooLight">
+        <object>过轻</object>
+      </resource>
+      <resource name="CheckTooLight2xTNE">
+        <object>项目过轻</object>
+      </resource>
+      <resource name="CheckTooHeavy">
+        <object>过重</object>
+      </resource>
+      <resource name="CheckTNE">
+        <object>TNE 内拒绝</object>
+      </resource>
+      <resource name="CheckNoGate">
+        <object>未找到拒绝分拣门</object>
+      </resource>
+      <resource name="ExtremelyLong">
+        <object>物件极长</object>
+      </resource>
+      <resource name="LengthOnly">
+        <object>物件仅有长度属性</object>
+      </resource>
+      <resource name="NoResultError">
+        <object>未从 CWU 中接收重量质量</object>
+      </resource>
+      <resource name="TooShort">
+        <object>项目过短</object>
+      </resource>
+      <resource name="NoBatchNoGate">
+        <object>无批量，无法开始新订单</object>
+      </resource>
+      <resource name="RateNoGate">
+        <object>速度拒绝，无法开始新订单</object>
+      </resource>
+      <resource name="BlockedNoGate">
+        <object>批量封锁，不能开始新订单</object>
+      </resource>
+      <resource name="RejectToFewGates">
+        <object>到少数可用分拣门</object>
+      </resource>
+      <resource name="FillRateNoGate">
+        <object>填充速度拒绝</object>
+      </resource>
+      <resource name="NoMasterConnection">
+        <object>无法连接至主分级机</object>
+      </resource>
+      <resource name="NoProgramActive">
+        <object>无活动分级程序</object>
+      </resource>
+      <resource name="InnovaCommunicating">
+        <object>Innova 联系分级机</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.SV4700PieceStatus" ServiceOnly="false">
+      <resource name="NoError">
+        <object>未拒绝项</object>
+      </resource>
+      <resource name="ItemRejected">
+        <object>已拒绝项</object>
+      </resource>
+      <resource name="MetalItem">
+        <object>金属项</object>
+      </resource>
+      <resource name="SeparatorSpaceError">
+        <object>分离器空间错误</object>
+      </resource>
+      <resource name="NoReachableBinError">
+        <object>无可获取的回收站错误</object>
+      </resource>
+      <resource name="JobNotFound">
+        <object>未找到工作</object>
+      </resource>
+      <resource name="ItemTypeNotFound">
+        <object>未找到项目类型</object>
+      </resource>
+      <resource name="WeighingError">
+        <object>称量错误</object>
+      </resource>
+      <resource name="NoVisionData">
+        <object>无视觉数据</object>
+      </resource>
+      <resource name="GradeNotFound">
+        <object>未找到等级</object>
+      </resource>
+      <resource name="VisionConditionFail">
+        <object>视觉条件失败</object>
+      </resource>
+      <resource name="BinNotFound">
+        <object>未找到回收站</object>
+      </resource>
+      <resource name="RateControlError">
+        <object>速度控制错误</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>无订单</object>
+      </resource>
+      <resource name="VisionDetectionError">
+        <object>视觉探测错误</object>
+      </resource>
+      <resource name="RobotReadyError">
+        <object>机器人就绪错误</object>
+      </resource>
+      <resource name="RobotCapacityError">
+        <object>机器人能力错误</object>
+      </resource>
+      <resource name="SeparatorGapError">
+        <object>分离器间隔错误</object>
+      </resource>
+      <resource name="StatisticalAllotmentTooBad">
+        <object>数据分配过差</object>
+      </resource>
+      <resource name="OutsideLimitsError">
+        <object>外在限制错误</object>
+      </resource>
+      <resource name="PropertyMissingError">
+        <object>属性缺失错误</object>
+      </resource>
+      <resource name="OtherRejects">
+        <object>其他拒绝</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmFlowrate" ServiceOnly="false">
+      <resource name="KilogramsPerSecond">
+        <object>每秒千克数</object>
+      </resource>
+      <resource name="TonsPerHour">
+        <object>每小时吨数</object>
+      </resource>
+      <resource name="PoundsPerHour">
+        <object>每小时磅数</object>
+      </resource>
+      <resource name="KilogramsPerMinute">
+        <object>每分钟千克数</object>
+      </resource>
+      <resource name="KilogramsPerHour">
+        <object>每小时千克数</object>
+      </resource>
+      <resource name="PoundsPerSecond">
+        <object>每秒磅数</object>
+      </resource>
+      <resource name="PoundsPerMinute">
+        <object>每分钟磅数</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>每分钟件数</object>
+      </resource>
+      <resource name="PiecesPerHour">
+        <object>每小时件数</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.RfidStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>未设置</object>
+      </resource>
+      <resource name="GoodRead">
+        <object>确定</object>
+      </resource>
+      <resource name="NoRead">
+        <object>未读取</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Database.Migration.MigrationResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>确定</object>
+      </resource>
+      <resource name="NoMigrationAttribute">
+        <object>无迁移属性</object>
+      </resource>
+      <resource name="NotInSchema">
+        <object>该架构中不存在</object>
+      </resource>
+      <resource name="NotInDatabase">
+        <object>该数据库中不存在</object>
+      </resource>
+      <resource name="AlreadyInSchema">
+        <object>已确定在架构中</object>
+      </resource>
+      <resource name="AlreadyInDatabase">
+        <object>已在数据库中</object>
+      </resource>
+      <resource name="InvalidDefinition">
+        <object>有无效定义</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Exceptions.RemoteResult" ServiceOnly="false">
+      <resource name="NotSupported">
+        <object>不支持操作。</object>
+      </resource>
+      <resource name="Exception">
+        <object>服务器通信错误。</object>
+      </resource>
+      <resource name="InitError">
+        <object>远程连接初始化时发生错误。</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>远程呼叫服务器失败。</object>
+      </resource>
+      <resource name="NoStationManager">
+        <object>获取管理器失败。</object>
+      </resource>
+      <resource name="NoServer">
+        <object>查找服务器失败。</object>
+      </resource>
+      <resource name="HostException">
+        <object>主机出错。</object>
+      </resource>
+      <resource name="Timeout">
+        <object>超时</object>
+      </resource>
+      <resource name="CommandError">
+        <object>命令错误</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.DelfordCheckweigher" ServiceOnly="false">
+      <resource name="ChangePrgTest">
+        <object>更改为测试程序。 可能因为 CW 不在正确状态</object>
+      </resource>
+      <resource name="UnknownCmd">
+        <object>未知命令:  </object>
+      </resource>
+      <resource name="DeleteProgram">
+        <object>删除程序:  </object>
+      </resource>
+      <resource name="ChangePrg">
+        <object>更改为程序 {0}。 可能因为 CW 不在正确状态</object>
+      </resource>
+      <resource name="CreateProgramEcheck">
+        <object>使用 {1} 途径创建电子检查程序 {0}</object>
+      </resource>
+      <resource name="CreateProgramMin">
+        <object>使用 {1} 途径创建最小程序 {0}</object>
+      </resource>
+      <resource name="Target">
+        <object>目标称重=</object>
+      </resource>
+      <resource name="Tare">
+        <object>皮重=</object>
+      </resource>
+      <resource name="HighLimit">
+        <object>上限=</object>
+      </resource>
+      <resource name="T1">
+        <object>T1=</object>
+      </resource>
+      <resource name="LowLimit">
+        <object>下限(T2)=</object>
+      </resource>
+      <resource name="MinLimit">
+        <object>最小限度=</object>
+      </resource>
+      <resource name="MaxLimit">
+        <object>最大限度=</object>
+      </resource>
+      <resource name="OutAcc">
+        <object>已接受分拣门=</object>
+      </resource>
+      <resource name="OutMax">
+        <object>超重分拣门=</object>
+      </resource>
+      <resource name="OutMin">
+        <object>重量不足分拣门=</object>
+      </resource>
+      <resource name="OutMetal">
+        <object>金属拒绝分拣门=</object>
+      </resource>
+      <resource name="OutMetalPecPack">
+        <object>金属拒绝 PEC 包装超时=</object>
+      </resource>
+      <resource name="OutMetalPecFull">
+        <object>金属拒绝 PEC 装满超时=</object>
+      </resource>
+      <resource name="RuleSample">
+        <object>样品批量尺寸=</object>
+      </resource>
+      <resource name="DistrGraph">
+        <object>分布图</object>
+      </resource>
+      <resource name="UpdPrg">
+        <object>在设置 {1} 时更新程序 {0}</object>
+      </resource>
+      <resource name="ReqStatus">
+        <object>要求机器状态</object>
+      </resource>
+      <resource name="CommandFailed">
+        <object>无法 {0}</object>
+      </resource>
+      <resource name="ReqPrgName">
+        <object>要求程序名称:  </object>
+      </resource>
+      <resource name="ReqPrgField">
+        <object>要求程序 {0} 字段 {1}</object>
+      </resource>
+      <resource name="Offline">
+        <object>设备离线</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

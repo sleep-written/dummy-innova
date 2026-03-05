@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fi">
+  <industry>    
+    <type name="Marel.Mp5.Monitoring.Services.Notifications.Email.EmailNotificationPlugin" ServiceOnly="false">
+      <resource name="AlarmOn">
+        <object>Hälytys päällä (ON)</object>
+      </resource>
+      <resource name="AlarmOff">
+        <object>Hälytys pois (OFF)</object>
+      </resource>
+      <resource name="AlarmEvent">
+        <object>Hälytystapahtuma</object>
+      </resource>
+      <resource name="Time">
+        <object>Aika</object>
+      </resource>
+      <resource name="State">
+        <object>Tila</object>
+      </resource>
+      <resource name="Description">
+        <object>Kuvaus</object>
+      </resource>
+      <resource name="AlarmInfo">
+        <object>Hälytystiedot</object>
+      </resource>
+      <resource name="Owner">
+        <object>Omistaja</object>
+      </resource>
+      <resource name="Item">
+        <object>Kohde</object>
+      </resource>
+      <resource name="Priority">
+        <object>Prioriteetti</object>
+      </resource>
+      <resource name="Info">
+        <object>Posti lähetetty:{0}        Vastaanottajat:{1},        Aihe:{2}                </object>
+      </resource>
+      <resource name="NoReceivers">
+        <object>          Ei vastaanottajia        </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.Services.Monitor.Devices.Value.DeviceValueConfig" ServiceOnly="false">
+      <resource name="DeviceId.Category">
+        <object>Laite</object>
+      </resource>
+      <resource name="DeviceId.DisplayName">
+        <object>Laitteen tunnus</object>
+      </resource>
+      <resource name="DeviceId.Description">
+        <object>Valitse laite, jonka arvoa valvotaan</object>
+      </resource>
+      <resource name="Addresses.Category">
+        <object>Laite</object>
+      </resource>
+      <resource name="Addresses.DisplayName">
+        <object>Osoiteluettelo</object>
+      </resource>
+      <resource name="Addresses.Description">
+        <object>Luettelo valvottavista osoitteista</object>
+      </resource>
+      <resource name="PollInterval.Category">
+        <object>Liitännäisen konfig.</object>
+      </resource>
+      <resource name="PollInterval.DisplayName">
+        <object>Kyselyn aikaväli</object>
+      </resource>
+      <resource name="PollInterval.Description">
+        <object>Aikaväli arvon (sekunneissa, väh. 10 sek.) kyselyssä. 0 = Ei kyselyä. Aseta 0, jos käytät Pluto-laitetta.</object>
+      </resource>
+      <resource name="ClearAlarmOnDispose.Category">
+        <object>Liitännäisen konfig.</object>
+      </resource>
+      <resource name="ClearAlarmOnDispose.DisplayName">
+        <object>Nollaa hälytys hävityksestä</object>
+      </resource>
+      <resource name="ClearAlarmOnDispose.Description">
+        <object>Jos hälytys on nollattava, kun laitteen arvoa ei enää valvota</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.Services.Monitor.Devices.Value.DeviceValueSchedConfig" ServiceOnly="false">
+      <resource name="DeviceId.Category">
+        <object>Laite</object>
+      </resource>
+      <resource name="DeviceId.DisplayName">
+        <object>Laitteen tunnus</object>
+      </resource>
+      <resource name="DeviceId.Description">
+        <object>Valitse laite, jonka arvoa valvotaan</object>
+      </resource>
+      <resource name="SchedulerConfig.Category">
+        <object>Aikataulutin</object>
+      </resource>
+      <resource name="SchedulerConfig.DisplayName">
+        <object>Konfig.</object>
+      </resource>
+      <resource name="SchedulerConfig.Description">
+        <object>Aseta arvot aikatauluttimeen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.Services.Monitor.QueryDatabaseValue.QueryDatabaseValueConfig" ServiceOnly="false">
+      <resource name="LimitConfig.Category">
+        <object>Konfiguroinnit</object>
+      </resource>
+      <resource name="LimitConfig.DisplayName">
+        <object>Rajat</object>
+      </resource>
+      <resource name="LimitConfig.Description">
+        <object>Konfiguroi hälytysrajat</object>
+      </resource>
+      <resource name="Query.Category">
+        <object>Konfiguroinnit</object>
+      </resource>
+      <resource name="Query.DisplayName">
+        <object>Kysely</object>
+      </resource>
+      <resource name="Query.Description">
+        <object>Tietokanta, johon kysely tehdään.</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

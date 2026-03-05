@@ -1,0 +1,1741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="is">
+  <industry>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.SystemSetup.WgmSystemView" ServiceOnly="false">
+      <resource name="paramTabPage.Text">
+        <object>Viktunarbrautir</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Kóði</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Nafn</object>
+      </resource>
+      <resource name="grpSystem.Text">
+        <object>Kerfisstillingar</object>
+      </resource>
+      <resource name="sysPrgLookUp.ToolTip">
+        <object>Kerfisforrit sem keyrir kerfið</object>
+      </resource>
+      <resource name="siteLookUp.ToolTip">
+        <object>Hús sem kerfið tilheyrir</object>
+      </resource>
+      <resource name="sysAppLookUp.ToolTip">
+        <object>Kerfishluti sem kerfið tilheyrir</object>
+      </resource>
+      <resource name="lblSysProgram.Text">
+        <object>Kerfisforrit:</object>
+      </resource>
+      <resource name="lblSite.Text">
+        <object>Hús:</object>
+      </resource>
+      <resource name="lblApplication.Text">
+        <object>Kerfishluti:</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Villa kom upp við vistun gagna!</object>
+      </resource>
+      <resource name="Err.CancelEdit">
+        <object>Villa kom upp við ógildingu!</object>
+      </resource>
+      <resource name="Err.NoObjectSelected">
+        <object>Ekkert valið!</object>
+      </resource>
+      <resource name="Err.NoObjectSelectedCaption">
+        <object>Upplýsingar</object>
+      </resource>
+      <resource name="Err.DeletingStationChildren">
+        <object>Villa við eyðingu færsla tengda stöðvum</object>
+      </resource>
+      <resource name="Err.DeletingStationData">
+        <object>Get ekki eytt stöð. Gögn tengd stöðinni.</object>
+      </resource>
+      <resource name="EqmLookup.Config">
+        <object>Uppsetning</object>
+      </resource>
+      <resource name="EqmLookup.Line">
+        <object>Lína</object>
+      </resource>
+      <resource name="EqmLookup.DeviceName">
+        <object>Nafn tækis</object>
+      </resource>
+      <resource name="EqmLookup.DeviceId">
+        <object>Auðkenni tækis</object>
+      </resource>
+    </type>
+    <type name="Grid.Wgm.System" ServiceOnly="false">
+      <resource name="id">
+        <object>Auðkenni</object>
+      </resource>
+      <resource name="active">
+        <object>Virkt</object>
+      </resource>
+      <resource name="name">
+        <object>Brautarnafn</object>
+      </resource>
+      <resource name="wgmsystem">
+        <object>Kerfi</object>
+      </resource>
+      <resource name="eqmdevice">
+        <object>EQM tæki</object>
+      </resource>
+      <resource name="tapdevice Name">
+        <object>TAP tæki</object>
+      </resource>
+      <resource name="tapdevice">
+        <object>TAP tæki kóði</object>
+      </resource>
+      <resource name="mws2device Name">
+        <object>MWS2 tæki</object>
+      </resource>
+      <resource name="mws2device">
+        <object>MWS2 tæki kóði</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.ManagementView" ServiceOnly="false">
+      <resource name="colLine.Caption">
+        <object>Lína</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Nafn á línu sem tæki er á</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Tæki</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Nafn á tæki</object>
+      </resource>
+      <resource name="colConnection.Caption">
+        <object>Tenging</object>
+      </resource>
+      <resource name="colConnection.ToolTip">
+        <object>Sýnir stöðu teningar fyrir tæki</object>
+      </resource>
+      <resource name="colPerformanceMon.Caption">
+        <object>Afköst</object>
+      </resource>
+      <resource name="colPerformanceMon.ToolTip">
+        <object>Frávik í prósetu milli raun SD á tómum hlekk og víðværri stillingu á SD fyrir tóman hlekk.</object>
+      </resource>
+      <resource name="colEmptyShackle.Caption">
+        <object>SD fyrir tóman hlekk (##)</object>
+      </resource>
+      <resource name="colEmptyShackle.ToolTip">
+        <object>Staðalfrávik (SD) á þyngd á öllum hlekkjum á línunni.</object>
+      </resource>
+      <resource name="colShackleMon.Caption">
+        <object>Staða á hlekk</object>
+      </resource>
+      <resource name="colShackleMon.ToolTip">
+        <object>Procenta á góðum hlekkjum á línunni.</object>
+      </resource>
+      <resource name="colActWeight.Caption">
+        <object>Raunþyngd (##)</object>
+      </resource>
+      <resource name="colActWeight.ToolTip">
+        <object>Raunþyngd á hlekk</object>
+      </resource>
+      <resource name="colLogging.Caption">
+        <object>Skráning</object>
+      </resource>
+      <resource name="colLogging.ToolTip">
+        <object>Segir til um  ef skráning er í gangi</object>
+      </resource>
+      <resource name="colLineRunning.Caption">
+        <object>Lína keyrir</object>
+      </resource>
+      <resource name="colLineRunning.ToolTip">
+        <object>Segir til um ef lína er í keyrslu</object>
+      </resource>
+      <resource name="barBtnRefresh.Caption">
+        <object>Endurnýja</object>
+      </resource>
+      <resource name="barBtnPerformanceTest.Caption">
+        <object>Prófun á afköstum</object>
+      </resource>
+      <resource name="barBtnMws2Management.Caption">
+        <object>MWS2 umsýsla</object>
+      </resource>
+      <resource name="colTrackName.Caption">
+        <object>Brautarnafn</object>
+      </resource>
+      <resource name="colTrackName.ToolTip">
+        <object>Sýnir brautarnafn eins og það er skilgreind í Innova</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Villa</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Sýnir síðustu innri villu á brautinni.</object>
+      </resource>
+      <resource name="barBtnRefresh.Hint">
+        <object>Endurnýjar skjá og gögn.</object>
+      </resource>
+      <resource name="barBtnMws2Management.Hint">
+        <object>Opnar skjá fyrir MWS2 umsýslu</object>
+      </resource>
+      <resource name="barBtnPerformanceTest.Hint">
+        <object>Opnar skjá fyrir prófun á afköstum.</object>
+      </resource>
+      <resource name="colTareShackleId.Caption">
+        <object>Auðkenni á hlekk</object>
+      </resource>
+      <resource name="colTareShackleId.ToolTip">
+        <object>Sýnir auðkenni á hlekknum</object>
+      </resource>
+      <resource name="colTareNetWeight.Caption">
+        <object>Nettóþyngd (##)</object>
+      </resource>
+      <resource name="colTareNetWeight.ToolTip">
+        <object>Sýnir nettóþyngd á töru</object>
+      </resource>
+      <resource name="colTareGrossWeight.Caption">
+        <object>Heildarþyngd (##)</object>
+      </resource>
+      <resource name="colTareGrossWeight.ToolTip">
+        <object>Sýnir heildarþyngd fyrir töru</object>
+      </resource>
+      <resource name="colTareGlobalTare.Caption">
+        <object>Heildar tara (##)</object>
+      </resource>
+      <resource name="colTareGlobalTare.ToolTip">
+        <object>Sýnir heildar eða víðværa töru</object>
+      </resource>
+      <resource name="colTareIndividualTare.Caption">
+        <object>Einstök tara (##)</object>
+      </resource>
+      <resource name="colTareIndividualTare.ToolTip">
+        <object>Sýnir einstaka töru</object>
+      </resource>
+      <resource name="colTareRejectHistoryString.Caption">
+        <object>Saga höfnunnar</object>
+      </resource>
+      <resource name="colTareRejectHistoryString.ToolTip">
+        <object>Sýnir sögu á höfnun á töru</object>
+      </resource>
+      <resource name="colTareRoundsLearned.Caption">
+        <object>Fjöldi lota lærð</object>
+      </resource>
+      <resource name="colTareRoundsLearned.ToolTip">
+        <object>Sýnir fjölda lota sem hafa verið lærð</object>
+      </resource>
+      <resource name="colBadShackleId.Caption">
+        <object>Auðkenni á hlekk</object>
+      </resource>
+      <resource name="colBadShackleId.ToolTip">
+        <object>Sýnir auðkenni á hlekknum</object>
+      </resource>
+      <resource name="colBadGrossWeight.Caption">
+        <object>Heildarþyngd (##)</object>
+      </resource>
+      <resource name="colBadGrossWeight.ToolTip">
+        <object>Sýnir heildarþyngd fyrir töru</object>
+      </resource>
+      <resource name="colBadNetWeight.Caption">
+        <object>Nettóþyngd (##)</object>
+      </resource>
+      <resource name="colBadNetWeight.ToolTip">
+        <object>Sýnir nettóþyngd á töru</object>
+      </resource>
+      <resource name="colBadGlobalTare.Caption">
+        <object>Heildar tara (##)</object>
+      </resource>
+      <resource name="colBadGlobalTare.ToolTip">
+        <object>Sýnir heildar eða víðværa töru</object>
+      </resource>
+      <resource name="colBadIndividualTare.Caption">
+        <object>Einstök tara (##)</object>
+      </resource>
+      <resource name="colBadIndividualTare.ToolTip">
+        <object>Sýnir einstaka töru</object>
+      </resource>
+      <resource name="colBadRejectionHistoryString.Caption">
+        <object>Saga höfnunnar</object>
+      </resource>
+      <resource name="colBadRejectionHistoryString.ToolTip">
+        <object>Sýnir sögu á höfnun á töru</object>
+      </resource>
+      <resource name="colBadRoundsLearned.Caption">
+        <object>Fjöldi lota lærð</object>
+      </resource>
+      <resource name="colBadRoundsLearned.ToolTip">
+        <object>Sýnir fjölda lota sem hafa verið lærð</object>
+      </resource>
+      <resource name="colLogShackleId.Caption">
+        <object>Auðkenni á hlekk</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>Sýnir auðkenni á hlekknum</object>
+      </resource>
+      <resource name="colLogRegTime.Caption">
+        <object>Skráningartími</object>
+      </resource>
+      <resource name="colLogRegTime.ToolTip">
+        <object>Tími þegar færslan var skráð í gagnagrunn</object>
+      </resource>
+      <resource name="colLogOldWeight.Caption">
+        <object>Fyrri þyngd (##)</object>
+      </resource>
+      <resource name="colLogOldWeight.ToolTip">
+        <object>Sýnir fyrri þyngd</object>
+      </resource>
+      <resource name="colLogWeight.Caption">
+        <object>Nettóþyngd (##)</object>
+      </resource>
+      <resource name="colLogWeight.ToolTip">
+        <object>Sýnir nettóþyngd á töru</object>
+      </resource>
+      <resource name="colLogGrossWeight.Caption">
+        <object>Heildarþyngd (##)</object>
+      </resource>
+      <resource name="colLogGrossWeight.ToolTip">
+        <object>Sýnir heildarþyngd fyrir töru</object>
+      </resource>
+      <resource name="colLogActualTare.ToolTip">
+        <object>Sýnir raunþyngd á töru</object>
+      </resource>
+      <resource name="colLogIndividualTare.Caption">
+        <object>Einstök tara (##)</object>
+      </resource>
+      <resource name="colLogIndividualTare.ToolTip">
+        <object>Sýnir einstaka töru</object>
+      </resource>
+      <resource name="colLogRoundsLearned.Caption">
+        <object>Fjöldi lota lærð</object>
+      </resource>
+      <resource name="colLogRoundsLearned.ToolTip">
+        <object>Sýnir fjölda lota sem hafa verið lærð</object>
+      </resource>
+      <resource name="colLogWeightQuality.Caption">
+        <object>Gæði þyngdar</object>
+      </resource>
+      <resource name="colLogWeightQuality.ToolTip">
+        <object>Sýnir gæði á þyngd</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Aðgerðir</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Endurnýja skjámynd</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Fá upphafsstillingar</object>
+      </resource>
+      <resource name="barBtnDesignMode.Caption">
+        <object>Hönnun</object>
+      </resource>
+      <resource name="barBtnRefreshTareGrid.Caption">
+        <object>Endurnýja</object>
+      </resource>
+      <resource name="barBtnRefreshTareGrid.Hint">
+        <object>Ná í tare gögn</object>
+      </resource>
+      <resource name="barBtnRefreshShackleGrid.Caption">
+        <object>Endurnýja</object>
+      </resource>
+      <resource name="barBtnRefreshShackleGrid.Hint">
+        <object>Ná í gögn fyrir bilaða hlekki</object>
+      </resource>
+      <resource name="barBtnResetShackle.Caption">
+        <object>Endursetja valda</object>
+      </resource>
+      <resource name="barBtnResetShackle.Hint">
+        <object>Endursetur valda hlekki</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.Caption">
+        <object>Endursetja alla</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.Hint">
+        <object>Endursetja alla hlekki</object>
+      </resource>
+      <resource name="cbLoggingHistory.Caption">
+        <object>Saga skráningar:</object>
+      </resource>
+      <resource name="loggingHistoryLookup.NullText">
+        <object>&lt;Veldu skráningu&gt;</object>
+      </resource>
+      <resource name="barBtnDeleteLogging.Caption">
+        <object>Eyða</object>
+      </resource>
+      <resource name="barBtnDeleteLogging.Hint">
+        <object>Eyða skráningu sem er valin</object>
+      </resource>
+      <resource name="edLoggingMinWeight.Caption">
+        <object>Lágmark (##):</object>
+      </resource>
+      <resource name="edLoggingMinWeight.Hint">
+        <object>Lágmark á þyngd til skráningar</object>
+      </resource>
+      <resource name="edLoggingMaxWeight.Caption">
+        <object>Hámark (##):</object>
+      </resource>
+      <resource name="edLoggingMaxWeight.Hint">
+        <object>Hámark á þyngd til skráningar</object>
+      </resource>
+      <resource name="edLoggingRatio.Caption">
+        <object>Hlutfall:</object>
+      </resource>
+      <resource name="edLoggingRatio.Hint">
+        <object>Skrá hvern N hlekk í stað að skrá hvern hlekk. (1 = skrá alla)</object>
+      </resource>
+      <resource name="edLoggingName.Caption">
+        <object>Nafn skráningar:</object>
+      </resource>
+      <resource name="LogButton.Stop">
+        <object>Stopp</object>
+      </resource>
+      <resource name="LogButton.Start">
+        <object>Hefja</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Engin tenging við þjón</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Tengivilla</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>Engin tenging við þjón</object>
+      </resource>
+      <resource name="ResetShackels.Failed">
+        <object>Gat ekki útfært aðgerð til að endurstilla hlekki</object>
+      </resource>
+      <resource name="ResetAllShackels.Failed">
+        <object>Gat ekki útfært aðgerð til að endurstilla alla hlekki.</object>
+      </resource>
+      <resource name="Logging.IllegalRange">
+        <object>Svið rangt skilgreind</object>
+      </resource>
+      <resource name="Logging.IllegalRangeCaption">
+        <object>Villa</object>
+      </resource>
+      <resource name="Logging.Failed">
+        <object>Gat ekki útfært skráningar aðgerð</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Viltu eyða skráningunni:\n{0}\núr gagnagrunni?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Eyða skráningu</object>
+      </resource>
+      <resource name="edLoggingName.Hint">
+        <object>Sláðu inn nafn á skráningu. Ef ekkert nafn er slegið inn þá er búið til nafn sjálfkrafa.</object>
+      </resource>
+      <resource name="tabTare.Text">
+        <object>Tara</object>
+      </resource>
+      <resource name="tabBadShackles.Text">
+        <object>Bilaðir hlekkir</object>
+      </resource>
+      <resource name="tabLogging.Text">
+        <object>Skráning</object>
+      </resource>
+      <resource name="staticWeight.Caption">
+        <object>Tóm þyngd (##)</object>
+      </resource>
+      <resource name="staticWeight.ToolTip">
+        <object>Þyngd á tómum hlekk</object>
+      </resource>
+      <resource name="tabStaticWeight.Text">
+        <object>Tóm þyngd</object>
+      </resource>
+      <resource name="cbLoggingHistory.Hint">
+        <object>Listi af skráningum til að skoða</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Vista</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Vistar valda skráningu í skrá</object>
+      </resource>
+      <resource name="barBtnStartStopLogging.Caption">
+        <object>Hefja</object>
+      </resource>
+      <resource name="barBtnStartStopLogging.Hint">
+        <object>Smella til að byrja skráningu</object>
+      </resource>
+      <resource name="barSubOperations.Hint">
+        <object>Kerfisaðgerðir</object>
+      </resource>
+      <resource name="barBtnSaveTareGrid.Caption">
+        <object>Vista</object>
+      </resource>
+      <resource name="barBtnSaveTareGrid.Hint">
+        <object>Vistar innihaldið á Tare töflu í skrá</object>
+      </resource>
+      <resource name="barBtnSaveBadShackleGrid.Caption">
+        <object>Vista</object>
+      </resource>
+      <resource name="barBtnSaveBadShackleGrid.Hint">
+        <object>Vistar innihaldið á Bad Shackle töflu í skrá</object>
+      </resource>
+      <resource name="ResetShackle.Confirm">
+        <object>Valdir hlekkir verða endursettir.\nViltu halda áfram?</object>
+      </resource>
+      <resource name="ResetShackle.Title">
+        <object>Endursetja valda hlekki</object>
+      </resource>
+      <resource name="ResetAllShackle.Confirm">
+        <object>Allir hlekkir verða endursettir.\nViltu halda áfram?</object>
+      </resource>
+      <resource name="ResetAllShackle.Title">
+        <object>Endursejta alla hlekki</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Endurhleður alla UI hluti</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Fá upphafsstillingar á alla UI hluti</object>
+      </resource>
+      <resource name="WgmStationNotPresent">
+        <object />
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Settings.TapSettings" ServiceOnly="false">
+      <resource name="colStatus.Caption">
+        <object>Staða</object>
+      </resource>
+      <resource name="colStatus.ToolTip">
+        <object>Sýnir stöðuna á stillingum</object>
+      </resource>
+      <resource name="colTrack.Caption">
+        <object>Brautarnafn</object>
+      </resource>
+      <resource name="colTrack.ToolTip">
+        <object>Nafn á braut sem keyrir þessa línu</object>
+      </resource>
+      <resource name="colDownloadDate.Caption">
+        <object>Send á</object>
+      </resource>
+      <resource name="colDownloadDate.ToolTip">
+        <object>Dagsetning þegar stillingum var hlaðið niður síðast</object>
+      </resource>
+      <resource name="colTareBackup.Caption">
+        <object>Afrit á Tare gögnum</object>
+      </resource>
+      <resource name="colTareBackup.ToolTip">
+        <object>Dagsetning þegar Tare gögn voru afrituð síðast.</object>
+      </resource>
+      <resource name="tabSource.Text">
+        <object>Uppspretta</object>
+      </resource>
+      <resource name="tabDetection.Text">
+        <object>Skynjun á afurð</object>
+      </resource>
+      <resource name="tabHandling.Text">
+        <object>Meðferð á afurð</object>
+      </resource>
+      <resource name="tabAlarms.Text">
+        <object>Villuboð</object>
+      </resource>
+      <resource name="tabTare.Text">
+        <object>Tara</object>
+      </resource>
+      <resource name="tabLogging.Text">
+        <object>Skráningar</object>
+      </resource>
+      <resource name="grpWeighingSource.Text">
+        <object>Viktanir frá</object>
+      </resource>
+      <resource name="grpCommunication.Text">
+        <object>MWS2 samskipti</object>
+      </resource>
+      <resource name="weighingSource.PrevWeight">
+        <object>Fyrri viktun</object>
+      </resource>
+      <resource name="weighingSource.LoadCell">
+        <object>Hleðslusella</object>
+      </resource>
+      <resource name="chkWholeProdWeigher.Text">
+        <object>Viktun á heilli afurð</object>
+      </resource>
+      <resource name="lblIpAddress.Text">
+        <object>Netfang</object>
+      </resource>
+      <resource name="lblPortNo.Text">
+        <object>Hlið</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Tæki</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Sýnir nafn á tæki sem stillingarnar eru fyrir.</object>
+      </resource>
+      <resource name="grpClearProduct.Text">
+        <object>Hreinsa aðurð</object>
+      </resource>
+      <resource name="grpAddProduct.Text">
+        <object>Bæta við afurð</object>
+      </resource>
+      <resource name="lblClearProdNoOfShackles.Text">
+        <object>Fjöldi hlekkja eftir det/pp villuboð</object>
+      </resource>
+      <resource name="chkClearProdAllow.Text">
+        <object>Leyfa hreinsun á afurð</object>
+      </resource>
+      <resource name="chkClearProdDisable.Text">
+        <object>Gera óvirkt hreinsun á afurð efitr villuboð</object>
+      </resource>
+      <resource name="lblAddProdNoOfShackles.Text">
+        <object>Fjöldi hlekkja eftir det/pp villuboð</object>
+      </resource>
+      <resource name="chkAddProdAllow.Text">
+        <object>Leyfa úthlutun á afurð</object>
+      </resource>
+      <resource name="chkAddProdDisable.Text">
+        <object>Gera óvirka úthlutun á afurð eftir villuboð</object>
+      </resource>
+      <resource name="lblAddProdWeight.Text">
+        <object>Þyngd</object>
+      </resource>
+      <resource name="lblAddProdQuality.Text">
+        <object>Gæði</object>
+      </resource>
+      <resource name="lblAddProdArticle.Text">
+        <object>Kóði hlutar</object>
+      </resource>
+      <resource name="grpWeightParam.Text">
+        <object>Viktunar breytur</object>
+      </resource>
+      <resource name="grpTreatment.Text">
+        <object>Meðferð</object>
+      </resource>
+      <resource name="grpGiblet.Text">
+        <object>Innmatur</object>
+      </resource>
+      <resource name="lblPHMinProductWeight.Text">
+        <object>Lágmarks vigt afurðuar</object>
+      </resource>
+      <resource name="lblPHOffset.Text">
+        <object>Viðbót (offset)</object>
+      </resource>
+      <resource name="lblPHCorrFactor.Text">
+        <object>Leiðréttingarstuðull</object>
+      </resource>
+      <resource name="chkPHDisplace.Text">
+        <object>Afurð sem hefur losnað</object>
+      </resource>
+      <resource name="lblPHDisplaceShackles.Text">
+        <object>Hlekkir sem hafa losnað</object>
+      </resource>
+      <resource name="chkUseGiblet.Text">
+        <object>Nota innmat</object>
+      </resource>
+      <resource name="lblGibletWeight.Text">
+        <object>Þyngd innmatar</object>
+      </resource>
+      <resource name="lblAddGiblet.Text">
+        <object>Viðbætur á innmat fyrir kóða hlutar</object>
+      </resource>
+      <resource name="treatment.Left">
+        <object>Vinstri</object>
+      </resource>
+      <resource name="treatment.Right">
+        <object>Hægri</object>
+      </resource>
+      <resource name="treatment.Whole">
+        <object>Heill</object>
+      </resource>
+      <resource name="grpEfficency.Text">
+        <object>Afköst</object>
+      </resource>
+      <resource name="grpGeneral.Text">
+        <object>Almennt</object>
+      </resource>
+      <resource name="chkUseOvershootAlarms.Text">
+        <object>Nota villuboð fyrir yfirskot</object>
+      </resource>
+      <resource name="lblOvershotLimit.Text">
+        <object>Mörk yfirskots í prósentu</object>
+      </resource>
+      <resource name="lblNoOvershootsAllowed.Text">
+        <object>Fjöldi yfirskota leyfð í sögu áður en villuboð eru send</object>
+      </resource>
+      <resource name="chkUseBarOutsideAlarm.Text">
+        <object>Nota stiku fyrir utan mörk villuboða</object>
+      </resource>
+      <resource name="lblNoBarsForHistory.Text">
+        <object>Fjölda stika fyrir sögu</object>
+      </resource>
+      <resource name="lblNoBarsOutsideRange.Text">
+        <object>Fjöldi stika sem eru fyrir utan mörk áður en villuboð eru send.</object>
+      </resource>
+      <resource name="chkUseProdEfficiency.Text">
+        <object>Nota afköst afurða fyrir utan mörk villuboða</object>
+      </resource>
+      <resource name="lblProdEffOutsideLimit.Text">
+        <object>Afköst afurða fyrir utan mörk</object>
+      </resource>
+      <resource name="lblProdEffOutsideLimitHysteresis.Text">
+        <object>Afköst afurða fyrir utan sögumörk</object>
+      </resource>
+      <resource name="lblProdEffYellow.Text">
+        <object>Afköst afurða í gulri bandbreidd</object>
+      </resource>
+      <resource name="chkSuppressAlarm.Text">
+        <object>Stöðva villuboð þegar hraði línu er óstöðugur</object>
+      </resource>
+      <resource name="grpTare.Text">
+        <object>Tara</object>
+      </resource>
+      <resource name="uTareBackupInterval.Text">
+        <object>mín</object>
+      </resource>
+      <resource name="grpLogSettings.Text">
+        <object>Stillingar á skárningu</object>
+      </resource>
+      <resource name="chkOutputWeightData.Text">
+        <object>Viktunargögn</object>
+      </resource>
+      <resource name="barBtnRefresh.Caption">
+        <object>Endurnýja</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Staðfesta</object>
+      </resource>
+      <resource name="barSubOpertions.Caption">
+        <object>Aðgerðir</object>
+      </resource>
+      <resource name="barBtnSend.Caption">
+        <object>Senda</object>
+      </resource>
+      <resource name="barBtnTareBackup.Caption">
+        <object>Taka afrið af Tara gögnum</object>
+      </resource>
+      <resource name="barBtnTareRestore.Caption">
+        <object>Senda Tara gögn á tæki</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Endurnýja skjámynd</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Fá upphafsstillingar</object>
+      </resource>
+      <resource name="Hint.NotInDevice">
+        <object>Stillingar ekki í TAP</object>
+      </resource>
+      <resource name="Hint.InDevice">
+        <object>Stilling í TAP</object>
+      </resource>
+      <resource name="Hint.Different">
+        <object>Stillingar í TAP og Innova eru mismundandi</object>
+      </resource>
+      <resource name="Hint.NoInfo">
+        <object>Get ekki fengið upplýsingar</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Viltu vista stillingarnar?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Vista stillingar</object>
+      </resource>
+      <resource name="Send.Title">
+        <object>Senda stillingar</object>
+      </resource>
+      <resource name="Send.Failed">
+        <object>Villa við sendingu á stillingum</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>Engin tenging við þjón</object>
+      </resource>
+      <resource name="SendError.Caption">
+        <object>Villa í sendingu</object>
+      </resource>
+      <resource name="TareBackup.Failed">
+        <object>Villa við beiðni um að taka afrit á töru gögnum</object>
+      </resource>
+      <resource name="TareRestore.Failed">
+        <object>Villa við beiðni um að senda töru gögn á tæki</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Villa</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Sýnir síðustu villuboð</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Engin tenging við þjón</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Tengivilla</object>
+      </resource>
+      <resource name="TareAutoBackup.Failed">
+        <object>Villa við uppfærslu á stillingum fyrir afritun</object>
+      </resource>
+      <resource name="TareBackup.Busy">
+        <object>Afritun í gangi</object>
+      </resource>
+      <resource name="TareRestore.Busy">
+        <object>Niðurskrif í gangi</object>
+      </resource>
+      <resource name="colTareRestore.Caption">
+        <object>Endurskrifa Tare gögn</object>
+      </resource>
+      <resource name="colTareRestore.ToolTip">
+        <object>Dagsetning þegar Tare gögn voru endurskrifuð síðast.</object>
+      </resource>
+      <resource name="uAddProdWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uPHMinProductWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uPHOffset.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uGibletWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uTareRejection.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uEmptyShackleWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uGlobalTareActualPlus.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uAlarmThresholdShacklesInRound.Text">
+        <object>%</object>
+      </resource>
+      <resource name="uAlarmThresholdIndShackle.Text">
+        <object>%</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Lína</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Sýnir nafn línu eins og það er skilgreind í Top kerfinu.</object>
+      </resource>
+      <resource name="uEmptyShackleSD.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uLoadCellWeightUnit.Text">
+        <object>Kg</object>
+      </resource>
+      <resource name="barBtnTareLoad.Caption">
+        <object>Hlaða inn töru gögn</object>
+      </resource>
+      <resource name="barBtnTareLoad.Hint">
+        <object>Hlaða inn vistuð töru gögn frá skrá sem á að endurskrifa í tæki</object>
+      </resource>
+      <resource name="barBtnTareSave.Caption">
+        <object>Vista töru gögn</object>
+      </resource>
+      <resource name="barBtnTareSave.Hint">
+        <object>Vista afrit af töru gögnum í skrá</object>
+      </resource>
+      <resource name="uBadShackleListThreshold.Text">
+        <object>%</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.TapPerformanceTest" ServiceOnly="false">
+      <resource name="colLogShackleId.Caption">
+        <object>Hlekkur</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>Sýnir auðkenni á hlekknum</object>
+      </resource>
+      <resource name="colLogRegTime.Caption">
+        <object>Skráningartími</object>
+      </resource>
+      <resource name="colLogRegTime.ToolTip">
+        <object>Tími þegar færslan var skráð í gagnagrunn</object>
+      </resource>
+      <resource name="colLogOldWeight.Caption">
+        <object>Fyrri þyngd (##)</object>
+      </resource>
+      <resource name="colLogOldWeight.ToolTip">
+        <object>Sýnir fyrri þyngd</object>
+      </resource>
+      <resource name="colLogWeight.Caption">
+        <object>Nettóþyngd (##)</object>
+      </resource>
+      <resource name="colLogWeight.ToolTip">
+        <object>Sýnir nettóþyngd á töru</object>
+      </resource>
+      <resource name="colLogGrossWeight.Caption">
+        <object>Heildarþyngd (##)</object>
+      </resource>
+      <resource name="colLogGrossWeight.ToolTip">
+        <object>Sýnir heildarþyngd fyrir töru</object>
+      </resource>
+      <resource name="colLogActualTare.Caption">
+        <object>Raunþyngd (##)</object>
+      </resource>
+      <resource name="colLogActualTare.ToolTip">
+        <object>Sýnir raunþyngd á töru</object>
+      </resource>
+      <resource name="colLogIndividualTare.Caption">
+        <object>Einstök tara (##)</object>
+      </resource>
+      <resource name="colLogIndividualTare.ToolTip">
+        <object>Sýnir einstaka töru</object>
+      </resource>
+      <resource name="colLogRoundsLearned.Caption">
+        <object>Fjöldi lota lærð</object>
+      </resource>
+      <resource name="colLogRoundsLearned.ToolTip">
+        <object>Sýnir fjölda lota sem hafa verið lærð</object>
+      </resource>
+      <resource name="colLogWeightQuality.Caption">
+        <object>Gæði þyngdar</object>
+      </resource>
+      <resource name="colLogWeightQuality.ToolTip">
+        <object>Sýnir gæði á þyngd</object>
+      </resource>
+      <resource name="grpWeighers.Text">
+        <object>Vogir</object>
+      </resource>
+      <resource name="grpLoggingHistory.Text">
+        <object>Saga skráningar</object>
+      </resource>
+      <resource name="grpTestState.Text">
+        <object>Staða prófunar</object>
+      </resource>
+      <resource name="grpTestProperties.Text">
+        <object>Prófunarbreytur</object>
+      </resource>
+      <resource name="btnDelLog.ToolTip">
+        <object>Eyða skráningu sem er valin</object>
+      </resource>
+      <resource name="lblMinWeight.Text">
+        <object>Lágmarksþyngd</object>
+      </resource>
+      <resource name="uMinWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblMaxWeight.Text">
+        <object>Hámarksþyngd</object>
+      </resource>
+      <resource name="uMaxWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblLogName.Text">
+        <object>Nafn skráningar</object>
+      </resource>
+      <resource name="startStopButton.Text">
+        <object>Ræsa</object>
+      </resource>
+      <resource name="WeigherLookup.Name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="TestError.ParamFailed">
+        <object>Gat ekki ræst prófun. Athugið prófunarbreytur.</object>
+      </resource>
+      <resource name="TestError.FailedToStart">
+        <object>Gat ekki ræst prófun.</object>
+      </resource>
+      <resource name="TestError.NoServer">
+        <object>Gat ekki ræst prófun, engin tenging við þjón.</object>
+      </resource>
+      <resource name="TestError.Error">
+        <object>Villa</object>
+      </resource>
+      <resource name="TestError.FailedToStop">
+        <object>Gat ekki stoppað prófun.</object>
+      </resource>
+      <resource name="TestButton.Start">
+        <object>Ræsa</object>
+      </resource>
+      <resource name="TestButton.Stop">
+        <object>Stoppa</object>
+      </resource>
+      <resource name="Test.Finished">
+        <object>Prófun lokið.</object>
+      </resource>
+      <resource name="Test.Running">
+        <object>Prófun í keyrslu.</object>
+      </resource>
+      <resource name="Test.Stopped">
+        <object>Prófun stoppuð.</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Viltu eyða skráningunni:\n{0}\núr gagnagrunni?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Eyða skráningu</object>
+      </resource>
+      <resource name="TapPerformanceTest.Text">
+        <object>Afkastaprófanir fyrir TAP</object>
+      </resource>
+      <resource name="Test.Info">
+        <object>Stillið breytur fyrir prófun og smellið á ræsa til að byrja prófun</object>
+      </resource>
+      <resource name="weigherList.ToolTip">
+        <object>Veldu vog til að prófa</object>
+      </resource>
+      <resource name="loggingHistoryList.ToolTip">
+        <object>Veldu skráningu til að skoða</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Vistar valda skráningu í skrá</object>
+      </resource>
+      <resource name="grpResultGrid.Text">
+        <object>Niðurstöður</object>
+      </resource>
+      <resource name="edNoOfBirds.ToolTip">
+        <object>Skilgreinir hversu marga fugla á að droppa</object>
+      </resource>
+      <resource name="edDropsPerMin.ToolTip">
+        <object>Skilgreina fjöldi fugla sem er droppað á mínútu</object>
+      </resource>
+      <resource name="edMinWeight.ToolTip">
+        <object>Lágmarksþyngd á fugli sem verður droppað</object>
+      </resource>
+      <resource name="edMaxWeight.ToolTip">
+        <object>Hámarksþyngd á fugli sem verður droppað</object>
+      </resource>
+      <resource name="edLogName.ToolTip">
+        <object>Nafn á skráningu sem tilheyrir prófun sem er að fara í gang</object>
+      </resource>
+      <resource name="startStopButton.ToolTip">
+        <object>Til að byrja prófun eða hætta ef prófun er í gangi</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Loka</object>
+      </resource>
+      <resource name="btnClose.ToolTip">
+        <object>Lokar glugganum</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Settings.Mws2Settings" ServiceOnly="false">
+      <resource name="barBtnRefresh.Caption">
+        <object>Endurnýja</object>
+      </resource>
+      <resource name="barBtnRefresh.Hint">
+        <object>Endurlesa uppsetning og gögn frá tæki</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Staðfest</object>
+      </resource>
+      <resource name="barBtnConfirm.Hint">
+        <object>Vista gildi í gagnagrunn</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Aðgerðir</object>
+      </resource>
+      <resource name="barSubOperations.Hint">
+        <object>Aukaaðgerðir</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Endurnýja skjámynd</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Endurhleður skjástillingum</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Fá upphafsstillingar</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Setja upphafsstilling á UI hluti</object>
+      </resource>
+      <resource name="barBtnSend.Caption">
+        <object>Senda</object>
+      </resource>
+      <resource name="barBtnSend.Hint">
+        <object>Senda stillingar á valið tæki</object>
+      </resource>
+      <resource name="tabProperties.Text">
+        <object>Gögn</object>
+      </resource>
+      <resource name="barBtnLoad.Caption">
+        <object>Hlaða inn frá skrá</object>
+      </resource>
+      <resource name="barBtnLoad.Hint">
+        <object>Ná í gögn frá skrá</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Vista í skrá</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Vista gögnin í skrá</object>
+      </resource>
+      <resource name="barBtnGetSettings.Caption">
+        <object>Ná í stillingar</object>
+      </resource>
+      <resource name="barBtnGetSettings.Hint">
+        <object>Ná í stillingar frá völdu tæki</object>
+      </resource>
+      <resource name="colStatus.Caption">
+        <object>Staða</object>
+      </resource>
+      <resource name="colStatus.Hint">
+        <object>Sýnir stöðuna á stillingum</object>
+      </resource>
+      <resource name="colTrack.Caption">
+        <object>Brautarnafn</object>
+      </resource>
+      <resource name="colTrack.ToolTip">
+        <object>Nafn á braut sem keyrir þessa línu</object>
+      </resource>
+      <resource name="colDownloadDate.Caption">
+        <object>Send á</object>
+      </resource>
+      <resource name="colDownloadDate.ToolTip">
+        <object>Dagsetning þegar stillingum var hlaðið niður síðast</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Villa</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Sýnir síðustu villuboð</object>
+      </resource>
+      <resource name="colPropRegister.Caption">
+        <object>Sæti</object>
+      </resource>
+      <resource name="colPropRegister.ToolTip">
+        <object>Sýnir sætis tölu</object>
+      </resource>
+      <resource name="colPropDescription.Caption">
+        <object>Lýsing</object>
+      </resource>
+      <resource name="colPropDescription.ToolTip">
+        <object>Lýsing á sæti</object>
+      </resource>
+      <resource name="colPropFlags.Caption">
+        <object>Flögg</object>
+      </resource>
+      <resource name="colPropFlags.ToolTip">
+        <object>Flögg sætis</object>
+      </resource>
+      <resource name="colPropChangeable.Caption">
+        <object>Breytilegt</object>
+      </resource>
+      <resource name="colPropChangeable.ToolTip">
+        <object>Er hægt að breyta gildi</object>
+      </resource>
+      <resource name="colPropContent.Caption">
+        <object>Innihald</object>
+      </resource>
+      <resource name="colPropContent.ToolTip">
+        <object>Sýnir innihald sætis í tækinu</object>
+      </resource>
+      <resource name="colPropContentDb.Caption">
+        <object>Innihald í grunni</object>
+      </resource>
+      <resource name="colPropContentDb.ToolTip">
+        <object>Sýnir innihald sætis eins og það er skráð í gagnagrunni</object>
+      </resource>
+      <resource name="Info.Refresh.Text">
+        <object>Er að ná í gögn frá MWS2 tæki.\nVinsamlegast bíðið!</object>
+      </resource>
+      <resource name="Info.Refresh">
+        <object>Ná í gögn</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Viltu vista gögnin?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Vista gögn</object>
+      </resource>
+      <resource name="Hint.NotInDevice">
+        <object>Stillingar ekki í MWS2</object>
+      </resource>
+      <resource name="Hint.InDevice">
+        <object>Stilling í MWS2</object>
+      </resource>
+      <resource name="Hint.Different">
+        <object>Stillingar í MWS2 og Innova eru mismundandi</object>
+      </resource>
+      <resource name="Hint.NoInfo">
+        <object>Get ekki fengið upplýsingar</object>
+      </resource>
+      <resource name="Load.Text">
+        <object>Það verður skrifað yfir gögn í griddi og í gagnagrunni.\nViltu halda áfram?</object>
+      </resource>
+      <resource name="Load.Caption">
+        <object>Sækja stillingar</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Engin tenging við netþjón.</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Villi í fjartengingu</object>
+      </resource>
+      <resource name="LoadResult.Text">
+        <object>Villa við lestur gagna</object>
+      </resource>
+      <resource name="LoadResult.Caption">
+        <object>Engin gögn hlaðið inn</object>
+      </resource>
+      <resource name="Send.Info">
+        <object>Sendi gögn í MWS2 tæki.\nVinsamlegast bíðið!</object>
+      </resource>
+      <resource name="Send.Confirm">
+        <object>Viltu senda gögn á valið tæki?</object>
+      </resource>
+      <resource name="Send.Title">
+        <object>Sendi gögn</object>
+      </resource>
+      <resource name="LoadDialog.Title">
+        <object>Velja skrá...</object>
+      </resource>
+      <resource name="LoadDialog.Failed">
+        <object>Villa við lestur á gögnum frá skrá.</object>
+      </resource>
+      <resource name="SaveDialog.Info">
+        <object>Vista verður gögn áður en þau eru skrifuð í skrá.</object>
+      </resource>
+      <resource name="SaveDialog.NoData">
+        <object>Engin gögn til að skrifa í skrá.</object>
+      </resource>
+      <resource name="SaveDialog.NoData.Caption">
+        <object>Engin gögn</object>
+      </resource>
+      <resource name="SaveDialog.Failed">
+        <object>Villa við skrif á gögnum í skrá.</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Tæki</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Sýnir nafn á tæki sem stillingarnar eru fyrir.</object>
+      </resource>
+      <resource name="SaveDialog.Title">
+        <object>Vista sem</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Lína</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Sýnir nafn línu eins og það er skilgreind í Top kerfinu.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Mws2Management" ServiceOnly="false">
+      <resource name="btnClose.Text">
+        <object>Loka</object>
+      </resource>
+      <resource name="grpSelectWeigher.Text">
+        <object>Vogir</object>
+      </resource>
+      <resource name="WeigherLookup.Name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="Text">
+        <object>MWS2 umsýsla</object>
+      </resource>
+      <resource name="weigherList.ToolTip">
+        <object>Veldu vog til sýsla með</object>
+      </resource>
+      <resource name="btnClose.ToolTip">
+        <object>Loka glugganum</object>
+      </resource>
+      <resource name="grpMessage.Text">
+        <object>Skilaboð</object>
+      </resource>
+      <resource name="tabPageCalibration.Text">
+        <object>Stilling</object>
+      </resource>
+      <resource name="tabPageCurve.Text">
+        <object>Kúrfa</object>
+      </resource>
+      <resource name="tabPageScope.Text">
+        <object>Línurit</object>
+      </resource>
+      <resource name="tabPageLogging.Text">
+        <object>Skráning</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Calibration" ServiceOnly="false">
+      <resource name="lblStopped.Text">
+        <object>Stopp</object>
+      </resource>
+      <resource name="lblEmptyWeight.Text">
+        <object>Tóm þyngd</object>
+      </resource>
+      <resource name="lblCalibrationWeight.Text">
+        <object>Stillingarþyngd</object>
+      </resource>
+      <resource name="lblCalibrationOk.Text">
+        <object>Stilling í lagi</object>
+      </resource>
+      <resource name="lblDone.Text">
+        <object>Lokið</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Hætta</object>
+      </resource>
+      <resource name="RemoteError">
+        <object>Villa kom upp í stillingarferlinu. Sjá villuboð í kerfisskráningu.</object>
+      </resource>
+      <resource name="curWeightInfo.ToolTip">
+        <object>Þyngd sem er sýnd getur verið röng þar til stilling hefur verið framkvæmd.</object>
+      </resource>
+      <resource name="Status.DataReloading">
+        <object>Hlaða inn stillingar frá vog...</object>
+      </resource>
+      <resource name="Status.DataProcessing">
+        <object>Úrvinnsla gagna fyrir vog...</object>
+      </resource>
+      <resource name="BtnNext.StartCalibration">
+        <object>Hefja stillingu</object>
+      </resource>
+      <resource name="BtnNext.RestartCalibration">
+        <object>Endurræsa</object>
+      </resource>
+      <resource name="BtnNext.ConfirmCalibration">
+        <object>Staðfesta</object>
+      </resource>
+      <resource name="Action.Start">
+        <object>Til að byrja stillingarferlið, sláið inn stillingarþyngd og smellið á hnappinn "Hefja stillingu".</object>
+      </resource>
+      <resource name="Action.Restart">
+        <object>Til að endurræsa stillingarferlið, sláið inn stillingarþyngd og smellið á hnappinn "Endurræsa".</object>
+      </resource>
+      <resource name="Action.WaitEmptyWeight">
+        <object>Gangið úr skugga um að engin þyng sé á voginni og smellið á hnappinn "Næsta skref".</object>
+      </resource>
+      <resource name="Action.WaitCalibrationWeight">
+        <object>Setjið stillingarþyngd á vogina og smellið á "Næsta skref".</object>
+      </resource>
+      <resource name="Action.WaitConfirmation">
+        <object>Smellið á hnappinn"Staðfesta" til að vista nýju stillinguna.</object>
+      </resource>
+      <resource name="Calibration.StartError">
+        <object>Vinsamlegast sláið inn gilda stillingarþyngd.</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Uppsetning</object>
+      </resource>
+      <resource name="grpAction.Text">
+        <object>Aðgerð</object>
+      </resource>
+      <resource name="grpCalibration.Text">
+        <object>Stillingaferill</object>
+      </resource>
+      <resource name="btnPrevStep.Text">
+        <object>Fyrra skref</object>
+      </resource>
+      <resource name="btnPrevStep.ToolTip">
+        <object>Fara eitt skref til baka í ferlinu</object>
+      </resource>
+      <resource name="btnNextStep.Text">
+        <object>Næsta skref</object>
+      </resource>
+      <resource name="btnCancel.ToolTip">
+        <object>Hætta stillingarferlinu</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Stillingarþyngd:</object>
+      </resource>
+      <resource name="edWeight.ToolTip">
+        <object>Skilgreina stillingarþyngd</object>
+      </resource>
+      <resource name="uWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblCurrentWeight.Text">
+        <object>Núverandi þyngd:</object>
+      </resource>
+      <resource name="uCurrentWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="btnNextStep.ToolTip">
+        <object>Fara eitt skerf áfram í ferlinu</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Scope" ServiceOnly="false">
+      <resource name="Error.ScopeDataCollection">
+        <object>Villa kom upp við sókn gagna fyrir línurit. Vinsamlegast athugið tengingar við tæki.</object>
+      </resource>
+      <resource name="RetrievingScopeData">
+        <object>Sæki gögn fyrir línurit. Vinsamlegast bíðið.</object>
+      </resource>
+      <resource name="btnRefresh.Text">
+        <object>Endurnýja</object>
+      </resource>
+      <resource name="btnSettings.Text">
+        <object>Stillingar</object>
+      </resource>
+      <resource name="Chart.Shackle.Text">
+        <object>Hlekkur:</object>
+      </resource>
+      <resource name="Chart.AxisX.Text">
+        <object>Tími (ms)</object>
+      </resource>
+      <resource name="Chart.AxisY.Text">
+        <object>Þyngd (##)</object>
+      </resource>
+      <resource name="Error.Chart.Binding">
+        <object>Villa kom upp við úrvinnslu gagna</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Avg">
+        <object>Meðal:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.PP">
+        <object>PP:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Time">
+        <object>Tími:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Info">
+        <object>Uppl.:</object>
+      </resource>
+      <resource name="EmpyScopeData">
+        <object>Engin gögn fyrir línurit</object>
+      </resource>
+      <resource name="FileDlg.Files">
+        <object>skrár</object>
+      </resource>
+      <resource name="FileDlg.Title">
+        <object>Veldu staðsetningu til að vista mynd</object>
+      </resource>
+      <resource name="btnRefresh.ToolTIp">
+        <object>Sækja nýja mynd</object>
+      </resource>
+      <resource name="btnSettings.ToolTip">
+        <object>Opnar stillingar fyrir línurit</object>
+      </resource>
+      <resource name="btnSave.Text">
+        <object>Vista</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Vistar línuriti í skrá</object>
+      </resource>
+      <resource name="selLog.ToolTip">
+        <object>Veldur skráningu til að sýna sem línurit</object>
+      </resource>
+      <resource name="selLog.NullText">
+        <object>&lt;Veldu skráningu&gt;</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.ScopeSettingDialog" ServiceOnly="false">
+      <resource name="uVertMin.Text">
+        <object>##</object>
+      </resource>
+      <resource name="uVertMax.Text">
+        <object>##</object>
+      </resource>
+      <resource name="grpTiming.Text">
+        <object>Stillingar á tímamælingu</object>
+      </resource>
+      <resource name="lblScopeWindow.Text">
+        <object>Lengd úrtaks</object>
+      </resource>
+      <resource name="chkSyncScope.Text">
+        <object>Samstilla línurit</object>
+      </resource>
+      <resource name="lblPresampleTime.Text">
+        <object>Tími fyrir mælingu</object>
+      </resource>
+      <resource name="grpFixedWindows.Text">
+        <object>Stillingar á glugga</object>
+      </resource>
+      <resource name="chkUseFixedWindow.Text">
+        <object>Nota fastann glugga</object>
+      </resource>
+      <resource name="lblVertMin.Text">
+        <object>lágmark á lóðréttum ás</object>
+      </resource>
+      <resource name="lblVertMax.Text">
+        <object>Hámark á lóðréttum ás</object>
+      </resource>
+      <resource name="grpLogging.Text">
+        <object>Skráningar</object>
+      </resource>
+      <resource name="chkUseLogging.Text">
+        <object>Skrá gögn fyrir línurit</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>Í lagi</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Hætta við</object>
+      </resource>
+      <resource name="edScopeWindow.ToolTip">
+        <object>Tímabil sem línurit á að ná yfir</object>
+      </resource>
+      <resource name="chkSyncScope.ToolTip">
+        <object>Ef valið þá er skráður tími fyrir fyrsta púls, annars hefst skráning um leið og aðgerð er ræst.</object>
+      </resource>
+      <resource name="edPresampleTime.ToolTip">
+        <object>Tími í millisekúndum sem á að sýna fyrir fyrsta púls</object>
+      </resource>
+      <resource name="chkUseFixedWindow.ToolTip">
+        <object>Velja til að takmarka svið á lóðrétta ásnum</object>
+      </resource>
+      <resource name="edVertMin.ToolTip">
+        <object>Lágmarksgildi fyrir lóðrétta ásinn</object>
+      </resource>
+      <resource name="edVertMax.ToolTip">
+        <object>Hámarksgildi fyrir lóðrétta ásinn</object>
+      </resource>
+      <resource name="chkUseLogging.ToolTip">
+        <object>Velja til að skrá gagnapunkta í línuriti í gagnagrunn</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Logging" ServiceOnly="false">
+      <resource name="LoggingLookup.Name">
+        <object>Nafn</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Viltu eyða skráningunni:\n{0}\núr gagnagrunni?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Eyða skráningu</object>
+      </resource>
+      <resource name="grpSelectLog.Text">
+        <object>Saga skráningar</object>
+      </resource>
+      <resource name="btnDelete.Text">
+        <object>Eyða</object>
+      </resource>
+      <resource name="colLogTime.Caption">
+        <object>Tími (ms)</object>
+      </resource>
+      <resource name="colLogShackleId.Caption">
+        <object>Auðkenni á hlekk</object>
+      </resource>
+      <resource name="btnSave.Text">
+        <object>Vista</object>
+      </resource>
+      <resource name="selLog.ToolTip">
+        <object>Veldu skráningu til að skoða</object>
+      </resource>
+      <resource name="btnDelete.ToolTip">
+        <object>Eyða skráningu sem er valin</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Vistar valda skráningu í skrá</object>
+      </resource>
+      <resource name="colLogLoadCellWeight.ToolTip">
+        <object>Þyngd á hleðslusellu</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>Auðkenni á hlekk sem var þyngdarmældur</object>
+      </resource>
+      <resource name="colLogStartSensorState.ToolTip">
+        <object>1 ef upphafskynjari var virkur, annars 0</object>
+      </resource>
+      <resource name="colLogStopSensorState.ToolTip">
+        <object>1 ef endaskynjari var virkur, annars 0</object>
+      </resource>
+      <resource name="colLogTime.ToolTip">
+        <object>Tímaeining frá byrjun mælingar.</object>
+      </resource>
+      <resource name="colLogTotalWeight.ToolTip">
+        <object>Þyngd á hleðslusellu mínus þyngd á sveifluskynjun</object>
+      </resource>
+      <resource name="colLogVibrationCellWeight.ToolTip">
+        <object>Þyngd skynjuð í sveifluskynjara</object>
+      </resource>
+      <resource name="colLogWeighing.ToolTip">
+        <object>Segir til um hvort að vog sé í raun að safna þyngdargögnum til úrvinnslu.</object>
+      </resource>
+      <resource name="selLog.NullText">
+        <object>&lt;Veldu skráningu&gt;</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Curve" ServiceOnly="false">
+      <resource name="Error.Mws2DataRetrieval">
+        <object>Villa þegar gögn voru sótt frá MWS2</object>
+      </resource>
+      <resource name="Error.TapDataRetrieval">
+        <object>Villa þegar gögn voru sótt frá TAP</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Uppsetning</object>
+      </resource>
+      <resource name="lblLoadCellCapacity.Text">
+        <object>Getan á hleðslusellu:</object>
+      </resource>
+      <resource name="lblCalibratedAt.Text">
+        <object>Síðast stillt:</object>
+      </resource>
+      <resource name="grpRegisterValues.Text">
+        <object>Gildi fyrir stillingu</object>
+      </resource>
+      <resource name="lblZero.Text">
+        <object>Núll</object>
+      </resource>
+      <resource name="lblReference.Text">
+        <object>Viðmið</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Þyngd</object>
+      </resource>
+      <resource name="lblAdcValues.Text">
+        <object>ADC gildi</object>
+      </resource>
+      <resource name="grpADCRamp.Text">
+        <object>Gildi fyrir ADC braut</object>
+      </resource>
+      <resource name="lblRamp.Text">
+        <object>Gildi á braut</object>
+      </resource>
+      <resource name="lblAdcGram.Text">
+        <object>ADC/##</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageStaticWeight" ServiceOnly="false">
+      <resource name="colSWNo.Caption">
+        <object>Nr</object>
+      </resource>
+      <resource name="colSWNo.ToolTip">
+        <object>Teljari</object>
+      </resource>
+      <resource name="colSWTime.Caption">
+        <object>Tími</object>
+      </resource>
+      <resource name="colSWTime.ToolTip">
+        <object>Dagsetning þegar þyngd var skráð</object>
+      </resource>
+      <resource name="colSWValue.Caption">
+        <object>Þyngd (##)</object>
+      </resource>
+      <resource name="colSWValue.ToolTip">
+        <object>Gildi þyngdar</object>
+      </resource>
+      <resource name="barBtnStartLogging.Caption">
+        <object>Hefja</object>
+      </resource>
+      <resource name="barBtnStartLogging.Hint">
+        <object>Hefja / stoppa skráningu á þyngdum</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Vista</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Til að vista innihald á töflu í skrá</object>
+      </resource>
+      <resource name="barBtnClear.Caption">
+        <object>Hreinsa</object>
+      </resource>
+      <resource name="barBtnClear.Hint">
+        <object>Hreinsar innihald úr töflu</object>
+      </resource>
+      <resource name="grpStaticWeightDisplay.Text">
+        <object>Núverandi tóm þyngd (##)</object>
+      </resource>
+      <resource name="grpStaticWeights.Text">
+        <object>Skráningarsaga þyngda</object>
+      </resource>
+      <resource name="LogButton.Stop">
+        <object>Stoppa</object>
+      </resource>
+      <resource name="LogButton.Start">
+        <object>Hefja</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

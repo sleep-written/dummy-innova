@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.Monitoring.Services.Notifications.Email.EmailNotificationPlugin" ServiceOnly="false">
+      <resource name="AlarmOn">
+        <object>Alarm ON</object>
+      </resource>
+      <resource name="AlarmOff">
+        <object>Alarm OFF</object>
+      </resource>
+      <resource name="AlarmEvent">
+        <object>Alarm Event</object>
+      </resource>
+      <resource name="Time">
+        <object>Time</object>
+      </resource>
+      <resource name="State">
+        <object>State</object>
+      </resource>
+      <resource name="Description">
+        <object>Description</object>
+      </resource>
+      <resource name="AlarmInfo">
+        <object>Alarm info</object>
+      </resource>
+      <resource name="Owner">
+        <object>Owner</object>
+      </resource>
+      <resource name="Item">
+        <object>Item</object>
+      </resource>
+      <resource name="Priority">
+        <object>Priority</object>
+      </resource>
+      <resource name="Info">
+        <object>Mail sent:{0}
+        Receivers:{1},
+        Subject:{2}        
+        </object>
+      </resource>
+      <resource name="NoReceivers">
+        <object>
+          No receivers
+        </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.Services.Monitor.Devices.Value.DeviceValueConfig" ServiceOnly="true">
+      <resource name="DeviceId.Category">
+        <object>Device</object>
+      </resource>
+      <resource name="DeviceId.DisplayName">
+        <object>Device id</object>
+      </resource>
+      <resource name="DeviceId.Description">
+        <object>Select device to monitor value for.</object>
+      </resource>
+      <resource name="Addresses.Category">
+        <object>Device</object>
+      </resource>
+      <resource name="Addresses.DisplayName">
+        <object>List of addresses</object>
+      </resource>
+      <resource name="Addresses.Description">
+        <object>List of addresses to monitor</object>
+      </resource>
+      <resource name="PollInterval.Category">
+        <object>Plugin config</object>
+      </resource>
+      <resource name="PollInterval.DisplayName">
+        <object>Poll interval</object>
+      </resource>
+      <resource name="PollInterval.Description">
+        <object>Time interval between polling of the value in sec. (min. 10 sec).
+0 = No polling. Please set 0 if using Pluto device.</object>
+      </resource>
+      <resource name="ClearAlarmOnDispose.Category">
+        <object>Plugin config</object>
+      </resource>
+      <resource name="ClearAlarmOnDispose.DisplayName">
+        <object>Clear alarm on dispose</object>
+      </resource>
+      <resource name="ClearAlarmOnDispose.Description">
+        <object>If the alarm shall be cleared when device value is not monitored anymore</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.Services.Monitor.Devices.Value.DeviceValueSchedConfig" ServiceOnly="true">
+      <resource name="DeviceId.Category">
+        <object>Device</object>
+      </resource>
+      <resource name="DeviceId.DisplayName">
+        <object>Device id</object>
+      </resource>
+      <resource name="DeviceId.Description">
+        <object>Select device to monitor value for.</object>
+      </resource>
+      <resource name="SchedulerConfig.Category">
+        <object>Scheduler</object>
+      </resource>
+      <resource name="SchedulerConfig.DisplayName">
+        <object>Config</object>
+      </resource>
+      <resource name="SchedulerConfig.Description">
+        <object>Set values for scheduler</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.Services.Monitor.QueryDatabaseValue.QueryDatabaseValueConfig" ServiceOnly="true">
+      <resource name="LimitConfig.Category">
+        <object>Configurations</object>
+      </resource>
+      <resource name="LimitConfig.DisplayName">
+        <object>Limits</object>
+      </resource>
+      <resource name="LimitConfig.Description">
+        <object>Configures the alarm limits</object>
+      </resource>
+      <resource name="Query.Category">
+        <object>Configurations</object>
+      </resource>
+      <resource name="Query.DisplayName">
+        <object>Query</object>
+      </resource>
+      <resource name="Query.Description">
+        <object>Database query to run.</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

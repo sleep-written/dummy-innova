@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="pt-BR">
+  <industry>
+    <type name="Marel.Mp5.Grading.Configuration.SlaveMode" ServiceOnly="true">
+      <resource name="NotSlave">
+        <object>Não é auxiliar</object>
+      </resource>
+      <resource name="PartSlave">
+        <object>Unidade auxiliar</object>
+      </resource>
+      <resource name="AllSlave">
+        <object>Auxiliar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.GateType" ServiceOnly="true">
+      <resource name="SimpleOutput">
+        <object>Saída simples</object>
+      </resource>
+      <resource name="Bin">
+        <object>Bin</object>
+      </resource>
+      <resource name="CheckBin">
+        <object>Check bin</object>
+      </resource>
+      <resource name="FlowControl">
+        <object>Controle de fluxo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.DischargeType" ServiceOnly="true">
+      <resource name="None">
+        <object>Nenhum</object>
+      </resource>
+      <resource name="Belt">
+        <object>Cinta</object>
+      </resource>
+      <resource name="Cabin">
+        <object>Cabine</object>
+      </resource>
+      <resource name="Vertical">
+        <object>Vertical</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.WeigherType" ServiceOnly="true">
+      <resource name="Belt">
+        <object>Cinta</object>
+      </resource>
+      <resource name="Hopper">
+        <object>Hopper</object>
+      </resource>
+      <resource name="Platform">
+        <object>Plataforma</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.LaneType" ServiceOnly="true">
+      <resource name="Single">
+        <object>Individual</object>
+      </resource>
+      <resource name="Left">
+        <object>Esquerda</object>
+      </resource>
+      <resource name="Right">
+        <object>Direita</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.SystemType" ServiceOnly="true">
+      <resource name="Simple">
+        <object>Grading simples</object>
+      </resource>
+      <resource name="PassivePacking">
+        <object>Empacotamento passivo</object>
+      </resource>
+      <resource name="ActivePacking">
+        <object>Empacotamento ativo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.DataType" ServiceOnly="true">
+      <resource name="Boolean">
+        <object>Booleano</object>
+      </resource>
+      <resource name="Byte">
+        <object>Byte</object>
+      </resource>
+      <resource name="Sbyte">
+        <object>Byte assinado</object>
+      </resource>
+      <resource name="Uint16">
+        <object>Unsigned 16-bit integer</object>
+      </resource>
+      <resource name="Uint32">
+        <object>Unsigned 32-bit integer</object>
+      </resource>
+      <resource name="Int32">
+        <object>32-bit integer</object>
+      </resource>
+      <resource name="Float">
+        <object>Float</object>
+      </resource>
+      <resource name="String">
+        <object>String</object>
+      </resource>
+      <resource name="Ustring">
+        <object>Unicode string</object>
+      </resource>
+      <resource name="Enum">
+        <object>Enumeração</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.BatchDetails" ServiceOnly="false">
+      <resource name="None">
+        <object>Nenhum</object>
+      </resource>
+      <resource name="Simple">
+        <object>Simples</object>
+      </resource>
+      <resource name="ProductDetails">
+        <object>Detalhes de produto</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.PieceDetails" ServiceOnly="false">
+      <resource name="None">
+        <object>Nenhum</object>
+      </resource>
+      <resource name="Simple">
+        <object>Simples</object>
+      </resource>
+      <resource name="UpdatePackId">
+        <object>Atualizar Id do pacote</object>
+      </resource>
+      <resource name="PostBatch">
+        <object>Enviar pacote</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.PieceRecordType" ServiceOnly="false">
+      <resource name="PhysicalGrading">
+        <object>Físico</object>
+      </resource>
+      <resource name="ExtraGrading">
+        <object>Extra</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.BatchRecordType" ServiceOnly="false">
+      <resource name="Unknown">
+        <object>Desconhecido</object>
+      </resource>
+      <resource name="Batch">
+        <object>Batida</object>
+      </resource>
+      <resource name="PeriodicBatch">
+        <object>Batida periódica</object>
+      </resource>
+      <resource name="IncompleteBatch">
+        <object>Batida incompleta</object>
+      </resource>
+      <resource name="ExternalBatch">
+        <object>Batida externa</object>
+      </resource>
+      <resource name="RejectUnderweight">
+        <object>Subpeso rejeitado</object>
+      </resource>
+      <resource name="RejectOverweight">
+        <object>Sobrepeso rejeitado</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Data.ValueType" ServiceOnly="false">
+      <resource name="Weight">
+        <object>Peso</object>
+      </resource>
+      <resource name="Width">
+        <object>Largura</object>
+      </resource>
+      <resource name="Height">
+        <object>Altura</object>
+      </resource>
+      <resource name="Length">
+        <object>Comprimento</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.GradingOperationResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Operação concluída com sucesso.</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Ocorreu erro geral de banco de dados.</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Operação sem suporte.</object>
+      </resource>
+      <resource name="NoGate">
+        <object>Não existe porta na classificadora</object>
+      </resource>
+      <resource name="NoSetup">
+        <object>Porta não atribuída para a configuração.</object>
+      </resource>
+      <resource name="NoGrade">
+        <object>Porta não atribuída para uma classificação.</object>
+      </resource>
+      <resource name="GraderOffline">
+        <object>Classificadora está offline no momento.</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>Palete não aplicável.</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>Coleção não aplicável.</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>Status da coleção não permite operação.</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>O produto da porta não corresponde ao produto da coleção.</object>
+      </resource>
+      <resource name="Exception">
+        <object>Exceção de aplicativo.</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Não foi possível carregar as informações da interface para o serviço de classificação.</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Não foi possível carregar as informações do programa do servidor para o serviço de classificação.</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Obtendo proxy do objeto remoto.</object>
+      </resource>
+      <resource name="RemoteException">
+        <object>Exceção sem especificação descartada por objeto remoto.</object>
+      </resource>
+      <resource name="NoGrader">
+        <object>Classificadora inexistente no sistema de classificação fornecido.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.CommandType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Não configurado</object>
+      </resource>
+      <resource name="Write">
+        <object>Gravar</object>
+      </resource>
+      <resource name="Execute">
+        <object>Executar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Grading.Configuration.ConfigurationExecOrder" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Não configurado</object>
+      </resource>
+      <resource name="BeforeProgram">
+        <object>Antes da configuração do programa</object>
+      </resource>
+      <resource name="Program">
+        <object>Com a configuração do programa</object>
+      </resource>
+      <resource name="AfterProgram">
+        <object>Depois da configuração do programa</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

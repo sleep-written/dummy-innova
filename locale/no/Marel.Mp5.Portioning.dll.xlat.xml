@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="no">
+  <industry>
+    <type name="Marel.Mp5.Portioning.Activity.PortionType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>&lt;NotSet&gt;</object>
+      </resource>
+      <resource name="First">
+        <object>Første</object>
+      </resource>
+      <resource name="Last">
+        <object>Siste</object>
+      </resource>
+      <resource name="General">
+        <object>Generelt</object>
+      </resource>
+      <resource name="Offcut">
+        <object>Rest</object>
+      </resource>
+      <resource name="Filter">
+        <object>Filter</object>
+      </resource>
+      <resource name="Trim">
+        <object>Avskjær</object>
+      </resource>
+      <resource name="Uncut">
+        <object>Uoppskåret</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.BoundaryType" ServiceOnly="false">
+      <resource name="LengthPercent">
+        <object>% av lengde</object>
+      </resource>
+      <resource name="LengthAbsolute">
+        <object>Absolutt lengde</object>
+      </resource>
+      <resource name="WeightPercent">
+        <object>% av vekt</object>
+      </resource>
+      <resource name="WeightAbsolute">
+        <object>Absolutt vekt</object>
+      </resource>
+      <resource name="Notch">
+        <object>Gjenkjent snitt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.ConveyorSpeed" ServiceOnly="false">
+      <resource name="Lowest">
+        <object>Laveste</object>
+      </resource>
+      <resource name="Low">
+        <object>Lav</object>
+      </resource>
+      <resource name="Medium">
+        <object>Middels</object>
+      </resource>
+      <resource name="High">
+        <object>Høy</object>
+      </resource>
+      <resource name="Highest">
+        <object>Høyeste</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.CutMethod" ServiceOnly="false">
+      <resource name="PriorityPattern">
+        <object>Prioritetsmønster</object>
+      </resource>
+      <resource name="ReversedPriorityPattern">
+        <object>Reversert prioritetsmønster</object>
+      </resource>
+      <resource name="FixedPattern">
+        <object>Fast mønster</object>
+      </resource>
+      <resource name="ReversedFixedPattern">
+        <object>Reversert fast mønster</object>
+      </resource>
+      <resource name="OptimalWeight">
+        <object>Optimal vekt</object>
+      </resource>
+      <resource name="OptimalLength">
+        <object>Optimal lengde</object>
+      </resource>
+      <resource name="OptimalWeightLength">
+        <object>Optimal vektlengde</object>
+      </resource>
+      <resource name="MaximalPrice">
+        <object>Maksimumspris</object>
+      </resource>
+      <resource name="SplitByWeight">
+        <object>Del etter vekt</object>
+      </resource>
+      <resource name="SplitByLength">
+        <object>Del etter lengde</object>
+      </resource>
+      <resource name="SplitByArea">
+        <object>Del etter område</object>
+      </resource>
+      <resource name="Shape">
+        <object>Figur</object>
+      </resource>
+      <resource name="MaximalOrdered">
+        <object>Maksimalt bestilt</object>
+      </resource>
+      <resource name="Continuous">
+        <object>Fortløpende</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.GradeFeature" ServiceOnly="false">
+      <resource name="Length">
+        <object>Lengde</object>
+      </resource>
+      <resource name="Weight">
+        <object>Vekt</object>
+      </resource>
+      <resource name="ConveyorArea">
+        <object>Transportør – område</object>
+      </resource>
+      <resource name="SideProfileArea">
+        <object>Sideprofil – område</object>
+      </resource>
+      <resource name="AverageWidth">
+        <object>Gjennomsnittsbredde</object>
+      </resource>
+      <resource name="AverageHeight">
+        <object>Gjennomsnittshøyde</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.NotchDetectionType" ServiceOnly="false">
+      <resource name="None">
+        <object>Ingen gjenkjenning</object>
+      </resource>
+      <resource name="LShapeOrVShape">
+        <object>L- eller V-figur</object>
+      </resource>
+      <resource name="MaxHeightGradient">
+        <object>Skarpeste høydeøkning</object>
+      </resource>
+      <resource name="MinHeightGradient">
+        <object>Skarpeste høydereduksjon</object>
+      </resource>
+      <resource name="MaxWidthGradient">
+        <object>Skarpeste breddeøkning</object>
+      </resource>
+      <resource name="MinWidthGradient">
+        <object>Skarpeste breddereduksjon</object>
+      </resource>
+      <resource name="Notch">
+        <object>Skarpeste snitt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Ipm.Cutgrade" ServiceOnly="false">
+      <resource name="NewCutgrade">
+        <object>&lt;Ny kutteklasse&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Ipm.Formgrade" ServiceOnly="false">
+      <resource name="NewFormgrade">
+        <object>&lt;Ny formklasse&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Ipm.CutProgram" ServiceOnly="false">
+      <resource name="NewProgram">
+        <object>&lt;Nytt program&gt;</object>
+      </resource>
+      <resource name="Valid.NoFormgrade">
+        <object>Finner ingen formklasse.</object>
+      </resource>
+      <resource name="Valid.NoCutgrade">
+        <object>Finner ingen kutteklasse.</object>
+      </resource>
+      <resource name="Valid.InvalidUncutMaterial">
+        <object>Det valgte ubeskårede materialet er inaktivt.</object>
+      </resource>
+      <resource name="Valid.NoCutgradeMaterial">
+        <object>Kutteklassen {0} har ikke noe materiale</object>
+      </resource>
+      <resource name="Valid.InvalidCutgradeMaterial">
+        <object>Det valgte materialet i kutteklassen {0} er inaktivt.</object>
+      </resource>
+      <resource name="Valid.NoPortionMaterial">
+        <object>Porsjonen {0} har ikke noe materiale</object>
+      </resource>
+      <resource name="Valid.InactiveMaterial">
+        <object>Porsjonen {0} har inaktivt materiale</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.ZonePriority" ServiceOnly="false">
+      <resource name="First">
+        <object>Første</object>
+      </resource>
+      <resource name="Middle">
+        <object>Midtre</object>
+      </resource>
+      <resource name="Last">
+        <object>Siste</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Remote.Result" ServiceOnly="false">
+      <resource name="NotSupported">
+        <object>Operasjonen støttes ikke.</object>
+      </resource>
+      <resource name="Exception">
+        <object>Serverkommunikasjonsfeil.</object>
+      </resource>
+      <resource name="InitError">
+        <object>Det oppstod feil under initialisering av ekstern tilkobling.</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Eksternt kall til server mislyktes.</object>
+      </resource>
+      <resource name="NoLaneManager">
+        <object>Kan ikke hente linjeleder.</object>
+      </resource>
+      <resource name="DownloadVisionFailed">
+        <object>Kan ikke importere Vision.</object>
+      </resource>
+      <resource name="DownloadProgramFailed">
+        <object>Kan ikke laste ned program(mer).</object>
+      </resource>
+      <resource name="ImportProgramFailed">
+        <object>Kan ikke importere program(mer).</object>
+      </resource>
+      <resource name="GetLiveDataFailed">
+        <object>Kan ikke hente direkte data.</object>
+      </resource>
+      <resource name="ImportModelFailed">
+        <object>Kan ikke importere modell(er).</object>
+      </resource>
+      <resource name="SetLoggingModeFailed">
+        <object>Kan ikke angi baneloggingsmodus.</object>
+      </resource>
+      <resource name="ClearLiveDataFailed">
+        <object>Kan ikke fjerne direkte data for bane.</object>
+      </resource>
+      <resource name="WorkerQueryFailed">
+        <object>Det oppstod feil under utførelse av arbeiderspørring.</object>
+      </resource>
+      <resource name="DownloadFormsFailed">
+        <object>Kan ikke laste ned skjemaer</object>
+      </resource>
+      <resource name="ImportFormsFailed">
+        <object>Kan ikke importere skjemaer</object>
+      </resource>
+      <resource name="SetProgramParamFailed">
+        <object>Kan ikke angi programparameter</object>
+      </resource>
+      <resource name="ReqProgramDataFailed">
+        <object>Programdataforespørsel mislyktes</object>
+      </resource>
+      <resource name="SendProgramDataFailed">
+        <object>Kan ikke sende programdata</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Data.LaneStatus" ServiceOnly="false">
+      <resource name="NoRemote">
+        <object>Ingen ekstern</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Ingen linjeleder</object>
+      </resource>
+      <resource name="Offline">
+        <object>Frakoblet</object>
+      </resource>
+      <resource name="Idle">
+        <object>Inaktiv</object>
+      </resource>
+      <resource name="Running">
+        <object>Kjører</object>
+      </resource>
+      <resource name="Washing">
+        <object>Vasker</object>
+      </resource>
+      <resource name="SafetyAlarm">
+        <object>Sikkerhetsalarm</object>
+      </resource>
+      <resource name="NoStatus">
+        <object>Ingen oppsett</object>
+      </resource>
+      <resource name="Undefined">
+        <object>Ukjent</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Data.LaneLoggingMode" ServiceOnly="true">
+      <resource name="LogNever">
+        <object>Logging inaktiv</object>
+      </resource>
+      <resource name="LogPrPeriod">
+        <object>Loggbehandlingsperiode</object>
+      </resource>
+      <resource name="LogAlways">
+        <object>Logg alltid</object>
+      </resource>
+      <resource name="LogOn">
+        <object>Logging</object>
+      </resource>
+      <resource name="LogOff">
+        <object>Ingen logging</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Workers.ModelImporter" ServiceOnly="false">
+      <resource name="Err.NoProgram">
+        <object>Finner ikke programmet</object>
+      </resource>
+      <resource name="Err.NoDevice">
+        <object>Kan ikke koble til enheten.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Opticut.OCCutgrade" ServiceOnly="false">
+      <resource name="NewCutgrade">
+        <object>&lt;Ny kutteklasse&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Opticut.OCCutProgram" ServiceOnly="false">
+      <resource name="NewProgram">
+        <object>&lt;Nytt program&gt;</object>
+      </resource>
+      <resource name="Valid.NoFormgrade">
+        <object>Finner ingen formklasse.</object>
+      </resource>
+      <resource name="Valid.NoCutgrade">
+        <object>Finner ingen kutteklasse.</object>
+      </resource>
+      <resource name="Valid.InvalidUncutMaterial">
+        <object>Det valgte ubeskårede materialet er inaktivt.</object>
+      </resource>
+      <resource name="Valid.NoCutgradeMaterial">
+        <object>Kutteklassen {0} har ikke noe materiale</object>
+      </resource>
+      <resource name="Valid.InvalidCutgradeMaterial">
+        <object>Det valgte materialet i kutteklassen {0} er inaktivt.</object>
+      </resource>
+      <resource name="Valid.NoPortionMaterial">
+        <object>Porsjonen {0} har ikke noe materiale</object>
+      </resource>
+      <resource name="Valid.InactiveMaterial">
+        <object>Porsjonen {0} har inaktivt materiale</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Opticut.OCFormgrade" ServiceOnly="false">
+      <resource name="NewFormgrade">
+        <object>&lt;Ny formklasse&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.ScanPortioner.CutSpProgram" ServiceOnly="false">
+      <resource name="NewProgram">
+        <object>&lt;Nytt program&gt;</object>
+      </resource>
+      <resource name="Valid.NoPrgNumber">
+        <object>Programnummeret er ikke definert.</object>
+      </resource>
+      <resource name="Valid.NoPrgType">
+        <object>Programtypen er ikke definert.</object>
+      </resource>
+      <resource name="Valid.NoPieceMaterial">
+        <object>Stykkematerialet er ikke definert.</object>
+      </resource>
+      <resource name="Valid.NoTargetPortion">
+        <object>Målet {0} har ikke noen porsjon.</object>
+      </resource>
+      <resource name="Valid.NoTargetMaterial">
+        <object>Målet {0} har ikke noe materiale.</object>
+      </resource>
+      <resource name="Valid.InactiveMaterial">
+        <object>Målet {0} har inaktivt materiale.</object>
+      </resource>
+      <resource name="Valid.InvalidPieceMaterial">
+        <object>Det valgte stykkematerialet er inaktivt.</object>
+      </resource>
+      <resource name="Valid.InvalidUncutMaterial">
+        <object>Det valgte ubeskårede materialet er inaktivt.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutApplicationType" ServiceOnly="false">
+      <resource name="Test">
+        <object>Test</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutBatchSwitch" ServiceOnly="false">
+      <resource name="NotAllowed">
+        <object>Ikke tillatt</object>
+      </resource>
+      <resource name="Allowed">
+        <object>Tillatt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutGateType" ServiceOnly="false">
+      <resource name="OffEnd">
+        <object>Off End</object>
+      </resource>
+      <resource name="Left">
+        <object>Venstre</object>
+      </resource>
+      <resource name="Right">
+        <object>Høyre</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutPortionPlateType" ServiceOnly="false">
+      <resource name="_5mm">
+        <object>5 mm</object>
+      </resource>
+      <resource name="_10mm">
+        <object>10 mm</object>
+      </resource>
+      <resource name="_20mm">
+        <object>20 mm</object>
+      </resource>
+      <resource name="_30mm">
+        <object>30 mm</object>
+      </resource>
+      <resource name="_40mm">
+        <object>40 mm</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutStackingType" ServiceOnly="false">
+      <resource name="Shingled">
+        <object>Shinglet</object>
+      </resource>
+      <resource name="Singles">
+        <object>Enkle</object>
+      </resource>
+      <resource name="OverlappedLeft">
+        <object>Overlappet venstre</object>
+      </resource>
+      <resource name="OverlappedRight">
+        <object>Overlappet høyre</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Itm.ItmProgram" ServiceOnly="false">
+      <resource name="NewProgram">
+        <object>&lt;Nytt program&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Data.Itm.ItmRejectType" ServiceOnly="false">
+      <resource name="NotRejected">
+        <object>Ingen avvisning</object>
+      </resource>
+      <resource name="RejectNoActiveProfiles">
+        <object>A-Trim, ingen profiler aktive</object>
+      </resource>
+      <resource name="RejectShape">
+        <object>Figurvilkår ikke oppfylt</object>
+      </resource>
+      <resource name="RejectColor">
+        <object>Fargevilkår ikke oppfylt</object>
+      </resource>
+      <resource name="RejectFilletingDefect">
+        <object>Fileteringsdefekt</object>
+      </resource>
+      <resource name="RejectClumpTail">
+        <object>Klumphale</object>
+      </resource>
+      <resource name="RejectMelaninSpot">
+        <object>Melaninflekk</object>
+      </resource>
+      <resource name="RejectPearlStripe">
+        <object>Pearl Stripe</object>
+      </resource>
+      <resource name="RejectBellyFat">
+        <object>For mye bukfett</object>
+      </resource>
+      <resource name="RejectBackFat">
+        <object>For mye ryggfett</object>
+      </resource>
+      <resource name="RejectWidthAfterTrim">
+        <object>For smal etter trimming</object>
+      </resource>
+      <resource name="RejectProfileValidation">
+        <object>Avvis profilvalidering</object>
+      </resource>
+      <resource name="RejectProfileFailed">
+        <object>Outline error</object>
+      </resource>
+      <resource name="RejectPiecesTooClose">
+        <object>For kort stykkeavstand</object>
+      </resource>
+      <resource name="RejectInfeedError">
+        <object>Innføringsfeil</object>
+      </resource>
+      <resource name="RejectVisionError">
+        <object>Vision-feil</object>
+      </resource>
+      <resource name="CutUnitsDisabled">
+        <object>Enhetskutting deaktivert</object>
+      </resource>
+      <resource name="RejectPieceTooBig">
+        <object>For langt stykke</object>
+      </resource>
+      <resource name="RejectCodeNROF">
+        <object>Reject Code NROF</object>
+      </resource>
+      <resource name="RejectOther">
+        <object>Avvis andre</object>
+      </resource>
+      <resource name="RejectPieceTooSmall">
+        <object>For lite stykke</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

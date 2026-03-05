@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.TrimBlend.Configuration.ControllerType" ServiceOnly="true">
+      <resource name="AutoSilo">
+        <object>Auto silo</object>
+      </resource>
+      <resource name="Input">
+        <object>Input</object>
+      </resource>
+      <resource name="Control">
+        <object>Control</object>
+      </resource>
+      <resource name="FatMeasurement">
+        <object>Fat measurement</object>
+      </resource>
+      <resource name="Mixer">
+        <object>Mixer</object>
+      </resource>
+      <resource name="External">
+        <object>External</object>
+      </resource>
+      <resource name="Custom">
+        <object>Custom</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.TrimBlend.Services.ITrimBlendService" ServiceOnly="true">
+      <resource name="NoSystem">
+        <object>Invalid system id: {0:SystemId}</object>
+      </resource>
+      <resource name="NoController">
+        <object>No controller at position: {0:Position}</object>
+      </resource>
+      <resource name="NoDevice">
+        <object>No device for controller at position: {0:Position}</object>
+      </resource>
+      <resource name="NoRecipe">
+        <object>No recipe id: {0:Recipe}</object>
+      </resource>
+      <resource name="RecipeMinAmount">
+        <object>Amount is below minimum allowed recipe amount {1:Data.MinAmount}</object>
+      </resource>
+      <resource name="RecipeMaxAmount">
+        <object>Amount is above maximum allowed recipe amount {1:Data.MaxAmount}</object>
+      </resource>
+      <resource name="RouteNotAvailable">
+        <object>Route {0:Route} not available on this system id: {0:SystemId}</object>
+      </resource>
+      <resource name="NoRoute">
+        <object>No route for batch: {0:BatchId}</object>
+      </resource>
+      <resource name="NoRoutePositions">
+        <object>No positions on route: {0:Route}</object>
+      </resource>
+      <resource name="RoutePositionsNotAvailable">
+        <object>Route position {1:Data.Position} not available on this system id: {0:SystemId}</object>
+      </resource>
+      <resource name="NoOrderLine">
+        <object>No order line id: {0:OrderLine.Value}</object>
+      </resource>
+      <resource name="WrongAmountUnit">
+        <object>Wrong amount unit on order line id: {0:OrderLine.Value}</object>
+      </resource>
+      <resource name="OverMaxAmount">
+        <object>Over max amount on order line id: {1:Data.OrderLine}</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>No recipe batch id: {0:BatchId}</object>
+      </resource>
+      <resource name="DeviceOffline">
+        <object>Device {1:Data.DeviceName} is offline on route: {1:Data.RouteName}</object>
+      </resource>
+      <resource name="NoManualRequest">
+        <object>Using automatic request at position: {0:Position}</object>
+      </resource>
+      <resource name="NoPackRecord">
+        <object>No pack record id: {0:PackId}</object>
+      </resource>
+      <resource name="WrongProduct">
+        <object>Wrong product for pack record id: {0:PackId}</object>
+      </resource>
+      <resource name="WrongPO">
+        <object>Wrong PO for pack record id: {0:PackId}</object>
+      </resource>
+      <resource name="WrongLot">
+        <object>Wrong Lot for pack record id: {0:PackId}</object>
+      </resource>      
+      <resource name="UnitOpException">
+        <object>Unit operation failed:\n{1:Message}</object>
+      </resource>
+      <resource name="RouteCapacityExceeded">
+        <object>The amount of {1:Data.Amount} is greater than the {1:Data.Capacity} capacity of process unit id: {1:Data.Prunit}</object>
+      </resource>
+      <resource name="UnknownErrorCode">
+        <object>Unknown error code: {0:ErrorCode}</object>
+      </resource>
+      <resource name="FormatFailed">
+        <object>Failed to get error message for error code: {0:ErrorCode}</object>
+      </resource>      
+    </type>
+    <type name="Marel.Mp5.TrimBlend.License" ServiceOnly="true">
+      <resource name="LicenseMessage">
+        <object>Can't get a feature license: {0}.{1}</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

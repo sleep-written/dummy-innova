@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.Solutions.ManualYieldSampling.UI.M6000.YieldStation.ManualYieldSamplingCE" ServiceOnly="false">
+      <resource name="PrintingError">
+        <object>Printing Error!</object>
+      </resource>
+      <resource name="PrintingNoGuiItem">
+        <object>No GuiItem Configured for printing</object>
+      </resource>
+      <resource name="PrintingReportCEFailed">
+        <object>Could not load the report from the gui item.\nMake sure the gui item is a report.</object>
+      </resource>
+      <resource name="PrintingReportDataFailed">
+        <object>Could not load data for the report.</object>
+      </resource>
+      <resource name="PrintingException">
+        <object>Error occurred when printing report. See log for details.</object>
+      </resource>
+      <resource name="PrintingNoPrinter">
+        <object>No printer available.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.ManualYieldSampling.UI.M6000.YieldStation.ManualYieldSamplingView" ServiceOnly="false">
+      <resource name="InvalidProduct">
+        <object>Invalid product id from scale</object>
+      </resource>
+      <resource name="PackingFailed">
+        <object>Packing operation failed</object>
+      </resource>
+      <resource name="PackRecordFailed">
+        <object>Recording failed</object>
+      </resource>
+      <resource name="noRecTimeFrame">
+        <object>No recording because of time limit.</object>
+      </resource>
+      <resource name="PackRecorded">
+        <object>Recorded pack</object>
+      </resource>
+      <resource name="btnStartPO.Text">
+        <object>Start New PO</object>
+      </resource>
+      <resource name="btnAddSample.Text">
+        <object>Add Sample</object>
+      </resource>
+      <resource name="btnSkip.Text">
+        <object>Skip</object>
+      </resource>
+      <resource name="btnPrint.Text">
+        <object>Print</object>
+      </resource>
+      <resource name="outputYieldTable.InputHeader">
+        <object>Input</object>
+      </resource>
+      <resource name="outputYieldTable.OutputHeader">
+        <object>Output</object>
+      </resource>
+      <resource name="outputYieldTable.WeightHeader">
+        <object>Weight ($W)</object>
+      </resource>
+      <resource name="LoadProductsError">
+        <object>Could not retreive product list from service.</object>
+      </resource>
+      <resource name="CantRequestRecord">
+        <object>Can't request record from scale.</object>
+      </resource>
+      <resource name="NoProduct">
+        <object>Couldn't set product.</object>
+      </resource>
+      <resource name="Recorded">
+        <object>Registered</object>
+      </resource>
+      <resource name="Removed">
+        <object>Removed</object>
+      </resource>
+      <resource name="undoButton.Text">
+        <object>Undo</object>
+      </resource>
+      <resource name="SampleAdded">
+        <object>Added sample #{0}</object>
+      </resource>
+      <resource name="NoProductLine">
+        <object>Calculating {0}, No product line found with sequence number: {1}</object>
+      </resource>
+      <resource name="SolveError">
+        <object>Could not solve formula ({0}) for {1}</object>
+      </resource>
+      <resource name="WeightUnderTolerance">
+        <object>Weight is under the allowed tolerance . Nothing registered.</object>
+      </resource>
+      <resource name="WeightAboveTolerances">
+        <object>Weight is over the allowed tolerance. Nothing registered.</object>
+      </resource>
+      <resource name="InputWeightMissing">
+        <object>Unable to get input weight.</object>
+      </resource>
+      <resource name="LastWeighingMissing">
+        <object>Unable to get the last weighing.</object>
+      </resource>
+    </type>    
+    <type name="Marel.Mp5.Solutions.ManualYieldSampling.UI.M6000.YieldStation.PO.SelectPoView" ServiceOnly="false">
+      <resource name="exitButton.Text">
+        <object>Back</object>
+      </resource>
+      <resource name="recordButton.Text">
+        <object>Start PO</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.ManualYieldSampling.UI.M6000.YieldStation.PO.SelectCompanyView" ServiceOnly="false">
+      <resource name="exitButton.Text">
+        <object>Back</object>
+      </resource>
+      <resource name="continueButton.Text">
+        <object>Create New</object>
+      </resource>
+      <resource name="CreateNewSupplier">
+        <object>Create New Supplier</object>
+      </resource>
+      <resource name="CreateNewSubSupplier">
+        <object>Create New Sub-Supplier</object>
+      </resource>
+      <resource name="SupplierName">
+        <object>Supplier name:</object>
+      </resource>
+      <resource name="SubSupplierName">
+        <object>Sub-Supplier name:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.ManualYieldSampling.UI.M6000.YieldStation.PO.CreatePoView" ServiceOnly="false">
+      <resource name="SupplierMissing">
+        <object>Supplier missing</object>
+      </resource>
+      <resource name="SubSupplierMissing">
+        <object>Sub-Supplier missing</object>
+      </resource>
+      <resource name="CommentMissing">
+        <object>Comment missing</object>
+      </resource>
+      <resource name="PoCreated">
+        <object>Purchase order created</object>
+      </resource>
+      <resource name="NewPOCreatedText">
+        <object>New purchase order created</object>
+      </resource>
+      <resource name="NewPOCreatedFailedText">
+        <object>Creating new POfailed. Result: {0}</object>
+      </resource>
+      <resource name="UseExistingPo">
+        <object>Purchase order already exists:\n"{0}".\nDo you want to start a new or reuse the existing PO</object>
+      </resource>
+      <resource name="UseExistingPoCaption">
+        <object>Purchase order already exists</object>
+      </resource>
+      <resource name="UseExisting">
+        <object>Use existing</object>
+      </resource>
+      <resource name="StartNew">
+        <object>Start new</object>
+      </resource>
+      <resource name="supplierLabel.Text">
+        <object>Supplier:</object>
+      </resource>
+      <resource name="subSupplierLabel.Text">
+        <object>Sub-Supplier:</object>
+      </resource>
+      <resource name="commentLabel.Text">
+        <object>Comment:</object>
+      </resource>
+      <resource name="exitButton.Text">
+        <object>Back</object>
+      </resource>
+      <resource name="selectPoBtn.Text">
+        <object>Select Existing PO</object>
+      </resource>
+      <resource name="recordButton.Text">
+        <object>Start PO</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.ManualYieldSampling.UI.M6000.YieldStation.PO.CreateCompanyDialog" ServiceOnly="false">
+      <resource name="cancelButton.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="btnConfirm.Text">
+        <object>Confirm</object>
+      </resource>
+    </type>
+    <type name="Grid.Activity.ProductLists" ServiceOnly="false">
+      <resource name="productlist">
+        <object>Id </object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+      <resource name="shname">
+        <object>Short</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="extcode">
+        <object>External code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Pattern</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimension 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimension 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimension 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimension 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Text 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Text 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Text 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Text 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Text 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Text 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Text 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Text 8</object>
+      </resource>
+      <resource name="helpcontext">
+        <object>Information</object>
+      </resource>
+      <resource name="active">
+        <object>Active</object>
+      </resource>
+      <resource name="prunit">
+        <object>Process unit code</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>Process unit</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="Product List Lines">
+        <object>Products</object>
+      </resource>
+      <resource name="bom">
+        <object>Bill of material code</object>
+      </resource>
+      <resource name="bom Name">
+        <object>Bill of material</object>
+      </resource>
+      <resource name="PrUnitActivites">
+        <object>Process units</object>
+      </resource>
+      <resource name="capacity">
+        <object>Capacity</object>
+      </resource>
+      <resource name="capacityum">
+        <object>Capacity unit</object>
+      </resource>
+    </type>
+    <type name="Grid.Activity.ProductListLines" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="matlist">
+        <object>Product list code</object>
+      </resource>
+      <resource name="matlist Name">
+        <object>Product list</object>
+      </resource>
+      <resource name="material">
+        <object>Product code</object>
+      </resource>
+      <resource name="material Name">
+        <object>Product</object>
+      </resource>
+      <resource name="packop">
+        <object>Packing operation \ncode</object>
+      </resource>
+      <resource name="packop Name">
+        <object>Packing operation</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sequence</object>
+      </resource>
+      <resource name="recmethod">
+        <object>Recording method</object>
+      </resource>
+      <resource name="fill1">
+        <object>Limit 1</object>
+      </resource>
+      <resource name="fill2">
+        <object>Limit 2</object>
+      </resource>
+      <resource name="fill3">
+        <object>Limit 3</object>
+      </resource>
+      <resource name="fill4">
+        <object>Limit 4</object>
+      </resource>
+      <resource name="fill5">
+        <object>Limit 5</object>
+      </resource>
+      <resource name="fill6">
+        <object>Limit 6</object>
+      </resource>
+      <resource name="fill7">
+        <object>Limit 7</object>
+      </resource>
+      <resource name="fill8">
+        <object>Limit 8</object>
+      </resource>
+      <resource name="gatenumber">
+        <object>Gate Number</object>
+      </resource>
+      <resource name="active">
+        <object>Active</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="mys_buttonText">
+        <object>Button text</object>
+      </resource>
+      <resource name="mys_wyieldmethod">
+        <object>Weighing method</object>
+      </resource>
+      <resource name="mys_ryieldmethod">
+        <object>Registration method</object>
+      </resource>
+      <resource name="mys_yieldparent">
+        <object>Primary parent</object>
+      </resource>
+      <resource name="mys_weightgain">
+        <object>Weight gain</object>
+      </resource>
+      <resource name="mys_formula">
+        <object>Formula</object>
+      </resource>
+      <resource name="mys_allowskip">
+        <object>Allow skip</object>
+      </resource>
+      <resource name="mys_weighttoleranceminpct">
+        <object>Weight tolerance min%</object>
+      </resource>
+      <resource name="mys_weighttolerancemaxpct">
+        <object>Weight tolerance max%</object>
+      </resource>
+      <resource name="mys_weighttolerancebasedon">
+        <object>Weight tolerance based on</object>
+      </resource>
+      <resource name="name">
+        <object>Material name</object>
+      </resource>
+      <resource name="SelectParent">
+        <object>Select parent</object>
+      </resource>
+      <resource name="ParentNull">
+        <object>Parent must be selected</object>
+      </resource>
+      <resource name="NoFormula">
+        <object>Formula is required for calculated weighing method</object>
+      </resource>
+      <resource name="InvalidWeightToleranceMinPct">
+        <object>Weight tolerance min% must have a value greater than 0 and no higher than 100.</object>
+      </resource>
+      <resource name="InvalidWeightToleranceMaxPct">
+        <object>Weight tolerance max% must have a value greater than 0 and no higher than 100.</object>
+      </resource>
+      <resource name="MissingWeightToleranceSource">
+        <object>Weight tolerance based on must have a value.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Solutions.ManualYieldSampling.UI.M6000.YieldStation.Views.PickActivityView" ServiceOnly="false">
+      <resource name="skipButton.Text">
+        <object>Skip</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

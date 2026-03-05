@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="cs">
+  <industry>
+    <type name="Marel.Mp5.Base.Programs.ExecutableType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="Binary">
+        <object>Samostatně spustitelný soubor</object>
+      </resource>
+      <resource name="Command">
+        <object>Příkazový soubor</object>
+      </resource>
+      <resource name="AppDomain">
+        <object>Spustitelný soubor AppDomain</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="ProgramManager">
+        <object>Správce programu</object>
+      </resource>
+      <resource name="NetworkRouter">
+        <object>Směrovač zařízení</object>
+      </resource>
+      <resource name="SystemService">
+        <object>Služba systému</object>
+      </resource>
+      <resource name="ControlProgram">
+        <object>Řídicí program</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduleType" ServiceOnly="true">
+      <resource name="Never">
+        <object>Nikdy</object>
+      </resource>
+      <resource name="Sequence">
+        <object>V posloupnosti programů</object>
+      </resource>
+      <resource name="Daily">
+        <object>Denně</object>
+      </resource>
+      <resource name="Weekly">
+        <object>Týdně</object>
+      </resource>
+      <resource name="Monthly">
+        <object>Měsíčně</object>
+      </resource>
+      <resource name="Yearly">
+        <object>Ročně</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>První</object>
+      </resource>
+      <resource name="Error">
+        <object>Chyba</object>
+      </resource>
+      <resource name="Running">
+        <object>Běží</object>
+      </resource>
+      <resource name="Stopping">
+        <object>Zastavující se</object>
+      </resource>
+      <resource name="Dead">
+        <object>Bez proudu</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Zastavený</object>
+      </resource>
+      <resource name="RunWait">
+        <object>Čekající na start</object>
+      </resource>
+      <resource name="StopWait">
+        <object>Čekající na zastavení</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ExecuteProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Inicializovaný</object>
+      </resource>
+      <resource name="Executing">
+        <object>Provádějící</object>
+      </resource>
+      <resource name="Completed">
+        <object>Hotový</object>
+      </resource>
+      <resource name="CompletedLate">
+        <object>Hotová linka</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Ukončený</object>
+      </resource>
+      <resource name="Error">
+        <object>Chyba</object>
+      </resource>
+      <resource name="Terminating">
+        <object>Ukončování</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ManagerState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>První</object>
+      </resource>
+      <resource name="RefreshingList">
+        <object>Probíhá obnovení seznamu programů</object>
+      </resource>
+      <resource name="Running">
+        <object>Běží</object>
+      </resource>
+      <resource name="Shutdown">
+        <object>Probíhá vypnutí</object>
+      </resource>
+      <resource name="ShutdownMsg">
+        <object>Probíhá vypnutí služby systému</object>
+      </resource>
+      <resource name="ShutdownComplete">
+        <object>Vypnutí dokončeno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ResponseState" ServiceOnly="true">
+      <resource name="CantCheck">
+        <object>Nelze zkontrolovat</object>
+      </resource>
+      <resource name="NotChecked">
+        <object>Nezkontrolováno</object>
+      </resource>
+      <resource name="Responding">
+        <object>Reaguje</object>
+      </resource>
+      <resource name="NotResponding">
+        <object>Nereaguje</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduledProgramState" ServiceOnly="true">
+      <resource name="Executed">
+        <object>Vykonáno</object>
+      </resource>
+      <resource name="ExecutedWait">
+        <object>Vykonáno po naplánovaném čase</object>
+      </resource>
+      <resource name="ExecutedRequest">
+        <object>Vykonáno na vyžádání</object>
+      </resource>
+      <resource name="Missed">
+        <object>Zmeškaný naplánovaný čas</object>
+      </resource>
+      <resource name="StoppedOnTime">
+        <object>Hotovo</object>
+      </resource>
+      <resource name="StoppedLate">
+        <object>Hotová linka</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Ukončeno</object>
+      </resource>
+      <resource name="Error">
+        <object>Chyba</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.InterfaceType" ServiceOnly="true">
+      <resource name="NotHandled">
+        <object>Nezpracováno</object>
+      </resource>
+      <resource name="TcpIpMarel">
+        <object>TCP/IP Marel</object>
+      </resource>
+      <resource name="TcpIpOther">
+        <object>TCP/IP jiní</object>
+      </resource>
+      <resource name="Rs232">
+        <object>RS232</object>
+      </resource>
+      <resource name="LonMarel">
+        <object>LON</object>
+      </resource>
+      <resource name="CanMaster">
+        <object>CAN prostřednictvím CanMaster</object>
+      </resource>
+      <resource name="BluetoothRs232">
+        <object>Bluetooth prostřednictvím RS232</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nespecifikováno</object>
+      </resource>
+      <resource name="Limited">
+        <object>Omezeno</object>
+      </resource>
+      <resource name="Unlimited">
+        <object>Neomezeno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseLogType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nespecifikováno</object>
+      </resource>
+      <resource name="Issued">
+        <object>Licence vydána</object>
+      </resource>
+      <resource name="Returned">
+        <object>Licence vrácena</object>
+      </resource>
+      <resource name="LeaseExpired">
+        <object>Smlouva vypršela</object>
+      </resource>
+      <resource name="UnknownType">
+        <object>Neznámý typ licence</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.AccessLevel" ServiceOnly="false">
+      <resource name="Undefined">
+        <object>Nedefinováno</object>
+      </resource>
+      <resource name="PersonalData">
+        <object>Zaměstnanec</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Dohled</object>
+      </resource>
+      <resource name="Operator">
+        <object>Obsluha</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Řídící operátor</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Správce</object>
+      </resource>
+      <resource name="Service">
+        <object>Servis</object>
+      </resource>
+      <resource name="Developer">
+        <object>Vývojář</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.LookupType" ServiceOnly="false">
+      <resource name="NoLookup">
+        <object>Žádné vyhledávání</object>
+      </resource>
+      <resource name="Named">
+        <object>Vyhledávání pojmenovaného objektu</object>
+      </resource>
+      <resource name="Numbered">
+        <object>Vyhledávání identifikace záznamu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.ReferenceDateMethod" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="ProcessPeriod">
+        <object>Provozní interval</object>
+      </resource>
+      <resource name="Date">
+        <object>Datum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CompressMethod" ServiceOnly="true">
+      <resource name="GroupBy">
+        <object>Skupina </object>
+      </resource>
+      <resource name="Sum">
+        <object>Součet</object>
+      </resource>
+      <resource name="Min">
+        <object>Minimum</object>
+      </resource>
+      <resource name="Max">
+        <object>Maximum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryChangeType" ServiceOnly="true">
+      <resource name="Insert">
+        <object>Vloženo</object>
+      </resource>
+      <resource name="Updated">
+        <object>Aktualizováno</object>
+      </resource>
+      <resource name="Delete">
+        <object>Vymazáno</object>
+      </resource>
+      <resource name="AppSpecific">
+        <object>Zvláštní operace</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryLogLevel" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Žádné protokolování</object>
+      </resource>
+      <resource name="BasicLogging">
+        <object>Protokolovat operace se záznamy</object>
+      </resource>
+      <resource name="FullLogging">
+        <object>Protokolovat všechny operace</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationStatus" ServiceOnly="false">
+      <resource name="InActive">
+        <object>Neaktivní záznam</object>
+      </resource>
+      <resource name="Pending">
+        <object>Nevyřízená operace</object>
+      </resource>
+      <resource name="Current">
+        <object>Hotovo</object>
+      </resource>
+      <resource name="Error">
+        <object>Chyba</object>
+      </resource>
+      <resource name="Ongoing">
+        <object>Probíhající konfigurace</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.UpdateAction" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Žádná akce</object>
+      </resource>
+      <resource name="ExecProgram">
+        <object>Spustit program</object>
+      </resource>
+      <resource name="SendRequest">
+        <object>Odeslat žádost</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterType" ServiceOnly="false">
+      <resource name="NotSpecified">
+        <object>Nespecifikováno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupType" ServiceOnly="false">
+      <resource name="PersonalData">
+        <object>Osobní data</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Dohled</object>
+      </resource>
+      <resource name="Operator">
+        <object>Obsluha</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Řídící operátor</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Správce</object>
+      </resource>
+      <resource name="Service">
+        <object>Servis</object>
+      </resource>
+      <resource name="Custom">
+        <object>Softwarový přístup</object>
+      </resource>
+      <resource name="LocationAccess">
+        <object>Přístup umístění </object>
+      </resource>
+      <resource name="General">
+        <object>Všeobecné použití</object>
+      </resource>
+      <resource name="Developer">
+        <object>Vývojář</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.GroupAreaType" ServiceOnly="false">
+      <resource name="NoType">
+        <object>Žádná oblast</object>
+      </resource>
+      <resource name="Site">
+        <object>Umístění</object>
+      </resource>
+      <resource name="Department">
+        <object>Oddělení</object>
+      </resource>
+      <resource name="Section">
+        <object>Sekce</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Provozní jednotka</object>
+      </resource>
+      <resource name="Station">
+        <object>Stanice</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupTimeType" ServiceOnly="false">
+      <resource name="NoRestriction">
+        <object>Žádné omezení</object>
+      </resource>
+      <resource name="Weekday">
+        <object>Všední den</object>
+      </resource>
+      <resource name="MonthDay">
+        <object>Den v měsíci</object>
+      </resource>
+      <resource name="OnDuty">
+        <object>Když je ve službě</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.GuiNodeType" ServiceOnly="true">
+      <resource name="ControlForm">
+        <object>Řídicí formulář</object>
+      </resource>
+      <resource name="Folder">
+        <object>Složka</object>
+      </resource>
+      <resource name="UserGrid">
+        <object>Uživatelská mřížka</object>
+      </resource>
+      <resource name="Log">
+        <object>Protokol</object>
+      </resource>
+      <resource name="Report">
+        <object>Hlášení</object>
+      </resource>
+      <resource name="SetupGrid">
+        <object>Nastavit mřížku</object>
+      </resource>
+      <resource name="DocumentTree">
+        <object>Strom dokumentu</object>
+      </resource>
+      <resource name="Chart">
+        <object>Graf</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.DeviceRecord" ServiceOnly="false">
+      <resource name="CanFormat">
+        <object>Zařízení CAN {0} na {1}</object>
+      </resource>
+      <resource name="LonFormat">
+        <object>Zařízení LON {0} na {1}</object>
+      </resource>
+      <resource name="Rs232Format">
+        <object>Zařízení RS232 na {0}</object>
+      </resource>
+      <resource name="TcpMarelFormat">
+        <object>Zařízení Marel TCP/IP {0}</object>
+      </resource>
+      <resource name="TcpGenericFormat">
+        <object>Generické zařízení TCP/IP {0}, port{1}</object>
+      </resource>
+      <resource name="BluetoothRs232Format">
+        <object>Zařízení Bluetooth {0} na portu RS232 {1}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.Records.StandardRecord" ServiceOnly="false">
+      <resource name="Copy">
+        <object>Kopírovat</object>
+      </resource>
+      <resource name="Of">
+        <object>z</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.ClientSupport.ObjectActiveType" ServiceOnly="false">
+      <resource name="Inactive">
+        <object>Neaktivní</object>
+      </resource>
+      <resource name="Active">
+        <object>Aktivní</object>
+      </resource>
+      <resource name="Both">
+        <object>Obojí</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Connections.PortType" ServiceOnly="true">
+      <resource name="RemotingTcp">
+        <object>Vzdálené TCP</object>
+      </resource>
+      <resource name="RemotingHttp">
+        <object>Vzdálené HTTP</object>
+      </resource>
+      <resource name="SSI">
+        <object>Zásuvka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaDateTimeType" ServiceOnly="false">
+      <resource name="Unspecified">
+        <object>Nespecifikováno</object>
+      </resource>
+      <resource name="ProductionDayFromTo">
+        <object>Rozsah výrobního dne</object>
+      </resource>
+      <resource name="DateFromTo">
+        <object>Rozsah data</object>
+      </resource>
+      <resource name="DateTimeFromTo">
+        <object>Rozsah data a času</object>
+      </resource>
+      <resource name="ProductionDaySingle">
+        <object>Výrobní den</object>
+      </resource>
+      <resource name="DateSingle">
+        <object>Datum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaType" ServiceOnly="false">
+      <resource name="Lookup">
+        <object>Vyhledávání</object>
+      </resource>
+      <resource name="DateTime">
+        <object>Datum a čas</object>
+      </resource>
+      <resource name="SingleInteger">
+        <object>Jednotlivé celé číslo</object>
+      </resource>
+      <resource name="IntegerList">
+        <object>Seznam celých čísel</object>
+      </resource>
+      <resource name="SingleFloat">
+        <object>Jednotlivé číslo s plovoucí řádovou čárkou</object>
+      </resource>
+      <resource name="String">
+        <object>Řetězec</object>
+      </resource>
+      <resource name="CheckBox">
+        <object>Zaškrtávací políčko</object>
+      </resource>
+      <resource name="ComboBox">
+        <object>Výběrové pole</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.DataRecordType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Běžné</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Celkem</object>
+      </resource>
+      <resource name="Pending">
+        <object>Nevyřízeno</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Vymazáno</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Neplatné</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Komprimováno</object>
+      </resource>
+      <resource name="Partial">
+        <object>Částečné</object>
+      </resource>
+      <resource name="Yield">
+        <object>Výtěžek</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Opačný</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Prázdniny</object>
+      </resource>
+      <resource name="Generated">
+        <object>Generováno</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Spotřebováno</object>
+      </resource>
+      <resource name="Returned">
+        <object>Vráceno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationOpType" ServiceOnly="true">
+      <resource name="Send">
+        <object>Odeslat</object>
+      </resource>
+      <resource name="Get">
+        <object>Získat</object>
+      </resource>
+      <resource name="GetCopy">
+        <object>Získat kopii</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterDataType" ServiceOnly="false">
+      <resource name="Integer">
+        <object>Celé číslo</object>
+      </resource>
+      <resource name="Float">
+        <object>Číslo s plovoucí řádovou čárkou</object>
+      </resource>
+      <resource name="String">
+        <object>Řetězec</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.StatusCheckMode" ServiceOnly="false">
+      <resource name="PendingOnline">
+        <object>Nevyřízeno, dokud nebude v režimu online</object>
+      </resource>
+      <resource name="Online">
+        <object>Pouze v režimu online</object>
+      </resource>
+      <resource name="NoCheck">
+        <object>Stav nezkontrolován</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ProgramType" ServiceOnly="true">
+      <resource name="Unkown">
+        <object>Neznámé</object>
+      </resource>
+      <resource name="SystemProgram">
+        <object>Systémový program</object>
+      </resource>
+      <resource name="ScheduledProgram">
+        <object>Naplánovaný program</object>
+      </resource>
+      <resource name="RequestedProgram">
+        <object>Vyžádaný program</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.KeyType" ServiceOnly="true">
+      <resource name="Temporary">
+        <object>Dočasné</object>
+      </resource>
+      <resource name="Permanent">
+        <object>Trvalé</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.LogReason" ServiceOnly="true">
+      <resource name="UnknownFeature">
+        <object>Neznámá funkce</object>
+      </resource>
+      <resource name="MaxInstances">
+        <object>Byl dosažen maximální počet instancí</object>
+      </resource>
+      <resource name="UnknownVersion">
+        <object>Byla vyžádána neznámá verze</object>
+      </resource>
+      <resource name="SignatureFailure">
+        <object>Nesoulad podpisů</object>
+      </resource>
+      <resource name="HandlerOverride">
+        <object>Potlačení handleru</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Configuration.VerifyStatus" ServiceOnly="false">
+      <resource name="NotVerified">
+        <object>Neověřeno</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Neplatné</object>
+      </resource>
+      <resource name="Verified">
+        <object>Ověřeno</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

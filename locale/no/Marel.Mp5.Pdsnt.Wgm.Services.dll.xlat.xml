@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources culture="no">
+  <industry>    
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Collectors.ScopeDataCollector" ServiceOnly="false">
+      <resource name="Err.Timeout">
+        <object>En timeout oppstod under datainnsamling. Ikke tilstrekkelig med data ble samlet inn.</object>
+      </resource>
+      <resource name="Err.NoPreSampleData">
+        <object>Forhåndsprøvedata kunne ikke bli samlet på grunn av manglende startsensorsignaler.</object>
+      </resource>
+      <resource name="Err.WrongDeviceMode">
+        <object>Kunne ikke starte omfangsdatainnsamling. Enheten kjører ikke i modus 90-93</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2DeviceHandler" ServiceOnly="false">
+      <resource name="Err.OfflineCallFailed">
+        <object>Enheten er ikke online. {0} mislykket</object>
+      </resource>
+      <resource name="Err.ReadRegisterTimeout">
+        <object>Timeout ved avlesing av register</object>
+      </resource>
+      <resource name="Err.GetStatus">
+        <object>Kunne ikke utføre FåStatus</object>
+      </resource>
+      <resource name="Err.GetRegisters">
+        <object>Kunne ikke utføre FåRegistre</object>
+      </resource>
+      <resource name="Err.PutGetRegisters">
+        <object>Kunne ikke utføre PlasserFåRegistre</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2RawDataHandler" ServiceOnly="false">
+      <resource name="Err.NotOnline">
+        <object>MWS2-enhet er ikke online</object>
+      </resource>
+      <resource name="Err.ScopeCollectionBusy">
+        <object>Omfangsdatainnsamling er allerede opptatt. Vent inntil ferdig...</object>
+      </resource>
+      <resource name="Err.StaticWeightTimeout">
+        <object>Venter på statisk vekt-timeout</object>
+      </resource>
+      <resource name="Err.NoDataFromDevice">
+        <object>Ikke i stand til å hente data fra enhet</object>
+      </resource>
+      <resource name="Err.DeviceInWrongMode">
+        <object>Denne enheten kjører ikke i modus 90-93. Statisk vektinnhenting er ikke mulig</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

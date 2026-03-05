@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fr">
+  <industry>
+    <type name="Marel.Mp5.Portioning.Activity.PortionType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>&lt;NotSet&gt;</object>
+      </resource>
+      <resource name="First">
+        <object>Première</object>
+      </resource>
+      <resource name="Last">
+        <object>Dernière</object>
+      </resource>
+      <resource name="General">
+        <object>Général</object>
+      </resource>
+      <resource name="Offcut">
+        <object>Rejet</object>
+      </resource>
+      <resource name="Filter">
+        <object>Filtre</object>
+      </resource>
+      <resource name="Trim">
+        <object>Parage</object>
+      </resource>
+      <resource name="Uncut">
+        <object>Non-coupé</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.BoundaryType" ServiceOnly="false">
+      <resource name="LengthPercent">
+        <object>% de longueur</object>
+      </resource>
+      <resource name="LengthAbsolute">
+        <object>Longueur absolue</object>
+      </resource>
+      <resource name="WeightPercent">
+        <object>% de poids</object>
+      </resource>
+      <resource name="WeightAbsolute">
+        <object>Poids absolu</object>
+      </resource>
+      <resource name="Notch">
+        <object>Entaille détectée</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.ConveyorSpeed" ServiceOnly="false">
+      <resource name="Lowest">
+        <object>Minimale</object>
+      </resource>
+      <resource name="Low">
+        <object>Faible</object>
+      </resource>
+      <resource name="Medium">
+        <object>Moyenne</object>
+      </resource>
+      <resource name="High">
+        <object>Elevée</object>
+      </resource>
+      <resource name="Highest">
+        <object>Maximale</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.CutMethod" ServiceOnly="false">
+      <resource name="PriorityPattern">
+        <object>Motif prioritaire</object>
+      </resource>
+      <resource name="ReversedPriorityPattern">
+        <object>Motif prioritaire inversé</object>
+      </resource>
+      <resource name="FixedPattern">
+        <object>Motif fixe</object>
+      </resource>
+      <resource name="ReversedFixedPattern">
+        <object>Motif fixe inversé</object>
+      </resource>
+      <resource name="OptimalWeight">
+        <object>Poids optimal</object>
+      </resource>
+      <resource name="OptimalLength">
+        <object>Longueur optimale</object>
+      </resource>
+      <resource name="OptimalWeightLength">
+        <object>Poids/longueur optimaux</object>
+      </resource>
+      <resource name="MaximalPrice">
+        <object>Prix maximal</object>
+      </resource>
+      <resource name="SplitByWeight">
+        <object>Partage en fonction du poids</object>
+      </resource>
+      <resource name="SplitByLength">
+        <object>Partage en fonction de la longueur</object>
+      </resource>
+      <resource name="SplitByArea">
+        <object>Partage par section</object>
+      </resource>
+      <resource name="Shape">
+        <object>Forme</object>
+      </resource>
+      <resource name="MaximalOrdered">
+        <object>Commande maximale</object>
+      </resource>
+      <resource name="Continuous">
+        <object>Continue</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.GradeFeature" ServiceOnly="false">
+      <resource name="Length">
+        <object>Longueur</object>
+      </resource>
+      <resource name="Weight">
+        <object>Poids</object>
+      </resource>
+      <resource name="ConveyorArea">
+        <object>Zone-Convoyeur</object>
+      </resource>
+      <resource name="SideProfileArea">
+        <object>Zone-Profil latéral</object>
+      </resource>
+      <resource name="AverageWidth">
+        <object>Largeur moyenne</object>
+      </resource>
+      <resource name="AverageHeight">
+        <object>Hauteur moyenne</object>
+      </resource>
+      <resource name="BeltPosition">
+        <object>Position du tapis</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.NotchDetectionType" ServiceOnly="false">
+      <resource name="None">
+        <object>Aucune détection</object>
+      </resource>
+      <resource name="LShapeOrVShape">
+        <object>Forme en L ou V</object>
+      </resource>
+      <resource name="MaxHeightGradient">
+        <object>Augmentation de hauteur la plus forte</object>
+      </resource>
+      <resource name="MinHeightGradient">
+        <object>Diminution de hauteur la plus forte</object>
+      </resource>
+      <resource name="MaxWidthGradient">
+        <object>Augmentation de largeur la plus forte</object>
+      </resource>
+      <resource name="MinWidthGradient">
+        <object>Diminution de largeur la plus forte</object>
+      </resource>
+      <resource name="Notch">
+        <object>Entaille la plus nette</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Ipm.Cutgrade" ServiceOnly="false">
+      <resource name="NewCutgrade">
+        <object>&lt;Nouveau schéma de découpage&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Ipm.Formgrade" ServiceOnly="false">
+      <resource name="NewFormgrade">
+        <object>&lt;Nouveau modèle&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Ipm.CutProgram" ServiceOnly="false">
+      <resource name="NewProgram">
+        <object>&lt;Nouveau programme&gt;</object>
+      </resource>
+      <resource name="Valid.NoFormgrade">
+        <object>Aucun modèle trouvé.</object>
+      </resource>
+      <resource name="Valid.NoCutgrade">
+        <object>Aucun schéma de découpage trouvé.</object>
+      </resource>
+      <resource name="Valid.InvalidUncutMaterial">
+        <object>La matière première non coupée sélectionnée est inactive !</object>
+      </resource>
+      <resource name="Valid.NoCutgradeMaterial">
+        <object>Aucune matière première n'est attribuée au schéma de découpage "{0}"</object>
+      </resource>
+      <resource name="Valid.InvalidCutgradeMaterial">
+        <object>La matière première du schéma de découpage "{0}" sélectionnée est inactive !</object>
+      </resource>
+      <resource name="Valid.NoPortionMaterial">
+        <object>Aucune matière première n'est attribuée à la portion "{0}"</object>
+      </resource>
+      <resource name="Valid.InactiveMaterial">
+        <object>Une matière première inactive est attribuée à la portion "{0}"</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.ZonePriority" ServiceOnly="false">
+      <resource name="First">
+        <object>Première</object>
+      </resource>
+      <resource name="Middle">
+        <object>Centrale</object>
+      </resource>
+      <resource name="Last">
+        <object>Dernière</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Remote.Result" ServiceOnly="false">
+      <resource name="NotSupported">
+        <object>Opération non prise en charge.</object>
+      </resource>
+      <resource name="Exception">
+        <object>Erreur de communication serveur.</object>
+      </resource>
+      <resource name="InitError">
+        <object>Erreur lors de l'initialisation de la connexion à distance.</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Echec de l'appel distant au serveur.</object>
+      </resource>
+      <resource name="NoLaneManager">
+        <object>Impossible d'accéder au gestionnaire de lignes.</object>
+      </resource>
+      <resource name="DownloadVisionFailed">
+        <object>Impossible d'importer la vision.</object>
+      </resource>
+      <resource name="DownloadProgramFailed">
+        <object>Impossible de télécharger le(s) programme(s).</object>
+      </resource>
+      <resource name="ImportProgramFailed">
+        <object>Impossible d'importer le(s) programme(s).</object>
+      </resource>
+      <resource name="GetLiveDataFailed">
+        <object>Impossible d’obtenir les données en temps réel.</object>
+      </resource>
+      <resource name="ImportModelFailed">
+        <object>Impossible d'importer le(s) modèle(s).</object>
+      </resource>
+      <resource name="SetLoggingModeFailed">
+        <object>Impossible de définir le mode d'enregistrement des lignes.</object>
+      </resource>
+      <resource name="ClearLiveDataFailed">
+        <object>Impossible d’effacer les données en temps réel sur les lignes.</object>
+      </resource>
+      <resource name="WorkerQueryFailed">
+        <object>Erreur lors de l'exécution de la requête de l'opérateur.</object>
+      </resource>
+      <resource name="DownloadFormsFailed">
+        <object>Impossible de télécharger les formulaires</object>
+      </resource>
+      <resource name="ImportFormsFailed">
+        <object>Impossible d'importer les formulaires</object>
+      </resource>
+      <resource name="SetProgramParamFailed">
+        <object>Impossible de configurer le paramètre de programme</object>
+      </resource>
+      <resource name="ReqProgramDataFailed">
+        <object>Impossible de formuler une requête de données de programme</object>
+      </resource>
+      <resource name="SendProgramDataFailed">
+        <object>Impossible d'envoyer les données de programme</object>
+      </resource>
+      <resource name="SetDualLaneModeFailed">
+        <object>Impossible de configurer le mode de lignes doubles</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Data.LaneStatus" ServiceOnly="false">
+      <resource name="NoRemote">
+        <object>Aucun à distance</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Aucun gestionnaire de lignes</object>
+      </resource>
+      <resource name="Offline">
+        <object>Hors ligne</object>
+      </resource>
+      <resource name="Idle">
+        <object>En veille</object>
+      </resource>
+      <resource name="Running">
+        <object>En fonctionnement</object>
+      </resource>
+      <resource name="Washing">
+        <object>Lavage</object>
+      </resource>
+      <resource name="SafetyAlarm">
+        <object>Alarme de sécurité</object>
+      </resource>
+      <resource name="NoStatus">
+        <object>Non configuré</object>
+      </resource>
+      <resource name="Undefined">
+        <object>Inconnu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Data.LaneLoggingMode" ServiceOnly="true">
+      <resource name="LogNever">
+        <object>Logging Inactive</object>
+      </resource>
+      <resource name="LogPrPeriod">
+        <object>Log Process Period</object>
+      </resource>
+      <resource name="LogAlways">
+        <object>Log Always</object>
+      </resource>
+      <resource name="LogOn">
+        <object>Logging</object>
+      </resource>
+      <resource name="LogOff">
+        <object>No Logging</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Workers.ModelImporter" ServiceOnly="false">
+      <resource name="Err.NoProgram">
+        <object>Programme introuvable !</object>
+      </resource>
+      <resource name="Err.NoDevice">
+        <object>Impossible de se connecter à l'appareil.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Opticut.OCCutgrade" ServiceOnly="false">
+      <resource name="NewCutgrade">
+        <object>&lt;Nouveau schéma de découpage&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Opticut.OCCutProgram" ServiceOnly="false">
+      <resource name="NewProgram">
+        <object>&lt;Nouveau programme&gt;</object>
+      </resource>
+      <resource name="Valid.NoFormgrade">
+        <object>Aucun modèle trouvé.</object>
+      </resource>
+      <resource name="Valid.NoCutgrade">
+        <object>Aucun schéma de découpage trouvé.</object>
+      </resource>
+      <resource name="Valid.InvalidUncutMaterial">
+        <object>La matière première non coupée sélectionnée est inactive !</object>
+      </resource>
+      <resource name="Valid.NoCutgradeMaterial">
+        <object>Aucune matière première n'est attribuée au schéma de découpage "{0}"</object>
+      </resource>
+      <resource name="Valid.InvalidCutgradeMaterial">
+        <object>La matière première du schéma de découpage "{0}" sélectionnée est inactive !</object>
+      </resource>
+      <resource name="Valid.NoPortionMaterial">
+        <object>Aucune matière première n'est attribuée à la portion "{0}"</object>
+      </resource>
+      <resource name="Valid.InactiveMaterial">
+        <object>Une matière première inactive est attribuée à la portion "{0}"</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Opticut.OCFormgrade" ServiceOnly="false">
+      <resource name="NewFormgrade">
+        <object>&lt;Nouveau modèle&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.ScanPortioner.CutSpProgram" ServiceOnly="false">
+      <resource name="NewProgram">
+        <object>&lt;Nouveau programme&gt;</object>
+      </resource>
+      <resource name="Valid.NoPrgNumber">
+        <object>Numéro de programme non défini.</object>
+      </resource>
+      <resource name="Valid.NoPrgType">
+        <object>Type de programme non défini.</object>
+      </resource>
+      <resource name="Valid.NoPieceMaterial">
+        <object>Matière première de la pièce non définie.</object>
+      </resource>
+      <resource name="Valid.NoTargetPortion">
+        <object>Aucune portion n'est attribuée à la cible "{0}".</object>
+      </resource>
+      <resource name="Valid.NoTargetMaterial">
+        <object>Aucune matière première n'est attribuée à la cible "{0}".</object>
+      </resource>
+      <resource name="Valid.InactiveMaterial">
+        <object>Une matière première inactive est attribuée à la cible "{0}".</object>
+      </resource>
+      <resource name="Valid.InvalidPieceMaterial">
+        <object>La matière première sélectionnée pour la pièce est inactive !</object>
+      </resource>
+      <resource name="Valid.InvalidUncutMaterial">
+        <object>La matière première non coupée sélectionnée est inactive !</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutApplicationType" ServiceOnly="false">
+      <resource name="Test">
+        <object>Test</object>
+      </resource>
+      <resource name="Normal">
+        <object>Normal</object>
+      </resource>
+      <resource name="Optimal">
+        <object>Optimal</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutBatchSwitch" ServiceOnly="false">
+      <resource name="NotAllowed">
+        <object>Non autorisé</object>
+      </resource>
+      <resource name="Allowed">
+        <object>Autorisé</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutGateType" ServiceOnly="false">
+      <resource name="OffEnd">
+        <object>Sortie</object>
+      </resource>
+      <resource name="Left">
+        <object>Gauche</object>
+      </resource>
+      <resource name="Right">
+        <object>Droite</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutPortionPlateType" ServiceOnly="false">
+      <resource name="_5mm">
+        <object>5 mm</object>
+      </resource>
+      <resource name="_10mm">
+        <object>10 mm</object>
+      </resource>
+      <resource name="_20mm">
+        <object>20 mm</object>
+      </resource>
+      <resource name="_30mm">
+        <object>30 mm</object>
+      </resource>
+      <resource name="_40mm">
+        <object>40 mm</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutStackingType" ServiceOnly="false">
+      <resource name="Shingled">
+        <object>Superposé</object>
+      </resource>
+      <resource name="Singles">
+        <object>Unique</object>
+      </resource>
+      <resource name="OverlappedLeft">
+        <object>Chevauchement à gauche</object>
+      </resource>
+      <resource name="OverlappedRight">
+        <object>Chevauchement à droite</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Program.Itm.ItmProgram" ServiceOnly="false">
+      <resource name="NewProgram">
+        <object>&lt;Nouveau programme&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Data.Itm.ItmRejectType" ServiceOnly="false">
+      <resource name="NotRejected">
+        <object>Pas de rejet</object>
+      </resource>
+      <resource name="RejectNoActiveProfiles">
+        <object>'A-Trim', aucun profil actif</object>
+      </resource>
+      <resource name="RejectShape">
+        <object>Critère de forme non satisfait</object>
+      </resource>
+      <resource name="RejectColor">
+        <object>Critère de couleur non satisfait</object>
+      </resource>
+      <resource name="RejectFilletingDefect">
+        <object>Défaut de filetage</object>
+      </resource>
+      <resource name="RejectClumpTail">
+        <object>Queue déformée</object>
+      </resource>
+      <resource name="RejectMelaninSpot">
+        <object>Point de mélanine</object>
+      </resource>
+      <resource name="RejectPearlStripe">
+        <object>Bande nacrée</object>
+      </resource>
+      <resource name="RejectBellyFat">
+        <object>Trop de graisse abdominale</object>
+      </resource>
+      <resource name="RejectBackFat">
+        <object>Trop de graisse dorsale</object>
+      </resource>
+      <resource name="RejectWidthAfterTrim">
+        <object>Trop fin après parage</object>
+      </resource>
+      <resource name="RejectProfileValidation">
+        <object>Rejeter la validation de profil</object>
+      </resource>
+      <resource name="RejectProfileFailed">
+        <object>Erreur de contour</object>
+      </resource>
+      <resource name="RejectPiecesTooClose">
+        <object>Pièces trop proches</object>
+      </resource>
+      <resource name="RejectInfeedError">
+        <object>Erreur d'alimentation</object>
+      </resource>
+      <resource name="RejectVisionError">
+        <object>Erreur de vision</object>
+      </resource>
+      <resource name="CutUnitsDisabled">
+        <object>Unités de coupe désactivées</object>
+      </resource>
+      <resource name="RejectPieceTooBig">
+        <object>Pièce trop longue</object>
+      </resource>
+      <resource name="RejectCodeNROF">
+        <object>Rejeter le code NROF</object>
+      </resource>
+      <resource name="RejectOther">
+        <object>Rejeter autre</object>
+      </resource>
+      <resource name="RejectPieceTooSmall">
+        <object>Pièce trop petite</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Portioning.Activity.OCutPortionPlateSpeed" ServiceOnly="false">
+      <resource name="UserDefault">
+        <object>Valeur par défaut</object>
+      </resource>
+      <resource name="Low">
+        <object>Faible</object>
+      </resource>
+      <resource name="Medium">
+        <object>Moyenne</object>
+      </resource>
+      <resource name="High">
+        <object>Elevée</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

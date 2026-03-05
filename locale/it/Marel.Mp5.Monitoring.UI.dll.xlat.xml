@@ -1,0 +1,912 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="it">
+  <industry>
+    <type name="Grid.Alarms.AlarmEvents" ServiceOnly="false">
+      <resource name="base_alarmevents_id">
+        <object>ID</object>
+      </resource>
+      <resource name="base_alarms_name">
+        <object>Allarme</object>
+      </resource>
+      <resource name="base_alarmevents_state">
+        <object>Stato</object>
+      </resource>
+      <resource name="base_alarmevents_statedescription">
+        <object>Descrizione stato</object>
+      </resource>
+      <resource name="base_alarmevents_stateshortdescription">
+        <object>Descrizione breve stato</object>
+      </resource>
+      <resource name="base_alarmevents_alarmon">
+        <object>Allarme acceso</object>
+      </resource>
+      <resource name="base_alarmevents_regtime">
+        <object>Durata reg.</object>
+      </resource>
+      <resource name="base_alarmevents_rstat">
+        <object>Stato record</object>
+      </resource>
+      <resource name="base_alarmevents_alarmoccurred">
+        <object>Si è verificato un allarme</object>
+      </resource>
+      <resource name="base_alarmevents_stateparamvalues">
+        <object>Parametro\nvalori di stato</object>
+      </resource>
+      <resource name="base_alarms_code">
+        <object>Codice allarme</object>
+      </resource>
+      <resource name="base_alarms_ownertype">
+        <object>Tipo di proprietario</object>
+      </resource>
+      <resource name="base_alarms_owner">
+        <object>Codice proprietario</object>
+      </resource>
+      <resource name="base_alarms_owner Name">
+        <object>Proprietario</object>
+      </resource>
+      <resource name="base_alarmevents_prperiod">
+        <object>Periodo processo</object>
+      </resource>
+      <resource name="base_alarmevents_sprperiod">
+        <object>Periodo processo secondario</object>
+      </resource>
+      <resource name="base_alarmevents_usercommentid">
+        <object>Commento utente</object>
+      </resource>
+      <resource name="base_alarmevents_alarm">
+        <object>ID allarme</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.Alarms" ServiceOnly="false">
+      <resource name="alarm">
+        <object>ID allarme</object>
+      </resource>
+      <resource name="code">
+        <object>Codice</object>
+      </resource>
+      <resource name="name">
+        <object>Nome</object>
+      </resource>
+      <resource name="description">
+        <object>Descrizione</object>
+      </resource>
+      <resource name="priority">
+        <object>Priorità</object>
+      </resource>
+      <resource name="ownertype">
+        <object>Tipo di proprietario</object>
+      </resource>
+      <resource name="owner Name">
+        <object>Proprietario</object>
+      </resource>
+      <resource name="state">
+        <object>Stato</object>
+      </resource>
+      <resource name="statedescription">
+        <object>Descrizione stato</object>
+      </resource>
+      <resource name="stateshortdescription">
+        <object>Descrizione breve stato</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Allarme acceso</object>
+      </resource>
+      <resource name="lastupdate">
+        <object>Ora ultimo aggiornamento</object>
+      </resource>
+      <resource name="active">
+        <object>Attivo</object>
+      </resource>
+      <resource name="Groups">
+        <object>Gruppi</object>
+      </resource>
+      <resource name="owner">
+        <object>codice proprietario</object>
+      </resource>
+      <resource name="alarmlevel">
+        <object>Livello allarme</object>
+      </resource>
+      <resource name="alarmconfig">
+        <object>Config. allarme</object>
+      </resource>
+      <resource name="stateparamvalues">
+        <object>Parametro\nvalori di stato</object>
+      </resource>
+      <resource name="image">
+        <object>Immagine</object>
+      </resource>
+      <resource name="imagex">
+        <object>Immagine coord. x</object>
+      </resource>
+      <resource name="imagey">
+        <object>Immagine coord. y</object>
+      </resource>
+      <resource name="notificationdelay">
+        <object>Notifica\nritardo</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.Alarms.Groups" ServiceOnly="false">
+      <resource name="alarm">
+        <object>ID allarme</object>
+      </resource>
+      <resource name="alarmgroup">
+        <object>Codice gruppo allarmi</object>
+      </resource>
+      <resource name="alarmgroup Name">
+        <object>Gruppo allarmi</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sequenza</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Codice</object>
+      </resource>
+      <resource name="name">
+        <object>Nome</object>
+      </resource>
+      <resource name="shname">
+        <object>Breve</object>
+      </resource>
+      <resource name="extcode">
+        <object>Codice esterno</object>
+      </resource>
+      <resource name="pattern">
+        <object>Schema</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensione 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensione 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensione 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensione 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Testo 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Testo 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Testo 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Testo 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Testo 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Testo 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Testo 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Testo 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Attivo</object>
+      </resource>
+      <resource name="NotificationGroups">
+        <object>Notifiche</object>
+      </resource>
+      <resource name="GroupMembers">
+        <object>Membri del gruppo</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups.NotificationGroups" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>Gruppo allarmi</object>
+      </resource>
+      <resource name="receiver">
+        <object>Codice destinatario</object>
+      </resource>
+      <resource name="receiver Name">
+        <object>Destinatario</object>
+      </resource>
+      <resource name="receiver Name.Hint">
+        <object>Il destinatario dipende dal tipo di destinatario</object>
+      </resource>
+      <resource name="receivertype">
+        <object>Tipo di destinatario</object>
+      </resource>
+      <resource name="notificationprovider Name">
+        <object>Sistema di notifica</object>
+      </resource>
+      <resource name="notificationprovider">
+        <object>Codice sistema di notifica</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Notifica allarme attivato</object>
+      </resource>
+      <resource name="alarmon.hint">
+        <object>Invia una notifica quando scatta l'allarme</object>
+      </resource>
+      <resource name="alarmoff">
+        <object>Notifica allarme disattivato</object>
+      </resource>
+      <resource name="alarmoff.hint">
+        <object>Invia una notifica quando l'allarme si spegne</object>
+      </resource>
+      <resource name="weekdays">
+        <object>Giorni feriali</object>
+      </resource>
+      <resource name="weekdays.hint">
+        <object>Invia una notifica durante i giorni feriali</object>
+      </resource>
+      <resource name="weekends">
+        <object>Weekend</object>
+      </resource>
+      <resource name="weekends.hint">
+        <object>Invia una notifica nei weekend</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups.GroupMembers" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>Gruppo allarmi</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sequenza</object>
+      </resource>
+      <resource name="alarm Name">
+        <object>Allarme</object>
+      </resource>
+      <resource name="alarm">
+        <object>Codice allarme</object>
+      </resource>
+      <resource name="alarm.lookup.name">
+        <object>Nome</object>
+      </resource>
+      <resource name="alarm.lookup.code">
+        <object>Codice</object>
+      </resource>
+      <resource name="alarm.lookup.owner">
+        <object>Proprietario</object>
+      </resource>
+    </type>
+    <type name="Grid.Notifications.Notifications" ServiceOnly="false">
+      <resource name="mon_alarmnotifications_notificationprovider Name">
+        <object>Sistema di notifica</object>
+      </resource>
+      <resource name="base_alarmevents_alarmon">
+        <object>Allarme acceso</object>
+      </resource>
+      <resource name="mon_alarmnotifications_id">
+        <object>ID notifica</object>
+      </resource>
+      <resource name="mon_alarmnotifications_alarmevent">
+        <object>ID allarme evento</object>
+      </resource>
+      <resource name="mon_alarmnotifications_sendtime">
+        <object>Ora invio</object>
+      </resource>
+      <resource name="mon_alarmnotifications_regtime">
+        <object>Ora registrazione</object>
+      </resource>
+      <resource name="mon_alarmnotifications_receivertype">
+        <object>Tipo di destinatario</object>
+      </resource>
+      <resource name="mon_alarmnotifications_alarmnotificationgroupids">
+        <object>Gruppi di notifiche allarme</object>
+      </resource>
+      <resource name="mon_alarmnotifications_info">
+        <object>Info</object>
+      </resource>
+      <resource name="mon_alarmnotifications_rstat">
+        <object>Stato notifica</object>
+      </resource>
+      <resource name="base_alarmevents_state">
+        <object>Stato evento</object>
+      </resource>
+      <resource name="base_alarmevents_statedescription">
+        <object>Descrizione dell'evento</object>
+      </resource>
+      <resource name="base_alarmevents_stateshortdescription">
+        <object>Descrizione breve dell'evento</object>
+      </resource>
+      <resource name="base_alarmevents_regtime">
+        <object>Ora registrazione evento</object>
+      </resource>
+      <resource name="mon_alarmnotifications_notificationprovider">
+        <object>Codice sistema di notifica</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.ExternalOwners" ServiceOnly="false">
+      <resource name="alarmowner">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Codice</object>
+      </resource>
+      <resource name="name">
+        <object>Nome</object>
+      </resource>
+      <resource name="shname">
+        <object>Breve</object>
+      </resource>
+      <resource name="extcode">
+        <object>Codice esterno</object>
+      </resource>
+      <resource name="pattern">
+        <object>Schema</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensione 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensione 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensione 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensione 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Testo 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Testo 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Testo 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Testo 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Testo 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Testo 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Testo 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Testo 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Attivo</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.ExternalEvents" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="owner">
+        <object>Codice proprietario</object>
+      </resource>
+      <resource name="owner Name">
+        <object>Proprietario</object>
+      </resource>
+      <resource name="code">
+        <object>Codice</object>
+      </resource>
+      <resource name="state">
+        <object>Stato</object>
+      </resource>
+      <resource name="statedescription">
+        <object>Descrizione stato</object>
+      </resource>
+      <resource name="stateshortdescription">
+        <object>Descrizione breve stato</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Allarme acceso</object>
+      </resource>
+      <resource name="regtime">
+        <object>Durata reg.</object>
+      </resource>
+      <resource name="rstat">
+        <object>Stato record</object>
+      </resource>
+      <resource name="alarmoccurred">
+        <object>Si è verificato un allarme</object>
+      </resource>
+      <resource name="stateparamvalues">
+        <object>Parametro\nvalori di stato</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.AlarmConfigurations" ServiceOnly="false">
+      <resource name="alarmconfiguration">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Codice</object>
+      </resource>
+      <resource name="name">
+        <object>Nome</object>
+      </resource>
+      <resource name="shname">
+        <object>Breve</object>
+      </resource>
+      <resource name="extcode">
+        <object>Codice esterno</object>
+      </resource>
+      <resource name="pattern">
+        <object>Schema</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensione 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensione 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensione 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensione 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Testo 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Testo 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Testo 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Testo 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Testo 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Testo 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Testo 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Testo 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Attivo</object>
+      </resource>
+      <resource name="Events">
+        <object>Definizione allarme evento</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.AlarmConfigurationl" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="alarmconfiguration">
+        <object>Codice config. allarme</object>
+      </resource>
+      <resource name="alarmconfiguration Name">
+        <object>Config. allarme</object>
+      </resource>
+      <resource name="eventid">
+        <object>ID evento</object>
+      </resource>
+      <resource name="eventcode">
+        <object>Codice evento</object>
+      </resource>
+      <resource name="alarmlevel">
+        <object>Livello</object>
+      </resource>
+      <resource name="priority">
+        <object>Priorità</object>
+      </resource>
+      <resource name="description">
+        <object>Descrizione</object>
+      </resource>
+      <resource name="params">
+        <object>Parametri</object>
+      </resource>
+      <resource name="linecode">
+        <object>Codice linea</object>
+      </resource>
+      <resource name="linedescription">
+        <object>Descrizione linea</object>
+      </resource>
+      <resource name="systemcode">
+        <object>Codice di sistema</object>
+      </resource>
+      <resource name="systemdescription">
+        <object>Descrizione del sistema</object>
+      </resource>
+      <resource name="modulecode">
+        <object>Codice modulo</object>
+      </resource>
+      <resource name="moduledescription">
+        <object>Descrizione del modulo</object>
+      </resource>
+      <resource name="unitcode">
+        <object>Codice unità</object>
+      </resource>
+      <resource name="unitdescription">
+        <object>Descrizione unità</object>
+      </resource>
+      <resource name="devicecode">
+        <object>Codice dispositivo</object>
+      </resource>
+      <resource name="devicedescription">
+        <object>Descrizione dispositivo</object>
+      </resource>
+      <resource name="solution">
+        <object>Soluzione</object>
+      </resource>
+      <resource name="solutionurl">
+        <object>URL soluzione</object>
+      </resource>
+      <resource name="usermanualurl">
+        <object>URL manuale utente</object>
+      </resource>
+      <resource name="customeralarmdescription">
+        <object>Descrizione allarme cliente</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmConfigurations" ServiceOnly="false">
+      <resource name="Warning.Text">
+        <object>Gli elementi esistenti del gruppo selezionato verranno eliminati.\nProseguire?</object>
+      </resource>
+      <resource name="Warning.Caption">
+        <object>Avvertenza</object>
+      </resource>
+      <resource name="FileDlg.Files">
+        <object>File</object>
+      </resource>
+      <resource name="FileDlg.AllFiles">
+        <object>Tutti i file</object>
+      </resource>
+      <resource name="FileDlg.Title">
+        <object>Selezionare il file di configurazione da importare</object>
+      </resource>
+      <resource name="FileDlg.Failed">
+        <object>Filo non caricato</object>
+      </resource>
+      <resource name="importFromFileButton">
+        <object>Importa da file</object>
+      </resource>
+      <resource name="importFromFileButtonHint">
+        <object>Fare clic per importare un file CSV dell'allarme</object>
+      </resource>
+      <resource name="Import.Failed">
+        <object>Filo non importato.</object>
+      </resource>
+      <resource name="importFromDeviceButton">
+        <object>Importa dal dispositivo</object>
+      </resource>
+      <resource name="importFromDeviceButtonHint">
+        <object>Fare clic per importare le definizioni dell'allarme dal dispositivo</object>
+      </resource>
+      <resource name="GroupExistsErrorMessage">
+        <object>          Nel database esiste un gruppo di nome {0}.\n          Se è stato eliminato o disattivato, verrà attivato di nuovo.\n          L'importazione sovrascriverà i membri esistenti del gruppo.\n          Continuare?        </object>
+      </resource>
+      <resource name="Warning">
+        <object>Avvertenza</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmDescription" ServiceOnly="false">
+      <resource name="errorText.NoDescription">
+        <object>Nessuna descrizione disponibile</object>
+      </resource>
+      <resource name="AlarmDescription">
+        <object>Descrizione allarme</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmImage" ServiceOnly="false">
+      <resource name="errorText.NoImage">
+        <object>Nessun'immagine disponibile</object>
+      </resource>
+      <resource name="AlarmImage">
+        <object>Immagine dell'allarme</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmList" ServiceOnly="false">
+      <resource name="colListId.Caption">
+        <object>No</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Nome</object>
+      </resource>
+      <resource name="colAlarmLevel.Caption">
+        <object>Livello allarme</object>
+      </resource>
+      <resource name="AlarmList">
+        <object>Elenco degli allarmi</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmDeviceController" ServiceOnly="true">
+      <resource name="AlarmImage">
+        <object>Immagine dell'allarme</object>
+      </resource>
+      <resource name="AlarmImage.Hint">
+        <object>Mostra un'immagine degli allarmi sul dispositivo</object>
+      </resource>
+      <resource name="AlarmList">
+        <object>Elenco degli allarmi</object>
+      </resource>
+      <resource name="AlarmList.Hint">
+        <object>Visualizza un elenco degli allarmi attivi sul dispositivo</object>
+      </resource>
+      <resource name="AlarmDescription">
+        <object>Descrizione allarme</object>
+      </resource>
+      <resource name="AlarmDescription.Hint">
+        <object>Mostra una descrizione dell'allarme selezionato sul dispositivo</object>
+      </resource>
+      <resource name="Group.Devices">
+        <object>Dispositivi</object>
+      </resource>
+      <resource name="AlarmDefaultLayout">
+        <object>Layout predefinito</object>
+      </resource>
+      <resource name="AlarmDefaultLayout.Hint">
+        <object>Inserire un layout predefinito per il controllo del dispositivo allarme sul dashboard</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmStatus.AlarmLamp" ServiceOnly="true">
+      <resource name="AlarmLamp.Text">
+        <object>Lampada allarme</object>
+      </resource>
+      <resource name="Group.Alarms">
+        <object>Allarmi</object>
+      </resource>
+      <resource name="AlarmLamp.Hint">
+        <object>Utilizzare questo componente per monitorare gli allarmi selezionati</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmStatus.AlarmMonitor" ServiceOnly="true">
+      <resource name="AlarmMonitor.Text">
+        <object>Controllo allarme</object>
+      </resource>
+      <resource name="Group.Alarms">
+        <object>Allarmi</object>
+      </resource>
+      <resource name="AlarmMonitor.Hint">
+        <object>Utilizzare questo componente per monitorare gli allarmi selezionati, visualizzazione in una griglia</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.AlarmStatus.AlarmMonitor" ServiceOnly="false">
+      <resource name="colCode.Caption">
+        <object>Codice</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Nome</object>
+      </resource>
+      <resource name="colState.Caption">
+        <object>Stato</object>
+      </resource>
+      <resource name="colAlarm.Caption">
+        <object>Allarme</object>
+      </resource>
+      <resource name="colTime.Caption">
+        <object>Tempo</object>
+      </resource>
+      <resource name="colDetails.Caption">
+        <object>Dettagli</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmGroupEventSelection" ServiceOnly="false">
+      <resource name="grpEventsGrid.Text">
+        <object>Selezione evento</object>
+      </resource>
+      <resource name="colAlarmId.Caption">
+        <object>ID</object>
+      </resource>
+      <resource name="colAlarmLevel.Caption">
+        <object>Livello</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Linea</object>
+      </resource>
+      <resource name="colLineCode.Caption">
+        <object>Codice linea</object>
+      </resource>
+      <resource name="colModule.Caption">
+        <object>Modulo</object>
+      </resource>
+      <resource name="colModuleCode.Caption">
+        <object>Codice modulo</object>
+      </resource>
+      <resource name="colUnit.Caption">
+        <object>Unità</object>
+      </resource>
+      <resource name="colUnitCode.Caption">
+        <object>Cod. unità</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Dispositivo</object>
+      </resource>
+      <resource name="colDeviceCode.Caption">
+        <object>Codice dispositivo</object>
+      </resource>
+      <resource name="colDescription.Caption">
+        <object>Descrizione</object>
+      </resource>
+      <resource name="colOwnerName.Caption">
+        <object>Proprietario</object>
+      </resource>
+      <resource name="colConfigurationName.Caption">
+        <object>Nome configurazione</object>
+      </resource>
+      <resource name="colGroupName.Caption">
+        <object>Nome gruppo allarmi</object>
+      </resource>
+      <resource name="colCustomerDesc.Caption">
+        <object>Descrizione allarme cliente</object>
+      </resource>
+      <resource name="colAlarmGroup.Caption">
+        <object>ID gruppo allarmi</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Annulla</object>
+      </resource>
+      <resource name="AlarmGroupEventSelection.Text">
+        <object>Selezione evento</object>
+      </resource>
+      <resource name="colSystemDesc.Caption">
+        <object>Sistema</object>
+      </resource>
+      <resource name="colSystemCode.Caption">
+        <object>Codice di sistema</object>
+      </resource>
+      <resource name="colAlarmCode.Caption">
+        <object>Codice allarme</object>
+      </resource>
+      <resource name="colAlarmName.Caption">
+        <object>Nome allarme</object>
+      </resource>
+      <resource name="btnSelectAll.Text">
+        <object>Seleziona tutto</object>
+      </resource>
+      <resource name="btnUnselectAll.Text">
+        <object>Cancella selezione</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmGroups" ServiceOnly="false">
+      <resource name="ConfigureGroups">
+        <object>Configura gruppo allarmi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AddAlarmParameter" ServiceOnly="false">
+      <resource name="AddAlarmParameter.Text">
+        <object>Crea parametro/i allarme</object>
+      </resource>
+      <resource name="grpHeader.Text">
+        <object>Seleziona tipo di parametro</object>
+      </resource>
+      <resource name="grpParamTypes.Text">
+        <object>Definizione descrizione</object>
+      </resource>
+      <resource name="lblNrOfDescr.Text">
+        <object>Numero di descrizioni:</object>
+      </resource>
+      <resource name="btnUpdate.Text">
+        <object>Aggiorna</object>
+      </resource>
+      <resource name="lblIdHeader.Text">
+        <object>ID</object>
+      </resource>
+      <resource name="lblDescrHeader.Text">
+        <object>Descrizione</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Annulla</object>
+      </resource>
+      <resource name="Generic">
+        <object>Generico</object>
+      </resource>
+      <resource name="Temperature">
+        <object>Temperatura</object>
+      </resource>
+      <resource name="Velocity">
+        <object>Velocità</object>
+      </resource>
+      <resource name="Weight">
+        <object>Peso</object>
+      </resource>
+      <resource name="WeightBig">
+        <object>Peso grande</object>
+      </resource>
+      <resource name="Pressure">
+        <object>Pressione</object>
+      </resource>
+      <resource name="Power">
+        <object>Potenza</object>
+      </resource>
+      <resource name="PowerBig">
+        <object>PowerBig</object>
+      </resource>
+      <resource name="TimeMinutes">
+        <object>Durata in minuti</object>
+      </resource>
+      <resource name="TimeHour">
+        <object>Durata in ore</object>
+      </resource>
+      <resource name="Description">
+        <object>Descrizione</object>
+      </resource>
+      <resource name="BitmaskDescription">
+        <object>Descrizione bitmask</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AddCodeDescriptionEntry" ServiceOnly="false">
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Chiudi</object>
+      </resource>
+      <resource name="lblDesc.Text">
+        <object>Descrizione</object>
+      </resource>
+      <resource name="lblCode.Text">
+        <object>Codice</object>
+      </resource>
+      <resource name="lblEntryType.Text">
+        <object>Tipo di immissione</object>
+      </resource>
+      <resource name="item1">
+        <object>Codice e descrizione</object>
+      </resource>
+      <resource name="item2">
+        <object>Descrizione</object>
+      </resource>
+      <resource name="AddCodeDescriptionEntry.Text">
+        <object>Aggiungi voce</object>
+      </resource>
+      <resource name="ErrorCaption">
+        <object>Errore</object>
+      </resource>
+      <resource name="DescEmpty">
+        <object>La descrizione da aggiungere non può essere vuota</object>
+      </resource>
+      <resource name="CodeDescEmpty">
+        <object>Il codice e/o la descrizione non può essere vuota</object>
+      </resource>
+      <resource name="DuplicateMessage">
+        <object>Valore/i già esistente/i</object>
+      </resource>
+      <resource name="ValueNotAddedMessage">
+        <object>Si è verificato un errore durante l'aggiunta dei valori. Per maggiori informazioni, vedere il log.</object>
+      </resource>
+      <resource name="ValuesAddedMessage">
+        <object>Valore/i aggiunto/i correttamente</object>
+      </resource>
+      <resource name="SuccessCaption">
+        <object>Eseguito correttamente</object>
+      </resource>
+      <resource name="DuplicateCaption">
+        <object>Duplica</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

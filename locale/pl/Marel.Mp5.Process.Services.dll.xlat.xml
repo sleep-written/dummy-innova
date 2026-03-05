@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="pl">
+  <industry>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.ManagePrunit" ServiceOnly="false">
+      <resource name="ActivityPrompt">
+        <object>Aktywność: </object>
+      </resource>
+      <resource name="BatchPrompt">
+        <object>Porcja: </object>
+      </resource>
+      <resource name="PoPrompt">
+        <object>Zamówienie: </object>
+      </resource>
+      <resource name="LotPrompt">
+        <object>Partia: </object>
+      </resource>
+      <resource name="PlotPrompt">
+        <object>Partia prod.: </object>
+      </resource>
+      <resource name="RmAreaPrompt">
+        <object>Obszar usuwania: </object>
+      </resource>
+      <resource name="StartLegend">
+        <object>Start</object>
+      </resource>
+      <resource name="NextLegend">
+        <object>Następny</object>
+      </resource>
+      <resource name="OpsLegend">
+        <object>Operacje</object>
+      </resource>
+      <resource name="StartActivityCaption">
+        <object>Uruchom czynność oczekującą</object>
+      </resource>
+      <resource name="StartBatchCaption">
+        <object>Uruchom porcję oczekującą</object>
+      </resource>
+      <resource name="StartPoCaption">
+        <object>Uruchom zamówienie oczekujące</object>
+      </resource>
+      <resource name="StartLotCaption">
+        <object>Uruchom partię oczekującą</object>
+      </resource>
+      <resource name="StartPlotCaption">
+        <object>Uruchom oczekującą partię produkcyjną</object>
+      </resource>
+      <resource name="StartRmAreaCaption">
+        <object>Uruchom oczekujący obszar zasobów</object>
+      </resource>
+      <resource name="SelectOperationCaption">
+        <object>Wybierz działanie</object>
+      </resource>
+      <resource name="SetManualPrdayOp">
+        <object>Ustaw ręcznie datę produkcji</object>
+      </resource>
+      <resource name="SetAutoPrdayOp">
+        <object>Przywróć automatyczną datę produkcji</object>
+      </resource>
+      <resource name="SetManualShiftOp">
+        <object>Ustaw ręcznie zmianę</object>
+      </resource>
+      <resource name="SetAutoShiftOp">
+        <object>Przywróć automatyczną zmianę</object>
+      </resource>
+      <resource name="SetManualProfileOp">
+        <object>Ustaw ręcznie okres profilu</object>
+      </resource>
+      <resource name="SetAutoProfileOp">
+        <object>Przywróć automatyczny profil</object>
+      </resource>
+      <resource name="NoDateSet">
+        <object>(brak daty)</object>
+      </resource>
+      <resource name="NoShiftSet">
+        <object>(brak zmiany)</object>
+      </resource>
+      <resource name="WorkPeriodType">
+        <object>Praca</object>
+      </resource>
+      <resource name="BreakPeriodType">
+        <object>Przerwa</object>
+      </resource>
+      <resource name="NoPeriodSet">
+        <object>(brak okresu)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectObject" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz linię</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectActivity" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz czynność</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectComposite" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz czynność złożoną</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectLot" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz partię</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectProductionLot" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz partię produkcyjną</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectOrder" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz zlecenie</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectPo" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz zamówienie</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectPrunit" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz moduł przetwarzania</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectRmArea" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz obszar zasobów</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectShift" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz zmianę</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectProfilePeriod" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz okres pracy</object>
+      </resource>
+      <resource name="WorkPeriodType">
+        <object>Praca</object>
+      </resource>
+      <resource name="BreakPeriodType">
+        <object>Przerwa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectDate" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz datę</object>
+      </resource>
+      <resource name="DatePrompt">
+        <object>Data: </object>
+      </resource>
+      <resource name="DayLegend">
+        <object>Dni</object>
+      </resource>
+      <resource name="MonthLegend">
+        <object>Miesiące</object>
+      </resource>
+      <resource name="YearLegend">
+        <object>Lata</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectUnitOperation" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Wybierz działanie</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectRegistration" ServiceOnly="false">
+      <resource name="SitePrompt">
+        <object>Kod obiektu: </object>
+      </resource>
+      <resource name="IdPrompt">
+        <object>Identyfikator: </object>
+      </resource>
+      <resource name="errorfetchingobject">
+        <object>Wystąpił błąd podczas odzyskiwania obiektu</object>
+      </resource>
+      <resource name="wgt">
+        <object>Waga: {0}</object>
+      </resource>
+      <resource name="ok">
+        <object>OK</object>
+      </resource>
+      <resource name="ScreenCaptionItem">
+        <object>Wprowadź identyfikator elementu</object>
+      </resource>
+      <resource name="ScreenCaptionPack">
+        <object>Wprowadź identyfikator opakowania</object>
+      </resource>
+      <resource name="ScreenCaptionContainer">
+        <object>Wprowadź identyfikator pojemnika</object>
+      </resource>
+      <resource name="ScreenCaptionStack">
+        <object>Wprowadź identyfikator stosu</object>
+      </resource>
+      <resource name="ScreenCaptionShipment">
+        <object>Wprowadź identyfikator wysyłki</object>
+      </resource>
+      <resource name="ScreenCaptionPallet">
+        <object>Wprowadź identyfikator palety</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectRegistrationViaFinder" ServiceOnly="false">
+      <resource name="errorfetchingobject">
+        <object>Wystąpił błąd podczas pobierania obiektu</object>
+      </resource>
+      <resource name="wgt">
+        <object>Waga:</object>
+      </resource>
+      <resource name="ok">
+        <object>OK</object>
+      </resource>
+      <resource name="PackFinderById_caption">
+        <object>Wprowadź identyfikator</object>
+      </resource>
+      <resource name="PackFinderBySSCC_caption">
+        <object>Wprowadź SSCC</object>
+      </resource>
+      <resource name="PackFinderByExtnum_caption">
+        <object>Wprowadź numer zewnętrzny</object>
+      </resource>
+      <resource name="PackFinderBySiteAndNumber_caption">
+        <object>Obiekt i numer</object>
+      </resource>
+      <resource name="PackFinderByOrderAndOrderNum_caption">
+        <object>Zlecenie i numer</object>
+      </resource>
+      <resource name="PackFinderByInventoryAndInvNum_caption">
+        <object>Inwentarz i numer</object>
+      </resource>
+      <resource name="CollectionFinderById_caption">
+        <object>Wprowadź identyfikator</object>
+      </resource>
+      <resource name="CollectionFinderBySSCC_caption">
+        <object>Wprowadź SSCC</object>
+      </resource>
+      <resource name="CollectionFinderByExtnum_caption">
+        <object>Wprowadź numer zewnętrzny</object>
+      </resource>
+      <resource name="CollectionFinderBySiteAndNumber_caption">
+        <object>Obiekt i numer</object>
+      </resource>
+      <resource name="CollectionFinderByOrderAndOrderNum_caption">
+        <object>Zlecenie i numer</object>
+      </resource>
+      <resource name="CollectionFinderByInventoryAndInvNum_caption">
+        <object>Inwentarz i numer</object>
+      </resource>
+      <resource name="ItemFinderById_caption">
+        <object>Wprowadź identyfikator</object>
+      </resource>
+      <resource name="ItemFinderByExtnum_caption">
+        <object>Wprowadź numer zewnętrzny</object>
+      </resource>
+      <resource name="ItemFinderBySiteAndNumber_caption">
+        <object>Obiekt i numer</object>
+      </resource>
+      <resource name="ItemFinderByDeviceAndAlibi_caption">
+        <object>Urządzenie i alibi </object>
+      </resource>
+      <resource name="PackFinderById_numberprompt">
+        <object>Numer:</object>
+      </resource>
+      <resource name="PackFinderBySSCC_numberprompt">
+        <object>SSCC:</object>
+      </resource>
+      <resource name="PackFinderByExtnum_numberprompt">
+        <object>Numer:</object>
+      </resource>
+      <resource name="PackFinderBySiteAndNumber_numberprompt">
+        <object>Numer:</object>
+      </resource>
+      <resource name="PackFinderByOrderAndOrderNum_numberprompt">
+        <object>Numer:</object>
+      </resource>
+      <resource name="PackFinderByInventoryAndInvNum_numberprompt">
+        <object>Numer:</object>
+      </resource>
+      <resource name="CollectionFinderById_numberprompt">
+        <object>Numer:</object>
+      </resource>
+      <resource name="CollectionFinderBySSCC_numberprompt">
+        <object>SSCC:</object>
+      </resource>
+      <resource name="CollectionFinderByExtnum_numberprompt">
+        <object>Numer:</object>
+      </resource>
+      <resource name="CollectionFinderBySiteAndNumber_numberprompt">
+        <object>Numer:</object>
+      </resource>
+      <resource name="CollectionFinderByOrderAndOrderNum_numberprompt">
+        <object>Numer:</object>
+      </resource>
+      <resource name="CollectionFinderByInventoryAndInvNum_numberprompt">
+        <object>Numer:</object>
+      </resource>
+      <resource name="ItemFinderById_numberprompt">
+        <object>Numer:</object>
+      </resource>
+      <resource name="ItemFinderByExtnum_numberprompt">
+        <object>Numer:</object>
+      </resource>
+      <resource name="ItemFinderBySiteAndNumber_numberprompt">
+        <object>Numer:</object>
+      </resource>
+      <resource name="ItemFinderByDeviceAndAlibi_numberprompt">
+        <object>Alibi:</object>
+      </resource>
+      <resource name="PackFinderBySiteAndNumber_objectprompt">
+        <object>Obiekt:</object>
+      </resource>
+      <resource name="PackFinderByOrderAndOrderNum_objectprompt">
+        <object>Zlecenie:</object>
+      </resource>
+      <resource name="PackFinderByInventoryAndInvNum_objectprompt">
+        <object>Inwen.  :</object>
+      </resource>
+      <resource name="CollectionFinderBySiteAndNumber_objectprompt">
+        <object>Obiekt:</object>
+      </resource>
+      <resource name="CollectionFinderByOrderAndOrderNum_objectprompt">
+        <object>Zlecenie:</object>
+      </resource>
+      <resource name="CollectionFinderByInventoryAndInvNum_objectprompt">
+        <object>Inwen.  :</object>
+      </resource>
+      <resource name="ItemFinderBySiteAndNumber_objectprompt">
+        <object>Obiekt:</object>
+      </resource>
+      <resource name="ItemFinderByDeviceAndAlibi_objectprompt">
+        <object>Urządzenie:</object>
+      </resource>
+      <resource name="clear">
+        <object>Wyczyść</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.EmployeeLogin" ServiceOnly="false">
+      <resource name="EmployeePrompt">
+        <object>Pracownik:</object>
+      </resource>
+      <resource name="PasswordPrompt">
+        <object>Hasło:</object>
+      </resource>
+      <resource name="InvalidPassword">
+        <object>Niepoprawne hasło</object>
+      </resource>
+      <resource name="PasswordOk">
+        <object>Hasło OK</object>
+      </resource>
+      <resource name="LoginLegend">
+        <object>Logowanie</object>
+      </resource>
+      <resource name="NameLabel">
+        <object>Nazwa:</object>
+      </resource>
+      <resource name="ScreenCaption">
+        <object>Logowanie</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.RfidDisplay" ServiceOnly="false">
+      <resource name="Caption">
+        <object />
+      </resource>
+      <resource name="Clear">
+        <object>Wyczyść</object>
+      </resource>
+      <resource name="IdNotFound">
+        <object>Nie znaleziono</object>
+      </resource>
+      <resource name="IdLabel">
+        <object>Identyfikator: </object>
+      </resource>
+      <resource name="WeightLabel">
+        <object>Waga: </object>
+      </resource>
+      <resource name="TimeLabel">
+        <object>Czas: </object>
+      </resource>
+      <resource name="UnitLabel">
+        <object>Jednostka: </object>
+      </resource>
+      <resource name="MaterialLabel">
+        <object>Produkt: </object>
+      </resource>
+      <resource name="PoLabel">
+        <object>Zamówienie: </object>
+      </resource>
+      <resource name="BatchLabel">
+        <object>Porcja: </object>
+      </resource>
+      <resource name="LotLabel">
+        <object>Partia: </object>
+      </resource>
+      <resource name="ProductionLotLabel">
+        <object>Partia prod.: </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.EmployeeId" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Przypisywanie identyfikatora do pracownika</object>
+      </resource>
+      <resource name="EmployeeCaption">
+        <object>Wybierz pracownika</object>
+      </resource>
+      <resource name="IdLabel">
+        <object>Identyfikator:</object>
+      </resource>
+      <resource name="EmployeeLabel">
+        <object>Pracownik:</object>
+      </resource>
+      <resource name="MultipleFound">
+        <object>(znaleziono wiele)</object>
+      </resource>
+      <resource name="Clear">
+        <object>Wyczyść</object>
+      </resource>
+      <resource name="Assign">
+        <object>Puste</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="de">
+  <industry>
+    <type name="Marel.Mp5.Base.Programs.ExecutableType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nicht angegeben</object>
+      </resource>
+      <resource name="Binary">
+        <object>Separat ausführbar</object>
+      </resource>
+      <resource name="Command">
+        <object>Befehlsdatei</object>
+      </resource>
+      <resource name="AppDomain">
+        <object>AppDomain-Programmdatei</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nicht angegeben</object>
+      </resource>
+      <resource name="ProgramManager">
+        <object>Programmmanager</object>
+      </resource>
+      <resource name="NetworkRouter">
+        <object>Netzwerkrouter</object>
+      </resource>
+      <resource name="SystemService">
+        <object>Systemdienst</object>
+      </resource>
+      <resource name="ControlProgram">
+        <object>Steuerprogramm</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduleType" ServiceOnly="true">
+      <resource name="Never">
+        <object>Niemals</object>
+      </resource>
+      <resource name="Sequence">
+        <object>In Programmsequenz</object>
+      </resource>
+      <resource name="Daily">
+        <object>Täglich</object>
+      </resource>
+      <resource name="Weekly">
+        <object>Wöchentlich</object>
+      </resource>
+      <resource name="Monthly">
+        <object>Monatlich</object>
+      </resource>
+      <resource name="Yearly">
+        <object>Jährlich</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.SystemProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Initialstatus</object>
+      </resource>
+      <resource name="Error">
+        <object>Fehler</object>
+      </resource>
+      <resource name="Running">
+        <object>Wird ausgeführt</object>
+      </resource>
+      <resource name="Stopping">
+        <object>Wird gestoppt</object>
+      </resource>
+      <resource name="Dead">
+        <object>Stillgelegt</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Gestoppt</object>
+      </resource>
+      <resource name="RunWait">
+        <object>Wartet auf Start</object>
+      </resource>
+      <resource name="StopWait">
+        <object>Wartet auf Stopp</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ExecuteProgramState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Initialisiert</object>
+      </resource>
+      <resource name="Executing">
+        <object>Wird ausgeführt</object>
+      </resource>
+      <resource name="Completed">
+        <object>Abgeschlossen</object>
+      </resource>
+      <resource name="CompletedLate">
+        <object>Verspätet abgeschlossen</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Beendet</object>
+      </resource>
+      <resource name="Error">
+        <object>Fehler</object>
+      </resource>
+      <resource name="Terminating">
+        <object>Wird beendet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ManagerState" ServiceOnly="true">
+      <resource name="Initial">
+        <object>Initialstatus</object>
+      </resource>
+      <resource name="RefreshingList">
+        <object>Programmliste wird aktualisiert</object>
+      </resource>
+      <resource name="Running">
+        <object>Wird ausgeführt</object>
+      </resource>
+      <resource name="Shutdown">
+        <object>Herunterfahren</object>
+      </resource>
+      <resource name="ShutdownMsg">
+        <object>Systemdienst wird heruntergefahren</object>
+      </resource>
+      <resource name="ShutdownComplete">
+        <object>Abschaltung ist beendet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ResponseState" ServiceOnly="true">
+      <resource name="CantCheck">
+        <object>Überprüfung nicht möglich</object>
+      </resource>
+      <resource name="NotChecked">
+        <object>Nicht überprüft</object>
+      </resource>
+      <resource name="Responding">
+        <object>Antwortet</object>
+      </resource>
+      <resource name="NotResponding">
+        <object>Antwortet nicht</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ScheduledProgramState" ServiceOnly="true">
+      <resource name="Executed">
+        <object>Ausgeführt</object>
+      </resource>
+      <resource name="ExecutedWait">
+        <object>Nach geplantem Zeitpunkt ausgeführt</object>
+      </resource>
+      <resource name="ExecutedRequest">
+        <object>Auf Anforderung ausgeführt</object>
+      </resource>
+      <resource name="Missed">
+        <object>Geplanten Zeitpunkt verpasst</object>
+      </resource>
+      <resource name="StoppedOnTime">
+        <object>Abgeschlossen</object>
+      </resource>
+      <resource name="StoppedLate">
+        <object>Verspätet abgeschlossen</object>
+      </resource>
+      <resource name="Terminated">
+        <object>Beendet</object>
+      </resource>
+      <resource name="Error">
+        <object>Fehler</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.InterfaceType" ServiceOnly="true">
+      <resource name="NotHandled">
+        <object>Nicht behandelt</object>
+      </resource>
+      <resource name="TcpIpMarel">
+        <object>TCP/IP Marel</object>
+      </resource>
+      <resource name="TcpIpOther">
+        <object>TCP/IP Sonstige</object>
+      </resource>
+      <resource name="Rs232">
+        <object>RS232</object>
+      </resource>
+      <resource name="LonMarel">
+        <object>LON</object>
+      </resource>
+      <resource name="CanMaster">
+        <object>CAN über CanMaster</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nicht angegeben</object>
+      </resource>
+      <resource name="Limited">
+        <object>Eingeschränkt</object>
+      </resource>
+      <resource name="Unlimited">
+        <object>Uneingeschränkt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Services.LicenseLogType" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nicht angegeben</object>
+      </resource>
+      <resource name="Issued">
+        <object>Lizenz ausgegeben</object>
+      </resource>
+      <resource name="Returned">
+        <object>Lizenz zurückgegeben</object>
+      </resource>
+      <resource name="LeaseExpired">
+        <object>Leasing ist abgelaufen</object>
+      </resource>
+      <resource name="UnknownType">
+        <object>Unbekannter Lizenztyp</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.AccessLevel" ServiceOnly="false">
+      <resource name="Undefined">
+        <object>Undefiniert</object>
+      </resource>
+      <resource name="PersonalData">
+        <object>Arbeiter</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Leser</object>
+      </resource>
+      <resource name="Operator">
+        <object>Bediener</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Kontrolleur</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Administrator</object>
+      </resource>
+      <resource name="Service">
+        <object>Kundendienst</object>
+      </resource>
+      <resource name="Developer">
+        <object>Entwickler</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.LookupType" ServiceOnly="false">
+      <resource name="NoLookup">
+        <object>Keine Suche</object>
+      </resource>
+      <resource name="Named">
+        <object>Suche nach Objektname</object>
+      </resource>
+      <resource name="Numbered">
+        <object>Suche nach Datensatz-ID</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.ReferenceDateMethod" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nicht angegeben</object>
+      </resource>
+      <resource name="ProcessPeriod">
+        <object>Prozesszeitraum</object>
+      </resource>
+      <resource name="Date">
+        <object>Datum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CompressMethod" ServiceOnly="true">
+      <resource name="GroupBy">
+        <object>Gruppe </object>
+      </resource>
+      <resource name="Sum">
+        <object>Summe</object>
+      </resource>
+      <resource name="Min">
+        <object>Minimum</object>
+      </resource>
+      <resource name="Max">
+        <object>Maximum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryChangeType" ServiceOnly="true">
+      <resource name="Insert">
+        <object>Eingefügt</object>
+      </resource>
+      <resource name="Updated">
+        <object>Aktualisiert</object>
+      </resource>
+      <resource name="Delete">
+        <object>Gelöscht</object>
+      </resource>
+      <resource name="AppSpecific">
+        <object>Spezieller Vorgang</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.HistoryLogLevel" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Keine Protokollierung</object>
+      </resource>
+      <resource name="BasicLogging">
+        <object>Datensatzvorgänge protokollieren</object>
+      </resource>
+      <resource name="FullLogging">
+        <object>Alle Vorgänge protokollieren</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationStatus" ServiceOnly="false">
+      <resource name="InActive">
+        <object>Inaktiver Datensatz</object>
+      </resource>
+      <resource name="Pending">
+        <object>Ausstehender Vorgang</object>
+      </resource>
+      <resource name="Current">
+        <object>Erledigt</object>
+      </resource>
+      <resource name="Error">
+        <object>Fehler</object>
+      </resource>
+      <resource name="Ongoing">
+        <object>Konfiguration läuft</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.UpdateAction" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Keine Aktion</object>
+      </resource>
+      <resource name="ExecProgram">
+        <object>Programm ausführen</object>
+      </resource>
+      <resource name="SendRequest">
+        <object>Anforderung senden</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterType" ServiceOnly="false">
+      <resource name="NotSpecified">
+        <object>Nicht angegeben</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupType" ServiceOnly="false">
+      <resource name="PersonalData">
+        <object>Persönliche Daten</object>
+      </resource>
+      <resource name="Viewer">
+        <object>Anzeigeprogramm</object>
+      </resource>
+      <resource name="Operator">
+        <object>Bediener</object>
+      </resource>
+      <resource name="Supervisor">
+        <object>Kontrolleur</object>
+      </resource>
+      <resource name="Administrator">
+        <object>Administrator</object>
+      </resource>
+      <resource name="Service">
+        <object>Kundendienst</object>
+      </resource>
+      <resource name="Custom">
+        <object>Softwarezugang</object>
+      </resource>
+      <resource name="LocationAccess">
+        <object>Standortzugang </object>
+      </resource>
+      <resource name="General">
+        <object>Allgemeine Zwecke</object>
+      </resource>
+      <resource name="Developer">
+        <object>Entwickler</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.GroupAreaType" ServiceOnly="false">
+      <resource name="NoType">
+        <object>Kein Bereich</object>
+      </resource>
+      <resource name="Site">
+        <object>Standort</object>
+      </resource>
+      <resource name="Department">
+        <object>Abteilung</object>
+      </resource>
+      <resource name="Section">
+        <object>Bereich</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Prozesseinheit</object>
+      </resource>
+      <resource name="Station">
+        <object>Station</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Access.EmployeeGroupTimeType" ServiceOnly="false">
+      <resource name="NoRestriction">
+        <object>Keine Beschränkung</object>
+      </resource>
+      <resource name="Weekday">
+        <object>Wochentags</object>
+      </resource>
+      <resource name="MonthDay">
+        <object>Tag des Monats</object>
+      </resource>
+      <resource name="OnDuty">
+        <object>Wenn im Dienst</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Applications.GuiNodeType" ServiceOnly="true">
+      <resource name="ControlForm">
+        <object>Steuerformular</object>
+      </resource>
+      <resource name="Folder">
+        <object>Ordner</object>
+      </resource>
+      <resource name="UserGrid">
+        <object>Benutzerübersicht</object>
+      </resource>
+      <resource name="Log">
+        <object>Protokoll</object>
+      </resource>
+      <resource name="Report">
+        <object>Bericht</object>
+      </resource>
+      <resource name="SetupGrid">
+        <object>Einrichtungsübersicht</object>
+      </resource>
+      <resource name="DocumentTree">
+        <object>Dokumentstruktur</object>
+      </resource>
+      <resource name="Chart">
+        <object>Diagramm</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.DeviceRecord" ServiceOnly="false">
+      <resource name="CanFormat">
+        <object>CAN-Gerät {0} auf {1}</object>
+      </resource>
+      <resource name="LonFormat">
+        <object>LON-Gerät {0} auf {1}</object>
+      </resource>
+      <resource name="Rs232Format">
+        <object>RS232-Gerät auf {0}</object>
+      </resource>
+      <resource name="TcpMarelFormat">
+        <object>Marel TCP/IP-Gerät {0}</object>
+      </resource>
+      <resource name="TcpGenericFormat">
+        <object>Allgemeines TCP/IP-Gerät {0}, Anschluss {1}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.Records.StandardRecord" ServiceOnly="false">
+      <resource name="Copy">
+        <object>Kopieren</object>
+      </resource>
+      <resource name="Of">
+        <object>von</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.ClientSupport.ObjectActiveType" ServiceOnly="false">
+      <resource name="Inactive">
+        <object>Inaktiv</object>
+      </resource>
+      <resource name="Active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="Both">
+        <object>Beides</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Connections.PortType" ServiceOnly="true">
+      <resource name="RemotingTcp">
+        <object>Remote-TCP</object>
+      </resource>
+      <resource name="RemotingHttp">
+        <object>Remote-HTTP</object>
+      </resource>
+      <resource name="SSI">
+        <object>Anschluss</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaDateTimeType" ServiceOnly="false">
+      <resource name="Unspecified">
+        <object>Nicht angegeben</object>
+      </resource>
+      <resource name="ProductionDayFromTo">
+        <object>Produktionstagbereich</object>
+      </resource>
+      <resource name="DateFromTo">
+        <object>Datumsbereich</object>
+      </resource>
+      <resource name="DateTimeFromTo">
+        <object>Datums- und Zeitbereich</object>
+      </resource>
+      <resource name="ProductionDaySingle">
+        <object>Produktionstag</object>
+      </resource>
+      <resource name="DateSingle">
+        <object>Datum</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.CriteriaType" ServiceOnly="false">
+      <resource name="Lookup">
+        <object>Suche</object>
+      </resource>
+      <resource name="DateTime">
+        <object>Datum und Zeit</object>
+      </resource>
+      <resource name="SingleInteger">
+        <object>Einzelne Ganzzahl</object>
+      </resource>
+      <resource name="IntegerList">
+        <object>Ganzzahlliste</object>
+      </resource>
+      <resource name="SingleFloat">
+        <object>Einzelner Gleitkommawert</object>
+      </resource>
+      <resource name="String">
+        <object>Zeichenfolge</object>
+      </resource>
+      <resource name="CheckBox">
+        <object>Kontrollkästchen</object>
+      </resource>
+      <resource name="ComboBox">
+        <object>Kombinationsfeld</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Database.DataRecordType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Normal</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Gesamt</object>
+      </resource>
+      <resource name="Pending">
+        <object>Ausstehend</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Gelöscht</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ungültig</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Komprimiert</object>
+      </resource>
+      <resource name="Partial">
+        <object>Partiell</object>
+      </resource>
+      <resource name="Yield">
+        <object>Ertrag</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Umgekehrt</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Urlaub</object>
+      </resource>
+      <resource name="Generated">
+        <object>Erzeugt</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Verbraucht</object>
+      </resource>
+      <resource name="Returned">
+        <object>Zurückgegeben</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.ConfigurationOpType" ServiceOnly="true">
+      <resource name="Send">
+        <object>Senden</object>
+      </resource>
+      <resource name="Get">
+        <object>Abrufen</object>
+      </resource>
+      <resource name="GetCopy">
+        <object>Kopie abrufen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.RegisterDataType" ServiceOnly="false">
+      <resource name="Integer">
+        <object>Ganzzahl</object>
+      </resource>
+      <resource name="Float">
+        <object>Gleitkommazahl</object>
+      </resource>
+      <resource name="String">
+        <object>Zeichenfolge</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Devices.StatusCheckMode" ServiceOnly="false">
+      <resource name="PendingOnline">
+        <object>Ausstehend bis online</object>
+      </resource>
+      <resource name="Online">
+        <object>Nur wenn online</object>
+      </resource>
+      <resource name="NoCheck">
+        <object>Status nicht überprüft</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Programs.ProgramType" ServiceOnly="true">
+      <resource name="Unkown">
+        <object>Unbekannt</object>
+      </resource>
+      <resource name="SystemProgram">
+        <object>Systemprogramm</object>
+      </resource>
+      <resource name="ScheduledProgram">
+        <object>Geplantes Programm</object>
+      </resource>
+      <resource name="RequestedProgram">
+        <object>Angefordertes Programm</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.KeyType" ServiceOnly="true">
+      <resource name="Temporary">
+        <object>Temporär</object>
+      </resource>
+      <resource name="Permanent">
+        <object>Permanent</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Licensing.LogReason" ServiceOnly="true">
+      <resource name="UnknownFeature">
+        <object>Unbekannte Funktion</object>
+      </resource>
+      <resource name="MaxInstances">
+        <object>Max. Anzahl oder Instanzen erreicht</object>
+      </resource>
+      <resource name="UnknownVersion">
+        <object>Unbekannte Version angefordert</object>
+      </resource>
+      <resource name="SignatureFailure">
+        <object>Signaturen stimmen nicht überein</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Configuration.VerifyStatus" ServiceOnly="false">
+      <resource name="NotVerified">
+        <object>Nicht überprüft</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ungültig</object>
+      </resource>
+      <resource name="Verified">
+        <object>Überprüft</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.AlarmConfigurationListRecordCsvFileReader" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Fehler beim Verarbeiten der Linie über eine CSV-Datei</object>
+      </resource>
+      <resource name="ErrorCreatingRecord">
+        <object>Ausnahmebedingung beim Schreiben von Daten in den Alarmkonfigurationsdatensatz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.ImportCsvFile" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Fehler beim Verarbeiten der Linie über eine CSV-Datei</object>
+      </resource>
+      <resource name="ErrorCreatingRecord">
+        <object>Ausnahmebedingung beim Schreiben von Daten in den Alarmkonfigurationsdatensatz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.Alarms.ExportCsvFile" ServiceOnly="false">
+      <resource name="ErrorProcessingLine">
+        <object>Fehler beim Verarbeiten der Linie über Alarm Konfig</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.TerminalController" ServiceOnly="false">
+      <resource name="SelectAlternateTask">
+        <object>Select alternate task</object>
+      </resource>
+      <resource name="TaskGroups">
+        <object>Task groups</object>
+      </resource> 
+      <resource name="AssignId">
+        <object>Assign ID to employee</object>
+      </resource>  
+      <resource name="ActiveInTaskGroups">
+        <object>Active task groups</object>
+      </resource> 
+      <resource name="RawBufferWeight">
+        <object>View scale</object>
+      </resource> 
+      <resource name="InvalidItem">
+        <object>Invalid item</object>
+      </resource>
+      <resource name="Initializing">
+        <object>Initializing...</object>
+      </resource>
+      <resource name="ChangingEmployees">
+        <object>Changing employees...</object>
+      </resource>
+      <resource name="Message">
+        <object>Message</object>
+      </resource>
+      <resource name="LogginIn">
+        <object>Logging in...</object>
+      </resource>
+      <resource name="Error">
+        <object>Error</object>
+      </resource>
+      <resource name="GetChangeReason">
+        <object>Error getting change reason set</object>
+      </resource>
+      <resource name="cutupDestination">
+        <object>Destination: {0}</object>
+      </resource>
+      <resource name="noBufferForPiece">
+        <object>No buffer for this product</object>
+      </resource>
+      <resource name="Warning">
+        <object>Warning</object>
+      </resource>
+      <resource name="Caption">
+        <object>Select product</object>
+      </resource>
+      <resource name="NewPattern">
+        <object>New pattern: </object>
+      </resource>
+      <resource name="NewLot">
+        <object>New lot: </object>
+      </resource>
+      <resource name="SRMWarning">
+        <object>SRM Piece</object>
+      </resource>
+      <resource name="NewTrimWarningCaption">
+        <object>New trim setup</object>
+      </resource>
+      <resource name="SelectOperation">
+        <object>Select operation</object>
+      </resource>
+      <resource name="AlternateTask">
+        <object>Change task</object>
+      </resource>
+      <resource name="AlternateProduct">
+        <object>Change product</object>
+      </resource>
+      <resource name="ViewTrimBuffers">
+        <object>View trim buffers</object>
+      </resource>
+      <resource name="DisplayPieceDetails">
+        <object>Display piece details</object>
+      </resource>
+      <resource name="StopInfeed">
+        <object>Stop infeed</object>
+      </resource>
+      <resource name="StartInfeed">
+        <object>Start infeed</object>
+      </resource>
+      <resource name="MovePiece">
+        <object>Move piece</object>
+      </resource>
+      <resource name="DeletePiece">
+        <object>Delete piece</object>
+      </resource>
+      <resource name="ManualMode">
+        <object>Manual mode</object>
+      </resource>
+      <resource name="AutoMode">
+        <object>Automatic mode</object>
+      </resource>
+      <resource name="RecentItems">
+        <object>Display recent final items</object>
+      </resource>
+      <resource name="DisplayRecentPieces">
+        <object>Display recent pieces</object>
+      </resource>
+      <resource name="Performance">
+        <object>Display performance</object>
+      </resource>
+      <resource name="NoRecentItems">
+        <object>No recent items</object>
+      </resource>
+      <resource name="ConfirmDelete">
+        <object>Confirm delete</object>
+      </resource>
+      <resource name="SelectStation">
+        <object>Select station</object>
+      </resource>
+      <resource name="RecentPieces">
+        <object>Recent pieces</object>
+      </resource>
+      <resource name="NoRecentPieces">
+        <object>No recent pieces</object>
+      </resource>
+      <resource name="TrimBuffers">
+        <object>Trim buffers</object>
+      </resource>
+      <resource name="AsyncOpCaption">
+        <object>Executing Operation</object>
+      </resource>
+      <resource name="AsyncOpMessage">
+        <object>Please wait a moment.</object>
+      </resource>
+      <resource name="InfoMessage">
+        <object>Info</object>
+      </resource>
+      <resource name="Exception">
+        <object>Exception</object>
+      </resource>
+      <resource name="InfeedStopped">
+        <object>Infeed stopped</object>
+      </resource>
+      <resource name="InfeedStarted">
+        <object>Infeed started</object>
+      </resource>
+      <resource name="Ready">
+        <object>Ready</object>
+      </resource>
+      <resource name="NotReady">
+        <object>Not ready</object>
+      </resource>
+      <resource name="BatchInactive">
+        <object>No batch</object>
+      </resource>
+      <resource name="EnableScannerFailed">
+        <object>Scanner could not be turned on</object>
+      </resource>
+      <resource name="DisableScannerFailed">
+        <object>Scanner could not be turned off</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.CutupTaskScreenWeb" ServiceOnly="false">
+      <resource name="Cutup">
+        <object>Cutup</object>
+      </resource>
+      <resource name="Ready">
+        <object>Ready</object>
+      </resource>
+      <resource name="TargetWeight">
+        <object>Target</object>
+      </resource>
+      <resource name="Buffer">
+        <object>Buffer</object>
+      </resource>
+      <resource name="NoReleaseRequired">
+        <object>No release/weighing required</object>
+      </resource>
+      <resource name="NoBuffer">
+        <object>No buffer</object>
+      </resource>
+      <resource name="NoTargetWeight">
+        <object>No target</object>
+      </resource>
+      <resource name="SRMCaption">
+        <object>SRM PIECE</object>
+      </resource>
+      <resource name="ProcessingTime">
+        <object>Processing time</object>
+      </resource>
+      <resource name="Seconds">
+        <object>sec</object>
+      </resource>
+      <resource name="NoProduct">
+        <object>(No product)</object>
+      </resource>
+      <resource name="noProdInBuffer">
+        <object>Empty</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.PieceDetailsScreenWeb" ServiceOnly="false">
+      <resource name="RegTime">
+        <object>Time:</object>
+      </resource>
+      <resource name="Lot">
+        <object>Lot:</object>
+      </resource>
+      <resource name="FromStation">
+        <object>From station:</object>
+      </resource>
+      <resource name="FromEmployee">
+        <object>From employee:</object>
+      </resource>
+      <resource name="YieldGroup">
+        <object>Yield grp.:</object>
+      </resource>
+      <resource name="QaMark1Ind">
+        <object>Ind. QA1:</object>
+      </resource>
+      <resource name="QaMark1Lot">
+        <object>Lot QA1:</object>
+      </resource>
+      <resource name="PieceInformation">
+        <object>Piece information</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.PieceFinishedScreenWeb" ServiceOnly="false">
+      <resource name="PieceFinishedCaption">
+        <object>Finished</object>
+      </resource>
+      <resource name="PieceFinishedMessage">
+        <object>Piece is finished</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.PieceTaskScreenWeb" ServiceOnly="false">
+      <resource name="Ready">
+        <object>Ready</object>
+      </resource>
+      <resource name="Buffer">
+        <object>Buffer</object>
+      </resource>
+      <resource name="SRMCaption">
+        <object>SRM PIECE</object>
+      </resource>
+      <resource name="ProcessingTime">
+        <object>Processing time</object>
+      </resource>
+      <resource name="Seconds">
+        <object>sec</object>
+      </resource>
+      <resource name="Piece">
+        <object>Piece</object>
+      </resource>
+      <resource name="NoBuffer">
+        <object>No buffer</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.RecentItemsScreenWeb" ServiceOnly="false">
+      <resource name="RecentItems">
+        <object>Recent items</object>
+      </resource>
+      <resource name="Id">
+        <object>Id</object>
+      </resource>
+      <resource name="ItemName">
+        <object>Name</object>
+      </resource>
+      <resource name="Weight">
+        <object>Weight</object>
+      </resource>
+      <resource name="ExtCode">
+        <object>Ext. Code</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.SelectPieceScreenWeb" ServiceOnly="false">
+      <resource name="SelectPiece">
+        <object>Select piece</object>
+      </resource>
+      <resource name="NoPieces">
+        <object>No pieces</object>
+      </resource>
+      <resource name="Id">
+        <object>Id</object>
+      </resource>
+      <resource name="ProductName">
+        <object>Name</object>
+      </resource>
+      <resource name="ProductShName">
+        <object>Sh. Name</object>
+      </resource>
+      <resource name="Weight">
+        <object>Weight</object>
+      </resource>
+      <resource name="StatusIndicator">
+        <object>Status Indicator</object>
+      </resource>
+      <resource name="ExtCode">
+        <object>Ext. Code</object>
+      </resource>
+      <resource name="ParentItemId">
+        <object>Parent Item Id</object>
+      </resource>
+      <resource name="Barcode">
+        <object>Barcode</object>
+      </resource>
+      <resource name="SlCode">
+        <object>Slaughter Code</object>
+      </resource>
+      <resource name="IdContainer">
+        <object>Id Container</object>
+      </resource>
+      <resource name="FromEmployee">
+        <object>From</object>
+      </resource>
+      <resource name="ProcItemId">
+        <object>Proc. Item Id</object>
+      </resource>
+      <resource name="StationShName">
+        <object>Station</object>
+      </resource>
+      <resource name="SequenceNumber">
+        <object>Sequence Number</object>
+      </resource>
+      <resource name="PackSize">
+        <object>Pack Size</object>
+      </resource>
+      <resource name="YieldGroupName">
+        <object>Yield Group</object>
+      </resource>
+      <resource name="YieldGroupShName">
+        <object>Sh. Yield Group</object>
+      </resource>
+      <resource name="YgCategoryName">
+        <object>Yg Category</object>
+      </resource>
+      <resource name="YgCategoryShName">
+        <object>Sh. Yg Category</object>
+      </resource>
+      <resource name="Description1">
+        <object>Description 1</object>
+      </resource>
+      <resource name="Description2">
+        <object>Description 2</object>
+      </resource>
+      <resource name="Description3">
+        <object>Description 3</object>
+      </resource>
+      <resource name="Description4">
+        <object>Description 4</object>
+      </resource>
+      <resource name="Description5">
+        <object>Description 5</object>
+      </resource>
+      <resource name="Description6">
+        <object>Description 6</object>
+      </resource>
+      <resource name="Description7">
+        <object>Description 7</object>
+      </resource>
+      <resource name="Description8">
+        <object>Description 8</object>
+      </resource>
+      <resource name="FromStationShName">
+        <object>From</object>
+      </resource>
+      <resource name="FromStationDesc1">
+        <object>From Description</object>
+      </resource>
+      <resource name="ItCntMax">
+        <object>Max Pieces per Item</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.RecentPiecesScreenWeb" ServiceOnly="false">
+      <resource name="RecentPieces">
+        <object>Recent pieces</object>
+      </resource>
+      <resource name="NoPieces">
+        <object>No pieces</object>
+      </resource>
+      <resource name="Id">
+        <object>Id</object>
+      </resource>
+      <resource name="ProductName">
+        <object>Name</object>
+      </resource>
+      <resource name="ProductShName">
+        <object>Sh. Name</object>
+      </resource>
+      <resource name="Weight">
+        <object>Weight</object>
+      </resource>
+      <resource name="StatusIndicator">
+        <object>Status Indicator</object>
+      </resource>
+      <resource name="ExtCode">
+        <object>Ext. Code</object>
+      </resource>
+      <resource name="ParentItemId">
+        <object>Parent Item Id</object>
+      </resource>
+      <resource name="Barcode">
+        <object>Barcode</object>
+      </resource>
+      <resource name="SlCode">
+        <object>Slaughter Code</object>
+      </resource>
+      <resource name="IdContainer">
+        <object>Id Container</object>
+      </resource>
+      <resource name="FromEmployee">
+        <object>From</object>
+      </resource>
+      <resource name="ProcItemId">
+        <object>Proc. Item Id</object>
+      </resource>
+      <resource name="StationShName">
+        <object>Station</object>
+      </resource>
+      <resource name="SequenceNumber">
+        <object>Sequence Number</object>
+      </resource>
+      <resource name="PackSize">
+        <object>Pack Size</object>
+      </resource>
+      <resource name="YieldGroupName">
+        <object>Yield Group</object>
+      </resource>
+      <resource name="YieldGroupShName">
+        <object>Sh. Yield Group</object>
+      </resource>
+      <resource name="YgCategoryName">
+        <object>Yg Category</object>
+      </resource>
+      <resource name="YgCategoryShName">
+        <object>Sh. Yg Category</object>
+      </resource>
+      <resource name="Description1">
+        <object>Description 1</object>
+      </resource>
+      <resource name="Description2">
+        <object>Description 2</object>
+      </resource>
+      <resource name="Description3">
+        <object>Description 3</object>
+      </resource>
+      <resource name="Description4">
+        <object>Description 4</object>
+      </resource>
+      <resource name="Description5">
+        <object>Description 5</object>
+      </resource>
+      <resource name="Description6">
+        <object>Description 6</object>
+      </resource>
+      <resource name="Description7">
+        <object>Description 7</object>
+      </resource>
+      <resource name="Description8">
+        <object>Description 8</object>
+      </resource>
+      <resource name="FromStationShName">
+        <object>From</object>
+      </resource>
+      <resource name="FromStationDesc1">
+        <object>From Description</object>
+      </resource>
+      <resource name="ItCntMax">
+        <object>Max Pieces per Item</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.PiecesToPackScreenWeb" ServiceOnly="false">
+      <resource name="SelectPiece">
+        <object>Select piece</object>
+      </resource>
+      <resource name="Id">
+        <object>Id</object>
+      </resource>
+      <resource name="ProductName">
+        <object>Name</object>
+      </resource>
+      <resource name="ProductShName">
+        <object>Sh. Name</object>
+      </resource>
+      <resource name="Weight">
+        <object>Weight</object>
+      </resource>
+      <resource name="StatusIndicator">
+        <object>Status Indicator</object>
+      </resource>
+      <resource name="ExtCode">
+        <object>Ext. Code</object>
+      </resource>
+      <resource name="ParentItemId">
+        <object>Parent Item Id</object>
+      </resource>
+      <resource name="Barcode">
+        <object>Barcode</object>
+      </resource>
+      <resource name="SlCode">
+        <object>Slaughter Code</object>
+      </resource>
+      <resource name="IdContainer">
+        <object>Id Container</object>
+      </resource>
+      <resource name="FromEmployee">
+        <object>From</object>
+      </resource>
+      <resource name="ProcItemId">
+        <object>Proc. Item Id</object>
+      </resource>
+      <resource name="StationShName">
+        <object>Station</object>
+      </resource>
+      <resource name="SequenceNumber">
+        <object>Sequence Number</object>
+      </resource>
+      <resource name="PackSize">
+        <object>Pack Size</object>
+      </resource>
+      <resource name="YieldGroupName">
+        <object>Yield Group</object>
+      </resource>
+      <resource name="YieldGroupShName">
+        <object>Sh. Yield Group</object>
+      </resource>
+      <resource name="YgCategoryName">
+        <object>Yg Category</object>
+      </resource>
+      <resource name="YgCategoryShName">
+        <object>Sh. Yg Category</object>
+      </resource>
+      <resource name="Description1">
+        <object>Description 1</object>
+      </resource>
+      <resource name="Description2">
+        <object>Description 2</object>
+      </resource>
+      <resource name="Description3">
+        <object>Description 3</object>
+      </resource>
+      <resource name="Description4">
+        <object>Description 4</object>
+      </resource>
+      <resource name="Description5">
+        <object>Description 5</object>
+      </resource>
+      <resource name="Description6">
+        <object>Description 6</object>
+      </resource>
+      <resource name="Description7">
+        <object>Description 7</object>
+      </resource>
+      <resource name="Description8">
+        <object>Description 8</object>
+      </resource>
+      <resource name="FromStationShName">
+        <object>From Station</object>
+      </resource>
+      <resource name="FromStationDesc1">
+        <object>From Station Description</object>
+      </resource>
+      <resource name="ItCntMax">
+        <object>Max. Num. Pieces per Item</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.LoginScreenWeb" ServiceOnly="false">
+      <resource name="LineClosed">
+        <object>Line closed due to day profile</object>
+      </resource>
+      <resource name="PleaseLogin">
+        <object>Please login to continue</object>
+      </resource>
+      <resource name="LoginFailed">
+        <object>Login failed</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.StandardPerformanceScreenWeb" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Performance</object>
+      </resource>
+      <resource name="NoDataAvailable">
+        <object>No data available</object>
+      </resource>
+      <resource name="InputCap">
+        <object>Input</object>
+      </resource>
+      <resource name="Total">
+        <object>Total</object>
+      </resource>
+      <resource name="You">
+        <object>You</object>
+      </resource>
+      <resource name="InputPiecesCap">
+        <object>Input pieces</object>
+      </resource>
+      <resource name="InputWeightCap">
+        <object>Input weight</object>
+      </resource>
+      <resource name="PrimaryWeightCap">
+        <object>Prim. wgt</object>
+      </resource>
+      <resource name="PrimaryWeightStationValueCap">
+        <object>Your primary yield</object>
+      </resource>
+      <resource name="PrimaryWeightLineValueCap">
+        <object>Line primary yield</object>
+      </resource>
+      <resource name="PrimaryWeightStationWeight">
+        <object>Station weight</object>
+      </resource>
+      <resource name="StationTargetWeight">
+        <object>Station target weight</object>
+      </resource>
+      <resource name="PrimaryValueCap">
+        <object>Prim. val</object>
+      </resource>
+      <resource name="PrimaryValueStationCap">
+        <object>Your primary value</object>
+      </resource>
+      <resource name="PrimaryValueLineCap">
+        <object>Line primary value</object>
+      </resource>
+      <resource name="PrimaryValueStationValue">
+        <object>Station value</object>
+      </resource>
+      <resource name="PrimaryValueStationTargetValue">
+        <object>Station target value</object>
+      </resource>
+      <resource name="InputPerfCap">
+        <object>Thru. wgt</object>
+      </resource>
+      <resource name="InputPerfStationCap">
+        <object>Your throughput weight</object>
+      </resource>
+      <resource name="InputPerfLineCap">
+        <object>Line throughput weight</object>
+      </resource>
+      <resource name="OutputPerfCap">
+        <object>P-Thru. wgt</object>
+      </resource>
+      <resource name="OutputPerfStationCap">
+        <object>Your primary throughput</object>
+      </resource>
+      <resource name="OutputPerfLineCap">
+        <object>Line primary throughput</object>
+      </resource>
+      <resource name="InputPcsPerfCap">
+        <object>Thru. pcs</object>
+      </resource>
+      <resource name="InputPcsPerfStationCap">
+        <object>Your throughput pieces</object>
+      </resource>
+      <resource name="InputPcsPerfLineCap">
+        <object>Line throughput pieces</object>
+      </resource>
+      <resource name="OutputPcsPerfCap">
+        <object>P-Thru. pcs</object>
+      </resource>
+      <resource name="OutputPcsPerfStationCap">
+        <object>Your pcs/hour</object>
+      </resource>
+      <resource name="OutputPcsPerfLineCap">
+        <object>Line pcs/hour</object>
+      </resource>
+      <resource name="QcCap">
+        <object>QC</object>
+      </resource>
+      <resource name="QcStationCap">
+        <object>Your QC</object>
+      </resource>
+      <resource name="QcLineCap">
+        <object>Line QC</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.BatchScreenWeb" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Batch information</object>
+      </resource>
+      <resource name="BatchInactive">
+        <object>No batch active</object>
+      </resource>
+      <resource name="BatchComplete">
+        <object>Batch complete</object>
+      </resource>
+      <resource name="BatchProduct">
+        <object>Product</object>
+      </resource>
+      <resource name="BatchTarget">
+        <object>Target</object>
+      </resource>
+      <resource name="BatchWeight">
+        <object>Weight</object>
+      </resource>
+      <resource name="BatchCount">
+        <object>Count</object>
+      </resource>
+      <resource name="LotCaption">
+        <object>Lot</object>
+      </resource>
+      <resource name="InfeedStopped">
+        <object>Infeed stopped</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.TerminateBatchScreenWeb" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Terminate batch?</object>
+      </resource>
+      <resource name="ConfirmBatchTermination">
+        <object>Terminate current batch?</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.TrimBuffersScreenWeb" ServiceOnly="false">
+      <resource name="NewTrimWarningCaption">
+        <object>New trim setup</object>
+      </resource>
+      <resource name="TrimSetupCaption">
+        <object>Current trim setup</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Deboning.UI.WebSocket.Terminals.Screens.Input.InputScreenWeb" ServiceOnly="false">
+      <resource name="InputItem">
+        <object>Input item</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

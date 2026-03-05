@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="nl">
+  <industry>
+    <type name="Grid.Alarms.AlarmEvents" ServiceOnly="false">
+      <resource name="base_alarmevents_id">
+        <object>Id</object>
+      </resource>
+      <resource name="base_alarms_name">
+        <object>Alarm</object>
+      </resource>
+      <resource name="base_alarmevents_state">
+        <object>Status</object>
+      </resource>
+      <resource name="base_alarmevents_statedescription">
+        <object>Statusbeschrijving</object>
+      </resource>
+      <resource name="base_alarmevents_stateshortdescription">
+        <object>Korte beschrijving van status</object>
+      </resource>
+      <resource name="base_alarmevents_alarmon">
+        <object>Alarm aan</object>
+      </resource>
+      <resource name="base_alarmevents_regtime">
+        <object>Reg.tijd</object>
+      </resource>
+      <resource name="base_alarmevents_rstat">
+        <object>Status registreren</object>
+      </resource>
+      <resource name="base_alarmevents_alarmoccurred">
+        <object>Alarm opgetreden</object>
+      </resource>
+      <resource name="base_alarmevents_stateparamvalues">
+        <object>Waarden van\nstatusparameter</object>
+      </resource>
+      <resource name="base_alarms_code">
+        <object>Alarmcode</object>
+      </resource>
+      <resource name="base_alarms_ownertype">
+        <object>Type eigenaar</object>
+      </resource>
+      <resource name="base_alarms_owner">
+        <object>Eigenaarscode</object>
+      </resource>
+      <resource name="base_alarms_owner Name">
+        <object>Eigenaar</object>
+      </resource>
+      <resource name="base_alarmevents_prperiod">
+        <object>Procesperiode</object>
+      </resource>
+      <resource name="base_alarmevents_sprperiod">
+        <object>Subprocesperiode</object>
+      </resource>
+      <resource name="base_alarmevents_usercommentid">
+        <object>Gebruikersopmerking</object>
+      </resource>
+      <resource name="base_alarmevents_alarm">
+        <object>Alarm-id</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.Alarms" ServiceOnly="false">
+      <resource name="alarm">
+        <object>Alarm-id</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Naam</object>
+      </resource>
+      <resource name="description">
+        <object>Beschrijving</object>
+      </resource>
+      <resource name="priority">
+        <object>Prioriteit</object>
+      </resource>
+      <resource name="ownertype">
+        <object>Type eigenaar</object>
+      </resource>
+      <resource name="owner Name">
+        <object>Eigenaar</object>
+      </resource>
+      <resource name="state">
+        <object>Status</object>
+      </resource>
+      <resource name="statedescription">
+        <object>Statusbeschrijving</object>
+      </resource>
+      <resource name="stateshortdescription">
+        <object>Korte beschrijving van status</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Alarm aan</object>
+      </resource>
+      <resource name="lastupdate">
+        <object>Tijd van laatste update</object>
+      </resource>
+      <resource name="active">
+        <object>Actief</object>
+      </resource>
+      <resource name="Groups">
+        <object>Groepen</object>
+      </resource>
+      <resource name="owner">
+        <object>eigenaarscode</object>
+      </resource>
+      <resource name="alarmlevel">
+        <object>Alarmniveau</object>
+      </resource>
+      <resource name="alarmconfig">
+        <object>Alarmconfig.</object>
+      </resource>
+      <resource name="stateparamvalues">
+        <object>Waarden van\nstatusparameter</object>
+      </resource>
+      <resource name="image">
+        <object>Afbeelding</object>
+      </resource>
+      <resource name="imagex">
+        <object>X-coörd. afbeelding</object>
+      </resource>
+      <resource name="imagey">
+        <object>Y-coörd. afbeelding</object>
+      </resource>
+      <resource name="notificationdelay">
+        <object>Meldings-\nvertraging</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.Alarms.Groups" ServiceOnly="false">
+      <resource name="alarm">
+        <object>Alarm-id</object>
+      </resource>
+      <resource name="alarmgroup">
+        <object>Alarmgroepcode</object>
+      </resource>
+      <resource name="alarmgroup Name">
+        <object>Alarmgroep</object>
+      </resource>
+      <resource name="sequence">
+        <object>Volgorde</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>Id</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Naam</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Externe code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Patroon</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Afmeting 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Afmeting 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Afmeting 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Afmeting 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Actief</object>
+      </resource>
+      <resource name="NotificationGroups">
+        <object>Meldingen</object>
+      </resource>
+      <resource name="GroupMembers">
+        <object>Groepsleden</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups.NotificationGroups" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>Alarmgroep</object>
+      </resource>
+      <resource name="receiver">
+        <object>Ontvangercode</object>
+      </resource>
+      <resource name="receiver Name">
+        <object>Ontvanger</object>
+      </resource>
+      <resource name="receiver Name.Hint">
+        <object>De ontvanger is afhankelijk van het ontvangertype</object>
+      </resource>
+      <resource name="receivertype">
+        <object>Ontvangertype</object>
+      </resource>
+      <resource name="notificationprovider Name">
+        <object>Melder</object>
+      </resource>
+      <resource name="notificationprovider">
+        <object>Meldercode</object>
+      </resource>
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Melden van alarm aan</object>
+      </resource>
+      <resource name="alarmon.hint">
+        <object>Melding verzenden wanneer alarm wordt ingeschakeld</object>
+      </resource>
+      <resource name="alarmoff">
+        <object>Melden van alarm uit</object>
+      </resource>
+      <resource name="alarmoff.hint">
+        <object>Melding verzenden wanneer alarm wordt uitgeschakeld</object>
+      </resource>
+      <resource name="weekdays">
+        <object>Werkdagen</object>
+      </resource>
+      <resource name="weekdays.hint">
+        <object>Melding verzenden op werkdagen</object>
+      </resource>
+      <resource name="weekends">
+        <object>Weekenden</object>
+      </resource>
+      <resource name="weekends.hint">
+        <object>Melding verzenden in weekenden</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups.GroupMembers" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>Alarmgroep</object>
+      </resource>
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="sequence">
+        <object>Volgorde</object>
+      </resource>
+      <resource name="alarm Name">
+        <object>Alarm</object>
+      </resource>
+      <resource name="alarm">
+        <object>Alarmcode</object>
+      </resource>
+      <resource name="alarm.lookup.name">
+        <object>Naam</object>
+      </resource>
+      <resource name="alarm.lookup.code">
+        <object>Code</object>
+      </resource>
+      <resource name="alarm.lookup.owner">
+        <object>Eigenaar</object>
+      </resource>
+    </type>
+    <type name="Grid.Notifications.Notifications" ServiceOnly="false">
+      <resource name="mon_alarmnotifications_notificationprovider Name">
+        <object>Melder</object>
+      </resource>
+      <resource name="base_alarmevents_alarmon">
+        <object>Alarm aan</object>
+      </resource>
+      <resource name="mon_alarmnotifications_id">
+        <object>Melding-id</object>
+      </resource>
+      <resource name="mon_alarmnotifications_alarmevent">
+        <object>Id van alarmgebeurtenis</object>
+      </resource>
+      <resource name="mon_alarmnotifications_sendtime">
+        <object>Verzendtijd</object>
+      </resource>
+      <resource name="mon_alarmnotifications_regtime">
+        <object>Registratietijd</object>
+      </resource>
+      <resource name="mon_alarmnotifications_receivertype">
+        <object>Ontvangertype</object>
+      </resource>
+      <resource name="mon_alarmnotifications_alarmnotificationgroupids">
+        <object>Alarmmeldingsgroepen</object>
+      </resource>
+      <resource name="mon_alarmnotifications_info">
+        <object>Info</object>
+      </resource>
+      <resource name="mon_alarmnotifications_rstat">
+        <object>Meldingsstatus</object>
+      </resource>
+      <resource name="base_alarmevents_state">
+        <object>Status van gebeurtenis</object>
+      </resource>
+      <resource name="base_alarmevents_statedescription">
+        <object>Beschrijving van gebeurtenis</object>
+      </resource>
+      <resource name="base_alarmevents_stateshortdescription">
+        <object>Korte beschrijving van gebeurtenis</object>
+      </resource>
+      <resource name="base_alarmevents_regtime">
+        <object>Registratietijd van gebeurtenis</object>
+      </resource>
+      <resource name="mon_alarmnotifications_notificationprovider">
+        <object>Meldercode</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.ExternalOwners" ServiceOnly="false">
+      <resource name="alarmowner">
+        <object>Id</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Naam</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Externe code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Patroon</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Afmeting 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Afmeting 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Afmeting 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Afmeting 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Actief</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.ExternalEvents" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="owner">
+        <object>Eigenaarscode</object>
+      </resource>
+      <resource name="owner Name">
+        <object>Eigenaar</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="state">
+        <object>Status</object>
+      </resource>
+      <resource name="statedescription">
+        <object>Statusbeschrijving</object>
+      </resource>
+      <resource name="stateshortdescription">
+        <object>Korte beschrijving van status</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Alarm aan</object>
+      </resource>
+      <resource name="regtime">
+        <object>Reg.tijd</object>
+      </resource>
+      <resource name="rstat">
+        <object>Status registreren</object>
+      </resource>
+      <resource name="alarmoccurred">
+        <object>Alarm opgetreden</object>
+      </resource>
+      <resource name="stateparamvalues">
+        <object>Waarden van\nstatusparameter</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.AlarmConfigurations" ServiceOnly="false">
+      <resource name="alarmconfiguration">
+        <object>Id</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Naam</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Externe code</object>
+      </resource>
+      <resource name="pattern">
+        <object>Patroon</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Afmeting 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Afmeting 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Afmeting 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Afmeting 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Actief</object>
+      </resource>
+      <resource name="Events">
+        <object>Definities van alarmgebeurtenissen</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.AlarmConfigurationl" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="alarmconfiguration">
+        <object>Alarmconfiguratiecode</object>
+      </resource>
+      <resource name="alarmconfiguration Name">
+        <object>Alarmconfiguratie</object>
+      </resource>
+      <resource name="eventid">
+        <object>Gebeurtenis-id</object>
+      </resource>
+      <resource name="eventcode">
+        <object>Gebeurteniscode</object>
+      </resource>
+      <resource name="alarmlevel">
+        <object>Niveau</object>
+      </resource>
+      <resource name="priority">
+        <object>Prioriteit</object>
+      </resource>
+      <resource name="description">
+        <object>Beschrijving</object>
+      </resource>
+      <resource name="params">
+        <object>Parameters</object>
+      </resource>
+      <resource name="linecode">
+        <object>Lijncode</object>
+      </resource>
+      <resource name="linedescription">
+        <object>Lijnbeschrijving</object>
+      </resource>
+      <resource name="systemcode">
+        <object>Systeemcode</object>
+      </resource>
+      <resource name="systemdescription">
+        <object>Systeembeschrijving</object>
+      </resource>
+      <resource name="modulecode">
+        <object>Modulecode</object>
+      </resource>
+      <resource name="moduledescription">
+        <object>Modulebeschrijving</object>
+      </resource>
+      <resource name="unitcode">
+        <object>Unitcode</object>
+      </resource>
+      <resource name="unitdescription">
+        <object>Unitbeschrijving</object>
+      </resource>
+      <resource name="devicecode">
+        <object>Apparaatcode</object>
+      </resource>
+      <resource name="devicedescription">
+        <object>Apparaatbeschrijving</object>
+      </resource>
+      <resource name="solution">
+        <object>Oplossing</object>
+      </resource>
+      <resource name="solutionurl">
+        <object>URL van oplossing</object>
+      </resource>
+      <resource name="usermanualurl">
+        <object>URL van gebruikerhandleiding</object>
+      </resource>
+      <resource name="customeralarmdescription">
+        <object>Alarmbeschrijving klant</object>
+      </resource>
+      <resource name="causesproductionstop">
+        <object>Veroorzaakt productie stop</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmConfigurations" ServiceOnly="false">
+      <resource name="Warning.Text">
+        <object>Hiermee worden bestaande vermeldingen voor de geselecteerde groep verwijderd.\n Let op: Historische data van reeds opgelsagen alarmmeldingen kan verloren gaan. \nWilt u doorgaan?</object>
+      </resource>
+      <resource name="Warning.Caption">
+        <object>Waarschuwing</object>
+      </resource>
+      <resource name="FileDlg.Files">
+        <object>Bestanden</object>
+      </resource>
+      <resource name="FileDlg.AllFiles">
+        <object>Alle bestanden</object>
+      </resource>
+      <resource name="FileDlg.Title">
+        <object>Selecteer het config.bestand dat moet worden geïmporteerd</object>
+      </resource>
+      <resource name="FileDlg.Failed">
+        <object>Kan bestand niet laden</object>
+      </resource>
+      <resource name="importFromFileButton">
+        <object>Importeren uit bestand</object>
+      </resource>
+      <resource name="importFromFileButtonHint">
+        <object>Klik om een CSV-bestand voor het alarm te importeren</object>
+      </resource>
+      <resource name="Import.Failed">
+        <object>Kan bestand niet importeren.</object>
+      </resource>
+      <resource name="importFromDeviceButton">
+        <object>Importeren van apparaat</object>
+      </resource>
+      <resource name="importFromDeviceButtonHint">
+        <object>Klik om alarmdefinities te importeren van een apparaat</object>
+      </resource>
+      <resource name="GroupExistsErrorMessage">
+        <object>          Er bestaat een groep met de naam {0} in de database.\n          Als de groep is verwijderd of gedeactiveerd, wordt deze opnieuw geactiveerd.\n          Met deze import worden bestaande leden van deze groep overschreven.\n          Let op: Historische data van reeds opgelsagen alarmmeldingen kan verloren gaan\n          Wilt u doorgaan?        </object>
+      </resource>
+      <resource name="Warning">
+        <object>Waarschuwing</object>
+      </resource>
+      <resource name="Export.Failed">
+        <object>Kan bestand niet exporteren.</object>
+      </resource>
+      <resource name="FileDlg.EplanFiles">
+        <object>Eplan XML expoteer bestanden</object>
+      </resource>
+      <resource name="FileDlg.EplanTitle">
+        <object>Selecteer Eplan XML bestanden</object>
+      </resource>
+      <resource name="importButton">
+        <object>Importeer vanuit bestand</object>
+      </resource>
+      <resource name="importButtonHint">
+        <object>Klik om een alarm, CSV bestand of E-tekening XML export te importeren</object>
+      </resource>
+      <resource name="importFromEplanButton">
+        <object>Importeer Eplan XML bestand</object>
+      </resource>
+      <resource name="importFromEplanButtonHint">
+        <object>Klik om alarmen vanuit een Eplan tekening XML bestand te importeren</object>
+      </resource>
+      <resource name="exportToFileButton">
+        <object>Exporteer naar bestand</object>
+      </resource>
+      <resource name="exportToFileButtonHint">
+        <object>Klik om een alarm configuratie naar een CSV bestand te exporteren</object>
+      </resource>
+      <resource name="Export alarmgroup">
+        <object>Weet u zeker dat u de alarmgroep {0} wil exporteren naar bestand {1} ?</object>
+      </resource>
+      <resource name="FileDlgExport.Title">
+        <object>Selecteer de locatie om de alarmconfiguratie te exporteren</object>
+      </resource>
+      <resource name="ExportSuccesfull">
+        <object>Export succesvol afgerond</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmDescription" ServiceOnly="false">
+      <resource name="errorText.NoDescription">
+        <object>Geen beschrijving beschikbaar</object>
+      </resource>
+      <resource name="AlarmDescription">
+        <object>Alarmbeschrijving</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmImage" ServiceOnly="false">
+      <resource name="errorText.NoImage">
+        <object>Geen afbeelding beschikbaar</object>
+      </resource>
+      <resource name="AlarmImage">
+        <object>Alarmafbeelding</object>
+      </resource>
+      <resource name="errorText.NoALarms">
+        <object>Geen actieve alarmen op apparaat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmList" ServiceOnly="false">
+      <resource name="colListId.Caption">
+        <object>Nee</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Naam</object>
+      </resource>
+      <resource name="colAlarmLevel.Caption">
+        <object>Alarmniveau</object>
+      </resource>
+      <resource name="AlarmList">
+        <object>Alarmlijst</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmDeviceController" ServiceOnly="true">
+      <resource name="AlarmImage">
+        <object>Alarmafbeelding</object>
+      </resource>
+      <resource name="AlarmImage.Hint">
+        <object>Geef een afbeelding van alarmen weer op dit apparaat</object>
+      </resource>
+      <resource name="AlarmList">
+        <object>Alarmlijst</object>
+      </resource>
+      <resource name="AlarmList.Hint">
+        <object>Geef een lijst met ingeschakelde alarmen weer die op dit apparaat staan</object>
+      </resource>
+      <resource name="AlarmDescription">
+        <object>Alarmbeschrijving</object>
+      </resource>
+      <resource name="AlarmDescription.Hint">
+        <object>Geef een beschrijving voor het geselecteerde alarm weer op dit apparaat</object>
+      </resource>
+      <resource name="Group.Devices">
+        <object>Apparaten</object>
+      </resource>
+      <resource name="AlarmDefaultLayout">
+        <object>Standaardlay-out</object>
+      </resource>
+      <resource name="AlarmDefaultLayout.Hint">
+        <object>Voeg een standaardlay-out voor alarmapparaatbewaking weer op het dashboard</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmStatus.AlarmLamp" ServiceOnly="true">
+      <resource name="AlarmLamp.Text">
+        <object>Alarmlamp</object>
+      </resource>
+      <resource name="Group.Alarms">
+        <object>Alarmen</object>
+      </resource>
+      <resource name="AlarmLamp.Hint">
+        <object>Gebruik dit onderdeel om geselecteerde alarm(en) te bewaken</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmStatus.AlarmMonitor" ServiceOnly="true">
+      <resource name="AlarmMonitor.Text">
+        <object>Alarmbewaking</object>
+      </resource>
+      <resource name="Group.Alarms">
+        <object>Alarmen</object>
+      </resource>
+      <resource name="AlarmMonitor.Hint">
+        <object>Gebruik dit onderdeel om geselecteerde alarm(en) te bewaken, weergegeven in een raster</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.AlarmStatus.AlarmMonitor" ServiceOnly="false">
+      <resource name="colCode.Caption">
+        <object>Code</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Naam</object>
+      </resource>
+      <resource name="colState.Caption">
+        <object>Status</object>
+      </resource>
+      <resource name="colAlarm.Caption">
+        <object>Alarm</object>
+      </resource>
+      <resource name="colTime.Caption">
+        <object>Tijd</object>
+      </resource>
+      <resource name="colDetails.Caption">
+        <object>Details</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmGroupEventSelection" ServiceOnly="false">
+      <resource name="grpEventsGrid.Text">
+        <object>Gebeurtenisselectie</object>
+      </resource>
+      <resource name="colAlarmId.Caption">
+        <object>Id</object>
+      </resource>
+      <resource name="colAlarmLevel.Caption">
+        <object>Niveau</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Lijn</object>
+      </resource>
+      <resource name="colLineCode.Caption">
+        <object>Lijncode</object>
+      </resource>
+      <resource name="colModule.Caption">
+        <object>Module</object>
+      </resource>
+      <resource name="colModuleCode.Caption">
+        <object>Modulecode</object>
+      </resource>
+      <resource name="colUnit.Caption">
+        <object>Unit</object>
+      </resource>
+      <resource name="colUnitCode.Caption">
+        <object>Unitcode</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Apparaat</object>
+      </resource>
+      <resource name="colDeviceCode.Caption">
+        <object>Apparaatcode</object>
+      </resource>
+      <resource name="colDescription.Caption">
+        <object>Beschrijving</object>
+      </resource>
+      <resource name="colOwnerName.Caption">
+        <object>Eigenaar</object>
+      </resource>
+      <resource name="colConfigurationName.Caption">
+        <object>Configuratienaam</object>
+      </resource>
+      <resource name="colGroupName.Caption">
+        <object>Naam alarmgroep</object>
+      </resource>
+      <resource name="colCustomerDesc.Caption">
+        <object>Alarmbeschrijving klant</object>
+      </resource>
+      <resource name="colAlarmGroup.Caption">
+        <object>Alarmgroep-id</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Annuleren</object>
+      </resource>
+      <resource name="AlarmGroupEventSelection.Text">
+        <object>Gebeurtenisselectie</object>
+      </resource>
+      <resource name="colSystemDesc.Caption">
+        <object>Systeem</object>
+      </resource>
+      <resource name="colSystemCode.Caption">
+        <object>Systeemcode</object>
+      </resource>
+      <resource name="colAlarmCode.Caption">
+        <object>Alarmcode</object>
+      </resource>
+      <resource name="colAlarmName.Caption">
+        <object>Alarmnaam</object>
+      </resource>
+      <resource name="btnSelectAll.Text">
+        <object>Alles selecteren</object>
+      </resource>
+      <resource name="btnUnselectAll.Text">
+        <object>Selectie wissen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmGroups" ServiceOnly="false">
+      <resource name="ConfigureGroups">
+        <object>Alarmgroep configureren</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AddAlarmParameter" ServiceOnly="false">
+      <resource name="AddAlarmParameter.Text">
+        <object>Alarmparameter(s) maken</object>
+      </resource>
+      <resource name="grpHeader.Text">
+        <object>Selectie van parametertype</object>
+      </resource>
+      <resource name="grpParamTypes.Text">
+        <object>Beschrijvingdefinities</object>
+      </resource>
+      <resource name="lblNrOfDescr.Text">
+        <object>Aantal beschrijvingen:</object>
+      </resource>
+      <resource name="btnUpdate.Text">
+        <object>Update</object>
+      </resource>
+      <resource name="lblIdHeader.Text">
+        <object>Id</object>
+      </resource>
+      <resource name="lblDescrHeader.Text">
+        <object>Beschrijving</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Annuleren</object>
+      </resource>
+      <resource name="Generic">
+        <object>Algemeen</object>
+      </resource>
+      <resource name="Temperature">
+        <object>Temperatuur</object>
+      </resource>
+      <resource name="Velocity">
+        <object>Snelheid</object>
+      </resource>
+      <resource name="Weight">
+        <object>Gewicht</object>
+      </resource>
+      <resource name="WeightBig">
+        <object>WeightBig</object>
+      </resource>
+      <resource name="Pressure">
+        <object>Druk</object>
+      </resource>
+      <resource name="Power">
+        <object>Voeding</object>
+      </resource>
+      <resource name="PowerBig">
+        <object>PowerBig</object>
+      </resource>
+      <resource name="TimeMinutes">
+        <object>Tijd in minuten</object>
+      </resource>
+      <resource name="TimeHour">
+        <object>Tijd in uren</object>
+      </resource>
+      <resource name="Description">
+        <object>Beschrijving</object>
+      </resource>
+      <resource name="BitmaskDescription">
+        <object>Beschrijving bitmasker</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AddCodeDescriptionEntry" ServiceOnly="false">
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Sluiten</object>
+      </resource>
+      <resource name="lblDesc.Text">
+        <object>Beschrijving</object>
+      </resource>
+      <resource name="lblCode.Text">
+        <object>Code</object>
+      </resource>
+      <resource name="lblEntryType.Text">
+        <object>Invoertype</object>
+      </resource>
+      <resource name="item1">
+        <object>Code en beschrijving</object>
+      </resource>
+      <resource name="item2">
+        <object>Beschrijving</object>
+      </resource>
+      <resource name="AddCodeDescriptionEntry.Text">
+        <object>Item toevoegen</object>
+      </resource>
+      <resource name="ErrorCaption">
+        <object>Fout</object>
+      </resource>
+      <resource name="DescEmpty">
+        <object>De toe te voegen beschrijving mag niet leeg zijn</object>
+      </resource>
+      <resource name="CodeDescEmpty">
+        <object>De code en/of beschrijving mag niet leeg zijn</object>
+      </resource>
+      <resource name="DuplicateMessage">
+        <object>Waarde(n) bestaan al</object>
+      </resource>
+      <resource name="ValueNotAddedMessage">
+        <object>Fout opgetreden tijdens het toevoegen van de waarde(n). Zie het logboek voor meer details.</object>
+      </resource>
+      <resource name="ValuesAddedMessage">
+        <object>Waarde(n) toegevoegd</object>
+      </resource>
+      <resource name="SuccessCaption">
+        <object>Geslaagd</object>
+      </resource>
+      <resource name="DuplicateCaption">
+        <object>Duplicaat</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="es">
+  <industry>
+    <type name="Marel.Mp5.Trimming.UI.M6000.QC.StationNameMethod" ServiceOnly="false">
+      <resource name="StationName">
+        <object>Nombre de la estación</object>
+      </resource>
+      <resource name="EmployeeName">
+        <object>Nombre del empleado</object>
+      </resource>
+      <resource name="StationNameEmployeeName">
+        <object>Nombres de la estación y del empleado</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.UI.M6000.QC.TrimmingBaseInspectionCE" ServiceOnly="false">
+      <resource name="errGettingLineClient">
+        <object>Error de conexión con servicios de línea</object>
+      </resource>
+      <resource name="confex">
+        <object>Error de configuración de formulario</object>
+      </resource>
+      <resource name="dbErr">
+        <object>Error de recogida de nodo gui</object>
+      </resource>
+      <resource name="pickProduct">
+        <object>Recoger producto</object>
+      </resource>
+      <resource name="pickMaterialType">
+        <object>Recoger tipo de producto</object>
+      </resource>
+      <resource name="pickParentMaterial">
+        <object>Recoger producto origen</object>
+      </resource>
+      <resource name="stationMissing">
+        <object>Falta ID de estación. Consultar base_sysprograms.xmldata para sysprogram {0}</object>
+      </resource>
+      <resource name="trimlineMissing">
+        <object>Falta ID de línea de corte. Comprobar xmldata en las opciones de la interfaz de usuario</object>
+      </resource>
+      <resource name="trlnQcLicenseNeeded">
+        <object>No se puede obtener licencia de la estación de control de calidad de línea de corte</object>
+      </resource>
+      <resource name="qccontextNotDefined">
+        <object>Material de inspección de control de calidad no definido para los materiales procedentes del programa de corte</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.UI.M6000.QC.TableView" ServiceOnly="false">
+      <resource name="requestFormButton.Text">
+        <object>Solicitud</object>
+      </resource>
+      <resource name="noTables">
+        <object>No hay tablas de control de calidad</object>
+      </resource>
+      <resource name="doInspect">
+        <object>Inspeccionar</object>
+      </resource>
+      <resource name="doCancel">
+        <object>Eliminar</object>
+      </resource>
+      <resource name="InfoTextTemplate">
+        <object>Estación de control de calidad</object>
+      </resource>
+      <resource name="pendpiecetemplate">
+        <object>Hora::{0}</object>
+      </resource>
+      <resource name="stopInspections">
+        <object>Parada</object>
+      </resource>
+      <resource name="startInspections">
+        <object>Inicio</object>
+      </resource>
+      <resource name="noStart">
+        <object>No se puede iniciar la inspección.</object>
+      </resource>
+      <resource name="noCancel">
+        <object>No se puede eliminar la pieza.</object>
+      </resource>
+      <resource name="doDeletePiece">
+        <object>¿Desea eliminar la pieza?</object>
+      </resource>
+      <resource name="doDeletePieceHdr">
+        <object>Eliminar</object>
+      </resource>
+      <resource name="random">
+        <object>Aleatorio</object>
+      </resource>
+      <resource name="notRandom">
+        <object>No aleatorio</object>
+      </resource>
+      <resource name="resetButton.Text">
+        <object>Reiniciar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.UI.M6000.QC.Requests.MainForm" ServiceOnly="false">
+      <resource name="layoutControlItem5.Text">
+        <object>Estación:</object>
+      </resource>
+      <resource name="layoutControlItem9.Text">
+        <object>Producto:</object>
+      </resource>
+      <resource name="layoutControlItem8.Text">
+        <object>Tipo de producto:</object>
+      </resource>
+      <resource name="layoutControlItem1.Text">
+        <object>Producto origen:</object>
+      </resource>
+      <resource name="layoutControlItem6.Text">
+        <object>Número:</object>
+      </resource>
+      <resource name="backButton.Text">
+        <object>Atrás</object>
+      </resource>
+      <resource name="viewRequest.Text">
+        <object>Ver solicitud</object>
+      </resource>
+      <resource name="anyStation">
+        <object>Cualquier estación</object>
+      </resource>
+      <resource name="countStations">
+        <object>{0} estaciones elegidas.</object>
+      </resource>
+      <resource name="chosenProducts">
+        <object>Productos elegidos: {0}</object>
+      </resource>
+      <resource name="chosenMattypes">
+        <object>Tipos elegidos: {0}</object>
+      </resource>
+      <resource name="chosenParentMaterial">
+        <object>Productos elegidos: {0}</object>
+      </resource>
+      <resource name="noneChosen">
+        <object>Ninguno elegido</object>
+      </resource>
+      <resource name="requestInspectionCaption">
+        <object>Solicitar inspecciones</object>
+      </resource>
+      <resource name="mustDoCount">
+        <object>Debe introducir un número.</object>
+      </resource>
+      <resource name="noProdMatParChosen">
+        <object>Debe elegir al menos un producto, un tipo de producto o un producto origen</object>
+      </resource>
+      <resource name="stationOrderTextTemplate">
+        <object>{0} piezas de {1} ordenadas de {2}.</object>
+      </resource>
+      <resource name="orderTextTemplate">
+        <object>{0} piezas de {1} ordenadas.</object>
+      </resource>
+      <resource name="noOrderMade">
+        <object>No se ha hecho ninguna orden</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.UI.M6000.QC.Requests.PickStandardObject" ServiceOnly="false">
+      <resource name="cancelButton.Text">
+        <object>Atrás</object>
+      </resource>
+      <resource name="doneButton.Text">
+        <object>Listo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.UI.M6000.QC.Requests.PickTrimmingStation" ServiceOnly="false">
+      <resource name="cancelButton.Text">
+        <object>Atrás</object>
+      </resource>
+      <resource name="doneButton.Text">
+        <object>Listo</object>
+      </resource>
+      <resource name="Caption">
+        <object>Recoger estación de corte</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.UI.M6000.QC.Requests.ViewActiveRequests" ServiceOnly="false">
+      <resource name="doneButton.Text">
+        <object>Atrás</object>
+      </resource>
+      <resource name="stationStringTemplate">
+        <object>{0} \n{1} \nPiezas: {2} \nHora:{3}</object>
+      </resource>
+      <resource name="anyStringTemplate">
+        <object>{0} \nPiezas: {1} \nHora:{2}</object>
+      </resource>
+      <resource name="Caption">
+        <object>Solicitudes activas</object>
+      </resource>
+      <resource name="deletebuttontext">
+        <object>Eliminar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.UI.Common.QC.StationControllerExtension" ServiceOnly="false">
+      <resource name="errGettingLineClient">
+        <object>Error de conexión con servicios en línea</object>
+      </resource>
+      <resource name="confex">
+        <object>Error al configurar el formulario</object>
+      </resource>
+      <resource name="dbErr">
+        <object>Error de recogida de nodo gui</object>
+      </resource>
+      <resource name="pickProduct">
+        <object>Recoger producto</object>
+      </resource>
+      <resource name="pickMaterialType">
+        <object>Recoger tipo de producto</object>
+      </resource>
+      <resource name="pickParentMaterial">
+        <object>Recoger producto origen</object>
+      </resource>
+      <resource name="stationMissing">
+        <object>Falta ID de estación. Consultar base_sysprograms.xmldata para sysprogram {0}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.UI.Pda.QC.TableView" ServiceOnly="false">
+      <resource name="requestFormButton.Text">
+        <object>Solicitud</object>
+      </resource>
+      <resource name="noTables">
+        <object>No hay tablas de control de calidad</object>
+      </resource>
+      <resource name="doInspect">
+        <object>Inspeccionar</object>
+      </resource>
+      <resource name="doCancel">
+        <object>Eliminar</object>
+      </resource>
+      <resource name="InfoTextTemplate">
+        <object>Estación de control de calidad</object>
+      </resource>
+      <resource name="pendpiecetemplate">
+        <object>Hora::{0}</object>
+      </resource>
+      <resource name="stopInspections">
+        <object>Parada</object>
+      </resource>
+      <resource name="startInspections">
+        <object>Inicio</object>
+      </resource>
+      <resource name="noStart">
+        <object>No se puede iniciar la inspección.</object>
+      </resource>
+      <resource name="noCancel">
+        <object>No se puede eliminar la pieza.</object>
+      </resource>
+      <resource name="doDeletePiece">
+        <object>¿Desea eliminar la pieza?</object>
+      </resource>
+      <resource name="doDeletePieceHdr">
+        <object>Eliminar</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

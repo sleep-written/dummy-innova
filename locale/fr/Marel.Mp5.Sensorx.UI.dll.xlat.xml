@@ -1,0 +1,1817 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fr">
+  <industry>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.ProgramSetup.SxMainProgramUC" ServiceOnly="false">
+      <resource name="btnConfirm.Caption">
+        <object>Confirmer</object>
+      </resource>
+      <resource name="btnConfirm.Hint">
+        <object>Confirmer les modifications</object>
+      </resource>
+      <resource name="btnNavFirst.ToolTip">
+        <object>Aller au premier enregistrement</object>
+      </resource>
+      <resource name="btnNavLast.ToolTip">
+        <object>Aller au dernier enregistrement</object>
+      </resource>
+      <resource name="btnNavNext.ToolTip">
+        <object>Aller à l'enregistrement suivant</object>
+      </resource>
+      <resource name="btnNavPrevious.ToolTip">
+        <object>Aller à l'enregistrement précédent</object>
+      </resource>
+      <resource name="btnRefresh.Caption">
+        <object>Actualiser</object>
+      </resource>
+      <resource name="btnRefresh.Hint">
+        <object>Actualise les données de l'enregistrement</object>
+      </resource>
+      <resource name="btnUpdateActivity.Caption">
+        <object>Actualiser l'activité</object>
+      </resource>
+      <resource name="btnUpdateActivity.Hint">
+        <object>Actualise l'activité de l'unité de traitement pour ce programme</object>
+      </resource>
+      <resource name="MnuOptions.Caption">
+        <object>Opérations</object>
+      </resource>
+      <resource name="MnuOptions.Hint">
+        <object>Affiche plus d'opérations</object>
+      </resource>
+      <resource name="chkRecShowActive.Caption">
+        <object>Actif</object>
+      </resource>
+      <resource name="chkRecShowBoth.Caption">
+        <object>Les deux</object>
+      </resource>
+      <resource name="chkRecShowInactive.Caption">
+        <object>Inactif</object>
+      </resource>
+      <resource name="btnOptDefLayout.Caption">
+        <object>Restaurer la disposition par défaut</object>
+      </resource>
+      <resource name="MnuActiveState.Caption">
+        <object>Afficher les programmes</object>
+      </resource>
+      <resource name="btnOptInvCachedData.Caption">
+        <object>Invalider les données en cache</object>
+      </resource>
+      <resource name="btnOptXlat.Caption">
+        <object>Xlat</object>
+      </resource>
+      <resource name="btnOptSql.Caption">
+        <object>SQL</object>
+      </resource>
+      <resource name="btnOptReloadGuiItem.Caption">
+        <object>Recharger l'élément d’interface</object>
+      </resource>
+      <resource name="lblSelectStation.Text">
+        <object>Poste :</object>
+      </resource>
+      <resource name="prgTabPage.Text">
+        <object>Programmes</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.ProgramSetup.Pages.PageProgram" ServiceOnly="false">
+      <resource name="btnClone.Caption">
+        <object>Cloner</object>
+      </resource>
+      <resource name="btnClone.Hint">
+        <object>Clone l'élément sélectionné</object>
+      </resource>
+      <resource name="btnCopy.Caption">
+        <object>Copier</object>
+      </resource>
+      <resource name="btnCopy.Hint">
+        <object>Copie le ou les éléments sélectionnés</object>
+      </resource>
+      <resource name="btnPaste.Caption">
+        <object>Coller</object>
+      </resource>
+      <resource name="btnPaste.Hint">
+        <object>Colle les éléments copiés</object>
+      </resource>
+      <resource name="btnClearAll.Caption">
+        <object>Tout effacer</object>
+      </resource>
+      <resource name="btnClearAll.Hint">
+        <object>Efface tous les programmes de la table</object>
+      </resource>
+      <resource name="Err.PasteRow">
+        <object>Impossible de coller la ligne</object>
+      </resource>
+      <resource name="RemoveAllTableItems">
+        <object>Voulez-vous supprimer tous les éléments de la table ?</object>
+      </resource>
+      <resource name="DeletePrograms">
+        <object>Suppression de la table des programmes !</object>
+      </resource>
+      <resource name="SelectProduct">
+        <object>Sélectionner produit</object>
+      </resource>
+      <resource name="btnImport.Caption">
+        <object>Charger</object>
+      </resource>
+      <resource name="btnExport.Caption">
+        <object>Enregistrer</object>
+      </resource>
+      <resource name="btnImport.Hint">
+        <object>Permet de charger une liste de programmes pour le poste actuel depuis un fichier</object>
+      </resource>
+      <resource name="btnExport.Hint">
+        <object>Permet d'enregistrer la liste de programmes pour le poste actuel dans un fichier</object>
+      </resource>
+      <resource name="Files">
+        <object>Fichiers</object>
+      </resource>
+      <resource name="AllFiles">
+        <object>Tous les fichiers</object>
+      </resource>
+      <resource name="Err.ImportFileFailed">
+        <object>Impossible de charger le programme depuis un fichier.</object>
+      </resource>
+      <resource name="Title.SelProgramFile">
+        <object>Sélection du fichier à charger :</object>
+      </resource>
+      <resource name="Title.SavingProgram">
+        <object>Enregistrement du programme</object>
+      </resource>
+      <resource name="Err.ExportFileFailed">
+        <object>Impossible d'enregistrer le programme dans le fichier !</object>
+      </resource>
+      <resource name="Error">
+        <object>Erreur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.ProgramSetup.SxMainProgramView" ServiceOnly="false">
+      <resource name="Lookup.Name.Caption">
+        <object>Nom</object>
+      </resource>
+      <resource name="Lookup.Id.Caption">
+        <object>ID</object>
+      </resource>
+      <resource name="Err.Closing">
+        <object>Voulez-vous fermer le formulaire et annuler les modifications ?</object>
+      </resource>
+      <resource name="Err.Closing.Title">
+        <object>Erreur de sauvegarde de données.</object>
+      </resource>
+      <resource name="EmptyStation">
+        <object>- aucun poste disponible -</object>
+      </resource>
+      <resource name="Err.RefreshingData">
+        <object>Erreur à l'actualisation des données</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Erreur de sauvegarde de données</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Importing.SxProgramImpExp" ServiceOnly="false">
+      <resource name="NoFilename">
+        <object>Le nom de fichier ne peut pas contenir de caractères nuls ni être vide</object>
+      </resource>
+      <resource name="NotFound">
+        <object>introuvable</object>
+      </resource>
+      <resource name="InvalidFile">
+        <object>Fichier non valide. Nœud racine manquant !</object>
+      </resource>
+      <resource name="NotSensorXFile">
+        <object>Il ne s'agit pas d'un fichier programme Innova SensorX</object>
+      </resource>
+      <resource name="ProgramsMissing">
+        <object>Il manque la section dédiée aux programmes dans le fichier</object>
+      </resource>
+      <resource name="NoProgramTable">
+        <object>Impossible de récupérer la table des programmes</object>
+      </resource>
+      <resource name="NoSnxProgramTable">
+        <object>Impossible de récupérer la table des paramètres SensorX</object>
+      </resource>
+      <resource name="NoMaterialTable">
+        <object>Impossible de récupérer la table des matières premières</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.PieceRegs" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Période\nde traitement</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Période\nde sous-traitement</object>
+      </resource>
+      <resource name="po">
+        <object>Code BC</object>
+      </resource>
+      <resource name="po Name">
+        <object>BC</object>
+      </resource>
+      <resource name="batch">
+        <object>Lot</object>
+      </resource>
+      <resource name="lot">
+        <object>Code lot</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Lot</object>
+      </resource>
+      <resource name="plot">
+        <object>Code lot\nproduction</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Lot production</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Code zone\nressource</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Zone ressource</object>
+      </resource>
+      <resource name="shift">
+        <object>Code d'équipe</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Equipe</object>
+      </resource>
+      <resource name="regtime">
+        <object>Heure\nd'enregistrement</object>
+      </resource>
+      <resource name="rstat">
+        <object>Etat d'enregistrement</object>
+      </resource>
+      <resource name="rtype">
+        <object>Type d'enregistrement</object>
+      </resource>
+      <resource name="material">
+        <object>Code produit</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produit</object>
+      </resource>
+      <resource name="sxstation">
+        <object>Poste</object>
+      </resource>
+      <resource name="sxsenssettings">
+        <object>Paramètres</object>
+      </resource>
+      <resource name="virtuallaneid">
+        <object>Ligne</object>
+      </resource>
+      <resource name="piecepictureid">
+        <object>Image</object>
+      </resource>
+      <resource name="operationalmode">
+        <object>Mode de\nfonctionnement</object>
+      </resource>
+      <resource name="contaminant">
+        <object>Contenu\nen os</object>
+      </resource>
+      <resource name="piecesource">
+        <object>Source\npièce</object>
+      </resource>
+      <resource name="length">
+        <object>Longueur\n($L)</object>
+      </resource>
+      <resource name="pieces">
+        <object>Pièces</object>
+      </resource>
+      <resource name="weight">
+        <object>Poids</object>
+      </resource>
+      <resource name="outofbounds">
+        <object>Dehors limites</object>
+      </resource>
+      <resource name="meatpercentage">
+        <object>CL (%)</object>
+      </resource>
+      <resource name="sourcetype">
+        <object>Type de source</object>
+      </resource>
+      <resource name="piecestatus">
+        <object>Statut de pièces</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.SxLiveView" ServiceOnly="false">
+      <resource name="Lookup.Name.Caption">
+        <object>Nom</object>
+      </resource>
+      <resource name="Lookup.Id.Caption">
+        <object>ID</object>
+      </resource>
+      <resource name="EmptySystem">
+        <object>- aucun système disponible -</object>
+      </resource>
+      <resource name="Err.RefreshingData">
+        <object>Erreur à l'actualisation des données</object>
+      </resource>
+      <resource name="Msg.AutoConnect">
+        <object>Connexion automatique du serveur !</object>
+      </resource>
+      <resource name="Err.NoRemoteWorker">
+        <object>Impossible de créer un opérateur distant !</object>
+      </resource>
+      <resource name="Msg.InitConnection">
+        <object>Initialisation de la connexion au serveur !</object>
+      </resource>
+      <resource name="Msg.FailedToOpenRemote">
+        <object>Impossible d'ouvrir la connexion à distance !</object>
+      </resource>
+      <resource name="Msg.PullData">
+        <object>Extraction de données !</object>
+      </resource>
+      <resource name="ClearData.Title">
+        <object>Effacer les données</object>
+      </resource>
+      <resource name="ClearData.Txt">
+        <object>Efface les données d'affichage et de contrôle du serveur.\n\nVoulez-vous poursuivre ?</object>
+      </resource>
+      <resource name="Msg.Connect">
+        <object>Connexion du serveur !</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.Common.LiveSettingsUC" ServiceOnly="false">
+      <resource name="lblAutoConnectValue.Text">
+        <object>s</object>
+      </resource>
+      <resource name="lblAutoDataPullValue.Text">
+        <object>s</object>
+      </resource>
+      <resource name="chkAutoConnect.ToolTip">
+        <object>S'il est actif, le programme tente de se connecter automatiquement à la ligne en cas d'interruption de la connexion.</object>
+      </resource>
+      <resource name="edAutoConnect.ToolTip">
+        <object>Période de tentatives de connexion automatique.</object>
+      </resource>
+      <resource name="chkDataPull.ToolTip">
+        <object>S'il est actif, le programme extrait automatiquement les données du serveur.</object>
+      </resource>
+      <resource name="edDataPull.ToolTip">
+        <object>Période d'extraction de données</object>
+      </resource>
+      <resource name="grpAutomatic.Text">
+        <object>Automatisation</object>
+      </resource>
+      <resource name="chkAutoConnect.Text">
+        <object>Connexion automatique</object>
+      </resource>
+      <resource name="chkDataPull.Text">
+        <object>Extraction automatique de données</object>
+      </resource>
+      <resource name="edHistorySize.ToolTip">
+        <object>Permet de définir le compte à rebours en minutes à compter de l'heure actuelle qui doit s'afficher.</object>
+      </resource>
+      <resource name="lblHistoryValue.Text">
+        <object>Minutes</object>
+      </resource>
+      <resource name="grpHistory.Text">
+        <object>Paramètres de l'historique</object>
+      </resource>
+      <resource name="Text">
+        <object>Paramètres</object>
+      </resource>
+      <resource name="grpShow.Text">
+        <object>Affichage</object>
+      </resource>
+      <resource name="lblHistoryWindow.Text">
+        <object>Taille de la fenêtre d'historique :</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>&amp;Activer</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>&amp;Annuler</object>
+      </resource>
+      <resource name="chkShowAsTabs.Text">
+        <object>Afficher les postes en tant qu'onglets</object>
+      </resource>
+      <resource name="chkShowAsTabs.ToolTip">
+        <object>Place chaque poste du système dans son propre onglet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.Common.HistoryGraphType" ServiceOnly="false">
+      <resource name="BoneFreePerc">
+        <object>Pourcentage sans os</object>
+      </resource>
+      <resource name="Pieces">
+        <object>Pièces</object>
+      </resource>
+      <resource name="Errors">
+        <object>Erreurs</object>
+      </resource>
+      <resource name="BonePerc">
+        <object>Pourcentage d'os</object>
+      </resource>
+      <resource name="Bones">
+        <object>Contenu moyen en os</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.SubPages.PageStation" ServiceOnly="false">
+      <resource name="printChartError">
+        <object>Impossible d'imprimer le graphique.</object>
+      </resource>
+      <resource name="btnHideDataPanel.ToolTip">
+        <object>Affiche ou masque le panneau de données</object>
+      </resource>
+      <resource name="btnHideHistoryPanel.ToolTip">
+        <object>Affiche ou masque le panneau d'historique</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.SubPages.SubStationData" ServiceOnly="false">
+      <resource name="grpTotal.Text">
+        <object>Total appareils</object>
+      </resource>
+      <resource name="grpErrors.Text">
+        <object>Total erreurs</object>
+      </resource>
+      <resource name="grpStatus.Text">
+        <object>Etat</object>
+      </resource>
+      <resource name="lblActTime.Text">
+        <object>Temps actif :</object>
+      </resource>
+      <resource name="lblTotalPieces.Text">
+        <object>Total pièces :</object>
+      </resource>
+      <resource name="lblThroughput.Text">
+        <object>Débit :</object>
+      </resource>
+      <resource name="uThroughput.Text">
+        <object>pces/heure</object>
+      </resource>
+      <resource name="lblThroughputMin.Text">
+        <object>10 dernières min. :</object>
+      </resource>
+      <resource name="uThroughputMin.Text">
+        <object>pces</object>
+      </resource>
+      <resource name="lblRejected.Text">
+        <object>Rejets :</object>
+      </resource>
+      <resource name="lblTooLong.Text">
+        <object>Trop long :</object>
+      </resource>
+      <resource name="lblTooShort.Text">
+        <object>Trop court :</object>
+      </resource>
+      <resource name="lblGapTooShort.Text">
+        <object>Ecart trop petit :</object>
+      </resource>
+      <resource name="lblTotalLength.Text">
+        <object>Longueur totale :</object>
+      </resource>
+      <resource name="uAvgLength.Text">
+        <object>$L</object>
+      </resource>
+      <resource name="lblTotalWeight.Text">
+        <object>Poids total :</object>
+      </resource>
+      <resource name="uTotalWeight.Text">
+        <object>$W</object>
+      </resource>
+      <resource name="lblResolveErrors.Text">
+        <object>Erreurs Innova :</object>
+      </resource>
+      <resource name="lblXRayOn.Text">
+        <object>Rayons X activés :</object>
+      </resource>
+      <resource name="lblXRayOff.Text">
+        <object>Rayons X désactivés :</object>
+      </resource>
+      <resource name="lblLastCalibrated.Text">
+        <object>Dernier étalonnage :</object>
+      </resource>
+      <resource name="lblVirtualLanes.Text">
+        <object>Lignes virtuelles :</object>
+      </resource>
+      <resource name="lblOpMode.Text">
+        <object>Mode de fonctionnement :</object>
+      </resource>
+      <resource name="LaneGroup">
+        <object>Ligne os</object>
+      </resource>
+      <resource name="lblLBones.Text">
+        <object>Os :</object>
+      </resource>
+      <resource name="lblLNoBones.Text">
+        <object>Aucun os :</object>
+      </resource>
+      <resource name="lblLBonesLastMin.Text">
+        <object>10 dernières min. :</object>
+      </resource>
+      <resource name="lblLTotal.Text">
+        <object>Total :</object>
+      </resource>
+      <resource name="lblLAvgLength.Text">
+        <object>Long. moy. :</object>
+      </resource>
+      <resource name="lblRBones.Text">
+        <object>Os :</object>
+      </resource>
+      <resource name="lblRAvgLength.Text">
+        <object>Long. moy. :</object>
+      </resource>
+      <resource name="lblRBonesLastMin.Text">
+        <object>10 dernières min. :</object>
+      </resource>
+      <resource name="lblRNoBones.Text">
+        <object>Aucun os :</object>
+      </resource>
+      <resource name="uLBonesLastMin.Text">
+        <object>os</object>
+      </resource>
+      <resource name="uRBonesLastMin.Text">
+        <object>os</object>
+      </resource>
+      <resource name="lblLBonesLastMin.ToolTip">
+        <object>Os détectés au cours des 10 dernières minutes</object>
+      </resource>
+      <resource name="lblRBonesLastMin.ToolTip">
+        <object>Os détectés au cours des 10 dernières min.</object>
+      </resource>
+      <resource name="lblLTotal.ToolTip">
+        <object>Nombre total avec os et sans os.</object>
+      </resource>
+      <resource name="lblRTotal.ToolTip">
+        <object>Nombre total avec os et sans os.</object>
+      </resource>
+      <resource name="lblThroughputMin.ToolTip">
+        <object>Nombre total de pièces dans l'appareil au cours des 10 dernières min.</object>
+      </resource>
+      <resource name="lblResolveErrors.ToolTip">
+        <object>Nombre d'erreurs relatives au traitement des données dans Innova.</object>
+      </resource>
+      <resource name="lblXRayOn.ToolTip">
+        <object>Temps total d'activation des rayons X.</object>
+      </resource>
+      <resource name="lblXRayOff.ToolTip">
+        <object>Temps total de désactivation des rayons X.</object>
+      </resource>
+      <resource name="lblLastCalibrated.ToolTip">
+        <object>Heure du dernier étalonnage de SensorX.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.SubPages.SubStationHistory" ServiceOnly="false">
+      <resource name="grpHistory.Text">
+        <object>Historique</object>
+      </resource>
+      <resource name="lblHistoryType.Text">
+        <object>Type de graphique :</object>
+      </resource>
+      <resource name="historyTypeLookUp.ToolTip">
+        <object>Permet de sélectionner le type graphique à afficher</object>
+      </resource>
+      <resource name="lblLane.Text">
+        <object>Ligne :</object>
+      </resource>
+      <resource name="laneLookUp.ToolTip">
+        <object>Permet de sélectionner la ligne pour laquelle afficher le graphique</object>
+      </resource>
+      <resource name="btnShowLegends.Text">
+        <object>Légendes</object>
+      </resource>
+      <resource name="btnShowLegends.ToolTip">
+        <object>Affiche ou masque les légendes du graphique</object>
+      </resource>
+      <resource name="LaneLookupName">
+        <object>Nom</object>
+      </resource>
+      <resource name="chart.XAxis.Time">
+        <object>Temps</object>
+      </resource>
+      <resource name="chart.YAxis.Count">
+        <object>Nombre</object>
+      </resource>
+      <resource name="chart.pieces">
+        <object>Pièces</object>
+      </resource>
+      <resource name="chart.errors">
+        <object>Erreurs</object>
+      </resource>
+      <resource name="chart.bonefree">
+        <object>Aucun os</object>
+      </resource>
+      <resource name="chart.errRejects">
+        <object>Rejets</object>
+      </resource>
+      <resource name="chart.errLong">
+        <object>Trop long</object>
+      </resource>
+      <resource name="chart.errShort">
+        <object>Trop court</object>
+      </resource>
+      <resource name="chart.errGap">
+        <object>Ecart trop petit</object>
+      </resource>
+      <resource name="chart.bones">
+        <object>Os</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.SubPages.SubStationStatus" ServiceOnly="false">
+      <resource name="grpStatus.Text">
+        <object>Etat du système</object>
+      </resource>
+      <resource name="lblProgram.Text">
+        <object>Programme actif :</object>
+      </resource>
+      <resource name="lblSensorXPrg.Text">
+        <object>Paramètres de sensibilité :</object>
+      </resource>
+      <resource name="lblProcessInfo.Text">
+        <object>Traitement :</object>
+      </resource>
+      <resource name="lblStationStatus.Text">
+        <object>Etat du serveur :</object>
+      </resource>
+      <resource name="lblXRayStatus.Text">
+        <object>Etat rayons X :</object>
+      </resource>
+      <resource name="selProgramLookUp.ToolTip">
+        <object>Permet de sélectionner le programme à utiliser pour le poste</object>
+      </resource>
+      <resource name="edSensorXPrg.ToolTip">
+        <object>Paramètres de sensibilité sélectionnés dans SensorX</object>
+      </resource>
+      <resource name="edProcessInfo.ToolTip">
+        <object>Informations sur la période de traitement actuelle</object>
+      </resource>
+      <resource name="edStationStatus.ToolTip">
+        <object>Etat du poste</object>
+      </resource>
+      <resource name="edXRayStatus.ToolTip">
+        <object>Etat des rayons X</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Nom</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Code</object>
+      </resource>
+      <resource name="EmptyProgramList">
+        <object>- inactif -</object>
+      </resource>
+      <resource name="Err.CreatingProcessUnit">
+        <object>Erreur de récupération de l'unité de traitement</object>
+      </resource>
+      <resource name="Err.NoActivePrgList">
+        <object>Erreur de chargement de la liste des programmes actifs</object>
+      </resource>
+      <resource name="PrgActivity.Confirm">
+        <object>Voulez-vous modifier l'activité et sélectionner le programme en tant que :</object>
+      </resource>
+      <resource name="PrgActivity.NoAllowed">
+        <object>vous n'êtes pas autorisé à modifier l'activité !</object>
+      </resource>
+      <resource name="PrgActivity.Title">
+        <object>Modifier l'activité</object>
+      </resource>
+      <resource name="lblLogStatus.Text">
+        <object>Etat du journal :</object>
+      </resource>
+      <resource name="btnStartLog.Text">
+        <object>Démarrer</object>
+      </resource>
+      <resource name="LogBtnText.Start">
+        <object>Démarrer</object>
+      </resource>
+      <resource name="LogBtnText.Stop">
+        <object>Arrêter</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.DataRegs" ServiceOnly="false">
+      <resource name="po">
+        <object>Code BC</object>
+      </resource>
+      <resource name="po Name">
+        <object>BC</object>
+      </resource>
+      <resource name="lot">
+        <object>Code lot</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Lot</object>
+      </resource>
+      <resource name="plot">
+        <object>Code lot\nproduction</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Lot production</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Code zone\nressource</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Zone ressource</object>
+      </resource>
+      <resource name="shift">
+        <object>Code d'équipe</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Equipe</object>
+      </resource>
+      <resource name="material">
+        <object>Code produit</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produit</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Période\nde traitement</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Période\nde sous-traitement</object>
+      </resource>
+      <resource name="batch">
+        <object>Lot</object>
+      </resource>
+      <resource name="regtime">
+        <object>Heure\nd'enregistrement</object>
+      </resource>
+      <resource name="rstat">
+        <object>Etat\nd'enregistrement</object>
+      </resource>
+      <resource name="sxstation">
+        <object>Poste</object>
+      </resource>
+      <resource name="sxsenssettings">
+        <object>Paramètres</object>
+      </resource>
+      <resource name="virtuallaneid">
+        <object>Ligne</object>
+      </resource>
+      <resource name="operationalmode">
+        <object>Mode de\nfonctionnement</object>
+      </resource>
+      <resource name="piecesource">
+        <object>Source\npièce</object>
+      </resource>
+      <resource name="pieces">
+        <object>Pièces</object>
+      </resource>
+      <resource name="bones">
+        <object>Os</object>
+      </resource>
+      <resource name="nobones">
+        <object>Aucun os</object>
+      </resource>
+      <resource name="errors">
+        <object>Erreurs</object>
+      </resource>
+      <resource name="errrejected">
+        <object>Rejeté</object>
+      </resource>
+      <resource name="errtolong">
+        <object>Trop long</object>
+      </resource>
+      <resource name="errtoshort">
+        <object>Trop court</object>
+      </resource>
+      <resource name="errgap">
+        <object>Ecart trop\npetit</object>
+      </resource>
+      <resource name="length">
+        <object>Longueur\n($L)</object>
+      </resource>
+      <resource name="lengthp2">
+        <object>Longueur totale\nau carré ($L)</object>
+      </resource>
+      <resource name="weight">
+        <object>Poids\n($W)</object>
+      </resource>
+      <resource name="weightp2">
+        <object>Poids total\nau carré ($W)</object>
+      </resource>
+      <resource name="activeseconds">
+        <object>Secondes\nactives</object>
+      </resource>
+      <resource name="inactiveseconds">
+        <object>Secondes\ninactives</object>
+      </resource>
+      <resource name="nregs">
+        <object>Nbre d'enreg.</object>
+      </resource>
+      <resource name="rtype">
+        <object>Type d'enregistrement</object>
+      </resource>
+      <resource name="sourcetype">
+        <object>Type de source</object>
+      </resource>
+      <resource name="piecestatus">
+        <object>Statut de pièces</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.DataHistograms" ServiceOnly="false">
+      <resource name="po">
+        <object>Code BC</object>
+      </resource>
+      <resource name="po Name">
+        <object>BC</object>
+      </resource>
+      <resource name="lot">
+        <object>Code lot</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Lot</object>
+      </resource>
+      <resource name="plot">
+        <object>Code lot\nproduction</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Lot production</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Code zone\nressource</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Zone ressource</object>
+      </resource>
+      <resource name="shift">
+        <object>Code d'équipe</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Equipe</object>
+      </resource>
+      <resource name="material">
+        <object>Code produit</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produit</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Période\nde traitement</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Période\nde sous-traitement</object>
+      </resource>
+      <resource name="batch">
+        <object>Lot</object>
+      </resource>
+      <resource name="regtime">
+        <object>Heure\nd'enregistrement</object>
+      </resource>
+      <resource name="rstat">
+        <object>Etat\nd'enregistrement</object>
+      </resource>
+      <resource name="sxstation">
+        <object>Poste</object>
+      </resource>
+      <resource name="sxsenssettings">
+        <object>Paramètres</object>
+      </resource>
+      <resource name="virtuallaneid">
+        <object>Ligne</object>
+      </resource>
+      <resource name="operationalmode">
+        <object>Mode de\nfonctionnement</object>
+      </resource>
+      <resource name="piecesource">
+        <object>Source\npièce</object>
+      </resource>
+      <resource name="class">
+        <object>Classe</object>
+      </resource>
+      <resource name="histtype">
+        <object>Type</object>
+      </resource>
+      <resource name="pieces">
+        <object>Pièces</object>
+      </resource>
+      <resource name="weight">
+        <object>Poids ($W)</object>
+      </resource>
+      <resource name="measurement">
+        <object>Mesure\ntotale</object>
+      </resource>
+      <resource name="measurementp2">
+        <object>Mesure totale\nau carré</object>
+      </resource>
+      <resource name="rtype">
+        <object>Type d'enregistrement</object>
+      </resource>
+    </type>
+    <type name="Grid.Registrations.StationEvents" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="regtime">
+        <object>Heure\nd'enregistrement</object>
+      </resource>
+      <resource name="sxstation">
+        <object>Poste</object>
+      </resource>
+      <resource name="eventtype">
+        <object>Type</object>
+      </resource>
+      <resource name="eventname">
+        <object>Nom</object>
+      </resource>
+      <resource name="eventtext">
+        <object>Description</object>
+      </resource>
+      <resource name="reference">
+        <object>Référence</object>
+      </resource>
+    </type>
+    <type name="Grid.SxSystems.Systems" ServiceOnly="true">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="name">
+        <object>Nom</object>
+      </resource>
+      <resource name="system">
+        <object>ID système</object>
+      </resource>
+      <resource name="device">
+        <object>Code de l'appareil</object>
+      </resource>
+      <resource name="station">
+        <object>Code du poste</object>
+      </resource>
+      <resource name="prunit">
+        <object>Code de l'unité de traitement</object>
+      </resource>
+      <resource name="sourceprunit">
+        <object>Code de l'unité de trait. d'origine</object>
+      </resource>
+      <resource name="destprunit">
+        <object>Code de l'unité de trait. de dest.</object>
+      </resource>
+      <resource name="defweightres">
+        <object>Rés. poids\npar défaut</object>
+      </resource>
+      <resource name="deflengthres">
+        <object>Rés. longueur\npar défaut</object>
+      </resource>
+      <resource name="defclres">
+        <object>Rés. CL\npar défaut (%)</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="device Name">
+        <object>Appareil</object>
+      </resource>
+      <resource name="station Name">
+        <object>Poste</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>Unité de traitement</object>
+      </resource>
+      <resource name="sourceprunit Name">
+        <object>Unité de traitement\nd'origine</object>
+      </resource>
+      <resource name="destprunit Name">
+        <object>Unité de traitement\nde destination</object>
+      </resource>
+      <resource name="operationalmode">
+        <object>Mode de\nfonctionnement</object>
+      </resource>
+      <resource name="weightresunit">
+        <object>Unité de rés.\ndu poids</object>
+      </resource>
+      <resource name="lengthresunit">
+        <object>Unité de rés.\nde la longueur</object>
+      </resource>
+      <resource name="enablepiecemessage">
+        <object>Activer message\nsur pièce</object>
+      </resource>
+      <resource name="sequence">
+        <object>Séquence</object>
+      </resource>
+      <resource name="piecesources">
+        <object>Sources\npièces</object>
+      </resource>
+      <resource name="instancename">
+        <object>Nom d'instance\ndans Pluto</object>
+      </resource>
+      <resource name="alarmconfig Name">
+        <object>Configuration d'alarmes</object>
+      </resource>
+      <resource name="gates">
+        <object>Portes</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.SystemSetup.SxSystemView" ServiceOnly="true">
+      <resource name="Lookup.Code.Caption">
+        <object>Code</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Nom</object>
+      </resource>
+      <resource name="paramTabPage.Text">
+        <object>Machines</object>
+      </resource>
+      <resource name="grpSystem.Text">
+        <object>Système</object>
+      </resource>
+      <resource name="sysPrgLookUp.ToolTip">
+        <object>Programme système qui s'exécute sur le système</object>
+      </resource>
+      <resource name="siteLookUp.ToolTip">
+        <object>Site du système</object>
+      </resource>
+      <resource name="sysAppLookUp.ToolTip">
+        <object>Application gérant le système</object>
+      </resource>
+      <resource name="lblSysProgram.Text">
+        <object>Programme système :</object>
+      </resource>
+      <resource name="lblSite.Text">
+        <object>Site :</object>
+      </resource>
+      <resource name="lblApplication.Text">
+        <object>Application :</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Erreur de sauvegarde de données !</object>
+      </resource>
+      <resource name="Err.CancelEdit">
+        <object>Erreur d'annulation !</object>
+      </resource>
+      <resource name="Err.NoObjectSelected">
+        <object>Aucun objet sélectionné</object>
+      </resource>
+      <resource name="Err.NoObjectSelectedCaption">
+        <object>Informations</object>
+      </resource>
+      <resource name="Err.DeletingStationChildren">
+        <object>Impossible de supprimer les enfants du poste</object>
+      </resource>
+      <resource name="Err.DeletingStationData">
+        <object>Impossible de supprimer le poste. Le poste contient des données.</object>
+      </resource>
+      <resource name="childTabPage.Text">
+        <object>Chemin</object>
+      </resource>
+      <resource name="Alarm.Importing">
+        <object>Importation d'alarmes...</object>
+      </resource>
+      <resource name="Alarm.WrongDeviceType">
+        <object>L'importation d'alarmes n'est pas prise en charge par l'appareil sélectionné.</object>
+      </resource>
+      <resource name="Alarm.WrongDeviceTypeCaption">
+        <object>Informations</object>
+      </resource>
+      <resource name="Alarm.NoDevice">
+        <object>Aucun appareil associé au poste</object>
+      </resource>
+      <resource name="Alarm.NoDeviceCaption">
+        <object>Avertissement</object>
+      </resource>
+      <resource name="Alarm.ImportComplete">
+        <object>Importation terminée\n\nNouveau : {0}\Actualisé : {1}\nInutilisé, désactivé : {2}</object>
+      </resource>
+      <resource name="Alarm.ImportCompleteCaption">
+        <object>Informations</object>
+      </resource>
+      <resource name="Alarm.ImportFailed">
+        <object>Echec de l'importation</object>
+      </resource>
+      <resource name="btnAlarmImport.Caption">
+        <object>Importer des alarmes</object>
+      </resource>
+      <resource name="btnProgramSchemaImport.Caption">
+        <object>Importer schéma</object>
+      </resource>
+      <resource name="ProgramSchema.Importing">
+        <object>Importation du schéma de programme</object>
+      </resource>
+      <resource name="ProgramSchema.WrongDeviceType">
+        <object>L'importation de schémas de programme n'est pas prise en charge par l'appareil sélectionné.</object>
+      </resource>
+      <resource name="ProgramSchema.WrongDeviceTypeCaption">
+        <object>Informations</object>
+      </resource>
+      <resource name="ProgramSchema.NoDevice">
+        <object>Aucun appareil associé au poste.</object>
+      </resource>
+      <resource name="ProgramSchema.NoDeviceCaption">
+        <object>Avertissement</object>
+      </resource>
+      <resource name="ProgramSchema.ImportComplete">
+        <object>Importation terminée</object>
+      </resource>
+      <resource name="ProgramSchema.ImportCompleteCaption">
+        <object>Informations</object>
+      </resource>
+      <resource name="ProgramSchema.ImportFailed">
+        <object>Echec de l'importation</object>
+      </resource>
+    </type>
+    <type name="Grid.Sensorx.Program" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Nom</object>
+      </resource>
+      <resource name="shname">
+        <object>Nom abrégé</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Actif</object>
+      </resource>
+      <resource name="station">
+        <object>Système</object>
+      </resource>
+      <resource name="freetext">
+        <object>Description</object>
+      </resource>
+      <resource name="prunit">
+        <object>Code de l'unité de traitement</object>
+      </resource>
+      <resource name="product">
+        <object>Produit</object>
+      </resource>
+      <resource name="productname">
+        <object>Nom du produit</object>
+      </resource>
+      <resource name="jobtype">
+        <object>Type de tâche</object>
+      </resource>
+      <resource name="doublelane">
+        <object>Double ligne</object>
+      </resource>
+      <resource name="weightres">
+        <object>Rés. du poids</object>
+      </resource>
+      <resource name="lengthres">
+        <object>Rés. de la longueur</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>Unité de traitement</object>
+      </resource>
+      <resource name="sxsenssettings">
+        <object>Paramètres de\nsensibilité</object>
+      </resource>
+      <resource name="weightresunit">
+        <object>Unité de rés.\ndu poids</object>
+      </resource>
+      <resource name="lengthresunit">
+        <object>Unité de rés.\nde la longueur</object>
+      </resource>
+      <resource name="sequence">
+        <object>Séquence</object>
+      </resource>
+      <resource name="sxstation">
+        <object>Poste</object>
+      </resource>
+      <resource name="sxsenssettings.lookup.sensorxprgno">
+        <object>Numéro</object>
+      </resource>
+      <resource name="sxsenssettings.lookup.sensorxprgname">
+        <object>Nom</object>
+      </resource>
+      <resource name="product.lookup.name">
+        <object>Nom</object>
+      </resource>
+      <resource name="product.lookup.code">
+        <object>Code</object>
+      </resource>
+      <resource name="product.lookup.systemtype">
+        <object>Type</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.SxLiveViewUC" ServiceOnly="false">
+      <resource name="btnClear.Caption">
+        <object>Effacer</object>
+      </resource>
+      <resource name="btnConnect.Caption">
+        <object>Connecter</object>
+      </resource>
+      <resource name="btnRefresh.Caption">
+        <object>Actualiser</object>
+      </resource>
+      <resource name="lblSelectSystem.Caption">
+        <object>Systèmes :</object>
+      </resource>
+      <resource name="btnRefresh.Hint">
+        <object>Permet de demander un état et des données au serveur</object>
+      </resource>
+      <resource name="btnClear.Hint">
+        <object>Efface les données de contrôle dans l'interface utilisateur et sur le serveur</object>
+      </resource>
+      <resource name="btnConnect.Hint">
+        <object>Permet de demander une connexion au serveur du poste</object>
+      </resource>
+      <resource name="btnSettings.Caption">
+        <object>Paramètres</object>
+      </resource>
+      <resource name="btnSettings.Hint">
+        <object>Permet de régler certains paramètres de contrôle</object>
+      </resource>
+      <resource name="btnPrint.Caption">
+        <object>Imprimer</object>
+      </resource>
+      <resource name="btnPrint.Hint">
+        <object>Cliquez pour imprimer une capture d'écran</object>
+      </resource>
+      <resource name="selectSystem.Hint">
+        <object>Permet de sélectionner le système dont les postes doivent être contrôlés</object>
+      </resource>
+      <resource name="ServerConnected">
+        <object>Connecté au serveur</object>
+      </resource>
+      <resource name="ServerDisconnected">
+        <object>Pas de connexion au serveur</object>
+      </resource>
+    </type>
+    <type name="Grid.SxSystems.PieceSource" ServiceOnly="true">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="sxstation">
+        <object>Poste Sx</object>
+      </resource>
+      <resource name="station">
+        <object>Code du poste</object>
+      </resource>
+      <resource name="station Name">
+        <object>Poste</object>
+      </resource>
+      <resource name="piecenumber">
+        <object>Numéro de pièce</object>
+      </resource>
+    </type>
+    <type name="Grid.SxSystems.Gates" ServiceOnly="true">
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="station Name">
+        <object>Poste</object>
+      </resource>
+      <resource name="destination Name">
+        <object>Unité de traitement \nde destination</object>
+      </resource>
+      <resource name="gate">
+        <object>Porte</object>
+      </resource>
+      <resource name="stationtype">
+        <object>Type de poste</object>
+      </resource>
+      <resource name="unitop Name">
+        <object>Opération sur l'unité</object>
+      </resource>
+      <resource name="printer1">
+        <object>Code imprimante 1</object>
+      </resource>
+      <resource name="printer2">
+        <object>Code imprimante 2</object>
+      </resource>
+      <resource name="printer3">
+        <object>Code imprimante 3</object>
+      </resource>
+      <resource name="printer1 Name">
+        <object>Imprimante 1</object>
+      </resource>
+      <resource name="printer2 Name">
+        <object>Imprimante 2</object>
+      </resource>
+      <resource name="printer3 Name">
+        <object>Imprimante 3</object>
+      </resource>
+    </type>
+    <type name="Grids.ProgramSetup.Programs" ServiceOnly="true">
+      <resource name="program">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Code</object>
+      </resource>
+      <resource name="name">
+        <object>Nom</object>
+      </resource>
+      <resource name="shname">
+        <object>Abrégé</object>
+      </resource>
+      <resource name="extcode">
+        <object>Code externe</object>
+      </resource>
+      <resource name="pattern">
+        <object>Modèle</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimension 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimension 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimension 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimension 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Texte 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Texte 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Texte 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Texte 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Texte 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Texte 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Texte 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Texte 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Actif</object>
+      </resource>
+      <resource name="prunit">
+        <object>Code de l'unité de traitement</object>
+      </resource>
+      <resource name="prunit Name">
+        <object>Unité de traitement</object>
+      </resource>
+      <resource name="verifystatus">
+        <object>Statut de\nvérification</object>
+      </resource>
+      <resource name="product">
+        <object>Code produit</object>
+      </resource>
+      <resource name="product Name">
+        <object>Produit</object>
+      </resource>
+      <resource name="validationerror">
+        <object>Message\nd'erreur de validation</object>
+      </resource>
+      <resource name="weightres">
+        <object>Résolution\ndu poids</object>
+      </resource>
+      <resource name="lengthres">
+        <object>Résolution\nde la longueur</object>
+      </resource>
+      <resource name="weightresunit">
+        <object>Unité\nde résolution du poids</object>
+      </resource>
+      <resource name="lengthresunit">
+        <object>Unité de résolution\nde la longueur</object>
+      </resource>
+      <resource name="piecemode">
+        <object>Mode pièce</object>
+      </resource>
+      <resource name="piecemode.hint">
+        <object>Les données transmises par la machine sont stockées en tant que données de pièce, même si la machine est en mode flux.</object>
+      </resource>
+      <resource name="ProgramHeader">
+        <object>En-tête de programme</object>
+      </resource>
+      <resource name="NormalBoneMethod">
+        <object>Méthode de détection des os normaux</object>
+      </resource>
+      <resource name="NormalBoneSize">
+        <object>Taille</object>
+      </resource>
+      <resource name="NormalBoneThreshold">
+        <object>Seuil</object>
+      </resource>
+      <resource name="FanBoneMethod">
+        <object>Méthode de détection des os plats</object>
+      </resource>
+      <resource name="FanBoneSize">
+        <object>Taille</object>
+      </resource>
+      <resource name="FanBoneThreshold">
+        <object>Seuil</object>
+      </resource>
+      <resource name="HardContaminantsDetection">
+        <object>Détection de contaminants durs</object>
+      </resource>
+      <resource name="HardContaminantsThreshold">
+        <object>Seuil</object>
+      </resource>
+      <resource name="AdvancedProcessingParameters">
+        <object>Paramètres de traitement avancés</object>
+      </resource>
+      <resource name="AfterglowThreshold">
+        <object>Seuil de rémanence</object>
+      </resource>
+      <resource name="AfterglowCorrectionFactor">
+        <object>Facteur de correction de rémanence</object>
+      </resource>
+      <resource name="Angle">
+        <object>Angle</object>
+      </resource>
+      <resource name="OobCount">
+        <object>Nombre de pixels hors plage</object>
+      </resource>
+      <resource name="ProductSize">
+        <object>Taille de produit</object>
+      </resource>
+      <resource name="MaxLinesInProduct">
+        <object>Nombre max. de lignes du produit</object>
+      </resource>
+      <resource name="MinLinesInProduct">
+        <object>Nombre min. de lignes du produit</object>
+      </resource>
+      <resource name="OpeningBeforeBone">
+        <object>Ouverture avant os</object>
+      </resource>
+      <resource name="OpeningAfterBone">
+        <object>Ouverture après os</object>
+      </resource>
+      <resource name="ExtraOpenTicks">
+        <object>Ticks d'ouverture supplémentaires</object>
+      </resource>
+      <resource name="BoneGap">
+        <object>Écart entre deux os</object>
+      </resource>
+      <resource name="Record">
+        <object>Vue détaillée</object>
+      </resource>
+      <resource name="Grid">
+        <object>Vue d'ensemble</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.ProgramSetup.ImportExportViewExtension" ServiceOnly="false">
+      <resource name="ImportButtonCaption">
+        <object>Importer</object>
+      </resource>
+      <resource name="ExportButtonCaption">
+        <object>Exporter</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.ProgramSetup.ValidateProgramsViewExtension" ServiceOnly="false">
+      <resource name="ValidateButtonCaption">
+        <object>Valider</object>
+      </resource>
+      <resource name="Progress">
+        <object>Progression de la validation</object>
+      </resource>
+      <resource name="ValidatingProgram">
+        <object>Validation de '{0}' (code = {1})</object>
+      </resource>
+      <resource name="Cancelling">
+        <object>Annulation...</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.Dashboard.StationHistory" ServiceOnly="false">
+      <resource name="DisplayName">
+        <object>Historique de la machine</object>
+      </resource>
+      <resource name="chart.XAxis.Time">
+        <object>Temps</object>
+      </resource>
+      <resource name="chart.YAxis.Count">
+        <object>Nombre</object>
+      </resource>
+      <resource name="chart.bones">
+        <object>Os</object>
+      </resource>
+      <resource name="chart.pieces">
+        <object>Pièces</object>
+      </resource>
+      <resource name="chart.errors">
+        <object>Erreurs</object>
+      </resource>
+      <resource name="chart.bonefree">
+        <object>Aucun os</object>
+      </resource>
+      <resource name="chart.errRejects">
+        <object>Rejets</object>
+      </resource>
+      <resource name="chart.errLong">
+        <object>Trop long</object>
+      </resource>
+      <resource name="chart.errShort">
+        <object>Trop court</object>
+      </resource>
+      <resource name="chart.errGap">
+        <object>Ecart trop petit</object>
+      </resource>
+      <resource name="chart.YAxis.WeightThroughput">
+        <object>$W/heure</object>
+      </resource>
+      <resource name="chart.Throughput">
+        <object>Débit</object>
+      </resource>
+      <resource name="chart.abbrevMinutes">
+        <object>min</object>
+      </resource>
+      <resource name="chart.pctbonefree">
+        <object>% Sans os</object>
+      </resource>
+      <resource name="chart.pctbones">
+        <object>% Avec l'os</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.Dashboard.StationStatus" ServiceOnly="false">
+      <resource name="DisplayName">
+        <object>Etat de la machine</object>
+      </resource>
+      <resource name="lblProgram.Text">
+        <object>Programme actif :</object>
+      </resource>
+      <resource name="lblXRayStatus.Text">
+        <object>Etat rayons X :</object>
+      </resource>
+      <resource name="lblProcessInfo.Text">
+        <object>Période de traitement :</object>
+      </resource>
+      <resource name="lblStationStatus.Text">
+        <object>Etat du serveur :</object>
+      </resource>
+      <resource name="lblSensorXPrg.Text">
+        <object>Paramètres de sensibilité :</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.Dashboard.DeviceTotal" ServiceOnly="false">
+      <resource name="DisplayName">
+        <object>Synthèse de la machine</object>
+      </resource>
+      <resource name="uThroughputMin.Text">
+        <object>pces</object>
+      </resource>
+      <resource name="uThroughput.Text">
+        <object>pces/min.</object>
+      </resource>
+      <resource name="lblThroughputMin.Text">
+        <object>10 dernières min. :</object>
+      </resource>
+      <resource name="lblThroughput.Text">
+        <object>Débit :</object>
+      </resource>
+      <resource name="lblActTime.Text">
+        <object>Temps actif :</object>
+      </resource>
+      <resource name="lblTotalPieces.Text">
+        <object>Total pièces :</object>
+      </resource>
+      <resource name="lblThroughputMin.ToolTip">
+        <object>Nombre total de pièces dans l'appareil au cours des 10 dernières min.</object>
+      </resource>
+      <resource name="lblXRayRuntime.Text">
+        <object>Temps d'exécution des rayons X :</object>
+      </resource>
+      <resource name="uXRayRuntime.Text">
+        <object>heures</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.Dashboard.DefaultLayout" ServiceOnly="false">
+      <resource name="DisplayName">
+        <object>Disposition par défaut</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.Dashboard.InfeedQuality" ServiceOnly="false">
+      <resource name="DisplayName">
+        <object>Qualité de l'alimentation</object>
+      </resource>
+      <resource name="uGapTooShort.Text">
+        <object>%</object>
+      </resource>
+      <resource name="lblGapTooShort.Text">
+        <object>Ecart trop petit :</object>
+      </resource>
+      <resource name="uToLong.Text">
+        <object>%</object>
+      </resource>
+      <resource name="lblTooLong.Text">
+        <object>Trop long :</object>
+      </resource>
+      <resource name="uOutOfBoundsPerc.Text">
+        <object>%</object>
+      </resource>
+      <resource name="lblOutOfBounds.Text">
+        <object>Hors plage :</object>
+      </resource>
+      <resource name="uInfeedQualityPerc.Text">
+        <object>%</object>
+      </resource>
+      <resource name="lblInfeedQuality.Text">
+        <object>Qualité de l'alimentation :</object>
+      </resource>
+      <resource name="uUnhandled.Text">
+        <object>%</object>
+      </resource>
+      <resource name="lblUnhandled.Text">
+        <object>Non traité :</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.Dashboard.MachineStatus" ServiceOnly="false">
+      <resource name="DisplayName">
+        <object>Etat de la machine</object>
+      </resource>
+      <resource name="lblOpMode.Text">
+        <object>Mode de fonctionnement :</object>
+      </resource>
+      <resource name="lblVirtualLanes.Text">
+        <object>Lignes virtuelles :</object>
+      </resource>
+      <resource name="lblLastCalibrated.Text">
+        <object>Dernier étalonnage du gain :</object>
+      </resource>
+      <resource name="lblXRayOff.Text">
+        <object>Rayons X désactivés :</object>
+      </resource>
+      <resource name="lblXRayOn.Text">
+        <object>Rayons X activés :</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.Production.Dashboard.LaneStats" ServiceOnly="false">
+      <resource name="DisplayName">
+        <object>Statistiques relatives aux lignes</object>
+      </resource>
+      <resource name="lblBonesLastMin.Text">
+        <object>10 dernières min. :</object>
+      </resource>
+      <resource name="uBonesLastMin.Text">
+        <object>os</object>
+      </resource>
+      <resource name="lblTotal.Text">
+        <object>Total :</object>
+      </resource>
+      <resource name="lblOtherReject.Text">
+        <object>Autres rejets :</object>
+      </resource>
+      <resource name="uNoBones.Text">
+        <object>%</object>
+      </resource>
+      <resource name="lblBones.Text">
+        <object>Os :</object>
+      </resource>
+      <resource name="uBones.Text">
+        <object>%</object>
+      </resource>
+      <resource name="lblNoBones.Text">
+        <object>Aucun os :</object>
+      </resource>
+      <resource name="uOtherReject.Text">
+        <object>%</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.ProgramSetup.ImportExportWizard" ServiceOnly="false">
+      <resource name="WizardControlHeaderExport">
+        <object>Exporter programmes SensorX</object>
+      </resource>
+      <resource name="SelectExportProgramsTooltip">
+        <object>Permet de sélectionner les programmes à exporter</object>
+      </resource>
+      <resource name="SelectExportPrograms">
+        <object>Sélectionner les programmes à exporter</object>
+      </resource>
+      <resource name="WizardControlHeaderImport">
+        <object>Importer programmes SensorX</object>
+      </resource>
+      <resource name="SelectImportProgramsTooltip">
+        <object>Permet de sélectionner les programmes à importer</object>
+      </resource>
+      <resource name="SelectImportPrograms">
+        <object>Sélectionner les programmes à importer</object>
+      </resource>
+      <resource name="SelectAll">
+        <object>Sélectionner tout</object>
+      </resource>
+      <resource name="Export">
+        <object>Exporter</object>
+      </resource>
+      <resource name="Import">
+        <object>Importer</object>
+      </resource>
+      <resource name="Next">
+        <object>Suivant &gt;</object>
+      </resource>
+      <resource name="ExportInProgress">
+        <object>Exportation en cours. Veuillez patienter.</object>
+      </resource>
+      <resource name="ImportInProgress">
+        <object>Importation en cours. Veuillez patienter.</object>
+      </resource>
+      <resource name="NoProgramSelected">
+        <object>Aucun programme n'a été sélectionné.</object>
+      </resource>
+      <resource name="ExportDone">
+        <object>Exportation terminée</object>
+      </resource>
+      <resource name="ImportDone">
+        <object>Importation terminée</object>
+      </resource>
+      <resource name="SelectMachine">
+        <object>Sélectionner une machine SensorX</object>
+      </resource>
+      <resource name="deviceProgIdCol.Caption">
+        <object>ID</object>
+      </resource>
+      <resource name="systemProgIdCol.Caption">
+        <object>ID</object>
+      </resource>
+      <resource name="machineIdColumn.Caption">
+        <object>ID</object>
+      </resource>
+      <resource name="machineNameColumn.Caption">
+        <object>Nom</object>
+      </resource>
+      <resource name="statusCol.Caption">
+        <object>Etat</object>
+      </resource>
+      <resource name="programIdCol.Caption">
+        <object>ID</object>
+      </resource>
+      <resource name="programNameCol.Caption">
+        <object>Nom</object>
+      </resource>
+      <resource name="resultCol.Caption">
+        <object>Résultat</object>
+      </resource>
+      <resource name="progNameCol.Caption">
+        <object>Nom</object>
+      </resource>
+      <resource name="PrgExists.Yes">
+        <object>oui</object>
+      </resource>
+      <resource name="colProgExists.Caption">
+        <object>Existe</object>
+      </resource>
+      <resource name="colProgExists.ToolTip">
+        <object>Indique si le programme existe déjà dans Innova et s'il sera mis à jour s'il est sélectionné</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Sensorx.UI.Windows.ProgramSetup.ImportExportResultHelper" ServiceOnly="false">
+      <resource name="ExportOk">
+        <object>Exportation réussie</object>
+      </resource>
+      <resource name="ExportErrorLoading">
+        <object>Echec de l'exportation Erreur de chargement du programme.</object>
+      </resource>
+      <resource name="ExportErrorStarting">
+        <object>Echec de l'exportation Erreur de démarrage du programme.</object>
+      </resource>
+      <resource name="ExportErrorStopping">
+        <object>Echec de l'exportation Erreur d'arrêt du programme.</object>
+      </resource>
+      <resource name="ExportException">
+        <object>Echec de l'exportation Exception inconnue.</object>
+      </resource>
+      <resource name="ExportGenericDeviceError">
+        <object>Echec de l'exportation Erreur d'appareil générique.</object>
+      </resource>
+      <resource name="ExportNoProductsInProgram">
+        <object>Echec de l'exportation Aucun produit dans le programme.</object>
+      </resource>
+      <resource name="ExportNotSet">
+        <object>Echec de l'exportation Erreur non spécifiée.</object>
+      </resource>
+      <resource name="ExportParseError">
+        <object>Echec de l'exportation Erreur d'analyse.</object>
+      </resource>
+      <resource name="ExportNoProgram">
+        <object>Echec de l'exportation Programme incomplet.</object>
+      </resource>
+      <resource name="ExportNoRecord">
+        <object>Echec de l'exportation Aucun enregistrement de programme.</object>
+      </resource>
+      <resource name="ExportUnknown">
+        <object>Echec de l'exportation Erreur non spécifiée.</object>
+      </resource>
+      <resource name="ImportOk">
+        <object>Importation réussie</object>
+      </resource>
+      <resource name="ImportException">
+        <object>Echec de l'importation. Exception inconnue.</object>
+      </resource>
+      <resource name="ImportProductNotFoundInSystem">
+        <object>Echec de l'importation. Produit introuvable dans le système.</object>
+      </resource>
+      <resource name="ImportProgramNotFoundInSystem">
+        <object>Echec de l'importation. Programme introuvable dans le système.</object>
+      </resource>
+      <resource name="ImportProgramNotFoundOnDevice">
+        <object>Echec de l'importation. Programme introuvable sur l'appareil.</object>
+      </resource>
+      <resource name="SyncFailed">
+        <object>Echec de l'importation. Echec de la synchronisation.</object>
+      </resource>
+      <resource name="ImportUnknown">
+        <object>Echec de l'importation pour une raison inconnue.</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

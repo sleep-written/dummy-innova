@@ -1,0 +1,827 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="cs">
+  <industry>
+    <type name="Marel.Common.Terminals.ScreenSystem" ServiceOnly="false">
+      <resource name="ShutdownMessage">
+        <object>- VYPNUTÍ SYSTÉMU -</object>
+      </resource>
+      <resource name="MomentMessage">
+        <object>Vyčkejte chvíli...</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.ListScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Výb</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Zpět</object>
+      </resource>
+      <resource name="SortByCodeLegend">
+        <object>Kód</object>
+      </resource>
+      <resource name="SortByNameLegend">
+        <object>Název</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.FieldScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Výb</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Zpět</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.DeviceStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="NoInterface">
+        <object>Žádné rozhraní</object>
+      </resource>
+      <resource name="NoRouter">
+        <object>Žádný směrovač</object>
+      </resource>
+      <resource name="Offline">
+        <object>Offline</object>
+      </resource>
+      <resource name="PresumedOnline">
+        <object>Předpokládáno online</object>
+      </resource>
+      <resource name="Online">
+        <object>Online</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Diagnostics.LogEntryType" ServiceOnly="false">
+      <resource name="Information">
+        <object>Informace</object>
+      </resource>
+      <resource name="UsageLog">
+        <object>Protokol použití</object>
+      </resource>
+      <resource name="Warning">
+        <object>Výstraha</object>
+      </resource>
+      <resource name="Error">
+        <object>Chyba</object>
+      </resource>
+      <resource name="Fatal">
+        <object>Fatální</object>
+      </resource>
+      <resource name="UnhandledException">
+        <object>Neošetřená výjimka</object>
+      </resource>
+      <resource name="Trace">
+        <object>Sledovat</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Sockets.ConnectionStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="Idle">
+        <object>Nečinné</object>
+      </resource>
+      <resource name="Unconnected">
+        <object>Nepřipojené</object>
+      </resource>
+      <resource name="Connecting">
+        <object>Připojení</object>
+      </resource>
+      <resource name="Connected">
+        <object>Připojeno</object>
+      </resource>
+      <resource name="Disconnected">
+        <object>Odpojeno</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmManagement" ServiceOnly="false">
+      <resource name="Units">
+        <object>Jednotky</object>
+      </resource>
+      <resource name="Weight">
+        <object>Hmotnost</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmProduct" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>libry</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="Units">
+        <object>Jednotky</object>
+      </resource>
+      <resource name="Pieces">
+        <object>Kusy</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmSystem" ServiceOnly="false">
+      <resource name="Si">
+        <object>SI</object>
+      </resource>
+      <resource name="European">
+        <object>Evropské</object>
+      </resource>
+      <resource name="Imperial">
+        <object>Imperiální</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmWeight" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Milligrams">
+        <object>mg</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="OunceEights">
+        <object>oz/8</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmLength" ServiceOnly="false">
+      <resource name="Meters">
+        <object>m</object>
+      </resource>
+      <resource name="Millimeters">
+        <object>mm</object>
+      </resource>
+      <resource name="Centimeters">
+        <object>cm</object>
+      </resource>
+      <resource name="Inches">
+        <object>palce</object>
+      </resource>
+      <resource name="Feet">
+        <object>stopy</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.FormatSpecification" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="Point000001">
+        <object>0.000001</object>
+      </resource>
+      <resource name="Point000002">
+        <object>0.000002</object>
+      </resource>
+      <resource name="Point000005">
+        <object>0.000005</object>
+      </resource>
+      <resource name="Point00001">
+        <object>0.00001</object>
+      </resource>
+      <resource name="Point00002">
+        <object>0.00002</object>
+      </resource>
+      <resource name="Point00005">
+        <object>0.00005</object>
+      </resource>
+      <resource name="Point0001">
+        <object>0.0001</object>
+      </resource>
+      <resource name="Point0002">
+        <object>0.0002</object>
+      </resource>
+      <resource name="Point0005">
+        <object>0.0005</object>
+      </resource>
+      <resource name="Point001">
+        <object>0.001</object>
+      </resource>
+      <resource name="Point002">
+        <object>0.002</object>
+      </resource>
+      <resource name="Point005">
+        <object>0.005</object>
+      </resource>
+      <resource name="Point01">
+        <object>0.01</object>
+      </resource>
+      <resource name="Point02">
+        <object>0.02</object>
+      </resource>
+      <resource name="Point05">
+        <object>0.05</object>
+      </resource>
+      <resource name="Point1">
+        <object>0.1</object>
+      </resource>
+      <resource name="Point2">
+        <object>0.2</object>
+      </resource>
+      <resource name="Point5">
+        <object>0.5</object>
+      </resource>
+      <resource name="N1">
+        <object>1</object>
+      </resource>
+      <resource name="N2">
+        <object>2</object>
+      </resource>
+      <resource name="N5">
+        <object>5</object>
+      </resource>
+      <resource name="N10">
+        <object>10</object>
+      </resource>
+      <resource name="N20">
+        <object>20</object>
+      </resource>
+      <resource name="N50">
+        <object>50</object>
+      </resource>
+      <resource name="Max">
+        <object>Max</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.NominalMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Vážení pro jednotlivé kusy, % režie</object>
+      </resource>
+      <resource name="FixWeightFg">
+        <object>Nominální, fixní režie</object>
+      </resource>
+      <resource name="FixWeightVg">
+        <object>Nominální, % režie</object>
+      </resource>
+      <resource name="FixWeightE">
+        <object>e, bez režie</object>
+      </resource>
+      <resource name="FixWeightEFg">
+        <object>e,  fixní režie</object>
+      </resource>
+      <resource name="FixWeightEVg">
+        <object>e, % režie</object>
+      </resource>
+      <resource name="Range">
+        <object>Nominální rozsah</object>
+      </resource>
+      <resource name="Step">
+        <object>Nominální kroky</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="Button">
+        <object>Tlačítko</object>
+      </resource>
+      <resource name="Preset">
+        <object>Přednastavení</object>
+      </resource>
+      <resource name="Auto">
+        <object>Auto</object>
+      </resource>
+      <resource name="System">
+        <object>Systém</object>
+      </resource>
+      <resource name="Calculated">
+        <object>Vypočteno</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Gender" ServiceOnly="false">
+      <resource name="Female">
+        <object>Žena</object>
+      </resource>
+      <resource name="Male">
+        <object>Muž</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Nespecifikováno</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.AccuracyMode" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="Low">
+        <object>Nízký</object>
+      </resource>
+      <resource name="Medium">
+        <object>Střední</object>
+      </resource>
+      <resource name="High">
+        <object>Vysoký</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.FlowUnit" ServiceOnly="false">
+      <resource name="Percentage">
+        <object>Procento</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>Ks/min</object>
+      </resource>
+      <resource name="WeightPerHour">
+        <object>Hm./hod</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.LaneSpecification" ServiceOnly="false">
+      <resource name="OneSide">
+        <object>Jedna strana</object>
+      </resource>
+      <resource name="TwoSide">
+        <object>Dvě strany</object>
+      </resource>
+      <resource name="Lane1">
+        <object>Linka 1</object>
+      </resource>
+      <resource name="Lane2">
+        <object>Linka 2</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.RecordingMethod" ServiceOnly="false">
+      <resource name="Manual">
+        <object>Ruční</object>
+      </resource>
+      <resource name="Auto">
+        <object>Automatické</object>
+      </resource>
+      <resource name="Stable">
+        <object>Stabilní</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Resources.Industry" ServiceOnly="false">
+      <resource name="Neutral">
+        <object>Průmyslové neutrální</object>
+      </resource>
+      <resource name="Fish">
+        <object>Ryba</object>
+      </resource>
+      <resource name="Meat">
+        <object>Maso</object>
+      </resource>
+      <resource name="Poultry">
+        <object>Drůbež</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTime" ServiceOnly="false">
+      <resource name="Seconds">
+        <object>sek.</object>
+      </resource>
+      <resource name="Milliseconds">
+        <object>ms</object>
+      </resource>
+      <resource name="Minutes">
+        <object>min</object>
+      </resource>
+      <resource name="Hours">
+        <object>hodina</object>
+      </resource>
+      <resource name="Days">
+        <object>den</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.UnitType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="Pack">
+        <object>Balení</object>
+      </resource>
+      <resource name="Stack">
+        <object>Stoh</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Paleta</object>
+      </resource>
+      <resource name="Container">
+        <object>Kontejner</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Přeprava</object>
+      </resource>
+      <resource name="Item">
+        <object>Položka</object>
+      </resource>
+      <resource name="GraderPiece">
+        <object>Kus</object>
+      </resource>
+      <resource name="Individual">
+        <object>Zvíře</object>
+      </resource>
+      <resource name="TrimPiece">
+        <object>Ořezávání</object>
+      </resource>
+      <resource name="CollectionMix">
+        <object>Smíšené jednotky</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.AppRecordType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Nespecifikováno</object>
+      </resource>
+      <resource name="Input">
+        <object>Obecný vstup</object>
+      </resource>
+      <resource name="Output">
+        <object>Obecný výstup</object>
+      </resource>
+      <resource name="TrimInput">
+        <object>Vstup ořezávání</object>
+      </resource>
+      <resource name="TrimOutput">
+        <object>Výstup ořezávání</object>
+      </resource>
+      <resource name="BypassInput">
+        <object>Vedlejší vstup</object>
+      </resource>
+      <resource name="BypassOutput">
+        <object>Vedlejší výstup</object>
+      </resource>
+      <resource name="TrimUnknown">
+        <object>Neznámé ořezávání</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="Button">
+        <object>Tlačítko</object>
+      </resource>
+      <resource name="Preset">
+        <object>Přednastavení</object>
+      </resource>
+      <resource name="Auto">
+        <object>Automatické</object>
+      </resource>
+      <resource name="System">
+        <object>Systém</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.BatchingMode" ServiceOnly="false">
+      <resource name="None">
+        <object>Žádný</object>
+      </resource>
+      <resource name="Weight">
+        <object>Podle hmotnosti</object>
+      </resource>
+      <resource name="IntelligentWeight">
+        <object>Inteligentní podle hmotnosti</object>
+      </resource>
+      <resource name="Count">
+        <object>Podle počtu</object>
+      </resource>
+      <resource name="Slave">
+        <object>Podřízená jednotka</object>
+      </resource>
+      <resource name="MultiTarget">
+        <object>Vícenásobný cíl</object>
+      </resource>
+      <resource name="MeanWeight">
+        <object>Průměrná hmotnost</object>
+      </resource>
+      <resource name="Rate">
+        <object>Rychlost</object>
+      </resource>
+      <resource name="RateAndAverage">
+        <object>Průměrná rychlost</object>
+      </resource>
+      <resource name="Share">
+        <object>Podíl</object>
+      </resource>
+      <resource name="FillRate">
+        <object>Rychlost plnění</object>
+      </resource>
+      <resource name="Weight2nd">
+        <object>Podle hmotnosti, druhá</object>
+      </resource>
+      <resource name="IntelligentWeight2nd">
+        <object>Inteligentní podle hmotnosti, druhá</object>
+      </resource>
+      <resource name="Count2nd">
+        <object>Podle počtu, druhá</object>
+      </resource>
+      <resource name="MeanWeight2nd">
+        <object>Průměrná hmotnost, druhá</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.RejectLevel" ServiceOnly="false">
+      <resource name="None">
+        <object>Žádný vyřazený kus</object>
+      </resource>
+      <resource name="Lowest">
+        <object>Nejnižší</object>
+      </resource>
+      <resource name="Low">
+        <object>Nízký</object>
+      </resource>
+      <resource name="Medium">
+        <object>Střední</object>
+      </resource>
+      <resource name="High">
+        <object>Vysoký</object>
+      </resource>
+      <resource name="Highest">
+        <object>Nejvyšší</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.GeneralMessage" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Výb</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Ukončit</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.SelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Vybrat položku</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.WSelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Vybrat položku</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Utilities.ParamDataType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="Bool">
+        <object>Boolean</object>
+      </resource>
+      <resource name="Int">
+        <object>Celé číslo</object>
+      </resource>
+      <resource name="Float">
+        <object>Číslo s plovoucí řádovou čárkou</object>
+      </resource>
+      <resource name="String">
+        <object>Řetězec</object>
+      </resource>
+      <resource name="Enum">
+        <object>Výčet</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTare" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>libry</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>unce</object>
+      </resource>
+      <resource name="Percentage">
+        <object>%</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.IdContainerStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>Nenalezeno</object>
+      </resource>
+      <resource name="NoId">
+        <object>Žádná identifikace</object>
+      </resource>
+      <resource name="Ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Neplatné</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Žádná hmotnost</object>
+      </resource>
+      <resource name="Exception">
+        <object>Výjimka</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.M3000PieceStatus" ServiceOnly="false">
+      <resource name="Accepted">
+        <object>Položka přijata</object>
+      </resource>
+      <resource name="TooLong">
+        <object>Položka je příliš dlouhá</object>
+      </resource>
+      <resource name="BadZero">
+        <object>Chybná nula při vážení položky</object>
+      </resource>
+      <resource name="Unstable">
+        <object>Nestabilní vážení</object>
+      </resource>
+      <resource name="UnderWeight">
+        <object>Položka je příliš lehká</object>
+      </resource>
+      <resource name="OverWeight">
+        <object>Položka je příliš těžká</object>
+      </resource>
+      <resource name="Previous">
+        <object>Třídič je zaneprázdněný předchozí položkou</object>
+      </resource>
+      <resource name="BadRead">
+        <object>Nízký počet měření</object>
+      </resource>
+      <resource name="MarginalRead">
+        <object>Bezvýznamný počet měření</object>
+      </resource>
+      <resource name="GoodRead">
+        <object>Přiměřený počet měření</object>
+      </resource>
+      <resource name="NotUsed">
+        <object>Položka neodpovídá kritériím</object>
+      </resource>
+      <resource name="Blocked">
+        <object>Všechny příslušné propusti jsou blokované</object>
+      </resource>
+      <resource name="IntelligentReject">
+        <object>Inteligentní vyřazování dávek</object>
+      </resource>
+      <resource name="FormMissing">
+        <object>Chybí konkrétní forma</object>
+      </resource>
+      <resource name="TooClose">
+        <object>Položka je příliš blízko předchozí položky</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Žádná hmotnost položky</object>
+      </resource>
+      <resource name="NoGate">
+        <object>Produktu není přiřazena žádná propust</object>
+      </resource>
+      <resource name="Missing">
+        <object>Položka se ztratila při akci</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Není žádná aktivní instrukce</object>
+      </resource>
+      <resource name="TypeBlock">
+        <object>Pro typ kusu není prostor</object>
+      </resource>
+      <resource name="RateReject">
+        <object>Hodnotící algoritmus odmítl položku</object>
+      </resource>
+      <resource name="CheckTooLight">
+        <object>Příliš lehké</object>
+      </resource>
+      <resource name="CheckTooLight2xTNE">
+        <object>Položka je příliš lehká</object>
+      </resource>
+      <resource name="CheckTooHeavy">
+        <object>Příliš těžké</object>
+      </resource>
+      <resource name="CheckTNE">
+        <object>Odmítnuto podle TNE</object>
+      </resource>
+      <resource name="CheckNoGate">
+        <object>Nebyla nalezena žádná propust pro vyřazení</object>
+      </resource>
+      <resource name="ExtremelyLong">
+        <object>Kus je příliš dlouhý</object>
+      </resource>
+      <resource name="LengthOnly">
+        <object>Kus má pouze atribut délky</object>
+      </resource>
+      <resource name="NoResultError">
+        <object>Žádná jakost hmotnosti od CWU</object>
+      </resource>
+      <resource name="TooShort">
+        <object>Položka je příliš krátká</object>
+      </resource>
+      <resource name="NoBatchNoGate">
+        <object>Žádná dávka, nelze spustit novou instrukci</object>
+      </resource>
+      <resource name="RateNoGate">
+        <object>Dávka odmítnuta, nelze spustit novou instrukci</object>
+      </resource>
+      <resource name="BlockedNoGate">
+        <object>Dávka blokována, nelze spustit novou instrukci</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.SV4700PieceStatus" ServiceOnly="false">
+      <resource name="NoError">
+        <object>Položka není odmítnuta</object>
+      </resource>
+      <resource name="ItemRejected">
+        <object>Položka byla odmítnuta</object>
+      </resource>
+      <resource name="MetalItem">
+        <object>Kovová položka</object>
+      </resource>
+      <resource name="SeparatorSpaceError">
+        <object>Chyba prostoru separátoru</object>
+      </resource>
+      <resource name="NoReachableBinError">
+        <object>Chyba, žádný dosažitelný zásobník</object>
+      </resource>
+      <resource name="JobNotFound">
+        <object>Úkol nenalezen</object>
+      </resource>
+      <resource name="ItemTypeNotFound">
+        <object>Typ položky nenalezen</object>
+      </resource>
+      <resource name="WeighingError">
+        <object>Chyba vážení</object>
+      </resource>
+      <resource name="NoVisionData">
+        <object>Žádná vizuální data</object>
+      </resource>
+      <resource name="GradeNotFound">
+        <object>Třída nenalezena</object>
+      </resource>
+      <resource name="VisionConditionFail">
+        <object>Vizuální podmínka selhala</object>
+      </resource>
+      <resource name="BinNotFound">
+        <object>Zásobník nenalezen</object>
+      </resource>
+      <resource name="RateControlError">
+        <object>Chyba řízení rychlosti</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Žádné instrukce</object>
+      </resource>
+      <resource name="VisionDetectionError">
+        <object>Chyba vizuální detekce</object>
+      </resource>
+      <resource name="RobotReadyError">
+        <object>Chyba připravenosti robota</object>
+      </resource>
+      <resource name="RobotCapacityError">
+        <object>Chyba kapacity robota</object>
+      </resource>
+      <resource name="SeparatorGapError">
+        <object>Chyba přerušení separátoru</object>
+      </resource>
+      <resource name="StatisticalAllotmentTooBad">
+        <object>Špatné statistické přidělení</object>
+      </resource>
+      <resource name="OutsideLimitsError">
+        <object>Chyba venkovních mezí</object>
+      </resource>
+      <resource name="PropertyMissingError">
+        <object>Chyba, chybějící vlastnost</object>
+      </resource>
+      <resource name="OtherRejects">
+        <object>Další odmítnutí</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmFlowrate" ServiceOnly="false">
+      <resource name="KilogramsPerSecond">
+        <object>Kilogramy za sekundu</object>
+      </resource>
+      <resource name="TonsPerHour">
+        <object>Tuny za hodinu</object>
+      </resource>
+      <resource name="PoundsPerHour">
+        <object>Libry za hodinu</object>
+      </resource>
+      <resource name="KilogramsPerMinute">
+        <object>Kilogramy za minutu</object>
+      </resource>
+      <resource name="KilogramsPerHour">
+        <object>Kilogramy za hodinu</object>
+      </resource>
+      <resource name="PoundsPerSecond">
+        <object>Libry za sekundu</object>
+      </resource>
+      <resource name="PoundsPerMinute">
+        <object>Libry za minutu</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>Kusy za minutu</object>
+      </resource>
+      <resource name="PiecesPerHour">
+        <object>Kusy za hodinu</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.RfidStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="GoodRead">
+        <object>OK</object>
+      </resource>
+      <resource name="NoRead">
+        <object>Nenačteno</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

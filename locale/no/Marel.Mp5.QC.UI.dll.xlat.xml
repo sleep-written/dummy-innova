@@ -1,0 +1,4509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="no">
+  <industry>
+    <type name="Marel.Mp5.QC.UI.Common.ViewComponents.InspectionItemPanel" ServiceOnly="false">
+      <resource name="msgRegistrationNeeded">
+        <object>Registrering nødvendig for </object>
+      </resource>
+      <resource name="tooManyInspectionItemsOnScreen">
+        <object>Bare {0} inspeksjonselementer er tillatt i én enkelt kolonne i skjermbildet, og nå er det {1} elementer i skjermbildet. Fjern elementer før du endrer oppsett.</object>
+      </resource>
+      <resource name="tooManyInspectionItemsOnScreenWithGrading">
+        <object>Bare {0} inspeksjonselementer er tillatt i én enkelt kolonne i skjermbildet med klasser, og nå er det {1} elementer i skjermbildet. Fjern elementer før du endrer oppsett.</object>
+      </resource>
+      <resource name="tooManyInspectionItemsOnScreenCaption">
+        <object>Oppsett av skjermbildet ble ikke endret</object>
+      </resource>
+      <resource name="NotANumber">
+        <object>NaN</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.ViewComponents.SignaturePanel" ServiceOnly="false">
+      <resource name="captionEmployeeId.Text">
+        <object>Ansatt-ID:</object>
+      </resource>
+      <resource name="captionPassword.Text">
+        <object>Passord:</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Lukk</object>
+      </resource>
+      <resource name="btnSign.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Ingen tilkobling til serveren</object>
+      </resource>
+      <resource name="PasswordExpired">
+        <object>Passordet er utløpt</object>
+      </resource>
+      <resource name="NotAuthenticated">
+        <object>Feil brukernavn eller passord</object>
+      </resource>
+      <resource name="NoAccess">
+        <object>Brukeren har ikke tilgang til denne funksjonen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Reports.InspectionResults.Distribution.DistributionReport" ServiceOnly="false">
+      <resource name="showgraph">
+        <object>Vis fordelingsdiagram</object>
+      </resource>
+      <resource name="showitems">
+        <object>Vis inspeksjonselementer</object>
+      </resource>
+      <resource name="captionDefects.Text">
+        <object>Defekter:</object>
+      </resource>
+      <resource name="captionDefectsWeight.Text">
+        <object>Defekter/$W:</object>
+      </resource>
+      <resource name="captionGraphTotal.Text">
+        <object>Totalt antall stykker:</object>
+      </resource>
+      <resource name="captionInspections.Text">
+        <object>Inspeksjoner:</object>
+      </resource>
+      <resource name="captionMaterial.Text">
+        <object>Materiale:</object>
+      </resource>
+      <resource name="captionOutside.Text">
+        <object>Utenfor:</object>
+      </resource>
+      <resource name="captionOver.Text">
+        <object>Over:</object>
+      </resource>
+      <resource name="captionProcedure.Text">
+        <object>Prosedyre:</object>
+      </resource>
+      <resource name="captionQCItem.Text">
+        <object>Element:</object>
+      </resource>
+      <resource name="captionTotalScore.Text">
+        <object>Resultat/inspeksjon:</object>
+      </resource>
+      <resource name="captionTotalScoreWeight.Text">
+        <object>Resultat/$W:</object>
+      </resource>
+      <resource name="captionTotalWeightInspection.Text">
+        <object>Vekt, ($W)/inspeksjon:</object>
+      </resource>
+      <resource name="captionUnder.Text">
+        <object>Under:</object>
+      </resource>
+      <resource name="captionValid.Text">
+        <object>Gyldig:</object>
+      </resource>
+      <resource name="captionValue.Text">
+        <object>Verdi:</object>
+      </resource>
+      <resource name="captionWeight.Text">
+        <object>Vekt, ($W):</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ValueGrades" ServiceOnly="false">
+      <resource name="valuegrade">
+        <object>Verdigradering</object>
+      </resource>
+      <resource name="ValueGrader">
+        <object>Verdigradering resultat</object>
+      </resource>
+      <resource name="Lines">
+        <object>Detaljer</object>
+      </resource>
+      <resource name="qcitem">
+        <object>Elementkode</object>
+      </resource>
+      <resource name="objectid">
+        <object>Objektkode</object>
+      </resource>
+      <resource name="description">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="qcitem Name">
+        <object>Element</object>
+      </resource>
+      <resource name="objectid Name">
+        <object>Objekt</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+      <resource name="minvalue">
+        <object>Minimumsverdi</object>
+      </resource>
+      <resource name="maxvalue">
+        <object>Maksimumsverdi</object>
+      </resource>
+      <resource name="gradetype">
+        <object>Graderingstype</object>
+      </resource>
+      <resource name="label">
+        <object>Etikett</object>
+      </resource>
+      <resource name="limit">
+        <object>Grense (%)</object>
+      </resource>
+      <resource name="limittype">
+        <object>Grensetype</object>
+      </resource>
+      <resource name="defectclass">
+        <object>Defektklassekode</object>
+      </resource>
+      <resource name="factor">
+        <object>Faktor</object>
+      </resource>
+      <resource name="value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="defectclass Name">
+        <object>Defektklasse</object>
+      </resource>
+      <resource name="objecttype">
+        <object>Objekttype</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="Material">
+        <object>Materiale</object>
+      </resource>
+      <resource name="MaterialType">
+        <object>Materialtype</object>
+      </resource>
+      <resource name="Parent">
+        <object>Overordnet materiale</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ValueClasses" ServiceOnly="false">
+      <resource name="valueclass">
+        <object>Verdiklasse</object>
+      </resource>
+      <resource name="ValueClasses">
+        <object>Detaljer</object>
+      </resource>
+      <resource name="qcitem">
+        <object>Elementkode</object>
+      </resource>
+      <resource name="objectid">
+        <object>Objektkode</object>
+      </resource>
+      <resource name="description">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="qcitem Name">
+        <object>Element</object>
+      </resource>
+      <resource name="objectid Name">
+        <object>Objekt</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+      <resource name="minvalue">
+        <object>Minimumsverdi</object>
+      </resource>
+      <resource name="maxvalue">
+        <object>Maksimumsverdi</object>
+      </resource>
+      <resource name="defectclass">
+        <object>Defektklassekode</object>
+      </resource>
+      <resource name="factor">
+        <object>Faktor</object>
+      </resource>
+      <resource name="value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="label">
+        <object>Etikett</object>
+      </resource>
+      <resource name="defectclass Name">
+        <object>Defektklasse</object>
+      </resource>
+      <resource name="objecttype">
+        <object>Objekttype</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="Material">
+        <object>Materiale</object>
+      </resource>
+      <resource name="MaterialType">
+        <object>Materialtype</object>
+      </resource>
+      <resource name="Parent">
+        <object>Overordnet materiale</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.Contexts" ServiceOnly="false">
+      <resource name="context">
+        <object>ID</object>
+      </resource>
+      <resource name="process">
+        <object>Prosesskode</object>
+      </resource>
+      <resource name="procedure">
+        <object>Prosedyrekode</object>
+      </resource>
+      <resource name="objectid Name">
+        <object>Begrensningsobjekt</object>
+      </resource>
+      <resource name="objecttype">
+        <object>Objekttype</object>
+      </resource>
+      <resource name="process Name">
+        <object>Prosess</object>
+      </resource>
+      <resource name="procedure Name">
+        <object>Prosedyre</object>
+      </resource>
+      <resource name="batchsize">
+        <object>Batchstørrelse</object>
+      </resource>
+      <resource name="enabled">
+        <object>Aktivert</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+      <resource name="objectid">
+        <object>Produktkode</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.CContexts" ServiceOnly="false">
+      <resource name="ccontext">
+        <object>ID</object>
+      </resource>
+      <resource name="process">
+        <object>Prosesskode</object>
+      </resource>
+      <resource name="procedure">
+        <object>Prosedyrekode</object>
+      </resource>
+      <resource name="company">
+        <object>Selskapskode</object>
+      </resource>
+      <resource name="objectid">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="objectid Name">
+        <object>Begrensningsobjekt</object>
+      </resource>
+      <resource name="objecttype">
+        <object>Objekttype</object>
+      </resource>
+      <resource name="process Name">
+        <object>Prosess</object>
+      </resource>
+      <resource name="procedure Name">
+        <object>Prosedyre</object>
+      </resource>
+      <resource name="company Name">
+        <object>Selskap</object>
+      </resource>
+      <resource name="batchsize">
+        <object>Batchstørrelse</object>
+      </resource>
+      <resource name="enabled">
+        <object>Aktivert</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.DefectClass" ServiceOnly="false">
+      <resource name="defectclass">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="severity">
+        <object>Alvorsgrad</object>
+      </resource>
+      <resource name="DefectClassObjectText">
+        <object>Ekstra tekster</object>
+      </resource>
+      <resource name="DefectClassObjectXlate">
+        <object>Verdier for oversatte kolonner</object>
+      </resource>
+      <resource name="ToogleButton.Caption">
+        <object>Vis ekstra tekster</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.ProductParameters" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="procedure">
+        <object>Prosedyrekode</object>
+      </resource>
+      <resource name="description">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+      <resource name="procedure Name">
+        <object>Prosedyre</object>
+      </resource>
+      <resource name="PerProduct">
+        <object>Produkter</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.PerProduct" ServiceOnly="false">
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="pid">
+        <object>Produkt-ID</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.InspectionResponses" ServiceOnly="false">
+      <resource name="response">
+        <object>Svarkode</object>
+      </resource>
+      <resource name="response Name">
+        <object>Svar</object>
+      </resource>
+      <resource name="countersigned">
+        <object>Ansattkode</object>
+      </resource>
+      <resource name="countersigned Name">
+        <object>Ansatt</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="inspection">
+        <object>Inspeksjon</object>
+      </resource>
+      <resource name="comments">
+        <object>Kommentar</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.InspectionAcc" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="scoreclass">
+        <object>Resultatklasse</object>
+      </resource>
+      <resource name="accscore">
+        <object>Akkumulert\nresultat</object>
+      </resource>
+      <resource name="lastscore">
+        <object>Siste resultat</object>
+      </resource>
+      <resource name="istotal">
+        <object>Totalt\nresultat</object>
+      </resource>
+      <resource name="defectclass Name">
+        <object>Defektklasse</object>
+      </resource>
+      <resource name="defectclass">
+        <object>Defektklassekode</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.Inspections" ServiceOnly="false">
+      <resource name="process">
+        <object>Prosesskode</object>
+      </resource>
+      <resource name="process Name">
+        <object>Prosess</object>
+      </resource>
+      <resource name="procedure">
+        <object>Prosedyrekode</object>
+      </resource>
+      <resource name="procedure Name">
+        <object>Prosedyre</object>
+      </resource>
+      <resource name="inspector">
+        <object>Inspektørkode</object>
+      </resource>
+      <resource name="inspector Name">
+        <object>Inspektør</object>
+      </resource>
+      <resource name="employee">
+        <object>Ansattkode</object>
+      </resource>
+      <resource name="employee Name">
+        <object>Ansatt</object>
+      </resource>
+      <resource name="material">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="material Name">
+        <object>Produkt</object>
+      </resource>
+      <resource name="po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="lot">
+        <object>Partikode</object>
+      </resource>
+      <resource name="lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="plot">
+        <object>Produksjonspartikode</object>
+      </resource>
+      <resource name="plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="rmarea">
+        <object>Ressursområde\nkode</object>
+      </resource>
+      <resource name="rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="shift">
+        <object>Skiftkode</object>
+      </resource>
+      <resource name="shift Name">
+        <object>Skift</object>
+      </resource>
+      <resource name="order">
+        <object>Ordrekode</object>
+      </resource>
+      <resource name="order Name">
+        <object>Ordre</object>
+      </resource>
+      <resource name="change">
+        <object>Endret av-kode</object>
+      </resource>
+      <resource name="change Name">
+        <object>Endret av</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registreringstidspunkt</object>
+      </resource>
+      <resource name="prperiod">
+        <object>Prosessperiode</object>
+      </resource>
+      <resource name="sprperiod">
+        <object>Delprosessperiode:</object>
+      </resource>
+      <resource name="itemid">
+        <object>Element-ID</object>
+      </resource>
+      <resource name="unittype">
+        <object>Enhetstype</object>
+      </resource>
+      <resource name="prday">
+        <object>Produksjonsdag</object>
+      </resource>
+      <resource name="inspday">
+        <object>Inspeksjonsdag</object>
+      </resource>
+      <resource name="batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="trace">
+        <object>Spor</object>
+      </resource>
+      <resource name="score">
+        <object>Resultat</object>
+      </resource>
+      <resource name="scoreclass">
+        <object>Resultatklasse</object>
+      </resource>
+      <resource name="weight">
+        <object>Vekt</object>
+      </resource>
+      <resource name="nregs">
+        <object>Registreringer</object>
+      </resource>
+      <resource name="plantime">
+        <object>Plantid</object>
+      </resource>
+      <resource name="planid">
+        <object>Inspeksjons\nplanlinje</object>
+      </resource>
+      <resource name="parent">
+        <object>Overordnet inspeksjon</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="rstat">
+        <object>Poststatus</object>
+      </resource>
+      <resource name="pieces">
+        <object>Stykker</object>
+      </resource>
+      <resource name="Accumulations">
+        <object>Akkumuleringer</object>
+      </resource>
+      <resource name="Responses">
+        <object>Svar</object>
+      </resource>
+      <resource name="Comments">
+        <object>Kommentarer</object>
+      </resource>
+      <resource name="Items">
+        <object>Elementer</object>
+      </resource>
+      <resource name="selectmethod">
+        <object>Velg metode</object>
+      </resource>
+      <resource name="stationgroup">
+        <object>Stasjonsgruppekode</object>
+      </resource>
+      <resource name="stationgroup Name">
+        <object>Stasjonsgrupper</object>
+      </resource>
+      <resource name="originalweight">
+        <object>Opprinnelig vekt</object>
+      </resource>
+      <resource name="HeaderValues">
+        <object>Om inspeksjon</object>
+      </resource>
+      <resource name="ProcedureBand">
+        <object>Prosedyre</object>
+      </resource>
+      <resource name="InspectionBand">
+        <object>Inspeksjon</object>
+      </resource>
+      <resource name="ContextBand">
+        <object>Kontekst</object>
+      </resource>
+      <resource name="ResultsBand">
+        <object>Resultater</object>
+      </resource>
+      <resource name="ConfirmSaveChanges">
+        <object>Vil du lagre endringer?</object>
+      </resource>
+      <resource name="UnsavedChangesCaption">
+        <object>Ikke lagrede endringer</object>
+      </resource>
+      <resource name="lastchanged">
+        <object>Sist endret</object>
+      </resource>
+      <resource name="status">
+        <object>Status</object>
+      </resource>
+      <resource name="confirmedat">
+        <object>Tidspunkt for bekreftelse</object>
+      </resource>
+      <resource name="confirmedby">
+        <object>Bekreftet av (kode)</object>
+      </resource>
+      <resource name="confirmedby Name">
+        <object>Bekreftet av</object>
+      </resource>
+      <resource name="absolutescore">
+        <object>Absolutt resultat</object>
+      </resource>
+      <resource name="relativescore">
+        <object>Relativt resultat</object>
+      </resource>
+      <resource name="Screens">
+        <object>Skjermbilder</object>
+      </resource>
+      <resource name="Formulas">
+        <object>Formler</object>
+      </resource>
+      <resource name="AuditTrail">
+        <object>Revisjonsspor</object>
+      </resource>
+      <resource name="Sign">
+        <object>Signer</object>
+      </resource>
+      <resource name="NameColumnCaption">
+        <object>Navn</object>
+      </resource>
+      <resource name="ActionColumnCaption">
+        <object>Handling</object>
+      </resource>
+      <resource name="SignatureColumnCaption">
+        <object>Signatur</object>
+      </resource>
+      <resource name="InsufficientAccessLevelCaption">
+        <object>Utilstrekkelig tilgangsnivå</object>
+      </resource>
+      <resource name="InsufficientAccessLevel">
+        <object>Utilstrekkelig tilgangsnivå, kunne ikke signere respons</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.InspectionPlans" ServiceOnly="false">
+      <resource name="scheduler">
+        <object>Jobbkøkode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="inspectionplan">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="scheduler Name">
+        <object>Jobbkø</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="station">
+        <object>Stasjon</object>
+      </resource>
+      <resource name="context">
+        <object>Inspeksjonskontekst</object>
+      </resource>
+      <resource name="scheduletype">
+        <object>Plantype</object>
+      </resource>
+      <resource name="scheduled">
+        <object>Planlagt den</object>
+      </resource>
+      <resource name="lastinspection">
+        <object>Siste inspeksjon</object>
+      </resource>
+      <resource name="graceperiod">
+        <object>Respittperiode</object>
+      </resource>
+      <resource name="weight">
+        <object>Vekt</object>
+      </resource>
+      <resource name="pieces">
+        <object>Stykker</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.PendingPlanned" ServiceOnly="false">
+      <resource name="inspectionplan">
+        <object>Inspeksjonsplankode</object>
+      </resource>
+      <resource name="inspectionplan Name">
+        <object>Inspeksjonsplan</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="prday">
+        <object>Produksjonsdag</object>
+      </resource>
+      <resource name="pending">
+        <object>Venter</object>
+      </resource>
+      <resource name="completeby">
+        <object>Fullført av</object>
+      </resource>
+      <resource name="status">
+        <object>Status</object>
+      </resource>
+      <resource name="weight">
+        <object>Vekt</object>
+      </resource>
+      <resource name="pieces">
+        <object>Stykker</object>
+      </resource>
+      <resource name="instance">
+        <object>Forekomst</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.InspectionComments" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="comments">
+        <object>Kommentar</object>
+      </resource>
+      <resource name="CommentsHeader">
+        <object>Kommentarer</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.StationProcesses" ServiceOnly="false">
+      <resource name="process">
+        <object>Prosesskode</object>
+      </resource>
+      <resource name="station">
+        <object>Stasjon</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="process Name">
+        <object>Prosess</object>
+      </resource>
+      <resource name="description">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+      <resource name="inspecttype">
+        <object>Inspeksjonstype</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Processes" ServiceOnly="false">
+      <resource name="process">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Stations" ServiceOnly="false">
+      <resource name="proc_stations_code">
+        <object>Kode</object>
+      </resource>
+      <resource name="proc_stations_name">
+        <object>Navn</object>
+      </resource>
+      <resource name="proc_stations_shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="proc_stations_extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="proc_stations_pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="proc_stations_dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="proc_stations_dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="proc_stations_dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="proc_stations_dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="proc_stations_description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="proc_stations_description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="proc_stations_description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="proc_stations_description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="proc_stations_description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="proc_stations_description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="proc_stations_description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="proc_stations_description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="proc_stations_xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="proc_stations_active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="proc_stations_department">
+        <object>Avdelingskode</object>
+      </resource>
+      <resource name="proc_stations_prunit">
+        <object>Behandlingsenhetskode</object>
+      </resource>
+      <resource name="proc_stations_job">
+        <object>Jobbkode</object>
+      </resource>
+      <resource name="proc_stations_timeout">
+        <object>Aktivt tidsavbrudd\n(sek)</object>
+      </resource>
+      <resource name="proc_stations_dolock">
+        <object>Låser</object>
+      </resource>
+      <resource name="proc_stations_multiemp">
+        <object>Flere ansatte</object>
+      </resource>
+      <resource name="proc_stations_exitstation">
+        <object>Avloggingskode for stasjon</object>
+      </resource>
+      <resource name="proc_stations_contexttype">
+        <object>Konteksttype</object>
+      </resource>
+      <resource name="proc_stations_activityselect">
+        <object>Aktivitetsmetode</object>
+      </resource>
+      <resource name="proc_stations_timeactivity">
+        <object>Registrer aktivitetstid</object>
+      </resource>
+      <resource name="proc_stations_pndactivity">
+        <object>Ventende aktivitetskode</object>
+      </resource>
+      <resource name="proc_stations_activity">
+        <object>Aktivitetskode</object>
+      </resource>
+      <resource name="proc_stations_configtable">
+        <object>Konfigurasjonstabellkode</object>
+      </resource>
+      <resource name="proc_stations_timeshift">
+        <object>Registrer skifttid</object>
+      </resource>
+      <resource name="proc_stations_poselect">
+        <object>Kjøpsordremetode</object>
+      </resource>
+      <resource name="proc_stations_timepo">
+        <object>Registrer kjøpsordretid</object>
+      </resource>
+      <resource name="proc_stations_pndpo">
+        <object>Ventende kjøpsordrekode</object>
+      </resource>
+      <resource name="proc_stations_po">
+        <object>Kjøpsordrekode</object>
+      </resource>
+      <resource name="proc_stations_batchselect">
+        <object>Batchmetode</object>
+      </resource>
+      <resource name="proc_stations_timebatch">
+        <object>Registrer batchtid</object>
+      </resource>
+      <resource name="proc_stations_pndbatch">
+        <object>Ventende batch</object>
+      </resource>
+      <resource name="proc_stations_batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="proc_stations_lotselect">
+        <object>Partimetode</object>
+      </resource>
+      <resource name="proc_stations_timelot">
+        <object>Registrer partitid</object>
+      </resource>
+      <resource name="proc_stations_pndlot">
+        <object>Ventende partikode</object>
+      </resource>
+      <resource name="proc_stations_lot">
+        <object>Partikode </object>
+      </resource>
+      <resource name="proc_stations_plotselect">
+        <object>Produksjonsparti\nmetode</object>
+      </resource>
+      <resource name="proc_stations_timeplot">
+        <object>Registrer prod.partitid</object>
+      </resource>
+      <resource name="proc_stations_pndplot">
+        <object>Ventende produksjonsparti\nkode</object>
+      </resource>
+      <resource name="proc_stations_plot">
+        <object>Produksjonspartikode</object>
+      </resource>
+      <resource name="proc_stations_rmareaselect">
+        <object>Ressursområde\nmetode</object>
+      </resource>
+      <resource name="proc_stations_timermarea">
+        <object>Registrer ressursområdetid</object>
+      </resource>
+      <resource name="proc_stations_pndrmarea">
+        <object>Ventende ressursområde\nkode</object>
+      </resource>
+      <resource name="proc_stations_rmarea">
+        <object>Ressursområde\nkode</object>
+      </resource>
+      <resource name="qc_stations_station">
+        <object>ID</object>
+      </resource>
+      <resource name="qc_stations_controller">
+        <object>Kontrollerkode</object>
+      </resource>
+      <resource name="qc_stations_terminal">
+        <object>Terminalkode</object>
+      </resource>
+      <resource name="qc_stations_scale">
+        <object>Vektkode</object>
+      </resource>
+      <resource name="qc_stations_scanner">
+        <object>Skannerkode</object>
+      </resource>
+      <resource name="qc_stations_reader">
+        <object>Leserkode</object>
+      </resource>
+      <resource name="qc_stations_exdevice">
+        <object>Tilleggsenhetskode</object>
+      </resource>
+      <resource name="proc_stations_department Name">
+        <object>Avdeling</object>
+      </resource>
+      <resource name="proc_stations_prunit Name">
+        <object>Behandlingsenhet</object>
+      </resource>
+      <resource name="proc_stations_job Name">
+        <object>Jobb</object>
+      </resource>
+      <resource name="proc_stations_exitstation Name">
+        <object>Logg av stasjon</object>
+      </resource>
+      <resource name="proc_stations_configtable Name">
+        <object>Konfigurasjonstabell</object>
+      </resource>
+      <resource name="proc_stations_pndpo Name">
+        <object>Ventende kjøpsordre</object>
+      </resource>
+      <resource name="proc_stations_po Name">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="proc_stations_pndlot Name">
+        <object>Ventende parti</object>
+      </resource>
+      <resource name="proc_stations_lot Name">
+        <object>Parti</object>
+      </resource>
+      <resource name="proc_stations_pndplot Name">
+        <object>Ventende produksjons\nparti</object>
+      </resource>
+      <resource name="proc_stations_plot Name">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="proc_stations_rmarea Name">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="proc_stations_pndrmarea Name">
+        <object>Ventende ressurs\nområde</object>
+      </resource>
+      <resource name="qc_stations_controller Name">
+        <object>Kontroller</object>
+      </resource>
+      <resource name="qc_stations_terminal Name">
+        <object>Terminal</object>
+      </resource>
+      <resource name="qc_stations_scale Name">
+        <object>Vekt</object>
+      </resource>
+      <resource name="qc_stations_scanner Name">
+        <object>Skanner</object>
+      </resource>
+      <resource name="qc_stations_reader Name">
+        <object>Leser</object>
+      </resource>
+      <resource name="qc_stations_exdevice Name">
+        <object>Tilleggsenhet</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Responses" ServiceOnly="false">
+      <resource name="response">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="crequired">
+        <object>Kommentarer obligatorisk</object>
+      </resource>
+      <resource name="srequired">
+        <object>Signatur obligatorisk</object>
+      </resource>
+      <resource name="accesslevel">
+        <object>Tilgangsnivå for signatur</object>
+      </resource>
+      <resource name="accesslevel.hint">
+        <object>Minimum tilgangsnivå som kreves for signatur</object>
+      </resource>
+      <resource name="responsetype">
+        <object>Responstype</object>
+      </resource>
+      <resource name="unitoperation">
+        <object>Enhetsoperasjonskode</object>
+      </resource>
+      <resource name="alarmcode">
+        <object>Alarmkode</object>
+      </resource>
+      <resource name="procedure">
+        <object>Prosedyrekode</object>
+      </resource>
+      <resource name="procedure Name">
+        <object>Prosedyre</object>
+      </resource>
+      <resource name="timeframeoffset">
+        <object>Forskyvning av tidsramme</object>
+      </resource>
+      <resource name="timeframeoffsetunit">
+        <object>Forskyvning av tidsrammeenhet</object>
+      </resource>
+      <resource name="timeframeduration">
+        <object>Varighet av tidsramme</object>
+      </resource>
+      <resource name="timeframedurationunit">
+        <object>Varighet av tidsrammeenhet</object>
+      </resource>
+      <resource name="unitoperation Name">
+        <object>Enhetsoperasjon</object>
+      </resource>
+      <resource name="process Name">
+        <object>Prosess</object>
+      </resource>
+      <resource name="process">
+        <object>Prosesskode</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ResponseSets" ServiceOnly="false">
+      <resource name="responseset">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="settype">
+        <object>Settype</object>
+      </resource>
+      <resource name="ResponseSets">
+        <object>Svarsett</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ResponseSetLine" ServiceOnly="false">
+      <resource name="responseset Name">
+        <object>Svarsett</object>
+      </resource>
+      <resource name="responseset">
+        <object>Svarsettkode</object>
+      </resource>
+      <resource name="response Name">
+        <object>Svar</object>
+      </resource>
+      <resource name="response">
+        <object>Svarkode</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+      <resource name="isoptional">
+        <object>Valgfritt</object>
+      </resource>
+      <resource name="group">
+        <object>Gruppe</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.ProcessResults" ServiceOnly="false">
+      <resource name="procedure">
+        <object>Prosedyrekode</object>
+      </resource>
+      <resource name="procedure Name">
+        <object>Prosedyre</object>
+      </resource>
+      <resource name="responseset">
+        <object>Svarsettkode</object>
+      </resource>
+      <resource name="scoreclass">
+        <object>Resultatklasse</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="limit">
+        <object>Grense</object>
+      </resource>
+      <resource name="responseset Name">
+        <object>Svarsett</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Items" ServiceOnly="false">
+      <resource name="valuelist">
+        <object>Verdilistekode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="item">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="valuelist Name">
+        <object>Verdiliste</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="valuetype">
+        <object>Verditype</object>
+      </resource>
+      <resource name="um">
+        <object>Måleenhet</object>
+      </resource>
+      <resource name="defectclass">
+        <object>Defektklassekode</object>
+      </resource>
+      <resource name="factor">
+        <object>Faktor</object>
+      </resource>
+      <resource name="idtable">
+        <object>Tabell-ID</object>
+      </resource>
+      <resource name="idcolumn">
+        <object>Kolonne-ID</object>
+      </resource>
+      <resource name="ItemClass">
+        <object>Elementklasser</object>
+      </resource>
+      <resource name="defectclass Name">
+        <object>Defektklasse</object>
+      </resource>
+      <resource name="needsemployee">
+        <object>Må ha ansatt</object>
+      </resource>
+      <resource name="ItemObjectText">
+        <object>Ekstra tekster</object>
+      </resource>
+      <resource name="ItemObjectXlate">
+        <object>Verdier for oversatte kolonner</object>
+      </resource>
+      <resource name="criteria">
+        <object>Vilkårskode</object>
+      </resource>
+      <resource name="criteria Name">
+        <object>Vilkårsnavn</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ItemClasses" ServiceOnly="false">
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="itemclass">
+        <object>ID</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="ItemClassl">
+        <object>Elementer</object>
+      </resource>
+      <resource name="itemclass Name">
+        <object>Elementklasse</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ItemClassLine" ServiceOnly="false">
+      <resource name="item Name">
+        <object>Element</object>
+      </resource>
+      <resource name="item">
+        <object>Elementkode</object>
+      </resource>
+      <resource name="itemclass">
+        <object>Elementklassekode</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="itemclass Name">
+        <object>Elementklasse</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ValueLists" ServiceOnly="false">
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="valuelist">
+        <object>ID</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="ValueLists">
+        <object>Linje</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ValueListLine" ServiceOnly="false">
+      <resource name="valuelist Name">
+        <object>Verdiliste</object>
+      </resource>
+      <resource name="valuelist">
+        <object>Verdilistekode</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+      <resource name="description">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="defectclass">
+        <object>Defektklassekode</object>
+      </resource>
+      <resource name="factor">
+        <object>Faktor</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="defectclass Name">
+        <object>Defektklasse</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ItemLimits" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="item">
+        <object>Element</object>
+      </resource>
+      <resource name="item Name">
+        <object>Elementnavn</object>
+      </resource>
+      <resource name="objecttype">
+        <object>Objekttype</object>
+      </resource>
+      <resource name="objectid">
+        <object>Objekt</object>
+      </resource>
+      <resource name="objectid Name">
+        <object>Objektnavn</object>
+      </resource>
+      <resource name="target">
+        <object>Målverdi</object>
+      </resource>
+      <resource name="uppertolerance">
+        <object>Øvre toleransegrense</object>
+      </resource>
+      <resource name="lowertolerance">
+        <object>Nedre toleransegrense</object>
+      </resource>
+      <resource name="uppersecurity">
+        <object>Øvre sikkerhetsgrense</object>
+      </resource>
+      <resource name="lowersecurity">
+        <object>Nedre sikkerhetsgrense</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="Material">
+        <object>Materiale</object>
+      </resource>
+      <resource name="MaterialType">
+        <object>Materialtype</object>
+      </resource>
+      <resource name="Parent">
+        <object>Overordnet materiale</object>
+      </resource>
+      <resource name="responsesettolerance Name">
+        <object>Toleranserespons</object>
+      </resource>
+      <resource name="responsesetsecurity Name">
+        <object>Sikkerhetsrespons</object>
+      </resource>
+      <resource name="responsesettolerance">
+        <object>Toleranse responssettkode</object>
+      </resource>
+      <resource name="responsesetsecurity">
+        <object>Sikkerhet responssettkode</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Calculators" ServiceOnly="false">
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="calculator">
+        <object>ID</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="assemblyid">
+        <object>Samling</object>
+      </resource>
+      <resource name="typename">
+        <object>Type</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.Procedures" ServiceOnly="false">
+      <resource name="calculator">
+        <object>Kalkulatorkode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="calculator Name">
+        <object>Kalkulator</object>
+      </resource>
+      <resource name="procedure">
+        <object>ID</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="scoretype">
+        <object>Resultattype</object>
+      </resource>
+      <resource name="recordempty">
+        <object>Tom post</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ProcessClasses" ServiceOnly="false">
+      <resource name="procedure">
+        <object>Prosedyrekode</object>
+      </resource>
+      <resource name="procedure Name">
+        <object>Prosedyre</object>
+      </resource>
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="defectclass">
+        <object>Defektklassekode</object>
+      </resource>
+      <resource name="factor">
+        <object>Faktor</object>
+      </resource>
+      <resource name="defectclass Name">
+        <object>Defektklasse</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.Processes" ServiceOnly="false">
+      <resource name="process">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Reports.InspectionResults.InspectionReport" ServiceOnly="false">
+      <resource name="captionProcedureName.Text">
+        <object>Prosedyre:</object>
+      </resource>
+      <resource name="captionRegTime.Text">
+        <object>Registrering:</object>
+      </resource>
+      <resource name="captionInspectorName.Text">
+        <object>Inspektør:</object>
+      </resource>
+      <resource name="captionMaterialName.Text">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="captionScreen.Text">
+        <object>Skjermbilde</object>
+      </resource>
+      <resource name="captionItem.Text">
+        <object>Element</object>
+      </resource>
+      <resource name="captionResult.Text">
+        <object>Resultat</object>
+      </resource>
+      <resource name="captionScoreClass.Text">
+        <object>Resultatklasse:</object>
+      </resource>
+      <resource name="captionProcessName.Text">
+        <object>Prosess:</object>
+      </resource>
+      <resource name="reportName.Text">
+        <object>Inspeksjonsresultat</object>
+      </resource>
+      <resource name="captionScore.Text">
+        <object>Resultat:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Reports.QualityInspections.QualityInspectionsReport" ServiceOnly="false">
+      <resource name="prperiod">
+        <object>Behandlingsperiode:</object>
+      </resource>
+      <resource name="inspector">
+        <object>Inspektør:</object>
+      </resource>
+      <resource name="employee">
+        <object>Ansatt:</object>
+      </resource>
+      <resource name="material">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="sample">
+        <object>Inspeksjoner:</object>
+      </resource>
+      <resource name="scoreKg">
+        <object>Resultat/kg:</object>
+      </resource>
+      <resource name="weight">
+        <object>Vekt:</object>
+      </resource>
+      <resource name="item">
+        <object>Element</object>
+      </resource>
+      <resource name="defect">
+        <object>Defekter</object>
+      </resource>
+      <resource name="result">
+        <object>Resultat</object>
+      </resource>
+      <resource name="score">
+        <object>Resultat:</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Ikke angitt</object>
+      </resource>
+      <resource name="Ok">
+        <object>OK</object>
+      </resource>
+      <resource name="NotOk">
+        <object>Ikke ok</object>
+      </resource>
+      <resource name="Defective">
+        <object>Defekt</object>
+      </resource>
+      <resource name="Unacceptable">
+        <object>Uakseptabel</object>
+      </resource>
+      <resource name="Unsafe">
+        <object>Usikker</object>
+      </resource>
+      <resource name="CaptionHeadScoreClass.Text">
+        <object>Resultatklasse:</object>
+      </resource>
+      <resource name="process">
+        <object>Prosess:</object>
+      </resource>
+      <resource name="activity">
+        <object>Aktivitet:</object>
+      </resource>
+      <resource name="norecord">
+        <object>[ Ingen registrering ]</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Reports.QualityInspections.QualityInspectionListReport" ServiceOnly="false">
+      <resource name="prperiod">
+        <object>Behandlingsperiode:</object>
+      </resource>
+      <resource name="activity">
+        <object>Aktivitet:</object>
+      </resource>
+      <resource name="material">
+        <object>Produkt</object>
+      </resource>
+      <resource name="samples">
+        <object>Inspeksjoner</object>
+      </resource>
+      <resource name="scoreKg">
+        <object>Resultat/kg</object>
+      </resource>
+      <resource name="weight">
+        <object>Vekt</object>
+      </resource>
+      <resource name="employee">
+        <object>Ansatt:</object>
+      </resource>
+      <resource name="inspector">
+        <object>Inspektør:</object>
+      </resource>
+      <resource name="scoreclass">
+        <object>Resultatklasse</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Ikke angitt</object>
+      </resource>
+      <resource name="Ok">
+        <object>OK</object>
+      </resource>
+      <resource name="NotOk">
+        <object>Ikke ok</object>
+      </resource>
+      <resource name="Defective">
+        <object>Defekt</object>
+      </resource>
+      <resource name="Unacceptable">
+        <object>Uakseptabel</object>
+      </resource>
+      <resource name="Unsafe">
+        <object>Usikker</object>
+      </resource>
+      <resource name="norecord">
+        <object>[ Ingen registrering ]</object>
+      </resource>
+      <resource name="CaptionHeadProcess.Text">
+        <object>Prosess:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Reports.TrendInspections.TrendInspectionsReport" ServiceOnly="false">
+      <resource name="prperiod">
+        <object>Behandlingsperiode:</object>
+      </resource>
+      <resource name="activity">
+        <object>Aktivitet:</object>
+      </resource>
+      <resource name="material">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="process">
+        <object>Prosess:</object>
+      </resource>
+      <resource name="item">
+        <object>Element:</object>
+      </resource>
+      <resource name="inspection">
+        <object>Inspeksjon</object>
+      </resource>
+      <resource name="score">
+        <object>Resultat</object>
+      </resource>
+      <resource name="defect">
+        <object>Defekter</object>
+      </resource>
+      <resource name="result">
+        <object>Resultat</object>
+      </resource>
+      <resource name="inspections">
+        <object>Inspeksjoner</object>
+      </resource>
+      <resource name="norecord">
+        <object>[ Ingen registrering ]</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.InspectionList.ScreenDesigner" ServiceOnly="false">
+      <resource name="Name.DisplayName">
+        <object>Skjermbildenavn</object>
+      </resource>
+      <resource name="Name.Description">
+        <object>Navnet på skjermbildet</object>
+      </resource>
+      <resource name="ScreenLayout.DisplayName">
+        <object>Skjermoppsett</object>
+      </resource>
+      <resource name="ScreenLayout.Description">
+        <object>Slik ordner du elementer på skjermen</object>
+      </resource>
+      <resource name="MoveUp">
+        <object>Flytt opp</object>
+      </resource>
+      <resource name="MoveDown">
+        <object>Flytt ned</object>
+      </resource>
+      <resource name="RemoveItem">
+        <object>Fjern element</object>
+      </resource>
+      <resource name="Name.Category">
+        <object>Identifikasjon</object>
+      </resource>
+      <resource name="ScreenLayout.Category">
+        <object>Identifikasjon</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.InspItems" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="inspection">
+        <object>Inspeksjons-ID</object>
+      </resource>
+      <resource name="item">
+        <object>Elementkode</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+      <resource name="fvalue">
+        <object>Flytverdi</object>
+      </resource>
+      <resource name="ivalue">
+        <object>Heltallsverdi</object>
+      </resource>
+      <resource name="dvalue">
+        <object>Datoresultat</object>
+      </resource>
+      <resource name="defectclass">
+        <object>Defektklassekode</object>
+      </resource>
+      <resource name="defects">
+        <object>Defekter</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="item Name">
+        <object>Element</object>
+      </resource>
+      <resource name="defectclass Name">
+        <object>Defektklasse</object>
+      </resource>
+      <resource name="Data">
+        <object>Data</object>
+      </resource>
+      <resource name="Grade">
+        <object>Kvaliteter</object>
+      </resource>
+      <resource name="Subitems">
+        <object>Underelementer</object>
+      </resource>
+      <resource name="procitem">
+        <object>Inspeksjon \nprosedyreelement</object>
+      </resource>
+      <resource name="svalue">
+        <object>Strengverdi</object>
+      </resource>
+      <resource name="employee">
+        <object>Ansattkode</object>
+      </resource>
+      <resource name="employee Name">
+        <object>Ansatt</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.InspItemData" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="inspection">
+        <object>Inspeksjon</object>
+      </resource>
+      <resource name="inspitemid">
+        <object>inspitemid</object>
+      </resource>
+      <resource name="svalue">
+        <object>Filnavn</object>
+      </resource>
+      <resource name="extension">
+        <object>Fil-\nendelse</object>
+      </resource>
+      <resource name="document">
+        <object>Dokument</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.InspItemGrade" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="inspection">
+        <object>Inspeksjon</object>
+      </resource>
+      <resource name="inspitemid">
+        <object>inspitemid</object>
+      </resource>
+      <resource name="gradelo">
+        <object>Kvalitet\nlav</object>
+      </resource>
+      <resource name="gradehi">
+        <object>Kvalitet\nhøy</object>
+      </resource>
+      <resource name="value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="count">
+        <object>Antall</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+      <resource name="gradetype">
+        <object>Graderingstype</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.InspSubItems" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="inspection">
+        <object>Inspeksjon</object>
+      </resource>
+      <resource name="item">
+        <object>Elementkode</object>
+      </resource>
+      <resource name="instance">
+        <object>Forekomst</object>
+      </resource>
+      <resource name="fvalue">
+        <object>Flytverdi</object>
+      </resource>
+      <resource name="ivalue">
+        <object>Heltallsverdi</object>
+      </resource>
+      <resource name="svalue">
+        <object>Strengverdi</object>
+      </resource>
+      <resource name="dvalue">
+        <object>Datoverdi</object>
+      </resource>
+      <resource name="rtype">
+        <object>Posttype</object>
+      </resource>
+      <resource name="item Name">
+        <object>Element</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.InspectionStation.Inspection" ServiceOnly="false">
+      <resource name="lblEmployeeName.Text">
+        <object>Ansatt:</object>
+      </resource>
+      <resource name="lblProduct.Text">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="lblScore.Text">
+        <object>Resultat:</object>
+      </resource>
+      <resource name="labelScoreClass.Text">
+        <object>Resultatklasse</object>
+      </resource>
+      <resource name="btnResultDone.Text">
+        <object>Fullført</object>
+      </resource>
+      <resource name="btnMapComments.Text">
+        <object>Kommentarer</object>
+      </resource>
+      <resource name="btnMapInspect.Text">
+        <object>Inspiser</object>
+      </resource>
+      <resource name="btnMapFinish.Text">
+        <object>Fullfør</object>
+      </resource>
+      <resource name="btnRecord.Text">
+        <object>Registrer</object>
+      </resource>
+      <resource name="btnDone.Text">
+        <object>Neste</object>
+      </resource>
+      <resource name="btnClear.Text">
+        <object>Fjern alle</object>
+      </resource>
+      <resource name="tabResults.Text">
+        <object>Resultater</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.ContextsMaterial" ServiceOnly="false">
+      <resource name="context">
+        <object>ID</object>
+      </resource>
+      <resource name="process">
+        <object>Prosesskode</object>
+      </resource>
+      <resource name="procedure">
+        <object>Prosedyrekode</object>
+      </resource>
+      <resource name="objectid">
+        <object>Produktkode</object>
+      </resource>
+      <resource name="objecttype">
+        <object>Objekttype</object>
+      </resource>
+      <resource name="process Name">
+        <object>Prosess</object>
+      </resource>
+      <resource name="procedure Name">
+        <object>Prosedyre</object>
+      </resource>
+      <resource name="objectid Name">
+        <object>Produkt </object>
+      </resource>
+      <resource name="batchsize">
+        <object>Batchstørrelse</object>
+      </resource>
+      <resource name="enabled">
+        <object>Aktivert</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.InspectionList.ListDesigner" ServiceOnly="false">
+      <resource name="FullScreen">
+        <object>Det er ikke mer plass i dette skjermbildet</object>
+      </resource>
+      <resource name="Tree">
+        <object>Tre</object>
+      </resource>
+      <resource name="Screens">
+        <object>Skjermbilder</object>
+      </resource>
+      <resource name="Items">
+        <object>Elementer</object>
+      </resource>
+      <resource name="Properties">
+        <object>Egenskaper</object>
+      </resource>
+      <resource name="AddScreen">
+        <object>Legg til skjermbilde</object>
+      </resource>
+      <resource name="DeleteScreen">
+        <object>Slett skjermbilde</object>
+      </resource>
+      <resource name="ManageItems">
+        <object>Administrer elementer</object>
+      </resource>
+      <resource name="ManageItemClasses">
+        <object>Administrer elementklasser</object>
+      </resource>
+      <resource name="AllItems">
+        <object>Alle elementer</object>
+      </resource>
+      <resource name="ManageValueLists">
+        <object>Administrer verdilister</object>
+      </resource>
+      <resource name="DefectClasses">
+        <object>Defektklasser</object>
+      </resource>
+      <resource name="Responses">
+        <object>Svar</object>
+      </resource>
+      <resource name="Formulas">
+        <object>Formler</object>
+      </resource>
+      <resource name="Features">
+        <object>Funksjoner</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>(ikke støttet)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.InspectionList.ProcedureView" ServiceOnly="false">
+      <resource name="inspectionListTabPage.Text">
+        <object>Inspeksjonsliste</object>
+      </resource>
+      <resource name="defectClassesTabPage.Text">
+        <object>Defektklasser</object>
+      </resource>
+      <resource name="responsesTabPage.Text">
+        <object>Svar</object>
+      </resource>
+      <resource name="generalGroup.Text">
+        <object>Generelt</object>
+      </resource>
+      <resource name="scoreGroup.Text">
+        <object>Resultatberegning</object>
+      </resource>
+      <resource name="optionsGroup.Text">
+        <object>Alternativer</object>
+      </resource>
+      <resource name="descriptionGroup.Text">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="cloneButton.Caption">
+        <object>Klon</object>
+      </resource>
+      <resource name="newButton.Caption">
+        <object>Ny</object>
+      </resource>
+      <resource name="deleteButton.Caption">
+        <object>Slett</object>
+      </resource>
+      <resource name="refreshButton.Caption">
+        <object>Oppdater</object>
+      </resource>
+      <resource name="confirmButton.Caption">
+        <object>Bekreft</object>
+      </resource>
+      <resource name="activeCheck.Properties.Caption">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="recordEmptyCheck.Properties.Caption">
+        <object>Registrer tom detalj</object>
+      </resource>
+      <resource name="downloadTareCheck.Properties.Caption">
+        <object>Last ned produkttara</object>
+      </resource>
+      <resource name="nameLabel.Text">
+        <object>Navn:</object>
+      </resource>
+      <resource name="shortNameLabel.Text">
+        <object>Kortnavn:</object>
+      </resource>
+      <resource name="calculatorLabel.Text">
+        <object>Kalkulator:</object>
+      </resource>
+      <resource name="scoreTypeLabel.Text">
+        <object>Resultattype:</object>
+      </resource>
+      <resource name="items.Title">
+        <object>Inspeksjonselementer</object>
+      </resource>
+      <resource name="itemClasses.Title">
+        <object>Inspeksjonselementklasser</object>
+      </resource>
+      <resource name="NameLookupCaption">
+        <object>Navn</object>
+      </resource>
+      <resource name="CodeLookupCaption">
+        <object>Kode</object>
+      </resource>
+      <resource name="ErrorAdding">
+        <object>Det oppstod feil ved opprettelse av ny prosedyre</object>
+      </resource>
+      <resource name="ErrorSaving">
+        <object>Kan ikke lagre data</object>
+      </resource>
+      <resource name="extCodeLabel.Text">
+        <object>Ekstern kode:</object>
+      </resource>
+      <resource name="versionLabel.Text">
+        <object>Versjon:</object>
+      </resource>
+      <resource name="referenceGroup.Text">
+        <object>Referanse</object>
+      </resource>
+      <resource name="valueLists.Title">
+        <object>Verdilister</object>
+      </resource>
+      <resource name="activateButton.Caption">
+        <object>Aktiver</object>
+      </resource>
+      <resource name="fastLaneLabel.Text">
+        <object>Rask bane:</object>
+      </resource>
+      <resource name="UnsavedChangesCaption">
+        <object>Ikke lagrede endringer</object>
+      </resource>
+      <resource name="ConfirmCloseFormWithoutSave">
+        <object>Du har gjort endringer som ikke kan lagres. Vil du likevel lukke skjemaet?</object>
+      </resource>
+      <resource name="ConfirmSaveChanges">
+        <object>Vil du lagre endringer?</object>
+      </resource>
+      <resource name="operationsMenuButton.Caption">
+        <object>Operasjoner</object>
+      </resource>
+      <resource name="activeMenuButton.Caption">
+        <object>Vis objekter som er...</object>
+      </resource>
+      <resource name="activeButton.Caption">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="inactiveButton.Caption">
+        <object>Inaktiv</object>
+      </resource>
+      <resource name="bothButton.Caption">
+        <object>Begge</object>
+      </resource>
+      <resource name="allowJumpingCheck.Properties.Caption">
+        <object>Neste nødvendige knapp</object>
+      </resource>
+      <resource name="generateDatasourcesButton.Caption">
+        <object>Generer visninger for datakilde...</object>
+      </resource>
+      <resource name="DialogCaption">
+        <object>Generer datakilder...</object>
+      </resource>
+      <resource name="GenerateConfirm">
+        <object>Du er i ferd med å opprette en databasevisning for den valgte inspeksjonsprosedyren.\n Dette kan skrive over eventuelle eksisterende visninger som er i bruk som datakilder i de egendefinerte rapportene dine.\n Er du sikker på at du vil fortsette?</object>
+      </resource>
+      <resource name="GenerateSuccess">
+        <object>Følgende visninger ble opprettet og lagt til databasen din: \n{0}</object>
+      </resource>
+      <resource name="GenerateError">
+        <object>Feil: Kan ikke opprette databasevisningen. Du finner mer informasjon i loggfilene.</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.ProcedureResponses" ServiceOnly="false">
+      <resource name="scoreclass">
+        <object>Resultatklasse</object>
+      </resource>
+      <resource name="limit">
+        <object>Grense</object>
+      </resource>
+      <resource name="responseset">
+        <object>Svarsettkode</object>
+      </resource>
+      <resource name="responseset Name">
+        <object>Svarsett</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.ContextsMaterialType" ServiceOnly="false">
+      <resource name="context">
+        <object>ID</object>
+      </resource>
+      <resource name="process">
+        <object>Prosesskode</object>
+      </resource>
+      <resource name="procedure">
+        <object>Prosedyrekode</object>
+      </resource>
+      <resource name="objectid">
+        <object>Produkttypekode</object>
+      </resource>
+      <resource name="objecttype">
+        <object>Objekttype</object>
+      </resource>
+      <resource name="process Name">
+        <object>Prosess</object>
+      </resource>
+      <resource name="procedure Name">
+        <object>Prosedyre</object>
+      </resource>
+      <resource name="objectid Name">
+        <object>Produkttype</object>
+      </resource>
+      <resource name="batchsize">
+        <object>Batchstørrelse</object>
+      </resource>
+      <resource name="enabled">
+        <object>Aktivert</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.ContextsParent" ServiceOnly="false">
+      <resource name="context">
+        <object>ID</object>
+      </resource>
+      <resource name="process">
+        <object>Prosesskode</object>
+      </resource>
+      <resource name="procedure">
+        <object>Prosedyrekode</object>
+      </resource>
+      <resource name="objecttype">
+        <object>Objekttype</object>
+      </resource>
+      <resource name="process Name">
+        <object>Prosess</object>
+      </resource>
+      <resource name="procedure Name">
+        <object>Prosedyre</object>
+      </resource>
+      <resource name="objectid Name">
+        <object>Overordnet produkt</object>
+      </resource>
+      <resource name="objectid">
+        <object>Overordnet produkt</object>
+      </resource>
+      <resource name="batchsize">
+        <object>Batchstørrelse</object>
+      </resource>
+      <resource name="enabled">
+        <object>Aktivert</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Common.BaseInspectionControllerExtension" ServiceOnly="false">
+      <resource name="confex">
+        <object>Det oppstod feil ved konfigurering av skjemaet</object>
+      </resource>
+      <resource name="dbErr">
+        <object>Det oppstod feil ved henting av GUI-node</object>
+      </resource>
+      <resource name="uoError">
+        <object>Det oppstod en feil under utførelse av enhetsoperasjon Resultatkode:{0}</object>
+      </resource>
+      <resource name="errorProcessingResult">
+        <object>Det oppstod feil ved behandling av resultat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Common.GeneralInspectionControllerExtension" ServiceOnly="false">
+      <resource name="selContext">
+        <object>Velg kontekst</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Common.SelectIdContainerInspectionCE" ServiceOnly="false">
+      <resource name="deviceIdNoSet">
+        <object>Enhets-ID ikke oppgitt i XML-konfigurasjon</object>
+      </resource>
+      <resource name="InvalidXmlConfig">
+        <object>Ugyldig XML-konfigurasjon</object>
+      </resource>
+      <resource name="configDeviceIdNotCorrect">
+        <object>Enheten {0} finnes ikke blant tabellenhetene</object>
+      </resource>
+      <resource name="deviceStatus">
+        <object>Status for enhetstilkobling: </object>
+      </resource>
+      <resource name="selectIdContainer">
+        <object>Velg etter ID-container</object>
+      </resource>
+      <resource name="buttonFind.Text">
+        <object>Søk etter</object>
+      </resource>
+      <resource name="inspectButton.Text">
+        <object>Inspiser</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Common.ViewComponents.IdContainerDataPanel" ServiceOnly="false">
+      <resource name="captionIdContainer.Text">
+        <object>Container-ID</object>
+      </resource>
+      <resource name="captionProduct.Text">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="captionProcedure.Text">
+        <object>Prosedyre:</object>
+      </resource>
+      <resource name="captionWeight.Text">
+        <object>Vekt:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.Context.SelectContext" ServiceOnly="false">
+      <resource name="cancelButton.Text">
+        <object>Avbryt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.Context.SelectInspection" ServiceOnly="false">
+      <resource name="cancelButton.Text">
+        <object>Avbryt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.ViewComponents.ResultPanel" ServiceOnly="false">
+      <resource name="tabResults.Text">
+        <object>Resultater</object>
+      </resource>
+      <resource name="lblEmployeeName.Text">
+        <object>Ansatt:</object>
+      </resource>
+      <resource name="lblProduct.Text">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="lblScore.Text">
+        <object>Resultat:</object>
+      </resource>
+      <resource name="labelScoreClass.Text">
+        <object>Resultatklasse:</object>
+      </resource>
+      <resource name="btnResultDone.Text">
+        <object>Fullført</object>
+      </resource>
+      <resource name="captionInspResults.Text">
+        <object>Inspeksjonssammendrag:</object>
+      </resource>
+      <resource name="btnConfirmAction.Text">
+        <object>Bekreft handling</object>
+      </resource>
+      <resource name="btnSignature.Text">
+        <object>Signatur</object>
+      </resource>
+      <resource name="btnComment.Text">
+        <object>Kommentar</object>
+      </resource>
+      <resource name="btnClear.Text">
+        <object>Fjern</object>
+      </resource>
+      <resource name="tabResponses.Text">
+        <object>Svar</object>
+      </resource>
+      <resource name="columnResponse.Caption">
+        <object>Svar</object>
+      </resource>
+      <resource name="columnActionNeeded.Caption">
+        <object>Handling nødvendig</object>
+      </resource>
+      <resource name="columnActionTaken.Caption">
+        <object>Handling utført</object>
+      </resource>
+      <resource name="columnSignatureReq.Caption">
+        <object>Signatur obligatorisk</object>
+      </resource>
+      <resource name="columnCommentReq.Caption">
+        <object>Kommentar obligatorisk</object>
+      </resource>
+      <resource name="columnComment.Caption">
+        <object>Kommentar</object>
+      </resource>
+      <resource name="reportGuiIdEmpty">
+        <object>Konfigurasjonsfeil!\nRapport-GUI-element-ID er 0</object>
+      </resource>
+      <resource name="inspectionIdNotCorrect">
+        <object>Inspeksjons-ID er 0</object>
+      </resource>
+      <resource name="InspectionFailedAlarmMessage">
+        <object>Inspeksjonen mislyktes</object>
+      </resource>
+      <resource name="AlarmsRaisedAutomatically">
+        <object>Startet automatisk varsling</object>
+      </resource>
+      <resource name="RunUnitOperationText">
+        <object>Vil du kjøre enhetsoperasjon {0}?</object>
+      </resource>
+      <resource name="RunUnitOperationCaption">
+        <object>Kjør enhetsoperasjon</object>
+      </resource>
+      <resource name="UnitOperationNeeded">
+        <object>En enhetsoperasjon må være tilordnet denne responsen.</object>
+      </resource>
+      <resource name="tabNewResponses.Text">
+        <object>Responser</object>
+      </resource>
+      <resource name="lblNoResponses.Text">
+        <object>Ingen respons er nødvendig</object>
+      </resource>
+      <resource name="RegisteredNonConformity">
+        <object>Avvik er registrert</object>
+      </resource>
+      <resource name="ScheduledInspection">
+        <object>Planlagt inspeksjon</object>
+      </resource>
+      <resource name="InsufficientAccessLevel">
+        <object>Utilstrekkelig tilgangsnivå, kunne ikke signere følgende respons: </object>
+      </resource>
+      <resource name="NoSignatureNeeded">
+        <object>Ingen responser trenger signatur.</object>
+      </resource>
+      <resource name="scoreclass">
+        <object>Resultatklasse</object>
+      </resource>
+      <resource name="score">
+        <object>Resultat</object>
+      </resource>
+      <resource name="prunit">
+        <object>Behandlingsenhet</object>
+      </resource>
+      <resource name="station">
+        <object>Stasjon</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.ViewComponents.ScreenMapPanel" ServiceOnly="false">
+      <resource name="btnMapComments.Text">
+        <object>Kommentarer</object>
+      </resource>
+      <resource name="btnMapInspect.Text">
+        <object>Inspiser</object>
+      </resource>
+      <resource name="btnMapFinish.Text">
+        <object>Fullfør</object>
+      </resource>
+      <resource name="btnBack.Text">
+        <object>Stopp insp.</object>
+      </resource>
+      <resource name="confirmStopInspection">
+        <object>Er du sikker på at du vil stoppe denne inspeksjonen?</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.M6000InspectionView" ServiceOnly="false">
+      <resource name="InspectionInfoText">
+        <object>Kvalitetskontroll</object>
+      </resource>
+      <resource name="InspectionItemPanelCaption">
+        <object>Kvalitetskontroll</object>
+      </resource>
+      <resource name="InspectionResultsCaption">
+        <object>Kvalitetskontrollresultater</object>
+      </resource>
+      <resource name="screenMapCaption">
+        <object>Skjermbildekart</object>
+      </resource>
+      <resource name="btnRecord.Text">
+        <object>Reg.</object>
+      </resource>
+      <resource name="btnDone.Text">
+        <object>Fullført</object>
+      </resource>
+      <resource name="btnClear.Text">
+        <object>Fjern alle</object>
+      </resource>
+      <resource name="btnDocuments.Text">
+        <object>Dokumenter</object>
+      </resource>
+      <resource name="btnStopInspection.Text">
+        <object>Stopp insp.</object>
+      </resource>
+      <resource name="msgRegistrationNeeded">
+        <object>Registrering nødvendig for </object>
+      </resource>
+      <resource name="btnBack.Text">
+        <object>Forrige</object>
+      </resource>
+      <resource name="btnComment.Text">
+        <object>Kommentar</object>
+      </resource>
+      <resource name="btnDelete.Text">
+        <object>Slett</object>
+      </resource>
+      <resource name="confirmStopInspection">
+        <object>Er du sikker på at du vil stoppe denne inspeksjonen?</object>
+      </resource>
+      <resource name="confirmDeleteInspection">
+        <object>Er du sikker på at du vil slette denne registreringen?</object>
+      </resource>
+      <resource name="btnJump.Text">
+        <object>Neste\nkreves</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Pda.Context.SelectContext" ServiceOnly="false">
+      <resource name="btnDone.Text">
+        <object>Velg</object>
+      </resource>
+      <resource name="btnBack.Text">
+        <object>Tilbake</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Pda.Context.SelectInspection" ServiceOnly="false">
+      <resource name="btnDone.Text">
+        <object>Velg</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Pda.ViewComponents.PdaResultPanel" ServiceOnly="false">
+      <resource name="btnDone.Text">
+        <object>Fullført</object>
+      </resource>
+      <resource name="employeeLabel.Text">
+        <object>Ansatt:</object>
+      </resource>
+      <resource name="productLabel.Text">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="scoreLabel.Text">
+        <object>Resultat:</object>
+      </resource>
+      <resource name="scoreClassLabel.Text">
+        <object>Resultatklasse:</object>
+      </resource>
+      <resource name="signatureButton.Text">
+        <object>Signatur</object>
+      </resource>
+      <resource name="tabResult.Text">
+        <object>Resultat</object>
+      </resource>
+      <resource name="tabResponses.Text">
+        <object>Responser</object>
+      </resource>
+      <resource name="InspectionFailedAlarmMessage">
+        <object>Inspeksjonen mislyktes</object>
+      </resource>
+      <resource name="RunUnitOperationCaption">
+        <object>Kjør enhetsoperasjon</object>
+      </resource>
+      <resource name="RunUnitOperationText">
+        <object>Vil du kjøre enhetsoperasjon {0}?</object>
+      </resource>
+      <resource name="UnitOperationNeeded">
+        <object>En enhetsoperasjon må være tilordnet denne responsen.</object>
+      </resource>
+      <resource name="NoSignatureNeeded">
+        <object>Ingen responser trenger signatur.</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Ikke støttet</object>
+      </resource>
+      <resource name="NotSuportedBody">
+        <object>Denne responsen støttes ikke på denne enheten</object>
+      </resource>
+      <resource name="scoreclass">
+        <object>Resultatklasse</object>
+      </resource>
+      <resource name="score">
+        <object>Resultat</object>
+      </resource>
+      <resource name="prunit">
+        <object>Behandlingsenhet</object>
+      </resource>
+      <resource name="station">
+        <object>Stasjon</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Pda.ViewComponents.PdaSignaturePanel" ServiceOnly="false">
+      <resource name="captionEmployeeId.Text">
+        <object>Ansatt-ID:</object>
+      </resource>
+      <resource name="captionPassword.Text">
+        <object>Passord:</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Lukk</object>
+      </resource>
+      <resource name="btnSign.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Ingen tilkobling til serveren</object>
+      </resource>
+      <resource name="PasswordExpired">
+        <object>Passordet er utløpt</object>
+      </resource>
+      <resource name="NotAuthenticated">
+        <object>Feil brukernavn eller passord</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Pda.ViewComponents.PdaScreenMapPanel" ServiceOnly="false">
+      <resource name="btnComments.Text">
+        <object>Kommentar</object>
+      </resource>
+      <resource name="btnInspect.Text">
+        <object>Inspiser</object>
+      </resource>
+      <resource name="btnFinish.Text">
+        <object>Fullfør</object>
+      </resource>
+      <resource name="btnBack.Text">
+        <object>Avslutt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Pda.PdaInspectionView" ServiceOnly="false">
+      <resource name="InspectionInfoText">
+        <object>Kvalitetskontroll</object>
+      </resource>
+      <resource name="InspectionItemPanelCaption">
+        <object>Kvalitetskontroll</object>
+      </resource>
+      <resource name="InspectionResultsCaption">
+        <object>Kvalitetskontrollresultater</object>
+      </resource>
+      <resource name="screenMapCaption">
+        <object>Skjermbildekart</object>
+      </resource>
+      <resource name="btnRecord.Text">
+        <object>Reg.</object>
+      </resource>
+      <resource name="btnDone.Text">
+        <object>Fullført</object>
+      </resource>
+      <resource name="btnClear.Text">
+        <object>Fjern alle</object>
+      </resource>
+      <resource name="btnBack.Text">
+        <object>Avslutt</object>
+      </resource>
+      <resource name="RegistrationRequiredForItems">
+        <object>Registrering nødvendig for {0}.</object>
+      </resource>
+      <resource name="confirmQuit">
+        <object>Er du sikker på at du vil avslutte?</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Reports.InspectionPage.InspectionPageReport" ServiceOnly="false">
+      <resource name="xrLabel1.Text">
+        <object>Dato og klokkeslett</object>
+      </resource>
+      <resource name="xrLabel3.Text">
+        <object>Produkt</object>
+      </resource>
+      <resource name="xrLabel5.Text">
+        <object>Inspektør</object>
+      </resource>
+      <resource name="xrLabel7.Text">
+        <object>Ansatt</object>
+      </resource>
+      <resource name="xrLabel11.Text">
+        <object>Resultatklasse</object>
+      </resource>
+      <resource name="xrLabel12.Text">
+        <object>Resultat</object>
+      </resource>
+      <resource name="xrLabel14.Text">
+        <object>Vekt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Reports.InspectionPage.InspectionPageExReport" ServiceOnly="false">
+      <resource name="xrLabel1.Text">
+        <object>Dato og klokkeslett</object>
+      </resource>
+      <resource name="xrLabel3.Text">
+        <object>Produkt</object>
+      </resource>
+      <resource name="xrLabel5.Text">
+        <object>Inspektør</object>
+      </resource>
+      <resource name="xrLabel7.Text">
+        <object>Ansatt</object>
+      </resource>
+      <resource name="xrLabel11.Text">
+        <object>Resultatklasse</object>
+      </resource>
+      <resource name="xrLabel12.Text">
+        <object>Resultat</object>
+      </resource>
+      <resource name="xrLabel14.Text">
+        <object>Vekt</object>
+      </resource>
+      <resource name="xrLabel57.Text">
+        <object>Pall-ID</object>
+      </resource>
+      <resource name="xrLabel59.Text">
+        <object>Sekvens</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Configuration.ItemValueListValidator" ServiceOnly="false">
+      <resource name="MissingValueList">
+        <object>Et element i verditypelisten må ha en verdiliste tilknyttet.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Pda.Context.SelectItem" ServiceOnly="false">
+      <resource name="labelControl12.Text">
+        <object>Strekkode:</object>
+      </resource>
+      <resource name="labelControl10.Text">
+        <object>Område &amp;&amp; nr.:</object>
+      </resource>
+      <resource name="labelControl8.Text">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="labelControl15.Text">
+        <object>Pros.:</object>
+      </resource>
+      <resource name="labelControl14.Text">
+        <object>Vekt:</object>
+      </resource>
+      <resource name="labelControl13.Text">
+        <object>Stykker:</object>
+      </resource>
+      <resource name="inspectButtonCaptionText">
+        <object>Inspiser</object>
+      </resource>
+      <resource name="noBarcodeInterpreterSetUP">
+        <object>Ingen strekkodetolk er satt opp for denne typen strekkode</object>
+      </resource>
+      <resource name="invalidBarcode">
+        <object>Ugyldig strekkode: {0}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.Context.SelectItem" ServiceOnly="false">
+      <resource name="newResource">
+        <object>ny verdi</object>
+      </resource>
+      <resource name="barcodeText.Text">
+        <object>Strekkode:</object>
+      </resource>
+      <resource name="labelControl2.Text">
+        <object>Område &amp;&amp; nr.:</object>
+      </resource>
+      <resource name="labelControl4.Text">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="labelControl5.Text">
+        <object>Pros.:</object>
+      </resource>
+      <resource name="labelControl6.Text">
+        <object>Vekt:</object>
+      </resource>
+      <resource name="labelControl7.Text">
+        <object>Stykker:</object>
+      </resource>
+      <resource name="inspectButtonCaptionText">
+        <object>Inspiser</object>
+      </resource>
+      <resource name="noBarcodeInterpreterSetUP">
+        <object>Ingen strekkodetolk er satt opp for denne typen strekkode</object>
+      </resource>
+      <resource name="invalidBarcode">
+        <object>Ugyldig strekkode: {0}</object>
+      </resource>
+      <resource name="buttonFindSiteAndNumber.Text">
+        <object>Søk etter</object>
+      </resource>
+      <resource name="buttonFindBarcode.Text">
+        <object>Søk etter</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.Context.SelectPack" ServiceOnly="false">
+      <resource name="barcodeLabel.Text">
+        <object>Strekkode:</object>
+      </resource>
+      <resource name="productLabel.Caption">
+        <object>Produkt</object>
+      </resource>
+      <resource name="procedureLabel.Text">
+        <object>Pros.:</object>
+      </resource>
+      <resource name="weightLabel.Caption">
+        <object>Vekt</object>
+      </resource>
+      <resource name="piecesLabel.Caption">
+        <object>Stykker</object>
+      </resource>
+      <resource name="poLabel.Caption">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="rmAreaLabel.Caption">
+        <object>Ressursområde</object>
+      </resource>
+      <resource name="inspectButton.Text">
+        <object>Inspiser</object>
+      </resource>
+      <resource name="noBarcodeInterpreterSetUP">
+        <object>Ingen strekkodetolk er satt opp for denne typen strekkode</object>
+      </resource>
+      <resource name="invalidBarcode">
+        <object>Ugyldig strekkode: {0}</object>
+      </resource>
+      <resource name="findButton.Text">
+        <object>Søk etter</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Common.SelectItemInspectionControllerExtension" ServiceOnly="false">
+      <resource name="selectItem">
+        <object>Velg element</object>
+      </resource>
+      <resource name="invalidBarcodeInterpreterLength">
+        <object>Ugyldig lengde for strekkodetolk {0}</object>
+      </resource>
+      <resource name="invalidBarcodeInterpreterId">
+        <object>Ugyldig strekkodetolk-ID {0}</object>
+      </resource>
+      <resource name="InvalidXmlConfig">
+        <object>Ugyldig XML-konfigurasjon</object>
+      </resource>
+      <resource name="exceptionInFind">
+        <object>Unntak i oppslag</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Common.SelectStationUnitInspectionCE" ServiceOnly="false">
+      <resource name="InvalidXmlConfig">
+        <object>Ugyldig XML-konfigurasjon</object>
+      </resource>
+      <resource name="notM6kApp">
+        <object>Denne kontrollutvidelsen kjører bare på M6000/IPC.</object>
+      </resource>
+      <resource name="noStationId">
+        <object>Denne kontrollutvidelsen krever system-ID i systemprogram-xml</object>
+      </resource>
+      <resource name="invalidStationId">
+        <object>Ugyldig stasjons-ID i xml {0}.</object>
+      </resource>
+      <resource name="selectUnit">
+        <object>Velg enhet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.Context.SelectStationUnit" ServiceOnly="false">
+      <resource name="loadUnits">
+        <object>{0}: Laster enheter fra kø:</object>
+      </resource>
+      <resource name="UnitsLoadedOk">
+        <object>{0}: Enheter lastet.</object>
+      </resource>
+      <resource name="UnitsLoadedWitError">
+        <object>{0}: Enheter lastet. {1} hadde feil enhetstype.</object>
+      </resource>
+      <resource name="inspectButtonCaptionText">
+        <object>Inspiser</object>
+      </resource>
+      <resource name="NoProcedureChosen">
+        <object>Ingen prosedyre valgt/tilgjengelig</object>
+      </resource>
+      <resource name="NoUnitChosen">
+        <object>Ingen enhet valgt/tilgjengelig</object>
+      </resource>
+      <resource name="nextLoadStatusText.Text">
+        <object>Neste last:</object>
+      </resource>
+      <resource name="refreshButton.Text">
+        <object>Oppdater</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.InspectionList.FormulaDesigner" ServiceOnly="false">
+      <resource name="MoveDown">
+        <object>Flytt ned</object>
+      </resource>
+      <resource name="MoveUp">
+        <object>Flytt opp</object>
+      </resource>
+      <resource name="RemoveItem">
+        <object>Fjern element</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.ViewComponents.RepeatedItemControlPanel" ServiceOnly="false">
+      <resource name="of">
+        <object>av</object>
+      </resource>
+    </type>
+    <type name="Grids.Configuration.ScreenFactories" ServiceOnly="false">
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="shname">
+        <object>Kortnavn</object>
+      </resource>
+      <resource name="assemblyid">
+        <object>Samlings-ID</object>
+      </resource>
+      <resource name="typename">
+        <object>Typenavn</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="description1">
+        <object>Beskrivelse 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Beskrivelse 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Beskrivelse 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Beskrivelse 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Beskrivelse 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Beskrivelse 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Beskrivelse 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Beskrivelse 8</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="screenfactory">
+        <object>Skjermbildefabrikk</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.Pvi.ScreenDesigner" ServiceOnly="false">
+      <resource name="SetupCategoryd">
+        <object>Oppsett</object>
+      </resource>
+      <resource name="RowCount.DisplayName">
+        <object>Radantall</object>
+      </resource>
+      <resource name="RowCount.Description">
+        <object>Antall knapperader</object>
+      </resource>
+      <resource name="ColumnCount.DisplayName">
+        <object>Antall kolonner</object>
+      </resource>
+      <resource name="ColumnCount.Description">
+        <object>Antall knappekolonner</object>
+      </resource>
+      <resource name="RowCountTooLow">
+        <object>Ugyldig verdi: Det er for mange elementer på skjermen.</object>
+      </resource>
+      <resource name="ColumnCountTooLow">
+        <object>Ugyldig verdi: Det er for mange elementer på skjermen.</object>
+      </resource>
+      <resource name="RowCount.Category">
+        <object>Oppsett</object>
+      </resource>
+      <resource name="ColumnCount.Category">
+        <object>Oppsett</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.Pvi.InspectionView" ServiceOnly="false">
+      <resource name="finishButton.Text">
+        <object>Fullfør</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Common.ViewComponents.ResetPresetTareOperationBox" ServiceOnly="false">
+      <resource name="ClearPTOpIdle">
+        <object>Trykk for å tømme PT</object>
+      </resource>
+      <resource name="TareOpAgain">
+        <object>PT er tømt</object>
+      </resource>
+      <resource name="TareOpWaitForPTClear">
+        <object>Venter på å tømme PT</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Common.ViewComponents.TareOperationBox" ServiceOnly="false">
+      <resource name="TareOpIdle">
+        <object>Trykk for tara</object>
+      </resource>
+      <resource name="TareOp">
+        <object>Trykk for tara på nytt</object>
+      </resource>
+      <resource name="TareOpWaitForTare">
+        <object>Tara, venter på tara</object>
+      </resource>
+      <resource name="TareOpWaitForZeroTare">
+        <object>Tara, venter på null tara</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Data.RecalculateInspection" ServiceOnly="false">
+      <resource name="Recalculate">
+        <object>Omberegn</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.ViewExtensions.ValueClassResolveUniqueValues" ServiceOnly="false">
+      <resource name="Text">
+        <object>Kloner verdiklasse</object>
+      </resource>
+      <resource name="description.Text">
+        <object>Hver kombinasjon av element og materiale kan bare registreres én gang.  Velg en ny kombinasjon av element og materiale for klonen:</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Avbryt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.ViewExtensions.ValueGradeResolveUniqueValues" ServiceOnly="false">
+      <resource name="Text">
+        <object>Kloner verdigradering</object>
+      </resource>
+      <resource name="description.Text">
+        <object>Hver kombinasjon av element og materiale kan bare registreres én gang.  Velg en ny kombinasjon av element og materiale for klonen:</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Avbryt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.ViewExtensions.ValueClassCloneHelper" ServiceOnly="false">
+      <resource name="NoCloneText">
+        <object>Den valgte kombinasjonen finnes allerede. Ingen klon ble laget</object>
+      </resource>
+      <resource name="NoCloneCaption">
+        <object>Kloning mislyktes</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Viewer.RefreshWithOptions" ServiceOnly="false">
+      <resource name="RefreshWithOptions">
+        <object>Oppdater med alternativer</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Common.SelectPackInspectionControllerExtension" ServiceOnly="false">
+      <resource name="InvalidXmlConfig">
+        <object>Ugyldig XML-konfigurasjon</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Viewer.InspectionHeader" ServiceOnly="false">
+      <resource name="MustBePositive">
+        <object>Verdien må være positiv</object>
+      </resource>
+      <resource name="MustContainValue">
+        <object>Feltet må fylles ut</object>
+      </resource>
+      <resource name="Help">
+        <object>Hjelp</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Viewer.InspectionScreenUC" ServiceOnly="false">
+      <resource name="MustContainValue">
+        <object>Feltet må fylles ut</object>
+      </resource>
+      <resource name="RepeatedMustContainValue">
+        <object>Alle forekomster må fylles ut</object>
+      </resource>
+      <resource name="NotANumber">
+        <object>NaN</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Viewer.AuditTrailViewer.InspectionAuditTrailViewer" ServiceOnly="false">
+      <resource name="BeforeChangeBand">
+        <object>Før endring</object>
+      </resource>
+      <resource name="AfterChangeBand">
+        <object>Etter endring</object>
+      </resource>
+      <resource name="ItemName">
+        <object>Elementnavn</object>
+      </resource>
+      <resource name="Value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="Defects">
+        <object>Defekter</object>
+      </resource>
+      <resource name="Instance">
+        <object>Forekomst</object>
+      </resource>
+      <resource name="OldValue">
+        <object>Gammel verdi</object>
+      </resource>
+      <resource name="NewValue">
+        <object>Ny verdi</object>
+      </resource>
+      <resource name="DefectClass">
+        <object>Defektklasse</object>
+      </resource>
+      <resource name="Items">
+        <object>Elementer</object>
+      </resource>
+      <resource name="APicture">
+        <object>Et bilde</object>
+      </resource>
+      <resource name="PictureAdded">
+        <object>Bilde lagt til</object>
+      </resource>
+      <resource name="PictureRemoved">
+        <object>Bilde fjernet</object>
+      </resource>
+      <resource name="PictureReplaced">
+        <object>Bilde erstattet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Viewer.InspectionBarHandler" ServiceOnly="false">
+      <resource name="StartNewInspection">
+        <object>Ny</object>
+      </resource>
+      <resource name="SaveInspection">
+        <object>Ufullstendig lagring</object>
+      </resource>
+      <resource name="CompleteInspection">
+        <object>Fullført</object>
+      </resource>
+      <resource name="ConfirmInspection">
+        <object>Bekreft</object>
+      </resource>
+      <resource name="EditInspection">
+        <object>Rediger</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Viewer.ButtonPressDialogHelper" ServiceOnly="false">
+      <resource name="ValidationFailed">
+        <object>Noen nødvendige elementer er ikke fylt ut.</object>
+      </resource>
+      <resource name="ValidationFailedCaption">
+        <object>Validering mislyktes</object>
+      </resource>
+      <resource name="SignaturesMissing">
+        <object>Noen responser er ikke signert.</object>
+      </resource>
+      <resource name="SignaturesMissingCaption">
+        <object>Signaturer mangler</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Viewer.DialogHelper" ServiceOnly="false">
+      <resource name="ValidationFailed">
+        <object>Noen nødvendige elementer er ikke fylt ut.\n\n  OK – fortsett uten å lagre endringer\n  Avbryt – ordne inspeksjonen.</object>
+      </resource>
+      <resource name="ValidationFailedCaption">
+        <object>Validering mislyktes</object>
+      </resource>
+      <resource name="ConfirmSaveChanges">
+        <object>Vil du lagre endringer?</object>
+      </resource>
+      <resource name="UnsavedChangesCaption">
+        <object>Ikke lagrede endringer</object>
+      </resource>
+      <resource name="GetSaveMethod">
+        <object>Vil du markere inspeksjonen som fullført?\n\n  Ja – lagre inspeksjonen som fullført\n  Nei – lagre inspeksjonen som pågår\n  Avbryt – mist endringene</object>
+      </resource>
+      <resource name="ChangeCompleteToIncomplete">
+        <object>Disse endringene krever at inspeksjonen blir markert som Pågår. Vil du fortsette?\n\n  Ja – lagre inspeksjonen som pågår\n  Nei – mist endringene</object>
+      </resource>
+      <resource name="SignaturesMissing">
+        <object>Noen responser er ikke signert.</object>
+      </resource>
+      <resource name="SignaturesMissingCaption">
+        <object>Signaturer mangler</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Viewer.InspectionItemValueFilter" ServiceOnly="false">
+      <resource name="InspectionItemControlLabel">
+        <object>Inspeksjonselement:</object>
+      </resource>
+      <resource name="ItemValueControlLabel">
+        <object>Elementverdi:</object>
+      </resource>
+      <resource name="ValidationFailedMessage">
+        <object>Elementverdien er ikke riktig formattert. Dette søket vil ikke gi resultater</object>
+      </resource>
+      <resource name="ValidationFailedCaption">
+        <object>Advarsel</object>
+      </resource>
+      <resource name="All">
+        <object>(Alle)</object>
+      </resource>
+      <resource name="Empty">
+        <object>(Tomt)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Common.ScreenLayout" ServiceOnly="false">
+      <resource name="SingleColumn">
+        <object>Enkelt kolonne</object>
+      </resource>
+      <resource name="DoubleVertical">
+        <object>Dobbel loddrett</object>
+      </resource>
+      <resource name="DoubleHorizontal">
+        <object>Dobbel vannrett</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Viewer.NewInspectionForm" ServiceOnly="false">
+      <resource name="processLabel.Text">
+        <object>Prosess:</object>
+      </resource>
+      <resource name="procedureLabel.Text">
+        <object>Prosedyre:</object>
+      </resource>
+      <resource name="processUnitLabel.Text">
+        <object>Behandlingsenhet:</object>
+      </resource>
+      <resource name="Text">
+        <object>Ny inspeksjon</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Avbryt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Configuration.ItemFieldCustomEdit" ServiceOnly="false">
+      <resource name="ConfirmValueTypeChange">
+        <object>Er du sikker på at du vil endre verditypen?\nDette vil tømme kriteriefeltet.</object>
+      </resource>
+      <resource name="ConfirmValueTypeChangeCaption">
+        <object>Endre verditype</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Scheduling.Scheduler" ServiceOnly="false">
+      <resource name="barButtonNewTask.Caption">
+        <object>Ny tidsbestemt oppgave</object>
+      </resource>
+      <resource name="barButtonNotifyInspection.Caption">
+        <object>Gi beskjed om fullført inspeksjon</object>
+      </resource>
+      <resource name="DeleteSeriesConfirmation">
+        <object>Det er ikke mulig å slette en serie som har startet.\nVil du slette alle gjenværende forekomster?</object>
+      </resource>
+      <resource name="DeleteSeries">
+        <object>Slett serie</object>
+      </resource>
+      <resource name="EditSeriesConfirmation">
+        <object>Det er ikke mulig å endre en serie som har startet.\nVil du endre alle gjenværende forekomster?</object>
+      </resource>
+      <resource name="EditSeries">
+        <object>Rediger serie</object>
+      </resource>
+      <resource name="DeleteError">
+        <object>Det er ikke mulig å slette en plan som allerede har startet.</object>
+      </resource>
+      <resource name="Error">
+        <object>Feil</object>
+      </resource>
+      <resource name="UpdateError">
+        <object>Det er ikke mulig å endre en plan som allerede har startet.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Scheduling.EditScheduledEventForm" ServiceOnly="false">
+      <resource name="Title">
+        <object>Rediger tidsbestemt oppgave</object>
+      </resource>
+      <resource name="labelProcess.Text">
+        <object>Prosess:</object>
+      </resource>
+      <resource name="labelProcedure.Text">
+        <object>Prosedyre:</object>
+      </resource>
+      <resource name="SelectProcess">
+        <object>Velg prosess</object>
+      </resource>
+      <resource name="SelectProcedure">
+        <object>Velg prosedyre</object>
+      </resource>
+      <resource name="labelStartTime.Text">
+        <object>Starttidspunkt:</object>
+      </resource>
+      <resource name="labelEndTime.Text">
+        <object>Sluttidspunkt:</object>
+      </resource>
+      <resource name="labelDescription.Text">
+        <object>Beskrivelse:</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Avbryt</object>
+      </resource>
+      <resource name="Code">
+        <object>Kode</object>
+      </resource>
+      <resource name="Name">
+        <object>Navn</object>
+      </resource>
+      <resource name="btnRecurrence.Text">
+        <object>Gjentakelse</object>
+      </resource>
+      <resource name="contextGroup.Text">
+        <object>Kontekstinformasjon</object>
+      </resource>
+      <resource name="scheduleGroup.Text">
+        <object>Planlegg</object>
+      </resource>
+      <resource name="ErrorValueNotSelected">
+        <object>Du må velge verdi for [{0}]</object>
+      </resource>
+      <resource name="Error">
+        <object>Feil</object>
+      </resource>
+      <resource name="labelInspectionCount.Text">
+        <object>Antall inspeksjoner:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Scheduling.EditRecurrenceForm" ServiceOnly="false">
+      <resource name="Title">
+        <object>Rediger gjentakelse</object>
+      </resource>
+      <resource name="scheduleGroup.Text">
+        <object>Gjentakelsestid</object>
+      </resource>
+      <resource name="lStart.Text">
+        <object>Start:</object>
+      </resource>
+      <resource name="lEnd.Text">
+        <object>Slutt:</object>
+      </resource>
+      <resource name="recurrencePatternGroupControl.Text">
+        <object>Gjentakelsesmønster</object>
+      </resource>
+      <resource name="Minutely">
+        <object>Hvert minutt</object>
+      </resource>
+      <resource name="Hourly">
+        <object>Hver time</object>
+      </resource>
+      <resource name="Daily">
+        <object>Daglig</object>
+      </resource>
+      <resource name="Weekly">
+        <object>Ukentlig</object>
+      </resource>
+      <resource name="Monthly">
+        <object>Månedlig</object>
+      </resource>
+      <resource name="Yearly">
+        <object>Årlig</object>
+      </resource>
+      <resource name="rangeGroup.Text">
+        <object>Gjentakelsesområde</object>
+      </resource>
+      <resource name="lDateStart.Text">
+        <object>Startdato:</object>
+      </resource>
+      <resource name="lEndDate.Text">
+        <object>Sluttdato:</object>
+      </resource>
+      <resource name="lOccurrences.Text">
+        <object>forekomster</object>
+      </resource>
+      <resource name="NoEndDate">
+        <object>Ingen sluttdato</object>
+      </resource>
+      <resource name="EndAfter">
+        <object>Slutt etter</object>
+      </resource>
+      <resource name="EndBy">
+        <object>Slutt innen</object>
+      </resource>
+      <resource name="btnOK.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Avbryt</object>
+      </resource>
+      <resource name="btnRemove.Text">
+        <object>Fjern gjentakelse</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Scheduling.Controls.MinutelyRecurrenceControl" ServiceOnly="false">
+      <resource name="lRecurEvery.Text">
+        <object>Gjenta hvert</object>
+      </resource>
+      <resource name="lMinutes.Text">
+        <object>minutt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Scheduling.Controls.HourlyRecurrenceControl" ServiceOnly="false">
+      <resource name="lRecurEvery.Text">
+        <object>Gjenta hver</object>
+      </resource>
+      <resource name="lHours.Text">
+        <object>time</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Scheduling.Controls.DailyRecurrenceControl" ServiceOnly="false">
+      <resource name="lDays.Text">
+        <object>dag</object>
+      </resource>
+      <resource name="Every">
+        <object>Hver</object>
+      </resource>
+      <resource name="EveryWeekDay">
+        <object>Hver arbeidsdag</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Scheduling.Controls.WeeklyRecurrenceControl" ServiceOnly="false">
+      <resource name="lRecur.Text">
+        <object>Gjenta hver</object>
+      </resource>
+      <resource name="lWeeks.Text">
+        <object>uke på:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Scheduling.Controls.MonthlyRecurrenceControl" ServiceOnly="false">
+      <resource name="Day">
+        <object>Dag</object>
+      </resource>
+      <resource name="lEvery1.Text">
+        <object>av hver</object>
+      </resource>
+      <resource name="lMonths1.Text">
+        <object>måned</object>
+      </resource>
+      <resource name="The">
+        <object>Den</object>
+      </resource>
+      <resource name="lEvery2.Text">
+        <object>i hver</object>
+      </resource>
+      <resource name="lMonths2.Text">
+        <object>måned</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Scheduling.Controls.Common" ServiceOnly="false">
+      <resource name="First">
+        <object>Første</object>
+      </resource>
+      <resource name="Second">
+        <object>Andre</object>
+      </resource>
+      <resource name="Third">
+        <object>Tredje</object>
+      </resource>
+      <resource name="Fourth">
+        <object>Fjerde</object>
+      </resource>
+      <resource name="Last">
+        <object>Siste</object>
+      </resource>
+      <resource name="Day">
+        <object>Dag</object>
+      </resource>
+      <resource name="WeekendDay">
+        <object>Helgedag</object>
+      </resource>
+      <resource name="WorkDay">
+        <object>Arbeidsdag</object>
+      </resource>
+      <resource name="Sunday">
+        <object>Søndag</object>
+      </resource>
+      <resource name="Monday">
+        <object>Mandag</object>
+      </resource>
+      <resource name="Tuesday">
+        <object>Tirsdag</object>
+      </resource>
+      <resource name="Wednesday">
+        <object>Onsdag</object>
+      </resource>
+      <resource name="Thursday">
+        <object>Torsdag</object>
+      </resource>
+      <resource name="Friday">
+        <object>Fredag</object>
+      </resource>
+      <resource name="Saturday">
+        <object>Lørdag</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Scheduling.Controls.YearlyRecurrenceControl" ServiceOnly="false">
+      <resource name="Every">
+        <object>Hvert</object>
+      </resource>
+      <resource name="The">
+        <object>Den</object>
+      </resource>
+      <resource name="lOf.Text">
+        <object>av</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Scheduling.DeleteRecurrenceForm" ServiceOnly="false">
+      <resource name="okButton.Label">
+        <object>OK</object>
+      </resource>
+      <resource name="cancelButton.Label">
+        <object>Avbryt</object>
+      </resource>
+      <resource name="ConfirmDelete">
+        <object>Bekreft sletting</object>
+      </resource>
+      <resource name="DeleteOccurrence">
+        <object>Slett denne forekomsten</object>
+      </resource>
+      <resource name="DeleteSeries">
+        <object>Slett serien</object>
+      </resource>
+      <resource name="lDeleteSeries.Text">
+        <object>Vil du slette alle forekomster i serien, eller bare denne?</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.EnvironmentTypes" ServiceOnly="false">
+      <resource name="environmenttype">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="EnvironmentTypeObjectText">
+        <object>Ekstra tekster</object>
+      </resource>
+      <resource name="EnvironmentTypeObjectXlate">
+        <object>Verdier for oversatte kolonner</object>
+      </resource>
+      <resource name="ToogleButton.Caption">
+        <object>Vis ekstra tekster</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.ContextsEnvironment" ServiceOnly="false">
+      <resource name="context">
+        <object>ID</object>
+      </resource>
+      <resource name="process">
+        <object>Prosesskode</object>
+      </resource>
+      <resource name="procedure">
+        <object>Prosedyrekode</object>
+      </resource>
+      <resource name="objectid">
+        <object>Miljøtypekode</object>
+      </resource>
+      <resource name="objecttype">
+        <object>Objekttype</object>
+      </resource>
+      <resource name="process Name">
+        <object>Prosess</object>
+      </resource>
+      <resource name="procedure Name">
+        <object>Prosedyre</object>
+      </resource>
+      <resource name="objectid Name">
+        <object>Miljøtype</object>
+      </resource>
+      <resource name="batchsize">
+        <object>Batchstørrelse</object>
+      </resource>
+      <resource name="enabled">
+        <object>Aktivert</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.NonConformities" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="shortdescription">
+        <object>Kort beskrivelse</object>
+      </resource>
+      <resource name="fulldescription">
+        <object>Årsaksbeskrivelse</object>
+      </resource>
+      <resource name="deadline">
+        <object>Tidsfrist</object>
+      </resource>
+      <resource name="registeredby">
+        <object>Registrert av-kode</object>
+      </resource>
+      <resource name="registeredby Name">
+        <object>Registrert av</object>
+      </resource>
+      <resource name="regtime">
+        <object>Startet den</object>
+      </resource>
+      <resource name="personresponsible">
+        <object>Kode for ansvarlig person</object>
+      </resource>
+      <resource name="personresponsible Name">
+        <object>Ansvarlig person</object>
+      </resource>
+      <resource name="status">
+        <object>Status</object>
+      </resource>
+      <resource name="employee">
+        <object>Ansattkode</object>
+      </resource>
+      <resource name="employee Name">
+        <object>Ansatt</object>
+      </resource>
+      <resource name="device">
+        <object>Enhetskode</object>
+      </resource>
+      <resource name="device Name">
+        <object>Enhet</object>
+      </resource>
+      <resource name="station">
+        <object>Stasjonskode</object>
+      </resource>
+      <resource name="station Name">
+        <object>Stasjon</object>
+      </resource>
+      <resource name="department">
+        <object>Avdelingskode</object>
+      </resource>
+      <resource name="department Name">
+        <object>Avdeling</object>
+      </resource>
+      <resource name="Tab Text.fulldescription">
+        <object>Årsaksbeskrivelse</object>
+      </resource>
+      <resource name="Tab Text.resolutiondescription">
+        <object>Løsningsbeskrivelse</object>
+      </resource>
+      <resource name="reason">
+        <object>Årsak</object>
+      </resource>
+      <resource name="resolution">
+        <object>Løsning</object>
+      </resource>
+      <resource name="resolutiondescription">
+        <object>Løsningsbeskrivelse</object>
+      </resource>
+      <resource name="group Name">
+        <object>Gruppe</object>
+      </resource>
+      <resource name="group">
+        <object>Gruppekode</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.NonConformities.NonConformitiesPanel" ServiceOnly="false">
+      <resource name="startNewButton.Text">
+        <object>Start ny</object>
+      </resource>
+      <resource name="defaultlookuptext">
+        <object>(ikke angitt)</object>
+      </resource>
+      <resource name="fullDescription.Text">
+        <object>Årsaksbeskrivelse</object>
+      </resource>
+      <resource name="categorization.Text">
+        <object>Kategorisering:</object>
+      </resource>
+      <resource name="department">
+        <object>Avdeling:</object>
+      </resource>
+      <resource name="device">
+        <object>Enhet:</object>
+      </resource>
+      <resource name="station">
+        <object>Stasjon:</object>
+      </resource>
+      <resource name="employee">
+        <object>Ansatt:</object>
+      </resource>
+      <resource name="cancelSelectObjectButton.Text">
+        <object>Avbryt</object>
+      </resource>
+      <resource name="saveButton.Text">
+        <object>Lagre</object>
+      </resource>
+      <resource name="fulldescription">
+        <object>Årsaksbeskrivelse</object>
+      </resource>
+      <resource name="resolutiondescription">
+        <object>Løsningsbeskrivelse</object>
+      </resource>
+      <resource name="reason.Text">
+        <object>Årsak</object>
+      </resource>
+      <resource name="resolution.Text">
+        <object>Løsning</object>
+      </resource>
+      <resource name="resolutionDescription.Text">
+        <object>Løsningsbeskrivelse</object>
+      </resource>
+      <resource name="cancelButton.Text">
+        <object>Avbryt</object>
+      </resource>
+      <resource name="group.Text">
+        <object>Gruppe</object>
+      </resource>
+      <resource name="addImageReasonButton.Text">
+        <object>Legg til bilde</object>
+      </resource>
+      <resource name="addImageResolutionButton.Text">
+        <object>Legg til bilde</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Utils.InspectionUtils" ServiceOnly="false">
+      <resource name="NaN">
+        <object>Den oppgitte verdien er ikke et korrekt formattert nummer</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Configuration.ObjectTypeObjectFilter" ServiceOnly="false">
+      <resource name="ObjectType">
+        <object>Objekttype:</object>
+      </resource>
+      <resource name="ObjectValue">
+        <object>Objekt:</object>
+      </resource>
+      <resource name="All">
+        <object>(Alle)</object>
+      </resource>
+      <resource name="Many">
+        <object>(Mange)</object>
+      </resource>
+      <resource name="Empty">
+        <object>(Tomt)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Data.NonConformitiesViewExtension" ServiceOnly="false">
+      <resource name="norowselected">
+        <object>Det er ikke valgt noen rad</object>
+      </resource>
+      <resource name="printsingle">
+        <object>Åpne rapport om enkeltavvik</object>
+      </resource>
+      <resource name="nonconformityprinthead">
+        <object>Rapport om enkeltavvik</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.NonConformityResolutions" ServiceOnly="false">
+      <resource name="resolution">
+        <object>ID</object>
+      </resource>
+      <resource name="group">
+        <object>Gruppe</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.NonConformityReasons" ServiceOnly="false">
+      <resource name="reason">
+        <object>ID</object>
+      </resource>
+      <resource name="group">
+        <object>Gruppe</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="severity">
+        <object>Alvorsgradkode</object>
+      </resource>
+      <resource name="severity Name">
+        <object>Alvorsgrad</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.NonConformitySeverities" ServiceOnly="false">
+      <resource name="severity">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+    </type>
+    <type name="Grid.Data.MaintenanceItems" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="regtime">
+        <object>Registreringstidspunkt</object>
+      </resource>
+      <resource name="description">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="personresponsible">
+        <object>Kode for ansvarlig</object>
+      </resource>
+      <resource name="personresponsible Name">
+        <object>Ansvarlig</object>
+      </resource>
+      <resource name="confirmedby">
+        <object>Bekreftet av-kode</object>
+      </resource>
+      <resource name="confirmedby Name">
+        <object>Bekreftet av</object>
+      </resource>
+      <resource name="startdate">
+        <object>Startdato</object>
+      </resource>
+      <resource name="enddate">
+        <object>Sluttdato</object>
+      </resource>
+      <resource name="expectedrepairdate">
+        <object>Forventet reparasjonsdato</object>
+      </resource>
+      <resource name="status">
+        <object>Status</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Viewer.InspectionAccessHandler" ServiceOnly="false">
+      <resource name="Approve inspection">
+        <object>Godta inspeksjon</object>
+      </resource>
+      <resource name="Start inspection">
+        <object>Start inspeksjon</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Data.NonConformitiesAccessHandler" ServiceOnly="false">
+      <resource name="Cancel Resolution">
+        <object>Avbryt løsning</object>
+      </resource>
+      <resource name="access.Name">
+        <object>Test løsning</object>
+      </resource>
+      <resource name="access.Description">
+        <object>* Avbryt løsningttt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Data.NonConformitiesTools" ServiceOnly="false">
+      <resource name="cancelresolution">
+        <object>Avbryt løsning</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.M6000.ViewComponents.ScheduleInspectionPanel" ServiceOnly="false">
+      <resource name="labelControl1.Text">
+        <object>Skal utføres</object>
+      </resource>
+      <resource name="labelControl2.Text">
+        <object>Planlegg inspeksjon</object>
+      </resource>
+      <resource name="labelControl4.Text">
+        <object>fra nå</object>
+      </resource>
+      <resource name="labelControl5.Text">
+        <object>Og fullført innen</object>
+      </resource>
+      <resource name="OKButton.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="CancelButton.Text">
+        <object>Avbryt</object>
+      </resource>
+      <resource name="DeleteButton.Text">
+        <object>Slett</object>
+      </resource>
+      <resource name="NoNegatives">
+        <object>Negative verdier støttes ikke</object>
+      </resource>
+      <resource name="NoFractions">
+        <object>Brøktall støttes ikke</object>
+      </resource>
+      <resource name="ValuesMustBeEntered">
+        <object>Du må oppgi verdier i begge feltene</object>
+      </resource>
+      <resource name="EventDescription">
+        <object>Planlagt på grunn av mislykket inspeksjon</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Dashboard.Components.InspectionStatistics" ServiceOnly="false">
+      <resource name="LastXHours">
+        <object>Siste {0} timer</object>
+      </resource>
+      <resource name="LastHour">
+        <object>Siste time</object>
+      </resource>
+      <resource name="ProcedureName">
+        <object>Prosedyrenavn</object>
+      </resource>
+      <resource name="Total">
+        <object>TOTALT</object>
+      </resource>
+      <resource name="Failed">
+        <object>MISLYKTES</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.QC.UI.Windows.Dashboard.Components.ItemTrend" ServiceOnly="false">
+      <resource name="Average">
+        <object>Gjennomsnitt</object>
+      </resource>
+      <resource name="Value">
+        <object>Verdi</object>
+      </resource>
+      <resource name="Target">
+        <object>Mål</object>
+      </resource>
+      <resource name="Count">
+        <object>Antall</object>
+      </resource>
+      <resource name="Max">
+        <object>Maks.</object>
+      </resource>
+      <resource name="Min">
+        <object>Min.</object>
+      </resource>
+      <resource name="LowerDistribution">
+        <object>Mindre fordeling</object>
+      </resource>
+      <resource name="UpperDistribution">
+        <object>Øverste fordeling</object>
+      </resource>
+    </type>
+    <type name="Grid.Configuration.NonConformityGroup" ServiceOnly="false">
+      <resource name="group">
+        <object>ID</object>
+      </resource>
+      <resource name="code">
+        <object>Kode</object>
+      </resource>
+      <resource name="name">
+        <object>Navn</object>
+      </resource>
+      <resource name="shname">
+        <object>Kort</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ekstern kode</object>
+      </resource>
+      <resource name="pattern">
+        <object>Mønster</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Dimensjon 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Dimensjon 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Dimensjon 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Dimensjon 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Tekst 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Tekst 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Tekst 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Tekst 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Tekst 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Tekst 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Tekst 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Tekst 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvens</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

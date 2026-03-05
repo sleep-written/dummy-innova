@@ -1,0 +1,2476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.SystemSetup.VqmSystemView" ServiceOnly="false">
+      <resource name="paramTabPage.Text">
+        <object>IRIS Stations</object>
+      </resource>
+      <resource name="backupTabPage.Text">
+        <object>Backups</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Code</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Name</object>
+      </resource>
+      <resource name="grpSystem.Text">
+        <object>System</object>
+      </resource>
+      <resource name="sysPrgLookUp.ToolTip">
+        <object>System program running the system</object>
+      </resource>
+      <resource name="siteLookUp.ToolTip">
+        <object>Site the system belongs to</object>
+      </resource>
+      <resource name="sysAppLookUp.ToolTip">
+        <object>Application handling the system</object>
+      </resource>
+      <resource name="lblSysProgram.Text">
+        <object>System program:</object>
+      </resource>
+      <resource name="lblSite.Text">
+        <object>Site:</object>
+      </resource>
+      <resource name="lblApplication.Text">
+        <object>Application:</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Error saving data!</object>
+      </resource>
+      <resource name="Err.CancelEdit">
+        <object>Error cancelling!</object>
+      </resource>
+      <resource name="Err.NoObjectSelected">
+        <object>No object is selected</object>
+      </resource>
+      <resource name="Err.NoObjectSelectedCaption">
+        <object>Information</object>
+      </resource>
+      <resource name="Err.DeletingStationChildren">
+        <object>Can't delete children of the station</object>
+      </resource>
+      <resource name="Err.DeletingStationData">
+        <object>Can't delete station. Station has data.</object>
+      </resource>
+      <resource name="CardData.Title">
+        <object>Missing properties</object>
+      </resource>
+      <resource name="EqmLookup.Config">
+        <object>Config</object>
+      </resource>
+      <resource name="EqmLookup.Line">
+        <object>Line</object>
+      </resource>
+      <resource name="EqmLookup.DeviceName">
+        <object>Device name</object>
+      </resource>
+      <resource name="EqmLookup.DeviceId">
+        <object>Device id</object>
+      </resource>
+      <resource name="CardData.AqsNgConfig">
+        <object>before the IRIS stations can be configured</object>
+      </resource>
+      <resource name="CardData.DataSaved">
+        <object>before the IRIS system can be saved</object>
+      </resource>
+      <resource name="CardData.Text.Single">
+        <object>The following property need to be defined</object>
+      </resource>
+      <resource name="CardData.Text.Multi">
+        <object>The following properties need to be defined</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Do you want to save the data?</object>
+      </resource>
+      <resource name="Save.Title">
+        <object>Save data</object>
+      </resource>
+      <resource name="grpGeneralSettings.Text">
+        <object>General</object>
+      </resource>
+      <resource name="btnGridClone.Caption">
+        <object>Clone</object>
+      </resource>
+      <resource name="btnGridCopy.Caption">
+        <object>Copy</object>
+      </resource>
+      <resource name="btnGridPaste.Caption">
+        <object>Paste</object>
+      </resource>
+      <resource name="lblName.Text">
+        <object>Name:</object>
+      </resource>
+      <resource name="lblShortName.Text">
+        <object>Short name:</object>
+      </resource>
+      <resource name="lblCode.Text">
+        <object>Code:</object>
+      </resource>
+      <resource name="chActive.Text">
+        <object>Active</object>
+      </resource>
+      <resource name="lblXML.Text">
+        <object>XML:</object>
+      </resource>
+      <resource name="StationPairedNoDelete.Text">
+        <object>The selected station is paired with another station and\nthis pair needs to be deleted before the selected station can be deleted.</object>
+      </resource>
+      <resource name="StationsPairedNoDelete.Text">
+        <object>At least one of the selected stations is paired with another station and\nthese pairs need to be deleted before the selected stations can be deleted.</object>
+      </resource>
+      <resource name="StationPairedDeleteQuestion.Text">
+        <object>Pressing Yes will clear the station pairing for the selected station.</object>
+      </resource>
+      <resource name="StationsPairedDeleteQuestion.Text">
+        <object>Pressing Yes will clear the station pairing for the selected stations.</object>
+      </resource>
+      <resource name="StationBackupPresentNoDelete.Text">
+        <object>IRIS backups are present for the selected station.\nThese backups need to be deleted before the selected station can be deleted.</object>
+      </resource>
+      <resource name="StationsBackupPresentNoDelete.Text">
+        <object>IRIS backups are present for at least one of the selected stations.\nThese backups need to be deleted before the selected stations can be deleted.</object>
+      </resource>
+      <resource name="StationsBackupPresentDeleteQuestion.Text">
+        <object>Pressing Yes will delete all backups for the selected stations.</object>
+      </resource>
+      <resource name="StationBackupPresentDeleteQuestion.Text">
+        <object>Pressing Yes will delete all backups for the selected station.</object>
+      </resource>
+      <resource name="AreYouSure1.Text">
+        <object>Are you sure you want to delete the selected station?</object>
+      </resource>
+      <resource name="AreYouSure2.Text">
+        <object>Are you sure you want to delete the selected stations?</object>
+      </resource>
+      <resource name="StationNoDelete.Title">
+        <object>Remove station</object>
+      </resource>
+      <resource name="StationEQMChangeFailed.Text">
+        <object>The EQM device cannot be changed because the new one is located in another line then the station that is paired with this selected station.\nIn order to change the EQM device, remove the pair first.</object>
+      </resource>
+      <resource name="StationEQMChangeFailed.Title">
+        <object>Station EQM device change not possible</object>
+      </resource>
+      <resource name="pairTabPage.Text">
+        <object>IRIS Station Pairs</object>
+      </resource>
+      <resource name="categoriesTabPage.Text">
+        <object>Data Collection Categories</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>No remote connection to the server.</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Connection error</object>
+      </resource>
+      <resource name="MessageUnpair.Text">
+        <object>The station is part of a station pair and will be unpaired when saved, because the inspection side of the station changed.</object>
+      </resource>
+      <resource name="MessageUnpair.Caption">
+        <object>Warning</object>
+      </resource>
+    </type>
+    <type name="Grid.Vqm.System" ServiceOnly="false">
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="active">
+        <object>Active</object>
+      </resource>
+      <resource name="vqmsystem">
+        <object>System</object>
+      </resource>
+      <resource name="eqmdevice">
+        <object>EQM Device</object>
+      </resource>
+      <resource name="tapdevice Name">
+        <object>TAP Device</object>
+      </resource>
+      <resource name="tapdevice">
+        <object>TAP Device Code</object>
+      </resource>
+      <resource name="aqspcname">
+        <object>IRIS PC</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="checknumber">
+        <object>Checknumber</object>
+      </resource>
+      <resource name="inspection">
+        <object>Inspection side</object>
+      </resource>
+      <resource name="vetsystem">
+        <object>Veterinarian System</object>
+      </resource>
+      <resource name="name">
+        <object>IRIS Station name</object>
+      </resource>
+      <resource name="iriscleanup">
+        <object>IRIS clean time</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Profiles.ProfileImageControl" ServiceOnly="false">
+      <resource name="warningLabel.Text">
+        <object>Reference image is not configured</object>
+      </resource>
+      <resource name="MinSize">
+        <object>Minimum size for</object>
+      </resource>
+      <resource name="infoLabelThresholds.Text">
+        <object>Circles indicate the minimum size of a defect.</object>
+      </resource>
+      <resource name="lblActiveWarning.Text">
+        <object>Warning: this profile is in use</object>
+      </resource>
+      <resource name="lblActiveWarning.ToolTip">
+        <object>This profile is in use on at least one IRIS station and has to be resend in order to make changes active after they are saved</object>
+      </resource>
+      <resource name="NoiseThreshold">
+        <object>Threshold</object>
+      </resource>
+      <resource name="infoLabelBruises.Text">
+        <object>Circles indicate the minimum size of the total area of bruises with the same color.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Profiles.ProfileWholeManagement" ServiceOnly="false">
+      <resource name="lblWholeLimitsRemark.Text">
+        <object>These whole limits are not used on stations that are marked as veterinarian</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Profiles.ProfileBruiseManagement" ServiceOnly="false">
+      <resource name="tabCountLimits.Text">
+        <object>Count limits</object>
+      </resource>
+      <resource name="tabAreaLimits.Text">
+        <object>Area limits</object>
+      </resource>
+      <resource name="tabLimitUsage.Text">
+        <object>Usage</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Profiles.ThresholdAnatomicGroupControl" ServiceOnly="false">
+      <resource name="lblThreshold.Text">
+        <object>Min value</object>
+      </resource>
+      <resource name="NoThresholds">
+        <object>No limits for anatomic group</object>
+      </resource>
+      <resource name="lblInactive.Text">
+        <object>Inactive</object>
+      </resource>
+      <resource name="lblAddToEmptyReport.Text">
+        <object>Use when not graded</object>
+      </resource>
+      <resource name="lblAddToExistingReport.Text">
+        <object>Always use</object>
+      </resource>
+      <resource name="lblActive.Text">
+        <object>Active</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Profiles.WholeLimitAnatomicGroupControl" ServiceOnly="false">
+      <resource name="lblWholeLimit.Text">
+        <object>Limit</object>
+      </resource>
+      <resource name="SizeLabel.Text">
+        <object>Max size deviation</object>
+      </resource>
+      <resource name="RedLabel.Text">
+        <object>Max red deviation</object>
+      </resource>
+      <resource name="GreenLabel.Text">
+        <object>Max green deviation</object>
+      </resource>
+      <resource name="BlueLabel.Text">
+        <object>Max blue deviation</object>
+      </resource>
+      <resource name="IntensityLabel.Text">
+        <object>Max intensity deviation</object>
+      </resource>
+      <resource name="NoWholeLimits">
+        <object>No whole product limits for anatomic group</object>
+      </resource>
+      <resource name="lblInactive.Text">
+        <object>Inactive</object>
+      </resource>
+      <resource name="lblActive.Text">
+        <object>Active</object>
+      </resource>
+      <resource name="lblAddToEmptyReport.Text">
+        <object>Use when not graded</object>
+      </resource>
+      <resource name="lblAddToExistingReport.Text">
+        <object>Always use</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.Settings.TapSettings" ServiceOnly="false">
+      <resource name="colTapState.Caption">
+        <object>TAP</object>
+      </resource>
+      <resource name="colSendAt.Caption">
+        <object>Sent at</object>
+      </resource>
+      <resource name="lblIpAddress.Text">
+        <object>IP address</object>
+      </resource>
+      <resource name="lblPortNo.Text">
+        <object>Port no</object>
+      </resource>
+      <resource name="barBtnRefresh.Caption">
+        <object>Refresh</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Confirm</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Operations</object>
+      </resource>
+      <resource name="barBtnSend.Caption">
+        <object>Send</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Reload GUI Item</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Restore default layout</object>
+      </resource>
+      <resource name="Hint.NotInDevice">
+        <object>Settings not in TAP</object>
+      </resource>
+      <resource name="Hint.InDevice">
+        <object>Settings in TAP</object>
+      </resource>
+      <resource name="Hint.Different">
+        <object>Settings between TAP and Innova are different</object>
+      </resource>
+      <resource name="Hint.NoInfo">
+        <object>Can not get info</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Do you want to save data?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Save settings</object>
+      </resource>
+      <resource name="Send.Confirm">
+        <object>Do you want to send settings for currently selected device?</object>
+      </resource>
+      <resource name="Send.Title">
+        <object>Transmit settings</object>
+      </resource>
+      <resource name="Send.Failed">
+        <object>Failed to send settings</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>No remote connection to the server.</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Connection error</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Line</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Reloads all UI items</object>
+      </resource>
+      <resource name="Send.Failed.Caption">
+        <object>Send failed</object>
+      </resource>
+      <resource name="Send.Settings.Failed.Text">
+        <object>Failed to send settings. {0}</object>
+      </resource>
+      <resource name="Send.SaveConfirm">
+        <object>Do you want to save the data and\nsend settings for currently selected device?</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Device</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Error</object>
+      </resource>
+      <resource name="tabSettings.Text">
+        <object>Settings</object>
+      </resource>
+      <resource name="tabDetection.Text">
+        <object>Product detection</object>
+      </resource>
+      <resource name="grpCommunication.Text">
+        <object>IRIS communication</object>
+      </resource>
+      <resource name="grpClearProduct.Text">
+        <object>Clear product</object>
+      </resource>
+      <resource name="grpAddProduct.Text">
+        <object>Add product</object>
+      </resource>
+      <resource name="lblClearProdNoOfShackles.Text">
+        <object>Number of shackles after det/pp alarm comes up</object>
+      </resource>
+      <resource name="chkClearProdAllow.Text">
+        <object>Allow product clearing</object>
+      </resource>
+      <resource name="chkClearProdDisable.Text">
+        <object>Disable product clearing after alarm</object>
+      </resource>
+      <resource name="lblAddProdNoOfShackles.Text">
+        <object>Number of shackles after det/pp alarm comes up</object>
+      </resource>
+      <resource name="chkAddProdAllow.Text">
+        <object>Allow product assignment</object>
+      </resource>
+      <resource name="chkAddProdDisable.Text">
+        <object>Disable product assignment after an alarm</object>
+      </resource>
+      <resource name="lblAddProdWeight.Text">
+        <object>Weight</object>
+      </resource>
+      <resource name="lblAddProdQuality.Text">
+        <object>Quality</object>
+      </resource>
+      <resource name="lblAddProdArticle.Text">
+        <object>Article code</object>
+      </resource>
+      <resource name="barBtnRefresh.ToolTip">
+        <object>Refresh settings on this page</object>
+      </resource>
+      <resource name="barBtnConfirm.ToolTip">
+        <object>Save settings on this page in the Innova database</object>
+      </resource>
+      <resource name="barBtnSend.ToolTip">
+        <object>Send settings to TAP device</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>No remote connection to station</object>
+      </resource>
+      <resource name="Send.Failed.Text">
+        <object>Failed to send settings. Please check system log</object>
+      </resource>
+      <resource name="colStation.Caption">
+        <object>IRIS Station</object>
+      </resource>
+      <resource name="chkClearDetailEffect.Text">
+        <object>Clear previous AQS data</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.BaseDefinitions.TabBaseDefinitions" ServiceOnly="false">
+      <resource name="grpDefectDefinitions.Text">
+        <object>Defect Definition</object>
+      </resource>
+      <resource name="grpDefectType.Text">
+        <object>Defect Type</object>
+      </resource>
+      <resource name="drpDefectTypeSelect.Properties.NullText">
+        <object>Select defect type</object>
+      </resource>
+      <resource name="grpDefects.Text">
+        <object>Defects</object>
+      </resource>
+      <resource name="colVqmId.Caption">
+        <object>IRIS Id</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Name</object>
+      </resource>
+      <resource name="colShort.Caption">
+        <object>Short Name</object>
+      </resource>
+      <resource name="DefectType">
+        <object>Defect Type</object>
+      </resource>
+      <resource name="ShapeType">
+        <object>Shape Defects</object>
+      </resource>
+      <resource name="Color">
+        <object>Color Types</object>
+      </resource>
+      <resource name="AreaShape">
+        <object>Area Shape Defects</object>
+      </resource>
+      <resource name="ProcessInfo">
+        <object>Process Info Results</object>
+      </resource>
+      <resource name="NonShapeType">
+        <object>Non Shape Defects</object>
+      </resource>
+      <resource name="grpDefinitionType.Text">
+        <object>DefinitionType</object>
+      </resource>
+      <resource name="grpDefinitions.Text">
+        <object>Definitions</object>
+      </resource>
+      <resource name="lblFeatherDefect.Text">
+        <object>Feather Defect</object>
+      </resource>
+      <resource name="lblBruiseDefect.Text">
+        <object>Bruise Defect</object>
+      </resource>
+      <resource name="DefectLookupCaption.Name">
+        <object>Name</object>
+      </resource>
+      <resource name="DefectLookupCaption.Short name">
+        <object>Short name</object>
+      </resource>
+      <resource name="drpDefinitionTypeSelect.Text">
+        <object>Select definition property</object>
+      </resource>
+      <resource name="AnatomicPart">
+        <object>Anatomic Parts</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.BaseDefinitions.TabAnatomicSettings" ServiceOnly="false">
+      <resource name="colTapId.Caption">
+        <object>Tap Id</object>
+      </resource>
+      <resource name="colVqmPart.Caption">
+        <object>IRIS Part</object>
+      </resource>
+      <resource name="grpAnatomicGroups.Text">
+        <object>Anatomic Groups</object>
+      </resource>
+      <resource name="colAnatomicGroup.Caption">
+        <object>Group</object>
+      </resource>
+      <resource name="partLookup.Name">
+        <object>Name</object>
+      </resource>
+      <resource name="partLookup.Short name">
+        <object>Short Name</object>
+      </resource>
+      <resource name="grpAnatomicParts.Text">
+        <object>Anatomic Parts</object>
+      </resource>
+      <resource name="colPartName.Caption">
+        <object>Anatomic Part</object>
+      </resource>
+      <resource name="colPartNameOrg.Caption">
+        <object>Anatomic Part Original</object>
+      </resource>
+      <resource name="colAnatomicPart.Caption">
+        <object>Anatomic Part</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.BaseDefinitions.TabPdsntVqmRelations" ServiceOnly="false">
+      <resource name="grpNonShapeDefects.Text">
+        <object>Non Shape Defects</object>
+      </resource>
+      <resource name="colTapIDNonShapeDefects.Caption">
+        <object>Tap Id</object>
+      </resource>
+      <resource name="colNonShapeDefectDescription.Caption">
+        <object>Description</object>
+      </resource>
+      <resource name="colNonShapeDescription.Caption">
+        <object>Description Original</object>
+      </resource>
+      <resource name="colNonShapeDefQual.Caption">
+        <object>Quality</object>
+      </resource>
+      <resource name="colNonShapeVQMDefect.Caption">
+        <object>IRIS Defect</object>
+      </resource>
+      <resource name="grpShapeDefects.Text">
+        <object>Shape Defects</object>
+      </resource>
+      <resource name="colTapIDShapeDefects.Caption">
+        <object>Tap Id</object>
+      </resource>
+      <resource name="colShapeDefectDescription.Caption">
+        <object>Description</object>
+      </resource>
+      <resource name="colShapeDescription.Caption">
+        <object>Description Original</object>
+      </resource>
+      <resource name="colShapeDefQual.Caption">
+        <object>Quality</object>
+      </resource>
+      <resource name="colShapeVQMDefect.Caption">
+        <object>IRIS Defect</object>
+      </resource>
+      <resource name="grpProcessInfo.Text">
+        <object>Detection Results</object>
+      </resource>
+      <resource name="colVqmDetectionError.Caption">
+        <object>IRIS Detection Result</object>
+      </resource>
+      <resource name="colPdsDetectionError.Caption">
+        <object>Description</object>
+      </resource>
+      <resource name="colVqmDetectionError.ToolTip">
+        <object>The IRIS detection error definition</object>
+      </resource>
+      <resource name="colPdsDetectionError.ToolTip">
+        <object>The Pds detection error dsefinition</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.BaseDefinitions.TabVeterinarians" ServiceOnly="false">
+      <resource name="colEmployeeId.Caption">
+        <object>Employee</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Name</object>
+      </resource>
+      <resource name="colVetEmployeeId.Caption">
+        <object>Id</object>
+      </resource>
+      <resource name="colVetName.Caption">
+        <object>Name</object>
+      </resource>
+      <resource name="grpEmployees.Text">
+        <object>Employees</object>
+      </resource>
+      <resource name="grpVeterinarianEmployees.Text">
+        <object>Veterinarian Employees</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.BaseDefinitions.TabDefectPriorities" ServiceOnly="false">
+      <resource name="NoGroupSelected.Text">
+        <object>No anatomic group selected. Select a defect first</object>
+      </resource>
+      <resource name="ColumnTooltip">
+        <object>Set the priority for the anatomic group, where the first row has the highest priority and the last row the lowest priority</object>
+      </resource>
+      <resource name="PriorityLookupCaption.Description">
+        <object>Description</object>
+      </resource>
+      <resource name="ColumnPriority.Text">
+        <object>Priority</object>
+      </resource>
+      <resource name="ColumnDescription.Text">
+        <object>Description</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.LiveViewControl" ServiceOnly="false">
+      <resource name="grpAspSelection.Text">
+        <object>Quality decision point</object>
+      </resource>
+      <resource name="grpImageControl.Text">
+        <object>Live View</object>
+      </resource>
+      <resource name="grpError.Text">
+        <object>Message</object>
+      </resource>
+      <resource name="btnPrevious.Text">
+        <object>Previous</object>
+      </resource>
+      <resource name="btnStartStop.Text">
+        <object>Start</object>
+      </resource>
+      <resource name="btnNext.Text">
+        <object>Next</object>
+      </resource>
+      <resource name="Start">
+        <object>Start</object>
+      </resource>
+      <resource name="Stop">
+        <object>Stop</object>
+      </resource>
+      <resource name="Front">
+        <object>Front</object>
+      </resource>
+      <resource name="Back">
+        <object>Back</object>
+      </resource>
+      <resource name="ErrorMessageAspDevices">
+        <object>Error occurred while collecting ASP devices Exception: </object>
+      </resource>
+      <resource name="AspNameColumnHeader.Name">
+        <object>Name</object>
+      </resource>
+      <resource name="aspSelector.Properties.NullText">
+        <object>Select Asp</object>
+      </resource>
+      <resource name="ResultReportCreationErrorOccured">
+        <object>Error. See Log for more details</object>
+      </resource>
+      <resource name="MySqlConnectionError">
+        <object>Error. See log for more details</object>
+      </resource>
+      <resource name="MySqlReportRetrievalError">
+        <object>Error. See log for more details</object>
+      </resource>
+      <resource name="MySqlImageRetrievalError">
+        <object>Error. See log for more details</object>
+      </resource>
+      <resource name="MySqlPartDataRetrievalError">
+        <object>Error. See log for more details</object>
+      </resource>
+      <resource name="UpdateCacheFailure">
+        <object>Error. See log for more details</object>
+      </resource>
+      <resource name="DataCategorizationReportRetrievalFailure">
+        <object>Error. See log for more details</object>
+      </resource>
+      <resource name="DataCategorizationFailure">
+        <object>Error. See log for more details</object>
+      </resource>
+      <resource name="FrontAcronym">
+        <object>(F)</object>
+      </resource>
+      <resource name="BackAcronym">
+        <object>(B)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Common.ProductImageControl" ServiceOnly="false">
+      <resource name="Front">
+        <object>Front</object>
+      </resource>
+      <resource name="Back">
+        <object>Back</object>
+      </resource>
+      <resource name="FrontAcronym">
+        <object>(F)</object>
+      </resource>
+      <resource name="BackAcronym">
+        <object>(B)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Common.TapAnatomicPartControl" ServiceOnly="false">
+      <resource name="FrontAcronym">
+        <object>(F)</object>
+      </resource>
+      <resource name="BackAcronym">
+        <object>(B)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Common.AqsAnatomicPartControl" ServiceOnly="false">
+      <resource name="FrontAcronym">
+        <object>(F)</object>
+      </resource>
+      <resource name="BackAcronym">
+        <object>(B)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.Management.ManagementView" ServiceOnly="false">
+      <resource name="Send.Profile.No.Profile.Text">
+        <object>There is not a profile selected for IRIS station {0}</object>
+      </resource>
+      <resource name="Send.Failed.Caption">
+        <object>Send failed</object>
+      </resource>
+      <resource name="Send.Profile.Failed.Text">
+        <object>Failed to send profile. {0}</object>
+      </resource>
+      <resource name="btnRefresh.Caption">
+        <object>Refresh</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Operations</object>
+      </resource>
+      <resource name="btnConfirm.Caption">
+        <object>Confirm</object>
+      </resource>
+      <resource name="btnSend.Caption">
+        <object>Send profile</object>
+      </resource>
+      <resource name="tabProcessInfo.Text">
+        <object>Detection results</object>
+      </resource>
+      <resource name="tabLiveView.Text">
+        <object>Live view</object>
+      </resource>
+      <resource name="tabStatisticAnalysis.Text">
+        <object>Statistics</object>
+      </resource>
+      <resource name="colTapState.Caption">
+        <object>TAP</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Device</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Line</object>
+      </resource>
+      <resource name="colTapIrisConnection.Caption">
+        <object>TAP-IRIS</object>
+      </resource>
+      <resource name="colLineRunning.Caption">
+        <object>Line running</object>
+      </resource>
+      <resource name="colIrisState.Caption">
+        <object>IRIS</object>
+      </resource>
+      <resource name="colProfileState.Caption">
+        <object>Profile</object>
+      </resource>
+      <resource name="colProfile.Caption">
+        <object>Selection</object>
+      </resource>
+      <resource name="colSendAt.Caption">
+        <object>Sent at</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Error</object>
+      </resource>
+      <resource name="barBtnDesignMode.Caption">
+        <object>Design mode</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Reload GUI item</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Restore default layout</object>
+      </resource>
+      <resource name="HintProfile.NoInfo">
+        <object>Can not get info</object>
+      </resource>
+      <resource name="HintProfile.NotInDevice">
+        <object>Profile configuration not in TAP. Send Profile</object>
+      </resource>
+      <resource name="HintProfile.InDevice">
+        <object>Profile configuration in TAP</object>
+      </resource>
+      <resource name="HintProfile.Different">
+        <object>Profile configuration between TAP and Innova differs. Send profile</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Do you want to save data?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Save profile selection for station</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>No remote connection to the server.</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Connection error</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>No remote connection to station</object>
+      </resource>
+      <resource name="Send.Confirm">
+        <object>Do you want to send profile '{0}' to '{1}' ?</object>
+      </resource>
+      <resource name="Send.Profile">
+        <object>Transmit profile</object>
+      </resource>
+      <resource name="Send.Failed.Text">
+        <object>Failed to send profile. Please check system log.</object>
+      </resource>
+      <resource name="btnIrisDbCleanup.Caption">
+        <object>Cleanup IRIS database</object>
+      </resource>
+      <resource name="btnSetReferenceImage.Caption">
+        <object>Store reference image</object>
+      </resource>
+      <resource name="btnSetReferenceImage.Hint">
+        <object>Sets the current selected image as reference image in profile management</object>
+      </resource>
+      <resource name="Send.IrisCleanup">
+        <object>Successfully send the IRIS database cleanup message to TAP</object>
+      </resource>
+      <resource name="Send.Failed.IrisCleanup">
+        <object>Failed to send the IRIS database cleanup message to TAP</object>
+      </resource>
+      <resource name="Send.Successfully.Caption">
+        <object>Successfully send</object>
+      </resource>
+      <resource name="Send.FailedMessage.Caption">
+        <object>Failed to send</object>
+      </resource>
+      <resource name="ResultReportCreationErrorOccured">
+        <object>An exception occured while retrieving requested data. See Log for more details</object>
+      </resource>
+      <resource name="MySqlConnectionError">
+        <object>Creating a MySql network connection to IRIS {0} failed. See log for more details</object>
+      </resource>
+      <resource name="MySqlReportRetrievalError">
+        <object>Retrieving report data from IRIS {0} failed. See log for more details</object>
+      </resource>
+      <resource name="MySqlImageRetrievalError">
+        <object>Error occured while retrieving image data from IRIS {0}. See log for more details</object>
+      </resource>
+      <resource name="MySqlPartDataRetrievalError">
+        <object>Retrieving anatomic part data from IRIS {0} failed. See log for more details</object>
+      </resource>
+      <resource name="UpdateCacheFailure">
+        <object>Updating the cache with new data from IRIS {0} failed. See log for more details</object>
+      </resource>
+      <resource name="VqmStationNotPresent">
+        <object>IRIS Station not present in server application. Is the right license installed?</object>
+      </resource>
+      <resource name="DataCategorizationReportRetrievalFailure">
+        <object>Data categorization and registration failed due to an error in IRIS reports retrieval. See log for more details</object>
+      </resource>
+      <resource name="DataCategorizationFailure">
+        <object>Data categorization and registration failed. See log for more details</object>
+      </resource>
+      <resource name="IrisBackupFailed">
+        <object>IRIS backup failed. See log for more details.</object>
+      </resource>
+      <resource name="IrisRestoreFailed">
+        <object>Restoring the IRIS backup failed. See log for more details.</object>
+      </resource>
+      <resource name="colStation.Caption">
+        <object>IRIS Station</object>
+      </resource>
+      <resource name="colTapIrisConnection.ToolTip">
+        <object>Indicates the connection state between the TAP system and the IRIS controller</object>
+      </resource>
+      <resource name="colTapState.ToolTip">
+        <object>Indicates the connection state between the TAP system and Innova</object>
+      </resource>
+      <resource name="colIrisState.ToolTip">
+        <object>The IRIS grading state indication</object>
+      </resource>
+      <resource name="colProfileState.ToolTip">
+        <object>Indicates if the selected profile state is up to date in the IRIS controller</object>
+      </resource>
+      <resource name="btnSend.Hint">
+        <object>Send profile settings of the selected station to the station\'s TAP device</object>
+      </resource>
+      <resource name="btnRefresh.Hint">
+        <object>Read data for the whole form</object>
+      </resource>
+      <resource name="btnConfirm.Hint">
+        <object>Save edited values to database</object>
+      </resource>
+      <resource name="barSubOperations.Hint">
+        <object>More operations</object>
+      </resource>
+    </type>
+    <type name="VqmCommonDefinitions" ServiceOnly="false">
+      <resource name="Vqm.SettingsStatus.NoInfo">
+        <object>Can not get info</object>
+      </resource>
+      <resource name="Vqm.SettingsStatus.NotInDevice">
+        <object>Settings not in TAP. Send TAP settings</object>
+      </resource>
+      <resource name="Vqm.SettingsStatus.InDevice">
+        <object>Settings in TAP</object>
+      </resource>
+      <resource name="Vqm.SettingsStatus.Different.Reset">
+        <object>Settings between TAP and Innova are different. Reset TAP System</object>
+      </resource>
+      <resource name="Vqm.SettingsStatus.Different.Download">
+        <object>Settings between TAP and Innova are different. Send TAP settings</object>
+      </resource>
+      <resource name="Vqm.ConnectionStatus.Connected">
+        <object>Connected</object>
+      </resource>
+      <resource name="Vqm.ConnectionStatus.Unconnected">
+        <object>Unconnected</object>
+      </resource>
+      <resource name="Vqm.IrisStateHint.Grading">
+        <object>Grading</object>
+      </resource>
+      <resource name="Vqm.IrisStateHint.NotGrading">
+        <object>Not Grading</object>
+      </resource>
+      <resource name="Vqm.IrisStateHint.Unknown">
+        <object>Unknown</object>
+      </resource>
+    </type>
+    <type name="BaseDefinitions" ServiceOnly="false">
+      <resource name="Vqm.NonShapeDefect.Generic info">
+        <object>Generic info</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Undefined blob">
+        <object>Undefined blob</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Litter spot">
+        <object>Litter spot</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Epidermis">
+        <object>Epidermis</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Deskinning">
+        <object>Deskinning</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Remaining feathers">
+        <object>Remaining feathers</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Burn">
+        <object>Burn</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Gallstain">
+        <object>Gallstain</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Deskinned Breastpoint">
+        <object>Deskinned Breastpoint</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Red tail">
+        <object>Red tail</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Any">
+        <object>Any</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Thigh left">
+        <object>Thigh left frontside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Thigh right">
+        <object>Thigh right frontside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Breast">
+        <object>Breast</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Wing left">
+        <object>Wing left frontside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Wing right">
+        <object>Wing right frontside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Whole">
+        <object>Whole product frontside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Tail">
+        <object>Tail</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Neck">
+        <object>Neck</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Whole">
+        <object>Whole product backside</object>
+      </resource>
+      <resource name="Vqm.ShapeDefect.Any">
+        <object>Any</object>
+      </resource>
+      <resource name="Vqm.ShapeDefect.Ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="Vqm.ShapeDefect.Broken tip">
+        <object>Broken tip</object>
+      </resource>
+      <resource name="Vqm.ShapeDefect.Broken with remaining bone">
+        <object>Broken with remaining bone</object>
+      </resource>
+      <resource name="Vqm.ShapeDefect.Broken without remaining bone">
+        <object>Broken without remaining bone</object>
+      </resource>
+      <resource name="Vqm.ShapeDefect.Missing">
+        <object>Missing</object>
+      </resource>
+      <resource name="Vqm.WholeDefect.Ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="Vqm.WholeDefect.Size">
+        <object>Size</object>
+      </resource>
+      <resource name="Vqm.WholeDefect.Intensity">
+        <object>Intensity</object>
+      </resource>
+      <resource name="Vqm.WholeDefect.Green">
+        <object>Green</object>
+      </resource>
+      <resource name="Vqm.WholeDefect.Red">
+        <object>Red</object>
+      </resource>
+      <resource name="Vqm.WholeDefect.Blue">
+        <object>Blue</object>
+      </resource>
+      <resource name="Vqm.Colors.Any">
+        <object>Any</object>
+      </resource>
+      <resource name="Vqm.Colors.Red">
+        <object>Red</object>
+      </resource>
+      <resource name="Vqm.Colors.Blue">
+        <object>Blue</object>
+      </resource>
+      <resource name="Vqm.Colors.Purple">
+        <object>Purple</object>
+      </resource>
+      <resource name="Vqm.AreaShape.Any">
+        <object>Any</object>
+      </resource>
+      <resource name="Vqm.AreaShape.Spot">
+        <object>Spot</object>
+      </resource>
+      <resource name="Pds.ProcessInfo.Flock0">
+        <object>No images available for products in flock 0</object>
+      </resource>
+      <resource name="Vqm.ProcessInfo.Graded normally">
+        <object>Graded normally</object>
+      </resource>
+      <resource name="Vqm.ProcessInfo.No Result">
+        <object>No Result</object>
+      </resource>
+      <resource name="Vqm.ProcessInfo.Crash">
+        <object>Crash</object>
+      </resource>
+      <resource name="Vqm.ProcessInfo.Empty shackle">
+        <object>Empty shackle</object>
+      </resource>
+      <resource name="Vqm.ProcessInfo.One leg">
+        <object>One leg</object>
+      </resource>
+      <resource name="Vqm.ProcessInfo.Anatomic problem">
+        <object>Anatomic problem</object>
+      </resource>
+      <resource name="Vqm.ProcessInfo.1 Leg Detected">
+        <object>1 Leg Detected</object>
+      </resource>
+      <resource name="Vqm.ProcessInfo.View error">
+        <object>View error</object>
+      </resource>
+      <resource name="Vqm.ProcessInfo.Anatomic error">
+        <object>Anatomic error</object>
+      </resource>
+      <resource name="Pds.ProcessInfo.No Report">
+        <object>No Report</object>
+      </resource>
+      <resource name="Pds.ProcessInfo.Service">
+        <object>Service</object>
+      </resource>
+      <resource name="Pds.ProcessInfo.Empty shackle">
+        <object>Empty shackle</object>
+      </resource>
+      <resource name="Pds.ProcessInfo.Detection (1 Leg Detected)">
+        <object>Detection (1 Leg Detected)</object>
+      </resource>
+      <resource name="Pds.ProcessInfo.Detected">
+        <object>Detected</object>
+      </resource>
+      <resource name="Pds.ProcessInfo.Detection (View problem)">
+        <object>Detection (View problem)</object>
+      </resource>
+      <resource name="Pds.ProcessInfo.Detection (Anatomic problem)">
+        <object>Detection (Anatomic problem)</object>
+      </resource>
+      <resource name="Pds.ProcessInfo.Graded normally">
+        <object>Graded normally</object>
+      </resource>
+      <resource name="Pds.AnatomicGroups.Wings">
+        <object>Wings</object>
+      </resource>
+      <resource name="Pds.AnatomicGroups.Thighs">
+        <object>Thighs</object>
+      </resource>
+      <resource name="Pds.AnatomicGroups.Breast">
+        <object>Breast/Back</object>
+      </resource>
+      <resource name="Pds.AnatomicGroups.Whole">
+        <object>Whole</object>
+      </resource>
+      <resource name="Pds.WingRight">
+        <object>Right wing</object>
+      </resource>
+      <resource name="Pds.WingLeft">
+        <object>Left wing</object>
+      </resource>
+      <resource name="Pds.WingPartsRight">
+        <object>Right wing parts</object>
+      </resource>
+      <resource name="Pds.WingPartsLeft">
+        <object>Left wing parts</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Bruise">
+        <object>Bruise</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Scratch">
+        <object>Scratch</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Drum left">
+        <object>Drum left frontside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Drum right">
+        <object>Drum right frontside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS First joint left">
+        <object>First joint left frontside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS First joint right">
+        <object>First joint right frontside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Second joint left">
+        <object>Second joint left frontside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Second joint right">
+        <object>Second joint right frontside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Tip left">
+        <object>Tip left frontside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Tip right">
+        <object>Tip right frontside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS First joint left">
+        <object>First joint left backside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS First joint right">
+        <object>First joint right backside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Second joint left">
+        <object>Second joint left backside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Second joint right">
+        <object>Second joint right backside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Tip left">
+        <object>Tip left backside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Tip right">
+        <object>Tip right backside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Drum left">
+        <object>Drum left backside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Drum right">
+        <object>Drum right backside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Thigh left">
+        <object>Thigh left backside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Thigh right">
+        <object>Thigh right backside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Back">
+        <object>Back</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Wing left">
+        <object>Wing left backside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Wing right">
+        <object>Wing right backside</object>
+      </resource>
+      <resource name="Vqm.AreaShape.Scratch">
+        <object>Scratch</object>
+      </resource>
+      <resource name="Pds.AnatomicGroups.Wing parts">
+        <object>Wing parts</object>
+      </resource>
+      <resource name="Pds.AnatomicGroups.Drums">
+        <object>Drums</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Red bruise large">
+        <object>Red bruise large</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Red bruise small">
+        <object>Red bruise small</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Blue bruise small">
+        <object>Blue bruise small</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Blue bruise large">
+        <object>Blue bruise large</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Feathers">
+        <object>Feathers</object>
+      </resource>
+      <resource name="Vqm.NonShapeDefect.Many feathers">
+        <object>Many feathers</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Breast left">
+        <object>Breast left</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.FS Breast right">
+        <object>Breast right</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Breast left">
+        <object>Breast left backside</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.BS Breast right">
+        <object>Breast right backside</object>
+      </resource>
+      <resource name="Vqm.ShapeDefect.Has tip">
+        <object>Has tip</object>
+      </resource>
+      <resource name="Vqm.ShapeDefect.Remaining bone">
+        <object>Remaining bone</object>
+      </resource>
+      <resource name="Color defect">
+        <object>Color defect</object>
+      </resource>
+      <resource name="Shape defect">
+        <object>Shape defect</object>
+      </resource>
+      <resource name="Other">
+        <object>Other</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Thigh left">
+        <object>Thigh left</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Thigh right">
+        <object>Thigh right</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Breast">
+        <object>Breast</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Wing left">
+        <object>Wing left</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Wing right">
+        <object>Wing right</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Whole">
+        <object>Whole product</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Drum left">
+        <object>Drum left</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Drum right">
+        <object>Drum right</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.First joint right">
+        <object>First joint right</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Second joint left">
+        <object>Second joint left</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Second joint right">
+        <object>Second joint right</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Tip left">
+        <object>Tip left</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.Tip right">
+        <object>Tip right</object>
+      </resource>
+      <resource name="Vqm.AnatomicParts.First joint left">
+        <object>First joint left</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.StatisticAnalysis.DecisionView" ServiceOnly="false">
+      <resource name="FilterName.All results">
+        <object>All results</object>
+      </resource>
+      <resource name="FilterName.No defects">
+        <object>No defects</object>
+      </resource>
+      <resource name="FilterName.All defects">
+        <object>All defects</object>
+      </resource>
+      <resource name="FilterName.Non shape defects">
+        <object>Non shape defects</object>
+      </resource>
+      <resource name="FilterName.Shape defects">
+        <object>Shape defects</object>
+      </resource>
+      <resource name="FilterName.Detection errors">
+        <object>Detection errors</object>
+      </resource>
+      <resource name="FilterName.Undefined blobs">
+        <object>Undefined blobs</object>
+      </resource>
+      <resource name="FilterName.Litter spots">
+        <object>Litter spots</object>
+      </resource>
+      <resource name="FilterName.Epidermus defects">
+        <object>Epidermus defects</object>
+      </resource>
+      <resource name="FilterName.Deskinning">
+        <object>Deskinning</object>
+      </resource>
+      <resource name="FilterName.Remaining feathers">
+        <object>Remaining feathers</object>
+      </resource>
+      <resource name="FilterName.Burns">
+        <object>Burns</object>
+      </resource>
+      <resource name="FilterName.Gallstains">
+        <object>Gallstains</object>
+      </resource>
+      <resource name="FilterName.Deskinned Breastpoints">
+        <object>Deskinned Breastpoints</object>
+      </resource>
+      <resource name="FilterName.Broken tips">
+        <object>Broken tips</object>
+      </resource>
+      <resource name="FilterName.Broken with remaining bone">
+        <object>Broken with remaining bone</object>
+      </resource>
+      <resource name="FilterName.Broken without remaining bone">
+        <object>Broken without remaining bone</object>
+      </resource>
+      <resource name="FilterName.Missing">
+        <object>Missing</object>
+      </resource>
+      <resource name="FilterName.Breast defects">
+        <object>Breast defects</object>
+      </resource>
+      <resource name="FilterName.Back defects">
+        <object>Back defects</object>
+      </resource>
+      <resource name="FilterName.Wing left defects">
+        <object>Wing left defects</object>
+      </resource>
+      <resource name="FilterName.Wing right defects">
+        <object>Wing right defects</object>
+      </resource>
+      <resource name="FilterName.Red tail defects">
+        <object>Red tail defects</object>
+      </resource>
+      <resource name="grpFilter.Text">
+        <object>Filter</object>
+      </resource>
+      <resource name="lblFilterSelection.Text">
+        <object>Filter:</object>
+      </resource>
+      <resource name="grpAqs.Text">
+        <object>IRIS Report</object>
+      </resource>
+      <resource name="grpTap.Text">
+        <object>ASP Report</object>
+      </resource>
+      <resource name="radioUseQualityResults.Text">
+        <object>Use trend reports</object>
+      </resource>
+      <resource name="radioUseFavorites.Text">
+        <object>Use favorite reports</object>
+      </resource>
+      <resource name="btnFirst.Text">
+        <object>First</object>
+      </resource>
+      <resource name="btnPrev.Text">
+        <object>Previous</object>
+      </resource>
+      <resource name="btnNext.Text">
+        <object>Next</object>
+      </resource>
+      <resource name="btnLast.Text">
+        <object>Last</object>
+      </resource>
+      <resource name="btnFirst.ToolTip">
+        <object>Show first report</object>
+      </resource>
+      <resource name="btnPrev.ToolTip">
+        <object>Show previous report</object>
+      </resource>
+      <resource name="btnNext.ToolTip">
+        <object>Show next report</object>
+      </resource>
+      <resource name="btnLast.ToolTip">
+        <object>Show last report</object>
+      </resource>
+      <resource name="btnUnfavorite.ToolTip">
+        <object>Remove product report and image from favorites</object>
+      </resource>
+      <resource name="btnFavorite.ToolTip">
+        <object>Add product report and image to favorites</object>
+      </resource>
+      <resource name="btnSplit.ToolTip">
+        <object>Show 2 x 2 image view</object>
+      </resource>
+      <resource name="btnOne.ToolTip">
+        <object>Show single image</object>
+      </resource>
+      <resource name="grpImages.Text">
+        <object>Image No : </object>
+      </resource>
+      <resource name="RefImageSaveFailed.Text">
+        <object>Failed to save the reference image</object>
+      </resource>
+      <resource name="RefImageSaveFailed.Title">
+        <object>Save failed</object>
+      </resource>
+      <resource name="RefImageSaveNotPossible.Text">
+        <object>The reference image can not be saved, because no image for selected station is shown in the decision view.</object>
+      </resource>
+      <resource name="RefImagesSaveNotPossible.Text">
+        <object>The reference images can not be saved, because the images from combined station are not all shown in the decision view.</object>
+      </resource>
+      <resource name="RefImageSaveNoPossibleForFav.Text">
+        <object>Favorites can not be saved as reference. Part location reports are not available for favorites.</object>
+      </resource>
+      <resource name="RefImageSaveNotPossible.Title">
+        <object>Save not possible</object>
+      </resource>
+      <resource name="RefImageSaveSucceeded.Text">
+        <object>Successfully saved the reference image</object>
+      </resource>
+      <resource name="RefImageSaveSucceeded.Title">
+        <object>Succeeded</object>
+      </resource>
+      <resource name="radioShowAqsDefects.Text">
+        <object>Show IRIS defects</object>
+      </resource>
+      <resource name="radioShowTapDefects.Text">
+        <object>Show ASP defects</object>
+      </resource>
+      <resource name="RedColorDeviation">
+        <object>Red deviation: {0}</object>
+      </resource>
+      <resource name="GreenColorDeviation">
+        <object>Green deviation: {0}</object>
+      </resource>
+      <resource name="BlueColorDeviation">
+        <object>Blue deviation: {0}</object>
+      </resource>
+      <resource name="IntensityDeviation">
+        <object>Intensity: {0}%</object>
+      </resource>
+      <resource name="SizeDeviation">
+        <object>Size: {0}%</object>
+      </resource>
+      <resource name="ImageSuccesfullySaved">
+        <object>Image was saved succesfully</object>
+      </resource>
+      <resource name="FailedExport">
+        <object>Failed to save image :</object>
+      </resource>
+      <resource name="FailedExportNoFrontBack">
+        <object>No frontside and backside image could be found</object>
+      </resource>
+      <resource name="FailedExportNoBack">
+        <object>No backside image could be found</object>
+      </resource>
+      <resource name="FailedExportNoFront">
+        <object>No frontside image could be found</object>
+      </resource>
+      <resource name="FilterName.Bruises">
+        <object>Bruises</object>
+      </resource>
+      <resource name="FilterName.Red Bruises">
+        <object>Red Bruises</object>
+      </resource>
+      <resource name="FilterName.Blue Bruises">
+        <object>Blue Bruises</object>
+      </resource>
+      <resource name="FilterName.Scratches">
+        <object>Scratches</object>
+      </resource>
+      <resource name="FilterName.Drum left defects">
+        <object>Drum left defects</object>
+      </resource>
+      <resource name="FilterName.Drum right defects">
+        <object>Drum right defects</object>
+      </resource>
+      <resource name="FilterName.Thigh left defects">
+        <object>Thigh left defects</object>
+      </resource>
+      <resource name="FilterName.Thigh right defects">
+        <object>Thigh right defects</object>
+      </resource>
+      <resource name="FilterName.Red tip defects">
+        <object>Red tip defects</object>
+      </resource>
+      <resource name="FilterName.No whole defects">
+        <object>No whole defects</object>
+      </resource>
+      <resource name="FilterName.No shape defects">
+        <object>No shape defects</object>
+      </resource>
+      <resource name="FilterName.No non shape defects">
+        <object>No non shape defects</object>
+      </resource>
+      <resource name="FilterName.Drum defects">
+        <object>Drum defects</object>
+      </resource>
+      <resource name="FilterName.Thigh defects">
+        <object>Thigh defects</object>
+      </resource>
+      <resource name="FilterName.Torso defects">
+        <object>Torso defects</object>
+      </resource>
+      <resource name="FilterName.Wing defects">
+        <object>Wing defects</object>
+      </resource>
+      <resource name="FilterName.Wing left 1st joint defects">
+        <object>Wing left 1st joint defects</object>
+      </resource>
+      <resource name="FilterName.Wing right 1st joint defects">
+        <object>Wing right 1st joint defects</object>
+      </resource>
+      <resource name="FilterName.Wing left 2nd joint defects">
+        <object>Wing left 2nd joint defects</object>
+      </resource>
+      <resource name="FilterName.Wing right 2nd joint defects">
+        <object>Wing right 2nd joint defects</object>
+      </resource>
+      <resource name="FilterName.Wing left tip defects">
+        <object>Wing left tip defects</object>
+      </resource>
+      <resource name="FilterName.Wing right tip defects">
+        <object>Wing right tip defects</object>
+      </resource>
+      <resource name="FilterName.Size defects">
+        <object>Size defects (Whole product)</object>
+      </resource>
+      <resource name="FilterName.Intensity defects">
+        <object>Intensity defects (Whole product)</object>
+      </resource>
+      <resource name="FilterName.Red defects">
+        <object>Red defects (Whole product)</object>
+      </resource>
+      <resource name="FilterName.Green defects">
+        <object>Green defects (Whole product)</object>
+      </resource>
+      <resource name="FilterName.Blue defects">
+        <object>Blue defects (Whole product)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.StandAlone.StandAlone" ServiceOnly="false">
+      <resource name="barSubItem1.Caption">
+        <object>Operations</object>
+      </resource>
+      <resource name="btnCreateDefaults.Caption">
+        <object>Create Defaults</object>
+      </resource>
+      <resource name="btnDelete.Caption">
+        <object>Delete</object>
+      </resource>
+      <resource name="btnMoveUp.Caption">
+        <object>Move up</object>
+      </resource>
+      <resource name="btnMoveDown.Caption">
+        <object>Move down</object>
+      </resource>
+      <resource name="tabPageTrajects.Text">
+        <object>Trajects</object>
+      </resource>
+      <resource name="tabPageVeterinarians.Text">
+        <object>Veterinarian Employees</object>
+      </resource>
+      <resource name="tabPageNonShapeDefects.Text">
+        <object>Non Shape Defects</object>
+      </resource>
+      <resource name="tabPageShapeDefects.Text">
+        <object>Shape Defects</object>
+      </resource>
+      <resource name="tabPageDefectPriority.Text">
+        <object>Defect Priority</object>
+      </resource>
+      <resource name="ClearToDefaultsPostMessage">
+        <object>Remember to execute actions described below\n\n- Assign ASP's handling AQS qualities (tab 'Trajects')\n- Reassign qualities for each ASP handling AQS qualities (in PDS-NT Recipe manager)\n- Reset TAP system. (Only necessary when AQS devices were present in the equipment configuration).\n- Restart Innova IRIS server program(s).\n- Redefine all data collection categories in the system setup.</object>
+      </resource>
+      <resource name="PDSNTDefinitionsDeletedProgress">
+        <object>Please wait while definitions are deleted in PDSNT database</object>
+      </resource>
+      <resource name="InnovaDefinitionsDeletedProgress">
+        <object>Please wait while definitions are deleted in Innova database</object>
+      </resource>
+      <resource name="DefaultCreationProgress">
+        <object>Please wait while default definitions are created</object>
+      </resource>
+      <resource name="CategoryDeletedProgress">
+        <object>Please wait while data collection categories are deleted</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Standalone.TabTrajects" ServiceOnly="false">
+      <resource name="grpTraject.Text">
+        <object>Trajects</object>
+      </resource>
+      <resource name="columnLine.Caption">
+        <object>Line</object>
+      </resource>
+      <resource name="columnAsp.Caption">
+        <object>ASP</object>
+      </resource>
+      <resource name="columnGroups.Caption">
+        <object>Groups</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Standalone.TabNonShapeDefects" ServiceOnly="false">
+      <resource name="grpTotal.Text">
+        <object>Total</object>
+      </resource>
+      <resource name="grpDefects.Text">
+        <object>Non Shape Defects</object>
+      </resource>
+      <resource name="grpWhole.Text">
+        <object>Whole defects</object>
+      </resource>
+      <resource name="grpDetection.Text">
+        <object>Detection defects</object>
+      </resource>
+      <resource name="grpBruises.Text">
+        <object>Bruises</object>
+      </resource>
+      <resource name="grpFeathers.Text">
+        <object>Feathers</object>
+      </resource>
+      <resource name="columnNonShapeDefectName.Caption">
+        <object>Defect</object>
+      </resource>
+      <resource name="colNonShapeDefectQuality.Caption">
+        <object>Quality</object>
+      </resource>
+      <resource name="colWholeDefectName.Caption">
+        <object>Defect</object>
+      </resource>
+      <resource name="colWholeDefectQuality.Caption">
+        <object>Quality</object>
+      </resource>
+      <resource name="colBruiseColor.Caption">
+        <object>Color</object>
+      </resource>
+      <resource name="colBruiseQua.Caption">
+        <object>Quality</object>
+      </resource>
+      <resource name="colFeatherName.Caption">
+        <object>Feather</object>
+      </resource>
+      <resource name="colFeatherQua.Caption">
+        <object>Quality</object>
+      </resource>
+      <resource name="lblNrOfDefects.Text">
+        <object>Non Shape Defects</object>
+      </resource>
+      <resource name="lblTapResetRequired.Text">
+        <object>Changes on this page require a TAP reset</object>
+      </resource>
+      <resource name="InvalidName">
+        <object>Invalid Name</object>
+      </resource>
+      <resource name="InvalidColor">
+        <object>Invalid Color</object>
+      </resource>
+      <resource name="MaxNoOfDefectsReached">
+        <object>Maximum number of defects has been reached</object>
+      </resource>
+      <resource name="MoveNotPossibleCaption">
+        <object>Move not possible</object>
+      </resource>
+      <resource name="ItemNotReadyForMoveText">
+        <object>The new definition must be completed before it can be moved.</object>
+      </resource>
+      <resource name="ItemNotReadyForMoveCaption">
+        <object>Item not ready</object>
+      </resource>
+      <resource name="DeleteNotPossibleCaption">
+        <object>Delete not possible</object>
+      </resource>
+      <resource name="colDetectionDefectName.Caption">
+        <object>Defect</object>
+      </resource>
+      <resource name="colDetectionDefectQuality.Caption">
+        <object>Quality</object>
+      </resource>
+      <resource name="columnUseNonShapeDefect.Caption">
+        <object>Active</object>
+      </resource>
+      <resource name="colUseWholeDefect.Caption">
+        <object>Active</object>
+      </resource>
+      <resource name="colBruiseName.Caption">
+        <object>Bruise</object>
+      </resource>
+      <resource name="MoveNotPossibleText">
+        <object>Only bruise and feather definitions can be moved.</object>
+      </resource>
+      <resource name="DeleteNotPossibleText">
+        <object>Only bruise and feather definitions can be deleted.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Standalone.TabShapeDefects" ServiceOnly="false">
+      <resource name="grpTotal.Name">
+        <object>Total</object>
+      </resource>
+      <resource name="grpDefects.Name">
+        <object>Shape Defects</object>
+      </resource>
+      <resource name="columnUse.Caption">
+        <object>Use</object>
+      </resource>
+      <resource name="columnDefect.Caption">
+        <object>Defect</object>
+      </resource>
+      <resource name="columnQua.Caption">
+        <object>Quality</object>
+      </resource>
+      <resource name="lblNrOfDefects.Text">
+        <object>Shape Defects</object>
+      </resource>
+      <resource name="lblTapResetRequired.Text">
+        <object>Changes on this page require a TAP reset</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.StandAlone.CreateDefaultsForm" ServiceOnly="false">
+      <resource name="btnAccept.Text">
+        <object>Accept</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="chkAgree.Properties.Caption">
+        <object>I have read and agree with these actions.</object>
+      </resource>
+      <resource name="lblDefaultsFile.Text">
+        <object>Defaults File :</object>
+      </resource>
+      <resource name="lblWarning.Text">
+        <object>This action will delete all current related AQS definitions in the PDSNT database. This includes all AQS definitions, AQS devices and all registered AQS production data.\n\nThis action will delete all current related Iris definitions in the Innova database. This includes all Iris definitions and profiles.\n\nBefore this action you should:\n- Close all running PDSNT applications.\n\nAfter this action you will need to:\n- Assign ASP's handling AQS qualities (tab 'Trajects')\n- Reassign qualities for each ASP handling AQS qualities (in PDS-NT Recipe manager)\n- Reset TAP system. (Only necessary when AQS devices were present in the equipment configuration).\n- Restart Innova IRIS server program(s).\n- Redefine all data collection categories in the system setup.\n</object>
+      </resource>
+      <resource name="Text">
+        <object>Create defaults</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.BaseDefinitions.BaseDefinitions" ServiceOnly="false">
+      <resource name="VQMRelationError">
+        <object>The following IRIS defect(s) do not have a related PDSNT defect:\n{0}</object>
+      </resource>
+      <resource name="btnDelete.Caption">
+        <object>Delete</object>
+      </resource>
+      <resource name="btnMoveUp.Caption">
+        <object>Move up</object>
+      </resource>
+      <resource name="btnMoveDown.Caption">
+        <object>Move down</object>
+      </resource>
+      <resource name="tabBaseDefinitions.Text">
+        <object>Base Definitions</object>
+      </resource>
+      <resource name="tabAnatomicParts.Text">
+        <object>Anatomic Settings</object>
+      </resource>
+      <resource name="tabPdsntAqsngRelations.Text">
+        <object>Pdsnt - IRIS Relations</object>
+      </resource>
+      <resource name="tabDefectPriority.Text">
+        <object>Defect Priority</object>
+      </resource>
+      <resource name="tabVeterinarians.Text">
+        <object>Veterinarian Employees</object>
+      </resource>
+      <resource name="CheckRelation">
+        <object>Relation Warning</object>
+      </resource>
+      <resource name="tabBruiseAndFeather.Text">
+        <object>Bruises and Feathers</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Profiles.NewProfileForm" ServiceOnly="false">
+      <resource name="Text">
+        <object>New profile</object>
+      </resource>
+      <resource name="lblProfileName.Text">
+        <object>Name:</object>
+      </resource>
+      <resource name="btnAdd.Text">
+        <object>Add</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Cancel</object>
+      </resource>
+      <resource name="optionProfileValues.Description">
+        <object>Use existing profile limit values:</object>
+      </resource>
+      <resource name="optionSuggestedValues.Description">
+        <object>Use Marel suggested limit values</object>
+      </resource>
+      <resource name="lblOptions.Text">
+        <object>Value options:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.Management.ProfileManagementView2" ServiceOnly="false">
+      <resource name="barBtnRefresh.Caption">
+        <object>Refresh</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Confirm</object>
+      </resource>
+      <resource name="barBtnNew.Caption">
+        <object>New</object>
+      </resource>
+      <resource name="barBtnDelete.Caption">
+        <object>Delete</object>
+      </resource>
+      <resource name="barMenuShow.Caption">
+        <object>Show</object>
+      </resource>
+      <resource name="barShowFrontSide.Caption">
+        <object>Frontside</object>
+      </resource>
+      <resource name="barShowBackSide.Caption">
+        <object>Backside</object>
+      </resource>
+      <resource name="SaveChanges">
+        <object>Do you want to save the changes in the profile configuration?</object>
+      </resource>
+      <resource name="SelectedProfileChanged">
+        <object>Profile selection changed</object>
+      </resource>
+      <resource name="tabPageThresholds.Text">
+        <object>Other limits</object>
+      </resource>
+      <resource name="tabPageFeatherLimits.Text">
+        <object>Feather limits</object>
+      </resource>
+      <resource name="tabPageThresholds.ToolTip">
+        <object>Limit values of various defects for the selected profile</object>
+      </resource>
+      <resource name="tabPageFeatherLimits.ToolTip">
+        <object>Feather limit values for the selected profile</object>
+      </resource>
+      <resource name="tabPageBruiseLimits.Text">
+        <object>Bruise limits</object>
+      </resource>
+      <resource name="tabPageBruiseLimits.ToolTip">
+        <object>Bruise limit for the selected profile</object>
+      </resource>
+      <resource name="tabPageWholeLimits.Text">
+        <object>Whole limits</object>
+      </resource>
+      <resource name="tabPageShapeLimits.Text">
+        <object>Shapes</object>
+      </resource>
+      <resource name="tabPageWholeLimits.ToolTip">
+        <object>Limit values of whole product defects for the selected profile</object>
+      </resource>
+      <resource name="tabPageShapeLimits.ToolTip">
+        <object>Limit values of shape defects for the selected profile</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.BaseDefinitions.TabBruisesAndFeathers" ServiceOnly="false">
+      <resource name="grpFeather.Text">
+        <object>Feathers</object>
+      </resource>
+      <resource name="columnColor.Caption">
+        <object>IRIS color</object>
+      </resource>
+      <resource name="ColorLookupCaption.Name">
+        <object>Name</object>
+      </resource>
+      <resource name="grpBruise.Text">
+        <object>Bruises</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Common.StatisticalPieChart" ServiceOnly="false">
+      <resource name="Lot">
+        <object>Lot</object>
+      </resource>
+      <resource name="Flock">
+        <object>Flock</object>
+      </resource>
+      <resource name="QualityValue.Rest">
+        <object>Rest</object>
+      </resource>
+      <resource name="QualityValue.A">
+        <object>A</object>
+      </resource>
+      <resource name="QualityValue.B">
+        <object>B</object>
+      </resource>
+      <resource name="QualityValue.C">
+        <object>C</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.ProcessInfo.ProcessInfoPieChart" ServiceOnly="false">
+      <resource name="Lot">
+        <object>Lot</object>
+      </resource>
+      <resource name="Flock">
+        <object>Flock</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Profiles.ProfileManagementUC" ServiceOnly="false">
+      <resource name="SaveProfilesQuestion">
+        <object>Do you want to save the changes made in the previous selected profile? \nSelecting "no" will reset the changes made!</object>
+      </resource>
+      <resource name="SaveProfileCaption">
+        <object>Save changes?</object>
+      </resource>
+      <resource name="NoSelectedProfileNameText">
+        <object>The name of the current selected profile should be filled in and should by unique.</object>
+      </resource>
+      <resource name="NoProfileNameCaption">
+        <object>No profile name</object>
+      </resource>
+      <resource name="ResendProfileWarningText">
+        <object>Please send changed profiles to the TAP system(s) in order to make the changes active.</object>
+      </resource>
+      <resource name="SaveChangesInProfilesCaption">
+        <object>Profile(s) changed</object>
+      </resource>
+      <resource name="FailureSavingProfileLimitsCaption">
+        <object>A error occured while saving the profile limits</object>
+      </resource>
+      <resource name="groupControlProfile.Text">
+        <object>Profiles</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Name</object>
+      </resource>
+      <resource name="colActive.Caption">
+        <object>State</object>
+      </resource>
+      <resource name="colActive.ToolTip">
+        <object>Combined state of the profile in all stations that are configured with it.</object>
+      </resource>
+      <resource name="colDescription.Caption">
+        <object>Description</object>
+      </resource>
+      <resource name="NoValidProfileNameText">
+        <object>The name of the current selected profile should be filled in and unique.</object>
+      </resource>
+      <resource name="NoValidProfileNameCaption">
+        <object>Invalid profile name</object>
+      </resource>
+      <resource name="DuplicateProfileNameText">
+        <object>Failed to update the name of the profile. The new name is already in use.</object>
+      </resource>
+      <resource name="DuplicateProfileNameCaption">
+        <object>Duplicate profile name</object>
+      </resource>
+      <resource name="RemoveProfileQuestion">
+        <object>Are you sure you want to remove the selected profile?</object>
+      </resource>
+      <resource name="RemoveProfileCaption">
+        <object>Remove profile</object>
+      </resource>
+      <resource name="DeleteProfileErrorText">
+        <object>Active profiles can not be deleted.</object>
+      </resource>
+      <resource name="DeleteProfileErrorCaption">
+        <object>Delete profile error</object>
+      </resource>
+      <resource name="DeleteRegistrationProfileErrorText">
+        <object>Registration profile can not be deleted.</object>
+      </resource>
+      <resource name="SendInactiveProfileErrorText">
+        <object>Inactive profiles can not be send</object>
+      </resource>
+      <resource name="SendInactiveProfileErrorCaption">
+        <object>Send not possible</object>
+      </resource>
+      <resource name="SendProfileQuestionText">
+        <object>Are you sure you want to send the selected profile to all stations that are using it?</object>
+      </resource>
+      <resource name="SendProfileQuestionCaption">
+        <object>Send profile</object>
+      </resource>
+      <resource name="SendSuccessText">
+        <object>All stations using the selected profile were successfully updated with the new profile.</object>
+      </resource>
+      <resource name="SendSuccessCaption">
+        <object>Send successfull</object>
+      </resource>
+      <resource name="FailureSavingProfileLimits">
+        <object>A error occured while saving the profile limits, check the limits!</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.StatisticAnalysis.StatisticsAnalysisMainControl" ServiceOnly="false">
+      <resource name="lblProductRangeSelection.Text">
+        <object>Selection type</object>
+      </resource>
+      <resource name="lblTime.Text">
+        <object>Time (minutes)</object>
+      </resource>
+      <resource name="lblLotSelection.Text">
+        <object>Lot codes</object>
+      </resource>
+      <resource name="lblProfileFront.Text">
+        <object>Profile front</object>
+      </resource>
+      <resource name="lblProfileBack.Text">
+        <object>Profile back</object>
+      </resource>
+      <resource name="lblAsp.Text">
+        <object>Asp</object>
+      </resource>
+      <resource name="lblMinWeight.Text">
+        <object>Min weight ($Q)</object>
+      </resource>
+      <resource name="lblMaxWeight.Text">
+        <object>Max weight ($Q)</object>
+      </resource>
+      <resource name="chkUpdateAuto.Text">
+        <object>Auto refresh</object>
+      </resource>
+      <resource name="tabQualities.Text">
+        <object>Qualities</object>
+      </resource>
+      <resource name="tabTapDefects.Text">
+        <object>Defects</object>
+      </resource>
+      <resource name="tabAqsNgDefects.Text">
+        <object>IRIS defects</object>
+      </resource>
+      <resource name="tabDecision.Text">
+        <object>Decision</object>
+      </resource>
+      <resource name="cmbProductRangeTypeItem.Time based">
+        <object>Time based</object>
+      </resource>
+      <resource name="cmbProductRangeTypeItem.Lot based">
+        <object>Lot based</object>
+      </resource>
+      <resource name="colLotCode.Caption">
+        <object>Lot Code</object>
+      </resource>
+      <resource name="colDate.Caption">
+        <object>Date</object>
+      </resource>
+      <resource name="colFarmer.Caption">
+        <object>Farmer</object>
+      </resource>
+      <resource name="colFlock.Caption">
+        <object>Flock</object>
+      </resource>
+      <resource name="colNameHeader.Caption">
+        <object>Name</object>
+      </resource>
+      <resource name="Inspection.Front">
+        <object>Frontside</object>
+      </resource>
+      <resource name="Inspection.Back">
+        <object>Backside</object>
+      </resource>
+      <resource name="Inspection.Combined">
+        <object>Combined</object>
+      </resource>
+      <resource name="lblInspection.Text">
+        <object>Side</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.StatisticAnalysis.StatisticalDefectCharts" ServiceOnly="false">
+      <resource name="AxisTitle">
+        <object>Percentage</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.SystemSetup.DataCollectionMatrixControl" ServiceOnly="false">
+      <resource name="lblName.Text">
+        <object>Name</object>
+      </resource>
+      <resource name="lblDescription.Text">
+        <object>Description</object>
+      </resource>
+      <resource name="lblRelationType.Text">
+        <object>Relation type</object>
+      </resource>
+      <resource name="RelationType.And">
+        <object>And</object>
+      </resource>
+      <resource name="RelationType.Not">
+        <object>Not</object>
+      </resource>
+      <resource name="bandNonShape.Caption">
+        <object>Non Shape defects</object>
+      </resource>
+      <resource name="bandShape.Caption">
+        <object>Shape defects</object>
+      </resource>
+      <resource name="bandWhole.Caption">
+        <object>Whole defects</object>
+      </resource>
+      <resource name="btnDelete.ToolTip">
+        <object>Delete matrix</object>
+      </resource>
+      <resource name="Matrix">
+        <object>Matrix</object>
+      </resource>
+      <resource name="or">
+        <object>or</object>
+      </resource>
+      <resource name="on">
+        <object>on</object>
+      </resource>
+      <resource name="Inspection.Front">
+        <object>Frontside</object>
+      </resource>
+      <resource name="Inspection.Back">
+        <object>Backside</object>
+      </resource>
+      <resource name="Inspection.Combined">
+        <object>Combined</object>
+      </resource>
+      <resource name="lblSide.Text">
+        <object>Side</object>
+      </resource>
+      <resource name="on both sides">
+        <object>on both sides</object>
+      </resource>
+      <resource name="on the front side">
+        <object>on the front side</object>
+      </resource>
+      <resource name="on the back side">
+        <object>on the back side</object>
+      </resource>            
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.SystemSetup.DataCollectionCategoriesControl" ServiceOnly="false">
+      <resource name="InvalidName">
+        <object>Empty name not allowed</object>
+      </resource>
+      <resource name="DuplicateName">
+        <object>Duplicate name not allowed</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Name</object>
+      </resource>
+      <resource name="colDescription.Caption">
+        <object>Description</object>
+      </resource>
+      <resource name="grpContentDescription.Text">
+        <object>Content description</object>
+      </resource>
+      <resource name="grpCategoryContent.Text">
+        <object>Content configuration</object>
+      </resource>
+      <resource name="grpCategories.Text">
+        <object>Categories</object>
+      </resource>
+      <resource name="btnCreateCategory.Caption">
+        <object>Create category</object>
+      </resource>
+      <resource name="btnDeleteCategory.Caption">
+        <object>Delete category</object>
+      </resource>
+      <resource name="btnSave.Caption">
+        <object>Save category content</object>
+      </resource>
+      <resource name="btnAddMatrix.Caption">
+        <object>Add matrix</object>
+      </resource>
+      <resource name="SaveChangesDeletExistingRegs.Text">
+        <object>Do you want to save the content changes in the selected category?\n\nChoosing Yes will also delete the existing count registrations for this category.</object>
+      </resource>
+      <resource name="SaveChangesWarningExistingRegs.Text">
+        <object>Saving the changes will also delete existing count registrations for this category.\n\nSave changes?</object>
+      </resource>
+      <resource name="SaveChanges.Text">
+        <object>Do you want to save the category content changes in the selected category?</object>
+      </resource>
+      <resource name="SaveChanges.Caption">
+        <object>Save content</object>
+      </resource>
+      <resource name="Products that">
+        <object>Products that</object>
+      </resource>
+      <resource name="and">
+        <object>and</object>
+      </resource>
+      <resource name="or">
+        <object>or</object>
+      </resource>
+      <resource name="Products that do not have">
+        <object>Products that do not have</object>
+      </resource>
+      <resource name="Products that do have">
+        <object>Products that do have</object>
+      </resource>
+      <resource name="but they may not have">
+        <object>but these products may not have</object>
+      </resource>
+      <resource name="and they must also have">
+        <object>and these products must also have</object>
+      </resource>
+      <resource name="in combination with">
+        <object>in combination with</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.SystemSetup.StationPairs" ServiceOnly="false">
+      <resource name="btnAdd.ToolTip">
+        <object>Add selected stations to the station pairs table</object>
+      </resource>
+      <resource name="btnRemove.ToolTip">
+        <object>Remove selected station pair</object>
+      </resource>
+      <resource name="RelationWarning">
+        <object>Relation Warning</object>
+      </resource>
+      <resource name="VQMStationRelationError">
+        <object>Selected stations have different profiles. Pairing is not possible.</object>
+      </resource>
+      <resource name="VQMStationLineRelationError">
+        <object>Selected stations are located in different lines. Pairing these stations isn't possible.</object>
+      </resource>
+      <resource name="grpStations.Text">
+        <object>Stations</object>
+      </resource>
+      <resource name="grpStationPairs.Text">
+        <object>Station pairs</object>
+      </resource>
+      <resource name="colNameFront.Caption">
+        <object>Front</object>
+      </resource>
+      <resource name="colNameBack.Caption">
+        <object>Back</object>
+      </resource>
+      <resource name="colPairNameFront.Caption">
+        <object>Front</object>
+      </resource>
+      <resource name="colPairNameBack.Caption">
+        <object>Back</object>
+      </resource>
+      <resource name="colLineFront.Caption">
+        <object>Line</object>
+      </resource>
+      <resource name="colLineBack.Caption">
+        <object>Line</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.SystemSetup.Backups" ServiceOnly="false">
+      <resource name="lblStation.Text">
+        <object>Station:</object>
+      </resource>
+      <resource name="grpBackups.Text">
+        <object>Backups</object>
+      </resource>
+      <resource name="columnDate.Caption">
+        <object>Date</object>
+      </resource>
+      <resource name="columnDescription.Caption">
+        <object>Comment</object>
+      </resource>
+      <resource name="btnNew.Text">
+        <object>Backup</object>
+      </resource>
+      <resource name="btnRestore.Text">
+        <object>Restore</object>
+      </resource>
+      <resource name="btnDelete.Text">
+        <object>Delete</object>
+      </resource>
+      <resource name="btnExport.Text">
+        <object>Export</object>
+      </resource>
+      <resource name="btnImport.Text">
+        <object>Import</object>
+      </resource>
+      <resource name="Backup.Failed.Caption">
+        <object>Backup failed</object>
+      </resource>
+      <resource name="Restore.Failed.Caption">
+        <object>Restore failed</object>
+      </resource>
+      <resource name="Backup.Success.Caption">
+        <object>Backup succeeded</object>
+      </resource>
+      <resource name="Restore.Success.Caption">
+        <object>Restore succeeded</object>
+      </resource>
+      <resource name="Backup.Success.Text">
+        <object>A backup was successfully created.</object>
+      </resource>
+      <resource name="Restore.Success.Text">
+        <object>A backup was successfully restored to IRIS.\n\nPlease reset the IRIS in order to get the restored backup up and running</object>
+      </resource>
+      <resource name="ImportFrom">
+        <object>Import: </object>
+      </resource>
+      <resource name="Backup.DirectoryExists.Text">
+        <object>A folder with the name "{0}" already exists.\nThe content of this folder will be cleared before the backup is created. Do you want to continue?</object>
+      </resource>
+      <resource name="Backup.Export.Caption">
+        <object>Export backup</object>
+      </resource>
+      <resource name="Export.Success.Text">
+        <object>The backup was successfully exported</object>
+      </resource>
+      <resource name="Backup.New.Text">
+        <object>There is a maximum of 6 backups. Please remove one or more backups first.</object>
+      </resource>
+      <resource name="Backup.StationNotActive.Text">
+        <object>Backup is not possible because IRIS station is not active.</object>
+      </resource>
+      <resource name="Restore.StationNotActive.Text">
+        <object>Restore is not possible because IRIS station is not active.</object>
+      </resource>
+      <resource name="Backup.Import.Caption">
+        <object>Import backup</object>
+      </resource>
+      <resource name="Backup.New.Caption">
+        <object>New backup</object>
+      </resource>
+      <resource name="Restore.Caption">
+        <object>Restore backup</object>
+      </resource>
+      <resource name="Backup.Delete.Text">
+        <object>Do you want to delete backup: </object>
+      </resource>
+      <resource name="Backup.Delete.Caption">
+        <object>Delete backup</object>
+      </resource>
+      <resource name="Export.Failed.Caption">
+        <object>Export Failed</object>
+      </resource>
+      <resource name="Import.Failed.Caption">
+        <object>Import Failed</object>
+      </resource>
+      <resource name="IrisBackupFailed">
+        <object>IRIS backup failed. See log for more details.</object>
+      </resource>
+      <resource name="IrisRestoreFailed">
+        <object>Restoring the IRIS backup failed. See log for more details.</object>
+      </resource>
+      <resource name="autobackup">
+        <object>(Automatic daily backup)</object>
+      </resource>
+      <resource name="Import.InvalidPath.Text">
+        <object>The selected folder doesn't seem to contain a valid IRIS backup.\nImport is not possible.</object>
+      </resource>
+    </type>
+    <type name="Tap.Resultcodes" ServiceOnly="false">
+      <resource name="45719">
+        <object>IRIS channel not connected</object>
+      </resource>
+      <resource name="45920">
+        <object>IRIS channel not initialized </object>
+      </resource>
+      <resource name="45718">
+        <object>Value out of range</object>
+      </resource>
+      <resource name="45721">
+        <object>Base table not allowed. Base tables already activated. </object>
+      </resource>
+      <resource name="45722">
+        <object>Parsing not allowed in current device state</object>
+      </resource>
+      <resource name="45723">
+        <object>Invalid IFT received</object>
+      </resource>
+      <resource name="45724">
+        <object>Invalid order of IDs in table</object>
+      </resource>
+      <resource name="45725">
+        <object>Invalid IMT received  </object>
+      </resource>
+      <resource name="45726">
+        <object>Error in IRIS macro check</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Profiles.BruiseAreaLimitGroupControl" ServiceOnly="false">
+      <resource name="lblNoiseThreshold.Text">
+        <object>Threshold</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Profiles.BruiseCountLimitGroupControl" ServiceOnly="false">
+      <resource name="lblNoiseThreshold.Text">
+        <object>Threshold: </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Profiles.ProfileFeatherManagement" ServiceOnly="false">
+      <resource name="tabCountLimits.Text">
+        <object>Count limits</object>
+      </resource>
+      <resource name="tabLimitUsage.Text">
+        <object>Usage</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Profiles.FeatherUsageGroupControl" ServiceOnly="false">
+      <resource name="lblInactive.Text">
+        <object>Inactive</object>
+      </resource>
+      <resource name="lblAddToEmptyReport.Text">
+        <object>Use when not graded</object>
+      </resource>
+      <resource name="lblAddToExistingReport.Text">
+        <object>Always use</object>
+      </resource>
+      <resource name="lblActive.Text">
+        <object>Active</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Profiles.BruiseUsageGroupControl" ServiceOnly="false">
+      <resource name="lblInactive.Text">
+        <object>Inactive</object>
+      </resource>
+      <resource name="lblAddToEmptyReport.Text">
+        <object>Use when not graded</object>
+      </resource>
+      <resource name="lblAddToExistingReport.Text">
+        <object>Always use</object>
+      </resource>
+      <resource name="lblActive.Text">
+        <object>Active</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Vqm.UI.Windows.UserControls.Profiles.ShapeUsageGroupControl" ServiceOnly="false">
+      <resource name="lblInactive.Text">
+        <object>Inactive</object>
+      </resource>
+      <resource name="lblAddToEmptyReport.Text">
+        <object>Use when not graded</object>
+      </resource>
+      <resource name="lblAddToExistingReport.Text">
+        <object>Always use</object>
+      </resource>
+      <resource name="lblActive.Text">
+        <object>Active</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

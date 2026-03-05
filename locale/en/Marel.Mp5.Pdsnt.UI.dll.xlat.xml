@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.SystemSetup.FiSystemView" ServiceOnly="false">
+      <resource name="paramTabPage.Text">
+        <object>Supply Lines</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Code</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Name</object>
+      </resource>
+      <resource name="grpSystem.Text">
+        <object>System</object>
+      </resource>
+      <resource name="sysPrgLookUp.ToolTip">
+        <object>System program running the system</object>
+      </resource>
+      <resource name="siteLookUp.ToolTip">
+        <object>Site the system belongs to</object>
+      </resource>
+      <resource name="sysAppLookUp.ToolTip">
+        <object>Application handling the system</object>
+      </resource>
+      <resource name="lblSysProgram.Text">
+        <object>System program:</object>
+      </resource>
+      <resource name="lblSite.Text">
+        <object>Site:</object>
+      </resource>
+      <resource name="lblApplication.Text">
+        <object>Application:</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Error saving data!</object>
+      </resource>
+      <resource name="Err.CancelEdit">
+        <object>Error cancelling!</object>
+      </resource>
+      <resource name="Err.NoObjectSelected">
+        <object>No object is selected</object>
+      </resource>
+      <resource name="Err.NoObjectSelectedCaption">
+        <object>Information</object>
+      </resource>
+      <resource name="Err.DeletingStationChildren">
+        <object>Can't delete children of the station</object>
+      </resource>
+      <resource name="Err.DeletingStationData">
+        <object>Can't delete station. Station has data.</object>
+      </resource>
+      <resource name="CardData.Title">
+        <object>Missing properties</object>
+      </resource>
+      <resource name="CardData.Text.Single">
+        <object>The following property need to be defined</object>
+      </resource>
+      <resource name="CardData.Text.Multi">
+        <object>The following properties need to be defined</object>
+      </resource>
+      <resource name="CardData.DataConfig">
+        <object>before the lines can be configured</object>
+      </resource>
+      <resource name="CardData.DataSaved">
+        <object>before the system can be saved</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.ProgramSetup.FlockSetupViewUC" ServiceOnly="false">
+      <resource name="btnConfirm.Caption">
+        <object>Confirm</object>
+      </resource>
+      <resource name="btnConfirm.Hint">
+        <object>Confirm changes</object>
+      </resource>
+      <resource name="btnNavFirst.ToolTip">
+        <object>Go to first record</object>
+      </resource>
+      <resource name="btnNavLast.ToolTip">
+        <object>Go to last record</object>
+      </resource>
+      <resource name="btnNavNext.ToolTip">
+        <object>Go to next record</object>
+      </resource>
+      <resource name="btnNavPrevious.ToolTip">
+        <object>Go to previous record</object>
+      </resource>
+      <resource name="btnRefresh.Caption">
+        <object>Refresh</object>
+      </resource>
+      <resource name="btnRefresh.Hint">
+        <object>Refreshes data in record</object>
+      </resource>
+      <resource name="btnUpdateActivity.Caption">
+        <object>Update activity</object>
+      </resource>
+      <resource name="btnUpdateActivity.Hint">
+        <object>Update process unit activity for this program</object>
+      </resource>
+      <resource name="MnuOptions.Caption">
+        <object>Operations</object>
+      </resource>
+      <resource name="MnuOptions.Hint">
+        <object>Show more operations</object>
+      </resource>
+      <resource name="chkRecShowActive.Caption">
+        <object>Active</object>
+      </resource>
+      <resource name="chkRecShowBoth.Caption">
+        <object>Both</object>
+      </resource>
+      <resource name="chkRecShowInactive.Caption">
+        <object>Inactive</object>
+      </resource>
+      <resource name="btnOptDefLayout.Caption">
+        <object>Restore default layout</object>
+      </resource>
+      <resource name="MnuActiveState.Caption">
+        <object>Show flocks that are</object>
+      </resource>
+      <resource name="btnOptInvCachedData.Caption">
+        <object>Invalidate cached data</object>
+      </resource>
+      <resource name="btnOptXlat.Caption">
+        <object>Xlat</object>
+      </resource>
+      <resource name="btnOptSql.Caption">
+        <object>SQL</object>
+      </resource>
+      <resource name="btnOptReloadGuiItem.Caption">
+        <object>Reload GUI Item</object>
+      </resource>
+      <resource name="lblSelectLine.Text">
+        <object>Line:</object>
+      </resource>
+      <resource name="tabPageFlockSetup.Text">
+        <object>Flock setup</object>
+      </resource>
+      <resource name="lblSetDate.Text">
+        <object>Date:</object>
+      </resource>
+      <resource name="lblValidFrom.Text">
+        <object>Valid From:</object>
+      </resource>
+      <resource name="lblValidTo.Text">
+        <object>Valid To:</object>
+      </resource>
+      <resource name="selectLineLookUp.ToolTip">
+        <object>Select line to edit flock numbers for</object>
+      </resource>
+      <resource name="dateFilter.ToolTip">
+        <object>Select date to set flock numbers</object>
+      </resource>
+      <resource name="lblFarmers.Text">
+        <object>Farmer types:</object>
+      </resource>
+      <resource name="farmerFilter.ToolTip">
+        <object>Select filter for the farmer table lookup</object>
+      </resource>
+      <resource name="lblParentFarmers.Text">
+        <object>Parent farmer:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.ProgramSetup.Pages.PageFlockSetup" ServiceOnly="false">
+      <resource name="DeletePrograms">
+        <object>Delete from programs table!</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.ProgramSetup.FlockSetupView" ServiceOnly="false">
+      <resource name="Lookup.Name.Caption">
+        <object>Name</object>
+      </resource>
+      <resource name="Lookup.Id.Caption">
+        <object>Id</object>
+      </resource>
+      <resource name="Err.Closing">
+        <object>Do you want to close the form and cancel the changes?</object>
+      </resource>
+      <resource name="Err.Closing.Title">
+        <object>Error saving data.</object>
+      </resource>
+      <resource name="EmptyLineSelect">
+        <object>-no lines available-</object>
+      </resource>
+      <resource name="Err.RefreshingData">
+        <object>Error refreshing data</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Error saving data</object>
+      </resource>
+    </type>
+    <type name="Grid.Flock.DbSetup" ServiceOnly="false">
+      <resource name="dbid">
+        <object>Id</object>
+      </resource>
+      <resource name="description">
+        <object>Description</object>
+      </resource>
+      <resource name="ipaddress">
+        <object>IP address</object>
+      </resource>
+      <resource name="dbname">
+        <object>Database name</object>
+      </resource>
+      <resource name="username">
+        <object>User name</object>
+      </resource>
+      <resource name="password">
+        <object>Password</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Grid.Flock.System" ServiceOnly="false">
+      <resource name="system">
+        <object>System</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sequence</object>
+      </resource>
+      <resource name="name">
+        <object>LineName</object>
+      </resource>
+      <resource name="dbid">
+        <object>Database</object>
+      </resource>
+      <resource name="supplylineid">
+        <object>Line ID</object>
+      </resource>
+      <resource name="polltime">
+        <object>Poll time</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="supplylineno">
+        <object>ChainNo</object>
+      </resource>
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="dbid.lookup.dbname">
+        <object>Name</object>
+      </resource>
+      <resource name="dbid.lookup.description">
+        <object>Description</object>
+      </resource>
+    </type>
+    <type name="Grid.Flock.Setup" ServiceOnly="false">
+      <resource name="proc_lots_processor.lookup.name">
+        <object>Name</object>
+      </resource>
+      <resource name="proc_lots_processor.lookup.code">
+        <object>Code</object>
+      </resource>
+      <resource name="proc_lots_processor.lookup.base_companies2_name">
+        <object>Parent</object>
+      </resource>
+      <resource name="proc_lots_processor">
+        <object>Farmer</object>
+      </resource>
+      <resource name="proc_lots_extcode">
+        <object>Customer code</object>
+      </resource>
+      <resource name="proc_lots_description1">
+        <object>Flock No</object>
+      </resource>
+      <resource name="proc_lots_description2">
+        <object>Hen House No.</object>
+      </resource>
+      <resource name="proc_lots_description3">
+        <object>JC</object>
+      </resource>
+      <resource name="proc_lots_name">
+        <object>LotCode</object>
+      </resource>
+      <resource name="proc_lots_expectedcount">
+        <object>Expected Count</object>
+      </resource>
+      <resource name="proc_lots_brcountry Name">
+        <object>Born In</object>
+      </resource>
+      <resource name="proc_lots_ricountry Name">
+        <object>Raised In</object>
+      </resource>
+      <resource name="proc_lots_slhouse Name">
+        <object>Slaughterhouse</object>
+      </resource>
+      <resource name="proc_lots_qamark1">
+        <object>QA Mark 1 code</object>
+      </resource>
+      <resource name="proc_lots_qamark1 Name">
+        <object>QA Mark 1</object>
+      </resource>
+      <resource name="proc_lots_qamark2">
+        <object>QA Mark 2 code</object>
+      </resource>
+      <resource name="proc_lots_qamark2 Name">
+        <object>QA Mark 2</object>
+      </resource>
+      <resource name="proc_lots_qamark3">
+        <object>QA Mark 3 code</object>
+      </resource>
+      <resource name="proc_lots_qamark3 Name">
+        <object>QA Mark 3</object>
+      </resource>
+      <resource name="proc_lots_qamark4">
+        <object>QA Mark 4 code</object>
+      </resource>
+      <resource name="proc_lots_qamark4 Name">
+        <object>QA Mark 4</object>
+      </resource>
+      <resource name="proc_lots_active">
+        <object>Active</object>
+      </resource>
+      <resource name="proc_lots_code">
+        <object>Code</object>
+      </resource>
+      <resource name="proc_lots_description4">
+        <object>Description 4</object>
+      </resource>
+      <resource name="proc_lots_description5">
+        <object>Description 5</object>
+      </resource>
+      <resource name="proc_lots_description6">
+        <object>Description 6</object>
+      </resource>
+      <resource name="proc_lots_description7">
+        <object>Description 7</object>
+      </resource>
+      <resource name="proc_lots_description8">
+        <object>Description 8</object>
+      </resource>
+      <resource name="proc_lots_dimension2">
+        <object>Dimension 2</object>
+      </resource>
+      <resource name="proc_lots_dimension3">
+        <object>Dimension 3</object>
+      </resource>
+      <resource name="proc_lots_dimension4">
+        <object>Dimension 4</object>
+      </resource>
+      <resource name="proc_lots_flocknumber">
+        <object>Flocknumber</object>
+      </resource>
+      <resource name="proc_lots_group">
+        <object>Group code</object>
+      </resource>
+      <resource name="proc_lots_lottype">
+        <object>Lot type</object>
+      </resource>
+      <resource name="proc_lots_qamark1code">
+        <object>QA Mark 1 ext. code</object>
+      </resource>
+      <resource name="proc_lots_qamark2code">
+        <object>QA Mark 2 ext. code</object>
+      </resource>
+      <resource name="proc_lots_qamark3code">
+        <object>QA Mark 3 ext. code</object>
+      </resource>
+      <resource name="proc_lots_qamark4code">
+        <object>QA Mark 4 ext. code</object>
+      </resource>
+      <resource name="proc_lots_slsequence">
+        <object>Slaughter sequence</object>
+      </resource>
+      <resource name="proc_lots_sourcepack">
+        <object>Source pack</object>
+      </resource>
+      <resource name="proc_lots_sourcepallet">
+        <object>Source pallet</object>
+      </resource>
+      <resource name="proc_lots_subgroup">
+        <object>Subgroup</object>
+      </resource>
+      <resource name="proc_lots_topflockid">
+        <object>TOP flock ID</object>
+      </resource>
+      <resource name="proc_lots_validfrom">
+        <object>Valid from</object>
+      </resource>
+      <resource name="proc_lots_validto">
+        <object>Valid to</object>
+      </resource>
+      <resource name="base_companies2_name">
+        <object>Parent Farmer</object>
+      </resource>
+      <resource name="proc_lots_proc_lots_processor.lookup.code">
+        <object>Processor code</object>
+      </resource>
+      <resource name="processor.lookup.shname">
+        <object>Processor short name</object>
+      </resource>
+      <resource name="processor Name">
+        <object>Processor name</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ext Code</object>
+      </resource>
+      <resource name="description1">
+        <object>Description 1</object>
+      </resource>
+      <resource name="processor">
+        <object>Processor</object>
+      </resource>
+      <resource name="proc_lots_processor Name">
+        <object>Processor name</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.ProgramSetup.Common.FarmerFilterTypes" ServiceOnly="false">
+      <resource name="None">
+        <object>None</object>
+      </resource>
+      <resource name="Supplier">
+        <object>Supplier</object>
+      </resource>
+      <resource name="Owner">
+        <object>Owner</object>
+      </resource>
+      <resource name="Producer">
+        <object>Producer</object>
+      </resource>
+      <resource name="Storage">
+        <object>Storage</object>
+      </resource>
+      <resource name="Transporter">
+        <object>Transporter</object>
+      </resource>
+      <resource name="Entryport">
+        <object>Entryport</object>
+      </resource>
+      <resource name="Customer">
+        <object>Customer</object>
+      </resource>
+      <resource name="Agent">
+        <object>Agent</object>
+      </resource>
+      <resource name="Processor">
+        <object>Processor</object>
+      </resource>
+      <resource name="SelectAll">
+        <object>(Select All)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.QuickConfig.EquipmentMonitoring.EquipmentMonitoringQuickConfigUC" ServiceOnly="false">
+      <resource name="FailureCreatingPluginHost">
+        <object>Failure occurred during creation of new pluginhost. Exception:</object>
+      </resource>
+      <resource name="ExceptionOccurred">
+        <object>Exception occurred</object>
+      </resource>
+      <resource name="FailureCreatingDeviceRouter">
+        <object>Failure occurred during creation of devicerouter. Exception:</object>
+      </resource>
+      <resource name="FailureCreatingDevice">
+        <object>Failure occurred during creation of new device. Exception:</object>
+      </resource>
+      <resource name="FailureCreatingPlugin">
+        <object>Failure occurred during creation of new plugin. Exception:</object>
+      </resource>
+      <resource name="WizardControlTitle">
+        <object>Equipment Monitoring Configuration</object>
+      </resource>
+      <resource name="PluginTypeSelectionText">
+        <object>Select a plugin type</object>
+      </resource>
+      <resource name="PluginConfigurationText">
+        <object>Plugin configuration</object>
+      </resource>
+      <resource name="ColumnAlarmConfig">
+        <object>Alarm configuration</object>
+      </resource>
+      <resource name="ColumnName">
+        <object>Name</object>
+      </resource>
+      <resource name="ColumnCode">
+        <object>Code</object>
+      </resource>
+      <resource name="ConfigurationSelectionText">
+        <object>&lt;Select configuration&gt;</object>
+      </resource>
+      <resource name="ColumnDeviceName">
+        <object>Device name</object>
+      </resource>
+      <resource name="ColumnTarFileName">
+        <object>TAR file</object>
+      </resource>
+      <resource name="ColumnIPAddress">
+        <object>IPAddress</object>
+      </resource>
+      <resource name="ColumnFtpHomeDirectory">
+        <object>FTP home directory</object>
+      </resource>
+      <resource name="ColumnFtpUserName">
+        <object>FTP user name</object>
+      </resource>
+      <resource name="ColumnFtpPassword">
+        <object>FTP password</object>
+      </resource>
+      <resource name="InstallEmComponents">
+        <object>EM Configuration</object>
+      </resource>
+      <resource name="WizardControlInstallEMcomponents">
+        <object>Install EM components</object>
+      </resource>
+      <resource name="Plugin">
+        <object>plugin</object>
+      </resource>
+      <resource name="DeviceRouter">
+        <object>device router</object>
+      </resource>
+      <resource name="Device">
+        <object>device</object>
+      </resource>
+      <resource name="Installing">
+        <object>Installing</object>
+      </resource>
+      <resource name="Selecting">
+        <object>Selecting</object>
+      </resource>
+      <resource name="Starting">
+        <object>Starting</object>
+      </resource>
+      <resource name="ButtonTextNext">
+        <object>Next</object>
+      </resource>
+      <resource name="ButtonTextInstall">
+        <object>Install</object>
+      </resource>
+      <resource name="ImportFromCSV">
+        <object>&lt;Import from CSV file&gt;</object>
+      </resource>
+      <resource name="ImportFromEplan">
+        <object>&lt;Import from Eplan XML file&gt;</object>
+      </resource>
+      <resource name="ButtonTextCancel">
+        <object>Cancel</object>
+      </resource>
+      <resource name="SelectAlarmConfiguration">
+        <object>Select alarm configuration</object>
+      </resource>
+      <resource name="FailureStartingPlugin">
+        <object>Failure starting the plugin. Exception:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.QuickConfig.EquipmentMonitoring.AlarmConfigSelectionUC" ServiceOnly="false">
+      <resource name="ColumnName">
+        <object>Name</object>
+      </resource>
+      <resource name="ColumnCode">
+        <object>Code</object>
+      </resource>
+      <resource name="SelectConfiguration">
+        <object>&lt;Select configuration&gt;</object>
+      </resource>
+      <resource name="SelectConfigurationLabel">
+        <object>Multiple alarmconfigurations have been imported\nSelect the configuration you want to use.</object>
+      </resource>
+    </type>
+  </industry>
+  <industry name="Poultry">
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.QuickConfig.EquipmentMonitoring.EquipmentMonitoringQuickConfigUC" ServiceOnly="false">
+      <resource name="Pluginhost">
+        <object>plugin host</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

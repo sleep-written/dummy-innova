@@ -1,0 +1,1800 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="no">
+  <industry>
+    <type name="Marel.Mp5.Process.Process.LineType" ServiceOnly="true">
+      <resource name="ProcessUnit">
+        <object>Behandlingsenhet</object>
+      </resource>
+      <resource name="BasicLine">
+        <object>Linje</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanType" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Ingen plan</object>
+      </resource>
+      <resource name="ContextPlan">
+        <object>Felles plan</object>
+      </resource>
+      <resource name="SplitPlan">
+        <object>Delt plan</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessState" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ikke angitt</object>
+      </resource>
+      <resource name="NoWork">
+        <object>Timer utenfor</object>
+      </resource>
+      <resource name="Running">
+        <object>Kjører</object>
+      </resource>
+      <resource name="Idle">
+        <object>Inaktiv</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Stoppet</object>
+      </resource>
+      <resource name="Breakdown">
+        <object>Nedbryting</object>
+      </resource>
+      <resource name="NotProgrammed">
+        <object>Ikke programmert</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessCounterType" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Ikke brukt</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Per behandlingsenhet</object>
+      </resource>
+      <resource name="Line">
+        <object>Per linje</object>
+      </resource>
+      <resource name="Section">
+        <object>Per seksjon</object>
+      </resource>
+      <resource name="Department">
+        <object>Per avdeling</object>
+      </resource>
+      <resource name="Site">
+        <object>Per område</object>
+      </resource>
+      <resource name="Station">
+        <object>Per stasjon</object>
+      </resource>
+      <resource name="StationGroup">
+        <object>Per stasjonsgruppe</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.AutoManual" ServiceOnly="true">
+      <resource name="Automatic">
+        <object>Automatisk</object>
+      </resource>
+      <resource name="Manual">
+        <object>Manuell</object>
+      </resource>
+      <resource name="AllowManual">
+        <object>Tillat manuell</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessPeriodType" ServiceOnly="true">
+      <resource name="Daily">
+        <object>Daglig</object>
+      </resource>
+      <resource name="OnActivity">
+        <object>Ved aktivitetsendring</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextSelect" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Ikke brukt</object>
+      </resource>
+      <resource name="Direct">
+        <object>Endre direkte</object>
+      </resource>
+      <resource name="DirectAssigned">
+        <object>Endre direkte, bruk tilordnede elementer</object>
+      </resource>
+      <resource name="DirectStopped">
+        <object>Endre direkte ved stopp</object>
+      </resource>
+      <resource name="DirectAssignedStopped">
+        <object>Endre direkte ved stopp, bruk tilordnede elementer</object>
+      </resource>
+      <resource name="Pending">
+        <object>Start ventende</object>
+      </resource>
+      <resource name="PendingAssigned">
+        <object>Start ventende, bruk tilordnede elementer</object>
+      </resource>
+      <resource name="PendingStopped">
+        <object>Start ventende ved stopp</object>
+      </resource>
+      <resource name="PendingAssignedStopped">
+        <object>Start ventende ved stopp, bruk tilordnede elementer</object>
+      </resource>
+      <resource name="ForwardPending">
+        <object>Tillat bare ventende videresending</object>
+      </resource>
+      <resource name="ForwardDirect">
+        <object>Tillat bare direkte videresending</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanMethod" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Ingen plan</object>
+      </resource>
+      <resource name="Relaxed">
+        <object>Lavt</object>
+      </resource>
+      <resource name="NoSequence">
+        <object>Strengt, ingen sekvens</object>
+      </resource>
+      <resource name="Sequence">
+        <object>Strengt, i sekvens</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextType" ServiceOnly="true">
+      <resource name="NoContext">
+        <object>Ingen kontekst</object>
+      </resource>
+      <resource name="LocalApplication">
+        <object>Program</object>
+      </resource>
+      <resource name="LocalSystem">
+        <object>System</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Behandlingsenhet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.SystemType" ServiceOnly="false">
+      <resource name="Other">
+        <object>Annet</object>
+      </resource>
+      <resource name="Species">
+        <object>Art</object>
+      </resource>
+      <resource name="Section">
+        <object>Seksjon</object>
+      </resource>
+      <resource name="Input">
+        <object>Inngående</object>
+      </resource>
+      <resource name="Primary">
+        <object>Primær </object>
+      </resource>
+      <resource name="Secondary">
+        <object>Sekundær</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>Tertiær</object>
+      </resource>
+      <resource name="Waste">
+        <object>Avfall</object>
+      </resource>
+      <resource name="Fat">
+        <object>Fett</object>
+      </resource>
+      <resource name="Bones">
+        <object>Bein</object>
+      </resource>
+      <resource name="Skin">
+        <object>Skinn</object>
+      </resource>
+      <resource name="Offal">
+        <object>Innvoller</object>
+      </resource>
+      <resource name="Ingredient">
+        <object>Ingrediens</object>
+      </resource>
+      <resource name="Packaging">
+        <object>Emballasje</object>
+      </resource>
+      <resource name="PieceType">
+        <object>Stykketype</object>
+      </resource>
+      <resource name="ColorType">
+        <object>Farge</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoDeliveryStatus" ServiceOnly="false">
+      <resource name="NotOrdered">
+        <object>Ikke bestilt</object>
+      </resource>
+      <resource name="InStorage">
+        <object>På lager</object>
+      </resource>
+      <resource name="EnRoute">
+        <object>Underveis</object>
+      </resource>
+      <resource name="Receiving">
+        <object>Mottar, ikke tilgjengelig</object>
+      </resource>
+      <resource name="ReceivingAvailable">
+        <object>Mottar, tilgjengelig</object>
+      </resource>
+      <resource name="Holding">
+        <object>Ventende</object>
+      </resource>
+      <resource name="Available">
+        <object>Tilgjengelig</object>
+      </resource>
+      <resource name="Completed">
+        <object>Fullført</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.PrivateObjectType" ServiceOnly="false">
+      <resource name="Mateial">
+        <object>Produkt</object>
+      </resource>
+      <resource name="Customer">
+        <object>Kunde</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Ordrelinje</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.CountMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Godta alt</object>
+      </resource>
+      <resource name="Range">
+        <object>Min og maks</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextColumn" ServiceOnly="false">
+      <resource name="Activity">
+        <object>Aktivitet</object>
+      </resource>
+      <resource name="Po">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="Batch">
+        <object>Batch</object>
+      </resource>
+      <resource name="Lot">
+        <object>Parti</object>
+      </resource>
+      <resource name="Plot">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="Rmarea">
+        <object>Ressursområde</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Ventende</object>
+      </resource>
+      <resource name="Available">
+        <object>Tilgjengelig</object>
+      </resource>
+      <resource name="Completed">
+        <object>Fullført</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotRecord" ServiceOnly="false">
+      <resource name="AutoName">
+        <object>Parti</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>P</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.YieldGroupRecord" ServiceOnly="true">
+      <resource name="AutoName">
+        <object>Resultatgruppe</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>R</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.ChainType" ServiceOnly="true">
+      <resource name="TracePo">
+        <object>Spor kjøpsordrer</object>
+      </resource>
+      <resource name="TraceBatch">
+        <object>Spor batchnumre</object>
+      </resource>
+      <resource name="TraceLot">
+        <object>Spor parti</object>
+      </resource>
+      <resource name="TracePack">
+        <object>Spor pakker</object>
+      </resource>
+      <resource name="TraceCollection">
+        <object>Spor samling</object>
+      </resource>
+      <resource name="TraceInterval">
+        <object>Spor etter tid</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.UnitStatus" ServiceOnly="true">
+      <resource name="PendingAuto">
+        <object>Venter på start automatisk</object>
+      </resource>
+      <resource name="PendingManual">
+        <object>Venter på start manuelt</object>
+      </resource>
+      <resource name="Active">
+        <object>Enhet aktiv</object>
+      </resource>
+      <resource name="Ending">
+        <object>Enhet avslutter</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.TransactionType" ServiceOnly="true">
+      <resource name="UnitSchedule">
+        <object>Enhet tidsplanlagt</object>
+      </resource>
+      <resource name="UnitStart">
+        <object>Enhet startet</object>
+      </resource>
+      <resource name="UnitEnd">
+        <object>Enhet avsluttet</object>
+      </resource>
+      <resource name="OnHold">
+        <object>På vent</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.TransferStatus" ServiceOnly="false">
+      <resource name="NoTransfer">
+        <object>Ingen overføring</object>
+      </resource>
+      <resource name="ReadyForTransfer">
+        <object>Overføring klar</object>
+      </resource>
+      <resource name="TransferComplete">
+        <object>Overføring fullført</object>
+      </resource>
+      <resource name="TransferReceive">
+        <object>Overføringsordre mottatt</object>
+      </resource>
+      <resource name="TransferInProgress">
+        <object>Overføring pågår</object>
+      </resource>
+      <resource name="TransferError">
+        <object>Overføringsfeil</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderLineStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Lukket</object>
+      </resource>
+      <resource name="Open">
+        <object>Åpen</object>
+      </resource>
+      <resource name="Complete">
+        <object>Fullført</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Avbrutt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AssignType" ServiceOnly="false">
+      <resource name="All">
+        <object>Tillat alle</object>
+      </resource>
+      <resource name="Production">
+        <object>Tillat produksjon</object>
+      </resource>
+      <resource name="Direct">
+        <object>Tillat direkte</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintObjectType" ServiceOnly="false">
+      <resource name="Inventory">
+        <object>Beholdning</object>
+      </resource>
+      <resource name="Po">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="Supplier">
+        <object>Leverandør</object>
+      </resource>
+      <resource name="Site">
+        <object>Område</object>
+      </resource>
+      <resource name="Category">
+        <object>Kategori</object>
+      </resource>
+      <resource name="SectionType">
+        <object>Seksjonstype</object>
+      </resource>
+      <resource name="BornIn">
+        <object>Født i</object>
+      </resource>
+      <resource name="RaisedIn">
+        <object>Alet opp i </object>
+      </resource>
+      <resource name="FatClass">
+        <object>Fettklasse</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintType" ServiceOnly="false">
+      <resource name="OnlyFrom">
+        <object>Bare fra</object>
+      </resource>
+      <resource name="NotFrom">
+        <object>Ikke fra</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ProcessAssignType" ServiceOnly="false">
+      <resource name="Fixed">
+        <object>Fast</object>
+      </resource>
+      <resource name="Regular">
+        <object>Midlertidig</object>
+      </resource>
+      <resource name="Planned">
+        <object>Planlagt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.ForwardType" ServiceOnly="true">
+      <resource name="NoForward">
+        <object>Ingen videresending</object>
+      </resource>
+      <resource name="ForwardAll">
+        <object>Videresend alle</object>
+      </resource>
+      <resource name="ForwardActivity">
+        <object>Videresend aktivitet</object>
+      </resource>
+      <resource name="ForwardPo">
+        <object>Videresend kjøpsordre</object>
+      </resource>
+      <resource name="ForwardBatch">
+        <object>Videresend batch</object>
+      </resource>
+      <resource name="ForwardLot">
+        <object>Videresend parti</object>
+      </resource>
+      <resource name="ForwardPlot">
+        <object>Videresend produksjonsparti</object>
+      </resource>
+      <resource name="ForwardRmarea">
+        <object>Videresend ressursområde</object>
+      </resource>
+      <resource name="ForwardShift">
+        <object>Videresend skift</object>
+      </resource>
+      <resource name="ForwardProfileId">
+        <object>Videresend profilperiode</object>
+      </resource>
+      <resource name="ForwardPrday">
+        <object>Videresend produksjonsdag</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Ikke startet</object>
+      </resource>
+      <resource name="Active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="Completed">
+        <object>Fullført</object>
+      </resource>
+      <resource name="OnHold">
+        <object>På vent</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineType" ServiceOnly="false">
+      <resource name="ContextPlan">
+        <object>Kontekstplan</object>
+      </resource>
+      <resource name="ActivityPlan">
+        <object>Aktivitet</object>
+      </resource>
+      <resource name="PoPlan">
+        <object>Kjøpsordre</object>
+      </resource>
+      <resource name="BatchPlan">
+        <object>Batch</object>
+      </resource>
+      <resource name="LotPlan">
+        <object>Parti</object>
+      </resource>
+      <resource name="PlotPlan">
+        <object>Produksjonsparti</object>
+      </resource>
+      <resource name="RmareaPlan">
+        <object>Ressursområde</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.InventoryType" ServiceOnly="false">
+      <resource name="Itemized">
+        <object>Enhetsbeholdning</object>
+      </resource>
+      <resource name="Container">
+        <object>Skuffbeholdning</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Ikke-spesifisert beholdning</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationStatus" ServiceOnly="false">
+      <resource name="Empty">
+        <object>Tom</object>
+      </resource>
+      <resource name="Filling">
+        <object>Fyller</object>
+      </resource>
+      <resource name="Full">
+        <object>Full</object>
+      </resource>
+      <resource name="Emptying">
+        <object>Tømmer</object>
+      </resource>
+      <resource name="ConfirmEmpty">
+        <object>Bekreft tom</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationUse" ServiceOnly="true">
+      <resource name="NoLocations">
+        <object>Ingen plasseringer</object>
+      </resource>
+      <resource name="AllowLocations">
+        <object>Tillat plasseringer</object>
+      </resource>
+      <resource name="UseLocations">
+        <object>Bruk plasseringer</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.BlockType" ServiceOnly="true">
+      <resource name="NoBlock">
+        <object>Ikke blokker</object>
+      </resource>
+      <resource name="HardwareBlock">
+        <object>Maskinvareblokkering</object>
+      </resource>
+      <resource name="OperatorBlock">
+        <object>Operatørblokkering</object>
+      </resource>
+      <resource name="HwOpBlock">
+        <object>Maskinvare- og operatørblokkering</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PrdayStart" ServiceOnly="true">
+      <resource name="NotStarted">
+        <object>Ikke startet</object>
+      </resource>
+      <resource name="Automatic">
+        <object>Startet automatisk</object>
+      </resource>
+      <resource name="Manual">
+        <object>Startet manuelt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CheckStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ikke angitt</object>
+      </resource>
+      <resource name="OkOverTarget">
+        <object>Ok, over målsetning</object>
+      </resource>
+      <resource name="OkOnTarget">
+        <object>Ok, målsetning oppnådd</object>
+      </resource>
+      <resource name="OkUnderTarget">
+        <object>Ok, under målsetning</object>
+      </resource>
+      <resource name="OkT1">
+        <object>Ok, under T1</object>
+      </resource>
+      <resource name="RejectOver">
+        <object>Avvis, over målsetning</object>
+      </resource>
+      <resource name="RejectT1">
+        <object>Avvis, over T1</object>
+      </resource>
+      <resource name="RejectT2">
+        <object>Avvis, under T1</object>
+      </resource>
+      <resource name="RejectUnder">
+        <object>Undervektsavvisning</object>
+      </resource>
+      <resource name="RejectMetal">
+        <object>Metallavvisning</object>
+      </resource>
+      <resource name="RejectLabel">
+        <object>Etikettavvisning</object>
+      </resource>
+      <resource name="RejectQa">
+        <object>Kvalitetskontrollavvisning</object>
+      </resource>
+      <resource name="RejectOther">
+        <object>Andre avvisninger</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Element</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Slett</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Komprimert</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Brukt</object>
+      </resource>
+      <resource name="Returned">
+        <object>Returnert</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.AssignStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Åpen</object>
+      </resource>
+      <resource name="OpenManual">
+        <object>Åpen for operasjoner</object>
+      </resource>
+      <resource name="Closed">
+        <object>Lukket</object>
+      </resource>
+      <resource name="ClosedManual">
+        <object>Manuelt lukket</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Pakke</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Ikke-spesifisert</object>
+      </resource>
+      <resource name="Pending">
+        <object>Venter</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Slettet</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ugyldig</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Komprimert</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Brukt</object>
+      </resource>
+      <resource name="Returned">
+        <object>Returnert</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Samling</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Slettet</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Brukt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.BomRType" ServiceOnly="false">
+      <resource name="None">
+        <object>Ingen</object>
+      </resource>
+      <resource name="Input">
+        <object>Inngående</object>
+      </resource>
+      <resource name="Output">
+        <object>Utgående</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Opprettet</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Til beholdning</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Fra beholdning</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Til ordre</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Fra ordre</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Til samling</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Fra samling</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Slettet</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Konsumert</object>
+      </resource>
+      <resource name="ConsumedPartial">
+        <object>Delvis konsumert</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Ikke-konsumert</object>
+      </resource>
+      <resource name="DeConsumedPartial">
+        <object>Delvis ikke-konsumert</object>
+      </resource>
+      <resource name="Returned">
+        <object>Returnert</object>
+      </resource>
+      <resource name="Opened">
+        <object>Åpnet</object>
+      </resource>
+      <resource name="Closed">
+        <object>Lukket</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Opprettet</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Til beholdning</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Fra beholdning</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Til ordre</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Fra ordre</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Til samling</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Fra samling</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Slettet</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Konsumert</object>
+      </resource>
+      <resource name="Opened">
+        <object>Åpnet</object>
+      </resource>
+      <resource name="Closed">
+        <object>Lukket</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.MatxferRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Overfør</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Slettet</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ugyldig</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Komprimert</object>
+      </resource>
+      <resource name="Yield">
+        <object>Resultat</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Tilbakeføring</object>
+      </resource>
+      <resource name="Generated">
+        <object>Generert</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.TimeRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Tidspunkt</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Ferie</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Slettet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.AccessLogRType" ServiceOnly="false">
+      <resource name="Granted">
+        <object>Tilgang innvilget</object>
+      </resource>
+      <resource name="NotInGroup">
+        <object>Ikke i tilgangsgruppe</object>
+      </resource>
+      <resource name="NotAtThisTime">
+        <object>Ugyldig tilgangstidspunkt</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>Ugyldig ID</object>
+      </resource>
+      <resource name="IsIn">
+        <object>Allerede innenfor</object>
+      </resource>
+      <resource name="IsOut">
+        <object>Allerede utenfor</object>
+      </resource>
+      <resource name="TimeReg">
+        <object>Tidsregistrering</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ContainerRType" ServiceOnly="false">
+      <resource name="Assign">
+        <object>Enhet tilordnet</object>
+      </resource>
+      <resource name="Position">
+        <object>Posisjonsendring</object>
+      </resource>
+      <resource name="DeAssign">
+        <object>Tilordning for enhet fjernet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationClass" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ikke angitt</object>
+      </resource>
+      <resource name="CreateItem">
+        <object>Opprett emne</object>
+      </resource>
+      <resource name="CreatePack">
+        <object>Opprett pakke</object>
+      </resource>
+      <resource name="Item">
+        <object>Emneoperasjon</object>
+      </resource>
+      <resource name="Pack">
+        <object>Pakkeoperasjon</object>
+      </resource>
+      <resource name="IdContainer">
+        <object>Skuffoperasjon</object>
+      </resource>
+      <resource name="Stack">
+        <object>Stabeloperasjon</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Palloperasjon</object>
+      </resource>
+      <resource name="Container">
+        <object>Containeroperasjon</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Forsendelsesoperasjon</object>
+      </resource>
+      <resource name="CreateCollection">
+        <object>Opprett samling</object>
+      </resource>
+      <resource name="CreateTransaction">
+        <object>Opprett transaksjon</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Beholdningsoperasjon</object>
+      </resource>
+      <resource name="Order">
+        <object>Ordreoperasjon</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Ordrelinjeoperasjon</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderType" ServiceOnly="true">
+      <resource name="Login">
+        <object>Pålogging</object>
+      </resource>
+      <resource name="LoginAndAccess">
+        <object>Pålogging og tilgangskontroll</object>
+      </resource>
+      <resource name="Logout">
+        <object>Avlogging</object>
+      </resource>
+      <resource name="LogoutAndExit">
+        <object>Avlogging og tilgangskontroll</object>
+      </resource>
+      <resource name="AccessControl">
+        <object>Tilgangskontroll</object>
+      </resource>
+      <resource name="SignalOut">
+        <object>Utsignal</object>
+      </resource>
+      <resource name="RegisterId">
+        <object>Registrer ID</object>
+      </resource>
+      <resource name="ExitControl">
+        <object>Avslutt kontroll</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderLogging" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Ingen logging</object>
+      </resource>
+      <resource name="LogAccess">
+        <object>Logg tilgang</object>
+      </resource>
+      <resource name="LogUse">
+        <object>Logg all bruk</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Costing.CostBase" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ikke angitt</object>
+      </resource>
+      <resource name="PerDay">
+        <object>Fast per dag</object>
+      </resource>
+      <resource name="PerInput">
+        <object>Per enhet av råvarer</object>
+      </resource>
+      <resource name="PerOutput">
+        <object>Per enhet av produkt</object>
+      </resource>
+      <resource name="PerRuntime">
+        <object>Per time av kjøretid</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.ExpiryReferenceDate" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Produksjonsdag</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Registreringstidspunkt</object>
+      </resource>
+      <resource name="PoFirstDay">
+        <object>Kjøpsordre – første fangstdag</object>
+      </resource>
+      <resource name="PoLastDay">
+        <object>Kjøpsordre – siste fangstdag</object>
+      </resource>
+      <resource name="PoDeliveryTime">
+        <object>Kjøpsordre – leveringstidspunkt</object>
+      </resource>
+      <resource name="PoCatchDay">
+        <object>Kjøpsordre – fangstdag</object>
+      </resource>
+      <resource name="OrderPoFirstDay">
+        <object>Bestill kjøpsordre – første fangstdag</object>
+      </resource>
+      <resource name="OrderPoLastDay">
+        <object>Bestill kjøpsordre – siste fangstdag</object>
+      </resource>
+      <resource name="OrderPoDeliveryTime">
+        <object>Bestill kjøpsordre – leveringstidspunkt</object>
+      </resource>
+      <resource name="OrderPoCatchDay">
+        <object>Bestill kjøpsordre – fangstdag</object>
+      </resource>
+      <resource name="Custom">
+        <object>Egendefinert</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyContextType" ServiceOnly="true">
+      <resource name="TargetSource">
+        <object>Banekilde</object>
+      </resource>
+      <resource name="TargetDestination">
+        <object>Banemål</object>
+      </resource>
+      <resource name="CopySource">
+        <object>Kopier banekilde</object>
+      </resource>
+      <resource name="CopyDestination">
+        <object>Kopier banemål</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyMethod" ServiceOnly="true">
+      <resource name="Add">
+        <object>Legg til</object>
+      </resource>
+      <resource name="Subtract">
+        <object>Trekk fra</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PackRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Ingen registrering</object>
+      </resource>
+      <resource name="Instance">
+        <object>Registrer hver pakke</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PathRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Ingen registrering</object>
+      </resource>
+      <resource name="Instance">
+        <object>Registrer hver transaksjon</object>
+      </resource>
+      <resource name="Periodic">
+        <object>Registrer periodisk</object>
+      </resource>
+      <resource name="Update">
+        <object>Oppdater én post</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.SelectRuleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>Inndatavalg</object>
+      </resource>
+      <resource name="Output">
+        <object>Utdatavalg</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.PlotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Ventende</object>
+      </resource>
+      <resource name="Available">
+        <object>Tilgjengelig</object>
+      </resource>
+      <resource name="Completed">
+        <object>Fullført</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.ContextSource" ServiceOnly="true">
+      <resource name="Reference">
+        <object>Automatisk</object>
+      </resource>
+      <resource name="Source">
+        <object>Kilde</object>
+      </resource>
+      <resource name="Destination">
+        <object>Mål</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.Result" ServiceOnly="false">
+      <resource name="Ok">
+        <object>OK</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Operasjonen støttes ikke</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>Behandlingsenhetsinformasjon mangler</object>
+      </resource>
+      <resource name="NoMaterial">
+        <object>Materialinformasjon mangler</object>
+      </resource>
+      <resource name="NoProcessPeriod">
+        <object>Behandlingsperiodeinformasjon mangler</object>
+      </resource>
+      <resource name="NoProductionDay">
+        <object>Produksjonsdagsinformasjon mangler</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Det oppstod en databasefeil</object>
+      </resource>
+      <resource name="NoSSCC">
+        <object>Selskap mangler SSCC-informasjon</object>
+      </resource>
+      <resource name="CreateSSCC">
+        <object>Kan ikke opprette SSCC. Det kan hende at prefikset er ugyldig</object>
+      </resource>
+      <resource name="HasOrder">
+        <object>Enheten er tilordnet til en ordre</object>
+      </resource>
+      <resource name="InStack">
+        <object>Enheten er tilordnet til en stabel</object>
+      </resource>
+      <resource name="OnPallet">
+        <object>Enheten er tilordnet til en pall</object>
+      </resource>
+      <resource name="InContainer">
+        <object>Enheten er tilordnet til en container</object>
+      </resource>
+      <resource name="InShipment">
+        <object>Enheten er tilordnet til en forsendelse</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Ingen gjeldende ordre</object>
+      </resource>
+      <resource name="IterationTransaction">
+        <object>Transaksjonen tillates ikke i gjentakelse</object>
+      </resource>
+      <resource name="NoCreateCount">
+        <object>Antall enheter som mangler</object>
+      </resource>
+      <resource name="XmlParse">
+        <object>Kan ikke analysere XML</object>
+      </resource>
+      <resource name="NoStation">
+        <object>Stasjonsinformasjon mangler</object>
+      </resource>
+      <resource name="NoPo">
+        <object>Kjøpsordreinformasjon mangler</object>
+      </resource>
+      <resource name="NoPlot">
+        <object>Informasjon om produksjonsparti mangler</object>
+      </resource>
+      <resource name="NoCurrentPack">
+        <object>Ingen gjeldende pakke</object>
+      </resource>
+      <resource name="Conversion">
+        <object>Streng-til-verdi-konvertering mislyktes</object>
+      </resource>
+      <resource name="OrderNotFound">
+        <object>Kan ikke laste ordre fra databasen</object>
+      </resource>
+      <resource name="MaterialNotFound">
+        <object>Kan ikke laste materiale fra databasen</object>
+      </resource>
+      <resource name="UnitType">
+        <object>Ugyldig enhetstype for operasjon</object>
+      </resource>
+      <resource name="OperationLoad">
+        <object>Kan ikke laste operasjon fra databasen</object>
+      </resource>
+      <resource name="NoPack">
+        <object>Pakkeinformasjon mangler</object>
+      </resource>
+      <resource name="NoSite">
+        <object>Områdeinformasjon mangler</object>
+      </resource>
+      <resource name="Configuration">
+        <object>Ugyldig operasjonskonfigurasjon</object>
+      </resource>
+      <resource name="InvalidScope">
+        <object>Ugyldig enhetssøkeområde</object>
+      </resource>
+      <resource name="NoStack">
+        <object>Stabelinformasjon mangler</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>Pallinformasjon mangler</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>Samlingsstatus tillater ikke operasjon</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>Samlingsinformasjon mangler</object>
+      </resource>
+      <resource name="NotInStack">
+        <object>Enheten er ikke i en stabel</object>
+      </resource>
+      <resource name="NotOnPallet">
+        <object>Enheten er ikke på en pall</object>
+      </resource>
+      <resource name="NotInContainer">
+        <object>Enheten er ikke i en container</object>
+      </resource>
+      <resource name="NotInShipment">
+        <object>Enheten er ikke i en forsendelse</object>
+      </resource>
+      <resource name="NoInventory">
+        <object>Beholdningsinformasjon mangler</object>
+      </resource>
+      <resource name="NoItem">
+        <object>Elementinformasjon mangler</object>
+      </resource>
+      <resource name="NoOrderLine">
+        <object>Ordrelinjeinformasjon mangler</object>
+      </resource>
+      <resource name="Transaction">
+        <object>Transaksjonsfeil</object>
+      </resource>
+      <resource name="NotInventory">
+        <object>Den angitte behandlingsenheten er ikke et lager</object>
+      </resource>
+      <resource name="InventoryReject">
+        <object>Lageret godtok ikke enheten</object>
+      </resource>
+      <resource name="OnInventory">
+        <object>Enheten finnes allerede på lager</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>Enheten er ikke på lager</object>
+      </resource>
+      <resource name="UnitStatus">
+        <object>Enhetsstatus tillater ikke operasjon</object>
+      </resource>
+      <resource name="NoContainer">
+        <object>Containerinformasjon mangler</object>
+      </resource>
+      <resource name="NoShipment">
+        <object>Forsendelsesinformasjon mangler</object>
+      </resource>
+      <resource name="LoadSite">
+        <object>Kan ikke laste områdeinformasjon fra databasen</object>
+      </resource>
+      <resource name="LoadCompany">
+        <object>Kan ikke laste selskapsinformasjon fra databasen</object>
+      </resource>
+      <resource name="HasPacks">
+        <object>Kan ikke utføre operasjonen fordi samlingen har pakker </object>
+      </resource>
+      <resource name="HasStacks">
+        <object>Kan ikke utføre operasjonen fordi samlingen har stabler</object>
+      </resource>
+      <resource name="HasPallets">
+        <object>Kan ikke utføre operasjonen fordi samlingen har paller</object>
+      </resource>
+      <resource name="HasContainers">
+        <object>Kan ikke utføre operasjonen fordi samlingen har containere</object>
+      </resource>
+      <resource name="FailOperation">
+        <object>Operasjonen ble laget eksplisitt for å mislykkes</object>
+      </resource>
+      <resource name="InPack">
+        <object>Enheten finnes allerede i en pakke</object>
+      </resource>
+      <resource name="NotInPack">
+        <object>Enheten er ikke i en pakke</object>
+      </resource>
+      <resource name="PackStatus">
+        <object>Pakkestatus tillater ikke operasjon</object>
+      </resource>
+      <resource name="OrderType">
+        <object>Ugyldig ordretype for operasjon</object>
+      </resource>
+      <resource name="Exception">
+        <object>Programunntak</object>
+      </resource>
+      <resource name="OperationClass">
+        <object>Ugyldig operasjonsklasse</object>
+      </resource>
+      <resource name="NoSource">
+        <object>Kildebehandlingsenhetsinformasjon mangler</object>
+      </resource>
+      <resource name="NoDestination">
+        <object>Målbehandlingsenhetsinformasjon mangler</object>
+      </resource>
+      <resource name="MaterialTransaction">
+        <object>Kan ikke registrere materialtransaksjon</object>
+      </resource>
+      <resource name="MatchContext">
+        <object>Behandlingsenhetsstatus tillater ikke operasjon</object>
+      </resource>
+      <resource name="TransactionConfig">
+        <object>Transaksjonssystemet er ikke konfigurert for operasjon</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Henting av eksternt tjenestegrensesnitt mislyktes</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Finner ikke ekstern grensesnittinformasjon</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Finner ikke ekstern serverinformasjon</object>
+      </resource>
+      <resource name="NoOperationData">
+        <object>Operasjonsdata mangler</object>
+      </resource>
+      <resource name="NoPrintFields">
+        <object>Utskriftsfeltinformasjon mangler</object>
+      </resource>
+      <resource name="NoPieceCount">
+        <object>Stykketellingsinformasjon mangler</object>
+      </resource>
+      <resource name="ItemLoad">
+        <object>Kan ikke laste elementpost</object>
+      </resource>
+      <resource name="ItemInsert">
+        <object>Kan ikke sette inn elementpost</object>
+      </resource>
+      <resource name="ItemUpdate">
+        <object>Kan ikke oppdatere elementpost</object>
+      </resource>
+      <resource name="ItemRType">
+        <object>Elementposttypen tillater ikke operasjon</object>
+      </resource>
+      <resource name="PackLoad">
+        <object>Kan ikke laste pakkepost</object>
+      </resource>
+      <resource name="PackInsert">
+        <object>Kan ikke sette inn pakkepost</object>
+      </resource>
+      <resource name="PackUpdate">
+        <object>Kan ikke oppdatere pakkepost</object>
+      </resource>
+      <resource name="PackRType">
+        <object>Pakkeposttypen tillater ikke operasjon</object>
+      </resource>
+      <resource name="CollectionLoad">
+        <object>Kan ikke laste samlingspost</object>
+      </resource>
+      <resource name="CollectionInsert">
+        <object>Kan ikke sette inn samlingspost</object>
+      </resource>
+      <resource name="CollectionUpdate">
+        <object>Kan ikke oppdatere samlingspost</object>
+      </resource>
+      <resource name="CollectionRType">
+        <object>Samlingsposttypen tillater ikke operasjon</object>
+      </resource>
+      <resource name="CollectionUnitType">
+        <object>Typen enheter i samlingen tillater ikke operasjon</object>
+      </resource>
+      <resource name="NoOrderStatus">
+        <object>Ordrestatusinformasjon mangler</object>
+      </resource>
+      <resource name="NotInOrder">
+        <object>Enheten er ikke tilordnet til en ordre</object>
+      </resource>
+      <resource name="OrderLoad">
+        <object>Kan ikke laste ordreinformasjon fra databasen</object>
+      </resource>
+      <resource name="OrderLineLoad">
+        <object>Kan ikke laste linjeinformasjon fra databasen</object>
+      </resource>
+      <resource name="OrderStatus">
+        <object>Ordrestatusen tillater ikke operasjon</object>
+      </resource>
+      <resource name="OrderLineStatus">
+        <object>Ordrelinjestatusen tillater ikke operasjon</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Kan ikke opprette behandlingsenhet for operasjon</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Operasjon pågår</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Resultat ikke angitt</object>
+      </resource>
+      <resource name="NoExternalNumber">
+        <object>Eksternt nummer mangler</object>
+      </resource>
+      <resource name="NoExternalCode">
+        <object>Ekstern kode mangler</object>
+      </resource>
+      <resource name="PrintFailed">
+        <object>Utskriftsoperasjon mislyktes</object>
+      </resource>
+      <resource name="CustomOpNotLoaded">
+        <object>Egendefinert operasjon ikke lastet</object>
+      </resource>
+      <resource name="CustomOpInfoMissing">
+        <object>Deler av informasjon om egendefinert operasjon mangler</object>
+      </resource>
+      <resource name="CustomOpXmlMissing">
+        <object>XML-definisjon av egendefinert operasjon mangler</object>
+      </resource>
+      <resource name="CustomException">
+        <object>Unntak i egendefinert operasjon</object>
+      </resource>
+      <resource name="Validation">
+        <object>Valideringsfeil</object>
+      </resource>
+      <resource name="PreOperation">
+        <object>Feil før operasjon</object>
+      </resource>
+      <resource name="DoOperation">
+        <object>Operasjonsfeil</object>
+      </resource>
+      <resource name="PostOperation">
+        <object>Feil etter operasjon</object>
+      </resource>
+      <resource name="NoCatchDay">
+        <object>Fangstdagsinformasjon mangler</object>
+      </resource>
+      <resource name="InvalidInventory">
+        <object>Ugyldig lager for operasjon</object>
+      </resource>
+      <resource name="LoadType">
+        <object>Kan ikke laste type</object>
+      </resource>
+      <resource name="UnitCount">
+        <object>Ugyldig antall enheter angitt</object>
+      </resource>
+      <resource name="ConvertedInventory">
+        <object>Den konverterte samlingen er i en beholdning som ikke samsvarer med pakkebeholdningen</object>
+      </resource>
+      <resource name="ConvertedOrder">
+        <object>Den konverterte samlingen er i en ordre som ikke samsvarer med pakkeordren</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Vektinformasjon mangler</object>
+      </resource>
+      <resource name="NoProperty">
+        <object>Egenskapsnavn mangler</object>
+      </resource>
+      <resource name="NotProperty">
+        <object>Det gitte navnet er ikke et egenskapsnavn</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Enheten oppbevares for QC</object>
+      </resource>
+      <resource name="PoStatus">
+        <object>Kjøpsordrestatus tillater ikke operasjon</object>
+      </resource>
+      <resource name="InvalidPartialAmount">
+        <object>Kan ikke endre enheten med den angitte mengden</object>
+      </resource>
+      <resource name="NoPoLine">
+        <object>Kjøpsordrelinjen samsvarer med det angitte produktet</object>
+      </resource>
+      <resource name="HasPoLine">
+        <object>Kjøpsordrelinjen er allerede tilordnet</object>
+      </resource>
+      <resource name="NoMaterialTransaction">
+        <object>Materialtransaksjonen er ikke registrert</object>
+      </resource>
+      <resource name="NoStockTake">
+        <object>Ingen aktiv vareopptelling</object>
+      </resource>
+      <resource name="StartStockTake">
+        <object>Kan ikke starte vareopptelling. Det kan hende at én allerede er aktiv</object>
+      </resource>
+      <resource name="StockTakeMethod">
+        <object>Vareopptellingsmetoden tillater ikke operasjon</object>
+      </resource>
+      <resource name="StockTakeUnitLoad">
+        <object>Ugyldig vareopptellingsinformasjon for en enhet</object>
+      </resource>
+      <resource name="StockTakeUnitType">
+        <object>Vareopptellingen er ikke konfigurert for denne enhetstypen</object>
+      </resource>
+      <resource name="StockTakeStatus">
+        <object>Varetellingsstatusen tillater ikke operasjon</object>
+      </resource>
+      <resource name="ScriptingError">
+        <object>Det oppstod feil ved kjøring av skript</object>
+      </resource>
+      <resource name="InventoryKeepMin">
+        <object>Enheten er ikke gammel nok</object>
+      </resource>
+      <resource name="InventoryKeepMax">
+        <object>Enheten er for gammel</object>
+      </resource>
+      <resource name="NoValue">
+        <object>Enhetsverdi mangler</object>
+      </resource>
+      <resource name="LogRecordLoad">
+        <object>Det oppstod feil ved lasting av loggpost</object>
+      </resource>
+      <resource name="LogRecordExecuted">
+        <object>Loggposten er allerede kjørt</object>
+      </resource>
+      <resource name="InventoryType">
+        <object>Beholdningstypen tillater ikke operasjon</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>Batchinformasjon mangler</object>
+      </resource>
+      <resource name="NoLot">
+        <object>Partiinformasjon mangler</object>
+      </resource>
+      <resource name="NoProductionLot">
+        <object>Informasjon om produksjonsparti mangler</object>
+      </resource>
+      <resource name="NoRmArea">
+        <object>Ressursområdeinformasjon mangler</object>
+      </resource>
+      <resource name="InvalidAmount">
+        <object>Ugyldig mengde</object>
+      </resource>
+      <resource name="NoInventoryStatus">
+        <object>Finner ingen beholdningsstatuspost</object>
+      </resource>
+      <resource name="MultipleInventoryStatus">
+        <object>Finner flere beholdningsstatusposter</object>
+      </resource>
+      <resource name="FeatureNotLicensed">
+        <object>Funksjonen er ikke lisensiert</object>
+      </resource>
+      <resource name="CodeNotFound">
+        <object>Finner ikke et objekt med den angitte koden</object>
+      </resource>
+      <resource name="InvalidMessageFields">
+        <object>Feltoppsettet for meldingen er ugyldig</object>
+      </resource>
+      <resource name="BomNotFound">
+        <object>Finner ikke stykklisten i databasen</object>
+      </resource>
+      <resource name="NotInBom">
+        <object>Det angitte produktet finnes ikke i stykklisten.</object>
+      </resource>
+      <resource name="NoBom">
+        <object>Det er ikke angitt noen stykkliste</object>
+      </resource>
+      <resource name="NoBomRType">
+        <object>"&gt;Det er ikke angitt noen posttype for stykkliste</object>
+      </resource>
+      <resource name="PrunitBom">
+        <object>Behandlingsenheten har ikke den nødvendige stykklisteinformasjonen</object>
+      </resource>
+      <resource name="LotBom">
+        <object>Partiet har ikke den nødvendige stykklisteinformasjonen</object>
+      </resource>
+      <resource name="ProductionLotBom">
+        <object>Produksjonspartiet har ikke den nødvendige stykklisteinformasjonen</object>
+      </resource>
+      <resource name="InvalidDate">
+        <object>Ugyldig dato for operasjon</object>
+      </resource>
+      <resource name="PartialAdjust">
+        <object>Innholdet i en delpakke kan ikke justeres</object>
+      </resource>
+      <resource name="NoCategory">
+        <object>Kategoriinformasjon mangler</object>
+      </resource>
+      <resource name="NoQuality">
+        <object>Kvalitetsinformasjon mangler</object>
+      </resource>
+      <resource name="NoFatClass">
+        <object>Fettklasseinformasjon mangler</object>
+      </resource>
+      <resource name="SelectYieldGroup">
+        <object>Valg av resultatgruppe mislyktes</object>
+      </resource>
+      <resource name="NoRiCountry">
+        <object>Informasjon om fødselsland mangler</object>
+      </resource>
+      <resource name="NoBrCountry">
+        <object>Informasjon om oppalingsland mangler</object>
+      </resource>
+      <resource name="NoSlaughterHouse">
+        <object>Slaktehusinformasjon mangler</object>
+      </resource>
+      <resource name="NoSlaughterDay">
+        <object>Slaktedagsinformasjon mangler</object>
+      </resource>
+      <resource name="NoProcessor">
+        <object>Behandlingsinformasjon mangler</object>
+      </resource>
+      <resource name="SelectLot">
+        <object>Kan ikke velge parti</object>
+      </resource>
+      <resource name="IndividualLoad">
+        <object>Kan ikke laste enkeltpost</object>
+      </resource>
+      <resource name="NoYieldGroup">
+        <object>Resultatgruppeinformasjon mangler</object>
+      </resource>
+      <resource name="PalletNotReserved">
+        <object>Det er ikke reservert noen pall for ordren</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>Produktene samsvarer ikke</object>
+      </resource>
+      <resource name="Station">
+        <object>Kan ikke opprette stasjon for operasjon</object>
+      </resource>
+      <resource name="InvalidExpiry">
+        <object>Ugyldig utløpsdato</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.EmployeeResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>OK</object>
+      </resource>
+      <resource name="DbError">
+        <object>Databasefeil</object>
+      </resource>
+      <resource name="NotFound">
+        <object>Finner ikke ansatt</object>
+      </resource>
+      <resource name="MultipleFound">
+        <object>Oppslaget returnerte flere poster</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ugyldig ansattinformasjon</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>Etter liste</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Alle</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.NumberMethod" ServiceOnly="false">
+      <resource name="OwnNumber">
+        <object>Egne numre</object>
+      </resource>
+      <resource name="ParentNumber">
+        <object>Fra hovedordre</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Lukket</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Avbrutt</object>
+      </resource>
+      <resource name="OnHold">
+        <object>På vent</object>
+      </resource>
+      <resource name="Open">
+        <object>Åpen</object>
+      </resource>
+      <resource name="Complete">
+        <object>Fullført</object>
+      </resource>
+      <resource name="CompleteClosed">
+        <object>Fullført og lukket</object>
+      </resource>
+      <resource name="Dispatched">
+        <object>Fordelt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderType" ServiceOnly="false">
+      <resource name="Customer">
+        <object>Salg</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Beholdning</object>
+      </resource>
+      <resource name="Production">
+        <object>Produksjon </object>
+      </resource>
+      <resource name="Transfer">
+        <object>Overfør</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationSetType" ServiceOnly="true">
+      <resource name="Generic">
+        <object>Generisk</object>
+      </resource>
+      <resource name="DefaultItem">
+        <object>Standardelement</object>
+      </resource>
+      <resource name="DefaultPack">
+        <object>Standardpakke</object>
+      </resource>
+      <resource name="DefaultStack">
+        <object>Standardstabel</object>
+      </resource>
+      <resource name="DefaultPallet">
+        <object>Standardpall</object>
+      </resource>
+      <resource name="DefaultContainer">
+        <object>Standardcontainer</object>
+      </resource>
+      <resource name="DefaultShipment">
+        <object>Standardforsendelse</object>
+      </resource>
+      <resource name="DefaultOrder">
+        <object>Standardordre</object>
+      </resource>
+      <resource name="DefaultOrderLine">
+        <object>Standardordrelinje</object>
+      </resource>
+      <resource name="DefaultInventory">
+        <object>Standardbeholdning</object>
+      </resource>
+      <resource name="DefaultTransaction">
+        <object>Standardtransaksjon</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.DataStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Åpen</object>
+      </resource>
+      <resource name="Closed">
+        <object>Lukket</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Ugyldig</object>
+      </resource>
+      <resource name="PendingClose">
+        <object>Venter på lukking</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.UnitInventoryStatus" ServiceOnly="false">
+      <resource name="Available">
+        <object>Tilgjengelig</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Oppbevares for QC</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.CountStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>Ikke funnet</object>
+      </resource>
+      <resource name="Left">
+        <object>Venstre</object>
+      </resource>
+      <resource name="Entered">
+        <object>Angitt</object>
+      </resource>
+      <resource name="Found">
+        <object>Funnet</object>
+      </resource>
+      <resource name="New">
+        <object>Ny</object>
+      </resource>
+      <resource name="Error">
+        <object>Feil</object>
+      </resource>
+      <resource name="RType">
+        <object>Ugyldig status</object>
+      </resource>
+      <resource name="NotLeft">
+        <object>Ikke venstre</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ingen vareopptellinger</object>
+      </resource>
+      <resource name="CountUnits">
+        <object>Tell elementer og pakker</object>
+      </resource>
+      <resource name="CountStacks">
+        <object>Tell stabler</object>
+      </resource>
+      <resource name="CountPallets">
+        <object>Tell paller</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeStatus" ServiceOnly="false">
+      <resource name="Active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Avbrutt</object>
+      </resource>
+      <resource name="CountDone">
+        <object>Telling fullført</object>
+      </resource>
+      <resource name="Completed">
+        <object>Fullført</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeType" ServiceOnly="false">
+      <resource name="Count">
+        <object>Enhetstelling</object>
+      </resource>
+      <resource name="Snapshot">
+        <object>Statisk utvalg</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoAcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>Etter liste</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Alle</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Utilities.FormatText" ServiceOnly="false">
+      <resource name="Stack">
+        <object>Stabel</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Pall</object>
+      </resource>
+      <resource name="Order">
+        <object>Ordre</object>
+      </resource>
+      <resource name="UnlimitedOrder">
+        <object>ubegrenset</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>ingen</object>
+      </resource>
+      <resource name="Packs">
+        <object>pakker</object>
+      </resource>
+      <resource name="Items">
+        <object>elementer</object>
+      </resource>
+      <resource name="Pcs">
+        <object>stk</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.RmAreaRelationType" ServiceOnly="false">
+      <resource name="NoRelation">
+        <object>Ikke angitt</object>
+      </resource>
+      <resource name="PoSupplier">
+        <object>Kjøpsordreleverandør</object>
+      </resource>
+      <resource name="PoProducer">
+        <object>Kjøpsordreprodusent</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

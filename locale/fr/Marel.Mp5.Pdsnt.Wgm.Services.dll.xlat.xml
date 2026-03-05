@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fr">
+  <industry>    
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Collectors.ScopeDataCollector" ServiceOnly="false">
+      <resource name="Err.Timeout">
+        <object>Temps mort pendant la collecte de données. Pas assez de données collectionnées.</object>
+      </resource>
+      <resource name="Err.NoPreSampleData">
+        <object>Collecte de données d'échantillonnage impossible par manque de signaux du détecteur de démarrage.</object>
+      </resource>
+      <resource name="Err.WrongDeviceMode">
+        <object>Démarrage de collecte de données échoué. Le dispositif ne marche pas au mode 90-03.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2DeviceHandler" ServiceOnly="false">
+      <resource name="Err.OfflineCallFailed">
+        <object>Dispositif pas en ligne. {0} échoué.</object>
+      </resource>    
+      <resource name="Err.ReadRegisterTimeout">
+        <object>Temps mort pendant la lecture de l'index.</object>
+      </resource>
+      <resource name="Err.GetStatus">
+        <object>Exécution GetStatus échouée</object>
+      </resource>
+      <resource name="Err.GetRegisters">
+        <object>Exécution GetRegisters échouée</object>
+      </resource>
+      <resource name="Err.PutGetRegisters">
+        <object>Exécution PutGetRegisters échouée.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2RawDataHandler" ServiceOnly="false">
+      <resource name="Err.NotOnline">
+        <object>Dispositif MWS2 pas en ligne</object>
+      </resource>    
+      <resource name="Err.ScopeCollectionBusy">
+        <object>Collecte de données en cours. Veuillez attendre sa fin …</object>
+      </resource>
+      <resource name="Err.StaticWeightTimeout">
+        <object>Attente de temps mort de poids statique</object>
+      </resource>
+      <resource name="Err.NoDataFromDevice">
+        <object>Impossible d'avoir des données du dispositif</object>
+      </resource>
+      <resource name="Err.DeviceInWrongMode">
+        <object>Le dispositif ne marche pas au mode 90-03. Extraction de données de poids statique impossible.</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

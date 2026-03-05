@@ -1,0 +1,5318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fi">
+  <industry>
+    <type name="Marel.Mp5.Base.UI.Windows.Forms.Programs.LogButton" ServiceOnly="true">
+      <resource name="Log">
+        <object>Ohjelman {0} loki</object>
+      </resource>
+      <resource name="RecordHistory">
+        <object>Tietuehistoria</object>
+      </resource>
+      <resource name="LogExecutePrograms">
+        <object>Suoritettavien ohjelmien loki</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.WindowsApplicationContainer" ServiceOnly="false">
+      <resource name="ErrorInitializing">
+        <object>Alustuksen aikana ilmeni käsittelemätön virhe.</object>
+      </resource>
+      <resource name="ErrorRunning">
+        <object>Ohjelman suorituksen aikana ilmeni käsittelemätön virhe.</object>
+      </resource>
+      <resource name="Configuring">
+        <object>Määritetään järjestelmä...</object>
+      </resource>
+      <resource name="Authenticating">
+        <object>Todennetaan...</object>
+      </resource>
+      <resource name="PasswordExpired">
+        <object>Salasana on vanhentunut</object>
+      </resource>
+      <resource name="NotAuthenticated">
+        <object>Väärä käyttäjänimi tai salasana</object>
+      </resource>
+      <resource name="Connecting">
+        <object>Muodostetaan yhteyttä...</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Ei yhteyttä palvelimeen</object>
+      </resource>
+      <resource name="NoAccessToConfiguration">
+        <object>Annetulla käyttäjällä ei ole käyttöoikeuksia mihinkään valikkokohteisiin tässä määrityksessä.</object>
+      </resource>
+      <resource name="LicenseLookupFailed">
+        <object>Kaikki asiakaskäyttöoikeudet ovat tällä hetkellä käytössä.</object>
+      </resource>
+      <resource name="ReallyExit">
+        <object>Haluatko todella poistua Innovasta?</object>
+      </resource>
+      <resource name="ReallyLogout">
+        <object>Haluatko todella kirjautua ulos Innovasta?</object>
+      </resource>
+      <resource name="AllWindowsWillClose">
+        <object>Kaikki {0}-ikkunat suljetaan!</object>
+      </resource>
+      <resource name="Warning">
+        <object>Varoitus</object>
+      </resource>
+      <resource name="KeyExpiring">
+        <object>Innova käyttää käyttöoikeusavainta, joka vanhenee pian. Innovan viimeinen täydellisen toiminnan käyttöpäivä nykyisellä käyttöoikeusavaimella on {0}</object>
+      </resource>
+      <resource name="KeyInvalid">
+        <object>Nykyinen asennettu käyttöoikeusavain ei ole kelvollinen Innova-palvelinkoneelle. Hanki uusi käyttöoikeusavain.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.MainFrame" ServiceOnly="false">
+      <resource name="fileMenu">
+        <object>&amp;Tiedosto</object>
+      </resource>
+      <resource name="menuItemNewWindow">
+        <object>&amp;Uusi ikkuna</object>
+      </resource>
+      <resource name="menuItemCloseWindow">
+        <object>&amp;Sulje ikkuna</object>
+      </resource>
+      <resource name="menuItemCloseTab">
+        <object>Sulje &amp;välilehti</object>
+      </resource>
+      <resource name="menuItemPageSetup">
+        <object>Sivun&amp;asetukset...</object>
+      </resource>
+      <resource name="menuItemPrint">
+        <object>&amp;Tulosta</object>
+      </resource>
+      <resource name="menuItemPrintPreview">
+        <object>Tulostuksen&amp;esikatselu</object>
+      </resource>
+      <resource name="menuItemChangePassword">
+        <object>V&amp;aihda salasanaa</object>
+      </resource>
+      <resource name="menuItemLogout">
+        <object>&amp;Kirjaudu ulos</object>
+      </resource>
+      <resource name="menuItemExit">
+        <object>L&amp;opeta</object>
+      </resource>
+      <resource name="editMenu">
+        <object>&amp;Muokkaa</object>
+      </resource>
+      <resource name="menuItemUndo">
+        <object>&amp;Kumoa</object>
+      </resource>
+      <resource name="menuItemRedo">
+        <object>&amp;Tee uudelleen</object>
+      </resource>
+      <resource name="menuItemCut">
+        <object>L&amp;eikkaa</object>
+      </resource>
+      <resource name="menuItemCopy">
+        <object>&amp;Kopioi</object>
+      </resource>
+      <resource name="menuItemPaste">
+        <object>&amp;Liitä</object>
+      </resource>
+      <resource name="menuItemDelete">
+        <object>&amp;Poista</object>
+      </resource>
+      <resource name="menuItemSelectAll">
+        <object>Valitse &amp;kaikki</object>
+      </resource>
+      <resource name="viewMenu">
+        <object>&amp;Näytä</object>
+      </resource>
+      <resource name="toolbarsMenu">
+        <object>&amp;Työkalurivit</object>
+      </resource>
+      <resource name="fontsizeMenu">
+        <object>&amp;Fontin koko</object>
+      </resource>
+      <resource name="menuItemErrorLog">
+        <object>&amp;Virheloki</object>
+      </resource>
+      <resource name="menuItemFullScreen">
+        <object>&amp;Koko näyttö</object>
+      </resource>
+      <resource name="toolsMenu">
+        <object>&amp;Työkalut</object>
+      </resource>
+      <resource name="menuItemRegionalSettings">
+        <object>&amp;Alueelliset asetukset...</object>
+      </resource>
+      <resource name="helpMenu">
+        <object>&amp;Ohje</object>
+      </resource>
+      <resource name="menuItemAboutMPS">
+        <object>&amp;Tietoja Innovasta...</object>
+      </resource>
+      <resource name="menuItemVersionInformation">
+        <object>&amp;Versiotiedot...</object>
+      </resource>
+      <resource name="menuItemApplicationHelp">
+        <object>Sovellus&amp;ohje</object>
+      </resource>
+      <resource name="barCheckItem1">
+        <object>Valikko</object>
+      </resource>
+      <resource name="statusBarErrorLog">
+        <object>Virheloki</object>
+      </resource>
+      <resource name="programName">
+        <object>Marel - Innova</object>
+      </resource>
+      <resource name="statusbarName">
+        <object>Tilarivi</object>
+      </resource>
+      <resource name="menuItemExportPdf">
+        <object>&amp;PDF...</object>
+      </resource>
+      <resource name="menuItemExportHtml">
+        <object>&amp;HTML...</object>
+      </resource>
+      <resource name="menuItemExportText">
+        <object>&amp;Teksti...</object>
+      </resource>
+      <resource name="menuItemExportExcel">
+        <object>&amp;Excel...</object>
+      </resource>
+      <resource name="menuItemExportRtf">
+        <object>&amp;RTF-tiedosto...</object>
+      </resource>
+      <resource name="menuItemExportGraphics">
+        <object>&amp;Kuvat...</object>
+      </resource>
+      <resource name="menuItemExportCsv">
+        <object>&amp;CSV...</object>
+      </resource>
+      <resource name="menuItemExportMht">
+        <object>&amp;Mht</object>
+      </resource>
+      <resource name="menuItemExport">
+        <object>&amp;Vie</object>
+      </resource>
+      <resource name="barButtonItem4">
+        <object>Sulje välilehti</object>
+      </resource>
+      <resource name="barButtonItem5">
+        <object>Sulje kaikki välilehdet</object>
+      </resource>
+      <resource name="barButtonItem6">
+        <object>Sulje muut välilehdet</object>
+      </resource>
+      <resource name="menuItemQuickTabs">
+        <object>Pikavälilehdet</object>
+      </resource>
+      <resource name="menuItemViewXlat">
+        <object>Näytä &amp;käännökset...</object>
+      </resource>
+      <resource name="NoTranslations">
+        <object>Käännöstietoja ei löydy.</object>
+      </resource>
+      <resource name="menuItemOptions">
+        <object>&amp;Asetukset...</object>
+      </resource>
+      <resource name="menuItemDocumentSystem">
+        <object>Tiedostojärjestelmä</object>
+      </resource>
+      <resource name="ApplicationHelp">
+        <object>Sovellusohje</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.AboutMps" ServiceOnly="false">
+      <resource name="VersionText">
+        <object>Versio {0}</object>
+      </resource>
+      <resource name="CopyrightText">
+        <object>Copyright © {0} {1}</object>
+      </resource>
+      <resource name="OK">
+        <object>OK</object>
+      </resource>
+      <resource name="LicensedToText">
+        <object>Käyttöoikeus:</object>
+      </resource>
+      <resource name="ProductCodeText">
+        <object>Tuotekoodi:</object>
+      </resource>
+      <resource name="RightsReservedText">
+        <object>Kaikki oikeudet pidätetään.</object>
+      </resource>
+      <resource name="LicenseKey">
+        <object>Käyttöoikeusavain:</object>
+      </resource>
+      <resource name="LicenseType">
+        <object>Tyyppi:</object>
+      </resource>
+      <resource name="LicenseInstallDate">
+        <object>Asennuspäivämäärä:</object>
+      </resource>
+      <resource name="LicenseExpiresOn">
+        <object>Umpeutuu:</object>
+      </resource>
+      <resource name="Permanent">
+        <object>Pysyvä</object>
+      </resource>
+      <resource name="Temporary">
+        <object>Väliaikainen</object>
+      </resource>
+      <resource name="NoLicenseKey">
+        <object>Ei käyttöoikeusavainta asennettuna</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.StandardGridView" ServiceOnly="false">
+      <resource name="RecordViewButton">
+        <object>Tietuenäkymä</object>
+      </resource>
+      <resource name="CloneButton">
+        <object>Kloonaa</object>
+      </resource>
+      <resource name="AutofilterButton">
+        <object>Suodata automaattisesti</object>
+      </resource>
+      <resource name="OperationsButton">
+        <object>Toiminnot</object>
+      </resource>
+      <resource name="ConfirmButton">
+        <object>Vahvista</object>
+      </resource>
+      <resource name="InsufficientAccess">
+        <object>Puutteellinen käyttöoikeustaso</object>
+      </resource>
+      <resource name="SaveChanges">
+        <object>Haluatko tallentaa muutokset?</object>
+      </resource>
+      <resource name="ClosingGrid">
+        <object>Suljetaan ruudukkoa</object>
+      </resource>
+      <resource name="TableViewButton">
+        <object>Taulukkonäkymä</object>
+      </resource>
+      <resource name="activeObjects">
+        <object>Aktiivinen</object>
+      </resource>
+      <resource name="inactiveObjects">
+        <object>Passiivinen</object>
+      </resource>
+      <resource name="bothObjects">
+        <object>Molemmat</object>
+      </resource>
+      <resource name="objecttypes">
+        <object>Näytä objektit, jotka ovat:</object>
+      </resource>
+      <resource name="XlatButton">
+        <object>Xlat</object>
+      </resource>
+      <resource name="ViewSql">
+        <object>SQL</object>
+      </resource>
+      <resource name="FirstButton">
+        <object>Ensimmäinen</object>
+      </resource>
+      <resource name="PreviousButton">
+        <object>Edellinen</object>
+      </resource>
+      <resource name="NextButton">
+        <object>Seuraava</object>
+      </resource>
+      <resource name="LastButton">
+        <object>Viimeinen</object>
+      </resource>
+      <resource name="AddNewButton">
+        <object>Lisää</object>
+      </resource>
+      <resource name="DeleteButton">
+        <object>Poista</object>
+      </resource>
+      <resource name="ReloadConfigButton">
+        <object>Lataa käyttöliittymäkohde uudelleen</object>
+      </resource>
+      <resource name="RestoreDefaultsButton">
+        <object>Palauta oletusasettelu</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Nimi</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Koodi</object>
+      </resource>
+      <resource name="ShowPreview">
+        <object>Näytä tarkat tiedot</object>
+      </resource>
+      <resource name="DeleteCaption">
+        <object>Poista rivit</object>
+      </resource>
+      <resource name="DeleteSingleRow">
+        <object>Haluatko poistaa rivin?</object>
+      </resource>
+      <resource name="DeleteMultipleRows">
+        <object>Haluatko poistaa {0} riviä?</object>
+      </resource>
+      <resource name="errExporting">
+        <object>Virhe ruudukon viemisessä.</object>
+      </resource>
+      <resource name="Exporting">
+        <object>Vie tiedot</object>
+      </resource>
+      <resource name="printGrid">
+        <object>Tulosta tiedot</object>
+      </resource>
+      <resource name="errPrinting">
+        <object>Virhe tietojen tulostamisessa.</object>
+      </resource>
+      <resource name="errPrintPreview">
+        <object>Virhe tietojen esikatselussa.</object>
+      </resource>
+      <resource name="printPreview">
+        <object>Tulostuksen esikatselu</object>
+      </resource>
+      <resource name="InvalidateCacheButton">
+        <object>Mitätöi välimuistitiedot</object>
+      </resource>
+      <resource name="NoNullAllowed">
+        <object>Sarakkeessa {0} ei sallita tyhjäarvoisia\narvoja.</object>
+      </resource>
+      <resource name="NoObjectSelected">
+        <object>Ei objektia valittuna</object>
+      </resource>
+      <resource name="NoObjectSelectedCaption">
+        <object>Tiedot</object>
+      </resource>
+      <resource name="LoadedRowsAll">
+        <object>Ladatut rivit: kaikki</object>
+      </resource>
+      <resource name="LoadedRows">
+        <object>Ladatut rivit</object>
+      </resource>
+      <resource name="SelectedRowCount">
+        <object>Valittu rivimäärä</object>
+      </resource>
+      <resource name="RefreshButton">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="RawViewCaption">
+        <object>Raakanäkymä</object>
+      </resource>
+      <resource name="ShowRawView">
+        <object>Raakanäkymä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.GuiNodes.Programming" ServiceOnly="true">
+      <resource name="GroupHeader">
+        <object>Valikko</object>
+      </resource>
+      <resource name="GUINodes">
+        <object>Käyttöliittymät</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.LookupForm" ServiceOnly="false">
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="Text">
+        <object>Valitse kohde</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.CriteriaPopupWindow" ServiceOnly="false">
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Peruuta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.DevXPressReportViewerView" ServiceOnly="false">
+      <resource name="sendexptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="sendexptypetext">
+        <object>Teksti</object>
+      </resource>
+      <resource name="sendexptypecsv">
+        <object>Pilkkueroteltu tiedosto</object>
+      </resource>
+      <resource name="sendexptypemht">
+        <object>Mht</object>
+      </resource>
+      <resource name="sendexptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="sendexptypertf">
+        <object>RTF-tiedosto</object>
+      </resource>
+      <resource name="sendexptypegraphics">
+        <object>Kuva</object>
+      </resource>
+      <resource name="exptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="exptypehtml">
+        <object>HTML</object>
+      </resource>
+      <resource name="exptypetext">
+        <object>Teksti</object>
+      </resource>
+      <resource name="exptypecsv">
+        <object>Pilkkueroteltu tiedosto</object>
+      </resource>
+      <resource name="exptypemht">
+        <object>Mht</object>
+      </resource>
+      <resource name="exptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="exptypertf">
+        <object>RTF-tiedosto</object>
+      </resource>
+      <resource name="exptypegraphics">
+        <object>Kuva</object>
+      </resource>
+      <resource name="toolRefresh">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="toolSearch">
+        <object>Haku</object>
+      </resource>
+      <resource name="toolHandTool">
+        <object>Käsityökalu</object>
+      </resource>
+      <resource name="toolPrintWithOptions">
+        <object>Tulosta (asetukset)</object>
+      </resource>
+      <resource name="toolSpeedPrint">
+        <object>Tulosta</object>
+      </resource>
+      <resource name="toolPrintSetup">
+        <object>Sivun asetukset</object>
+      </resource>
+      <resource name="toolMagnifier">
+        <object>Suurennuslasi</object>
+      </resource>
+      <resource name="toolZoomIn">
+        <object>Lähennä</object>
+      </resource>
+      <resource name="toolZoomOut">
+        <object>Loitonna</object>
+      </resource>
+      <resource name="toolZoomOptions">
+        <object>Zoomausasetukset</object>
+      </resource>
+      <resource name="toolFirstPage">
+        <object>Ensimmäinen sivu</object>
+      </resource>
+      <resource name="toolPreviousPage">
+        <object>Edellinen sivu</object>
+      </resource>
+      <resource name="toolNextPage">
+        <object>Seuraava sivu</object>
+      </resource>
+      <resource name="toolLastPage">
+        <object>Viimeinen sivu</object>
+      </resource>
+      <resource name="toolMultiplePages">
+        <object>Useita sivuja</object>
+      </resource>
+      <resource name="toolWatermark">
+        <object>Vesileima</object>
+      </resource>
+      <resource name="toolExport">
+        <object>Vie</object>
+      </resource>
+      <resource name="toolEmail">
+        <object>Sähköposti</object>
+      </resource>
+      <resource name="htoolRefresh">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="htoolSearch">
+        <object>Haku</object>
+      </resource>
+      <resource name="htoolHandTool">
+        <object>Käsityökalu</object>
+      </resource>
+      <resource name="htoolPrintWithOptions">
+        <object>Tulosta (asetukset)</object>
+      </resource>
+      <resource name="htoolSpeedPrint">
+        <object>Tulosta</object>
+      </resource>
+      <resource name="htoolPrintSetup">
+        <object>Sivun asetukset</object>
+      </resource>
+      <resource name="htoolMagnifier">
+        <object>Suurennuslasi</object>
+      </resource>
+      <resource name="htoolZoomIn">
+        <object>Lähennä</object>
+      </resource>
+      <resource name="htoolZoomOut">
+        <object>Loitonna</object>
+      </resource>
+      <resource name="htoolZoomOptions">
+        <object>Zoomausasetukset</object>
+      </resource>
+      <resource name="htoolFirstPage">
+        <object>Ensimmäinen sivu</object>
+      </resource>
+      <resource name="htoolPreviousPage">
+        <object>Edellinen sivu</object>
+      </resource>
+      <resource name="htoolNextPage">
+        <object>Seuraava sivu</object>
+      </resource>
+      <resource name="htoolLastPage">
+        <object>Viimeinen sivu</object>
+      </resource>
+      <resource name="htoolMultiplePages">
+        <object>Useita sivuja</object>
+      </resource>
+      <resource name="htoolWatermark">
+        <object>Vesileima</object>
+      </resource>
+      <resource name="htoolExport">
+        <object>Vie</object>
+      </resource>
+      <resource name="htoolEmail">
+        <object>Sähköposti</object>
+      </resource>
+      <resource name="htoolDocMap">
+        <object>Näytä/piilota tiedostokartta</object>
+      </resource>
+      <resource name="pageWidth">
+        <object>Sivun leveys</object>
+      </resource>
+      <resource name="textWidth">
+        <object>Tekstin leveys</object>
+      </resource>
+      <resource name="toolRefreshWithOptions">
+        <object>Päivitä (asetukset)</object>
+      </resource>
+      <resource name="htoolRefreshWithOptions">
+        <object>Päivitä (asetukset) </object>
+      </resource>
+      <resource name="erropends">
+        <object>Raportin tietojoukkoja ei voitu avata</object>
+      </resource>
+      <resource name="pagexofx">
+        <object>Sivu {0}/{1}</object>
+      </resource>
+      <resource name="toolInvalidate">
+        <object>Mitätöi</object>
+      </resource>
+      <resource name="htoolInvalidate">
+        <object>Mitätöi raporttikäyttöliittymäkohde</object>
+      </resource>
+      <resource name="toolShowSql">
+        <object>SQL</object>
+      </resource>
+      <resource name="htoolShowSql">
+        <object>Näytä SQL </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsPreviewLocalizer" ServiceOnly="false">
+      <resource name="PreviewStringId.Button_Apply">
+        <object>Käytä</object>
+      </resource>
+      <resource name="PreviewStringId.Button_Cancel">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="PreviewStringId.Button_Help">
+        <object>Ohje</object>
+      </resource>
+      <resource name="PreviewStringId.Button_Ok">
+        <object>OK</object>
+      </resource>
+      <resource name="PreviewStringId.EMail_From">
+        <object>Lähettäjä</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_BottomMargin">
+        <object>Alareunus</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_Inch">
+        <object>Tuuma</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_LeftMargin">
+        <object>Vasen reunus</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_Millimeter">
+        <object>mm</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_RightMargin">
+        <object>Oikea reunus</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_TopMargin">
+        <object>Yläreunus</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_BackgrColor">
+        <object>&amp;Väri</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Background">
+        <object>&amp;Tausta</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_CsvDocument">
+        <object>CSV-tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Exit">
+        <object>L&amp;opeta</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Export">
+        <object>&amp;Vie kohteeseen</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_File">
+        <object>&amp;Tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_GraphicDocument">
+        <object>Kuvatiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_HtmDocument">
+        <object>HTML-tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_MhtDocument">
+        <object>MHT-tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_PageLayout">
+        <object>&amp;Sivun asettelu</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_PageSetup">
+        <object>Sivun&amp;asetukset...</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_PdfDocument">
+        <object>PDF-tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Print">
+        <object>&amp;Tulosta...</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_PrintDirect">
+        <object>T&amp;ulosta</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_RtfDocument">
+        <object>RTF-tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Send">
+        <object>L&amp;ähetä muodossa</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_TxtDocument">
+        <object>Tekstitiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_View">
+        <object>&amp;Näytä</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ViewContinuous">
+        <object>&amp;Jatkuva</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ViewFacing">
+        <object>&amp;Kohti</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ViewStatusbar">
+        <object>&amp;Tilarivi</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ViewToolbar">
+        <object>&amp;Työkalurivi</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Watermark">
+        <object>&amp;Vesileima...</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_XlsDocument">
+        <object>Excel-tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ZoomPageWidth">
+        <object>Sivun leveys</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ZoomTextWidth">
+        <object>Tekstin leveys</object>
+      </resource>
+      <resource name="PreviewStringId.MPForm_Lbl_Pages">
+        <object>Sivut</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_CreatingDocument">
+        <object>Luodaan tiedostoa...</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_CustomDrawWarning">
+        <object>Varoitus!</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_EmptyDocument">
+        <object>Tiedosto ei sisällä yhtään sivua.</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_FontInvalidNumber">
+        <object>Fontin koon arvoksi ei voi määrittää nollaa tai negatiivista lukua</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_IncorrectPageRange">
+        <object>Tämä ei ole kelvollinen sivualue</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_NeedPrinter">
+        <object>Ei asennettuja tulostimia.</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_NotSupportedFont">
+        <object>Fonttia ei tueta vielä</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_PageMarginsWarning">
+        <object>Yksi tai useampi reunus on määritetty sivun tulostettavan alueen ulkopuolelle. Jatketaanko?</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_UnavailableNetPrinter">
+        <object>Tämä verkkotulostin ei ole käytettävissä.</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_WrongPageSettings">
+        <object>Nykyinen tulostin ei tue valittua paperikokoa.\nJatketaanko tulostusta silti?</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_WrongPrinter">
+        <object>Tulostimen nimi on virheellinen. Tarkista tulostimen asetukset.</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageDate">
+        <object>[Tulostuspäivämäärä]</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageNumber">
+        <object>[Sivunro]</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageNumberOfTotal">
+        <object>[Sivu #/#]</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageTime">
+        <object>[Tulostusaika]</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageUserName">
+        <object>[Käyttäjänimi]</object>
+      </resource>
+      <resource name="PreviewStringId.PreviewForm_Caption">
+        <object>Esikatselu</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterBmp">
+        <object>BMP, bittikarttamuoto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterCsv">
+        <object>CSV-tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterEmf">
+        <object>EMF, parannettu Windows-metatiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterGif">
+        <object>GIF-tiedostomuoto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterHtm">
+        <object>HTML-tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterJpeg">
+        <object>JPEG-tiedostomuoto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterMht">
+        <object>MHT-tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterPdf">
+        <object>PDF-tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterPng">
+        <object>PNG-tiedostomuoto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterRtf">
+        <object>RTF-tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterTiff">
+        <object>TIFF-tiedostomuoto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterTxt">
+        <object>Tekstitiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterWmf">
+        <object>WMF-tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterXls">
+        <object>Excel-tiedosto</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_Title">
+        <object>Tallenna nimellä</object>
+      </resource>
+      <resource name="PreviewStringId.SB_CurrentPageNo">
+        <object>Nykyisen sivun numero</object>
+      </resource>
+      <resource name="PreviewStringId.SB_PageInfo">
+        <object>{0}/{1}</object>
+      </resource>
+      <resource name="PreviewStringId.SB_PageNone">
+        <object>ei mitään</object>
+      </resource>
+      <resource name="PreviewStringId.SB_TotalPageNo">
+        <object>Sivuja yhteensä:</object>
+      </resource>
+      <resource name="PreviewStringId.SB_ZoomFactor">
+        <object>Zoomauskerroin:</object>
+      </resource>
+      <resource name="PreviewStringId.ScrollingInfo_Page">
+        <object>Sivu</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Backgr">
+        <object>Tausta</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Close">
+        <object>Sulje esikatselu</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Customize">
+        <object>Mukauta</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_EditPageHF">
+        <object>Ylä- ja alatunniste</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Export">
+        <object>Vie tiedosto...</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_FirstPage">
+        <object>Ensimmäinen sivu</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_HandTool">
+        <object>Käsityökalu</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_LastPage">
+        <object>Viimeinen sivu</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Magnifier">
+        <object>Suurennuslasi</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Map">
+        <object>Tiedostokartta</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_MultiplePages">
+        <object>Useita sivuja</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_NextPage">
+        <object>Seuraava sivu</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_PageSetup">
+        <object>Sivun asetukset</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_PreviousPage">
+        <object>Edellinen sivu</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Print">
+        <object>Tulosta</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_PrintDirect">
+        <object>Tulosta suoraan</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Search">
+        <object>Haku</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Send">
+        <object>Lähetä sähköpostia...</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Watermark">
+        <object>Vesileima</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Zoom">
+        <object>Zoomaus</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_ZoomIn">
+        <object>Lähennä</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_ZoomOut">
+        <object>Loitonna</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Direction_BackwardDiagonal">
+        <object>Taakse viistosti</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Direction_ForwardDiagonal">
+        <object>Eteen viistosti</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Direction_Horizontal">
+        <object>Vaakasuunta</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Direction_Vertical">
+        <object>Pystysuunta</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_HorzAlign_Center">
+        <object>Keskelle</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_HorzAlign_Left">
+        <object>Vasemmalle</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_HorzAlign_Right">
+        <object>Oikealle</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ImageClip">
+        <object>Leikkaa</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ImageStretch">
+        <object>Venytä</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ImageZoom">
+        <object>Zoomaus</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_PageRangeRgrItem_All">
+        <object>&amp;Kaikki</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_PageRangeRgrItem_Pages">
+        <object>&amp;Sivut:</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_PictureDlg_Title">
+        <object>Valitse kuva</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_VertAlign_Bottom">
+        <object>Alas</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_VertAlign_Middle">
+        <object>Keskelle</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_VertAlign_Top">
+        <object>Ylös</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Asap">
+        <object>MAHD. PIAN</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Confidential">
+        <object>LUOTTAMUKSELLINEN</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Copy">
+        <object>KOPIO</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_DoNotCopy">
+        <object>ÄLÄ KOPIOI</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Draft">
+        <object>LUONNOS</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Evaluation">
+        <object>ARVIOINTI</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Original">
+        <object>ALKUPERÄINEN</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Personal">
+        <object>HENKILÖKOHTAINEN</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Sample">
+        <object>NÄYTE</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_TopSecret">
+        <object>HUIPPUSALAINEN</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Urgent">
+        <object>KIIREELLINEN</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ZOrderRgrItem_Behind">
+        <object>&amp;Taakse</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ZOrderRgrItem_InFront">
+        <object>E&amp;teen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.DevXPressMp5Report" ServiceOnly="false">
+      <resource name="pageNumber.Format">
+        <object>Sivu {0}</object>
+      </resource>
+      <resource name="repDate">
+        <object>Päivämäärä:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.ErrorForm" ServiceOnly="false">
+      <resource name="this.Text">
+        <object>Virhe</object>
+      </resource>
+      <resource name="Details">
+        <object>Tiedot</object>
+      </resource>
+      <resource name="HideDetails">
+        <object>Piilota tiedot</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.RegionalSettings" ServiceOnly="false">
+      <resource name="OK">
+        <object>OK</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="RegionLabel">
+        <object>Alue:</object>
+      </resource>
+      <resource name="WindowsTitle">
+        <object>Alueelliset asetukset</object>
+      </resource>
+      <resource name="DefaultCultureName">
+        <object>Järjestelmän oletus</object>
+      </resource>
+      <resource name="CultureName">
+        <object>Koodi</object>
+      </resource>
+      <resource name="DisplayName">
+        <object>Nimi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.ChangePasswordForm" ServiceOnly="false">
+      <resource name="Username">
+        <object>Käyttäjänimi:</object>
+      </resource>
+      <resource name="Password">
+        <object>Salasana:</object>
+      </resource>
+      <resource name="Confirm">
+        <object>Vahvista salasana:</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="OK">
+        <object>Määritä salasana</object>
+      </resource>
+      <resource name="NotMatching">
+        <object>Salasana ja salasanan vahvistus eivät täsmää</object>
+      </resource>
+      <resource name="WrongPassword">
+        <object>Väärä salasana</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.SplashWindow" ServiceOnly="false">
+      <resource name="Connecting...">
+        <object>Muodostetaan yhteyttä...</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.WindowsLogonForm" ServiceOnly="false">
+      <resource name="Username">
+        <object>Käyttäjänimi:</object>
+      </resource>
+      <resource name="Password">
+        <object>Salasana:</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="OK">
+        <object>Kirjaudu sisään</object>
+      </resource>
+      <resource name="Caption">
+        <object>Innova-kirjautuminen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Controls.ProgressControl" ServiceOnly="false">
+      <resource name="LabelText">
+        <object>Ladataan...</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Peruuta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsBarLocalizer" ServiceOnly="false">
+      <resource name="AddOrRemove">
+        <object>&amp;Lisää tai poista painikkeita</object>
+      </resource>
+      <resource name="ResetBar">
+        <object>Haluatko varmasti palauttaa muutokset, jotka teit työkaluriviin {0}?</object>
+      </resource>
+      <resource name="ResetBarCaption">
+        <object>Mukauta</object>
+      </resource>
+      <resource name="ResetButton">
+        <object>&amp;Palauta työkalurivi</object>
+      </resource>
+      <resource name="CustomizeButton">
+        <object>&amp;Mukauta...</object>
+      </resource>
+      <resource name="ToolBarMenu">
+        <object>&amp;Palauta$&amp;Poista$!&amp;Nimien$!oletus&amp;tyyli$&amp;Vain teksti (aina)$Vain &amp;teksti (valikoissa)$Kuva ja &amp;teksti$!Aloita &amp;ryhmä$&amp;Näkyvä$&amp;Viimeksi käytetty</object>
+      </resource>
+      <resource name="ToolbarNameCaption">
+        <object>&amp;Työkalurivin nimi:</object>
+      </resource>
+      <resource name="NewToolbarCaption">
+        <object>Uusi työkalurivi</object>
+      </resource>
+      <resource name="NewToolbarCustomNameFormat">
+        <object>Mukautettu {0}</object>
+      </resource>
+      <resource name="RenameToolbarCaption">
+        <object>Nimeä työkalurivi uudelleen</object>
+      </resource>
+      <resource name="CustomizeWindowCaption">
+        <object>Mukauttaminen</object>
+      </resource>
+      <resource name="MenuAnimationSystem">
+        <object>(Järjestelmän oletus)</object>
+      </resource>
+      <resource name="MenuAnimationNone">
+        <object>Ei mitään</object>
+      </resource>
+      <resource name="MenuAnimationSlide">
+        <object>Liu'utus</object>
+      </resource>
+      <resource name="MenuAnimationFade">
+        <object>Häivytys</object>
+      </resource>
+      <resource name="MenuAnimationUnfold">
+        <object>Avautuva</object>
+      </resource>
+      <resource name="MenuAnimationRandom">
+        <object>Satunnainen</object>
+      </resource>
+      <resource name="RibbonToolbarAbove">
+        <object>&amp;Sijoita pikatyökalurivi valintanauhan yläpuolelle</object>
+      </resource>
+      <resource name="RibbonToolbarBelow">
+        <object>&amp;Sijoita pikatyökalurivi valintanauhan alapuolelle</object>
+      </resource>
+      <resource name="RibbonToolbarAdd">
+        <object>&amp;Lisää pikatyökaluriviin</object>
+      </resource>
+      <resource name="RibbonToolbarRemove">
+        <object>&amp;Poista pikatyökalurivistä</object>
+      </resource>
+      <resource name="BarAllItems">
+        <object>(Kaikki kohteet)</object>
+      </resource>
+      <resource name="BarUnassignedItems">
+        <object>(Määrittämättömät kohteet)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsEditorLocalizer" ServiceOnly="false">
+      <resource name="CaptionError">
+        <object>Virhe</object>
+      </resource>
+      <resource name="InvalidValueText">
+        <object>Virheellinen arvo</object>
+      </resource>
+      <resource name="CheckChecked">
+        <object>Valittu</object>
+      </resource>
+      <resource name="CheckUnchecked">
+        <object>Ei valittu</object>
+      </resource>
+      <resource name="CheckIndeterminate">
+        <object>Määrittämätön</object>
+      </resource>
+      <resource name="DateEditToday">
+        <object>Tänään</object>
+      </resource>
+      <resource name="DateEditClear">
+        <object>Tyhjennä</object>
+      </resource>
+      <resource name="OK">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="Cancel">
+        <object>&amp;Peruuta</object>
+      </resource>
+      <resource name="NavigatorFirstButtonHint">
+        <object>Ensimmäinen</object>
+      </resource>
+      <resource name="NavigatorPreviousButtonHint">
+        <object>Edellinen</object>
+      </resource>
+      <resource name="NavigatorPreviousPageButtonHint">
+        <object>Edellinen sivu</object>
+      </resource>
+      <resource name="NavigatorNextButtonHint">
+        <object>Seuraava</object>
+      </resource>
+      <resource name="NavigatorNextPageButtonHint">
+        <object>Seuraava sivu</object>
+      </resource>
+      <resource name="NavigatorLastButtonHint">
+        <object>Viimeinen</object>
+      </resource>
+      <resource name="NavigatorAppendButtonHint">
+        <object>Liitä</object>
+      </resource>
+      <resource name="NavigatorRemoveButtonHint">
+        <object>Poista</object>
+      </resource>
+      <resource name="NavigatorEditButtonHint">
+        <object>Muokkaa</object>
+      </resource>
+      <resource name="NavigatorEndEditButtonHint">
+        <object>Lopeta muokkaus</object>
+      </resource>
+      <resource name="NavigatorCancelEditButtonHint">
+        <object>Peruuta muokkaus</object>
+      </resource>
+      <resource name="NavigatorTextStringFormat">
+        <object>Tietue {0}/{1}</object>
+      </resource>
+      <resource name="PictureEditMenuCut">
+        <object>Leikkaa</object>
+      </resource>
+      <resource name="PictureEditMenuCopy">
+        <object>Kopioi</object>
+      </resource>
+      <resource name="PictureEditMenuPaste">
+        <object>Liitä</object>
+      </resource>
+      <resource name="PictureEditMenuDelete">
+        <object>Poista</object>
+      </resource>
+      <resource name="PictureEditMenuLoad">
+        <object>Lataa</object>
+      </resource>
+      <resource name="PictureEditMenuSave">
+        <object>Tallenna</object>
+      </resource>
+      <resource name="PictureEditOpenFileFilter">
+        <object>Bittikarttatiedosto (*.bmp)|*.bmp|GIF-tiedostot (*.gif)|*.gif|JPEG-tiedostot (*.jpg;*.jpeg)|*.jpg;*.jpeg|Kuvaketiedostot (*.ico)|*.ico|Kaikki tiedostot |*.bmp;*.gif;*.jpg;*.jpeg;*.ico;*.png;*.tif|Kaikki tiedostot |*.*</object>
+      </resource>
+      <resource name="PictureEditSaveFileFilter">
+        <object>Bittikarttatiedostot (*.bmp)|*.bmp|GIF-tiedostot (*.gif)|*.gif|JPEG-tiedostot (*.jpg)|*.jpg</object>
+      </resource>
+      <resource name="PictureEditOpenFileTitle">
+        <object>Avoin</object>
+      </resource>
+      <resource name="PictureEditSaveFileTitle">
+        <object>Tallenna nimellä</object>
+      </resource>
+      <resource name="PictureEditOpenFileError">
+        <object>Väärä kuvamuoto</object>
+      </resource>
+      <resource name="PictureEditOpenFileErrorCaption">
+        <object>Avausvirhe</object>
+      </resource>
+      <resource name="LookUpEditValueIsNull">
+        <object>[Muokkausarvo on tyhjäarvoinen]</object>
+      </resource>
+      <resource name="LookUpInvalidEditValueType">
+        <object>Virheellinen LookUpEdit EditValue -tyyppi</object>
+      </resource>
+      <resource name="LookUpColumnDefaultName">
+        <object>Nimi</object>
+      </resource>
+      <resource name="MaskBoxValidateError">
+        <object>
+               Annettu arvo on puutteellinen.  Haluatko korjata sen?
+
+
+               Kyllä: palaa editoriin ja korjaa arvo.
+               Ei: jätä arvo ennalleen.
+               Peruuta: palaute edellinen arvo.
+            </object>
+      </resource>
+      <resource name="UnknownPictureFormat">
+        <object>Tuntematon kuvamuoto</object>
+      </resource>
+      <resource name="DataEmpty">
+        <object>Ei kuvatietoja</object>
+      </resource>
+      <resource name="NotValidArrayLength">
+        <object>Matriisin pituus on virheellinen.</object>
+      </resource>
+      <resource name="ImagePopupEmpty">
+        <object>(tyhjä)</object>
+      </resource>
+      <resource name="ImagePopupPicture">
+        <object>(kuva)</object>
+      </resource>
+      <resource name="ColorTabCustom">
+        <object>Mukautettu</object>
+      </resource>
+      <resource name="ColorTabWeb">
+        <object>WWW</object>
+      </resource>
+      <resource name="ColorTabSystem">
+        <object>Järjestelmä</object>
+      </resource>
+      <resource name="CalcButtonMC">
+        <object>MC</object>
+      </resource>
+      <resource name="CalcButtonMR">
+        <object>MR</object>
+      </resource>
+      <resource name="CalcButtonMS">
+        <object>MS</object>
+      </resource>
+      <resource name="CalcButtonMx">
+        <object>M+</object>
+      </resource>
+      <resource name="CalcButtonSqrt">
+        <object>neliöjuuri</object>
+      </resource>
+      <resource name="CalcButtonBack">
+        <object>Takaisin</object>
+      </resource>
+      <resource name="CalcButtonCE">
+        <object>CE</object>
+      </resource>
+      <resource name="CalcButtonC">
+        <object>C</object>
+      </resource>
+      <resource name="CalcError">
+        <object>Laskentavirhe</object>
+      </resource>
+      <resource name="TabHeaderButtonPrev">
+        <object>Vieritä vasemmalle</object>
+      </resource>
+      <resource name="TabHeaderButtonNext">
+        <object>Vieritä oikealle</object>
+      </resource>
+      <resource name="TabHeaderButtonClose">
+        <object>Sulje</object>
+      </resource>
+      <resource name="XtraMessageBoxOkButtonText">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="XtraMessageBoxCancelButtonText">
+        <object>&amp;Peruuta</object>
+      </resource>
+      <resource name="XtraMessageBoxYesButtonText">
+        <object>&amp;Kyllä</object>
+      </resource>
+      <resource name="XtraMessageBoxNoButtonText">
+        <object>&amp;Ei</object>
+      </resource>
+      <resource name="XtraMessageBoxAbortButtonText">
+        <object>&amp;Keskeytä</object>
+      </resource>
+      <resource name="XtraMessageBoxRetryButtonText">
+        <object>&amp;Yritä uudelleen</object>
+      </resource>
+      <resource name="XtraMessageBoxIgnoreButtonText">
+        <object>&amp;Ohita</object>
+      </resource>
+      <resource name="TextEditMenuUndo">
+        <object>&amp;Kumoa</object>
+      </resource>
+      <resource name="TextEditMenuCut">
+        <object>L&amp;eikkaa</object>
+      </resource>
+      <resource name="TextEditMenuCopy">
+        <object>&amp;Kopioi</object>
+      </resource>
+      <resource name="TextEditMenuPaste">
+        <object>&amp;Liitä</object>
+      </resource>
+      <resource name="TextEditMenuDelete">
+        <object>&amp;Poista</object>
+      </resource>
+      <resource name="TextEditMenuSelectAll">
+        <object>Valitse &amp;kaikki</object>
+      </resource>
+      <resource name="FilterGroupAnd">
+        <object>Ja</object>
+      </resource>
+      <resource name="FilterGroupNotAnd">
+        <object>Ei ja</object>
+      </resource>
+      <resource name="FilterGroupNotOr">
+        <object>Ei tai</object>
+      </resource>
+      <resource name="FilterGroupOr">
+        <object>tai</object>
+      </resource>
+      <resource name="FilterClauseAnyOf">
+        <object>on mikä tahansa seuraavista</object>
+      </resource>
+      <resource name="FilterClauseBeginsWith">
+        <object>Alkaa seuraavalla</object>
+      </resource>
+      <resource name="FilterClauseBetween">
+        <object>On väliltä</object>
+      </resource>
+      <resource name="FilterClauseBetweenAnd">
+        <object>ja</object>
+      </resource>
+      <resource name="FilterClauseContains">
+        <object>Sisältää</object>
+      </resource>
+      <resource name="FilterClauseEndsWith">
+        <object>Päättyy seuraavalla</object>
+      </resource>
+      <resource name="FilterClauseEquals">
+        <object>On yhtä suuri kuin</object>
+      </resource>
+      <resource name="FilterClauseGreater">
+        <object>On suurempi kuin</object>
+      </resource>
+      <resource name="FilterClauseGreaterOrEqual">
+        <object>On suurempi tai yhtä suuri kuin</object>
+      </resource>
+      <resource name="FilterClauseIsNotNull">
+        <object>Ei ole tyhjä</object>
+      </resource>
+      <resource name="FilterClauseIsNull">
+        <object>On tyhjä</object>
+      </resource>
+      <resource name="FilterClauseLess">
+        <object>On pienempi kuin</object>
+      </resource>
+      <resource name="FilterClauseLessOrEqual">
+        <object>On pienempi tai yhtä suuri kuin</object>
+      </resource>
+      <resource name="FilterClauseLike">
+        <object>On samankaltainen kuin</object>
+      </resource>
+      <resource name="FilterClauseNoneOf">
+        <object>Ei ole mikään seuraavista</object>
+      </resource>
+      <resource name="FilterClauseNotBetween">
+        <object>Ei ole väliltä</object>
+      </resource>
+      <resource name="FilterClauseDoesNotContain">
+        <object>Ei sisällä</object>
+      </resource>
+      <resource name="FilterClauseDoesNotEqual">
+        <object>Ei ole yhtä suuri kuin</object>
+      </resource>
+      <resource name="FilterClauseNotLike">
+        <object>Ei ole samankaltainen kuin</object>
+      </resource>
+      <resource name="FilterEmptyEnter">
+        <object>&lt;anna arvo&gt;</object>
+      </resource>
+      <resource name="FilterEmptyValue">
+        <object>&lt;tyhjä&gt;</object>
+      </resource>
+      <resource name="FilterMenuConditionAdd">
+        <object>Lisää ehto</object>
+      </resource>
+      <resource name="FilterMenuGroupAdd">
+        <object>Lisää ryhmä</object>
+      </resource>
+      <resource name="FilterMenuClearAll">
+        <object>Tyhjennä kaikki</object>
+      </resource>
+      <resource name="FilterMenuRowRemove">
+        <object>Poista ryhmä</object>
+      </resource>
+      <resource name="FilterToolTipNodeAdd">
+        <object>Lisää uuden ehdon tähän ryhmään.</object>
+      </resource>
+      <resource name="FilterToolTipNodeRemove">
+        <object>Poistaa tämän ehdon.</object>
+      </resource>
+      <resource name="FilterToolTipNodeAction">
+        <object>Toiminnot.</object>
+      </resource>
+      <resource name="FilterToolTipValueType">
+        <object>Vertaa arvoon tai toisen kentän arvoon.</object>
+      </resource>
+      <resource name="FilterToolTipElementAdd">
+        <object>Lisää luetteloon uuden kohteen.</object>
+      </resource>
+      <resource name="FilterToolTipKeysAdd">
+        <object>(Käytä Lisää-näppäintä)</object>
+      </resource>
+      <resource name="FilterToolTipKeysRemove">
+        <object>(Käytä Poista- tai Vähennä-näppäintä</object>
+      </resource>
+      <resource name="ContainerAccessibleEditName">
+        <object>Muokkauksenhallinta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsGridLocalizer" ServiceOnly="false">
+      <resource name="FileIsNotFoundError">
+        <object>Tiedostoa {0} ei löydy</object>
+      </resource>
+      <resource name="ColumnViewExceptionMessage">
+        <object> Haluatko korjata arvon?</object>
+      </resource>
+      <resource name="CustomizationCaption">
+        <object>Mukauttaminen</object>
+      </resource>
+      <resource name="CustomizationColumns">
+        <object>Sarakkeet</object>
+      </resource>
+      <resource name="CustomizationBands">
+        <object>Luokat</object>
+      </resource>
+      <resource name="FilterPanelCustomizeButton">
+        <object>Muokkaa suodatinta</object>
+      </resource>
+      <resource name="PopupFilterAll">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="PopupFilterCustom">
+        <object>(Mukautettu)</object>
+      </resource>
+      <resource name="PopupFilterBlanks">
+        <object>(Tyhjät)</object>
+      </resource>
+      <resource name="PopupFilterNonBlanks">
+        <object>(Ei tyhjät)</object>
+      </resource>
+      <resource name="CustomFilterDialogFormCaption">
+        <object>Mukauta automaattista suodatinta</object>
+      </resource>
+      <resource name="CustomFilterDialogCaption">
+        <object>Näytä rivit, joissa:</object>
+      </resource>
+      <resource name="CustomFilterDialogRadioAnd">
+        <object>&amp;ja</object>
+      </resource>
+      <resource name="CustomFilterDialogRadioOr">
+        <object>&amp;tai</object>
+      </resource>
+      <resource name="CustomFilterDialogOkButton">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="CustomFilterDialogClearFilter">
+        <object>T&amp;yhjennä suodatin</object>
+      </resource>
+      <resource name="CustomFilterDialog2FieldCheck">
+        <object>Kenttä</object>
+      </resource>
+      <resource name="CustomFilterDialogCancelButton">
+        <object>&amp;Peruuta</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionEQU">
+        <object>on yhtä suuri kuin</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionNEQ">
+        <object>ei ole yhtä suuri kuin</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionGT">
+        <object>on suurempi kuin</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionGTE">
+        <object>on suurempi tai yhtä suuri kuin</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionLT">
+        <object>on pienempi kuin</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionLTE">
+        <object>on pienempi tai yhtä suuri kuin</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionBlanks">
+        <object>tyhjät</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionNonBlanks">
+        <object>ei tyhjät</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionLike">
+        <object>samankaltainen</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionNotLike">
+        <object>ei samankaltainen</object>
+      </resource>
+      <resource name="MenuFooterSum">
+        <object>Summa</object>
+      </resource>
+      <resource name="MenuFooterMin">
+        <object>Vähintään</object>
+      </resource>
+      <resource name="MenuFooterMax">
+        <object>Enintään</object>
+      </resource>
+      <resource name="MenuFooterCount">
+        <object>Määrä</object>
+      </resource>
+      <resource name="MenuFooterAverage">
+        <object>Keskiarvo</object>
+      </resource>
+      <resource name="MenuFooterNone">
+        <object>Ei mitään</object>
+      </resource>
+      <resource name="MenuFooterSumFormat">
+        <object>SUMMA={0:#.##}</object>
+      </resource>
+      <resource name="MenuFooterMinFormat">
+        <object>VÄHINTÄÄN={0}</object>
+      </resource>
+      <resource name="MenuFooterMaxFormat">
+        <object>ENINTÄÄN={0}</object>
+      </resource>
+      <resource name="MenuFooterCountFormat">
+        <object>{0}</object>
+      </resource>
+      <resource name="MenuFooterAverageFormat">
+        <object>KESKIARVO={0:#.##}</object>
+      </resource>
+      <resource name="MenuColumnSortAscending">
+        <object>Nouseva lajittelu</object>
+      </resource>
+      <resource name="MenuColumnSortDescending">
+        <object>Laskeva lajittelu</object>
+      </resource>
+      <resource name="MenuColumnGroup">
+        <object>Lajittele tämän sarakkeen mukaan</object>
+      </resource>
+      <resource name="MenuColumnUnGroup">
+        <object>Poista ryhmittely</object>
+      </resource>
+      <resource name="MenuColumnColumnCustomization">
+        <object>Sarakevalitsin</object>
+      </resource>
+      <resource name="MenuColumnBestFit">
+        <object>Parhaiten sopiva</object>
+      </resource>
+      <resource name="MenuColumnFilter">
+        <object>Voi suodattaa</object>
+      </resource>
+      <resource name="MenuColumnClearFilter">
+        <object>Tyhjennä suodatin</object>
+      </resource>
+      <resource name="MenuColumnBestFitAllColumns">
+        <object>Parhaiten sopiva (kaikki sarakkeet)</object>
+      </resource>
+      <resource name="MenuGroupPanelFullExpand">
+        <object>Kokonaan – laajenna</object>
+      </resource>
+      <resource name="MenuGroupPanelFullCollapse">
+        <object>Kokonaan – pienennä</object>
+      </resource>
+      <resource name="MenuGroupPanelClearGrouping">
+        <object>Tyhjennä ryhmittely</object>
+      </resource>
+      <resource name="PrintDesignerGridView">
+        <object>Tulostusasetukset (ruudukkonäkymä)</object>
+      </resource>
+      <resource name="PrintDesignerCardView">
+        <object>Tulostusasetukset (korttinäkymä)</object>
+      </resource>
+      <resource name="PrintDesignerBandedView">
+        <object>Tulostusasetukset (luokkanäkymä)</object>
+      </resource>
+      <resource name="PrintDesignerBandHeader">
+        <object>Luokkaotsikko</object>
+      </resource>
+      <resource name="MenuColumnGroupBox">
+        <object>Ryhmittele ruudun mukaan</object>
+      </resource>
+      <resource name="CardViewNewCard">
+        <object>Uusi kortti</object>
+      </resource>
+      <resource name="CardViewQuickCustomizationButton">
+        <object>Mukauta</object>
+      </resource>
+      <resource name="CardViewQuickCustomizationButtonFilter">
+        <object>Suodata</object>
+      </resource>
+      <resource name="CardViewQuickCustomizationButtonSort">
+        <object>Lajittele:</object>
+      </resource>
+      <resource name="GridGroupPanelText">
+        <object>Vedä tähän sarakeotsikko, jonka mukaan haluat ryhmitellä</object>
+      </resource>
+      <resource name="GridNewRowText">
+        <object>Lisää uusi rivi napsauttamalla tätä</object>
+      </resource>
+      <resource name="GridOutlookIntervals">
+        <object>Vanhempi;Edellinen kuukausi;Aiemmin tässä kuussa;Kolme viikkoa sitten;Kaksi viikkoa sitten;Viime viikolla;;;;;;;;;Eilen;Tänään;Huomenna;;;;;;;;Ensi viikolla;Kahden viikon päästä;Kolmen viikon päästä;Myöhemmin tässä kuussa;Ensi kuussa;Ensi kuun jälkeen;</object>
+      </resource>
+      <resource name="PrintDesignerDescription">
+        <object>Määritä nykyisen näkymän tulostusasetukset.</object>
+      </resource>
+      <resource name="MenuFooterCustomFormat">
+        <object>Mukautettu = {0}</object>
+      </resource>
+      <resource name="MenuFooterCountGroupFormat">
+        <object>Määrä = {0}</object>
+      </resource>
+      <resource name="MenuColumnClearSorting">
+        <object>Tyhjennä lajittelu</object>
+      </resource>
+      <resource name="MenuColumnFilterEditor">
+        <object>Suodatineditori</object>
+      </resource>
+      <resource name="FilterBuilderOkButton">
+        <object>OK</object>
+      </resource>
+      <resource name="FilterBuilderCancelButton">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="FilterBuilderApplyButton">
+        <object>Käytä</object>
+      </resource>
+      <resource name="FilterBuilderCaption">
+        <object>Suodatineditori</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsNavBarLocalizer" ServiceOnly="false">
+      <resource name="NavPaneMenuShowMoreButtons">
+        <object>Näytä &amp;enemmän painikkeita</object>
+      </resource>
+      <resource name="NavPaneMenuShowFewerButtons">
+        <object>Näytä &amp;vähemmän painikkeita</object>
+      </resource>
+      <resource name="NavPaneMenuAddRemoveButtons">
+        <object>&amp;Lisää tai poista painikkeita</object>
+      </resource>
+      <resource name="NavPaneChevronHint">
+        <object>Määritä painikkeet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsReportLocalizer" ServiceOnly="false">
+      <resource name="Msg_FileNotFound">
+        <object>Tiedostoa ei löydy.</object>
+      </resource>
+      <resource name="Msg_WrongReportClassName">
+        <object>Sarjoituksen poistamisen aikana ilmeni ongelma: mahdollinen väärä raporttiluokkanimi</object>
+      </resource>
+      <resource name="Msg_CreateReportInstance">
+        <object>Tällä hetkellä muokattava raportti on erityyppinen kuin raportti, jota yrität avata.,&lt;br/&gt;Haluatko avata valitun raportin silti?</object>
+      </resource>
+      <resource name="Msg_FileCorrupted">
+        <object>Raporttia ei voida ladata. Tiedosto on ehkä vioittunut tai raportin kokoonpano puuttuu.</object>
+      </resource>
+      <resource name="Msg_FileContentCorrupted">
+        <object>Raportin asettelua ei voida ladata. Tiedosto on ehkä vioittunut tai se sisältää virheellisiä tietoja.</object>
+      </resource>
+      <resource name="Msg_IncorrectArgument">
+        <object>Virheellinen argumentin arvo</object>
+      </resource>
+      <resource name="Msg_InvalidMethodCall">
+        <object>Tämä menetelmäkutsu on virheellinen objektin nykyiselle tilalle</object>
+      </resource>
+      <resource name="Msg_ScriptError">
+        <object>
+               Komentosarjoissa on seuraavat virheet:
+               {0}
+            </object>
+      </resource>
+      <resource name="Msg_ScriptExecutionError">
+        <object>
+               Tapahtui seuraava virhe, kun komentosarja oli toimintosarjassa {0}:
+               {1}
+               Toimintosarja {0} suoritettiin, mutta sitä ei kutsuta uudelleen.
+            </object>
+      </resource>
+      <resource name="Msg_InvalidReportSource">
+        <object>Ei voida määrittää nykyisen raportin jälkeläiseksi</object>
+      </resource>
+      <resource name="Msg_IncorrectBandType">
+        <object>Virheellinen luokkatyyppi</object>
+      </resource>
+      <resource name="Msg_InvPropName">
+        <object>Virheellinen ominaisuuden nimi</object>
+      </resource>
+      <resource name="Msg_CantFitBarcodeToControlBounds">
+        <object>Ohjausobjektin rajat ovat liian pienet viivakoodille</object>
+      </resource>
+      <resource name="Msg_InvalidBarcodeText">
+        <object>Tekstissä on virheellisiä merkkejä</object>
+      </resource>
+      <resource name="Msg_InvalidBarcodeTextFormat">
+        <object>Virheellinen tekstimuoto</object>
+      </resource>
+      <resource name="Msg_CreateSomeInstance">
+        <object>Luokasta ei voi luoda kahta esiintymää lomakkeeseen</object>
+      </resource>
+      <resource name="Msg_DontSupportMulticolumn">
+        <object>Tarkat raportit eivät tue useita sarakkeita.</object>
+      </resource>
+      <resource name="Msg_FillDataError">
+        <object>Virhe tietolähteen tietojen täyttämisessä. Seuraava poikkeus palautettiin:</object>
+      </resource>
+      <resource name="Msg_CyclicBoormarks">
+        <object>Raportissa on jaksottaisia kirjanmerkkejä.</object>
+      </resource>
+      <resource name="Msg_LargeText">
+        <object>Teksti on liian suuri.</object>
+      </resource>
+      <resource name="Msg_ScriptingPermissionErrorMessage">
+        <object>
+               Sinulla ei ole tarvittavia oikeuksia komentosarjojen suorittamiseen tässä raportissa.
+
+               Tiedot:
+
+               {0}
+            </object>
+      </resource>
+      <resource name="Msg_ReportImporting">
+        <object>Tuodaan raportin asettelua. Odota hetki...</object>
+      </resource>
+      <resource name="Msg_IncorrectPadding">
+        <object>Täytön oltava vähintään 0 tai sitä suurempi.</object>
+      </resource>
+      <resource name="Msg_WarningControlsAreOverlapped">
+        <object>Vientivaroitus: seuraavat ohjausobjektit ovat limittäin, minkä vuoksi ne saatetaan viedä HTML-, XLS- ja RTF-muotoon virheellisesi: {0}.</object>
+      </resource>
+      <resource name="Msg_WarningControlsAreOutOfMargin">
+        <object>Tulostusvaroitus: seuraavat ohjausobjektit ovat sivun oikean reunuksen ulkopuolella, minkä vuoksi on tulostettava ylimääräisiä sivuja: {0}.</object>
+      </resource>
+      <resource name="Msg_ScriptingErrorTitle">
+        <object />
+      </resource>
+      <resource name="Msg_ErrorTitle">
+        <object>Virhe</object>
+      </resource>
+      <resource name="Msg_SerializationErrorTitle">
+        <object>Sarjoitusvirhe</object>
+      </resource>
+      <resource name="Cmd_InsertDetailReport">
+        <object>Lisää tietoraportti</object>
+      </resource>
+      <resource name="Cmd_InsertUnboundDetailReport">
+        <object>Poista sidonta</object>
+      </resource>
+      <resource name="Cmd_ViewCode">
+        <object>Näytä &amp;koodi</object>
+      </resource>
+      <resource name="Cmd_BringToFront">
+        <object>&amp;Tuo eteen</object>
+      </resource>
+      <resource name="Cmd_SendToBack">
+        <object>&amp;Lähetä taakse</object>
+      </resource>
+      <resource name="Cmd_AlignToGrid">
+        <object>Tasaa &amp;ruudukkoon</object>
+      </resource>
+      <resource name="Cmd_TopMargin">
+        <object>Yläreunus</object>
+      </resource>
+      <resource name="Cmd_BottomMargin">
+        <object>Alareunus</object>
+      </resource>
+      <resource name="Cmd_ReportHeader">
+        <object>Raportin ylätunniste</object>
+      </resource>
+      <resource name="Cmd_ReportFooter">
+        <object>Raportin alatunniste</object>
+      </resource>
+      <resource name="Cmd_PageHeader">
+        <object>Sivun ylätunniste</object>
+      </resource>
+      <resource name="Cmd_PageFooter">
+        <object>Sivun alatunniste</object>
+      </resource>
+      <resource name="Cmd_GroupHeader">
+        <object>Ryhmän ylätunniste</object>
+      </resource>
+      <resource name="Cmd_GroupFooter">
+        <object>Ryhmän alatunniste</object>
+      </resource>
+      <resource name="Cmd_Detail">
+        <object>Tiedot</object>
+      </resource>
+      <resource name="Cmd_DetailReport">
+        <object>Tietoraportti</object>
+      </resource>
+      <resource name="Cmd_RtfClear">
+        <object>Tyhjennä</object>
+      </resource>
+      <resource name="Cmd_RtfLoad">
+        <object>Lataa tiedosto...</object>
+      </resource>
+      <resource name="Cmd_TableInsert">
+        <object>&amp;Lisää</object>
+      </resource>
+      <resource name="Cmd_TableInsertRowAbove">
+        <object>Riviä &amp;ylemmäs</object>
+      </resource>
+      <resource name="Cmd_TableInsertRowBelow">
+        <object>Rivin &amp;alemmas</object>
+      </resource>
+      <resource name="Cmd_TableInsertColumnToLeft">
+        <object>Sarake &amp;vasemmalle</object>
+      </resource>
+      <resource name="Cmd_TableInsertColumnToRight">
+        <object>Sarake &amp;oikealle</object>
+      </resource>
+      <resource name="Cmd_TableInsertCell">
+        <object>&amp;Solu</object>
+      </resource>
+      <resource name="Cmd_TableDelete">
+        <object>&amp;Poista</object>
+      </resource>
+      <resource name="Cmd_TableDeleteRow">
+        <object>&amp;Rivi</object>
+      </resource>
+      <resource name="Cmd_TableDeleteColumn">
+        <object>&amp;Sarake</object>
+      </resource>
+      <resource name="Cmd_TableDeleteCell">
+        <object>So&amp;lu</object>
+      </resource>
+      <resource name="Cmd_Cut">
+        <object>L&amp;eikkaa</object>
+      </resource>
+      <resource name="Cmd_Copy">
+        <object>Ko&amp;pioi</object>
+      </resource>
+      <resource name="Cmd_Paste">
+        <object>&amp;Liitä</object>
+      </resource>
+      <resource name="Cmd_Delete">
+        <object>&amp;Poista</object>
+      </resource>
+      <resource name="Cmd_Properties">
+        <object>O&amp;minaisuudet</object>
+      </resource>
+      <resource name="Cmd_InsertBand">
+        <object>Lisä&amp;ä luokka</object>
+      </resource>
+      <resource name="CatLayout">
+        <object>Asettelu</object>
+      </resource>
+      <resource name="CatAppearance">
+        <object>Ulkoasu</object>
+      </resource>
+      <resource name="CatData">
+        <object>Tiedot</object>
+      </resource>
+      <resource name="CatBehavior">
+        <object>Toiminta</object>
+      </resource>
+      <resource name="CatNavigation">
+        <object>Siirtyminen</object>
+      </resource>
+      <resource name="CatPageSettings">
+        <object>Sivun asetukset</object>
+      </resource>
+      <resource name="CatUserDesigner">
+        <object>Käyttäjien suunnittelu</object>
+      </resource>
+      <resource name="BandDsg_QuantityPerPage">
+        <object>yksi luokka per sivu</object>
+      </resource>
+      <resource name="BandDsg_QuantityPerReport">
+        <object>yksi luokka per raportti</object>
+      </resource>
+      <resource name="UD_ReportDesigner">
+        <object>Raporttien suunnittelu</object>
+      </resource>
+      <resource name="UD_Msg_ReportChanged">
+        <object>Raporttia on muutettu. Haluatko tallentaa muutokset?</object>
+      </resource>
+      <resource name="UD_TTip_FileOpen">
+        <object>Avaa tiedosto</object>
+      </resource>
+      <resource name="UD_TTip_FileSave">
+        <object>Tallenna tiedosto</object>
+      </resource>
+      <resource name="UD_TTip_EditCut">
+        <object>Leikkaa</object>
+      </resource>
+      <resource name="UD_TTip_EditCopy">
+        <object>Kopioi</object>
+      </resource>
+      <resource name="UD_TTip_EditPaste">
+        <object>Liitä</object>
+      </resource>
+      <resource name="UD_TTip_Undo">
+        <object>Kumoa</object>
+      </resource>
+      <resource name="UD_TTip_Redo">
+        <object>Tee uudelleen</object>
+      </resource>
+      <resource name="UD_TTip_AlignToGrid">
+        <object>Tasaa ruudukkoon</object>
+      </resource>
+      <resource name="UD_TTip_AlignLeft">
+        <object>Tasaa vasemmat</object>
+      </resource>
+      <resource name="UD_TTip_AlignVerticalCenters">
+        <object>Tasaa keskimmäiset</object>
+      </resource>
+      <resource name="UD_TTip_AlignRight">
+        <object>Tasaa oikeat</object>
+      </resource>
+      <resource name="UD_TTip_AlignTop">
+        <object>Tasaa ylimmät</object>
+      </resource>
+      <resource name="UD_TTip_AlignHorizontalCenters">
+        <object>Tasaa keskimmäiset</object>
+      </resource>
+      <resource name="UD_TTip_AlignBottom">
+        <object>Tasaa alimmaiset</object>
+      </resource>
+      <resource name="UD_TTip_SizeToControlWidth">
+        <object>Tee yhtä leveiksi</object>
+      </resource>
+      <resource name="UD_TTip_SizeToGrid">
+        <object>Mitoita ruudukkoon</object>
+      </resource>
+      <resource name="UD_TTip_SizeToControlHeight">
+        <object>Tee yhtä korkeiksi</object>
+      </resource>
+      <resource name="UD_TTip_SizeToControl">
+        <object>Tee samankokoisiksi</object>
+      </resource>
+      <resource name="UD_TTip_HorizSpaceMakeEqual">
+        <object>Yhtenäistä vaakasuunnan välistys</object>
+      </resource>
+      <resource name="UD_TTip_HorizSpaceIncrease">
+        <object>Suurenna vaakasuunnan välistystä</object>
+      </resource>
+      <resource name="UD_TTip_HorizSpaceDecrease">
+        <object>Pienennä vaakasuunnan välistystä</object>
+      </resource>
+      <resource name="UD_TTip_HorizSpaceConcatenate">
+        <object>Poista vaakasuunnan välistys</object>
+      </resource>
+      <resource name="UD_TTip_VertSpaceMakeEqual">
+        <object>Yhtenäistä pystysuunnan välistys</object>
+      </resource>
+      <resource name="UD_TTip_VertSpaceIncrease">
+        <object>Suurenna pystysuunnan välistystä</object>
+      </resource>
+      <resource name="UD_TTip_VertSpaceDecrease">
+        <object>Pienennä pystysuunnan välistystä</object>
+      </resource>
+      <resource name="UD_TTip_VertSpaceConcatenate">
+        <object>Poista pystysuunnan välistys</object>
+      </resource>
+      <resource name="UD_TTip_CenterHorizontally">
+        <object>Keskitä vaakasuunnassa</object>
+      </resource>
+      <resource name="UD_TTip_CenterVertically">
+        <object>Keskitä pystysuunnassa</object>
+      </resource>
+      <resource name="UD_TTip_BringToFront">
+        <object>Tuo eteen</object>
+      </resource>
+      <resource name="UD_TTip_SendToBack">
+        <object>Vie taakse</object>
+      </resource>
+      <resource name="UD_TTip_FormatBold">
+        <object>Lihavoitu</object>
+      </resource>
+      <resource name="UD_TTip_FormatItalic">
+        <object>Kursivoitu</object>
+      </resource>
+      <resource name="UD_TTip_FormatUnderline">
+        <object>Alleviivattu</object>
+      </resource>
+      <resource name="UD_TTip_FormatAlignLeft">
+        <object>Tasaa vasemmalle</object>
+      </resource>
+      <resource name="UD_TTip_FormatCenter">
+        <object>Keskitä</object>
+      </resource>
+      <resource name="UD_TTip_FormatAlignRight">
+        <object>Tasaa oikealle</object>
+      </resource>
+      <resource name="UD_TTip_FormatFontName">
+        <object>Fontin nimi</object>
+      </resource>
+      <resource name="UD_TTip_FormatFontSize">
+        <object>Fontin koko</object>
+      </resource>
+      <resource name="UD_TTip_FormatForeColor">
+        <object>Edustaväri</object>
+      </resource>
+      <resource name="UD_TTip_FormatBackColor">
+        <object>Taustaväri</object>
+      </resource>
+      <resource name="UD_TTip_FormatJustify">
+        <object>Tasaa molemmat reunat</object>
+      </resource>
+      <resource name="UD_FormCaption">
+        <object>Raporttien suunnittelu</object>
+      </resource>
+      <resource name="VS_XtraReportsToolboxCategoryName">
+        <object>Developer Express: raportit</object>
+      </resource>
+      <resource name="UD_XtraReportsToolboxCategoryName">
+        <object>Vakio-ohjausobjektit</object>
+      </resource>
+      <resource name="UD_XtraReportsPointerItemCaption">
+        <object>Osoitin</object>
+      </resource>
+      <resource name="Verb_EditBands">
+        <object>Muokkaa luokkia...</object>
+      </resource>
+      <resource name="Verb_EditGroupFields">
+        <object>Muokkaa ryhmäkenttiä...</object>
+      </resource>
+      <resource name="Verb_Import">
+        <object>Tuo...</object>
+      </resource>
+      <resource name="Verb_Save">
+        <object>Tallenna...</object>
+      </resource>
+      <resource name="Verb_About">
+        <object>Tietoja</object>
+      </resource>
+      <resource name="Verb_RTFClear">
+        <object>Tyhjennä</object>
+      </resource>
+      <resource name="Verb_RTFLoad">
+        <object>Lataa tiedosto...</object>
+      </resource>
+      <resource name="Verb_FormatString">
+        <object>Muotoile merkkijono...</object>
+      </resource>
+      <resource name="Verb_SummaryWizard">
+        <object>Yhteenveto...</object>
+      </resource>
+      <resource name="Verb_ReportWizard">
+        <object>Mukauta raporttia ohjatulla toiminnolla</object>
+      </resource>
+      <resource name="Verb_Insert">
+        <object>Lisää...</object>
+      </resource>
+      <resource name="Verb_Delete">
+        <object>Poista...</object>
+      </resource>
+      <resource name="Verb_Bind">
+        <object>Sido</object>
+      </resource>
+      <resource name="Verb_EditText">
+        <object>Muokkaa tekstiä</object>
+      </resource>
+      <resource name="FSForm_Lbl_Category">
+        <object>Luokka </object>
+      </resource>
+      <resource name="FSForm_Lbl_Prefix">
+        <object>Etuliite</object>
+      </resource>
+      <resource name="FSForm_Lbl_Suffix">
+        <object>Jälkiliite</object>
+      </resource>
+      <resource name="FSForm_Lbl_CustomGeneral">
+        <object>Yleisellä muodolla ei ole tiettyä numeromuotoa</object>
+      </resource>
+      <resource name="FSForm_GrBox_Sample">
+        <object>Näyte</object>
+      </resource>
+      <resource name="FSForm_Tab_StandardTypes">
+        <object>Vakiotyypit</object>
+      </resource>
+      <resource name="FSForm_Tab_Custom">
+        <object>Mukautettu</object>
+      </resource>
+      <resource name="FSForm_Msg_BadSymbol">
+        <object>Virheellinen merkki</object>
+      </resource>
+      <resource name="FSForm_Btn_Delete">
+        <object>Poista</object>
+      </resource>
+      <resource name="BCForm_Lbl_Property">
+        <object>Ominaisuus</object>
+      </resource>
+      <resource name="BCForm_Lbl_Binding">
+        <object>Sidonta</object>
+      </resource>
+      <resource name="SSForm_Caption">
+        <object>Tyylieditori</object>
+      </resource>
+      <resource name="SSForm_Btn_Close">
+        <object>Sulje</object>
+      </resource>
+      <resource name="SSForm_Msg_NoStyleSelected">
+        <object>Ei tyylejä valittuna</object>
+      </resource>
+      <resource name="SSForm_Msg_MoreThanOneStyle">
+        <object>Valitsit useamman kuin yhden tyylin</object>
+      </resource>
+      <resource name="SSForm_Msg_SelectedStylesText">
+        <object> valitut tyyli...</object>
+      </resource>
+      <resource name="SSForm_Msg_StyleSheetError">
+        <object>Tyylilomakevirhe</object>
+      </resource>
+      <resource name="SSForm_Msg_InvalidFileFormat">
+        <object>Virheellinen tiedostomuoto</object>
+      </resource>
+      <resource name="SSForm_Msg_StyleNamePreviewPostfix">
+        <object> tyyli</object>
+      </resource>
+      <resource name="SSForm_Msg_FileFilter">
+        <object>Raporttien tyylilomaketiedostot (*.repss)|*.repss|Kaikki tiedostot (*.*)|*.*</object>
+      </resource>
+      <resource name="SSForm_TTip_AddStyle">
+        <object>Lisää tyyli</object>
+      </resource>
+      <resource name="SSForm_TTip_RemoveStyle">
+        <object>Poista tyyli</object>
+      </resource>
+      <resource name="SSForm_TTip_ClearStyles">
+        <object>Tyhjennä tyylit</object>
+      </resource>
+      <resource name="SSForm_TTip_PurgeStyles">
+        <object>Poista käyttämättömät tyylit</object>
+      </resource>
+      <resource name="SSForm_TTip_SaveStyles">
+        <object>Tallenna tyylit tiedostoon</object>
+      </resource>
+      <resource name="SSForm_TTip_LoadStyles">
+        <object>Lataa tyylit tiedostosta</object>
+      </resource>
+      <resource name="FindForm_Msg_FinishedSearching">
+        <object>Haku suoritettu koko tiedostosta</object>
+      </resource>
+      <resource name="FindForm_Msg_TotalFound">
+        <object>Löytyi yhteensä </object>
+      </resource>
+      <resource name="RepTabCtl_HtmlView">
+        <object>HTML-näkymä</object>
+      </resource>
+      <resource name="RepTabCtl_Preview">
+        <object>Esikatselu</object>
+      </resource>
+      <resource name="RepTabCtl_Designer">
+        <object>Suunnittelu</object>
+      </resource>
+      <resource name="PanelDesignMsg">
+        <object>Aseta ohjausobjektit tähän pitääksesi ne yhdessä.</object>
+      </resource>
+      <resource name="MultiColumnDesignMsg1">
+        <object>Tila toistuville sarakkeille.</object>
+      </resource>
+      <resource name="MultiColumnDesignMsg2">
+        <object>Tähän asetetut ohjausobjektit tulostuvat virheellisesti.</object>
+      </resource>
+      <resource name="UD_Group_File">
+        <object>&amp;Tiedosto</object>
+      </resource>
+      <resource name="UD_Group_Edit">
+        <object>&amp;Muokkaa</object>
+      </resource>
+      <resource name="UD_Group_View">
+        <object>&amp;Näytä</object>
+      </resource>
+      <resource name="UD_Group_Format">
+        <object>M&amp;uoto</object>
+      </resource>
+      <resource name="UD_Group_Font">
+        <object>&amp;Fontti</object>
+      </resource>
+      <resource name="UD_Group_Justify">
+        <object>&amp;Tasaa molemmat reunat</object>
+      </resource>
+      <resource name="UD_Group_Align">
+        <object>&amp;Tasaa</object>
+      </resource>
+      <resource name="UD_Group_MakeSameSize">
+        <object>&amp;Tee samankokoisiksi</object>
+      </resource>
+      <resource name="UD_Group_HorizontalSpacing">
+        <object>&amp;Vaakasuunnan välistys</object>
+      </resource>
+      <resource name="UD_Group_VerticalSpacing">
+        <object>&amp;Pystysuunnan välistys</object>
+      </resource>
+      <resource name="UD_Group_CenterInForm">
+        <object>&amp;Keskitä lomakkeessa</object>
+      </resource>
+      <resource name="UD_Group_Order">
+        <object>&amp;Järjestä</object>
+      </resource>
+      <resource name="UD_Group_ToolbarsList">
+        <object>&amp;Työkalurivit</object>
+      </resource>
+      <resource name="UD_Group_DockPanelsList">
+        <object>&amp;Windows</object>
+      </resource>
+      <resource name="UD_Capt_MainMenuName">
+        <object>Päävalikko</object>
+      </resource>
+      <resource name="UD_Capt_ToolbarName">
+        <object>Päätyökalurivi</object>
+      </resource>
+      <resource name="UD_Capt_LayoutToolbarName">
+        <object>Asettelutyökalurivi</object>
+      </resource>
+      <resource name="UD_Capt_FormattingToolbarName">
+        <object>Muotoilutyökalurivi</object>
+      </resource>
+      <resource name="UD_Capt_StatusBarName">
+        <object>Tilarivi</object>
+      </resource>
+      <resource name="UD_Capt_NewReport">
+        <object>&amp;Uusi</object>
+      </resource>
+      <resource name="UD_Capt_NewWizardReport">
+        <object>Uusi &amp;ohjatulla toiminnolla...</object>
+      </resource>
+      <resource name="UD_Capt_OpenFile">
+        <object>&amp;Avaa...</object>
+      </resource>
+      <resource name="UD_Capt_SaveFile">
+        <object>&amp;Tallenna</object>
+      </resource>
+      <resource name="UD_Capt_SaveFileAs">
+        <object>Tallenna &amp;nimellä...</object>
+      </resource>
+      <resource name="UD_Capt_Exit">
+        <object>L&amp;opeta</object>
+      </resource>
+      <resource name="UD_Capt_Cut">
+        <object>L&amp;eikkaa</object>
+      </resource>
+      <resource name="UD_Capt_Copy">
+        <object>&amp;Kopioi</object>
+      </resource>
+      <resource name="UD_Capt_Paste">
+        <object>&amp;Liitä</object>
+      </resource>
+      <resource name="UD_Capt_Delete">
+        <object>&amp;Poista</object>
+      </resource>
+      <resource name="UD_Capt_SelectAll">
+        <object>Valitse &amp;kaikki</object>
+      </resource>
+      <resource name="UD_Capt_Undo">
+        <object>&amp;Kumoa</object>
+      </resource>
+      <resource name="UD_Capt_Redo">
+        <object>&amp;Tee uudelleen</object>
+      </resource>
+      <resource name="UD_Capt_ForegroundColor">
+        <object>Ed&amp;ustaväri</object>
+      </resource>
+      <resource name="UD_Capt_BackGroundColor">
+        <object>Tau&amp;staväri</object>
+      </resource>
+      <resource name="UD_Capt_FontBold">
+        <object>&amp;Lihavoitu</object>
+      </resource>
+      <resource name="UD_Capt_FontItalic">
+        <object>&amp;Kursivoitu</object>
+      </resource>
+      <resource name="UD_Capt_FontUnderline">
+        <object>&amp;Alleviivattu</object>
+      </resource>
+      <resource name="UD_Capt_JustifyLeft">
+        <object>&amp;Vasemmalle</object>
+      </resource>
+      <resource name="UD_Capt_JustifyCenter">
+        <object>&amp;Keskelle</object>
+      </resource>
+      <resource name="UD_Capt_JustifyRight">
+        <object>&amp;Oikealle</object>
+      </resource>
+      <resource name="UD_Capt_JustifyJustify">
+        <object>&amp;Tasaa molemmat reunat</object>
+      </resource>
+      <resource name="UD_Capt_AlignLefts">
+        <object>&amp;Vasemmat</object>
+      </resource>
+      <resource name="UD_Capt_AlignCenters">
+        <object>&amp;Keskimmäiset</object>
+      </resource>
+      <resource name="UD_Capt_AlignRights">
+        <object>&amp;Oikeat</object>
+      </resource>
+      <resource name="UD_Capt_AlignTops">
+        <object>&amp;Ylimmät</object>
+      </resource>
+      <resource name="UD_Capt_AlignMiddles">
+        <object>&amp;Keskimmäiset</object>
+      </resource>
+      <resource name="UD_Capt_AlignBottoms">
+        <object>&amp;Alimmat</object>
+      </resource>
+      <resource name="UD_Capt_AlignToGrid">
+        <object>&amp;ruudukkoon</object>
+      </resource>
+      <resource name="UD_Capt_MakeSameSizeWidth">
+        <object>&amp;Leveys</object>
+      </resource>
+      <resource name="UD_Capt_MakeSameSizeSizeToGrid">
+        <object>Mitoita &amp;ruudukkoon</object>
+      </resource>
+      <resource name="UD_Capt_MakeSameSizeHeight">
+        <object>&amp;Korkeus</object>
+      </resource>
+      <resource name="UD_Capt_MakeSameSizeBoth">
+        <object>&amp;Molemmat</object>
+      </resource>
+      <resource name="UD_Capt_SpacingMakeEqual">
+        <object>&amp;Tee samankokoisiksi</object>
+      </resource>
+      <resource name="UD_Capt_SpacingIncrease">
+        <object>&amp;Suurenna</object>
+      </resource>
+      <resource name="UD_Capt_SpacingDecrease">
+        <object>&amp;Pienennä</object>
+      </resource>
+      <resource name="UD_Capt_SpacingRemove">
+        <object>&amp;Poista</object>
+      </resource>
+      <resource name="UD_Capt_CenterInFormHorizontally">
+        <object>&amp;Vaakasuunnassa</object>
+      </resource>
+      <resource name="UD_Capt_CenterInFormVertically">
+        <object>&amp;Pystysuunnassa</object>
+      </resource>
+      <resource name="UD_Capt_OrderBringToFront">
+        <object>&amp;Tuo eteen</object>
+      </resource>
+      <resource name="UD_Capt_OrderSendToBack">
+        <object>&amp;Vie taakse</object>
+      </resource>
+      <resource name="UD_Hint_NewReport">
+        <object>Luo uusi tyhjä raportti</object>
+      </resource>
+      <resource name="UD_Hint_NewWizardReport">
+        <object>Luo uusi raportti ohjatulla toiminnolla</object>
+      </resource>
+      <resource name="UD_Hint_OpenFile">
+        <object>Avaa raportti</object>
+      </resource>
+      <resource name="UD_Hint_SaveFile">
+        <object>Tallenna raportti</object>
+      </resource>
+      <resource name="UD_Hint_SaveFileAs">
+        <object>Tallenna raportti uudelle nimellä</object>
+      </resource>
+      <resource name="UD_Hint_Exit">
+        <object>Sulje suunnittelu</object>
+      </resource>
+      <resource name="UD_Hint_Cut">
+        <object>Poista ohjausobjekti ja kopioi se leikepöydälle</object>
+      </resource>
+      <resource name="UD_Hint_Copy">
+        <object>Kopioi ohjausobjekti leikepöydälle</object>
+      </resource>
+      <resource name="UD_Hint_Paste">
+        <object>Lisää ohjausobjekti leikepöydältä</object>
+      </resource>
+      <resource name="UD_Hint_Delete">
+        <object>Poista ohjausobjekti</object>
+      </resource>
+      <resource name="UD_Hint_SelectAll">
+        <object>Valitse kaikki tiedoston ohjausobjektit</object>
+      </resource>
+      <resource name="UD_Hint_Undo">
+        <object>Kumoa edellinen toiminto</object>
+      </resource>
+      <resource name="UD_Hint_Redo">
+        <object>Tee edellinen toiminto uudelleen</object>
+      </resource>
+      <resource name="UD_Hint_ForegroundColor">
+        <object>Määritä ohjausobjektin edustaväri</object>
+      </resource>
+      <resource name="UD_Hint_BackGroundColor">
+        <object>Määritä ohjausobjektin taustaväri</object>
+      </resource>
+      <resource name="UD_Hint_FontBold">
+        <object>Lihavoi fontti</object>
+      </resource>
+      <resource name="UD_Hint_FontItalic">
+        <object>Kursivoi fontti</object>
+      </resource>
+      <resource name="UD_Hint_FontUnderline">
+        <object>Alleviivaa fontti</object>
+      </resource>
+      <resource name="UD_Hint_JustifyLeft">
+        <object>Tasaa ohjausobjektin teksti vasemmalle</object>
+      </resource>
+      <resource name="UD_Hint_JustifyCenter">
+        <object>Tasaa ohjausobjektin teksti keskelle</object>
+      </resource>
+      <resource name="UD_Hint_JustifyRight">
+        <object>Tasaa ohjausobjektin teksti oikealle</object>
+      </resource>
+      <resource name="UD_Hint_JustifyJustify">
+        <object>Tasaa ohjausobjektin teksti molempiin reunoihin</object>
+      </resource>
+      <resource name="UD_Hint_AlignLefts">
+        <object>Tasaa valitut ohjausobjektit vasemmalle</object>
+      </resource>
+      <resource name="UD_Hint_AlignCenters">
+        <object>Tasaa valittujen ohjausobjektien keskikohdat pystysuunnassa</object>
+      </resource>
+      <resource name="UD_Hint_AlignRights">
+        <object>Tasaa valitut ohjausobjektit oikealle</object>
+      </resource>
+      <resource name="UD_Hint_AlignTops">
+        <object>Tasaa valittujen ohjausobjektien yläreunat</object>
+      </resource>
+      <resource name="UD_Hint_AlignMiddles">
+        <object>Tasaa valittujen ohjausobjektien keskikohdat vaakasuunnassa</object>
+      </resource>
+      <resource name="UD_Hint_AlignBottoms">
+        <object>Tasaa valittujen ohjausobjektien alareunat</object>
+      </resource>
+      <resource name="UD_Hint_AlignToGrid">
+        <object>Tasaa valittujen ohjausobjektien sijainnit ruudukkoon</object>
+      </resource>
+      <resource name="UD_Hint_MakeSameSizeWidth">
+        <object>Tee valituista ohjausobjekteista yhtä leveitä</object>
+      </resource>
+      <resource name="UD_Hint_MakeSameSizeSizeToGrid">
+        <object>Kohdista valitut ohjausobjektit ruudukkoon</object>
+      </resource>
+      <resource name="UD_Hint_MakeSameSizeHeight">
+        <object>Tee valituista ohjausobjekteista yhtä korkeita</object>
+      </resource>
+      <resource name="UD_Hint_MakeSameSizeBoth">
+        <object>Tee valituista ohjausobjekteista samankokoisia</object>
+      </resource>
+      <resource name="UD_Hint_SpacingMakeEqual">
+        <object>Tee valittujen ohjausobjektien väleistä samankokoisia</object>
+      </resource>
+      <resource name="UD_Hint_SpacingIncrease">
+        <object>Suurenna valittujen ohjausobjektien välejä</object>
+      </resource>
+      <resource name="UD_Hint_SpacingDecrease">
+        <object>Pienennä valittujen ohjausobjektien välejä</object>
+      </resource>
+      <resource name="UD_Hint_SpacingRemove">
+        <object>Poista valittujen ohjausobjektien välit</object>
+      </resource>
+      <resource name="UD_Hint_CenterInFormHorizontally">
+        <object>Keskitä valitut ohjausobjektit vaakasuunnassa luokan sisällä</object>
+      </resource>
+      <resource name="UD_Hint_CenterInFormVertically">
+        <object>Keskitä valitut ohjausobjektit pystysuunnassa luokan sisällä</object>
+      </resource>
+      <resource name="UD_Hint_OrderBringToFront">
+        <object>Tuo valitut ohjausobjektit eteen</object>
+      </resource>
+      <resource name="UD_Hint_OrderSendToBack">
+        <object>Vie valitut ohjausobjektit taakse</object>
+      </resource>
+      <resource name="UD_Hint_ViewBars">
+        <object>Näytä tai piilota {0}</object>
+      </resource>
+      <resource name="UD_Hint_ViewDockPanels">
+        <object>Näytä tai piilota ikkuna {0}</object>
+      </resource>
+      <resource name="UD_Hint_ViewTabs">
+        <object>Siirry {0}-välilehteen</object>
+      </resource>
+      <resource name="UD_Title_FieldList">
+        <object>Kenttäluettelo</object>
+      </resource>
+      <resource name="UD_Title_ReportExplorer">
+        <object>Luettelonäkymä</object>
+      </resource>
+      <resource name="UD_Title_PropertyGrid">
+        <object>Ominaisuusruudukko</object>
+      </resource>
+      <resource name="UD_Title_ToolBox">
+        <object>Työkaluruutu</object>
+      </resource>
+      <resource name="STag_Name_Text">
+        <object>Teksti</object>
+      </resource>
+      <resource name="STag_Name_DataBinding">
+        <object>Tietojen sidonta</object>
+      </resource>
+      <resource name="STag_Name_FormatString">
+        <object>Muotomerkkijono</object>
+      </resource>
+      <resource name="STag_Name_ForeColor">
+        <object>Edustaväri</object>
+      </resource>
+      <resource name="STag_Name_BackColor">
+        <object>Taustaväri</object>
+      </resource>
+      <resource name="STag_Name_Font">
+        <object>Fontti</object>
+      </resource>
+      <resource name="STag_Name_LineDirection">
+        <object>Rivin suunta</object>
+      </resource>
+      <resource name="STag_Name_LineStyle">
+        <object>Rivin tyyli</object>
+      </resource>
+      <resource name="STag_Name_LineWidth">
+        <object>Rivin leveys</object>
+      </resource>
+      <resource name="STag_Name_CanGrow">
+        <object>Voi kasvaa</object>
+      </resource>
+      <resource name="STag_Name_CanShrink">
+        <object>Voi pienentyä</object>
+      </resource>
+      <resource name="STag_Name_Multiline">
+        <object>Monirivinen</object>
+      </resource>
+      <resource name="STag_Name_Summary">
+        <object>Yhteenveto</object>
+      </resource>
+      <resource name="STag_Name_Symbology">
+        <object>Symbolit</object>
+      </resource>
+      <resource name="STag_Name_Module">
+        <object>Moduuli</object>
+      </resource>
+      <resource name="STag_Name_ShowText">
+        <object>Näytä teksti</object>
+      </resource>
+      <resource name="STag_Name_SegmentWidth">
+        <object>Segmentin leveys</object>
+      </resource>
+      <resource name="STag_Name_Checked">
+        <object>Valittu</object>
+      </resource>
+      <resource name="STag_Name_Image">
+        <object>Kuva</object>
+      </resource>
+      <resource name="STag_Name_ImageUrl">
+        <object>Kuvan URL-osoite</object>
+      </resource>
+      <resource name="STag_Name_ImageSizing">
+        <object>Kuvan koko</object>
+      </resource>
+      <resource name="STag_Name_ReportSource">
+        <object>Raportin lähde</object>
+      </resource>
+      <resource name="STag_Name_PreviewRowCount">
+        <object>Esikatselun rivimäärä</object>
+      </resource>
+      <resource name="STag_Name_ShrinkSubReportIconArea">
+        <object>Pienennä aliraporttikuvakealue</object>
+      </resource>
+      <resource name="STag_Name_PageInfo">
+        <object>Sivun tiedot</object>
+      </resource>
+      <resource name="STag_Name_StartPageNumber">
+        <object>Aloitussivun numero</object>
+      </resource>
+      <resource name="STag_Name_Format">
+        <object>Muoto</object>
+      </resource>
+      <resource name="STag_Name_KeepTogether">
+        <object>Pidä yhdessä</object>
+      </resource>
+      <resource name="STag_Name_Bands">
+        <object>Luokat</object>
+      </resource>
+      <resource name="STag_Name_Height">
+        <object>Korkeus</object>
+      </resource>
+      <resource name="STag_Name_RepeatEveryPage">
+        <object>Toista jokaisella sivulla</object>
+      </resource>
+      <resource name="STag_Name_PrintAtBottom">
+        <object>Tulosta alareunassa</object>
+      </resource>
+      <resource name="STag_Name_GroupFields">
+        <object>Ryhmäkentät</object>
+      </resource>
+      <resource name="STag_Name_SortFields">
+        <object>Lajittele kentät</object>
+      </resource>
+      <resource name="STag_Name_GroupUnion">
+        <object>Ryhmäliitos</object>
+      </resource>
+      <resource name="STag_Name_Level">
+        <object>Taso</object>
+      </resource>
+      <resource name="STag_Name_ColumnMode">
+        <object>Saraketila</object>
+      </resource>
+      <resource name="STag_Name_ColumnCount">
+        <object>Sarakemäärä</object>
+      </resource>
+      <resource name="STag_Name_ColumnWidth">
+        <object>Sarakeleveys</object>
+      </resource>
+      <resource name="STag_Name_ColumnSpacing">
+        <object>Sarakevälistys</object>
+      </resource>
+      <resource name="STag_Name_Direction">
+        <object>Suunta</object>
+      </resource>
+      <resource name="STag_Name_Watermark">
+        <object>Vesileima</object>
+      </resource>
+      <resource name="STag_Name_ReportUnit">
+        <object>Raporttiyksikkö</object>
+      </resource>
+      <resource name="STag_Name_DataSource">
+        <object>Tietolähde</object>
+      </resource>
+      <resource name="STag_Name_DataMember">
+        <object>Tietojäsen</object>
+      </resource>
+      <resource name="STag_Name_DataAdapter">
+        <object>Tietosovitin</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsTreeListLocalizer" ServiceOnly="false">
+      <resource name="MenuFooterSum">
+        <object>Summa</object>
+      </resource>
+      <resource name="MenuFooterMin">
+        <object>Vähintään</object>
+      </resource>
+      <resource name="MenuFooterMax">
+        <object>Enintään</object>
+      </resource>
+      <resource name="MenuFooterCount">
+        <object>Määrä</object>
+      </resource>
+      <resource name="MenuFooterAverage">
+        <object>Keskiarvo</object>
+      </resource>
+      <resource name="MenuFooterNone">
+        <object>Ei mitään</object>
+      </resource>
+      <resource name="MenuFooterAllNodes">
+        <object>Kaikki solmut</object>
+      </resource>
+      <resource name="MenuFooterSumFormat">
+        <object>SUMMA={0:#.##}</object>
+      </resource>
+      <resource name="MenuFooterMinFormat">
+        <object>VÄHINTÄÄN={0}</object>
+      </resource>
+      <resource name="MenuFooterMaxFormat">
+        <object>ENINTÄÄN={0}</object>
+      </resource>
+      <resource name="MenuFooterCountFormat">
+        <object>{0}</object>
+      </resource>
+      <resource name="MenuFooterAverageFormat">
+        <object>KESKIARVO={0:#.##}</object>
+      </resource>
+      <resource name="MenuColumnSortAscending">
+        <object>Nouseva lajittelu</object>
+      </resource>
+      <resource name="MenuColumnSortDescending">
+        <object>Laskeva lajittelu</object>
+      </resource>
+      <resource name="MenuColumnColumnCustomization">
+        <object>Sarakevalitsin</object>
+      </resource>
+      <resource name="MenuColumnBestFit">
+        <object>Parhaiten sopiva</object>
+      </resource>
+      <resource name="MenuColumnBestFitAllColumns">
+        <object>Parhaiten sopiva (kaikki sarakkeet)</object>
+      </resource>
+      <resource name="ColumnCustomizationText">
+        <object>Mukautus</object>
+      </resource>
+      <resource name="ColumnNamePrefix">
+        <object>sarake</object>
+      </resource>
+      <resource name="PrintDesignerHeader">
+        <object>Tulostusasetukset</object>
+      </resource>
+      <resource name="PrintDesignerDescription">
+        <object>Määritä nykyisen puuluettelon tulostusasetukset.</object>
+      </resource>
+      <resource name="InvalidNodeExceptionText">
+        <object> Haluatko korjata arvon?</object>
+      </resource>
+      <resource name="MultiSelectMethodNotSupported">
+        <object>Määritetty menetelmä ei toimi, kun OptionsBehavior.MultiSelect on passiivinen.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsVGridLocalizer" ServiceOnly="false">
+      <resource name="RowCustomizationText">
+        <object>Mukautus</object>
+      </resource>
+      <resource name="RowCustomizationNewCategoryFormText">
+        <object>Uusi luokka</object>
+      </resource>
+      <resource name="RowCustomizationNewCategoryFormLabelText">
+        <object>Kuvateksti:</object>
+      </resource>
+      <resource name="RowCustomizationNewCategoryText">
+        <object>&amp;Uusi...</object>
+      </resource>
+      <resource name="RowCustomizationDeleteCategoryText">
+        <object>&amp;Poista</object>
+      </resource>
+      <resource name="RowCustomizationTabPageCategoriesText">
+        <object>Luokat</object>
+      </resource>
+      <resource name="RowCustomizationTabPageRowsText">
+        <object>Rivit</object>
+      </resource>
+      <resource name="InvalidRecordExceptionText">
+        <object> Haluatko korjata arvon?</object>
+      </resource>
+      <resource name="StyleCreatorName">
+        <object>Mukautettu tyylien luontitoiminto</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.VersionInformation" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Innova-versiotiedot</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.BrowseDocumentForm" ServiceOnly="false">
+      <resource name="simpleButtonCancel.Text">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="simpleButtonOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="gridColumnTitle.Caption">
+        <object>Nimi</object>
+      </resource>
+      <resource name="gridColumnUrl.Caption">
+        <object>URL-osoite</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DeleteConfirmForm" ServiceOnly="false">
+      <resource name="SelectMethod">
+        <object>Valitse, millä menetelmällä tiedosto {0} poistetaan</object>
+      </resource>
+      <resource name="Text">
+        <object>Poista tiedosto</object>
+      </resource>
+      <resource name="radioGroup.Properties.Items.Item[0].Description">
+        <object>Poista tiedosto</object>
+      </resource>
+      <resource name="radioGroup.Properties.Items.Item[1].Description">
+        <object>Poista vain liitäntä objektiin, mutta säilytä itse tiedosto</object>
+      </resource>
+      <resource name="simpleButtonOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="simpleButtonCancel.Text">
+        <object>Peruuta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentEditRecordForm" ServiceOnly="false">
+      <resource name="Text">
+        <object>Tiedosto</object>
+      </resource>
+      <resource name="simpleButtonOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="simpleButtonCancel.Text">
+        <object>Peruuta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentEditRecordUC" ServiceOnly="false">
+      <resource name="labelTitle.Text">
+        <object>Nimi</object>
+      </resource>
+      <resource name="labelHelpContext.Text">
+        <object>Ohjekontekstin nimi</object>
+      </resource>
+      <resource name="labelAccessLevel.Text">
+        <object>Käyttöoikeustaso</object>
+      </resource>
+      <resource name="checkEditAssociate.Text">
+        <object>Liitä tiedosto tähän objektiin:</object>
+      </resource>
+      <resource name="groupControlDocument.Text">
+        <object>Tiedosto</object>
+      </resource>
+      <resource name="radioButtonUrl.Text">
+        <object>URL-osoite</object>
+      </resource>
+      <resource name="radioButtonFileDoc.Text">
+        <object>Upotettu tiedosto</object>
+      </resource>
+      <resource name="buttonView.ToolTip">
+        <object>Näytä tämä tiedosto</object>
+      </resource>
+      <resource name="buttonUpload.ToolTip">
+        <object>Lataa tämä tiedosto tietokantaan</object>
+      </resource>
+      <resource name="buttonDownload.ToolTip">
+        <object>Lataa tämä tiedosto tietokoneeseesi</object>
+      </resource>
+      <resource name="buttonClear.ToolTip">
+        <object>Tyhjennä tämä tiedosto tietokannasta</object>
+      </resource>
+      <resource name="NoNullValues">
+        <object>Sarakkeessa {0} ei sallita tyhjiä arvoja.</object>
+      </resource>
+      <resource name="Confirm">
+        <object>Vahvista</object>
+      </resource>
+      <resource name="DocumentInfoFormat">
+        <object>{0} tiedosto, {1:###,###,###,##0} tavua</object>
+      </resource>
+      <resource name="LoadingDocument">
+        <object>Ladataan tiedostoa...</object>
+      </resource>
+      <resource name="CannotLoad">
+        <object>Tiedostoa ei voida ladata: {0}</object>
+      </resource>
+      <resource name="LoadDocument">
+        <object>Lataa tiedosto</object>
+      </resource>
+      <resource name="SaveFileFormats">
+        <object>*.{0}-tiedostot|*.{0}|Kaikki tiedostot|*.*</object>
+      </resource>
+      <resource name="CannotSave">
+        <object>Tiedostoa ei voida tallentaa: {0}</object>
+      </resource>
+      <resource name="SaveDocument">
+        <object>Tallenna tiedosto</object>
+      </resource>
+      <resource name="BadUrl">
+        <object>Määritetyn URL-osoitteen muoto on virheellinen. Internet-viittausten alussa on oltava http://. Tiedostoviittausten alussa on oltava \\ , "tiedosto://" tai asemakirjain.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentUC" ServiceOnly="false">
+      <resource name="New">
+        <object>Uusi</object>
+      </resource>
+      <resource name="NewHint">
+        <object>Luo uuden tiedoston</object>
+      </resource>
+      <resource name="Add">
+        <object>Lisää</object>
+      </resource>
+      <resource name="AddHint">
+        <object>Lisää luodun tiedoston kontekstiin, jossa olet</object>
+      </resource>
+      <resource name="Edit">
+        <object>Muokkaa</object>
+      </resource>
+      <resource name="EditHint">
+        <object>Muokkaa tiedoston asetuksia</object>
+      </resource>
+      <resource name="Delete">
+        <object>Poista</object>
+      </resource>
+      <resource name="DeleteHint">
+        <object>Poistaa tiedoston tietystä kontekstista tai kaikista järjestelmän konteksteista</object>
+      </resource>
+      <resource name="Save">
+        <object>Tallenna</object>
+      </resource>
+      <resource name="SaveHint">
+        <object>Tallentaa tiedoston tietokantaan</object>
+      </resource>
+      <resource name="ActiveFilter">
+        <object>Aktiivinen suodatin:</object>
+      </resource>
+      <resource name="HelpContext">
+        <object>Ohjekonteksti:</object>
+      </resource>
+      <resource name="Object">
+        <object>Objekti:</object>
+      </resource>
+      <resource name="SelectDocumentAssociate">
+        <object>Valitse objektiin {0} liitettävä tiedosto</object>
+      </resource>
+      <resource name="DocumentSystem">
+        <object>Tiedostojärjestelmä</object>
+      </resource>
+      <resource name="NoDocuments">
+        <object>Yhtään tiedostoa ei löydy</object>
+      </resource>
+      <resource name="Documents">
+        <object>Tiedostot</object>
+      </resource>
+      <resource name="BadUrlForRendering">
+        <object>Valittua tiedostoa ei voitu hahmontaa, koska sen URL-osoite on virheellinen.</object>
+      </resource>
+      <resource name="RenderDocument">
+        <object>Näytä tiedosto</object>
+      </resource>
+      <resource name="BadDocument">
+        <object>Valittua tiedostoa ei voitu hahmontaa, koska se on tyhjä. Muokkaa tiedostoa ja lisää uusi upotettu tiedosto tai URL-osoite.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentEditUC" ServiceOnly="false">
+      <resource name="Refresh">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="NewNode">
+        <object>Uusi tiedosto</object>
+      </resource>
+      <resource name="DeleteNode">
+        <object>Poista tiedosto</object>
+      </resource>
+      <resource name="Confirm">
+        <object>Vahvista</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="Contents">
+        <object>Tiedostopuu</object>
+      </resource>
+      <resource name="Singular">
+        <object>Yksittäiset tiedostot</object>
+      </resource>
+      <resource name="CorrectData">
+        <object>Haluatko korjata tiedot?</object>
+      </resource>
+      <resource name="DataError">
+        <object>Tietovirhe</object>
+      </resource>
+      <resource name="Storing">
+        <object>Tallennetaan tiedostoa...</object>
+      </resource>
+      <resource name="LoadingTreeNode">
+        <object>{0} (ladataan)</object>
+      </resource>
+      <resource name="NewDocument">
+        <object>(uusi tiedosto)</object>
+      </resource>
+      <resource name="ConfirmDeleteAndChild">
+        <object>Haluatko varmasti poistaa tiedoston ({0}) ja kaikki sen alitiedostot?</object>
+      </resource>
+      <resource name="ConfirmDelete">
+        <object>Haluatko varmasti poistaa tiedoston ({0})?</object>
+      </resource>
+      <resource name="DeleteDocument">
+        <object>Poista tiedosto</object>
+      </resource>
+      <resource name="DeletingDocuments">
+        <object>Poistetaan tiedostoja...</object>
+      </resource>
+      <resource name="AddMany">
+        <object>Lisää useita tiedostoja</object>
+      </resource>
+      <resource name="ErrorAddMany">
+        <object>Tiedostoja tallennettaessa tapahtui virhe. {0}</object>
+      </resource>
+      <resource name="Error">
+        <object>Virhe</object>
+      </resource>
+      <resource name="ProgressProcessFile">
+        <object>Käsitellään tiedostoa {0}</object>
+      </resource>
+      <resource name="ProgressFinished">
+        <object>Valmis</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.StandardDocumentUC" ServiceOnly="false">
+      <resource name="Back">
+        <object>Takaisin</object>
+      </resource>
+      <resource name="Forward">
+        <object>Seuraava</object>
+      </resource>
+      <resource name="Refresh">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="Stop">
+        <object>Pysäytä</object>
+      </resource>
+      <resource name="LicenseMessage">
+        <object>Dokumentointiaseman käyttöoikeutta ei voida noutaa: {0}.{1}</object>
+      </resource>
+      <resource name="DocumentNotFound">
+        <object>Tiedosto ei ole käytettävissä tai sitä ei ole. Sinulla ei ehkä ole tiedoston käyttöoikeuksia tai sen sijainti on virheellinen.\nTiedoston nimi: {0}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.ComboBoxCriteria" ServiceOnly="false">
+      <resource name="notdef">
+        <object>Ei määritetty</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.PackFilterFormValues" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Tuotantopäivä</object>
+      </resource>
+      <resource name="InventoryAndPrday">
+        <object>Varasto ja päivä</object>
+      </resource>
+      <resource name="OrderAndPrday">
+        <object>Tilaus ja päivä</object>
+      </resource>
+      <resource name="ShiftAndPrday">
+        <object>Vuoro ja päivä</object>
+      </resource>
+      <resource name="PoAndPrday">
+        <object>PO ja päivä</object>
+      </resource>
+      <resource name="BatchAndPrday">
+        <object>Sarja ja päivä</object>
+      </resource>
+      <resource name="LotAndPrday">
+        <object>Erä ja päivä</object>
+      </resource>
+      <resource name="ProductionLotAndPrday">
+        <object>Tuotantoerä ja päivä</object>
+      </resource>
+      <resource name="StationAndPrday">
+        <object>Asema ja päivä</object>
+      </resource>
+      <resource name="DepartmentAndPrday">
+        <object>Osasto ja päivä</object>
+      </resource>
+      <resource name="Stack">
+        <object>Pino</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Kuormalava</object>
+      </resource>
+      <resource name="Container">
+        <object>Kontti</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Kuljetuserä</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Rekisteröintiaika</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.GeneralFilterFormValues" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Tuotantopäivä</object>
+      </resource>
+      <resource name="InventoryAndPrday">
+        <object>Varasto ja päivä</object>
+      </resource>
+      <resource name="OrderAndPrday">
+        <object>Tilaus ja päivä</object>
+      </resource>
+      <resource name="ShiftAndPrday">
+        <object>Vuoro ja päivä</object>
+      </resource>
+      <resource name="PoAndPrday">
+        <object>PO ja päivä</object>
+      </resource>
+      <resource name="BatchAndPrday">
+        <object>Sarja ja päivä</object>
+      </resource>
+      <resource name="LotAndPrday">
+        <object>Erä ja päivä</object>
+      </resource>
+      <resource name="ProductionLotAndPrday">
+        <object>Tuotantoerä ja päivä</object>
+      </resource>
+      <resource name="StationAndPrday">
+        <object>Asema ja päivä</object>
+      </resource>
+      <resource name="DepartmentAndPrday">
+        <object>Osasto ja päivä</object>
+      </resource>
+      <resource name="Stack">
+        <object>Pino</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Kuormalava</object>
+      </resource>
+      <resource name="Container">
+        <object>Kontti</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Kuljetuserä</object>
+      </resource>
+      <resource name="InventoryAndStatus">
+        <object>Varasto ja tila</object>
+      </resource>
+      <resource name="OrderAndStatus">
+        <object>Tilaus ja tila</object>
+      </resource>
+      <resource name="StartTimeAndStatus">
+        <object>Aloitusaika ja tila</object>
+      </resource>
+      <resource name="EndTimeAndStatus">
+        <object>Lopetusaika ja tila </object>
+      </resource>
+      <resource name="PoAndStatus">
+        <object>PO ja tila</object>
+      </resource>
+      <resource name="PlotAndStatus">
+        <object>Tuotantoerä ja tila</object>
+      </resource>
+      <resource name="PrunitAndStatus">
+        <object>Käsittely-yksikkö ja tila</object>
+      </resource>
+      <resource name="StationAndStatus">
+        <object>Asema ja tila</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.CollectionFilterFormValues" ServiceOnly="false">
+      <resource name="Pallet">
+        <object>Kuormalava</object>
+      </resource>
+      <resource name="Container">
+        <object>Kontti</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Kuljetuserä</object>
+      </resource>
+      <resource name="InventoryAndStatus">
+        <object>Varasto ja tila</object>
+      </resource>
+      <resource name="OrderAndStatus">
+        <object>Tilaus ja tila</object>
+      </resource>
+      <resource name="StartTimeAndStatus">
+        <object>Aloitusaika ja tila</object>
+      </resource>
+      <resource name="EndTimeAndStatus">
+        <object>Lopetusaika ja tila </object>
+      </resource>
+      <resource name="PoAndStatus">
+        <object>PO ja tila</object>
+      </resource>
+      <resource name="PlotAndStatus">
+        <object>Tuotantoerä ja tila</object>
+      </resource>
+      <resource name="PrunitAndStatus">
+        <object>Käsittely-yksikkö ja tila</object>
+      </resource>
+      <resource name="StationAndStatus">
+        <object>Asema ja tila</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.InspectionFilterFormValues" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Tuotantopäivä</object>
+      </resource>
+      <resource name="ProcessAndPrday">
+        <object>Prosessi ja päivä</object>
+      </resource>
+      <resource name="ProcedureAndPrday">
+        <object>Toimintosarja ja päivä</object>
+      </resource>
+      <resource name="InspectorAndPrday">
+        <object>Tarkastaja ja päivä</object>
+      </resource>
+      <resource name="EmployeeAndPrday">
+        <object>Työntekijä ja päivä</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Rekisteröintiaika</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.ItemFilterFormValues" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Tuotantopäivä</object>
+      </resource>
+      <resource name="OrderAndPrday">
+        <object>Tilaus ja päivä</object>
+      </resource>
+      <resource name="ShiftAndPrday">
+        <object>Vuoro ja päivä</object>
+      </resource>
+      <resource name="PoAndPrday">
+        <object>PO ja päivä</object>
+      </resource>
+      <resource name="BatchAndPrday">
+        <object>Sarja ja päivä</object>
+      </resource>
+      <resource name="LotAndPrday">
+        <object>Erä ja päivä</object>
+      </resource>
+      <resource name="ProductionLotAndPrday">
+        <object>Tuotantoerä ja päivä</object>
+      </resource>
+      <resource name="StationAndPrday">
+        <object>Asema ja päivä</object>
+      </resource>
+      <resource name="DepartmentAndPrday">
+        <object>Osasto ja päivä</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Rekisteröintiaika</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.SimpleDataRowViewBaseUC" ServiceOnly="false">
+      <resource name="NotNullMsg">
+        <object>Sarakkeessa {0} ei sallita tyhjäarvoisia arvoja</object>
+      </resource>
+      <resource name="Error">
+        <object>Virhe</object>
+      </resource>
+      <resource name="ApplyFailed">
+        <object>Muutoksia ei voitu ottaa käyttöön tietokannassa määrittelemättömän virheen vuoksi.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.Mp5ReportToolbar" ServiceOnly="false">
+      <resource name="sendexptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="sendexptypetext">
+        <object>Teksti</object>
+      </resource>
+      <resource name="sendexptypecsv">
+        <object>Pilkkueroteltu tiedosto</object>
+      </resource>
+      <resource name="sendexptypemht">
+        <object>Mht</object>
+      </resource>
+      <resource name="sendexptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="sendexptypertf">
+        <object>RTF-tiedosto</object>
+      </resource>
+      <resource name="sendexptypegraphics">
+        <object>Kuva</object>
+      </resource>
+      <resource name="exptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="exptypehtml">
+        <object>HTML</object>
+      </resource>
+      <resource name="exptypetext">
+        <object>Teksti</object>
+      </resource>
+      <resource name="exptypecsv">
+        <object>Pilkkueroteltu tiedosto</object>
+      </resource>
+      <resource name="exptypemht">
+        <object>Mht</object>
+      </resource>
+      <resource name="exptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="exptypertf">
+        <object>RTF-tiedosto</object>
+      </resource>
+      <resource name="exptypegraphics">
+        <object>Kuva</object>
+      </resource>
+      <resource name="toolRefresh">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="toolSearch">
+        <object>Haku</object>
+      </resource>
+      <resource name="toolHandTool">
+        <object>Käsityökalu</object>
+      </resource>
+      <resource name="toolPrintWithOptions">
+        <object>Tulosta (asetukset)</object>
+      </resource>
+      <resource name="toolSpeedPrint">
+        <object>Tulosta</object>
+      </resource>
+      <resource name="toolPrintSetup">
+        <object>Sivun asetukset</object>
+      </resource>
+      <resource name="toolMagnifier">
+        <object>Suurennuslasi</object>
+      </resource>
+      <resource name="toolZoomIn">
+        <object>Lähennä</object>
+      </resource>
+      <resource name="toolZoomOut">
+        <object>Loitonna</object>
+      </resource>
+      <resource name="toolZoomOptions">
+        <object>Zoomausasetukset</object>
+      </resource>
+      <resource name="toolFirstPage">
+        <object>Ensimmäinen sivu</object>
+      </resource>
+      <resource name="toolPreviousPage">
+        <object>Edellinen sivu</object>
+      </resource>
+      <resource name="toolNextPage">
+        <object>Seuraava sivu</object>
+      </resource>
+      <resource name="toolLastPage">
+        <object>Viimeinen sivu</object>
+      </resource>
+      <resource name="toolMultiplePages">
+        <object>Useita sivuja</object>
+      </resource>
+      <resource name="toolWatermark">
+        <object>Vesileima</object>
+      </resource>
+      <resource name="toolExport">
+        <object>Vie</object>
+      </resource>
+      <resource name="toolEmail">
+        <object>Sähköposti</object>
+      </resource>
+      <resource name="htoolRefresh">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="htoolSearch">
+        <object>Haku</object>
+      </resource>
+      <resource name="htoolHandTool">
+        <object>Käsityökalu</object>
+      </resource>
+      <resource name="htoolPrintWithOptions">
+        <object>Tulosta (asetukset)</object>
+      </resource>
+      <resource name="htoolSpeedPrint">
+        <object>Tulosta</object>
+      </resource>
+      <resource name="htoolPrintSetup">
+        <object>Sivun asetukset</object>
+      </resource>
+      <resource name="htoolMagnifier">
+        <object>Suurennuslasi</object>
+      </resource>
+      <resource name="htoolZoomIn">
+        <object>Lähennä</object>
+      </resource>
+      <resource name="htoolZoomOut">
+        <object>Loitonna</object>
+      </resource>
+      <resource name="htoolZoomOptions">
+        <object>Zoomausasetukset</object>
+      </resource>
+      <resource name="htoolFirstPage">
+        <object>Ensimmäinen sivu</object>
+      </resource>
+      <resource name="htoolPreviousPage">
+        <object>Edellinen sivu</object>
+      </resource>
+      <resource name="htoolNextPage">
+        <object>Seuraava sivu</object>
+      </resource>
+      <resource name="htoolLastPage">
+        <object>Viimeinen sivu</object>
+      </resource>
+      <resource name="htoolMultiplePages">
+        <object>Useita sivuja</object>
+      </resource>
+      <resource name="htoolWatermark">
+        <object>Vesileima</object>
+      </resource>
+      <resource name="htoolExport">
+        <object>Vie</object>
+      </resource>
+      <resource name="htoolEmail">
+        <object>Sähköposti</object>
+      </resource>
+      <resource name="htoolDocMap">
+        <object>Näytä/piilota tiedostokartta</object>
+      </resource>
+      <resource name="toolRefreshWithOptions">
+        <object>Päivitä (asetukset)</object>
+      </resource>
+      <resource name="htoolRefreshWithOptions">
+        <object>Päivitä (asetukset) </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.SystemCriterias" ServiceOnly="false">
+      <resource name="emppar_name">
+        <object>Työntekijä:</object>
+      </resource>
+      <resource name="emppar_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="emppar_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="emppar_desc1">
+        <object>Työntekijä</object>
+      </resource>
+      <resource name="emppar_desc2">
+        <object>Nimi</object>
+      </resource>
+      <resource name="emppar_desc3">
+        <object>Osasto</object>
+      </resource>
+      <resource name="deppar_name">
+        <object>Osasto:</object>
+      </resource>
+      <resource name="deppar_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="deppar_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="deppar_desc1">
+        <object>Osasto</object>
+      </resource>
+      <resource name="matpar_name">
+        <object>Tuote:</object>
+      </resource>
+      <resource name="matpar_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="matpar_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="matpar_desc1">
+        <object>Tuote</object>
+      </resource>
+      <resource name="matpar_desc2">
+        <object>Koodi</object>
+      </resource>
+      <resource name="jobpar_name">
+        <object>Työ:</object>
+      </resource>
+      <resource name="jobpar_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="jobpar_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="jobpar_desc1">
+        <object>Työ</object>
+      </resource>
+      <resource name="prday_name">
+        <object>Tuotantopäivä:</object>
+      </resource>
+      <resource name="prunit_name">
+        <object>Käsittely-yksikkö:</object>
+      </resource>
+      <resource name="product_name">
+        <object>Tuote:</object>
+      </resource>
+      <resource name="product_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="product_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="product_desc1">
+        <object>Tuote</object>
+      </resource>
+      <resource name="product_desc2">
+        <object>Koodi</object>
+      </resource>
+      <resource name="prperiodbyprday_name">
+        <object>Käsittelyjakso:</object>
+      </resource>
+      <resource name="prperiodbyprday_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="prperiodbyprday_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="prperiodbyprday_desc1">
+        <object>Käsittelyjakso</object>
+      </resource>
+      <resource name="prperiodbyprday_desc2">
+        <object>Käsittely-yksikkö</object>
+      </resource>
+      <resource name="prperiodbyprday_desc3">
+        <object>Toiminto</object>
+      </resource>
+      <resource name="prperiodbyprday_desc4">
+        <object>Tuotantopäivä</object>
+      </resource>
+      <resource name="prperiodbyprday_desc5">
+        <object>Aloitusaika</object>
+      </resource>
+      <resource name="prperiodbyprday_desc6">
+        <object>Lopetusaika</object>
+      </resource>
+      <resource name="trimprperiodbyprday_name">
+        <object>Käsittelyjakso:</object>
+      </resource>
+      <resource name="trimprperiodbyprday_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="trimprperiodbyprday_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc1">
+        <object>Käsittelyjakso</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc2">
+        <object>Käsittely-yksikkö</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc3">
+        <object>Leikkuuohjelma</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc4">
+        <object>Tuotantopäivä</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc5">
+        <object>Aloitusaika</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc6">
+        <object>Lopetusaika</object>
+      </resource>
+      <resource name="batch_name">
+        <object>Sarja:</object>
+      </resource>
+      <resource name="batch_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="batch_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="shift_name">
+        <object>Vuoro:</object>
+      </resource>
+      <resource name="shift_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="shift_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="po_name">
+        <object>Ostotilaus:</object>
+      </resource>
+      <resource name="po_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="po_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="po_desc1">
+        <object>Ostotilaus</object>
+      </resource>
+      <resource name="sysprogram_name">
+        <object>Järjestelmäohjelma:</object>
+      </resource>
+      <resource name="sysprogram_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="sysprogram_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="sysprogram_desc1">
+        <object>Ohjelma</object>
+      </resource>
+      <resource name="regtime_name">
+        <object>Rekisteröintiaika:</object>
+      </resource>
+      <resource name="schprogram_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="schprogram_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="schprogram_name">
+        <object>Järjestelmäohjelma:</object>
+      </resource>
+      <resource name="schprogram_desc1">
+        <object>Ohjelma</object>
+      </resource>
+      <resource name="devices_name">
+        <object>Laite:</object>
+      </resource>
+      <resource name="devices_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="devices_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="devices_desc1">
+        <object>Laite</object>
+      </resource>
+      <resource name="licenses_name">
+        <object>Käyttöoikeus:</object>
+      </resource>
+      <resource name="licenses_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="licenses_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="licenses_desc1">
+        <object>Käyttöoikeus</object>
+      </resource>
+      <resource name="grdprogram_name">
+        <object>Lajitteluohjelma:</object>
+      </resource>
+      <resource name="grdprogram_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="grdprogram_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="grdprogram_desc1">
+        <object>Ohjelma</object>
+      </resource>
+      <resource name="wgthour_name">
+        <object>Näytä paino</object>
+      </resource>
+      <resource name="pcsmin_name">
+        <object>Näytä kappaleet</object>
+      </resource>
+      <resource name="prunit_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="prunit_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="prunit_desc1">
+        <object>Käsittely-yksikkö</object>
+      </resource>
+      <resource name="showprods_name">
+        <object>Näytä tuotteet</object>
+      </resource>
+      <resource name="count_name">
+        <object>Määrä:</object>
+      </resource>
+      <resource name="weight_name">
+        <object>Paino:</object>
+      </resource>
+      <resource name="singleprday_name">
+        <object>Tuotantopäivä:</object>
+      </resource>
+      <resource name="destinv_name">
+        <object>Varasto:</object>
+      </resource>
+      <resource name="destinv_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="destinv_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="destinv_desc1">
+        <object>Varasto</object>
+      </resource>
+      <resource name="procinputbreakdown_name">
+        <object>Erotteluperuste:</object>
+      </resource>
+      <resource name="procyieldbreakdown_name">
+        <object>Erotteluperuste:</object>
+      </resource>
+      <resource name="triminputbreakdown_name">
+        <object>Erotteluperuste:</object>
+      </resource>
+      <resource name="shift_desc1">
+        <object>Vuoro</object>
+      </resource>
+      <resource name="podeliverystatus_name">
+        <object>Toimitustila:</object>
+      </resource>
+      <resource name="palletbysiteandnumber_name">
+        <object>Kuormalava:</object>
+      </resource>
+      <resource name="palletbysscc_name">
+        <object>Kuormalava:</object>
+      </resource>
+      <resource name="packbysiteandnumber_name">
+        <object>Pakkaus:</object>
+      </resource>
+      <resource name="packbysscc_name">
+        <object>Pakkaus:</object>
+      </resource>
+      <resource name="stackbysiteandnumber_name">
+        <object>Pino:</object>
+      </resource>
+      <resource name="containerbysiteandnumber_name">
+        <object>Kontti:</object>
+      </resource>
+      <resource name="shipmentbysiteandnumber_name">
+        <object>Kuljetuserä:</object>
+      </resource>
+      <resource name="stackbysscc_name">
+        <object>Pino:</object>
+      </resource>
+      <resource name="containerbysscc_name">
+        <object>Kontti:</object>
+      </resource>
+      <resource name="shipmentbysscc_name">
+        <object>Kuljetuserä:</object>
+      </resource>
+      <resource name="lot_name">
+        <object>Erä:</object>
+      </resource>
+      <resource name="lot_desc1">
+        <object>Erä</object>
+      </resource>
+      <resource name="lot_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="lot_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="stocktake_name">
+        <object>Inventointi:</object>
+      </resource>
+      <resource name="stocktake_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="stocktake_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="plot_name">
+        <object>Tuotantoerä:</object>
+      </resource>
+      <resource name="plot_desc1">
+        <object>Tuotantoerä</object>
+      </resource>
+      <resource name="plot_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="plot_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="order_name">
+        <object>Tilaus:</object>
+      </resource>
+      <resource name="order_desc1">
+        <object>Tilaus </object>
+      </resource>
+      <resource name="order_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="order_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="station_name">
+        <object>Asema:</object>
+      </resource>
+      <resource name="station_desc1">
+        <object>Asema </object>
+      </resource>
+      <resource name="station_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="station_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="collectionstatus_name">
+        <object>Tila:</object>
+      </resource>
+      <resource name="itemgridoptions_name">
+        <object>Näyttöperuste:</object>
+      </resource>
+      <resource name="packgridoptions_name">
+        <object>Näyttöperuste:</object>
+      </resource>
+      <resource name="collectiongridoptions_name">
+        <object>Näyttöperuste:</object>
+      </resource>
+      <resource name="lotstatus_name">
+        <object>Tila:</object>
+      </resource>
+      <resource name="sumprperiods_name">
+        <object>Tee jaksojen yhteenveto</object>
+      </resource>
+      <resource name="site_name">
+        <object>Paikka:</object>
+      </resource>
+      <resource name="site_desc1">
+        <object>Paikka</object>
+      </resource>
+      <resource name="site_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="site_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="inventory_name">
+        <object>Varasto:</object>
+      </resource>
+      <resource name="inventory_desc1">
+        <object>Varasto</object>
+      </resource>
+      <resource name="inventory_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="inventory_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="invloc_name">
+        <object>Sijainti:</object>
+      </resource>
+      <resource name="invloc_desc1">
+        <object>Sijainti:</object>
+      </resource>
+      <resource name="invloc_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="invloc_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="supplier_name">
+        <object>Toimittaja:</object>
+      </resource>
+      <resource name="supplier_desc1">
+        <object>Toimittaja</object>
+      </resource>
+      <resource name="supplier_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="supplier_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="owner_name">
+        <object>Omistaja:</object>
+      </resource>
+      <resource name="owner_desc1">
+        <object>Omistaja</object>
+      </resource>
+      <resource name="owner_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="owner_testmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="inspectiongridoptions_name">
+        <object>Näyttöperuste:</object>
+      </resource>
+      <resource name="process_name">
+        <object>Prosessi:</object>
+      </resource>
+      <resource name="process_desc1">
+        <object>Prosessi</object>
+      </resource>
+      <resource name="process_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="process_testmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="procedure_name">
+        <object>Toimintosarja:</object>
+      </resource>
+      <resource name="procedure_desc1">
+        <object>Toimintosarja</object>
+      </resource>
+      <resource name="procedure_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="procedure_testmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="employee_name">
+        <object>Työntekijä:</object>
+      </resource>
+      <resource name="employee_desc1">
+        <object>Työntekijä</object>
+      </resource>
+      <resource name="employee_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="employee_testmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="inspector_name">
+        <object>Tarkastaja:</object>
+      </resource>
+      <resource name="inspector_desc1">
+        <object>Tarkastaja</object>
+      </resource>
+      <resource name="inspector_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="inspector_testmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="plotstatus_name">
+        <object>Tila:</object>
+      </resource>
+      <resource name="orderstatus_name">
+        <object>Tila:</object>
+      </resource>
+      <resource name="customer_name">
+        <object>Asiakas:</object>
+      </resource>
+      <resource name="customer_desc1">
+        <object>Asiakas</object>
+      </resource>
+      <resource name="customer_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="customer_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="species_name">
+        <object>Tuote:</object>
+      </resource>
+      <resource name="species_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="species_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="species_desc1">
+        <object>Tuote</object>
+      </resource>
+      <resource name="species_desc2">
+        <object>Koodi</object>
+      </resource>
+      <resource name="printers_name">
+        <object>Tulostin</object>
+      </resource>
+      <resource name="printers_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="printers_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="printers_desc1">
+        <object>Tulostin </object>
+      </resource>
+      <resource name="layouts_name">
+        <object>Asettelu:</object>
+      </resource>
+      <resource name="layouts_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="layouts_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="layouts_desc1">
+        <object>Asettelu </object>
+      </resource>
+      <resource name="unitfixedcode_name">
+        <object>Koodi:</object>
+      </resource>
+      <resource name="stations_name">
+        <object>Asema:</object>
+      </resource>
+      <resource name="stations_desc1">
+        <object>Asema</object>
+      </resource>
+      <resource name="stations_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="stations_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="pagebreak_name">
+        <object>Yksi raportti per sivu</object>
+      </resource>
+      <resource name="scoreclass_name">
+        <object>Pisteluokka:</object>
+      </resource>
+      <resource name="trimprogram_desc1">
+        <object>Toiminto</object>
+      </resource>
+      <resource name="trimprogram_name">
+        <object>Toiminto:</object>
+      </resource>
+      <resource name="trimprogram_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="trimprogram_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="cutprogram_name">
+        <object>Leikkausohjelma:</object>
+      </resource>
+      <resource name="cutprogram_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="breakprperiod_name">
+        <object>Käsittelyjakson tauko</object>
+      </resource>
+      <resource name="breakprogram_name">
+        <object>Ohjelman tauko</object>
+      </resource>
+      <resource name="breakmateria_name">
+        <object>Materiaalikatko</object>
+      </resource>
+      <resource name="pieces_name">
+        <object>Kappaleet:</object>
+      </resource>
+      <resource name="breakactivity_name">
+        <object>Toiminnon tauko</object>
+      </resource>
+      <resource name="value_name">
+        <object>Arvo:</object>
+      </resource>
+      <resource name="breaklane_name">
+        <object>Radan katko</object>
+      </resource>
+      <resource name="quality_name">
+        <object>Laatu:</object>
+      </resource>
+      <resource name="category_name">
+        <object>Luokka:</object>
+      </resource>
+      <resource name="fatclass_name">
+        <object>Rasvaluokka:</object>
+      </resource>
+      <resource name="brcountry_name">
+        <object>Syntymäpaikka:</object>
+      </resource>
+      <resource name="ricountry_name">
+        <object>Kasvatuspaikka:</object>
+      </resource>
+      <resource name="ricountry2_name">
+        <object>Kasvatuspaikka (2):</object>
+      </resource>
+      <resource name="ricountry3_name">
+        <object>Kasvatuspaikka (3):</object>
+      </resource>
+      <resource name="ricountry4_name">
+        <object>Kasvatuspaikka (4):</object>
+      </resource>
+      <resource name="ricountry5_name">
+        <object>Kasvatuspaikka (5):</object>
+      </resource>
+      <resource name="slhouse_name">
+        <object>Teurastamo:</object>
+      </resource>
+      <resource name="slday_name">
+        <object>Teurastuspäivä:</object>
+      </resource>
+      <resource name="processor_name">
+        <object>Käsittelijä:</object>
+      </resource>
+      <resource name="processor2_name">
+        <object>Käsittelijä (2):</object>
+      </resource>
+      <resource name="killnumber_name">
+        <object>Teurastusnumero:</object>
+      </resource>
+      <resource name="unittare_name">
+        <object>Oma paino:</object>
+      </resource>
+      <resource name="stacktare_name">
+        <object>Pinon omapaino:</object>
+      </resource>
+      <resource name="pallettare_name">
+        <object>Kuormalavan omapaino:</object>
+      </resource>
+      <resource name="containertare_name">
+        <object>Kontin omapaino:</object>
+      </resource>
+      <resource name="shipmenttare_name">
+        <object>Kuljetuserän omapaino:</object>
+      </resource>
+      <resource name="lotstoday_name">
+        <object>Erä:</object>
+      </resource>
+      <resource name="lotstoday_desc1">
+        <object>Erä</object>
+      </resource>
+      <resource name="lotstoday_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="lotstoday_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="palletlist_desc3">
+        <object>Tuote</object>
+      </resource>
+      <resource name="palletlist_desc1">
+        <object>Kuormalava</object>
+      </resource>
+      <resource name="palletlist_desc2">
+        <object>Sarjatoimitusyksikkökoodi (SSCC)</object>
+      </resource>
+      <resource name="palletlist_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="palletlist_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="palletlist_name">
+        <object>Kuormalava:</object>
+      </resource>
+      <resource name="rmarea_name">
+        <object>Resurssialue:</object>
+      </resource>
+      <resource name="rmarea_desc1">
+        <object>Resurssialue</object>
+      </resource>
+      <resource name="rmarea_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="rmarea_testmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="cutprogram_desc1">
+        <object>Ohjelman nimi</object>
+      </resource>
+      <resource name="cutprogram_desc2">
+        <object>Ohjelman tyyppi</object>
+      </resource>
+      <resource name="yieldpoint_name">
+        <object>Tuottopiste:</object>
+      </resource>
+      <resource name="yieldpoint_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="yieldpoint_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="yieldpoint_desc1">
+        <object>Tuottopiste</object>
+      </resource>
+      <resource name="breaksxstation_name">
+        <object>Tauko SensorX-asemassa</object>
+      </resource>
+      <resource name="breaksxstation_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="breaksxstation_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="sxstation_name">
+        <object>SensorX-asema:</object>
+      </resource>
+      <resource name="sxstation_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="sxstation_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="sxstation_desc1">
+        <object>SensorX-aseman nimi:</object>
+      </resource>
+      <resource name="breakbatchno_name">
+        <object>Katko sarjanumerossa</object>
+      </resource>
+      <resource name="breaklot_name">
+        <object>Katko erässä</object>
+      </resource>
+      <resource name="breakpo_name">
+        <object>Katko ostotilauksessa</object>
+      </resource>
+      <resource name="breakpack_name">
+        <object>Katko yksittäisessä pakkauksessa</object>
+      </resource>
+      <resource name="breakcatchtime_name">
+        <object>Katko kiinniotossa</object>
+      </resource>
+      <resource name="catchtime_name">
+        <object>Kiinniottoaika:</object>
+      </resource>
+      <resource name="marinepackbreakdown_name">
+        <object>Erotteluperuste:</object>
+      </resource>
+      <resource name="rmareaparent_name">
+        <object>Pääresurssialue:</object>
+      </resource>
+      <resource name="rmareaparent_desc1">
+        <object>Pääresurssialue</object>
+      </resource>
+      <resource name="rmareaparent_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="rmareaparent_testmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="rmareachild_name">
+        <object>Aliresurssialue:</object>
+      </resource>
+      <resource name="rmareachild_desc1">
+        <object>Aliresurssialue</object>
+      </resource>
+      <resource name="rmareachild_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="rmareachild_testmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="comment_name">
+        <object>Kommentti:</object>
+      </resource>
+      <resource name="comment_desc1">
+        <object>Kommentti</object>
+      </resource>
+      <resource name="mapquadrant_name">
+        <object>Karttaneljännes:</object>
+      </resource>
+      <resource name="mapquadrant_desc1">
+        <object>Karttaneljännes</object>
+      </resource>
+      <resource name="lotlatest_name">
+        <object>Erä:</object>
+      </resource>
+      <resource name="lotlatest_desc1">
+        <object>Erä</object>
+      </resource>
+      <resource name="lotlatest_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="lotlatest_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="polatest_name">
+        <object>Ostotilaus:</object>
+      </resource>
+      <resource name="polatest_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="polatest_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="polatest_desc1">
+        <object>Ostotilaus</object>
+      </resource>
+      <resource name="alarmgroup_name">
+        <object>Hälytin ryhmä:</object>
+      </resource>
+      <resource name="alarmgroup_textmany">
+        <object>(Useita)</object>
+      </resource>
+      <resource name="alarmgroup_textall">
+        <object>(Kaikki)</object>
+      </resource>
+      <resource name="alarmgroup_desc1">
+        <object>Hälytin ryhmä</object>
+      </resource>
+      <resource name="restricttotimerangealarms_name">
+        <object>Rajoita hälytyksiin, jotka ilmenivät\ntuotantopäivän aikana -valinta</object>
+      </resource>
+      <resource name="useconfig_name">
+        <object>Käytä hälytyksen konfigurointitietoja</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.LogonView" ServiceOnly="false">
+      <resource name="Username">
+        <object>Työntekijätunnus:</object>
+      </resource>
+      <resource name="Password">
+        <object>Suojauskoodi:</object>
+      </resource>
+      <resource name="ButtonCaption">
+        <object>Aloita</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.Controls.Scale" ServiceOnly="false">
+      <resource name="stable">
+        <object>VAKAA</object>
+      </resource>
+      <resource name="net">
+        <object>NETTO</object>
+      </resource>
+      <resource name="zero">
+        <object>NOLLA</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.ButtonMatrix" ServiceOnly="false">
+      <resource name="Next">
+        <object>Seuraava sivu</object>
+      </resource>
+      <resource name="Previous">
+        <object>Edellinen sivu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.CriteriaView" ServiceOnly="false">
+      <resource name="OK">
+        <object>OK</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.MainFrame" ServiceOnly="false">
+      <resource name="Exit">
+        <object>Lopeta</object>
+      </resource>
+      <resource name="History">
+        <object>Historia</object>
+      </resource>
+      <resource name="Caption">
+        <object>KIRJAUTUMINEN</object>
+      </resource>
+      <resource name="Menu.Parent">
+        <object>Ylös</object>
+      </resource>
+      <resource name="Menu.Previous">
+        <object>Edellinen</object>
+      </resource>
+      <resource name="Menu.Next">
+        <object>Seuraava</object>
+      </resource>
+      <resource name="Warning">
+        <object>Varoitus</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.PivotGrid" ServiceOnly="false">
+      <resource name="simpleButton5.Text">
+        <object>Alusta kentät</object>
+      </resource>
+      <resource name="simpleButton2.Text">
+        <object>Tallenna</object>
+      </resource>
+      <resource name="simpleButton3.Text">
+        <object>Alusta suodattimet</object>
+      </resource>
+      <resource name="simpleButton4.Text">
+        <object>Näytä SQL</object>
+      </resource>
+      <resource name="toolRefresh">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="htoolRefresh">
+        <object>Päivitä tiedot</object>
+      </resource>
+      <resource name="guinodenoitem">
+        <object>Käyttöliittymäsolmussa ei ole soveltuvaa käyttöliittymäkohdetta.</object>
+      </resource>
+      <resource name="saveok">
+        <object>Hallintanäyttö tallennettiin.</object>
+      </resource>
+      <resource name="errsave">
+        <object>Tallentaminen epäonnistui</object>
+      </resource>
+      <resource name="errRestoreLayout">
+        <object>Virhe ruudukkoasettelun palauttamisessa</object>
+      </resource>
+      <resource name="errload">
+        <object>Virhe lataamisessa</object>
+      </resource>
+      <resource name="exceptionSql">
+        <object>SQL-virhe</object>
+      </resource>
+      <resource name="datasourceisnull">
+        <object>Tietolähde puuttuu</object>
+      </resource>
+      <resource name="datasourcebadtype">
+        <object>Tietolähde on väärää tyyppiä</object>
+      </resource>
+      <resource name="notablesinds">
+        <object>Tietolähteessä ei ole taulukoita</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.UsersInfo" ServiceOnly="false">
+      <resource name="button1.Text">
+        <object>Sulje</object>
+      </resource>
+      <resource name="lblHost.Text">
+        <object>Isäntä:</object>
+      </resource>
+      <resource name="lblUsername.Text">
+        <object>Käyttäjänimi:</object>
+      </resource>
+      <resource name="lblDatabase.Text">
+        <object>Tietokanta</object>
+      </resource>
+      <resource name="lblAccessLevel.Text">
+        <object>Yksittäisten sovellusten käyttö:</object>
+      </resource>
+      <resource name="advancedCheckBox.Properties.Caption">
+        <object>Lisäasetukset</object>
+      </resource>
+      <resource name="gridColumn2.Caption">
+        <object>Käyttöoikeustaso</object>
+      </resource>
+      <resource name="gridColumn1.Caption">
+        <object>Sovellus</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.MessageBoxEx" ServiceOnly="false">
+      <resource name="ok">
+        <object>OK</object>
+      </resource>
+      <resource name="cancel">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="yes">
+        <object>Kyllä</object>
+      </resource>
+      <resource name="no">
+        <object>Ei</object>
+      </resource>
+      <resource name="abort">
+        <object>Keskeytä</object>
+      </resource>
+      <resource name="retry">
+        <object>Yritä uudelleen</object>
+      </resource>
+      <resource name="ignore">
+        <object>Ohita</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.QuickTabs.QuickTabsForm" ServiceOnly="false">
+      <resource name="simpleButton">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="quicktabs">
+        <object>Pikavälilehdet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Pda.LogonView" ServiceOnly="false">
+      <resource name="Username">
+        <object>Työntekijätunnus:</object>
+      </resource>
+      <resource name="Password">
+        <object>Suojauskoodi:</object>
+      </resource>
+      <resource name="ButtonCaption">
+        <object>Aloita</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Ei yhteyttä palvelimeen</object>
+      </resource>
+      <resource name="PasswordExpired">
+        <object>Suojauskoodi on vanhentunut</object>
+      </resource>
+      <resource name="NotAuthenticated">
+        <object>Väärä työntekijätunnus tai suojauskoodi</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Pda.MainFrame" ServiceOnly="false">
+      <resource name="Menu">
+        <object>Valikko</object>
+      </resource>
+      <resource name="Exit">
+        <object>Lopeta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.ChangePasswordUserForm" ServiceOnly="false">
+      <resource name="cancel.Text">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="ok.Text">
+        <object>Ok</object>
+      </resource>
+      <resource name="usernameLabel.Text">
+        <object>Käyttäjänimi:</object>
+      </resource>
+      <resource name="oldPasswordLabel.Text">
+        <object>Vanha salasana:</object>
+      </resource>
+      <resource name="newPasswordLabel.Text">
+        <object>Uusi salasana:</object>
+      </resource>
+      <resource name="confirmationLabel.Text">
+        <object>Vahvista salasana:</object>
+      </resource>
+      <resource name="this.Text">
+        <object>Vaihda salasanaa</object>
+      </resource>
+      <resource name="NotMatching">
+        <object>Salasana ja salasanan vahvistus eivät täsmää</object>
+      </resource>
+      <resource name="WrongPassword">
+        <object>Väärä salasana</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Ei yhteyttä palvelimeen</object>
+      </resource>
+      <resource name="Success">
+        <object>Salasana vaihdettiin</object>
+      </resource>
+      <resource name="LogonFailed">
+        <object>Vanha salasana on väärin, salasanaa ei voida vaihtaa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Design.GeneralObjectDesigner" ServiceOnly="true">
+      <resource name="cancelButton.Text">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="restoreFactoryDefaultsButton.Text">
+        <object>Palauta oletusasetukset</object>
+      </resource>
+      <resource name="factoryDefaultsGroupBox.Text">
+        <object>Oletusasetukset</object>
+      </resource>
+      <resource name="objectEditorGroup.Text">
+        <object>Nykyinen määritys</object>
+      </resource>
+      <resource name="thisCaption">
+        <object>Objektien suunnittelu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentAddManyForm" ServiceOnly="false">
+      <resource name="labelControl1.Text">
+        <object>Päätiedosto</object>
+      </resource>
+      <resource name="buttonCancel.Text">
+        <object>&amp;Peruuta</object>
+      </resource>
+      <resource name="buttonBack.Text">
+        <object>&lt; &amp;Takaisin</object>
+      </resource>
+      <resource name="buttonFinish.Text">
+        <object>&amp;Valmis</object>
+      </resource>
+      <resource name="buttonNext.Text">
+        <object>&amp;Seuraava &gt;</object>
+      </resource>
+      <resource name="labelControl2.Text">
+        <object>Etsittävä tiedostokansio</object>
+      </resource>
+      <resource name="checkEditSubdirectories.Properties.Caption">
+        <object>&amp;Etsi alihakemistoista</object>
+      </resource>
+      <resource name="labelControl3.Text">
+        <object>Suodattimet (esimerkiksi *.doc;*.htm)</object>
+      </resource>
+      <resource name="groupControlScan.Text">
+        <object>Määritä, miten tiedostoja etsitään</object>
+      </resource>
+      <resource name="groupControlResult.Text">
+        <object>Löydetyt tiedostot</object>
+      </resource>
+      <resource name="radioGroupStorageMethod.Properties.Items.Item[0].Description">
+        <object>&amp;Upota tiedostot tietokantaan</object>
+      </resource>
+      <resource name="radioGroupStorageMethod.Properties.Items.Item[1].Description">
+        <object>&amp;Linkitä tiedostoihin URL-osoitteella</object>
+      </resource>
+      <resource name="labelClickFinish.Text">
+        <object>Lisää valitut tiedostot valitsemalla Valmis</object>
+      </resource>
+      <resource name="selectAllToolStripMenuItem.Text">
+        <object>Valitse &amp;kaikki</object>
+      </resource>
+      <resource name="selectNoneToolStripMenuItem.Text">
+        <object>&amp;Älä valitse mitään</object>
+      </resource>
+      <resource name="labelAccessLevel.Text">
+        <object>Käyttöoikeustaso</object>
+      </resource>
+      <resource name="Text">
+        <object>Lisää useita tiedostoja</object>
+      </resource>
+      <resource name="ErrorDirNotExists">
+        <object>Hakemistoa {0} ei ole olemassa.</object>
+      </resource>
+      <resource name="Error">
+        <object>Virhe</object>
+      </resource>
+      <resource name="ErrorScan">
+        <object>Hakemiston tarkistamisen aikana ilmeni virhe. {0}</object>
+      </resource>
+      <resource name="NoNullValues">
+        <object>Sarakkeessa {0} ei sallita tyhjiä arvoja.</object>
+      </resource>
+      <resource name="Confirm">
+        <object>Vahvista</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.ProgressCancelForm" ServiceOnly="false">
+      <resource name="buttonCancel.Text">
+        <object>&amp;Peruuta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.CR.ReportViewUC" ServiceOnly="false">
+      <resource name="erropends">
+        <object>Raportin tietojoukkoja ei voitu avata</object>
+      </resource>
+      <resource name="exptypecsv">
+        <object>Pilkkueroteltu tiedosto</object>
+      </resource>
+      <resource name="exptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="exptypegraphics">
+        <object>Kuva</object>
+      </resource>
+      <resource name="exptypehtml">
+        <object>HTML</object>
+      </resource>
+      <resource name="exptypemht">
+        <object>Mht</object>
+      </resource>
+      <resource name="exptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="exptypertf">
+        <object>RTF-tiedosto</object>
+      </resource>
+      <resource name="exptypetext">
+        <object>Teksti</object>
+      </resource>
+      <resource name="htoolDocMap">
+        <object>Näytä/piilota tiedostokartta</object>
+      </resource>
+      <resource name="htoolEmail">
+        <object>Sähköposti</object>
+      </resource>
+      <resource name="htoolExport">
+        <object>Vie</object>
+      </resource>
+      <resource name="htoolFirstPage">
+        <object>Ensimmäinen sivu</object>
+      </resource>
+      <resource name="htoolHandTool">
+        <object>Käsityökalu</object>
+      </resource>
+      <resource name="htoolInvalidate">
+        <object>Mitätöi raporttikäyttöliittymäkohde</object>
+      </resource>
+      <resource name="htoolLastPage">
+        <object>Viimeinen sivu</object>
+      </resource>
+      <resource name="htoolMagnifier">
+        <object>Suurennuslasi</object>
+      </resource>
+      <resource name="htoolMultiplePages">
+        <object>Useita sivuja</object>
+      </resource>
+      <resource name="htoolNextPage">
+        <object>Seuraava sivu</object>
+      </resource>
+      <resource name="htoolPreviousPage">
+        <object>Edellinen sivu</object>
+      </resource>
+      <resource name="htoolPrintSetup">
+        <object>Sivun asetukset</object>
+      </resource>
+      <resource name="htoolPrintWithOptions">
+        <object>Tulosta (asetukset)</object>
+      </resource>
+      <resource name="htoolRefresh">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="htoolRefreshWithOptions">
+        <object>Päivitä (asetukset) </object>
+      </resource>
+      <resource name="htoolSearch">
+        <object>Haku</object>
+      </resource>
+      <resource name="htoolShowSql">
+        <object>Näytä SQL </object>
+      </resource>
+      <resource name="htoolSpeedPrint">
+        <object>Tulosta</object>
+      </resource>
+      <resource name="htoolWatermark">
+        <object>Vesileima</object>
+      </resource>
+      <resource name="htoolZoomIn">
+        <object>Lähennä</object>
+      </resource>
+      <resource name="htoolZoomOptions">
+        <object>Zoomausasetukset</object>
+      </resource>
+      <resource name="htoolZoomOut">
+        <object>Loitonna</object>
+      </resource>
+      <resource name="pageWidth">
+        <object>Sivun leveys</object>
+      </resource>
+      <resource name="pagexofx">
+        <object>Sivu {0}/{1}</object>
+      </resource>
+      <resource name="sendexptypecsv">
+        <object>Pilkkueroteltu tiedosto</object>
+      </resource>
+      <resource name="sendexptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="sendexptypegraphics">
+        <object>Kuva</object>
+      </resource>
+      <resource name="sendexptypemht">
+        <object>Mht</object>
+      </resource>
+      <resource name="sendexptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="sendexptypertf">
+        <object>RTF-tiedosto</object>
+      </resource>
+      <resource name="sendexptypetext">
+        <object>Teksti</object>
+      </resource>
+      <resource name="textWidth">
+        <object>Tekstin leveys</object>
+      </resource>
+      <resource name="toolEmail">
+        <object>Sähköposti</object>
+      </resource>
+      <resource name="toolExport">
+        <object>Vie</object>
+      </resource>
+      <resource name="toolFirstPage">
+        <object>Ensimmäinen sivu</object>
+      </resource>
+      <resource name="toolHandTool">
+        <object>Käsityökalu</object>
+      </resource>
+      <resource name="toolInvalidate">
+        <object>Mitätöi</object>
+      </resource>
+      <resource name="toolLastPage">
+        <object>Viimeinen sivu</object>
+      </resource>
+      <resource name="toolMagnifier">
+        <object>Suurennuslasi</object>
+      </resource>
+      <resource name="toolMultiplePages">
+        <object>Useita sivuja</object>
+      </resource>
+      <resource name="toolNextPage">
+        <object>Seuraava sivu</object>
+      </resource>
+      <resource name="toolPreviousPage">
+        <object>Edellinen sivu</object>
+      </resource>
+      <resource name="toolPrintSetup">
+        <object>Sivun asetukset</object>
+      </resource>
+      <resource name="toolPrintWithOptions">
+        <object>Tulosta (asetukset)</object>
+      </resource>
+      <resource name="toolRefresh">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="toolRefreshWithOptions">
+        <object>Päivitä (asetukset)</object>
+      </resource>
+      <resource name="toolSearch">
+        <object>Haku</object>
+      </resource>
+      <resource name="toolShowSql">
+        <object>SQL</object>
+      </resource>
+      <resource name="toolSpeedPrint">
+        <object>Tulosta</object>
+      </resource>
+      <resource name="toolWatermark">
+        <object>Vesileima</object>
+      </resource>
+      <resource name="toolZoomIn">
+        <object>Lähennä</object>
+      </resource>
+      <resource name="toolZoomOptions">
+        <object>Zoomausasetukset</object>
+      </resource>
+      <resource name="toolZoomOut">
+        <object>Loitonna</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.CR.ControllerExtension" ServiceOnly="false">
+      <resource name="CRViewer">
+        <object>Crystal Reports -katseluohjelma</object>
+      </resource>
+      <resource name="NoLicense">
+        <object>Crystal Reports -katseluohjelman käyttöoikeutta ei voida noutaa: {0}</object>
+      </resource>
+      <resource name="filenamenotfoound">
+        <object>Tiedostoa {0} ei löytynyt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Licensing.InstallLicenseUC" ServiceOnly="false">
+      <resource name="groupControl1.Text">
+        <object>Käyttöoikeustiedot</object>
+      </resource>
+      <resource name="labelControl3.Text">
+        <object>Käyttöoikeusavaimen asennuspäivä:</object>
+      </resource>
+      <resource name="labelControl1.Text">
+        <object>Käyttöoikeusavaimen vanhentumispäivä:</object>
+      </resource>
+      <resource name="labelLicenseKeyType.Text">
+        <object>Käyttöoikeusavaimen tyyppi:</object>
+      </resource>
+      <resource name="labelProductCode.Text">
+        <object>Tuotekoodi:</object>
+      </resource>
+      <resource name="buttonConfirmProductCode.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="buttonChangeProductCode.Text">
+        <object>Vaihda...</object>
+      </resource>
+      <resource name="tabPageSiteId.Text">
+        <object>Luo paikkatunnus</object>
+      </resource>
+      <resource name="buttonCreateSiteId.Text">
+        <object>Luo paikkatunnus</object>
+      </resource>
+      <resource name="labelControl5.Text">
+        <object>Anna muut palvelintunnukset, yksi tunnus kullekin riville:</object>
+      </resource>
+      <resource name="tabPageInstallLicenseKey.Text">
+        <object>Asenna käyttöoikeusavain</object>
+      </resource>
+      <resource name="buttonOpenLicense.ToolTip">
+        <object>Avaa käyttöoikeusavain tiedostosta</object>
+      </resource>
+      <resource name="buttonPasteLicenseKey.ToolTip">
+        <object>Liitä käyttöoikeusavain leikepöydältä</object>
+      </resource>
+      <resource name="buttonInstall.Text">
+        <object>&amp;Asenna</object>
+      </resource>
+      <resource name="labelControl6.Text">
+        <object>Käyttöoikeusavain</object>
+      </resource>
+      <resource name="openFileDialog.Filter">
+        <object>Innova-käyttöoikeusavaintiedostot (*.ilk)|*.ilk|Kaikki tiedostot|*.*</object>
+      </resource>
+      <resource name="buttonCancelProductCode.Text">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="NoValue">
+        <object>(ei mitään)</object>
+      </resource>
+      <resource name="CreateSiteId">
+        <object>Luodaan paikkatunnusta...</object>
+      </resource>
+      <resource name="InstallingKey">
+        <object>Asennetaan käyttöoikeusavainta...</object>
+      </resource>
+      <resource name="InstallTitle">
+        <object>Asenna käyttöoikeusavain</object>
+      </resource>
+      <resource name="LicenseKeyFormatError">
+        <object>Käyttöoikeusavaimen muoto on virheellinen.</object>
+      </resource>
+      <resource name="LicenseKeyInstallError">
+        <object>Käyttöoikeusavain on virheellinen.</object>
+      </resource>
+      <resource name="InstallOk">
+        <object>Käyttöoikeusavain asennettiin.</object>
+      </resource>
+      <resource name="ChangeProductCodeWarning">
+        <object>VAROITUS: Jos vaihdat tuotekoodi, asennetusta käyttöoikeusavaimesta tulee kelvoton. Innova-järjestelmä EI TOIMI KUNNOLLA, ennen kuin asennat uuden käyttöoikeusavaimen.\n\nHaluatko jatkaa ja vaihtaa tuotekoodin?</object>
+      </resource>
+      <resource name="ChangeProductCodeTitle">
+        <object>Vaihda tuotekoodi</object>
+      </resource>
+      <resource name="InsertingProductCode">
+        <object>Lisätään tuotekoodia...</object>
+      </resource>
+      <resource name="InsertProductCodeTitle">
+        <object>Lisää tuotekoodi</object>
+      </resource>
+      <resource name="ProductCodeInsertError">
+        <object>Tuotekoodi on virheellinen.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.StandardGridControllerExtension" ServiceOnly="false">
+      <resource name="Insert">
+        <object>Lisää</object>
+      </resource>
+      <resource name="Update">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="Delete">
+        <object>Poista</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.M6000Platform" ServiceOnly="false">
+      <resource name="LicenseMessage">
+        <object>IPC-asiakaskäyttöoikeutta ei voida noutaa: {0}.{1}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Pda.SymbolMC9000SeriesPlatform" ServiceOnly="false">
+      <resource name="LicenseMessage">
+        <object>PDA-asiakaskäyttöoikeutta ei voida noutaa: {0}.{1}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.WindowsPlatform" ServiceOnly="false">
+      <resource name="LicenseMessage">
+        <object>Tietokoneen asiakaskäyttöoikeutta ei voida noutaa: {0}.{1}</object>
+      </resource>
+      <resource name="LicenseMessageAdmin">
+        <object>Hallintakäyttöoikeutta tietokoneasiakkaan suorittamiseksi palvelimessa ei voida noutaa.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.Document.DocumentShowUserControl" ServiceOnly="false">
+      <resource name="ErrorNoDocMan">
+        <object>Virhe: tiedostonhallintapalvelua ei voida käyttää</object>
+      </resource>
+      <resource name="NoDocumentsFound">
+        <object>Tiedostoja ei löydy objektille {0} ({1})</object>
+      </resource>
+      <resource name="SelectedObject">
+        <object>Valittu objekti on {0} ({1}){2}</object>
+      </resource>
+      <resource name="LoadingDocument">
+        <object>ladataan tiedostoa...</object>
+      </resource>
+      <resource name="RenderDocument">
+        <object>Näytä tiedosto</object>
+      </resource>
+      <resource name="BadUrlForRendering">
+        <object>Valittua tiedostoa ei voitu hahmontaa, koska sen URL-osoite on virheellinen</object>
+      </resource>
+      <resource name="BadDocument">
+        <object>Valittua tiedostoa ei voitu hahmontaa, koska se on tyhjä. Muokkaa tiedostoa ja lisää uusi upotettu tiedosto tai URL-osoite.</object>
+      </resource>
+      <resource name="Previous">
+        <object>Edellinen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.ViewConfigurationAccess" ServiceOnly="false">
+      <resource name="Unavailable">
+        <object>Ei käytettävissä</object>
+      </resource>
+      <resource name="Available">
+        <object>Käytettävissä</object>
+      </resource>
+      <resource name="Default">
+        <object>Käytä oletuksena</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Common.Controls.Grid.GridControl" ServiceOnly="false">
+      <resource name="Lookup.Name.Caption">
+        <object>Nimi</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Koodi</object>
+      </resource>
+      <resource name="DeleteSingleRow">
+        <object>Haluatko poistaa rivin?</object>
+      </resource>
+      <resource name="DeleteCaption">
+        <object>Poista rivit</object>
+      </resource>
+      <resource name="DeleteMultipleRows">
+        <object>Haluatko poistaa {0} riviä?</object>
+      </resource>
+      <resource name="NoNullAllowed">
+        <object>Sarakkeessa {0} ei sallita tyhjäarvoisia\narvoja.</object>
+      </resource>
+      <resource name="CellSaveFailed">
+        <object>Solun arvon tallentaminen epäonnistui.\nAlkuperäinen arvo oli {0}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.MultiView.StandardMultiView" ServiceOnly="false">
+      <resource name="ConfirmSave">
+        <object>Olemassa on jo näkymämääritys nimeltä {0}.  Haluatko korvata sen?</object>
+      </resource>
+      <resource name="ConfirmSaveCaption">
+        <object>Varoitus</object>
+      </resource>
+      <resource name="CannotRemoveFactorySettings">
+        <object>Oletusasetuksia ei voi poistaa</object>
+      </resource>
+      <resource name="CannotRemoveFactorySettingsCaption">
+        <object>Varoitus</object>
+      </resource>
+      <resource name="ConfirmRemove">
+        <object>Määritys {0} poistetaan.  Tätä toimintoa ei voi kumota. Haluatko jatkaa?</object>
+      </resource>
+      <resource name="ConfirmRemoveCaption">
+        <object>Kysymys</object>
+      </resource>
+      <resource name="ConfirmStopDesigning">
+        <object>Haluatko tallentaa muutokset?</object>
+      </resource>
+      <resource name="ConfirmStopDesigningCaption">
+        <object>Poistutaan suunnittelutilasta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.MultiView.BarHandler" ServiceOnly="false">
+      <resource name="activeObjects">
+        <object>Aktiivinen</object>
+      </resource>
+      <resource name="inactiveObjects">
+        <object>Passiivinen</object>
+      </resource>
+      <resource name="bothObjects">
+        <object>Molemmat</object>
+      </resource>
+      <resource name="objecttypes">
+        <object>Näytä objektit, jotka ovat:</object>
+      </resource>
+      <resource name="AutofilterButton">
+        <object>Suodata automaattisesti</object>
+      </resource>
+      <resource name="CloneButton">
+        <object>Kloonaa</object>
+      </resource>
+      <resource name="ConfirmButton">
+        <object>Vahvista</object>
+      </resource>
+      <resource name="DesignMode">
+        <object>Suunnittelutila</object>
+      </resource>
+      <resource name="InvalidateCacheButton">
+        <object>Mitätöi välimuistitiedot</object>
+      </resource>
+      <resource name="LoadedRowsAll">
+        <object>Ladatut rivit: kaikki</object>
+      </resource>
+      <resource name="LoadedRows">
+        <object>Ladatut rivit</object>
+      </resource>
+      <resource name="SelectedRowCount">
+        <object>Valittu rivimäärä</object>
+      </resource>
+      <resource name="NormalMode">
+        <object>Lopeta suunnittelu</object>
+      </resource>
+      <resource name="OperationsButton">
+        <object>Toiminnot</object>
+      </resource>
+      <resource name="RefreshButton">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="ReloadConfigButton">
+        <object>Lataa käyttöliittymäkohde uudelleen</object>
+      </resource>
+      <resource name="Remove">
+        <object>Poista</object>
+      </resource>
+      <resource name="RestoreDefaultsButton">
+        <object>Palauta oletusasettelu</object>
+      </resource>
+      <resource name="Save">
+        <object>Tallenna</object>
+      </resource>
+      <resource name="SaveAs">
+        <object>Tallenna nimellä...</object>
+      </resource>
+      <resource name="ShowPreview">
+        <object>Näytä tarkat tiedot</object>
+      </resource>
+      <resource name="XlatButton">
+        <object>Xlat</object>
+      </resource>
+      <resource name="ViewSql">
+        <object>SQL</object>
+      </resource>
+      <resource name="DataSourceConfigProblems">
+        <object>Tietolähteen määritysongelmat</object>
+      </resource>
+      <resource name="ShowRawView">
+        <object>Raakanäkymä</object>
+      </resource>
+      <resource name="SaveAsDefault">
+        <object>Tallenna oletuksena</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.Controls.FixedScale" ServiceOnly="false">
+      <resource name="fixed">
+        <object>KIINTEÄ</object>
+      </resource>
+      <resource name="scaleName">
+        <object>Kiinteä paino</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.PrintPrompt" ServiceOnly="false">
+      <resource name="checkEdit1.Properties.Caption">
+        <object>Tulosta tarkat tiedot</object>
+      </resource>
+      <resource name="checkEdit2.Properties.Caption">
+        <object>Tulosta kaikki tiedot</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.PrintPromptDialog" ServiceOnly="false">
+      <resource name="Text">
+        <object>Tulostusasetukset</object>
+      </resource>
+      <resource name="simpleButton1.Text">
+        <object>OK</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.CardTableView.CardTableView" ServiceOnly="false">
+      <resource name="Lookup.Active.Caption">
+        <object>Aktiivinen</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Nimi</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Koodi</object>
+      </resource>
+      <resource name="Err.RefreshingData">
+        <object>Virhe tietojen päivittämisessä!</object>
+      </resource>
+      <resource name="Warning.DeleteRecord">
+        <object>Haluatko poistaa tämän tietueen?</object>
+      </resource>
+      <resource name="Warning.DeleteRecordExtra">
+        <object>Kun poistat tämän tietueen, poistat myös luettelon ja kaikki siihen viittaavat tietueet!</object>
+      </resource>
+      <resource name="btnCancel.Caption">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="btnCancel.Hint">
+        <object>Peruuta edelliset muutokset</object>
+      </resource>
+      <resource name="btnClear.Caption">
+        <object>Tyhjennä</object>
+      </resource>
+      <resource name="btnClear.Hint">
+        <object>Tyhjennä tietue</object>
+      </resource>
+      <resource name="btnClone.Caption">
+        <object>Kloonaa</object>
+      </resource>
+      <resource name="btnClone.Hint">
+        <object>Kloonaa nykyisen tietueen</object>
+      </resource>
+      <resource name="btnConfirm.Caption">
+        <object>Vahvista</object>
+      </resource>
+      <resource name="btnConfirm.Hint">
+        <object>Vahvista muutokset</object>
+      </resource>
+      <resource name="btnDelete.Caption">
+        <object>Poista</object>
+      </resource>
+      <resource name="btnDelete.Hint">
+        <object>Poistaa nykyisen tietueen</object>
+      </resource>
+      <resource name="btnGridClone.Caption">
+        <object>Kloonaa</object>
+      </resource>
+      <resource name="btnGridClone.Hint">
+        <object>Kloonaa valitun kohteen</object>
+      </resource>
+      <resource name="btnGridCopy.Caption">
+        <object>Kopioi</object>
+      </resource>
+      <resource name="btnGridCopy.Hint">
+        <object>Kopioi valitut kohteet</object>
+      </resource>
+      <resource name="btnGridPaste.Caption">
+        <object>Liitä</object>
+      </resource>
+      <resource name="btnGridPaste.Hint">
+        <object>Liitä kopioidut kohteet</object>
+      </resource>
+      <resource name="btnNavFirst.Hint">
+        <object>Siirry ensimmäiseen tietueeseen</object>
+      </resource>
+      <resource name="btnNavLast.Hint">
+        <object>Siirry viimeisiin tietueeseen</object>
+      </resource>
+      <resource name="btnNavNext.Hint">
+        <object>Siirry seuraavaan tietueeseen</object>
+      </resource>
+      <resource name="btnNavPrevious.Hint">
+        <object>Siirry edelliseen tietueeseen</object>
+      </resource>
+      <resource name="btnNew.Caption">
+        <object>Uusi</object>
+      </resource>
+      <resource name="btnNew.Hint">
+        <object>Lisää uusi tietue</object>
+      </resource>
+      <resource name="btnRefresh.Caption">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="btnRefresh.Hint">
+        <object>Päivittää tietueen tiedot</object>
+      </resource>
+      <resource name="chActive.Text">
+        <object>Aktiivinen</object>
+      </resource>
+      <resource name="chActive.ToolTip">
+        <object>Valitse, jos haluat tietueen näkyvän</object>
+      </resource>
+      <resource name="edCode.ToolTip">
+        <object>Sisäinen järjestelmäkoodi</object>
+      </resource>
+      <resource name="edName.ToolTip">
+        <object>Järjestelmän nimi</object>
+      </resource>
+      <resource name="edShortName.ToolTip">
+        <object>Järjestelmän lyhyt nimi</object>
+      </resource>
+      <resource name="grpGeneralSettings.Text">
+        <object>Yleiset</object>
+      </resource>
+      <resource name="paramTabPage.Text">
+        <object>Parametriluettelo</object>
+      </resource>
+      <resource name="lblName.Text">
+        <object>Nimi:</object>
+      </resource>
+      <resource name="lblShortName.Text">
+        <object>Lyhyt nimi:</object>
+      </resource>
+      <resource name="lblCode.Text">
+        <object>Koodi:</object>
+      </resource>
+      <resource name="lblXML.Text">
+        <object>XML:</object>
+      </resource>
+      <resource name="xmlData.ToolTip">
+        <object>Järjestelmän määritykset</object>
+      </resource>
+      <resource name="recSelect.Caption">
+        <object>Valitsin</object>
+      </resource>
+      <resource name="recSelect.Hint">
+        <object>Valitse muokattava tietue</object>
+      </resource>
+      <resource name="mnuOptions.Caption">
+        <object>Toiminnot</object>
+      </resource>
+      <resource name="mnuOptions.Hint">
+        <object>Näytä lisää toimintoja</object>
+      </resource>
+      <resource name="chkRecShowActive.Caption">
+        <object>Aktiivinen</object>
+      </resource>
+      <resource name="chkRecShowBoth.Caption">
+        <object>Molemmat</object>
+      </resource>
+      <resource name="chkRecShowInactive.Caption">
+        <object>Passiivinen</object>
+      </resource>
+      <resource name="btnOptDefLayout.Caption">
+        <object>Palauta oletusasettelu</object>
+      </resource>
+      <resource name="mnuActiveState.Caption">
+        <object>Näytä ohjelmat, jotka ovat:</object>
+      </resource>
+      <resource name="btnOptInvCachedData.Caption">
+        <object>Mitätöi välimuistitiedot</object>
+      </resource>
+      <resource name="btnOptXlat.Caption">
+        <object>Xlat</object>
+      </resource>
+      <resource name="btnOptSql.Caption">
+        <object>SQL</object>
+      </resource>
+      <resource name="btnOptReloadGuiItem.Caption">
+        <object>Lataa käyttöliittymäkohde uudelleen</object>
+      </resource>
+      <resource name="btnUpdActivity.Caption">
+        <object>Päivitä toiminto</object>
+      </resource>
+      <resource name="btnUpdActivity.Hint">
+        <object>Päivitä tämän ohjelman käsittely-yksikön toiminto</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.CardTableView.CardTableFile" ServiceOnly="false">
+      <resource name="AllFiles">
+        <object>Kaikki tiedostot</object>
+      </resource>
+      <resource name="Files">
+        <object>Tiedostot</object>
+      </resource>
+      <resource name="Title.ImportFile">
+        <object>Valitse tuotava tiedosto</object>
+      </resource>
+      <resource name="Title.ExportFile">
+        <object>Valitse vietävä tiedosto</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Common.Controls.Lookups.CultureLookup" ServiceOnly="false">
+      <resource name="LookupName">
+        <object>Nimi</object>
+      </resource>
+      <resource name="LookupCode">
+        <object>Koodi</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fr">
+  <industry>
+    <type name="Marel.Mp5.OptiPack.Configuration.SystemType">
+      <resource name="Packing">
+        <object>Postes de conditionnement</object>
+      </resource>
+      <resource name="Checkweigher">
+        <object>Balances de contrôle</object>
+      </resource>
+      <resource name="PackingServices">
+        <object>Services de conditionnement</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.OperationalStatus">
+      <resource name="NotRunning">
+        <object>Pas en service</object>
+      </resource>
+      <resource name="Working">
+        <object>En service</object>
+      </resource>
+      <resource name="Idle">
+        <object>Au repos</object>
+      </resource>
+      <resource name="NotKnown">
+        <object>Inconnu</object>
+      </resource>
+      <resource name="NoService">
+        <object>Pas d’entretien</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.PackingStationResult">
+      <resource name="Ok">
+        <object>OK</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Erreur de base de données</object>
+      </resource>
+      <resource name="LoadCachedData">
+        <object>Impossible de charger les données en cache</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>ID de poste non valide</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Erreur à la récupération d’un objet distant</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Erreur au chargement des informations d’interface</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Erreur au chargement des informations de serveur</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Appel distant impossible</object>
+      </resource>
+      <resource name="LoadServiceSetup">
+        <object>Erreur au chargement du paramétrage du service</object>
+      </resource>
+      <resource name="InvalidProduct">
+        <object>Produit introuvable</object>
+      </resource>
+      <resource name="NotImplemented">
+        <object>Opération non réalisée</object>
+      </resource>
+      <resource name="NoObject">
+        <object>Il n’y a aucun objet sur lequel intervenir</object>
+      </resource>
+      <resource name="QueryFailed">
+        <object>Impossible d'établir une requête sur les données depuis le serveur</object>
+      </resource>
+      <resource name="PackLoad">
+        <object>Impossible de charger les informations sur l'emballage</object>
+      </resource>
+      <resource name="PackPrint">
+        <object>Impossible d'imprimer l'étiquette de l'emballage</object>
+      </resource>
+      <resource name="QcProcess">
+        <object>Aucun processus de CQ n'est configuré</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.PresetTareType">
+      <resource name="None">
+        <object>Aucune tare préféfinie</object>
+      </resource>
+      <resource name="List">
+        <object>Utiliser les tares de la liste de produits</object>
+      </resource>
+      <resource name="System">
+        <object>Utiliser les tares système</object>
+      </resource>
+      <resource name="Manual">
+        <object>Utiliser les tares manuelles</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.TargetBatcherMethod">
+      <resource name="AbsMinimum">
+        <object>Poids minimum</object>
+      </resource>
+      <resource name="MinAverage">
+        <object>Poids moyen</object>
+      </resource>
+      <resource name="Echeck">
+        <object>Poids moyen lissé</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.A542ProgramParameters">
+      <resource name="ClosureCount.Description">
+        <object>Ce champ identifie la quantité de clôture.</object>
+      </resource>
+      <resource name="ClosureCount.DisplayName">
+        <object>Quantité de clôture.</object>
+      </resource>
+      <resource name="PluNumber.DisplayName">
+        <object>Numéro PLU</object>
+      </resource>
+      <resource name="CloseTimeout.DisplayName">
+        <object>Expiration de fin</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.A542ProductParameters">
+      <resource name="ClearStatsAfterRound.DisplayName">
+        <object>Effacer les stats.\naprès un cycle</object>
+      </resource>
+      <resource name="PacksInAverage.DisplayName">
+        <object>Nombre de cartons\ndans moyenne de suivi</object>
+      </resource>
+      <resource name="UsePercentagesInTrackPack.DisplayName">
+        <object>Utiliser les pourcentages\nà l’arrêt du TrackPack</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.DelfordProgramParamters" ServiceOnly="false">
+      <resource name="MetalRejectGate.Description">
+        <object>Porte d'évacuation pour les rejets métalliques.</object>
+      </resource>
+      <resource name="MetalRejectGate.DisplayName">
+        <object>Porte des rejets métalliques</object>
+      </resource>
+      <resource name="MetalPecPackTimeout.Description">
+        <object>Expiration du carton PEC-métal.</object>
+      </resource>
+      <resource name="MetalPecPackTimeout.DisplayName">
+        <object>Expiration du carton PEC-métal</object>
+      </resource>
+      <resource name="MetalPecFullTimeout.Description">
+        <object>Expiration complète du PEC-métal.</object>
+      </resource>
+      <resource name="MetalPecFullTimeout.DisplayName">
+        <object>Expiration complète du PEC-métal</object>
+      </resource>
+      <resource name="DistributionGraphStart.DisplayName">
+        <object>Début du graphique de répartition</object>
+      </resource>
+      <resource name="DistributionGraphStep.DisplayName">
+        <object>Unité du graphique de répartition</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.BatcherMethod" ServiceOnly="false">
+      <resource name="AbsMinimum">
+        <object>Minimum abs</object>
+      </resource>
+      <resource name="MinAverage">
+        <object>Moyenne min</object>
+      </resource>
+      <resource name="ERule">
+        <object>Règle E.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.ParameterType" ServiceOnly="false">
+      <resource name="Value">
+        <object>Valeur</object>
+      </resource>
+      <resource name="Weight">
+        <object>Poids</object>
+      </resource>
+      <resource name="Length">
+        <object>Longueur</object>
+      </resource>
+      <resource name="Area">
+        <object>Zone</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Data.StationDeviceStatus" ServiceOnly="false">
+      <resource name="Transmitting">
+        <object>Transmission en cours</object>
+      </resource>
+      <resource name="NoRemote">
+        <object>Aucun à distance</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Pas de poste</object>
+      </resource>
+      <resource name="Offline">
+        <object>Hors ligne</object>
+      </resource>
+      <resource name="Idle">
+        <object>Au repos</object>
+      </resource>
+      <resource name="Running">
+        <object>En fonct.</object>
+      </resource>
+      <resource name="NoStatus">
+        <object>Aucune configuration</object>
+      </resource>
+      <resource name="Undefined">
+        <object>Inconnu</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Non pris en charge</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.BatcherSpeedAccuracy" ServiceOnly="false">
+      <resource name="Accuracy">
+        <object>1 (Précision)</object>
+      </resource>
+      <resource name="Two">
+        <object>2</object>
+      </resource>
+      <resource name="Three">
+        <object>3</object>
+      </resource>
+      <resource name="Four">
+        <object>4</object>
+      </resource>
+      <resource name="Five">
+        <object>5</object>
+      </resource>
+      <resource name="Speed">
+        <object>6 (Vitesse)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.ParameterFieldNames" ServiceOnly="false">
+      <resource name="Nominal">
+        <object>Nominal ($Q)</object>
+      </resource>
+      <resource name="T1">
+        <object>T1 ($Q)</object>
+      </resource>
+      <resource name="T2">
+        <object>T2 ($Q)</object>
+      </resource>
+      <resource name="MinWeight">
+        <object>Minimum ($Q)</object>
+      </resource>
+      <resource name="MaxWeight">
+        <object>Maximum ($Q)</object>
+      </resource>
+      <resource name="MaxWeightTol">
+        <object>Maximum ($Q)</object>
+      </resource>
+      <resource name="MinTolerance">
+        <object>Tolérance minimale ($Q)</object>
+      </resource>
+      <resource name="MaxTolerance">
+        <object>Tolérance maximale ($Q)</object>
+      </resource>
+      <resource name="Tare">
+        <object>Tare ($Q)</object>
+      </resource>
+      <resource name="LowLimit">
+        <object>Limite inférieure ($Q)</object>
+      </resource>
+      <resource name="HighLimit">
+        <object>Limite supérieure ($Q)</object>
+      </resource>
+      <resource name="GateAccept">
+        <object>Accepter</object>
+      </resource>
+      <resource name="GateUnder">
+        <object>Sous-poids</object>
+      </resource>
+      <resource name="GateOver">
+        <object>Surpoids</object>
+      </resource>
+      <resource name="GateT1T2">
+        <object>T1-T2</object>
+      </resource>
+      <resource name="GateMetal">
+        <object>Rejet (métal)</object>
+      </resource>
+      <resource name="GateNotWeighed">
+        <object>Non pesés</object>
+      </resource>
+      <resource name="GateUnused">
+        <object>Éléments inutilisés</object>
+      </resource>
+      <resource name="BatchCode">
+        <object>Nom de lot</object>
+      </resource>
+      <resource name="BeltSpeed300">
+        <object>Vitesse du tapis en millimètres. Min. 300.</object>
+      </resource>
+      <resource name="MetalPrgNo">
+        <object>Numéro de programme du détecteur de métal</object>
+      </resource>
+      <resource name="ProgramCode">
+        <object>Code du programme d'e/s</object>
+      </resource>
+      <resource name="TrendSample">
+        <object>Échantillons de tendance</object>
+      </resource>
+      <resource name="DistrGraphStart">
+        <object>Valeur de départ du graphique de répartition</object>
+      </resource>
+      <resource name="DistrGraphStep">
+        <object>Valeur d'unité du graphique de répartition</object>
+      </resource>
+      <resource name="MetalPecFullTimeout">
+        <object>Expiration complète du PEC-métal</object>
+      </resource>
+      <resource name="MetalPecPackTimeout">
+        <object>Expiration du carton PEC-métal</object>
+      </resource>
+      <resource name="BatchTime">
+        <object>Durée du lot (en minutes)</object>
+      </resource>
+      <resource name="BatchSize">
+        <object>Taille du lot (en pièces)</object>
+      </resource>
+      <resource name="BeltSpeed">
+        <object>Vitesse du tapis</object>
+      </resource>
+      <resource name="EjectorOutDelay">
+        <object>Délai d'expiration de l'éjecteur (retard du délai d'expiration du bras)</object>
+      </resource>
+      <resource name="HitPointAdjust">
+        <object>Réglage du point d'éjection (changement permettant d'éjecter le bras plus tôt ou plus tard)</object>
+      </resource>
+      <resource name="DspId">
+        <object>ID DSP du détecteur de métal. 0 = Arrêt.</object>
+      </resource>
+      <resource name="PackLength">
+        <object>Longueur du carton du détecteur de métal (élément)</object>
+      </resource>
+      <resource name="ProductNumber">
+        <object>Numéro de produit du détecteur de métal</object>
+      </resource>
+      <resource name="AcceptLimitHigh">
+        <object>Limite acceptée supérieure. Si le poids moyen est supérieur, la sortie est réglée ($Q)</object>
+      </resource>
+      <resource name="AcceptLimitLow">
+        <object>Limite inférieure acceptée. Si le poids moyen est inférieur, la sortie est réglée ($Q)</object>
+      </resource>
+      <resource name="LimitHigh">
+        <object>Limite supérieure. Limite d'élément supérieure pour le régulateur ($Q)</object>
+      </resource>
+      <resource name="LimitLow">
+        <object>Limite inférieure. Limite d'élément inférieure pour le régulateur ($Q)</object>
+      </resource>
+      <resource name="MinimumPulseLength">
+        <object>Longueur d'impulsion minimum</object>
+      </resource>
+      <resource name="OutputEnabled">
+        <object>Sortie autorisée</object>
+      </resource>
+      <resource name="RegulatingInterval">
+        <object>Intervalle du régulateur</object>
+      </resource>
+      <resource name="RegulatorStrength">
+        <object>Force du régulateur</object>
+      </resource>
+      <resource name="SamplesInMean">
+        <object>Échantillons en moyenne</object>
+      </resource>
+      <resource name="CloseTimeout">
+        <object>Expiration de fin</object>
+      </resource>
+      <resource name="ClosureCount">
+        <object>Quantité de clôture</object>
+      </resource>
+      <resource name="PluNumber">
+        <object>Numéro PLU</object>
+      </resource>
+      <resource name="ClearStats">
+        <object>Effacer les stats. après un cycle</object>
+      </resource>
+      <resource name="PacksAverage">
+        <object>Nombre de cartons dans moyenne de suivi</object>
+      </resource>
+      <resource name="UsePercentage">
+        <object>Utiliser les pourcentages à l’arrêt du TrackPack</object>
+      </resource>
+      <resource name="Priority">
+        <object>Priorité</object>
+      </resource>
+      <resource name="WeightResolutionOverride">
+        <object>Remplacement de la résolution de l'histogramme des données en temps réel ($Q)</object>
+      </resource>
+      <resource name="WeighingRangeMin">
+        <object>Gamme de pesage minimale ($Q)</object>
+      </resource>
+      <resource name="WeighingRangeMax">
+        <object>Gamme de pesage maximale ($Q)</object>
+      </resource>
+      <resource name="GiveawayPct">
+        <object>Perte (%)</object>
+      </resource>
+      <resource name="CalculatedNominal">
+        <object>Poids cible ($Q)</object>
+      </resource>
+      <resource name="FeedBackEnable">
+        <object>Activer le feedback</object>
+      </resource>
+      <resource name="FeedBackEnableRegulatingInterval">
+        <object>Type de feedback</object>
+      </resource>
+      <resource name="VariableTare">
+        <object>% de tare variable</object>
+      </resource>
+      <resource name="NotHandled">
+        <object>Not handled</object>
+      </resource>
+      <resource name="Average">
+        <object>Average weight</object>
+      </resource>
+      <resource name="AcceptWindow">
+        <object>+/- Accept window</object>
+      </resource>
+      <resource name="Count">
+        <object>Number of pieces in product</object>
+      </resource>
+      <resource name="DeadZone">
+        <object>DeadZone around nominal weight</object>
+      </resource>
+      <resource name="Interval">
+        <object>Interval between sending reports</object>
+      </resource>
+      <resource name="MaxCount">
+        <object>Size of the moving average queue</object>
+      </resource>
+      <resource name="TNE">
+        <object>TNE</object>
+      </resource>
+      <resource name="RoundTime">
+        <object>Round time</object>
+      </resource>
+      <resource name="RoundSize">
+        <object>Round size</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Printers.OptiPackEngine" ServiceOnly="false">
+      <resource name="optipack">
+        <object>Conditionnement</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Printers.UltimateStationImageNodeManager" ServiceOnly="false">
+      <resource name="ultimatestationimage">
+        <object>Image de StationUltime</object>
+      </resource>
+      <resource name="lastitem">
+        <object>Dernier élément</object>
+      </resource>
+      <resource name="lastpack">
+        <object>Dernier carton</object>
+      </resource>
+      <resource name="lastpallet">
+        <object>Dernière palette</object>
+      </resource>
+      <resource name="laststack">
+        <object>Dernière pile</object>
+      </resource>
+      <resource name="product">
+        <object>Produit</object>
+      </resource>
+      <resource name="orderline">
+        <object>Ligne de commande</object>
+      </resource>
+      <resource name="order">
+        <object>Commande</object>
+      </resource>
+      <resource name="xactpath">
+        <object>Chemin de transaction</object>
+      </resource>
+      <resource name="nextitemorlastitem">
+        <object>Élément suivant ou dernier élément</object>
+      </resource>
+      <resource name="nextpackorlastpack">
+        <object>Carton suivant ou dernier carton</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Printers.UltimateStationImageProductButtonNodeManager" ServiceOnly="false">
+      <resource name="ultimatestationimageproductbutton">
+        <object>Bouton du produit</object>
+      </resource>
+      <resource name="product">
+        <object>Produit</object>
+      </resource>
+      <resource name="orderline">
+        <object>Ligne de commande</object>
+      </resource>
+      <resource name="itempack">
+        <object>Carton de l’élément</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Printers.UltimateStationNodeManager" ServiceOnly="false">
+      <resource name="ultimatestation">
+        <object>StationUltime</object>
+      </resource>
+      <resource name="packingstation">
+        <object>Poste de conditionnement</object>
+      </resource>
+      <resource name="processunit">
+        <object>Unité de traitement</object>
+      </resource>
+      <resource name="employee">
+        <object>Employé</object>
+      </resource>
+      <resource name="lastitem">
+        <object>Dernier élément</object>
+      </resource>
+      <resource name="lastpack">
+        <object>Dernier carton</object>
+      </resource>
+      <resource name="lastpallet">
+        <object>Dernière palette</object>
+      </resource>
+      <resource name="laststack">
+        <object>Dernière pile</object>
+      </resource>
+      <resource name="product">
+        <object>Produit</object>
+      </resource>
+      <resource name="orderline">
+        <object>Ligne de commande</object>
+      </resource>
+      <resource name="order">
+        <object>Commande</object>
+      </resource>
+      <resource name="xactpath">
+        <object>Chemin de transaction</object>
+      </resource>
+      <resource name="nextitemorlastitem">
+        <object>Élément suivant ou dernier élément</object>
+      </resource>
+      <resource name="nextpackorlastpack">
+        <object>Carton suivant ou dernier carton</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

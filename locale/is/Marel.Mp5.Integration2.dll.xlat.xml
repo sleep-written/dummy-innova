@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="is">
+  <industry>
+    <type name="Marel.Mp5.Integration2.SyncEngine.ActionReason" ServiceOnly="true">
+      <resource name="NewFromSource">
+        <object>Nýtt frá fyrirmynd</object>
+      </resource>
+      <resource name="UpdatedAtSource">
+        <object>Uppfært á fyrirmynd</object>
+      </resource>
+      <resource name="LocalNotAtSource">
+        <object>Er til hér en ekki á fyrirmynd</object>
+      </resource>
+      <resource name="LocalInUseInactiveAtSource">
+        <object>Í notkun hér en óvirkt á fyrirmynd</object>
+      </resource>
+      <resource name="DuplicateAtSource">
+        <object>Tvítekið á fyrirmynd</object>
+      </resource>
+      <resource name="DuplicateAtLocal">
+        <object>Tvítekið hér</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.SyncEngine.Action" ServiceOnly="true">
+      <resource name="Nothing">
+        <object>Ekkert</object>
+      </resource>
+      <resource name="Create">
+        <object>Stofna</object>
+      </resource>
+      <resource name="Update">
+        <object>Uppfæra</object>
+      </resource>
+      <resource name="Delete">
+        <object>Eyða</object>
+      </resource>
+      <resource name="Activate">
+        <object>Virkja</object>
+      </resource>
+      <resource name="Inactivate">
+        <object>Óvirkja</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.SyncEngine.ActionStatus" ServiceOnly="true">
+      <resource name="Pending">
+        <object>Bíður</object>
+      </resource>
+      <resource name="Success">
+        <object>Lokið</object>
+      </resource>
+      <resource name="Failed">
+        <object>Villa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.SyncEngine.ProfileType" ServiceOnly="true">
+      <resource name="Source">
+        <object>Fyrirmynd</object>
+      </resource>
+      <resource name="Target">
+        <object>Eftirmynd</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.ImportEngine.ImportLogType" ServiceOnly="true">
+      <resource name="Failed">
+        <object>Bilaði</object>
+      </resource>
+      <resource name="Warning">
+        <object>Viðvörun</object>
+      </resource>
+      <resource name="Begin">
+        <object>Byrjun</object>
+      </resource>
+      <resource name="End">
+        <object>Endir</object>
+      </resource>
+      <resource name="Success">
+        <object>Tókst</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.ImportEngine.ImportTableManager" ServiceOnly="true">
+      <resource name="Import.Begin">
+        <object>Innflutningur byrjar</object>
+      </resource>
+      <resource name="Import.End">
+        <object>Innflutningur endar</object>
+      </resource>
+      <resource name="Import.Error">
+        <object>Villa þegar flutt var inn gögn frá gagnagrunnsskrá: {0}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.MasterDataManagement.ChangesetStatus" ServiceOnly="false">
+      <resource name="Empty">
+        <object>Tómt</object>
+      </resource>
+      <resource name="Receiving">
+        <object>Er að bera saman gögn</object>
+      </resource>
+      <resource name="Pending">
+        <object>Breytingar bíða</object>
+      </resource>
+      <resource name="Applying">
+        <object>Set inn breytingar í verksmiðju</object>
+      </resource>
+      <resource name="Done">
+        <object>Lokið, breytingar hafa verið settar inn</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Hætt við</object>
+      </resource>
+      <resource name="Error">
+        <object>Keyrsluvilla</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.MasterDataManagement.ProductSchema" ServiceOnly="false">
+      <resource name="Marel.Mp5.Process.Materials.MaterialRecordType">
+        <object>Afurðir</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.ContentSpecificationRecordType">
+        <object>Pakkningar</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.ObjectTemplateTextRecordType">
+        <object>Titlar í sniðmáti</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.CompanyRecordType">
+        <object>Fyrirtæki</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.ConditionRecordType">
+        <object>Ástandstegundir afurða</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.SizeRecordType">
+        <object>Stærðarflokkar afurða</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.QualityRecordType">
+        <object>Gæðaflokkar afurða</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.ConservationRecordType">
+        <object>Geymslutegundir afurða</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.ExpireMethodRecordType">
+        <object>Geymsluþol</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Printers.LayoutRecordType">
+        <object>Límmiðar</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Printers.MediaTypeRecordType">
+        <object>Límmiðategundir</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Printers.LabelMacroRecordType">
+        <object>Samsettir textar</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Printers.LabelMacroLineRecordType">
+        <object>Línur samsettra texta</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Printers.Gs1MacroRecordType">
+        <object>Gs1</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Printers.Gs1MacroLineRecordType">
+        <object>Gs1 línur</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.RawMaterialRecordType">
+        <object>Hráefni</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.CultureRecordType">
+        <object>Tungumál</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.CurrencyRecordType">
+        <object>Gjaldmiðill</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.CountryRecordType">
+        <object>Land</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.TextRecordType">
+        <object>Auka textar</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.ObjectTextRecordType">
+        <object>Auka textar hluta</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.ObjectTemplateRecordType">
+        <object>Sniðmát hluta</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Scripting.ScriptRecordType">
+        <object>Skriftur</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Drawing.ImageListRecordType">
+        <object>Myndalisti</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Drawing.ImageItemRecordType">
+        <object>Myndir</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Activity.RawMaterialAreaRecordType">
+        <object>Svæði hráefnis</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.MaterialTypeRecordType">
+        <object>Afurðategundir</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Barcodes.PositionInterpreterRecordType">
+        <object>Strikamerkjatúlkar</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.ObjectXlateRecordType">
+        <object>Þýðingar</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.TextLineRecordType">
+        <object>Textalínur</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.SubPackagingRecordType">
+        <object>Samsett pökkun</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.BreedTypeRecordType">
+        <object>Kynþættir</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.BreedRecordType">
+        <object>Kyn</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.CategoryRecordType">
+        <object>Flokkar</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.FatClassRecordType">
+        <object>Fituflokkar</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.QaMarkRecordType">
+        <object>QA merki</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.MaterialCustomerOverrideRecordType">
+        <object>Afurðaskilgreiningar viðskiptavina</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Activity.CompanyRawMaterialAreaRecordType">
+        <object>Fyrirtæki svæði hráefnis</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Activity.RawMaterialAreaMapRecordType">
+        <object>Fyrirtæki svæði tengdar færslur</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.MasterDataManagement.ChangeType" ServiceOnly="false">
+      <resource name="Add">
+        <object>Nýtt</object>
+      </resource>
+      <resource name="Change">
+        <object>Breytt</object>
+      </resource>
+      <resource name="Delete">
+        <object>Eytt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.MasterDataManagement.ChangesetHistoryEntry" ServiceOnly="false">
+      <resource name="new">
+        <object>ný</object>
+      </resource>
+      <resource name="changed">
+        <object>breytt</object>
+      </resource>
+      <resource name="deleted">
+        <object>eytt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.TransferEngine.TransferOrigin">
+      <resource name="Order">
+        <object>Pöntun</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Afskipun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.TransferEngine.TransferEngineHubUtils" ServiceOnly="false">
+      <resource name="TransferEndedSuccess">
+        <object>Flutningur á pöntun {0} tókst</object>
+      </resource>
+      <resource name="TransferEndedFail">
+        <object>Flutningur á pöntun {0} tókst ekki</object>
+      </resource>
+      <resource name="TransferReady">
+        <object>Pöntun {0} er tilbúin til flutnings</object>
+      </resource>
+      <resource name="TransferComplete">
+        <object>Flutningur með númer {0} lokið</object>
+      </resource>
+      <resource name="TransferInProgress">
+        <object>Flyt pöntun {0}</object>
+      </resource>
+      <resource name="TransferCompleteOrder">
+        <object>Flutningur á pöntun {0} lokið</object>
+      </resource>
+      <resource name="TransferRetry">
+        <object>Flutningur tókst ekki\nReyni aftur eftir {0} sekúndur</object>
+      </resource>
+      <resource name="CannotConnect">
+        <object>Næ ekki sambandi við flutningsleið, vinsamlegast hafið samband við kerfisstjóra</object>
+      </resource>
+      <resource name="InvalidIdentityOrPassword">
+        <object>Ógilt auðkenni eða lykilorð</object>
+      </resource>
+      <resource name="InvalidIdentity">
+        <object>Ógilt auðkenni</object>
+      </resource>
+      <resource name="AlreadySent">
+        <object>Ekki er hægt að flytja pöntun {0}, hún hefur verið send áður eða flutningur er þegar í gangi</object>
+      </resource>
+      <resource name="RetryTransfer">
+        <object>Flytja pöntun aftur </object>
+      </resource>
+      <resource name="ServiceError">
+        <object>Ekki tókst að flytja pöntun {0}, þjónusta er ekki til staðar eða er ekki rétt stillt. Vinsamlega hafðu samband við kerfisstjóra.</object>
+      </resource>
+      <resource name="NoOrderSelected">
+        <object>Nauðsynlegt er að velja í það minnsta eina pöntun</object>
+      </resource>
+      <resource name="DifferentCustomers">
+        <object>Allar valdar pantanir verða að vera fyrir sama viðskiptavin</object>
+      </resource>
+      <resource name="InvalidCustomer">
+        <object>Ekki hefur verið gengið frá uppsetningu viðskiptavinar til að taka við pöntunum</object>
+      </resource>
+      <resource name="CannotTransferOrderCaption">
+        <object>Get ekki flutt pöntun</object>
+      </resource>
+      <resource name="CannotTransferShipmentCaption">
+        <object>Get ekki flutt afskipun</object>
+      </resource>
+      <resource name="TransferInitFailed">
+        <object>Get ekki hafið flutning á pöntun, vinsamlegast hafið samband við kerfisstjóra</object>
+      </resource>
+      <resource name="InvalidDestinationCode">
+        <object>Móttakandakóði finnst ekki í kerfi</object>
+      </resource>
+      <resource name="NoDestinationCodeFromScript">
+        <object>Engum móttakandakóða skilað úr skriftu</object>
+      </resource>
+      <resource name="ErrorExecutingScript">
+        <object>Villa koma upp við keyrslu á skriftu. Sjá logg fyrir nánari upplýsingar</object>
+      </resource>
+      <resource name="NoCollectionSelected">
+        <object>Engin afskipun valin</object>
+      </resource>
+      <resource name="CollectionNoCustomer">
+        <object>Afskipun er með pöntun sem er ekki með viðskiptavin</object>
+      </resource>
+      <resource name="CollectionNotSameCustomer">
+        <object>Allar valdnar afskipanir verða að hafa sama viðskiptavin</object>
+      </resource>
+      <resource name="CollectionNotOnOrder">
+        <object>Einingar á afskipun eru ekki á gildri pöntun</object>
+      </resource>
+      <resource name="AllCollectionsNotOnOrder">
+        <object>Allar valdnar afskipanir verða að vera á pöntun</object>
+      </resource>
+      <resource name="CustomerMissing">
+        <object>Viðskiptavin vantar</object>
+      </resource>
+      <resource name="UnitNoOrder">
+        <object>Eining á afskiptun er ekki á pöntun</object>
+      </resource>
+      <resource name="UnitNoCustomer">
+        <object>Eining á afskipun er á pöntun sem er ekki með viðskiptavin</object>
+      </resource>
+      <resource name="CollectionDataNotSameCustomer">
+        <object>Allar pantanir á öllum einingum afskipunar verða að hafa sama viðskiptavin</object>
+      </resource>
+      <resource name="UnitsNoOrders">
+        <object>Engin pöntun finnst á einingum afskipunar</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

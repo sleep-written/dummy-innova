@@ -1,0 +1,18 @@
+@let title = this.title();
+
+@if (typeof title === 'string') {
+    <kendo-label
+    [text]="title">
+    </kendo-label>
+}
+
+<kendo-multiselect
+[data]="this.data()"
+[value]="this.value()"
+[textField]="this.textField()"
+[filterable]="true"
+[valueField]="this.valueField()"
+[valuePrimitive]="true"
+[kendoDropDownFilter]="{ operator: 'contains' }"
+(valueChange)="this.valueChanges($event)">
+</kendo-multiselect>

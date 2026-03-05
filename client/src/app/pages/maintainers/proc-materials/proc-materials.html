@@ -1,0 +1,121 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Materials</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+        <kendo-grid
+        [data]="this.data"
+        [skip]="this.skip"
+        [sort]="this.sort"
+        [filter]="this.filter"
+        [loading]="this.loading"
+        [pageSize]="this.pageSize"
+        [sortable]="this.sortable"
+        [pageable]="this.pageable"
+        [columnMenu]="{ columnChooser: false }"
+        [filterable]="this.filterable"
+        (pageChange)="this.onPageChange($event)"
+        (sortChange)="this.onSortChange($event)"
+        (filterChange)="this.onFilterChange($event)">
+            <kendo-grid-column
+            field="code"
+            title="Code">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="active"
+            title="Active(?)"
+            filter="boolean">
+                <ng-template kendoGridCellTemplate let-item>
+                    @if (item.active) {
+                        <span [style.color]="'#10ff10'">True</span>
+                    } @else {
+                        <span [style.color]="'#c30000'">False</span>
+                    }
+                </ng-template>
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="name"
+            title="Name">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="systemtype"
+            title="System Type">
+                <ng-template kendoGridFilterMenuTemplate
+                let-column="column"
+                let-filter="filter"
+                let-filterService="filterService">
+                    <app-multiselect-filter
+                    title="System types"
+                    textField="text"
+                    valueField="value"
+                    [data]="this.systemtypes"
+                    [column]="column"
+                    [filter]="filter"
+                    [filterService]="filterService">
+                    </app-multiselect-filter>
+                </ng-template>
+
+                <ng-template kendoGridCellTemplate let-item>
+                    {{ this.getSystemtype(item.systemtype) }}
+                </ng-template>
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="materialtype.name"
+            title="Material Type"
+            filter="numeric">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="pkPackaging.name"
+            title="PK Packaging">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="itPackaging.name"
+            title="IT Packaging">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            [width]="128"
+            [columnMenu]="false">
+                <ng-template kendoGridHeaderTemplate>
+                    <button mat-icon-button
+                    type="button"
+                    color="primary"
+                    (click)="this.set()">
+                        <mat-icon>add</mat-icon>
+                    </button>
+
+                    <button mat-icon-button
+                    type="button"
+                    color="tertiary"
+                    (click)="this.update()">
+                        <mat-icon
+                        [class.spin]="this.loading">sync</mat-icon>
+                    </button>
+                </ng-template>
+
+                <ng-template kendoGridCellTemplate let-item>
+                    <button mat-icon-button
+                    type="button"
+                    color="secondary"
+                    (click)="this.set(item)">
+                        <mat-icon>edit</mat-icon>
+                    </button>
+
+                    <button mat-icon-button
+                    type="button"
+                    color="error"
+                    (click)="this.delete(item)">
+                        <mat-icon>close</mat-icon>
+                    </button>
+                </ng-template>
+            </kendo-grid-column>
+        </kendo-grid>
+    </mat-card-content>
+</mat-card>

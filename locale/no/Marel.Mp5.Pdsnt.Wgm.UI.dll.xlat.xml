@@ -1,0 +1,2124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="no">
+  <industry>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.SystemSetup.WgmSystemView" ServiceOnly="false">
+      <resource name="paramTabPage.Text">
+        <object>Vektspor</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Kode</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Navn</object>
+      </resource>
+      <resource name="grpSystem.Text">
+        <object>System</object>
+      </resource>
+      <resource name="sysPrgLookUp.ToolTip">
+        <object>Systemprogram driver systemet</object>
+      </resource>
+      <resource name="siteLookUp.ToolTip">
+        <object>Nettside systemet tilhører</object>
+      </resource>
+      <resource name="sysAppLookUp.ToolTip">
+        <object>Applikasjon som håndterer systemet</object>
+      </resource>
+      <resource name="lblSysProgram.Text">
+        <object>Systemprogram:</object>
+      </resource>
+      <resource name="lblSite.Text">
+        <object>Nettside:</object>
+      </resource>
+      <resource name="lblApplication.Text">
+        <object>Applikasjon:</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Feil ved lagring av data!</object>
+      </resource>
+      <resource name="Err.CancelEdit">
+        <object>Feil ved kansellering!</object>
+      </resource>
+      <resource name="Err.NoObjectSelected">
+        <object>Ikke noe objekt er valgt</object>
+      </resource>
+      <resource name="Err.NoObjectSelectedCaption">
+        <object>Informasjon</object>
+      </resource>
+      <resource name="Err.DeletingStationChildren">
+        <object>Kan ikke slette stasjonens forgreninger</object>
+      </resource>
+      <resource name="Err.DeletingStationData">
+        <object>Kan ikke slette stasjon. Stasjon har data.</object>
+      </resource>
+      <resource name="CardData.Title">
+        <object>Manglende egenskaper</object>
+      </resource>
+      <resource name="EqmLookup.Config">
+        <object>Konfig</object>
+      </resource>
+      <resource name="EqmLookup.Line">
+        <object>Linje</object>
+      </resource>
+      <resource name="EqmLookup.DeviceName">
+        <object>Enhetsnavn</object>
+      </resource>
+      <resource name="EqmLookup.DeviceId">
+        <object>Enhets-ID</object>
+      </resource>
+      <resource name="CardData.WeigherConfig">
+        <object>før veiesporene kan konfigureres</object>
+      </resource>
+      <resource name="CardData.DataSaved">
+        <object>før veiesystemet kan lagres</object>
+      </resource>
+      <resource name="CardData.Text.Single">
+        <object>Den følgende egenskapen må defineres</object>
+      </resource>
+      <resource name="CardData.Text.Multi">
+        <object>De følgende egenskapene må defineres</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Ønsker du å lagre dataen?</object>
+      </resource>
+      <resource name="Save.Title">
+        <object>Lagre data</object>
+      </resource>
+    </type>
+    <type name="Grid.Wgm.System" ServiceOnly="false">
+      <resource name="id">
+        <object>ID</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiv</object>
+      </resource>
+      <resource name="name">
+        <object>Spornavn</object>
+      </resource>
+      <resource name="wgmsystem">
+        <object>System</object>
+      </resource>
+      <resource name="eqmdevice">
+        <object>EQM-enhet</object>
+      </resource>
+      <resource name="tapdevice Name">
+        <object>TAP-enhet</object>
+      </resource>
+      <resource name="tapdevice">
+        <object>TAP-enhetskode</object>
+      </resource>
+      <resource name="mws2device Name">
+        <object>MWS2-enhet</object>
+      </resource>
+      <resource name="mws2device">
+        <object>MWS2-enhetskode</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.ManagementView" ServiceOnly="false">
+      <resource name="colLine.Caption">
+        <object>Linje</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Navnet på linjen enheten er del av</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Enhet</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Viser enhetsnavnet</object>
+      </resource>
+      <resource name="colConnection.Caption">
+        <object>Tilkobling</object>
+      </resource>
+      <resource name="colConnection.ToolTip">
+        <object>Viser enhetens koblingsstatus</object>
+      </resource>
+      <resource name="colPerformanceMon.Caption">
+        <object>Ytelsesovervåkning</object>
+      </resource>
+      <resource name="colPerformanceMon.ToolTip">
+        <object>Avviksprosentandel av den faktisk tomme bøylen SD sammenlignet med den konfigurerte global tomme bøylen SD</object>
+      </resource>
+      <resource name="colEmptyShackle.Caption">
+        <object>Tom bøyle SD (##)</object>
+      </resource>
+      <resource name="colEmptyShackle.ToolTip">
+        <object>Standard avvik i vekt av alle bøylene på linjen</object>
+      </resource>
+      <resource name="colShackleMon.Caption">
+        <object>Bøylestatusovervåking</object>
+      </resource>
+      <resource name="colShackleMon.ToolTip">
+        <object>Prosentandel av gode bøyler på linjen</object>
+      </resource>
+      <resource name="colActWeight.Caption">
+        <object>Faktisk vekt (##)</object>
+      </resource>
+      <resource name="colActWeight.ToolTip">
+        <object>Den faktiske vekten på bøylen</object>
+      </resource>
+      <resource name="colLogging.Caption">
+        <object>Logging</object>
+      </resource>
+      <resource name="colLogging.ToolTip">
+        <object>Indikerer om logging er aktiv for øyeblikket</object>
+      </resource>
+      <resource name="colLineRunning.Caption">
+        <object>Linje i drift</object>
+      </resource>
+      <resource name="colLineRunning.ToolTip">
+        <object>Indikerer om linjen er i drift</object>
+      </resource>
+      <resource name="barBtnRefresh.Caption">
+        <object>Oppdater</object>
+      </resource>
+      <resource name="barBtnPerformanceTest.Caption">
+        <object>Ytelsestest</object>
+      </resource>
+      <resource name="barBtnMws2Management.Caption">
+        <object>Kalibrering og omfangsregistrering</object>
+      </resource>
+      <resource name="colTrackName.Caption">
+        <object>Spornavn</object>
+      </resource>
+      <resource name="colTrackName.ToolTip">
+        <object>Viser navnet på sporet som definert i Innova</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Feil</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Vis siste indre feil for sporet</object>
+      </resource>
+      <resource name="barBtnRefresh.Hint">
+        <object>Oppdater og relast nettdata</object>
+      </resource>
+      <resource name="barBtnMws2Management.Hint">
+        <object>Åpne MWS2-administrasjonsdialogen for kalibrering og omfangsavlesing</object>
+      </resource>
+      <resource name="barBtnPerformanceTest.Hint">
+        <object>Åpner ytelsestestdialogen</object>
+      </resource>
+      <resource name="colTareShackleId.Caption">
+        <object>Bøyle-ID</object>
+      </resource>
+      <resource name="colTareShackleId.ToolTip">
+        <object>Bøyle-ID</object>
+      </resource>
+      <resource name="colTareNetWeight.Caption">
+        <object>Nettovekt (##)</object>
+      </resource>
+      <resource name="colTareNetWeight.ToolTip">
+        <object>Viser taravekt, netto</object>
+      </resource>
+      <resource name="colTareGrossWeight.Caption">
+        <object>Bruttovekt (##)</object>
+      </resource>
+      <resource name="colTareGrossWeight.ToolTip">
+        <object>Viser taravekt, brutto</object>
+      </resource>
+      <resource name="colTareGlobalTare.Caption">
+        <object>Global tara (##)</object>
+      </resource>
+      <resource name="colTareGlobalTare.ToolTip">
+        <object>Viser global tara</object>
+      </resource>
+      <resource name="colTareIndividualTare.Caption">
+        <object>Individuell tara (##)</object>
+      </resource>
+      <resource name="colTareIndividualTare.ToolTip">
+        <object>Viser individuell tara</object>
+      </resource>
+      <resource name="colTareRejectHistoryString.Caption">
+        <object>Avvisningshistorikk</object>
+      </resource>
+      <resource name="colTareRejectHistoryString.ToolTip">
+        <object>Viser avvisningshistorikken for tara</object>
+      </resource>
+      <resource name="colTareRoundsLearned.Caption">
+        <object>Antall lærte runder</object>
+      </resource>
+      <resource name="colTareRoundsLearned.ToolTip">
+        <object>Viser antall lærte runder</object>
+      </resource>
+      <resource name="colBadShackleId.Caption">
+        <object>Bøyle-ID</object>
+      </resource>
+      <resource name="colBadShackleId.ToolTip">
+        <object>Bøyle-ID</object>
+      </resource>
+      <resource name="colBadGrossWeight.Caption">
+        <object>Bruttovekt (##)</object>
+      </resource>
+      <resource name="colBadGrossWeight.ToolTip">
+        <object>Viser taravekt, brutto</object>
+      </resource>
+      <resource name="colBadNetWeight.Caption">
+        <object>Nettovekt (##)</object>
+      </resource>
+      <resource name="colBadNetWeight.ToolTip">
+        <object>Viser taravekt, netto</object>
+      </resource>
+      <resource name="colBadGlobalTare.Caption">
+        <object>Global tara (##)</object>
+      </resource>
+      <resource name="colBadGlobalTare.ToolTip">
+        <object>Viser global tara</object>
+      </resource>
+      <resource name="colBadIndividualTare.Caption">
+        <object>Individuell tara (##)</object>
+      </resource>
+      <resource name="colBadIndividualTare.ToolTip">
+        <object>Viser individuell tara</object>
+      </resource>
+      <resource name="colBadRejectionHistoryString.Caption">
+        <object>Avvisningshistorikk</object>
+      </resource>
+      <resource name="colBadRejectionHistoryString.ToolTip">
+        <object>Viser avvisningshistorikken for tara</object>
+      </resource>
+      <resource name="colBadRoundsLearned.Caption">
+        <object>Antall lærte runder</object>
+      </resource>
+      <resource name="colBadRoundsLearned.ToolTip">
+        <object>Viser antall lærte runder</object>
+      </resource>
+      <resource name="colLogShackleId.Caption">
+        <object>Bøyle-ID</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>Bøyle-ID</object>
+      </resource>
+      <resource name="colLogRegTime.Caption">
+        <object>Registreringstid</object>
+      </resource>
+      <resource name="colLogRegTime.ToolTip">
+        <object>Tid når angivelse ble skrevet til database</object>
+      </resource>
+      <resource name="colLogOldWeight.Caption">
+        <object>Forrige vekt (##)</object>
+      </resource>
+      <resource name="colLogOldWeight.ToolTip">
+        <object>Viser forrige vekt</object>
+      </resource>
+      <resource name="colLogWeight.Caption">
+        <object>Nettovekt (##)</object>
+      </resource>
+      <resource name="colLogWeight.ToolTip">
+        <object>Viser taravekt, netto</object>
+      </resource>
+      <resource name="colLogGrossWeight.Caption">
+        <object>Bruttovekt (##)</object>
+      </resource>
+      <resource name="colLogGrossWeight.ToolTip">
+        <object>Viser taravekt, brutto</object>
+      </resource>
+      <resource name="colLogActualTare.Caption">
+        <object>Global tara (##)</object>
+      </resource>
+      <resource name="colLogActualTare.ToolTip">
+        <object>Faktiske vekt på tara</object>
+      </resource>
+      <resource name="colLogIndividualTare.Caption">
+        <object>Individuell tara (##)</object>
+      </resource>
+      <resource name="colLogIndividualTare.ToolTip">
+        <object>Viser individuell tara</object>
+      </resource>
+      <resource name="colLogRoundsLearned.Caption">
+        <object>Antall lærte runder</object>
+      </resource>
+      <resource name="colLogRoundsLearned.ToolTip">
+        <object>Viser antall lærte runder</object>
+      </resource>
+      <resource name="colLogWeightQuality.Caption">
+        <object>Vektkvalitet</object>
+      </resource>
+      <resource name="colLogWeightQuality.ToolTip">
+        <object>Viser vektkvaliteten</object>
+      </resource>
+      <resource name="colDeveloperInfo.Caption">
+        <object>Utviklerinformasjon</object>
+      </resource>
+      <resource name="colDeveloperInfo.ToolTip">
+        <object>Informasjon for analyse av utvikler</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Drift</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Relast GUI-element</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Gjenopprett standard layout</object>
+      </resource>
+      <resource name="barBtnDesignMode.Caption">
+        <object>Designmodus</object>
+      </resource>
+      <resource name="barBtnRefreshTareGrid.Caption">
+        <object>Oppdater</object>
+      </resource>
+      <resource name="barBtnRefreshTareGrid.Hint">
+        <object>Hent taradata</object>
+      </resource>
+      <resource name="barBtnRefreshShackleGrid.Caption">
+        <object>Oppdater</object>
+      </resource>
+      <resource name="barBtnRefreshShackleGrid.Hint">
+        <object>Hent dårlig bøyledata</object>
+      </resource>
+      <resource name="barBtnResetShackle.Caption">
+        <object>Lære på nytt valgt</object>
+      </resource>
+      <resource name="barBtnResetShackle.Hint">
+        <object>Lære på nytt valgte bøyler</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.Caption">
+        <object>Lære på nytt hele linjen</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.Hint">
+        <object>Lære på nytt hele linjen</object>
+      </resource>
+      <resource name="cbLoggingHistory.Caption">
+        <object>Logghistorikk:</object>
+      </resource>
+      <resource name="loggingHistoryLookup.NullText">
+        <object>&lt;Velg logging&gt;</object>
+      </resource>
+      <resource name="barBtnDeleteLogging.Caption">
+        <object>Slett</object>
+      </resource>
+      <resource name="barBtnDeleteLogging.Hint">
+        <object>Slett valgte logging</object>
+      </resource>
+      <resource name="edLoggingMinWeight.Caption">
+        <object>Min nettovekt (##):</object>
+      </resource>
+      <resource name="edLoggingMinWeight.Hint">
+        <object>Minimum loggvekt</object>
+      </resource>
+      <resource name="edLoggingMaxWeight.Caption">
+        <object>Maks nettovekt (##):</object>
+      </resource>
+      <resource name="edLoggingMaxWeight.Hint">
+        <object>Maskimum loggvekt</object>
+      </resource>
+      <resource name="edLoggingRatio.Caption">
+        <object>Loggforhold:</object>
+      </resource>
+      <resource name="edLoggingRatio.Hint">
+        <object>Loggfør hver N'te bøyle istedet for hver bøyle (1 = alle bøyler)</object>
+      </resource>
+      <resource name="edLoggingName.Caption">
+        <object>Loggnavn:</object>
+      </resource>
+      <resource name="LogButton.Stop">
+        <object>Stopp</object>
+      </resource>
+      <resource name="LogButton.Start">
+        <object>Start</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Navn</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Ingen ekstern kobling til serveren</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Koblingsfeil</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>Ingen ekstern kobling til stasjon</object>
+      </resource>
+      <resource name="ResetShackels.Failed">
+        <object>Kunne ikke tilbakestille bøyler</object>
+      </resource>
+      <resource name="ResetAllShackels.Failed">
+        <object>Kunne ikke tilbakestille alle bøyler</object>
+      </resource>
+      <resource name="Logging.IllegalRange">
+        <object>Ulovlig vektrekkevidde spesifisert</object>
+      </resource>
+      <resource name="Logging.IllegalRangeCaption">
+        <object>Feil</object>
+      </resource>
+      <resource name="Logging.Failed">
+        <object>Loggingoperasjon mislyktes</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Ønsker du å slette loggangivelsen:\n'{0}'\nfra databasen?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Slett loggfil</object>
+      </resource>
+      <resource name="edLoggingName.Hint">
+        <object>Angi et navn for loggen. Hvis ikke noe navn er oppgitt, vil det opprettes ett automatisk.</object>
+      </resource>
+      <resource name="tabTare.Text">
+        <object>Tomme bøyler</object>
+      </resource>
+      <resource name="tabBadShackles.Text">
+        <object>Dårlige bøyler</object>
+      </resource>
+      <resource name="tabLogging.Text">
+        <object>Dynamisk veiing</object>
+      </resource>
+      <resource name="staticWeight.Caption">
+        <object>Statisk vekt (##)</object>
+      </resource>
+      <resource name="staticWeight.ToolTip">
+        <object>Den statiske vekten på bøylen</object>
+      </resource>
+      <resource name="tabStaticWeight.Text">
+        <object>Statisk veiing</object>
+      </resource>
+      <resource name="cbLoggingHistory.Hint">
+        <object>Liste over tilgjengelige logger som kan velges</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Lagre</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Lagre den valgte loggen til en fil</object>
+      </resource>
+      <resource name="barBtnStartStopLogging.Caption">
+        <object>Start</object>
+      </resource>
+      <resource name="barBtnStartStopLogging.Hint">
+        <object>Klikk for å starte loggingen</object>
+      </resource>
+      <resource name="barSubOperations.Hint">
+        <object>Systemdrift</object>
+      </resource>
+      <resource name="barBtnSaveTareGrid.Caption">
+        <object>Lagre</object>
+      </resource>
+      <resource name="barBtnSaveTareGrid.Hint">
+        <object>Lagre innholdet av taratabellen til fil</object>
+      </resource>
+      <resource name="barBtnSaveBadShackleGrid.Caption">
+        <object>Lagre</object>
+      </resource>
+      <resource name="barBtnSaveBadShackleGrid.Hint">
+        <object>Lagre innholdet av den dårlige bøyletabellen til fil</object>
+      </resource>
+      <resource name="ResetShackle.Confirm">
+        <object>Den individuelle tara av valgte bøyle vil bli lært på nytt.\nØnsker du å fortsette?</object>
+      </resource>
+      <resource name="ResetShackle.Title">
+        <object>Lære på nytt valgte bøyler</object>
+      </resource>
+      <resource name="ResetBadShackles.Confirm">
+        <object>Den individuelle tara av alle dårlige bøyler vil bli lært på nytt.\nØnsker du å fortsette?</object>
+      </resource>
+      <resource name="ResetBadShackles.Title">
+        <object>Lær på nytt dårlige bøyler</object>
+      </resource>
+      <resource name="ResetAllShackle.Confirm">
+        <object>Den individuelle tara og global tara av alle bøylene på linjen vil bli lært på nytt.\nØnsker du å fortsette?</object>
+      </resource>
+      <resource name="ResetAllShackle.Title">
+        <object>Lære på nytt alle bøyler</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Relast alle brukerinstruksjon-elementer</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Gjenopprett standard layout for alle brukerinstruksjon-elementer</object>
+      </resource>
+      <resource name="barBtnDesignMode.Hint">
+        <object>Gjør nettene designbare</object>
+      </resource>
+      <resource name="WgmStationNotPresent">
+        <object>Wgm-stasjon ikke tilstede i serverapplikasjon. Er lisensen installert?</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Settings.TapSettings" ServiceOnly="false">
+      <resource name="colStatus.Caption">
+        <object>Status</object>
+      </resource>
+      <resource name="colStatus.ToolTip">
+        <object>Viser innstillingenes status</object>
+      </resource>
+      <resource name="colTrack.Caption">
+        <object>Spornavn</object>
+      </resource>
+      <resource name="colTrack.ToolTip">
+        <object>Navnet på veiesporing som håndterer denne enheten</object>
+      </resource>
+      <resource name="colDownloadDate.Caption">
+        <object>Sendt på</object>
+      </resource>
+      <resource name="colDownloadDate.ToolTip">
+        <object>Dato og tid når innstillingene ble sendt til enheten</object>
+      </resource>
+      <resource name="colTareBackup.Caption">
+        <object>Taradata-sikkerhetskopiering på</object>
+      </resource>
+      <resource name="colTareBackup.ToolTip">
+        <object>Dato og tid når taradata ble sikkerhetskopiert fra enheten</object>
+      </resource>
+      <resource name="tabSource.Text">
+        <object>Kilde</object>
+      </resource>
+      <resource name="tabDetection.Text">
+        <object>Produktregistrering</object>
+      </resource>
+      <resource name="tabHandling.Text">
+        <object>Produkthåndtering</object>
+      </resource>
+      <resource name="tabAlarms.Text">
+        <object>Alarmer</object>
+      </resource>
+      <resource name="tabTare.Text">
+        <object>Tara</object>
+      </resource>
+      <resource name="tabLogging.Text">
+        <object>Logging</object>
+      </resource>
+      <resource name="grpWeighingSource.Text">
+        <object>Veiekilde</object>
+      </resource>
+      <resource name="grpCommunication.Text">
+        <object>MWS2-kommunikasjon</object>
+      </resource>
+      <resource name="weighingSource.PrevWeight">
+        <object>Forrige vekt</object>
+      </resource>
+      <resource name="weighingSource.LoadCell">
+        <object>Lastecelle</object>
+      </resource>
+      <resource name="chkWholeProdWeigher.Text">
+        <object>Helprodukt-veier</object>
+      </resource>
+      <resource name="lblIpAddress.Text">
+        <object>IP-adresse</object>
+      </resource>
+      <resource name="lblPortNo.Text">
+        <object>Portnr.</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Enhet</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Viser navnet på enheten til innstillingene</object>
+      </resource>
+      <resource name="grpClearProduct.Text">
+        <object>Tøm produkt</object>
+      </resource>
+      <resource name="grpAddProduct.Text">
+        <object>Legg til produkt</object>
+      </resource>
+      <resource name="lblClearProdNoOfShackles.Text">
+        <object>Antall bøyler etter det/pp-alarm vises</object>
+      </resource>
+      <resource name="chkClearProdAllow.Text">
+        <object>Tillat produkttømming</object>
+      </resource>
+      <resource name="chkClearProdDisable.Text">
+        <object>Deaktiver produkttømming etter alarm</object>
+      </resource>
+      <resource name="lblAddProdNoOfShackles.Text">
+        <object>Antall bøyler etter det/pp-alarm vises</object>
+      </resource>
+      <resource name="chkAddProdAllow.Text">
+        <object>Tillat produkttildeling</object>
+      </resource>
+      <resource name="chkAddProdDisable.Text">
+        <object>Deaktiver produkttildeling etter alarm</object>
+      </resource>
+      <resource name="lblAddProdWeight.Text">
+        <object>Vekt</object>
+      </resource>
+      <resource name="lblAddProdQuality.Text">
+        <object>Kvalitet</object>
+      </resource>
+      <resource name="lblAddProdArticle.Text">
+        <object>Artikkelkode</object>
+      </resource>
+      <resource name="grpWeightParam.Text">
+        <object>Veieparametre</object>
+      </resource>
+      <resource name="grpTreatment.Text">
+        <object>Behandling</object>
+      </resource>
+      <resource name="grpGiblet.Text">
+        <object>Giblet</object>
+      </resource>
+      <resource name="lblPHMinProductWeight.Text">
+        <object>Minimum produktvekt</object>
+      </resource>
+      <resource name="lblPHOffset.Text">
+        <object>Forskyvning</object>
+      </resource>
+      <resource name="lblPHCorrFactor.Text">
+        <object>Korrigeringsfaktor</object>
+      </resource>
+      <resource name="chkPHDisplace.Text">
+        <object>Fortrenge produkt</object>
+      </resource>
+      <resource name="lblPHDisplaceShackles.Text">
+        <object>Fortrenge bøyler</object>
+      </resource>
+      <resource name="chkUseGiblet.Text">
+        <object>Bruk giblet</object>
+      </resource>
+      <resource name="lblGibletWeight.Text">
+        <object>Gibletvekt</object>
+      </resource>
+      <resource name="lblAddGiblet.Text">
+        <object>Legg til for giblet til artikkelkode</object>
+      </resource>
+      <resource name="treatment.Left">
+        <object>Venstre</object>
+      </resource>
+      <resource name="treatment.Right">
+        <object>Høyre</object>
+      </resource>
+      <resource name="treatment.Whole">
+        <object>Hele</object>
+      </resource>
+      <resource name="grpEfficency.Text">
+        <object>Effektivitet</object>
+      </resource>
+      <resource name="grpGeneral.Text">
+        <object>Generelt</object>
+      </resource>
+      <resource name="chkUseOvershootAlarms.Text">
+        <object>Bruk overtreff-alarm</object>
+      </resource>
+      <resource name="lblOvershotLimit.Text">
+        <object>Prosentdel overtreff-grense</object>
+      </resource>
+      <resource name="lblNoOvershootsAllowed.Text">
+        <object>Antall overtreff tillatt i historikk før alarm</object>
+      </resource>
+      <resource name="chkUseBarOutsideAlarm.Text">
+        <object>Bruksbarer utenfor rekkeviddealarm</object>
+      </resource>
+      <resource name="lblNoBarsForHistory.Text">
+        <object>Antall barer brukt for historikk</object>
+      </resource>
+      <resource name="lblNoBarsOutsideRange.Text">
+        <object>Antall barer utenfor den tillatte rekkevidden før alarm oppstår</object>
+      </resource>
+      <resource name="chkUseProdEfficiency.Text">
+        <object>Bruk produkteffektivitet utenfor rekkeviddealarm</object>
+      </resource>
+      <resource name="lblProdEffOutsideLimit.Text">
+        <object>Produkteffektivitet utenfor rekkevidde-grense</object>
+      </resource>
+      <resource name="lblProdEffOutsideLimitHysteresis.Text">
+        <object>Produkteffektivitet utenfor rekkevidde-grense, hysterese</object>
+      </resource>
+      <resource name="lblProdEffYellow.Text">
+        <object>Produkteffektivitet, gul bar, båndbredde</object>
+      </resource>
+      <resource name="chkSuppressAlarm.Text">
+        <object>Undertrykk alarm når linjehastigheten er ustabil</object>
+      </resource>
+      <resource name="grpTare.Text">
+        <object>Tara generelt</object>
+      </resource>
+      <resource name="grpIndividualTare.Text">
+        <object>Individuell tara</object>
+      </resource>
+      <resource name="grpTareBackup.Text">
+        <object>Taradata-sikkerhetskopiering</object>
+      </resource>
+      <resource name="grpGlobalTare.Text">
+        <object>Global tara</object>
+      </resource>
+      <resource name="lblTareRejection.Text">
+        <object>Avvisningsgrense for tara</object>
+      </resource>
+      <resource name="lblEmptyShackleSD.Text">
+        <object>Maksimum tom bøyle SD</object>
+      </resource>
+      <resource name="lblEmptyShackleWeight.Text">
+        <object>Estimert tom bøylevekt</object>
+      </resource>
+      <resource name="lblMinLineSpeed.Text">
+        <object>Minimum linjehastighet</object>
+      </resource>
+      <resource name="chkIndTareCorr.Text">
+        <object>Aktiver individuell tarakorrigering</object>
+      </resource>
+      <resource name="lblIndTareRoundsNeeded.Text">
+        <object>Minimum tomme runder før initiell læring</object>
+      </resource>
+      <resource name="lblIndTareKFactor.Text">
+        <object>Flyrrer gjennomsnittlig dampefaktor</object>
+      </resource>
+      <resource name="lblIndTareRoundsRejected.Text">
+        <object>Antall runder avvist</object>
+      </resource>
+      <resource name="chkEnableTareBackup.Text">
+        <object>Aktiver individuell tara-sikkerhetskopiering</object>
+      </resource>
+      <resource name="lblTareBackupInterval.Text">
+        <object>Sikkerhetskopieringsintervall</object>
+      </resource>
+      <resource name="uTareBackupInterval.Text">
+        <object>min</object>
+      </resource>
+      <resource name="chkGlobalTareCorr.Text">
+        <object>Aktiver global tarakorrigering</object>
+      </resource>
+      <resource name="lblGlobalTareShacklesNeeded.Text">
+        <object>Gjennomsnittlig antall bøyler for flytting</object>
+      </resource>
+      <resource name="lblGlobalTareActualPlus.Text">
+        <object>Alarmgrense for faktisk tara</object>
+      </resource>
+      <resource name="lblAlarmThresholdShacklesInRound.Text">
+        <object>Avviste bøyler per runde</object>
+      </resource>
+      <resource name="lblAlarmThresholdIndShackle.Text">
+        <object>Avvist per bøyle</object>
+      </resource>
+      <resource name="grpLogSettings.Text">
+        <object>Logginnstillinger</object>
+      </resource>
+      <resource name="chkOutputWeightData.Text">
+        <object>Utdata for vekt</object>
+      </resource>
+      <resource name="barBtnRefresh.Caption">
+        <object>Oppdater</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Bekreft</object>
+      </resource>
+      <resource name="barSubOpertions.Caption">
+        <object>Drift</object>
+      </resource>
+      <resource name="barBtnSend.Caption">
+        <object>Send</object>
+      </resource>
+      <resource name="barBtnTareBackup.Caption">
+        <object>Sikkerhetskopier taradata</object>
+      </resource>
+      <resource name="barBtnTareRestore.Caption">
+        <object>Gjenopprett taradata</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Relast GUI-element</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Gjenopprett standard layout</object>
+      </resource>
+      <resource name="Hint.NotInDevice">
+        <object>Innstillinger ikke i TAP</object>
+      </resource>
+      <resource name="Hint.InDevice">
+        <object>Innstillinger i TAP</object>
+      </resource>
+      <resource name="Hint.Different">
+        <object>Innstillinger mellom TAP og Innova er forskjellige</object>
+      </resource>
+      <resource name="Hint.NoInfo">
+        <object>Kan ikke hente info</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Ønsker du å lagre data?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Lagre innstillinger</object>
+      </resource>
+      <resource name="Send.Confirm">
+        <object>Ønsker du å sende innstillinger for den valgte enheten?</object>
+      </resource>
+      <resource name="Send.Title">
+        <object>Send innstillinger</object>
+      </resource>
+      <resource name="Send.Failed">
+        <object>Kunne ikke sende innstillinger</object>
+      </resource>
+      <resource name="SendError.Text">
+        <object>Ingen ekstern kobling til serveren.</object>
+      </resource>
+      <resource name="SendError.Caption">
+        <object>Sendefeil</object>
+      </resource>
+      <resource name="TareBackup.Failed">
+        <object>Kunne ikke sende sikkerhetskopieringsforespørsel av taratabell</object>
+      </resource>
+      <resource name="TareRestore.Failed">
+        <object>Kunne ikke sende gjenopprettingsforespørsel av taratabell</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Feil</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Vis siste feilmelding</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Ingen ekstern kobling til serveren.</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Koblingsfeil</object>
+      </resource>
+      <resource name="TareAutoBackup.Failed">
+        <object>Kunne ikke oppdatere sikkerhetskopieringsinnstillinger for tabell</object>
+      </resource>
+      <resource name="TareBackup.Busy">
+        <object>Sikkerhetskopiering opptatt</object>
+      </resource>
+      <resource name="TareRestore.Busy">
+        <object>Gjenoppretting opptatt</object>
+      </resource>
+      <resource name="colTareRestore.Caption">
+        <object>Taradata gjenopprettet på</object>
+      </resource>
+      <resource name="colTareRestore.ToolTip">
+        <object>Dato og tid når taradata ble gjenopprettet</object>
+      </resource>
+      <resource name="uAddProdWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uPHMinProductWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uPHOffset.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uGibletWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uTareRejection.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uEmptyShackleWeight.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uMinLineSpeed.Text">
+        <object>nr/t</object>
+      </resource>
+      <resource name="uGlobalTareActualPlus.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uAlarmThresholdShacklesInRound.Text">
+        <object>%</object>
+      </resource>
+      <resource name="uAlarmThresholdIndShackle.Text">
+        <object>%</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Linje</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Viser linjen som definert øverst</object>
+      </resource>
+      <resource name="uEmptyShackleSD.Text">
+        <object>g</object>
+      </resource>
+      <resource name="uLoadCellWeightUnit.Text">
+        <object>Kg</object>
+      </resource>
+      <resource name="barBtnTareLoad.Caption">
+        <object>Last taradata</object>
+      </resource>
+      <resource name="barBtnTareLoad.Hint">
+        <object>Last taradata fra filen som skal gjenopprettes til enheten</object>
+      </resource>
+      <resource name="barBtnTareSave.Caption">
+        <object>Lagre taradata</object>
+      </resource>
+      <resource name="barBtnTareSave.Hint">
+        <object>Lagre sikkerhetskopiert taradata til en fil</object>
+      </resource>
+      <resource name="TareSave.Error">
+        <object>Ingen data for sikkerhetskopiert taratabell funnet i databasen.</object>
+      </resource>
+      <resource name="TareSave.ErrorTitle">
+        <object>Feil ved lagring av taradata</object>
+      </resource>
+      <resource name="TareSave.Dialog.Title">
+        <object>Lagre som</object>
+      </resource>
+      <resource name="TareSave.Dialog.Failed">
+        <object>Kunne ikke lagre taradata</object>
+      </resource>
+      <resource name="TareLoad.Dialog.Title">
+        <object>Velg fil...</object>
+      </resource>
+      <resource name="TareLoad.Dialog.Failed">
+        <object>Kunne ikke laste taradata</object>
+      </resource>
+      <resource name="TareLoad.Confirm">
+        <object>Ønsker du å laste en taradata fra en fil og gjenoprette den til enheten?</object>
+      </resource>
+      <resource name="TareLoad.ConfirmTitle">
+        <object>Gjenoppretter taradata fra fil</object>
+      </resource>
+      <resource name="TareLoad.Result.Text">
+        <object>Sjekk om du har valgt riktig fil.</object>
+      </resource>
+      <resource name="TareLoad.Result.Caption">
+        <object>Kunne ikke lese data</object>
+      </resource>
+      <resource name="TareLoad.Restore.Failed">
+        <object>Kunne ikke gjenopprette taratabelldata fra fil</object>
+      </resource>
+      <resource name="barBtnTareBackup.Hint">
+        <object>Sikkerhetskopier taratabelldata fra TAP til database</object>
+      </resource>
+      <resource name="barBtnTareRestore.Hint">
+        <object>Gjenopprett sikkerhetskopiert taradata fra database til TAP</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Relast alle brukerinstruksjon-elementer</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Gjenopprett standard layout for alle brukerinstruksjon-elementer</object>
+      </resource>
+      <resource name="lblIndTareShacklesAllowed.Text">
+        <object>Maks linjelast for læring</object>
+      </resource>
+      <resource name="edIndTareShacklesAllowed.ToolTip">
+        <object>Definerer hvilket nivå med fylte bøyler veieenheten kan starte læreprosessen for individuell tara.</object>
+      </resource>
+      <resource name="lblBadShackleListThreshold.Text">
+        <object>Avvisningsgrense for dårlig bøyletabell</object>
+      </resource>
+      <resource name="edAlarmThresholdShacklesInRound.ToolTip">
+        <object>En alarm genereres hvis prosentdelen av avviste bøyler på en runde er høyere enn denne verdien</object>
+      </resource>
+      <resource name="edAlarmThresholdIndShackle.ToolTip">
+        <object>En alarm genereres hvis en avvisningsprosent for individuell bøyle er høyere enn denne verdien</object>
+      </resource>
+      <resource name="edBadShackleListThreshold.ToolTip">
+        <object>En bøyle er lagt til den dårlige bøylelisten hvis avvisningsprosenten for individuell bøyle er høyere enn denne verdien</object>
+      </resource>
+      <resource name="edBadShackleResetThreshold.ToolTip">
+        <object>En bøyles individuelle tara er tilbakestilt hvis avvisningsprosenten for individuell bøyle er høyere enn denne verdien</object>
+      </resource>
+      <resource name="edTareBackupInterval.ToolTip">
+        <object>Intervallet som den individuelle taradata er innhentet fra TAP og sikkerhetskopiert til databasen</object>
+      </resource>
+      <resource name="edIndTareRoundsNeeded.ToolTip">
+        <object>Antall nødvendige runder for å lære den individuelle tara</object>
+      </resource>
+      <resource name="edIndTareKFactor.ToolTip">
+        <object>Hver ny tomme bøylevekt er påvirket av denne faktoren før den brukes i det rekursive filteret for individuell taraberegning</object>
+      </resource>
+      <resource name="edGlobalTareActualPlus.ToolTip">
+        <object>En alarm utløses hvis den globale tara overskrider denne grensen, positiv eller negativ</object>
+      </resource>
+      <resource name="edEmptyShackleWeight.ToolTip">
+        <object>Estimering av den tomme bøylevekten, anvendt for taraberegning. Individuell tara, pluss denne verdien, bestemmer riktig bøylevekt</object>
+      </resource>
+      <resource name="edMinLineSpeed.ToolTip">
+        <object>Minimum linjehastighet for registrering av tara</object>
+      </resource>
+      <resource name="edEmptyShackleSD.ToolTip">
+        <object>Maksimum standardavvik for tom bøyle brukt for ytelsesovervåkning</object>
+      </resource>
+      <resource name="edTareRejection.ToolTip">
+        <object>Hvis bøylens tara avviker mer enn denne verdien fra den faktiske tara, avvises bøylen for individuell og global taraberegning</object>
+      </resource>
+      <resource name="edIpAddress.ToolTip">
+        <object>IP-adressen til MWS2-enheten som skal brukes av TAP når du oppretter tilkoblingen</object>
+      </resource>
+      <resource name="edPortNo.ToolTip">
+        <object>Portnummeret til MWS2-enheten som skal brukes av TAP når du oppretter tilkoblingen</object>
+      </resource>
+      <resource name="edGlobalTareShacklesNeeded.ToolTip">
+        <object>Antall bøyler som brukes i den bevegelige gjennomsnittlige taraberegning</object>
+      </resource>
+      <resource name="uBadShackleListThreshold.Text">
+        <object>%</object>
+      </resource>
+      <resource name="Send.Failed.Caption">
+        <object>Kunne ikke sende innstillinger</object>
+      </resource>
+      <resource name="Send.Failed.Text">
+        <object>Sjekk systemloggen for mer informasjon.</object>
+      </resource>
+      <resource name="Send.SaveConfirm">
+        <object>Ønsker du å lagre dataen og\nsende innstillinger for den valgte enheten?</object>
+      </resource>
+      <resource name="barBtnResetBadShackles.ToolTip">
+        <object>Lærer på nytt alle de dårlige bøylene i systemet</object>
+      </resource>
+      <resource name="barBtnResetAllShackles.ToolTip">
+        <object>Lærer på nytt hele linjen, dette er dårlige og gode bøyler</object>
+      </resource>
+      <resource name="edClearProdPerc.ToolTip">
+        <object>Prosentdelen bøyler som skal utløse alarmen</object>
+      </resource>
+      <resource name="chkClearProdAllow.ToolTip">
+        <object>Når aktivert, aksepteres produkttømming</object>
+      </resource>
+      <resource name="chkClearProdDisable.ToolTip">
+        <object>Når aktivert, vil ingen produkter tømmes når en alarm er aktivert</object>
+      </resource>
+      <resource name="edAddProdPerc.ToolTip">
+        <object>Prosentdelen bøyler som skal utløse alarmen</object>
+      </resource>
+      <resource name="chkAddProdAllow.ToolTip">
+        <object>Når aktivert, aksepteres produkttildeling</object>
+      </resource>
+      <resource name="chkAddProdDisable.ToolTip">
+        <object>Når aktivert, tildeles ingen produkter etter at en alarm er aktivert</object>
+      </resource>
+      <resource name="edAddProdWeight.ToolTip">
+        <object>Vekten av produktet som skal legges til</object>
+      </resource>
+      <resource name="edAddProdQuality.ToolTip">
+        <object>Kvaliteten på produktet som skal legges til</object>
+      </resource>
+      <resource name="edAddProdArticle.ToolTip">
+        <object>Artikkelkoden på produktet som skal legges til</object>
+      </resource>
+      <resource name="edPHMinProductWeight.ToolTip">
+        <object>Den minste produktvekten som skal registreres</object>
+      </resource>
+      <resource name="edPHOffset.ToolTip">
+        <object>Avviket brukt for vektregistrering</object>
+      </resource>
+      <resource name="edPHCorrFactor.ToolTip">
+        <object>Prosentdelen som skal brukes for korrigeringsfaktoren</object>
+      </resource>
+      <resource name="chkPHDisplace.ToolTip">
+        <object>Når aktivert, fortrenges et visst antall bøyler</object>
+      </resource>
+      <resource name="edPHDisplaceShackles.ToolTip">
+        <object>Antall bøyler som skal fortrenges</object>
+      </resource>
+      <resource name="selTreatments.ToolTip">
+        <object>Definerer typen veieenhet, venstre bein, høyre bein eller helprodukt</object>
+      </resource>
+      <resource name="chkUseGiblet.ToolTip">
+        <object>Definerer om giblettene skal brukes i veiingen</object>
+      </resource>
+      <resource name="edGibletWeight.ToolTip">
+        <object>Vekten på gibletten som skal brukes</object>
+      </resource>
+      <resource name="chkAutoRelearn.Text">
+        <object>Aktiver automatisk læring på nytt</object>
+      </resource>
+      <resource name="lblBadShackleResetThreshold.Text">
+        <object>Avvisningsgrense per bøyle</object>
+      </resource>
+      <resource name="TareBackup">
+        <object>Er du sikker på at du ønsker å sikkerhetskopiere den eksisterende taratabellen fra TAP-systemet?</object>
+      </resource>
+      <resource name="TareRestore">
+        <object>Er du sikker på at du ønsker å gjenopprette den sikkerhetskopierte taratabellen fra TAP-systemet?</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.TapPerformanceTest" ServiceOnly="false">
+      <resource name="colLogShackleId.Caption">
+        <object>Bøyle</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>Bøyle-ID</object>
+      </resource>
+      <resource name="colLogRegTime.Caption">
+        <object>Registreringstid</object>
+      </resource>
+      <resource name="colLogRegTime.ToolTip">
+        <object>Tid når angivelse ble skrevet til database</object>
+      </resource>
+      <resource name="colLogOldWeight.Caption">
+        <object>Forrige vekt (##)</object>
+      </resource>
+      <resource name="colLogOldWeight.ToolTip">
+        <object>Viser forrige vekt</object>
+      </resource>
+      <resource name="colLogWeight.Caption">
+        <object>Nettovekt (##)</object>
+      </resource>
+      <resource name="colLogWeight.ToolTip">
+        <object>Viser taravekt, netto</object>
+      </resource>
+      <resource name="colLogGrossWeight.Caption">
+        <object>Bruttovekt (##)</object>
+      </resource>
+      <resource name="colLogGrossWeight.ToolTip">
+        <object>Viser taravekt, brutto</object>
+      </resource>
+      <resource name="colLogActualTare.Caption">
+        <object>Faktisk tara (##)</object>
+      </resource>
+      <resource name="colLogActualTare.ToolTip">
+        <object>Faktiske vekt på tara</object>
+      </resource>
+      <resource name="colLogIndividualTare.Caption">
+        <object>Individuell tara (##)</object>
+      </resource>
+      <resource name="colLogIndividualTare.ToolTip">
+        <object>Viser individuell tara</object>
+      </resource>
+      <resource name="colLogRoundsLearned.Caption">
+        <object>Antall lærte runder</object>
+      </resource>
+      <resource name="colLogRoundsLearned.ToolTip">
+        <object>Viser antall lærte runder</object>
+      </resource>
+      <resource name="colLogWeightQuality.Caption">
+        <object>Vektkvalitet</object>
+      </resource>
+      <resource name="colLogWeightQuality.ToolTip">
+        <object>Viser vektkvaliteten</object>
+      </resource>
+      <resource name="colDeveloperInfo.Caption">
+        <object>Utviklerinformasjon</object>
+      </resource>
+      <resource name="colDeveloperInfo.ToolTip">
+        <object>Informasjon for analyse av utvikler</object>
+      </resource>
+      <resource name="grpWeighers.Text">
+        <object>Veieenheter</object>
+      </resource>
+      <resource name="grpLoggingHistory.Text">
+        <object>Logghistorikk</object>
+      </resource>
+      <resource name="grpTestState.Text">
+        <object>Teststatus</object>
+      </resource>
+      <resource name="grpTestProperties.Text">
+        <object>Testegenskaper</object>
+      </resource>
+      <resource name="btnDelLog.ToolTip">
+        <object>Slett valgte logging</object>
+      </resource>
+      <resource name="lblNoOfBirds.Text">
+        <object>Antall produkter</object>
+      </resource>
+      <resource name="lblDropsPerMin.Text">
+        <object>Mengde per minutt</object>
+      </resource>
+      <resource name="lblMinWeight.Text">
+        <object>Minimum vekt</object>
+      </resource>
+      <resource name="uMinWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblMaxWeight.Text">
+        <object>Maskimum vekt</object>
+      </resource>
+      <resource name="uMaxWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblLogName.Text">
+        <object>Loggnavn</object>
+      </resource>
+      <resource name="startStopButton.Text">
+        <object>Start</object>
+      </resource>
+      <resource name="WeigherLookup.Name">
+        <object>Navn</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Navn</object>
+      </resource>
+      <resource name="TestError.ParamFailed">
+        <object>Ikke i stand til å starte ytelsestesten, sjekk parametre</object>
+      </resource>
+      <resource name="TestError.FailedToStart">
+        <object>Ikke i stand til å starte ytelsestesten</object>
+      </resource>
+      <resource name="TestError.NoServer">
+        <object>Ikke i stand til å starte testen, ingen kobling til serveren</object>
+      </resource>
+      <resource name="TestError.Error">
+        <object>Feil</object>
+      </resource>
+      <resource name="TestError.FailedToStop">
+        <object>Ikke i stand til å stoppe ytelsestesten</object>
+      </resource>
+      <resource name="TestButton.Start">
+        <object>Start</object>
+      </resource>
+      <resource name="TestButton.Stop">
+        <object>Stopp</object>
+      </resource>
+      <resource name="Test.Finished">
+        <object>Ytelsestest fullført</object>
+      </resource>
+      <resource name="Test.Running">
+        <object>Ytelsestest kjører</object>
+      </resource>
+      <resource name="Test.Stopped">
+        <object>Ytelsestest stoppet</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Ønsker du å slette loggangivelsen:\n'{0}'\nfra databasen?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Slett loggfil</object>
+      </resource>
+      <resource name="TapPerformanceTest.Text">
+        <object>Ytelsestest</object>
+      </resource>
+      <resource name="Test.Info">
+        <object>Still testparametre og klikk start for å starte testen</object>
+      </resource>
+      <resource name="weigherList.ToolTip">
+        <object>Velg veieenheten som skal utføre test for</object>
+      </resource>
+      <resource name="loggingHistoryList.ToolTip">
+        <object>Velg visningslogg</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Lagre den valgte loggen til en fil</object>
+      </resource>
+      <resource name="grpResultGrid.Text">
+        <object>Resultater</object>
+      </resource>
+      <resource name="edNoOfBirds.ToolTip">
+        <object>Spesifiserer hvor mange fugler som skal droppes</object>
+      </resource>
+      <resource name="edDropsPerMin.ToolTip">
+        <object>Spesifiserer antall fugler som skal droppes per minutt</object>
+      </resource>
+      <resource name="edMinWeight.ToolTip">
+        <object>Minimum vektspesifikasjon for en fugl som skal droppes</object>
+      </resource>
+      <resource name="edMaxWeight.ToolTip">
+        <object>Maksimum vektspesifikasjon for en fugl som skal droppes</object>
+      </resource>
+      <resource name="edLogName.ToolTip">
+        <object>Navnet på loggingen tilhørende ytelsestesten som skal utføres.</object>
+      </resource>
+      <resource name="startStopButton.ToolTip">
+        <object>Aktiver ytelsestest eller stopp dersom den kjører</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Lukk</object>
+      </resource>
+      <resource name="btnClose.ToolTip">
+        <object>Lukker dialogen</object>
+      </resource>
+      <resource name="lblArticleCode.Text">
+        <object>Artikkelkode</object>
+      </resource>
+      <resource name="lblDropDelay.Text">
+        <object>Droppforsinkelse</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Settings.Mws2Settings" ServiceOnly="false">
+      <resource name="barBtnRefresh.Caption">
+        <object>Oppdater</object>
+      </resource>
+      <resource name="barBtnRefresh.Hint">
+        <object>Oppdater oppsett og data fra enhet</object>
+      </resource>
+      <resource name="barBtnConfirm.Caption">
+        <object>Bekreft</object>
+      </resource>
+      <resource name="barBtnConfirm.Hint">
+        <object>Lagre redigerte verdier på databasen</object>
+      </resource>
+      <resource name="barSubOperations.Caption">
+        <object>Drift</object>
+      </resource>
+      <resource name="barSubOperations.Hint">
+        <object>Ekstra operasjoner</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Caption">
+        <object>Relast GUI-element</object>
+      </resource>
+      <resource name="barBtnReloadGUI.Hint">
+        <object>Relast alle brukerinstruksjon-elementer</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Caption">
+        <object>Gjenopprett standard layout</object>
+      </resource>
+      <resource name="barBtnRestoreDefLayout.Hint">
+        <object>Gjenopprett standard layout for alle brukerinstruksjon-elementer</object>
+      </resource>
+      <resource name="barBtnSend.Caption">
+        <object>Send</object>
+      </resource>
+      <resource name="barBtnSend.Hint">
+        <object>Send innstillinger til valgt enhet</object>
+      </resource>
+      <resource name="tabProperties.Text">
+        <object>Egenskaper</object>
+      </resource>
+      <resource name="barBtnLoad.Caption">
+        <object>Last fra fil</object>
+      </resource>
+      <resource name="barBtnLoad.Hint">
+        <object>Last registerinnstillinger fra en lokal fil.</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Lagre til fil</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Lagre registerinnstillinger til en lokal fil.</object>
+      </resource>
+      <resource name="barBtnGetSettings.Caption">
+        <object>Få MWS2-innstillinger</object>
+      </resource>
+      <resource name="barBtnGetSettings.Hint">
+        <object>Importer registerinnstilinger for valgte MWS2-veieenhet.</object>
+      </resource>
+      <resource name="colStatus.Caption">
+        <object>Status</object>
+      </resource>
+      <resource name="colStatus.Hint">
+        <object>Viser innstillingenes status</object>
+      </resource>
+      <resource name="colTrack.Caption">
+        <object>Spornavn</object>
+      </resource>
+      <resource name="colTrack.ToolTip">
+        <object>Navnet på veiesporing som håndterer denne enheten</object>
+      </resource>
+      <resource name="colDownloadDate.Caption">
+        <object>Sendt på</object>
+      </resource>
+      <resource name="colDownloadDate.ToolTip">
+        <object>Dato og tid når innstillingene ble sendt til enheten</object>
+      </resource>
+      <resource name="colError.Caption">
+        <object>Feil</object>
+      </resource>
+      <resource name="colError.ToolTip">
+        <object>Vis siste feilmelding</object>
+      </resource>
+      <resource name="colPropRegister.Caption">
+        <object>Register</object>
+      </resource>
+      <resource name="colPropRegister.ToolTip">
+        <object>Viser registernummeret</object>
+      </resource>
+      <resource name="colPropDescription.Caption">
+        <object>Beskrivelse</object>
+      </resource>
+      <resource name="colPropDescription.ToolTip">
+        <object>Beskrivelse av registeret</object>
+      </resource>
+      <resource name="colPropFlags.Caption">
+        <object>Flagg</object>
+      </resource>
+      <resource name="colPropFlags.ToolTip">
+        <object>Registerflaggene</object>
+      </resource>
+      <resource name="colPropChangeable.Caption">
+        <object>Byttbar</object>
+      </resource>
+      <resource name="colPropChangeable.ToolTip">
+        <object>Kan verdien endres?</object>
+      </resource>
+      <resource name="colPropContent.Caption">
+        <object>Aktive MWS2-parametre</object>
+      </resource>
+      <resource name="colPropContent.ToolTip">
+        <object>Viser enhetens registerinnhold</object>
+      </resource>
+      <resource name="colPropContentDb.Caption">
+        <object>Parametre i database</object>
+      </resource>
+      <resource name="colPropContentDb.ToolTip">
+        <object>Viser parametrene lagret i databasen</object>
+      </resource>
+      <resource name="Info.Refresh.Text">
+        <object>Henter data fra MWS2-enhet.\nVent!</object>
+      </resource>
+      <resource name="Info.Refresh">
+        <object>Laster data</object>
+      </resource>
+      <resource name="Save.Text">
+        <object>Ønsker du å lagre data?</object>
+      </resource>
+      <resource name="Save.Caption">
+        <object>Lagre innstillinger</object>
+      </resource>
+      <resource name="Hint.NotInDevice">
+        <object>Innstillinger ikke i NWS2</object>
+      </resource>
+      <resource name="Hint.InDevice">
+        <object>Innstillinger i NWS2</object>
+      </resource>
+      <resource name="Hint.Different">
+        <object>Innstillinger mellom MWS2 og Innova er forskjellige</object>
+      </resource>
+      <resource name="Hint.NoInfo">
+        <object>Kan ikke hente info</object>
+      </resource>
+      <resource name="Load.Text">
+        <object>Data i nettet og databasen vil bli overskrevet.\nØnsker du å fortsette?</object>
+      </resource>
+      <resource name="Load.Caption">
+        <object>Importer egenskaper</object>
+      </resource>
+      <resource name="RemoteError.Text">
+        <object>Ingen ekstern kobling til serveren.</object>
+      </resource>
+      <resource name="RemoteError.Title">
+        <object>Ekstern feil</object>
+      </resource>
+      <resource name="LoadResult.Text">
+        <object>Kunne ikke lese data.</object>
+      </resource>
+      <resource name="LoadResult.Caption">
+        <object>Ingen data lastet</object>
+      </resource>
+      <resource name="Send.Info">
+        <object>Sender data til MWS2-enhet.\nVent!</object>
+      </resource>
+      <resource name="Send.Confirm">
+        <object>Ønsker du å sende innstillinger for den valgte enheten?</object>
+      </resource>
+      <resource name="Send.Title">
+        <object>Send innstillinger</object>
+      </resource>
+      <resource name="LoadDialog.Title">
+        <object>Velg fil...</object>
+      </resource>
+      <resource name="LoadDialog.Failed">
+        <object>Kunne ikke laste egenskaper</object>
+      </resource>
+      <resource name="SaveDialog.Info">
+        <object>Data må lagres til database før den eksporteres.</object>
+      </resource>
+      <resource name="SaveDialog.NoData">
+        <object>Ingen egenskapsdata å lagre</object>
+      </resource>
+      <resource name="SaveDialog.NoData.Caption">
+        <object>Ingen data</object>
+      </resource>
+      <resource name="SaveDialog.Failed">
+        <object>Kunne ikke lagre egenskaper</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Enhet</object>
+      </resource>
+      <resource name="colDevice.ToolTip">
+        <object>Viser navnet på enheten til innstillingene</object>
+      </resource>
+      <resource name="SaveDialog.Title">
+        <object>Lagre som</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Linje</object>
+      </resource>
+      <resource name="colLine.ToolTip">
+        <object>Viser linjen som definert øverst</object>
+      </resource>
+      <resource name="Send.SaveConfirm">
+        <object>Ønsker du å lagre dataen og\nsende innstillinger for den valgte enheten?</object>
+      </resource>
+      <resource name="Send.ConfirmOpen">
+        <object>Ønsker du å sende innstillinger for den valgte enheten? \nAdvarsel: Alle arkiver vil bli overskrevet på enheten</object>
+      </resource>
+      <resource name="Send.SaveConfirmOpen">
+        <object>Ønsker du å lagre dataen og\nsende innstillinger for den valgte enheten? \nAdvarsel: Alle arkiver vil bli overskrevet på enheten</object>
+      </resource>
+      <resource name="SendProtectedSettings">
+        <object>Tillat å overskrive beskyttede MWS2-parametre</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Mws2Management" ServiceOnly="false">
+      <resource name="btnClose.Text">
+        <object>Lukk</object>
+      </resource>
+      <resource name="grpSelectWeigher.Text">
+        <object>Veieenhet</object>
+      </resource>
+      <resource name="WeigherLookup.Name">
+        <object>Navn</object>
+      </resource>
+      <resource name="Text">
+        <object>MWS2-administrasjon</object>
+      </resource>
+      <resource name="weigherList.ToolTip">
+        <object>Velg veieenhet som skal administreres</object>
+      </resource>
+      <resource name="btnClose.ToolTip">
+        <object>Lukk dialogen</object>
+      </resource>
+      <resource name="grpMessage.Text">
+        <object>Meldinger</object>
+      </resource>
+      <resource name="tabPageCalibration.Text">
+        <object>Kalibrering</object>
+      </resource>
+      <resource name="tabPageCurve.Text">
+        <object>Kurve</object>
+      </resource>
+      <resource name="tabPageScope.Text">
+        <object>Omfang</object>
+      </resource>
+      <resource name="tabPageLogging.Text">
+        <object>Logging</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Calibration" ServiceOnly="false">
+      <resource name="lblStopped.Text">
+        <object>Stoppet</object>
+      </resource>
+      <resource name="lblEmptyWeight.Text">
+        <object>Tøm vekt</object>
+      </resource>
+      <resource name="lblCalibrationWeight.Text">
+        <object>Kalibreringsvekt</object>
+      </resource>
+      <resource name="lblCalibrationOk.Text">
+        <object>Kalibrering ok</object>
+      </resource>
+      <resource name="lblDone.Text">
+        <object>Utført</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Avbryt</object>
+      </resource>
+      <resource name="RemoteError">
+        <object>En feil oppstod under kalibreringsprosessen. Se systemlogg.</object>
+      </resource>
+      <resource name="curWeightInfo.ToolTip">
+        <object>Den viste vekten vil kanskje ikke være nøyaktig inntil kalibreringsprosessen er ferdig</object>
+      </resource>
+      <resource name="Status.DataReloading">
+        <object>Relaster veieenhetens innstillinger...</object>
+      </resource>
+      <resource name="Status.DataProcessing">
+        <object>Behandler veieenhetens data...</object>
+      </resource>
+      <resource name="BtnNext.StartCalibration">
+        <object>Start kalibrering</object>
+      </resource>
+      <resource name="BtnNext.RestartCalibration">
+        <object>Restart kalibrering</object>
+      </resource>
+      <resource name="BtnNext.ConfirmCalibration">
+        <object>Bekreft kalibrering</object>
+      </resource>
+      <resource name="Action.Start">
+        <object>"For å starte kalibreringen, angi kalibreringsvekten og trykk på knappen ""Start kalibrering""."</object>
+      </resource>
+      <resource name="Action.Restart">
+        <object>"For å restarte kalibreringen, angi kalibreringsvekten og trykk på knappen ""Restart kalibrering""."</object>
+      </resource>
+      <resource name="Action.WaitEmptyWeight">
+        <object>"Påse at ingen vekt er tilstede og trykk på knappen ""Neste trinn""."</object>
+      </resource>
+      <resource name="Action.WaitCalibrationWeight">
+        <object>"Angi kalibreringsvekten og trykk på knappen ""Neste trinn""."</object>
+      </resource>
+      <resource name="Action.WaitConfirmation">
+        <object>"Trykke på knappen ""Bekreft kalibrering"" for å lagre den nye kalibreringen."</object>
+      </resource>
+      <resource name="Calibration.StartError">
+        <object>Oppgi en gyldig kalibreringsvekt.</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Kalibreringsinnstillinger</object>
+      </resource>
+      <resource name="grpAction.Text">
+        <object>Tiltak foretatt</object>
+      </resource>
+      <resource name="grpCalibration.Text">
+        <object>Kalibrering</object>
+      </resource>
+      <resource name="btnPrevStep.Text">
+        <object>Forrige trinn</object>
+      </resource>
+      <resource name="btnPrevStep.ToolTip">
+        <object>Gå tilbake til forrige trinn i kalibreringsprosessen</object>
+      </resource>
+      <resource name="btnNextStep.Text">
+        <object>Neste trinn</object>
+      </resource>
+      <resource name="btnCancel.ToolTip">
+        <object>Avbryt prosessen</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Kalibreringsvekt:</object>
+      </resource>
+      <resource name="edWeight.ToolTip">
+        <object>Definer kalibreringsvekten</object>
+      </resource>
+      <resource name="uWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="lblCurrentWeight.Text">
+        <object>Aktuell vekt:</object>
+      </resource>
+      <resource name="uCurrentWeight.Text">
+        <object>##</object>
+      </resource>
+      <resource name="btnNextStep.ToolTip">
+        <object>Gå til neste trinn i kalibreringsprosessen</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Scope" ServiceOnly="false">
+      <resource name="Error.ScopeDataCollection">
+        <object>En feil oppstod under dataforespørsel. Bekreft enhetstilkobling.</object>
+      </resource>
+      <resource name="RetrievingScopeData">
+        <object>Henter omfangsdata. Vent.</object>
+      </resource>
+      <resource name="btnRefresh.Text">
+        <object>Oppdater</object>
+      </resource>
+      <resource name="btnSettings.Text">
+        <object>Innstillinger</object>
+      </resource>
+      <resource name="Chart.Shackle.Text">
+        <object>Bøyle: </object>
+      </resource>
+      <resource name="Chart.AxisX.Text">
+        <object>Tid (ms)</object>
+      </resource>
+      <resource name="Chart.AxisY.Text">
+        <object>Vekt (##)</object>
+      </resource>
+      <resource name="Error.Chart.Binding">
+        <object>Feil oppstod under behandling av data</object>
+      </resource>
+      <resource name="LoggingLookup.Name">
+        <object>Navn</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Avg">
+        <object>Gj.sn:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.PP">
+        <object>PP:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Time">
+        <object>Tid:</object>
+      </resource>
+      <resource name="Chart.WeighWindow.Info">
+        <object>Info:</object>
+      </resource>
+      <resource name="EmpyScopeData">
+        <object>Omfangsdata er tom</object>
+      </resource>
+      <resource name="FileDlg.Files">
+        <object>filer</object>
+      </resource>
+      <resource name="FileDlg.Title">
+        <object>Velg sted for lagring av omfangsbilde</object>
+      </resource>
+      <resource name="btnRefresh.ToolTIp">
+        <object>Få ny omfangsdata</object>
+      </resource>
+      <resource name="btnSettings.ToolTip">
+        <object>Åpne innstillingerdialog for omfanget</object>
+      </resource>
+      <resource name="btnSave.Text">
+        <object>Lagre</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Lagre omfangsbildet til fil</object>
+      </resource>
+      <resource name="selLog.ToolTip">
+        <object>Velg en logg som skal vises som et omfangsbilde</object>
+      </resource>
+      <resource name="selLog.NullText">
+        <object>&lt;Velg logg for å vise&gt;</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.ScopeSettingDialog" ServiceOnly="false">
+      <resource name="uVertMin.Text">
+        <object>##</object>
+      </resource>
+      <resource name="uVertMax.Text">
+        <object>##</object>
+      </resource>
+      <resource name="grpTiming.Text">
+        <object>Tidtakingsinnstillinger</object>
+      </resource>
+      <resource name="lblScopeWindow.Text">
+        <object>Omfangsvindu</object>
+      </resource>
+      <resource name="chkSyncScope.Text">
+        <object>Synkroniser omfang</object>
+      </resource>
+      <resource name="lblPresampleTime.Text">
+        <object>Forhåndsprøve-tid</object>
+      </resource>
+      <resource name="grpFixedWindows.Text">
+        <object>Faste vinduinnstillinger</object>
+      </resource>
+      <resource name="chkUseFixedWindow.Text">
+        <object>Bruk fast vindu</object>
+      </resource>
+      <resource name="lblVertMin.Text">
+        <object>Vertikal minimum</object>
+      </resource>
+      <resource name="lblVertMax.Text">
+        <object>Vertikal maksimum</object>
+      </resource>
+      <resource name="grpLogging.Text">
+        <object>Logging</object>
+      </resource>
+      <resource name="chkUseLogging.Text">
+        <object>Loggfør innhentet omfangsdata</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>Ok</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Avbryt</object>
+      </resource>
+      <resource name="edScopeWindow.ToolTip">
+        <object>Antall millisekunder som skal loggføres</object>
+      </resource>
+      <resource name="chkSyncScope.ToolTip">
+        <object>Hvis avmerket, skal et antall millisekunder logges før den første utløseren, ellers vil alle data være logget fra det øyeblikket omfangslogging startes</object>
+      </resource>
+      <resource name="edPresampleTime.ToolTip">
+        <object>Antall millisekunder som skal vises før den første utløseren</object>
+      </resource>
+      <resource name="chkUseFixedWindow.ToolTip">
+        <object>Hvis avmerket, tillater dette å begrense y-akselens rekkevidde</object>
+      </resource>
+      <resource name="edVertMin.ToolTip">
+        <object>Minimum verdi på y-akselen</object>
+      </resource>
+      <resource name="edVertMax.ToolTip">
+        <object>Maksimum verdi på y-akselen</object>
+      </resource>
+      <resource name="chkUseLogging.ToolTip">
+        <object>Hvis avmerket, er datapunktene på omfanget logget i databasen</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Logging" ServiceOnly="false">
+      <resource name="LoggingLookup.Name">
+        <object>Navn</object>
+      </resource>
+      <resource name="Logging.DelLog">
+        <object>Ønsker du å slette loggangivelsen:\n'{0}'\nfra databasen?</object>
+      </resource>
+      <resource name="Logging.DelLogCaption">
+        <object>Slett loggfil</object>
+      </resource>
+      <resource name="grpSelectLog.Text">
+        <object>Logghistorikk</object>
+      </resource>
+      <resource name="btnDelete.Text">
+        <object>Slett</object>
+      </resource>
+      <resource name="colLogTime.Caption">
+        <object>Tid (ms)</object>
+      </resource>
+      <resource name="colLogShackleId.Caption">
+        <object>Bøyle-ID</object>
+      </resource>
+      <resource name="colLogTotalWeight.Caption">
+        <object>Bruttovekt</object>
+      </resource>
+      <resource name="colLogLoadCellWeight.Caption">
+        <object>Vektsensor</object>
+      </resource>
+      <resource name="colLogVibrationCellWeight.Caption">
+        <object>Vibrasjonssensor</object>
+      </resource>
+      <resource name="colLogStartSensorState.Caption">
+        <object>Start sensor</object>
+      </resource>
+      <resource name="colLogStopSensorState.Caption">
+        <object>Stopp sensor</object>
+      </resource>
+      <resource name="colLogWeighing.Caption">
+        <object>Veievindu</object>
+      </resource>
+      <resource name="btnSave.Text">
+        <object>Lagre</object>
+      </resource>
+      <resource name="selLog.ToolTip">
+        <object>Velg visningslogg</object>
+      </resource>
+      <resource name="btnDelete.ToolTip">
+        <object>Slett valgte logging</object>
+      </resource>
+      <resource name="btnSave.ToolTip">
+        <object>Lagre den valgte loggen til en fil</object>
+      </resource>
+      <resource name="colLogLoadCellWeight.ToolTip">
+        <object>Vekten på lastecellen</object>
+      </resource>
+      <resource name="colLogShackleId.ToolTip">
+        <object>ID-en til bøylen som blir veiet</object>
+      </resource>
+      <resource name="colLogStartSensorState.ToolTip">
+        <object>1 hvis startsensoren er aktiv, 0 når den ikke er aktiv</object>
+      </resource>
+      <resource name="colLogStopSensorState.ToolTip">
+        <object>1 hvis stoppsensoren er aktiv, 0 når den ikke er aktiv</object>
+      </resource>
+      <resource name="colLogTime.ToolTip">
+        <object>Tiden i ms målt fra starten av omfangets datainnsamling</object>
+      </resource>
+      <resource name="colLogTotalWeight.ToolTip">
+        <object>Lastecellens vekt, minus vibrasjonscellens vekt</object>
+      </resource>
+      <resource name="colLogVibrationCellWeight.ToolTip">
+        <object>Vekten på vibrasjonscellen</object>
+      </resource>
+      <resource name="colLogWeighing.ToolTip">
+        <object>Indikerer om veieenheten faktisk registrerer vektdata som behandles ytterligere</object>
+      </resource>
+      <resource name="selLog.NullText">
+        <object>&lt;Velg logg for å vise&gt;</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2Curve" ServiceOnly="false">
+      <resource name="Error.Mws2DataRetrieval">
+        <object>Feil oppstod under innhenting av data for MWS2</object>
+      </resource>
+      <resource name="Error.TapDataRetrieval">
+        <object>Feil oppstod under innhenting av data for TAP</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Innstillinger</object>
+      </resource>
+      <resource name="lblLoadCellCapacity.Text">
+        <object>Lastecellekapasitet (kg):</object>
+      </resource>
+      <resource name="lblCalibratedAt.Text">
+        <object>Kalibrert den:</object>
+      </resource>
+      <resource name="grpRegisterValues.Text">
+        <object>Kalibreringsverdier</object>
+      </resource>
+      <resource name="lblZero.Text">
+        <object>Null</object>
+      </resource>
+      <resource name="lblReference.Text">
+        <object>Referanse</object>
+      </resource>
+      <resource name="lblWeight.Text">
+        <object>Vekt</object>
+      </resource>
+      <resource name="lblAdcValues.Text">
+        <object>ADC-verdier</object>
+      </resource>
+      <resource name="grpADCRamp.Text">
+        <object>ADC-rampeverdi</object>
+      </resource>
+      <resource name="lblRamp.Text">
+        <object>Rampeverdi</object>
+      </resource>
+      <resource name="lblAdcGram.Text">
+        <object>ADC/##</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageStaticWeight" ServiceOnly="false">
+      <resource name="colSWNo.Caption">
+        <object>Nei</object>
+      </resource>
+      <resource name="colSWNo.ToolTip">
+        <object>Tellefunksjon for element</object>
+      </resource>
+      <resource name="colSWTime.Caption">
+        <object>Tid</object>
+      </resource>
+      <resource name="colSWTime.ToolTip">
+        <object>Dato/tid når vekt ble mottatt av serveren</object>
+      </resource>
+      <resource name="colSWValue.Caption">
+        <object>Vekt (##)</object>
+      </resource>
+      <resource name="colSWValue.ToolTip">
+        <object>Statisk vektverdi</object>
+      </resource>
+      <resource name="barBtnStartLogging.Caption">
+        <object>Start</object>
+      </resource>
+      <resource name="barBtnStartLogging.Hint">
+        <object>Start/stopp logging av statisk vekt</object>
+      </resource>
+      <resource name="barBtnSave.Caption">
+        <object>Lagre</object>
+      </resource>
+      <resource name="barBtnSave.Hint">
+        <object>Klikk for å lagre data til en disk</object>
+      </resource>
+      <resource name="barBtnClear.Caption">
+        <object>Tøm tabell</object>
+      </resource>
+      <resource name="barBtnClear.Hint">
+        <object>Klikk for å tømme innholdet i tabellen</object>
+      </resource>
+      <resource name="grpStaticWeightDisplay.Text">
+        <object>Aktuell statisk vekt (##)</object>
+      </resource>
+      <resource name="grpStaticWeights.Text">
+        <object>Statisk vekthistorikk</object>
+      </resource>
+      <resource name="LogButton.Stop">
+        <object>Stopp</object>
+      </resource>
+      <resource name="LogButton.Start">
+        <object>Start</object>
+      </resource>
+      <resource name="editIntervalTime.Caption">
+        <object>Intervalltid (sek.)</object>
+      </resource>
+      <resource name="lblGrossWeight.Text">
+        <object>Bruttovekt (##):</object>
+      </resource>
+      <resource name="lblNetWeight.Text">
+        <object>Nettovekt (##):</object>
+      </resource>
+      <resource name="btnAutoZero.Text">
+        <object>Auto-null</object>
+      </resource>
+      <resource name="MetricSymbol">
+        <object>g</object>
+      </resource>
+      <resource name="ImperialSymbol">
+        <object>oz</object>
+      </resource>
+      <resource name="LargeMetricSymbol">
+        <object>Kg</object>
+      </resource>
+      <resource name="LargeImperialSymbol">
+        <object>Oz</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.UI.Windows.Management.Pages.PageMws2FirmUpgrade" ServiceOnly="false">
+      <resource name="Firmware.RetrievingFirmware">
+        <object>Henter fastvareversjon.</object>
+      </resource>
+      <resource name="Firmware.NoFirmwareSelected">
+        <object>Oppgradering kan ikke starte, velg en fastvarefile.</object>
+      </resource>
+      <resource name="Firmware.ExceptionReadingFirmwareFile">
+        <object>Et unntak oppstod under lasting av filinnholdet. Se logg for flere detaljer.</object>
+      </resource>
+      <resource name="RemoteError">
+        <object>En feil oppstod under kalibreringsprosessen av fastvare. Se systemlogg.</object>
+      </resource>
+      <resource name="Firmware.Succesfull">
+        <object>Fastvare er oppgradert til versjon:</object>
+      </resource>
+      <resource name="Firmware.Failed">
+        <object>Fastvareoppgradering mislyktes</object>
+      </resource>
+      <resource name="Firmware.UpgradeInProgress">
+        <object>Vent mens fastvare oppgraderes.</object>
+      </resource>
+      <resource name="Firmware.Mws2NotInitialized">
+        <object>Foreløpig er det ikke mulig å lese MWS2-registre, derfor kan ikke fastvareoppgraderingen starte. Dette kan ta flere minutter.</object>
+      </resource>
+      <resource name="Upgrade.Confirm">
+        <object>Dette vil overskrive den aktuelle fastvareversjonen. Er du sikker?</object>
+      </resource>
+      <resource name="Upgrade.Title">
+        <object>Oppgrader fastvare</object>
+      </resource>
+      <resource name="Upgrade.NoRemoteOpenMode">
+        <object>"Denne fastvareversjonen tillater ikke å stille MWS2 i åpen modus eksternt: still åpen modus på selv MWS2 (se MWS2-manualen for nærmere instrukser). \nTrykk OK når MWS2 er i åpen modus, da den nåværende fastvareversjonen vil bli overskrevet. \nTrykk Avbryt for å stoppe fastvareoppgraderingen"</object>
+      </resource>
+      <resource name="grpSettings.Text">
+        <object>Fastvareinnstillinger</object>
+      </resource>
+      <resource name="lblCurrentFirmware.Text">
+        <object>Aktuell fastvare:</object>
+      </resource>
+      <resource name="lblFirmwareFile.Text">
+        <object>Fastvarefil:</object>
+      </resource>
+      <resource name="btnStartUpgrade.Text">
+        <object>Start oppgradering</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

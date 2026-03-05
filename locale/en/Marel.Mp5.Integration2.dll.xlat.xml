@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="en">
+  <industry>
+    <type name="Marel.Mp5.Integration2.SyncEngine.ActionReason" ServiceOnly="true">
+      <resource name="NewFromSource">
+        <object>New from source</object>
+      </resource>
+      <resource name="UpdatedAtSource">
+        <object>Updated at source</object>
+      </resource>
+      <resource name="LocalNotAtSource">
+        <object>Exists locally, but not at source</object>
+      </resource>
+      <resource name="LocalInUseInactiveAtSource">
+        <object>In use locally, but inactive on source</object>
+      </resource>
+      <resource name="DuplicateAtSource">
+        <object>Duplicate entries on source</object>
+      </resource>
+      <resource name="DuplicateAtLocal">
+        <object>Duplicate entries locally</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.SyncEngine.Action" ServiceOnly="true">
+      <resource name="Nothing">
+        <object>None</object>
+      </resource>
+      <resource name="Create">
+        <object>Create</object>
+      </resource>
+      <resource name="Update">
+        <object>Update</object>
+      </resource>
+      <resource name="Delete">
+        <object>Delete</object>
+      </resource>
+      <resource name="Activate">
+        <object>Activate</object>
+      </resource>
+      <resource name="Inactivate">
+        <object>Inactivate</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.SyncEngine.ActionStatus" ServiceOnly="true">
+      <resource name="Pending">
+        <object>Pending</object>
+      </resource>
+      <resource name="Success">
+        <object>Completed</object>
+      </resource>
+      <resource name="Failed">
+        <object>Failed</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.SyncEngine.ProfileType" ServiceOnly="true">
+      <resource name="Source">
+        <object>Source</object>
+      </resource>
+      <resource name="Target">
+        <object>Target</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.ImportEngine.ImportLogType" ServiceOnly="true">
+      <resource name="Failed">
+        <object>Failed</object>
+      </resource>
+      <resource name="Warning">
+        <object>Warning</object>
+      </resource>
+      <resource name="Begin">
+        <object>Begin</object>
+      </resource>
+      <resource name="End">
+        <object>End</object>
+      </resource>
+      <resource name="Success">
+        <object>Success</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.ImportEngine.ImportTableManager" ServiceOnly="true">
+      <resource name="Import.Begin">
+        <object>Import session begin</object>
+      </resource>
+      <resource name="Import.End">
+        <object>Import session end</object>
+      </resource>
+      <resource name="Import.Error">
+        <object>Error when importing data from db record id: {0}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.MasterDataManagement.ChangesetStatus" ServiceOnly="false">
+      <resource name="Empty">
+        <object>Empty</object>
+      </resource>
+      <resource name="Receiving">
+        <object>Comparing data</object>
+      </resource>
+      <resource name="Pending">
+        <object>Changes are pending</object>
+      </resource>
+      <resource name="Applying">
+        <object>Applying changes to production site</object>
+      </resource>
+      <resource name="Done">
+        <object>Done, changes have been applied</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Cancelled</object>
+      </resource>
+      <resource name="Error">
+        <object>Error</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.MasterDataManagement.ProductSchema" ServiceOnly="false">
+      <resource name="Marel.Mp5.Process.Materials.MaterialRecordType">
+        <object>Products</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.ContentSpecificationRecordType">
+        <object>Content specifications</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.ObjectTemplateTextRecordType">
+        <object>Object template texts</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.CompanyRecordType">
+        <object>Companies</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.ConditionRecordType">
+        <object>Conditions</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.SizeRecordType">
+        <object>Sizes</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.QualityRecordType">
+        <object>Qualitys</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.ConservationRecordType">
+        <object>Conservations</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.ExpireMethodRecordType">
+        <object>Expire methods</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Printers.LayoutRecordType">
+        <object>Layouts</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Printers.MediaTypeRecordType">
+        <object>Media types</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Printers.LabelMacroRecordType">
+        <object>Label macros</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Printers.LabelMacroLineRecordType">
+        <object>Label macro lines</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Printers.Gs1MacroRecordType">
+        <object>Gs1 macros</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Printers.Gs1MacroLineRecordType">
+        <object>Gs1 macro lines</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.RawMaterialRecordType">
+        <object>Raw materials</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.CultureRecordType">
+        <object>Cultures</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.CurrencyRecordType">
+        <object>Currencies</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.CountryRecordType">
+        <object>Countries</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.TextRecordType">
+        <object>Base texts</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.ObjectTextRecordType">
+        <object>Object texts</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.ObjectTemplateRecordType">
+        <object>Object templates</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Scripting.ScriptRecordType">
+        <object>Scripts</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Drawing.ImageListRecordType">
+        <object>Image lists</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Drawing.ImageItemRecordType">
+        <object>Image items</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Activity.RawMaterialAreaRecordType">
+        <object>Raw material areas</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.MaterialTypeRecordType">
+        <object>Product types</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Barcodes.PositionInterpreterRecordType">
+        <object>Barcode interpreters</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.ObjectXlateRecordType">
+        <object>Object translations</object>
+      </resource>
+      <resource name="Marel.Mp5.Base.Database.TextLineRecordType">
+        <object>Text lines</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.SubPackagingRecordType">
+        <object>Combined packaging</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.BreedTypeRecordType">
+        <object>Breed types</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.BreedRecordType">
+        <object>Breeds</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.CategoryRecordType">
+        <object>Categories</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.FatClassRecordType">
+        <object>Fat classes</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.QaMarkRecordType">
+        <object>QA marks</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.MaterialCustomerOverrideRecordType">
+        <object>Customer product parameters</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Printers.LayoutGroupRecordType">
+        <object>Layout groups</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Materials.YieldGroupRecordType">
+        <object>Yield groups</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Activity.CompanyRawMaterialAreaRecordType">
+        <object>Company raw material areas</object>
+      </resource>
+      <resource name="Marel.Mp5.Process.Activity.RawMaterialAreaMapRecordType">
+        <object>Resource area detail records</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.MasterDataManagement.ChangeType" ServiceOnly="false">
+      <resource name="Add">
+        <object>New</object>
+      </resource>
+      <resource name="Change">
+        <object>Changed</object>
+      </resource>
+      <resource name="Delete">
+        <object>Deleted</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.MasterDataManagement.ChangesetHistoryEntry" ServiceOnly="false">
+      <resource name="new">
+        <object>new</object>
+      </resource>
+      <resource name="changed">
+        <object>changed</object>
+      </resource>
+      <resource name="deleted">
+        <object>deleted</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.TransferEngine.TransferOrigin">
+      <resource name="Order">
+        <object>Order</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Shipment</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Integration2.TransferEngine.TransferEngineHubUtils" ServiceOnly="false">
+      <resource name="TransferEndedSuccess">
+        <object>Transfer for {1} {0} was successful</object>
+      </resource>
+      <resource name="TransferEndedFail">
+        <object>Transfer for {1} {0} failed</object>
+      </resource>
+      <resource name="TransferReady">
+        <object>{1} {0} is ready for transport</object>
+      </resource>
+      <resource name="TransferComplete">
+        <object>Transport of transfer with id {0} is complete</object>
+      </resource>
+      <resource name="TransferInProgress">
+        <object>{1} {0} is in transit</object>
+      </resource>
+      <resource name="TransferCompleteOrder">
+        <object>Transport of order id {0} is complete</object>
+      </resource>
+      <resource name="TransferRetry">
+        <object>Transport failed\nRetrying in {0} seconds</object>
+      </resource>
+      <resource name="CannotConnect">
+        <object>Cannot connect to transfer hub, please contact system administrator</object>
+      </resource>
+      <resource name="InvalidIdentityOrPassword">
+        <object>Invalid identity or password</object>
+      </resource>
+      <resource name="InvalidIdentity">
+        <object>Invalid identity</object>
+      </resource>
+      <resource name="AlreadySent">
+        <object>Cannot transfer {1} {0}, it has already been sent successfully or is currently in progress</object>
+      </resource>
+      <resource name="RetryTransfer">
+        <object>Retry failed transfer</object>
+      </resource>
+      <resource name="ServiceError">
+        <object>Cannot transfer {1} {0}, service is unavailable or not correctly configured. Please contact system administrator.</object>
+      </resource>
+      <resource name="NoOrderSelected">
+        <object>At least one order must be selected</object>
+      </resource>
+      <resource name="DifferentCustomers">
+        <object>All selected orders must have the same customer</object>
+      </resource>
+      <resource name="InvalidCustomer">
+        <object>Customer is not configured to receive {0}</object>
+      </resource>
+      <resource name="CannotTransferOrderCaption">
+        <object>Cannot transfer order</object>
+      </resource>
+      <resource name="CannotTransferShipmentCaption">
+        <object>Cannot transfer shipment</object>
+      </resource>
+      <resource name="TransferInitFailed">
+        <object>Failed to initialize transfer, please contact system administrator</object>
+      </resource>
+      <resource name="InvalidDestinationCode">
+        <object>Destination code not found in system</object>
+      </resource>
+      <resource name="NoDestinationCodeFromScript">
+        <object>No destination code returned from script</object>
+      </resource>
+      <resource name="ErrorExecutingScript">
+        <object>Error executing script. See log for more details</object>
+      </resource>
+      <resource name="NoCollectionSelected">
+        <object>At least one collection must be selected</object>
+      </resource>
+      <resource name="CollectionNoCustomer">
+        <object>A collection is assigned to an order which does not have a customer</object>
+      </resource>
+      <resource name="CollectionNotSameCustomer">
+        <object>All selected collections must have the same customer</object>
+      </resource>
+      <resource name="CollectionNotOnOrder">
+        <object>Collection's production data is not assigned to a valid order</object>
+      </resource>
+      <resource name="AllCollectionsNotOnOrder">
+        <object>All selected collections must be assigned to an order</object>
+      </resource>
+      <resource name="CustomerMissing">
+        <object>Customer missing</object>
+      </resource>
+      <resource name="UnitNoOrder">
+        <object>A unit on collection is not assigned to an order</object>
+      </resource>
+      <resource name="UnitNoCustomer">
+        <object>A unit on collection is assigned to an order with no customer</object>
+      </resource>
+      <resource name="CollectionDataNotSameCustomer">
+        <object>All orders assigned to collection's production data must have the same customer</object>
+      </resource>
+      <resource name="UnitsNoOrders">
+        <object>No order can be found from units on collection</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

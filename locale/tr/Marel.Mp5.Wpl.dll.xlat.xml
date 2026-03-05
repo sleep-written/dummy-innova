@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="tr">
+  <industry>
+    <type name="Marel.Mp5.Wpl.Configuration.SystemType">
+      <resource name="PriceLabelling">
+        <object>Fiyat etiketleme</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Wpl.WeighPriceLabellerResult">
+      <resource name="Ok">
+        <object>Tamam</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Bir veritabanı hatası oluştu</object>
+      </resource>
+      <resource name="LoadCachedData">
+        <object>Önbellekten veriler yüklenemedi</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>Geçersiz sistem kimliği</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Uzak nesne alınırken hata oluştu</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Uzak arabirimle ilgili bilgiler yüklenirken hata oluştu</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Uzak sunucu için sistem programı kaydı yüklenirken hata oluştu</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Uzak nesne araması başarısız oldu</object>
+      </resource>
+      <resource name="LoadSystemInfo">
+        <object>Sistem üstbilgisi yüklenirken hata oluştu</object>
+      </resource>
+      <resource name="NoService">
+        <object>Uzak servis kayıtlı değil</object>
+      </resource>
+      <resource name="PrunitClient">
+        <object>Bir işlem ünitesi istemcisi oluşturulurken hata oluştu</object>
+      </resource>
+      <resource name="NotInWeighMode">
+        <object>WPL çalışmıyor veya duraklatıldı</object>
+      </resource>
+      <resource name="QuantityIsZero">
+        <object>İstenen tutar sıfır, herhangi bir şey yapılmadı</object>
+      </resource>
+      <resource name="OrderIsNotForQuantity">
+        <object>Sipariş edilen tutar, miktar cinsinden olmalıdır</object>
+      </resource>
+      <resource name="ComformatNotFound">
+        <object>Comformat bulunamadı</object>
+      </resource>
+      <resource name="NoObject">
+        <object>Üzerinde çalıştırılacak bir nesne yok</object>
+      </resource>
+      <resource name="InvalidProduct">
+        <object>Geçersiz ürün</object>
+      </resource>
+      <resource name="FileDownloadError">
+        <object>Makine yöneticisine dosya gönderilirken hata oluştu</object>
+      </resource>
+      <resource name="ParsingError">
+        <object>Bir değişken adı çözümlenirken hata oluştu</object>
+      </resource>
+      <resource name="SystemError">
+        <object>Tanımsız sistem hatası</object>
+      </resource>
+      <resource name="SystemRunning">
+        <object>WPL çalışıyor</object>
+      </resource>
+      <resource name="SystemBusy">
+        <object>WPL meşguldü, yeniden deneyin</object>
+      </resource>
+      <resource name="BackendException">
+        <object>Tanımsız bir arka uç istisnası oluştu</object>
+      </resource>
+      <resource name="ComformatNotValid">
+        <object>Comformat geçerli değil</object>
+      </resource>
+      <resource name="PackSizeMissing">
+        <object>Paket Boyutu eksik</object>
+      </resource>
+      <resource name="UnknownComformatReceived">
+        <object>Bilinmeyen comformat alındı</object>
+      </resource>
+      <resource name="OrderNotOpen">
+        <object>Sipariş açık değil</object>
+      </resource>
+      <resource name="BitmapNotFound">
+        <object>Bitmap dosyası bulunamadı</object>
+      </resource>
+      <resource name="ComformatDifferentType">
+        <object>Çoklu alanında comformat, Tek veya Grup olmalı, bunların karışımı olmamalıdır.</object>
+      </resource>
+      <resource name="ContentSpecNotFound">
+        <object>İçerik Teknik Özelliği bulunamadı</object>
+      </resource>
+      <resource name="TL8ProgramNotFound">
+        <object>TL-8 programı bulunamadı veya tanımlanmadı.</object>
+      </resource>      
+      <resource name="MediaNotFound">
+        <object>Seçilen düzen için ortam, yazıcı kafasına takılmamış.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Wpl.Configuration.WplStatus">
+      <resource name="A">
+        <object>Paket sabit değildi</object>
+      </resource>
+      <resource name="B">
+        <object>Paket düşük ağırlıktaydı</object>
+      </resource>
+      <resource name="C">
+        <object>Paket yüksek ağırlıktaydı</object>
+      </resource>
+      <resource name="D">
+        <object>Hesaplanan fiyat çok yüksekti</object>
+      </resource>
+      <resource name="E">
+        <object>Paket çoklu bantta değildi</object>
+      </resource>
+      <resource name="J">
+        <object>Ağırlık için çok hızlı</object>
+      </resource>
+      <resource name="L">
+        <object>Referans aralığı hatası</object>
+      </resource>
+      <resource name="M">
+        <object>Referans değişikliği hatası</object>
+      </resource>
+      <resource name="N">
+        <object>Referans frekansı hatası</object>
+      </resource>
+      <resource name="O">
+        <object>Değişken frekansı hatası</object>
+      </resource>
+      <resource name="P">
+        <object>İki paket</object>
+      </resource>
+      <resource name="Q">
+        <object>Ağırlık hücresi kalabalık</object>
+      </resource>
+      <resource name="R">
+        <object>Paketler çok yakın</object>
+      </resource>
+      <resource name="T">
+        <object>Paketler çok uzun</object>
+      </resource>
+      <resource name="U">
+        <object>Etiketleyici hatası</object>
+      </resource>
+      <resource name="V">
+        <object>Bantlar durduruldu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Wpl.Configuration.WplAcknowlege">
+      <resource name="1">
+        <object>Ağırlık olmayan mod vb.</object>
+      </resource>
+      <resource name="2">
+        <object>Geçerli Comformat teklidir.</object>
+      </resource>
+      <resource name="3">
+        <object>Bant, çoklu seçeneğinde yok.</object>
+      </resource>
+      <resource name="4">
+        <object>Geçersiz alan türü.</object>
+      </resource>
+      <resource name="5">
+        <object>Birim fiyat taşması.</object>
+      </resource>
+      <resource name="6">
+        <object>Comformat'ta öğe yok.</object>
+      </resource>
+      <resource name="7">
+        <object>Tarih, saatle bağlantılı.</object>
+      </resource>
+      <resource name="8">
+        <object>Tarih veya metin çok uzun.</object>
+      </resource>
+      <resource name="9">
+        <object>Etiketleyici hata veriyor.</object>
+      </resource>
+      <resource name="11">
+        <object>Tanımsız hata.</object>
+      </resource>
+      <resource name="12">
+        <object>Komutta fazladan karakterler var.</object>
+      </resource>
+      <resource name="13">
+        <object>Çalışıyor.</object>
+      </resource>
+      <resource name="14">
+        <object>Duraklatılmadı.</object>
+      </resource>
+      <resource name="15">
+        <object>Hedef alışverişi yok.</object>
+      </resource>
+      <resource name="16">
+        <object>Hedef kilitli.</object>
+      </resource>
+      <resource name="20">
+        <object>Uzak fonksiyonlar etkin değil.</object>
+      </resource>
+      <resource name="21">
+        <object>Uzak hedef etkin değil.</object>
+      </resource>
+      <resource name="22">
+        <object>Çalışmıyor veya duraklatıldı.</object>
+      </resource>
+      <resource name="23">
+        <object>Hedef etkin.</object>
+      </resource>
+      <resource name="24">
+        <object>Hedef komut, AMCP veya N değil.</object>
+      </resource>
+      <resource name="25">
+        <object>Hatalı (tanınmayan) komut.</object>
+      </resource>
+      <resource name="26">
+        <object>Comformats dizini yok.</object>
+      </resource>
+      <resource name="27">
+        <object>Böyle bir Comformat yok.</object>
+      </resource>
+      <resource name="28">
+        <object>Yeterince bellek kalmadı.</object>
+      </resource>
+      <resource name="29">
+        <object>Dosyalama sistemi hatası.</object>
+      </resource>
+      <resource name="30">
+        <object>İzin reddedildi.</object>
+      </resource>
+      <resource name="31">
+        <object>Yanlış ağırlık birimi.</object>
+      </resource>
+      <resource name="32">
+        <object>Yanlış barkod biçimi.</object>
+      </resource>
+      <resource name="33">
+        <object>Büyük boy etiketleyici yüksekliği.</object>
+      </resource>
+      <resource name="34">
+        <object>Etiket kenarı, L veya T değil.</object>
+      </resource>
+      <resource name="35">
+        <object>Maks. paket uzunluğu çok büyük.</object>
+      </resource>
+      <resource name="36">
+        <object>Comformat tekli değil.</object>
+      </resource>
+      <resource name="37">
+        <object>Comformat süresi bitmiş.</object>
+      </resource>
+      <resource name="38">
+        <object>Dara çok büyük.</object>
+      </resource>
+      <resource name="39">
+        <object>Yanlış bant türü.</object>
+      </resource>
+      <resource name="40">
+        <object>Örnek değeri aralık dışında.</object>
+      </resource>
+      <resource name="41">
+        <object>Ortalama ağırlık yok.</object>
+      </resource>
+      <resource name="42">
+        <object>Hatalı tarih veya saat.</object>
+      </resource>
+      <resource name="43">
+        <object>Yeterince etiketleyici yok.</object>
+      </resource>
+      <resource name="44">
+        <object>Bu düzeyde izin verilmiyor.</object>
+      </resource>
+      <resource name="45">
+        <object>Komut, yetki vermemiş.</object>
+      </resource>
+      <resource name="46">
+        <object>Bu dosya korumalı.</object>
+      </resource>
+      <resource name="47">
+        <object>Etkinlik sayaçları ayarlanmamış.</object>
+      </resource>
+      <resource name="48">
+        <object>Böyle bir grup toplamı yok.</object>
+      </resource>
+      <resource name="49">
+        <object>Hatalı CRC.</object>
+      </resource>
+      <resource name="50">
+        <object>Giriş tampon taşması.</object>
+      </resource>
+      <resource name="51">
+        <object>Ayar verileri okunurken hata oluştu.</object>
+      </resource>
+      <resource name="52">
+        <object>Sıra numarası aralık dışında.</object>
+      </resource>
+      <resource name="53">
+        <object>Bu bir gruba yapılamaz.</object>
+      </resource>
+      <resource name="54">
+        <object>Parite hatası.</object>
+      </resource>
+      <resource name="55">
+        <object>Çerçeveleme hatası.</object>
+      </resource>
+      <resource name="56">
+        <object>Aşırı çalışma hatası.</object>
+      </resource>
+      <resource name="57">
+        <object>Sınırlar (örn. AVWT) hatalı ayarlanmış.</object>
+      </resource>
+      <resource name="58">
+        <object>Operatör zamanında yanıt vermedi.</object>
+      </resource>
+      <resource name="59">
+        <object>Bozuk Comformat verileri.</object>
+      </resource>
+      <resource name="60">
+        <object>Bağımlı bir Comformat'ı güncellemeye yönelik geçersiz bir girişimde bulunuldu.</object>
+      </resource>
+      <resource name="61">
+        <object>Şu anda çalışan bir hedef yokken Sonraki bir hedef ayarlanmaya çalışılıyor veya biri belirtilmişken, sonraki bir hedef ayarlanmaya çalışılıyor.</object>
+      </resource>
+      <resource name="62">
+        <object>Comformat adları bir harfle başlamalıdır.</object>
+      </resource>
+      <resource name="100">
+        <object>Dosyalama için taban numara hataları.</object>
+      </resource>
+      <resource name="104">
+        <object>pHILE kullanan çok sayıda işlem var.</object>
+      </resource>
+      <resource name="106">
+        <object>Çok sayıda hacim monte edilmeye çalışılıyor.</object>
+      </resource>
+      <resource name="107">
+        <object>pHILE tarafından başlatılmamış hacim monte edilmeye çalışılıyor</object>
+      </resource>
+      <resource name="110">
+        <object>Hacim monte edilmedi.</object>
+      </resource>
+      <resource name="111">
+        <object>Dosya adı bulunamadı.</object>
+      </resource>
+      <resource name="112">
+        <object>Geçersiz yol adı.</object>
+      </resource>
+      <resource name="113">
+        <object>Varsayılan dizini yok.</object>
+      </resource>
+      <resource name="114">
+        <object>Dizin dosyası bekleniyor.</object>
+      </resource>
+      <resource name="116">
+        <object>Boş değerli dosya adı.</object>
+      </resource>
+      <resource name="117">
+        <object>Dosya adı zaten var.</object>
+      </resource>
+      <resource name="118">
+        <object>Hacimde çok sayıda dosya var.</object>
+      </resource>
+      <resource name="119">
+        <object>Açık bir dosya kaldırılamaz.</object>
+      </resource>
+      <resource name="120">
+        <object>Boş olmayan dizin silinemez.</object>
+      </resource>
+      <resource name="121">
+        <object>Belirtilen dosyada, istenen işleme izin verilmiyor.</object>
+      </resource>
+      <resource name="124">
+        <object>İşlem için çok sayıda dosya açık.</object>
+      </resource>
+      <resource name="125">
+        <object>Sistemde çok sayıda dosya açık.</object>
+      </resource>
+      <resource name="129">
+        <object>Hacim dolu.</object>
+      </resource>
+      <resource name="133">
+        <object>Geçersiz aygıt.</object>
+      </resource>
+      <resource name="137">
+        <object>Geçersiz aygıt adı.</object>
+      </resource>
+      <resource name="WplBadItem">
+        <object>Hatalı paket.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Wpl.Configuration.StopCause">
+      <resource name="StopCause000">
+        <object>WPL normal şekilde durduruldu.</object>
+      </resource>
+      <resource name="StopCause020">
+        <object>Ağırlık başlığı kapağı açıldı.</object>
+      </resource>
+      <resource name="StopCause021">
+        <object>Acil durdurma.</object>
+      </resource>
+      <resource name="StopCause022">
+        <object>paket yüksekliği durağı</object>
+      </resource>
+      <resource name="StopCause024">
+        <object>Durdurma düğmesine basıldı.</object>
+      </resource>
+      <resource name="StopCause025">
+        <object>Harici durdurma.</object>
+      </resource>
+      <resource name="StopCause026">
+        <object>MOTOR ÇALIŞTIRMA kontağı açık</object>
+      </resource>
+      <resource name="StopCause027">
+        <object>Motor çok yavaş.</object>
+      </resource>
+      <resource name="StopCause144">
+        <object>paket etiketlenmedi</object>
+      </resource>
+      <resource name="StopCause145">
+        <object>yazıcıyı bekleme zaman aşımına uğradı</object>
+      </resource>
+      <resource name="StopCause146">
+        <object>referans, %4 toleransı dışında</object>
+      </resource>
+      <resource name="StopCause147">
+        <object>V - F referansı &gt; %20 dışarıda</object>
+      </resource>
+      <resource name="StopCause148">
+        <object>V - F değişkeni &gt; referans/2</object>
+      </resource>
+      <resource name="StopCause149">
+        <object>Comformat aktarım hatası</object>
+      </resource>
+      <resource name="StopCause150">
+        <object>yetersiz bellek kaldı</object>
+      </resource>
+      <resource name="StopCause151">
+        <object>Çok sayıda barkod hatası</object>
+      </resource>
+      <resource name="StopCause152">
+        <object>günlük kaydı dosyası taşması</object>
+      </resource>
+      <resource name="StopCause210">
+        <object>geribildirim alışverişi okunurken hata oluştu</object>
+      </resource>
+      <resource name="StopCause211">
+        <object>alışveriş oluşturulamadı</object>
+      </resource>
+      <resource name="StopCause212">
+        <object>başarısız şekilde klonlanmaya çalışıldı</object>
+      </resource>
+      <resource name="StopCause232">
+        <object>Yazıcıyı bekleme zaman aşımına uğradı (281'e benzer).</object>
+      </resource>
+      <resource name="StopCause280">
+        <object>paket etiketlenmedi</object>
+      </resource>
+      <resource name="StopCause281">
+        <object>yazıcıyı bekleme zaman aşımına uğradı</object>
+      </resource>
+      <resource name="StopCause282">
+        <object>referans, %4 toleransı dışında</object>
+      </resource>
+      <resource name="StopCause283">
+        <object>V - F referansı &gt; %20 dışarıda</object>
+      </resource>
+      <resource name="StopCause284">
+        <object>V - F değişkeni &gt; referans/2</object>
+      </resource>
+      <resource name="StopCause285">
+        <object>Comformat aktarım hatası</object>
+      </resource>
+      <resource name="StopCause286">
+        <object>yetersiz bellek kaldı</object>
+      </resource>
+      <resource name="StopCause287">
+        <object>Çok sayıda barkod hatası</object>
+      </resource>
+      <resource name="StopCause288">
+        <object>Dosyalama sisteminde boşluk kalmadı.</object>
+      </resource>
+      <resource name="StopCause344">
+        <object>Alışverişle ilgili sorun oluştu.</object>
+      </resource>
+      <resource name="StopCause345">
+        <object>Başka alışveriş yok.</object>
+      </resource>
+      <resource name="StopCause346">
+        <object>geribildirim alışverişi okunurken hata oluştu</object>
+      </resource>
+      <resource name="StopCause347">
+        <object>alışveriş oluşturulamadı</object>
+      </resource>
+      <resource name="StopCause348">
+        <object>başarısız şekilde klonlanmaya çalışıldı</object>
+      </resource>
+      <resource name="StopCause352">
+        <object>SPRAM SP değil</object>
+      </resource>
+      <resource name="StopCause505">
+        <object>Etiket yazdırılmadı.</object>
+      </resource>
+      <resource name="StopCause584">
+        <object>Değişken verisi yok (etiketleyiciyle iletişim kurulurken hata oluştu).</object>
+      </resource>
+      <resource name="StopCause585">
+        <object>Barkod tarama hatası.</object>
+      </resource>
+      <resource name="StopCause590">
+        <object>Bellek dolu.</object>
+      </resource>
+      <resource name="StopCause632">
+        <object>Geçersiz fonksiyon</object>
+      </resource>
+      <resource name="StopCause633">
+        <object>Dahili hata - Portal şikayetleri departmanıyla görüşün</object>
+      </resource>
+      <resource name="StopCause634">
+        <object>Tutarsız parametreler</object>
+      </resource>
+      <resource name="StopCause635">
+        <object>Düşük etiket stoğu</object>
+      </resource>
+      <resource name="StopCause636">
+        <object>Dizinleyici hatası</object>
+      </resource>
+      <resource name="StopCause637">
+        <object>Pencereleme hatası</object>
+      </resource>
+      <resource name="StopCause638">
+        <object>Paket ulaşamadı</object>
+      </resource>
+      <resource name="StopCause639">
+        <object>Fotosel engellenmiş</object>
+      </resource>
+      <resource name="StopCause640">
+        <object>Düşük hava basıncı</object>
+      </resource>
+      <resource name="StopCause641">
+        <object>Kapaklar açık</object>
+      </resource>
+      <resource name="StopCause642">
+        <object>Bellekte yer kalmadı</object>
+      </resource>
+      <resource name="StopCause643">
+        <object>Yüksek sıcaklık başlığı</object>
+      </resource>
+      <resource name="StopCause644">
+        <object>Etiket yazdırılmaya hazır değil</object>
+      </resource>
+      <resource name="StopCause645">
+        <object>Çevrimdışı (yazdırılamıyor)</object>
+      </resource>
+      <resource name="StopCause646">
+        <object>Düşük sıcaklık başlığı</object>
+      </resource>
+      <resource name="StopCause647">
+        <object>Çevrimiçi (test fonksiyonu yapılamıyor)</object>
+      </resource>
+      <resource name="StopCause648">
+        <object>motor etkin değil</object>
+      </resource>
+      <resource name="StopCause649">
+        <object>onay işareti yok</object>
+      </resource>
+      <resource name="StopCause650">
+        <object>yazı tipi yok</object>
+      </resource>
+      <resource name="StopCause651">
+        <object>karakter yok</object>
+      </resource>
+      <resource name="StopCause652">
+        <object>modül yok</object>
+      </resource>
+      <resource name="StopCause653">
+        <object>yanlış yönlendirme</object>
+      </resource>
+      <resource name="StopCause654">
+        <object>sınır dışında</object>
+      </resource>
+      <resource name="StopCause655">
+        <object>sınır dışında</object>
+      </resource>
+      <resource name="StopCause656">
+        <object>barkod yüksekliği çok büyük</object>
+      </resource>
+      <resource name="StopCause657">
+        <object>dize çok uzun</object>
+      </resource>
+      <resource name="StopCause658">
+        <object>bozuk comformat</object>
+      </resource>
+      <resource name="StopCause659">
+        <object>comformat yok</object>
+      </resource>
+      <resource name="StopCause660">
+        <object>ağırlık hücresi ile pcotf arasında çok sayıda paket var</object>
+      </resource>
+      <resource name="StopCause661">
+        <object>pcotf, paket ucunu bulamadı</object>
+      </resource>
+      <resource name="StopCause662">
+        <object>işlem sırası hatası</object>
+      </resource>
+      <resource name="StopCause663">
+        <object>paket yüksekliği anahtarı etkin</object>
+      </resource>
+      <resource name="StopCause664">
+        <object>termistör açık devresi</object>
+      </resource>
+      <resource name="StopCause665">
+        <object>barkod sağlama hatası</object>
+      </resource>
+      <resource name="StopCause666">
+        <object>alan genişliği hatası</object>
+      </resource>
+      <resource name="StopCause667">
+        <object>barkod yüksekliği çok küçük</object>
+      </resource>
+      <resource name="StopCause668">
+        <object>EEPROM yazılmadı</object>
+      </resource>
+      <resource name="StopCause669">
+        <object>EEPROM okunmadı</object>
+      </resource>
+      <resource name="StopCause670">
+        <object>alt etiketleyici hatası</object>
+      </resource>
+      <resource name="StopCause671">
+        <object>taban etiketleyici biçimi yok</object>
+      </resource>
+      <resource name="StopCause672">
+        <object>taban etiketleyici biçimi bulunamadı</object>
+      </resource>
+      <resource name="StopCause673">
+        <object>taban etiketleyici uygulayıcısı zaman aşımı</object>
+      </resource>
+      <resource name="StopCause674">
+        <object>taban etiketleyici yanıtı zaman aşımı</object>
+      </resource>
+      <resource name="StopCause675">
+        <object>arka kenar desteklenmiyor</object>
+      </resource>
+      <resource name="StopCause676">
+        <object>taban etiketleyici çevrimdışı</object>
+      </resource>
+      <resource name="StopCause677">
+        <object>geçersiz B** dizesi</object>
+      </resource>
+      <resource name="StopCause678">
+        <object>taban etiketleyici kaldırıcısı çalışmıyor</object>
+      </resource>
+      <resource name="StopCause679">
+        <object>taban etiketleyici yazdırma zaman aşımı</object>
+      </resource>
+      <resource name="StopCause680">
+        <object>etiketin yazdırılması çok uzun sürdü</object>
+      </resource>
+      <resource name="StopCause681">
+        <object>etiketin yazdırılması çok uzun sürdü</object>
+      </resource>
+      <resource name="StopCause682">
+        <object>taban etiketleyici çıkarıldı</object>
+      </resource>
+      <resource name="StopCause683">
+        <object>başlık uzaklığı algılanamadı</object>
+      </resource>
+      <resource name="StopCause684">
+        <object>hata ayıklama amaçlarıyla kullanılıyor</object>
+      </resource>
+      <resource name="StopCause685">
+        <object>genişletilmiş comformat .bmp dosyası bulunamadı</object>
+      </resource>
+      <resource name="StopCause686">
+        <object>yanlış biçimli .bmp dosyası</object>
+      </resource>
+      <resource name="StopCause687">
+        <object>PIC ile konuşulurken sorun oluştu</object>
+      </resource>
+      <resource name="StopCause688">
+        <object>kompakt flash kartta yazı tipi modülü yok</object>
+      </resource>
+      <resource name="StopCause792">
+        <object>seri tarafından durduruldu</object>
+      </resource>
+      <resource name="StopCause793">
+        <object>seri iletişim kanalı bozulduğunda durdur</object>
+      </resource>
+      <resource name="StopCause794">
+        <object>Gelen ileti alınıncaya kadar başka istenmeyen ileti veya yineleme olmayacak.</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

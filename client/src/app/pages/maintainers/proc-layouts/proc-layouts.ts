@@ -43,7 +43,7 @@ export class ProcLayouts extends GridComponent<ProcLayoutsItem> implements OnIni
 
   async ngOnInit(): Promise<void> {
     this.#title.setTitle('Layouts');
-    this.update();
+    return this.update();
   }
 
   async set(data?: ProcLayoutsItem): Promise<void> {

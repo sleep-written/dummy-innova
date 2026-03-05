@@ -1,0 +1,2127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="ro">
+  <industry>
+    <type name="Marel.Mp5.Process.Process.LineType" ServiceOnly="true">
+      <resource name="ProcessUnit">
+        <object>Unitate de procesare</object>
+      </resource>
+      <resource name="BasicLine">
+        <object>Linie</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanType" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Niciun plan</object>
+      </resource>
+      <resource name="ContextPlan">
+        <object>Plan comun</object>
+      </resource>
+      <resource name="SplitPlan">
+        <object>Plan împărțit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessState" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="NoWork">
+        <object>Ore în afara programului</object>
+      </resource>
+      <resource name="Running">
+        <object>În execuție</object>
+      </resource>
+      <resource name="Idle">
+        <object>Inactiv</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Oprit</object>
+      </resource>
+      <resource name="Breakdown">
+        <object>Descompunere</object>
+      </resource>
+      <resource name="NotProgrammed">
+        <object>Neprogramat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessCounterType" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Neutilizat</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Per unitate de procesare</object>
+      </resource>
+      <resource name="Line">
+        <object>Per linie</object>
+      </resource>
+      <resource name="Section">
+        <object>Per secție</object>
+      </resource>
+      <resource name="Department">
+        <object>Per departament</object>
+      </resource>
+      <resource name="Site">
+        <object>Per unitate</object>
+      </resource>
+      <resource name="Station">
+        <object>Per stație</object>
+      </resource>
+      <resource name="StationGroup">
+        <object>Per grup de stații</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.AutoManual" ServiceOnly="true">
+      <resource name="Automatic">
+        <object>Automat</object>
+      </resource>
+      <resource name="Manual">
+        <object>Manual</object>
+      </resource>
+      <resource name="AllowManual">
+        <object>Se permite manual</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessPeriodType" ServiceOnly="true">
+      <resource name="Daily">
+        <object>Zilnic</object>
+      </resource>
+      <resource name="OnActivity">
+        <object>La modificarea activității</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextSelect" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Neutilizat</object>
+      </resource>
+      <resource name="Direct">
+        <object>Se modifică direct</object>
+      </resource>
+      <resource name="DirectAssigned">
+        <object>Se modifică direct, se utilizează articolele alocate</object>
+      </resource>
+      <resource name="DirectStopped">
+        <object>Se modifică direct când se oprește</object>
+      </resource>
+      <resource name="DirectAssignedStopped">
+        <object>Se modifică direct când se oprește, se utilizează articolele alocate</object>
+      </resource>
+      <resource name="Pending">
+        <object>Se pornește în așteptare</object>
+      </resource>
+      <resource name="PendingAssigned">
+        <object>Se pornește în așteptare, se utilizează articolele alocate</object>
+      </resource>
+      <resource name="PendingStopped">
+        <object>Se pornește în așteptare când se oprește</object>
+      </resource>
+      <resource name="PendingAssignedStopped">
+        <object>Se pornește în așteptare când se oprește, se utilizează articolele alocate</object>
+      </resource>
+      <resource name="ForwardPending">
+        <object>Se permite doar înaintarea în așteptare</object>
+      </resource>
+      <resource name="ForwardDirect">
+        <object>Se permite doar înaintarea directă</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanMethod" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Niciun plan</object>
+      </resource>
+      <resource name="Relaxed">
+        <object>Relaxat</object>
+      </resource>
+      <resource name="NoSequence">
+        <object>Strict, fără secvență</object>
+      </resource>
+      <resource name="Sequence">
+        <object>Strict, în secvență</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextType" ServiceOnly="true">
+      <resource name="NoContext">
+        <object>Niciun context</object>
+      </resource>
+      <resource name="LocalApplication">
+        <object>Aplicație</object>
+      </resource>
+      <resource name="LocalSystem">
+        <object>Sistem</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Unitate de procesare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.SystemType" ServiceOnly="false">
+      <resource name="Other">
+        <object>Altele</object>
+      </resource>
+      <resource name="Species">
+        <object>Specii</object>
+      </resource>
+      <resource name="Section">
+        <object>Secție</object>
+      </resource>
+      <resource name="Input">
+        <object>Intrare</object>
+      </resource>
+      <resource name="Primary">
+        <object>Primar </object>
+      </resource>
+      <resource name="Secondary">
+        <object>Secundar</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>Terțiar</object>
+      </resource>
+      <resource name="Waste">
+        <object>Reziduuri</object>
+      </resource>
+      <resource name="Fat">
+        <object>Grăsime</object>
+      </resource>
+      <resource name="Bones">
+        <object>Oase</object>
+      </resource>
+      <resource name="Skin">
+        <object>Piele</object>
+      </resource>
+      <resource name="Offal">
+        <object>Măruntaie</object>
+      </resource>
+      <resource name="Ingredient">
+        <object>Ingredient</object>
+      </resource>
+      <resource name="Packaging">
+        <object>Ambalare</object>
+      </resource>
+      <resource name="PieceType">
+        <object>Tip bucată</object>
+      </resource>
+      <resource name="ColorType">
+        <object>Culoare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoDeliveryStatus" ServiceOnly="false">
+      <resource name="NotOrdered">
+        <object>Necomandat</object>
+      </resource>
+      <resource name="InStorage">
+        <object>În depozit</object>
+      </resource>
+      <resource name="EnRoute">
+        <object>Pe drum</object>
+      </resource>
+      <resource name="Receiving">
+        <object>Se primește, indisponibil</object>
+      </resource>
+      <resource name="ReceivingAvailable">
+        <object>Se primește, disponibil</object>
+      </resource>
+      <resource name="Holding">
+        <object>Se deține</object>
+      </resource>
+      <resource name="Available">
+        <object>Disponibil</object>
+      </resource>
+      <resource name="Completed">
+        <object>Finalizat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.PrivateObjectType" ServiceOnly="false">
+      <resource name="Mateial">
+        <object>Produs</object>
+      </resource>
+      <resource name="Customer">
+        <object>Client</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Linie de comandă</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.CountMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Se acceptă toate</object>
+      </resource>
+      <resource name="Range">
+        <object>Min. și max.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextColumn" ServiceOnly="false">
+      <resource name="Activity">
+        <object>Activitate</object>
+      </resource>
+      <resource name="Po">
+        <object>Comandă de achiziție</object>
+      </resource>
+      <resource name="Batch">
+        <object>Lot</object>
+      </resource>
+      <resource name="Lot">
+        <object>Lot</object>
+      </resource>
+      <resource name="Plot">
+        <object>Lot producţie</object>
+      </resource>
+      <resource name="Rmarea">
+        <object>Zonă resurse</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Se deține</object>
+      </resource>
+      <resource name="Available">
+        <object>Disponibil</object>
+      </resource>
+      <resource name="Completed">
+        <object>Finalizat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotRecord" ServiceOnly="false">
+      <resource name="AutoName">
+        <object>Lot</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>L</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.YieldGroupRecord" ServiceOnly="true">
+      <resource name="AutoName">
+        <object>Grup producție</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>A</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.ChainType" ServiceOnly="true">
+      <resource name="TracePo">
+        <object>Urmărire PO-uri</object>
+      </resource>
+      <resource name="TraceBatch">
+        <object>Urmărire numere lot</object>
+      </resource>
+      <resource name="TraceLot">
+        <object>Urmărire loturi</object>
+      </resource>
+      <resource name="TracePack">
+        <object>Urmărire pachete</object>
+      </resource>
+      <resource name="TraceCollection">
+        <object>Urmărire colecție</object>
+      </resource>
+      <resource name="TraceInterval">
+        <object>Urmărire după oră</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.UnitStatus" ServiceOnly="true">
+      <resource name="PendingAuto">
+        <object>Așteaptă pornirea automată</object>
+      </resource>
+      <resource name="PendingManual">
+        <object>Așteaptă pornirea manuală</object>
+      </resource>
+      <resource name="Active">
+        <object>Unitate activă</object>
+      </resource>
+      <resource name="Ending">
+        <object>Unitate care se termină</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.TransactionType" ServiceOnly="true">
+      <resource name="UnitSchedule">
+        <object>Unitate programată</object>
+      </resource>
+      <resource name="UnitStart">
+        <object>Unitate pornită</object>
+      </resource>
+      <resource name="UnitEnd">
+        <object>Unitate terminată</object>
+      </resource>
+      <resource name="OnHold">
+        <object>În așteptare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.TransferStatus" ServiceOnly="false">
+      <resource name="NoTransfer">
+        <object>Niciun transfer</object>
+      </resource>
+      <resource name="ReadyForTransfer">
+        <object>Transfer pregătit</object>
+      </resource>
+      <resource name="TransferComplete">
+        <object>Transfer finalizat</object>
+      </resource>
+      <resource name="TransferReceive">
+        <object>Comandă de transfer primită</object>
+      </resource>
+      <resource name="TransferInProgress">
+        <object>Transfer în desfășurare</object>
+      </resource>
+      <resource name="TransferError">
+        <object>Eroare de transfer</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderLineStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Închis</object>
+      </resource>
+      <resource name="Open">
+        <object>Deschidere</object>
+      </resource>
+      <resource name="Complete">
+        <object>Finalizare</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Revocat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AssignType" ServiceOnly="false">
+      <resource name="All">
+        <object>Se permit toate</object>
+      </resource>
+      <resource name="Production">
+        <object>Se permite producţie</object>
+      </resource>
+      <resource name="Direct">
+        <object>Se permite direct</object>
+      </resource>
+      <resource name="Input">
+        <object>Se permite intrare</object>
+      </resource>
+      <resource name="NoAssign">
+        <object>Se permite nealocare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintObjectType" ServiceOnly="false">
+      <resource name="Inventory">
+        <object>Inventar</object>
+      </resource>
+      <resource name="Po">
+        <object>Comandă de achiziție</object>
+      </resource>
+      <resource name="Supplier">
+        <object>Furnizor</object>
+      </resource>
+      <resource name="Site">
+        <object>Unitate</object>
+      </resource>
+      <resource name="Category">
+        <object>Categorie</object>
+      </resource>
+      <resource name="SectionType">
+        <object>Tip secție</object>
+      </resource>
+      <resource name="BornIn">
+        <object>Născut în</object>
+      </resource>
+      <resource name="RaisedIn">
+        <object>Crescut în</object>
+      </resource>
+      <resource name="FatClass">
+        <object>Clasă grăsimi</object>
+      </resource>
+      <resource name="Lot">
+        <object>Lot</object>
+      </resource>
+      <resource name="LotQaMark1">
+        <object>Marcaj QA lot 1</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintType" ServiceOnly="false">
+      <resource name="OnlyFrom">
+        <object>Doar de la</object>
+      </resource>
+      <resource name="NotFrom">
+        <object>Nu de la</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ProcessAssignType" ServiceOnly="false">
+      <resource name="Fixed">
+        <object>Fix</object>
+      </resource>
+      <resource name="Regular">
+        <object>Temporar</object>
+      </resource>
+      <resource name="Planned">
+        <object>Planificat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.ForwardType" ServiceOnly="true">
+      <resource name="NoForward">
+        <object>Fără înaintare</object>
+      </resource>
+      <resource name="ForwardAll">
+        <object>Se înaintează toate</object>
+      </resource>
+      <resource name="ForwardActivity">
+        <object>Înaintare activitate</object>
+      </resource>
+      <resource name="ForwardPo">
+        <object>Înaintare PO</object>
+      </resource>
+      <resource name="ForwardBatch">
+        <object>Înaintare lot</object>
+      </resource>
+      <resource name="ForwardLot">
+        <object>Înaintare lot</object>
+      </resource>
+      <resource name="ForwardPlot">
+        <object>Înaintare lot de producţie</object>
+      </resource>
+      <resource name="ForwardRmarea">
+        <object>Înaintare zonă resurse</object>
+      </resource>
+      <resource name="ForwardShift">
+        <object>Înaintare tură</object>
+      </resource>
+      <resource name="ForwardProfileId">
+        <object>Înaintare perioadă profil</object>
+      </resource>
+      <resource name="ForwardPrday">
+        <object>Înaintare zi de producţie</object>
+      </resource>
+      <resource name="AssignPo">
+        <object>Alocare PO</object>
+      </resource>
+      <resource name="AssignLot">
+        <object>Alocare lot</object>
+      </resource>
+      <resource name="AssignPlot">
+        <object>Alocare lot de producţie</object>
+      </resource>
+      <resource name="AssignRmarea">
+        <object>Alocare zonă resurse</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Nepornit</object>
+      </resource>
+      <resource name="Active">
+        <object>Activ</object>
+      </resource>
+      <resource name="Completed">
+        <object>Finalizat</object>
+      </resource>
+      <resource name="OnHold">
+        <object>În așteptare</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Revocat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineType" ServiceOnly="false">
+      <resource name="ContextPlan">
+        <object>Plan context</object>
+      </resource>
+      <resource name="ActivityPlan">
+        <object>Activitate</object>
+      </resource>
+      <resource name="PoPlan">
+        <object>PO</object>
+      </resource>
+      <resource name="BatchPlan">
+        <object>Lot</object>
+      </resource>
+      <resource name="LotPlan">
+        <object>Lot</object>
+      </resource>
+      <resource name="PlotPlan">
+        <object>Lot producţie</object>
+      </resource>
+      <resource name="RmareaPlan">
+        <object>Zonă resurse</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.InventoryType" ServiceOnly="false">
+      <resource name="Itemized">
+        <object>Inventar unitate</object>
+      </resource>
+      <resource name="Container">
+        <object>Inventar tavă</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Inventar nespecificat pe articole</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationStatus" ServiceOnly="false">
+      <resource name="Empty">
+        <object>Gol</object>
+      </resource>
+      <resource name="Filling">
+        <object>Se umple</object>
+      </resource>
+      <resource name="Full">
+        <object>Plin</object>
+      </resource>
+      <resource name="Emptying">
+        <object>Se golește</object>
+      </resource>
+      <resource name="ConfirmEmpty">
+        <object>Confirmare golire</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationUse" ServiceOnly="true">
+      <resource name="NoLocations">
+        <object>Nicio locație</object>
+      </resource>
+      <resource name="AllowLocations">
+        <object>Se permit locații</object>
+      </resource>
+      <resource name="UseLocations">
+        <object>Utilizare locații</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.BlockType" ServiceOnly="true">
+      <resource name="NoBlock">
+        <object>Niciun bloc</object>
+      </resource>
+      <resource name="HardwareBlock">
+        <object>Bloc hardware</object>
+      </resource>
+      <resource name="OperatorBlock">
+        <object>Bloc operator</object>
+      </resource>
+      <resource name="HwOpBlock">
+        <object>Bloc hardware și operator</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PrdayStart" ServiceOnly="true">
+      <resource name="NotStarted">
+        <object>Nepornit</object>
+      </resource>
+      <resource name="Automatic">
+        <object>Pornit automat</object>
+      </resource>
+      <resource name="Manual">
+        <object>Pornit manual</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CheckStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="OkOverTarget">
+        <object>Ok, peste țintă</object>
+      </resource>
+      <resource name="OkOnTarget">
+        <object>Ok, egal cu ținta</object>
+      </resource>
+      <resource name="OkUnderTarget">
+        <object>Ok, sub țintă</object>
+      </resource>
+      <resource name="OkT1">
+        <object>Ok, sub T1</object>
+      </resource>
+      <resource name="RejectOver">
+        <object>Respingere, peste țintă</object>
+      </resource>
+      <resource name="RejectT1">
+        <object>Respingere, peste T1</object>
+      </resource>
+      <resource name="RejectT2">
+        <object>Respingere, sub T1</object>
+      </resource>
+      <resource name="RejectUnder">
+        <object>Respingere sub greutate</object>
+      </resource>
+      <resource name="RejectMetal">
+        <object>Respingere metal</object>
+      </resource>
+      <resource name="RejectLabel">
+        <object>Respingere etichetă</object>
+      </resource>
+      <resource name="RejectQa">
+        <object>Respingere QA</object>
+      </resource>
+      <resource name="RejectOther">
+        <object>Altă respingere</object>
+      </resource>
+      <resource name="RejectNoWeight">
+        <object>Nicio greutate</object>
+      </resource>
+      <resource name="RejectInvalid">
+        <object>Unitate necunoscută</object>
+      </resource>
+      <resource name="RejectPackaging">
+        <object>Ambalaj indisponibil</object>
+      </resource>
+      <resource name="RejectMissing">
+        <object>Pachet lipsă</object>
+      </resource>
+      <resource name="RejectNoConnection">
+        <object>Dispozitiv offline</object>
+      </resource>
+      <resource name="SelectQa">
+        <object>Selectat pentru QA</object>
+      </resource>
+      <resource name="UnusedSeperatorSpace">
+        <object>Eroare spațiu separator</object>
+      </resource>
+      <resource name="UnusedNoJob">
+        <object>Lucrare negăsită</object>
+      </resource>
+      <resource name="UnusedNoItemType">
+        <object>Tip articol negăsit</object>
+      </resource>
+      <resource name="UnusedWeighingError">
+        <object>Eroare cântărire</object>
+      </resource>
+      <resource name="UnusedNoVisionData">
+        <object>Nicio dată vizuală</object>
+      </resource>
+      <resource name="UnusedNoGrade">
+        <object>Clasă negăsită</object>
+      </resource>
+      <resource name="UnusedVisionCondition">
+        <object>Condiţie vizuală eşuată</object>
+      </resource>
+      <resource name="UnusedNoGate">
+        <object>Poartă negăsită</object>
+      </resource>
+      <resource name="UnusedRateError">
+        <object>Eroare control rată</object>
+      </resource>
+      <resource name="UnusedNoOrder">
+        <object>Comandă negăsită</object>
+      </resource>
+      <resource name="UnusedSeperatorGap">
+        <object>Eroare diferență separator</object>
+      </resource>
+      <resource name="UnusedBadStatisticalAllotment">
+        <object>Repartizare statistică prea necorespunzătoare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Articol</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Ştergere</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Comprimat</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Consumat</object>
+      </resource>
+      <resource name="Returned">
+        <object>Returnat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.AssignStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Deschidere</object>
+      </resource>
+      <resource name="OpenManual">
+        <object>Deschis pentru operaţii</object>
+      </resource>
+      <resource name="Closed">
+        <object>Închis</object>
+      </resource>
+      <resource name="ClosedManual">
+        <object>Închis manual</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Pachet</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Nespecificat pe articole</object>
+      </resource>
+      <resource name="Pending">
+        <object>În așteptare</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Șters</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Nevalid</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Comprimat</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Consumat</object>
+      </resource>
+      <resource name="Returned">
+        <object>Returnat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Colecție</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Șters</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Consumat</object>
+      </resource>
+      <resource name="Returned">
+        <object>Returnat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.BomRType" ServiceOnly="false">
+      <resource name="None">
+        <object>Niciuna</object>
+      </resource>
+      <resource name="Input">
+        <object>Intrare</object>
+      </resource>
+      <resource name="Output">
+        <object>Ieşire</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Creat</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Către inventar</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>De la inventar</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Către comandă</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>De la comandă</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Către colecție</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>De la colecție</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Șters</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Consumat</object>
+      </resource>
+      <resource name="ConsumedPartial">
+        <object>Consumat parțial</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>De-consumat</object>
+      </resource>
+      <resource name="DeConsumedPartial">
+        <object>De-consumat parțial</object>
+      </resource>
+      <resource name="Returned">
+        <object>Returnat</object>
+      </resource>
+      <resource name="Opened">
+        <object>Deschis</object>
+      </resource>
+      <resource name="Closed">
+        <object>Închis</object>
+      </resource>
+      <resource name="Received">
+        <object>Returnat</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>De la locația de inventar</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>Către locația de inventar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Creat</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Către inventar</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>De la inventar</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Către comandă</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>De la comandă</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Către colecție</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>De la colecție</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Șters</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Consumat</object>
+      </resource>
+      <resource name="Opened">
+        <object>Deschis</object>
+      </resource>
+      <resource name="Closed">
+        <object>Închis</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>De-consumat</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>De la locația de inventar</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>Către locația de inventar</object>
+      </resource>
+      <resource name="Returned">
+        <object>Returnat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.MatxferRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Transferare</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Șters</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Nevalid</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Comprimat</object>
+      </resource>
+      <resource name="Yield">
+        <object>Randament</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Invers</object>
+      </resource>
+      <resource name="Generated">
+        <object>Generat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.TimeRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Timp</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Sărbătoare</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Șters</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.AccessLogRType" ServiceOnly="false">
+      <resource name="Granted">
+        <object>Acces acordat</object>
+      </resource>
+      <resource name="NotInGroup">
+        <object>Nu se află în grupul de acces</object>
+      </resource>
+      <resource name="NotAtThisTime">
+        <object>Oră acces nevalidă</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>ID nevalid</object>
+      </resource>
+      <resource name="IsIn">
+        <object>Deja înăuntru</object>
+      </resource>
+      <resource name="IsOut">
+        <object>Deja afară</object>
+      </resource>
+      <resource name="TimeReg">
+        <object>Înregistrare oră</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ContainerRType" ServiceOnly="false">
+      <resource name="Assign">
+        <object>Unitate alocată</object>
+      </resource>
+      <resource name="Position">
+        <object>Modificare poziție</object>
+      </resource>
+      <resource name="DeAssign">
+        <object>Unitate dealocată</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationClass" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="CreateItem">
+        <object>Creare articol</object>
+      </resource>
+      <resource name="CreatePack">
+        <object>Creare pachet</object>
+      </resource>
+      <resource name="Item">
+        <object>Operație articol</object>
+      </resource>
+      <resource name="Pack">
+        <object>Operație pachet</object>
+      </resource>
+      <resource name="IdContainer">
+        <object>Operație tavă</object>
+      </resource>
+      <resource name="Stack">
+        <object>Operație stivă</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Operaţie palet</object>
+      </resource>
+      <resource name="Container">
+        <object>Operație container</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Operație transport</object>
+      </resource>
+      <resource name="CreateCollection">
+        <object>Creare colecție</object>
+      </resource>
+      <resource name="CreateTransaction">
+        <object>Creare tranzacție</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Operație inventar</object>
+      </resource>
+      <resource name="Order">
+        <object>Operație comandă</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Operație linie de comandă</object>
+      </resource>
+      <resource name="Po">
+        <object>Operație PO</object>
+      </resource>
+      <resource name="PoLine">
+        <object>Operație linie PO</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderType" ServiceOnly="true">
+      <resource name="Login">
+        <object>Conectare</object>
+      </resource>
+      <resource name="LoginAndAccess">
+        <object>Conectare și control al accesului</object>
+      </resource>
+      <resource name="Logout">
+        <object>Deconectare</object>
+      </resource>
+      <resource name="LogoutAndExit">
+        <object>Deconectare și control al ieșirii</object>
+      </resource>
+      <resource name="AccessControl">
+        <object>Control acces</object>
+      </resource>
+      <resource name="SignalOut">
+        <object>Ieșire semnal</object>
+      </resource>
+      <resource name="RegisterId">
+        <object>Înregistrare ID</object>
+      </resource>
+      <resource name="ExitControl">
+        <object>Control ieșire</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderLogging" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Nicio înregistrare în jurnal</object>
+      </resource>
+      <resource name="LogAccess">
+        <object>Înregistrare acces în jurnal</object>
+      </resource>
+      <resource name="LogUse">
+        <object>Înregistrare în jurnal întreaga utilizare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Costing.CostBase" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="PerDay">
+        <object>Fix pe zi</object>
+      </resource>
+      <resource name="PerInput">
+        <object>Per unitate de materie brută</object>
+      </resource>
+      <resource name="PerOutput">
+        <object>Per unitate de produs</object>
+      </resource>
+      <resource name="PerRuntime">
+        <object>Per oră de timp de execuție</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.ExpiryReferenceDate" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Zi de producţie</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Oră înregistrare</object>
+      </resource>
+      <resource name="PoFirstDay">
+        <object>Prima zi de prindere PO</object>
+      </resource>
+      <resource name="PoLastDay">
+        <object>Ultima zi de prindere PO</object>
+      </resource>
+      <resource name="PoDeliveryTime">
+        <object>Ora livrării PO</object>
+      </resource>
+      <resource name="PoCatchDay">
+        <object>Zi prindere PO</object>
+      </resource>
+      <resource name="OrderPoFirstDay">
+        <object>Prima zi de prindere PO comandă</object>
+      </resource>
+      <resource name="OrderPoLastDay">
+        <object>Ultima zi de prindere PO comandă</object>
+      </resource>
+      <resource name="OrderPoDeliveryTime">
+        <object>Oră livrare PO comandă</object>
+      </resource>
+      <resource name="OrderPoCatchDay">
+        <object>Zi prindere PO comandă</object>
+      </resource>
+      <resource name="Custom">
+        <object>Particularizat</object>
+      </resource>
+      <resource name="OrderDispatchTime">
+        <object>Oră expediere comandă</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyContextType" ServiceOnly="true">
+      <resource name="TargetSource">
+        <object>Sursă cale țintă</object>
+      </resource>
+      <resource name="TargetDestination">
+        <object>Destinație cale țintă</object>
+      </resource>
+      <resource name="CopySource">
+        <object>Copiere sursă cale</object>
+      </resource>
+      <resource name="CopyDestination">
+        <object>Copiere destinație cale</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyMethod" ServiceOnly="true">
+      <resource name="Add">
+        <object>Adăugare</object>
+      </resource>
+      <resource name="Subtract">
+        <object>Scădere</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PackRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Nicio înregistrare</object>
+      </resource>
+      <resource name="Instance">
+        <object>Se înregistrează fiecare pachet</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PathRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Nicio înregistrare</object>
+      </resource>
+      <resource name="Instance">
+        <object>Se înregistrează fiecare tranzacție</object>
+      </resource>
+      <resource name="Periodic">
+        <object>Se înregistrează periodic</object>
+      </resource>
+      <resource name="Update">
+        <object>Se actualizează o înregistrare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.SelectRuleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>Selecție intrare</object>
+      </resource>
+      <resource name="Output">
+        <object>Selecție ieșire</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.PlotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Se deține</object>
+      </resource>
+      <resource name="Available">
+        <object>Disponibil</object>
+      </resource>
+      <resource name="Completed">
+        <object>Finalizat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.ContextSource" ServiceOnly="true">
+      <resource name="Reference">
+        <object>Automat</object>
+      </resource>
+      <resource name="Source">
+        <object>Sursă</object>
+      </resource>
+      <resource name="Destination">
+        <object>Destinație</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.Result" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Operația nu este acceptată</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>Informații unitate de procesare lipsă</object>
+      </resource>
+      <resource name="NoMaterial">
+        <object>Informații material lipsă</object>
+      </resource>
+      <resource name="NoProcessPeriod">
+        <object>Informații perioadă de procesare lipsă</object>
+      </resource>
+      <resource name="NoProductionDay">
+        <object>Informații zi de producție lipsă</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>A apărut o eroare în baza de date</object>
+      </resource>
+      <resource name="NoSSCC">
+        <object>Companiei îi lipsesc informații SSCC</object>
+      </resource>
+      <resource name="CreateSSCC">
+        <object>Imposibil de creat SSCC, prefix posibil nevalid</object>
+      </resource>
+      <resource name="HasOrder">
+        <object>Unitatea este alocată unei comenzi</object>
+      </resource>
+      <resource name="InStack">
+        <object>Unitatea este alocată unei stive</object>
+      </resource>
+      <resource name="OnPallet">
+        <object>Unitatea este alocată unui palet</object>
+      </resource>
+      <resource name="InContainer">
+        <object>Unitatea este alocată unui container</object>
+      </resource>
+      <resource name="InShipment">
+        <object>Unitatea este alocată unui transport</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Nicio comandă aplicabilă</object>
+      </resource>
+      <resource name="IterationTransaction">
+        <object>Tranzacție nepermisă în iterație</object>
+      </resource>
+      <resource name="NoCreateCount">
+        <object>Număr de unități lipsă</object>
+      </resource>
+      <resource name="XmlParse">
+        <object>XML nu a putut fi analizat</object>
+      </resource>
+      <resource name="NoStation">
+        <object>Informații stație lipsă</object>
+      </resource>
+      <resource name="NoPo">
+        <object>Informații comandă de achiziție lipsă</object>
+      </resource>
+      <resource name="NoPlot">
+        <object>Informații lot de producție lipsă</object>
+      </resource>
+      <resource name="NoCurrentPack">
+        <object>Niciun pachet curent</object>
+      </resource>
+      <resource name="Conversion">
+        <object>Conversia șirului în valoare a eșuat</object>
+      </resource>
+      <resource name="OrderNotFound">
+        <object>Comanda nu a putut fi încărcată din baza de date</object>
+      </resource>
+      <resource name="MaterialNotFound">
+        <object>Materialul nu a putut fi încărcat din baza de date</object>
+      </resource>
+      <resource name="UnitType">
+        <object>Tip de unitate nevalid pentru operație</object>
+      </resource>
+      <resource name="OperationLoad">
+        <object>Operația nu a putut fi încărcată din baza de date</object>
+      </resource>
+      <resource name="NoPack">
+        <object>Informații pachet lipsă</object>
+      </resource>
+      <resource name="NoSite">
+        <object>Informații unitate lipsă</object>
+      </resource>
+      <resource name="Configuration">
+        <object>Configurație operație nevalidă</object>
+      </resource>
+      <resource name="InvalidScope">
+        <object>Sferă căutare unitate nevalidă</object>
+      </resource>
+      <resource name="NoStack">
+        <object>Informații stivă lipsă</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>Informații palet lipsă</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>Starea colectării nu permite operația</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>Informații colecție lipsă</object>
+      </resource>
+      <resource name="NotInStack">
+        <object>Unitatea nu este într-o stivă</object>
+      </resource>
+      <resource name="NotOnPallet">
+        <object>Unitatea nu este pe un palet</object>
+      </resource>
+      <resource name="NotInContainer">
+        <object>Unitatea nu este într-un container</object>
+      </resource>
+      <resource name="NotInShipment">
+        <object>Unitatea nu este într-un transport</object>
+      </resource>
+      <resource name="NoInventory">
+        <object>Informații inventar lipsă</object>
+      </resource>
+      <resource name="NoItem">
+        <object>Informații articol lipsă</object>
+      </resource>
+      <resource name="NoOrderLine">
+        <object>Informații linie de comandă lipsă</object>
+      </resource>
+      <resource name="Transaction">
+        <object>Eroare tranzacție</object>
+      </resource>
+      <resource name="TransactionDeadlock">
+        <object>Tranzacție blocată</object>
+      </resource>
+      <resource name="NotInventory">
+        <object>Unitatea de procesare specificată nu este un inventar</object>
+      </resource>
+      <resource name="InventoryReject">
+        <object>Inventarul nu a acceptat unitatea</object>
+      </resource>
+      <resource name="OnInventory">
+        <object>Unitatea este deja în inventar</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>Unitatea nu este în inventar</object>
+      </resource>
+      <resource name="UnitStatus">
+        <object>Starea unității nu permite operația</object>
+      </resource>
+      <resource name="NoContainer">
+        <object>Informații container lipsă</object>
+      </resource>
+      <resource name="NoShipment">
+        <object>Informații transport lipsă</object>
+      </resource>
+      <resource name="LoadSite">
+        <object>Informațiile despre unitate nu au putut fi încărcate din baza de date</object>
+      </resource>
+      <resource name="LoadCompany">
+        <object>Informațiile despre companie nu au putut fi încărcate din baza de date</object>
+      </resource>
+      <resource name="HasPacks">
+        <object>Imposibil de efectuat operația, deoarece colecția conține pachete </object>
+      </resource>
+      <resource name="HasStacks">
+        <object>Imposibil de efectuat operația, deoarece colecția conține stive</object>
+      </resource>
+      <resource name="HasPallets">
+        <object>Imposibil de efectuat operația, deoarece colecția conține paleți</object>
+      </resource>
+      <resource name="HasContainers">
+        <object>Imposibil de efectuat operația, deoarece colecția conține containere</object>
+      </resource>
+      <resource name="FailOperation">
+        <object>Operația a fost făcută să eșueze în mod intenționat</object>
+      </resource>
+      <resource name="InPack">
+        <object>Unitatea este deja într-un pachet</object>
+      </resource>
+      <resource name="NotInPack">
+        <object>Unitatea nu este într-un pachet</object>
+      </resource>
+      <resource name="PackStatus">
+        <object>Starea pachetului nu permite operația</object>
+      </resource>
+      <resource name="OrderType">
+        <object>Tip de comandă nevalid pentru operație</object>
+      </resource>
+      <resource name="Exception">
+        <object>Excepție aplicaţie</object>
+      </resource>
+      <resource name="OperationClass">
+        <object>Clasă operație nevalidă</object>
+      </resource>
+      <resource name="NoSource">
+        <object>Informații unitate de procesare sursă lipsă</object>
+      </resource>
+      <resource name="NoDestination">
+        <object>Informații unitate de procesare destinație lipsă</object>
+      </resource>
+      <resource name="MaterialTransaction">
+        <object>Imposibil de înregistrat tranzacția cu material</object>
+      </resource>
+      <resource name="MatchContext">
+        <object>Starea unității de procesare nu permite operația</object>
+      </resource>
+      <resource name="TransactionConfig">
+        <object>Sistem de tranzacții neconfigurat pentru operație</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Obținerea interfeței cu serviciul la distanță a eșuat</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Informațiile despre interfața la distanță nu au fost găsite</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Informațiile despre serverul la distanță nu au fost găsite</object>
+      </resource>
+      <resource name="NoOperationData">
+        <object>Date operație lipsă</object>
+      </resource>
+      <resource name="NoPrintFields">
+        <object>Informații câmp imprimare lipsă</object>
+      </resource>
+      <resource name="NoPieceCount">
+        <object>Informații total bucăți lipsă</object>
+      </resource>
+      <resource name="ItemLoad">
+        <object>Înregistrarea articolului nu a putut fi încărcată</object>
+      </resource>
+      <resource name="ItemInsert">
+        <object>Înregistrarea articolului nu a putut fi inserată</object>
+      </resource>
+      <resource name="ItemUpdate">
+        <object>Înregistrarea articolului nu a putut fi actualizată</object>
+      </resource>
+      <resource name="ItemRType">
+        <object>Tipul înregistrării articolului nu permite operația</object>
+      </resource>
+      <resource name="PackLoad">
+        <object>Înregistrarea pachetului nu a putut fi încărcată</object>
+      </resource>
+      <resource name="PackInsert">
+        <object>Înregistrarea pachetului nu a putut fi inserată</object>
+      </resource>
+      <resource name="PackUpdate">
+        <object>Înregistrarea pachetului nu a putut fi actualizată</object>
+      </resource>
+      <resource name="PackRType">
+        <object>Tipul înregistrării pachetului nu permite operația</object>
+      </resource>
+      <resource name="CollectionLoad">
+        <object>Înregistrarea colecției nu a putut fi încărcată</object>
+      </resource>
+      <resource name="CollectionInsert">
+        <object>Înregistrarea colecției nu a putut fi inserată</object>
+      </resource>
+      <resource name="CollectionUpdate">
+        <object>Înregistrarea colecției nu a putut fi actualizată</object>
+      </resource>
+      <resource name="CollectionRType">
+        <object>Tipul înregistrării colecției nu permite operația</object>
+      </resource>
+      <resource name="CollectionUnitType">
+        <object>Tipul unităților din colecție nu permite operația</object>
+      </resource>
+      <resource name="NoOrderStatus">
+        <object>Informații stare comandă lipsă</object>
+      </resource>
+      <resource name="NotInOrder">
+        <object>Unitatea nu este alocată unei comenzi</object>
+      </resource>
+      <resource name="OrderLoad">
+        <object>Informațiile despre comandă nu au putut fi încărcate din baza de date</object>
+      </resource>
+      <resource name="OrderLineLoad">
+        <object>Informațiile despre linia de comandă nu au putut fi încărcate din baza de date</object>
+      </resource>
+      <resource name="OrderStatus">
+        <object>Starea comenzii nu permite operația</object>
+      </resource>
+      <resource name="OrderLineStatus">
+        <object>Starea liniei de comandă nu permite operația</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Nu a putut fi creată unitatea de procesare pentru operație</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Operație în desfășurare</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Rezultat nesetat</object>
+      </resource>
+      <resource name="NoExternalNumber">
+        <object>Număr extern lipsă</object>
+      </resource>
+      <resource name="NoExternalCode">
+        <object>Cod extern lipsă</object>
+      </resource>
+      <resource name="PrintFailed">
+        <object>Operație imprimare eșuată</object>
+      </resource>
+      <resource name="CustomOpNotLoaded">
+        <object>Operație particularizată neîncărcată</object>
+      </resource>
+      <resource name="CustomOpInfoMissing">
+        <object>Părți ale informațiilor despre operația particularizată lipsă</object>
+      </resource>
+      <resource name="CustomOpXmlMissing">
+        <object>Definiție XML a operației particularizate lipsă</object>
+      </resource>
+      <resource name="CustomException">
+        <object>Excepție în operația particularizată</object>
+      </resource>
+      <resource name="Validation">
+        <object>Eroare de validare</object>
+      </resource>
+      <resource name="PreOperation">
+        <object>Eroare pre-operație</object>
+      </resource>
+      <resource name="DoOperation">
+        <object>Eroare operație</object>
+      </resource>
+      <resource name="PostOperation">
+        <object>Eroare post-operație</object>
+      </resource>
+      <resource name="NoCatchDay">
+        <object>Informații zi prindere lipsă</object>
+      </resource>
+      <resource name="InvalidInventory">
+        <object>Inventar nevalid pentru operație</object>
+      </resource>
+      <resource name="LoadType">
+        <object>Încărcarea tipului a eșuat</object>
+      </resource>
+      <resource name="UnitCount">
+        <object>A fost specificat un număr de unități nevalid</object>
+      </resource>
+      <resource name="ConvertedInventory">
+        <object>Colecția convertită din inventar nu se potrivește inventarului de pachete</object>
+      </resource>
+      <resource name="ConvertedOrder">
+        <object>Colecția convertită din comandă nu se potrivește comenzii de pachete</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Informații greutate lipsă</object>
+      </resource>
+      <resource name="NoProperty">
+        <object>Nume proprietate lipsă</object>
+      </resource>
+      <resource name="NotProperty">
+        <object>Numele dat nu este un nume de proprietate</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Unitatea este reținută pentru QC</object>
+      </resource>
+      <resource name="PoStatus">
+        <object>Starea comenzii de achiziție nu permite operația</object>
+      </resource>
+      <resource name="InvalidPartialAmount">
+        <object>Unitatea nu poate fi modificată cu cantitatea specificată</object>
+      </resource>
+      <resource name="NoPoLine">
+        <object>Nicio linie PO nu se potrivește produsului specificat</object>
+      </resource>
+      <resource name="HasPoLine">
+        <object>Linie PO deja alocată</object>
+      </resource>
+      <resource name="NoMaterialTransaction">
+        <object>Tranzacție material neînregistrată</object>
+      </resource>
+      <resource name="NoStockTake">
+        <object>Nicio inventariere activă</object>
+      </resource>
+      <resource name="StartStockTake">
+        <object>Inventarierea nu a putut începe, este posibil ca una să fie deja activă</object>
+      </resource>
+      <resource name="StockTakeMethod">
+        <object>Metoda de inventariere a stocului nu permite operația</object>
+      </resource>
+      <resource name="StockTakeUnitLoad">
+        <object>Informații inventariere stoc nevalide pentru o unitate</object>
+      </resource>
+      <resource name="StockTakeUnitType">
+        <object>Inventarierea nu este configurată pentru acest tip de unitate</object>
+      </resource>
+      <resource name="StockTakeStatus">
+        <object>Starea inventarierii nu permite operația</object>
+      </resource>
+      <resource name="ScriptingError">
+        <object>Eroare la executarea scriptului</object>
+      </resource>
+      <resource name="InventoryKeepMin">
+        <object>Unitatea nu este suficient de bătrână</object>
+      </resource>
+      <resource name="InventoryKeepMax">
+        <object>Unitatea este prea bătrână</object>
+      </resource>
+      <resource name="NoValue">
+        <object>Valoarea unității lipsește</object>
+      </resource>
+      <resource name="LogRecordLoad">
+        <object>Eroare la încărcarea înregistrării jurnalului</object>
+      </resource>
+      <resource name="LogRecordExecuted">
+        <object>Înregistrarea jurnalului a fost deja executată</object>
+      </resource>
+      <resource name="InventoryType">
+        <object>Tipul inventarului nu permite operația</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>Informații lot lipsă</object>
+      </resource>
+      <resource name="NoLot">
+        <object>Informații lot lipsă</object>
+      </resource>
+      <resource name="NoProductionLot">
+        <object>Informații lot de producție lipsă</object>
+      </resource>
+      <resource name="NoRmArea">
+        <object>Informații zonă resurse lipsă</object>
+      </resource>
+      <resource name="InvalidAmount">
+        <object>Cantitate nevalidă</object>
+      </resource>
+      <resource name="NoInventoryStatus">
+        <object>Nu a fost găsită nicio înregistrare pentru starea inventarului</object>
+      </resource>
+      <resource name="MultipleInventoryStatus">
+        <object>Au fost găsite mai multe înregistrări pentru starea inventarului</object>
+      </resource>
+      <resource name="FeatureNotLicensed">
+        <object>Caracteristică nelicențiată</object>
+      </resource>
+      <resource name="CodeNotFound">
+        <object>Un obiect cu codul specificat nu a fost găsit</object>
+      </resource>
+      <resource name="InvalidMessageFields">
+        <object>Configurarea câmpului pentru mesaj este nevalidă</object>
+      </resource>
+      <resource name="BomNotFound">
+        <object>BOM negăsit în baza de date</object>
+      </resource>
+      <resource name="NotInBom">
+        <object>Produsul specificat nu se află în BOM</object>
+      </resource>
+      <resource name="NoBom">
+        <object>Nu a fost specificat niciun BOM</object>
+      </resource>
+      <resource name="NoBomRType">
+        <object>"&gt;Nu a fost specificată niciun tip de înregistrare BOM</object>
+      </resource>
+      <resource name="PrunitBom">
+        <object>Unitatea de procesare nu deține informațiile BOM necesare</object>
+      </resource>
+      <resource name="LotBom">
+        <object>Lotul nu deține informațiile BOM necesare</object>
+      </resource>
+      <resource name="ProductionLotBom">
+        <object>Lotul de producție nu deține informațiile BOM necesare</object>
+      </resource>
+      <resource name="InvalidDate">
+        <object>Dată nevalidă pentru operație</object>
+      </resource>
+      <resource name="PartialAdjust">
+        <object>Conținutul unui pachet parțial nu poate fi ajustat</object>
+      </resource>
+      <resource name="NoCategory">
+        <object>Informații categorie lipsă</object>
+      </resource>
+      <resource name="NoQuality">
+        <object>Informații calitate lipsă</object>
+      </resource>
+      <resource name="NoFatClass">
+        <object>Informații clasă grăsimi lipsă</object>
+      </resource>
+      <resource name="SelectYieldGroup">
+        <object>Selectarea grupului de randament a eșuat</object>
+      </resource>
+      <resource name="NoRiCountry">
+        <object>Informații țară în care s-a născut lipsă</object>
+      </resource>
+      <resource name="NoBrCountry">
+        <object>Informații țară în care a crescut lipsă</object>
+      </resource>
+      <resource name="NoSlaughterHouse">
+        <object>Informații abator lipsă</object>
+      </resource>
+      <resource name="NoSlaughterDay">
+        <object>Informații zi de sacrificare lipsă</object>
+      </resource>
+      <resource name="NoProcessor">
+        <object>Informații procesor lipsă</object>
+      </resource>
+      <resource name="SelectLot">
+        <object>Selectarea lotului a eșuat</object>
+      </resource>
+      <resource name="IndividualLoad">
+        <object>Înregistrarea individuală nu a putut fi încărcată</object>
+      </resource>
+      <resource name="NoYieldGroup">
+        <object>Informații grup randament lipsă</object>
+      </resource>
+      <resource name="PalletNotReserved">
+        <object>Paletul nu este rezervat pentru comandă</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>Produsele nu se potrivesc</object>
+      </resource>
+      <resource name="Station">
+        <object>Nu a putut fi creată stația pentru operație</object>
+      </resource>
+      <resource name="InvalidExpiry">
+        <object>Dată de expirare nevalidă</object>
+      </resource>
+      <resource name="InvlocationFull">
+        <object>Locație inventar plină</object>
+      </resource>
+      <resource name="InvlocationMissing">
+        <object>Locația de inventar necesară lipsește</object>
+      </resource>
+      <resource name="InvalidInvlocation">
+        <object>Locația specificată este nevalidă</object>
+      </resource>
+      <resource name="StartStocktakeLocationActive">
+        <object>Imposibil de început inventarierea stocului, deoarece este activă o numărătoare într-o locație</object>
+      </resource>
+      <resource name="StartStocktakeInventoryActive">
+        <object>Imposibil de început inventarierea într-o locație, deoarece este activă o numărătoare a unui inventar.</object>
+      </resource>
+      <resource name="TransferStatus">
+        <object>Stare transfer comandă nevalidă.</object>
+      </resource>
+      <resource name="ParentOrderCheckFailed">
+        <object>Verificarea comenzii părinte a eșuat.</object>
+      </resource>
+      <resource name="GetExportProcess">
+        <object>Configurație proces export nevalidă</object>
+      </resource>
+      <resource name="NoSupplier">
+        <object>Niciun PO sau PO fără furnizor specificat</object>
+      </resource>
+      <resource name="NoExportProcess">
+        <object>Proces export nedefinit</object>
+      </resource>
+      <resource name="InvaidExportProcess">
+        <object>Proces export negăsit</object>
+      </resource>
+      <resource name="HasPo">
+        <object>Unitatea este deja alocată unui PO</object>
+      </resource>
+      <resource name="OrderAmountExceeded">
+        <object>Cantitatea comenzii a fost depășită</object>
+      </resource>
+      <resource name="OrderLineAmountExceeded">
+        <object>Cantitatea liniei de comandă a fost depășită</object>
+      </resource>
+      <resource name="PlotStatus">
+        <object>Starea parcelei nu permite operația</object>
+      </resource>
+      <resource name="NotInSourceBom">
+        <object>Produsul specificat nu se află în BOM sursă</object>
+      </resource>
+      <resource name="NotInDestinationBom">
+        <object>Produsul specificat nu se află în BOM destinație</object>
+      </resource>
+      <resource name="SourcePrunitBom">
+        <object>Unitatea de procesare sursă nu deține informațiile BOM necesare</object>
+      </resource>
+      <resource name="DestinationPrunitBom">
+        <object>Unitatea de procesare destinație nu deține informațiile BOM necesare</object>
+      </resource>
+      <resource name="SourceLotBom">
+        <object>Lotul sursă nu deține informațiile BOM necesare</object>
+      </resource>
+      <resource name="DestinationLotBom">
+        <object>Lotul destinație nu deține informațiile BOM necesare</object>
+      </resource>
+      <resource name="SourceProductionLotBom">
+        <object>Lotul de producție sursă nu deține informațiile BOM necesare</object>
+      </resource>
+      <resource name="DestinationProductionLotBom">
+        <object>Lotul de producție destinație nu deține informațiile BOM necesare</object>
+      </resource>
+      <resource name="NoInputOrderLine">
+        <object>Nicio linie de comandă de intrare găsită</object>
+      </resource>
+      <resource name="TooManyInputOrderLines">
+        <object>Prea multe linii de comandă de intrare găsite</object>
+      </resource>
+      <resource name="NoOrderShipment">
+        <object>Informații expediere comandă lipsă</object>
+      </resource>
+      <resource name="NotMatchingOrderShipment">
+        <object>Transportul nu se potrivește expedierii comenzii</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.EmployeeResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>OK</object>
+      </resource>
+      <resource name="DbError">
+        <object>Eroare bază de date</object>
+      </resource>
+      <resource name="NotFound">
+        <object>Angajat negăsit</object>
+      </resource>
+      <resource name="MultipleFound">
+        <object>Căutarea a returnat mai multe înregistrări</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Informații angajat nevalide</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>După listă</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Toate</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.NumberMethod" ServiceOnly="false">
+      <resource name="OwnNumber">
+        <object>Numere proprii</object>
+      </resource>
+      <resource name="ParentNumber">
+        <object>Din comanda principală</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Închis</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Revocat</object>
+      </resource>
+      <resource name="OnHold">
+        <object>În așteptare</object>
+      </resource>
+      <resource name="Open">
+        <object>Deschidere</object>
+      </resource>
+      <resource name="Complete">
+        <object>Finalizare</object>
+      </resource>
+      <resource name="CompleteClosed">
+        <object>Finalizare &amp; închisă</object>
+      </resource>
+      <resource name="Dispatched">
+        <object>Expediat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderType" ServiceOnly="false">
+      <resource name="Customer">
+        <object>Vânzări</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Inventar</object>
+      </resource>
+      <resource name="Production">
+        <object>Producţie </object>
+      </resource>
+      <resource name="Transfer">
+        <object>Transferare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationSetType" ServiceOnly="true">
+      <resource name="Generic">
+        <object>Generic</object>
+      </resource>
+      <resource name="DefaultItem">
+        <object>Articol implicit</object>
+      </resource>
+      <resource name="DefaultPack">
+        <object>Pachet implicit</object>
+      </resource>
+      <resource name="DefaultStack">
+        <object>Stivă implicită</object>
+      </resource>
+      <resource name="DefaultPallet">
+        <object>Palet implicit</object>
+      </resource>
+      <resource name="DefaultContainer">
+        <object>Container implicit</object>
+      </resource>
+      <resource name="DefaultShipment">
+        <object>Transport implicit</object>
+      </resource>
+      <resource name="DefaultOrder">
+        <object>Comandă implicită</object>
+      </resource>
+      <resource name="DefaultOrderLine">
+        <object>Linie de comandă implicită</object>
+      </resource>
+      <resource name="DefaultInventory">
+        <object>Inventar implicit</object>
+      </resource>
+      <resource name="DefaultTransaction">
+        <object>Tranzacție implicită</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.DataStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Deschidere</object>
+      </resource>
+      <resource name="Closed">
+        <object>Închis</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Nevalid</object>
+      </resource>
+      <resource name="PendingClose">
+        <object>În așteptarea închiderii</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.UnitInventoryStatus" ServiceOnly="false">
+      <resource name="Available">
+        <object>Disponibil</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Reținut pentru QC</object>
+      </resource>
+      <resource name="Lost">
+        <object>Pierdut</object>
+      </resource>
+      <resource name="Reserved">
+        <object>Rezervat</object>
+      </resource>
+      <resource name="PickedUp">
+        <object>Preluat</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>Nu este în inventar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.CountStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>Negăsit</object>
+      </resource>
+      <resource name="Left">
+        <object>Stânga</object>
+      </resource>
+      <resource name="Entered">
+        <object>Introdus</object>
+      </resource>
+      <resource name="Found">
+        <object>Găsit</object>
+      </resource>
+      <resource name="New">
+        <object>Nou</object>
+      </resource>
+      <resource name="Error">
+        <object>Eroare</object>
+      </resource>
+      <resource name="RType">
+        <object>Stare nevalidă</object>
+      </resource>
+      <resource name="NotLeft">
+        <object>Nu a rămas</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nicio inventariere</object>
+      </resource>
+      <resource name="CountUnits">
+        <object>Numărare articole și pachete</object>
+      </resource>
+      <resource name="CountStacks">
+        <object>Numărare stive</object>
+      </resource>
+      <resource name="CountPallets">
+        <object>Numărare paleți</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeStatus" ServiceOnly="false">
+      <resource name="Active">
+        <object>Activ</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Revocat</object>
+      </resource>
+      <resource name="CountDone">
+        <object>Numărare terminată</object>
+      </resource>
+      <resource name="Completed">
+        <object>Finalizat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeType" ServiceOnly="false">
+      <resource name="Count">
+        <object>Numărătoare unitară</object>
+      </resource>
+      <resource name="Snapshot">
+        <object>Instantaneu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoAcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>După listă</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Toate</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Utilities.FormatText" ServiceOnly="false">
+      <resource name="Stack">
+        <object>Stivă</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Palet</object>
+      </resource>
+      <resource name="Order">
+        <object>Comandă:</object>
+      </resource>
+      <resource name="UnlimitedOrder">
+        <object>nelimitat</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>niciuna</object>
+      </resource>
+      <resource name="Packs">
+        <object>pachete</object>
+      </resource>
+      <resource name="Items">
+        <object>articole</object>
+      </resource>
+      <resource name="Pcs">
+        <object>buc.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PlanStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Nimic planificat</object>
+      </resource>
+      <resource name="Partial">
+        <object>Parțial planificat</object>
+      </resource>
+      <resource name="Complete">
+        <object>Finalizat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CarcassForm" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="Whole">
+        <object>Întreg</object>
+      </resource>
+      <resource name="Split">
+        <object>Împărțit</object>
+      </resource>
+      <resource name="Quartered">
+        <object>Împărțit în patru</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Creat</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Către inventar</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>De la inventar</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Către comandă</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>De la comandă</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Către colecție</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>De la colecție</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Șters</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Consumat</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>De-consumat</object>
+      </resource>
+      <resource name="Received">
+        <object>Returnat</object>
+      </resource>
+      <resource name="Returned">
+        <object>Returnat</object>
+      </resource>
+      <resource name="ToPack">
+        <object>Către pachet</object>
+      </resource>
+      <resource name="FromPack">
+        <object>De la pachet</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>De la locația de inventar</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>Către locația de inventar</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.RmAreaRelationType" ServiceOnly="false">
+      <resource name="NoRelation">
+        <object>Nesetat</object>
+      </resource>
+      <resource name="PoSupplier">
+        <object>Furnizor PO</object>
+      </resource>
+      <resource name="PoProducer">
+        <object>Producător PO</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.StationType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Stație</object>
+      </resource>
+      <resource name="InLoadbay">
+        <object>Recepție</object>
+      </resource>
+      <resource name="OutLoadbay">
+        <object>Livrare</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.IdContainer.IdContainerModel" ServiceOnly="false">
+      <resource name="welcome">
+        <object>Gata de lucru</object>
+      </resource>
+      <resource name="clear">
+        <object>Golire</object>
+      </resource>
+      <resource name="record">
+        <object>Înregistrare</object>
+      </resource>
+      <resource name="ExtId1">
+        <object>ID 1: </object>
+      </resource>
+      <resource name="ExtId2">
+        <object>ID 2: </object>
+      </resource>
+      <resource name="ExtCode">
+        <object>Număr la bord:  </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.LimitUnit" ServiceOnly="false">
+      <resource name="Months">
+        <object>Luni</object>
+      </resource>
+      <resource name="Days">
+        <object>Zile</object>
+      </resource>
+      <resource name="Hours">
+        <object>Ore</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

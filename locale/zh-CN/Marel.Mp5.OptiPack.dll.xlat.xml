@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="zh-CN">
+  <industry>
+    <type name="Marel.Mp5.OptiPack.Configuration.SystemType" ServiceOnly="true">
+      <resource name="Packing">
+        <object>包装工位</object>
+      </resource>
+      <resource name="Checkweigher">
+        <object>检重秤</object>
+      </resource>
+      <resource name="PackingServices">
+        <object>包装服务</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.OperationalStatus" ServiceOnly="false">
+      <resource name="NotRunning">
+        <object>未运行</object>
+      </resource>
+      <resource name="Working">
+        <object>工作</object>
+      </resource>
+      <resource name="Idle">
+        <object>空转</object>
+      </resource>
+      <resource name="NotKnown">
+        <object>未知</object>
+      </resource>
+      <resource name="NoService">
+        <object>无服务</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.PackingStationResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>确定</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>数据库错误</object>
+      </resource>
+      <resource name="LoadCachedData">
+        <object>从缓存中加载数据失败</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>无效工位 ID</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>获取远程对象错误</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>加载界面信息错误</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>加载服务器信息错误</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>远程呼叫失败</object>
+      </resource>
+      <resource name="LoadServiceSetup">
+        <object>加载服务设置错误</object>
+      </resource>
+      <resource name="InvalidProduct">
+        <object>未找到产品</object>
+      </resource>
+      <resource name="NotImplemented">
+        <object>未实施操作</object>
+      </resource>
+      <resource name="NoObject">
+        <object>无操作对象</object>
+      </resource>
+      <resource name="QueryFailed">
+        <object>从服务器中查询数据失败</object>
+      </resource>
+      <resource name="PackLoad">
+        <object>加载包装信息失败</object>
+      </resource>
+      <resource name="PackPrint">
+        <object>打印包装标签失败</object>
+      </resource>
+      <resource name="QcProcess">
+        <object>未配置 QC 过程</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.PresetTareType" ServiceOnly="true">
+      <resource name="None">
+        <object>无预置皮重</object>
+      </resource>
+      <resource name="List">
+        <object>使用产品列表皮重</object>
+      </resource>
+      <resource name="System">
+        <object>使用系统皮重</object>
+      </resource>
+      <resource name="Manual">
+        <object>使用手动皮重</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.TargetBatcherMethod" ServiceOnly="true">
+      <resource name="AbsMinimum">
+        <object>最小重量</object>
+      </resource>
+      <resource name="MinAverage">
+        <object>平均重量</object>
+      </resource>
+      <resource name="Echeck">
+        <object>E - 平均重量</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.A542ProgramParameters" ServiceOnly="false">
+      <resource name="ClosureCount.Description">
+        <object>终止计数指定某终止数。</object>
+      </resource>
+      <resource name="ClosureCount.DisplayName">
+        <object>终止计数。</object>
+      </resource>
+      <resource name="PluNumber.DisplayName">
+        <object>单品编号</object>
+      </resource>
+      <resource name="CloseTimeout.DisplayName">
+        <object>关闭超时</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.A542ProductParameters" ServiceOnly="false">
+      <resource name="ClearStatsAfterRound.DisplayName">
+        <object>周期后\n清除统计</object>
+      </resource>
+      <resource name="PacksInAverage.DisplayName">
+        <object>运行平均值\n包装数量</object>
+      </resource>
+      <resource name="UsePercentagesInTrackPack.DisplayName">
+        <object>在 TrackPack 切断中\n使用百分比</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.DelfordProgramParamters" ServiceOnly="false">
+      <resource name="MetalRejectGate.Description">
+        <object>金属废料卸料分拣门。</object>
+      </resource>
+      <resource name="MetalRejectGate.DisplayName">
+        <object>金属废料分拣门</object>
+      </resource>
+      <resource name="MetalPecPackTimeout.Description">
+        <object>金属 PEC 包装超时。</object>
+      </resource>
+      <resource name="MetalPecPackTimeout.DisplayName">
+        <object>金属 PEC 包装超时</object>
+      </resource>
+      <resource name="MetalPecFullTimeout.Description">
+        <object>金属 PEC 完全超时。</object>
+      </resource>
+      <resource name="MetalPecFullTimeout.DisplayName">
+        <object>金属 PEC 完全超时</object>
+      </resource>
+      <resource name="DistributionGraphStart.DisplayName">
+        <object>分布图启动</object>
+      </resource>
+      <resource name="DistributionGraphStep.DisplayName">
+        <object>分布图步骤</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.BatcherMethod" ServiceOnly="false">
+      <resource name="AbsMinimum">
+        <object>最小 Abs</object>
+      </resource>
+      <resource name="MinAverage">
+        <object>最小平均值</object>
+      </resource>
+      <resource name="ERule">
+        <object>电子规则</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.ParameterType" ServiceOnly="false">
+      <resource name="Value">
+        <object>值</object>
+      </resource>
+      <resource name="Weight">
+        <object>重量</object>
+      </resource>
+      <resource name="Length">
+        <object>长度</object>
+      </resource>
+      <resource name="Area">
+        <object>区域</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Data.StationDeviceStatus" ServiceOnly="false">
+      <resource name="Transmitting">
+        <object>传送中</object>
+      </resource>
+      <resource name="NoRemote">
+        <object>无远程</object>
+      </resource>
+      <resource name="NoServer">
+        <object>无工位</object>
+      </resource>
+      <resource name="Offline">
+        <object>离线</object>
+      </resource>
+      <resource name="Idle">
+        <object>空转</object>
+      </resource>
+      <resource name="Running">
+        <object>运行</object>
+      </resource>
+      <resource name="NoStatus">
+        <object>无设置</object>
+      </resource>
+      <resource name="Undefined">
+        <object>未知</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>不支持</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.BatcherSpeedAccuracy" ServiceOnly="false">
+      <resource name="Accuracy">
+        <object>1 (精确度)</object>
+      </resource>
+      <resource name="Two">
+        <object>2</object>
+      </resource>
+      <resource name="Three">
+        <object>3</object>
+      </resource>
+      <resource name="Four">
+        <object>4</object>
+      </resource>
+      <resource name="Five">
+        <object>5</object>
+      </resource>
+      <resource name="Speed">
+        <object>6 (速度)</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

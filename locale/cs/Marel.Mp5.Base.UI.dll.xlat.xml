@@ -1,0 +1,5430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="cs">
+  <industry>
+    <type name="Marel.Mp5.Base.UI.Windows.Forms.Programs.LogButton" ServiceOnly="true">
+      <resource name="Log">
+        <object>Protokol {0}</object>
+      </resource>
+      <resource name="RecordHistory">
+        <object>Historie záznamů</object>
+      </resource>
+      <resource name="LogExecutePrograms">
+        <object>Protokol spuštěných programů</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.WindowsApplicationContainer" ServiceOnly="false">
+      <resource name="ErrorInitializing">
+        <object>Během inicializace došlo k neošetřené výjimce.</object>
+      </resource>
+      <resource name="ErrorRunning">
+        <object>Během vykonávání programu došlo k neošetřené výjimce.</object>
+      </resource>
+      <resource name="Configuring">
+        <object>Probíhá konfigurace systému...</object>
+      </resource>
+      <resource name="Authenticating">
+        <object>Probíhá ověřování...</object>
+      </resource>
+      <resource name="PasswordExpired">
+        <object>Heslo vypršelo</object>
+      </resource>
+      <resource name="NotAuthenticated">
+        <object>Chybné uživatelské jméno nebo heslo</object>
+      </resource>
+      <resource name="Connecting">
+        <object>Probíhá připojení...</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Žádné spojení se serverem</object>
+      </resource>
+      <resource name="NoAccessToConfiguration">
+        <object>Daný uživatel nemá přístup k žádné z položek nabídky v této konfiguraci.</object>
+      </resource>
+      <resource name="LicenseLookupFailed">
+        <object>Všechny klientské licence jsou aktuálně používány.</object>
+      </resource>
+      <resource name="ReallyExit">
+        <object>Opravdu chcete opustit aplikaci Innova</object>
+      </resource>
+      <resource name="ReallyLogout">
+        <object>Opravdu se chcete odhlásit z aplikace Innova</object>
+      </resource>
+      <resource name="AllWindowsWillClose">
+        <object>Všech {0} oken bude uzavřeno!</object>
+      </resource>
+      <resource name="Warning">
+        <object>Výstraha</object>
+      </resource>
+      <resource name="KeyExpiring">
+        <object>Aplikace Innova využívá licenční klíč, který brzy vyprší. Poslední den plného provozu aplikace Innova při použití současného licenčního klíče je {0}</object>
+      </resource>
+      <resource name="KeyInvalid">
+        <object>Aktuálně nainstalovaný licenční klíč není platný pro stroj serveru Innova. Získejte nový licenční klíč.</object>
+      </resource>
+      <resource name="InitializeLockTimeout">
+        <object>Programy serveru se znovu konfigurují.
+Vyčkejte několik sekund a zkuste to znovu.</object>
+      </resource>
+      <resource name="InitilizeLockTimeoutCaption">
+        <object>Inicializace selhala</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.MainFrame" ServiceOnly="false">
+      <resource name="fileMenu">
+        <object>&amp;Soubor</object>
+      </resource>
+      <resource name="menuItemNewWindow">
+        <object>&amp;Nové okno</object>
+      </resource>
+      <resource name="menuItemCloseWindow">
+        <object>Zavřít &amp;okno</object>
+      </resource>
+      <resource name="menuItemCloseTab">
+        <object>&amp;Zavřít kartu</object>
+      </resource>
+      <resource name="menuItemPageSetup">
+        <object>N&amp;astavení stránky...</object>
+      </resource>
+      <resource name="menuItemPrint">
+        <object>&amp;Tisk</object>
+      </resource>
+      <resource name="menuItemPrintPreview">
+        <object>Ná&amp;hled tisku</object>
+      </resource>
+      <resource name="menuItemChangePassword">
+        <object>Změna h&amp;esla</object>
+      </resource>
+      <resource name="menuItemLogout">
+        <object>Odh&amp;lášení</object>
+      </resource>
+      <resource name="menuItemExit">
+        <object>&amp;Konec</object>
+      </resource>
+      <resource name="editMenu">
+        <object>Úpr&amp;avy</object>
+      </resource>
+      <resource name="menuItemUndo">
+        <object>&amp;Zpět</object>
+      </resource>
+      <resource name="menuItemRedo">
+        <object>&amp;Opakovat</object>
+      </resource>
+      <resource name="menuItemCut">
+        <object>&amp;Vyjmout</object>
+      </resource>
+      <resource name="menuItemCopy">
+        <object>&amp;Kopírovat</object>
+      </resource>
+      <resource name="menuItemPaste">
+        <object>V&amp;ložit</object>
+      </resource>
+      <resource name="menuItemDelete">
+        <object>V&amp;ymazat</object>
+      </resource>
+      <resource name="menuItemSelectAll">
+        <object>Vybrat &amp;vše</object>
+      </resource>
+      <resource name="viewMenu">
+        <object>&amp;Zobrazit</object>
+      </resource>
+      <resource name="toolbarsMenu">
+        <object>Panely &amp;nástrojů</object>
+      </resource>
+      <resource name="fontsizeMenu">
+        <object>V&amp;elikost písma</object>
+      </resource>
+      <resource name="menuItemErrorLog">
+        <object>&amp;Protokol chyb</object>
+      </resource>
+      <resource name="menuItemFullScreen">
+        <object>&amp;Celá obrazovka</object>
+      </resource>
+      <resource name="toolsMenu">
+        <object>&amp;Nástroje</object>
+      </resource>
+      <resource name="menuItemRegionalSettings">
+        <object>Místní n&amp;astavení...</object>
+      </resource>
+      <resource name="helpMenu">
+        <object>&amp;Nápověda</object>
+      </resource>
+      <resource name="menuItemAboutMPS">
+        <object>&amp;O aplikaci Innova...</object>
+      </resource>
+      <resource name="menuItemVersionInformation">
+        <object>&amp;Informace o verzi...</object>
+      </resource>
+      <resource name="menuItemApplicationHelp">
+        <object>Nápověda &amp;aplikace</object>
+      </resource>
+      <resource name="barCheckItem1">
+        <object>Nabídka</object>
+      </resource>
+      <resource name="statusBarErrorLog">
+        <object>Protokol chyb</object>
+      </resource>
+      <resource name="programName">
+        <object>Marel - Innova</object>
+      </resource>
+      <resource name="statusbarName">
+        <object>Stavový řádek</object>
+      </resource>
+      <resource name="menuItemExportPdf">
+        <object>&amp;PDF...</object>
+      </resource>
+      <resource name="menuItemExportHtml">
+        <object>&amp;HTML...</object>
+      </resource>
+      <resource name="menuItemExportText">
+        <object>&amp;Text...</object>
+      </resource>
+      <resource name="menuItemExportExcel">
+        <object>&amp;Excel...</object>
+      </resource>
+      <resource name="menuItemExportRtf">
+        <object>Formát &amp;RTF...</object>
+      </resource>
+      <resource name="menuItemExportGraphics">
+        <object>&amp;Obrázek...</object>
+      </resource>
+      <resource name="menuItemExportCsv">
+        <object>&amp;CSV...</object>
+      </resource>
+      <resource name="menuItemExportMht">
+        <object>&amp;MHT</object>
+      </resource>
+      <resource name="menuItemExport">
+        <object>&amp;Export</object>
+      </resource>
+      <resource name="barButtonItem4">
+        <object>Zavřít kartu</object>
+      </resource>
+      <resource name="barButtonItem5">
+        <object>Zavřít všechny karty</object>
+      </resource>
+      <resource name="barButtonItem6">
+        <object>Zavřít ostatní karty</object>
+      </resource>
+      <resource name="menuItemQuickTabs">
+        <object>Rychlé karty</object>
+      </resource>
+      <resource name="menuItemViewXlat">
+        <object>Zobrazit &amp;překlady...</object>
+      </resource>
+      <resource name="NoTranslations">
+        <object>Nebyly nalezeny žádné informace překladu.</object>
+      </resource>
+      <resource name="menuItemOptions">
+        <object>&amp;Možnosti...</object>
+      </resource>
+      <resource name="menuItemDocumentSystem">
+        <object>&amp;Systém dokumentů</object>
+      </resource>
+      <resource name="ApplicationHelp">
+        <object>Nápověda aplikace</object>
+      </resource>
+      <resource name="HelpNotImplemented">
+        <object>Nápověda aplikace není implementovaná</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.AboutMps" ServiceOnly="false">
+      <resource name="VersionText">
+        <object>Verze {0}</object>
+      </resource>
+      <resource name="CopyrightText">
+        <object>Copyright © {0} {1}</object>
+      </resource>
+      <resource name="OK">
+        <object>OK</object>
+      </resource>
+      <resource name="LicensedToText">
+        <object>Licence:</object>
+      </resource>
+      <resource name="ProductCodeText">
+        <object>Kód produktu:</object>
+      </resource>
+      <resource name="RightsReservedText">
+        <object>Všechna práva vyhrazena.</object>
+      </resource>
+      <resource name="LicenseKey">
+        <object>Licenční klíč:</object>
+      </resource>
+      <resource name="LicenseType">
+        <object>Typ:</object>
+      </resource>
+      <resource name="LicenseInstallDate">
+        <object>Datum instalace:</object>
+      </resource>
+      <resource name="LicenseExpiresOn">
+        <object>Končí:</object>
+      </resource>
+      <resource name="Permanent">
+        <object>Trvalá</object>
+      </resource>
+      <resource name="Temporary">
+        <object>Dočasná</object>
+      </resource>
+      <resource name="NoLicenseKey">
+        <object>Žádný instalovaný licenční klíč</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.StandardGridView" ServiceOnly="false">
+      <resource name="RecordViewButton">
+        <object>Zobrazení záznamu</object>
+      </resource>
+      <resource name="CloneButton">
+        <object>Klonovat</object>
+      </resource>
+      <resource name="AutofilterButton">
+        <object>Automatický filtr</object>
+      </resource>
+      <resource name="OperationsButton">
+        <object>Operace</object>
+      </resource>
+      <resource name="ConfirmButton">
+        <object>Potvrdit</object>
+      </resource>
+      <resource name="InsufficientAccess">
+        <object>Nedostatečná úroveň přístupu</object>
+      </resource>
+      <resource name="SaveChanges">
+        <object>Chcete uložit změny</object>
+      </resource>
+      <resource name="ClosingGrid">
+        <object>Probíhá zavírání mřížky</object>
+      </resource>
+      <resource name="TableViewButton">
+        <object>Zobrazení tabulky</object>
+      </resource>
+      <resource name="activeObjects">
+        <object>Aktivní</object>
+      </resource>
+      <resource name="inactiveObjects">
+        <object>Neaktivní</object>
+      </resource>
+      <resource name="bothObjects">
+        <object>Obojí</object>
+      </resource>
+      <resource name="objecttypes">
+        <object>Zobrazit objekty, které jsou</object>
+      </resource>
+      <resource name="XlatButton">
+        <object>Xlat</object>
+      </resource>
+      <resource name="ViewSql">
+        <object>SQL</object>
+      </resource>
+      <resource name="FirstButton">
+        <object>První</object>
+      </resource>
+      <resource name="PreviousButton">
+        <object>Předchozí</object>
+      </resource>
+      <resource name="NextButton">
+        <object>Další</object>
+      </resource>
+      <resource name="LastButton">
+        <object>Poslední</object>
+      </resource>
+      <resource name="AddNewButton">
+        <object>Přidat</object>
+      </resource>
+      <resource name="DeleteButton">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="ReloadConfigButton">
+        <object>Obnovit položku GUI</object>
+      </resource>
+      <resource name="RestoreDefaultsButton">
+        <object>Obnovit výchozí rozvržení</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Název</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Kód</object>
+      </resource>
+      <resource name="ShowPreview">
+        <object>Zobrazit podrobné informace</object>
+      </resource>
+      <resource name="DeleteCaption">
+        <object>Vymazat řádek (řádky)</object>
+      </resource>
+      <resource name="DeleteSingleRow">
+        <object>Chcete vymazat tento řádek?</object>
+      </resource>
+      <resource name="DeleteMultipleRows">
+        <object>Chcete vymazat {0} řádků?</object>
+      </resource>
+      <resource name="errExporting">
+        <object>Chyba při exportu mřížky.</object>
+      </resource>
+      <resource name="Exporting">
+        <object>Exportovat data</object>
+      </resource>
+      <resource name="printGrid">
+        <object>Vytisknout data</object>
+      </resource>
+      <resource name="errPrinting">
+        <object>Chyba při tisku dat.</object>
+      </resource>
+      <resource name="errPrintPreview">
+        <object>Chyba při náhledu dat.</object>
+      </resource>
+      <resource name="printPreview">
+        <object>Vytisknout náhled</object>
+      </resource>
+      <resource name="InvalidateCacheButton">
+        <object>Zneplatnit data v mezipaměti</object>
+      </resource>
+      <resource name="NoNullAllowed">
+        <object>Sloupec '{0}' neumožňuje použití nul.\n</object>
+      </resource>
+      <resource name="NoObjectSelected">
+        <object>Žádný vybraný objekt</object>
+      </resource>
+      <resource name="NoObjectSelectedCaption">
+        <object>Informace</object>
+      </resource>
+      <resource name="LoadedRowsAll">
+        <object>Nahrané řádky:všechny</object>
+      </resource>
+      <resource name="LoadedRows">
+        <object>Nahrané řádky</object>
+      </resource>
+      <resource name="SelectedRowCount">
+        <object>Vybraný počet řádků</object>
+      </resource>
+      <resource name="RefreshButton">
+        <object>Obnovit</object>
+      </resource>
+      <resource name="RawViewCaption">
+        <object>Nezpracované zobrazení</object>
+      </resource>
+      <resource name="ShowRawView">
+        <object>Nezpracované zobrazení</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.GuiNodes.Programming" ServiceOnly="true">
+      <resource name="GroupHeader">
+        <object>Nabídka</object>
+      </resource>
+      <resource name="GUINodes">
+        <object>GUI</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.LookupForm" ServiceOnly="false">
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Storno</object>
+      </resource>
+      <resource name="Text">
+        <object>Vybrat položku</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.CriteriaPopupWindow" ServiceOnly="false">
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Storno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.DevXPressReportViewerView" ServiceOnly="false">
+      <resource name="sendexptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="sendexptypetext">
+        <object>Text</object>
+      </resource>
+      <resource name="sendexptypecsv">
+        <object>Soubor oddělený čárkami</object>
+      </resource>
+      <resource name="sendexptypemht">
+        <object>Mht</object>
+      </resource>
+      <resource name="sendexptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="sendexptypertf">
+        <object>Textový soubor RTF</object>
+      </resource>
+      <resource name="sendexptypegraphics">
+        <object>Grafika</object>
+      </resource>
+      <resource name="exptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="exptypehtml">
+        <object>HTML</object>
+      </resource>
+      <resource name="exptypetext">
+        <object>Text</object>
+      </resource>
+      <resource name="exptypecsv">
+        <object>Soubor oddělený čárkami</object>
+      </resource>
+      <resource name="exptypemht">
+        <object>Mht</object>
+      </resource>
+      <resource name="exptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="exptypertf">
+        <object>Textový soubor RTF</object>
+      </resource>
+      <resource name="exptypegraphics">
+        <object>Grafika</object>
+      </resource>
+      <resource name="toolRefresh">
+        <object>Obnovit</object>
+      </resource>
+      <resource name="toolSearch">
+        <object>Vyhledat</object>
+      </resource>
+      <resource name="toolHandTool">
+        <object>Ruční nástroj</object>
+      </resource>
+      <resource name="toolPrintWithOptions">
+        <object>Tisk s možnostmi</object>
+      </resource>
+      <resource name="toolSpeedPrint">
+        <object>Tisk</object>
+      </resource>
+      <resource name="toolPrintSetup">
+        <object>Nastavení stránky</object>
+      </resource>
+      <resource name="toolMagnifier">
+        <object>Lupa</object>
+      </resource>
+      <resource name="toolZoomIn">
+        <object>Přiblížit</object>
+      </resource>
+      <resource name="toolZoomOut">
+        <object>Oddálit</object>
+      </resource>
+      <resource name="toolZoomOptions">
+        <object>Možnosti přiblížení</object>
+      </resource>
+      <resource name="toolFirstPage">
+        <object>První stránka</object>
+      </resource>
+      <resource name="toolPreviousPage">
+        <object>Předchozí stránka</object>
+      </resource>
+      <resource name="toolNextPage">
+        <object>Další stránka</object>
+      </resource>
+      <resource name="toolLastPage">
+        <object>Poslední stránka</object>
+      </resource>
+      <resource name="toolMultiplePages">
+        <object>Více stránek</object>
+      </resource>
+      <resource name="toolWatermark">
+        <object>Vodoznak</object>
+      </resource>
+      <resource name="toolExport">
+        <object>Exportovat</object>
+      </resource>
+      <resource name="toolEmail">
+        <object>E-mail</object>
+      </resource>
+      <resource name="htoolRefresh">
+        <object>Obnovit</object>
+      </resource>
+      <resource name="htoolSearch">
+        <object>Vyhledat</object>
+      </resource>
+      <resource name="htoolHandTool">
+        <object>Ruční nástroj</object>
+      </resource>
+      <resource name="htoolPrintWithOptions">
+        <object>Tisk s možnostmi</object>
+      </resource>
+      <resource name="htoolSpeedPrint">
+        <object>Tisk</object>
+      </resource>
+      <resource name="htoolPrintSetup">
+        <object>Nastavení stránky</object>
+      </resource>
+      <resource name="htoolMagnifier">
+        <object>Lupa</object>
+      </resource>
+      <resource name="htoolZoomIn">
+        <object>Přiblížit</object>
+      </resource>
+      <resource name="htoolZoomOut">
+        <object>Oddálit</object>
+      </resource>
+      <resource name="htoolZoomOptions">
+        <object>Možnosti přiblížení</object>
+      </resource>
+      <resource name="htoolFirstPage">
+        <object>První stránka</object>
+      </resource>
+      <resource name="htoolPreviousPage">
+        <object>Předchozí stránka</object>
+      </resource>
+      <resource name="htoolNextPage">
+        <object>Další stránka</object>
+      </resource>
+      <resource name="htoolLastPage">
+        <object>Poslední stránka</object>
+      </resource>
+      <resource name="htoolMultiplePages">
+        <object>Více stránek</object>
+      </resource>
+      <resource name="htoolWatermark">
+        <object>Vodoznak</object>
+      </resource>
+      <resource name="htoolExport">
+        <object>Exportovat</object>
+      </resource>
+      <resource name="htoolEmail">
+        <object>E-mail</object>
+      </resource>
+      <resource name="htoolDocMap">
+        <object>Zobrazit/skrýt mapu dokumentu</object>
+      </resource>
+      <resource name="pageWidth">
+        <object>Šířka stránky</object>
+      </resource>
+      <resource name="textWidth">
+        <object>Šířka textu</object>
+      </resource>
+      <resource name="toolRefreshWithOptions">
+        <object>Obnovit s možnostmi</object>
+      </resource>
+      <resource name="htoolRefreshWithOptions">
+        <object>Obnovit s možnostmi </object>
+      </resource>
+      <resource name="erropends">
+        <object>Nelze otevřít soubory dat pro zprávu</object>
+      </resource>
+      <resource name="pagexofx">
+        <object>Stránka {0} z {1}</object>
+      </resource>
+      <resource name="toolInvalidate">
+        <object>Zneplatnit</object>
+      </resource>
+      <resource name="htoolInvalidate">
+        <object>Zneplatnit položku gui zprávy</object>
+      </resource>
+      <resource name="toolShowSql">
+        <object>Sql</object>
+      </resource>
+      <resource name="htoolShowSql">
+        <object>Zobrazit sql </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsPreviewLocalizer" ServiceOnly="false">
+      <resource name="PreviewStringId.Button_Apply">
+        <object>Použít</object>
+      </resource>
+      <resource name="PreviewStringId.Button_Cancel">
+        <object>Storno</object>
+      </resource>
+      <resource name="PreviewStringId.Button_Help">
+        <object>Nápověda</object>
+      </resource>
+      <resource name="PreviewStringId.Button_Ok">
+        <object>OK</object>
+      </resource>
+      <resource name="PreviewStringId.EMail_From">
+        <object>Z</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_BottomMargin">
+        <object>Dolní okraj</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_Inch">
+        <object>Palce</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_LeftMargin">
+        <object>Levý okraj</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_Millimeter">
+        <object>mm</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_RightMargin">
+        <object>Pravý okraj</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_TopMargin">
+        <object>Horní okraj</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_BackgrColor">
+        <object>&amp;Barva...</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Background">
+        <object>&amp;Pozadí</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_CsvDocument">
+        <object>Dokument CSV</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Exit">
+        <object>U&amp;končit</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Export">
+        <object>&amp;Export do</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_File">
+        <object>&amp;Soubor</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_GraphicDocument">
+        <object>Grafický dokument</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_HtmDocument">
+        <object>Dokument HTML</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_MhtDocument">
+        <object>Dokument MHT</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_PageLayout">
+        <object>&amp;Rozvržení stránky</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_PageSetup">
+        <object>N&amp;astavení stránky...</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_PdfDocument">
+        <object>Dokument PDF</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Print">
+        <object>&amp;Tisk...</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_PrintDirect">
+        <object>T&amp;isk</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_RtfDocument">
+        <object>Textový dokument RTF</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Send">
+        <object>O&amp;deslat jako</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_TxtDocument">
+        <object>Textový dokument</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_View">
+        <object>&amp;Zobrazit</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ViewContinuous">
+        <object>&amp;Nepřerušovaný</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ViewFacing">
+        <object>&amp;Natočení</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ViewStatusbar">
+        <object>&amp;Stavový řádek</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ViewToolbar">
+        <object>&amp;Panel nástrojů</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Watermark">
+        <object>&amp;Vodoznak...</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_XlsDocument">
+        <object>Dokument Excel</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ZoomPageWidth">
+        <object>Šířka stránky</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ZoomTextWidth">
+        <object>Šířka textu</object>
+      </resource>
+      <resource name="PreviewStringId.MPForm_Lbl_Pages">
+        <object>Stránky</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_CreatingDocument">
+        <object>Probíhá vytváření dokumentu...</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_CustomDrawWarning">
+        <object>Výstraha!</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_EmptyDocument">
+        <object>Dokument neobsahuje žádné stránky.</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_FontInvalidNumber">
+        <object>Velikost písma nemůže být nastavena na nulu nebo záporné číslo</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_IncorrectPageRange">
+        <object>Toto není platný rozsah stránek</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_NeedPrinter">
+        <object>Žádné nainstalované tiskárny.</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_NotSupportedFont">
+        <object>Toto písmo zatím není podporované</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_PageMarginsWarning">
+        <object>Jeden nebo více okrajů jsou nastaveny mimo oblast tisku na stránce. Pokračovat?</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_UnavailableNetPrinter">
+        <object>Síťová tiskárna není k dispozici.</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_WrongPageSettings">
+        <object>Aktuální tiskárna nepodporuje zvolený formát papíru.\nPokračovat přesto v tisku?</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_WrongPrinter">
+        <object>Název tiskárny je neplatný. Zkontrolujte nastavení tiskárny.</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageDate">
+        <object>[Datum tisku]</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageNumber">
+        <object>[Strana č.]</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageNumberOfTotal">
+        <object>[Strana č. z počtu stran]</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageTime">
+        <object>[Čas tisku]</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageUserName">
+        <object>[Jméno uživatele]</object>
+      </resource>
+      <resource name="PreviewStringId.PreviewForm_Caption">
+        <object>Náhled</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterBmp">
+        <object>Formát rastrového obrázku BMP</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterCsv">
+        <object>Dokument CSV</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterEmf">
+        <object>Soubor EMF (Enhanced Windows Metafile)</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterGif">
+        <object>Soubor GIF (Graphics Interchange Format)</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterHtm">
+        <object>Dokument HTML</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterJpeg">
+        <object>Soubor JPEG (File Interchange Format)</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterMht">
+        <object>Dokument MHT</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterPdf">
+        <object>Dokument PDF</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterPng">
+        <object>Soubor PNG (Portable Network Graphics Format)</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterRtf">
+        <object>Textový dokument RTF</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterTiff">
+        <object>Soubor TIFF (Tag Image File Format)</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterTxt">
+        <object>Textový dokument</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterWmf">
+        <object>Soubor WMF (Windows Metafile)</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterXls">
+        <object>Dokument Excel</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_Title">
+        <object>Uložit jako</object>
+      </resource>
+      <resource name="PreviewStringId.SB_CurrentPageNo">
+        <object>Aktuální stránka č.:</object>
+      </resource>
+      <resource name="PreviewStringId.SB_PageInfo">
+        <object>{0} z {1}</object>
+      </resource>
+      <resource name="PreviewStringId.SB_PageNone">
+        <object>žádný</object>
+      </resource>
+      <resource name="PreviewStringId.SB_TotalPageNo">
+        <object>Celkový počet stran:</object>
+      </resource>
+      <resource name="PreviewStringId.SB_ZoomFactor">
+        <object>Faktor zvětšení:</object>
+      </resource>
+      <resource name="PreviewStringId.ScrollingInfo_Page">
+        <object>Strana</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Backgr">
+        <object>Pozadí</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Close">
+        <object>Zavřít náhled</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Customize">
+        <object>Přizpůsobit</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_EditPageHF">
+        <object>Záhlaví a zápatí</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Export">
+        <object>Exportovat dokument...</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_FirstPage">
+        <object>První stránka</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_HandTool">
+        <object>Ruční nástroj</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_LastPage">
+        <object>Poslední stránka</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Magnifier">
+        <object>Lupa</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Map">
+        <object>Mapa dokumentu</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_MultiplePages">
+        <object>Více stránek</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_NextPage">
+        <object>Další stránka</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_PageSetup">
+        <object>Nastavení stránky</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_PreviousPage">
+        <object>Předchozí stránka</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Print">
+        <object>Tisk</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_PrintDirect">
+        <object>Tisknout přímo</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Search">
+        <object>Vyhledat</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Send">
+        <object>Odeslat e-mail...</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Watermark">
+        <object>Vodoznak</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Zoom">
+        <object>Přiblížit</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_ZoomIn">
+        <object>Přiblížit</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_ZoomOut">
+        <object>Oddálit</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Direction_BackwardDiagonal">
+        <object>ZpětněDiagonální</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Direction_ForwardDiagonal">
+        <object>DopředuDiagonální</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Direction_Horizontal">
+        <object>Vodorovný</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Direction_Vertical">
+        <object>Svislý</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_HorzAlign_Center">
+        <object>Střed</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_HorzAlign_Left">
+        <object>Levý</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_HorzAlign_Right">
+        <object>Pravý</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ImageClip">
+        <object>Stříhat</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ImageStretch">
+        <object>Natáhnout</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ImageZoom">
+        <object>Přiblížit</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_PageRangeRgrItem_All">
+        <object>&amp;Vše</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_PageRangeRgrItem_Pages">
+        <object>&amp;Strany:</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_PictureDlg_Title">
+        <object>Vybrat obrázek</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_VertAlign_Bottom">
+        <object>Dolní</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_VertAlign_Middle">
+        <object>Střední</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_VertAlign_Top">
+        <object>Horní</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Asap">
+        <object>ASAP</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Confidential">
+        <object>DŮVĚRNÉ</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Copy">
+        <object>KOPIE</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_DoNotCopy">
+        <object>NEKOPÍROVAT</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Draft">
+        <object>NÁVRH</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Evaluation">
+        <object>HODNOCENÍ</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Original">
+        <object>ORIGINÁL</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Personal">
+        <object>OSOBNÍ</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Sample">
+        <object>VZOREK</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_TopSecret">
+        <object>PŘÍSNĚ TAJNÉ</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Urgent">
+        <object>NEODKLADNÉ</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ZOrderRgrItem_Behind">
+        <object>&amp;Za</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ZOrderRgrItem_InFront">
+        <object>Vepředu&amp;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.DevXPressMp5Report" ServiceOnly="false">
+      <resource name="pageNumber.Format">
+        <object>Strana {0}</object>
+      </resource>
+      <resource name="repDate">
+        <object>Datum:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.ErrorForm" ServiceOnly="false">
+      <resource name="this.Text">
+        <object>Chyba</object>
+      </resource>
+      <resource name="Details">
+        <object>Podrobnosti</object>
+      </resource>
+      <resource name="HideDetails">
+        <object>Skrýt podrobnosti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.RegionalSettings" ServiceOnly="false">
+      <resource name="OK">
+        <object>OK</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Storno</object>
+      </resource>
+      <resource name="RegionLabel">
+        <object>Oblast:</object>
+      </resource>
+      <resource name="WindowsTitle">
+        <object>Místní nastavení</object>
+      </resource>
+      <resource name="DefaultCultureName">
+        <object>Výchozí systémové nastavení</object>
+      </resource>
+      <resource name="CultureName">
+        <object>Kód</object>
+      </resource>
+      <resource name="DisplayName">
+        <object>Název</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.ChangePasswordForm" ServiceOnly="false">
+      <resource name="Username">
+        <object>Jméno uživatele:</object>
+      </resource>
+      <resource name="Password">
+        <object>Heslo:</object>
+      </resource>
+      <resource name="Confirm">
+        <object>Potvrzení hesla:</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Storno</object>
+      </resource>
+      <resource name="OK">
+        <object>Nastavit heslo</object>
+      </resource>
+      <resource name="NotMatching">
+        <object>Heslo a potvrzení hesla se neshodují</object>
+      </resource>
+      <resource name="WrongPassword">
+        <object>Nesprávné heslo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.SplashWindow" ServiceOnly="false">
+      <resource name="Connecting...">
+        <object>Probíhá připojení...</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.WindowsLogonForm" ServiceOnly="false">
+      <resource name="Username">
+        <object>Jméno uživatele:</object>
+      </resource>
+      <resource name="Password">
+        <object>Heslo:</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Storno</object>
+      </resource>
+      <resource name="OK">
+        <object>Přihlásit se</object>
+      </resource>
+      <resource name="Caption">
+        <object>Odhlášení Innova</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Controls.ProgressControl" ServiceOnly="false">
+      <resource name="LabelText">
+        <object>Probíhá načítání...</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Storno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsBarLocalizer" ServiceOnly="false">
+      <resource name="AddOrRemove">
+        <object>&amp;Přidat nebo odstranit tlačítka</object>
+      </resource>
+      <resource name="ResetBar">
+        <object>Opravdu chcete resetovat změny provedené na panelu nástrojů '{0}'?</object>
+      </resource>
+      <resource name="ResetBarCaption">
+        <object>Přizpůsobit</object>
+      </resource>
+      <resource name="ResetButton">
+        <object>&amp;Resetovat panel nástrojů</object>
+      </resource>
+      <resource name="CustomizeButton">
+        <object>&amp;Přizpůsobit ...</object>
+      </resource>
+      <resource name="ToolBarMenu">
+        <object>&amp;Resetovat$&amp;Vymazat$!&amp;Název$!Výcho&amp;zí styl$&amp;Pouze text (vždy)$Pouze &amp;text (v nabídkách)$Obrázky &amp;a text$!Začít &amp;skupinu$&amp;Viditelné$&amp;Naposledy použité</object>
+      </resource>
+      <resource name="ToolbarNameCaption">
+        <object>&amp;Název panelu nástrojů</object>
+      </resource>
+      <resource name="NewToolbarCaption">
+        <object>Nový panel nástrojů</object>
+      </resource>
+      <resource name="NewToolbarCustomNameFormat">
+        <object>Vlastní {0}</object>
+      </resource>
+      <resource name="RenameToolbarCaption">
+        <object>Přejmenovat panel nástrojů</object>
+      </resource>
+      <resource name="CustomizeWindowCaption">
+        <object>Přizpůsobení</object>
+      </resource>
+      <resource name="MenuAnimationSystem">
+        <object>(Výchozí systémové nastavení)</object>
+      </resource>
+      <resource name="MenuAnimationNone">
+        <object>Žádný</object>
+      </resource>
+      <resource name="MenuAnimationSlide">
+        <object>Posunout</object>
+      </resource>
+      <resource name="MenuAnimationFade">
+        <object>Zesvětlit</object>
+      </resource>
+      <resource name="MenuAnimationUnfold">
+        <object>Rozvinout</object>
+      </resource>
+      <resource name="MenuAnimationRandom">
+        <object>Náhodný</object>
+      </resource>
+      <resource name="RibbonToolbarAbove">
+        <object>&amp;Umístit panel nástrojů Rychlý přístup nad pás karet</object>
+      </resource>
+      <resource name="RibbonToolbarBelow">
+        <object>&amp;Umístit panel nástrojů Rychlý přístup pod pás karet</object>
+      </resource>
+      <resource name="RibbonToolbarAdd">
+        <object>&amp;Přidat do panelu nástrojů Rychlý přístup</object>
+      </resource>
+      <resource name="RibbonToolbarRemove">
+        <object>&amp;Odebrat z panelu nástrojů Rychlý přístup</object>
+      </resource>
+      <resource name="BarAllItems">
+        <object>(Všechny položky)</object>
+      </resource>
+      <resource name="BarUnassignedItems">
+        <object>(Nepřiřazené položky)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsEditorLocalizer" ServiceOnly="false">
+      <resource name="CaptionError">
+        <object>Chyba</object>
+      </resource>
+      <resource name="InvalidValueText">
+        <object>Neplatná hodnota</object>
+      </resource>
+      <resource name="CheckChecked">
+        <object>Zaškrtnuto</object>
+      </resource>
+      <resource name="CheckUnchecked">
+        <object>Nezaškrtnuto</object>
+      </resource>
+      <resource name="CheckIndeterminate">
+        <object>Neurčité</object>
+      </resource>
+      <resource name="DateEditToday">
+        <object>Dnes</object>
+      </resource>
+      <resource name="DateEditClear">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="OK">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="Cancel">
+        <object>&amp;Storno</object>
+      </resource>
+      <resource name="NavigatorFirstButtonHint">
+        <object>První</object>
+      </resource>
+      <resource name="NavigatorPreviousButtonHint">
+        <object>Předchozí</object>
+      </resource>
+      <resource name="NavigatorPreviousPageButtonHint">
+        <object>Předchozí stránka</object>
+      </resource>
+      <resource name="NavigatorNextButtonHint">
+        <object>Další</object>
+      </resource>
+      <resource name="NavigatorNextPageButtonHint">
+        <object>Další stránka</object>
+      </resource>
+      <resource name="NavigatorLastButtonHint">
+        <object>Poslední</object>
+      </resource>
+      <resource name="NavigatorAppendButtonHint">
+        <object>Připojit</object>
+      </resource>
+      <resource name="NavigatorRemoveButtonHint">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="NavigatorEditButtonHint">
+        <object>Upravit</object>
+      </resource>
+      <resource name="NavigatorEndEditButtonHint">
+        <object>Ukončit úpravu</object>
+      </resource>
+      <resource name="NavigatorCancelEditButtonHint">
+        <object>Zrušit úpravu</object>
+      </resource>
+      <resource name="NavigatorTextStringFormat">
+        <object>Záznam {0} z {1}</object>
+      </resource>
+      <resource name="PictureEditMenuCut">
+        <object>Vyjmout</object>
+      </resource>
+      <resource name="PictureEditMenuCopy">
+        <object>Kopírovat</object>
+      </resource>
+      <resource name="PictureEditMenuPaste">
+        <object>Vložit</object>
+      </resource>
+      <resource name="PictureEditMenuDelete">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="PictureEditMenuLoad">
+        <object>Nahrát</object>
+      </resource>
+      <resource name="PictureEditMenuSave">
+        <object>Uložit</object>
+      </resource>
+      <resource name="PictureEditOpenFileFilter">
+        <object>Rastrové soubory (*.bmp)|*.bmp|Soubory GIF (Graphics Interchange Format) (*.gif)|*.gif|Soubory JPEG (File Interchange Format) (*.jpg;*.jpeg)|*.jpg;*.jpeg|Soubory ikon (*.ico)|*.ico|Všechny soubory obrázků |*.bmp;*.gif;*.jpg;*.jpeg;*.ico;*.png;*.tif|Všechny soubory |*.*</object>
+      </resource>
+      <resource name="PictureEditSaveFileFilter">
+        <object>Rastrové soubory (*.bmp)|*.bmp|Soubory GIF (Graphics Interchange Format) (*.gif)|*.gif|Soubory JPEG (File Interchange Format) (*.jpg)|*.jpg</object>
+      </resource>
+      <resource name="PictureEditOpenFileTitle">
+        <object>Otevřeno</object>
+      </resource>
+      <resource name="PictureEditSaveFileTitle">
+        <object>Uložit jako</object>
+      </resource>
+      <resource name="PictureEditOpenFileError">
+        <object>Špatný formát obrázku</object>
+      </resource>
+      <resource name="PictureEditOpenFileErrorCaption">
+        <object>Chyba otevření</object>
+      </resource>
+      <resource name="LookUpEditValueIsNull">
+        <object>[HodnotaÚpravy je nulová]</object>
+      </resource>
+      <resource name="LookUpInvalidEditValueType">
+        <object>Neplatný typ VyhledáníÚpravy ÚpravyHodnoty.</object>
+      </resource>
+      <resource name="LookUpColumnDefaultName">
+        <object>Název</object>
+      </resource>
+      <resource name="MaskBoxValidateError">
+        <object>
+               Zadaná hodnota je neúplná.  Chcete ji opravit?
+
+
+               Ano – vraťte se do editoru a opravte hodnotu.
+               Ne – ponechte hodnotu tak jak je.
+               Storno – reset na předchozí hodnotu.
+            </object>
+      </resource>
+      <resource name="UnknownPictureFormat">
+        <object>Neznámý formát obrázku</object>
+      </resource>
+      <resource name="DataEmpty">
+        <object>Žádná obrazová data</object>
+      </resource>
+      <resource name="NotValidArrayLength">
+        <object>Žádná platná délka pole.</object>
+      </resource>
+      <resource name="ImagePopupEmpty">
+        <object>(Prázdný)</object>
+      </resource>
+      <resource name="ImagePopupPicture">
+        <object>(Obrázek)</object>
+      </resource>
+      <resource name="ColorTabCustom">
+        <object>Vlastní</object>
+      </resource>
+      <resource name="ColorTabWeb">
+        <object>Web</object>
+      </resource>
+      <resource name="ColorTabSystem">
+        <object>Systém</object>
+      </resource>
+      <resource name="CalcButtonMC">
+        <object>MC</object>
+      </resource>
+      <resource name="CalcButtonMR">
+        <object>MR</object>
+      </resource>
+      <resource name="CalcButtonMS">
+        <object>MS</object>
+      </resource>
+      <resource name="CalcButtonMx">
+        <object>M+</object>
+      </resource>
+      <resource name="CalcButtonSqrt">
+        <object>sqrt</object>
+      </resource>
+      <resource name="CalcButtonBack">
+        <object>Zpět</object>
+      </resource>
+      <resource name="CalcButtonCE">
+        <object>CE</object>
+      </resource>
+      <resource name="CalcButtonC">
+        <object>C</object>
+      </resource>
+      <resource name="CalcError">
+        <object>Chyba výpočtu</object>
+      </resource>
+      <resource name="TabHeaderButtonPrev">
+        <object>Posuv doleva</object>
+      </resource>
+      <resource name="TabHeaderButtonNext">
+        <object>Posuv doprava</object>
+      </resource>
+      <resource name="TabHeaderButtonClose">
+        <object>Zavřít</object>
+      </resource>
+      <resource name="XtraMessageBoxOkButtonText">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="XtraMessageBoxCancelButtonText">
+        <object>&amp;Storno</object>
+      </resource>
+      <resource name="XtraMessageBoxYesButtonText">
+        <object>&amp;Ano</object>
+      </resource>
+      <resource name="XtraMessageBoxNoButtonText">
+        <object>&amp;Ne</object>
+      </resource>
+      <resource name="XtraMessageBoxAbortButtonText">
+        <object>&amp;Zrušit</object>
+      </resource>
+      <resource name="XtraMessageBoxRetryButtonText">
+        <object>&amp;Opakovat</object>
+      </resource>
+      <resource name="XtraMessageBoxIgnoreButtonText">
+        <object>&amp;Ignorovat</object>
+      </resource>
+      <resource name="TextEditMenuUndo">
+        <object>&amp;Zpět</object>
+      </resource>
+      <resource name="TextEditMenuCut">
+        <object>&amp;Vyjmout</object>
+      </resource>
+      <resource name="TextEditMenuCopy">
+        <object>&amp;Kopírovat</object>
+      </resource>
+      <resource name="TextEditMenuPaste">
+        <object>&amp;Vložit</object>
+      </resource>
+      <resource name="TextEditMenuDelete">
+        <object>V&amp;ymazat</object>
+      </resource>
+      <resource name="TextEditMenuSelectAll">
+        <object>Vybrat &amp;vše</object>
+      </resource>
+      <resource name="FilterGroupAnd">
+        <object>A současně</object>
+      </resource>
+      <resource name="FilterGroupNotAnd">
+        <object>A ne současně</object>
+      </resource>
+      <resource name="FilterGroupNotOr">
+        <object>Ani</object>
+      </resource>
+      <resource name="FilterGroupOr">
+        <object>Nebo</object>
+      </resource>
+      <resource name="FilterClauseAnyOf">
+        <object>Libovolné z</object>
+      </resource>
+      <resource name="FilterClauseBeginsWith">
+        <object>Začíná</object>
+      </resource>
+      <resource name="FilterClauseBetween">
+        <object>Je mezi</object>
+      </resource>
+      <resource name="FilterClauseBetweenAnd">
+        <object>a</object>
+      </resource>
+      <resource name="FilterClauseContains">
+        <object>Obsahuje</object>
+      </resource>
+      <resource name="FilterClauseEndsWith">
+        <object>Končí</object>
+      </resource>
+      <resource name="FilterClauseEquals">
+        <object>Rovná se</object>
+      </resource>
+      <resource name="FilterClauseGreater">
+        <object>Je vyšší než</object>
+      </resource>
+      <resource name="FilterClauseGreaterOrEqual">
+        <object>Je vyšší nebo rovno</object>
+      </resource>
+      <resource name="FilterClauseIsNotNull">
+        <object>Není prázdné</object>
+      </resource>
+      <resource name="FilterClauseIsNull">
+        <object>Je prázdné</object>
+      </resource>
+      <resource name="FilterClauseLess">
+        <object>Je nižší než</object>
+      </resource>
+      <resource name="FilterClauseLessOrEqual">
+        <object>Je nižší nebo rovno</object>
+      </resource>
+      <resource name="FilterClauseLike">
+        <object>Je jako</object>
+      </resource>
+      <resource name="FilterClauseNoneOf">
+        <object>Není žádné z</object>
+      </resource>
+      <resource name="FilterClauseNotBetween">
+        <object>Není mezi</object>
+      </resource>
+      <resource name="FilterClauseDoesNotContain">
+        <object>Neobsahuje</object>
+      </resource>
+      <resource name="FilterClauseDoesNotEqual">
+        <object>Není rovno</object>
+      </resource>
+      <resource name="FilterClauseNotLike">
+        <object>Není jako</object>
+      </resource>
+      <resource name="FilterEmptyEnter">
+        <object>&lt;zadejte hodnotu&gt;</object>
+      </resource>
+      <resource name="FilterEmptyValue">
+        <object>&lt;prázdný&gt;</object>
+      </resource>
+      <resource name="FilterMenuConditionAdd">
+        <object>Přidat podmínku</object>
+      </resource>
+      <resource name="FilterMenuGroupAdd">
+        <object>Přidat skupinu</object>
+      </resource>
+      <resource name="FilterMenuClearAll">
+        <object>Vymazat vše</object>
+      </resource>
+      <resource name="FilterMenuRowRemove">
+        <object>Odstranit skupinu</object>
+      </resource>
+      <resource name="FilterToolTipNodeAdd">
+        <object>Přidá novou podmínku do této skupiny.</object>
+      </resource>
+      <resource name="FilterToolTipNodeRemove">
+        <object>Odstraní tuto podmínku.</object>
+      </resource>
+      <resource name="FilterToolTipNodeAction">
+        <object>Akce.</object>
+      </resource>
+      <resource name="FilterToolTipValueType">
+        <object>Porovná s hodnotou / hodnotou jiného pole.</object>
+      </resource>
+      <resource name="FilterToolTipElementAdd">
+        <object>Přidá první položku na seznam.</object>
+      </resource>
+      <resource name="FilterToolTipKeysAdd">
+        <object>(Použijte klávesu Vložit nebo Přidat)</object>
+      </resource>
+      <resource name="FilterToolTipKeysRemove">
+        <object>(Použijte klávesu Vymazat nebo Ubrat)</object>
+      </resource>
+      <resource name="ContainerAccessibleEditName">
+        <object>Ovládání úprav</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsGridLocalizer" ServiceOnly="false">
+      <resource name="FileIsNotFoundError">
+        <object>Soubor {0} nenalezen</object>
+      </resource>
+      <resource name="ColumnViewExceptionMessage">
+        <object> Chcete opravit tuto hodnotu?</object>
+      </resource>
+      <resource name="CustomizationCaption">
+        <object>Přizpůsobení</object>
+      </resource>
+      <resource name="CustomizationColumns">
+        <object>Sloupce</object>
+      </resource>
+      <resource name="CustomizationBands">
+        <object>Pásma</object>
+      </resource>
+      <resource name="FilterPanelCustomizeButton">
+        <object>Upravit filtr</object>
+      </resource>
+      <resource name="PopupFilterAll">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="PopupFilterCustom">
+        <object>(Vlastní)</object>
+      </resource>
+      <resource name="PopupFilterBlanks">
+        <object>(Prázdné)</object>
+      </resource>
+      <resource name="PopupFilterNonBlanks">
+        <object>(Neprázdné)</object>
+      </resource>
+      <resource name="CustomFilterDialogFormCaption">
+        <object>Vlastní automatický filtr</object>
+      </resource>
+      <resource name="CustomFilterDialogCaption">
+        <object>Zobrazit řádky v:</object>
+      </resource>
+      <resource name="CustomFilterDialogRadioAnd">
+        <object>&amp;A</object>
+      </resource>
+      <resource name="CustomFilterDialogRadioOr">
+        <object>&amp;Nebo</object>
+      </resource>
+      <resource name="CustomFilterDialogOkButton">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="CustomFilterDialogClearFilter">
+        <object>V&amp;ymazat filtr</object>
+      </resource>
+      <resource name="CustomFilterDialog2FieldCheck">
+        <object>Pole</object>
+      </resource>
+      <resource name="CustomFilterDialogCancelButton">
+        <object>&amp;Storno</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionEQU">
+        <object>rovná se</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionNEQ">
+        <object>není rovno</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionGT">
+        <object>je vyšší než</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionGTE">
+        <object>je vyšší nebo rovno</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionLT">
+        <object>je nižší než</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionLTE">
+        <object>je nižší nebo rovno</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionBlanks">
+        <object>prázdné</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionNonBlanks">
+        <object>neprázdné</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionLike">
+        <object>je jako</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionNotLike">
+        <object>není jako</object>
+      </resource>
+      <resource name="MenuFooterSum">
+        <object>Součet</object>
+      </resource>
+      <resource name="MenuFooterMin">
+        <object>Min</object>
+      </resource>
+      <resource name="MenuFooterMax">
+        <object>Max</object>
+      </resource>
+      <resource name="MenuFooterCount">
+        <object>Počet</object>
+      </resource>
+      <resource name="MenuFooterAverage">
+        <object>Průměr</object>
+      </resource>
+      <resource name="MenuFooterNone">
+        <object>Žádný</object>
+      </resource>
+      <resource name="MenuFooterSumFormat">
+        <object>SUM={0:#.##}</object>
+      </resource>
+      <resource name="MenuFooterMinFormat">
+        <object>MIN={0}</object>
+      </resource>
+      <resource name="MenuFooterMaxFormat">
+        <object>MAX={0}</object>
+      </resource>
+      <resource name="MenuFooterCountFormat">
+        <object>{0}</object>
+      </resource>
+      <resource name="MenuFooterAverageFormat">
+        <object>AVR={0:#.##}</object>
+      </resource>
+      <resource name="MenuColumnSortAscending">
+        <object>Setřídit vzestupně</object>
+      </resource>
+      <resource name="MenuColumnSortDescending">
+        <object>Setřídit sestupně</object>
+      </resource>
+      <resource name="MenuColumnGroup">
+        <object>Setřídit podle tohoto sloupce</object>
+      </resource>
+      <resource name="MenuColumnUnGroup">
+        <object>Zrušit skupinu</object>
+      </resource>
+      <resource name="MenuColumnColumnCustomization">
+        <object>Výběr sloupce</object>
+      </resource>
+      <resource name="MenuColumnBestFit">
+        <object>Přizpůsobit</object>
+      </resource>
+      <resource name="MenuColumnFilter">
+        <object>Filtrovatelné</object>
+      </resource>
+      <resource name="MenuColumnClearFilter">
+        <object>Vymazat filtr</object>
+      </resource>
+      <resource name="MenuColumnBestFitAllColumns">
+        <object>Přizpůsobit (všechny sloupce)</object>
+      </resource>
+      <resource name="MenuGroupPanelFullExpand">
+        <object>Zcela rozbalit</object>
+      </resource>
+      <resource name="MenuGroupPanelFullCollapse">
+        <object>Zcela sbalit</object>
+      </resource>
+      <resource name="MenuGroupPanelClearGrouping">
+        <object>Vymazat seskupení</object>
+      </resource>
+      <resource name="PrintDesignerGridView">
+        <object>Vytisknout nastavení (zobrazení mřížky)</object>
+      </resource>
+      <resource name="PrintDesignerCardView">
+        <object>Vytisknout nastavení (zobrazení karty)</object>
+      </resource>
+      <resource name="PrintDesignerBandedView">
+        <object>Vytisknout nastavení (zobrazení pásem)</object>
+      </resource>
+      <resource name="PrintDesignerBandHeader">
+        <object>ZáhlavíPásma</object>
+      </resource>
+      <resource name="MenuColumnGroupBox">
+        <object>Seskupit podle pole</object>
+      </resource>
+      <resource name="CardViewNewCard">
+        <object>Nová karta</object>
+      </resource>
+      <resource name="CardViewQuickCustomizationButton">
+        <object>Přizpůsobit</object>
+      </resource>
+      <resource name="CardViewQuickCustomizationButtonFilter">
+        <object>Filtr</object>
+      </resource>
+      <resource name="CardViewQuickCustomizationButtonSort">
+        <object>Třídění:</object>
+      </resource>
+      <resource name="GridGroupPanelText">
+        <object>Přetáhnutím sloupce sem bude provedeno seskupení podle tohoto sloupce</object>
+      </resource>
+      <resource name="GridNewRowText">
+        <object>Kliknutím sem přidáte nový řádek</object>
+      </resource>
+      <resource name="GridOutlookIntervals">
+        <object>Starší;Minulý měsíc;Dříve tohoto měsíce;Před třemi týdny;Před dvěma týdny;Minulý týden;;;;;;;;Včera;Dnes;Zítra;;;;;;;;Příští týden;Za dva týdny;Za tři týdny;Později tento měsíc;Další měsíc;Později než další měsíc;</object>
+      </resource>
+      <resource name="PrintDesignerDescription">
+        <object>Nastavení různých možností tisku aktuálního zobrazení.</object>
+      </resource>
+      <resource name="MenuFooterCustomFormat">
+        <object>Vlastní={0}</object>
+      </resource>
+      <resource name="MenuFooterCountGroupFormat">
+        <object>Počet={0}</object>
+      </resource>
+      <resource name="MenuColumnClearSorting">
+        <object>Vymazat třídění</object>
+      </resource>
+      <resource name="MenuColumnFilterEditor">
+        <object>Editor filtrů</object>
+      </resource>
+      <resource name="FilterBuilderOkButton">
+        <object>OK</object>
+      </resource>
+      <resource name="FilterBuilderCancelButton">
+        <object>Storno</object>
+      </resource>
+      <resource name="FilterBuilderApplyButton">
+        <object>Použít</object>
+      </resource>
+      <resource name="FilterBuilderCaption">
+        <object>Editor filtrů</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsNavBarLocalizer" ServiceOnly="false">
+      <resource name="NavPaneMenuShowMoreButtons">
+        <object>Zobrazit &amp;více tlačítek</object>
+      </resource>
+      <resource name="NavPaneMenuShowFewerButtons">
+        <object>Zobrazit &amp;méně tlačítek</object>
+      </resource>
+      <resource name="NavPaneMenuAddRemoveButtons">
+        <object>&amp;Přidat nebo odstranit tlačítka</object>
+      </resource>
+      <resource name="NavPaneChevronHint">
+        <object>Konfigurovat tlačítka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsReportLocalizer" ServiceOnly="false">
+      <resource name="Msg_FileNotFound">
+        <object>Soubor nenalezen.</object>
+      </resource>
+      <resource name="Msg_WrongReportClassName">
+        <object>Při deserializaci došlo k chybě – pravděpodobně špatný název třídy záznamu</object>
+      </resource>
+      <resource name="Msg_CreateReportInstance">
+        <object>Aktuálně upravovaná zpráva je jiného typu než ta, kterou se snažíte otevřít. &lt;br/&gt;Chcete přesto vybranou zprávu otevřít?</object>
+      </resource>
+      <resource name="Msg_FileCorrupted">
+        <object>Nelze nahrát zprávu. Soubor je možná poškozen nebo chybí sestava zprávy.</object>
+      </resource>
+      <resource name="Msg_FileContentCorrupted">
+        <object>Nelze nahrát rozvržení zprávy. Soubor je možná poškozen nebo obsahuje nesprávné informace.</object>
+      </resource>
+      <resource name="Msg_IncorrectArgument">
+        <object>Nesprávná hodnota argumentu</object>
+      </resource>
+      <resource name="Msg_InvalidMethodCall">
+        <object>Pro aktuální stav objektu je toto volání metody neplatné</object>
+      </resource>
+      <resource name="Msg_ScriptError">
+        <object>
+               Ve skriptech se vyskytly následující chyby:
+               {0}
+            </object>
+      </resource>
+      <resource name="Msg_ScriptExecutionError">
+        <object>
+               Ve skriptu se u procedury {0} vyskytly následující chyby:
+               {1}
+               Procedura {0} byla spuštěna, není možné ji volat znovu.
+            </object>
+      </resource>
+      <resource name="Msg_InvalidReportSource">
+        <object>Nelze nastavit jako následníka aktuální zprávy</object>
+      </resource>
+      <resource name="Msg_IncorrectBandType">
+        <object>Nesprávný typ pásma</object>
+      </resource>
+      <resource name="Msg_InvPropName">
+        <object>Neplatný název vlastnosti</object>
+      </resource>
+      <resource name="Msg_CantFitBarcodeToControlBounds">
+        <object>Hranice řízení pro čárový kód jsou příliš malé</object>
+      </resource>
+      <resource name="Msg_InvalidBarcodeText">
+        <object>V textu se vyskytují neplatné znaky</object>
+      </resource>
+      <resource name="Msg_InvalidBarcodeTextFormat">
+        <object>Neplatný formát textu</object>
+      </resource>
+      <resource name="Msg_CreateSomeInstance">
+        <object>Nelze vytvořit dvě instance třídy na formuláři</object>
+      </resource>
+      <resource name="Msg_DontSupportMulticolumn">
+        <object>Podrobné zprávy nepodporují více sloupců.</object>
+      </resource>
+      <resource name="Msg_FillDataError">
+        <object>Chyba při pokusu o naplnění zdroje dat. Byla vyvolána následující výjimka:</object>
+      </resource>
+      <resource name="Msg_CyclicBoormarks">
+        <object>Ve zprávě jsou cyklické záložky.</object>
+      </resource>
+      <resource name="Msg_LargeText">
+        <object>Text je příliš dlouhý.</object>
+      </resource>
+      <resource name="Msg_ScriptingPermissionErrorMessage">
+        <object>
+               Nemáte dostatečné oprávnění ke spuštění skriptů v této zprávě.
+
+               Podrobnosti:
+
+               {0}
+            </object>
+      </resource>
+      <resource name="Msg_ReportImporting">
+        <object>Probíhá import rozvržení zprávy. Čekejte…</object>
+      </resource>
+      <resource name="Msg_IncorrectPadding">
+        <object>Výplň by měla být větší nebo rovna 0.</object>
+      </resource>
+      <resource name="Msg_WarningControlsAreOverlapped">
+        <object>Výstraha exportu: Následující ovládací prvky se překrývají a jejich export do formátu HTML, XLS a RTF nemusí proběhnout správně ({0}).</object>
+      </resource>
+      <resource name="Msg_WarningControlsAreOutOfMargin">
+        <object>Varování tiskárny: Následující ovládací prvky jsou mimo pravé okraje stránky, což povede k tisku dalších stránek ({0}).</object>
+      </resource>
+      <resource name="Msg_ScriptingErrorTitle">
+        <object />
+      </resource>
+      <resource name="Msg_ErrorTitle">
+        <object>Chyba</object>
+      </resource>
+      <resource name="Msg_SerializationErrorTitle">
+        <object>Chyba serializace</object>
+      </resource>
+      <resource name="Cmd_InsertDetailReport">
+        <object>Vložit podrobnosti zprávy</object>
+      </resource>
+      <resource name="Cmd_InsertUnboundDetailReport">
+        <object>Nevázaný</object>
+      </resource>
+      <resource name="Cmd_ViewCode">
+        <object>Zobrazit &amp;kód</object>
+      </resource>
+      <resource name="Cmd_BringToFront">
+        <object>&amp;Přenést do popředí</object>
+      </resource>
+      <resource name="Cmd_SendToBack">
+        <object>&amp;Odeslat do pozadí</object>
+      </resource>
+      <resource name="Cmd_AlignToGrid">
+        <object>Vyrovnat s &amp;mřížkou</object>
+      </resource>
+      <resource name="Cmd_TopMargin">
+        <object>HorníOkraj</object>
+      </resource>
+      <resource name="Cmd_BottomMargin">
+        <object>DolníOkraj</object>
+      </resource>
+      <resource name="Cmd_ReportHeader">
+        <object>ZáhlavíZprávy</object>
+      </resource>
+      <resource name="Cmd_ReportFooter">
+        <object>ZápatíZprávy</object>
+      </resource>
+      <resource name="Cmd_PageHeader">
+        <object>ZáhlavíStránky</object>
+      </resource>
+      <resource name="Cmd_PageFooter">
+        <object>ZápatíStránky</object>
+      </resource>
+      <resource name="Cmd_GroupHeader">
+        <object>ZáhlavíSkupiny</object>
+      </resource>
+      <resource name="Cmd_GroupFooter">
+        <object>ZápatíSkupiny</object>
+      </resource>
+      <resource name="Cmd_Detail">
+        <object>Podrobnosti</object>
+      </resource>
+      <resource name="Cmd_DetailReport">
+        <object>PodrobnostiZprávy</object>
+      </resource>
+      <resource name="Cmd_RtfClear">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="Cmd_RtfLoad">
+        <object>Nahrát soubor...</object>
+      </resource>
+      <resource name="Cmd_TableInsert">
+        <object>&amp;Vložit</object>
+      </resource>
+      <resource name="Cmd_TableInsertRowAbove">
+        <object>*Řádek &amp;nahoru</object>
+      </resource>
+      <resource name="Cmd_TableInsertRowBelow">
+        <object>Řádek &amp;dolů</object>
+      </resource>
+      <resource name="Cmd_TableInsertColumnToLeft">
+        <object>Sloupec do&amp;leva</object>
+      </resource>
+      <resource name="Cmd_TableInsertColumnToRight">
+        <object>Sloupec do&amp;prava</object>
+      </resource>
+      <resource name="Cmd_TableInsertCell">
+        <object>&amp;Buňka</object>
+      </resource>
+      <resource name="Cmd_TableDelete">
+        <object>Vy&amp;mazat</object>
+      </resource>
+      <resource name="Cmd_TableDeleteRow">
+        <object>&amp;Řádek</object>
+      </resource>
+      <resource name="Cmd_TableDeleteColumn">
+        <object>&amp;Sloupec</object>
+      </resource>
+      <resource name="Cmd_TableDeleteCell">
+        <object>Buň&amp;ka</object>
+      </resource>
+      <resource name="Cmd_Cut">
+        <object>&amp;Vyjmout</object>
+      </resource>
+      <resource name="Cmd_Copy">
+        <object>Kopírova&amp;t</object>
+      </resource>
+      <resource name="Cmd_Paste">
+        <object>&amp;Vložit</object>
+      </resource>
+      <resource name="Cmd_Delete">
+        <object>&amp;Vymazat</object>
+      </resource>
+      <resource name="Cmd_Properties">
+        <object>V&amp;lastnosti</object>
+      </resource>
+      <resource name="Cmd_InsertBand">
+        <object>Vložit &amp;pásmo</object>
+      </resource>
+      <resource name="CatLayout">
+        <object>Rozvržení</object>
+      </resource>
+      <resource name="CatAppearance">
+        <object>Vzhled</object>
+      </resource>
+      <resource name="CatData">
+        <object>Data</object>
+      </resource>
+      <resource name="CatBehavior">
+        <object>Chování</object>
+      </resource>
+      <resource name="CatNavigation">
+        <object>Navigace</object>
+      </resource>
+      <resource name="CatPageSettings">
+        <object>NastaveníStránky</object>
+      </resource>
+      <resource name="CatUserDesigner">
+        <object>UživatelskýNávrh</object>
+      </resource>
+      <resource name="BandDsg_QuantityPerPage">
+        <object>jedno pásmo na stránku</object>
+      </resource>
+      <resource name="BandDsg_QuantityPerReport">
+        <object>jedno pásmo na zprávu</object>
+      </resource>
+      <resource name="UD_ReportDesigner">
+        <object>Návrh zprávy</object>
+      </resource>
+      <resource name="UD_Msg_ReportChanged">
+        <object>Zpráva byla upravena. Chcete uložit změny?</object>
+      </resource>
+      <resource name="UD_TTip_FileOpen">
+        <object>Otevřít soubor</object>
+      </resource>
+      <resource name="UD_TTip_FileSave">
+        <object>Uložit soubor</object>
+      </resource>
+      <resource name="UD_TTip_EditCut">
+        <object>Vyjmout</object>
+      </resource>
+      <resource name="UD_TTip_EditCopy">
+        <object>Kopírovat</object>
+      </resource>
+      <resource name="UD_TTip_EditPaste">
+        <object>Vložit</object>
+      </resource>
+      <resource name="UD_TTip_Undo">
+        <object>Zpět</object>
+      </resource>
+      <resource name="UD_TTip_Redo">
+        <object>Znovu</object>
+      </resource>
+      <resource name="UD_TTip_AlignToGrid">
+        <object>Vyrovnat s mřížkou</object>
+      </resource>
+      <resource name="UD_TTip_AlignLeft">
+        <object>Vyrovnat doleva</object>
+      </resource>
+      <resource name="UD_TTip_AlignVerticalCenters">
+        <object>Vyrovnat na střed</object>
+      </resource>
+      <resource name="UD_TTip_AlignRight">
+        <object>Vyrovnat doprava</object>
+      </resource>
+      <resource name="UD_TTip_AlignTop">
+        <object>Vyrovnat nahoru</object>
+      </resource>
+      <resource name="UD_TTip_AlignHorizontalCenters">
+        <object>Vyrovnat doprostřed</object>
+      </resource>
+      <resource name="UD_TTip_AlignBottom">
+        <object>Vyrovnat dolů</object>
+      </resource>
+      <resource name="UD_TTip_SizeToControlWidth">
+        <object>Vyrovnat šířku</object>
+      </resource>
+      <resource name="UD_TTip_SizeToGrid">
+        <object>Velikost podle mřížky</object>
+      </resource>
+      <resource name="UD_TTip_SizeToControlHeight">
+        <object>Vyrovnat výšku</object>
+      </resource>
+      <resource name="UD_TTip_SizeToControl">
+        <object>Vyrovnat velikost</object>
+      </resource>
+      <resource name="UD_TTip_HorizSpaceMakeEqual">
+        <object>Vyrovnat vodorovné rozestupy</object>
+      </resource>
+      <resource name="UD_TTip_HorizSpaceIncrease">
+        <object>Zvýšit vodorovné rozestupy</object>
+      </resource>
+      <resource name="UD_TTip_HorizSpaceDecrease">
+        <object>Snížit vodorovné rozestupy</object>
+      </resource>
+      <resource name="UD_TTip_HorizSpaceConcatenate">
+        <object>Odstranit vodorovné rozestupy</object>
+      </resource>
+      <resource name="UD_TTip_VertSpaceMakeEqual">
+        <object>Vyrovnat svislé rozestupy</object>
+      </resource>
+      <resource name="UD_TTip_VertSpaceIncrease">
+        <object>Zvýšit svislé rozestupy</object>
+      </resource>
+      <resource name="UD_TTip_VertSpaceDecrease">
+        <object>Snížit svislé rozestupy</object>
+      </resource>
+      <resource name="UD_TTip_VertSpaceConcatenate">
+        <object>Odstranit svislé rozestupy</object>
+      </resource>
+      <resource name="UD_TTip_CenterHorizontally">
+        <object>Vyrovnat vodorovně</object>
+      </resource>
+      <resource name="UD_TTip_CenterVertically">
+        <object>VyrovnatVodorovně</object>
+      </resource>
+      <resource name="UD_TTip_BringToFront">
+        <object>Přenést do popředí</object>
+      </resource>
+      <resource name="UD_TTip_SendToBack">
+        <object>Odeslat do pozadí</object>
+      </resource>
+      <resource name="UD_TTip_FormatBold">
+        <object>Tučné</object>
+      </resource>
+      <resource name="UD_TTip_FormatItalic">
+        <object>Kurzíva</object>
+      </resource>
+      <resource name="UD_TTip_FormatUnderline">
+        <object>Podtržené</object>
+      </resource>
+      <resource name="UD_TTip_FormatAlignLeft">
+        <object>Vyrovnat doleva</object>
+      </resource>
+      <resource name="UD_TTip_FormatCenter">
+        <object>Vystředit</object>
+      </resource>
+      <resource name="UD_TTip_FormatAlignRight">
+        <object>Vyrovnat doprava</object>
+      </resource>
+      <resource name="UD_TTip_FormatFontName">
+        <object>Název písma</object>
+      </resource>
+      <resource name="UD_TTip_FormatFontSize">
+        <object>Velikost písma</object>
+      </resource>
+      <resource name="UD_TTip_FormatForeColor">
+        <object>Barva popředí</object>
+      </resource>
+      <resource name="UD_TTip_FormatBackColor">
+        <object>Barva pozadí</object>
+      </resource>
+      <resource name="UD_TTip_FormatJustify">
+        <object>Vyrovnat</object>
+      </resource>
+      <resource name="UD_FormCaption">
+        <object>Návrh zprávy</object>
+      </resource>
+      <resource name="VS_XtraReportsToolboxCategoryName">
+        <object>Developer Express: Sestavy</object>
+      </resource>
+      <resource name="UD_XtraReportsToolboxCategoryName">
+        <object>Standardní ovládání</object>
+      </resource>
+      <resource name="UD_XtraReportsPointerItemCaption">
+        <object>Ukazatel</object>
+      </resource>
+      <resource name="Verb_EditBands">
+        <object>Upravit pásma...</object>
+      </resource>
+      <resource name="Verb_EditGroupFields">
+        <object>Upravit PoleSkupin...</object>
+      </resource>
+      <resource name="Verb_Import">
+        <object>Importovat...</object>
+      </resource>
+      <resource name="Verb_Save">
+        <object>Uložit...</object>
+      </resource>
+      <resource name="Verb_About">
+        <object>O programu...</object>
+      </resource>
+      <resource name="Verb_RTFClear">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="Verb_RTFLoad">
+        <object>Nahrát soubor...</object>
+      </resource>
+      <resource name="Verb_FormatString">
+        <object>FormátŘetězce</object>
+      </resource>
+      <resource name="Verb_SummaryWizard">
+        <object>Shrnutí...</object>
+      </resource>
+      <resource name="Verb_ReportWizard">
+        <object>Přizpůsobit zprávu pomocí průvodce</object>
+      </resource>
+      <resource name="Verb_Insert">
+        <object>Vložit...</object>
+      </resource>
+      <resource name="Verb_Delete">
+        <object>Vymazat...</object>
+      </resource>
+      <resource name="Verb_Bind">
+        <object>Vázat</object>
+      </resource>
+      <resource name="Verb_EditText">
+        <object>Upravit text</object>
+      </resource>
+      <resource name="FSForm_Lbl_Category">
+        <object>Kategorie </object>
+      </resource>
+      <resource name="FSForm_Lbl_Prefix">
+        <object>Předpona</object>
+      </resource>
+      <resource name="FSForm_Lbl_Suffix">
+        <object>Přípona</object>
+      </resource>
+      <resource name="FSForm_Lbl_CustomGeneral">
+        <object>Obecný formát nemá žádný zvláštní formát čísel</object>
+      </resource>
+      <resource name="FSForm_GrBox_Sample">
+        <object>Vzorek</object>
+      </resource>
+      <resource name="FSForm_Tab_StandardTypes">
+        <object>Standardní typy</object>
+      </resource>
+      <resource name="FSForm_Tab_Custom">
+        <object>Vlastní</object>
+      </resource>
+      <resource name="FSForm_Msg_BadSymbol">
+        <object>Nesprávný symbol</object>
+      </resource>
+      <resource name="FSForm_Btn_Delete">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="BCForm_Lbl_Property">
+        <object>Vlastnosti</object>
+      </resource>
+      <resource name="BCForm_Lbl_Binding">
+        <object>Vazby</object>
+      </resource>
+      <resource name="SSForm_Caption">
+        <object>Editor stylů</object>
+      </resource>
+      <resource name="SSForm_Btn_Close">
+        <object>Zavřít</object>
+      </resource>
+      <resource name="SSForm_Msg_NoStyleSelected">
+        <object>Žádné vybrané styly</object>
+      </resource>
+      <resource name="SSForm_Msg_MoreThanOneStyle">
+        <object>Vybrali jste více než jeden styl</object>
+      </resource>
+      <resource name="SSForm_Msg_SelectedStylesText">
+        <object> vybrané styly...</object>
+      </resource>
+      <resource name="SSForm_Msg_StyleSheetError">
+        <object>chyba StyluListu</object>
+      </resource>
+      <resource name="SSForm_Msg_InvalidFileFormat">
+        <object>Neplatný formát souboru</object>
+      </resource>
+      <resource name="SSForm_Msg_StyleNamePreviewPostfix">
+        <object> styl</object>
+      </resource>
+      <resource name="SSForm_Msg_FileFilter">
+        <object>Soubory StyluListu zprávy (*.repss)|*.repss|Všechny soubory (*.*)|*.*</object>
+      </resource>
+      <resource name="SSForm_TTip_AddStyle">
+        <object>Přidat styl</object>
+      </resource>
+      <resource name="SSForm_TTip_RemoveStyle">
+        <object>Odstranit styl</object>
+      </resource>
+      <resource name="SSForm_TTip_ClearStyles">
+        <object>Vymazat styly</object>
+      </resource>
+      <resource name="SSForm_TTip_PurgeStyles">
+        <object>Vymazat nepoužívané styly</object>
+      </resource>
+      <resource name="SSForm_TTip_SaveStyles">
+        <object>Uložit styly do souboru</object>
+      </resource>
+      <resource name="SSForm_TTip_LoadStyles">
+        <object>Nahrát styly ze souboru</object>
+      </resource>
+      <resource name="FindForm_Msg_FinishedSearching">
+        <object>Prohledávání dokumentu bylo dokončeno</object>
+      </resource>
+      <resource name="FindForm_Msg_TotalFound">
+        <object>Celkem nalezeno: </object>
+      </resource>
+      <resource name="RepTabCtl_HtmlView">
+        <object>Zobrazení HTML</object>
+      </resource>
+      <resource name="RepTabCtl_Preview">
+        <object>Náhled</object>
+      </resource>
+      <resource name="RepTabCtl_Designer">
+        <object>Designer</object>
+      </resource>
+      <resource name="PanelDesignMsg">
+        <object>Umístěte ovládací prvky sem, aby byly umístěny společně</object>
+      </resource>
+      <resource name="MultiColumnDesignMsg1">
+        <object>Prostor pro opakování sloupců</object>
+      </resource>
+      <resource name="MultiColumnDesignMsg2">
+        <object>Řídicí prvky umístěné zde nebudou vytištěny správně</object>
+      </resource>
+      <resource name="UD_Group_File">
+        <object>&amp;Soubor</object>
+      </resource>
+      <resource name="UD_Group_Edit">
+        <object>&amp;Upravit</object>
+      </resource>
+      <resource name="UD_Group_View">
+        <object>&amp;Zobrazit</object>
+      </resource>
+      <resource name="UD_Group_Format">
+        <object>Fo&amp;rmát</object>
+      </resource>
+      <resource name="UD_Group_Font">
+        <object>&amp;Písmo</object>
+      </resource>
+      <resource name="UD_Group_Justify">
+        <object>&amp;Vyrovnat</object>
+      </resource>
+      <resource name="UD_Group_Align">
+        <object>&amp;Vyrovnat</object>
+      </resource>
+      <resource name="UD_Group_MakeSameSize">
+        <object>&amp;Vyrovnat velikost</object>
+      </resource>
+      <resource name="UD_Group_HorizontalSpacing">
+        <object>&amp;Vodorovné rozestupy</object>
+      </resource>
+      <resource name="UD_Group_VerticalSpacing">
+        <object>&amp;Svislé rozestupy</object>
+      </resource>
+      <resource name="UD_Group_CenterInForm">
+        <object>&amp;Vycentrovat ve formuláři</object>
+      </resource>
+      <resource name="UD_Group_Order">
+        <object>&amp;Objednávka</object>
+      </resource>
+      <resource name="UD_Group_ToolbarsList">
+        <object>&amp;Panely nástrojů</object>
+      </resource>
+      <resource name="UD_Group_DockPanelsList">
+        <object>&amp;Okna</object>
+      </resource>
+      <resource name="UD_Capt_MainMenuName">
+        <object>Hlavní nabídka</object>
+      </resource>
+      <resource name="UD_Capt_ToolbarName">
+        <object>Hlavní panel nástrojů</object>
+      </resource>
+      <resource name="UD_Capt_LayoutToolbarName">
+        <object>Rozvržení panelu nástrojů</object>
+      </resource>
+      <resource name="UD_Capt_FormattingToolbarName">
+        <object>Probíhá formátování panelu nástrojů</object>
+      </resource>
+      <resource name="UD_Capt_StatusBarName">
+        <object>Stavový řádek</object>
+      </resource>
+      <resource name="UD_Capt_NewReport">
+        <object>&amp;Nový</object>
+      </resource>
+      <resource name="UD_Capt_NewWizardReport">
+        <object>Nový pomocí &amp;průvodce...</object>
+      </resource>
+      <resource name="UD_Capt_OpenFile">
+        <object>&amp;Otevřít...</object>
+      </resource>
+      <resource name="UD_Capt_SaveFile">
+        <object>&amp;Uložit</object>
+      </resource>
+      <resource name="UD_Capt_SaveFileAs">
+        <object>Uložit &amp;jako...</object>
+      </resource>
+      <resource name="UD_Capt_Exit">
+        <object>U&amp;končit</object>
+      </resource>
+      <resource name="UD_Capt_Cut">
+        <object>&amp;Vyjmout</object>
+      </resource>
+      <resource name="UD_Capt_Copy">
+        <object>&amp;Kopírovat</object>
+      </resource>
+      <resource name="UD_Capt_Paste">
+        <object>&amp;Vložit</object>
+      </resource>
+      <resource name="UD_Capt_Delete">
+        <object>&amp;Vymazat</object>
+      </resource>
+      <resource name="UD_Capt_SelectAll">
+        <object>Vybrat &amp;vše</object>
+      </resource>
+      <resource name="UD_Capt_Undo">
+        <object>&amp;Zpět</object>
+      </resource>
+      <resource name="UD_Capt_Redo">
+        <object>&amp;Znovu</object>
+      </resource>
+      <resource name="UD_Capt_ForegroundColor">
+        <object>Barva popře&amp;dí</object>
+      </resource>
+      <resource name="UD_Capt_BackGroundColor">
+        <object>Barva po&amp;zadí</object>
+      </resource>
+      <resource name="UD_Capt_FontBold">
+        <object>&amp;Tučné</object>
+      </resource>
+      <resource name="UD_Capt_FontItalic">
+        <object>&amp;Kurzíva</object>
+      </resource>
+      <resource name="UD_Capt_FontUnderline">
+        <object>&amp;Podtržené</object>
+      </resource>
+      <resource name="UD_Capt_JustifyLeft">
+        <object>&amp;Levý</object>
+      </resource>
+      <resource name="UD_Capt_JustifyCenter">
+        <object>&amp;Vystředit</object>
+      </resource>
+      <resource name="UD_Capt_JustifyRight">
+        <object>&amp;Pravý</object>
+      </resource>
+      <resource name="UD_Capt_JustifyJustify">
+        <object>&amp;Vyrovnat</object>
+      </resource>
+      <resource name="UD_Capt_AlignLefts">
+        <object>&amp;Levé</object>
+      </resource>
+      <resource name="UD_Capt_AlignCenters">
+        <object>&amp;Středy</object>
+      </resource>
+      <resource name="UD_Capt_AlignRights">
+        <object>&amp;Pravé</object>
+      </resource>
+      <resource name="UD_Capt_AlignTops">
+        <object>&amp;Horní</object>
+      </resource>
+      <resource name="UD_Capt_AlignMiddles">
+        <object>&amp;Střední</object>
+      </resource>
+      <resource name="UD_Capt_AlignBottoms">
+        <object>&amp;Dolní</object>
+      </resource>
+      <resource name="UD_Capt_AlignToGrid">
+        <object>podle &amp;mřížky</object>
+      </resource>
+      <resource name="UD_Capt_MakeSameSizeWidth">
+        <object>&amp;Šířka</object>
+      </resource>
+      <resource name="UD_Capt_MakeSameSizeSizeToGrid">
+        <object>Velikost podle mříž&amp;ky</object>
+      </resource>
+      <resource name="UD_Capt_MakeSameSizeHeight">
+        <object>&amp;Výška</object>
+      </resource>
+      <resource name="UD_Capt_MakeSameSizeBoth">
+        <object>&amp;Obojí</object>
+      </resource>
+      <resource name="UD_Capt_SpacingMakeEqual">
+        <object>Vy&amp;rovnat</object>
+      </resource>
+      <resource name="UD_Capt_SpacingIncrease">
+        <object>&amp;Zvýšit</object>
+      </resource>
+      <resource name="UD_Capt_SpacingDecrease">
+        <object>&amp;Snížit</object>
+      </resource>
+      <resource name="UD_Capt_SpacingRemove">
+        <object>&amp;Odstranit</object>
+      </resource>
+      <resource name="UD_Capt_CenterInFormHorizontally">
+        <object>&amp;Vodorovně</object>
+      </resource>
+      <resource name="UD_Capt_CenterInFormVertically">
+        <object>&amp;Svisle</object>
+      </resource>
+      <resource name="UD_Capt_OrderBringToFront">
+        <object>&amp;Přenést do popředí</object>
+      </resource>
+      <resource name="UD_Capt_OrderSendToBack">
+        <object>&amp;Odeslat do pozadí</object>
+      </resource>
+      <resource name="UD_Hint_NewReport">
+        <object>Vytvoří novou prázdnou zprávu</object>
+      </resource>
+      <resource name="UD_Hint_NewWizardReport">
+        <object>Vytvoří novou zprávu pomocí průvodce</object>
+      </resource>
+      <resource name="UD_Hint_OpenFile">
+        <object>Otevře zprávu</object>
+      </resource>
+      <resource name="UD_Hint_SaveFile">
+        <object>Uloží zprávu</object>
+      </resource>
+      <resource name="UD_Hint_SaveFileAs">
+        <object>Uloží zprávu pod novým jménem</object>
+      </resource>
+      <resource name="UD_Hint_Exit">
+        <object>Ukončí designer</object>
+      </resource>
+      <resource name="UD_Hint_Cut">
+        <object>Smaže řídicí prvek a kopíruje jej do schránky</object>
+      </resource>
+      <resource name="UD_Hint_Copy">
+        <object>Kopíruje řídicí prvek do schránky</object>
+      </resource>
+      <resource name="UD_Hint_Paste">
+        <object>Přidá řídicí prvek ze schránky</object>
+      </resource>
+      <resource name="UD_Hint_Delete">
+        <object>Vymaže řídicí prvek</object>
+      </resource>
+      <resource name="UD_Hint_SelectAll">
+        <object>Vybere všechny řídicí prvky v dokumentu</object>
+      </resource>
+      <resource name="UD_Hint_Undo">
+        <object>Vrátí poslední operaci</object>
+      </resource>
+      <resource name="UD_Hint_Redo">
+        <object>Znovu provede poslední operaci</object>
+      </resource>
+      <resource name="UD_Hint_ForegroundColor">
+        <object>Nastaví barvu popředí ovládacího prvku</object>
+      </resource>
+      <resource name="UD_Hint_BackGroundColor">
+        <object>Nastaví barvu pozadí ovládacího prvku</object>
+      </resource>
+      <resource name="UD_Hint_FontBold">
+        <object>Změní písmo na tučné</object>
+      </resource>
+      <resource name="UD_Hint_FontItalic">
+        <object>Změní písmo na kurzívu</object>
+      </resource>
+      <resource name="UD_Hint_FontUnderline">
+        <object>Změní písmo na podtržené</object>
+      </resource>
+      <resource name="UD_Hint_JustifyLeft">
+        <object>Vyrovná text řídicího prvku doleva</object>
+      </resource>
+      <resource name="UD_Hint_JustifyCenter">
+        <object>Vyrovná text řídicího prvku na střed</object>
+      </resource>
+      <resource name="UD_Hint_JustifyRight">
+        <object>Vyrovná text řídicího prvku doprava</object>
+      </resource>
+      <resource name="UD_Hint_JustifyJustify">
+        <object>Vyrovná text řídicího prvku</object>
+      </resource>
+      <resource name="UD_Hint_AlignLefts">
+        <object>Vyrovná vybrané řídicí prvky doleva</object>
+      </resource>
+      <resource name="UD_Hint_AlignCenters">
+        <object>Vyrovná středy vybraných řídicích prvků svisle</object>
+      </resource>
+      <resource name="UD_Hint_AlignRights">
+        <object>Vyrovná vybrané řídicí prvky doprava</object>
+      </resource>
+      <resource name="UD_Hint_AlignTops">
+        <object>Vyrovná středy vybraných řídicích prvků</object>
+      </resource>
+      <resource name="UD_Hint_AlignMiddles">
+        <object>Vyrovná středy vybraných řídicích prvků vodorovně</object>
+      </resource>
+      <resource name="UD_Hint_AlignBottoms">
+        <object>Vyrovná spodní strany vybraných řídicích prvků</object>
+      </resource>
+      <resource name="UD_Hint_AlignToGrid">
+        <object>Vyrovná polohy vybraných řídicích prvků podle mřížky</object>
+      </resource>
+      <resource name="UD_Hint_MakeSameSizeWidth">
+        <object>Vyrovná vybrané řídicí prvky na stejnou šířku</object>
+      </resource>
+      <resource name="UD_Hint_MakeSameSizeSizeToGrid">
+        <object>Upraví velikost vybraných řídicích prvků podle mřížky</object>
+      </resource>
+      <resource name="UD_Hint_MakeSameSizeHeight">
+        <object>Vyrovná vybrané řídicí prvky na stejnou výšku</object>
+      </resource>
+      <resource name="UD_Hint_MakeSameSizeBoth">
+        <object>Vyrovná velikost vybraných řídících prvků</object>
+      </resource>
+      <resource name="UD_Hint_SpacingMakeEqual">
+        <object>Vyrovná rozestup vybraných řídicích prvků</object>
+      </resource>
+      <resource name="UD_Hint_SpacingIncrease">
+        <object>Zvýší rozestup vybraných řídicích prvků</object>
+      </resource>
+      <resource name="UD_Hint_SpacingDecrease">
+        <object>Sníží rozestup vybraných řídicích prvků</object>
+      </resource>
+      <resource name="UD_Hint_SpacingRemove">
+        <object>Odstraní rozestup vybraných řídicích prvků</object>
+      </resource>
+      <resource name="UD_Hint_CenterInFormHorizontally">
+        <object>Vyrovná středy vybraných řídicích prvků vodorovně uvnitř pásma</object>
+      </resource>
+      <resource name="UD_Hint_CenterInFormVertically">
+        <object>Vyrovná středy vybraných řídicích prvků svisle uvnitř pásma</object>
+      </resource>
+      <resource name="UD_Hint_OrderBringToFront">
+        <object>Přenese vybrané řídicí prvky do popředí</object>
+      </resource>
+      <resource name="UD_Hint_OrderSendToBack">
+        <object>Přesune vybrané řídicí prvky do pozadí</object>
+      </resource>
+      <resource name="UD_Hint_ViewBars">
+        <object>Skryje nebo zobrazí {0}</object>
+      </resource>
+      <resource name="UD_Hint_ViewDockPanels">
+        <object>Skryje nebo zobrazí okno {0}</object>
+      </resource>
+      <resource name="UD_Hint_ViewTabs">
+        <object>Přepne na kartu {0}</object>
+      </resource>
+      <resource name="UD_Title_FieldList">
+        <object>Seznam polí</object>
+      </resource>
+      <resource name="UD_Title_ReportExplorer">
+        <object>Prohlížení zpráv</object>
+      </resource>
+      <resource name="UD_Title_PropertyGrid">
+        <object>Mřížka vlastností</object>
+      </resource>
+      <resource name="UD_Title_ToolBox">
+        <object>Nástroje</object>
+      </resource>
+      <resource name="STag_Name_Text">
+        <object>Text</object>
+      </resource>
+      <resource name="STag_Name_DataBinding">
+        <object>Vazby dat</object>
+      </resource>
+      <resource name="STag_Name_FormatString">
+        <object>Formát řetězce</object>
+      </resource>
+      <resource name="STag_Name_ForeColor">
+        <object>Barva popředí</object>
+      </resource>
+      <resource name="STag_Name_BackColor">
+        <object>Barva pozadí</object>
+      </resource>
+      <resource name="STag_Name_Font">
+        <object>Písmo</object>
+      </resource>
+      <resource name="STag_Name_LineDirection">
+        <object>Směr linky</object>
+      </resource>
+      <resource name="STag_Name_LineStyle">
+        <object>Styl linky</object>
+      </resource>
+      <resource name="STag_Name_LineWidth">
+        <object>Šířka linky</object>
+      </resource>
+      <resource name="STag_Name_CanGrow">
+        <object>Možnost růstu</object>
+      </resource>
+      <resource name="STag_Name_CanShrink">
+        <object>Možnost zmenšení</object>
+      </resource>
+      <resource name="STag_Name_Multiline">
+        <object>Více řádků</object>
+      </resource>
+      <resource name="STag_Name_Summary">
+        <object>Shrnutí</object>
+      </resource>
+      <resource name="STag_Name_Symbology">
+        <object>Symbolika</object>
+      </resource>
+      <resource name="STag_Name_Module">
+        <object>Modul</object>
+      </resource>
+      <resource name="STag_Name_ShowText">
+        <object>Zobrazit text</object>
+      </resource>
+      <resource name="STag_Name_SegmentWidth">
+        <object>Šířka segmentu</object>
+      </resource>
+      <resource name="STag_Name_Checked">
+        <object>Zaškrtnuto</object>
+      </resource>
+      <resource name="STag_Name_Image">
+        <object>Obrázek</object>
+      </resource>
+      <resource name="STag_Name_ImageUrl">
+        <object>Url obrázku</object>
+      </resource>
+      <resource name="STag_Name_ImageSizing">
+        <object>Změna velikosti obrázku</object>
+      </resource>
+      <resource name="STag_Name_ReportSource">
+        <object>Zdroj zprávy</object>
+      </resource>
+      <resource name="STag_Name_PreviewRowCount">
+        <object>Náhled počtu řádků</object>
+      </resource>
+      <resource name="STag_Name_ShrinkSubReportIconArea">
+        <object>Zmenšit plochu ikon podzprávy</object>
+      </resource>
+      <resource name="STag_Name_PageInfo">
+        <object>Informace o stránce</object>
+      </resource>
+      <resource name="STag_Name_StartPageNumber">
+        <object>Úvodní číslo stránky</object>
+      </resource>
+      <resource name="STag_Name_Format">
+        <object>Formát</object>
+      </resource>
+      <resource name="STag_Name_KeepTogether">
+        <object>Udržovat pohromadě</object>
+      </resource>
+      <resource name="STag_Name_Bands">
+        <object>Pásma</object>
+      </resource>
+      <resource name="STag_Name_Height">
+        <object>Výška</object>
+      </resource>
+      <resource name="STag_Name_RepeatEveryPage">
+        <object>Opakovat každou stránku</object>
+      </resource>
+      <resource name="STag_Name_PrintAtBottom">
+        <object>Tisk na spodní stranu</object>
+      </resource>
+      <resource name="STag_Name_GroupFields">
+        <object>Seskupovat pole</object>
+      </resource>
+      <resource name="STag_Name_SortFields">
+        <object>Třídit pole</object>
+      </resource>
+      <resource name="STag_Name_GroupUnion">
+        <object>Spojení skupiny</object>
+      </resource>
+      <resource name="STag_Name_Level">
+        <object>Úroveň</object>
+      </resource>
+      <resource name="STag_Name_ColumnMode">
+        <object>Režim sloupce</object>
+      </resource>
+      <resource name="STag_Name_ColumnCount">
+        <object>Počet sloupců</object>
+      </resource>
+      <resource name="STag_Name_ColumnWidth">
+        <object>Šírka sloupců</object>
+      </resource>
+      <resource name="STag_Name_ColumnSpacing">
+        <object>Rozestup sloupců</object>
+      </resource>
+      <resource name="STag_Name_Direction">
+        <object>Směr</object>
+      </resource>
+      <resource name="STag_Name_Watermark">
+        <object>Vodoznak</object>
+      </resource>
+      <resource name="STag_Name_ReportUnit">
+        <object>Jednotka zprávy</object>
+      </resource>
+      <resource name="STag_Name_DataSource">
+        <object>Zdroj dat</object>
+      </resource>
+      <resource name="STag_Name_DataMember">
+        <object>Datový člen</object>
+      </resource>
+      <resource name="STag_Name_DataAdapter">
+        <object>Datový adaptér</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsTreeListLocalizer" ServiceOnly="false">
+      <resource name="MenuFooterSum">
+        <object>Součet</object>
+      </resource>
+      <resource name="MenuFooterMin">
+        <object>Min</object>
+      </resource>
+      <resource name="MenuFooterMax">
+        <object>Max</object>
+      </resource>
+      <resource name="MenuFooterCount">
+        <object>Počet</object>
+      </resource>
+      <resource name="MenuFooterAverage">
+        <object>Průměr</object>
+      </resource>
+      <resource name="MenuFooterNone">
+        <object>Žádný</object>
+      </resource>
+      <resource name="MenuFooterAllNodes">
+        <object>VšechnyUzly</object>
+      </resource>
+      <resource name="MenuFooterSumFormat">
+        <object>SUM={0:#.##}</object>
+      </resource>
+      <resource name="MenuFooterMinFormat">
+        <object>MIN={0}</object>
+      </resource>
+      <resource name="MenuFooterMaxFormat">
+        <object>MAX={0}</object>
+      </resource>
+      <resource name="MenuFooterCountFormat">
+        <object>{0}</object>
+      </resource>
+      <resource name="MenuFooterAverageFormat">
+        <object>AVR={0:#.##}</object>
+      </resource>
+      <resource name="MenuColumnSortAscending">
+        <object>Setřídit vzestupně</object>
+      </resource>
+      <resource name="MenuColumnSortDescending">
+        <object>Setřídit sestupně</object>
+      </resource>
+      <resource name="MenuColumnColumnCustomization">
+        <object>Výběr sloupce</object>
+      </resource>
+      <resource name="MenuColumnBestFit">
+        <object>Přizpůsobit</object>
+      </resource>
+      <resource name="MenuColumnBestFitAllColumns">
+        <object>Přizpůsobit (všechny sloupce)</object>
+      </resource>
+      <resource name="ColumnCustomizationText">
+        <object>Přizpůsobení</object>
+      </resource>
+      <resource name="ColumnNamePrefix">
+        <object>slo</object>
+      </resource>
+      <resource name="PrintDesignerHeader">
+        <object>Nastavení tisku</object>
+      </resource>
+      <resource name="PrintDesignerDescription">
+        <object>Nastavení různých možností tisku aktuálního seznamu stromu.</object>
+      </resource>
+      <resource name="InvalidNodeExceptionText">
+        <object> Chcete opravit tuto hodnotu?</object>
+      </resource>
+      <resource name="MultiSelectMethodNotSupported">
+        <object>Zadanou metodu nelze použít pokud není aktivní MožnostiChování.VícenásobnýVýběr.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsVGridLocalizer" ServiceOnly="false">
+      <resource name="RowCustomizationText">
+        <object>Přizpůsobení</object>
+      </resource>
+      <resource name="RowCustomizationNewCategoryFormText">
+        <object>Nová kategorie</object>
+      </resource>
+      <resource name="RowCustomizationNewCategoryFormLabelText">
+        <object>Titulek:</object>
+      </resource>
+      <resource name="RowCustomizationNewCategoryText">
+        <object>&amp;Nový...</object>
+      </resource>
+      <resource name="RowCustomizationDeleteCategoryText">
+        <object>V&amp;ymazat</object>
+      </resource>
+      <resource name="RowCustomizationTabPageCategoriesText">
+        <object>Kategorie</object>
+      </resource>
+      <resource name="RowCustomizationTabPageRowsText">
+        <object>Řádky</object>
+      </resource>
+      <resource name="InvalidRecordExceptionText">
+        <object> Chcete opravit tuto hodnotu?</object>
+      </resource>
+      <resource name="StyleCreatorName">
+        <object>TvorbaVlastníhoStylu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.VersionInformation" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Informace o verzi aplikace Innova</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.BrowseDocumentForm" ServiceOnly="false">
+      <resource name="simpleButtonCancel.Text">
+        <object>Storno</object>
+      </resource>
+      <resource name="simpleButtonOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="gridColumnTitle.Caption">
+        <object>Záhlaví</object>
+      </resource>
+      <resource name="gridColumnUrl.Caption">
+        <object>Url</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DeleteConfirmForm" ServiceOnly="false">
+      <resource name="SelectMethod">
+        <object>Vyberte, která metoda se má použít při vymazání dokumentu '{0}':</object>
+      </resource>
+      <resource name="Text">
+        <object>Vymazat dokument</object>
+      </resource>
+      <resource name="radioGroup.Properties.Items.Item[0].Description">
+        <object>Vymazat dokument</object>
+      </resource>
+      <resource name="radioGroup.Properties.Items.Item[1].Description">
+        <object>Odstraní pouze přidružení k objektu, ale zachová samotný dokument</object>
+      </resource>
+      <resource name="simpleButtonOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="simpleButtonCancel.Text">
+        <object>Storno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentEditRecordForm" ServiceOnly="false">
+      <resource name="Text">
+        <object>Dokument</object>
+      </resource>
+      <resource name="simpleButtonOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="simpleButtonCancel.Text">
+        <object>Storno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentEditRecordUC" ServiceOnly="false">
+      <resource name="labelTitle.Text">
+        <object>Záhlaví</object>
+      </resource>
+      <resource name="labelHelpContext.Text">
+        <object>Název kontextu nápovědy</object>
+      </resource>
+      <resource name="labelAccessLevel.Text">
+        <object>Úroveň přístupu</object>
+      </resource>
+      <resource name="checkEditAssociate.Text">
+        <object>Přiřadit dokument k tomuto objektu:</object>
+      </resource>
+      <resource name="groupControlDocument.Text">
+        <object>Dokument</object>
+      </resource>
+      <resource name="radioButtonUrl.Text">
+        <object>URL</object>
+      </resource>
+      <resource name="radioButtonFileDoc.Text">
+        <object>Vložený dokument</object>
+      </resource>
+      <resource name="buttonView.ToolTip">
+        <object>Zobrazit dokument</object>
+      </resource>
+      <resource name="buttonUpload.ToolTip">
+        <object>Nahraje tento dokument do databáze</object>
+      </resource>
+      <resource name="buttonDownload.ToolTip">
+        <object>Stáhne tento dokument do vašeho počítače</object>
+      </resource>
+      <resource name="buttonClear.ToolTip">
+        <object>Vymaže tento dokument z databáze</object>
+      </resource>
+      <resource name="NoNullValues">
+        <object>Sloupec {0} neumožňuje použití prázdných hodnot.</object>
+      </resource>
+      <resource name="Confirm">
+        <object>Potvrdit</object>
+      </resource>
+      <resource name="DocumentInfoFormat">
+        <object>Soubor {0}, {1:###,###,###,##0} bytů</object>
+      </resource>
+      <resource name="LoadingDocument">
+        <object>Probíhá načítání dokumentu...</object>
+      </resource>
+      <resource name="CannotLoad">
+        <object>Nelze načíst dokument: {0}</object>
+      </resource>
+      <resource name="LoadDocument">
+        <object>Načíst dokument</object>
+      </resource>
+      <resource name="SaveFileFormats">
+        <object>Soubory *.{0}|*.{0}|Všechny soubory|*.*</object>
+      </resource>
+      <resource name="CannotSave">
+        <object>Nelze uložit dokument: {0}</object>
+      </resource>
+      <resource name="SaveDocument">
+        <object>Uložit dokument</object>
+      </resource>
+      <resource name="BadUrl">
+        <object>Zadaná adresa URL není ve správném formátu. Webové odkazy musí začínat „http://” a odkazy na soubory musí začínat „\\” nebo „file: / /” nebo písmenem jednotky.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentUC" ServiceOnly="false">
+      <resource name="New">
+        <object>Nový</object>
+      </resource>
+      <resource name="NewHint">
+        <object>Vytvoří dokument</object>
+      </resource>
+      <resource name="Add">
+        <object>Přidat</object>
+      </resource>
+      <resource name="AddHint">
+        <object>Přidá vytvořený dokument do zadaného kontextu, ve kterém je umístěný</object>
+      </resource>
+      <resource name="Edit">
+        <object>Upravit</object>
+      </resource>
+      <resource name="EditHint">
+        <object>Upravuje preference dokumentu</object>
+      </resource>
+      <resource name="Delete">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="DeleteHint">
+        <object>Vymaže dokument ze zadaného kontextu nebo ze všech kontextů uvnitř systému</object>
+      </resource>
+      <resource name="Save">
+        <object>Uložit</object>
+      </resource>
+      <resource name="SaveHint">
+        <object>Uloží tento dokument do databáze</object>
+      </resource>
+      <resource name="ActiveFilter">
+        <object>Aktivní filtr:</object>
+      </resource>
+      <resource name="HelpContext">
+        <object>Kontext nápovědy:</object>
+      </resource>
+      <resource name="Object">
+        <object>Objekt:</object>
+      </resource>
+      <resource name="SelectDocumentAssociate">
+        <object>Vybere dokument pro přiřazení k objektu "{0}"</object>
+      </resource>
+      <resource name="DocumentSystem">
+        <object>Systém dokumentů</object>
+      </resource>
+      <resource name="NoDocuments">
+        <object>Nenalezeny žádné dokumenty</object>
+      </resource>
+      <resource name="Documents">
+        <object>Dokumenty</object>
+      </resource>
+      <resource name="BadUrlForRendering">
+        <object>Vybraný dokument nemohl být vydán, protože má neplatnou adresu URL.</object>
+      </resource>
+      <resource name="RenderDocument">
+        <object>Zobrazit tento dokument</object>
+      </resource>
+      <resource name="BadDocument">
+        <object>Vybraný dokument nemohl být vydán, protože je prázdný. Upravte dokument a přidávat nový vložený dokument nebo adresu URL.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentEditUC" ServiceOnly="false">
+      <resource name="Refresh">
+        <object>Obnovit</object>
+      </resource>
+      <resource name="NewNode">
+        <object>Nový dokument</object>
+      </resource>
+      <resource name="DeleteNode">
+        <object>Vymazat dokument</object>
+      </resource>
+      <resource name="Confirm">
+        <object>Potvrdit</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Storno</object>
+      </resource>
+      <resource name="Contents">
+        <object>Strom dokumentu</object>
+      </resource>
+      <resource name="Singular">
+        <object>Jednotlivé dokumenty</object>
+      </resource>
+      <resource name="CorrectData">
+        <object>Chcete opravit data?</object>
+      </resource>
+      <resource name="DataError">
+        <object>Chyba dat</object>
+      </resource>
+      <resource name="Storing">
+        <object>Probíhá ukládání dokumentu...</object>
+      </resource>
+      <resource name="LoadingTreeNode">
+        <object>{0} (načítání)</object>
+      </resource>
+      <resource name="NewDocument">
+        <object>(nový dokument)</object>
+      </resource>
+      <resource name="ConfirmDeleteAndChild">
+        <object>Opravdu chcete odstranit dokument "{0}" a všechny jeho podřízené dokumenty?</object>
+      </resource>
+      <resource name="ConfirmDelete">
+        <object>Opravdu chcete odstranit dokument "{0}"?</object>
+      </resource>
+      <resource name="DeleteDocument">
+        <object>Vymazat dokument</object>
+      </resource>
+      <resource name="DeletingDocuments">
+        <object>Probíhá vymazání dokumentů...</object>
+      </resource>
+      <resource name="AddMany">
+        <object>Přidat více dokumentů</object>
+      </resource>
+      <resource name="ErrorAddMany">
+        <object>Při ukládání dokumentů došlo k chybě. {0}</object>
+      </resource>
+      <resource name="Error">
+        <object>Chyba</object>
+      </resource>
+      <resource name="ProgressProcessFile">
+        <object>Zpracování {0}</object>
+      </resource>
+      <resource name="ProgressFinished">
+        <object>Dokončeno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.StandardDocumentUC" ServiceOnly="false">
+      <resource name="Back">
+        <object>Zpět</object>
+      </resource>
+      <resource name="Forward">
+        <object>Dopředu</object>
+      </resource>
+      <resource name="Refresh">
+        <object>Obnovit</object>
+      </resource>
+      <resource name="Stop">
+        <object>Stop</object>
+      </resource>
+      <resource name="LicenseMessage">
+        <object>Nelze získat licenci dokumentační stanice: {0}.{1}</object>
+      </resource>
+      <resource name="DocumentNotFound">
+        <object>Dokument není přístupný nebo neexistuje. Možná nemáte přístup k dokumentu nebo není platné umístění dokumentu.\nNázev souboru: {0}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.ComboBoxCriteria" ServiceOnly="false">
+      <resource name="notdef">
+        <object>Nespecifikováno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.PackFilterFormValues" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Výr. den</object>
+      </resource>
+      <resource name="InventoryAndPrday">
+        <object>Inventář a den</object>
+      </resource>
+      <resource name="OrderAndPrday">
+        <object>Objednávka a den</object>
+      </resource>
+      <resource name="ShiftAndPrday">
+        <object>Směna a den</object>
+      </resource>
+      <resource name="PoAndPrday">
+        <object>Obj. a den</object>
+      </resource>
+      <resource name="BatchAndPrday">
+        <object>Dávka a den</object>
+      </resource>
+      <resource name="LotAndPrday">
+        <object>Šarže a den</object>
+      </resource>
+      <resource name="ProductionLotAndPrday">
+        <object>Výr. šarže a den</object>
+      </resource>
+      <resource name="StationAndPrday">
+        <object>Stanice a den</object>
+      </resource>
+      <resource name="DepartmentAndPrday">
+        <object>Oddělení a den</object>
+      </resource>
+      <resource name="Stack">
+        <object>Stoh</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Paleta</object>
+      </resource>
+      <resource name="Container">
+        <object>Kontejner</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Přeprava</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Čas registrace</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.GeneralFilterFormValues" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Výr. den</object>
+      </resource>
+      <resource name="InventoryAndPrday">
+        <object>Inventář a den</object>
+      </resource>
+      <resource name="OrderAndPrday">
+        <object>Objednávka a den</object>
+      </resource>
+      <resource name="ShiftAndPrday">
+        <object>Směna a den</object>
+      </resource>
+      <resource name="PoAndPrday">
+        <object>Obj. a den</object>
+      </resource>
+      <resource name="BatchAndPrday">
+        <object>Dávka a den</object>
+      </resource>
+      <resource name="LotAndPrday">
+        <object>Šarže a den</object>
+      </resource>
+      <resource name="ProductionLotAndPrday">
+        <object>Výr. šarže a den</object>
+      </resource>
+      <resource name="StationAndPrday">
+        <object>Stanice a den</object>
+      </resource>
+      <resource name="DepartmentAndPrday">
+        <object>Oddělení a den</object>
+      </resource>
+      <resource name="Stack">
+        <object>Stoh</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Paleta</object>
+      </resource>
+      <resource name="Container">
+        <object>Kontejner</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Přeprava</object>
+      </resource>
+      <resource name="InventoryAndStatus">
+        <object>Inventář a stav</object>
+      </resource>
+      <resource name="OrderAndStatus">
+        <object>Objednávka a stav</object>
+      </resource>
+      <resource name="StartTimeAndStatus">
+        <object>Počáteční čas a stav</object>
+      </resource>
+      <resource name="EndTimeAndStatus">
+        <object>Čas ukončení a stav </object>
+      </resource>
+      <resource name="PoAndStatus">
+        <object>Obj. a stav</object>
+      </resource>
+      <resource name="PlotAndStatus">
+        <object>Výr. šarže a stav</object>
+      </resource>
+      <resource name="PrunitAndStatus">
+        <object>Výr. jednotka a stav</object>
+      </resource>
+      <resource name="StationAndStatus">
+        <object>Stanice a stav</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.CollectionFilterFormValues" ServiceOnly="false">
+      <resource name="Pallet">
+        <object>Paleta</object>
+      </resource>
+      <resource name="Container">
+        <object>Kontejner</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Přeprava</object>
+      </resource>
+      <resource name="InventoryAndStatus">
+        <object>Inventář a stav</object>
+      </resource>
+      <resource name="OrderAndStatus">
+        <object>Objednávka a stav</object>
+      </resource>
+      <resource name="StartTimeAndStatus">
+        <object>Počáteční čas a stav</object>
+      </resource>
+      <resource name="EndTimeAndStatus">
+        <object>Čas ukončení a stav </object>
+      </resource>
+      <resource name="PoAndStatus">
+        <object>Obj. a stav</object>
+      </resource>
+      <resource name="PlotAndStatus">
+        <object>Výr. šarže a stav</object>
+      </resource>
+      <resource name="PrunitAndStatus">
+        <object>Výr. jednotka a stav</object>
+      </resource>
+      <resource name="StationAndStatus">
+        <object>Stanice a stav</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.InspectionFilterFormValues" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Výr. den</object>
+      </resource>
+      <resource name="ProcessAndPrday">
+        <object>Proces a den</object>
+      </resource>
+      <resource name="ProcedureAndPrday">
+        <object>Procedura a den</object>
+      </resource>
+      <resource name="InspectorAndPrday">
+        <object>Kontrolor a den</object>
+      </resource>
+      <resource name="EmployeeAndPrday">
+        <object>Zaměstnanec a den</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Čas registrace</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.ItemFilterFormValues" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Výr. den</object>
+      </resource>
+      <resource name="OrderAndPrday">
+        <object>Objednávka a den</object>
+      </resource>
+      <resource name="ShiftAndPrday">
+        <object>Směna a den</object>
+      </resource>
+      <resource name="PoAndPrday">
+        <object>Obj. a den</object>
+      </resource>
+      <resource name="BatchAndPrday">
+        <object>Dávka a den</object>
+      </resource>
+      <resource name="LotAndPrday">
+        <object>Šarže a den</object>
+      </resource>
+      <resource name="ProductionLotAndPrday">
+        <object>Výr. šarže a den</object>
+      </resource>
+      <resource name="StationAndPrday">
+        <object>Stanice a den</object>
+      </resource>
+      <resource name="DepartmentAndPrday">
+        <object>Oddělení a den</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Čas registrace</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.SimpleDataRowViewBaseUC" ServiceOnly="false">
+      <resource name="NotNullMsg">
+        <object>Sloupec '{0}' neumožňuje použití nul</object>
+      </resource>
+      <resource name="Error">
+        <object>Chyba</object>
+      </resource>
+      <resource name="ApplyFailed">
+        <object>Nepodařilo se aplikovat změny do databáze kvůli nespecifikované chybě.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.Mp5ReportToolbar" ServiceOnly="false">
+      <resource name="sendexptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="sendexptypetext">
+        <object>Text</object>
+      </resource>
+      <resource name="sendexptypecsv">
+        <object>Soubor oddělený čárkami</object>
+      </resource>
+      <resource name="sendexptypemht">
+        <object>Mht</object>
+      </resource>
+      <resource name="sendexptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="sendexptypertf">
+        <object>Textový soubor RTF</object>
+      </resource>
+      <resource name="sendexptypegraphics">
+        <object>Grafika</object>
+      </resource>
+      <resource name="exptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="exptypehtml">
+        <object>HTML</object>
+      </resource>
+      <resource name="exptypetext">
+        <object>Text</object>
+      </resource>
+      <resource name="exptypecsv">
+        <object>Soubor oddělený čárkami</object>
+      </resource>
+      <resource name="exptypemht">
+        <object>Mht</object>
+      </resource>
+      <resource name="exptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="exptypertf">
+        <object>Textový soubor RTF</object>
+      </resource>
+      <resource name="exptypegraphics">
+        <object>Grafika</object>
+      </resource>
+      <resource name="toolRefresh">
+        <object>Obnovit</object>
+      </resource>
+      <resource name="toolSearch">
+        <object>Vyhledat</object>
+      </resource>
+      <resource name="toolHandTool">
+        <object>Ruční nástroj</object>
+      </resource>
+      <resource name="toolPrintWithOptions">
+        <object>Tisk s možnostmi</object>
+      </resource>
+      <resource name="toolSpeedPrint">
+        <object>Tisk</object>
+      </resource>
+      <resource name="toolPrintSetup">
+        <object>Nastavení stránky</object>
+      </resource>
+      <resource name="toolMagnifier">
+        <object>Lupa</object>
+      </resource>
+      <resource name="toolZoomIn">
+        <object>Přiblížit</object>
+      </resource>
+      <resource name="toolZoomOut">
+        <object>Oddálit</object>
+      </resource>
+      <resource name="toolZoomOptions">
+        <object>Možnosti přiblížení</object>
+      </resource>
+      <resource name="toolFirstPage">
+        <object>První stránka</object>
+      </resource>
+      <resource name="toolPreviousPage">
+        <object>Předchozí stránka</object>
+      </resource>
+      <resource name="toolNextPage">
+        <object>Další stránka</object>
+      </resource>
+      <resource name="toolLastPage">
+        <object>Poslední stránka</object>
+      </resource>
+      <resource name="toolMultiplePages">
+        <object>Více stránek</object>
+      </resource>
+      <resource name="toolWatermark">
+        <object>Vodoznak</object>
+      </resource>
+      <resource name="toolExport">
+        <object>Exportovat</object>
+      </resource>
+      <resource name="toolEmail">
+        <object>E-mail</object>
+      </resource>
+      <resource name="htoolRefresh">
+        <object>Obnovit</object>
+      </resource>
+      <resource name="htoolSearch">
+        <object>Vyhledat</object>
+      </resource>
+      <resource name="htoolHandTool">
+        <object>Ruční nástroj</object>
+      </resource>
+      <resource name="htoolPrintWithOptions">
+        <object>Tisk s možnostmi</object>
+      </resource>
+      <resource name="htoolSpeedPrint">
+        <object>Tisk</object>
+      </resource>
+      <resource name="htoolPrintSetup">
+        <object>Nastavení stránky</object>
+      </resource>
+      <resource name="htoolMagnifier">
+        <object>Lupa</object>
+      </resource>
+      <resource name="htoolZoomIn">
+        <object>Přiblížit</object>
+      </resource>
+      <resource name="htoolZoomOut">
+        <object>Oddálit</object>
+      </resource>
+      <resource name="htoolZoomOptions">
+        <object>Možnosti přiblížení</object>
+      </resource>
+      <resource name="htoolFirstPage">
+        <object>První stránka</object>
+      </resource>
+      <resource name="htoolPreviousPage">
+        <object>Předchozí stránka</object>
+      </resource>
+      <resource name="htoolNextPage">
+        <object>Další stránka</object>
+      </resource>
+      <resource name="htoolLastPage">
+        <object>Poslední stránka</object>
+      </resource>
+      <resource name="htoolMultiplePages">
+        <object>Více stránek</object>
+      </resource>
+      <resource name="htoolWatermark">
+        <object>Vodoznak</object>
+      </resource>
+      <resource name="htoolExport">
+        <object>Exportovat</object>
+      </resource>
+      <resource name="htoolEmail">
+        <object>E-mail</object>
+      </resource>
+      <resource name="htoolDocMap">
+        <object>Zobrazit/skrýt mapu dokumentu</object>
+      </resource>
+      <resource name="toolRefreshWithOptions">
+        <object>Obnovit s možnostmi</object>
+      </resource>
+      <resource name="htoolRefreshWithOptions">
+        <object>Obnovit s možnostmi </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.SystemCriterias" ServiceOnly="false">
+      <resource name="emppar_name">
+        <object>Zaměstnanec:</object>
+      </resource>
+      <resource name="emppar_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="emppar_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="emppar_desc1">
+        <object>Zaměstnanec</object>
+      </resource>
+      <resource name="emppar_desc2">
+        <object>Název</object>
+      </resource>
+      <resource name="emppar_desc3">
+        <object>Oddělení</object>
+      </resource>
+      <resource name="deppar_name">
+        <object>Oddělení:</object>
+      </resource>
+      <resource name="deppar_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="deppar_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="deppar_desc1">
+        <object>Oddělení</object>
+      </resource>
+      <resource name="matpar_name">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="matpar_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="matpar_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="matpar_desc1">
+        <object>Produkt</object>
+      </resource>
+      <resource name="matpar_desc2">
+        <object>Kód</object>
+      </resource>
+      <resource name="jobpar_name">
+        <object>Úkol:</object>
+      </resource>
+      <resource name="jobpar_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="jobpar_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="jobpar_desc1">
+        <object>Úkol</object>
+      </resource>
+      <resource name="prday_name">
+        <object>Výrobní den:</object>
+      </resource>
+      <resource name="prunit_name">
+        <object>Provozní jednotka:</object>
+      </resource>
+      <resource name="product_name">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="product_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="product_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="product_desc1">
+        <object>Produkt</object>
+      </resource>
+      <resource name="product_desc2">
+        <object>Kód</object>
+      </resource>
+      <resource name="prperiodbyprday_name">
+        <object>Provozní interval:</object>
+      </resource>
+      <resource name="prperiodbyprday_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="prperiodbyprday_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="prperiodbyprday_desc1">
+        <object>Provozní interval</object>
+      </resource>
+      <resource name="prperiodbyprday_desc2">
+        <object>Provozní jednotka</object>
+      </resource>
+      <resource name="prperiodbyprday_desc3">
+        <object>Aktivita</object>
+      </resource>
+      <resource name="prperiodbyprday_desc4">
+        <object>Výr. den</object>
+      </resource>
+      <resource name="prperiodbyprday_desc5">
+        <object>Počáteční čas</object>
+      </resource>
+      <resource name="prperiodbyprday_desc6">
+        <object>Čas ukončení</object>
+      </resource>
+      <resource name="trimprperiodbyprday_name">
+        <object>Provozní interval:</object>
+      </resource>
+      <resource name="trimprperiodbyprday_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="trimprperiodbyprday_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc1">
+        <object>Provozní interval</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc2">
+        <object>Provozní jednotka</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc3">
+        <object>Program odřezávání</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc4">
+        <object>Výr. den</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc5">
+        <object>Počáteční čas</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc6">
+        <object>Čas ukončení</object>
+      </resource>
+      <resource name="batch_name">
+        <object>Dávka:</object>
+      </resource>
+      <resource name="batch_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="batch_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="shift_name">
+        <object>Směna:</object>
+      </resource>
+      <resource name="shift_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="shift_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="po_name">
+        <object>Objednávka:</object>
+      </resource>
+      <resource name="po_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="po_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="po_desc1">
+        <object>Objednávka</object>
+      </resource>
+      <resource name="sysprogram_name">
+        <object>Systémový program:</object>
+      </resource>
+      <resource name="sysprogram_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="sysprogram_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="sysprogram_desc1">
+        <object>Program</object>
+      </resource>
+      <resource name="regtime_name">
+        <object>Čas registrace:</object>
+      </resource>
+      <resource name="schprogram_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="schprogram_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="schprogram_name">
+        <object>Systémový program:</object>
+      </resource>
+      <resource name="schprogram_desc1">
+        <object>Program</object>
+      </resource>
+      <resource name="devices_name">
+        <object>Zařízení:</object>
+      </resource>
+      <resource name="devices_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="devices_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="devices_desc1">
+        <object>Zařízení</object>
+      </resource>
+      <resource name="licenses_name">
+        <object>Licence:</object>
+      </resource>
+      <resource name="licenses_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="licenses_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="licenses_desc1">
+        <object>Licence</object>
+      </resource>
+      <resource name="grdprogram_name">
+        <object>Třídicí program:</object>
+      </resource>
+      <resource name="grdprogram_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="grdprogram_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="grdprogram_desc1">
+        <object>Program</object>
+      </resource>
+      <resource name="wgthour_name">
+        <object>Zobrazit hmotnost</object>
+      </resource>
+      <resource name="pcsmin_name">
+        <object>Zobrazit kusy</object>
+      </resource>
+      <resource name="prunit_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="prunit_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="prunit_desc1">
+        <object>Provozní jednotka</object>
+      </resource>
+      <resource name="showprods_name">
+        <object>Zobrazit produkty</object>
+      </resource>
+      <resource name="count_name">
+        <object>Počet:</object>
+      </resource>
+      <resource name="weight_name">
+        <object>Hmotnost:</object>
+      </resource>
+      <resource name="singleprday_name">
+        <object>Výrobní den:</object>
+      </resource>
+      <resource name="destinv_name">
+        <object>Inventář:</object>
+      </resource>
+      <resource name="destinv_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="destinv_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="destinv_desc1">
+        <object>Inventář</object>
+      </resource>
+      <resource name="procinputbreakdown_name">
+        <object>Porucha:</object>
+      </resource>
+      <resource name="procyieldbreakdown_name">
+        <object>Porucha:</object>
+      </resource>
+      <resource name="triminputbreakdown_name">
+        <object>Porucha:</object>
+      </resource>
+      <resource name="shift_desc1">
+        <object>Směna</object>
+      </resource>
+      <resource name="podeliverystatus_name">
+        <object>Stav přepravy:</object>
+      </resource>
+      <resource name="palletbysiteandnumber_name">
+        <object>Paleta:</object>
+      </resource>
+      <resource name="palletbysscc_name">
+        <object>Paleta:</object>
+      </resource>
+      <resource name="packbysiteandnumber_name">
+        <object>Balení:</object>
+      </resource>
+      <resource name="packbysscc_name">
+        <object>Balení:</object>
+      </resource>
+      <resource name="stackbysiteandnumber_name">
+        <object>Stoh:</object>
+      </resource>
+      <resource name="containerbysiteandnumber_name">
+        <object>Kontejner:</object>
+      </resource>
+      <resource name="shipmentbysiteandnumber_name">
+        <object>Přeprava:</object>
+      </resource>
+      <resource name="stackbysscc_name">
+        <object>Stoh:</object>
+      </resource>
+      <resource name="containerbysscc_name">
+        <object>Kontejner:</object>
+      </resource>
+      <resource name="shipmentbysscc_name">
+        <object>Přeprava:</object>
+      </resource>
+      <resource name="lot_name">
+        <object>Šarže:</object>
+      </resource>
+      <resource name="lot_desc1">
+        <object>Šarže</object>
+      </resource>
+      <resource name="lot_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="lot_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="stocktake_name">
+        <object>Inventura:</object>
+      </resource>
+      <resource name="stocktake_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="stocktake_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="plot_name">
+        <object>Výrobní šarže:</object>
+      </resource>
+      <resource name="plot_desc1">
+        <object>Výrobní šarže</object>
+      </resource>
+      <resource name="plot_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="plot_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="order_name">
+        <object>Objednávka:</object>
+      </resource>
+      <resource name="order_desc1">
+        <object>Objednávka </object>
+      </resource>
+      <resource name="order_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="order_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="station_name">
+        <object>Stanice:</object>
+      </resource>
+      <resource name="station_desc1">
+        <object>Stanice </object>
+      </resource>
+      <resource name="station_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="station_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="collectionstatus_name">
+        <object>Stav:</object>
+      </resource>
+      <resource name="itemgridoptions_name">
+        <object>Zobrazit podle:</object>
+      </resource>
+      <resource name="packgridoptions_name">
+        <object>Zobrazit podle:</object>
+      </resource>
+      <resource name="collectiongridoptions_name">
+        <object>Zobrazit podle:</object>
+      </resource>
+      <resource name="lotstatus_name">
+        <object>Stav:</object>
+      </resource>
+      <resource name="sumprperiods_name">
+        <object>Shrnout období</object>
+      </resource>
+      <resource name="site_name">
+        <object>Umístění:</object>
+      </resource>
+      <resource name="site_desc1">
+        <object>Umístění</object>
+      </resource>
+      <resource name="site_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="site_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="inventory_name">
+        <object>Inventář:</object>
+      </resource>
+      <resource name="inventory_desc1">
+        <object>Inventář</object>
+      </resource>
+      <resource name="inventory_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="inventory_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="invloc_name">
+        <object>Umístění:</object>
+      </resource>
+      <resource name="invloc_desc1">
+        <object>Umístění</object>
+      </resource>
+      <resource name="invloc_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="invloc_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="supplier_name">
+        <object>Dodavatel:</object>
+      </resource>
+      <resource name="supplier_desc1">
+        <object>Dodavatel</object>
+      </resource>
+      <resource name="supplier_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="supplier_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="owner_name">
+        <object>Vlastník:</object>
+      </resource>
+      <resource name="owner_desc1">
+        <object>Vlastník</object>
+      </resource>
+      <resource name="owner_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="owner_testmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="inspectiongridoptions_name">
+        <object>Zobrazit podle:</object>
+      </resource>
+      <resource name="process_name">
+        <object>Proces:</object>
+      </resource>
+      <resource name="process_desc1">
+        <object>Proces</object>
+      </resource>
+      <resource name="process_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="process_testmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="procedure_name">
+        <object>Procedura:</object>
+      </resource>
+      <resource name="procedure_desc1">
+        <object>Procedura</object>
+      </resource>
+      <resource name="procedure_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="procedure_testmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="employee_name">
+        <object>Zaměstnanec:</object>
+      </resource>
+      <resource name="employee_desc1">
+        <object>Zaměstnanec</object>
+      </resource>
+      <resource name="employee_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="employee_testmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="inspector_name">
+        <object>Kontrolor:</object>
+      </resource>
+      <resource name="inspector_desc1">
+        <object>Kontrolor</object>
+      </resource>
+      <resource name="inspector_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="inspector_testmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="plotstatus_name">
+        <object>Stav:</object>
+      </resource>
+      <resource name="orderstatus_name">
+        <object>Stav:</object>
+      </resource>
+      <resource name="customer_name">
+        <object>Zákazník:</object>
+      </resource>
+      <resource name="customer_desc1">
+        <object>Zákazník</object>
+      </resource>
+      <resource name="customer_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="customer_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="species_name">
+        <object>Produkt:</object>
+      </resource>
+      <resource name="species_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="species_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="species_desc1">
+        <object>Produkt</object>
+      </resource>
+      <resource name="species_desc2">
+        <object>Kód</object>
+      </resource>
+      <resource name="printers_name">
+        <object>Tiskárna:</object>
+      </resource>
+      <resource name="printers_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="printers_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="printers_desc1">
+        <object>Tiskárna </object>
+      </resource>
+      <resource name="layouts_name">
+        <object>Rozvržení:</object>
+      </resource>
+      <resource name="layouts_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="layouts_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="layouts_desc1">
+        <object>Rozvržení </object>
+      </resource>
+      <resource name="unitfixedcode_name">
+        <object>Kód:</object>
+      </resource>
+      <resource name="stations_name">
+        <object>Stanice:</object>
+      </resource>
+      <resource name="stations_desc1">
+        <object>Stanice</object>
+      </resource>
+      <resource name="stations_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="stations_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="pagebreak_name">
+        <object>Jedna zpráva na stránku</object>
+      </resource>
+      <resource name="scoreclass_name">
+        <object>Třída hodnocení:</object>
+      </resource>
+      <resource name="trimprogram_desc1">
+        <object>Aktivita</object>
+      </resource>
+      <resource name="trimprogram_name">
+        <object>Aktivita:</object>
+      </resource>
+      <resource name="trimprogram_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="trimprogram_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="cutprogram_name">
+        <object>Program řezu:</object>
+      </resource>
+      <resource name="cutprogram_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="breakprperiod_name">
+        <object>Vyřazení při provozním intervalu</object>
+      </resource>
+      <resource name="breakprogram_name">
+        <object>Vyřazení při programu</object>
+      </resource>
+      <resource name="breakmateria_name">
+        <object>Vyřazení při materiálu</object>
+      </resource>
+      <resource name="pieces_name">
+        <object>Kusy:</object>
+      </resource>
+      <resource name="breakactivity_name">
+        <object>Vyřazení při aktivitě</object>
+      </resource>
+      <resource name="value_name">
+        <object>Hodnota:</object>
+      </resource>
+      <resource name="breaklane_name">
+        <object>Vyřazení při lince</object>
+      </resource>
+      <resource name="quality_name">
+        <object>Jakost:</object>
+      </resource>
+      <resource name="category_name">
+        <object>Kategorie:</object>
+      </resource>
+      <resource name="fatclass_name">
+        <object>Třída tuku:</object>
+      </resource>
+      <resource name="brcountry_name">
+        <object>Narozeno v:</object>
+      </resource>
+      <resource name="ricountry_name">
+        <object>Chováno:</object>
+      </resource>
+      <resource name="ricountry2_name">
+        <object>Chováno (2):</object>
+      </resource>
+      <resource name="ricountry3_name">
+        <object>Chováno (3):</object>
+      </resource>
+      <resource name="ricountry4_name">
+        <object>Chováno (4):</object>
+      </resource>
+      <resource name="ricountry5_name">
+        <object>Chováno (5):</object>
+      </resource>
+      <resource name="slhouse_name">
+        <object>Jatka:</object>
+      </resource>
+      <resource name="slday_name">
+        <object>Porážka:</object>
+      </resource>
+      <resource name="processor_name">
+        <object>Zpracovatel:</object>
+      </resource>
+      <resource name="processor2_name">
+        <object>Zpracovatel (2):</object>
+      </resource>
+      <resource name="killnumber_name">
+        <object>Číslo porážky:</object>
+      </resource>
+      <resource name="unittare_name">
+        <object>Tára:</object>
+      </resource>
+      <resource name="stacktare_name">
+        <object>Tára stohu:</object>
+      </resource>
+      <resource name="pallettare_name">
+        <object>Tára palety:</object>
+      </resource>
+      <resource name="containertare_name">
+        <object>Tára kontejneru:</object>
+      </resource>
+      <resource name="shipmenttare_name">
+        <object>Tára přepravy:</object>
+      </resource>
+      <resource name="lotstoday_name">
+        <object>Šarže:</object>
+      </resource>
+      <resource name="lotstoday_desc1">
+        <object>Šarže</object>
+      </resource>
+      <resource name="lotstoday_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="lotstoday_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="palletlist_desc3">
+        <object>Produkt</object>
+      </resource>
+      <resource name="palletlist_desc1">
+        <object>Paleta</object>
+      </resource>
+      <resource name="palletlist_desc2">
+        <object>SSCC</object>
+      </resource>
+      <resource name="palletlist_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="palletlist_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="palletlist_name">
+        <object>Paleta:</object>
+      </resource>
+      <resource name="rmarea_name">
+        <object>Zdrojová oblast:</object>
+      </resource>
+      <resource name="rmarea_desc1">
+        <object>Zdrojová oblast</object>
+      </resource>
+      <resource name="rmarea_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="rmarea_testmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="cutprogram_desc1">
+        <object>Název programu</object>
+      </resource>
+      <resource name="cutprogram_desc2">
+        <object>Typ programu</object>
+      </resource>
+      <resource name="yieldpoint_name">
+        <object>Bod výtěžku:</object>
+      </resource>
+      <resource name="yieldpoint_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="yieldpoint_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="yieldpoint_desc1">
+        <object>Bod výtěžku</object>
+      </resource>
+      <resource name="yieldgroup_name">
+        <object>Skupina výtěžku:</object>
+      </resource>
+      <resource name="yieldgroup_desc1">
+        <object>Skupina výtěžku</object>
+      </resource>
+      <resource name="yieldgroup_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="yieldgroup_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="breaksxstation_name">
+        <object>Vyřazení při stanici SensorX</object>
+      </resource>
+      <resource name="breaksxstation_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="breaksxstation_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="sxstation_name">
+        <object>Stanice SensorX:</object>
+      </resource>
+      <resource name="sxstation_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="sxstation_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="sxstation_desc1">
+        <object>Název stanice SensorX</object>
+      </resource>
+      <resource name="breakbatchno_name">
+        <object>Vyřazení při čísle dávky</object>
+      </resource>
+      <resource name="breaklot_name">
+        <object>Vyřazení při šarži</object>
+      </resource>
+      <resource name="breakpo_name">
+        <object>Vyřazení při objednávce</object>
+      </resource>
+      <resource name="breakpack_name">
+        <object>Vyřazení při jednotlivém balení</object>
+      </resource>
+      <resource name="breakcatchtime_name">
+        <object>Doba pozastavení vyřazení</object>
+      </resource>
+      <resource name="catchtime_name">
+        <object>Doba pozastavení:</object>
+      </resource>
+      <resource name="marinepackbreakdown_name">
+        <object>Porucha:</object>
+      </resource>
+      <resource name="rmareaparent_name">
+        <object>Nadřízená zdrojová oblast:</object>
+      </resource>
+      <resource name="rmareaparent_desc1">
+        <object>Nadřízená zdrojová oblast</object>
+      </resource>
+      <resource name="rmareaparent_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="rmareaparent_testmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="rmareachild_name">
+        <object>Podřízená zdrojová oblast:</object>
+      </resource>
+      <resource name="rmareachild_desc1">
+        <object>Podřízená zdrojová oblast</object>
+      </resource>
+      <resource name="rmareachild_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="rmareachild_testmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="comment_name">
+        <object>Poznámka:</object>
+      </resource>
+      <resource name="comment_desc1">
+        <object>Poznámka</object>
+      </resource>
+      <resource name="mapquadrant_name">
+        <object>Kvadrant mapy:</object>
+      </resource>
+      <resource name="mapquadrant_desc1">
+        <object>Kvadrant mapy</object>
+      </resource>
+      <resource name="lotlatest_name">
+        <object>Šarže:</object>
+      </resource>
+      <resource name="lotlatest_desc1">
+        <object>Šarže</object>
+      </resource>
+      <resource name="lotlatest_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="lotlatest_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="polatest_name">
+        <object>Objednávka:</object>
+      </resource>
+      <resource name="polatest_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="polatest_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="polatest_desc1">
+        <object>Objednávka</object>
+      </resource>
+      <resource name="checkweigherlists_name">
+        <object>Program:</object>
+      </resource>
+      <resource name="checkweigherlists_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="checkweigherlists_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="checkweigherlists_desc1">
+        <object>Seznam produktů převažovače</object>
+      </resource>
+      <resource name="importlogtype_name">
+        <object>Typ protokolu:</object>
+      </resource>
+      <resource name="employeeorder_desc1">
+        <object>Objednávka</object>
+      </resource>
+      <resource name="employeeorder_name">
+        <object>Objednávka:</object>
+      </resource>
+      <resource name="employeeorder_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="employeeorder_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="alarmgroup_name">
+        <object>Poplach skupina:</object>
+      </resource>
+      <resource name="alarmgroup_textmany">
+        <object>(Více)</object>
+      </resource>
+      <resource name="alarmgroup_textall">
+        <object>(Vše)</object>
+      </resource>
+      <resource name="alarmgroup_desc1">
+        <object>Poplach skupina</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.LogonView" ServiceOnly="false">
+      <resource name="Username">
+        <object>Identifikace zaměstnance:</object>
+      </resource>
+      <resource name="Password">
+        <object>Bezpečnostní kód:</object>
+      </resource>
+      <resource name="ButtonCaption">
+        <object>Start</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.Controls.Scale" ServiceOnly="false">
+      <resource name="stable">
+        <object>STABILNÍ</object>
+      </resource>
+      <resource name="net">
+        <object>ČISTÁ</object>
+      </resource>
+      <resource name="zero">
+        <object>NULA</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.ButtonMatrix" ServiceOnly="false">
+      <resource name="Next">
+        <object>Další stránka</object>
+      </resource>
+      <resource name="Previous">
+        <object>Předchozí stránka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.CriteriaView" ServiceOnly="false">
+      <resource name="OK">
+        <object>OK</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.MainFrame" ServiceOnly="false">
+      <resource name="Exit">
+        <object>Ukončit</object>
+      </resource>
+      <resource name="History">
+        <object>Historie</object>
+      </resource>
+      <resource name="Caption">
+        <object>ODHLÁŠENÍ</object>
+      </resource>
+      <resource name="Menu.Parent">
+        <object>Nahoru</object>
+      </resource>
+      <resource name="Menu.Previous">
+        <object>Předch.</object>
+      </resource>
+      <resource name="Menu.Next">
+        <object>Další</object>
+      </resource>
+      <resource name="Warning">
+        <object>Výstraha</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.PivotGrid" ServiceOnly="false">
+      <resource name="simpleButton5.Text">
+        <object>Inic. pole</object>
+      </resource>
+      <resource name="simpleButton2.Text">
+        <object>Uložit</object>
+      </resource>
+      <resource name="simpleButton3.Text">
+        <object>Inicializovat filtry</object>
+      </resource>
+      <resource name="simpleButton4.Text">
+        <object>Zobrazit sql</object>
+      </resource>
+      <resource name="toolRefresh">
+        <object>Obnovit</object>
+      </resource>
+      <resource name="htoolRefresh">
+        <object>Obnovit data</object>
+      </resource>
+      <resource name="guinodenoitem">
+        <object>Uzel gui neobsahuje žádnou použitelnou položku gui.</object>
+      </resource>
+      <resource name="saveok">
+        <object>Řídicí obrazovka byla uložena.</object>
+      </resource>
+      <resource name="errsave">
+        <object>Uložení selhalo</object>
+      </resource>
+      <resource name="errRestoreLayout">
+        <object>Chyba při obnovení rozložení mřížky</object>
+      </resource>
+      <resource name="errload">
+        <object>Chyba nahrávání</object>
+      </resource>
+      <resource name="exceptionSql">
+        <object>Chyba Sql</object>
+      </resource>
+      <resource name="datasourceisnull">
+        <object>Chybí ZdrojDat</object>
+      </resource>
+      <resource name="datasourcebadtype">
+        <object>ZdrojDat má nesprávný typ</object>
+      </resource>
+      <resource name="notablesinds">
+        <object>Ve ZdrojiDat nejsou žádné tabulky</object>
+      </resource>
+      <resource name="btnRefreshWithOptions.Text">
+        <object>Obnovit s možnostmi</object>
+      </resource>
+      <resource name="btnRefresh.Text">
+        <object>Obnovit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.UsersInfo" ServiceOnly="false">
+      <resource name="button1.Text">
+        <object>Zavřít</object>
+      </resource>
+      <resource name="lblHost.Text">
+        <object>Hostitel:</object>
+      </resource>
+      <resource name="lblUsername.Text">
+        <object>Jméno uživatele:</object>
+      </resource>
+      <resource name="lblDatabase.Text">
+        <object>Databáze:</object>
+      </resource>
+      <resource name="lblAccessLevel.Text">
+        <object>Přístup k jednotlivým aplikacím:</object>
+      </resource>
+      <resource name="advancedCheckBox.Properties.Caption">
+        <object>Pokročilý</object>
+      </resource>
+      <resource name="gridColumn2.Caption">
+        <object>Úroveň přístupu</object>
+      </resource>
+      <resource name="gridColumn1.Caption">
+        <object>Aplikace</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.MessageBoxEx" ServiceOnly="false">
+      <resource name="ok">
+        <object>OK</object>
+      </resource>
+      <resource name="cancel">
+        <object>Storno</object>
+      </resource>
+      <resource name="yes">
+        <object>Ano</object>
+      </resource>
+      <resource name="no">
+        <object>Ne</object>
+      </resource>
+      <resource name="abort">
+        <object>Zrušit</object>
+      </resource>
+      <resource name="retry">
+        <object>Opakovat</object>
+      </resource>
+      <resource name="ignore">
+        <object>Ignorovat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.QuickTabs.QuickTabsForm" ServiceOnly="false">
+      <resource name="simpleButton">
+        <object>Storno</object>
+      </resource>
+      <resource name="quicktabs">
+        <object>Rychlé karty</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Pda.LogonView" ServiceOnly="false">
+      <resource name="Username">
+        <object>Identifikace zaměstnance:</object>
+      </resource>
+      <resource name="Password">
+        <object>Bezpečnostní kód:</object>
+      </resource>
+      <resource name="ButtonCaption">
+        <object>Start</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Žádné spojení se serverem</object>
+      </resource>
+      <resource name="PasswordExpired">
+        <object>Bezpečnostní kód vypršel</object>
+      </resource>
+      <resource name="NotAuthenticated">
+        <object>Nesprávný zaměstnanec nebo bezpečnostní kód</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Pda.MainFrame" ServiceOnly="false">
+      <resource name="Menu">
+        <object>Nabídka</object>
+      </resource>
+      <resource name="Exit">
+        <object>Ukončit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.ChangePasswordUserForm" ServiceOnly="false">
+      <resource name="cancel.Text">
+        <object>Storno</object>
+      </resource>
+      <resource name="ok.Text">
+        <object>Ok</object>
+      </resource>
+      <resource name="usernameLabel.Text">
+        <object>Jméno uživatele:</object>
+      </resource>
+      <resource name="oldPasswordLabel.Text">
+        <object>Původní heslo:</object>
+      </resource>
+      <resource name="newPasswordLabel.Text">
+        <object>Nové heslo:</object>
+      </resource>
+      <resource name="confirmationLabel.Text">
+        <object>Potvrzení hesla:</object>
+      </resource>
+      <resource name="this.Text">
+        <object>Změnit heslo</object>
+      </resource>
+      <resource name="NotMatching">
+        <object>Heslo a potvrzení hesla se neshodují</object>
+      </resource>
+      <resource name="WrongPassword">
+        <object>Nesprávné heslo</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Žádné spojení se serverem</object>
+      </resource>
+      <resource name="Success">
+        <object>Heslo bylo úspěšně změněno</object>
+      </resource>
+      <resource name="LogonFailed">
+        <object>Původní heslo není správné, heslo nelze změnit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Design.GeneralObjectDesigner" ServiceOnly="true">
+      <resource name="cancelButton.Text">
+        <object>Storno</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="restoreFactoryDefaultsButton.Text">
+        <object>Obnovit tovární nastavení</object>
+      </resource>
+      <resource name="factoryDefaultsGroupBox.Text">
+        <object>Tovární nastavení</object>
+      </resource>
+      <resource name="objectEditorGroup.Text">
+        <object>Aktuální konfigurace</object>
+      </resource>
+      <resource name="thisCaption">
+        <object>Návrh objektů</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentAddManyForm" ServiceOnly="false">
+      <resource name="labelControl1.Text">
+        <object>Nadřízený dokument</object>
+      </resource>
+      <resource name="buttonCancel.Text">
+        <object>&amp;Storno</object>
+      </resource>
+      <resource name="buttonBack.Text">
+        <object>&lt; &amp;Zpět</object>
+      </resource>
+      <resource name="buttonFinish.Text">
+        <object>&amp;Dokončit</object>
+      </resource>
+      <resource name="buttonNext.Text">
+        <object>&amp;Další &gt;</object>
+      </resource>
+      <resource name="labelControl2.Text">
+        <object>Složka dokumentů k prozkoumání</object>
+      </resource>
+      <resource name="checkEditSubdirectories.Properties.Caption">
+        <object>&amp;Prozkoumat podadresáře</object>
+      </resource>
+      <resource name="labelControl3.Text">
+        <object>Filtry (například *.doc;*.htm)</object>
+      </resource>
+      <resource name="groupControlScan.Text">
+        <object>Zadává jak vyhledávat soubory</object>
+      </resource>
+      <resource name="groupControlResult.Text">
+        <object>Soubor byl nalezen</object>
+      </resource>
+      <resource name="radioGroupStorageMethod.Properties.Items.Item[0].Description">
+        <object>&amp;Vložit soubory do databáze</object>
+      </resource>
+      <resource name="radioGroupStorageMethod.Properties.Items.Item[1].Description">
+        <object>&amp;Propojit soubory pomocí adresy URL</object>
+      </resource>
+      <resource name="labelClickFinish.Text">
+        <object>Klikněte na tlačítko Dokončit a přidejte vybrané soubory</object>
+      </resource>
+      <resource name="selectAllToolStripMenuItem.Text">
+        <object>Vybrat &amp;vše</object>
+      </resource>
+      <resource name="selectNoneToolStripMenuItem.Text">
+        <object>Nevybrat &amp;nic</object>
+      </resource>
+      <resource name="labelAccessLevel.Text">
+        <object>Úroveň přístupu</object>
+      </resource>
+      <resource name="Text">
+        <object>Přidat více dokumentů</object>
+      </resource>
+      <resource name="ErrorDirNotExists">
+        <object>Adresář "{0}" neexistuje.</object>
+      </resource>
+      <resource name="Error">
+        <object>Chyba</object>
+      </resource>
+      <resource name="ErrorScan">
+        <object>Při procházení adresáře došlo k chybě. {0}</object>
+      </resource>
+      <resource name="NoNullValues">
+        <object>Sloupec {0} neumožňuje použití prázdných hodnot.</object>
+      </resource>
+      <resource name="Confirm">
+        <object>Potvrdit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.ProgressCancelForm" ServiceOnly="false">
+      <resource name="buttonCancel.Text">
+        <object>&amp;Storno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.CR.ReportViewUC" ServiceOnly="false">
+      <resource name="erropends">
+        <object>Nelze otevřít soubory dat pro zprávu</object>
+      </resource>
+      <resource name="exptypecsv">
+        <object>Soubor oddělený čárkami</object>
+      </resource>
+      <resource name="exptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="exptypegraphics">
+        <object>Grafika</object>
+      </resource>
+      <resource name="exptypehtml">
+        <object>HTML</object>
+      </resource>
+      <resource name="exptypemht">
+        <object>Mht</object>
+      </resource>
+      <resource name="exptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="exptypertf">
+        <object>Textový soubor RTF</object>
+      </resource>
+      <resource name="exptypetext">
+        <object>Text</object>
+      </resource>
+      <resource name="htoolDocMap">
+        <object>Zobrazit/skrýt mapu dokumentu</object>
+      </resource>
+      <resource name="htoolEmail">
+        <object>E-mail</object>
+      </resource>
+      <resource name="htoolExport">
+        <object>Exportovat</object>
+      </resource>
+      <resource name="htoolFirstPage">
+        <object>První stránka</object>
+      </resource>
+      <resource name="htoolHandTool">
+        <object>Ruční nástroj</object>
+      </resource>
+      <resource name="htoolInvalidate">
+        <object>Zneplatnit položku zprávy gui</object>
+      </resource>
+      <resource name="htoolLastPage">
+        <object>Poslední stránka</object>
+      </resource>
+      <resource name="htoolMagnifier">
+        <object>Lupa</object>
+      </resource>
+      <resource name="htoolMultiplePages">
+        <object>Více stránek</object>
+      </resource>
+      <resource name="htoolNextPage">
+        <object>Další stránka</object>
+      </resource>
+      <resource name="htoolPreviousPage">
+        <object>Předchozí stránka</object>
+      </resource>
+      <resource name="htoolPrintSetup">
+        <object>Nastavení stránky</object>
+      </resource>
+      <resource name="htoolPrintWithOptions">
+        <object>Tisk s možnostmi</object>
+      </resource>
+      <resource name="htoolRefresh">
+        <object>Obnovit</object>
+      </resource>
+      <resource name="htoolRefreshWithOptions">
+        <object>Obnovit s možnostmi </object>
+      </resource>
+      <resource name="htoolSearch">
+        <object>Vyhledat</object>
+      </resource>
+      <resource name="htoolShowSql">
+        <object>Zobrazit sql </object>
+      </resource>
+      <resource name="htoolSpeedPrint">
+        <object>Tisk</object>
+      </resource>
+      <resource name="htoolWatermark">
+        <object>Vodoznak</object>
+      </resource>
+      <resource name="htoolZoomIn">
+        <object>Přiblížit</object>
+      </resource>
+      <resource name="htoolZoomOptions">
+        <object>Možnosti přiblížení</object>
+      </resource>
+      <resource name="htoolZoomOut">
+        <object>Oddálit</object>
+      </resource>
+      <resource name="pageWidth">
+        <object>Šířka stránky</object>
+      </resource>
+      <resource name="pagexofx">
+        <object>Stránka {0} z {1}</object>
+      </resource>
+      <resource name="sendexptypecsv">
+        <object>Soubor oddělený čárkami</object>
+      </resource>
+      <resource name="sendexptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="sendexptypegraphics">
+        <object>Grafika</object>
+      </resource>
+      <resource name="sendexptypemht">
+        <object>Mht</object>
+      </resource>
+      <resource name="sendexptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="sendexptypertf">
+        <object>Textový soubor RTF</object>
+      </resource>
+      <resource name="sendexptypetext">
+        <object>Text</object>
+      </resource>
+      <resource name="textWidth">
+        <object>Šířka textu</object>
+      </resource>
+      <resource name="toolEmail">
+        <object>E-mail</object>
+      </resource>
+      <resource name="toolExport">
+        <object>Exportovat</object>
+      </resource>
+      <resource name="toolFirstPage">
+        <object>První stránka</object>
+      </resource>
+      <resource name="toolHandTool">
+        <object>Ruční nástroj</object>
+      </resource>
+      <resource name="toolInvalidate">
+        <object>Zneplatnit</object>
+      </resource>
+      <resource name="toolLastPage">
+        <object>Poslední stránka</object>
+      </resource>
+      <resource name="toolMagnifier">
+        <object>Lupa</object>
+      </resource>
+      <resource name="toolMultiplePages">
+        <object>Více stránek</object>
+      </resource>
+      <resource name="toolNextPage">
+        <object>Další stránka</object>
+      </resource>
+      <resource name="toolPreviousPage">
+        <object>Předchozí stránka</object>
+      </resource>
+      <resource name="toolPrintSetup">
+        <object>Nastavení stránky</object>
+      </resource>
+      <resource name="toolPrintWithOptions">
+        <object>Tisk s možnostmi</object>
+      </resource>
+      <resource name="toolRefresh">
+        <object>Obnovit</object>
+      </resource>
+      <resource name="toolRefreshWithOptions">
+        <object>Obnovit s možnostmi</object>
+      </resource>
+      <resource name="toolSearch">
+        <object>Vyhledat</object>
+      </resource>
+      <resource name="toolShowSql">
+        <object>Sql</object>
+      </resource>
+      <resource name="toolSpeedPrint">
+        <object>Tisk</object>
+      </resource>
+      <resource name="toolWatermark">
+        <object>Vodoznak</object>
+      </resource>
+      <resource name="toolZoomIn">
+        <object>Přiblížit</object>
+      </resource>
+      <resource name="toolZoomOptions">
+        <object>Možnosti přiblížení</object>
+      </resource>
+      <resource name="toolZoomOut">
+        <object>Oddálit</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.CR.ControllerExtension" ServiceOnly="false">
+      <resource name="CRViewer">
+        <object>Prohlížeč zpráv Crystal</object>
+      </resource>
+      <resource name="NoLicense">
+        <object>Nelze získat licenci prohlížeče zpráv Crystal : {0}</object>
+      </resource>
+      <resource name="filenamenotfoound">
+        <object>Soubor {0} nenalezen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Licensing.InstallLicenseUC" ServiceOnly="false">
+      <resource name="groupControl1.Text">
+        <object>Informace o licenci</object>
+      </resource>
+      <resource name="labelControl3.Text">
+        <object>Datum instalace licenčního klíče:</object>
+      </resource>
+      <resource name="labelControl1.Text">
+        <object>Datum instalace licenčního klíče:</object>
+      </resource>
+      <resource name="labelLicenseKeyType.Text">
+        <object>Typ licenčního klíče:</object>
+      </resource>
+      <resource name="labelProductCode.Text">
+        <object>Kód produktu:</object>
+      </resource>
+      <resource name="buttonConfirmProductCode.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="buttonChangeProductCode.Text">
+        <object>Změnit...</object>
+      </resource>
+      <resource name="tabPageSiteId.Text">
+        <object>Vytvořit identifikaci umístění</object>
+      </resource>
+      <resource name="buttonCreateSiteId.Text">
+        <object>Vytvořit identifikaci umístění</object>
+      </resource>
+      <resource name="labelControl5.Text">
+        <object>Zadejte jakýkoli další identifikátor serveru, jeden identifikátor na každý řádek:</object>
+      </resource>
+      <resource name="tabPageInstallLicenseKey.Text">
+        <object>Nainstalovat licenční klíč</object>
+      </resource>
+      <resource name="buttonOpenLicense.ToolTip">
+        <object>Otevřít licenční klíč ze souboru</object>
+      </resource>
+      <resource name="buttonPasteLicenseKey.ToolTip">
+        <object>Vložit licenční klíč ze schránky</object>
+      </resource>
+      <resource name="buttonInstall.Text">
+        <object>&amp;Instalovat</object>
+      </resource>
+      <resource name="labelControl6.Text">
+        <object>Licenční klíč</object>
+      </resource>
+      <resource name="openFileDialog.Filter">
+        <object>Soubory licenčních klíčů Innova (*.ilk)|*.ilk|Všechny soubory|*.*</object>
+      </resource>
+      <resource name="buttonCancelProductCode.Text">
+        <object>Storno</object>
+      </resource>
+      <resource name="NoValue">
+        <object>(žádný)</object>
+      </resource>
+      <resource name="CreateSiteId">
+        <object>Probíhá vytváření identifikace umístění...</object>
+      </resource>
+      <resource name="InstallingKey">
+        <object>Probíhá instalace licenčního klíče...</object>
+      </resource>
+      <resource name="InstallTitle">
+        <object>Instalovat licenční klíč</object>
+      </resource>
+      <resource name="LicenseKeyFormatError">
+        <object>Formát licenčního klíče je neplatný.</object>
+      </resource>
+      <resource name="LicenseKeyInstallError">
+        <object>Licenční klíč je neplatný.</object>
+      </resource>
+      <resource name="InstallOk">
+        <object>Licenční klíč byl úspěšně nainstalován.</object>
+      </resource>
+      <resource name="ChangeProductCodeWarning">
+        <object>VÝSTRAHA: Změna kódu produktu zneplatní nainstalovaný licenční klíč. Systém Innova NEBUDE PLNě FUNKčNí dokud nebude nainstalován nový licenční klíč.\n\nChcete pokračovat a změnit kód produktu?</object>
+      </resource>
+      <resource name="ChangeProductCodeTitle">
+        <object>Změnit kód produktu</object>
+      </resource>
+      <resource name="InsertingProductCode">
+        <object>Probíhá vložení kódu produktu...</object>
+      </resource>
+      <resource name="InsertProductCodeTitle">
+        <object>Vložit kód produktu</object>
+      </resource>
+      <resource name="ProductCodeInsertError">
+        <object>Kód produktu je neplatný.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.StandardGridControllerExtension" ServiceOnly="false">
+      <resource name="Insert">
+        <object>Vložit</object>
+      </resource>
+      <resource name="Update">
+        <object>Aktualizovat</object>
+      </resource>
+      <resource name="Delete">
+        <object>Vymazat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.M6000Platform" ServiceOnly="false">
+      <resource name="LicenseMessage">
+        <object>Nelze získat licenci klienta IPC: {0}.{1}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Pda.SymbolMC9000SeriesPlatform" ServiceOnly="false">
+      <resource name="LicenseMessage">
+        <object>Nelze získat licenci klienta PDA: {0}.{1}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.WindowsPlatform" ServiceOnly="false">
+      <resource name="LicenseMessage">
+        <object>Nelze získat licenci klienta PC: {0}.{1}</object>
+      </resource>
+      <resource name="LicenseMessageAdmin">
+        <object>Nelze získat licenci správce pro spuštění klienta PC na serveru.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.Document.DocumentShowUserControl" ServiceOnly="false">
+      <resource name="ErrorNoDocMan">
+        <object>Chyba: Nelze přistoupit ke službě správce dokumentů</object>
+      </resource>
+      <resource name="NoDocumentsFound">
+        <object>Nenalezeny žádné dokumenty pro objekt {0} ({1})</object>
+      </resource>
+      <resource name="SelectedObject">
+        <object>Vybraný objekt je {0} ({1}){2}</object>
+      </resource>
+      <resource name="LoadingDocument">
+        <object>probíhá načítání dokumentu...</object>
+      </resource>
+      <resource name="RenderDocument">
+        <object>Zobrazit dokument</object>
+      </resource>
+      <resource name="BadUrlForRendering">
+        <object>Vybraný dokument nemohl být vydán, protože má neplatnou adresu URL</object>
+      </resource>
+      <resource name="BadDocument">
+        <object>Vybraný dokument nemohl být vydán, protože je prázdný. Upravte dokument a přidávat nový vložený dokument nebo adresu URL.</object>
+      </resource>
+      <resource name="Previous">
+        <object>Předchozí</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.ViewConfigurationAccess" ServiceOnly="false">
+      <resource name="Unavailable">
+        <object>Nedostupný</object>
+      </resource>
+      <resource name="Available">
+        <object>Dostupný</object>
+      </resource>
+      <resource name="Default">
+        <object>Použít jako výchozí</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Common.Controls.Grid.GridControl" ServiceOnly="false">
+      <resource name="Lookup.Name.Caption">
+        <object>Název</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Kód</object>
+      </resource>
+      <resource name="DeleteSingleRow">
+        <object>Chcete vymazat tento řádek?</object>
+      </resource>
+      <resource name="DeleteCaption">
+        <object>Vymazat řádek (řádky)</object>
+      </resource>
+      <resource name="DeleteMultipleRows">
+        <object>Chcete vymazat {0} řádků?</object>
+      </resource>
+      <resource name="NoNullAllowed">
+        <object>Sloupec '{0}' neumožňuje použití nul.\n</object>
+      </resource>
+      <resource name="CellSaveFailed">
+        <object>Uložení hodnot buňky selhalo.\nPůvodní hodnota byla '{0}'</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.MultiView.StandardMultiView" ServiceOnly="false">
+      <resource name="ConfirmSave">
+        <object>Zobrazení konfigurace se jménem {0} již existuje.  Chcete ho přepsat?</object>
+      </resource>
+      <resource name="ConfirmSaveCaption">
+        <object>Výstraha</object>
+      </resource>
+      <resource name="CannotRemoveFactorySettings">
+        <object>Tovární nastavení nelze odstranit</object>
+      </resource>
+      <resource name="CannotRemoveFactorySettingsCaption">
+        <object>Výstraha</object>
+      </resource>
+      <resource name="ConfirmRemove">
+        <object>Konfigurace se jménem {0} bude odstraněna.  Neexistuje žádný způsob, jak tuto operaci vrátit. Chcete pokračovat?</object>
+      </resource>
+      <resource name="ConfirmRemoveCaption">
+        <object>Otázka</object>
+      </resource>
+      <resource name="ConfirmStopDesigning">
+        <object>Chcete uložit vaše změny?</object>
+      </resource>
+      <resource name="ConfirmStopDesigningCaption">
+        <object>Ukončení režimu návrhu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.MultiView.BarHandler" ServiceOnly="false">
+      <resource name="activeObjects">
+        <object>Aktivní</object>
+      </resource>
+      <resource name="inactiveObjects">
+        <object>Neaktivní</object>
+      </resource>
+      <resource name="bothObjects">
+        <object>Obojí</object>
+      </resource>
+      <resource name="objecttypes">
+        <object>Zobrazit objekty, které jsou</object>
+      </resource>
+      <resource name="AutofilterButton">
+        <object>Automatický filtr</object>
+      </resource>
+      <resource name="CloneButton">
+        <object>Klonovat</object>
+      </resource>
+      <resource name="ConfirmButton">
+        <object>Potvrdit</object>
+      </resource>
+      <resource name="DesignMode">
+        <object>Režim návrhu</object>
+      </resource>
+      <resource name="InvalidateCacheButton">
+        <object>Zneplatnit data v mezipaměti</object>
+      </resource>
+      <resource name="LoadedRowsAll">
+        <object>Nahrané řádky:všechny</object>
+      </resource>
+      <resource name="LoadedRows">
+        <object>Nahrané řádky</object>
+      </resource>
+      <resource name="SelectedRowCount">
+        <object>Vybraný počet řádků</object>
+      </resource>
+      <resource name="NormalMode">
+        <object>Zastavit návrh</object>
+      </resource>
+      <resource name="OperationsButton">
+        <object>Operace</object>
+      </resource>
+      <resource name="RefreshButton">
+        <object>Obnovit</object>
+      </resource>
+      <resource name="ReloadConfigButton">
+        <object>Obnovit položku GUI</object>
+      </resource>
+      <resource name="Remove">
+        <object>Odstranit</object>
+      </resource>
+      <resource name="RestoreDefaultsButton">
+        <object>Obnovit výchozí rozvržení</object>
+      </resource>
+      <resource name="Save">
+        <object>Uložit</object>
+      </resource>
+      <resource name="SaveAs">
+        <object>Uložit jako...</object>
+      </resource>
+      <resource name="ShowPreview">
+        <object>Zobrazit podrobné informace</object>
+      </resource>
+      <resource name="XlatButton">
+        <object>Xlat</object>
+      </resource>
+      <resource name="ViewSql">
+        <object>SQL</object>
+      </resource>
+      <resource name="DataSourceConfigProblems">
+        <object>Problémy konfigurace zdroje dat</object>
+      </resource>
+      <resource name="ShowRawView">
+        <object>Nezpracované zobrazení</object>
+      </resource>
+      <resource name="SaveAsDefault">
+        <object>Uložit jako výchozí</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.Controls.FixedScale" ServiceOnly="false">
+      <resource name="fixed">
+        <object>FIXNÍ</object>
+      </resource>
+      <resource name="scaleName">
+        <object>Fixní hmotnost</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.PrintPrompt" ServiceOnly="false">
+      <resource name="checkEdit1.Properties.Caption">
+        <object>Vytisknout podrobné informace</object>
+      </resource>
+      <resource name="checkEdit2.Properties.Caption">
+        <object>Vytisknout všechny podrobnosti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.PrintPromptDialog" ServiceOnly="false">
+      <resource name="Text">
+        <object>Možnosti tisku</object>
+      </resource>
+      <resource name="simpleButton1.Text">
+        <object>OK</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.CardTableView.CardTableView" ServiceOnly="false">
+      <resource name="Lookup.Active.Caption">
+        <object>Aktivní</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Název</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Kód</object>
+      </resource>
+      <resource name="Err.RefreshingData">
+        <object>Chyba při obnovení dat!</object>
+      </resource>
+      <resource name="Warning.DeleteRecord">
+        <object>Chcete smazat tento záznam?</object>
+      </resource>
+      <resource name="Warning.DeleteRecordExtra">
+        <object>Smazání záznamu také smaže seznam a všechny záznamy, které na něj odkazují!</object>
+      </resource>
+      <resource name="btnCancel.Caption">
+        <object>Storno</object>
+      </resource>
+      <resource name="btnCancel.Hint">
+        <object>Zruší poslední změny</object>
+      </resource>
+      <resource name="btnClear.Caption">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="btnClear.Hint">
+        <object>Vymazat záznam</object>
+      </resource>
+      <resource name="btnClone.Caption">
+        <object>Klonovat</object>
+      </resource>
+      <resource name="btnClone.Hint">
+        <object>Klonuje aktuální záznam</object>
+      </resource>
+      <resource name="btnConfirm.Caption">
+        <object>Potvrdit</object>
+      </resource>
+      <resource name="btnConfirm.Hint">
+        <object>Potvrdit změny</object>
+      </resource>
+      <resource name="btnDelete.Caption">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="btnDelete.Hint">
+        <object>Vymaže aktuální záznam</object>
+      </resource>
+      <resource name="btnGridClone.Caption">
+        <object>Klonovat</object>
+      </resource>
+      <resource name="btnGridClone.Hint">
+        <object>Klonuje vybrané položky</object>
+      </resource>
+      <resource name="btnGridCopy.Caption">
+        <object>Kopírovat</object>
+      </resource>
+      <resource name="btnGridCopy.Hint">
+        <object>Kopíruje vybrané položky</object>
+      </resource>
+      <resource name="btnGridPaste.Caption">
+        <object>Vložit</object>
+      </resource>
+      <resource name="btnGridPaste.Hint">
+        <object>Vloží zkopírované položky</object>
+      </resource>
+      <resource name="btnNavFirst.Hint">
+        <object>Přejít na první záznam</object>
+      </resource>
+      <resource name="btnNavLast.Hint">
+        <object>Přejít na poslední záznam</object>
+      </resource>
+      <resource name="btnNavNext.Hint">
+        <object>Přejít na další záznam</object>
+      </resource>
+      <resource name="btnNavPrevious.Hint">
+        <object>Přejít na předchozí záznam</object>
+      </resource>
+      <resource name="btnNew.Caption">
+        <object>Nový</object>
+      </resource>
+      <resource name="btnNew.Hint">
+        <object>Přidá nový záznam</object>
+      </resource>
+      <resource name="btnRefresh.Caption">
+        <object>Obnovit</object>
+      </resource>
+      <resource name="btnRefresh.Hint">
+        <object>Obnoví data v záznamu</object>
+      </resource>
+      <resource name="chActive.Text">
+        <object>Aktivní</object>
+      </resource>
+      <resource name="chActive.ToolTip">
+        <object>Kontrola viditelnosti záznamu</object>
+      </resource>
+      <resource name="edCode.ToolTip">
+        <object>Interní systémový kód</object>
+      </resource>
+      <resource name="edName.ToolTip">
+        <object>Název systému</object>
+      </resource>
+      <resource name="edShortName.ToolTip">
+        <object>Krátký název systému</object>
+      </resource>
+      <resource name="grpGeneralSettings.Text">
+        <object>Obecný</object>
+      </resource>
+      <resource name="paramTabPage.Text">
+        <object>Seznam parametrů</object>
+      </resource>
+      <resource name="lblName.Text">
+        <object>Název:</object>
+      </resource>
+      <resource name="lblShortName.Text">
+        <object>Krátký název:</object>
+      </resource>
+      <resource name="lblCode.Text">
+        <object>Kód:</object>
+      </resource>
+      <resource name="lblXML.Text">
+        <object>XML:</object>
+      </resource>
+      <resource name="xmlData.ToolTip">
+        <object>Konfigurace systému</object>
+      </resource>
+      <resource name="recSelect.Caption">
+        <object>Selektor</object>
+      </resource>
+      <resource name="recSelect.Hint">
+        <object>Vybírá, který záznam se má upravit</object>
+      </resource>
+      <resource name="mnuOptions.Caption">
+        <object>Operace</object>
+      </resource>
+      <resource name="mnuOptions.Hint">
+        <object>Zobrazí další operace</object>
+      </resource>
+      <resource name="chkRecShowActive.Caption">
+        <object>Aktivní</object>
+      </resource>
+      <resource name="chkRecShowBoth.Caption">
+        <object>Obojí</object>
+      </resource>
+      <resource name="chkRecShowInactive.Caption">
+        <object>Neaktivní</object>
+      </resource>
+      <resource name="btnOptDefLayout.Caption">
+        <object>Obnovit výchozí rozvržení</object>
+      </resource>
+      <resource name="mnuActiveState.Caption">
+        <object>Zobrazit objekty, které jsou</object>
+      </resource>
+      <resource name="btnOptInvCachedData.Caption">
+        <object>Zneplatnit data v mezipaměti</object>
+      </resource>
+      <resource name="btnOptXlat.Caption">
+        <object>Xlat</object>
+      </resource>
+      <resource name="btnOptSql.Caption">
+        <object>SQL</object>
+      </resource>
+      <resource name="btnOptReloadGuiItem.Caption">
+        <object>Obnovit položku GUI</object>
+      </resource>
+      <resource name="btnUpdActivity.Caption">
+        <object>Aktualizovat aktivitu</object>
+      </resource>
+      <resource name="btnUpdActivity.Hint">
+        <object>Aktualizuje aktivitu výrobní jednotky pro tento program</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.CardTableView.CardTableFile" ServiceOnly="false">
+      <resource name="AllFiles">
+        <object>Všechny soubory</object>
+      </resource>
+      <resource name="Files">
+        <object>Soubory</object>
+      </resource>
+      <resource name="Title.ImportFile">
+        <object>Vybrat soubor k importu</object>
+      </resource>
+      <resource name="Title.ExportFile">
+        <object>Vybrat soubor k exportu do</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Common.Controls.Lookups.CultureLookup" ServiceOnly="false">
+      <resource name="LookupName">
+        <object>Název</object>
+      </resource>
+      <resource name="LookupCode">
+        <object>Kód</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Common.Controls.Lookups.EnumLookUp" ServiceOnly="false">
+      <resource name="Lookup.Value">
+        <object>Číslo</object>
+      </resource>
+      <resource name="Lookup.Name">
+        <object>Popis</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsWizardLocalizer" ServiceOnly="false">
+      <resource name="CancelText">
+        <object>&amp;Storno</object>
+      </resource>
+      <resource name="FinishText">
+        <object>&amp;Dokončit</object>
+      </resource>
+      <resource name="HelpText">
+        <object>&amp;Nápověda</object>
+      </resource>
+      <resource name="NextText">
+        <object>&amp;Další &gt;</object>
+      </resource>
+      <resource name="PreviousText">
+        <object>&lt; &amp;Zpět</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Dashboard.DashboardViewer" ServiceOnly="false">
+      <resource name="NoDashboardSelected">
+        <object>Žádný vybraný panel!
+Zkontrolujte konfiguraci.</object>
+      </resource>
+      <resource name="NoBoard">
+        <object>&lt;Žádná deska&gt;</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Dashboard.Dialog.AttentionList" ServiceOnly="false">
+      <resource name="btnClose.Text">
+        <object>Zavřít</object>
+      </resource>
+      <resource name="btnShowPage.Text">
+        <object>Zobrazit stránku</object>
+      </resource>
+      <resource name="btnClose.ToolTip">
+        <object>Zavře toto dialogové okno</object>
+      </resource>
+      <resource name="btnShowPage.ToolTip">
+        <object>Zobrazí stránku, na které se vyskytuje vybraný poplach</object>
+      </resource>
+      <resource name="Text">
+        <object>Výstrahy</object>
+      </resource>
+      <resource name="colComponent.Caption">
+        <object>Komponenta</object>
+      </resource>
+      <resource name="colType.Caption">
+        <object>Typ</object>
+      </resource>
+      <resource name="colPage.Caption">
+        <object>Strana</object>
+      </resource>
+      <resource name="colDescription.Caption">
+        <object>Popis</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

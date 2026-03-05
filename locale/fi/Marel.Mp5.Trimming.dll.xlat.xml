@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fi">
+  <industry>
+    <type name="Marel.Mp5.Trimming.Configuration.StationInfeedStatus" ServiceOnly="false">
+      <resource name="Idle">
+        <object>Vapaa</object>
+      </resource>
+      <resource name="Working">
+        <object>Käytössä</object>
+      </resource>
+      <resource name="Requesting">
+        <object>Pyytää</object>
+      </resource>
+      <resource name="Delivering">
+        <object>Toimittaa</object>
+      </resource>
+      <resource name="Changeover">
+        <object>Siirtyminen</object>
+      </resource>
+      <resource name="Clear">
+        <object>Tyhjä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.QcMethod" ServiceOnly="false">
+      <resource name="None">
+        <object>Ei mitään</object>
+      </resource>
+      <resource name="NormalQc">
+        <object>Normaali</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Vara</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Data.TrimRType" ServiceOnly="false">
+      <resource name="Input">
+        <object>Syöttö</object>
+      </resource>
+      <resource name="Output">
+        <object>Tuotto</object>
+      </resource>
+      <resource name="Bypass">
+        <object>Ohitus</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Poistettu</object>
+      </resource>
+      <resource name="NoSource">
+        <object>Ei lähdettä</object>
+      </resource>
+      <resource name="NotHandled">
+        <object>Ei käsitelty</object>
+      </resource>
+      <resource name="Missing">
+        <object>Puuttuva</object>
+      </resource>
+      <resource name="CopiedInput">
+        <object>Kopioitu syöttö</object>
+      </resource>
+      <resource name="CopiedOutput">
+        <object>Kopioitu tuotto</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Data.ProductCategory" ServiceOnly="false">
+      <resource name="RawMaterial">
+        <object>Syöttö</object>
+      </resource>
+      <resource name="Primary">
+        <object>Ensisijainen</object>
+      </resource>
+      <resource name="Secondary">
+        <object>Toissijainen</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>Tertiäärinen</object>
+      </resource>
+      <resource name="Waste">
+        <object>Jäte</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.InspectionMode" ServiceOnly="false">
+      <resource name="Random">
+        <object>Satunnainen</object>
+      </resource>
+      <resource name="Planned">
+        <object>Suunniteltu</object>
+      </resource>
+      <resource name="Fallback">
+        <object>Vara</object>
+      </resource>
+      <resource name="OperatorSelect">
+        <object>Käyttäjän valinta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Qc.FallbackType" ServiceOnly="false">
+      <resource name="None">
+        <object>Ei mitään</object>
+      </resource>
+      <resource name="Selected">
+        <object>Valituille tuotteille</object>
+      </resource>
+      <resource name="Any">
+        <object>Millä tahansa tuotteille</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.SystemType" ServiceOnly="true">
+      <resource name="Standard">
+        <object>Vakio</object>
+      </resource>
+      <resource name="Group">
+        <object>Ryhmäasemat</object>
+      </resource>
+      <resource name="Manual">
+        <object>Manuaalinen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.DeviceRole" ServiceOnly="true">
+      <resource name="NotSpecified">
+        <object>Ei määritetty</object>
+      </resource>
+      <resource name="ProductInput">
+        <object>Tuotteet sisään</object>
+      </resource>
+      <resource name="ProductOutput">
+        <object>Tuotteet ulos</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.BufferType" ServiceOnly="true">
+      <resource name="PeriodicSet">
+        <object>Jaksoittainen joukko</object>
+      </resource>
+      <resource name="MpsPeriod">
+        <object>MPS - jaksoittainen</object>
+      </resource>
+      <resource name="MpsOperator">
+        <object>MPS-käyttäjä</object>
+      </resource>
+      <resource name="Automatic">
+        <object>Automaattinen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.GateType" ServiceOnly="true">
+      <resource name="Simple">
+        <object>Yksinkertainen</object>
+      </resource>
+      <resource name="Batching">
+        <object>Annostelu</object>
+      </resource>
+      <resource name="Grading">
+        <object>Lajittelu</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Laadunvalvonta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Configuration.StationType" ServiceOnly="true">
+      <resource name="Infeed">
+        <object>Syöttö</object>
+      </resource>
+      <resource name="Trimming">
+        <object>Leikkaaminen</object>
+      </resource>
+      <resource name="QualityControl">
+        <object>Laadunvalvonta</object>
+      </resource>
+      <resource name="Packing">
+        <object>Pakkaaminen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Trimming.Line.RoleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>Syöttö</object>
+      </resource>
+      <resource name="Output">
+        <object>Tuotto</object>
+      </resource>
+      <resource name="CopyInput">
+        <object>Kopioi syöttö</object>
+      </resource>
+      <resource name="CopyOutput">
+        <object>Kopioi tuotto</object>
+      </resource>
+      <resource name="Mixed">
+        <object>Sekalainen</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

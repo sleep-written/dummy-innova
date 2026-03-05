@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="nl">
+  <industry>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.SystemSetup.FiSystemView" ServiceOnly="false">
+      <resource name="paramTabPage.Text">
+        <object>Aanvoerafdelingen</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Code</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Naam</object>
+      </resource>
+      <resource name="grpSystem.Text">
+        <object>Systeem</object>
+      </resource>
+      <resource name="sysPrgLookUp.ToolTip">
+        <object>Systeemprogramma waarmee het systeem wordt uitgevoerd</object>
+      </resource>
+      <resource name="siteLookUp.ToolTip">
+        <object>Locatie waartoe het systeem behoort</object>
+      </resource>
+      <resource name="sysAppLookUp.ToolTip">
+        <object>Applicatie die het systeem regelt</object>
+      </resource>
+      <resource name="lblSysProgram.Text">
+        <object>Systeemprogramma:</object>
+      </resource>
+      <resource name="lblSite.Text">
+        <object>Locatie:</object>
+      </resource>
+      <resource name="lblApplication.Text">
+        <object>Applicatie:</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Fout bij het opslaan van gegevens.</object>
+      </resource>
+      <resource name="Err.CancelEdit">
+        <object>Fout bij het annuleren.</object>
+      </resource>
+      <resource name="Err.NoObjectSelected">
+        <object>Er is geen object geselecteerd</object>
+      </resource>
+      <resource name="Err.NoObjectSelectedCaption">
+        <object>Informatie</object>
+      </resource>
+      <resource name="Err.DeletingStationChildren">
+        <object>Kan onderliggende items van het station niet verwijderen</object>
+      </resource>
+      <resource name="Err.DeletingStationData">
+        <object>Kan station niet verwijderen. Station bevat gegevens.</object>
+      </resource>
+      <resource name="CardData.Title">
+        <object>Ontbrekende eigenschappen</object>
+      </resource>
+      <resource name="CardData.Text.Single">
+        <object>De volgende eigenschap moet worden gedefinieerd</object>
+      </resource>
+      <resource name="CardData.Text.Multi">
+        <object>De volgende eigenschappen moeten worden gedefinieerd</object>
+      </resource>
+      <resource name="CardData.DataConfig">
+        <object>voordat de lijnen kunnen worden geconfigureerd</object>
+      </resource>
+      <resource name="CardData.DataSaved">
+        <object>voordat het systeem kan worden opgeslagen</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.ProgramSetup.FlockSetupViewUC" ServiceOnly="false">
+      <resource name="btnConfirm.Caption">
+        <object>Bevestigen</object>
+      </resource>
+      <resource name="btnConfirm.Hint">
+        <object>Wijzigingen bevestigen</object>
+      </resource>
+      <resource name="btnNavFirst.ToolTip">
+        <object>Ga naar eerste record</object>
+      </resource>
+      <resource name="btnNavLast.ToolTip">
+        <object>Ga naar laatste record</object>
+      </resource>
+      <resource name="btnNavNext.ToolTip">
+        <object>Ga naar volgende record</object>
+      </resource>
+      <resource name="btnNavPrevious.ToolTip">
+        <object>Ga naar vorige record</object>
+      </resource>
+      <resource name="btnRefresh.Caption">
+        <object>Vernieuwen</object>
+      </resource>
+      <resource name="btnRefresh.Hint">
+        <object>Hiermee worden gegeven in de record vernieuwd</object>
+      </resource>
+      <resource name="btnUpdateActivity.Caption">
+        <object>Activiteit bijwerken</object>
+      </resource>
+      <resource name="btnUpdateActivity.Hint">
+        <object>Activiteit van procesunit bijwerken voor dit programma</object>
+      </resource>
+      <resource name="MnuOptions.Caption">
+        <object>Bewerkingen</object>
+      </resource>
+      <resource name="MnuOptions.Hint">
+        <object>Meer bewerkingen weergeven</object>
+      </resource>
+      <resource name="chkRecShowActive.Caption">
+        <object>Actief</object>
+      </resource>
+      <resource name="chkRecShowBoth.Caption">
+        <object>Beide</object>
+      </resource>
+      <resource name="chkRecShowInactive.Caption">
+        <object>Inactief</object>
+      </resource>
+      <resource name="btnOptDefLayout.Caption">
+        <object>Standaardlay-out herstellen</object>
+      </resource>
+      <resource name="MnuActiveState.Caption">
+        <object>Koppels tonen met de status:</object>
+      </resource>
+      <resource name="btnOptInvCachedData.Caption">
+        <object>Gegevens in cache ongeldig maken</object>
+      </resource>
+      <resource name="btnOptXlat.Caption">
+        <object>Xlat</object>
+      </resource>
+      <resource name="btnOptSql.Caption">
+        <object>SQL</object>
+      </resource>
+      <resource name="btnOptReloadGuiItem.Caption">
+        <object>GUI-item opnieuw laden</object>
+      </resource>
+      <resource name="lblSelectLine.Text">
+        <object>Lijn:</object>
+      </resource>
+      <resource name="tabPageFlockSetup.Text">
+        <object>Koppelinsttelling</object>
+      </resource>
+      <resource name="lblSetDate.Text">
+        <object>Datum:</object>
+      </resource>
+      <resource name="lblValidFrom.Text">
+        <object>Geldig van:</object>
+      </resource>
+      <resource name="lblValidTo.Text">
+        <object>Geldig tot:</object>
+      </resource>
+      <resource name="selectLineLookUp.ToolTip">
+        <object>Selecteer de lijn waarvoor koppelnummers moeten worden bewerkt</object>
+      </resource>
+      <resource name="dateFilter.ToolTip">
+        <object>Selecteer datum voor het instellen van koppelnummers</object>
+      </resource>
+      <resource name="lblFarmers.Text">
+        <object>Boertypen:</object>
+      </resource>
+      <resource name="farmerFilter.ToolTip">
+        <object>Filter selecteren voor opzoekbewerking in tabel met boeren</object>
+      </resource>
+      <resource name="lblParentFarmers.Text">
+        <object>Bovenliggende boer:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.ProgramSetup.Pages.PageFlockSetup" ServiceOnly="false">
+      <resource name="DeletePrograms">
+        <object>Verwijder uit programmatabel.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.ProgramSetup.FlockSetupView" ServiceOnly="false">
+      <resource name="Lookup.Name.Caption">
+        <object>Naam</object>
+      </resource>
+      <resource name="Lookup.Id.Caption">
+        <object>Id</object>
+      </resource>
+      <resource name="Err.Closing">
+        <object>Wilt u het formulier sluiten en de wijzigingen annuleren?</object>
+      </resource>
+      <resource name="Err.Closing.Title">
+        <object>Fout bij het opslaan van gegevens.</object>
+      </resource>
+      <resource name="EmptyLineSelect">
+        <object>-geen lijnen beschikbaar-</object>
+      </resource>
+      <resource name="Err.RefreshingData">
+        <object>Fout bij het vernieuwen van gegevens</object>
+      </resource>
+      <resource name="Err.ErrorSaving">
+        <object>Fout bij het opslaan van gegevens</object>
+      </resource>
+    </type>
+    <type name="Grid.Flock.DbSetup" ServiceOnly="false">
+      <resource name="dbid">
+        <object>Id</object>
+      </resource>
+      <resource name="description">
+        <object>Beschrijving</object>
+      </resource>
+      <resource name="ipaddress">
+        <object>IP-adres</object>
+      </resource>
+      <resource name="dbname">
+        <object>Databasenaam</object>
+      </resource>
+      <resource name="username">
+        <object>Gebruikersnaam</object>
+      </resource>
+      <resource name="password">
+        <object>Wachtwoord</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+    </type>
+    <type name="Grid.Flock.System" ServiceOnly="false">
+      <resource name="system">
+        <object>Systeem</object>
+      </resource>
+      <resource name="sequence">
+        <object>Volgorde</object>
+      </resource>
+      <resource name="name">
+        <object>LineName</object>
+      </resource>
+      <resource name="dbid">
+        <object>Database</object>
+      </resource>
+      <resource name="supplylineid">
+        <object>Lijn-id</object>
+      </resource>
+      <resource name="polltime">
+        <object>Poll-tijd</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="supplylineno">
+        <object>ChainNo</object>
+      </resource>
+      <resource name="id">
+        <object>Id</object>
+      </resource>
+      <resource name="dbid.lookup.dbname">
+        <object>Naam</object>
+      </resource>
+      <resource name="dbid.lookup.description">
+        <object>Beschrijving</object>
+      </resource>
+    </type>
+    <type name="Grid.Flock.Setup" ServiceOnly="false">
+      <resource name="proc_lots_processor.lookup.name">
+        <object>Naam</object>
+      </resource>
+      <resource name="proc_lots_processor.lookup.code">
+        <object>Code</object>
+      </resource>
+      <resource name="proc_lots_processor.lookup.base_companies2_name">
+        <object>Ouder</object>
+      </resource>
+      <resource name="proc_lots_processor">
+        <object>Boer</object>
+      </resource>
+      <resource name="proc_lots_extcode">
+        <object>Klantcode</object>
+      </resource>
+      <resource name="proc_lots_description1">
+        <object>Koppelnr.</object>
+      </resource>
+      <resource name="proc_lots_description2">
+        <object>Kippenhoknr.</object>
+      </resource>
+      <resource name="proc_lots_description3">
+        <object>JC</object>
+      </resource>
+      <resource name="proc_lots_name">
+        <object>LotCode</object>
+      </resource>
+      <resource name="proc_lots_expectedcount">
+        <object>Verwacht aantal</object>
+      </resource>
+      <resource name="proc_lots_brcountry Name">
+        <object>Geboren in</object>
+      </resource>
+      <resource name="proc_lots_ricountry Name">
+        <object>Opgegroeid in</object>
+      </resource>
+      <resource name="proc_lots_slhouse Name">
+        <object>Slachthuis</object>
+      </resource>
+      <resource name="proc_lots_qamark1">
+        <object>QA Markering 1 code</object>
+      </resource>
+      <resource name="proc_lots_qamark1 Name">
+        <object>QA Markering 1</object>
+      </resource>
+      <resource name="proc_lots_qamark2">
+        <object>QA Markering 2 code</object>
+      </resource>
+      <resource name="proc_lots_qamark2 Name">
+        <object>QA Markering 2</object>
+      </resource>
+      <resource name="proc_lots_qamark3">
+        <object>QA Markering 3 code</object>
+      </resource>
+      <resource name="proc_lots_qamark3 Name">
+        <object>QA Markering 3</object>
+      </resource>
+      <resource name="proc_lots_qamark4">
+        <object>QA Markering 4 code</object>
+      </resource>
+      <resource name="proc_lots_qamark4 Name">
+        <object>QA Markering 4</object>
+      </resource>
+      <resource name="proc_lots_active">
+        <object>Actief</object>
+      </resource>
+      <resource name="proc_lots_code">
+        <object>Code</object>
+      </resource>
+      <resource name="proc_lots_description4">
+        <object>Beschrijving 4</object>
+      </resource>
+      <resource name="proc_lots_description5">
+        <object>Beschrijving 5</object>
+      </resource>
+      <resource name="proc_lots_description6">
+        <object>Beschrijving 6</object>
+      </resource>
+      <resource name="proc_lots_description7">
+        <object>Beschrijving 7</object>
+      </resource>
+      <resource name="proc_lots_description8">
+        <object>Beschrijving 8</object>
+      </resource>
+      <resource name="proc_lots_dimension2">
+        <object>Dimensie 2</object>
+      </resource>
+      <resource name="proc_lots_dimension3">
+        <object>Dimensie 3</object>
+      </resource>
+      <resource name="proc_lots_dimension4">
+        <object>Dimensie 4</object>
+      </resource>
+      <resource name="proc_lots_flocknumber">
+        <object>Flocknummer</object>
+      </resource>
+      <resource name="proc_lots_group">
+        <object>Groep code</object>
+      </resource>
+      <resource name="proc_lots_lottype">
+        <object>Lot type</object>
+      </resource>
+      <resource name="proc_lots_qamark1code">
+        <object>QA Markering 1 ext. code</object>
+      </resource>
+      <resource name="proc_lots_qamark2code">
+        <object>QA Markering 2 ext. code</object>
+      </resource>
+      <resource name="proc_lots_qamark3code">
+        <object>QA Markering 3 ext. code</object>
+      </resource>
+      <resource name="proc_lots_qamark4code">
+        <object>QA Markering 4 ext. code</object>
+      </resource>
+      <resource name="proc_lots_slsequence">
+        <object>Slacht volgorde</object>
+      </resource>
+      <resource name="proc_lots_sourcepack">
+        <object>Bron paak</object>
+      </resource>
+      <resource name="proc_lots_sourcepallet">
+        <object>Bron pallet</object>
+      </resource>
+      <resource name="proc_lots_subgroup">
+        <object>Subgroep</object>
+      </resource>
+      <resource name="proc_lots_topflockid">
+        <object>TOP flock ID</object>
+      </resource>
+      <resource name="proc_lots_validfrom">
+        <object>Geldig vanaf</object>
+      </resource>
+      <resource name="proc_lots_validto">
+        <object>Geldig tot</object>
+      </resource>
+      <resource name="base_companies2_name">
+        <object>Bovenliggende boer</object>
+      </resource>
+      <resource name="proc_lots_proc_lots_processor.lookup.code">
+        <object>Processor code</object>
+      </resource>
+      <resource name="processor.lookup.shname">
+        <object>Processor korte naam</object>
+      </resource>
+      <resource name="processor Name">
+        <object>Processor naam</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ext Code</object>
+      </resource>
+      <resource name="description1">
+        <object>Beschrijving 1</object>
+      </resource>
+      <resource name="processor">
+        <object>Verwerker</object>
+      </resource>
+      <resource name="proc_lots_processor Name">
+        <object>Verwerker naam</object>
+      </resource>
+      <resource name="name">
+        <object>Name</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.ProgramSetup.Common.FarmerFilterTypes" ServiceOnly="false">
+      <resource name="None">
+        <object>Geen</object>
+      </resource>
+      <resource name="Supplier">
+        <object>Leverancier</object>
+      </resource>
+      <resource name="Owner">
+        <object>Eigenaar</object>
+      </resource>
+      <resource name="Producer">
+        <object>Producent</object>
+      </resource>
+      <resource name="Storage">
+        <object>Opslag</object>
+      </resource>
+      <resource name="Transporter">
+        <object>Vervoerder</object>
+      </resource>
+      <resource name="Entryport">
+        <object>Ingangspoort</object>
+      </resource>
+      <resource name="Customer">
+        <object>Klant</object>
+      </resource>
+      <resource name="Agent">
+        <object>Vertegenwoordiger</object>
+      </resource>
+      <resource name="Processor">
+        <object>Verwerker</object>
+      </resource>
+      <resource name="SelectAll">
+        <object>(Alles selecteren)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.QuickConfig.EquipmentMonitoring.EquipmentMonitoringQuickConfigUC" ServiceOnly="false">
+      <resource name="FailureCreatingPluginHost">
+        <object>Fout opgetreden tijdens creatie van de pluginhost. Exceptie:</object>
+      </resource>
+      <resource name="ExceptionOccurred">
+        <object>Exceptie opgetreden</object>
+      </resource>
+      <resource name="FailureCreatingDeviceRouter">
+        <object>Fout opgetreden tijdens creatie van een nieuwe devicerouter. Exceptie:</object>
+      </resource>
+      <resource name="FailureCreatingDevice">
+        <object>Fout opgetreden tijdens creatie van een nieuw apparaat. Exceptie:</object>
+      </resource>
+      <resource name="FailureCreatingPlugin">
+        <object>Fout opgetreden tijdens creatie van een nieuwe plugin. Exceptie:</object>
+      </resource>
+      <resource name="WizardControlTitle">
+        <object>Equipment Monitoring Configuratie</object>
+      </resource>
+      <resource name="PluginTypeSelectionText">
+        <object>Selecteer een plugin type</object>
+      </resource>
+      <resource name="PluginConfigurationText">
+        <object>Plugin configuratie</object>
+      </resource>
+      <resource name="ColumnAlarmConfig">
+        <object>Alarm configuratie</object>
+      </resource>
+      <resource name="ColumnName">
+        <object>Naam</object>
+      </resource>
+      <resource name="ColumnCode">
+        <object>Code</object>
+      </resource>
+      <resource name="ConfigurationSelectionText">
+        <object>&lt;Selecteer configuratie&gt;</object>
+      </resource>
+      <resource name="ColumnDeviceName">
+        <object>Devicenaam</object>
+      </resource>
+      <resource name="ColumnTarFileName">
+        <object>TARfile</object>
+      </resource>
+      <resource name="ColumnIPAddress">
+        <object>IPAddres</object>
+      </resource>
+      <resource name="ColumnFtpHomeDirectory">
+        <object>FTP homedirectory</object>
+      </resource>
+      <resource name="ColumnFtpUserName">
+        <object>FTP gebruikersnaam</object>
+      </resource>
+      <resource name="ColumnFtpPassword">
+        <object>FTP wachtwoord</object>
+      </resource>
+      <resource name="InstallEmComponents">
+        <object>EM Configuratie</object>
+      </resource>
+      <resource name="WizardControlInstallEMcomponents">
+        <object>Installeer EM componenten</object>
+      </resource>
+      <resource name="Plugin">
+        <object>plugiin</object>
+      </resource>
+      <resource name="DeviceRouter">
+        <object>device router</object>
+      </resource>
+      <resource name="Device">
+        <object>device</object>
+      </resource>
+      <resource name="Installing">
+        <object>Installeren</object>
+      </resource>
+      <resource name="Selecting">
+        <object>Selecteren</object>
+      </resource>
+      <resource name="Starting">
+        <object>Starten</object>
+      </resource>
+      <resource name="ButtonTextNext">
+        <object>Volgende</object>
+      </resource>
+      <resource name="ButtonTextInstall">
+        <object>Installeren</object>
+      </resource>
+      <resource name="ImportFromCSV">
+        <object>&lt;Importeer van CSV file&gt;</object>
+      </resource>
+      <resource name="ImportFromEplan">
+        <object>&lt;Importeer van Eplan XML file&gt;</object>
+      </resource>
+      <resource name="ButtonTextCancel">
+        <object>Annuleer</object>
+      </resource>
+      <resource name="SelectAlarmConfiguration">
+        <object>Selecteer alarm configuratie</object>
+      </resource>
+      <resource name="FailureStartingPlugin">
+        <object>Fout opgetreden tijdens het starten van de plugin. Exceptie:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.QuickConfig.EquipmentMonitoring.AlarmConfigSelectionUC" ServiceOnly="false">
+      <resource name="ColumnName">
+        <object>Naam</object>
+      </resource>
+      <resource name="ColumnCode">
+        <object>Code</object>
+      </resource>
+      <resource name="SelectConfiguration">
+        <object>&lt;Selecteer configuration&gt;</object>
+      </resource>
+      <resource name="SelectConfigurationLabel">
+        <object>Meerdere alarmconfiguarties geimporteerd\nSelecteer de configuratie die u wilt gebruiken.</object>
+      </resource>
+    </type>
+  </industry>
+  <industry name="Poultry">
+    <type name="Marel.Mp5.Pdsnt.UI.Windows.QuickConfig.EquipmentMonitoring.EquipmentMonitoringQuickConfigUC" ServiceOnly="false">
+      <resource name="Pluginhost">
+        <object>pluginhost</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

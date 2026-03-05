@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources culture="ru">
+  <industry>    
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Collectors.ScopeDataCollector" ServiceOnly="false">
+      <resource name="Err.Timeout">
+        <object>Превышен лимит времени во время сбора данных пределов. Собрано недостаточно данных.</object>
+      </resource>
+    
+      <resource name="Err.NoPreSampleData">
+        <object>Невозможно собрать данные предварительной выборки, так как отсутствуют сигналы пускового датчика.</object>
+      </resource>
+      <resource name="Err.WrongDeviceMode">
+        <object>Ошибка запуска сбора данных пределов. Устройство не работе в режиме 90-93</object>
+      </resource>    
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2DeviceHandler" ServiceOnly="false">
+      <resource name="Err.OfflineCallFailed">
+        <object>Устройство не в рабочем режиме Ошибка {0}</object>
+      </resource>
+    
+      <resource name="Err.ReadRegisterTimeout">
+        <object>Превышен лимит времени при считывании регистра</object>
+      </resource>
+      <resource name="Err.GetStatus">
+        <object>Ошибка исполнения команды GetStatus</object>
+      </resource>
+      <resource name="Err.GetRegisters">
+        <object>Ошибка исполнения команды GetRegisters</object>
+      </resource>
+      <resource name="Err.PutGetRegisters">
+        <object>Ошибка исполнения команды PutGetRegisters</object>
+      </resource>    
+    </type>
+    <type name="Marel.Mp5.Pdsnt.Wgm.Services.Devices.Mws2RawDataHandler" ServiceOnly="false">
+      <resource name="Err.NotOnline">
+        <object>Устройство MWS2 не в рабочем режиме</object>
+      </resource>    
+      <resource name="Err.ScopeCollectionBusy">
+        <object>Сбор данных пределов уже выполняется. Дождитесь завершения...</object>
+      </resource>
+      <resource name="Err.StaticWeightTimeout">
+        <object>Ожидание превышения лимита времени статического веса</object>
+      </resource>
+      <resource name="Err.NoDataFromDevice">
+        <object>Не удается получить данные устройства</object>
+      </resource>
+      <resource name="Err.DeviceInWrongMode">
+        <object>Устройство не работе в режиме 90-93. Невозможно получить статический вес</object>
+      </resource>
+      </type>
+  </industry>
+</resources>

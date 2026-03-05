@@ -1,0 +1,2110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="cs">
+  <industry>
+    <type name="Marel.Mp5.Process.Process.LineType" ServiceOnly="true">
+      <resource name="ProcessUnit">
+        <object>Provozní jednotka</object>
+      </resource>
+      <resource name="BasicLine">
+        <object>Linka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanType" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Žádný plán</object>
+      </resource>
+      <resource name="ContextPlan">
+        <object>Běžný plán</object>
+      </resource>
+      <resource name="SplitPlan">
+        <object>Rozdělený plán</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessState" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="NoWork">
+        <object>Venkovní hodiny</object>
+      </resource>
+      <resource name="Running">
+        <object>Běží</object>
+      </resource>
+      <resource name="Idle">
+        <object>Nečinný</object>
+      </resource>
+      <resource name="Stopped">
+        <object>Zastavený</object>
+      </resource>
+      <resource name="Breakdown">
+        <object>Porucha</object>
+      </resource>
+      <resource name="NotProgrammed">
+        <object>Není naprogramováno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessCounterType" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Nepoužito</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Na provozní jednotku</object>
+      </resource>
+      <resource name="Line">
+        <object>Na linku</object>
+      </resource>
+      <resource name="Section">
+        <object>Na sekci</object>
+      </resource>
+      <resource name="Department">
+        <object>Na oddělení</object>
+      </resource>
+      <resource name="Site">
+        <object>Na umístění</object>
+      </resource>
+      <resource name="Station">
+        <object>Na stanici</object>
+      </resource>
+      <resource name="StationGroup">
+        <object>Na skupinu stanic</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.AutoManual" ServiceOnly="true">
+      <resource name="Automatic">
+        <object>Automatické</object>
+      </resource>
+      <resource name="Manual">
+        <object>Ruční</object>
+      </resource>
+      <resource name="AllowManual">
+        <object>Povolit ruční</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ProcessPeriodType" ServiceOnly="true">
+      <resource name="Daily">
+        <object>Denně</object>
+      </resource>
+      <resource name="OnActivity">
+        <object>Při změně aktivity</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextSelect" ServiceOnly="true">
+      <resource name="NotUsed">
+        <object>Nepoužito</object>
+      </resource>
+      <resource name="Direct">
+        <object>Změnit přímo</object>
+      </resource>
+      <resource name="DirectAssigned">
+        <object>Změnit přímo, použít přiřazené položky</object>
+      </resource>
+      <resource name="DirectStopped">
+        <object>Změnit přímo při zastavení</object>
+      </resource>
+      <resource name="DirectAssignedStopped">
+        <object>Změnit přímo při zastavení, použít přiřazené položky</object>
+      </resource>
+      <resource name="Pending">
+        <object>Spuštění čeká</object>
+      </resource>
+      <resource name="PendingAssigned">
+        <object>Spuštění čeká, použít přiřazené položky</object>
+      </resource>
+      <resource name="PendingStopped">
+        <object>Spuštění čeká při zastavení</object>
+      </resource>
+      <resource name="PendingAssignedStopped">
+        <object>Spuštění čeká při zastavení, použít přiřazené položky</object>
+      </resource>
+      <resource name="ForwardPending">
+        <object>Povolit pouze čekání přesměrování</object>
+      </resource>
+      <resource name="ForwardDirect">
+        <object>Povolit pouze přímé přesměrování</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PlanMethod" ServiceOnly="true">
+      <resource name="NoPlan">
+        <object>Žádný plán</object>
+      </resource>
+      <resource name="Relaxed">
+        <object>Uvolněné</object>
+      </resource>
+      <resource name="NoSequence">
+        <object>Přísné, žádné pořadí</object>
+      </resource>
+      <resource name="Sequence">
+        <object>Přísné, v pořadí</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextType" ServiceOnly="true">
+      <resource name="NoContext">
+        <object>Bez kontextu</object>
+      </resource>
+      <resource name="LocalApplication">
+        <object>Aplikace</object>
+      </resource>
+      <resource name="LocalSystem">
+        <object>Systém</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Provozní jednotka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.SystemType" ServiceOnly="false">
+      <resource name="Other">
+        <object>Jiné údaje</object>
+      </resource>
+      <resource name="Species">
+        <object>Druhy</object>
+      </resource>
+      <resource name="Section">
+        <object>Sekce</object>
+      </resource>
+      <resource name="Input">
+        <object>Vstup</object>
+      </resource>
+      <resource name="Primary">
+        <object>Primární </object>
+      </resource>
+      <resource name="Secondary">
+        <object>Sekundární</object>
+      </resource>
+      <resource name="Tertiary">
+        <object>Terciární</object>
+      </resource>
+      <resource name="Waste">
+        <object>Odpad</object>
+      </resource>
+      <resource name="Fat">
+        <object>Tuk</object>
+      </resource>
+      <resource name="Bones">
+        <object>Kosti</object>
+      </resource>
+      <resource name="Skin">
+        <object>Kůže</object>
+      </resource>
+      <resource name="Offal">
+        <object>Droby</object>
+      </resource>
+      <resource name="Ingredient">
+        <object>Přísada</object>
+      </resource>
+      <resource name="Packaging">
+        <object>Balení</object>
+      </resource>
+      <resource name="PieceType">
+        <object>Typ kusu</object>
+      </resource>
+      <resource name="ColorType">
+        <object>Barva</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoDeliveryStatus" ServiceOnly="false">
+      <resource name="NotOrdered">
+        <object>Neobjednáno</object>
+      </resource>
+      <resource name="InStorage">
+        <object>Skladováno</object>
+      </resource>
+      <resource name="EnRoute">
+        <object>Na cestě</object>
+      </resource>
+      <resource name="Receiving">
+        <object>Příjem, není dostupný</object>
+      </resource>
+      <resource name="ReceivingAvailable">
+        <object>Příjem, dostupný</object>
+      </resource>
+      <resource name="Holding">
+        <object>Podržení</object>
+      </resource>
+      <resource name="Available">
+        <object>Dostupný</object>
+      </resource>
+      <resource name="Completed">
+        <object>Hotovo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.PrivateObjectType" ServiceOnly="false">
+      <resource name="Mateial">
+        <object>Produkt</object>
+      </resource>
+      <resource name="Customer">
+        <object>Zákazník</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Objednací linka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.CountMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Přijmout vše</object>
+      </resource>
+      <resource name="Range">
+        <object>Min a max</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.ContextColumn" ServiceOnly="false">
+      <resource name="Activity">
+        <object>Aktivita</object>
+      </resource>
+      <resource name="Po">
+        <object>Objednávka</object>
+      </resource>
+      <resource name="Batch">
+        <object>Dávka</object>
+      </resource>
+      <resource name="Lot">
+        <object>Šarže</object>
+      </resource>
+      <resource name="Plot">
+        <object>Výrobní šarže</object>
+      </resource>
+      <resource name="Rmarea">
+        <object>Zdrojová oblast</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Podržení</object>
+      </resource>
+      <resource name="Available">
+        <object>Dostupný</object>
+      </resource>
+      <resource name="Completed">
+        <object>Hotovo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.LotRecord" ServiceOnly="false">
+      <resource name="AutoName">
+        <object>Šarže</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>L</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.YieldGroupRecord" ServiceOnly="true">
+      <resource name="AutoName">
+        <object>Skupina výtěžku</object>
+      </resource>
+      <resource name="AutoShName">
+        <object>Y</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.ChainType" ServiceOnly="true">
+      <resource name="TracePo">
+        <object>Sledovat obj.</object>
+      </resource>
+      <resource name="TraceBatch">
+        <object>Sledovat čísla dávek</object>
+      </resource>
+      <resource name="TraceLot">
+        <object>Sledovat šarže</object>
+      </resource>
+      <resource name="TracePack">
+        <object>Sledovat balení</object>
+      </resource>
+      <resource name="TraceCollection">
+        <object>Sledovat kolekce</object>
+      </resource>
+      <resource name="TraceInterval">
+        <object>Sledovat podle času</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.UnitStatus" ServiceOnly="true">
+      <resource name="PendingAuto">
+        <object>Čekání na start automaticky</object>
+      </resource>
+      <resource name="PendingManual">
+        <object>Čekání na start ručně</object>
+      </resource>
+      <resource name="Active">
+        <object>Jednotka je aktivní</object>
+      </resource>
+      <resource name="Ending">
+        <object>Jednotka končí</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.TraceChains.TransactionType" ServiceOnly="true">
+      <resource name="UnitSchedule">
+        <object>Jednotka je naplánována</object>
+      </resource>
+      <resource name="UnitStart">
+        <object>Jednotka se spouští</object>
+      </resource>
+      <resource name="UnitEnd">
+        <object>Jednotka skončila</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Podrženo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.TransferStatus" ServiceOnly="false">
+      <resource name="NoTransfer">
+        <object>Žádné předávání</object>
+      </resource>
+      <resource name="ReadyForTransfer">
+        <object>Předávání je připraveno</object>
+      </resource>
+      <resource name="TransferComplete">
+        <object>Předávání ukončeno</object>
+      </resource>
+      <resource name="TransferReceive">
+        <object>Přijata objednávka k předání</object>
+      </resource>
+      <resource name="TransferInProgress">
+        <object>Probíhá předávání</object>
+      </resource>
+      <resource name="TransferError">
+        <object>Chyba předání</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderLineStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Zavřené</object>
+      </resource>
+      <resource name="Open">
+        <object>Otevřené</object>
+      </resource>
+      <resource name="Complete">
+        <object>Hotové</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Zrušené</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AssignType" ServiceOnly="false">
+      <resource name="All">
+        <object>Povolit vše</object>
+      </resource>
+      <resource name="Production">
+        <object>Povolit výrobu</object>
+      </resource>
+      <resource name="Direct">
+        <object>Povolit přímé</object>
+      </resource>
+      <resource name="Input">
+        <object>Povolit vstup</object>
+      </resource>
+      <resource name="NoAssign">
+        <object>Nepovolit přiřazení</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintObjectType" ServiceOnly="false">
+      <resource name="Inventory">
+        <object>Inventář</object>
+      </resource>
+      <resource name="Po">
+        <object>Objednávka</object>
+      </resource>
+      <resource name="Supplier">
+        <object>Dodavatel</object>
+      </resource>
+      <resource name="Site">
+        <object>Umístění</object>
+      </resource>
+      <resource name="Category">
+        <object>Kategorie</object>
+      </resource>
+      <resource name="SectionType">
+        <object>Typ výběru</object>
+      </resource>
+      <resource name="BornIn">
+        <object>Narozeno</object>
+      </resource>
+      <resource name="RaisedIn">
+        <object>Chováno</object>
+      </resource>
+      <resource name="FatClass">
+        <object>Třída tuku</object>
+      </resource>
+      <resource name="Lot">
+        <object>Šarže</object>
+      </resource>
+      <resource name="LotQaMark1">
+        <object>Šarže KJ značka 1</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ConstraintType" ServiceOnly="false">
+      <resource name="OnlyFrom">
+        <object>Pouze od</object>
+      </resource>
+      <resource name="NotFrom">
+        <object>Ne od</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.ProcessAssignType" ServiceOnly="false">
+      <resource name="Fixed">
+        <object>Fixní</object>
+      </resource>
+      <resource name="Regular">
+        <object>Dočasný</object>
+      </resource>
+      <resource name="Planned">
+        <object>Plánovaný</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.ForwardType" ServiceOnly="true">
+      <resource name="NoForward">
+        <object>Žádné přesměrování</object>
+      </resource>
+      <resource name="ForwardAll">
+        <object>Přesměrovat vše</object>
+      </resource>
+      <resource name="ForwardActivity">
+        <object>Přesměrovat aktivity</object>
+      </resource>
+      <resource name="ForwardPo">
+        <object>Přesměrovat obj.</object>
+      </resource>
+      <resource name="ForwardBatch">
+        <object>Přesměrovat dávku</object>
+      </resource>
+      <resource name="ForwardLot">
+        <object>Přesměrovat šarži</object>
+      </resource>
+      <resource name="ForwardPlot">
+        <object>Přesměrovat výrobní šarži</object>
+      </resource>
+      <resource name="ForwardRmarea">
+        <object>Přesměrovat zdrojovou oblast</object>
+      </resource>
+      <resource name="ForwardShift">
+        <object>Přesměrovat směnu</object>
+      </resource>
+      <resource name="ForwardProfileId">
+        <object>Přesměrovat interval profilu</object>
+      </resource>
+      <resource name="ForwardPrday">
+        <object>Přesměrovat výrobní den</object>
+      </resource>
+      <resource name="AssignPo">
+        <object>Přiřadit obj.</object>
+      </resource>
+      <resource name="AssignLot">
+        <object>Přiřadit šarži</object>
+      </resource>
+      <resource name="AssignPlot">
+        <object>Přiřadit výrobní šarži</object>
+      </resource>
+      <resource name="AssignRmarea">
+        <object>Přiřadit zdrojovou oblast</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Nespuštěný</object>
+      </resource>
+      <resource name="Active">
+        <object>Aktivní</object>
+      </resource>
+      <resource name="Completed">
+        <object>Hotovo</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Podržený</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Zrušené</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Planning.PlanLineType" ServiceOnly="false">
+      <resource name="ContextPlan">
+        <object>Plán kontextu</object>
+      </resource>
+      <resource name="ActivityPlan">
+        <object>Aktivita</object>
+      </resource>
+      <resource name="PoPlan">
+        <object>Obj.</object>
+      </resource>
+      <resource name="BatchPlan">
+        <object>Dávka</object>
+      </resource>
+      <resource name="LotPlan">
+        <object>Šarže</object>
+      </resource>
+      <resource name="PlotPlan">
+        <object>Výrobní šarže</object>
+      </resource>
+      <resource name="RmareaPlan">
+        <object>Zdrojová oblast</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.InventoryType" ServiceOnly="false">
+      <resource name="Itemized">
+        <object>Inventář jednotky</object>
+      </resource>
+      <resource name="Container">
+        <object>Inventář zásobníku</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Nepodrobný inventář</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationStatus" ServiceOnly="false">
+      <resource name="Empty">
+        <object>Prázdný</object>
+      </resource>
+      <resource name="Filling">
+        <object>Plnící se</object>
+      </resource>
+      <resource name="Full">
+        <object>Plný</object>
+      </resource>
+      <resource name="Emptying">
+        <object>Vyprazdňující se</object>
+      </resource>
+      <resource name="ConfirmEmpty">
+        <object>Potvrdit prázdný</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.LocationUse" ServiceOnly="true">
+      <resource name="NoLocations">
+        <object>Žádná umístění</object>
+      </resource>
+      <resource name="AllowLocations">
+        <object>Povolit umístění</object>
+      </resource>
+      <resource name="UseLocations">
+        <object>Použít umístění</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.BlockType" ServiceOnly="true">
+      <resource name="NoBlock">
+        <object>Neblokovat</object>
+      </resource>
+      <resource name="HardwareBlock">
+        <object>Hardwarové blokování</object>
+      </resource>
+      <resource name="OperatorBlock">
+        <object>Blokování obsluhy</object>
+      </resource>
+      <resource name="HwOpBlock">
+        <object>Blokování obsluhy a hardwarové blokování</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.PrdayStart" ServiceOnly="true">
+      <resource name="NotStarted">
+        <object>Nespuštěný</object>
+      </resource>
+      <resource name="Automatic">
+        <object>Spuštěný automaticky</object>
+      </resource>
+      <resource name="Manual">
+        <object>Spuštěný ručně</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CheckStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="OkOverTarget">
+        <object>Ok, nad cíl</object>
+      </resource>
+      <resource name="OkOnTarget">
+        <object>Ok, na cíl</object>
+      </resource>
+      <resource name="OkUnderTarget">
+        <object>Ok, pod cíl</object>
+      </resource>
+      <resource name="OkT1">
+        <object>Ok, pod T1</object>
+      </resource>
+      <resource name="RejectOver">
+        <object>Vyřazený kus, nad cíl</object>
+      </resource>
+      <resource name="RejectT1">
+        <object>Vyřazený kus, nad T1</object>
+      </resource>
+      <resource name="RejectT2">
+        <object>Vyřazený kus, pod T1</object>
+      </resource>
+      <resource name="RejectUnder">
+        <object>Vyřazený kus kvůli podváze</object>
+      </resource>
+      <resource name="RejectMetal">
+        <object>Vyřazený kus kvůli kovu</object>
+      </resource>
+      <resource name="RejectLabel">
+        <object>Vyřazení označení</object>
+      </resource>
+      <resource name="RejectQa">
+        <object>Vyřazení KJ</object>
+      </resource>
+      <resource name="RejectOther">
+        <object>Jiné vyřazení</object>
+      </resource>
+      <resource name="RejectNoWeight">
+        <object>Žádná hmotnost</object>
+      </resource>
+      <resource name="RejectInvalid">
+        <object>Neznámá jednotka</object>
+      </resource>
+      <resource name="RejectPackaging">
+        <object>Balení není dostupné</object>
+      </resource>
+      <resource name="RejectMissing">
+        <object>Chybějící balení</object>
+      </resource>
+      <resource name="RejectNoConnection">
+        <object>Zařízení je v režimu offline</object>
+      </resource>
+      <resource name="SelectQa">
+        <object>Vybráno pro KJ</object>
+      </resource>
+      <resource name="UnusedSeperatorSpace">
+        <object>Chyba prostoru separátoru</object>
+      </resource>
+      <resource name="UnusedNoJob">
+        <object>Úkol nenalezen</object>
+      </resource>
+      <resource name="UnusedNoItemType">
+        <object>Typ položky nenalezen</object>
+      </resource>
+      <resource name="UnusedWeighingError">
+        <object>Chyba vážení</object>
+      </resource>
+      <resource name="UnusedNoVisionData">
+        <object>Žádná vizuální data</object>
+      </resource>
+      <resource name="UnusedNoGrade">
+        <object>Třída nenalezena</object>
+      </resource>
+      <resource name="UnusedVisionCondition">
+        <object>Vizuální podmínka selhala</object>
+      </resource>
+      <resource name="UnusedNoGate">
+        <object>Propust nenalezena</object>
+      </resource>
+      <resource name="UnusedRateError">
+        <object>Chyba řízení rychlosti</object>
+      </resource>
+      <resource name="UnusedNoOrder">
+        <object>Objednávka nenalezena</object>
+      </resource>
+      <resource name="UnusedSeperatorGap">
+        <object>Chyba přerušení separátoru</object>
+      </resource>
+      <resource name="UnusedBadStatisticalAllotment">
+        <object>Špatné statistické přidělení</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Položka</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Komprimováno</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Spotřebováno</object>
+      </resource>
+      <resource name="Returned">
+        <object>Vráceno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.AssignStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Otevřené</object>
+      </resource>
+      <resource name="OpenManual">
+        <object>Otevřeno pro operace</object>
+      </resource>
+      <resource name="Closed">
+        <object>Zavřeno</object>
+      </resource>
+      <resource name="ClosedManual">
+        <object>Zavřeno ručně</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Balit</object>
+      </resource>
+      <resource name="NonItemized">
+        <object>Nepodrobné</object>
+      </resource>
+      <resource name="Pending">
+        <object>Nevyřízeno</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Vymazáno</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Neplatné</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Komprimováno</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Spotřebováno</object>
+      </resource>
+      <resource name="Returned">
+        <object>Vráceno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Kolekce</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Vymazáno</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Spotřebováno</object>
+      </resource>
+      <resource name="Returned">
+        <object>Vráceno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.BomRType" ServiceOnly="false">
+      <resource name="None">
+        <object>Žádný</object>
+      </resource>
+      <resource name="Input">
+        <object>Vstup</object>
+      </resource>
+      <resource name="Output">
+        <object>Výstup</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.PackTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Vytvořeno</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Do inventáře</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Z inventáře</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Do objednávky</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Z objednávky</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Do kolekce</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Z kolekce</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Vymazáno</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Spotřebováno</object>
+      </resource>
+      <resource name="ConsumedPartial">
+        <object>Částečně spotřebováno</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Zpětně spotřebováno</object>
+      </resource>
+      <resource name="DeConsumedPartial">
+        <object>Částečně zpětně spotřebováno</object>
+      </resource>
+      <resource name="Returned">
+        <object>Vráceno</object>
+      </resource>
+      <resource name="Opened">
+        <object>Otevřeno</object>
+      </resource>
+      <resource name="Closed">
+        <object>Zavřeno</object>
+      </resource>
+      <resource name="Received">
+        <object>Vráceno</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>Z umístění inventáře</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>Do umístění inventáře</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CollectionTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Vytvořeno</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Do inventáře</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Z inventáře</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Do objednávky</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Z objednávky</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Do kolekce</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Z kolekce</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Vymazáno</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Spotřebováno</object>
+      </resource>
+      <resource name="Opened">
+        <object>Otevřeno</object>
+      </resource>
+      <resource name="Closed">
+        <object>Zavřeno</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Zpětně spotřebováno</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>Z umístění inventáře</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>Do umístění inventáře</object>
+      </resource>
+      <resource name="Returned">
+        <object>Vráceno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.MatxferRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Předat</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Vymazáno</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Neplatné</object>
+      </resource>
+      <resource name="Compressed">
+        <object>Komprimováno</object>
+      </resource>
+      <resource name="Yield">
+        <object>Výtěžek</object>
+      </resource>
+      <resource name="Reverse">
+        <object>Opačný</object>
+      </resource>
+      <resource name="Generated">
+        <object>Generováno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.TimeRType" ServiceOnly="false">
+      <resource name="Regular">
+        <object>Čas</object>
+      </resource>
+      <resource name="Holiday">
+        <object>Prázdniny</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Vymazáno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.AccessLogRType" ServiceOnly="false">
+      <resource name="Granted">
+        <object>Přístup povolen</object>
+      </resource>
+      <resource name="NotInGroup">
+        <object>Mimo skupinu přístupu</object>
+      </resource>
+      <resource name="NotAtThisTime">
+        <object>Neplatný čas přístupu</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>Neplatná identifikace</object>
+      </resource>
+      <resource name="IsIn">
+        <object>Již uvnitř</object>
+      </resource>
+      <resource name="IsOut">
+        <object>Již mimo</object>
+      </resource>
+      <resource name="TimeReg">
+        <object>Registrace času</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ContainerRType" ServiceOnly="false">
+      <resource name="Assign">
+        <object>Jednotka přiřazena</object>
+      </resource>
+      <resource name="Position">
+        <object>Změna polohy</object>
+      </resource>
+      <resource name="DeAssign">
+        <object>Přiřazení jednotky zrušeno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationClass" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="CreateItem">
+        <object>Vytvořit položku</object>
+      </resource>
+      <resource name="CreatePack">
+        <object>Vytvořit balení</object>
+      </resource>
+      <resource name="Item">
+        <object>Operace položky</object>
+      </resource>
+      <resource name="Pack">
+        <object>Operace balení</object>
+      </resource>
+      <resource name="IdContainer">
+        <object>Operace zásobníku</object>
+      </resource>
+      <resource name="Stack">
+        <object>Operace stohu</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Operace palety</object>
+      </resource>
+      <resource name="Container">
+        <object>Operace kontejneru</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Operace přepravy</object>
+      </resource>
+      <resource name="CreateCollection">
+        <object>Vytvořit kolekci</object>
+      </resource>
+      <resource name="CreateTransaction">
+        <object>Vytvořit transakci</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Operace inventáře</object>
+      </resource>
+      <resource name="Order">
+        <object>Operace objednávky</object>
+      </resource>
+      <resource name="OrderLine">
+        <object>Operace objednací linky</object>
+      </resource>
+      <resource name="Po">
+        <object>Operace obj.</object>
+      </resource>
+      <resource name="PoLine">
+        <object>Operace linky obj.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderType" ServiceOnly="true">
+      <resource name="Login">
+        <object>Přihlásit se</object>
+      </resource>
+      <resource name="LoginAndAccess">
+        <object>Přihlášení a řízení přístupu</object>
+      </resource>
+      <resource name="Logout">
+        <object>Odhlásit se</object>
+      </resource>
+      <resource name="LogoutAndExit">
+        <object>Odhlášení a řízení výstupu</object>
+      </resource>
+      <resource name="AccessControl">
+        <object>Řízení přístupu</object>
+      </resource>
+      <resource name="SignalOut">
+        <object>Signální výstup</object>
+      </resource>
+      <resource name="RegisterId">
+        <object>Identifikace registrace</object>
+      </resource>
+      <resource name="ExitControl">
+        <object>Řízení výstupu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Devices.IdReaderLogging" ServiceOnly="true">
+      <resource name="NoLogging">
+        <object>Žádné protokolování</object>
+      </resource>
+      <resource name="LogAccess">
+        <object>Protokolovat přístup</object>
+      </resource>
+      <resource name="LogUse">
+        <object>Protokolovat veškeré použití</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Costing.CostBase" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="PerDay">
+        <object>Fixní na den</object>
+      </resource>
+      <resource name="PerInput">
+        <object>Na jednotku suroviny</object>
+      </resource>
+      <resource name="PerOutput">
+        <object>Na jednotku produktu</object>
+      </resource>
+      <resource name="PerRuntime">
+        <object>Na hodinu chodu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Materials.ExpiryReferenceDate" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Výrobní den</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Čas registrace</object>
+      </resource>
+      <resource name="PoFirstDay">
+        <object>Obj. prvního dne výlovu</object>
+      </resource>
+      <resource name="PoLastDay">
+        <object>Obj. posledního dne výlovu</object>
+      </resource>
+      <resource name="PoDeliveryTime">
+        <object>Dodací lhůta obj.</object>
+      </resource>
+      <resource name="PoCatchDay">
+        <object>Obj. dne výlovu</object>
+      </resource>
+      <resource name="OrderPoFirstDay">
+        <object>Podání obj. prvního dne výlovu</object>
+      </resource>
+      <resource name="OrderPoLastDay">
+        <object>Podání obj. posledního dne výlovu</object>
+      </resource>
+      <resource name="OrderPoDeliveryTime">
+        <object>Dodací lhůta podání obj.</object>
+      </resource>
+      <resource name="OrderPoCatchDay">
+        <object>Podání obj. dne výlovu</object>
+      </resource>
+      <resource name="Custom">
+        <object>Přizpůsobeno</object>
+      </resource>
+      <resource name="OrderDispatchTime">
+        <object>Čas odeslání objednávky</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyContextType" ServiceOnly="true">
+      <resource name="TargetSource">
+        <object>Zdroj cílové cesty</object>
+      </resource>
+      <resource name="TargetDestination">
+        <object>Místo určení cílové cesty</object>
+      </resource>
+      <resource name="CopySource">
+        <object>Kopírovat zdroj cesty</object>
+      </resource>
+      <resource name="CopyDestination">
+        <object>Kopírovat místo určení cesty</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.CopyMethod" ServiceOnly="true">
+      <resource name="Add">
+        <object>Přidat</object>
+      </resource>
+      <resource name="Subtract">
+        <object>Ubrat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PackRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Žádné zaznamenávání</object>
+      </resource>
+      <resource name="Instance">
+        <object>Zaznamenat každé balení</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.PathRecordingMethod" ServiceOnly="true">
+      <resource name="None">
+        <object>Žádné zaznamenávání</object>
+      </resource>
+      <resource name="Instance">
+        <object>Zaznamenat každou transakci</object>
+      </resource>
+      <resource name="Periodic">
+        <object>Zaznamenávat pravidelně</object>
+      </resource>
+      <resource name="Update">
+        <object>Aktualizovat jeden záznam</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.SelectRuleType" ServiceOnly="true">
+      <resource name="Input">
+        <object>Výběr vstupu</object>
+      </resource>
+      <resource name="Output">
+        <object>Výběr výstupu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Activity.PlotStatus" ServiceOnly="false">
+      <resource name="Holding">
+        <object>Podržení</object>
+      </resource>
+      <resource name="Available">
+        <object>Dostupný</object>
+      </resource>
+      <resource name="Completed">
+        <object>Hotovo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Transactions.ContextSource" ServiceOnly="true">
+      <resource name="Reference">
+        <object>Automatické</object>
+      </resource>
+      <resource name="Source">
+        <object>Zdroj</object>
+      </resource>
+      <resource name="Destination">
+        <object>Místo určení</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.Result" ServiceOnly="false">
+      <resource name="Ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="NotSupported">
+        <object>Operace není podporována</object>
+      </resource>
+      <resource name="NoProcessUnit">
+        <object>Chybí informace provozní jednotky</object>
+      </resource>
+      <resource name="NoMaterial">
+        <object>Chybí informace o materiálu</object>
+      </resource>
+      <resource name="NoProcessPeriod">
+        <object>Chybí informace provozního intervalu</object>
+      </resource>
+      <resource name="NoProductionDay">
+        <object>Chybí informace výrobního dne</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Došlo k chybě databáze</object>
+      </resource>
+      <resource name="NoSSCC">
+        <object>Chybí informace SSCC firmy</object>
+      </resource>
+      <resource name="CreateSSCC">
+        <object>Nelze vytvořit SSCC, předpona může být neplatná</object>
+      </resource>
+      <resource name="HasOrder">
+        <object>Jednotka je přiřazená objednávce</object>
+      </resource>
+      <resource name="InStack">
+        <object>Jednotka je přiřazená stohu</object>
+      </resource>
+      <resource name="OnPallet">
+        <object>Jednotka je přiřazená paletě</object>
+      </resource>
+      <resource name="InContainer">
+        <object>Jednotka je přiřazená kontejneru</object>
+      </resource>
+      <resource name="InShipment">
+        <object>Jednotka je přiřazená přepravě</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Žádná použitelná objednávka</object>
+      </resource>
+      <resource name="IterationTransaction">
+        <object>Transakce není povolená v iteraci</object>
+      </resource>
+      <resource name="NoCreateCount">
+        <object>Počet chybějících jednotek</object>
+      </resource>
+      <resource name="XmlParse">
+        <object>XML se nepodařilo analyzovat</object>
+      </resource>
+      <resource name="NoStation">
+        <object>Chybí informace stanice</object>
+      </resource>
+      <resource name="NoPo">
+        <object>Chybí informace objednávky</object>
+      </resource>
+      <resource name="NoPlot">
+        <object>Chybí informace výrobní šarže</object>
+      </resource>
+      <resource name="NoCurrentPack">
+        <object>Žádné aktuální balení</object>
+      </resource>
+      <resource name="Conversion">
+        <object>Převod řetězce na hodnotu selhal</object>
+      </resource>
+      <resource name="OrderNotFound">
+        <object>Nelze nahrát objednávku z databáze</object>
+      </resource>
+      <resource name="MaterialNotFound">
+        <object>Nelze nahrát materiál z databáze</object>
+      </resource>
+      <resource name="UnitType">
+        <object>Neplatný typ jednotky pro operaci</object>
+      </resource>
+      <resource name="OperationLoad">
+        <object>Nelze nahrát operaci z databáze</object>
+      </resource>
+      <resource name="NoPack">
+        <object>Chybí informace balení</object>
+      </resource>
+      <resource name="NoSite">
+        <object>Chybí informace umístění</object>
+      </resource>
+      <resource name="Configuration">
+        <object>Neplatná konfigurace operace</object>
+      </resource>
+      <resource name="InvalidScope">
+        <object>Neplatná vyhledávací oblast jednotky</object>
+      </resource>
+      <resource name="NoStack">
+        <object>Chybí informace stohu</object>
+      </resource>
+      <resource name="NoPallet">
+        <object>Chybí informace palety</object>
+      </resource>
+      <resource name="CollectionStatus">
+        <object>Stav kolekce neumožňuje operaci</object>
+      </resource>
+      <resource name="NoCollection">
+        <object>Chybí informace kolekce</object>
+      </resource>
+      <resource name="NotInStack">
+        <object>Jednotka není ve stohu</object>
+      </resource>
+      <resource name="NotOnPallet">
+        <object>Jednotka není na paletě</object>
+      </resource>
+      <resource name="NotInContainer">
+        <object>Jednotka není v kontejneru</object>
+      </resource>
+      <resource name="NotInShipment">
+        <object>Jednotka není v přepravě</object>
+      </resource>
+      <resource name="NoInventory">
+        <object>Chybí informace o inventáři</object>
+      </resource>
+      <resource name="NoItem">
+        <object>Chybí informace položky</object>
+      </resource>
+      <resource name="NoOrderLine">
+        <object>Chybí informace objednací linky</object>
+      </resource>
+      <resource name="Transaction">
+        <object>Chyba transakce</object>
+      </resource>
+      <resource name="TransactionDeadlock">
+        <object>Zablokovaná transakce</object>
+      </resource>
+      <resource name="NotInventory">
+        <object>Zadaná provozní jednotka není v inventáři</object>
+      </resource>
+      <resource name="InventoryReject">
+        <object>Inventář nepřijal jednotku</object>
+      </resource>
+      <resource name="OnInventory">
+        <object>Jednotka již je v inventáři</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>Jednotka není v inventáři</object>
+      </resource>
+      <resource name="UnitStatus">
+        <object>Stav jednotky neumožňuje operaci</object>
+      </resource>
+      <resource name="NoContainer">
+        <object>Chybí informace kontejneru</object>
+      </resource>
+      <resource name="NoShipment">
+        <object>Chybí informace přepravy</object>
+      </resource>
+      <resource name="LoadSite">
+        <object>Nelze nahrát informace umístění z databáze</object>
+      </resource>
+      <resource name="LoadCompany">
+        <object>Nelze nahrát informace firmy z databáze</object>
+      </resource>
+      <resource name="HasPacks">
+        <object>Operaci nelze provést, protože kolekce obsahuje balení </object>
+      </resource>
+      <resource name="HasStacks">
+        <object>Operaci nelze provést, protože kolekce obsahuje stohy</object>
+      </resource>
+      <resource name="HasPallets">
+        <object>Operaci nelze provést, protože kolekce obsahuje palety</object>
+      </resource>
+      <resource name="HasContainers">
+        <object>Operaci nelze provést, protože kolekce obsahuje kontejnery</object>
+      </resource>
+      <resource name="FailOperation">
+        <object>Operace byla výslovně určena k selhání</object>
+      </resource>
+      <resource name="InPack">
+        <object>Jednotka již je v balení</object>
+      </resource>
+      <resource name="NotInPack">
+        <object>Jednotka není v balení</object>
+      </resource>
+      <resource name="PackStatus">
+        <object>Stav balení neumožňuje operaci</object>
+      </resource>
+      <resource name="OrderType">
+        <object>Neplatný typ objednávky pro operaci</object>
+      </resource>
+      <resource name="Exception">
+        <object>Výjimka aplikace</object>
+      </resource>
+      <resource name="OperationClass">
+        <object>Neplatná třída operace</object>
+      </resource>
+      <resource name="NoSource">
+        <object>Chybí informace zdroje provozní jednotky</object>
+      </resource>
+      <resource name="NoDestination">
+        <object>Chybí informace cílové provozní jednotky</object>
+      </resource>
+      <resource name="MaterialTransaction">
+        <object>Nelze zaznamenat transakci materiálu</object>
+      </resource>
+      <resource name="MatchContext">
+        <object>Stav provozní jednotky neumožňuje operaci</object>
+      </resource>
+      <resource name="TransactionConfig">
+        <object>Transakční systém není nakonfigurován pro operaci</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Získání vzdáleného servisního rozhraní selhalo</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Informace o vzdáleném rozhraní nenalezeny</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Informace o vzdáleném serveru nenalezeny</object>
+      </resource>
+      <resource name="NoOperationData">
+        <object>Chybí data operace</object>
+      </resource>
+      <resource name="NoPrintFields">
+        <object>Chybí informace tiskového pole</object>
+      </resource>
+      <resource name="NoPieceCount">
+        <object>Chybí informace součtu kusů</object>
+      </resource>
+      <resource name="ItemLoad">
+        <object>Nelze nahrát záznam položky</object>
+      </resource>
+      <resource name="ItemInsert">
+        <object>Nelze vložit záznam položky</object>
+      </resource>
+      <resource name="ItemUpdate">
+        <object>Nelze aktualizovat záznam položky</object>
+      </resource>
+      <resource name="ItemRType">
+        <object>Typ záznamu položky neumožňuje operaci</object>
+      </resource>
+      <resource name="PackLoad">
+        <object>Nelze nahrát záznam balení</object>
+      </resource>
+      <resource name="PackInsert">
+        <object>Nelze vložit záznam balení</object>
+      </resource>
+      <resource name="PackUpdate">
+        <object>Nelze aktualizovat záznam balení</object>
+      </resource>
+      <resource name="PackRType">
+        <object>Typ záznamu balení neumožňuje operaci</object>
+      </resource>
+      <resource name="CollectionLoad">
+        <object>Nelze nahrát záznam kolekce</object>
+      </resource>
+      <resource name="CollectionInsert">
+        <object>Nelze vložit záznam kolekce</object>
+      </resource>
+      <resource name="CollectionUpdate">
+        <object>Nelze aktualizovat záznam kolekce</object>
+      </resource>
+      <resource name="CollectionRType">
+        <object>Typ záznamu kolekce neumožňuje operaci</object>
+      </resource>
+      <resource name="CollectionUnitType">
+        <object>Typ jednotek v kolekci neumožňuje operaci</object>
+      </resource>
+      <resource name="NoOrderStatus">
+        <object>Chybí informace stavu objednávky</object>
+      </resource>
+      <resource name="NotInOrder">
+        <object>Jednotka není přiřazená objednávce</object>
+      </resource>
+      <resource name="OrderLoad">
+        <object>Nelze nahrát informace objednávky z databáze</object>
+      </resource>
+      <resource name="OrderLineLoad">
+        <object>Nelze nahrát informace objednací linky z databáze</object>
+      </resource>
+      <resource name="OrderStatus">
+        <object>Stav objednávky neumožňuje operaci</object>
+      </resource>
+      <resource name="OrderLineStatus">
+        <object>Stav objednací linky neumožňuje operaci</object>
+      </resource>
+      <resource name="ProcessUnit">
+        <object>Nelze vytvořit provozní jednotku pro operaci</object>
+      </resource>
+      <resource name="InProgress">
+        <object>Probíhá operace</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Nenastavený výsledek</object>
+      </resource>
+      <resource name="NoExternalNumber">
+        <object>Chybí externí číslo</object>
+      </resource>
+      <resource name="NoExternalCode">
+        <object>Chybí externí kód</object>
+      </resource>
+      <resource name="PrintFailed">
+        <object>Operace tisku selhala</object>
+      </resource>
+      <resource name="CustomOpNotLoaded">
+        <object>Vlastní operace není nahraná</object>
+      </resource>
+      <resource name="CustomOpInfoMissing">
+        <object>Chybí části informací vlastní operace</object>
+      </resource>
+      <resource name="CustomOpXmlMissing">
+        <object>Chybí definice XML vlastní operace</object>
+      </resource>
+      <resource name="CustomException">
+        <object>Výjimka ve vlastní operaci</object>
+      </resource>
+      <resource name="Validation">
+        <object>Chyba ověření</object>
+      </resource>
+      <resource name="PreOperation">
+        <object>Předprovozní chyba</object>
+      </resource>
+      <resource name="DoOperation">
+        <object>Provozní chyba</object>
+      </resource>
+      <resource name="PostOperation">
+        <object>Poprovozní chyba</object>
+      </resource>
+      <resource name="NoCatchDay">
+        <object>Chybí informace o dni výlovu</object>
+      </resource>
+      <resource name="InvalidInventory">
+        <object>Neplatný inventář pro operaci</object>
+      </resource>
+      <resource name="LoadType">
+        <object>Nahrávání typu selhalo</object>
+      </resource>
+      <resource name="UnitCount">
+        <object>Zadán neplatný počet jednotek</object>
+      </resource>
+      <resource name="ConvertedInventory">
+        <object>Převedená kolekce je v inventáři, který nesouhlasí s inventářem balení</object>
+      </resource>
+      <resource name="ConvertedOrder">
+        <object>Převedená kolekce je na objednávce, která nesouhlasí s objednávkou balení</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Chybí informace o hmotnosti</object>
+      </resource>
+      <resource name="NoProperty">
+        <object>Chybí název vlastnosti</object>
+      </resource>
+      <resource name="NotProperty">
+        <object>Zadaný název není názvem vlastnosti</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Jednotka je držena pro KJ</object>
+      </resource>
+      <resource name="PoStatus">
+        <object>Stav objednávky neumožňuje operaci</object>
+      </resource>
+      <resource name="InvalidPartialAmount">
+        <object>Jednotku není možné modifikovat zadanou hodnotou</object>
+      </resource>
+      <resource name="NoPoLine">
+        <object>Žádná linka obj. neodpovídá zadanému produktu</object>
+      </resource>
+      <resource name="HasPoLine">
+        <object>Linka obj. je již přiřazena</object>
+      </resource>
+      <resource name="NoMaterialTransaction">
+        <object>Transakce materiálu není zaznamenána</object>
+      </resource>
+      <resource name="NoStockTake">
+        <object>Žádná aktivní inventura</object>
+      </resource>
+      <resource name="StartStockTake">
+        <object>Inventuru nelze spustit, možná již probíhá</object>
+      </resource>
+      <resource name="StockTakeMethod">
+        <object>Způsob inventury inventáře neumožňuje operaci</object>
+      </resource>
+      <resource name="StockTakeUnitLoad">
+        <object>Neplatná inventura inventáře jednotky</object>
+      </resource>
+      <resource name="StockTakeUnitType">
+        <object>Pro tento typ jednotky není nastavena inventura</object>
+      </resource>
+      <resource name="StockTakeStatus">
+        <object>Stav inventury neumožňuje operaci</object>
+      </resource>
+      <resource name="ScriptingError">
+        <object>Chyba při spouštění skriptu</object>
+      </resource>
+      <resource name="InventoryKeepMin">
+        <object>Jednotka není dostatečně stará</object>
+      </resource>
+      <resource name="InventoryKeepMax">
+        <object>Jednotka je příliš stará</object>
+      </resource>
+      <resource name="NoValue">
+        <object>Chybí hodnota jednotky</object>
+      </resource>
+      <resource name="LogRecordLoad">
+        <object>Chyba při načítání záznamu protokolu</object>
+      </resource>
+      <resource name="LogRecordExecuted">
+        <object>Záznam protokolu již byl spuštěn</object>
+      </resource>
+      <resource name="InventoryType">
+        <object>Typ inventáře neumožňuje operaci</object>
+      </resource>
+      <resource name="NoBatch">
+        <object>Chybí informace dávky</object>
+      </resource>
+      <resource name="NoLot">
+        <object>Chybí informace šarže</object>
+      </resource>
+      <resource name="NoProductionLot">
+        <object>Chybí informace výrobní šarže</object>
+      </resource>
+      <resource name="NoRmArea">
+        <object>Chybí informace zdrojové oblasti</object>
+      </resource>
+      <resource name="InvalidAmount">
+        <object>Neplatná hodnota</object>
+      </resource>
+      <resource name="NoInventoryStatus">
+        <object>Nenalezen záznam stavu inventáře</object>
+      </resource>
+      <resource name="MultipleInventoryStatus">
+        <object>Nalezeno více záznamů stavu inventáře</object>
+      </resource>
+      <resource name="FeatureNotLicensed">
+        <object>Funkce není licencovaná</object>
+      </resource>
+      <resource name="CodeNotFound">
+        <object>Objekt se zadaným kódem nenalezen</object>
+      </resource>
+      <resource name="InvalidMessageFields">
+        <object>Nastavení pole pro zprávu je neplatné</object>
+      </resource>
+      <resource name="BomNotFound">
+        <object>BOM nenalezen v databázi</object>
+      </resource>
+      <resource name="NotInBom">
+        <object>Zadaný produkt není v BOM</object>
+      </resource>
+      <resource name="NoBom">
+        <object>Žádný zadaný BOM</object>
+      </resource>
+      <resource name="NoBomRType">
+        <object>"&gt;Nebyl zadán žádný typ záznamu BOM</object>
+      </resource>
+      <resource name="PrunitBom">
+        <object>Provozní jednotka nemá požadované informace BOM</object>
+      </resource>
+      <resource name="LotBom">
+        <object>Šarže nemá požadované informace BOM</object>
+      </resource>
+      <resource name="ProductionLotBom">
+        <object>Výrobní šarže nemá požadované informace BOM</object>
+      </resource>
+      <resource name="InvalidDate">
+        <object>Neplatné datum pro operaci</object>
+      </resource>
+      <resource name="PartialAdjust">
+        <object>Obsah částečného balení nelze upravovat</object>
+      </resource>
+      <resource name="NoCategory">
+        <object>Chybí informace kategorie</object>
+      </resource>
+      <resource name="NoQuality">
+        <object>Chybí informace jakosti</object>
+      </resource>
+      <resource name="NoFatClass">
+        <object>Chybí informace o třídě tuku</object>
+      </resource>
+      <resource name="SelectYieldGroup">
+        <object>Výběr skupiny výtěžku selhal</object>
+      </resource>
+      <resource name="NoRiCountry">
+        <object>Chybí informace o zemi narození</object>
+      </resource>
+      <resource name="NoBrCountry">
+        <object>Chybí informace o zemi chovu</object>
+      </resource>
+      <resource name="NoSlaughterHouse">
+        <object>Chybí informace o jatkách</object>
+      </resource>
+      <resource name="NoSlaughterDay">
+        <object>Chybí informace o porážce</object>
+      </resource>
+      <resource name="NoProcessor">
+        <object>Chybí informace o zpracovateli</object>
+      </resource>
+      <resource name="SelectLot">
+        <object>Výběr šarže selhal</object>
+      </resource>
+      <resource name="IndividualLoad">
+        <object>Nelze nahrát jednotlivý záznam</object>
+      </resource>
+      <resource name="NoYieldGroup">
+        <object>Chybí informace skupiny výtěžku</object>
+      </resource>
+      <resource name="PalletNotReserved">
+        <object>Paleta není vyhrazena pro objednávku</object>
+      </resource>
+      <resource name="ProductMismatch">
+        <object>Produkty se neshodují</object>
+      </resource>
+      <resource name="Station">
+        <object>Nelze vytvořit stanici pro operaci</object>
+      </resource>
+      <resource name="InvalidExpiry">
+        <object>Neplatné datum ukončení platnosti</object>
+      </resource>
+      <resource name="InvlocationFull">
+        <object>Plné umístění inventáře</object>
+      </resource>
+      <resource name="InvlocationMissing">
+        <object>Chybí požadovaná lokace inventáře</object>
+      </resource>
+      <resource name="InvalidInvlocation">
+        <object>Zadaná poloha je neplatná</object>
+      </resource>
+      <resource name="StartStocktakeLocationActive">
+        <object>Nelze spustit inventuru inventáře, protože na poloze je aktivní sčítání</object>
+      </resource>
+      <resource name="StartStocktakeInventoryActive">
+        <object>Nelze spustit inventuru polohy, protože na inventáři je aktivní sčítání.</object>
+      </resource>
+      <resource name="TransferStatus">
+        <object>Neplatný stav přenosu objednávky.</object>
+      </resource>
+      <resource name="ParentOrderCheckFailed">
+        <object>Kontrola nadřízené objednávky selhala.</object>
+      </resource>
+      <resource name="GetExportProcess">
+        <object>Neplatná konfigurace exportního procesu</object>
+      </resource>
+      <resource name="NoSupplier">
+        <object>Žádné obj. nebo obj. bez zadaného dodavatele</object>
+      </resource>
+      <resource name="NoExportProcess">
+        <object>Nedefinovaný exportní proces</object>
+      </resource>
+      <resource name="InvaidExportProcess">
+        <object>Exportní proces nenalezen</object>
+      </resource>
+      <resource name="HasPo">
+        <object>Jednotka je již přiřazená k obj.</object>
+      </resource>
+      <resource name="OrderAmountExceeded">
+        <object>Množství objednávky bylo přesaženo</object>
+      </resource>
+      <resource name="OrderLineAmountExceeded">
+        <object>Množství objednací linky bylo přesaženo</object>
+      </resource>
+      <resource name="PlotStatus">
+        <object>Pozice neumožňuje operaci</object>
+      </resource>
+      <resource name="NotInSourceBom">
+        <object>Zadaný produkt není ve zdrojovém BOM</object>
+      </resource>
+      <resource name="NotInDestinationBom">
+        <object>Zadaný produkt není v cílovém BOM</object>
+      </resource>
+      <resource name="SourcePrunitBom">
+        <object>Zdrojová provozní jednotka nemá požadované informace BOM</object>
+      </resource>
+      <resource name="DestinationPrunitBom">
+        <object>Cílová provozní jednotka nemá požadované informace BOM</object>
+      </resource>
+      <resource name="SourceLotBom">
+        <object>Zdrojová šarže nemá požadované informace BOM</object>
+      </resource>
+      <resource name="DestinationLotBom">
+        <object>Cílová šarže nemá požadované informace BOM</object>
+      </resource>
+      <resource name="SourceProductionLotBom">
+        <object>Zdrojová výrobní šarže nemá požadované informace BOM</object>
+      </resource>
+      <resource name="DestinationProductionLotBom">
+        <object>Cílová výrobní šarže nemá požadované informace BOM</object>
+      </resource>
+      <resource name="NoInputOrderLine">
+        <object>Nenalezena žádná vstupní objednací linka</object>
+      </resource>
+      <resource name="TooManyInputOrderLines">
+        <object>Nalezeno příliš mnoho vstupních objednacích linek</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Time.EmployeeResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>OK</object>
+      </resource>
+      <resource name="DbError">
+        <object>Chyba databáze</object>
+      </resource>
+      <resource name="NotFound">
+        <object>Zaměstnanec nenalezen</object>
+      </resource>
+      <resource name="MultipleFound">
+        <object>Vyhledávání vrátilo více záznamů</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Neplatná informace zaměstnance</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.AcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>Podle seznamu</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Vše</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.NumberMethod" ServiceOnly="false">
+      <resource name="OwnNumber">
+        <object>Vlastní čísla</object>
+      </resource>
+      <resource name="ParentNumber">
+        <object>Z hlavní objednávky</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderStatus" ServiceOnly="false">
+      <resource name="Closed">
+        <object>Zavřeno</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Zrušeno</object>
+      </resource>
+      <resource name="OnHold">
+        <object>Podrženo</object>
+      </resource>
+      <resource name="Open">
+        <object>Otevřeno</object>
+      </resource>
+      <resource name="Complete">
+        <object>Hotovo</object>
+      </resource>
+      <resource name="CompleteClosed">
+        <object>Hotovo a zavřeno</object>
+      </resource>
+      <resource name="Dispatched">
+        <object>Vyexpedováno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.OrderType" ServiceOnly="false">
+      <resource name="Customer">
+        <object>Odbyt</object>
+      </resource>
+      <resource name="Inventory">
+        <object>Inventář</object>
+      </resource>
+      <resource name="Production">
+        <object>Výroba </object>
+      </resource>
+      <resource name="Transfer">
+        <object>Předat</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.UnitOperations.OperationSetType" ServiceOnly="true">
+      <resource name="Generic">
+        <object>Obecný</object>
+      </resource>
+      <resource name="DefaultItem">
+        <object>Výchozí položka</object>
+      </resource>
+      <resource name="DefaultPack">
+        <object>Výchozí balení</object>
+      </resource>
+      <resource name="DefaultStack">
+        <object>Výchozí stoh</object>
+      </resource>
+      <resource name="DefaultPallet">
+        <object>Výchozí paleta</object>
+      </resource>
+      <resource name="DefaultContainer">
+        <object>Výchozí kontejner</object>
+      </resource>
+      <resource name="DefaultShipment">
+        <object>Výchozí přeprava</object>
+      </resource>
+      <resource name="DefaultOrder">
+        <object>Výchozí objednávka</object>
+      </resource>
+      <resource name="DefaultOrderLine">
+        <object>Výchozí objednací linka</object>
+      </resource>
+      <resource name="DefaultInventory">
+        <object>Výchozí inventář</object>
+      </resource>
+      <resource name="DefaultTransaction">
+        <object>Výchozí transakce</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.DataStatus" ServiceOnly="false">
+      <resource name="Open">
+        <object>Otevřeno</object>
+      </resource>
+      <resource name="Closed">
+        <object>Zavřeno</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Neplatné</object>
+      </resource>
+      <resource name="PendingClose">
+        <object>Čekání na uzavření</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.UnitInventoryStatus" ServiceOnly="false">
+      <resource name="Available">
+        <object>Dostupný</object>
+      </resource>
+      <resource name="QcHold">
+        <object>Podrženo pro KJ</object>
+      </resource>
+      <resource name="Lost">
+        <object>Ztraceno</object>
+      </resource>
+      <resource name="Reserved">
+        <object>Vyhrazeno</object>
+      </resource>
+      <resource name="PickedUp">
+        <object>Zvednuto</object>
+      </resource>
+      <resource name="NotOnInventory">
+        <object>Není v inventáři</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.CountStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>Nenalezeno</object>
+      </resource>
+      <resource name="Left">
+        <object>Zbývající</object>
+      </resource>
+      <resource name="Entered">
+        <object>Zadáno</object>
+      </resource>
+      <resource name="Found">
+        <object>Nalezeno</object>
+      </resource>
+      <resource name="New">
+        <object>Nový</object>
+      </resource>
+      <resource name="Error">
+        <object>Chyba</object>
+      </resource>
+      <resource name="RType">
+        <object>Neplatný stav</object>
+      </resource>
+      <resource name="NotLeft">
+        <object>Nezbývá</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeMethod" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Žádné inventury</object>
+      </resource>
+      <resource name="CountUnits">
+        <object>Spočítat položky a balení</object>
+      </resource>
+      <resource name="CountStacks">
+        <object>Spočítat stohy</object>
+      </resource>
+      <resource name="CountPallets">
+        <object>Spočítat palety</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeStatus" ServiceOnly="false">
+      <resource name="Active">
+        <object>Aktivní</object>
+      </resource>
+      <resource name="Cancelled">
+        <object>Zrušeno</object>
+      </resource>
+      <resource name="CountDone">
+        <object>Sčítání dokončeno</object>
+      </resource>
+      <resource name="Completed">
+        <object>Hotovo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Inventories.StockTakeType" ServiceOnly="false">
+      <resource name="Count">
+        <object>Počet jednotek</object>
+      </resource>
+      <resource name="Snapshot">
+        <object>Snímek</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PoAcceptType" ServiceOnly="false">
+      <resource name="AcceptList">
+        <object>Podle seznamu</object>
+      </resource>
+      <resource name="AcceptAll">
+        <object>Vše</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Utilities.FormatText" ServiceOnly="false">
+      <resource name="Stack">
+        <object>Stoh</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Paleta</object>
+      </resource>
+      <resource name="Order">
+        <object>Objednávka</object>
+      </resource>
+      <resource name="UnlimitedOrder">
+        <object>neomezeno</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>žádný</object>
+      </resource>
+      <resource name="Packs">
+        <object>balení</object>
+      </resource>
+      <resource name="Items">
+        <object>položky</object>
+      </resource>
+      <resource name="Pcs">
+        <object>ks</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Orders.PlanStatus" ServiceOnly="false">
+      <resource name="NotStarted">
+        <object>Nenaplánováno</object>
+      </resource>
+      <resource name="Partial">
+        <object>Částečně naplánováno</object>
+      </resource>
+      <resource name="Complete">
+        <object>Hotovo</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.CarcassForm" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="Whole">
+        <object>Celek</object>
+      </resource>
+      <resource name="Split">
+        <object>Rozděleno</object>
+      </resource>
+      <resource name="Quartered">
+        <object>Rozčtvrceno</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Data.ItemTransactionType" ServiceOnly="false">
+      <resource name="Created">
+        <object>Vytvořeno</object>
+      </resource>
+      <resource name="ToInventory">
+        <object>Do inventáře</object>
+      </resource>
+      <resource name="FromInventory">
+        <object>Z inventáře</object>
+      </resource>
+      <resource name="ToOrder">
+        <object>Do objednávky</object>
+      </resource>
+      <resource name="FromOrder">
+        <object>Z objednávky</object>
+      </resource>
+      <resource name="ToCollection">
+        <object>Do kolekce</object>
+      </resource>
+      <resource name="FromCollection">
+        <object>Z kolekce</object>
+      </resource>
+      <resource name="Deleted">
+        <object>Vymazáno</object>
+      </resource>
+      <resource name="Consumed">
+        <object>Spotřebováno</object>
+      </resource>
+      <resource name="DeConsumed">
+        <object>Zpětně spotřebováno</object>
+      </resource>
+      <resource name="Received">
+        <object>Vráceno</object>
+      </resource>
+      <resource name="Returned">
+        <object>Vráceno</object>
+      </resource>
+      <resource name="ToPack">
+        <object>Do balení</object>
+      </resource>
+      <resource name="FromPack">
+        <object>Z balení</object>
+      </resource>
+      <resource name="FromInventoryLocation">
+        <object>Z umístění inventáře</object>
+      </resource>
+      <resource name="ToInventoryLocation">
+        <object>Do umístění inventáře</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.RmAreaRelationType" ServiceOnly="false">
+      <resource name="NoRelation">
+        <object>Není nastaveno</object>
+      </resource>
+      <resource name="PoSupplier">
+        <object>Dodavatel obj.</object>
+      </resource>
+      <resource name="PoProducer">
+        <object>Výrobce obj.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Process.StationType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Stanice</object>
+      </resource>
+      <resource name="InLoadbay">
+        <object>Příjem</object>
+      </resource>
+      <resource name="OutLoadbay">
+        <object>Dodání</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.IdContainer.IdContainerModel" ServiceOnly="false">
+      <resource name="welcome">
+        <object>Připraveno k práci</object>
+      </resource>
+      <resource name="clear">
+        <object>Vymazat</object>
+      </resource>
+      <resource name="record">
+        <object>Záznam</object>
+      </resource>
+      <resource name="ExtId1">
+        <object>Identifikace 1: </object>
+      </resource>
+      <resource name="ExtId2">
+        <object>Identifikace 2: </object>
+      </resource>
+      <resource name="ExtCode">
+        <object>Číslo na desce:  </object>
+      </resource>
+    </type>
+  </industry>
+</resources>

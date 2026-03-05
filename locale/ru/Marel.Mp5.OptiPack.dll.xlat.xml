@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="ru">
+  <industry>
+    <type name="Marel.Mp5.OptiPack.Configuration.SystemType">
+      <resource name="Packing">
+        <object>Фасовочные станции</object>
+      </resource>
+      <resource name="Checkweigher">
+        <object>Контрольные весы</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.OperationalStatus">
+      <resource name="NotRunning">
+        <object>Не работает</object>
+      </resource>
+      <resource name="Working">
+        <object>Работает</object>
+      </resource>
+      <resource name="Idle">
+        <object>Ожидание</object>
+      </resource>
+      <resource name="NotKnown">
+        <object>Не известно</object>
+      </resource>
+      <resource name="NoService">
+        <object>Не обслуживается</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.PackingStationResult">
+      <resource name="Ok">
+        <object>ОК</object>
+      </resource>
+      <resource name="DatabaseError">
+        <object>Ошибка базы данных</object>
+      </resource>
+      <resource name="LoadCachedData">
+        <object>Не удалось загрузить данные из кэша</object>
+      </resource>
+      <resource name="InvalidId">
+        <object>Недопустимый идентификатор станции</object>
+      </resource>
+      <resource name="GetRemoteObject">
+        <object>Ошибка при получении удаленного объекта</object>
+      </resource>
+      <resource name="LoadInterfaceInfo">
+        <object>Ошибка при загрузке сведений об интерфейсе</object>
+      </resource>
+      <resource name="LoadServerInfo">
+        <object>Ошибка при загрузке сведений о сервере</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Сбой удаленного вызова</object>
+      </resource>
+      <resource name="LoadServiceSetup">
+        <object>Ошибка при загрузке параметров службы</object>
+      </resource>
+      <resource name="InvalidProduct">
+        <object>Продукт не найден</object>
+      </resource>
+      <resource name="NotImplemented">
+        <object>Операция не выполнена</object>
+      </resource>
+      <resource name="NoObject">
+        <object>Нет объекта для операции</object>
+      </resource>
+      <resource name="QueryFailed">
+        <object>Не удалось запросить данные с сервера</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.PresetTareType">
+      <resource name="None">
+        <object>Тара заранее не указана</object>
+      </resource>
+      <resource name="List">
+        <object>Используйте тару для списка продуктов</object>
+      </resource>
+      <resource name="System">
+        <object>Используйте тару для системы</object>
+      </resource>
+      <resource name="Manual">
+        <object>Используйте ручную тару</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Stations.TargetBatcherMethod">
+      <resource name="AbsMinimum">
+        <object>Минимальная масса</object>
+      </resource>
+      <resource name="MinAverage">
+        <object>Средняя масса</object>
+      </resource>
+      <resource name="Echeck">
+        <object>Средняя e-масса</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.A542ProgramParameters">
+      <resource name="ClosureCount.Description">
+        <object>Количество упаковки определяет количество упаковочных средств.</object>
+      </resource>
+      <resource name="ClosureCount.DisplayName">
+        <object>Количество упаковки.</object>
+      </resource>
+      <resource name="PluNumber.DisplayName">
+        <object>Код продукта</object>
+      </resource>
+      <resource name="CloseTimeout.DisplayName">
+        <object>Время ожидания закрытия</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.A542ProductParameters">
+      <resource name="ClearStatsAfterRound.DisplayName">
+        <object>Удаление статистики\nпосле округления</object>
+      </resource>
+      <resource name="PacksInAverage.DisplayName">
+        <object>Количество пакетов\nв направляющем устройстве (в среднем)</object>
+      </resource>
+      <resource name="UsePercentagesInTrackPack.DisplayName">
+        <object>Используйте процентное содержание в\nотрезках TrackPack</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.BatcherMethod">
+      <resource name="AbsMinimum">
+        <object>Абс. минимум</object>
+      </resource>
+      <resource name="MinAverage">
+        <object>Мин. среднее значение</object>
+      </resource>
+      <resource name="ERule">
+        <object>e-правило</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Activity.ParameterType">
+      <resource name="Value">
+        <object>Значение</object>
+      </resource>
+      <resource name="Weight">
+        <object>Масса</object>
+      </resource>
+      <resource name="Length">
+        <object>Длина</object>
+      </resource>
+      <resource name="Area">
+        <object>Область</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.OptiPack.Data.Batchers.BatcherDeviceStatus">
+      <resource name="Transmitting">
+        <object>Передача</object>
+      </resource>
+      <resource name="NoRemote">
+        <object>Нет удаленных</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Нет станций</object>
+      </resource>
+      <resource name="Offline">
+        <object>Автономный</object>
+      </resource>
+      <resource name="Idle">
+        <object>Ожидание</object>
+      </resource>
+      <resource name="Running">
+        <object>Выполнение</object>
+      </resource>
+      <resource name="NoStatus">
+        <object>Не настроен</object>
+      </resource>
+      <resource name="Undefined">
+        <object>Неизвестный</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

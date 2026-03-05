@@ -1,0 +1,820 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="is">
+  <industry>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.ManagePrunit" ServiceOnly="false">
+      <resource name="ActivityPrompt">
+        <object>V.lykill : </object>
+      </resource>
+      <resource name="BatchPrompt">
+        <object>Lotunr.  : </object>
+      </resource>
+      <resource name="PoPrompt">
+        <object>I.pöntun : </object>
+      </resource>
+      <resource name="LotPrompt">
+        <object>Lota     : </object>
+      </resource>
+      <resource name="PlotPrompt">
+        <object>F.Lota   : </object>
+      </resource>
+      <resource name="RmAreaPrompt">
+        <object>Hr.svæði : </object>
+      </resource>
+      <resource name="StartLegend">
+        <object>Starta</object>
+      </resource>
+      <resource name="NextLegend">
+        <object>Næsta</object>
+      </resource>
+      <resource name="OpsLegend">
+        <object>Aðg.</object>
+      </resource>
+      <resource name="StartActivityCaption">
+        <object>Starta næsta vinnslulykli</object>
+      </resource>
+      <resource name="StartBatchCaption">
+        <object>Starta næsta lotunúmeri</object>
+      </resource>
+      <resource name="StartPoCaption">
+        <object>Starta næstu innkaupapöntun</object>
+      </resource>
+      <resource name="StartLotCaption">
+        <object>Starta næstu lotu</object>
+      </resource>
+      <resource name="StartRmAreaCaption">
+        <object>Starta næsta hráefnissvæði</object>
+      </resource>
+      <resource name="SelectOperationCaption">
+        <object>Veldu aðgerð</object>
+      </resource>
+      <resource name="SetManualPrdayOp">
+        <object>Setja vinnsludag handvirkt</object>
+      </resource>
+      <resource name="SetAutoPrdayOp">
+        <object>Losa handvirkan vinnsludag</object>
+      </resource>
+      <resource name="SetManualShiftOp">
+        <object>Setja vakt handvirkt</object>
+      </resource>
+      <resource name="SetAutoShiftOp">
+        <object>Losa handvirka vakt</object>
+      </resource>
+      <resource name="SetManualProfileOp">
+        <object>Setja tímabil handvirkt</object>
+      </resource>
+      <resource name="SetAutoProfileOp">
+        <object>Losa handvirkt tímabil</object>
+      </resource>
+      <resource name="NoDateSet">
+        <object>(-v.dagur)</object>
+      </resource>
+      <resource name="NoShiftSet">
+        <object>(-vakt)</object>
+      </resource>
+      <resource name="WorkPeriodType">
+        <object>Vinna</object>
+      </resource>
+      <resource name="BreakPeriodType">
+        <object>Pása</object>
+      </resource>
+      <resource name="NoPeriodSet">
+        <object>(-timabil)</object>
+      </resource>
+      <resource name="Create">
+        <object>Ný</object>
+      </resource>
+      <resource name="CreateNewLotCaption">
+        <object>Viltu búa til nýja lotu?</object>
+      </resource>
+      <resource name="CreateNewLotPrompt">
+        <object>Ýttu á Enter til að búa til nýja lotu</object>
+      </resource>
+      <resource name="ErrorCreatingLotCaption">
+        <object>Ekki var hægt að smíða nýja lotu</object>
+      </resource>
+      <resource name="ErrorCreatingLotPrompt">
+        <object>Ýttu á Enter til að fara tilbaka</object>
+      </resource>
+      <resource name="StartPorderCaption">
+        <object>Starta næstu framleiðslupontun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectObject" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu línu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectActivity" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu vinnslulykil</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectComposite" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu samsettan vinnslulykil</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectLot" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu lotu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectProductionLot" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu framleiðlsulotu</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectOrder" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu pöntun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectPo" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu innkaupapöntun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectPrunit" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu vinnsluþátt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectRmArea" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu hráefnissvæði</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectShift" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu vakt</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectProfilePeriod" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu vinnutímabil</object>
+      </resource>
+      <resource name="WorkPeriodType">
+        <object>Vinna</object>
+      </resource>
+      <resource name="BreakPeriodType">
+        <object>Pása</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectDate" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu vinnsludag</object>
+      </resource>
+      <resource name="DatePrompt">
+        <object>Dags:</object>
+      </resource>
+      <resource name="DayLegend">
+        <object>Dagar</object>
+      </resource>
+      <resource name="MonthLegend">
+        <object>Mánuðir</object>
+      </resource>
+      <resource name="YearLegend">
+        <object>Ár</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectUnitOperation" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Veldu aðgerð</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectRegistration" ServiceOnly="false">
+      <resource name="SitePrompt">
+        <object>Staðarkóði: </object>
+      </resource>
+      <resource name="IdPrompt">
+        <object>Númer     : </object>
+      </resource>
+      <resource name="errorfetchingobject">
+        <object>Gat ekki náð í hlut</object>
+      </resource>
+      <resource name="wgt">
+        <object>Þyngd      : {0}</object>
+      </resource>
+      <resource name="ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="ScreenCaptionItem">
+        <object>Sláðu inn einingu</object>
+      </resource>
+      <resource name="ScreenCaptionPack">
+        <object>Sláðu inn pakkanúmer</object>
+      </resource>
+      <resource name="ScreenCaptionContainer">
+        <object>Sláðu inn gámanúmer</object>
+      </resource>
+      <resource name="ScreenCaptionStack">
+        <object>Sláðu inn stæðunúmer</object>
+      </resource>
+      <resource name="ScreenCaptionShipment">
+        <object>Sláðu inn flutningsnúmer</object>
+      </resource>
+      <resource name="ScreenCaptionPallet">
+        <object>Sláðu inn brettanúmer</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.SelectRegistrationViaFinder" ServiceOnly="false">
+      <resource name="errorfetchingobject">
+        <object>Gat ekki náð í færslu</object>
+      </resource>
+      <resource name="wgt">
+        <object>Þyngd      :</object>
+      </resource>
+      <resource name="ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="PackFinderById_caption">
+        <object>Sláðu inn auðkenni</object>
+      </resource>
+      <resource name="PackFinderBySSCC_caption">
+        <object>Sláðu inn SSCC</object>
+      </resource>
+      <resource name="PackFinderByExtnum_caption">
+        <object>Sláðu inn ytra auðkenni</object>
+      </resource>
+      <resource name="PackFinderBySiteAndNumber_caption">
+        <object>Staður og númer</object>
+      </resource>
+      <resource name="PackFinderByOrderAndOrderNum_caption">
+        <object>Pöntun og númer</object>
+      </resource>
+      <resource name="PackFinderByInventoryAndInvNum_caption">
+        <object>Lager og númer</object>
+      </resource>
+      <resource name="CollectionFinderById_caption">
+        <object>Sláðu inn auðkenni</object>
+      </resource>
+      <resource name="CollectionFinderBySSCC_caption">
+        <object>Sláðu inn SSCC</object>
+      </resource>
+      <resource name="CollectionFinderByExtnum_caption">
+        <object>Sláðu inn ytra auðkenni</object>
+      </resource>
+      <resource name="CollectionFinderBySiteAndNumber_caption">
+        <object>Staður og númer</object>
+      </resource>
+      <resource name="CollectionFinderByOrderAndOrderNum_caption">
+        <object>Pöntun og númer</object>
+      </resource>
+      <resource name="CollectionFinderByInventoryAndInvNum_caption">
+        <object>Lager og númer</object>
+      </resource>
+      <resource name="ItemFinderById_caption">
+        <object>Sláðu inn auðkenni</object>
+      </resource>
+      <resource name="ItemFinderByExtnum_caption">
+        <object>Sláðu inn ytra auðkenni</object>
+      </resource>
+      <resource name="ItemFinderBySiteAndNumber_caption">
+        <object>Staður og númer</object>
+      </resource>
+      <resource name="ItemFinderByDeviceAndAlibi_caption">
+        <object>Tæki og sönnunarnúmer</object>
+      </resource>
+      <resource name="PackFinderById_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="PackFinderBySSCC_numberprompt">
+        <object>SSCC    :</object>
+      </resource>
+      <resource name="PackFinderByExtnum_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="PackFinderBySiteAndNumber_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="PackFinderByOrderAndOrderNum_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="PackFinderByInventoryAndInvNum_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="CollectionFinderById_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="CollectionFinderBySSCC_numberprompt">
+        <object>SSCC    :</object>
+      </resource>
+      <resource name="CollectionFinderByExtnum_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="CollectionFinderBySiteAndNumber_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="CollectionFinderByOrderAndOrderNum_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="CollectionFinderByInventoryAndInvNum_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="ItemFinderById_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="ItemFinderByExtnum_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="ItemFinderBySiteAndNumber_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="ItemFinderByDeviceAndAlibi_numberprompt">
+        <object>Númer   :</object>
+      </resource>
+      <resource name="PackFinderBySiteAndNumber_objectprompt">
+        <object>Staður  :</object>
+      </resource>
+      <resource name="PackFinderByOrderAndOrderNum_objectprompt">
+        <object>Pöntun  :</object>
+      </resource>
+      <resource name="PackFinderByInventoryAndInvNum_objectprompt">
+        <object>Lager   :</object>
+      </resource>
+      <resource name="CollectionFinderBySiteAndNumber_objectprompt">
+        <object>Staður  :</object>
+      </resource>
+      <resource name="CollectionFinderByOrderAndOrderNum_objectprompt">
+        <object>Pöntun  :</object>
+      </resource>
+      <resource name="CollectionFinderByInventoryAndInvNum_objectprompt">
+        <object>Lager   :</object>
+      </resource>
+      <resource name="ItemFinderBySiteAndNumber_objectprompt">
+        <object>Staður  :</object>
+      </resource>
+      <resource name="ItemFinderByDeviceAndAlibi_objectprompt">
+        <object>Tæki    :</object>
+      </resource>
+      <resource name="clear">
+        <object>Hreinsa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.EmployeeLogin" ServiceOnly="false">
+      <resource name="EmployeePrompt">
+        <object>Númer    :</object>
+      </resource>
+      <resource name="PasswordPrompt">
+        <object>Lykilorð :</object>
+      </resource>
+      <resource name="InvalidPassword">
+        <object>Rangt lykilorð</object>
+      </resource>
+      <resource name="PasswordOk">
+        <object>Lykilorð í lagi</object>
+      </resource>
+      <resource name="LoginLegend">
+        <object>Inn</object>
+      </resource>
+      <resource name="NameLabel">
+        <object>Nafn     :</object>
+      </resource>
+      <resource name="ScreenCaption">
+        <object>Innskráning</object>
+      </resource>
+      <resource name="AccessOk">
+        <object>Aðgangsstig í lagi</object>
+      </resource>
+      <resource name="AccessNotOk">
+        <object>Rangt aðgangsstig</object>
+      </resource>
+      <resource name="AccessNotGranted">
+        <object>Aðgangur ekki leyfður</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.RfidDisplay" ServiceOnly="false">
+      <resource name="Caption">
+        <object />
+      </resource>
+      <resource name="Clear">
+        <object>Hreinsa</object>
+      </resource>
+      <resource name="IdNotFound">
+        <object>Fannst ekki</object>
+      </resource>
+      <resource name="IdLabel">
+        <object>Númer   : </object>
+      </resource>
+      <resource name="WeightLabel">
+        <object>Þyngd   : </object>
+      </resource>
+      <resource name="TimeLabel">
+        <object>Tími    : </object>
+      </resource>
+      <resource name="UnitLabel">
+        <object>Eining  : </object>
+      </resource>
+      <resource name="MaterialLabel">
+        <object>Afurð   : </object>
+      </resource>
+      <resource name="PoLabel">
+        <object>Innk.p. : </object>
+      </resource>
+      <resource name="BatchLabel">
+        <object>Lota nr.: </object>
+      </resource>
+      <resource name="LotLabel">
+        <object>Lota    : </object>
+      </resource>
+      <resource name="ProductionLotLabel">
+        <object>Fr.lota : </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.EmployeeId" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Skrá pillunúmer</object>
+      </resource>
+      <resource name="EmployeeCaption">
+        <object>Veldu starfsmann</object>
+      </resource>
+      <resource name="IdLabel">
+        <object>Pilla:</object>
+      </resource>
+      <resource name="EmployeeLabel">
+        <object>Starfsmaður:</object>
+      </resource>
+      <resource name="MultipleFound">
+        <object>(fann fleiri en einn)</object>
+      </resource>
+      <resource name="Clear">
+        <object>Afskr</object>
+      </resource>
+      <resource name="Assign">
+        <object>Skrá</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.PackUOExecScreen" ServiceOnly="false">
+      <resource name="SsccLabel">
+        <object>SSCC :</object>
+      </resource>
+      <resource name="ProductLabel">
+        <object>Afurð:</object>
+      </resource>
+      <resource name="IdLabel">
+        <object>Auðk.:</object>
+      </resource>
+      <resource name="NumberLabel">
+        <object>Númer:</object>
+      </resource>
+      <resource name="SiteLabel">
+        <object>Stað.:</object>
+      </resource>
+      <resource name="NominalLabel">
+        <object>Nafnþ:</object>
+      </resource>
+      <resource name="WeightLabel">
+        <object>Þyngd:</object>
+      </resource>
+      <resource name="RtypeLabel">
+        <object>Týpa :</object>
+      </resource>
+      <resource name="PathLabel">
+        <object>Leið :</object>
+      </resource>
+      <resource name="EmployeeCodeLabel">
+        <object>Starf:</object>
+      </resource>
+      <resource name="EmployeeNameLabel">
+        <object>Starf:</object>
+      </resource>
+      <resource name="executeButton">
+        <object>Keyra</object>
+      </resource>
+      <resource name="noCurrentPack">
+        <object>Enginn pakki til. Skeyti er ekki notað.</object>
+      </resource>
+      <resource name="okResult">
+        <object>Aðgerð í lagi</object>
+      </resource>
+      <resource name="TareLabel">
+        <object>Tara:</object>
+      </resource>
+      <resource name="weightNotLower">
+        <object>Þyngd verður að vera lægri en pakkaþyngd</object>
+      </resource>
+      <resource name="RcidLabel">
+        <object>Rafm.:</object>
+      </resource>
+      <resource name="ErrloadingPackRecord">
+        <object>Villa við að ná í pakka</object>
+      </resource>
+      <resource name="ErrloadingProductRecord">
+        <object>Villa við að ná í afurð</object>
+      </resource>
+      <resource name="ErrloadingSiteRecord">
+        <object>Villa við að ná í stað</object>
+      </resource>
+      <resource name="packRecordNotLoaded">
+        <object>Pakkafærsla fannst ekki</object>
+      </resource>
+      <resource name="productRecordNotLoaded">
+        <object>Afurð fannst ekki</object>
+      </resource>
+      <resource name="siteRecordNotLoaded">
+        <object>Staður fannst ekki</object>
+      </resource>
+      <resource name="idContainerRecordNotLoaded">
+        <object>Rafmerkingarfærsla fannst ekki</object>
+      </resource>
+      <resource name="idContUnitType">
+        <object>Rafmerkingarfærsla er ekki tengd við pakka</object>
+      </resource>
+      <resource name="idContNoPack">
+        <object>Rafmerkingarfærsla er ekki tengd við pakka</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.PackUOExecScreenController" ServiceOnly="false">
+      <resource name="PathListCaption">
+        <object>Veldu leið</object>
+      </resource>
+      <resource name="EmployeeListCaption">
+        <object>Veldu starfsmann</object>
+      </resource>
+      <resource name="OperationsCaption">
+        <object>Veldu aðgerð</object>
+      </resource>
+      <resource name="ErrorScreenCaption">
+        <object>Villa</object>
+      </resource>
+      <resource name="BackButton">
+        <object>Bakka</object>
+      </resource>
+      <resource name="Logout">
+        <object>Skrá út</object>
+      </resource>
+      <resource name="ExitProgram">
+        <object>Hætta í forriti</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.UnitOperations.UnitOperationController" ServiceOnly="false">
+      <resource name="s2">
+        <object>Tilbaka</object>
+      </resource>
+      <resource name="s3">
+        <object>Villa</object>
+      </resource>
+      <resource name="s4">
+        <object>Staðfesta aðgerð</object>
+      </resource>
+      <resource name="s5">
+        <object>Tilbaka</object>
+      </resource>
+      <resource name="s6">
+        <object>Aðgerð í vinnslu</object>
+      </resource>
+      <resource name="s7">
+        <object>Get ekki undirbúið aðgerð</object>
+      </resource>
+      <resource name="s8">
+        <object>Villa í skráningum</object>
+      </resource>
+      <resource name="s9">
+        <object>Get ekki undirbúið færibreytur</object>
+      </resource>
+      <resource name="s10">
+        <object>Askja    :</object>
+      </resource>
+      <resource name="s11">
+        <object>Pakki    :</object>
+      </resource>
+      <resource name="s12">
+        <object>Gámur    :</object>
+      </resource>
+      <resource name="s13">
+        <object>Enginn skjár tiltækur</object>
+      </resource>
+      <resource name="s14">
+        <object>fyrir {0}</object>
+      </resource>
+      <resource name="s15">
+        <object>Engin krítería fannst</object>
+      </resource>
+      <resource name="s16">
+        <object>{0}</object>
+      </resource>
+      <resource name="s17">
+        <object>Get ekki fundið {0}</object>
+      </resource>
+      <resource name="s18">
+        <object>Villa við val</object>
+      </resource>
+      <resource name="s19">
+        <object>Vill við val úr lista</object>
+      </resource>
+      <resource name="s20">
+        <object>Villa í dagsetningu</object>
+      </resource>
+      <resource name="s1">
+        <object>Get ekki undirbúið stæði {0}</object>
+      </resource>
+      <resource name="s21">
+        <object>Bretti   :</object>
+      </resource>
+      <resource name="s22">
+        <object>Stafli   :</object>
+      </resource>
+      <resource name="s23">
+        <object>Sending  :</object>
+      </resource>
+      <resource name="s24">
+        <object>Afurð    :</object>
+      </resource>
+      <resource name="s25">
+        <object>Tími     :</object>
+      </resource>
+      <resource name="exit">
+        <object>Tilbaka</object>
+      </resource>
+      <resource name="OK">
+        <object>OK</object>
+      </resource>
+      <resource name="ConfirmAfterScanCaption">
+        <object>Gildi sett frá skanni</object>
+      </resource>
+      <resource name="ConfirmAfterScanMessage">
+        <object>Gildi sett frá skanni</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.UnitOperations.UnitOperationScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Ok</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Tilbaka</object>
+      </resource>
+      <resource name="er">
+        <object>Villa:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.OrderStatusScreen" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pieces">
+        <object>stk</object>
+      </resource>
+      <resource name="Pounds">
+        <object>pund</object>
+      </resource>
+      <resource name="Tons">
+        <object>tonn</object>
+      </resource>
+      <resource name="Units">
+        <object>stk</object>
+      </resource>
+      <resource name="ProductSort">
+        <object>Afurð</object>
+      </resource>
+      <resource name="OrderSort">
+        <object>Pöntun</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.CreatePo" ServiceOnly="false">
+      <resource name="supplierLabel">
+        <object>Birgi :</object>
+      </resource>
+      <resource name="codeLabel">
+        <object>Kóði  :</object>
+      </resource>
+      <resource name="fcdayLabel">
+        <object>Dagur :</object>
+      </resource>
+      <resource name="harbourLabel">
+        <object>Höfn  :</object>
+      </resource>
+      <resource name="ScreenCaption">
+        <object>Stofna innkaupapöntun</object>
+      </resource>
+      <resource name="PoCreated">
+        <object>Innkaupapöntun stofnuð</object>
+      </resource>
+      <resource name="DateParseError">
+        <object>Dagsetning ekki á réttu formi</object>
+      </resource>
+      <resource name="PoNotCreated">
+        <object>Innkaupapöntun ekki stofnuð</object>
+      </resource>
+      <resource name="SupplierMissing">
+        <object>Veldu birgi</object>
+      </resource>
+      <resource name="HarbourMissing">
+        <object>Veldu höfn</object>
+      </resource>
+      <resource name="CodeMissing">
+        <object>Sláðu inn kóða</object>
+      </resource>
+      <resource name="CreateLegend">
+        <object>Stofna</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Process.Services.Recipes.DatabaseUtilities" ServiceOnly="false">
+      <resource name="stepStarted">
+        <object>Skref hafið</object>
+      </resource>
+      <resource name="stepCompleted">
+        <object>Skref klárað</object>
+      </resource>
+      <resource name="batchCreated">
+        <object>Framleiðslulota búin til</object>
+      </resource>
+      <resource name="batchStarted">
+        <object>Framleiðslulota hafin</object>
+      </resource>
+      <resource name="batchWaiting">
+        <object>Framleiðslulota í bið</object>
+      </resource>
+      <resource name="batchInPrep">
+        <object>Framleiðslulota í undirbúningi</object>
+      </resource>
+      <resource name="batchSuspended">
+        <object>Framleiðslulota stöðvuð</object>
+      </resource>
+      <resource name="batchResumed">
+        <object>Framleiðslulota endurræst</object>
+      </resource>
+      <resource name="batchResumedFromQcHold">
+        <object>Framleiðslulota endurræst eftir gæðaskoðun</object>
+      </resource>
+      <resource name="batchCancelled">
+        <object>Hætt við framleiðslulotu</object>
+      </resource>
+      <resource name="batchCompleted">
+        <object>Framleiðslulotu lokið</object>
+      </resource>
+      <resource name="lotStatusChanged">
+        <object>Ástand lotu er: {0}</object>
+      </resource>
+      <resource name="partialPackConsumed">
+        <object>Hluti af pakka notaður</object>
+      </resource>
+      <resource name="packConsumed">
+        <object>Pakki notaður</object>
+      </resource>
+      <resource name="packConsumeFailed">
+        <object>Notkun pakka mistókst</object>
+      </resource>
+      <resource name="palletConsumed">
+        <object>Bretti notað</object>
+      </resource>
+      <resource name="palletConsumedFailed">
+        <object>Notkun brettis mistókst</object>
+      </resource>
+      <resource name="packsCleared">
+        <object>Pakki/ar í framleiðslu kláraðir og settir á pöntun</object>
+      </resource>
+      <resource name="packsClearedFailed">
+        <object>Mistókst að klára pakka í framleiðslu og setja á pöntun</object>
+      </resource>
+      <resource name="itemConsumed">
+        <object>Askja notuð</object>
+      </resource>
+      <resource name="itemConsumeFailed">
+        <object>Notkun öskju mistókst</object>
+      </resource>
+      <resource name="materialConsumed">
+        <object>Afurð notuð</object>
+      </resource>
+      <resource name="materialConsumeFailed">
+        <object>Notkun afurðar mistókst</object>
+      </resource>
+      <resource name="unitOpExecuted">
+        <object>Einingaaðgerð keyrð</object>
+      </resource>
+      <resource name="unitOpFailed">
+        <object>Keyrsla einingaraðgerðar mistókst</object>
+      </resource>
+      <resource name="productionOpExecuted">
+        <object>Framleiðslueiningaaðgerð keyrð</object>
+      </resource>
+      <resource name="productionOpFailed">
+        <object>Keyrsla framleiðslueiningaraðgerðar mistókst</object>
+      </resource>
+      <resource name="stepInspectionRegistered">
+        <object>Gæðaskoðun lokið</object>
+      </resource>
+      <resource name="registerInspectionFailed">
+        <object>Villa kom upp við gæðaskoðun</object>
+      </resource>
+      <resource name="activitySet">
+        <object>Vinnslulykill virkjaður</object>
+      </resource>
+      <resource name="setActivityFailed">
+        <object>Ekki tókst að virkja vinnslulykil</object>
+      </resource>
+      <resource name="stepInspectionStopped">
+        <object>Gæðaskoðun stöðvuð</object>
+      </resource>
+      <resource name="batchPriorityChanged">
+        <object>Forgangi framleiðslulotu breytt</object>
+      </resource>
+    </type>
+  </industry>
+  <industry name="Fish">
+    <type name="Marel.Mp5.Process.Services.TerminalScreens.CreatePo" ServiceOnly="false">
+      <resource name="fcdayLabel">
+        <object>Veiðid:</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

@@ -1,0 +1,912 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="fi">
+  <industry>
+    <type name="Grid.Alarms.AlarmEvents" ServiceOnly="false">
+      <resource name="base_alarmevents_id">
+        <object>Tunnus</object>
+      </resource>
+      <resource name="base_alarms_name">
+        <object>Hälytys</object>
+      </resource>
+      <resource name="base_alarmevents_state">
+        <object>Tila</object>
+      </resource>
+      <resource name="base_alarmevents_statedescription">
+        <object>Tilan kuvaus</object>
+      </resource>
+      <resource name="base_alarmevents_stateshortdescription">
+        <object>Tilan lyhyt kuvaus</object>
+      </resource>
+      <resource name="base_alarmevents_alarmon">
+        <object>Hälytys päällä</object>
+      </resource>
+      <resource name="base_alarmevents_regtime">
+        <object>Rek.aika</object>
+      </resource>
+      <resource name="base_alarmevents_rstat">
+        <object>Tietueen tila</object>
+      </resource>
+      <resource name="base_alarmevents_alarmoccurred">
+        <object>Hälytys ilmeni</object>
+      </resource>
+      <resource name="base_alarmevents_stateparamvalues">
+        <object>Tilan parametri\narvot</object>
+      </resource>
+      <resource name="base_alarms_code">
+        <object>Hälytyksen koodi</object>
+      </resource>
+      <resource name="base_alarms_ownertype">
+        <object>Omistajatyyppi</object>
+      </resource>
+      <resource name="base_alarms_owner">
+        <object>Omistajan koodi</object>
+      </resource>
+      <resource name="base_alarms_owner Name">
+        <object>Omistaja</object>
+      </resource>
+      <resource name="base_alarmevents_prperiod">
+        <object>Prosessin aika</object>
+      </resource>
+      <resource name="base_alarmevents_sprperiod">
+        <object>Alaprosessin aika</object>
+      </resource>
+      <resource name="base_alarmevents_usercommentid">
+        <object>Käyttäjän kommentti</object>
+      </resource>
+      <resource name="base_alarmevents_alarm">
+        <object>Hälytyksen tunnus</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.Alarms" ServiceOnly="false">
+      <resource name="alarm">
+        <object>Hälytyksen tunnus</object>
+      </resource>
+      <resource name="code">
+        <object>Koodi</object>
+      </resource>
+      <resource name="name">
+        <object>Nimi</object>
+      </resource>
+      <resource name="description">
+        <object>Kuvaus</object>
+      </resource>
+      <resource name="priority">
+        <object>Prioriteetti</object>
+      </resource>
+      <resource name="ownertype">
+        <object>Omistajatyyppi</object>
+      </resource>
+      <resource name="owner Name">
+        <object>Omistaja</object>
+      </resource>
+      <resource name="state">
+        <object>Tila</object>
+      </resource>
+      <resource name="statedescription">
+        <object>Tilan kuvaus</object>
+      </resource>
+      <resource name="stateshortdescription">
+        <object>Tilan lyhyt kuvaus</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Hälytys päällä</object>
+      </resource>
+      <resource name="lastupdate">
+        <object>Viimeksi päivitetty</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiivinen</object>
+      </resource>
+      <resource name="Groups">
+        <object>Ryhmät</object>
+      </resource>
+      <resource name="owner">
+        <object>omistajan koodi</object>
+      </resource>
+      <resource name="alarmlevel">
+        <object>Hälytyksen taso</object>
+      </resource>
+      <resource name="alarmconfig">
+        <object>Hälytyksen konfig.</object>
+      </resource>
+      <resource name="stateparamvalues">
+        <object>Tilan parametri\narvot</object>
+      </resource>
+      <resource name="image">
+        <object>Kuva</object>
+      </resource>
+      <resource name="imagex">
+        <object>Kuvan x-koord.</object>
+      </resource>
+      <resource name="imagey">
+        <object>Kuvan y-koord.</object>
+      </resource>
+      <resource name="notificationdelay">
+        <object>Ilmoitus\nviive</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.Alarms.Groups" ServiceOnly="false">
+      <resource name="alarm">
+        <object>Hälytyksen tunnus</object>
+      </resource>
+      <resource name="alarmgroup">
+        <object>Hälytysryhmän koodi</object>
+      </resource>
+      <resource name="alarmgroup Name">
+        <object>Hälytysryhmä</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvenssi</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>Tunnus</object>
+      </resource>
+      <resource name="code">
+        <object>Koodi</object>
+      </resource>
+      <resource name="name">
+        <object>Nimi</object>
+      </resource>
+      <resource name="shname">
+        <object>Lyhyt</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ulkoinen koodi</object>
+      </resource>
+      <resource name="pattern">
+        <object>Kuvio</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Mitta 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Mitta 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Mitta 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Mitta 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Teksti 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Teksti 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Teksti 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Teksti 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Teksti 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Teksti 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Teksti 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Teksti 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiivinen</object>
+      </resource>
+      <resource name="NotificationGroups">
+        <object>Ilmoitukset</object>
+      </resource>
+      <resource name="GroupMembers">
+        <object>Ryhmän jäsenet</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups.NotificationGroups" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>Hälytysryhmä</object>
+      </resource>
+      <resource name="receiver">
+        <object>Vastaanottimen koodi</object>
+      </resource>
+      <resource name="receiver Name">
+        <object>Vastaanotin</object>
+      </resource>
+      <resource name="receiver Name.Hint">
+        <object>Vastaanotin riippuu vastaanottimen tyypistä</object>
+      </resource>
+      <resource name="receivertype">
+        <object>Vastaanottimen tyyppi</object>
+      </resource>
+      <resource name="notificationprovider Name">
+        <object>Ilmoittaja</object>
+      </resource>
+      <resource name="notificationprovider">
+        <object>Ilmoittajan koodi</object>
+      </resource>
+      <resource name="id">
+        <object>Tunnus</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Ilmoita hälytyksestä</object>
+      </resource>
+      <resource name="alarmon.hint">
+        <object>Lähetä ilmoitus, kun hälytys tulee päälle</object>
+      </resource>
+      <resource name="alarmoff">
+        <object>Ilmoita hälytyksen sammumisesta</object>
+      </resource>
+      <resource name="alarmoff.hint">
+        <object>Lähetä ilmoitus, kun hälytys sammuu</object>
+      </resource>
+      <resource name="weekdays">
+        <object>Arkipäivät</object>
+      </resource>
+      <resource name="weekdays.hint">
+        <object>Lähetä ilmoitus arkipäivisin</object>
+      </resource>
+      <resource name="weekends">
+        <object>Viikonloput</object>
+      </resource>
+      <resource name="weekends.hint">
+        <object>Lähetä ilmoitus viikonloppuisin</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.GroupsAlarmGroups.GroupMembers" ServiceOnly="false">
+      <resource name="alarmgroup">
+        <object>Hälytysryhmä</object>
+      </resource>
+      <resource name="id">
+        <object>Tunnus</object>
+      </resource>
+      <resource name="sequence">
+        <object>Sekvenssi</object>
+      </resource>
+      <resource name="alarm Name">
+        <object>Hälytys</object>
+      </resource>
+      <resource name="alarm">
+        <object>Hälytyksen koodi</object>
+      </resource>
+      <resource name="alarm.lookup.name">
+        <object>Nimi</object>
+      </resource>
+      <resource name="alarm.lookup.code">
+        <object>Koodi</object>
+      </resource>
+      <resource name="alarm.lookup.owner">
+        <object>Omistaja</object>
+      </resource>
+    </type>
+    <type name="Grid.Notifications.Notifications" ServiceOnly="false">
+      <resource name="mon_alarmnotifications_notificationprovider Name">
+        <object>Ilmoittaja</object>
+      </resource>
+      <resource name="base_alarmevents_alarmon">
+        <object>Hälytys päällä</object>
+      </resource>
+      <resource name="mon_alarmnotifications_id">
+        <object>Ilmoituksen tunnus</object>
+      </resource>
+      <resource name="mon_alarmnotifications_alarmevent">
+        <object>Hälytystapahtuman tunnus</object>
+      </resource>
+      <resource name="mon_alarmnotifications_sendtime">
+        <object>Lähetysaika</object>
+      </resource>
+      <resource name="mon_alarmnotifications_regtime">
+        <object>Rekisteröintiaika</object>
+      </resource>
+      <resource name="mon_alarmnotifications_receivertype">
+        <object>Vastaanottimen tyyppi</object>
+      </resource>
+      <resource name="mon_alarmnotifications_alarmnotificationgroupids">
+        <object>Hälytysten ilmoitusryhmät</object>
+      </resource>
+      <resource name="mon_alarmnotifications_info">
+        <object>Tiedot</object>
+      </resource>
+      <resource name="mon_alarmnotifications_rstat">
+        <object>Ilmoituksen tila</object>
+      </resource>
+      <resource name="base_alarmevents_state">
+        <object>Tapahtuman tila</object>
+      </resource>
+      <resource name="base_alarmevents_statedescription">
+        <object>Tapahtuman kuvaus</object>
+      </resource>
+      <resource name="base_alarmevents_stateshortdescription">
+        <object>Tapahtuman lyhyt kuvaus</object>
+      </resource>
+      <resource name="base_alarmevents_regtime">
+        <object>Tapahtuman rekisteröintiaika</object>
+      </resource>
+      <resource name="mon_alarmnotifications_notificationprovider">
+        <object>Ilmoittajan koodi</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.ExternalOwners" ServiceOnly="false">
+      <resource name="alarmowner">
+        <object>Tunnus</object>
+      </resource>
+      <resource name="code">
+        <object>Koodi</object>
+      </resource>
+      <resource name="name">
+        <object>Nimi</object>
+      </resource>
+      <resource name="shname">
+        <object>Lyhyt</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ulkoinen koodi</object>
+      </resource>
+      <resource name="pattern">
+        <object>Kuvio</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Mitta 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Mitta 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Mitta 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Mitta 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Teksti 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Teksti 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Teksti 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Teksti 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Teksti 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Teksti 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Teksti 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Teksti 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiivinen</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.ExternalEvents" ServiceOnly="false">
+      <resource name="id">
+        <object>Tunnus</object>
+      </resource>
+      <resource name="owner">
+        <object>Omistajan koodi</object>
+      </resource>
+      <resource name="owner Name">
+        <object>Omistaja</object>
+      </resource>
+      <resource name="code">
+        <object>Koodi</object>
+      </resource>
+      <resource name="state">
+        <object>Tila</object>
+      </resource>
+      <resource name="statedescription">
+        <object>Tilan kuvaus</object>
+      </resource>
+      <resource name="stateshortdescription">
+        <object>Tilan lyhyt kuvaus</object>
+      </resource>
+      <resource name="alarmon">
+        <object>Hälytys päällä</object>
+      </resource>
+      <resource name="regtime">
+        <object>Rek.aika</object>
+      </resource>
+      <resource name="rstat">
+        <object>Tietueen tila</object>
+      </resource>
+      <resource name="alarmoccurred">
+        <object>Hälytys ilmeni</object>
+      </resource>
+      <resource name="stateparamvalues">
+        <object>Tilan parametri\narvot</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.AlarmConfigurations" ServiceOnly="false">
+      <resource name="alarmconfiguration">
+        <object>Tunnus</object>
+      </resource>
+      <resource name="code">
+        <object>Koodi</object>
+      </resource>
+      <resource name="name">
+        <object>Nimi</object>
+      </resource>
+      <resource name="shname">
+        <object>Lyhyt</object>
+      </resource>
+      <resource name="extcode">
+        <object>Ulkoinen koodi</object>
+      </resource>
+      <resource name="pattern">
+        <object>Kuvio</object>
+      </resource>
+      <resource name="dimension1">
+        <object>Mitta 1</object>
+      </resource>
+      <resource name="dimension2">
+        <object>Mitta 2</object>
+      </resource>
+      <resource name="dimension3">
+        <object>Mitta 3</object>
+      </resource>
+      <resource name="dimension4">
+        <object>Mitta 4</object>
+      </resource>
+      <resource name="description1">
+        <object>Teksti 1</object>
+      </resource>
+      <resource name="description2">
+        <object>Teksti 2</object>
+      </resource>
+      <resource name="description3">
+        <object>Teksti 3</object>
+      </resource>
+      <resource name="description4">
+        <object>Teksti 4</object>
+      </resource>
+      <resource name="description5">
+        <object>Teksti 5</object>
+      </resource>
+      <resource name="description6">
+        <object>Teksti 6</object>
+      </resource>
+      <resource name="description7">
+        <object>Teksti 7</object>
+      </resource>
+      <resource name="description8">
+        <object>Teksti 8</object>
+      </resource>
+      <resource name="xmldata">
+        <object>XML</object>
+      </resource>
+      <resource name="active">
+        <object>Aktiivinen</object>
+      </resource>
+      <resource name="Events">
+        <object>Hälytystapahtuman määritykset</object>
+      </resource>
+    </type>
+    <type name="Grid.Alarms.AlarmConfigurationl" ServiceOnly="false">
+      <resource name="id">
+        <object>Tunnus</object>
+      </resource>
+      <resource name="alarmconfiguration">
+        <object>Hälytyksen konfigurointikoodi</object>
+      </resource>
+      <resource name="alarmconfiguration Name">
+        <object>Hälytyksen konfigurointi</object>
+      </resource>
+      <resource name="eventid">
+        <object>Tapahtuman tunnus</object>
+      </resource>
+      <resource name="eventcode">
+        <object>Tapahtuman koodi</object>
+      </resource>
+      <resource name="alarmlevel">
+        <object>Taso</object>
+      </resource>
+      <resource name="priority">
+        <object>Prioriteetti</object>
+      </resource>
+      <resource name="description">
+        <object>Kuvaus</object>
+      </resource>
+      <resource name="params">
+        <object>Parametrit</object>
+      </resource>
+      <resource name="linecode">
+        <object>Linjan koodi</object>
+      </resource>
+      <resource name="linedescription">
+        <object>Linjan kuvaus</object>
+      </resource>
+      <resource name="systemcode">
+        <object>Järjestelmän koodi</object>
+      </resource>
+      <resource name="systemdescription">
+        <object>Järjestelmän kuvaus</object>
+      </resource>
+      <resource name="modulecode">
+        <object>Moduulin koodi</object>
+      </resource>
+      <resource name="moduledescription">
+        <object>Moduulin kuvaus</object>
+      </resource>
+      <resource name="unitcode">
+        <object>Yksikön koodi</object>
+      </resource>
+      <resource name="unitdescription">
+        <object>Yksikön kuvaus</object>
+      </resource>
+      <resource name="devicecode">
+        <object>Laitteen koodi</object>
+      </resource>
+      <resource name="devicedescription">
+        <object>Laitteen kuvaus</object>
+      </resource>
+      <resource name="solution">
+        <object>Ratkaisu</object>
+      </resource>
+      <resource name="solutionurl">
+        <object>Ratkaisun Url</object>
+      </resource>
+      <resource name="usermanualurl">
+        <object>Käyttöoppaan Url</object>
+      </resource>
+      <resource name="customeralarmdescription">
+        <object>Asiakashälytyksen kuvaus</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmConfigurations" ServiceOnly="false">
+      <resource name="Warning.Text">
+        <object>Tämä kirjoittaa olemassa olevien syötteiden päälle valitulle ryhmälle.\nHaluatko jatkaa?</object>
+      </resource>
+      <resource name="Warning.Caption">
+        <object>Varoitus</object>
+      </resource>
+      <resource name="FileDlg.Files">
+        <object>Tiedostot</object>
+      </resource>
+      <resource name="FileDlg.AllFiles">
+        <object>Kaikki tiedostot</object>
+      </resource>
+      <resource name="FileDlg.Title">
+        <object>Valitse konfig.tiedosto tuontia varten</object>
+      </resource>
+      <resource name="FileDlg.Failed">
+        <object>Tiedoston lataus ei onnistunut</object>
+      </resource>
+      <resource name="importFromFileButton">
+        <object>Tuo tiedostosta</object>
+      </resource>
+      <resource name="importFromFileButtonHint">
+        <object>Napsauta hälytys-CSV-tiedoston tuomiseksi</object>
+      </resource>
+      <resource name="Import.Failed">
+        <object>Tiedoston tuonti ei onnistunut</object>
+      </resource>
+      <resource name="importFromDeviceButton">
+        <object>Tuo laitteesta</object>
+      </resource>
+      <resource name="importFromDeviceButtonHint">
+        <object>Napsauta hälytysmääritysten tuomiseksi laitteesta</object>
+      </resource>
+      <resource name="GroupExistsErrorMessage">
+        <object>          Ryhmä nimeltä {0} on jo tietokannassa.\n          Jos se on poistettu tai deaktivoitu, se aktivoidaan uudelleen.\n          Tämä tuonti kirjoittaa tämän ryhmän olemassa olevien jäsenten päälle.\n          Haluatko jatkaa?        </object>
+      </resource>
+      <resource name="Warning">
+        <object>Varoitus</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmDescription" ServiceOnly="false">
+      <resource name="errorText.NoDescription">
+        <object>Kuvausta ei saatavilla</object>
+      </resource>
+      <resource name="AlarmDescription">
+        <object>Hälytyksen kuvaus</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmImage" ServiceOnly="false">
+      <resource name="errorText.NoImage">
+        <object>Kuvaa ei saatavilla</object>
+      </resource>
+      <resource name="AlarmImage">
+        <object>Hälytyksen kuva</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.Alarms.AlarmList" ServiceOnly="false">
+      <resource name="colListId.Caption">
+        <object>Ei</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Nimi</object>
+      </resource>
+      <resource name="colAlarmLevel.Caption">
+        <object>Hälytyksen taso</object>
+      </resource>
+      <resource name="AlarmList">
+        <object>Hälytysluettelo</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmDeviceController" ServiceOnly="true">
+      <resource name="AlarmImage">
+        <object>Hälytyksen kuva</object>
+      </resource>
+      <resource name="AlarmImage.Hint">
+        <object>Katso kuva hälytyksistä tällä laitteella</object>
+      </resource>
+      <resource name="AlarmList">
+        <object>Hälytysluettelo</object>
+      </resource>
+      <resource name="AlarmList.Hint">
+        <object>Katso luettelo päälle kytkeytyneistä hälytyksistä, jotka ovat tällä laitteella</object>
+      </resource>
+      <resource name="AlarmDescription">
+        <object>Hälytyksen kuvaus</object>
+      </resource>
+      <resource name="AlarmDescription.Hint">
+        <object>Katso kuvaus valitusta hälytyksestä tällä laitteella</object>
+      </resource>
+      <resource name="Group.Devices">
+        <object>Laitteet</object>
+      </resource>
+      <resource name="AlarmDefaultLayout">
+        <object>Oletusasettelu</object>
+      </resource>
+      <resource name="AlarmDefaultLayout.Hint">
+        <object>Aseta oletusasettelu hälytyksen laitemonitorille kojelaudalla</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmStatus.AlarmLamp" ServiceOnly="true">
+      <resource name="AlarmLamp.Text">
+        <object>Hälytysvalo</object>
+      </resource>
+      <resource name="Group.Alarms">
+        <object>Hälytykset</object>
+      </resource>
+      <resource name="AlarmLamp.Hint">
+        <object>Käytä tätä komponenttia valitun hälytyksen (hälytysten) valvomiseksi</object>
+      </resource>
+    </type>
+    <type name="Dashboard.Toolbox.AlarmStatus.AlarmMonitor" ServiceOnly="true">
+      <resource name="AlarmMonitor.Text">
+        <object>Hälytyksen valvonta</object>
+      </resource>
+      <resource name="Group.Alarms">
+        <object>Hälytykset</object>
+      </resource>
+      <resource name="AlarmMonitor.Hint">
+        <object>Käytä tätä komponenttia  sen valitun hälytyksen (hälytysten) valvomiseksi, joka näkyy ruudukossa</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Dashboard.AlarmStatus.AlarmMonitor" ServiceOnly="false">
+      <resource name="colCode.Caption">
+        <object>Koodi</object>
+      </resource>
+      <resource name="colName.Caption">
+        <object>Nimi</object>
+      </resource>
+      <resource name="colState.Caption">
+        <object>Tila</object>
+      </resource>
+      <resource name="colAlarm.Caption">
+        <object>Hälytys</object>
+      </resource>
+      <resource name="colTime.Caption">
+        <object>Aika</object>
+      </resource>
+      <resource name="colDetails.Caption">
+        <object>Tiedot</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmGroupEventSelection" ServiceOnly="false">
+      <resource name="grpEventsGrid.Text">
+        <object>Tapahtuman valinta</object>
+      </resource>
+      <resource name="colAlarmId.Caption">
+        <object>Tunnus</object>
+      </resource>
+      <resource name="colAlarmLevel.Caption">
+        <object>Taso</object>
+      </resource>
+      <resource name="colLine.Caption">
+        <object>Linja</object>
+      </resource>
+      <resource name="colLineCode.Caption">
+        <object>Linjan koodi</object>
+      </resource>
+      <resource name="colModule.Caption">
+        <object>Moduuli</object>
+      </resource>
+      <resource name="colModuleCode.Caption">
+        <object>Moduulin koodi</object>
+      </resource>
+      <resource name="colUnit.Caption">
+        <object>Yksikkö</object>
+      </resource>
+      <resource name="colUnitCode.Caption">
+        <object>Yksikön koodi</object>
+      </resource>
+      <resource name="colDevice.Caption">
+        <object>Laite</object>
+      </resource>
+      <resource name="colDeviceCode.Caption">
+        <object>Laitteen koodi</object>
+      </resource>
+      <resource name="colDescription.Caption">
+        <object>Kuvaus</object>
+      </resource>
+      <resource name="colOwnerName.Caption">
+        <object>Omistaja</object>
+      </resource>
+      <resource name="colConfigurationName.Caption">
+        <object>Konfigurointinimi</object>
+      </resource>
+      <resource name="colGroupName.Caption">
+        <object>Hälytysryhmän nimi</object>
+      </resource>
+      <resource name="colCustomerDesc.Caption">
+        <object>Asiakashälytyksen kuvaus</object>
+      </resource>
+      <resource name="colAlarmGroup.Caption">
+        <object>Hälytysryhmän tunnus</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="AlarmGroupEventSelection.Text">
+        <object>Tapahtuman valinta</object>
+      </resource>
+      <resource name="colSystemDesc.Caption">
+        <object>Järjestelmä</object>
+      </resource>
+      <resource name="colSystemCode.Caption">
+        <object>Järjestelmän koodi</object>
+      </resource>
+      <resource name="colAlarmCode.Caption">
+        <object>Hälytyksen koodi</object>
+      </resource>
+      <resource name="colAlarmName.Caption">
+        <object>Hälytyksen nimi</object>
+      </resource>
+      <resource name="btnSelectAll.Text">
+        <object>Valitse kaikki</object>
+      </resource>
+      <resource name="btnUnselectAll.Text">
+        <object>Tyhjää valinta</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AlarmGroups" ServiceOnly="false">
+      <resource name="ConfigureGroups">
+        <object>Konfiguroi hälytysryhmä</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AddAlarmParameter" ServiceOnly="false">
+      <resource name="AddAlarmParameter.Text">
+        <object>Luo hälytysparametri(t)</object>
+      </resource>
+      <resource name="grpHeader.Text">
+        <object>Parametrityypin valinta</object>
+      </resource>
+      <resource name="grpParamTypes.Text">
+        <object>Kuvausmääritykset</object>
+      </resource>
+      <resource name="lblNrOfDescr.Text">
+        <object>Kuvausten määrä:</object>
+      </resource>
+      <resource name="btnUpdate.Text">
+        <object>Päivitä</object>
+      </resource>
+      <resource name="lblIdHeader.Text">
+        <object>Tunnus</object>
+      </resource>
+      <resource name="lblDescrHeader.Text">
+        <object>Kuvaus</object>
+      </resource>
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Peruuta</object>
+      </resource>
+      <resource name="Generic">
+        <object>Yleinen</object>
+      </resource>
+      <resource name="Temperature">
+        <object>Lämpötila</object>
+      </resource>
+      <resource name="Velocity">
+        <object>Nopeus</object>
+      </resource>
+      <resource name="Weight">
+        <object>Paino</object>
+      </resource>
+      <resource name="WeightBig">
+        <object>PainoSuuri</object>
+      </resource>
+      <resource name="Pressure">
+        <object>Paine</object>
+      </resource>
+      <resource name="Power">
+        <object>Teho</object>
+      </resource>
+      <resource name="PowerBig">
+        <object>TehoSuuri</object>
+      </resource>
+      <resource name="TimeMinutes">
+        <object>Kertaa minuutissa</object>
+      </resource>
+      <resource name="TimeHour">
+        <object>Kertaa tunnissa</object>
+      </resource>
+      <resource name="Description">
+        <object>Kuvaus</object>
+      </resource>
+      <resource name="BitmaskDescription">
+        <object>Bittipeitteen kuvaus</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Monitoring.UI.Windows.Alarms.AddCodeDescriptionEntry" ServiceOnly="false">
+      <resource name="btnOk.Text">
+        <object>OK</object>
+      </resource>
+      <resource name="btnClose.Text">
+        <object>Sulje</object>
+      </resource>
+      <resource name="lblDesc.Text">
+        <object>Kuvaus</object>
+      </resource>
+      <resource name="lblCode.Text">
+        <object>Koodi</object>
+      </resource>
+      <resource name="lblEntryType.Text">
+        <object>Syötteen tyyppi</object>
+      </resource>
+      <resource name="item1">
+        <object>Koodi ja kuvaus</object>
+      </resource>
+      <resource name="item2">
+        <object>Kuvaus</object>
+      </resource>
+      <resource name="AddCodeDescriptionEntry.Text">
+        <object>Lisää syöte</object>
+      </resource>
+      <resource name="ErrorCaption">
+        <object>Virhe</object>
+      </resource>
+      <resource name="DescEmpty">
+        <object>Lisättävä kuvaus ei saa olla tyhjä</object>
+      </resource>
+      <resource name="CodeDescEmpty">
+        <object>Koodi ja/tai kuvaus ei saa olla tyhjä</object>
+      </resource>
+      <resource name="DuplicateMessage">
+        <object>Arvo(t) on jo olemassa</object>
+      </resource>
+      <resource name="ValueNotAddedMessage">
+        <object>Ilmeni virhe arvoa (arvoja) lisättäessä. Katso lokista tarkemmat tiedot.</object>
+      </resource>
+      <resource name="ValuesAddedMessage">
+        <object>Arvon (arvojen) lisäys onnistui</object>
+      </resource>
+      <resource name="SuccessCaption">
+        <object>Onnistui</object>
+      </resource>
+      <resource name="DuplicateCaption">
+        <object>Jäljennä</object>
+      </resource>
+    </type>
+  </industry>
+</resources>

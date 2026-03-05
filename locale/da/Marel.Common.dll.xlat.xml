@@ -1,0 +1,2425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="da">
+  <industry>
+    <type name="Marel.Common.Terminals.ScreenSystem" ServiceOnly="false">
+      <resource name="ShutdownMessage">
+        <object>- SYSTEM NEDLUKNING -</object>
+      </resource>
+      <resource name="MomentMessage">
+        <object>Et øjeblik...</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.ListScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Sel</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Back</object>
+      </resource>
+      <resource name="SortByCodeLegend">
+        <object>Code</object>
+      </resource>
+      <resource name="SortByNameLegend">
+        <object>Navn</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.FieldScreen" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Sel</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Back</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.DeviceStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ikke sat</object>
+      </resource>
+      <resource name="NoInterface">
+        <object>Intet interface</object>
+      </resource>
+      <resource name="NoRouter">
+        <object>Ingen router</object>
+      </resource>
+      <resource name="Offline">
+        <object>Off-line</object>
+      </resource>
+      <resource name="PresumedOnline">
+        <object>Formodet on-line</object>
+      </resource>
+      <resource name="Online">
+        <object>On-line</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Diagnostics.LogEntryType" ServiceOnly="false">
+      <resource name="Information">
+        <object>Information</object>
+      </resource>
+      <resource name="UsageLog">
+        <object>Brugs log</object>
+      </resource>
+      <resource name="Warning">
+        <object>Advarsel</object>
+      </resource>
+      <resource name="Error">
+        <object>Fejl</object>
+      </resource>
+      <resource name="Fatal">
+        <object>Fatal</object>
+      </resource>
+      <resource name="UnhandledException">
+        <object>Ubehandlet exception</object>
+      </resource>
+      <resource name="Trace">
+        <object>Trace</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Sockets.ConnectionStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ikke sat</object>
+      </resource>
+      <resource name="Idle">
+        <object>Idle</object>
+      </resource>
+      <resource name="Unconnected">
+        <object>Ikke forbundet</object>
+      </resource>
+      <resource name="Connecting">
+        <object>Forbindelse</object>
+      </resource>
+      <resource name="Connected">
+        <object>Forbundet</object>
+      </resource>
+      <resource name="Disconnected">
+        <object>Afbrudt</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmManagement" ServiceOnly="false">
+      <resource name="Units">
+        <object>Enheder</object>
+      </resource>
+      <resource name="Weight">
+        <object>Vægt</object>
+      </resource>
+      <resource name="Volume">
+        <object>Volume</object>
+      </resource>
+      <resource name="Length">
+        <object>Længde</object>
+      </resource>
+      <resource name="Percentage">
+        <object>%</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmProduct" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+      </resource>
+      <resource name="Units">
+        <object>Units</object>
+      </resource>
+      <resource name="Pieces">
+        <object>Pieces</object>
+      </resource>
+      <resource name="Feet">
+        <object>Feet</object>
+      </resource>
+      <resource name="Meters">
+        <object>Meters</object>
+      </resource>
+      <resource name="Liters">
+        <object>Liters</object>
+      </resource>
+      <resource name="UsLiquidGallons">
+        <object>US liq.gallons</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmSystem" ServiceOnly="false">
+      <resource name="Si">
+        <object>SI</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="European">
+        <object>European</object>
+      </resource>
+      <resource name="Imperial">
+        <object>Imperial</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmWeight" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Milligrams">
+        <object>mg</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="OunceEights">
+        <object>oz/8</object>
+        <localize>False</localize>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmLength" ServiceOnly="false">
+      <resource name="Meters">
+        <object>m</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Millimeters">
+        <object>mm</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Centimeters">
+        <object>cm</object>
+      </resource>
+      <resource name="Inches">
+        <object>inches</object>
+      </resource>
+      <resource name="Feet">
+        <object>feet</object>
+      </resource>
+      <resource name="Pixels">
+        <object>pixels</object>
+      </resource>
+      <resource name="Kilometers">
+        <object>kilometers</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.FormatSpecification" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ikke sat</object>
+      </resource>
+      <resource name="Point000001">
+        <object>0.000001</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point000002">
+        <object>0.000002</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point000005">
+        <object>0.000005</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point00001">
+        <object>0.00001</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point00002">
+        <object>0.00002</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point00005">
+        <object>0.00005</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point0001">
+        <object>0.0001</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point0002">
+        <object>0.0002</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point0005">
+        <object>0.0005</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point001">
+        <object>0.001</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point002">
+        <object>0.002</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point005">
+        <object>0.005</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point01">
+        <object>0.01</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point02">
+        <object>0.02</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point05">
+        <object>0.05</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point1">
+        <object>0.1</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point2">
+        <object>0.2</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Point5">
+        <object>0.5</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="N1">
+        <object>1</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="N2">
+        <object>2</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="N5">
+        <object>5</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="N10">
+        <object>10</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="N20">
+        <object>20</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="N50">
+        <object>50</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Max">
+        <object>Max</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.NominalMethod" ServiceOnly="false">
+      <resource name="AcceptAll">
+        <object>Catchweight, % giveaway</object>
+      </resource>
+      <resource name="FixWeightFg">
+        <object>Nominal, fixed giveaway</object>
+      </resource>
+      <resource name="FixWeightVg">
+        <object>Nominal, % giveaway</object>
+      </resource>
+      <resource name="FixWeightE">
+        <object>e, without giveaway</object>
+      </resource>
+      <resource name="FixWeightEFg">
+        <object>e,  fixed giveaway</object>
+      </resource>
+      <resource name="FixWeightEVg">
+        <object>e, % giveaway</object>
+      </resource>
+      <resource name="Range">
+        <object>Nominal range</object>
+      </resource>
+      <resource name="Step">
+        <object>Nominal steps</object>
+      </resource>
+      <resource name="Sorting">
+        <object>Sorting</object>
+      </resource>
+      <resource name="RelativeSorting">
+        <object>Relative sorting</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ikke sat</object>
+      </resource>
+      <resource name="Button">
+        <object>Button</object>
+      </resource>
+      <resource name="Preset">
+        <object>Preset</object>
+      </resource>
+      <resource name="Auto">
+        <object>Auto</object>
+      </resource>
+      <resource name="System">
+        <object>System</object>
+      </resource>
+      <resource name="Calculated">
+        <object>Calculated</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Gender" ServiceOnly="false">
+      <resource name="Female">
+        <object>Kvinde</object>
+      </resource>
+      <resource name="Male">
+        <object>Mand</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Ikke specificeret</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.AccuracyMode" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ikke sat</object>
+      </resource>
+      <resource name="Low">
+        <object>Lav</object>
+      </resource>
+      <resource name="Medium">
+        <object>Medium</object>
+      </resource>
+      <resource name="High">
+        <object>Høj</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.FlowUnit" ServiceOnly="false">
+      <resource name="Percentage">
+        <object>%</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>Pcs/min</object>
+      </resource>
+      <resource name="WeightPerHour">
+        <object>Wgt/hr</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Ikke sat</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.LaneSpecification" ServiceOnly="false">
+      <resource name="OneSide">
+        <object>En side</object>
+      </resource>
+      <resource name="TwoSide">
+        <object>To sider</object>
+      </resource>
+      <resource name="Lane1">
+        <object>Lane 1</object>
+      </resource>
+      <resource name="Lane2">
+        <object>Lane 2</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.RecordingMethod" ServiceOnly="false">
+      <resource name="Manual">
+        <object>Manual</object>
+      </resource>
+      <resource name="Auto">
+        <object>Automatisk</object>
+      </resource>
+      <resource name="Stable">
+        <object>Stabil</object>
+      </resource>
+      <resource name="RepeatedRising">
+        <object>Gentagen stigende</object>
+      </resource>
+      <resource name="RepeatedFalling">
+        <object>Gentagen Fallende</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Resources.Industry" ServiceOnly="false">
+      <resource name="Neutral">
+        <object>Industry neutral</object>
+      </resource>
+      <resource name="Fish">
+        <object>Fisk</object>
+      </resource>
+      <resource name="Meat">
+        <object>Kød</object>
+      </resource>
+      <resource name="Poultry">
+        <object>Fjerkræ</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTime" ServiceOnly="false">
+      <resource name="Seconds">
+        <object>sek</object>
+      </resource>
+      <resource name="Milliseconds">
+        <object>ms</object>
+      </resource>
+      <resource name="Minutes">
+        <object>min</object>
+      </resource>
+      <resource name="Hours">
+        <object>time</object>
+      </resource>
+      <resource name="Days">
+        <object>dag</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.UnitType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ikke sat</object>
+      </resource>
+      <resource name="Pack">
+        <object>Pakke</object>
+      </resource>
+      <resource name="Stack">
+        <object>Stak</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Palle</object>
+      </resource>
+      <resource name="Container">
+        <object>Beholder</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Shipment</object>
+      </resource>
+      <resource name="Item">
+        <object>Item</object>
+      </resource>
+      <resource name="GraderPiece">
+        <object>Piece</object>
+      </resource>
+      <resource name="Individual">
+        <object>Animal</object>
+      </resource>
+      <resource name="TrimPiece">
+        <object>Trimming</object>
+      </resource>
+      <resource name="CollectionMix">
+        <object>Mixed units</object>
+      </resource>
+      <resource name="MaterialTransaction">
+        <object>Product</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.AppRecordType" ServiceOnly="false">
+      <resource name="Generic">
+        <object>Ikke specificeret</object>
+      </resource>
+      <resource name="Input">
+        <object>Generel input</object>
+      </resource>
+      <resource name="Output">
+        <object>Generel output</object>
+      </resource>
+      <resource name="TrimInput">
+        <object>Trim input</object>
+      </resource>
+      <resource name="TrimOutput">
+        <object>Trim output</object>
+      </resource>
+      <resource name="BypassInput">
+        <object>Bypass input</object>
+      </resource>
+      <resource name="BypassOutput">
+        <object>Bypass output</object>
+      </resource>
+      <resource name="TrimUnknown">
+        <object>Trimm ukendt</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.TareType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ikke sat</object>
+      </resource>
+      <resource name="Button">
+        <object>Button</object>
+      </resource>
+      <resource name="Preset">
+        <object>Preset</object>
+      </resource>
+      <resource name="Auto">
+        <object>Automatic</object>
+      </resource>
+      <resource name="System">
+        <object>System</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.BatchingMode" ServiceOnly="false">
+      <resource name="None">
+        <object>Ingen</object>
+      </resource>
+      <resource name="Weight">
+        <object>By weight</object>
+      </resource>
+      <resource name="IntelligentWeight">
+        <object>Intelligent by weight</object>
+      </resource>
+      <resource name="Count">
+        <object>By count</object>
+      </resource>
+      <resource name="Slave">
+        <object>Slave</object>
+      </resource>
+      <resource name="MultiTarget">
+        <object>Multi target</object>
+      </resource>
+      <resource name="MeanWeight">
+        <object>Mean weight</object>
+      </resource>
+      <resource name="Rate">
+        <object>Rate</object>
+      </resource>
+      <resource name="RateAndAverage">
+        <object>Rate average</object>
+      </resource>
+      <resource name="Share">
+        <object>Share</object>
+      </resource>
+      <resource name="FillRate">
+        <object>Fill rate</object>
+      </resource>
+      <resource name="Weight2nd">
+        <object>By weight, 2nd</object>
+      </resource>
+      <resource name="IntelligentWeight2nd">
+        <object>Intelligent by weight, 2nd</object>
+      </resource>
+      <resource name="Count2nd">
+        <object>By count, 2nd</object>
+      </resource>
+      <resource name="MeanWeight2nd">
+        <object>Mean weight, 2nd</object>
+      </resource>
+      <resource name="NotSet">
+        <object>Ikke sat</object>
+      </resource>
+      <resource name="CLBatching">
+        <object>CL Batching</object>
+      </resource>
+			<resource name="ComboCount">
+				<object>Combo</object>
+			</resource>
+    </type>
+    <type name="Marel.Common.Constants.RejectLevel" ServiceOnly="false">
+      <resource name="None">
+        <object>Ingen afvisning</object>
+      </resource>
+      <resource name="Lowest">
+        <object>Laveste</object>
+      </resource>
+      <resource name="Low">
+        <object>Lav</object>
+      </resource>
+      <resource name="Medium">
+        <object>Medium</object>
+      </resource>
+      <resource name="High">
+        <object>Høj</object>
+      </resource>
+      <resource name="Highest">
+        <object>Højest</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.GeneralMessage" ServiceOnly="false">
+      <resource name="EnterKeyText">
+        <object>Sel</object>
+      </resource>
+      <resource name="ExitKeyText">
+        <object>Exit</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.SelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Select item</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Terminals.WSelectItem" ServiceOnly="false">
+      <resource name="ScreenCaption">
+        <object>Select item</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Utilities.ParamDataType" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ikke sat</object>
+      </resource>
+      <resource name="Bool">
+        <object>Boolean</object>
+      </resource>
+      <resource name="Int">
+        <object>Integer</object>
+      </resource>
+      <resource name="Float">
+        <object>Float</object>
+      </resource>
+      <resource name="String">
+        <object>String</object>
+      </resource>
+      <resource name="Enum">
+        <object>Enumeration</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmTare" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Percentage">
+        <object>%</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.IdContainerStatus" ServiceOnly="false">
+      <resource name="NotFound">
+        <object>Ikke fundet</object>
+      </resource>
+      <resource name="NoId">
+        <object>Ingen id</object>
+      </resource>
+      <resource name="Ok">
+        <object>Ok</object>
+      </resource>
+      <resource name="Invalid">
+        <object>Invalid</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>Ingen vægt</object>
+      </resource>
+      <resource name="Exception">
+        <object>Exception</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.M3000PieceStatus" ServiceOnly="false">
+      <resource name="Accepted">
+        <object>Item accepted</object>
+      </resource>
+      <resource name="TooLong">
+        <object>Item too long</object>
+      </resource>
+      <resource name="BadZero">
+        <object>Bad zero while weighing item</object>
+      </resource>
+      <resource name="Unstable">
+        <object>Unstable weighing</object>
+      </resource>
+      <resource name="UnderWeight">
+        <object>Item is too light</object>
+      </resource>
+      <resource name="OverWeight">
+        <object>Item is too heavy</object>
+      </resource>
+      <resource name="Previous">
+        <object>Grader busy on previous item</object>
+      </resource>
+      <resource name="BadRead">
+        <object>Low number of measurements</object>
+      </resource>
+      <resource name="MarginalRead">
+        <object>Marginal number of measurements</object>
+      </resource>
+      <resource name="GoodRead">
+        <object>Adequate number of measurements</object>
+      </resource>
+      <resource name="NotUsed">
+        <object>Item did not fit any criteria</object>
+      </resource>
+      <resource name="Blocked">
+        <object>All relevant gates blocked</object>
+      </resource>
+      <resource name="IntelligentReject">
+        <object>Intelligent batching reject</object>
+      </resource>
+      <resource name="FormMissing">
+        <object>Specific form missing</object>
+      </resource>
+      <resource name="TooClose">
+        <object>Item too close to previous item</object>
+      </resource>
+      <resource name="NoWeight">
+        <object>No weight on item</object>
+      </resource>
+      <resource name="NoGate">
+        <object>No gate assigned to product</object>
+      </resource>
+      <resource name="Missing">
+        <object>Item missing in action</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>No order is active</object>
+      </resource>
+      <resource name="TypeBlock">
+        <object>No room for piece type</object>
+      </resource>
+      <resource name="RateReject">
+        <object>Rate algorithm rejected the item</object>
+      </resource>
+      <resource name="CheckTooLight">
+        <object>Too light</object>
+      </resource>
+      <resource name="CheckTooLight2xTNE">
+        <object>Item just too ligth</object>
+      </resource>
+      <resource name="CheckTooHeavy">
+        <object>Too heavy</object>
+      </resource>
+      <resource name="CheckTNE">
+        <object>Rejected within TNE</object>
+      </resource>
+      <resource name="CheckNoGate">
+        <object>No reject gate found</object>
+      </resource>
+      <resource name="ExtremelyLong">
+        <object>Piece is extremely long</object>
+      </resource>
+      <resource name="LengthOnly">
+        <object>Piece has only length attribute</object>
+      </resource>
+      <resource name="NoResultError">
+        <object>No weight quality received from CWU</object>
+      </resource>
+      <resource name="TooShort">
+        <object>Item is too short</object>
+      </resource>
+      <resource name="NoBatchNoGate">
+        <object>No batch, can't start new order</object>
+      </resource>
+      <resource name="RateNoGate">
+        <object>Rate reject, can't start new order</object>
+      </resource>
+      <resource name="BlockedNoGate">
+        <object>Batch blocked, can't start new order</object>
+      </resource>
+      <resource name="RejectToFewGates">
+        <object>To few gates available</object>
+      </resource>
+      <resource name="FillRateNoGate">
+        <object>Fill rate reject</object>
+      </resource>
+      <resource name="NoMasterConnection">
+        <object>No connection to master grader</object>
+      </resource>
+      <resource name="NoProgramActive">
+        <object>No grading program active</object>
+      </resource>
+      <resource name="InnovaCommunicating">
+        <object>Innova communicating with grader</object>
+      </resource>
+      <resource name="InvalidPrebatch">
+        <object>Invalid CL piece</object>
+      </resource>
+      <resource name="Contaminant">
+        <object>Contaminant</object>
+      </resource>
+      <resource name="RejectTooFat">
+        <object>Piece too fat</object>
+      </resource>
+      <resource name="RejectTooLean">
+        <object>Piece too lean</object>
+      </resource>
+      <resource name="RejectTooFatAndLean">
+        <object>Piece too fat and lean</object>
+      </resource>
+      <resource name="RejectGateClosed">
+        <object>Gate closed</object>
+      </resource>
+      <resource name="RejectTooHeavy">
+        <object>Piece too heavy</object>
+      </resource>
+      <resource name="RejectTooThick">
+        <object>Piece too thick</object>
+      </resource>
+      <resource name="TrackMissing">
+        <object>Tracking lost</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.SV4700PieceStatus" ServiceOnly="false">
+      <resource name="NoError">
+        <object>Item is not rejected</object>
+      </resource>
+      <resource name="ItemRejected">
+        <object>Item afvist</object>
+      </resource>
+      <resource name="MetalItem">
+        <object>Metal Item</object>
+      </resource>
+      <resource name="SeparatorSpaceError">
+        <object>For lidt plads for ejector</object>
+      </resource>
+      <resource name="NoReachableBinError">
+        <object>Ingen tilgængelig bin</object>
+      </resource>
+      <resource name="JobNotFound">
+        <object>Job ikke fundet</object>
+      </resource>
+      <resource name="ItemTypeNotFound">
+        <object>Item type ikke fundet</object>
+      </resource>
+      <resource name="WeighingError">
+        <object>Veje fejl</object>
+      </resource>
+      <resource name="NoVisionData">
+        <object>Ingen vision data</object>
+      </resource>
+      <resource name="GradeNotFound">
+        <object>Grade not found</object>
+      </resource>
+      <resource name="VisionConditionFail">
+        <object>Vision betingelse fejlede</object>
+      </resource>
+      <resource name="BinNotFound">
+        <object>Ingen frie positioner</object>
+      </resource>
+      <resource name="RateControlError">
+        <object>>Ingen frie positioner, Rate control</object>
+      </resource>
+      <resource name="NoOrder">
+        <object>Ingen ordre</object>
+      </resource>
+      <resource name="VisionDetectionError">
+        <object>Vision resultat mangler</object>
+      </resource>
+      <resource name="RobotReadyError">
+        <object>Robot ikke klar</object>
+      </resource>
+      <resource name="RobotCapacityError">
+        <object>Robotkapacitet overskredet</object>
+      </resource>
+      <resource name="SeparatorGapError">
+        <object>Mellemrum for lille for udkaster</object>
+      </resource>
+      <resource name="StatisticalAllotmentTooBad">
+        <object>Statistisk tildeling for dårlig</object>
+      </resource>
+      <resource name="OutsideLimitsError">
+        <object>Udenfor grænser</object>
+      </resource>
+      <resource name="PropertyMissingError">
+        <object>Property mangler</object>
+      </resource>
+      <resource name="OtherRejects">
+        <object>Andre rejects</object>
+      </resource>
+      <resource name="SkippedByRobot">
+        <object>Skipped by robot</object>
+      </resource>
+      <resource name="PortionWeighingError">
+        <object>Portions vægt fejl</object>
+      </resource>
+      <resource name="QualityNotFound">
+        <object>Quality ikke fundet</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmFlowrate" ServiceOnly="false">
+      <resource name="KilogramsPerSecond">
+        <object>Kilograms per second</object>
+      </resource>
+      <resource name="TonsPerHour">
+        <object>Tons per hour</object>
+      </resource>
+      <resource name="PoundsPerHour">
+        <object>Pounds per hour</object>
+      </resource>
+      <resource name="KilogramsPerMinute">
+        <object>Kilograms per minute</object>
+      </resource>
+      <resource name="KilogramsPerHour">
+        <object>Kilograms per hour</object>
+      </resource>
+      <resource name="PoundsPerSecond">
+        <object>Pounds per second</object>
+      </resource>
+      <resource name="PoundsPerMinute">
+        <object>Pounds per minute</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>Pieces per minute</object>
+      </resource>
+      <resource name="PiecesPerHour">
+        <object>Pieces per hour</object>
+      </resource>
+    </type>
+	  <type name="Marel.Common.Units.UmFlowrateShort" ServiceOnly="false">
+		  <resource name="KilogramsPerSecond">
+			  <object>kg/sec</object>
+		  </resource>
+		  <resource name="TonsPerHour">
+			  <object>tons/hour</object>
+		  </resource>
+		  <resource name="PoundsPerHour">
+			  <object>lb/hour</object>
+		  </resource>
+		  <resource name="KilogramsPerMinute">
+			  <object>kg/min</object>
+		  </resource>
+		  <resource name="KilogramsPerHour">
+			  <object>kg/hour</object>
+		  </resource>
+		  <resource name="PoundsPerSecond">
+			  <object>lb/sec</object>
+		  </resource>
+		  <resource name="PoundsPerMinute">
+			  <object>lb/min</object>
+		  </resource>
+		  <resource name="PiecesPerMinute">
+			  <object>pcs/min</object>
+		  </resource>
+		  <resource name="PiecesPerHour">
+			  <object>pcs/hour</object>
+		  </resource>
+	  </type>
+    <type name="Marel.Common.Devices.RfidStatus" ServiceOnly="false">
+      <resource name="NotSet">
+        <object>Ikke sat</object>
+      </resource>
+      <resource name="GoodRead">
+        <object>OK</object>
+      </resource>
+      <resource name="NoRead">
+        <object>No Read</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeeStdStopReason" ServiceOnly="false">
+      <resource name="Device offline">
+        <object>Device offline</object>
+      </resource>
+      <resource name="Line restraint in">
+        <object>Line restraint in</object>
+      </resource>
+      <resource name="Line restraint out">
+        <object>Line restraint out</object>
+      </resource>
+      <resource name="Waiting for staff">
+        <object>Waiting for staff</object>
+      </resource>
+      <resource name="BreakScheduled">
+        <object>Scheduled break</object>
+      </resource>
+      <resource name="Setup">
+        <object>Setup</object>
+      </resource>
+      <resource name="Waiting for material">
+        <object>Waiting for material</object>
+      </resource>
+      <resource name="Waiting for tech staff">
+        <object>Waiting for tech staff</object>
+      </resource>
+      <resource name="No production">
+        <object>No production</object>
+      </resource>
+      <resource name="Testing">
+        <object>Testing</object>
+      </resource>
+      <resource name="Maintenance">
+        <object>Maintenance</object>
+      </resource>
+      <resource name="TAP device offline">
+        <object>TAP Device offline</object>
+      </resource>
+      <resource name="General">
+        <object>General</object>
+      </resource>
+      <resource name="Idle break">
+        <object>Idle break</object>
+      </resource>
+      <resource name="Start up">
+        <object>Startup</object>
+      </resource>
+      <resource name="Emergency stop">
+        <object>Emergeny stop</object>
+      </resource>
+      <resource name="Flock change">
+        <object>Flock change</object>
+      </resource>
+      <resource name="Line stopped">
+        <object>Line stopped</object>
+      </resource>
+      <resource name="OEE plugin not started">
+        <object>OEE plugin not started</object>
+      </resource>
+      <resource name="No orders">
+        <object>No orders</object>
+      </resource>
+      <resource name="Scheduled break">
+        <object>Scheduled break</object>
+      </resource>
+      <resource name="Generic failure">
+        <object>Generic failure</object>
+      </resource>
+      <resource name="No products available">
+        <object>No products available</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeeStatus" ServiceOnly="false">
+      <resource name="NotScheduled">
+        <object>Not scheduled</object>
+      </resource>
+      <resource name="Unscheduled">
+        <object>Unscheduled</object>
+      </resource>
+      <resource name="LineRestraint">
+        <object>Line restraint</object>
+      </resource>
+      <resource name="Idle">
+        <object>Idle</object>
+      </resource>
+      <resource name="Failure">
+        <object>Failure</object>
+      </resource>
+      <resource name="Running">
+        <object>Running</object>
+      </resource>
+      <resource name="Unknown">
+        <object>Unknown</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeeFigure" ServiceOnly="false">
+      <resource name="OEE">
+        <object>OEE</object>
+      </resource>
+      <resource name="Availability">
+        <object>Availability</object>
+      </resource>
+      <resource name="Performance">
+        <object>Performance</object>
+      </resource>
+      <resource name="Quality">
+        <object>Quality</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeePerformanceReasonType" ServiceOnly="false">
+      <resource name="SpeedLoss">
+        <object>Speed loss</object>
+      </resource>
+      <resource name="ProductLoss">
+        <object>Product loss</object>
+      </resource>
+      <resource name="Unknown">
+        <object>Unknown</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeeQualityReasonType" ServiceOnly="false">
+      <resource name="Scrap">
+        <object>Scrap</object>
+      </resource>
+      <resource name="Rework">
+        <object>Rework</object>
+      </resource>
+      <resource name="InProcessDamage">
+        <object>In-process damage</object>
+      </resource>
+      <resource name="InProcessExpiration">
+        <object>In-process expiration</object>
+      </resource>
+      <resource name="DeficientProcessing">
+        <object>Deficient processing</object>
+      </resource>
+      <resource name="Unknown">
+        <object>Unknown</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeePerformanceReasons" ServiceOnly="false">
+      <resource name="Unknown loss">
+        <object>Unknown loss</object>
+      </resource>
+      <resource name="Line speed">
+        <object>Line speed</object>
+      </resource>
+      <resource name="Hang in loss">
+        <object>Hang in loss</object>
+      </resource>
+      <resource name="Plucker loss">
+        <object>Plucker loss</object>
+      </resource>
+      <resource name="Processing loss">
+        <object>Processing loss</object>
+      </resource>
+      <resource name="Packs not transferred">
+        <object>Packs not transferred</object>
+      </resource>
+      <resource name="PGI loss">
+        <object>PGI loss</object>
+      </resource>
+      <resource name="High product temperature">
+        <object>High product temperature</object>
+      </resource>
+      <resource name="Rehang loss">
+        <object>Rehang loss</object>
+      </resource>
+      <resource name="Bad flock">
+        <object>Bad flock</object>
+      </resource>
+      <resource name="Heavy products">
+        <object>Heavy products</object>
+      </resource>
+      <resource name="Rehang loss TRDE">
+        <object>Rehang loss TRDE</object>
+      </resource>
+      <resource name="Rehang loss TREC">
+        <object>Rehang loss TREC</object>
+      </resource>
+      <resource name="Rehang loss Evisceration">
+        <object>Rehang loss Evisceration</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.OeeQualityReasons" ServiceOnly="false">
+      <resource name="Unknown loss">
+        <object>Unknown loss</object>
+      </resource>
+      <resource name="Scalding damage">
+        <object>Scalding damage</object>
+      </resource>
+      <resource name="No scalding">
+        <object>No scalding</object>
+      </resource>
+      <resource name="No electro stimulation">
+        <object>No electro stimulation</object>
+      </resource>
+      <resource name="Short electro stimulation">
+        <object>Short electro stimulation</object>
+      </resource>
+      <resource name="No neck skin cutting">
+        <object>No neck skin cutting</object>
+      </resource>
+      <resource name="Veterinarian downgrade">
+        <object>Veterinarian downgrade</object>
+      </resource>
+      <resource name="No vent cutting vacuum">
+        <object>No vent cutting vacuum</object>
+      </resource>
+      <resource name="No final inspection vacuum">
+        <object>No final inspection vacuum</object>
+      </resource>
+      <resource name="CropperNotCleaned">
+        <object>Cropper not cleaned</object>
+      </resource>
+      <resource name="Visual defects">
+        <object>Visual defects</object>
+      </resource>
+      <resource name="One legged product">
+        <object>One legged product</object>
+      </resource>
+      <resource name="No gall bladder removing vacuum">
+        <object>No gall bladder removing vacuum</object>
+      </resource>
+      <resource name="No gizzard peeling">
+        <object>No gizzard peeling</object>
+      </resource>
+      <resource name="No heart lung separation">
+        <object>No heart-lung separation</object>
+      </resource>
+      <resource name="One legged plucker">
+        <object>One legged plucker</object>
+      </resource>
+      <resource name="One legged TRDE">
+        <object>One legged TRDE</object>
+      </resource>
+      <resource name="One legged TREC">
+        <object>One legged TREC</object>
+      </resource>
+      <resource name="One legged TRCS">
+        <object>One legged TRCS</object>
+      </resource>
+      <resource name="One legged Hang in">
+        <object>One legged Hang in</object>
+      </resource>
+      <resource name="No weight received">
+        <object>No weight received</object>
+      </resource>
+      <resource name="Product not assigned">
+        <object>Product not assigned</object>
+      </resource>
+      <resource name="Dropstation failure">
+        <object>Dropstation failure</object>
+      </resource>
+      <resource name="One legged drop">
+        <object>One legged drop</object>
+      </resource>
+      <resource name="Dropped at lineclearer">
+        <object>Dropped at lineclearer</object>
+      </resource>
+      <resource name="Dropped at TRCS">
+        <object>Dropped at TRCS</object>
+      </resource>
+      <resource name="No drop due to ACM">
+        <object>No drop due to ACM</object>
+      </resource>
+      <resource name="No drop due to remote stop">
+        <object>No drop due to remote stop</object>
+      </resource>
+      <resource name="Processing loss">
+        <object>Processing loss</object>
+      </resource>
+      <resource name="Dropped at TRDE">
+        <object>Dropped at TRDE</object>
+      </resource>
+      <resource name="Dropped at TREC">
+        <object>Dropped at TREC</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmRecordProduct" ServiceOnly="false">
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lb</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Milligrams">
+        <object>mg</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Tons">
+        <object>t</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="OunceEights">
+        <object>oz/8</object>
+        <localize>False</localize>
+      </resource>
+      <resource name="Units">
+        <object>Units</object>
+      </resource>
+      <resource name="Pieces">
+        <object>Pieces</object>
+      </resource>
+      <resource name="Feet">
+        <object>Feet</object>
+      </resource>
+      <resource name="Meters">
+        <object>Meters</object>
+      </resource>
+      <resource name="Liters">
+        <object>Liters</object>
+      </resource>
+      <resource name="UsLiquidGallons">
+        <object>US liq.gallons</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Units.UmVolume" ServiceOnly="false">
+      <resource name="CubicMeters">
+        <object>Cubic meters</object>
+      </resource>
+      <resource name="Milliliters">
+        <object>Milliliters</object>
+      </resource>
+      <resource name="CubicFeet">
+        <object>Cubic feet</object>
+      </resource>
+      <resource name="Liters">
+        <object>Liters</object>
+      </resource>
+      <resource name="UsLiquidGallons">
+        <object>US liq.gallons</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Database.Migration.MigrationResult" ServiceOnly="false">
+      <resource name="Ok">
+        <object>is OK</object>
+      </resource>
+      <resource name="NoMigrationAttribute">
+        <object>has no migration attribute</object>
+      </resource>
+      <resource name="NotInSchema">
+        <object>does not exist in the schema</object>
+      </resource>
+      <resource name="NotInDatabase">
+        <object>does not exists in the database</object>
+      </resource>
+      <resource name="AlreadyInSchema">
+        <object>is already defined in the schema</object>
+      </resource>
+      <resource name="AlreadyInDatabase">
+        <object>is already in the database</object>
+      </resource>
+      <resource name="InvalidDefinition">
+        <object>has invalid definition</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Exceptions.RemoteResult" ServiceOnly="false">
+      <resource name="NotSupported">
+        <object>Operation not supported.</object>
+      </resource>
+      <resource name="Exception">
+        <object>Server communication error.</object>
+      </resource>
+      <resource name="InitError">
+        <object>Error during initialization of remote connection.</object>
+      </resource>
+      <resource name="RemoteFailed">
+        <object>Remote call to server failed.</object>
+      </resource>
+      <resource name="NoStationManager">
+        <object>Failed to get manager.</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Failed to find server.</object>
+      </resource>
+      <resource name="HostException">
+        <object>Error in host.</object>
+      </resource>
+      <resource name="Timeout">
+        <object>Timeout</object>
+      </resource>
+      <resource name="CommandError">
+        <object>Command error</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.DelfordCheckweigher" ServiceOnly="false">
+      <resource name="ChangePrgTest">
+        <object>Change to test program. Might be because CW is not in the correct state</object>
+      </resource>
+      <resource name="UnknownCmd">
+        <object>Unknown command: </object>
+      </resource>
+      <resource name="DeleteProgram">
+        <object>Delete program (Can't delete active program): </object>
+      </resource>
+      <resource name="ChangePrg">
+        <object>Change to program {0}. Might be because CW is not in the correct state</object>
+      </resource>
+      <resource name="CreateProgramEcheck">
+        <object>Create Echeck program {0} with {1} channels (Can't update active program)</object>
+      </resource>
+      <resource name="CreateProgramMin">
+        <object>Create Minumum program {0} with {1} channels (Can't update active program)</object>
+      </resource>
+      <resource name="Target">
+        <object>target weight=</object>
+      </resource>
+      <resource name="Tare">
+        <object>tare=</object>
+      </resource>
+      <resource name="HighLimit">
+        <object>high limit=</object>
+      </resource>
+      <resource name="T1">
+        <object>T1=</object>
+      </resource>
+      <resource name="LowLimit">
+        <object>low limit (T2)=</object>
+      </resource>
+      <resource name="MinLimit">
+        <object>min limit=</object>
+      </resource>
+      <resource name="MaxLimit">
+        <object>max limit=</object>
+      </resource>
+      <resource name="OutMetalPecPack">
+        <object>metalreject PEC pack timeout=</object>
+      </resource>
+      <resource name="OutMetalPecFull">
+        <object>metalreject PEC full timeout=</object>
+      </resource>
+      <resource name="RuleSample">
+        <object>sample batchsize=</object>
+      </resource>
+      <resource name="DistrGraph">
+        <object>distribution graph</object>
+      </resource>
+      <resource name="UpdPrg">
+        <object>update program {0} at setting {1}</object>
+      </resource>
+      <resource name="ReqStatus">
+        <object>Request machine status</object>
+      </resource>
+      <resource name="CommandFailed">
+        <object>Failed to {0}</object>
+      </resource>
+      <resource name="ReqPrgName">
+        <object>Request program name: </object>
+      </resource>
+      <resource name="ReqPrgField">
+        <object>Request program {0} field {1}</object>
+      </resource>
+      <resource name="Offline">
+        <object>Device is offline</object>
+      </resource>
+      <resource name="WarnR51">
+        <object>If R51 mode weighing range must be atleast 75% and 125% of nominal</object>
+      </resource>
+      <resource name="IllegalWeights">
+        <object>one or more of the weight limits.</object>
+      </resource>
+      <resource name="WeighingRangeMin">
+        <object>weighing range min=</object>
+      </resource>
+      <resource name="WeighingRangeMax">
+        <object>weighing range max=</object>
+      </resource>
+      <resource name="InvalidGates">
+        <object>one or more of the output gates</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.EanAI" ServiceOnly="true">
+      <resource name="NotSet">
+        <object>Ikke sat</object>
+      </resource>
+      <resource name="SSCC">
+        <object>Serial Shipping Container Code (SSCC)</object>
+      </resource>
+      <resource name="GTIN">
+        <object>Global Trade Item Number (GTIN), EAN product number</object>
+      </resource>
+      <resource name="ContainedGTIN">
+        <object>GTIN of trade items contained in a logistic unit</object>
+      </resource>
+      <resource name="Batch">
+        <object>Batch or Lot Number</object>
+      </resource>
+      <resource name="ProductionDate">
+        <object>Production Date (YYMMDD)</object>
+      </resource>
+      <resource name="DueDate">
+        <object>Due Date for amount on payment slip. Date by which an invoice should be paid(YYMMDD)</object>
+      </resource>
+      <resource name="PackagingDate">
+        <object>Packaging Date (YYMMDD)</object>
+      </resource>
+      <resource name="MinDurability">
+        <object>Minimum Durability Date (YYMMDD)</object>
+      </resource>
+      <resource name="BestBeforeDate">
+        <object>Best before date a.k.a. Sell By Date (YYMMDD). Product should be sold before this date.</object>
+      </resource>
+      <resource name="MaxDurability">
+        <object>Maximum Durability Date (YYMMDD)</object>
+      </resource>
+      <resource name="ExpirationDate">
+        <object>Expiration date (YYMMDD). See also AI 15. Product should be used/consumed before this date.</object>
+      </resource>
+      <resource name="ProductVariant">
+        <object>Product Variant</object>
+      </resource>
+      <resource name="SerialNumber">
+        <object>Serial Number</object>
+      </resource>
+      <resource name="SecondaryHealthData">
+        <object>Secondary Data For Specific Health Industry Products</object>
+      </resource>
+      <resource name="LotNumber0">
+        <object>Lot Number, 1 digit, obsolete</object>
+      </resource>
+      <resource name="LotNumber1">
+        <object>Lot Number, 3 digits, obsolete</object>
+      </resource>
+      <resource name="LotNumber2">
+        <object>Lot Number, 5 digits, obsolete</object>
+      </resource>
+      <resource name="LotNumber3">
+        <object>Lot Number, 7 digits, obsolete</object>
+      </resource>
+      <resource name="LotNumber4">
+        <object>Lot Number, 9 digits, obsolete</object>
+      </resource>
+      <resource name="LotNumber5">
+        <object>Lot Number, 11 digits, obsolete</object>
+      </resource>
+      <resource name="LotNumber6">
+        <object>Lot Number, 13 digits, obsolete</object>
+      </resource>
+      <resource name="LotNumber7">
+        <object>Lot Number, 15 digits, obsolete</object>
+      </resource>
+      <resource name="LotNumber8">
+        <object>Lot Number, 17 digits, obsolete</object>
+      </resource>
+      <resource name="LotNumber9">
+        <object>Lot Number, 19 digits, obsolete</object>
+      </resource>
+      <resource name="AdditionalProductId">
+        <object>Additional Product Identification Assigned by The Manufacturer</object>
+      </resource>
+      <resource name="CustomerPartNumber">
+        <object>Customer Part Number</object>
+      </resource>
+      <resource name="MadeToOrderVarNumber">
+        <object>Made to order variation number</object>
+      </resource>
+      <resource name="SecondarySerialNumber">
+        <object>Secondary Serial Number</object>
+      </resource>
+      <resource name="ReferenceToSourceIdentity">
+        <object>Reference to source identity</object>
+      </resource>
+      <resource name="GlnExtension">
+        <object>GLN extension component</object>
+      </resource>
+      <resource name="VariableCount">
+        <object>Variable Count</object>
+      </resource>
+      <resource name="ProductNetKg">
+        <object>Product net weight in kilos, 4th AI digit is decimal point position</object>
+      </resource>
+      <resource name="ProductLengthM">
+        <object>Product Length/1st Dimension (Meters)</object>
+      </resource>
+      <resource name="ProductWidthM">
+        <object>Product Width/Diameter/2nd Dimension (Meters)</object>
+      </resource>
+      <resource name="ProductDepthM">
+        <object>Product Depth/Thickness/3rd Dimension (Meters)</object>
+      </resource>
+      <resource name="ProductAreaSqM">
+        <object>Product Area (Square Meters)</object>
+      </resource>
+      <resource name="ProductVolumeL">
+        <object>Product Volume (Liters)</object>
+      </resource>
+      <resource name="ProductVolumeCubicM">
+        <object>Product Volume (Cubic Meters)</object>
+      </resource>
+      <resource name="ProductNetLbs">
+        <object>Product Net Weight (Pounds)</object>
+      </resource>
+      <resource name="ProductLengthI">
+        <object>Product Length/1st Dimension (Inches)</object>
+      </resource>
+      <resource name="ProductLengthF">
+        <object>Product Length/1st Dimension (Feet)</object>
+      </resource>
+      <resource name="ProductLengthY">
+        <object>Product Length/1st Dimension in (Yards)</object>
+      </resource>
+      <resource name="ProductWidthI">
+        <object>Product Width/Diamater/2nd Dimension (Inches)</object>
+      </resource>
+      <resource name="ProductWidthF">
+        <object>Product Width/Diameter/2nd Dimension (Feet)</object>
+      </resource>
+      <resource name="ProductWidthY">
+        <object>Product Width/Diameter/2nd Dimension (Yards)</object>
+      </resource>
+      <resource name="ProductDepthI">
+        <object>Product Depth/Thickness/Height/3rd Dimension (Inches)</object>
+      </resource>
+      <resource name="ProductDepthF">
+        <object>Product Depth/Thickness/Height/3rd Dimension (Feet)</object>
+      </resource>
+      <resource name="ProductDepthY">
+        <object>Product Depth/Thickness/Height/3rd Dimension (Yards)</object>
+      </resource>
+      <resource name="ContainerGrossKg">
+        <object>Container Gross Weight (Kg)</object>
+      </resource>
+      <resource name="ContainerLengthM">
+        <object>Container Length/1st Dimension (Meters)</object>
+      </resource>
+      <resource name="ContainerWidthM">
+        <object>Container Width/Diameter/2nd Dimension (Meters)</object>
+      </resource>
+      <resource name="ContainerDepthM">
+        <object>Container Depth/Thickness/3rd Dimension (Meters)</object>
+      </resource>
+      <resource name="ContainerAreaM">
+        <object>Container Area (Square Meters)</object>
+      </resource>
+      <resource name="ContainerVolumeL">
+        <object>Container Gross Volume (Liters)</object>
+      </resource>
+      <resource name="ContainerVolumeCubicM">
+        <object>Container Gross Volume (Cubic Meters)</object>
+      </resource>
+      <resource name="ContainerGrossLbs">
+        <object>Container Gross Weight (Pounds)</object>
+      </resource>
+      <resource name="ContainerLengthI">
+        <object>Container Length/1st Dimension (Inches)</object>
+      </resource>
+      <resource name="ContainerLengthF">
+        <object>Container Length/1st Dimension (Feet)</object>
+      </resource>
+      <resource name="ContainerLengthY">
+        <object>Container Length/1st Dimension in (Yards)</object>
+      </resource>
+      <resource name="ContainerWidthI">
+        <object>Container Width/Diamater/2nd Dimension (Inches)</object>
+      </resource>
+      <resource name="ContainerWidthF">
+        <object>Container Width/Diameter/2nd Dimension (Feet)</object>
+      </resource>
+      <resource name="ContainerWidthY">
+        <object>Container Width/Diameter/2nd Dimension (Yards)</object>
+      </resource>
+      <resource name="ContainerDepthI">
+        <object>Container Depth/Thickness/Height/3rd Dimension (Inches)</object>
+      </resource>
+      <resource name="ContainerDepthF">
+        <object>Container Depth/Thickness/Height/3rd Dimension (Feet)</object>
+      </resource>
+      <resource name="ContainerDepthY">
+        <object>Container Depth/Thickness/Height/3rd Dimension (Yards)</object>
+      </resource>
+      <resource name="ProductAreaSqI">
+        <object>Product Area (Square Inches)</object>
+      </resource>
+      <resource name="ProductAreaSqF">
+        <object>Product Area (Square Feet)</object>
+      </resource>
+      <resource name="ProductAreaSqY">
+        <object>Product Area (Square Yards)</object>
+      </resource>
+      <resource name="ContainerAreaSqI">
+        <object>Container Area (Square Inches)</object>
+      </resource>
+      <resource name="ContainerAreaSqF">
+        <object>Container Area (Square Feet)</object>
+      </resource>
+      <resource name="ContainerAreaSqY">
+        <object>Container Area (Suqare Yards)</object>
+      </resource>
+      <resource name="NetWeightOunces">
+        <object>Net Weight (Troy Ounces)</object>
+      </resource>
+      <resource name="ProductVolumeQuarts">
+        <object>Product Volume (Quarts)</object>
+      </resource>
+      <resource name="ProductVolumeGallons">
+        <object>Product Volume (Gallons)</object>
+      </resource>
+      <resource name="ContainerVolumeQuarts">
+        <object>Container Gross Volume (Quarts)</object>
+      </resource>
+      <resource name="ContainerVolumeGallons">
+        <object>Container Gross Volume (Gallons)</object>
+      </resource>
+      <resource name="ProductVolumeCubicI">
+        <object>Product Volume (Cubic Inches)</object>
+      </resource>
+      <resource name="ProductVolumeCubicF">
+        <object>Product Volume (Cubic Feet)</object>
+      </resource>
+      <resource name="ProductVolumeCubicY">
+        <object>Product Volume (Cubic Yards)</object>
+      </resource>
+      <resource name="ContainerVolumeCubicI">
+        <object>Container Gross Volume (Cubic Inches)</object>
+      </resource>
+      <resource name="ContainerVolumeCubicF">
+        <object>Container Gross Volume (Cubic Feet)</object>
+      </resource>
+      <resource name="ContainerVolumeCubicY">
+        <object>Container Gross Volume (Cubic Yards)</object>
+      </resource>
+      <resource name="KilogramsPerSqM">
+        <object>Kilograms per square metre</object>
+      </resource>
+      <resource name="TradeItemCount">
+        <object>Count of Trade Items Contained in a Logistic Unit</object>
+      </resource>
+      <resource name="AmountPayableFixed">
+        <object>Amount Payable - single monetary area</object>
+      </resource>
+      <resource name="AmountPayableVariable">
+        <object>Amount Payable - with ISO currency code</object>
+      </resource>
+      <resource name="CustomerPoNumber">
+        <object>Customer's Purchase Order Number</object>
+      </resource>
+      <resource name="ConsignmentNumber">
+        <object>Consignment Number</object>
+      </resource>
+      <resource name="ShipmentId">
+        <object>Shipment Identification Number</object>
+      </resource>
+      <resource name="RoutingCode">
+        <object>Routing Code</object>
+      </resource>
+      <resource name="ShipToGln">
+        <object>"Ship To - Deliver To" EAN/UCC Global Location Number (GLN)</object>
+      </resource>
+      <resource name="BillToGln">
+        <object>"Bill To - Invoice To" EAN/UCC Global Location Number (GLN)</object>
+      </resource>
+      <resource name="PurchasedFromGln">
+        <object>"Purchased From" EAN/UCC Global Location Number (GLN)</object>
+      </resource>
+      <resource name="ShipForGln">
+        <object>"Ship For - Deliver For - Forward To" EAN/UCC Global Location Number</object>
+      </resource>
+      <resource name="PhysicalLocationGln">
+        <object>Identification of a Physical Location, EAN/UCC Global Location Number (GLN)</object>
+      </resource>
+      <resource name="InvoicingPartyGln">
+        <object>EAN/UCC Global Location Number of the Invoicing Party</object>
+      </resource>
+      <resource name="ProductionLocationGln">
+        <object>EAN/UCC Global Location Number of the Production or Sercvice Location</object>
+      </resource>
+      <resource name="ShipToLocal">
+        <object>"Ship To - Deliver To" Postal Code Within a Single Postal Authority</object>
+      </resource>
+      <resource name="ShipToCode">
+        <object>"Ship To - Deliver To" Postal Code With 3 Digit ISO Country Code</object>
+      </resource>
+      <resource name="TradeItemOrigin">
+        <object>Country of Origin of a Trade Item (3-Digit ISO Country Code)</object>
+      </resource>
+      <resource name="InitialProcessingCountry">
+        <object>Country of initial processing (one or more 3-Digit ISO Country Code)</object>
+      </resource>
+      <resource name="ProcessingCountry">
+        <object>Country of processing (3-Digit ISO Country Code)</object>
+      </resource>
+      <resource name="DisassemblyCountry">
+        <object>Country of disassembly (3-Digit ISO Country Code)</object>
+      </resource>
+      <resource name="FullProcessChainCountry">
+        <object>Country convering full process chain (3-Digit ISO Country Code)</object>
+      </resource>
+      <resource name="SlaughterHouse">
+        <object>Slaughterhouse</object>
+      </resource>
+      <resource name="DeboningCuttingHallNr1">
+        <object>First deboning/cutting hall</object>
+      </resource>
+      <resource name="ProcessingCuttonsHallNr2">
+        <object>Second processing location (cutting hall)</object>
+      </resource>
+      <resource name="ProcessingCuttonsHallNr3">
+        <object>Third processing location (cutting hall)</object>
+      </resource>
+      <resource name="ProcessingCuttonsHallNr4">
+        <object>Fourth processing location (cutting hall)</object>
+      </resource>
+      <resource name="ProcessingCuttonsHallNr5">
+        <object>Fifth processing location (cutting hall)</object>
+      </resource>
+      <resource name="ProcessingCuttonsHallNr6">
+        <object>Sixth processing location (cutting hall)</object>
+      </resource>
+      <resource name="ProcessingCuttonsHallNr7">
+        <object>Seventh processing location (cutting hall)</object>
+      </resource>
+      <resource name="ProcessingCuttonsHallNr8">
+        <object>Eight processing location (cutting hall)</object>
+      </resource>
+      <resource name="ProcessingCuttonsHallNr9">
+        <object>Ninth processing location (cutting hall)</object>
+      </resource>
+      <resource name="RollProducs">
+        <object>Roll Products - Width, Length, Core Diameter, Direction And Splices</object>
+      </resource>
+      <resource name="MobilePhoneEsi">
+        <object>Electronic Serial Identifier (ESN) For Cellular Mobile Telephones (CMT)</object>
+      </resource>
+      <resource name="GlobalReturnableAssetId">
+        <object>Global Returnable Asset Identifier (GRAI)</object>
+      </resource>
+      <resource name="GlobalIndividualAssetId">
+        <object>Global Individual Asset Identifier (GIAI)</object>
+      </resource>
+      <resource name="PricePerUnit">
+        <object>Price Per Unit of Measure</object>
+      </resource>
+      <resource name="TradeItemComponentId">
+        <object>Identification of the Component of a Trade Item</object>
+      </resource>
+      <resource name="Iban">
+        <object>International Bank Account Number (IBAN)</object>
+      </resource>
+      <resource name="GlobalServiceRelation">
+        <object>Global Service Relation Number (GSRN)</object>
+      </resource>
+      <resource name="PaymentSlipReference">
+        <object>Payment Slip Reference Number</object>
+      </resource>
+      <resource name="CouponExNscOffer">
+        <object>Coupon Extended Code - NSC + Offer Code</object>
+      </resource>
+      <resource name="CouponExNscOfferEnd">
+        <object>Coupon Extended Code - NSC + Offer Code + End Of Offer Code</object>
+      </resource>
+      <resource name="CouponExNsc">
+        <object>Coupon Extended Code - NSC</object>
+      </resource>
+      <resource name="MutuallyAgreed">
+        <object>Information Mutually Agreed Between Trading Partners (Including FACT Data Identifiers)</object>
+      </resource>
+      <resource name="CompanyInternal1">
+        <object>Company Internal Information 1</object>
+      </resource>
+      <resource name="CompanyInternal2">
+        <object>Company Internal Information 2</object>
+      </resource>
+      <resource name="CompanyInternal3">
+        <object>Company Internal Information 3</object>
+      </resource>
+      <resource name="CompanyInternal4">
+        <object>Company Internal Information 4</object>
+      </resource>
+      <resource name="CompanyInternal5">
+        <object>Company Internal Information 5</object>
+      </resource>
+      <resource name="CompanyInternal6">
+        <object>Company Internal Information 6</object>
+      </resource>
+      <resource name="CompanyInternal7">
+        <object>Company Internal Information 7</object>
+      </resource>
+      <resource name="CompanyInternal8">
+        <object>Company Internal Information 8</object>
+      </resource>
+      <resource name="CompanyInternal9">
+        <object>Company Internal Information 9</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.ScriptingEngineType" ServiceOnly="false">
+      <resource name="Lua">
+        <object>Lua</object>
+      </resource>
+      <resource name="IronPython">
+        <object>IronPython</object>
+      </resource>
+      <resource name="IronRuby">
+        <object>IronRuby</object>
+      </resource>
+      <resource name="PowerShell3">
+        <object>PowerShell 3</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Resources.LocalizedBoolTypeConverter" ServiceOnly="false">
+      <resource name="True">
+        <object>True</object>
+      </resource>
+      <resource name="False">
+        <object>False</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Utilities.PasswordScore" ServiceOnly="false">
+      <resource name="Blank">
+        <object>Blank</object>
+      </resource>
+      <resource name="VeryWeak">
+        <object>Very Weak</object>
+      </resource>
+      <resource name="Weak">
+        <object>Weak</object>
+      </resource>
+      <resource name="Medium">
+        <object>Medium</object>
+      </resource>
+      <resource name="Strong">
+        <object>Strong</object>
+      </resource>
+      <resource name="VeryStrong">
+        <object>Very Strong</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Devices.CheckweigherWeighingSystem" ServiceOnly="false">
+      <resource name="Metric">
+        <object>Metric</object>
+      </resource>
+      <resource name="Cental">
+        <object>Cental</object>
+      </resource>
+    </type>
+    <type name="Marel.Common.Constants.DateTimeGroupingType" ServiceOnly="false">
+	  <resource name="Automatic">
+		<object>Automatic</object>
+	  </resource>	  
+      <resource name="MIN1">
+        <object>1 Minute</object>
+      </resource>
+      <resource name="MIN5">
+        <object>5 Minutes</object>
+      </resource>
+      <resource name="MIN10">
+        <object>10 Minutes</object>
+      </resource>
+      <resource name="MIN15">
+        <object>15 Minutes</object>
+      </resource>
+      <resource name="MIN30">
+        <object>30 Minutes</object>
+      </resource>
+      <resource name="Hour1">
+        <object>1 Hour</object>
+      </resource>
+      <resource name="Hour12">
+        <object>12 Hours</object>
+      </resource>
+      <resource name="Day">
+        <object>1 Day</object>
+      </resource>
+      <resource name="Week">
+        <object>1 Week</object>
+      </resource>
+      <resource name="Month">
+        <object>1 Month</object>
+      </resource>
+      <resource name="Quarter">
+        <object>1 Quarter</object>
+      </resource>
+      <resource name="Year">
+        <object>1 Year</object>
+      </resource>
+    </type>
+
+	<type name="Marel.Common.Units.UmSpeed" ServiceOnly="false">
+	  <resource name="MetersPerSecond">
+		<object>m/sec</object>
+	  </resource>
+	  <resource name="FeetPerMinute">
+		<object>f/min</object>
+	  </resource>  
+	  <resource name="MetersPerMinute">
+		<object>m/min</object>
+	  </resource>
+	  <resource name="FeetPerSecond">
+		<object>f/sec</object>
+	  </resource>
+	</type>
+
+	<type name="Marel.Common.Units.UmTemperature" ServiceOnly="false">
+	  <resource name="Kelvin">
+		<object>°K</object>
+	  </resource>
+	  <resource name="Celsius">
+		<object>°C</object>
+	  </resource>
+	  <resource name="Fahrenheit">
+		<object>°F</object>
+	  </resource>
+	</type>
+
+	<type name="Marel.Common.Units.UmPressure" ServiceOnly="false">
+	  <resource name="Pascal">
+		<object>Pa</object>
+	  </resource>
+	  <resource name="KiloPascal">
+		<object>kPa</object>
+	  </resource>
+	  <resource name="Bar">
+		<object>Bar</object>
+	  </resource>
+	  <resource name="MilliBar">
+		<object>mB</object>
+	  </resource>
+	  <resource name="Psi">
+		<object>Psi</object>
+	  </resource>
+	</type>
+
+	<type name="Marel.Common.Units.UmPower" ServiceOnly="false">
+	  <resource name="Watt">
+		<object>W</object>
+	  </resource>
+	  <resource name="KiloWatt">
+		<object>kW</object>
+	  </resource>
+	</type>
+
+	<type name="Marel.Common.Units.Torque" ServiceOnly="false">
+	  <resource name="NewtonMeter">
+		<object>Nm</object>
+	  </resource>
+	  <resource name="FootPound">
+		<object>ft-lbf</object>
+	  </resource>
+	</type>
+
+	<type name="Marel.Common.Units.UmDosage" ServiceOnly="false">
+	  <resource name="GramsPerStroke">
+		<object>gr/str</object>
+	  </resource>
+	  <resource name="OuncePerStroke">
+		<object>ounz/str</object>
+	  </resource>
+	</type>
+
+	<type name="Marel.Common.Units.UmFrequency" ServiceOnly="false">
+	  <resource name="Hertz">
+		<object>Hz</object>
+	  </resource>
+	  <resource name="PerMinute">
+		<object>/Minute</object>
+	  </resource>
+	  <resource name="PerHour">
+		<object>/Hour</object>
+	  </resource>
+	  <resource name="PerDay">
+		<object>/Day</object>
+	  </resource>
+	  <resource name="RevolutionsPerMinute">
+		<object>Rpm</object>
+	  </resource>
+	</type>
+
+	<type name="Marel.Common.Units.UmVoltage" ServiceOnly="false">
+	  <resource name="Volts">
+		<object>V</object>
+	  </resource>
+	  <resource name="Ampere">
+		<object>A</object>
+	  </resource>
+	  <resource name="MilliAmpere">
+		<object>mA</object>
+	  </resource>
+	  <resource name="MilliVolt">
+		<object>mV</object>
+	  </resource>
+	</type>
+
+	<type name="Marel.Common.Units.UmSpecial" ServiceOnly="false">
+	  <resource name="Mark">
+		<object>Mark</object>
+	  </resource>
+	  <resource name="None">
+		<object>None</object>
+	  </resource>
+	  <resource name="Bad">
+		<object>Bad</object>
+	  </resource>
+	  <resource name="X10">
+		<object>X10</object>
+	  </resource>
+	  <resource name="ColorGrade">
+		<object>ColorGrade</object>
+	  </resource>
+	  <resource name="OnOff">
+		<object>OnOff</object>
+	  </resource>	</type>
+
+    <type name="Marel.Common.Units.UmShort" ServiceOnly="false">
+      <!-- UmGroup.Special -->
+      <resource name="Mark">
+        <object>Mark</object>
+      </resource>
+      <resource name="None">
+        <object></object>
+      </resource>
+      <resource name="Bad">
+        <object>Bad</object>
+      </resource>
+      <resource name="X10">
+        <object>x10</object>
+      </resource>
+      <resource name="ColorGrade">
+        <object>°</object>
+      </resource>
+      <resource name="OnOff">
+        <object>On/Off</object>
+      </resource>
+      <!-- UmGroup.System -->
+      <resource name="Si">
+        <object>Si</object>
+      </resource>
+      <resource name="European">
+        <object>European</object>
+      </resource>
+      <resource name="Imperial">
+        <object>Imperial</object>
+      </resource>
+      <!-- UmGroup.Weight -->
+      <resource name="Kilograms">
+        <object>kg</object>
+      </resource>
+      <resource name="Pounds">
+        <object>lbs</object>
+      </resource>
+      <resource name="Grams">
+        <object>g</object>
+      </resource>
+      <resource name="Ounces">
+        <object>oz</object>
+      </resource>
+      <resource name="Milligrams">
+        <object>mg</object>
+      </resource>
+      <resource name="Tons">
+        <object>tons</object>
+      </resource>
+      <resource name="OunceEights">
+        <object>⅛ oz</object>
+      </resource>
+      <resource name="Cental">
+        <object>cwt</object>
+      </resource>
+      <!-- UmGroup.Time -->
+      <resource name="Seconds">
+        <object>sec</object>
+      </resource>
+      <resource name="Milliseconds">
+        <object>ms</object>
+      </resource>
+      <resource name="Minutes">
+        <object>min</object>
+      </resource>
+      <resource name="Hours">
+        <object>h</object>
+      </resource>
+      <resource name="Days">
+        <object>d</object>
+      </resource>
+      <!-- UmGroup.Length -->
+      <resource name="Meters">
+        <object>m</object>
+      </resource>
+      <resource name="Millimeters">
+        <object>mm</object>
+      </resource>
+      <resource name="Centimeters">
+        <object>cm</object>
+      </resource>
+      <resource name="Inches">
+        <object>in</object>
+      </resource>
+      <resource name="Feet">
+        <object>ft</object>
+      </resource>
+      <resource name="Pixels">
+        <object>px</object>
+      </resource>
+      <resource name="Kilometers">
+        <object>km</object>
+      </resource>
+      <!-- UmGroup.Speed -->
+      <resource name="MetersPerSecond">
+        <object>m/s</object>
+      </resource>
+      <resource name="FeetPerMinute">
+        <object>ft/min</object>
+      </resource>
+      <resource name="MetersPerMinute">
+        <object>m/min</object>
+      </resource>
+      <resource name="FeetPerSecond">
+        <object>ft/sec</object>
+      </resource>
+      <resource name="MillimetersPerSecond">
+        <object>mm/s</object>
+      </resource>
+      <!-- UmGroup.FlowRate-->
+      <resource name="KilogramsPerSecond">
+        <object>kg/s</object>
+      </resource>
+      <resource name="TonsPerHour">
+        <object>tons/h</object>
+      </resource>
+      <resource name="PoundsPerHour">
+        <object>lbs/h</object>
+      </resource>
+      <resource name="KilogramsPerMinute">
+        <object>kg/m</object>
+      </resource>
+      <resource name="KilogramsPerHour">
+        <object>kg/h</object>
+      </resource>
+      <resource name="PoundsPerSecond">
+        <object>lbs/sec</object>
+      </resource>
+      <resource name="PoundsPerMinute">
+        <object>lbs/m</object>
+      </resource>
+      <resource name="PiecesPerMinute">
+        <object>pcs/m</object>
+      </resource>
+      <resource name="PiecesPerHour">
+        <object>pcs/h</object>
+      </resource>
+      <!-- UmGroup.Frequency-->
+      <resource name="Hertz">
+        <object>Hz</object>
+      </resource>
+      <resource name="PerMinute">
+        <object>/min</object>
+      </resource>
+      <resource name="PerHour">
+        <object>/hour</object>
+      </resource>
+      <resource name="PerDay">
+        <object>/day</object>
+      </resource>
+      <resource name="RevolutionsPerMinute">
+        <object>rpm</object>
+      </resource>
+
+      <!-- UmGroup.Temperature-->
+      <resource name="Kelvin">
+        <object>K</object>
+      </resource>
+      <resource name="Celsius">
+        <object>°C</object>
+      </resource>
+      <resource name="Fahrenheit">
+        <object>°F</object>
+      </resource>
+
+      <!-- UmGroup.Voltage-->
+      <resource name="Volts">
+        <object>V</object>
+      </resource>
+      <resource name="Ampere">
+        <object>A</object>
+      </resource>
+      <resource name="MilliAmpere">
+        <object>mA</object>
+      </resource>
+      <resource name="MilliVolt">
+        <object>mV</object>
+      </resource>
+
+      <!-- UmGroup.Area-->
+      <resource name="SquareMeters">
+        <object>m²</object>
+      </resource>
+      <resource name="SquareCentimeters">
+        <object>cm²</object>
+      </resource>
+      <resource name="SquareMillimeters">
+        <object>mm²</object>
+      </resource>
+      <resource name="SquareFeet">
+        <object>ft²</object>
+      </resource>
+      <resource name="SquareInch">
+        <object>in²</object>
+      </resource>
+
+      <!-- UmGroup.Volume -->
+      <resource name="CubicMeters">
+        <object>m³</object>
+      </resource>
+      <resource name="Milliliters">
+        <object>mL</object>
+      </resource>
+      <resource name="CubicFeet">
+        <object>feet³</object>
+      </resource>
+      <resource name="Liters">
+        <object>L</object>
+      </resource>
+      <resource name="UsLiquidGallons">
+        <object>gal</object>
+      </resource>
+      <resource name="CubicMillimeters">
+        <object>mm³</object>
+      </resource>
+
+      <!-- UmGroup.LinearDensity-->
+      <resource name="KilogramsPerMeter">
+        <object>kg/m</object>
+      </resource>
+
+      <!-- UmGroup.Density-->
+      <resource name="KilogramsPerCubicMeter">
+        <object>kg/m³</object>
+      </resource>
+      <resource name="GramsPerCubicCentimeter">
+        <object>g/cm³</object>
+      </resource>
+
+      <!-- UmGroup.ReciprocalWeight-->
+      <resource name="PerKg">
+        <object>/kg</object>
+      </resource>
+      <resource name="PerPound">
+        <object>/lbs</object>
+      </resource>
+
+      <!-- UmGroup.ReciprocalLength-->
+      <resource name="PerMeter">
+        <object>/m</object>
+      </resource>
+      <resource name="PerFoot">
+        <object>/foot</object>
+      </resource>
+
+      <!-- UmGroup.Acceleration-->
+      <resource name="MetersPerSecondSquared">
+        <object>m/s²</object>
+      </resource>
+
+      <!-- UmGroup.Angle-->
+      <resource name="Radians">
+        <object>rad</object>
+      </resource>
+      <resource name="Degrees">
+        <object>°</object>
+      </resource>
+
+      <!-- UmGroup.Count-->
+      <resource name="Units">
+        <object>units</object>
+      </resource>
+      <resource name="Pieces ">
+        <object>pcs</object>
+      </resource>
+
+      <!-- UmGroup.Management-->
+      <resource name="Weight">
+        <object>weight</object>
+      </resource>
+      <resource name="Percentage">
+        <object>%</object>
+      </resource>
+      <resource name="Volume">
+        <object>volumn</object>
+      </resource>
+      <resource name="Length">
+        <object>length</object>
+      </resource>
+
+      <!-- UmGroup.Pressure-->
+      <resource name="Pascal">
+        <object>Pa</object>
+      </resource>
+      <resource name="KiloPascal">
+        <object>kPa</object>
+      </resource>
+      <resource name="Bar">
+        <object>bar</object>
+      </resource>
+      <resource name="MilliBar">
+        <object>mbar</object>
+      </resource>
+      <resource name="Psi ">
+        <object>psi</object>
+      </resource>
+
+      <!-- UmGroup.Power-->
+      <resource name="Watt">
+        <object>W</object>
+      </resource>
+      <resource name="KiloWatt">
+        <object>kW</object>
+      </resource>
+
+      <!-- UmGroup.Torque-->
+      <resource name="NewtonMeter">
+        <object>N m</object>
+      </resource>
+      <resource name="FootPoundForce">
+        <object>ft-lbf</object>
+      </resource>
+
+      <!-- UmGroup.Resistance-->
+      <resource name="Ohm">
+        <object>Ω</object>
+      </resource>
+
+      <!-- UmGroup.MassMovement-->
+      <resource name="GramsPerStroke">
+        <object>g/stroke</object>
+      </resource>
+      <resource name="OuncePerStroke">
+        <object>oz/stroke</object>
+      </resource>
+    </type>
+
+  </industry>
+</resources>

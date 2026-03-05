@@ -1,0 +1,4947 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources culture="ru">
+  <industry>
+    <type name="Marel.Mp5.Base.UI.Windows.Forms.Programs.LogButton" ServiceOnly="true">
+      <resource name="Log">
+        <object>Журнал для {0}</object>
+      </resource>
+      <resource name="RecordHistory">
+        <object>Журнал записи</object>
+      </resource>
+      <resource name="LogExecutePrograms">
+        <object>Журнал для выполняемых программ</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.WindowsApplicationContainer" ServiceOnly="false">
+      <resource name="ErrorInitializing">
+        <object>Необрабатываемое исключение встретилось во время инициализации.</object>
+      </resource>
+      <resource name="ErrorRunning">
+        <object>Необрабатываемое исключение встретилось во время выполнения программы.</object>
+      </resource>
+      <resource name="Configuring">
+        <object>Настройка системы...</object>
+      </resource>
+      <resource name="Authenticating">
+        <object>Проверка подлинности...</object>
+      </resource>
+      <resource name="PasswordExpired">
+        <object>Истек срок действия пароля</object>
+      </resource>
+      <resource name="NotAuthenticated">
+        <object>Неверное имя пользователя или неправильный пароль</object>
+      </resource>
+      <resource name="Connecting">
+        <object>Соединение...</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Отсутствует соединение с сервером</object>
+      </resource>
+      <resource name="NoAccessToConfiguration">
+        <object>В этой конфигурации у данного пользователя отсутствуют права доступа ко всем пунктам меню.</object>
+      </resource>
+      <resource name="LicenseLookupFailed">
+        <object>В данный момент используются все клиентские лицензии.</object>
+      </resource>
+      <resource name="ReallyExit">
+        <object>Выйти из приложения Innova?</object>
+      </resource>
+      <resource name="ReallyLogout">
+        <object>Завершить сеанс приложения Innova?</object>
+      </resource>
+      <resource name="AllWindowsWillClose">
+        <object>Все окна ({0}) будут закрыты!</object>
+      </resource>
+      <resource name="Warning">
+        <object>Предупреждение</object>
+      </resource>
+      <resource name="KeyExpiring">
+        <object>Приложение Innova выполняется на базе ключа лицензии, срок действия которого скоро истечет. Последний день работы приложения Innova в полном объеме при использовании текущего ключа лицензии – {0}</object>
+      </resource>
+      <resource name="KeyInvalid">
+        <object>Установленный в данный момент ключ лицензии недействителен для сервера Innova. Получите новый ключ лицензии.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.MainFrame" ServiceOnly="false">
+      <resource name="fileMenu">
+        <object>&amp;Файл</object>
+      </resource>
+      <resource name="menuItemNewWindow">
+        <object>&amp;Создать окно</object>
+      </resource>
+      <resource name="menuItemCloseWindow">
+        <object>&amp;Закрыть окно</object>
+      </resource>
+      <resource name="menuItemCloseTab">
+        <object>Закрыть &amp;вкладку</object>
+      </resource>
+      <resource name="menuItemPageSetup">
+        <object>Настроить &amp;страницу...</object>
+      </resource>
+      <resource name="menuItemPrint">
+        <object>&amp;Печать</object>
+      </resource>
+      <resource name="menuItemPrintPreview">
+        <object>Предварительный &amp;просмотр</object>
+      </resource>
+      <resource name="menuItemChangePassword">
+        <object>&amp;Изменить пароль</object>
+      </resource>
+      <resource name="menuItemLogout">
+        <object>&amp;Завершить сеанс</object>
+      </resource>
+      <resource name="menuItemExit">
+        <object>В&amp;ыход</object>
+      </resource>
+      <resource name="editMenu">
+        <object>&amp;Правка</object>
+      </resource>
+      <resource name="menuItemUndo">
+        <object>&amp;Отменить</object>
+      </resource>
+      <resource name="menuItemRedo">
+        <object>&amp;Вернуть</object>
+      </resource>
+      <resource name="menuItemCut">
+        <object>Выреза&amp;ть</object>
+      </resource>
+      <resource name="menuItemCopy">
+        <object>&amp;Копировать</object>
+      </resource>
+      <resource name="menuItemPaste">
+        <object>&amp;Вставить</object>
+      </resource>
+      <resource name="menuItemDelete">
+        <object>&amp;Удалить</object>
+      </resource>
+      <resource name="menuItemSelectAll">
+        <object>Выделить &amp;все</object>
+      </resource>
+      <resource name="viewMenu">
+        <object>&amp;Вид</object>
+      </resource>
+      <resource name="toolbarsMenu">
+        <object>&amp;Панели инструментов</object>
+      </resource>
+      <resource name="fontsizeMenu">
+        <object>Размер &amp;шрифта</object>
+      </resource>
+      <resource name="menuItemErrorLog">
+        <object>&amp;Журнал ошибок</object>
+      </resource>
+      <resource name="menuItemFullScreen">
+        <object>&amp;Во весь экран</object>
+      </resource>
+      <resource name="toolsMenu">
+        <object>&amp;Сервис</object>
+      </resource>
+      <resource name="menuItemRegionalSettings">
+        <object>&amp;Региональные параметры...</object>
+      </resource>
+      <resource name="helpMenu">
+        <object>&amp;Справка</object>
+      </resource>
+      <resource name="menuItemAboutMPS">
+        <object>&amp;О приложении Innova...</object>
+      </resource>
+      <resource name="menuItemVersionInformation">
+        <object>&amp;Сведения о версии...</object>
+      </resource>
+      <resource name="menuItemApplicationHelp">
+        <object>Справка &amp;приложения</object>
+      </resource>
+      <resource name="barCheckItem1">
+        <object>Меню</object>
+      </resource>
+      <resource name="statusBarErrorLog">
+        <object>Журнал ошибок</object>
+      </resource>
+      <resource name="programName">
+        <object>Marel - Innova</object>
+      </resource>
+      <resource name="statusbarName">
+        <object>Строка состояния</object>
+      </resource>
+      <resource name="menuItemExportPdf">
+        <object>&amp;PDF...</object>
+      </resource>
+      <resource name="menuItemExportHtml">
+        <object>&amp;HTML...</object>
+      </resource>
+      <resource name="menuItemExportText">
+        <object>&amp;Текст...</object>
+      </resource>
+      <resource name="menuItemExportExcel">
+        <object>&amp;Excel...</object>
+      </resource>
+      <resource name="menuItemExportRtf">
+        <object>&amp;RTF...</object>
+      </resource>
+      <resource name="menuItemExportGraphics">
+        <object>&amp;Графика...</object>
+      </resource>
+      <resource name="menuItemExportCsv">
+        <object>&amp;CSV...</object>
+      </resource>
+      <resource name="menuItemExportMht">
+        <object>&amp;MHT</object>
+      </resource>
+      <resource name="menuItemExport">
+        <object>&amp;Экспорт</object>
+      </resource>
+      <resource name="barButtonItem4">
+        <object>Закрыть вкладку</object>
+      </resource>
+      <resource name="barButtonItem5">
+        <object>Закрыть все вкладки</object>
+      </resource>
+      <resource name="barButtonItem6">
+        <object>Закрыть другие вкладки</object>
+      </resource>
+      <resource name="menuItemQuickTabs">
+        <object>Быстрые вкладки</object>
+      </resource>
+      <resource name="menuItemViewXlat">
+        <object>Просмотреть &amp;переводы...</object>
+      </resource>
+      <resource name="NoTranslations">
+        <object>Сведения о переводах не найдены.</object>
+      </resource>
+      <resource name="menuItemOptions">
+        <object>&amp;Параметры...</object>
+      </resource>
+      <resource name="menuItemDocumentSystem">
+        <object>Система документов</object>
+      </resource>
+      <resource name="ApplicationHelp">
+        <object>Справка приложения</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.AboutMps" ServiceOnly="false">
+      <resource name="VersionText">
+        <object>Версия {0}</object>
+      </resource>
+      <resource name="CopyrightText">
+        <object>© Компания {1}, {0}</object>
+      </resource>
+      <resource name="OK">
+        <object>ОК</object>
+      </resource>
+      <resource name="LicensedToText">
+        <object>Правом на использование обладает:</object>
+      </resource>
+      <resource name="ProductCodeText">
+        <object>Код продукта:</object>
+      </resource>
+      <resource name="RightsReservedText">
+        <object>Все права защищены.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.StandardGridView" ServiceOnly="false">
+      <resource name="RecordViewButton">
+        <object>Вид записи</object>
+      </resource>
+      <resource name="CloneButton">
+        <object>Клонировать</object>
+      </resource>
+      <resource name="AutofilterButton">
+        <object>Автофильтр</object>
+      </resource>
+      <resource name="OperationsButton">
+        <object>Операции</object>
+      </resource>
+      <resource name="ConfirmButton">
+        <object>Подтвердить</object>
+      </resource>
+      <resource name="InsufficientAccess">
+        <object>Недостаточный уровень доступа</object>
+      </resource>
+      <resource name="SaveChanges">
+        <object>Сохранить изменения?</object>
+      </resource>
+      <resource name="ClosingGrid">
+        <object>Закрытие таблицы</object>
+      </resource>
+      <resource name="TableViewButton">
+        <object>Табличное представление</object>
+      </resource>
+      <resource name="activeObjects">
+        <object>Активный</object>
+      </resource>
+      <resource name="inactiveObjects">
+        <object>Неактивный</object>
+      </resource>
+      <resource name="bothObjects">
+        <object>И то, и другое</object>
+      </resource>
+      <resource name="objecttypes">
+        <object>Показать объекты, которые</object>
+      </resource>
+      <resource name="XlatButton">
+        <object>Xlat</object>
+      </resource>
+      <resource name="ViewSql">
+        <object>SQL</object>
+      </resource>
+      <resource name="FirstButton">
+        <object>Первый</object>
+      </resource>
+      <resource name="PreviousButton">
+        <object>Предыдущий</object>
+      </resource>
+      <resource name="NextButton">
+        <object>Следующий</object>
+      </resource>
+      <resource name="LastButton">
+        <object>Последний</object>
+      </resource>
+      <resource name="AddNewButton">
+        <object>Добавить</object>
+      </resource>
+      <resource name="DeleteButton">
+        <object>Удалить</object>
+      </resource>
+      <resource name="ReloadConfigButton">
+        <object>Перезагрузить элемент ГИП</object>
+      </resource>
+      <resource name="RestoreDefaultsButton">
+        <object>Восстановить компоновку по умолчанию</object>
+      </resource>
+      <resource name="Lookup.Name.Caption">
+        <object>Имя</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Код</object>
+      </resource>
+      <resource name="ShowPreview">
+        <object>Показать подробные сведения</object>
+      </resource>
+      <resource name="DeleteCaption">
+        <object>Удалить строки</object>
+      </resource>
+      <resource name="DeleteSingleRow">
+        <object>Удалить строку?</object>
+      </resource>
+      <resource name="DeleteMultipleRows">
+        <object>Удалить {0} строк?</object>
+      </resource>
+      <resource name="errExporting">
+        <object>Ошибка при экспорте таблицы.</object>
+      </resource>
+      <resource name="Exporting">
+        <object>Данные экспорта</object>
+      </resource>
+      <resource name="printGrid">
+        <object>Печать данных</object>
+      </resource>
+      <resource name="errPrinting">
+        <object>Ошибка при печати данных.</object>
+      </resource>
+      <resource name="errPrintPreview">
+        <object>Ошибка при просмотре данных.</object>
+      </resource>
+      <resource name="printPreview">
+        <object>Предварительный просмотр</object>
+      </resource>
+      <resource name="InvalidateCacheButton">
+        <object>Признать недействительными кэшированные данные</object>
+      </resource>
+      <resource name="NoNullAllowed">
+        <object>В столбце «{0}» не допускаются нули.\n</object>
+      </resource>
+      <resource name="NoObjectSelected">
+        <object>Объект не выбран</object>
+      </resource>
+      <resource name="NoObjectSelectedCaption">
+        <object>Информация</object>
+      </resource>
+      <resource name="LoadedRowsAll">
+        <object>Загруженные строки:Все</object>
+      </resource>
+      <resource name="LoadedRows">
+        <object>Загруженные строки</object>
+      </resource>
+      <resource name="SelectedRowCount">
+        <object>Количество выделенных строк</object>
+      </resource>
+      <resource name="RefreshButton">
+        <object>Обновить</object>
+      </resource>
+      <resource name="RawViewCaption">
+        <object>Строчное представление</object>
+      </resource>
+      <resource name="ShowRawView">
+        <object>Строчное представление</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.GuiNodes.Programming" ServiceOnly="true">
+      <resource name="GroupHeader">
+        <object>Меню</object>
+      </resource>
+      <resource name="GUINodes">
+        <object>ГИП</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.LookupForm" ServiceOnly="false">
+      <resource name="btnOk.Text">
+        <object>ОК</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Отмена</object>
+      </resource>
+      <resource name="Text">
+        <object>Выбрать элемент</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.CriteriaPopupWindow" ServiceOnly="false">
+      <resource name="btnOk.Text">
+        <object>ОК</object>
+      </resource>
+      <resource name="btnCancel.Text">
+        <object>Отмена</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.DevXPressReportViewerView" ServiceOnly="false">
+      <resource name="sendexptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="sendexptypetext">
+        <object>Текст</object>
+      </resource>
+      <resource name="sendexptypecsv">
+        <object>CSV</object>
+      </resource>
+      <resource name="sendexptypemht">
+        <object>MHT</object>
+      </resource>
+      <resource name="sendexptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="sendexptypertf">
+        <object>RTF</object>
+      </resource>
+      <resource name="sendexptypegraphics">
+        <object>Графика</object>
+      </resource>
+      <resource name="exptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="exptypehtml">
+        <object>HTML</object>
+      </resource>
+      <resource name="exptypetext">
+        <object>Текст</object>
+      </resource>
+      <resource name="exptypecsv">
+        <object>CSV</object>
+      </resource>
+      <resource name="exptypemht">
+        <object>MHT</object>
+      </resource>
+      <resource name="exptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="exptypertf">
+        <object>RTF</object>
+      </resource>
+      <resource name="exptypegraphics">
+        <object>Графика</object>
+      </resource>
+      <resource name="toolRefresh">
+        <object>Обновить</object>
+      </resource>
+      <resource name="toolSearch">
+        <object>Поиск</object>
+      </resource>
+      <resource name="toolHandTool">
+        <object>Инструмент «Рука»</object>
+      </resource>
+      <resource name="toolPrintWithOptions">
+        <object>Печать без параметров</object>
+      </resource>
+      <resource name="toolSpeedPrint">
+        <object>Печать</object>
+      </resource>
+      <resource name="toolPrintSetup">
+        <object>Параметры страницы</object>
+      </resource>
+      <resource name="toolMagnifier">
+        <object>Лупа</object>
+      </resource>
+      <resource name="toolZoomIn">
+        <object>Увеличить</object>
+      </resource>
+      <resource name="toolZoomOut">
+        <object>Уменьшить</object>
+      </resource>
+      <resource name="toolZoomOptions">
+        <object>Параметры масштабирования</object>
+      </resource>
+      <resource name="toolFirstPage">
+        <object>Первая страница</object>
+      </resource>
+      <resource name="toolPreviousPage">
+        <object>Предыдущая страница</object>
+      </resource>
+      <resource name="toolNextPage">
+        <object>Следующая страница</object>
+      </resource>
+      <resource name="toolLastPage">
+        <object>Последняя страница</object>
+      </resource>
+      <resource name="toolMultiplePages">
+        <object>Несколько страниц</object>
+      </resource>
+      <resource name="toolWatermark">
+        <object>Водяной знак</object>
+      </resource>
+      <resource name="toolExport">
+        <object>Экспорт</object>
+      </resource>
+      <resource name="toolEmail">
+        <object>Электронная почта</object>
+      </resource>
+      <resource name="htoolRefresh">
+        <object>Обновить</object>
+      </resource>
+      <resource name="htoolSearch">
+        <object>Поиск</object>
+      </resource>
+      <resource name="htoolHandTool">
+        <object>Инструмент «Рука»</object>
+      </resource>
+      <resource name="htoolPrintWithOptions">
+        <object>Печать с параметрами</object>
+      </resource>
+      <resource name="htoolSpeedPrint">
+        <object>Печать</object>
+      </resource>
+      <resource name="htoolPrintSetup">
+        <object>Параметры страницы</object>
+      </resource>
+      <resource name="htoolMagnifier">
+        <object>Лупа</object>
+      </resource>
+      <resource name="htoolZoomIn">
+        <object>Увеличить</object>
+      </resource>
+      <resource name="htoolZoomOut">
+        <object>Уменьшить</object>
+      </resource>
+      <resource name="htoolZoomOptions">
+        <object>Параметры масштабирования</object>
+      </resource>
+      <resource name="htoolFirstPage">
+        <object>Первая страница</object>
+      </resource>
+      <resource name="htoolPreviousPage">
+        <object>Предыдущая страница</object>
+      </resource>
+      <resource name="htoolNextPage">
+        <object>Следующая страница</object>
+      </resource>
+      <resource name="htoolLastPage">
+        <object>Последняя страница</object>
+      </resource>
+      <resource name="htoolMultiplePages">
+        <object>Несколько страниц</object>
+      </resource>
+      <resource name="htoolWatermark">
+        <object>Водяной знак</object>
+      </resource>
+      <resource name="htoolExport">
+        <object>Экспорт</object>
+      </resource>
+      <resource name="htoolEmail">
+        <object>Электронная почта</object>
+      </resource>
+      <resource name="htoolDocMap">
+        <object>Показать/скрыть схему документа</object>
+      </resource>
+      <resource name="pageWidth">
+        <object>Ширина страницы</object>
+      </resource>
+      <resource name="textWidth">
+        <object>Ширина текста</object>
+      </resource>
+      <resource name="toolRefreshWithOptions">
+        <object>Обновить с параметрами</object>
+      </resource>
+      <resource name="htoolRefreshWithOptions">
+        <object>Обновить с параметрами </object>
+      </resource>
+      <resource name="erropends">
+        <object>Не удалось открыть наборы данных для отчета</object>
+      </resource>
+      <resource name="pagexofx">
+        <object>Стр. {0} из {1}</object>
+      </resource>
+      <resource name="toolInvalidate">
+        <object>Признать недействительным</object>
+      </resource>
+      <resource name="htoolInvalidate">
+        <object>Признать недействительным элемент ГИП для отчета</object>
+      </resource>
+      <resource name="toolShowSql">
+        <object>SQL</object>
+      </resource>
+      <resource name="htoolShowSql">
+        <object>Показать SQL </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsPreviewLocalizer" ServiceOnly="false">
+      <resource name="PreviewStringId.Button_Apply">
+        <object>Применить</object>
+      </resource>
+      <resource name="PreviewStringId.Button_Cancel">
+        <object>Отмена</object>
+      </resource>
+      <resource name="PreviewStringId.Button_Help">
+        <object>Справка</object>
+      </resource>
+      <resource name="PreviewStringId.Button_Ok">
+        <object>ОК</object>
+      </resource>
+      <resource name="PreviewStringId.EMail_From">
+        <object>От</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_BottomMargin">
+        <object>Нижнее поле</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_Inch">
+        <object>дюйм</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_LeftMargin">
+        <object>Левое поле</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_Millimeter">
+        <object>мм</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_RightMargin">
+        <object>Правое поле</object>
+      </resource>
+      <resource name="PreviewStringId.Margin_TopMargin">
+        <object>Верхнее поле</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_BackgrColor">
+        <object>&amp;Цвет...</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Background">
+        <object>&amp;Фон</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_CsvDocument">
+        <object>Документ CSV</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Exit">
+        <object>В&amp;ыход</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Export">
+        <object>&amp;Экспорт в</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_File">
+        <object>&amp;Файл</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_GraphicDocument">
+        <object>Графический документ</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_HtmDocument">
+        <object>Документ HTML</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_MhtDocument">
+        <object>Документ MHT</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_PageLayout">
+        <object>&amp;Макет страницы</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_PageSetup">
+        <object>Настроить &amp;страницу...</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_PdfDocument">
+        <object>Документ PDF</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Print">
+        <object>&amp;Печать...</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_PrintDirect">
+        <object>&amp;Печать</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_RtfDocument">
+        <object>Документ RTF</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Send">
+        <object>Отправить &amp;как</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_TxtDocument">
+        <object>Текстовый документ</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_View">
+        <object>&amp;Вид</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ViewContinuous">
+        <object>&amp;Непрерывный</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ViewFacing">
+        <object>&amp;Лицевая сторона</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ViewStatusbar">
+        <object>&amp;Строка состояния</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ViewToolbar">
+        <object>&amp;Панель инструментов</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_Watermark">
+        <object>&amp;Водяной знак...</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_XlsDocument">
+        <object>Документ Excel</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ZoomPageWidth">
+        <object>Ширина страницы</object>
+      </resource>
+      <resource name="PreviewStringId.MenuItem_ZoomTextWidth">
+        <object>Ширина текста</object>
+      </resource>
+      <resource name="PreviewStringId.MPForm_Lbl_Pages">
+        <object>Страницы</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_CreatingDocument">
+        <object>Создание документа...</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_CustomDrawWarning">
+        <object>Предупреждение!</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_EmptyDocument">
+        <object>В документе отсутствуют некоторые страницы.</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_FontInvalidNumber">
+        <object>Для размера шрифта невозможно установить ноль или отрицательное число</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_IncorrectPageRange">
+        <object>Это недопустимый диапазон страниц</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_NeedPrinter">
+        <object>Отсутствуют установленные принтеры.</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_NotSupportedFont">
+        <object>Этот шрифт еще не поддерживается</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_PageMarginsWarning">
+        <object>Одно или несколько полей установлены вне области печати страницы. Продолжить?</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_UnavailableNetPrinter">
+        <object>Сетевой принтер недоступен.</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_WrongPageSettings">
+        <object>Текущий принтер не поддерживает выбранный размер бумаги.\nПродолжить печать?</object>
+      </resource>
+      <resource name="PreviewStringId.Msg_WrongPrinter">
+        <object>Неправильное имя принтера. Проверьте параметры принтера.</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageDate">
+        <object>[Дата печати]</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageNumber">
+        <object>[Стр. #]</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageNumberOfTotal">
+        <object>[Стр. # из #]</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageTime">
+        <object>[Время печати]</object>
+      </resource>
+      <resource name="PreviewStringId.PageInfo_PageUserName">
+        <object>[Имя пользователя]</object>
+      </resource>
+      <resource name="PreviewStringId.PreviewForm_Caption">
+        <object>Предварительный просмотр</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterBmp">
+        <object>Рисунок в формате BMP</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterCsv">
+        <object>Документ CSV</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterEmf">
+        <object>Расширенный метафайл Windows, формат EMF</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterGif">
+        <object>Рисунок в формате GIF</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterHtm">
+        <object>Документ HTML</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterJpeg">
+        <object>Файл в формате JPEG</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterMht">
+        <object>Документ MHT</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterPdf">
+        <object>Документ PDF</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterPng">
+        <object>Файл в формате PNG</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterRtf">
+        <object>Документ RTF</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterTiff">
+        <object>Файл в формате TIFF</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterTxt">
+        <object>Текстовый документ</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterWmf">
+        <object>Метафайл Windows, формат WMF</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_FilterXls">
+        <object>Документ Excel</object>
+      </resource>
+      <resource name="PreviewStringId.SaveDlg_Title">
+        <object>Сохранить как</object>
+      </resource>
+      <resource name="PreviewStringId.SB_CurrentPageNo">
+        <object>Номер текущей страницы:</object>
+      </resource>
+      <resource name="PreviewStringId.SB_PageInfo">
+        <object>{0} из {1}</object>
+      </resource>
+      <resource name="PreviewStringId.SB_PageNone">
+        <object>нет</object>
+      </resource>
+      <resource name="PreviewStringId.SB_TotalPageNo">
+        <object>Общее количество страниц:</object>
+      </resource>
+      <resource name="PreviewStringId.SB_ZoomFactor">
+        <object>Коэффициент масштабирования:</object>
+      </resource>
+      <resource name="PreviewStringId.ScrollingInfo_Page">
+        <object>Стр.</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Backgr">
+        <object>Фон</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Close">
+        <object>Закрыть предварительный просмотр</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Customize">
+        <object>Настроить</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_EditPageHF">
+        <object>Верхний и нижний колонтитулы</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Export">
+        <object>Экспорт документа...</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_FirstPage">
+        <object>Первая страница</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_HandTool">
+        <object>Инструмент «Рука»</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_LastPage">
+        <object>Последняя страница</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Magnifier">
+        <object>Лупа</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Map">
+        <object>Схема документа</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_MultiplePages">
+        <object>Несколько страниц</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_NextPage">
+        <object>Следующая страница</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_PageSetup">
+        <object>Параметры страницы</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_PreviousPage">
+        <object>Предыдущая страница</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Print">
+        <object>Печать</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_PrintDirect">
+        <object>Прямая печать</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Search">
+        <object>Поиск</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Send">
+        <object>Отправить электронную почту...</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Watermark">
+        <object>Водяной знак</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_Zoom">
+        <object>Масштаб</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_ZoomIn">
+        <object>Увеличить</object>
+      </resource>
+      <resource name="PreviewStringId.TB_TTip_ZoomOut">
+        <object>Уменьшить</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Direction_BackwardDiagonal">
+        <object>Назад по диагонали</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Direction_ForwardDiagonal">
+        <object>Вперед по диагонали</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Direction_Horizontal">
+        <object>Горизонтальный</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Direction_Vertical">
+        <object>Вертикальный</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_HorzAlign_Center">
+        <object>Центр</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_HorzAlign_Left">
+        <object>Левый</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_HorzAlign_Right">
+        <object>Правый</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ImageClip">
+        <object>Отсечь</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ImageStretch">
+        <object>Вытянуть</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ImageZoom">
+        <object>Масштаб</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_PageRangeRgrItem_All">
+        <object>&amp;Все</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_PageRangeRgrItem_Pages">
+        <object>&amp;Страницы:</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_PictureDlg_Title">
+        <object>Выбор рисунка</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_VertAlign_Bottom">
+        <object>Низ</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_VertAlign_Middle">
+        <object>Середина</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_VertAlign_Top">
+        <object>Верх</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Asap">
+        <object>Как можно скорее</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Confidential">
+        <object>КОНФИДЕНЦИАЛЬНО</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Copy">
+        <object>КОПИРОВАТЬ</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_DoNotCopy">
+        <object>НЕ КОПИРОВАТЬ</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Draft">
+        <object>ЧЕРНОВИК</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Evaluation">
+        <object>ОЦЕНОЧНЫЙ</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Original">
+        <object>ИСХОДНЫЙ</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Personal">
+        <object>ЛИЧНЫЙ</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Sample">
+        <object>ПРИМЕР</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_TopSecret">
+        <object>СОВЕРШЕННО СЕКРЕТНО</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_Watermark_Urgent">
+        <object>СРОЧНО</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ZOrderRgrItem_Behind">
+        <object>&amp;Сзади</object>
+      </resource>
+      <resource name="PreviewStringId.WMForm_ZOrderRgrItem_InFront">
+        <object>&amp;Впереди</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.DevXPressMp5Report" ServiceOnly="false">
+      <resource name="pageNumber.Format">
+        <object>Стр. {0}</object>
+      </resource>
+      <resource name="repDate">
+        <object>Дата:</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.ErrorForm" ServiceOnly="false">
+      <resource name="this.Text">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="Details">
+        <object>Подробные сведения</object>
+      </resource>
+      <resource name="HideDetails">
+        <object>Скрыть сведения</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.RegionalSettings" ServiceOnly="false">
+      <resource name="OK">
+        <object>ОК</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Отмена</object>
+      </resource>
+      <resource name="RegionLabel">
+        <object>Регион:</object>
+      </resource>
+      <resource name="WindowsTitle">
+        <object>Региональные параметры</object>
+      </resource>
+      <resource name="DefaultCultureName">
+        <object>Система по умолчанию</object>
+      </resource>
+      <resource name="CultureName">
+        <object>Код</object>
+      </resource>
+      <resource name="DisplayName">
+        <object>Имя</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.ChangePasswordForm" ServiceOnly="false">
+      <resource name="Username">
+        <object>Имя пользователя:</object>
+      </resource>
+      <resource name="Password">
+        <object>Пароль:</object>
+      </resource>
+      <resource name="Confirm">
+        <object>Подтвердить пароль:</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Отмена</object>
+      </resource>
+      <resource name="OK">
+        <object>Установить пароль</object>
+      </resource>
+      <resource name="NotMatching">
+        <object>Пароль и подтверждение пароля не совпадают</object>
+      </resource>
+      <resource name="WrongPassword">
+        <object>Неправильный пароль</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.SplashWindow" ServiceOnly="false">
+      <resource name="Connecting...">
+        <object>Соединение...</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.WindowsLogonForm" ServiceOnly="false">
+      <resource name="Username">
+        <object>Имя пользователя:</object>
+      </resource>
+      <resource name="Password">
+        <object>Пароль:</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Отмена</object>
+      </resource>
+      <resource name="OK">
+        <object>Вход</object>
+      </resource>
+      <resource name="Caption">
+        <object>Вход в систему Innova</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Controls.ProgressControl" ServiceOnly="false">
+      <resource name="LabelText">
+        <object>Загрузка...</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Отмена</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsBarLocalizer" ServiceOnly="false">
+      <resource name="AddOrRemove">
+        <object>&amp;Добавить или удалить кнопки</object>
+      </resource>
+      <resource name="ResetBar">
+        <object>Сбросить изменения, сделанные для панели инструментов '{0}'?</object>
+      </resource>
+      <resource name="ResetBarCaption">
+        <object>Настроить</object>
+      </resource>
+      <resource name="ResetButton">
+        <object>&amp;Сброс панели</object>
+      </resource>
+      <resource name="CustomizeButton">
+        <object>&amp;Настроить...</object>
+      </resource>
+      <resource name="ToolBarMenu">
+        <object>&amp;Сбросить$&amp;Удалить$!&amp;Имя$!Стиля &amp;по умолчанию$&amp;Только текст (всегда)$Только &amp;текст (в меню)$Изображение &amp;и текст$!Начать &amp;группу$&amp;Видимый$&amp;Недавно использовавшиеся</object>
+      </resource>
+      <resource name="ToolbarNameCaption">
+        <object>&amp;Имя панели инструментов:</object>
+      </resource>
+      <resource name="NewToolbarCaption">
+        <object>Создать панель инструментов</object>
+      </resource>
+      <resource name="NewToolbarCustomNameFormat">
+        <object>Настроить {0}</object>
+      </resource>
+      <resource name="RenameToolbarCaption">
+        <object>Переименование панели инструментов</object>
+      </resource>
+      <resource name="CustomizeWindowCaption">
+        <object>Настройка</object>
+      </resource>
+      <resource name="MenuAnimationSystem">
+        <object>(Система по умолчанию)</object>
+      </resource>
+      <resource name="MenuAnimationNone">
+        <object>Нет</object>
+      </resource>
+      <resource name="MenuAnimationSlide">
+        <object>Слайд</object>
+      </resource>
+      <resource name="MenuAnimationFade">
+        <object>Исчезание</object>
+      </resource>
+      <resource name="MenuAnimationUnfold">
+        <object>Развертывание</object>
+      </resource>
+      <resource name="MenuAnimationRandom">
+        <object>Случайный</object>
+      </resource>
+      <resource name="RibbonToolbarAbove">
+        <object>&amp;Расположите панель быстрого доступа над лентой</object>
+      </resource>
+      <resource name="RibbonToolbarBelow">
+        <object>&amp;Расположите панель быстрого доступа под лентой</object>
+      </resource>
+      <resource name="RibbonToolbarAdd">
+        <object>&amp;Добавить на панель быстрого доступа</object>
+      </resource>
+      <resource name="RibbonToolbarRemove">
+        <object>&amp;Удалить из панели быстрого доступа</object>
+      </resource>
+      <resource name="BarAllItems">
+        <object>(Все пункты)</object>
+      </resource>
+      <resource name="BarUnassignedItems">
+        <object>(Неназначенные пункты)</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsEditorLocalizer" ServiceOnly="false">
+      <resource name="CaptionError">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="InvalidValueText">
+        <object>Неверное значение</object>
+      </resource>
+      <resource name="CheckChecked">
+        <object>Проверка выполнена</object>
+      </resource>
+      <resource name="CheckUnchecked">
+        <object>Проверка не выполнялась</object>
+      </resource>
+      <resource name="CheckIndeterminate">
+        <object>Неопределенный</object>
+      </resource>
+      <resource name="DateEditToday">
+        <object>Сегодня</object>
+      </resource>
+      <resource name="DateEditClear">
+        <object>Очистить</object>
+      </resource>
+      <resource name="OK">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="Cancel">
+        <object>&amp;Отмена</object>
+      </resource>
+      <resource name="NavigatorFirstButtonHint">
+        <object>Первый</object>
+      </resource>
+      <resource name="NavigatorPreviousButtonHint">
+        <object>Предыдущий</object>
+      </resource>
+      <resource name="NavigatorPreviousPageButtonHint">
+        <object>Предыдущая страница</object>
+      </resource>
+      <resource name="NavigatorNextButtonHint">
+        <object>Следующий</object>
+      </resource>
+      <resource name="NavigatorNextPageButtonHint">
+        <object>Следующая страница</object>
+      </resource>
+      <resource name="NavigatorLastButtonHint">
+        <object>Последний</object>
+      </resource>
+      <resource name="NavigatorAppendButtonHint">
+        <object>Добавить</object>
+      </resource>
+      <resource name="NavigatorRemoveButtonHint">
+        <object>Удалить</object>
+      </resource>
+      <resource name="NavigatorEditButtonHint">
+        <object>Правка</object>
+      </resource>
+      <resource name="NavigatorEndEditButtonHint">
+        <object>Завершить правку</object>
+      </resource>
+      <resource name="NavigatorCancelEditButtonHint">
+        <object>Отменить правку</object>
+      </resource>
+      <resource name="NavigatorTextStringFormat">
+        <object>Запись {0} из {1}</object>
+      </resource>
+      <resource name="PictureEditMenuCut">
+        <object>Вырезать</object>
+      </resource>
+      <resource name="PictureEditMenuCopy">
+        <object>Копировать</object>
+      </resource>
+      <resource name="PictureEditMenuPaste">
+        <object>Вставить</object>
+      </resource>
+      <resource name="PictureEditMenuDelete">
+        <object>Удалить</object>
+      </resource>
+      <resource name="PictureEditMenuLoad">
+        <object>Загрузить</object>
+      </resource>
+      <resource name="PictureEditMenuSave">
+        <object>Сохранить</object>
+      </resource>
+      <resource name="PictureEditOpenFileFilter">
+        <object>Файлы рисунков (*.bmp)|*.bmp|Рисунки в формате GIF (*.gif)|*.gif|Файлы в формате JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|Файлы значков (*.ico)|*.ico|Все файлы рисунков |*.bmp;*.gif;*.jpg;*.jpeg;*.ico;*.png;*.tif|Все файлы |*.*</object>
+      </resource>
+      <resource name="PictureEditSaveFileFilter">
+        <object>Файлы рисунков (*.bmp)|*.bmp|Рисунки в формате GIF (*.gif)|*.gif|Файлы в формате JPEG (*.jpg)|*.jpg</object>
+      </resource>
+      <resource name="PictureEditOpenFileTitle">
+        <object>Открыть</object>
+      </resource>
+      <resource name="PictureEditSaveFileTitle">
+        <object>Сохранить как</object>
+      </resource>
+      <resource name="PictureEditOpenFileError">
+        <object>Неправильный формат рисунка</object>
+      </resource>
+      <resource name="PictureEditOpenFileErrorCaption">
+        <object>Ошибка при открытии</object>
+      </resource>
+      <resource name="LookUpEditValueIsNull">
+        <object>[ПравкаЗначение NULL]</object>
+      </resource>
+      <resource name="LookUpInvalidEditValueType">
+        <object>Неверный тип ПоискПравка ПравкаЗначение.</object>
+      </resource>
+      <resource name="LookUpColumnDefaultName">
+        <object>Имя</object>
+      </resource>
+      <resource name="MaskBoxValidateError">
+        <object>
+					Введенное значение неполное. Откорректировать его?
+
+
+					Да – вернитесь в редактор и откорректируйте значение.
+					Нет – оставьте значение как есть.
+					Отмена – сбросить на предыдущее значение.
+				</object>
+      </resource>
+      <resource name="UnknownPictureFormat">
+        <object>Неизвестный формат рисунка</object>
+      </resource>
+      <resource name="DataEmpty">
+        <object>Отсутствуют данные изображения</object>
+      </resource>
+      <resource name="NotValidArrayLength">
+        <object>Недопустимая длина массива.</object>
+      </resource>
+      <resource name="ImagePopupEmpty">
+        <object>(Пусто)</object>
+      </resource>
+      <resource name="ImagePopupPicture">
+        <object>(Рисунок)</object>
+      </resource>
+      <resource name="ColorTabCustom">
+        <object>Настроить</object>
+      </resource>
+      <resource name="ColorTabWeb">
+        <object>Веб</object>
+      </resource>
+      <resource name="ColorTabSystem">
+        <object>Система</object>
+      </resource>
+      <resource name="CalcButtonMC">
+        <object>MC</object>
+      </resource>
+      <resource name="CalcButtonMR">
+        <object>MR</object>
+      </resource>
+      <resource name="CalcButtonMS">
+        <object>MS</object>
+      </resource>
+      <resource name="CalcButtonMx">
+        <object>M+</object>
+      </resource>
+      <resource name="CalcButtonSqrt">
+        <object>ср. кв.</object>
+      </resource>
+      <resource name="CalcButtonBack">
+        <object>Назад</object>
+      </resource>
+      <resource name="CalcButtonCE">
+        <object>CE</object>
+      </resource>
+      <resource name="CalcButtonC">
+        <object>C</object>
+      </resource>
+      <resource name="CalcError">
+        <object>Ошибка расчета</object>
+      </resource>
+      <resource name="TabHeaderButtonPrev">
+        <object>Прокрутка влево</object>
+      </resource>
+      <resource name="TabHeaderButtonNext">
+        <object>Прокрутка вправо</object>
+      </resource>
+      <resource name="TabHeaderButtonClose">
+        <object>Закрыть</object>
+      </resource>
+      <resource name="XtraMessageBoxOkButtonText">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="XtraMessageBoxCancelButtonText">
+        <object>&amp;Отмена</object>
+      </resource>
+      <resource name="XtraMessageBoxYesButtonText">
+        <object>&amp;Да</object>
+      </resource>
+      <resource name="XtraMessageBoxNoButtonText">
+        <object>&amp;Нет</object>
+      </resource>
+      <resource name="XtraMessageBoxAbortButtonText">
+        <object>&amp;Прервать</object>
+      </resource>
+      <resource name="XtraMessageBoxRetryButtonText">
+        <object>&amp;Повторить</object>
+      </resource>
+      <resource name="XtraMessageBoxIgnoreButtonText">
+        <object>&amp;Пропустить</object>
+      </resource>
+      <resource name="TextEditMenuUndo">
+        <object>&amp;Отменить</object>
+      </resource>
+      <resource name="TextEditMenuCut">
+        <object>Выреза&amp;ть</object>
+      </resource>
+      <resource name="TextEditMenuCopy">
+        <object>&amp;Копировать</object>
+      </resource>
+      <resource name="TextEditMenuPaste">
+        <object>&amp;Вставить</object>
+      </resource>
+      <resource name="TextEditMenuDelete">
+        <object>&amp;Удалить</object>
+      </resource>
+      <resource name="TextEditMenuSelectAll">
+        <object>Выделить &amp;все</object>
+      </resource>
+      <resource name="FilterGroupAnd">
+        <object>И</object>
+      </resource>
+      <resource name="FilterGroupNotAnd">
+        <object>Не-И</object>
+      </resource>
+      <resource name="FilterGroupNotOr">
+        <object>Не-Или</object>
+      </resource>
+      <resource name="FilterGroupOr">
+        <object>Или</object>
+      </resource>
+      <resource name="FilterClauseAnyOf">
+        <object>Любой из</object>
+      </resource>
+      <resource name="FilterClauseBeginsWith">
+        <object>Начиная с</object>
+      </resource>
+      <resource name="FilterClauseBetween">
+        <object>Между</object>
+      </resource>
+      <resource name="FilterClauseBetweenAnd">
+        <object>и</object>
+      </resource>
+      <resource name="FilterClauseContains">
+        <object>Содержит</object>
+      </resource>
+      <resource name="FilterClauseEndsWith">
+        <object>Заканчивается</object>
+      </resource>
+      <resource name="FilterClauseEquals">
+        <object>Равно</object>
+      </resource>
+      <resource name="FilterClauseGreater">
+        <object>Больше</object>
+      </resource>
+      <resource name="FilterClauseGreaterOrEqual">
+        <object>Больше или равно</object>
+      </resource>
+      <resource name="FilterClauseIsNotNull">
+        <object>Не пустой</object>
+      </resource>
+      <resource name="FilterClauseIsNull">
+        <object>Пустой</object>
+      </resource>
+      <resource name="FilterClauseLess">
+        <object>Меньше</object>
+      </resource>
+      <resource name="FilterClauseLessOrEqual">
+        <object>Меньше или равно</object>
+      </resource>
+      <resource name="FilterClauseLike">
+        <object>Одинаковый</object>
+      </resource>
+      <resource name="FilterClauseNoneOf">
+        <object>Ни один из</object>
+      </resource>
+      <resource name="FilterClauseNotBetween">
+        <object>Не между</object>
+      </resource>
+      <resource name="FilterClauseDoesNotContain">
+        <object>Не содержит</object>
+      </resource>
+      <resource name="FilterClauseDoesNotEqual">
+        <object>Не равно</object>
+      </resource>
+      <resource name="FilterClauseNotLike">
+        <object>Не одинаковый</object>
+      </resource>
+      <resource name="FilterEmptyEnter">
+        <object>&lt;введите значение&gt;</object>
+      </resource>
+      <resource name="FilterEmptyValue">
+        <object>&lt;пустое&gt;</object>
+      </resource>
+      <resource name="FilterMenuConditionAdd">
+        <object>Добавить условие</object>
+      </resource>
+      <resource name="FilterMenuGroupAdd">
+        <object>Добавить группу</object>
+      </resource>
+      <resource name="FilterMenuClearAll">
+        <object>Очистить все</object>
+      </resource>
+      <resource name="FilterMenuRowRemove">
+        <object>Удалить группу</object>
+      </resource>
+      <resource name="FilterToolTipNodeAdd">
+        <object>Добавление нового условия к этой группе.</object>
+      </resource>
+      <resource name="FilterToolTipNodeRemove">
+        <object>Удаление этого условия.</object>
+      </resource>
+      <resource name="FilterToolTipNodeAction">
+        <object>Действия.</object>
+      </resource>
+      <resource name="FilterToolTipValueType">
+        <object>Сравните со значением / другим значением поля.</object>
+      </resource>
+      <resource name="FilterToolTipElementAdd">
+        <object>Добавление нового пункта в список.</object>
+      </resource>
+      <resource name="FilterToolTipKeysAdd">
+        <object>(Используйте клавишу Вставить или Добавить)</object>
+      </resource>
+      <resource name="FilterToolTipKeysRemove">
+        <object>(Используйте клавишу Удалить или Вычесть)</object>
+      </resource>
+      <resource name="ContainerAccessibleEditName">
+        <object>Элемент управления правкой</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsGridLocalizer" ServiceOnly="false">
+      <resource name="FileIsNotFoundError">
+        <object>Файл {0} не найден</object>
+      </resource>
+      <resource name="ColumnViewExceptionMessage">
+        <object> Откорректировать значение?</object>
+      </resource>
+      <resource name="CustomizationCaption">
+        <object>Настройка</object>
+      </resource>
+      <resource name="CustomizationColumns">
+        <object>Столбцы</object>
+      </resource>
+      <resource name="CustomizationBands">
+        <object>Диапазоны</object>
+      </resource>
+      <resource name="FilterPanelCustomizeButton">
+        <object>Изменить фильтр</object>
+      </resource>
+      <resource name="PopupFilterAll">
+        <object>(Все)</object>
+      </resource>
+      <resource name="PopupFilterCustom">
+        <object>(Пользовательский)</object>
+      </resource>
+      <resource name="PopupFilterBlanks">
+        <object>(Пустые)</object>
+      </resource>
+      <resource name="PopupFilterNonBlanks">
+        <object>(Не пустые)</object>
+      </resource>
+      <resource name="CustomFilterDialogFormCaption">
+        <object>Настройка автофильтра</object>
+      </resource>
+      <resource name="CustomFilterDialogCaption">
+        <object>Показать строки, где:</object>
+      </resource>
+      <resource name="CustomFilterDialogRadioAnd">
+        <object>&amp;И</object>
+      </resource>
+      <resource name="CustomFilterDialogRadioOr">
+        <object>&amp;Или</object>
+      </resource>
+      <resource name="CustomFilterDialogOkButton">
+        <object>&amp;OK</object>
+      </resource>
+      <resource name="CustomFilterDialogClearFilter">
+        <object>О&amp;чистить фильтр</object>
+      </resource>
+      <resource name="CustomFilterDialog2FieldCheck">
+        <object>Поле</object>
+      </resource>
+      <resource name="CustomFilterDialogCancelButton">
+        <object>&amp;Отмена</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionEQU">
+        <object>равно</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionNEQ">
+        <object>не равно</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionGT">
+        <object>больше</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionGTE">
+        <object>больше или равно</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionLT">
+        <object>меньше</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionLTE">
+        <object>меньше или равно</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionBlanks">
+        <object>пустые</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionNonBlanks">
+        <object>не пустые</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionLike">
+        <object>одинаковый</object>
+      </resource>
+      <resource name="CustomFilterDialogConditionNotLike">
+        <object>не одинаковый</object>
+      </resource>
+      <resource name="MenuFooterSum">
+        <object>Сумма</object>
+      </resource>
+      <resource name="MenuFooterMin">
+        <object>Мин.</object>
+      </resource>
+      <resource name="MenuFooterMax">
+        <object>Макс.</object>
+      </resource>
+      <resource name="MenuFooterCount">
+        <object>Число</object>
+      </resource>
+      <resource name="MenuFooterAverage">
+        <object>Среднее значение</object>
+      </resource>
+      <resource name="MenuFooterNone">
+        <object>Нет</object>
+      </resource>
+      <resource name="MenuFooterSumFormat">
+        <object>СУММ={0:#.##}</object>
+      </resource>
+      <resource name="MenuFooterMinFormat">
+        <object>МИН={0}</object>
+      </resource>
+      <resource name="MenuFooterMaxFormat">
+        <object>МАКС={0}</object>
+      </resource>
+      <resource name="MenuFooterCountFormat">
+        <object>{0}</object>
+      </resource>
+      <resource name="MenuFooterAverageFormat">
+        <object>СРЕД={0:#.##}</object>
+      </resource>
+      <resource name="MenuColumnSortAscending">
+        <object>Сортировать по возрастанию</object>
+      </resource>
+      <resource name="MenuColumnSortDescending">
+        <object>Сортировать по убыванию</object>
+      </resource>
+      <resource name="MenuColumnGroup">
+        <object>Группировать по этому столбцу</object>
+      </resource>
+      <resource name="MenuColumnUnGroup">
+        <object>Разгруппировать</object>
+      </resource>
+      <resource name="MenuColumnColumnCustomization">
+        <object>Выбор столбца</object>
+      </resource>
+      <resource name="MenuColumnBestFit">
+        <object>Точно</object>
+      </resource>
+      <resource name="MenuColumnFilter">
+        <object>Остановить фильтр</object>
+      </resource>
+      <resource name="MenuColumnClearFilter">
+        <object>Очистить фильтр</object>
+      </resource>
+      <resource name="MenuColumnBestFitAllColumns">
+        <object>Точно (все столбцы)</object>
+      </resource>
+      <resource name="MenuGroupPanelFullExpand">
+        <object>Полностью развернуть</object>
+      </resource>
+      <resource name="MenuGroupPanelFullCollapse">
+        <object>Полностью свернуть</object>
+      </resource>
+      <resource name="MenuGroupPanelClearGrouping">
+        <object>Очистить группировку</object>
+      </resource>
+      <resource name="PrintDesignerGridView">
+        <object>Параметры печати (табличное представление)</object>
+      </resource>
+      <resource name="PrintDesignerCardView">
+        <object>Параметры печати (представление в виде карточки)</object>
+      </resource>
+      <resource name="PrintDesignerBandedView">
+        <object>Параметры печати (представление с окаймление)</object>
+      </resource>
+      <resource name="PrintDesignerBandHeader">
+        <object>ДиапазонЗаголовок</object>
+      </resource>
+      <resource name="MenuColumnGroupBox">
+        <object>Область группировки</object>
+      </resource>
+      <resource name="CardViewNewCard">
+        <object>Новая карточка</object>
+      </resource>
+      <resource name="CardViewQuickCustomizationButton">
+        <object>Настроить</object>
+      </resource>
+      <resource name="CardViewQuickCustomizationButtonFilter">
+        <object>Фильтр</object>
+      </resource>
+      <resource name="CardViewQuickCustomizationButtonSort">
+        <object>Сортировать:</object>
+      </resource>
+      <resource name="GridGroupPanelText">
+        <object>Чтобы сгруппировать по этому столбцу, перетащите сюда заголовок</object>
+      </resource>
+      <resource name="GridNewRowText">
+        <object>Щелкните здесь, чтобы добавить новую строку</object>
+      </resource>
+      <resource name="GridOutlookIntervals">
+        <object>Более ранние;Прошлый месяц;В начале месяца;Три недели назад;Две недели назад;На прошлой неделе;;;;;;;;Вчера;Сегодня;Завтра;;;;;;;;На следующей неделе;Через две недели;Через три недели;Позже в этом месяце;В следующем месяце;Через месяц;</object>
+      </resource>
+      <resource name="PrintDesignerDescription">
+        <object>Настройка различных параметров печати для текущего представления.</object>
+      </resource>
+      <resource name="MenuFooterCustomFormat">
+        <object>Настройка={0}</object>
+      </resource>
+      <resource name="MenuFooterCountGroupFormat">
+        <object>Счет={0}</object>
+      </resource>
+      <resource name="MenuColumnClearSorting">
+        <object>Очистить сортировку</object>
+      </resource>
+      <resource name="MenuColumnFilterEditor">
+        <object>Редактор фильтров</object>
+      </resource>
+      <resource name="FilterBuilderOkButton">
+        <object>ОК</object>
+      </resource>
+      <resource name="FilterBuilderCancelButton">
+        <object>Отмена</object>
+      </resource>
+      <resource name="FilterBuilderApplyButton">
+        <object>Применить</object>
+      </resource>
+      <resource name="FilterBuilderCaption">
+        <object>Редактор фильтров</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsNavBarLocalizer" ServiceOnly="false">
+      <resource name="NavPaneMenuShowMoreButtons">
+        <object>Показать &amp;другие кнопки</object>
+      </resource>
+      <resource name="NavPaneMenuShowFewerButtons">
+        <object>Показать &amp;несколько кнопок</object>
+      </resource>
+      <resource name="NavPaneMenuAddRemoveButtons">
+        <object>&amp;Добавить или удалить кнопки</object>
+      </resource>
+      <resource name="NavPaneChevronHint">
+        <object>Настройте кнопки</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsReportLocalizer" ServiceOnly="false">
+      <resource name="Msg_FileNotFound">
+        <object>Файл не найден.</object>
+      </resource>
+      <resource name="Msg_WrongReportClassName">
+        <object>Ошибка произошла во время десериализации – возможно, неверное имя класса отчета</object>
+      </resource>
+      <resource name="Msg_CreateReportInstance">
+        <object>Тип редактируемого в данный момент отчета отличается от типа отчета, который вы пытаетесь открыть. &lt;br/&gt;Открыть выбранный отчет?</object>
+      </resource>
+      <resource name="Msg_FileCorrupted">
+        <object>Невозможно загрузить отчет. Возможно, файл поврежден, или отсутствует сборка отчета.</object>
+      </resource>
+      <resource name="Msg_FileContentCorrupted">
+        <object>Невозможно загрузить макет отчета. Возможно файл поврежден или содержит неверную информацию.</object>
+      </resource>
+      <resource name="Msg_IncorrectArgument">
+        <object>Неверное значение аргумента</object>
+      </resource>
+      <resource name="Msg_InvalidMethodCall">
+        <object>Вызов этого метода недопустим для текущего состояния объекта</object>
+      </resource>
+      <resource name="Msg_ScriptError">
+        <object>
+					В сценариях содержатся следующие ошибки:
+					{0}
+				</object>
+      </resource>
+      <resource name="Msg_ScriptExecutionError">
+        <object>
+					Следующая ошибка произошла, когда сценарий в процедуре {0}:
+					{1}
+					Процедура {0} была выполнена, она не будет опять вызываться.
+				</object>
+      </resource>
+      <resource name="Msg_InvalidReportSource">
+        <object>Невозможно установить потомка текущего отчета</object>
+      </resource>
+      <resource name="Msg_IncorrectBandType">
+        <object>Неверный тип диапазона</object>
+      </resource>
+      <resource name="Msg_InvPropName">
+        <object>Неверное имя свойства</object>
+      </resource>
+      <resource name="Msg_CantFitBarcodeToControlBounds">
+        <object>Границы элемента управления слишком малы для штрих-кода</object>
+      </resource>
+      <resource name="Msg_InvalidBarcodeText">
+        <object>В тексте имеются неправильные символы</object>
+      </resource>
+      <resource name="Msg_InvalidBarcodeTextFormat">
+        <object>Неправильный формат текста</object>
+      </resource>
+      <resource name="Msg_CreateSomeInstance">
+        <object>Невозможно создать в форме два экземпляра класса</object>
+      </resource>
+      <resource name="Msg_DontSupportMulticolumn">
+        <object>Подробные отчеты не поддерживают несколько столбцов.</object>
+      </resource>
+      <resource name="Msg_FillDataError">
+        <object>Ошибка при попытке заполнить источник данных. Произошло следующее исключение:</object>
+      </resource>
+      <resource name="Msg_CyclicBoormarks">
+        <object>В отчете имеются циклические закладки.</object>
+      </resource>
+      <resource name="Msg_LargeText">
+        <object>Текст слишком большой.</object>
+      </resource>
+      <resource name="Msg_ScriptingPermissionErrorMessage">
+        <object>
+					У вас отсутствуют достаточные права на выполнение сценариев в этом отчете.
+
+					Подробные сведения:
+
+					{0}
+				</object>
+      </resource>
+      <resource name="Msg_ReportImporting">
+        <object>Импорт макета отчета. Подождите...</object>
+      </resource>
+      <resource name="Msg_IncorrectPadding">
+        <object>Отступ должен быть больше или равен 0.</object>
+      </resource>
+      <resource name="Msg_WarningControlsAreOverlapped">
+        <object>Предупреждение для экспорта: Следующие элементы управления частично перекрываются и могут быть экспортированы в HTML, XLS и RTF неправильно ({0}).</object>
+      </resource>
+      <resource name="Msg_WarningControlsAreOutOfMargin">
+        <object>Предупреждение для печати: Следующие элементы управления выходят за пределы правого поля страницы, и это может привести к печати лишних страниц ({0}).</object>
+      </resource>
+      <resource name="Msg_ScriptingErrorTitle">
+        <object />
+      </resource>
+      <resource name="Msg_ErrorTitle">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="Msg_SerializationErrorTitle">
+        <object>Ошибка сериализации</object>
+      </resource>
+      <resource name="Cmd_InsertDetailReport">
+        <object>Вставьте подробный отчет</object>
+      </resource>
+      <resource name="Cmd_InsertUnboundDetailReport">
+        <object>Без привязки</object>
+      </resource>
+      <resource name="Cmd_ViewCode">
+        <object>Просмотреть &amp;код</object>
+      </resource>
+      <resource name="Cmd_BringToFront">
+        <object>&amp;На передний план</object>
+      </resource>
+      <resource name="Cmd_SendToBack">
+        <object>&amp;На задний план</object>
+      </resource>
+      <resource name="Cmd_AlignToGrid">
+        <object>Выровнять &amp;по сетке</object>
+      </resource>
+      <resource name="Cmd_TopMargin">
+        <object>ВерхнееПоле</object>
+      </resource>
+      <resource name="Cmd_BottomMargin">
+        <object>НижнееПоле</object>
+      </resource>
+      <resource name="Cmd_ReportHeader">
+        <object>ЗаголовокОтчета</object>
+      </resource>
+      <resource name="Cmd_ReportFooter">
+        <object>Нижний колонтитул отчета</object>
+      </resource>
+      <resource name="Cmd_PageHeader">
+        <object>ЗаголовокСтраницы</object>
+      </resource>
+      <resource name="Cmd_PageFooter">
+        <object>Нижний колонтитул страницы</object>
+      </resource>
+      <resource name="Cmd_GroupHeader">
+        <object>ЗаголовокГруппы</object>
+      </resource>
+      <resource name="Cmd_GroupFooter">
+        <object>Нижний колонтитул группы</object>
+      </resource>
+      <resource name="Cmd_Detail">
+        <object>Сведения</object>
+      </resource>
+      <resource name="Cmd_DetailReport">
+        <object>ПодробныйОтчет</object>
+      </resource>
+      <resource name="Cmd_RtfClear">
+        <object>Очистить</object>
+      </resource>
+      <resource name="Cmd_RtfLoad">
+        <object>Загрузить файл...</object>
+      </resource>
+      <resource name="Cmd_TableInsert">
+        <object>&amp;Вставить</object>
+      </resource>
+      <resource name="Cmd_TableInsertRowAbove">
+        <object>Строка &amp;вверху</object>
+      </resource>
+      <resource name="Cmd_TableInsertRowBelow">
+        <object>Строка &amp;внизу</object>
+      </resource>
+      <resource name="Cmd_TableInsertColumnToLeft">
+        <object>Столбец &amp;слева</object>
+      </resource>
+      <resource name="Cmd_TableInsertColumnToRight">
+        <object>Столбец &amp;справа</object>
+      </resource>
+      <resource name="Cmd_TableInsertCell">
+        <object>&amp;Ячейка</object>
+      </resource>
+      <resource name="Cmd_TableDelete">
+        <object>&amp;Удалить</object>
+      </resource>
+      <resource name="Cmd_TableDeleteRow">
+        <object>&amp;Строка</object>
+      </resource>
+      <resource name="Cmd_TableDeleteColumn">
+        <object>С&amp;толбец</object>
+      </resource>
+      <resource name="Cmd_TableDeleteCell">
+        <object>Яч&amp;ейка</object>
+      </resource>
+      <resource name="Cmd_Cut">
+        <object>Выреза&amp;ть</object>
+      </resource>
+      <resource name="Cmd_Copy">
+        <object>Копиро&amp;вать</object>
+      </resource>
+      <resource name="Cmd_Paste">
+        <object>&amp;Вставить</object>
+      </resource>
+      <resource name="Cmd_Delete">
+        <object>&amp;Удалить</object>
+      </resource>
+      <resource name="Cmd_Properties">
+        <object>С&amp;войства</object>
+      </resource>
+      <resource name="Cmd_InsertBand">
+        <object>Вставить &amp;диапазон</object>
+      </resource>
+      <resource name="CatLayout">
+        <object>Макет</object>
+      </resource>
+      <resource name="CatAppearance">
+        <object>Вид</object>
+      </resource>
+      <resource name="CatData">
+        <object>Данные</object>
+      </resource>
+      <resource name="CatBehavior">
+        <object>Поведение</object>
+      </resource>
+      <resource name="CatNavigation">
+        <object>Переходы</object>
+      </resource>
+      <resource name="CatPageSettings">
+        <object>СтраницаПараметры</object>
+      </resource>
+      <resource name="CatUserDesigner">
+        <object>ПользовательКонструктор</object>
+      </resource>
+      <resource name="BandDsg_QuantityPerPage">
+        <object>одна полоса на страницу</object>
+      </resource>
+      <resource name="BandDsg_QuantityPerReport">
+        <object>одна полоса на отчет</object>
+      </resource>
+      <resource name="UD_ReportDesigner">
+        <object>Конструктор отчетов</object>
+      </resource>
+      <resource name="UD_Msg_ReportChanged">
+        <object>Отчет был изменен. Сохранить изменения?</object>
+      </resource>
+      <resource name="UD_TTip_FileOpen">
+        <object>Открыть файл</object>
+      </resource>
+      <resource name="UD_TTip_FileSave">
+        <object>Сохранить файл</object>
+      </resource>
+      <resource name="UD_TTip_EditCut">
+        <object>Вырезать</object>
+      </resource>
+      <resource name="UD_TTip_EditCopy">
+        <object>Копировать</object>
+      </resource>
+      <resource name="UD_TTip_EditPaste">
+        <object>Вставить</object>
+      </resource>
+      <resource name="UD_TTip_Undo">
+        <object>Отменить</object>
+      </resource>
+      <resource name="UD_TTip_Redo">
+        <object>Вернуть</object>
+      </resource>
+      <resource name="UD_TTip_AlignToGrid">
+        <object>Выровнять по сетке</object>
+      </resource>
+      <resource name="UD_TTip_AlignLeft">
+        <object>Выровнять по левому краю</object>
+      </resource>
+      <resource name="UD_TTip_AlignVerticalCenters">
+        <object>Выровнять по центру</object>
+      </resource>
+      <resource name="UD_TTip_AlignRight">
+        <object>Выровнять по правому краю</object>
+      </resource>
+      <resource name="UD_TTip_AlignTop">
+        <object>Выровнять по верхнему краю</object>
+      </resource>
+      <resource name="UD_TTip_AlignHorizontalCenters">
+        <object>Выровнять по середине</object>
+      </resource>
+      <resource name="UD_TTip_AlignBottom">
+        <object>Выровнять по нижнему краю</object>
+      </resource>
+      <resource name="UD_TTip_SizeToControlWidth">
+        <object>Сделать одинаковыми по ширине</object>
+      </resource>
+      <resource name="UD_TTip_SizeToGrid">
+        <object>Выровнять размер по сетке</object>
+      </resource>
+      <resource name="UD_TTip_SizeToControlHeight">
+        <object>Сделать одинаковыми по высоте</object>
+      </resource>
+      <resource name="UD_TTip_SizeToControl">
+        <object>Сделать одинаковыми по размеру</object>
+      </resource>
+      <resource name="UD_TTip_HorizSpaceMakeEqual">
+        <object>Сделать интервалы по горизонтали равными</object>
+      </resource>
+      <resource name="UD_TTip_HorizSpaceIncrease">
+        <object>Увеличить интервал по горизонтали</object>
+      </resource>
+      <resource name="UD_TTip_HorizSpaceDecrease">
+        <object>Уменьшить интервал по горизонтали</object>
+      </resource>
+      <resource name="UD_TTip_HorizSpaceConcatenate">
+        <object>Удалить интервал по горизонтали</object>
+      </resource>
+      <resource name="UD_TTip_VertSpaceMakeEqual">
+        <object>Сделать интервалы по вертикали равными</object>
+      </resource>
+      <resource name="UD_TTip_VertSpaceIncrease">
+        <object>Увеличить интервал по вертикали</object>
+      </resource>
+      <resource name="UD_TTip_VertSpaceDecrease">
+        <object>Уменьшить интервал по вертикали</object>
+      </resource>
+      <resource name="UD_TTip_VertSpaceConcatenate">
+        <object>Удалить интервал по вертикали</object>
+      </resource>
+      <resource name="UD_TTip_CenterHorizontally">
+        <object>Центрировать по горизонтали</object>
+      </resource>
+      <resource name="UD_TTip_CenterVertically">
+        <object>Центрировать по вертикали</object>
+      </resource>
+      <resource name="UD_TTip_BringToFront">
+        <object>На передний план</object>
+      </resource>
+      <resource name="UD_TTip_SendToBack">
+        <object>На задний план</object>
+      </resource>
+      <resource name="UD_TTip_FormatBold">
+        <object>Полужирный</object>
+      </resource>
+      <resource name="UD_TTip_FormatItalic">
+        <object>Курсив</object>
+      </resource>
+      <resource name="UD_TTip_FormatUnderline">
+        <object>Подчеркнутый</object>
+      </resource>
+      <resource name="UD_TTip_FormatAlignLeft">
+        <object>По левому краю</object>
+      </resource>
+      <resource name="UD_TTip_FormatCenter">
+        <object>Центр</object>
+      </resource>
+      <resource name="UD_TTip_FormatAlignRight">
+        <object>По правому краю</object>
+      </resource>
+      <resource name="UD_TTip_FormatFontName">
+        <object>Имя шрифт</object>
+      </resource>
+      <resource name="UD_TTip_FormatFontSize">
+        <object>Размер шрифта</object>
+      </resource>
+      <resource name="UD_TTip_FormatForeColor">
+        <object>Цвет переднего плана</object>
+      </resource>
+      <resource name="UD_TTip_FormatBackColor">
+        <object>Цвет фона</object>
+      </resource>
+      <resource name="UD_TTip_FormatJustify">
+        <object>Выровнять по размеру</object>
+      </resource>
+      <resource name="UD_FormCaption">
+        <object>Конструктор отчетов</object>
+      </resource>
+      <resource name="VS_XtraReportsToolboxCategoryName">
+        <object>Экспресс-разработчик: отчеты</object>
+      </resource>
+      <resource name="UD_XtraReportsToolboxCategoryName">
+        <object>Стандартные элементы управления</object>
+      </resource>
+      <resource name="UD_XtraReportsPointerItemCaption">
+        <object>Указатель</object>
+      </resource>
+      <resource name="Verb_EditBands">
+        <object>Изменить диапазоны...</object>
+      </resource>
+      <resource name="Verb_EditGroupFields">
+        <object>Изменить ПоляГрупп...</object>
+      </resource>
+      <resource name="Verb_Import">
+        <object>Импорт...</object>
+      </resource>
+      <resource name="Verb_Save">
+        <object>Сохранить...</object>
+      </resource>
+      <resource name="Verb_About">
+        <object>О программе...</object>
+      </resource>
+      <resource name="Verb_RTFClear">
+        <object>Очистить</object>
+      </resource>
+      <resource name="Verb_RTFLoad">
+        <object>Загрузить файл...</object>
+      </resource>
+      <resource name="Verb_FormatString">
+        <object>ФорматСтрока...</object>
+      </resource>
+      <resource name="Verb_SummaryWizard">
+        <object>Сводка...</object>
+      </resource>
+      <resource name="Verb_ReportWizard">
+        <object>Настроить отчет с помощью Мастера</object>
+      </resource>
+      <resource name="Verb_Insert">
+        <object>Вставить...</object>
+      </resource>
+      <resource name="Verb_Delete">
+        <object>Удалить...</object>
+      </resource>
+      <resource name="Verb_Bind">
+        <object>Привязка</object>
+      </resource>
+      <resource name="Verb_EditText">
+        <object>Изменить текст</object>
+      </resource>
+      <resource name="FSForm_Lbl_Category">
+        <object>Категория </object>
+      </resource>
+      <resource name="FSForm_Lbl_Prefix">
+        <object>Префикс</object>
+      </resource>
+      <resource name="FSForm_Lbl_Suffix">
+        <object>Суффикс</object>
+      </resource>
+      <resource name="FSForm_Lbl_CustomGeneral">
+        <object>В общем формате отсутствует конкретный числовой формат</object>
+      </resource>
+      <resource name="FSForm_GrBox_Sample">
+        <object>Пример</object>
+      </resource>
+      <resource name="FSForm_Tab_StandardTypes">
+        <object>Стандартные типы</object>
+      </resource>
+      <resource name="FSForm_Tab_Custom">
+        <object>Настроить</object>
+      </resource>
+      <resource name="FSForm_Msg_BadSymbol">
+        <object>Неправильный символ</object>
+      </resource>
+      <resource name="FSForm_Btn_Delete">
+        <object>Удалить</object>
+      </resource>
+      <resource name="BCForm_Lbl_Property">
+        <object>Свойство</object>
+      </resource>
+      <resource name="BCForm_Lbl_Binding">
+        <object>Связывание</object>
+      </resource>
+      <resource name="SSForm_Caption">
+        <object>Редактор стилей</object>
+      </resource>
+      <resource name="SSForm_Btn_Close">
+        <object>Закрыть</object>
+      </resource>
+      <resource name="SSForm_Msg_NoStyleSelected">
+        <object>Стили не выбраны</object>
+      </resource>
+      <resource name="SSForm_Msg_MoreThanOneStyle">
+        <object>Выбрано более одного стиля</object>
+      </resource>
+      <resource name="SSForm_Msg_SelectedStylesText">
+        <object> выбранные стили...</object>
+      </resource>
+      <resource name="SSForm_Msg_StyleSheetError">
+        <object>Ошибка таблицы стилей</object>
+      </resource>
+      <resource name="SSForm_Msg_InvalidFileFormat">
+        <object>Неправильный формат файла</object>
+      </resource>
+      <resource name="SSForm_Msg_StyleNamePreviewPostfix">
+        <object> стиль</object>
+      </resource>
+      <resource name="SSForm_Msg_FileFilter">
+        <object>Файлы отчетов с таблицами стилей (*.repss)|*.repss|Все файлы (*.*)|*.*</object>
+      </resource>
+      <resource name="SSForm_TTip_AddStyle">
+        <object>Добавить стиль</object>
+      </resource>
+      <resource name="SSForm_TTip_RemoveStyle">
+        <object>Удалить стиль</object>
+      </resource>
+      <resource name="SSForm_TTip_ClearStyles">
+        <object>Очистить стили</object>
+      </resource>
+      <resource name="SSForm_TTip_PurgeStyles">
+        <object>Удалить неиспользуемые стили</object>
+      </resource>
+      <resource name="SSForm_TTip_SaveStyles">
+        <object>Сохранить стили в файл</object>
+      </resource>
+      <resource name="SSForm_TTip_LoadStyles">
+        <object>Загрузить стили из файла</object>
+      </resource>
+      <resource name="FindForm_Msg_FinishedSearching">
+        <object>Завершен поиск по документу</object>
+      </resource>
+      <resource name="FindForm_Msg_TotalFound">
+        <object>Всего найдено: </object>
+      </resource>
+      <resource name="RepTabCtl_HtmlView">
+        <object>Представление HTML</object>
+      </resource>
+      <resource name="RepTabCtl_Preview">
+        <object>Предварительный просмотр</object>
+      </resource>
+      <resource name="RepTabCtl_Designer">
+        <object>Конструктор</object>
+      </resource>
+      <resource name="PanelDesignMsg">
+        <object>Расположите элементы управления здесь, чтобы поместить их подряд</object>
+      </resource>
+      <resource name="MultiColumnDesignMsg1">
+        <object>Пространство для повторяющихся столбцов.</object>
+      </resource>
+      <resource name="MultiColumnDesignMsg2">
+        <object>Расположенные здесь элементы управления будут распечатаны неправильно.</object>
+      </resource>
+      <resource name="UD_Group_File">
+        <object>&amp;Файл</object>
+      </resource>
+      <resource name="UD_Group_Edit">
+        <object>&amp;Правка</object>
+      </resource>
+      <resource name="UD_Group_View">
+        <object>&amp;Вид</object>
+      </resource>
+      <resource name="UD_Group_Format">
+        <object>Фо&amp;рмат</object>
+      </resource>
+      <resource name="UD_Group_Font">
+        <object>&amp;Шрифт</object>
+      </resource>
+      <resource name="UD_Group_Justify">
+        <object>&amp;Выровнять по размеру</object>
+      </resource>
+      <resource name="UD_Group_Align">
+        <object>&amp;По ширине</object>
+      </resource>
+      <resource name="UD_Group_MakeSameSize">
+        <object>&amp;Сделать одинаковыми по размеру</object>
+      </resource>
+      <resource name="UD_Group_HorizontalSpacing">
+        <object>&amp;Интервал по горизонтали</object>
+      </resource>
+      <resource name="UD_Group_VerticalSpacing">
+        <object>&amp;Интервал по вертикали</object>
+      </resource>
+      <resource name="UD_Group_CenterInForm">
+        <object>&amp;По центру формы</object>
+      </resource>
+      <resource name="UD_Group_Order">
+        <object>&amp;Порядок</object>
+      </resource>
+      <resource name="UD_Group_ToolbarsList">
+        <object>&amp;Панели инструментов</object>
+      </resource>
+      <resource name="UD_Group_DockPanelsList">
+        <object>&amp;Windows</object>
+      </resource>
+      <resource name="UD_Capt_MainMenuName">
+        <object>Главное меню</object>
+      </resource>
+      <resource name="UD_Capt_ToolbarName">
+        <object>Главная панель инструментов</object>
+      </resource>
+      <resource name="UD_Capt_LayoutToolbarName">
+        <object>Панель инструментов «Макет»</object>
+      </resource>
+      <resource name="UD_Capt_FormattingToolbarName">
+        <object>Панель форматирования</object>
+      </resource>
+      <resource name="UD_Capt_StatusBarName">
+        <object>Строка состояния</object>
+      </resource>
+      <resource name="UD_Capt_NewReport">
+        <object>&amp;Создать</object>
+      </resource>
+      <resource name="UD_Capt_NewWizardReport">
+        <object>Создать с помощью &amp;Мастера...</object>
+      </resource>
+      <resource name="UD_Capt_OpenFile">
+        <object>&amp;Открыть...</object>
+      </resource>
+      <resource name="UD_Capt_SaveFile">
+        <object>&amp;Сохранить</object>
+      </resource>
+      <resource name="UD_Capt_SaveFileAs">
+        <object>Сохранить &amp;как...</object>
+      </resource>
+      <resource name="UD_Capt_Exit">
+        <object>В&amp;ыход</object>
+      </resource>
+      <resource name="UD_Capt_Cut">
+        <object>Выреза&amp;ть</object>
+      </resource>
+      <resource name="UD_Capt_Copy">
+        <object>&amp;Копировать</object>
+      </resource>
+      <resource name="UD_Capt_Paste">
+        <object>&amp;Вставить</object>
+      </resource>
+      <resource name="UD_Capt_Delete">
+        <object>&amp;Удалить</object>
+      </resource>
+      <resource name="UD_Capt_SelectAll">
+        <object>Выделить &amp;все</object>
+      </resource>
+      <resource name="UD_Capt_Undo">
+        <object>&amp;Отменить</object>
+      </resource>
+      <resource name="UD_Capt_Redo">
+        <object>&amp;Вернуть</object>
+      </resource>
+      <resource name="UD_Capt_ForegroundColor">
+        <object>Цвет &amp;переднего плана</object>
+      </resource>
+      <resource name="UD_Capt_BackGroundColor">
+        <object>Цвет &amp;фона</object>
+      </resource>
+      <resource name="UD_Capt_FontBold">
+        <object>&amp;Полужирный</object>
+      </resource>
+      <resource name="UD_Capt_FontItalic">
+        <object>&amp;Курсив</object>
+      </resource>
+      <resource name="UD_Capt_FontUnderline">
+        <object>&amp;Подчеркнутый</object>
+      </resource>
+      <resource name="UD_Capt_JustifyLeft">
+        <object>&amp;Левый</object>
+      </resource>
+      <resource name="UD_Capt_JustifyCenter">
+        <object>&amp;Центр</object>
+      </resource>
+      <resource name="UD_Capt_JustifyRight">
+        <object>&amp;Правый</object>
+      </resource>
+      <resource name="UD_Capt_JustifyJustify">
+        <object>&amp;Выровнять по ширине</object>
+      </resource>
+      <resource name="UD_Capt_AlignLefts">
+        <object>&amp;По левому краю</object>
+      </resource>
+      <resource name="UD_Capt_AlignCenters">
+        <object>&amp;По центру</object>
+      </resource>
+      <resource name="UD_Capt_AlignRights">
+        <object>&amp;По правому краю</object>
+      </resource>
+      <resource name="UD_Capt_AlignTops">
+        <object>&amp;По верхнему краю</object>
+      </resource>
+      <resource name="UD_Capt_AlignMiddles">
+        <object>&amp;По середине</object>
+      </resource>
+      <resource name="UD_Capt_AlignBottoms">
+        <object>&amp;По нижнему краю</object>
+      </resource>
+      <resource name="UD_Capt_AlignToGrid">
+        <object>по &amp;сетке</object>
+      </resource>
+      <resource name="UD_Capt_MakeSameSizeWidth">
+        <object>&amp;Ширина</object>
+      </resource>
+      <resource name="UD_Capt_MakeSameSizeSizeToGrid">
+        <object>Размер по &amp;сетке</object>
+      </resource>
+      <resource name="UD_Capt_MakeSameSizeHeight">
+        <object>&amp;Высота</object>
+      </resource>
+      <resource name="UD_Capt_MakeSameSizeBoth">
+        <object>&amp;И то, и другое</object>
+      </resource>
+      <resource name="UD_Capt_SpacingMakeEqual">
+        <object>Сделать &amp;равными</object>
+      </resource>
+      <resource name="UD_Capt_SpacingIncrease">
+        <object>&amp;Увеличить</object>
+      </resource>
+      <resource name="UD_Capt_SpacingDecrease">
+        <object>&amp;Уменьшить</object>
+      </resource>
+      <resource name="UD_Capt_SpacingRemove">
+        <object>&amp;Удалить</object>
+      </resource>
+      <resource name="UD_Capt_CenterInFormHorizontally">
+        <object>&amp;По горизонтали</object>
+      </resource>
+      <resource name="UD_Capt_CenterInFormVertically">
+        <object>&amp;По вертикали</object>
+      </resource>
+      <resource name="UD_Capt_OrderBringToFront">
+        <object>&amp;На передний план</object>
+      </resource>
+      <resource name="UD_Capt_OrderSendToBack">
+        <object>&amp;На задний план</object>
+      </resource>
+      <resource name="UD_Hint_NewReport">
+        <object>Создайте новый пустой отчет</object>
+      </resource>
+      <resource name="UD_Hint_NewWizardReport">
+        <object>Создайте новый отчет, используя Мастер</object>
+      </resource>
+      <resource name="UD_Hint_OpenFile">
+        <object>Откройте отчет</object>
+      </resource>
+      <resource name="UD_Hint_SaveFile">
+        <object>Сохраните отчет</object>
+      </resource>
+      <resource name="UD_Hint_SaveFileAs">
+        <object>Сохраните отчет с новым именем</object>
+      </resource>
+      <resource name="UD_Hint_Exit">
+        <object>Закройте режим конструктора</object>
+      </resource>
+      <resource name="UD_Hint_Cut">
+        <object>Удалите элемент управления и скопируйте его в буфер обмена</object>
+      </resource>
+      <resource name="UD_Hint_Copy">
+        <object>Скопируйте элемент управления в буфер обмена</object>
+      </resource>
+      <resource name="UD_Hint_Paste">
+        <object>Добавьте элемент управления из буфера обмена</object>
+      </resource>
+      <resource name="UD_Hint_Delete">
+        <object>Удалите элемент управления</object>
+      </resource>
+      <resource name="UD_Hint_SelectAll">
+        <object>Выделите все элементы управления в документе</object>
+      </resource>
+      <resource name="UD_Hint_Undo">
+        <object>Отмените последнюю операцию</object>
+      </resource>
+      <resource name="UD_Hint_Redo">
+        <object>Верните последнюю операцию</object>
+      </resource>
+      <resource name="UD_Hint_ForegroundColor">
+        <object>Задайте цвет переднего плана для элемента управления</object>
+      </resource>
+      <resource name="UD_Hint_BackGroundColor">
+        <object>Задайте цвет фона для элемента управления</object>
+      </resource>
+      <resource name="UD_Hint_FontBold">
+        <object>Установите полужирный шрифт</object>
+      </resource>
+      <resource name="UD_Hint_FontItalic">
+        <object>Установите курсивный шрифт</object>
+      </resource>
+      <resource name="UD_Hint_FontUnderline">
+        <object>Установите подчеркнутый шрифт</object>
+      </resource>
+      <resource name="UD_Hint_JustifyLeft">
+        <object>Выровняйте текст элемента управления по левому краю</object>
+      </resource>
+      <resource name="UD_Hint_JustifyCenter">
+        <object>Выровняйте текст элемента управления по центру</object>
+      </resource>
+      <resource name="UD_Hint_JustifyRight">
+        <object>Выровняйте текст элемента управления по правому краю</object>
+      </resource>
+      <resource name="UD_Hint_JustifyJustify">
+        <object>Выровняйте текст элемента управления по ширине</object>
+      </resource>
+      <resource name="UD_Hint_AlignLefts">
+        <object>Выровняйте выбранные элементы управления по левому краю</object>
+      </resource>
+      <resource name="UD_Hint_AlignCenters">
+        <object>Выровняйте центры выбранных элементов управления по вертикали</object>
+      </resource>
+      <resource name="UD_Hint_AlignRights">
+        <object>Выровняйте выбранные элементы управления по правому краю</object>
+      </resource>
+      <resource name="UD_Hint_AlignTops">
+        <object>Выровняйте верхние края выбранных элементов управления</object>
+      </resource>
+      <resource name="UD_Hint_AlignMiddles">
+        <object>Выровняйте центры выбранных элементов управления по горизонтали</object>
+      </resource>
+      <resource name="UD_Hint_AlignBottoms">
+        <object>Выровняйте нижние края выбранных элементов управления</object>
+      </resource>
+      <resource name="UD_Hint_AlignToGrid">
+        <object>Выровняйте положения выбранных элементов управления относительно сетки</object>
+      </resource>
+      <resource name="UD_Hint_MakeSameSizeWidth">
+        <object>Добейтесь, чтобы выбранные элементы управления имели одинаковую ширину</object>
+      </resource>
+      <resource name="UD_Hint_MakeSameSizeSizeToGrid">
+        <object>Измените размер выбранных элементов управления под размер сетки</object>
+      </resource>
+      <resource name="UD_Hint_MakeSameSizeHeight">
+        <object>Добейтесь, чтобы выбранные элементы управления имели одинаковую высоту</object>
+      </resource>
+      <resource name="UD_Hint_MakeSameSizeBoth">
+        <object>Добейтесь, чтобы выбранные элементы управления имели одинаковый размер</object>
+      </resource>
+      <resource name="UD_Hint_SpacingMakeEqual">
+        <object>Добейтесь, чтобы интервал между выбранными элементами управления был одинаковым</object>
+      </resource>
+      <resource name="UD_Hint_SpacingIncrease">
+        <object>Увеличьте интервал между выбранными элементами управления</object>
+      </resource>
+      <resource name="UD_Hint_SpacingDecrease">
+        <object>Уменьшите интервал между выбранными элементами управления</object>
+      </resource>
+      <resource name="UD_Hint_SpacingRemove">
+        <object>Удалите интервал между выбранными элементами управления</object>
+      </resource>
+      <resource name="UD_Hint_CenterInFormHorizontally">
+        <object>Отцентрируйте по горизонтали выбранные элементы управления в пределах диапазона</object>
+      </resource>
+      <resource name="UD_Hint_CenterInFormVertically">
+        <object>Отцентрируйте по вертикали выбранные элементы управления в пределах диапазона</object>
+      </resource>
+      <resource name="UD_Hint_OrderBringToFront">
+        <object>Вынесите выбранные элементы управления на передний план</object>
+      </resource>
+      <resource name="UD_Hint_OrderSendToBack">
+        <object>Переместите выбранные элементы управления на задний план</object>
+      </resource>
+      <resource name="UD_Hint_ViewBars">
+        <object>Скройте или покажите {0}</object>
+      </resource>
+      <resource name="UD_Hint_ViewDockPanels">
+        <object>Скройте или покажите окно {0}</object>
+      </resource>
+      <resource name="UD_Hint_ViewTabs">
+        <object>Переключитесь на вкладку {0}</object>
+      </resource>
+      <resource name="UD_Title_FieldList">
+        <object>Список полей</object>
+      </resource>
+      <resource name="UD_Title_ReportExplorer">
+        <object>Обозреватель отчетов</object>
+      </resource>
+      <resource name="UD_Title_PropertyGrid">
+        <object>Сетка свойств</object>
+      </resource>
+      <resource name="UD_Title_ToolBox">
+        <object>Набор инструментов</object>
+      </resource>
+      <resource name="STag_Name_Text">
+        <object>Текст</object>
+      </resource>
+      <resource name="STag_Name_DataBinding">
+        <object>Связывание данных</object>
+      </resource>
+      <resource name="STag_Name_FormatString">
+        <object>Строка форматирования</object>
+      </resource>
+      <resource name="STag_Name_ForeColor">
+        <object>Цвет текста</object>
+      </resource>
+      <resource name="STag_Name_BackColor">
+        <object>Цвет фона</object>
+      </resource>
+      <resource name="STag_Name_Font">
+        <object>Шрифт</object>
+      </resource>
+      <resource name="STag_Name_LineDirection">
+        <object>Направление линии</object>
+      </resource>
+      <resource name="STag_Name_LineStyle">
+        <object>Стиль линии</object>
+      </resource>
+      <resource name="STag_Name_LineWidth">
+        <object>Ширина линии</object>
+      </resource>
+      <resource name="STag_Name_CanGrow">
+        <object>Расширение</object>
+      </resource>
+      <resource name="STag_Name_CanShrink">
+        <object>Сжатие</object>
+      </resource>
+      <resource name="STag_Name_Multiline">
+        <object>Несколько линий</object>
+      </resource>
+      <resource name="STag_Name_Summary">
+        <object>Сводка</object>
+      </resource>
+      <resource name="STag_Name_Symbology">
+        <object>Символика</object>
+      </resource>
+      <resource name="STag_Name_Module">
+        <object>Модуль</object>
+      </resource>
+      <resource name="STag_Name_ShowText">
+        <object>Показать текст</object>
+      </resource>
+      <resource name="STag_Name_SegmentWidth">
+        <object>Ширина сегмента</object>
+      </resource>
+      <resource name="STag_Name_Checked">
+        <object>Проверка выполнена</object>
+      </resource>
+      <resource name="STag_Name_Image">
+        <object>Изображение</object>
+      </resource>
+      <resource name="STag_Name_ImageUrl">
+        <object>URL-адрес изображения</object>
+      </resource>
+      <resource name="STag_Name_ImageSizing">
+        <object>Изменение размера изображения</object>
+      </resource>
+      <resource name="STag_Name_ReportSource">
+        <object>Источник отчетов</object>
+      </resource>
+      <resource name="STag_Name_PreviewRowCount">
+        <object>Число строк предварительного просмотра</object>
+      </resource>
+      <resource name="STag_Name_ShrinkSubReportIconArea">
+        <object>Сжать область значка подчиненного отчета</object>
+      </resource>
+      <resource name="STag_Name_PageInfo">
+        <object>Сведения о странице</object>
+      </resource>
+      <resource name="STag_Name_StartPageNumber">
+        <object>Номер начальной страницы</object>
+      </resource>
+      <resource name="STag_Name_Format">
+        <object>Формат</object>
+      </resource>
+      <resource name="STag_Name_KeepTogether">
+        <object>Не разрывать</object>
+      </resource>
+      <resource name="STag_Name_Bands">
+        <object>Диапазоны</object>
+      </resource>
+      <resource name="STag_Name_Height">
+        <object>Высота</object>
+      </resource>
+      <resource name="STag_Name_RepeatEveryPage">
+        <object>Повторять на каждой странице</object>
+      </resource>
+      <resource name="STag_Name_PrintAtBottom">
+        <object>Печатать по нижнему краю</object>
+      </resource>
+      <resource name="STag_Name_GroupFields">
+        <object>Поля группы</object>
+      </resource>
+      <resource name="STag_Name_SortFields">
+        <object>Сортировать поля</object>
+      </resource>
+      <resource name="STag_Name_GroupUnion">
+        <object>Объединить группу</object>
+      </resource>
+      <resource name="STag_Name_Level">
+        <object>Уровень</object>
+      </resource>
+      <resource name="STag_Name_ColumnMode">
+        <object>Режим столбца</object>
+      </resource>
+      <resource name="STag_Name_ColumnCount">
+        <object>Число столбцов</object>
+      </resource>
+      <resource name="STag_Name_ColumnWidth">
+        <object>Ширина столбца</object>
+      </resource>
+      <resource name="STag_Name_ColumnSpacing">
+        <object>Интервал между столбцами</object>
+      </resource>
+      <resource name="STag_Name_Direction">
+        <object>Направление</object>
+      </resource>
+      <resource name="STag_Name_Watermark">
+        <object>Водяной знак</object>
+      </resource>
+      <resource name="STag_Name_ReportUnit">
+        <object>Модуль отчетов</object>
+      </resource>
+      <resource name="STag_Name_DataSource">
+        <object>Источник данных</object>
+      </resource>
+      <resource name="STag_Name_DataMember">
+        <object>Элемент данных</object>
+      </resource>
+      <resource name="STag_Name_DataAdapter">
+        <object>Адаптер данных</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsTreeListLocalizer" ServiceOnly="false">
+      <resource name="MenuFooterSum">
+        <object>Сумма</object>
+      </resource>
+      <resource name="MenuFooterMin">
+        <object>Мин.</object>
+      </resource>
+      <resource name="MenuFooterMax">
+        <object>Макс.</object>
+      </resource>
+      <resource name="MenuFooterCount">
+        <object>Число</object>
+      </resource>
+      <resource name="MenuFooterAverage">
+        <object>Среднее значение</object>
+      </resource>
+      <resource name="MenuFooterNone">
+        <object>Нет</object>
+      </resource>
+      <resource name="MenuFooterAllNodes">
+        <object>ВсеУзлы</object>
+      </resource>
+      <resource name="MenuFooterSumFormat">
+        <object>СУММ={0:#.##}</object>
+      </resource>
+      <resource name="MenuFooterMinFormat">
+        <object>МИН={0}</object>
+      </resource>
+      <resource name="MenuFooterMaxFormat">
+        <object>МАКС={0}</object>
+      </resource>
+      <resource name="MenuFooterCountFormat">
+        <object>{0}</object>
+      </resource>
+      <resource name="MenuFooterAverageFormat">
+        <object>СРЕД={0:#.##}</object>
+      </resource>
+      <resource name="MenuColumnSortAscending">
+        <object>Сортировать по возрастанию</object>
+      </resource>
+      <resource name="MenuColumnSortDescending">
+        <object>Сортировать по убыванию</object>
+      </resource>
+      <resource name="MenuColumnColumnCustomization">
+        <object>Выбор столбца</object>
+      </resource>
+      <resource name="MenuColumnBestFit">
+        <object>Точно</object>
+      </resource>
+      <resource name="MenuColumnBestFitAllColumns">
+        <object>Точно (все столбцы)</object>
+      </resource>
+      <resource name="ColumnCustomizationText">
+        <object>Настройка</object>
+      </resource>
+      <resource name="ColumnNamePrefix">
+        <object>столбец</object>
+      </resource>
+      <resource name="PrintDesignerHeader">
+        <object>Параметры печати</object>
+      </resource>
+      <resource name="PrintDesignerDescription">
+        <object>Настройка различных параметров печати для текущего списка деревьев.</object>
+      </resource>
+      <resource name="InvalidNodeExceptionText">
+        <object> Откорректировать значение?</object>
+      </resource>
+      <resource name="MultiSelectMethodNotSupported">
+        <object>Выбранный метод не будет работать, когда функция ПараметрыПоведение.Множественный выбор не активна.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Localization.MpsVGridLocalizer" ServiceOnly="false">
+      <resource name="RowCustomizationText">
+        <object>Настройка</object>
+      </resource>
+      <resource name="RowCustomizationNewCategoryFormText">
+        <object>Создать категорию</object>
+      </resource>
+      <resource name="RowCustomizationNewCategoryFormLabelText">
+        <object>Заголовок:</object>
+      </resource>
+      <resource name="RowCustomizationNewCategoryText">
+        <object>&amp;Создать...</object>
+      </resource>
+      <resource name="RowCustomizationDeleteCategoryText">
+        <object>&amp;Удалить</object>
+      </resource>
+      <resource name="RowCustomizationTabPageCategoriesText">
+        <object>Категории</object>
+      </resource>
+      <resource name="RowCustomizationTabPageRowsText">
+        <object>Строки</object>
+      </resource>
+      <resource name="InvalidRecordExceptionText">
+        <object> Откорректировать значение?</object>
+      </resource>
+      <resource name="StyleCreatorName">
+        <object>пользовательскийСтильСоздатель</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.VersionInformation" ServiceOnly="false">
+      <resource name="Caption">
+        <object>Сведения о версии Innova</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.BrowseDocumentForm" ServiceOnly="false">
+      <resource name="simpleButtonCancel.Text">
+        <object>Отмена</object>
+      </resource>
+      <resource name="simpleButtonOk.Text">
+        <object>ОК</object>
+      </resource>
+      <resource name="gridColumnTitle.Caption">
+        <object>Название</object>
+      </resource>
+      <resource name="gridColumnUrl.Caption">
+        <object>URL-адрес</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DeleteConfirmForm" ServiceOnly="false">
+      <resource name="SelectMethod">
+        <object>Выберите метод, который будет использоваться при удалении документа '{0}':</object>
+      </resource>
+      <resource name="Text">
+        <object>Удалить документ</object>
+      </resource>
+      <resource name="radioGroup.Properties.Items.Item[0].Description">
+        <object>Удалить документ</object>
+      </resource>
+      <resource name="radioGroup.Properties.Items.Item[1].Description">
+        <object>Удаляется только связь с объектом, но сам документ сохраняется</object>
+      </resource>
+      <resource name="simpleButtonOk.Text">
+        <object>ОК</object>
+      </resource>
+      <resource name="simpleButtonCancel.Text">
+        <object>Отмена</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentEditRecordForm" ServiceOnly="false">
+      <resource name="Text">
+        <object>Документ</object>
+      </resource>
+      <resource name="simpleButtonOk.Text">
+        <object>ОК</object>
+      </resource>
+      <resource name="simpleButtonCancel.Text">
+        <object>Отмена</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentEditRecordUC" ServiceOnly="false">
+      <resource name="labelTitle.Text">
+        <object>Название</object>
+      </resource>
+      <resource name="labelHelpContext.Text">
+        <object>Имя контекста справки</object>
+      </resource>
+      <resource name="labelAccessLevel.Text">
+        <object>Уровень доступа</object>
+      </resource>
+      <resource name="checkEditAssociate.Text">
+        <object>Связывать документ с этим объектом</object>
+      </resource>
+      <resource name="groupControlDocument.Text">
+        <object>Документ</object>
+      </resource>
+      <resource name="radioButtonUrl.Text">
+        <object>URL-адрес</object>
+      </resource>
+      <resource name="radioButtonFileDoc.Text">
+        <object>Встроенный документ</object>
+      </resource>
+      <resource name="buttonView.ToolTip">
+        <object>Просмотрите этот документ</object>
+      </resource>
+      <resource name="buttonUpload.ToolTip">
+        <object>Отправьте этот документ в базу данных</object>
+      </resource>
+      <resource name="buttonDownload.ToolTip">
+        <object>Загрузите этот документ на ваш компьютер</object>
+      </resource>
+      <resource name="buttonClear.ToolTip">
+        <object>Удалите этот документ из базы данных</object>
+      </resource>
+      <resource name="NoNullValues">
+        <object>В столбце {0} не допускаются пустые значения.</object>
+      </resource>
+      <resource name="Confirm">
+        <object>Подтвердить</object>
+      </resource>
+      <resource name="DocumentInfoFormat">
+        <object>Файл {0}, {1:###,###,###,##0} байт</object>
+      </resource>
+      <resource name="LoadingDocument">
+        <object>Загрузка документа...</object>
+      </resource>
+      <resource name="CannotLoad">
+        <object>Невозможно загрузить документ: {0}</object>
+      </resource>
+      <resource name="LoadDocument">
+        <object>Загрузить документ</object>
+      </resource>
+      <resource name="SaveFileFormats">
+        <object>Файлы *.{0}|*.{0}|Все файлы|*.*</object>
+      </resource>
+      <resource name="CannotSave">
+        <object>Невозможно сохранить документ: {0}</object>
+      </resource>
+      <resource name="SaveDocument">
+        <object>Сохранить документ</object>
+      </resource>
+      <resource name="BadUrl">
+        <object>Указанный URL-адрес имеет неправильный формат . Ссылки на веб-страницы должны начинаться с «http://», а ссылки на файл должны начинаться с «\\» или «file://» либо с буквы диска.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentUC" ServiceOnly="false">
+      <resource name="New">
+        <object>Создать</object>
+      </resource>
+      <resource name="NewHint">
+        <object>Создание нового документа</object>
+      </resource>
+      <resource name="Add">
+        <object>Добавить</object>
+      </resource>
+      <resource name="AddHint">
+        <object>Добавление созданного документа в конкретный контекст, в котором вы находитесь</object>
+      </resource>
+      <resource name="Edit">
+        <object>Правка</object>
+      </resource>
+      <resource name="EditHint">
+        <object>Изменение предпочтений документа</object>
+      </resource>
+      <resource name="Delete">
+        <object>Удалить</object>
+      </resource>
+      <resource name="DeleteHint">
+        <object>Удаление документа из конкретного контекста или из всех контекстов в пределах системы</object>
+      </resource>
+      <resource name="Save">
+        <object>Сохранить</object>
+      </resource>
+      <resource name="SaveHint">
+        <object>Сохранение документа в базе данных</object>
+      </resource>
+      <resource name="ActiveFilter">
+        <object>Активный фильтр:</object>
+      </resource>
+      <resource name="HelpContext">
+        <object>Контекст справки</object>
+      </resource>
+      <resource name="Object">
+        <object>Объект:</object>
+      </resource>
+      <resource name="SelectDocumentAssociate">
+        <object>Выберите документ, чтобы связать с объектом «{0}»</object>
+      </resource>
+      <resource name="DocumentSystem">
+        <object>Система документов</object>
+      </resource>
+      <resource name="NoDocuments">
+        <object>Документы не найдены</object>
+      </resource>
+      <resource name="Documents">
+        <object>Документы</object>
+      </resource>
+      <resource name="BadUrlForRendering">
+        <object>Выбранный документ не удалось обработать, поскольку он содержит неправильный URL-адрес.</object>
+      </resource>
+      <resource name="RenderDocument">
+        <object>Просмотрите документ</object>
+      </resource>
+      <resource name="BadDocument">
+        <object>Выбранный документ не удалось обработать, поскольку он пустой. Отредактируйте документ и добавьте новый встроенный документ или URL-адрес.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentEditUC" ServiceOnly="false">
+      <resource name="Refresh">
+        <object>Обновить</object>
+      </resource>
+      <resource name="NewNode">
+        <object>Создать документ</object>
+      </resource>
+      <resource name="DeleteNode">
+        <object>Удалить документ</object>
+      </resource>
+      <resource name="Confirm">
+        <object>Подтвердить</object>
+      </resource>
+      <resource name="Cancel">
+        <object>Отмена</object>
+      </resource>
+      <resource name="Contents">
+        <object>Дерево документа</object>
+      </resource>
+      <resource name="Singular">
+        <object>Отдельные документы</object>
+      </resource>
+      <resource name="CorrectData">
+        <object>Откорректировать данные?</object>
+      </resource>
+      <resource name="DataError">
+        <object>Ошибка данных</object>
+      </resource>
+      <resource name="Storing">
+        <object>Сохранение документа...</object>
+      </resource>
+      <resource name="LoadingTreeNode">
+        <object>{0} (загрузка)</object>
+      </resource>
+      <resource name="NewDocument">
+        <object>(новый документ)</object>
+      </resource>
+      <resource name="ConfirmDeleteAndChild">
+        <object>Удалить документ «{0}» и все его дочерние документы?</object>
+      </resource>
+      <resource name="ConfirmDelete">
+        <object>Удалить документ «{0}»?</object>
+      </resource>
+      <resource name="DeleteDocument">
+        <object>Удалить документ</object>
+      </resource>
+      <resource name="DeletingDocuments">
+        <object>Удаление документов...</object>
+      </resource>
+      <resource name="AddMany">
+        <object>Добавить несколько документов</object>
+      </resource>
+      <resource name="ErrorAddMany">
+        <object>Ошибка произошла во время сохранения документов. {0}</object>
+      </resource>
+      <resource name="Error">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="ProgressProcessFile">
+        <object>Обработка {0}</object>
+      </resource>
+      <resource name="ProgressFinished">
+        <object>Завершено</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.StandardDocumentUC" ServiceOnly="false">
+      <resource name="Back">
+        <object>Назад</object>
+      </resource>
+      <resource name="Forward">
+        <object>Вперед</object>
+      </resource>
+      <resource name="Refresh">
+        <object>Обновить</object>
+      </resource>
+      <resource name="Stop">
+        <object>Остановить</object>
+      </resource>
+      <resource name="LicenseMessage">
+        <object>Невозможно получить лицензию на устройство документирования: {0}.{1}</object>
+      </resource>
+      <resource name="DocumentNotFound">
+        <object>Документ был недоступен или не существует. Возможно, у вас нет доступа к документу, или неправильно указано местонахождение документа.\nИмя файла: {0}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.ComboBoxCriteria" ServiceOnly="false">
+      <resource name="notdef">
+        <object>Не указано</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.PackFilterFormValues" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Дата изг.</object>
+      </resource>
+      <resource name="InventoryAndPrday">
+        <object>Инвентарная ведомость и дата</object>
+      </resource>
+      <resource name="OrderAndPrday">
+        <object>Заказ и дата</object>
+      </resource>
+      <resource name="ShiftAndPrday">
+        <object>Смена и дата</object>
+      </resource>
+      <resource name="PoAndPrday">
+        <object>Заказ на поставку и дата</object>
+      </resource>
+      <resource name="BatchAndPrday">
+        <object>Порция и дата</object>
+      </resource>
+      <resource name="LotAndPrday">
+        <object>Партия и дата</object>
+      </resource>
+      <resource name="ProductionLotAndPrday">
+        <object>Партия продукции и дата</object>
+      </resource>
+      <resource name="StationAndPrday">
+        <object>Станция и дата</object>
+      </resource>
+      <resource name="DepartmentAndPrday">
+        <object>Отдел и дата</object>
+      </resource>
+      <resource name="Stack">
+        <object>Набор</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Поддон</object>
+      </resource>
+      <resource name="Container">
+        <object>Контейнер</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Груз</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.GeneralFilterFormValues" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Дата изг.</object>
+      </resource>
+      <resource name="InventoryAndPrday">
+        <object>Инвентарная ведомость и дата</object>
+      </resource>
+      <resource name="OrderAndPrday">
+        <object>Заказ и дата</object>
+      </resource>
+      <resource name="ShiftAndPrday">
+        <object>Смена и дата</object>
+      </resource>
+      <resource name="PoAndPrday">
+        <object>Заказ на поставку и дата</object>
+      </resource>
+      <resource name="BatchAndPrday">
+        <object>Порция и дата</object>
+      </resource>
+      <resource name="LotAndPrday">
+        <object>Партия и дата</object>
+      </resource>
+      <resource name="ProductionLotAndPrday">
+        <object>Партия продукции и дата</object>
+      </resource>
+      <resource name="StationAndPrday">
+        <object>Станция и дата</object>
+      </resource>
+      <resource name="DepartmentAndPrday">
+        <object>Отдел и дата</object>
+      </resource>
+      <resource name="Stack">
+        <object>Набор</object>
+      </resource>
+      <resource name="Pallet">
+        <object>Поддон</object>
+      </resource>
+      <resource name="Container">
+        <object>Контейнер</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Груз</object>
+      </resource>
+      <resource name="InventoryAndStatus">
+        <object>Инвентарная ведомость и состояние</object>
+      </resource>
+      <resource name="OrderAndStatus">
+        <object>Заказ и состояние</object>
+      </resource>
+      <resource name="StartTimeAndStatus">
+        <object>Время начала и состояние</object>
+      </resource>
+      <resource name="EndTimeAndStatus">
+        <object>Время окончания и состояние </object>
+      </resource>
+      <resource name="PoAndStatus">
+        <object>Заказ на поставку и состояние</object>
+      </resource>
+      <resource name="PlotAndStatus">
+        <object>Партия продукции и состояние</object>
+      </resource>
+      <resource name="PrunitAndStatus">
+        <object>Производство и состояние</object>
+      </resource>
+      <resource name="StationAndStatus">
+        <object>Станция и состояние</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.CollectionFilterFormValues" ServiceOnly="false">
+      <resource name="Pallet">
+        <object>Поддон</object>
+      </resource>
+      <resource name="Container">
+        <object>Контейнер</object>
+      </resource>
+      <resource name="Shipment">
+        <object>Груз</object>
+      </resource>
+      <resource name="InventoryAndStatus">
+        <object>Инвентарная ведомость и состояние</object>
+      </resource>
+      <resource name="OrderAndStatus">
+        <object>Заказ и состояние</object>
+      </resource>
+      <resource name="StartTimeAndStatus">
+        <object>Время начала и состояние</object>
+      </resource>
+      <resource name="EndTimeAndStatus">
+        <object>Время окончания и состояние </object>
+      </resource>
+      <resource name="PoAndStatus">
+        <object>Заказ на поставку и состояние</object>
+      </resource>
+      <resource name="PlotAndStatus">
+        <object>Партия продукции и состояние</object>
+      </resource>
+      <resource name="PrunitAndStatus">
+        <object>Производство и состояние</object>
+      </resource>
+      <resource name="StationAndStatus">
+        <object>Станция и состояние</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.InspectionFilterFormValues" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Дата изг.</object>
+      </resource>
+      <resource name="ProcessAndPrday">
+        <object>Процесс и дата</object>
+      </resource>
+      <resource name="ProcedureAndPrday">
+        <object>Процедура и дата</object>
+      </resource>
+      <resource name="InspectorAndPrday">
+        <object>Инспектор и дата</object>
+      </resource>
+      <resource name="EmployeeAndPrday">
+        <object>Сотрудник и дата</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Время регистрации</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardCriteria.ItemFilterFormValues" ServiceOnly="false">
+      <resource name="ProductionDay">
+        <object>Дата изг.</object>
+      </resource>
+      <resource name="OrderAndPrday">
+        <object>Заказ и дата</object>
+      </resource>
+      <resource name="ShiftAndPrday">
+        <object>Смена и дата</object>
+      </resource>
+      <resource name="PoAndPrday">
+        <object>Заказ на поставку и дата</object>
+      </resource>
+      <resource name="BatchAndPrday">
+        <object>Порция и дата</object>
+      </resource>
+      <resource name="LotAndPrday">
+        <object>Партия и дата</object>
+      </resource>
+      <resource name="ProductionLotAndPrday">
+        <object>Партия продукции и дата</object>
+      </resource>
+      <resource name="StationAndPrday">
+        <object>Станция и дата</object>
+      </resource>
+      <resource name="DepartmentAndPrday">
+        <object>Отдел и дата</object>
+      </resource>
+      <resource name="RegTime">
+        <object>Время регистрации</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.SimpleDataRowViewBaseUC" ServiceOnly="false">
+      <resource name="NotNullMsg">
+        <object>В столбце '{0}' не допускаются NULL</object>
+      </resource>
+      <resource name="Error">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="ApplyFailed">
+        <object>Не удалось применить изменения к базе данных вследствие неизвестной ошибки.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.Mp5ReportToolbar" ServiceOnly="false">
+      <resource name="sendexptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="sendexptypetext">
+        <object>Текст</object>
+      </resource>
+      <resource name="sendexptypecsv">
+        <object>CSV</object>
+      </resource>
+      <resource name="sendexptypemht">
+        <object>MHT</object>
+      </resource>
+      <resource name="sendexptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="sendexptypertf">
+        <object>RTF</object>
+      </resource>
+      <resource name="sendexptypegraphics">
+        <object>Графика</object>
+      </resource>
+      <resource name="exptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="exptypehtml">
+        <object>HTML</object>
+      </resource>
+      <resource name="exptypetext">
+        <object>Текст</object>
+      </resource>
+      <resource name="exptypecsv">
+        <object>CSV</object>
+      </resource>
+      <resource name="exptypemht">
+        <object>MHT</object>
+      </resource>
+      <resource name="exptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="exptypertf">
+        <object>RTF</object>
+      </resource>
+      <resource name="exptypegraphics">
+        <object>Графика</object>
+      </resource>
+      <resource name="toolRefresh">
+        <object>Обновить</object>
+      </resource>
+      <resource name="toolSearch">
+        <object>Поиск</object>
+      </resource>
+      <resource name="toolHandTool">
+        <object>Инструмент «Рука»</object>
+      </resource>
+      <resource name="toolPrintWithOptions">
+        <object>Печать без параметров</object>
+      </resource>
+      <resource name="toolSpeedPrint">
+        <object>Печать</object>
+      </resource>
+      <resource name="toolPrintSetup">
+        <object>Параметры страницы</object>
+      </resource>
+      <resource name="toolMagnifier">
+        <object>Лупа</object>
+      </resource>
+      <resource name="toolZoomIn">
+        <object>Увеличить</object>
+      </resource>
+      <resource name="toolZoomOut">
+        <object>Уменьшить</object>
+      </resource>
+      <resource name="toolZoomOptions">
+        <object>Параметры масштабирования</object>
+      </resource>
+      <resource name="toolFirstPage">
+        <object>Первая страница</object>
+      </resource>
+      <resource name="toolPreviousPage">
+        <object>Предыдущая страница</object>
+      </resource>
+      <resource name="toolNextPage">
+        <object>Следующая страница</object>
+      </resource>
+      <resource name="toolLastPage">
+        <object>Последняя страница</object>
+      </resource>
+      <resource name="toolMultiplePages">
+        <object>Несколько страниц</object>
+      </resource>
+      <resource name="toolWatermark">
+        <object>Водяной знак</object>
+      </resource>
+      <resource name="toolExport">
+        <object>Экспорт</object>
+      </resource>
+      <resource name="toolEmail">
+        <object>Электронная почта</object>
+      </resource>
+      <resource name="htoolRefresh">
+        <object>Обновить</object>
+      </resource>
+      <resource name="htoolSearch">
+        <object>Поиск</object>
+      </resource>
+      <resource name="htoolHandTool">
+        <object>Инструмент «Рука»</object>
+      </resource>
+      <resource name="htoolPrintWithOptions">
+        <object>Печать с параметрами</object>
+      </resource>
+      <resource name="htoolSpeedPrint">
+        <object>Печать</object>
+      </resource>
+      <resource name="htoolPrintSetup">
+        <object>Параметры страницы</object>
+      </resource>
+      <resource name="htoolMagnifier">
+        <object>Лупа</object>
+      </resource>
+      <resource name="htoolZoomIn">
+        <object>Увеличить</object>
+      </resource>
+      <resource name="htoolZoomOut">
+        <object>Уменьшить</object>
+      </resource>
+      <resource name="htoolZoomOptions">
+        <object>Параметры масштабирования</object>
+      </resource>
+      <resource name="htoolFirstPage">
+        <object>Первая страница</object>
+      </resource>
+      <resource name="htoolPreviousPage">
+        <object>Предыдущая страница</object>
+      </resource>
+      <resource name="htoolNextPage">
+        <object>Следующая страница</object>
+      </resource>
+      <resource name="htoolLastPage">
+        <object>Последняя страница</object>
+      </resource>
+      <resource name="htoolMultiplePages">
+        <object>Несколько страниц</object>
+      </resource>
+      <resource name="htoolWatermark">
+        <object>Водяной знак</object>
+      </resource>
+      <resource name="htoolExport">
+        <object>Экспорт</object>
+      </resource>
+      <resource name="htoolEmail">
+        <object>Электронная почта</object>
+      </resource>
+      <resource name="htoolDocMap">
+        <object>Показать/скрыть схему документа</object>
+      </resource>
+      <resource name="toolRefreshWithOptions">
+        <object>Обновить с параметрами</object>
+      </resource>
+      <resource name="htoolRefreshWithOptions">
+        <object>Обновить с параметрами </object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.SystemCriterias" ServiceOnly="false">
+      <resource name="emppar_name">
+        <object>Сотрудник:</object>
+      </resource>
+      <resource name="emppar_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="emppar_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="emppar_desc1">
+        <object>Сотрудник</object>
+      </resource>
+      <resource name="emppar_desc2">
+        <object>Имя</object>
+      </resource>
+      <resource name="emppar_desc3">
+        <object>Отдел</object>
+      </resource>
+      <resource name="deppar_name">
+        <object>Отдел:</object>
+      </resource>
+      <resource name="deppar_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="deppar_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="deppar_desc1">
+        <object>Отдел</object>
+      </resource>
+      <resource name="matpar_name">
+        <object>Продукт:</object>
+      </resource>
+      <resource name="matpar_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="matpar_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="matpar_desc1">
+        <object>Продукт</object>
+      </resource>
+      <resource name="matpar_desc2">
+        <object>Код</object>
+      </resource>
+      <resource name="jobpar_name">
+        <object>Место работы:</object>
+      </resource>
+      <resource name="jobpar_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="jobpar_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="jobpar_desc1">
+        <object>Место работы</object>
+      </resource>
+      <resource name="prday_name">
+        <object>День производственного процесса:</object>
+      </resource>
+      <resource name="prunit_name">
+        <object>Блок обработки:</object>
+      </resource>
+      <resource name="product_name">
+        <object>Продукт:</object>
+      </resource>
+      <resource name="product_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="product_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="product_desc1">
+        <object>Продукт</object>
+      </resource>
+      <resource name="product_desc2">
+        <object>Код</object>
+      </resource>
+      <resource name="prperiodbyprday_name">
+        <object>Период обработки:</object>
+      </resource>
+      <resource name="prperiodbyprday_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="prperiodbyprday_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="prperiodbyprday_desc1">
+        <object>Период обработки</object>
+      </resource>
+      <resource name="prperiodbyprday_desc2">
+        <object>Блок обработки</object>
+      </resource>
+      <resource name="prperiodbyprday_desc3">
+        <object>Активность</object>
+      </resource>
+      <resource name="prperiodbyprday_desc4">
+        <object>Дата изг.</object>
+      </resource>
+      <resource name="prperiodbyprday_desc5">
+        <object>Время начала</object>
+      </resource>
+      <resource name="prperiodbyprday_desc6">
+        <object>Время окончания</object>
+      </resource>
+      <resource name="trimprperiodbyprday_name">
+        <object>Период обработки:</object>
+      </resource>
+      <resource name="trimprperiodbyprday_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="trimprperiodbyprday_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc1">
+        <object>Период обработки</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc2">
+        <object>Блок обработки</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc3">
+        <object>Программа обрезки</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc4">
+        <object>Дата изг.</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc5">
+        <object>Время начала</object>
+      </resource>
+      <resource name="trimprperiodbyprday_desc6">
+        <object>Время окончания</object>
+      </resource>
+      <resource name="batch_name">
+        <object>Порция:</object>
+      </resource>
+      <resource name="batch_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="batch_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="shift_name">
+        <object>Смена:</object>
+      </resource>
+      <resource name="shift_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="shift_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="po_name">
+        <object>Заказ на поставку:</object>
+      </resource>
+      <resource name="po_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="po_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="po_desc1">
+        <object>Заказ на поставку</object>
+      </resource>
+      <resource name="sysprogram_name">
+        <object>Системная программа:</object>
+      </resource>
+      <resource name="sysprogram_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="sysprogram_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="sysprogram_desc1">
+        <object>Программа</object>
+      </resource>
+      <resource name="regtime_name">
+        <object>Время регистрации:</object>
+      </resource>
+      <resource name="schprogram_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="schprogram_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="schprogram_name">
+        <object>Системная программа:</object>
+      </resource>
+      <resource name="schprogram_desc1">
+        <object>Программа</object>
+      </resource>
+      <resource name="devices_name">
+        <object>Устройство:</object>
+      </resource>
+      <resource name="devices_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="devices_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="devices_desc1">
+        <object>Устройство</object>
+      </resource>
+      <resource name="licenses_name">
+        <object>Лицензия:</object>
+      </resource>
+      <resource name="licenses_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="licenses_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="licenses_desc1">
+        <object>Лицензия</object>
+      </resource>
+      <resource name="grdprogram_name">
+        <object>Программа сортировки:</object>
+      </resource>
+      <resource name="grdprogram_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="grdprogram_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="grdprogram_desc1">
+        <object>Программа</object>
+      </resource>
+      <resource name="wgthour_name">
+        <object>Отображение массы</object>
+      </resource>
+      <resource name="pcsmin_name">
+        <object>Отображение кусков</object>
+      </resource>
+      <resource name="prunit_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="prunit_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="prunit_desc1">
+        <object>Блок обработки</object>
+      </resource>
+      <resource name="showprods_name">
+        <object>Показать продукты</object>
+      </resource>
+      <resource name="count_name">
+        <object>Количество:</object>
+      </resource>
+      <resource name="weight_name">
+        <object>Масса:</object>
+      </resource>
+      <resource name="singleprday_name">
+        <object>День производственного процесса:</object>
+      </resource>
+      <resource name="destinv_name">
+        <object>Инвентарная ведомость:</object>
+      </resource>
+      <resource name="destinv_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="destinv_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="destinv_desc1">
+        <object>Инвентарная ведомость</object>
+      </resource>
+      <resource name="procinputbreakdown_name">
+        <object>Распределение по:</object>
+      </resource>
+      <resource name="procyieldbreakdown_name">
+        <object>Распределение по:</object>
+      </resource>
+      <resource name="triminputbreakdown_name">
+        <object>Распределение по:</object>
+      </resource>
+      <resource name="shift_desc1">
+        <object>Смена</object>
+      </resource>
+      <resource name="podeliverystatus_name">
+        <object>Состояние доставки:</object>
+      </resource>
+      <resource name="palletbysiteandnumber_name">
+        <object>Поддон:</object>
+      </resource>
+      <resource name="palletbysscc_name">
+        <object>Поддон:</object>
+      </resource>
+      <resource name="packbysiteandnumber_name">
+        <object>Пакет:</object>
+      </resource>
+      <resource name="packbysscc_name">
+        <object>Пакет:</object>
+      </resource>
+      <resource name="stackbysiteandnumber_name">
+        <object>Набор:</object>
+      </resource>
+      <resource name="containerbysiteandnumber_name">
+        <object>Контейнер:</object>
+      </resource>
+      <resource name="shipmentbysiteandnumber_name">
+        <object>Груз</object>
+      </resource>
+      <resource name="stackbysscc_name">
+        <object>Набор:</object>
+      </resource>
+      <resource name="containerbysscc_name">
+        <object>Контейнер:</object>
+      </resource>
+      <resource name="shipmentbysscc_name">
+        <object>Груз</object>
+      </resource>
+      <resource name="lot_name">
+        <object>Партия:</object>
+      </resource>
+      <resource name="lot_desc1">
+        <object>Партия</object>
+      </resource>
+      <resource name="lot_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="lot_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="stocktake_name">
+        <object>Переучет:</object>
+      </resource>
+      <resource name="stocktake_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="stocktake_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="plot_name">
+        <object>Партия продукции:</object>
+      </resource>
+      <resource name="plot_desc1">
+        <object>Партия продукции</object>
+      </resource>
+      <resource name="plot_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="plot_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="order_name">
+        <object>Заказ:</object>
+      </resource>
+      <resource name="order_desc1">
+        <object>Заказ </object>
+      </resource>
+      <resource name="order_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="order_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="station_name">
+        <object>Станция:</object>
+      </resource>
+      <resource name="station_desc1">
+        <object>Станция </object>
+      </resource>
+      <resource name="station_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="station_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="collectionstatus_name">
+        <object>Состояние:</object>
+      </resource>
+      <resource name="itemgridoptions_name">
+        <object>Отображение с помощью:</object>
+      </resource>
+      <resource name="packgridoptions_name">
+        <object>Отображение с помощью:</object>
+      </resource>
+      <resource name="collectiongridoptions_name">
+        <object>Отображение с помощью:</object>
+      </resource>
+      <resource name="lotstatus_name">
+        <object>Состояние:</object>
+      </resource>
+      <resource name="sumprperiods_name">
+        <object>Периоды подведения итогов</object>
+      </resource>
+      <resource name="site_name">
+        <object>Месторасположение:</object>
+      </resource>
+      <resource name="site_desc1">
+        <object>Месторасположение</object>
+      </resource>
+      <resource name="site_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="site_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="inventory_name">
+        <object>Инвентарная ведомость:</object>
+      </resource>
+      <resource name="inventory_desc1">
+        <object>Инвентарная ведомость</object>
+      </resource>
+      <resource name="inventory_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="inventory_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="invloc_name">
+        <object>Местонахождение:</object>
+      </resource>
+      <resource name="invloc_desc1">
+        <object>Местонахождение</object>
+      </resource>
+      <resource name="invloc_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="invloc_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="supplier_name">
+        <object>Поставщик:</object>
+      </resource>
+      <resource name="supplier_desc1">
+        <object>Поставщик</object>
+      </resource>
+      <resource name="supplier_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="supplier_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="owner_name">
+        <object>Владелец:</object>
+      </resource>
+      <resource name="owner_desc1">
+        <object>Владелец</object>
+      </resource>
+      <resource name="owner_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="owner_testmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="inspectiongridoptions_name">
+        <object>Отображение с помощью:</object>
+      </resource>
+      <resource name="process_name">
+        <object>Процесс:</object>
+      </resource>
+      <resource name="process_desc1">
+        <object>Процесс</object>
+      </resource>
+      <resource name="process_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="process_testmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="procedure_name">
+        <object>Процедура:</object>
+      </resource>
+      <resource name="procedure_desc1">
+        <object>Процедура</object>
+      </resource>
+      <resource name="procedure_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="procedure_testmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="employee_name">
+        <object>Сотрудник:</object>
+      </resource>
+      <resource name="employee_desc1">
+        <object>Сотрудник</object>
+      </resource>
+      <resource name="employee_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="employee_testmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="inspector_name">
+        <object>Инспектор:</object>
+      </resource>
+      <resource name="inspector_desc1">
+        <object>Инспектор</object>
+      </resource>
+      <resource name="inspector_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="inspector_testmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="plotstatus_name">
+        <object>Состояние:</object>
+      </resource>
+      <resource name="orderstatus_name">
+        <object>Состояние:</object>
+      </resource>
+      <resource name="customer_name">
+        <object>Заказчик:</object>
+      </resource>
+      <resource name="customer_desc1">
+        <object>Заказчик</object>
+      </resource>
+      <resource name="customer_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="customer_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="species_name">
+        <object>Продукт:</object>
+      </resource>
+      <resource name="species_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="species_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="species_desc1">
+        <object>Продукт</object>
+      </resource>
+      <resource name="species_desc2">
+        <object>Код</object>
+      </resource>
+      <resource name="printers_name">
+        <object>Принтер:</object>
+      </resource>
+      <resource name="printers_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="printers_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="printers_desc1">
+        <object>Принтер </object>
+      </resource>
+      <resource name="layouts_name">
+        <object>Макет:</object>
+      </resource>
+      <resource name="layouts_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="layouts_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="layouts_desc1">
+        <object>Макет </object>
+      </resource>
+      <resource name="unitfixedcode_name">
+        <object>Код:</object>
+      </resource>
+      <resource name="stations_name">
+        <object>Станция:</object>
+      </resource>
+      <resource name="stations_desc1">
+        <object>Станция</object>
+      </resource>
+      <resource name="stations_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="stations_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="pagebreak_name">
+        <object>Один отчет на странице</object>
+      </resource>
+      <resource name="scoreclass_name">
+        <object>Класс показателя:</object>
+      </resource>
+      <resource name="trimprogram_desc1">
+        <object>Активность</object>
+      </resource>
+      <resource name="trimprogram_name">
+        <object>Активность:</object>
+      </resource>
+      <resource name="trimprogram_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="trimprogram_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="cutprogram_name">
+        <object>Вырезать программу:</object>
+      </resource>
+      <resource name="cutprogram_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="breakprperiod_name">
+        <object>Остановка рабочего периода обработки</object>
+      </resource>
+      <resource name="breakprogram_name">
+        <object>Остановка программы</object>
+      </resource>
+      <resource name="breakmateria_name">
+        <object>Остановка поступления сырья</object>
+      </resource>
+      <resource name="pieces_name">
+        <object>Штук:</object>
+      </resource>
+      <resource name="breakactivity_name">
+        <object>Остановка деятельности</object>
+      </resource>
+      <resource name="value_name">
+        <object>Значение:</object>
+      </resource>
+      <resource name="breaklane_name">
+        <object>Остановка дорожки</object>
+      </resource>
+      <resource name="quality_name">
+        <object>Качество:</object>
+      </resource>
+      <resource name="category_name">
+        <object>Категория:</object>
+      </resource>
+      <resource name="fatclass_name">
+        <object>Класс жирности:</object>
+      </resource>
+      <resource name="brcountry_name">
+        <object>Рожденный в:</object>
+      </resource>
+      <resource name="ricountry_name">
+        <object>Выращенный в:</object>
+      </resource>
+      <resource name="ricountry2_name">
+        <object>Выращенный в (2):</object>
+      </resource>
+      <resource name="ricountry3_name">
+        <object>Выращенный в (3):</object>
+      </resource>
+      <resource name="ricountry4_name">
+        <object>Выращенный в (4):</object>
+      </resource>
+      <resource name="ricountry5_name">
+        <object>Выращенный в (5):</object>
+      </resource>
+      <resource name="slhouse_name">
+        <object>Скотобойня:</object>
+      </resource>
+      <resource name="slday_name">
+        <object>Дата забоя скота:</object>
+      </resource>
+      <resource name="processor_name">
+        <object>Перерабатывающее предприятие:</object>
+      </resource>
+      <resource name="processor2_name">
+        <object>Перерабатывающее предприятие (2):</object>
+      </resource>
+      <resource name="killnumber_name">
+        <object>Количество единиц забитого скота:</object>
+      </resource>
+      <resource name="unittare_name">
+        <object>Тара:</object>
+      </resource>
+      <resource name="stacktare_name">
+        <object>Тара для наборов:</object>
+      </resource>
+      <resource name="pallettare_name">
+        <object>Тара для поддонов:</object>
+      </resource>
+      <resource name="containertare_name">
+        <object>Тара для контейнеров:</object>
+      </resource>
+      <resource name="shipmenttare_name">
+        <object>Тара для груза</object>
+      </resource>
+      <resource name="lotstoday_name">
+        <object>Партия:</object>
+      </resource>
+      <resource name="lotstoday_desc1">
+        <object>Партия</object>
+      </resource>
+      <resource name="lotstoday_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="lotstoday_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="palletlist_desc3">
+        <object>Продукт</object>
+      </resource>
+      <resource name="palletlist_desc1">
+        <object>Поддон</object>
+      </resource>
+      <resource name="palletlist_desc2">
+        <object>SSCC</object>
+      </resource>
+      <resource name="palletlist_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="palletlist_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="palletlist_name">
+        <object>Поддон:</object>
+      </resource>
+      <resource name="alarmgroup_name">
+        <object>Сигнализация группы:</object>
+      </resource>
+      <resource name="alarmgroup_textmany">
+        <object>(Большинство)</object>
+      </resource>
+      <resource name="alarmgroup_textall">
+        <object>(Все)</object>
+      </resource>
+      <resource name="alarmgroup_desc1">
+        <object>Сигнализация группы</object>
+      </resource>
+      <resource name="restricttotimerangealarms_name">
+        <object>Ограничить до аварийных сигналов,\nзарегистрированных в выбранный рабочий день</object>
+      </resource>
+      <resource name="useconfig_name">
+        <object>Использовать данные конфигурации аварийного сигнала</object>
+      </resource>
+      <resource name="inputproducts_name">
+        <object>::</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.LogonView" ServiceOnly="false">
+      <resource name="Username">
+        <object>Идентификатор сотрудника:</object>
+      </resource>
+      <resource name="Password">
+        <object>Защитный код:</object>
+      </resource>
+      <resource name="ButtonCaption">
+        <object>Начать</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.Controls.Scale" ServiceOnly="false">
+      <resource name="stable">
+        <object>СТАБИЛЬНО</object>
+      </resource>
+      <resource name="net">
+        <object>НЕТТО</object>
+      </resource>
+      <resource name="zero">
+        <object>НОЛЬ</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.ButtonMatrix" ServiceOnly="false">
+      <resource name="Next">
+        <object>Следующая страница</object>
+      </resource>
+      <resource name="Previous">
+        <object>Предыдущая страница</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.CriteriaView" ServiceOnly="false">
+      <resource name="OK">
+        <object>ОК</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.MainFrame" ServiceOnly="false">
+      <resource name="Exit">
+        <object>Выход</object>
+      </resource>
+      <resource name="History">
+        <object>Запись в журнале</object>
+      </resource>
+      <resource name="Caption">
+        <object>ВХОД В СИСТЕМУ</object>
+      </resource>
+      <resource name="Menu.Parent">
+        <object>Вверх</object>
+      </resource>
+      <resource name="Menu.Previous">
+        <object>Предыдущий</object>
+      </resource>
+      <resource name="Menu.Next">
+        <object>Следующий</object>
+      </resource>
+      <resource name="Warning">
+        <object>Предупреждение</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.PivotGrid" ServiceOnly="false">
+      <resource name="simpleButton5.Text">
+        <object>Инициализировать поля</object>
+      </resource>
+      <resource name="simpleButton2.Text">
+        <object>Сохранить</object>
+      </resource>
+      <resource name="simpleButton3.Text">
+        <object>Инициализировать фильтры</object>
+      </resource>
+      <resource name="simpleButton4.Text">
+        <object>Просмотреть SQL</object>
+      </resource>
+      <resource name="toolRefresh">
+        <object>Обновить</object>
+      </resource>
+      <resource name="htoolRefresh">
+        <object>Обновить данные</object>
+      </resource>
+      <resource name="guinodenoitem">
+        <object>В узле ГИП отсутствует подходящий элемент ГИП.</object>
+      </resource>
+      <resource name="saveok">
+        <object>Экран управления сохранен.</object>
+      </resource>
+      <resource name="errsave">
+        <object>Не удается сохранить</object>
+      </resource>
+      <resource name="errRestoreLayout">
+        <object>Ошибка при сохранении макета таблицы</object>
+      </resource>
+      <resource name="errload">
+        <object>Ошибка загрузки</object>
+      </resource>
+      <resource name="exceptionSql">
+        <object>Ошибка SQL</object>
+      </resource>
+      <resource name="datasourceisnull">
+        <object>Отсутствует источник данных</object>
+      </resource>
+      <resource name="datasourcebadtype">
+        <object>Неправильный тип источника данных</object>
+      </resource>
+      <resource name="notablesinds">
+        <object>В источнике данных отсутствуют таблицы</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.UsersInfo" ServiceOnly="false">
+      <resource name="button1.Text">
+        <object>Закрыть</object>
+      </resource>
+      <resource name="lblHost.Text">
+        <object>Хост:</object>
+      </resource>
+      <resource name="lblUsername.Text">
+        <object>Имя пользователя:</object>
+      </resource>
+      <resource name="lblDatabase.Text">
+        <object>База данных:</object>
+      </resource>
+      <resource name="lblAccessLevel.Text">
+        <object>Доступ к отдельным приложениям:</object>
+      </resource>
+      <resource name="advancedCheckBox.Properties.Caption">
+        <object>Улучшенный</object>
+      </resource>
+      <resource name="gridColumn2.Caption">
+        <object>Уровень доступа</object>
+      </resource>
+      <resource name="gridColumn1.Caption">
+        <object>Приложение</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.MessageBoxEx" ServiceOnly="false">
+      <resource name="ok">
+        <object>ОК</object>
+      </resource>
+      <resource name="cancel">
+        <object>Отмена</object>
+      </resource>
+      <resource name="yes">
+        <object>Да</object>
+      </resource>
+      <resource name="no">
+        <object>Нет</object>
+      </resource>
+      <resource name="abort">
+        <object>Прервать</object>
+      </resource>
+      <resource name="retry">
+        <object>Повторить</object>
+      </resource>
+      <resource name="ignore">
+        <object>Пропустить</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.QuickTabs.QuickTabsForm" ServiceOnly="false">
+      <resource name="simpleButton">
+        <object>Отмена</object>
+      </resource>
+      <resource name="quicktabs">
+        <object>Быстрые вкладки</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Pda.LogonView" ServiceOnly="false">
+      <resource name="Username">
+        <object>Идентификатор сотрудника:</object>
+      </resource>
+      <resource name="Password">
+        <object>Защитный код:</object>
+      </resource>
+      <resource name="ButtonCaption">
+        <object>Начать</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Отсутствует соединение с сервером</object>
+      </resource>
+      <resource name="PasswordExpired">
+        <object>Истек срок действия защитного кода</object>
+      </resource>
+      <resource name="NotAuthenticated">
+        <object>Неверный идентификатор сотрудника или неправильный защитный код</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Pda.MainFrame" ServiceOnly="false">
+      <resource name="Menu">
+        <object>Меню</object>
+      </resource>
+      <resource name="Exit">
+        <object>Выход</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.ChangePasswordUserForm" ServiceOnly="false">
+      <resource name="cancel.Text">
+        <object>Отмена</object>
+      </resource>
+      <resource name="ok.Text">
+        <object>ОК</object>
+      </resource>
+      <resource name="usernameLabel.Text">
+        <object>Имя пользователя:</object>
+      </resource>
+      <resource name="oldPasswordLabel.Text">
+        <object>Старый пароль:</object>
+      </resource>
+      <resource name="newPasswordLabel.Text">
+        <object>Новый пароль:</object>
+      </resource>
+      <resource name="confirmationLabel.Text">
+        <object>Подтвердить пароль:</object>
+      </resource>
+      <resource name="this.Text">
+        <object>Изменить пароль</object>
+      </resource>
+      <resource name="NotMatching">
+        <object>Пароль и подтверждение пароля не совпадают</object>
+      </resource>
+      <resource name="WrongPassword">
+        <object>Неправильный пароль</object>
+      </resource>
+      <resource name="NoServer">
+        <object>Отсутствует соединение с сервером</object>
+      </resource>
+      <resource name="Success">
+        <object>Пароль успешно изменен</object>
+      </resource>
+      <resource name="LogonFailed">
+        <object>Неправильный старый пароль, не удается изменить пароль</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Design.GeneralObjectDesigner" ServiceOnly="true">
+      <resource name="cancelButton.Text">
+        <object>Отмена</object>
+      </resource>
+      <resource name="okButton.Text">
+        <object>ОК</object>
+      </resource>
+      <resource name="restoreFactoryDefaultsButton.Text">
+        <object>Восстановить заводские настройки</object>
+      </resource>
+      <resource name="factoryDefaultsGroupBox.Text">
+        <object>Заводские настройки</object>
+      </resource>
+      <resource name="objectEditorGroup.Text">
+        <object>Текущая конфигурация</object>
+      </resource>
+      <resource name="thisCaption">
+        <object>Конструктор объектов</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.DocumentAddManyForm" ServiceOnly="false">
+      <resource name="labelControl1.Text">
+        <object>Родительский документ</object>
+      </resource>
+      <resource name="buttonCancel.Text">
+        <object>&amp;Отмена</object>
+      </resource>
+      <resource name="buttonBack.Text">
+        <object>&lt; &amp;Назад</object>
+      </resource>
+      <resource name="buttonFinish.Text">
+        <object>&amp;Готово</object>
+      </resource>
+      <resource name="buttonNext.Text">
+        <object>&amp;Следующий &gt;</object>
+      </resource>
+      <resource name="labelControl2.Text">
+        <object>Папка документов для сканирования</object>
+      </resource>
+      <resource name="checkEditSubdirectories.Properties.Caption">
+        <object>&amp;Сканировать подкаталоги</object>
+      </resource>
+      <resource name="labelControl3.Text">
+        <object>Фильтры (например, *.doc;*.htm)</object>
+      </resource>
+      <resource name="groupControlScan.Text">
+        <object>Укажите, каким образом сканировать файлы</object>
+      </resource>
+      <resource name="groupControlResult.Text">
+        <object>Файлы найдены</object>
+      </resource>
+      <resource name="radioGroupStorageMethod.Properties.Items.Item[0].Description">
+        <object>&amp;Встроенные файлы в базе данных</object>
+      </resource>
+      <resource name="radioGroupStorageMethod.Properties.Items.Item[1].Description">
+        <object>&amp;Связать с файлами, используя URL-адрес</object>
+      </resource>
+      <resource name="labelClickFinish.Text">
+        <object>Щелкните «Готово», чтобы добавить выбранные файлы</object>
+      </resource>
+      <resource name="selectAllToolStripMenuItem.Text">
+        <object>Выделить &amp;все</object>
+      </resource>
+      <resource name="selectNoneToolStripMenuItem.Text">
+        <object>Не выделять &amp;ничего</object>
+      </resource>
+      <resource name="labelAccessLevel.Text">
+        <object>Уровень доступа</object>
+      </resource>
+      <resource name="Text">
+        <object>Добавить несколько документов</object>
+      </resource>
+      <resource name="ErrorDirNotExists">
+        <object>Каталог «{0}» не существует.</object>
+      </resource>
+      <resource name="Error">
+        <object>Ошибка</object>
+      </resource>
+      <resource name="ErrorScan">
+        <object>Ошибка произошла во время сканирования каталога. {0}</object>
+      </resource>
+      <resource name="NoNullValues">
+        <object>В столбце {0} не допускаются пустые значения.</object>
+      </resource>
+      <resource name="Confirm">
+        <object>Подтвердить</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Document.ProgressCancelForm" ServiceOnly="false">
+      <resource name="buttonCancel.Text">
+        <object>&amp;Отмена</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.CR.ReportViewUC" ServiceOnly="false">
+      <resource name="erropends">
+        <object>Не удалось открыть наборы данных для отчета</object>
+      </resource>
+      <resource name="exptypecsv">
+        <object>CSV</object>
+      </resource>
+      <resource name="exptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="exptypegraphics">
+        <object>Графика</object>
+      </resource>
+      <resource name="exptypehtml">
+        <object>HTML</object>
+      </resource>
+      <resource name="exptypemht">
+        <object>MHT</object>
+      </resource>
+      <resource name="exptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="exptypertf">
+        <object>RTF</object>
+      </resource>
+      <resource name="exptypetext">
+        <object>Текст</object>
+      </resource>
+      <resource name="htoolDocMap">
+        <object>Показать/скрыть схему документа</object>
+      </resource>
+      <resource name="htoolEmail">
+        <object>Электронная почта</object>
+      </resource>
+      <resource name="htoolExport">
+        <object>Экспорт</object>
+      </resource>
+      <resource name="htoolFirstPage">
+        <object>Первая страница</object>
+      </resource>
+      <resource name="htoolHandTool">
+        <object>Инструмент «Рука»</object>
+      </resource>
+      <resource name="htoolInvalidate">
+        <object>Признать недействительным элемент ГИП для отчета</object>
+      </resource>
+      <resource name="htoolLastPage">
+        <object>Последняя страница</object>
+      </resource>
+      <resource name="htoolMagnifier">
+        <object>Лупа</object>
+      </resource>
+      <resource name="htoolMultiplePages">
+        <object>Несколько страниц</object>
+      </resource>
+      <resource name="htoolNextPage">
+        <object>Следующая страница</object>
+      </resource>
+      <resource name="htoolPreviousPage">
+        <object>Предыдущая страница</object>
+      </resource>
+      <resource name="htoolPrintSetup">
+        <object>Параметры страницы</object>
+      </resource>
+      <resource name="htoolPrintWithOptions">
+        <object>Печать с параметрами</object>
+      </resource>
+      <resource name="htoolRefresh">
+        <object>Обновить</object>
+      </resource>
+      <resource name="htoolRefreshWithOptions">
+        <object>Обновить с параметрами </object>
+      </resource>
+      <resource name="htoolSearch">
+        <object>Поиск</object>
+      </resource>
+      <resource name="htoolShowSql">
+        <object>Показать SQL </object>
+      </resource>
+      <resource name="htoolSpeedPrint">
+        <object>Печать</object>
+      </resource>
+      <resource name="htoolWatermark">
+        <object>Водяной знак</object>
+      </resource>
+      <resource name="htoolZoomIn">
+        <object>Увеличить</object>
+      </resource>
+      <resource name="htoolZoomOptions">
+        <object>Параметры масштабирования</object>
+      </resource>
+      <resource name="htoolZoomOut">
+        <object>Уменьшить</object>
+      </resource>
+      <resource name="pageWidth">
+        <object>Ширина страницы</object>
+      </resource>
+      <resource name="pagexofx">
+        <object>Стр. {0} из {1}</object>
+      </resource>
+      <resource name="sendexptypecsv">
+        <object>CSV</object>
+      </resource>
+      <resource name="sendexptypeexcel">
+        <object>Excel</object>
+      </resource>
+      <resource name="sendexptypegraphics">
+        <object>Графика</object>
+      </resource>
+      <resource name="sendexptypemht">
+        <object>MHT</object>
+      </resource>
+      <resource name="sendexptypepdf">
+        <object>PDF</object>
+      </resource>
+      <resource name="sendexptypertf">
+        <object>RTF</object>
+      </resource>
+      <resource name="sendexptypetext">
+        <object>Текст</object>
+      </resource>
+      <resource name="textWidth">
+        <object>Ширина текста</object>
+      </resource>
+      <resource name="toolEmail">
+        <object>Электронная почта</object>
+      </resource>
+      <resource name="toolExport">
+        <object>Экспорт</object>
+      </resource>
+      <resource name="toolFirstPage">
+        <object>Первая страница</object>
+      </resource>
+      <resource name="toolHandTool">
+        <object>Инструмент «Рука»</object>
+      </resource>
+      <resource name="toolInvalidate">
+        <object>Признать недействительным</object>
+      </resource>
+      <resource name="toolLastPage">
+        <object>Последняя страница</object>
+      </resource>
+      <resource name="toolMagnifier">
+        <object>Лупа</object>
+      </resource>
+      <resource name="toolMultiplePages">
+        <object>Несколько страниц</object>
+      </resource>
+      <resource name="toolNextPage">
+        <object>Следующая страница</object>
+      </resource>
+      <resource name="toolPreviousPage">
+        <object>Предыдущая страница</object>
+      </resource>
+      <resource name="toolPrintSetup">
+        <object>Параметры страницы</object>
+      </resource>
+      <resource name="toolPrintWithOptions">
+        <object>Печать без параметров</object>
+      </resource>
+      <resource name="toolRefresh">
+        <object>Обновить</object>
+      </resource>
+      <resource name="toolRefreshWithOptions">
+        <object>Обновить с параметрами</object>
+      </resource>
+      <resource name="toolSearch">
+        <object>Поиск</object>
+      </resource>
+      <resource name="toolShowSql">
+        <object>SQL</object>
+      </resource>
+      <resource name="toolSpeedPrint">
+        <object>Печать</object>
+      </resource>
+      <resource name="toolWatermark">
+        <object>Водяной знак</object>
+      </resource>
+      <resource name="toolZoomIn">
+        <object>Увеличить</object>
+      </resource>
+      <resource name="toolZoomOptions">
+        <object>Параметры масштабирования</object>
+      </resource>
+      <resource name="toolZoomOut">
+        <object>Уменьшить</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardReport.CR.ControllerExtension" ServiceOnly="false">
+      <resource name="CRViewer">
+        <object>Средство просмотра Crystal Reports</object>
+      </resource>
+      <resource name="NoLicense">
+        <object>Невозможно получить лицензию на средство просмотра Crystal Reports: {0}</object>
+      </resource>
+      <resource name="filenamenotfoound">
+        <object>Файл {0} не был найден</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.Licensing.InstallLicenseUC" ServiceOnly="false">
+      <resource name="groupControl1.Text">
+        <object>Сведения о лицензии</object>
+      </resource>
+      <resource name="labelControl3.Text">
+        <object>Дата установки ключа лицензии:</object>
+      </resource>
+      <resource name="labelControl1.Text">
+        <object>Дата истечения срока действия ключа лицензии:</object>
+      </resource>
+      <resource name="labelLicenseKeyType.Text">
+        <object>Тип ключа лицензии:</object>
+      </resource>
+      <resource name="labelProductCode.Text">
+        <object>Код продукта:</object>
+      </resource>
+      <resource name="buttonConfirmProductCode.Text">
+        <object>ОК</object>
+      </resource>
+      <resource name="buttonChangeProductCode.Text">
+        <object>Изменить...</object>
+      </resource>
+      <resource name="tabPageSiteId.Text">
+        <object>Создание идентификатора месторасположения</object>
+      </resource>
+      <resource name="buttonCreateSiteId.Text">
+        <object>Создание идентификатора месторасположения</object>
+      </resource>
+      <resource name="labelControl5.Text">
+        <object>Введите все идентификаторы дополнительного сервера, по одному идентификатору на каждую линию:</object>
+      </resource>
+      <resource name="tabPageInstallLicenseKey.Text">
+        <object>Установка ключа лицензии</object>
+      </resource>
+      <resource name="buttonOpenLicense.ToolTip">
+        <object>Открыть ключ лицензии из файла</object>
+      </resource>
+      <resource name="buttonPasteLicenseKey.ToolTip">
+        <object>Вставить ключ лицензии из буфера обмена</object>
+      </resource>
+      <resource name="buttonInstall.Text">
+        <object>&amp;Установить</object>
+      </resource>
+      <resource name="labelControl6.Text">
+        <object>Ключ лицензии</object>
+      </resource>
+      <resource name="openFileDialog.Filter">
+        <object>Файлы ключа лицензии Innova (*.ilk)|*.ilk|Все файлы|*.*</object>
+      </resource>
+      <resource name="buttonCancelProductCode.Text">
+        <object>Отмена</object>
+      </resource>
+      <resource name="NoValue">
+        <object>(нет)</object>
+      </resource>
+      <resource name="CreateSiteId">
+        <object>Создание идентификатора месторасположения...</object>
+      </resource>
+      <resource name="InstallingKey">
+        <object>Установка ключа лицензии...</object>
+      </resource>
+      <resource name="InstallTitle">
+        <object>Установка ключа лицензии</object>
+      </resource>
+      <resource name="LicenseKeyFormatError">
+        <object>Неверный формат ключа лицензии.</object>
+      </resource>
+      <resource name="LicenseKeyInstallError">
+        <object>Неверный ключ лицензии.</object>
+      </resource>
+      <resource name="InstallOk">
+        <object>Ключ лицензии успешно установлен.</object>
+      </resource>
+      <resource name="ChangeProductCodeWarning">
+        <object>ПРЕДУПРЕЖДЕНИЕ! Изменение кода продукта сделает недопустимым ключ лицензии. Система Innova БУДЕТ ПОЛНОСТЬЮ НЕРАБОТОСПОСОБНОЙ до тех пор, пока не будет установлен новый ключ лицензии.\n\nПродолжить и изменить код продукта?</object>
+      </resource>
+      <resource name="ChangeProductCodeTitle">
+        <object>Изменить код продукта</object>
+      </resource>
+      <resource name="InsertingProductCode">
+        <object>Ввод кода продукта...</object>
+      </resource>
+      <resource name="InsertProductCodeTitle">
+        <object>Ввод кода продукта</object>
+      </resource>
+      <resource name="ProductCodeInsertError">
+        <object>Неправильный код продукта.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.StandardGridControllerExtension" ServiceOnly="false">
+      <resource name="Insert">
+        <object>Вставить</object>
+      </resource>
+      <resource name="Update">
+        <object>Обновить</object>
+      </resource>
+      <resource name="Delete">
+        <object>Удалить</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.M6000Platform" ServiceOnly="false">
+      <resource name="LicenseMessage">
+        <object>Невозможно получить клиентскую лицензию для IPC: {0}.{1}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Pda.SymbolMC9000SeriesPlatform" ServiceOnly="false">
+      <resource name="LicenseMessage">
+        <object>Невозможно получить клиентскую лицензию для КПК: {0}.{1}</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.WindowsPlatform" ServiceOnly="false">
+      <resource name="LicenseMessage">
+        <object>Невозможно получить клиентскую лицензию для ПК: {0}.{1}</object>
+      </resource>
+      <resource name="LicenseMessageAdmin">
+        <object>Невозможно получить лицензию на администрирование для запуска на сервере задач клиентского компьютера.</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.M6000.Document.DocumentShowUserControl" ServiceOnly="false">
+      <resource name="ErrorNoDocMan">
+        <object>Ошибка: Невозможно получить доступ к службе диспетчера документов</object>
+      </resource>
+      <resource name="NoDocumentsFound">
+        <object>Не найдены документы для объекта {0} ({1})</object>
+      </resource>
+      <resource name="SelectedObject">
+        <object>Выбранным объектом является {0} ({1}){2}</object>
+      </resource>
+      <resource name="LoadingDocument">
+        <object>Загрузка документа...</object>
+      </resource>
+      <resource name="RenderDocument">
+        <object>Просмотрите документ</object>
+      </resource>
+      <resource name="BadUrlForRendering">
+        <object>Выбранный документ не удалось обработать, поскольку он содержит неправильный URL-адрес.</object>
+      </resource>
+      <resource name="BadDocument">
+        <object>Выбранный документ не удалось обработать, поскольку он пустой. Отредактируйте документ и добавьте новый встроенный документ или URL-адрес.</object>
+      </resource>
+      <resource name="Previous">
+        <object>Предыдущий</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.ViewConfigurationAccess" ServiceOnly="false">
+      <resource name="Unavailable">
+        <object>Недоступный</object>
+      </resource>
+      <resource name="Available">
+        <object>Доступный</object>
+      </resource>
+      <resource name="Default">
+        <object>Используется по умолчанию</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Common.Controls.Grid.GridControl" ServiceOnly="false">
+      <resource name="Lookup.Name.Caption">
+        <object>Имя</object>
+      </resource>
+      <resource name="Lookup.Code.Caption">
+        <object>Код</object>
+      </resource>
+      <resource name="DeleteSingleRow">
+        <object>Удалить строку?</object>
+      </resource>
+      <resource name="DeleteCaption">
+        <object>Удалить строки</object>
+      </resource>
+      <resource name="DeleteMultipleRows">
+        <object>Удалить {0} строк?</object>
+      </resource>
+      <resource name="NoNullAllowed">
+        <object>В столбце «{0}» не допускаются нули.\n</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.MultiView.StandardMultiView" ServiceOnly="false">
+      <resource name="ConfirmSave">
+        <object>Предполагается перезаписать конфигурацию с именем {0}. Нет возможности отменить эту операцию. Продолжить?</object>
+      </resource>
+      <resource name="ConfirmSaveCaption">
+        <object>Предупреждение</object>
+      </resource>
+      <resource name="CannotRemoveFactorySettings">
+        <object>Заводские настройки невозможно удалить</object>
+      </resource>
+      <resource name="CannotRemoveFactorySettingsCaption">
+        <object>Предупреждение</object>
+      </resource>
+      <resource name="ConfirmRemove">
+        <object>Конфигурация с именем {0} будет удалена.  Нет возможности отменить эту операцию. Продолжить?</object>
+      </resource>
+      <resource name="ConfirmRemoveCaption">
+        <object>Вопрос</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.MultiView.BarHandler" ServiceOnly="false">
+      <resource name="activeObjects">
+        <object>Активный</object>
+      </resource>
+      <resource name="inactiveObjects">
+        <object>Неактивный</object>
+      </resource>
+      <resource name="bothObjects">
+        <object>И то, и другое</object>
+      </resource>
+      <resource name="objecttypes">
+        <object>Показать объекты, которые</object>
+      </resource>
+      <resource name="AutofilterButton">
+        <object>Автофильтр</object>
+      </resource>
+      <resource name="CloneButton">
+        <object>Клонировать</object>
+      </resource>
+      <resource name="ConfirmButton">
+        <object>Подтвердить</object>
+      </resource>
+      <resource name="DesignMode">
+        <object>Режим конструктора</object>
+      </resource>
+      <resource name="InvalidateCacheButton">
+        <object>Признать недействительными кэшированные данные</object>
+      </resource>
+      <resource name="LoadedRowsAll">
+        <object>Загруженные строки:Все</object>
+      </resource>
+      <resource name="LoadedRows">
+        <object>Загруженные строки</object>
+      </resource>
+      <resource name="SelectedRowCount">
+        <object>Количество выделенных строк</object>
+      </resource>
+      <resource name="NormalMode">
+        <object>Прекратить разработку</object>
+      </resource>
+      <resource name="OperationsButton">
+        <object>Операции</object>
+      </resource>
+      <resource name="RefreshButton">
+        <object>Обновить</object>
+      </resource>
+      <resource name="ReloadConfigButton">
+        <object>Перезагрузить элемент ГИП</object>
+      </resource>
+      <resource name="Remove">
+        <object>Удалить</object>
+      </resource>
+      <resource name="RestoreDefaultsButton">
+        <object>Восстановить компоновку по умолчанию</object>
+      </resource>
+      <resource name="Save">
+        <object>Сохранить</object>
+      </resource>
+      <resource name="SaveAs">
+        <object>Сохранить как...</object>
+      </resource>
+      <resource name="ShowPreview">
+        <object>Показать подробные сведения</object>
+      </resource>
+      <resource name="XlatButton">
+        <object>Xlat</object>
+      </resource>
+      <resource name="ViewSql">
+        <object>SQL</object>
+      </resource>
+      <resource name="DataSourceConfigProblems">
+        <object>Неполадке при настройке источника данных</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.PrintPrompt" ServiceOnly="false">
+      <resource name="checkEdit1.Properties.Caption">
+        <object>Печать подробной информации</object>
+      </resource>
+      <resource name="checkEdit2.Properties.Caption">
+        <object>Печать всех сведений</object>
+      </resource>
+    </type>
+    <type name="Marel.Mp5.Base.UI.Windows.StandardGrid.PrintPromptDialog" ServiceOnly="false">
+      <resource name="Text">
+        <object>Параметры печати</object>
+      </resource>
+      <resource name="simpleButton1.Text">
+        <object>ОК</object>
+      </resource>
+    </type>
+  </industry>
+</resources>
