@@ -2,9 +2,9 @@ import { Controller, ControllerPath, Get } from '@bleed-believer/espresso';
 import { ODataEntity } from '@bleed-believer/kendo-grid-server';
 
 import { ProcMaterialc } from '@entities/proc-materialc.entity.js';
+import { ProcMaterials } from '@entities/proc-materials.entity.js';
 import { EndpointError } from '@server/endpoint-error.js';
 import { dataSource } from '@/data-source.js';
-import { ProcMaterials } from '@entities/proc-materials.entity.js';
 
 @ControllerPath(':id')
 export class GetController extends Controller {
@@ -14,7 +14,7 @@ export class GetController extends Controller {
         :   NaN;
 
         if (isNaN(id)) {
-            throw new EndpointError(400, 'The product id must be an unsigned integer');
+            throw new EndpointError(400, 'The product "id" is invalid');
         }
 
         return id;

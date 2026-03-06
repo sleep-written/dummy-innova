@@ -1,6 +1,7 @@
 <mat-card>
     <mat-card-header>
-        <mat-card-title>Material Settings</mat-card-title>
+        <mat-card-title
+        [style.margin-bottom]="!this.material ? '1.5rem' : 'unset'">Material Settings</mat-card-title>
         @if (this.material) {
             <mat-card-subtitle>{{ this.material.code }} - {{ this.material.name }}</mat-card-subtitle>
         }
@@ -38,90 +39,90 @@
             <kendo-grid-column
             field="customer.code"
             title="Customer Code"
-            [width]="160">
+            [width]="256">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="customer.name"
             title="Customer Name"
-            [width]="256">
+            [width]="320">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="description1"
+            title="Material Description"
+            [width]="320">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="packaging.code"
             title="Packaging"
-            [width]="160">
+            [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="pkPackaging.code"
             title="PK Packaging"
-            [width]="160">
+            [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="itPackaging.code"
             title="IT Packaging"
-            [width]="160">
+            [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="procLayoutPK.code"
             title="PK Layout"
-            [width]="160">
+            [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="procLayoutIT.code"
             title="IT Layout"
-            [width]="160">
-            </kendo-grid-column>
-
-            <kendo-grid-column
-            field="expire1method.code"
-            title="Expire Method"
-            [width]="160">
+            [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="expire1"
-            title="Expire (days)"
+            title="Expiration"
             filter="numeric"
             [width]="140">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="description1"
-            title="Description"
-            [width]="256">
+            field="expire1method.name"
+            title="Expire Method"
+            [width]="320">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="packsizeum"
             title="Pack Size UM"
             filter="numeric"
-            [width]="140">
+            [width]="200">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="stacksizeum"
             title="Stack Size UM"
             filter="numeric"
-            [width]="140">
+            [width]="200">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="palletpsizeum"
             title="Pallet P Size UM"
             filter="numeric"
-            [width]="152">
+            [width]="200">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="palletssizeum"
             title="Pallet S Size UM"
             filter="numeric"
-            [width]="152">
+            [width]="200">
             </kendo-grid-column>
 
             <kendo-grid-column
