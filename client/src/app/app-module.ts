@@ -12,6 +12,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { NavbarModule } from '@shared/navbar';
 
 import { provideAnimations } from '@angular/platform-browser/animations';
+import { provideZoneChangeDetection } from '@angular/core';
 import { provideBrowserGlobalErrorListeners } from '@angular/core';
 
 @NgModule({
@@ -31,6 +32,7 @@ import { provideBrowserGlobalErrorListeners } from '@angular/core';
   ],
   providers: [
     provideAnimations(),
+    provideZoneChangeDetection({ eventCoalescing: true }),
     provideBrowserGlobalErrorListeners(),
   ],
   bootstrap: [App]

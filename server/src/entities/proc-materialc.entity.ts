@@ -51,11 +51,11 @@ export class ProcMaterialc extends BaseEntity {
 
     @ManyToOne(_ => ProcMaterials, r => r.id, { nullable: true })
     @JoinColumn({ name: 'pkpackaging' })
-    taraCaja?: Relation<ProcMaterials> | null;
+    pkPackaging?: Relation<ProcMaterials> | null;
 
     @ManyToOne(_ => ProcMaterials, r => r.id, { nullable: true })
     @JoinColumn({ name: 'itpackaging' })
-    taraBolsa?: Relation<ProcMaterials> | null;
+    itPackaging?: Relation<ProcMaterials> | null;
 
     /**
      * Internal layout (etiqueta).

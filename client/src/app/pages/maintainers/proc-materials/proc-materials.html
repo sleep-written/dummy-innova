@@ -20,13 +20,16 @@
         (filterChange)="this.onFilterChange($event)">
             <kendo-grid-column
             field="code"
-            title="Code">
+            title="Code"
+            [width]="160"
+            [sticky]="true">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="active"
             title="Active(?)"
-            filter="boolean">
+            filter="boolean"
+            [width]="128">
                 <ng-template kendoGridCellTemplate let-item>
                     @if (item.active) {
                         <span [style.color]="'#10ff10'">True</span>
@@ -38,12 +41,14 @@
 
             <kendo-grid-column
             field="name"
-            title="Name">
+            title="Name"
+            [width]="320">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="systemtype"
-            title="System Type">
+            title="System Type"
+            [width]="160">
                 <ng-template kendoGridFilterMenuTemplate
                 let-column="column"
                 let-filter="filter"
@@ -67,21 +72,25 @@
             <kendo-grid-column
             field="materialtype.name"
             title="Material Type"
-            filter="numeric">
+            filter="numeric"
+            [width]="160">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="pkPackaging.name"
-            title="PK Packaging">
+            title="PK Packaging"
+            [width]="256">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="itPackaging.name"
-            title="IT Packaging">
+            title="IT Packaging"
+            [width]="256">
             </kendo-grid-column>
 
             <kendo-grid-column
-            [width]="128"
+            [width]="152"
+            [sticky]="true"
             [columnMenu]="false">
                 <ng-template kendoGridHeaderTemplate>
                     <button mat-icon-button
@@ -106,6 +115,12 @@
                     color="secondary"
                     (click)="this.set(item)">
                         <mat-icon>edit</mat-icon>
+                    </button>
+
+                    <button mat-icon-button
+                    type="button"
+                    color="tertiary">
+                        <mat-icon>settings</mat-icon>
                     </button>
 
                     <button mat-icon-button
