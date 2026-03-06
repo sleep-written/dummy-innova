@@ -7,6 +7,9 @@ export class Menu extends BaseEntity {
     @PrimaryGeneratedColumn({ type: 'int' })
     id!: number;
 
+    @Column({ type: 'bit' })
+    visible!: boolean;
+
     @Column({ type: 'varchar', length: 1024, nullable: true })
     path!: string | null;
 

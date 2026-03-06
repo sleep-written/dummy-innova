@@ -117,11 +117,11 @@
                         <mat-icon>edit</mat-icon>
                     </button>
 
-                    <button mat-icon-button
-                    type="button"
+                    <a mat-icon-button
+                    [routerLink]="'../proc-materialc/' + item.id"
                     color="tertiary">
                         <mat-icon>settings</mat-icon>
-                    </button>
+                    </a>
 
                     <button mat-icon-button
                     type="button"

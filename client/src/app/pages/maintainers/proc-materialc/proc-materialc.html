@@ -1,0 +1,143 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Material Settings</mat-card-title>
+        @if (this.material) {
+            <mat-card-subtitle>{{ this.material.code }} - {{ this.material.name }}</mat-card-subtitle>
+        }
+    </mat-card-header>
+
+    <mat-card-content>
+        <kendo-grid
+        [data]="this.data"
+        [skip]="this.skip"
+        [sort]="this.sort"
+        [filter]="this.filter"
+        [loading]="this.loading"
+        [pageSize]="this.pageSize"
+        [sortable]="this.sortable"
+        [pageable]="this.pageable"
+        [columnMenu]="{ columnChooser: false }"
+        [filterable]="this.filterable"
+        (pageChange)="this.onPageChange($event)"
+        (sortChange)="this.onSortChange($event)"
+        (filterChange)="this.onFilterChange($event)">
+            <kendo-grid-column
+            field="active"
+            title="Active"
+            filter="boolean"
+            [width]="112">
+                <ng-template kendoGridCellTemplate let-item>
+                    @if (item.active) {
+                        <span [style.color]="'#10ff10'">True</span>
+                    } @else {
+                        <span [style.color]="'#c30000'">False</span>
+                    }
+                </ng-template>
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="customer.code"
+            title="Customer Code"
+            [width]="160">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="customer.name"
+            title="Customer Name"
+            [width]="256">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="packaging.code"
+            title="Packaging"
+            [width]="160">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="pkPackaging.code"
+            title="PK Packaging"
+            [width]="160">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="itPackaging.code"
+            title="IT Packaging"
+            [width]="160">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="procLayoutPK.code"
+            title="PK Layout"
+            [width]="160">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="procLayoutIT.code"
+            title="IT Layout"
+            [width]="160">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="expire1method.code"
+            title="Expire Method"
+            [width]="160">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="expire1"
+            title="Expire (days)"
+            filter="numeric"
+            [width]="140">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="description1"
+            title="Description"
+            [width]="256">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="packsizeum"
+            title="Pack Size UM"
+            filter="numeric"
+            [width]="140">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="stacksizeum"
+            title="Stack Size UM"
+            filter="numeric"
+            [width]="140">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="palletpsizeum"
+            title="Pallet P Size UM"
+            filter="numeric"
+            [width]="152">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="palletssizeum"
+            title="Pallet S Size UM"
+            filter="numeric"
+            [width]="152">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            [width]="80"
+            [sticky]="true"
+            [columnMenu]="false">
+                <ng-template kendoGridHeaderTemplate>
+                    <button mat-icon-button
+                    type="button"
+                    color="tertiary"
+                    (click)="this.update()">
+                        <mat-icon
+                        [class.spin]="this.loading">sync</mat-icon>
+                    </button>
+                </ng-template>
+            </kendo-grid-column>
+        </kendo-grid>
+    </mat-card-content>
+</mat-card>

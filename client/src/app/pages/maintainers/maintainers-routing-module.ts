@@ -7,16 +7,20 @@ const routes: Routes = [
     loadChildren: () => import('./base-companies').then((m) => m.BaseCompaniesModule),
   },
   {
-    path: 'proc-layouts',
-    loadChildren: () => import('./proc-layouts').then((m) => m.ProcLayoutsModule),
+    path: 'proc-materialtypes',
+    loadChildren: () => import('./proc-materialtypes').then((m) => m.ProcMaterialtypesModule),
   },
   {
     path: 'proc-materials',
     loadChildren: () => import('./proc-materials').then((m) => m.ProcMaterialsModule),
   },
   {
-    path: 'proc-materialtypes',
-    loadChildren: () => import('./proc-materialtypes').then((m) => m.ProcMaterialtypesModule),
+    path: 'proc-layouts',
+    loadChildren: () => import('./proc-layouts').then((m) => m.ProcLayoutsModule),
+  },
+  {
+    path: 'proc-materialc/:id',
+    loadChildren: () => import('./proc-materialc').then((m) => m.ProcMaterialcModule),
   },
 ];
 

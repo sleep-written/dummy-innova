@@ -1,0 +1,1 @@
+export { ProcMaterialcModule } from './proc-materialc-module';

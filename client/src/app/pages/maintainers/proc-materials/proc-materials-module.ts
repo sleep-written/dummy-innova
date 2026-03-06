@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProcMaterialsRoutingModule } from './proc-materials-routing-module';
 
@@ -32,6 +33,7 @@ import { provideHttpClient } from '@angular/common/http';
     ],
     imports: [
         CommonModule,
+        RouterModule,
         ReactiveFormsModule,
         ProcMaterialsRoutingModule,
 
