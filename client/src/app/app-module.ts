@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
@@ -11,7 +12,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { NavbarModule } from '@shared/navbar';
 
-import { provideAnimations } from '@angular/platform-browser/animations';
 import { provideZoneChangeDetection } from '@angular/core';
 import { provideBrowserGlobalErrorListeners } from '@angular/core';
 
@@ -22,6 +22,7 @@ import { provideBrowserGlobalErrorListeners } from '@angular/core';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
 
     MatIconModule,
     MatButtonModule,
@@ -31,7 +32,6 @@ import { provideBrowserGlobalErrorListeners } from '@angular/core';
     NavbarModule,
   ],
   providers: [
-    provideAnimations(),
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideBrowserGlobalErrorListeners(),
   ],

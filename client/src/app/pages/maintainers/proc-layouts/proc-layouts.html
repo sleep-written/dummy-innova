@@ -20,13 +20,15 @@
         (filterChange)="this.onFilterChange($event)">
             <kendo-grid-column
             field="code"
-            title="Code">
+            title="Code"
+            [width]="160">
             </kendo-grid-column>
 
             <kendo-grid-column
             field="active"
             title="Active(?)"
-            filter="boolean">
+            filter="boolean"
+            [width]="128">
                 <ng-template kendoGridCellTemplate let-item>
                     @if (item.active) {
                         <span [style.color]="'#10ff10'">True</span>
@@ -38,7 +40,8 @@
 
             <kendo-grid-column
             field="name"
-            title="Name">
+            title="Name"
+            [width]="320">
             </kendo-grid-column>
 
             <kendo-grid-column
