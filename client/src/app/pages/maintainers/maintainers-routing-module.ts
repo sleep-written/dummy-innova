@@ -14,6 +14,10 @@ const routes: Routes = [
     path: 'proc-materials',
     loadChildren: () => import('./proc-materials').then((m) => m.ProcMaterialsModule),
   },
+  {
+    path: 'proc-materialtypes',
+    loadChildren: () => import('./proc-materialtypes').then((m) => m.ProcMaterialtypesModule),
+  },
 ];
 
 @NgModule({

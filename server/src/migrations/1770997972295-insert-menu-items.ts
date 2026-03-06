@@ -31,6 +31,13 @@ export class InsertMenuItems1770997972295 implements MigrationInterface {
             icon: 'favorite',
             path: 'maintainers/proc-materials',
         });
+
+        await repo.save({
+            parent: maintainers,
+            name: 'Material Types',
+            icon: 'category',
+            path: 'maintainers/proc-materialtypes',
+        });
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {

@@ -1,6 +1,6 @@
 export interface ProcMaterialtypesItem {
     id: number;
-    code: number;
-    name: number;
-    shname: number;
+    code: string;
+    name: string;
+    shname: string;
 }

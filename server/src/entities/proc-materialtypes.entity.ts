@@ -6,11 +6,11 @@ export class ProcMaterialtypes extends BaseEntity {
     id!: number;
     
     @Column({ type: 'nvarchar', length: 30 })
-    code!: number;
-    
+    code!: string;
+
     @Column({ type: 'nvarchar', length: 30 })
-    name!: number;
-    
+    name!: string;
+
     @Column({ type: 'nvarchar', length: 10 })
-    shname!: number;
+    shname!: string;
 }

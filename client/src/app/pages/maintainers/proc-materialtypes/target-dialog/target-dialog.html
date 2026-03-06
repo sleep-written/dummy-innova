@@ -1,0 +1,54 @@
+@if (this.isNew) {
+    <h3 mat-dialog-title>Create new material type</h3>
+} @else {
+    <h3 mat-dialog-title>Update material type</h3>
+}
+
+<mat-dialog-content
+[formGroup]="this.form">
+    <mat-form-field>
+        <mat-label>Code</mat-label>
+        <input matInput
+        formControlName="code"
+        [maxLength]="30" />
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input matInput
+        formControlName="name"
+        [maxLength]="30" />
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Short Name</mat-label>
+        <input matInput
+        formControlName="shname"
+        [maxLength]="10" />
+    </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button mat-flat-button
+    type="button"
+    color="primary"
+    (click)="this.save()"
+    [disabled]="this.form.disabled || this.form.pristine || this.form.invalid">
+        @if (this.form.disabled) {
+            <mat-icon spin fontSet="material-symbols-outlined">progress_activity</mat-icon>
+        } @else {
+            <mat-icon>save</mat-icon>
+        }
+
+        <span>Save</span>
+    </button>
+
+    <button mat-flat-button
+    type="button"
+    color="tertiary"
+    (click)="this.cancel()"
+    [disabled]="this.form.disabled">
+        <mat-icon>close</mat-icon>
+        <span>Cancel</span>
+    </button>
+</mat-dialog-actions>

@@ -4,6 +4,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { ModalContent } from './modal-content';
 import { ModalOptions } from './modal-options';
 import { firstValueFrom } from 'rxjs';
+import { HttpErrorResponse } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root',
@@ -31,9 +32,13 @@ export class Modal {
       color: 'error',
       disableClose,
       content:
-        typeof error !== 'string'
-        ? (error as any)?.message ?? 'Error not specified'
-        : error,
+          error instanceof HttpErrorResponse && typeof error.error === 'string'
+        ? error.error
+        : error instanceof Error
+        ? error.message
+        : typeof error === 'string'
+        ? error
+        : 'Error not specified',
       buttons: [
         { icon: 'thumb_up', text: 'Ok', value: undefined }
       ]
