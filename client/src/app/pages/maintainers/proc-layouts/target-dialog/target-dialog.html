@@ -13,19 +13,31 @@
         <mat-radio-button [value]="true">Active</mat-radio-button>
     </mat-radio-group>
 
-    <mat-form-field>
-        <mat-label>Code</mat-label>
-        <input matInput
-        formControlName="code"
-        [maxLength]="30" />
-    </mat-form-field>
+    <kendo-formfield>
+        <kendo-floatinglabel
+        text="Code">
+            <kendo-textbox
+            formControlName="code"
+            [maxlength]="30">
+            </kendo-textbox>
+        </kendo-floatinglabel>
 
-    <mat-form-field>
-        <mat-label>Name</mat-label>
-        <input matInput
-        formControlName="name"
-        [maxLength]="30" />
-    </mat-form-field>
+        <kendo-formhint>Required</kendo-formhint>
+        <kendo-formerror>This field is required</kendo-formerror>
+    </kendo-formfield>
+
+    <kendo-formfield>
+        <kendo-floatinglabel
+        text="Name">
+            <kendo-textbox
+            formControlName="name"
+            [maxlength]="30">
+            </kendo-textbox>
+        </kendo-floatinglabel>
+
+        <kendo-formhint>Required</kendo-formhint>
+        <kendo-formerror>This field is required</kendo-formerror>
+    </kendo-formfield>
 </mat-dialog-content>
 
 <mat-dialog-actions>

@@ -16,6 +16,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatFormFieldModule } from '@angular/material/form-field';
 
 import { GridModule } from '@progress/kendo-angular-grid';
+import { InputsModule } from '@progress/kendo-angular-inputs';
+import { FloatingLabelModule } from '@progress/kendo-angular-label';
 
 import { ModalModule } from '@shared/modal';
 import { FlexGridTileModule } from '@shared/flex-grid-tile';
@@ -42,6 +44,8 @@ import { provideHttpClient } from '@angular/common/http';
     MatFormFieldModule,
 
     GridModule,
+    InputsModule,
+    FloatingLabelModule,
 
     ModalModule,
     FlexGridTileModule,
