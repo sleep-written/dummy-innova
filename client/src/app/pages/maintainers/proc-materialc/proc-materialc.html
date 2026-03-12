@@ -23,110 +23,167 @@
         (sortChange)="this.onSortChange($event)"
         (filterChange)="this.onFilterChange($event)">
             <kendo-grid-column
-            field="active"
-            title="Active"
-            filter="boolean"
-            [width]="112">
-                <ng-template kendoGridCellTemplate let-item>
-                    @if (item.active) {
-                        <span [style.color]="'#10ff10'">True</span>
-                    } @else {
-                        <span [style.color]="'#c30000'">False</span>
-                    }
-                </ng-template>
-            </kendo-grid-column>
-
-            <kendo-grid-column
-            field="customer.code"
+            field="code"
             title="Customer Code"
-            [width]="256">
+            [width]="180">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="customer.name"
+            field="name"
             title="Customer Name"
             [width]="320">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="description1"
-            title="Material Description"
+            field="hasSettings"
+            title="Setled(?)"
+            filter="boolean"
+            [width]="135">
+                <ng-template kendoGridCellTemplate let-item>
+                    @switch (item.hasSettings) {
+                        @case (true) {
+                            <span [style.color]="'#10ff10'">True</span>
+                        }
+    
+                        @case (false) {
+                            <span [style.color]="'#c30000'">False</span>
+                        }
+                    }
+                </ng-template>
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="procMaterialcActive"
+            title="Active"
+            filter="boolean"
+            [width]="112">
+                <ng-template kendoGridCellTemplate let-item>
+                    @switch (item.procMaterialcActive) {
+                        @case (true) {
+                            <span [style.color]="'#10ff10'">True</span>
+                        }
+    
+                        @case (false) {
+                            <span [style.color]="'#c30000'">False</span>
+                        }
+                    }
+                </ng-template>
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="procMaterialcDescription1"
+            title="Description"
+            filter="text"
             [width]="320">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="packaging.code"
-            title="Packaging"
+            field="procMaterialcExpire1"
+            title="Expire"
+            filter="numeric"
+            [width]="128">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="expire1methodCode"
+            title="Expire Method Code"
+            filter="text"
+            [width]="220">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="expire1methodName"
+            title="Expire Method Name"
+            filter="text"
+            [width]="220">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="procMaterialcPacksizeum"
+            title="Package's Measure Unit"
+            [width]="260">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="procMaterialcStacksizeum"
+            title="Pile's Measure Unit"
+            [width]="260">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="procMaterialcPalletpsizeum"
+            title="Package's Pallet Measure Unit"
+            [width]="260">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="procMaterialcPalletssizeum"
+            title="Pile's Package Measure Unit"
+            [width]="260">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="packagingCode"
+            title="Packaging Code"
             [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="pkPackaging.code"
-            title="PK Packaging"
+            field="packagingName"
+            title="Packaging Name"
             [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="itPackaging.code"
-            title="IT Packaging"
+            field="pkPackagingCode"
+            title="PK Packaging Code"
             [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="procLayoutPK.code"
-            title="PK Layout"
+            field="pkPackagingName"
+            title="PK Packaging Name"
             [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="procLayoutIT.code"
-            title="IT Layout"
+            field="itPackagingCode"
+            title="IT Packaging Code"
             [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="expire1"
-            title="Expiration"
-            filter="numeric"
-            [width]="140">
+            field="itPackagingName"
+            title="IT Packaging Name"
+            [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="expire1method.name"
-            title="Expire Method"
-            [width]="320">
+            field="procLayoutITCode"
+            title="IT Layout Code"
+            [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="packsizeum"
-            title="Pack Size UM"
-            filter="numeric"
-            [width]="200">
+            field="procLayoutITName"
+            title="IT Layout Name"
+            [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="stacksizeum"
-            title="Stack Size UM"
-            filter="numeric"
-            [width]="200">
+            field="procLayoutPKCode"
+            title="PK Layout Code"
+            [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="palletpsizeum"
-            title="Pallet P Size UM"
-            filter="numeric"
-            [width]="200">
+            field="procLayoutPKName"
+            title="PK Layout Name"
+            [width]="240">
             </kendo-grid-column>
 
             <kendo-grid-column
-            field="palletssizeum"
-            title="Pallet S Size UM"
-            filter="numeric"
-            [width]="200">
-            </kendo-grid-column>
-
-            <kendo-grid-column
-            [width]="80"
+            [width]="160"
             [sticky]="true"
             [columnMenu]="false">
                 <ng-template kendoGridHeaderTemplate>
@@ -137,6 +194,31 @@
                         <mat-icon
                         [class.spin]="this.loading">sync</mat-icon>
                     </button>
+                </ng-template>
+
+                <ng-template kendoGridCellTemplate let-item>
+                    @if (item.hasSettings) {
+                        <button mat-icon-button
+                        type="button"
+                        color="primary"
+                        (click)="this.set(item.id)">
+                            <mat-icon>edit</mat-icon>
+                        </button>
+
+                        <button mat-icon-button
+                        type="button"
+                        color="warn"
+                        (click)="this.delete(item.materialcId)">
+                            <mat-icon>delete</mat-icon>
+                        </button>
+                    } @else {
+                        <button mat-icon-button
+                        type="button"
+                        color="primary"
+                        (click)="this.set()">
+                            <mat-icon>add</mat-icon>
+                        </button>
+                    }
                 </ng-template>
             </kendo-grid-column>
         </kendo-grid>

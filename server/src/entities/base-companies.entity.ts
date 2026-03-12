@@ -2,6 +2,7 @@ import type { Relation } from 'typeorm';
 import { BaseEntity, Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 
 import { ProcOrders } from './proc-orders.entity.js';
+import { ProcMaterialc } from './proc-materialc.entity.js';
 
 @Entity({ name: 'base_companies' })
 export class BaseCompanies extends BaseEntity {
@@ -30,5 +31,8 @@ export class BaseCompanies extends BaseEntity {
     description8!: string;
 
     @OneToMany(_ => ProcOrders, r => r.cliente)
-    orders?: Relation<ProcOrders[]>;
+    orders?: Relation<ProcOrders[]> | null;
+
+    @OneToMany(_ => ProcMaterialc, r => r.customer)
+    materialc?: Relation<ProcMaterialc[]> | null;
 }

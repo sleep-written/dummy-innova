@@ -3,9 +3,12 @@ import { GridComponent, GridView } from '@bleed-believer/kendo-grid-client';
 import { ActivatedRoute } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 
-import { ProcMaterialcItem, ProcMaterialsItem } from './interfaces';
+import { SettingsItem, ProcMaterialsItem } from './interfaces';
 import { Service } from './service';
 import { Modal } from '@shared/modal';
+import { MatDialog } from '@angular/material/dialog';
+import { TargetDialog } from './target-dialog';
+import { firstValueFrom } from 'rxjs';
 
 @Component({
     selector: 'app-proc-materialc',
@@ -14,9 +17,10 @@ import { Modal } from '@shared/modal';
     styleUrl: './proc-materialc.scss',
     changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class ProcMaterialc extends GridComponent<ProcMaterialcItem> implements OnInit {
+export class ProcMaterialc extends GridComponent<SettingsItem> implements OnInit {
     #activatedRoute = inject(ActivatedRoute);
     #service = inject(Service);
+    #dialog = inject(MatDialog);
     #modal = inject(Modal);
     #title = inject(Title);
 
@@ -27,7 +31,7 @@ export class ProcMaterialc extends GridComponent<ProcMaterialcItem> implements O
         super(changeDet);
     }
 
-    override async getData(): Promise<GridView<ProcMaterialcItem> | null> {
+    override async getData(): Promise<GridView<SettingsItem> | null> {
         try {
             return await this.#service.getSettings(this.material.id, this.dataRequest);
         } catch (err) {
@@ -42,6 +46,23 @@ export class ProcMaterialc extends GridComponent<ProcMaterialcItem> implements O
         try {
             const id = parseInt(this.#activatedRoute.snapshot.params['id']);
             this.material = await this.#service.get(id);
+            return this.update();
+        } catch (err) {
+            await this.#modal.openError(err);
+        }
+    }
+
+    async set(id?: number): Promise<void> {
+        const dialog = this.#dialog.open(TargetDialog, {
+        });
+
+        await firstValueFrom(dialog.afterClosed());
+        return this.update();
+    }
+
+    async delete(id: number): Promise<void> {
+        try {
+            // await this.#service.deleteConfig(config.id);
             return this.update();
         } catch (err) {
             await this.#modal.openError(err);
