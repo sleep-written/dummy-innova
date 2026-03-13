@@ -1,9 +1,9 @@
-import { GridView, GridViewRequest, OData } from '@bleed-believer/kendo-grid-client';
+import { GridViewRequest, OData } from '@bleed-believer/kendo-grid-client';
 import { inject, Injectable } from '@angular/core';
 import { firstValueFrom } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
-import { SettingsItem, ProcMaterialsItem } from './interfaces';
+import { MainData } from './interfaces';
 
 @Injectable({
     providedIn: 'root',
@@ -11,26 +11,12 @@ import { SettingsItem, ProcMaterialsItem } from './interfaces';
 export class Service {
     #httpClient = inject(HttpClient);
 
-    getSettings(materialId: number, options?: GridViewRequest): Promise<GridView<SettingsItem>> {
-        const qst = options
-        ? new OData(options).stringify(true)
-        : '';
+    get(materialId: number, options?: GridViewRequest): Promise<MainData> {
+        const str = options
+        ?   new OData(options).stringify(true)
+        :   '';
 
-        const obs = this.#httpClient.get<GridView<SettingsItem>>(`api/proc-materialc/${materialId}/settings${qst}`);
-        return firstValueFrom(obs);
-    }
-
-    get(materialId: number): Promise<ProcMaterialsItem> {
-        const obs = this.#httpClient.get<ProcMaterialsItem>(`api/proc-materialc/${materialId}`);
-        return firstValueFrom(obs);
-    }
-
-    getCustomers(options?: GridViewRequest): Promise<GridView<SettingsItem>> {
-        const qst = options
-        ? new OData(options).stringify(true)
-        : '';
-
-        const obs = this.#httpClient.get<GridView<SettingsItem>>(`api/base-companies${qst}`);
+        const obs = this.#httpClient.get<MainData>(`api/proc-materialc/${materialId}${str}`);
         return firstValueFrom(obs);
     }
 }

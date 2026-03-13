@@ -1,14 +1,14 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, inject, OnInit } from '@angular/core';
 import { GridComponent, GridView } from '@bleed-believer/kendo-grid-client';
 import { ActivatedRoute } from '@angular/router';
+import { firstValueFrom } from 'rxjs';
+import { MatDialog } from '@angular/material/dialog';
 import { Title } from '@angular/platform-browser';
 
-import { SettingsItem, ProcMaterialsItem } from './interfaces';
+import { BaseCompaniesItem, ProcMaterialsItem } from './interfaces';
+import { TargetDialog } from './target-dialog';
 import { Service } from './service';
 import { Modal } from '@shared/modal';
-import { MatDialog } from '@angular/material/dialog';
-import { TargetDialog } from './target-dialog';
-import { firstValueFrom } from 'rxjs';
 
 @Component({
     selector: 'app-proc-materialc',
@@ -17,7 +17,7 @@ import { firstValueFrom } from 'rxjs';
     styleUrl: './proc-materialc.scss',
     changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class ProcMaterialc extends GridComponent<SettingsItem> implements OnInit {
+export class ProcMaterialc extends GridComponent<BaseCompaniesItem> implements OnInit {
     #activatedRoute = inject(ActivatedRoute);
     #service = inject(Service);
     #dialog = inject(MatDialog);
@@ -31,9 +31,17 @@ export class ProcMaterialc extends GridComponent<SettingsItem> implements OnInit
         super(changeDet);
     }
 
-    override async getData(): Promise<GridView<SettingsItem> | null> {
+    override async getData(): Promise<GridView<BaseCompaniesItem> | null> {
         try {
-            return await this.#service.getSettings(this.material.id, this.dataRequest);
+            const id = parseInt(this.#activatedRoute.snapshot.params['id']);
+            const { material, customers } = await this.#service.get(
+                id,
+                this.dataRequest
+            );
+
+            this.material = material;
+            return customers;
+
         } catch (err) {
             await this.#modal.openError(err);
             return null;
@@ -42,25 +50,19 @@ export class ProcMaterialc extends GridComponent<SettingsItem> implements OnInit
 
     async ngOnInit(): Promise<void> {
         this.#title.setTitle('Material Settings');
-
-        try {
-            const id = parseInt(this.#activatedRoute.snapshot.params['id']);
-            this.material = await this.#service.get(id);
-            return this.update();
-        } catch (err) {
-            await this.#modal.openError(err);
-        }
+        return this.update();
     }
 
-    async set(id?: number): Promise<void> {
+    async set(data?: ProcMaterialc): Promise<void> {
         const dialog = this.#dialog.open(TargetDialog, {
+            data
         });
 
         await firstValueFrom(dialog.afterClosed());
         return this.update();
     }
 
-    async delete(id: number): Promise<void> {
+    async delete(data: ProcMaterialc): Promise<void> {
         try {
             // await this.#service.deleteConfig(config.id);
             return this.update();
