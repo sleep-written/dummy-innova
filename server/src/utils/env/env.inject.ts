@@ -4,6 +4,10 @@ export interface EnvInject {
         encoding: 'utf-8'
     ): string;
 
+    accessSync(
+        path: string
+    ): void;
+
     process: {
         env: NodeJS.ProcessEnv;
     }

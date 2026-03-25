@@ -35,6 +35,12 @@ export class Service {
         return res.data;
     }
 
+    async getPackagings(): Promise<ProcMaterialsItem[]> {
+        const obs = this.#httpClient.get<ProcMaterialsItem[]>('api/proc-materials/packagings');
+        const res = await firstValueFrom(obs);
+        return res;
+    }
+
     set(value: {
         id: number | null;
         code: string;

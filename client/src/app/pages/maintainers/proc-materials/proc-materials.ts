@@ -56,30 +56,9 @@ export class ProcMaterials extends GridComponent<ProcMaterialsItem> implements O
     getSystemtype(value: number): string {
         return this.systemtypes.find(x => x.value === value)?.text ?? '--';
     }
-
-    getPackagings(): Promise<ProcMaterialsItem[]> {
-        const systemtype = this.systemtypes
-            .find(x => x.name === 'Packaging')
-            ?.value;
-
-        return this.#service
-            .get({
-                filter: {
-                    logic: 'and',
-                    filters: [
-                        {
-                            operator: 'eq',
-                            field: 'systemtype',
-                            value: systemtype
-                        }
-                    ]
-                }
-            })
-            .then(x => x.data);
-    }
     
     async set(value?: ProcMaterialsItem): Promise<void> {
-        const packagings = await this.getPackagings();
+        const packagings = await this.#service.getPackagings();
         const systemtypes = this.systemtypes;
         const materialtypes = this.materialtypes;
         const dialog = this.#dialog.open(TargetDialog, {

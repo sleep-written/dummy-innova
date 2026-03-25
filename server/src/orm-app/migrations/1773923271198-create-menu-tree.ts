@@ -1,7 +1,7 @@
-import type { MigrationInterface, QueryRunner } from "typeorm";
-import { Menu } from '@entities/menu.entity.js';
+import type { MigrationInterface, QueryRunner } from 'typeorm';
+import { Menu } from '@orm-app/entities/menu.entity.js';
 
-export class InsertMenuItems1770997972295 implements MigrationInterface {
+export class CreateMenuTree1773923271198 implements MigrationInterface {
     public async up(queryRunner: QueryRunner): Promise<void> {
         const repo = queryRunner.manager.getTreeRepository(Menu);
         const maintainers = await repo.save({

@@ -1,6 +1,6 @@
 import { Controller, ControllerPath, Delete } from '@bleed-believer/espresso';
 
-import { ProcMaterials } from '@entities/proc-materials.entity.js';
+import { ProcMaterials } from '@/orm-innova/entities/proc-materials.entity.js';
 import { EndpointError } from '@server/endpoint-error.js';
 
 @ControllerPath('')

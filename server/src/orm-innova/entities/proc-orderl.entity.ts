@@ -6,7 +6,7 @@ import {
 } from 'typeorm';
 import { ProcOrderLStatus } from './proc-orderl-status.js';
 import { ProcMaterials } from './proc-materials.entity.js';
-import { ExpireMethod } from './expire-method.entity.js';
+import { ProcExpireMethod } from './proc-expire-method.entity.js';
 import { ProcLayouts } from './proc-layouts.entity.js';
 import { ProcOrders } from './proc-orders.entity.js';
 
@@ -117,9 +117,9 @@ export class ProcOrderL extends BaseEntity {
     /**
      * Unidad de medida para el tiempo de expiración.
      */
-    @ManyToOne(_ => ExpireMethod, r => r.orderDetails, { nullable: true })
+    @ManyToOne(_ => ProcExpireMethod, r => r.orderDetails, { nullable: true })
     @JoinColumn({ name: 'expire1method' })
-    expire1method?: Relation<ExpireMethod | null>;
+    expire1method?: Relation<ProcExpireMethod | null>;
 
     // Tara caja
     @ManyToOne(_ => ProcMaterials, r => r.procOrderLPkPackaging, { nullable: true })

@@ -1,9 +1,9 @@
 import { Controller, ControllerPath, Post } from '@bleed-believer/espresso';
 import { Auditor } from 'audit-var';
 
-import { ProcMaterialtypes } from '@entities/proc-materialtypes.entity.js';
-import { ProcMaterials } from '@entities/proc-materials.entity.js';
-import { dataSource } from '@/data-source.js';
+import { ProcMaterialtypes } from '@/orm-innova/entities/proc-materialtypes.entity.js';
+import { ProcMaterials } from '@/orm-innova/entities/proc-materials.entity.js';
+import { ormInnovaDataSource } from '@/orm-innova/data-source.js';
 
 @ControllerPath('')
 export class SetController extends Controller {
@@ -29,7 +29,7 @@ export class SetController extends Controller {
     @Post()
     async set(id?: number): Promise<void> {
         const body = this.#auditor.audit(this.request.body);
-        await dataSource.transaction('SERIALIZABLE', async manager => {
+        await ormInnovaDataSource.transaction('SERIALIZABLE', async manager => {
             const item = typeof id === 'number'
             ?   await manager.findOneByOrFail(ProcMaterials, { id })
             :   new ProcMaterials();

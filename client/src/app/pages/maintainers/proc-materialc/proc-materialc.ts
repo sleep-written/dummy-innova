@@ -55,7 +55,9 @@ export class ProcMaterialc extends GridComponent<BaseCompaniesItem> implements O
 
     async set(data?: ProcMaterialc): Promise<void> {
         const dialog = this.#dialog.open(TargetDialog, {
-            data
+            data,
+            width: 'calc(100dvw - 4rem)',
+            maxWidth: '1024px'
         });
 
         await firstValueFrom(dialog.afterClosed());

@@ -1,11 +1,9 @@
-import {
-    BaseEntity, Column, Entity, JoinColumn, ManyToOne,
-    OneToMany, PrimaryGeneratedColumn, type Relation
-} from 'typeorm';
-import { ProcUnitMaterialc } from './proc-unitmaterialc.entity.js';
+import type { Relation } from 'typeorm';
+
+import { BaseEntity, Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { ProcExpireMethod } from './proc-expire-method.entity.js';
 import { ProcMaterials } from './proc-materials.entity.js';
 import { BaseCompanies } from './base-companies.entity.js';
-import { ExpireMethod } from './expire-method.entity.js';
 import { ProcLayouts } from './proc-layouts.entity.js';
 
 @Entity({ name: 'proc_materialc' })
@@ -26,16 +24,16 @@ export class ProcMaterialc extends BaseEntity {
     expire1?: number | null;
 
     @Column({ type: 'smallint', nullable: true })
-    packsizeum!: number;
+    packsizeum?: number;
 
     @Column({ type: 'smallint', nullable: true })
-    stacksizeum!: number;
+    stacksizeum?: number;
 
     @Column({ type: 'smallint', nullable: true })
-    palletpsizeum!: number;
+    palletpsizeum?: number;
 
     @Column({ type: 'smallint', nullable: true })
-    palletssizeum!: number;
+    palletssizeum?: number;
 
     @ManyToOne(_ => ProcMaterials, r => r.id)
     @JoinColumn({ name: 'material' })
@@ -71,10 +69,7 @@ export class ProcMaterialc extends BaseEntity {
     @JoinColumn({ name: 'pklayout' })
     procLayoutPK?: Relation<ProcLayouts | null>;
 
-    @ManyToOne(_ => ExpireMethod, r => r.procMaterials, { nullable: true })
+    @ManyToOne(_ => ProcExpireMethod, r => r.procMaterials, { nullable: true })
     @JoinColumn({ name: "expire1method" })
-    expire1method?: Relation<ExpireMethod | null>;
-
-    @OneToMany(_ => ProcUnitMaterialc, r => r.materialc)
-    units?: Relation<ProcUnitMaterialc[]> | null;
+    expire1method?: Relation<ProcExpireMethod | null>;
 }

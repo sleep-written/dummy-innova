@@ -1,22 +1,33 @@
 import type { EnvInject } from './env.inject.js';
-import { readFileSync } from 'node:fs';
+import { accessSync, readFileSync } from 'node:fs';
 import { parseEnv } from 'node:util';
+import { parse, resolve } from 'node:path';
 
 export class Env {
     #inject: EnvInject;
     #data?: NodeJS.ProcessEnv;
 
-    #pathOrFileURL: string | URL;
-    get pathOrFileURL(): string | URL {
-        return this.#pathOrFileURL;
-    }
-
-    constructor(pathOrFileURL: string | URL, inject?: EnvInject) {
-        this.#pathOrFileURL = pathOrFileURL;
+    constructor(inject?: EnvInject) {
         this.#inject = inject ?? {
             process,
+            accessSync,
             readFileSync,
         };
+    }
+
+    #getPath(): string {
+        let path = import.meta.dirname;
+        while (parse(path).root !== path) {
+            try {
+                const completePath = resolve(path, 'app.env');
+                this.#inject.accessSync(completePath);
+                return completePath;
+            } catch {
+                path = resolve(path, '..');
+            }
+        }
+
+        throw new Error(`No file "app.env" found`);
     }
 
     #load(): NodeJS.ProcessEnv {
@@ -25,7 +36,8 @@ export class Env {
         }
 
         try {
-            const text = this.#inject.readFileSync(this.#pathOrFileURL, 'utf-8');
+            const path = this.#getPath();
+            const text = this.#inject.readFileSync(path, 'utf-8');
             this.#data = parseEnv(text);
 
         } catch (err: any) {

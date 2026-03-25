@@ -39,7 +39,7 @@
             field="setled"
             title="Setled(?)"
             filter="boolean"
-            [width]="135">
+            [width]="160">
                 <ng-template kendoGridCellTemplate let-item>
                     @switch (item.setled) {
                         @case (true) {
@@ -57,7 +57,7 @@
             field="materialc.active"
             title="Active"
             filter="boolean"
-            [width]="112">
+            [width]="160">
                 <ng-template kendoGridCellTemplate let-item>
                     @switch (item.materialc?.active) {
                         @case (true) {
@@ -183,7 +183,7 @@
             [width]="240">
             </kendo-grid-column>
 
-            <kendo-grid-column
+            <!-- <kendo-grid-column
             [width]="160"
             [sticky]="true"
             [columnMenu]="false">
@@ -221,7 +221,7 @@
                         </button>
                     }
                 </ng-template>
-            </kendo-grid-column>
+            </kendo-grid-column> -->
         </kendo-grid>
     </mat-card-content>
 </mat-card>

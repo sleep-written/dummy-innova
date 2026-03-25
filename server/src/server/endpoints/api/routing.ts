@@ -8,6 +8,7 @@ import { ProcLayoutsRouting } from './proc-layouts/routing.js';
 import { LocaleRouting } from './locale/routing.js';
 import { MenuRouting } from './menu/routing.js';
 
+import { ProcExpiremethodsController } from './proc-expiremethods.controller.js';
 import { SystemtypeController } from './systemtype.controller.js';
 
 @ControllerRouting({
@@ -22,6 +23,7 @@ import { SystemtypeController } from './systemtype.controller.js';
         MenuRouting,
     ],
     controllers: [
+        ProcExpiremethodsController,
         SystemtypeController
     ]
 })

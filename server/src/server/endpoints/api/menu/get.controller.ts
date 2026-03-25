@@ -1,12 +1,12 @@
 import { Controller, ControllerPath, Get } from '@bleed-believer/espresso';
 import { IsNull } from 'typeorm';
 
-import { dataSource } from '@/data-source.js';
-import { Menu } from '@entities/menu.entity.js';
+import { ormAppDataSource } from '@orm-app/data-source.js';
+import { Menu } from '@orm-app/entities/menu.entity.js';
 
 @ControllerPath('')
 export class GetController extends Controller {
-    #repo = dataSource.getTreeRepository(Menu);
+    #repo = ormAppDataSource.getTreeRepository(Menu);
 
     async #getDescendants(parent: Menu): Promise<Menu[] | undefined> {
         const children = await this.#repo.findBy({ parent, visible: true });

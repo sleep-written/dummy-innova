@@ -1,8 +1,8 @@
 import { Controller, ControllerPath, Get } from '@bleed-believer/espresso';
 import { ODataQuery } from '@bleed-believer/kendo-grid-server';
 
-import { ProcMaterials } from '@entities/proc-materials.entity.js';
-import { BaseCompanies } from '@entities/base-companies.entity.js';
+import { ProcMaterials } from '@/orm-innova/entities/proc-materials.entity.js';
+import { BaseCompanies } from '@/orm-innova/entities/base-companies.entity.js';
 import { EndpointError } from '@server/endpoint-error.js';
 
 interface GridView {
@@ -55,7 +55,6 @@ export class GetController extends Controller {
             .leftJoin('ProcMaterialc.procLayoutIT', 'ProcLayoutIT')
             .leftJoin('ProcMaterialc.procLayoutPK', 'ProcLayoutPK')
             .leftJoin('ProcMaterialc.expire1method', 'Expire1method')
-            .leftJoin('ProcMaterialc.units', 'Units')
             .select([
                 'BaseCompanies.id               AS id',
                 'BaseCompanies.active           AS active',
@@ -94,8 +93,6 @@ export class GetController extends Controller {
                 'Expire1method.id               AS expire1methodId',
                 'Expire1method.code             AS expire1methodCode',
                 'Expire1method.name             AS expire1methodName',
-                'Units.unitId                   AS unitsId',
-                'Units.unitType                 AS unitsType',
             ]);
         
         const odata = new ODataQuery(query, this.request);
@@ -154,11 +151,7 @@ export class GetController extends Controller {
                             id:   x.expire1methodId,
                             code: x.expire1methodCode,
                             name: x.expire1methodName
-                        },
-                    Units: {
-                        id:   x.unitsId,
-                        type: x.unitsType
-                    }
+                        }
                 };
 
             return {

@@ -1,7 +1,7 @@
 import { Controller, ControllerPath, Post } from '@bleed-believer/espresso';
 import { Auditor } from 'audit-var';
 
-import { BaseCompanies } from '@entities/base-companies.entity.js';
+import { BaseCompanies } from '@/orm-innova/entities/base-companies.entity.js';
 
 @ControllerPath('')
 export class SetController extends Controller {

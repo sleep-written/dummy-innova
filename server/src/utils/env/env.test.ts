@@ -22,6 +22,12 @@ class Inject implements Required<EnvInject> {
         this.#stringData = stringData;
     }
 
+    accessSync(path: string): void {
+        if (path !== '/path/to/project/app.env') {
+            throw new Error('File not found');
+        }
+    }
+
     readFileSync(_: string | URL, __: 'utf-8'): string {
         this.#readFileCount++;
         if (this.#stringData) {
@@ -40,7 +46,7 @@ test('Load simple env data', (t: test.TestContext) => {
         'FOO=bar',
     );
     
-    const env = new Env('', inject);
+    const env = new Env(inject);
     const fooRes = env.get('FOO');
     const bakRes = env.get('BAK');
 
@@ -58,7 +64,7 @@ test('Load parsed env data', (t: test.TestContext) => {
         'FOO=false'
     );
 
-    const env = new Env('', inject);
+    const env = new Env(inject);
     const fooRes = env.get('FOO', v => v === 'true');
     const barRes = env.get('BAR', v => parseInt(v));
 
@@ -69,7 +75,7 @@ test('Load parsed env data', (t: test.TestContext) => {
 
 test('Load non existing env data', (t: test.TestContext) => {
     const inject = new Inject();
-    const env = new Env('', inject);
+    const env = new Env(inject);
     try {
         env.get('FOO');
         throw new Error('Invalid status');

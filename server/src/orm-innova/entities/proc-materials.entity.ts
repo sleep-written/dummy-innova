@@ -3,7 +3,7 @@ import type { Relation } from 'typeorm';
 import { BaseEntity, Column, Entity, OneToMany, ManyToOne, PrimaryGeneratedColumn, JoinColumn } from 'typeorm';
 
 import { ProcCollections } from './proc-collections.entity.js';
-import { ExpireMethod } from './expire-method.entity.js';
+import { ProcExpireMethod } from './proc-expire-method.entity.js';
 import { ProcOrderL } from './proc-orderl.entity.js';
 import { ProcItems } from './proc-items.entity.js';
 import { ProcMaterialtypes } from './proc-materialtypes.entity.js';
@@ -53,9 +53,9 @@ export class ProcMaterials extends BaseEntity {
     @OneToMany(_ => ProcOrderL, r => r.itPackaging)
     procOrderLItPackaging?: Relation<ProcOrderL[] | null>;
 
-    @ManyToOne(_ => ExpireMethod, r => r.procMaterials, { nullable: true })
+    @ManyToOne(_ => ProcExpireMethod, r => r.procMaterials, { nullable: true })
     @JoinColumn({ name: "expire1method" })
-    expire1method?: Relation<ExpireMethod | null>;
+    expire1method?: Relation<ProcExpireMethod | null>;
 
     @OneToMany(_ => ProcItems, r => r.material)
     procItems?: Relation<ProcItems[]> | null;

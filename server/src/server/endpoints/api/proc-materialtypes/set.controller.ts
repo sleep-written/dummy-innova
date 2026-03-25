@@ -1,7 +1,7 @@
 import { Controller, ControllerPath, Post } from '@bleed-believer/espresso';
 import { Auditor } from 'audit-var';
 
-import { ProcMaterialtypes } from '@entities/proc-materialtypes.entity.js';
+import { ProcMaterialtypes } from '@/orm-innova/entities/proc-materialtypes.entity.js';
 
 @ControllerPath('')
 export class SetController extends Controller {

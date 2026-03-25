@@ -1,5 +1,5 @@
 import { Controller, ControllerPath, Delete } from '@bleed-believer/espresso';
-import { BaseCompanies } from '@entities/base-companies.entity.js';
+import { BaseCompanies } from '@/orm-innova/entities/base-companies.entity.js';
 import { EndpointError } from '@server/endpoint-error.js';
 
 @ControllerPath('')

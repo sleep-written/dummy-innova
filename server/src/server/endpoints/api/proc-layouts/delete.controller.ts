@@ -1,5 +1,5 @@
 import { Controller, ControllerPath, Delete } from '@bleed-believer/espresso';
-import { ProcLayouts } from '@entities/proc-layouts.entity.js';
+import { ProcLayouts } from '@/orm-innova/entities/proc-layouts.entity.js';
 import { EndpointError } from '@server/endpoint-error.js';
 
 @ControllerPath('')

@@ -26,6 +26,7 @@ export class Modal {
   }
 
   openError(error: unknown, disableClose?: boolean): Promise<void> {
+    console.error(error);
     return this.open({
       icon: 'error',
       title: 'Error',

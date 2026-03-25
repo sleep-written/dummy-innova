@@ -1,7 +1,7 @@
 import { Controller, ControllerPath, Post } from '@bleed-believer/espresso';
 import { Auditor } from 'audit-var';
 
-import { ProcLayouts } from '@entities/proc-layouts.entity.js';
+import { ProcLayouts } from '@/orm-innova/entities/proc-layouts.entity.js';
 
 @ControllerPath('')
 export class SetController extends Controller {

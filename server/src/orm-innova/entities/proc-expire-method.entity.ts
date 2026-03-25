@@ -11,7 +11,7 @@ import { ProcMaterials } from './proc-materials.entity.js';
 import { ProcOrderL } from "./proc-orderl.entity.js";
 
 @Entity({ name: "proc_expiremethods" })
-export class ExpireMethod extends BaseEntity {
+export class ProcExpireMethod extends BaseEntity {
   @PrimaryGeneratedColumn({ type: "int", name: "expiremethod" })
   id!: number;
 

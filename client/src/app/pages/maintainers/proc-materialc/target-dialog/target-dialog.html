@@ -1,4 +1,171 @@
 <h3 mat-dialog-title>Configuración</h3>
 
-<mat-dialog-content>
+<mat-dialog-content
+[formGroup]="this.form">
+    <mat-grid-list [cols]="6" rowHeight="6rem">
+        <mat-grid-tile FlexGridTile [xsCol]="4">
+            <kendo-formfield>
+                <kendo-floatinglabel
+                text="Description">
+                    <kendo-textbox
+                    formControlName="description1">
+                    </kendo-textbox>
+                </kendo-floatinglabel>
+
+                <kendo-formhint>Optional</kendo-formhint>
+            </kendo-formfield>
+        </mat-grid-tile>
+
+        <mat-grid-tile FlexGridTile [xsCol]="2">
+            <mat-radio-group
+            formControlName="active">
+                <mat-label>Status</mat-label>
+                <mat-radio-button [value]="false">Inactive</mat-radio-button>
+                <mat-radio-button [value]="true">Active</mat-radio-button>
+            </mat-radio-group>
+        </mat-grid-tile>
+
+        <mat-grid-tile FlexGridTile [xsCol]="1">
+            <kendo-formfield>
+                <kendo-floatinglabel
+                text="Expiration">
+                    <kendo-numerictextbox
+                    format="#,##0"
+                    formControlName="expire1"
+                    [min]="0"
+                    [max]="9999"
+                    [decimals]="0"
+                    [autoCorrect]="true">
+                    </kendo-numerictextbox>
+                </kendo-floatinglabel>
+
+                <kendo-formhint>Optional</kendo-formhint>
+            </kendo-formfield>
+        </mat-grid-tile>
+
+        <mat-grid-tile FlexGridTile [xsCol]="2">
+            <kendo-formfield>
+                <kendo-floatinglabel
+                text="Expiration Type">
+                    <kendo-combobox
+                    textField="name"
+                    valueField="id"
+                    formControlName="expire1methodId"
+                    [data]="this.expireMethods"
+                    [filterable]="true"
+                    [popupSettings]="{ appendTo: 'component' }"
+                    [valuePrimitive]="true"
+                    [kendoDropDownFilter]="{ operator: 'contains' }">
+                    </kendo-combobox>
+                </kendo-floatinglabel>
+
+                <kendo-formhint>Optional</kendo-formhint>
+            </kendo-formfield>
+        </mat-grid-tile>
+
+        <mat-grid-tile FlexGridTile [xsCol]="3">
+            <kendo-formfield>
+                <kendo-floatinglabel
+                text="Packaging">
+                    <kendo-combobox
+                    textField="name"
+                    valueField="id"
+                    formControlName="packagingId"
+                    [data]="this.packagings"
+                    [virtual]="true"
+                    [filterable]="true"
+                    [popupSettings]="{ appendTo: 'component' }"
+                    [valuePrimitive]="true"
+                    [kendoDropDownFilter]="{ operator: 'contains' }">
+                    </kendo-combobox>
+                </kendo-floatinglabel>
+
+                <kendo-formhint>Optional</kendo-formhint>
+            </kendo-formfield>
+        </mat-grid-tile>
+
+        <mat-grid-tile FlexGridTile [xsCol]="3">
+            <kendo-formfield>
+                <kendo-floatinglabel
+                text="PK Packaging">
+                    <kendo-combobox
+                    textField="name"
+                    valueField="id"
+                    formControlName="pkPackagingId"
+                    [data]="this.packagings"
+                    [virtual]="true"
+                    [filterable]="true"
+                    [popupSettings]="{ appendTo: 'component' }"
+                    [valuePrimitive]="true"
+                    [kendoDropDownFilter]="{ operator: 'contains' }">
+                    </kendo-combobox>
+                </kendo-floatinglabel>
+
+                <kendo-formhint>Optional</kendo-formhint>
+            </kendo-formfield>
+        </mat-grid-tile>
+
+        <mat-grid-tile FlexGridTile [xsCol]="3">
+            <kendo-formfield>
+                <kendo-floatinglabel
+                text="IT Packaging">
+                    <kendo-combobox
+                    textField="name"
+                    valueField="id"
+                    formControlName="itPackagingId"
+                    [data]="this.packagings"
+                    [virtual]="true"
+                    [filterable]="true"
+                    [popupSettings]="{ appendTo: 'component' }"
+                    [valuePrimitive]="true"
+                    [kendoDropDownFilter]="{ operator: 'contains' }">
+                    </kendo-combobox>
+                </kendo-floatinglabel>
+
+                <kendo-formhint>Optional</kendo-formhint>
+            </kendo-formfield>
+        </mat-grid-tile>
+
+        <mat-grid-tile FlexGridTile [xsCol]="3">
+            <kendo-formfield>
+                <kendo-floatinglabel
+                text="PK Layout">
+                    <kendo-combobox
+                    textField="name"
+                    valueField="id"
+                    formControlName="procLayoutPKId"
+                    [data]="this.layouts"
+                    [virtual]="true"
+                    [filterable]="true"
+                    [popupSettings]="{ appendTo: 'component' }"
+                    [valuePrimitive]="true"
+                    [kendoDropDownFilter]="{ operator: 'contains' }">
+                    </kendo-combobox>
+                </kendo-floatinglabel>
+
+                <kendo-formhint>Optional</kendo-formhint>
+            </kendo-formfield>
+        </mat-grid-tile>
+
+        <mat-grid-tile FlexGridTile [xsCol]="3">
+            <kendo-formfield>
+                <kendo-floatinglabel
+                text="IT Layout">
+                    <kendo-combobox
+                    textField="name"
+                    valueField="id"
+                    formControlName="procLayoutITId"
+                    [data]="this.layouts"
+                    [virtual]="true"
+                    [filterable]="true"
+                    [popupSettings]="{ appendTo: 'component' }"
+                    [valuePrimitive]="true"
+                    [kendoDropDownFilter]="{ operator: 'contains' }">
+                    </kendo-combobox>
+                </kendo-floatinglabel>
+
+                <kendo-formhint>Optional</kendo-formhint>
+            </kendo-formfield>
+        </mat-grid-tile>
+    </mat-grid-list>
 </mat-dialog-content>

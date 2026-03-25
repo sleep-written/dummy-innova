@@ -6,10 +6,12 @@ import { Command } from '@bleed-believer/commander';
 import { resolve } from 'node:path';
 import express from 'express';
 
+import { ormInnovaDataSource } from '@orm-innova/data-source.js';
+import { ormAppDataSource } from '@orm-app/data-source.js';
+
 import { EndpointsRouting } from './endpoints/routing.js';
 import { EndpointError } from './endpoint-error.js';
-import { dataSource } from '@/data-source.js';
-import { ENV } from '@/env.js';
+import { Env } from '@utils/env/index.js';
 
 @Command({
     name: 'server',
@@ -42,8 +44,13 @@ export class ServerCommand implements Executable {
         esp.inject(EndpointsRouting);
 
         try {
-            await dataSource.initialize();
-            const port = ENV.get('DUMMY_INNOVA_SERVER_PORT', v => parseInt(v));
+            await Promise.all([
+                ormInnovaDataSource.initialize(),
+                ormAppDataSource.initialize(),
+            ]);
+
+            const env = new Env();
+            const port = env.get('DUMMY_INNOVA_SERVER_PORT', v => parseInt(v));
             const server = app.listen(port);
 
             await new Promise<void>((resolve, reject) => {
@@ -74,9 +81,16 @@ export class ServerCommand implements Executable {
             throw err;
 
         } finally {
-            if (dataSource.isInitialized) {
-                await dataSource.destroy();
+            const tasks: Promise<void>[] = [];
+            if (ormInnovaDataSource.isInitialized) {
+                tasks.push(ormInnovaDataSource.destroy());
             }
+            
+            if (ormAppDataSource.isInitialized) {
+                tasks.push(ormAppDataSource.destroy());
+            }
+            
+            await Promise.all(tasks);
         }
     }
 }
