@@ -59,6 +59,14 @@ export class CreateMenuTree1773923271198 implements MigrationInterface {
             icon: 'contract',
             path: 'maintainers/proc-orders',
         });
+
+        await repo.save({
+            visible: false,
+            parent: maintainers,
+            name: 'Order details',
+            icon: 'contract',
+            path: 'maintainers/proc-orders/:id',
+        });
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {

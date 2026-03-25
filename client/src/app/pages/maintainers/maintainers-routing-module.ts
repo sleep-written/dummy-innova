@@ -24,7 +24,11 @@ const routes: Routes = [
   },
   {
     path: 'proc-orders',
-    loadChildren: () => import('./proc-orders/proc-orders-module').then((m) => m.ProcOrdersModule),
+    loadChildren: () => import('./proc-orders').then((m) => m.ProcOrdersModule),
+  },
+  {
+    path: 'proc-orders/:id',
+    loadChildren: () => import('./proc-orderl').then((m) => m.ProcOrderlModule),
   },
 ];
 

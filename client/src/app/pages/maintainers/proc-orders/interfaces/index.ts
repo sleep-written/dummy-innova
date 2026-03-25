@@ -1,0 +1,1 @@
+export type { ProcOrdersItem } from './proc-orders-item';

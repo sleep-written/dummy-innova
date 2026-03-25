@@ -1,1 +1,126 @@
-<p>proc-orders works!</p>
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Orders</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+        <kendo-grid
+        [data]="this.data"
+        [skip]="this.skip"
+        [sort]="this.sort"
+        [filter]="this.filter"
+        [loading]="this.loading"
+        [pageSize]="this.pageSize"
+        [sortable]="this.sortable"
+        [pageable]="this.pageable"
+        [columnMenu]="{ columnChooser: false }"
+        [filterable]="this.filterable"
+        (pageChange)="this.onPageChange($event)"
+        (sortChange)="this.onSortChange($event)"
+        (filterChange)="this.onFilterChange($event)">
+            <kendo-grid-column
+            field="code"
+            title="Order Number"
+            [width]="180"
+            [sticky]="true">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="active"
+            title="Active(?)"
+            filter="boolean"
+            [width]="160">
+                <ng-template kendoGridCellTemplate let-item>
+                    @if (item.active) {
+                        <span [style.color]="'#10ff10'">True</span>
+                    } @else {
+                        <span [style.color]="'#c30000'">False</span>
+                    }
+                </ng-template>
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="name"
+            title="Name"
+            [width]="320">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="shname"
+            title="Short Name"
+            [width]="256">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="extcode"
+            title="PO Buyer"
+            [width]="256">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="orderstatus"
+            title="Status"
+            filter="numeric"
+            [width]="256">
+                <ng-template kendoGridCellTemplate let-item>
+                    {{ this.getOrderStatus(item.orderstatus) }}
+                </ng-template>
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="cliente.name"
+            title="Customer"
+            [width]="320">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="begTime"
+            title="Start"
+            filter="date"
+            format="dd/MM/yyyy"
+            [width]="160">
+                <ng-template kendoGridCellTemplate let-item>
+                    {{ this.formatDate(item.begTime, 'dd/MM/yyyy') }}
+                </ng-template>
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="endTime"
+            title="End"
+            filter="date"
+            format="dd/MM/yyyy"
+            [width]="160">
+                <ng-template kendoGridCellTemplate let-item>
+                    {{ this.formatDate(item.endTime, 'dd/MM/yyyy') }}
+                </ng-template>
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            [width]="72"
+            [sticky]="true"
+            [columnMenu]="false">
+                <ng-template kendoGridHeaderTemplate>
+                    <button mat-icon-button
+                    type="button"
+                    color="tertiary"
+                    (click)="this.update()">
+                        <mat-icon
+                        [class.spin]="this.loading">sync</mat-icon>
+                    </button>
+                </ng-template>
+
+                <ng-template kendoGridCellTemplate let-item>
+                    <a mat-icon-button
+                    routerLink="./{{ item.id }}"
+                    type="button"
+                    color="primary">
+                        <mat-icon
+                        class="material-symbols-outlined"
+                        fontIcon="expand_content">
+                        </mat-icon>
+                    </a>
+                </ng-template>
+            </kendo-grid-column>
+        </kendo-grid>
+    </mat-card-content>
+</mat-card>
