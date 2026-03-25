@@ -7,12 +7,20 @@
         <a class="content"
         [routerLink]="'/' + value.path"
         [routerLinkActive]="'active'">
-            <mat-icon>{{ value.icon }}</mat-icon>
+            <mat-icon
+            class="material-symbols-outlined"
+            [fontIcon]="value.icon">
+            </mat-icon>
+
             <span>{{ value.name }}</span>
         </a>
     } @else {
         <div class="content">
-            <mat-icon>{{ value.icon }}</mat-icon>
+            <mat-icon
+            class="material-symbols-outlined"
+            [fontIcon]="value.icon">
+            </mat-icon>
+
             <span>{{ value.name }}</span>
         </div>
     }
@@ -22,9 +30,15 @@
         type="button"
         (click)="this.closed.set(!closed)">
             @if (closed) {
-                <mat-icon>expand</mat-icon>
+                <mat-icon
+                class="material-symbols-outlined"
+                fontIcon="expand">
+                </mat-icon>
             } @else {
-                <mat-icon>unfold_less</mat-icon>
+                <mat-icon
+                class="material-symbols-outlined"
+                fontIcon="unfold_less">
+                </mat-icon>
             }
         </button>
     }
