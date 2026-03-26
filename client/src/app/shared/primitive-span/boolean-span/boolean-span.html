@@ -1,0 +1,13 @@
+@switch (this.value()) {
+    @case (true) {
+        <span [style.color]="'#10ff10'">{{ this.trueLabel() }}</span>
+    }
+    
+    @case (false) {
+        <span [style.color]="'#c30000'">{{ this.falseLabel() }}</span>
+    }
+    
+    @default {
+        <span [style.opacity]="0.25">{{ this.emptyLabel() }}</span>
+    }
+}

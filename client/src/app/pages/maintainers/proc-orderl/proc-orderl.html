@@ -1,1 +1,160 @@
-<p>proc-orderl works!</p>
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Order Lines</mat-card-title>
+
+        <mat-card-subtitle>
+            @if (this.order && this.order.customer) {
+                <span>Order {{ this.order.code }}; Customer {{ this.order.customer.name }}</span>
+            } @else if (this.order) {
+                <span>Order {{ this.order.code }}</span>
+            } @else {
+                <span>Loading...</span>
+            }
+        </mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+        <kendo-grid
+        size="small"
+        [data]="this.data"
+        [skip]="this.skip"
+        [sort]="this.sort"
+        [filter]="this.filter"
+        [loading]="this.loading"
+        [pageSize]="this.pageSize"
+        [sortable]="this.sortable"
+        [pageable]="this.pageable"
+        [columnMenu]="{ columnChooser: false }"
+        [filterable]="this.filterable"
+        (pageChange)="this.onPageChange($event)"
+        (sortChange)="this.onSortChange($event)"
+        (filterChange)="this.onFilterChange($event)">
+            <kendo-grid-column
+            field="procMaterials.code"
+            title="Material Code"
+            [width]="180"
+            [sticky]="true">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="procMaterials.name"
+            title="Material Name"
+            [width]="360">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="descript"
+            title="Material Description"
+            [width]="720">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="olstatus"
+            title="Status"
+            filter="numeric"
+            [width]="148">
+                <ng-template kendoGridCellTemplate let-item>
+                    {{ this.getOlStatus(item.olstatus) }}
+                </ng-template>
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="nolimit"
+            title="No Limit"
+            filter="boolean"
+            [width]="160">
+                <ng-template kendoGridCellTemplate let-item>
+                    <app-boolean-span
+                    [value]="item.nolimit">
+                    </app-boolean-span>
+                </ng-template>
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="maxamount"
+            title="Max Amount"
+            filter="numeric"
+            [width]="180"
+            [style]="{
+                'text-align': 'right',
+                'padding-right': '2rem'
+            }">
+                <ng-template kendoGridCellTemplate let-item>
+                    <app-numeric-span
+                    [value]="item.maxamount"
+                    [options]="this.amountIntlOptions">
+                    </app-numeric-span>
+                </ng-template>
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="curamount"
+            title="Current Amount"
+            filter="numeric"
+            [width]="180"
+            [style]="{
+                'text-align': 'right',
+                'padding-right': '2rem'
+            }">
+                <ng-template kendoGridCellTemplate let-item>
+                    <app-numeric-span
+                    [value]="item.curamount"
+                    [options]="this.amountIntlOptions">
+                    </app-numeric-span>
+                </ng-template>
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="pkPackaging.name"
+            title="PK Packaging"
+            [width]="240">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="itPackaging.name"
+            title="IT Packaging"
+            [width]="240">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="procLayoutPK.name"
+            title="PK Layout"
+            [width]="240">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="procLayoutIT.name"
+            title="IT Layout"
+            [width]="240">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="expire1"
+            title="Expire"
+            filter="numeric"
+            [width]="160">
+            </kendo-grid-column>
+
+            <kendo-grid-column
+            field="expire1method.name"
+            title="Expire Method"
+            [width]="320">
+            </kendo-grid-column>
+
+            <!-- <kendo-grid-column
+            [width]="64"
+            [sticky]="true"
+            [columnMenu]="false">
+                <ng-template kendoGridHeaderTemplate>
+                    <button mat-icon-button
+                    type="button"
+                    color="tertiary"
+                    (click)="this.update()">
+                        <mat-icon
+                        [class.spin]="this.loading">sync</mat-icon>
+                    </button>
+                </ng-template>
+            </kendo-grid-column> -->
+        </kendo-grid>
+    </mat-card-content>
+</mat-card>

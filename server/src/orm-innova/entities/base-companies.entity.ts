@@ -30,7 +30,7 @@ export class BaseCompanies extends BaseEntity {
     @Column({ type: 'nvarchar', length: 80, nullable: true })
     description8!: string;
 
-    @OneToMany(_ => ProcOrders, r => r.cliente)
+    @OneToMany(_ => ProcOrders, r => r.customer)
     orders?: Relation<ProcOrders[]> | null;
 
     @OneToMany(_ => ProcMaterialc, r => r.customer)

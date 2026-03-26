@@ -21,6 +21,7 @@ import { FloatingLabelModule } from '@progress/kendo-angular-label';
 
 import { ModalModule } from '@shared/modal';
 import { FlexGridTileModule } from '@shared/flex-grid-tile';
+import { PrimitiveSpanModule } from '@shared/primitive-span';
 
 import { provideHttpClient } from '@angular/common/http';
 
@@ -49,6 +50,7 @@ import { provideHttpClient } from '@angular/common/http';
 
     ModalModule,
     FlexGridTileModule,
+    PrimitiveSpanModule,
   ],
   providers: [
     provideHttpClient()

@@ -11,7 +11,7 @@ export class GetController extends Controller {
         const odata = new ODataEntity(ProcOrders, ormInnovaDataSource, this.request);
         const result = await odata.getMany({
             relations: {
-                cliente: true
+                customer: true
             }
         });
         this.response.json(result);

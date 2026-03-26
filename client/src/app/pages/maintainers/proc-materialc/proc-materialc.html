@@ -41,15 +41,7 @@
             filter="boolean"
             [width]="160">
                 <ng-template kendoGridCellTemplate let-item>
-                    @switch (item.setled) {
-                        @case (true) {
-                            <span [style.color]="'#10ff10'">True</span>
-                        }
-    
-                        @case (false) {
-                            <span [style.color]="'#c30000'">False</span>
-                        }
-                    }
+                    <app-boolean-span [value]="item.setled" />
                 </ng-template>
             </kendo-grid-column>
 
@@ -59,15 +51,7 @@
             filter="boolean"
             [width]="160">
                 <ng-template kendoGridCellTemplate let-item>
-                    @switch (item.materialc?.active) {
-                        @case (true) {
-                            <span [style.color]="'#10ff10'">True</span>
-                        }
-    
-                        @case (false) {
-                            <span [style.color]="'#c30000'">False</span>
-                        }
-                    }
+                    <app-boolean-span [value]="item.materialc?.active" />
                 </ng-template>
             </kendo-grid-column>
 

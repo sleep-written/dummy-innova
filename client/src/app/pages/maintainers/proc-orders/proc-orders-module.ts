@@ -12,6 +12,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { GridModule } from '@progress/kendo-angular-grid';
 
 import { ModalModule } from '@shared/modal';
+import { PrimitiveSpanModule } from '@shared/primitive-span';
 
 import { provideHttpClient } from '@angular/common/http';
 
@@ -28,6 +29,7 @@ import { provideHttpClient } from '@angular/common/http';
         GridModule,
 
         ModalModule,
+        PrimitiveSpanModule,
     ],
     providers: [
         provideHttpClient()

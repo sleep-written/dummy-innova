@@ -1,0 +1,7 @@
+@let value = this.value();
+
+@if (typeof value === 'number') {
+    <span>{{ this.formatValue(value) }}</span>
+} @else {
+    <span [style.opacity]="0.25">{{ this.emptyLabel() }}</span>
+}

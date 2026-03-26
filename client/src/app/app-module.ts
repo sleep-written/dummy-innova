@@ -16,9 +16,7 @@ import { provideZoneChangeDetection } from '@angular/core';
 import { provideBrowserGlobalErrorListeners } from '@angular/core';
 
 @NgModule({
-  declarations: [
-    App
-  ],
+  declarations: [App],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -35,6 +33,6 @@ import { provideBrowserGlobalErrorListeners } from '@angular/core';
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideBrowserGlobalErrorListeners(),
   ],
-  bootstrap: [App]
+  bootstrap: [App],
 })
-export class AppModule { }
+export class AppModule {}

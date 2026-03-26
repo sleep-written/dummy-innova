@@ -62,7 +62,7 @@ export class ProcOrders extends BaseEntity {
     active!: boolean;
 
     @Column({ name: 'description1', type: 'nvarchar', length: 80, nullable: true })
-    paisCodAnzio?: string | null;
+    countryISO?: string | null;
 
     @Column({ name: 'description2', type: 'nvarchar', length: 80, nullable: true })
     shMark?: string | null;
@@ -111,7 +111,7 @@ export class ProcOrders extends BaseEntity {
 
     @ManyToOne(_ => BaseCompanies, r => r.orders)
     @JoinColumn({ name: 'customer'  })
-    cliente?: Relation<BaseCompanies> | null;
+    customer?: Relation<BaseCompanies> | null;
 
     @OneToMany(_ => ProcItems, r => r.procOrders)
     procItems?: Relation<ProcItems[]> | null;
