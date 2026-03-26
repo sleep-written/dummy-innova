@@ -52,17 +52,24 @@ export class ProcOrderl extends GridComponent<ProcOrderlItem> implements OnInit 
                 this.dataRequest
             );
 
-            this.order = order;
+            if (!order) {
+                throw new Error(`The order requested doesn't found`);
+
+            }
+
+            this.order = order;            
+            this.#title.setTitle(`Order ${order.code}`);
             return details;
 
         } catch (err) {
+            this.#title.setTitle(`Order not found`);
             await this.#modal.openError(err);
             return null;
         }
     }
 
     ngOnInit(): Promise<void> {
-        this.#title.setTitle('Order Lines');
+        this.#title.setTitle('Order Details');
         return this.update();
     }
 

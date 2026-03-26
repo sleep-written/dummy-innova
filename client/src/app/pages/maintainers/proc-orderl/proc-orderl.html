@@ -1,14 +1,16 @@
 <mat-card>
     <mat-card-header>
-        <mat-card-title>Order Lines</mat-card-title>
+        <mat-card-title>Order Details</mat-card-title>
 
         <mat-card-subtitle>
             @if (this.order && this.order.customer) {
                 <span>Order {{ this.order.code }}; Customer {{ this.order.customer.name }}</span>
             } @else if (this.order) {
                 <span>Order {{ this.order.code }}</span>
-            } @else {
+            } @else if (this.loading) {
                 <span>Loading...</span>
+            } @else {
+                <span>Order not found</span>
             }
         </mat-card-subtitle>
     </mat-card-header>
