@@ -1,7 +1,7 @@
-import type { MigrationInterface, QueryRunner } from 'typeorm';
+import type { MigrationInterface, QueryRunner } from "typeorm";
 
-export class CreateDb1773923403892 implements MigrationInterface {
-    name = 'CreateDb1773923403892';
+export class CreateDb1774636130695 implements MigrationInterface {
+    name = 'CreateDb1774636130695'
 
     public async up(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.query(`CREATE TABLE "proc_layouts" ("layout" int NOT NULL IDENTITY(1,1), "code" nvarchar(30) NOT NULL, "name" nvarchar(30) NOT NULL, "active" bit NOT NULL CONSTRAINT "DF_47b8dbc0b77a40a9ac7a7719e9b" DEFAULT 0, CONSTRAINT "PK_f1f9b12d596fdc5d92b471f3c7d" PRIMARY KEY ("layout"))`);
@@ -10,7 +10,7 @@ export class CreateDb1773923403892 implements MigrationInterface {
         await queryRunner.query(`CREATE TABLE "proc_lots" ("lot" int NOT NULL IDENTITY(1,1), "code" nvarchar(30) NOT NULL, "extcode" nvarchar(30), CONSTRAINT "PK_0f4e5ae0f31e28249c4eec514c9" PRIMARY KEY ("lot"))`);
         await queryRunner.query(`CREATE TABLE "proc_items" ("id" int NOT NULL IDENTITY(1,1), "number" int NOT NULL, "pieces" int, "weight" real, "tare" real, "gross" real, "order" int, "lot" int, "material" int, CONSTRAINT "PK_c63636117cd5bda027f69d85564" PRIMARY KEY ("id"))`);
         await queryRunner.query(`CREATE TABLE "proc_orders" ("order" int NOT NULL, "name" nvarchar(30) NOT NULL, "code" nvarchar(30) NOT NULL, "shname" nvarchar(10) NOT NULL, "extcode" nvarchar(30), "dimension1" int, "begtime" datetime, "endtime" datetime, "active" bit NOT NULL, "description1" nvarchar(80), "description2" nvarchar(80), "created" datetime NOT NULL, "modified" datetime NOT NULL, "orderstatus" tinyint NOT NULL, "transferstatus" tinyint NOT NULL, "numbermethod" tinyint NOT NULL, "ordertype" tinyint NOT NULL, "accepttype" tinyint NOT NULL, "amountum" smallint NOT NULL, "allowadd" bit NOT NULL, "customer" int, CONSTRAINT "PK_1cdb0ae1dfb067fd5cb7e0f8df9" PRIMARY KEY ("order"))`);
-        await queryRunner.query(`CREATE TABLE "proc_orderl" ("id" int NOT NULL IDENTITY(1,1), "description1" nvarchar(80), "olstatus" smallint NOT NULL, "maxamount" real, "curamount" real, "expire1" int, "assigntype" smallint NOT NULL, "unittype" smallint NOT NULL, "amountum" smallint NOT NULL, "nolimit" bit NOT NULL, "isupdated" bit NOT NULL, "useco" bit NOT NULL, "packsizeum" smallint NOT NULL, "stacksizeum" smallint NOT NULL, "palletpsizeum" smallint NOT NULL, "palletssizeum" smallint NOT NULL, "allowchange" bit NOT NULL, "planstatus" smallint NOT NULL, "order" int, "material" int, "itlayout" int, "pklayout" int, "expire1method" int, "pkpackaging" int, "itpackaging" int, CONSTRAINT "PK_f7ff402e15fdf72f60556ec63d2" PRIMARY KEY ("id"))`);
+        await queryRunner.query(`CREATE TABLE "proc_orderl" ("id" int NOT NULL IDENTITY(1,1), "description1" nvarchar(80), "description5" nvarchar(80), "olstatus" smallint NOT NULL, "maxamount" real, "curamount" real, "expire1" int, "assigntype" smallint NOT NULL, "unittype" smallint NOT NULL, "amountum" smallint NOT NULL, "nolimit" bit NOT NULL, "isupdated" bit NOT NULL, "useco" bit NOT NULL, "packsizeum" smallint NOT NULL, "stacksizeum" smallint NOT NULL, "palletpsizeum" smallint NOT NULL, "palletssizeum" smallint NOT NULL, "allowchange" bit NOT NULL, "planstatus" smallint NOT NULL, "order" int, "material" int, "itlayout" int, "pklayout" int, "expire1method" int, "pkpackaging" int, "itpackaging" int, CONSTRAINT "PK_f7ff402e15fdf72f60556ec63d2" PRIMARY KEY ("id"))`);
         await queryRunner.query(`CREATE TABLE "proc_expiremethods" ("expiremethod" int NOT NULL IDENTITY(1,1), "code" nvarchar(30) NOT NULL, "name" nvarchar(30) NOT NULL, "active" bit NOT NULL CONSTRAINT "DF_abacc8f21a16f9cec68b19c9519" DEFAULT 0, CONSTRAINT "PK_e951413d1099913bb85c7ca5b90" PRIMARY KEY ("expiremethod"))`);
         await queryRunner.query(`CREATE TABLE "proc_materialtypes" ("materialtype" int NOT NULL IDENTITY(1,1), "code" nvarchar(30) NOT NULL, "name" nvarchar(30) NOT NULL, "shname" nvarchar(10) NOT NULL, CONSTRAINT "PK_0a0452e2e73089051f5b480207c" PRIMARY KEY ("materialtype"))`);
         await queryRunner.query(`CREATE TABLE "proc_materials" ("material" int NOT NULL IDENTITY(1,1), "code" nvarchar(30) NOT NULL, "name" nvarchar(30) NOT NULL, "active" bit NOT NULL CONSTRAINT "DF_28aa33dd7f5aad4566f79c6d764" DEFAULT 0, "expire1" int, "systemtype" int NOT NULL, "materialtype" int, "pkpackaging" int, "itpackaging" int, "expire1method" int, CONSTRAINT "PK_60b915de6f4a706bbb3e4607c7f" PRIMARY KEY ("material"))`);
@@ -86,4 +86,5 @@ export class CreateDb1773923403892 implements MigrationInterface {
         await queryRunner.query(`DROP TABLE "proc_materialc"`);
         await queryRunner.query(`DROP TABLE "proc_layouts"`);
     }
+
 }

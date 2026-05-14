@@ -1,14 +1,26 @@
+import type { ParsedPath } from 'node:path';
+
+export interface Stats {
+    isFile(): boolean;
+}
+
 export interface EnvInject {
-    readFileSync(
+    readFileSync?(
         pathOrFileURL: string | URL,
         encoding: 'utf-8'
     ): string;
 
-    accessSync(
-        path: string
-    ): void;
+    statSync?(path: string): Stats;
 
-    process: {
+    resolve?(...p: string[]): string;
+
+    parse?(p: string): ParsedPath;
+
+    process?: {
         env: NodeJS.ProcessEnv;
-    }
+    };
+
+    meta?: {
+        dirname: string;
+    };
 }

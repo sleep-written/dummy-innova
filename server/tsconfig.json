@@ -10,15 +10,15 @@
 
         "outDir": "dist",
         "rootDir": "src",
-        "baseUrl": "src",
         "sourceMap": true,
+        "lib": [ "ES2025" ],
 
         "paths": {
-            "@orm-innova/*": [ "./orm-innova/*" ],
-            "@orm-app/*": [ "./orm-app/*" ],
-            "@server/*": [ "./server/*" ],
-            "@utils/*": [ "./utils/*" ],
-            "@/*": [ "./*" ]
+            "@orm-innova/*": [ "./src/orm-innova/*" ],
+            "@orm-app/*": [ "./src/orm-app/*" ],
+            "@server/*": [ "./src/server/*" ],
+            "@utils/*": [ "./src/utils/*/index.ts", "./src/utils/*" ],
+            "*": [ "./src/*" ]
         }
     }
 }

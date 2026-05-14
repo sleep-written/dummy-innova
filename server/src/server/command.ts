@@ -49,7 +49,7 @@ export class ServerCommand implements Executable {
                 ormAppDataSource.initialize(),
             ]);
 
-            const env = new Env();
+            const env = new Env('.env');
             const port = env.get('DUMMY_INNOVA_SERVER_PORT', v => parseInt(v));
             const server = app.listen(port);
 

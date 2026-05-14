@@ -1,5 +1,5 @@
 import { Controller, Get } from '@bleed-believer/espresso';
-import { ProcExpireMethod } from '@/orm-innova/entities/proc-expire-method.entity.js';
+import { ProcExpireMethod } from '@orm-innova/entities/proc-expire-method.entity.js';
 
 export class ProcExpiremethodsController extends Controller {
     @Get()

@@ -1,89 +1,77 @@
 import type { EnvInject } from './env.inject.js';
+
+import { parse, resolve } from 'node:path/posix';
+import { fileURLToPath } from 'node:url';
+import { test } from 'node:test';
 import { Env } from './env.js';
-import test from 'node:test';
 
-class Inject implements Required<EnvInject> {
-    #readFileCount = 0;
-    #stringData?: string;
-    get readFileCount(): number {
-        return this.#readFileCount;
-    }
+class Inject implements EnvInject {
+    #fs: Record<string, Record<string, string>>;
 
-    #process: { env: NodeJS.ProcessEnv; };
-    get process(): { env: NodeJS.ProcessEnv; } {
-        return this.#process;
-    }
+    meta: { dirname: string; };
+    process: { env: NodeJS.ProcessEnv; };
+
+    parse = parse;
+    resolve = resolve;
 
     constructor(
-        processEnv?: NodeJS.ProcessEnv,
-        stringData?: string
+        dirname: string,
+        data?: {
+            fs?: Record<string, Record<string, string>>;
+            env?: NodeJS.ProcessEnv;
+        }
     ) {
-        this.#process = { env: processEnv ?? {} };
-        this.#stringData = stringData;
+        this.#fs = data?.fs ?? {};
+        this.meta = { dirname };
+        this.process = { env: data?.env ?? {} };
     }
 
-    accessSync(path: string): void {
-        if (path !== '/path/to/project/app.env') {
-            throw new Error('File not found');
+    statSync(path: string) {
+        if (!this.#fs[path]) {
+            const error = new Error(`The file "${path}" doesn't exists`) as any;
+            error.code = 'ENOENT';
+            throw error;
         }
+
+        return { isFile: () => true };
     }
 
-    readFileSync(_: string | URL, __: 'utf-8'): string {
-        this.#readFileCount++;
-        if (this.#stringData) {
-            return this.#stringData;
-        }
+    readFileSync(pathOrFileURL: string | URL, _: 'utf-8'): string {
+        const path = pathOrFileURL instanceof URL
+        ?   fileURLToPath(pathOrFileURL.href, { windows: false })
+        :   pathOrFileURL;
 
-        const error = new Error('File not found') as Error & { code: string; };
-        error.code = 'ENOENT';
-        throw error;
+        this.statSync(path);
+        return Object
+            .entries(this.#fs[path])
+            .map(([ k, v ]) => `${k}=${v}`)
+            .join('\n');
     }
 }
 
-test('Load simple env data', (t: test.TestContext) => {
-    const inject = new Inject(
-        { BAK: 'baz' },
-        'FOO=bar',
-    );
-    
-    const env = new Env(inject);
-    const fooRes = env.get('FOO');
-    const bakRes = env.get('BAK');
-
-    t.assert.strictEqual(inject.readFileCount, 1);
-    t.assert.strictEqual(fooRes, 'bar');
-    t.assert.strictEqual(bakRes, 'baz');
-});
-
-test('Load parsed env data', (t: test.TestContext) => {
-    const inject = new Inject(
-        {
-            FOO: 'true',
-            BAR: '666'
+test('new Env(); Read values from distinct origins', (t: test.TestContext) => {
+    const inject = new Inject(`/path/to/project/src/lib/env`, {
+        fs: {
+            '/path/to/project/app.env': {
+                FOO: '111',
+                BAR: '222'
+            },
+            '/path/app.env': {
+                BAR: '333'
+            }
         },
-        'FOO=false'
-    );
+        env: {
+            FOO: '999',
+            BAK: '666'
+        }
+    });
 
-    const env = new Env(inject);
-    const fooRes = env.get('FOO', v => v === 'true');
-    const barRes = env.get('BAR', v => parseInt(v));
+    const env = new Env('app.env', inject);
+    const foo = env.get('FOO', v => parseInt(v));
+    const bar = env.get('BAR', v => parseInt(v));
+    const bak = env.get('BAK', v => parseInt(v));
 
-    t.assert.strictEqual(inject.readFileCount, 1);
-    t.assert.strictEqual(fooRes, true);
-    t.assert.strictEqual(barRes, 666);
-});
-
-test('Load non existing env data', (t: test.TestContext) => {
-    const inject = new Inject();
-    const env = new Env(inject);
-    try {
-        env.get('FOO');
-        throw new Error('Invalid status');
-    } catch (err: any) {
-        t.assert.ok(err instanceof Error);
-        t.assert.strictEqual(
-            err.message,
-            `The environment variable "FOO" doesn't exist`
-        );
-    }
+    t.assert.strictEqual(foo, 999);
+    t.assert.strictEqual(bar, 222);
+    t.assert.strictEqual(bak, 666);
 });

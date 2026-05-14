@@ -2,7 +2,7 @@ import { DataSource } from 'typeorm';
 import { resolve } from 'node:path';
 import { Env } from '@utils/env/index.js';
 
-const env = new Env();
+const env = new Env('.env');
 export const ormInnovaDataSource = new DataSource({
     type: 'mssql',
     host: env.get('DUMMY_INNOVA_TYPEORM_HOST'),

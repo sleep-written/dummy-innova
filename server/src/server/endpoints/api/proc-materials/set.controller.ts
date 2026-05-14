@@ -1,9 +1,9 @@
 import { Controller, ControllerPath, Post } from '@bleed-believer/espresso';
 import { Auditor } from 'audit-var';
 
-import { ProcMaterialtypes } from '@/orm-innova/entities/proc-materialtypes.entity.js';
-import { ProcMaterials } from '@/orm-innova/entities/proc-materials.entity.js';
-import { ormInnovaDataSource } from '@/orm-innova/data-source.js';
+import { ormInnovaDataSource } from '@orm-innova/data-source.js';
+import { ProcMaterialtypes } from '@orm-innova/entities/proc-materialtypes.entity.js';
+import { ProcMaterials } from '@orm-innova/entities/proc-materials.entity.js';
 
 @ControllerPath('')
 export class SetController extends Controller {

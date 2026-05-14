@@ -1,75 +1,68 @@
 import type { EnvInject } from './env.inject.js';
-import { accessSync, readFileSync } from 'node:fs';
-import { parseEnv } from 'node:util';
+
+import { statSync, readFileSync } from 'node:fs';
 import { parse, resolve } from 'node:path';
+import { parseEnv } from 'node:util';
 
 export class Env {
-    #inject: EnvInject;
-    #data?: NodeJS.ProcessEnv;
+    #filename: string;
+    #inject: Required<EnvInject>;
 
-    constructor(inject?: EnvInject) {
-        this.#inject = inject ?? {
-            process,
-            accessSync,
-            readFileSync,
+    constructor(filename: string, inject?: EnvInject) {
+        this.#filename = filename ?? 'app.env';
+        this.#inject = {
+            meta:           inject?.meta    ?? import.meta,
+            process:        inject?.process ?? process,
+
+            parse:          inject?.parse?.bind(inject)           ?? parse,
+            resolve:        inject?.resolve?.bind(inject)         ?? resolve,
+            statSync:       inject?.statSync?.bind(inject)        ?? statSync,
+            readFileSync:   inject?.readFileSync?.bind(inject)    ?? readFileSync,
         };
     }
+    
+    #getEnvVarValue(name: string): string | undefined {
+        if (typeof this.#inject.process.env[name] === 'string') {
+            return this.#inject.process.env[name];
+        }
 
-    #getPath(): string {
-        let path = import.meta.dirname;
-        while (parse(path).root !== path) {
+        let path = this.#inject.meta.dirname;
+        let root = this.#inject.parse(path).root;
+        while (path !== root) {
             try {
-                const completePath = resolve(path, 'app.env');
-                this.#inject.accessSync(completePath);
-                return completePath;
-            } catch {
-                path = resolve(path, '..');
+                const fullPath = this.#inject.resolve(path, this.#filename);
+                const stats = this.#inject.statSync(fullPath);
+                if (stats.isFile()) {
+                    const txt = this.#inject.readFileSync(fullPath, 'utf-8');
+                    const env = parseEnv(txt);
+                    if (typeof env[name] === 'string') {
+                        return env[name];
+                    }
+                }
+
+            } catch (err: any) {
+                switch (err?.code) {
+                    case 'EACCES':
+                    case 'ENOENT': {
+                        break;
+                    }
+
+                    default: {
+                        throw err;
+                    }
+                }
+            } finally {
+                path = this.#inject.resolve(path, '..');
             }
         }
 
-        throw new Error(`No file "app.env" found`);
-    }
-
-    #load(): NodeJS.ProcessEnv {
-        if (this.#data) {
-            return this.#data;
-        }
-
-        try {
-            const path = this.#getPath();
-            const text = this.#inject.readFileSync(path, 'utf-8');
-            this.#data = parseEnv(text);
-
-        } catch (err: any) {
-            switch (err.code) {
-                case 'ENOENT':
-                case 'EACCES': {
-                    this.#data = {};
-                    break;
-                }
-
-                default: {
-                    throw err;
-                }
-            }
-        }
-
-        Object
-            .entries(this.#inject.process.env)
-            .forEach(([ k, v ]) => {
-                if (typeof v === 'string') {
-                    this.#data![k] = v;
-                }
-            });
-
-        return this.#data;
+        return undefined;
     }
 
     get(name: string): string;
     get<T>(name: string, parser: (v: string) => T): T;
     get<T = string>(name: string, parser?: (v: string) => T): T {
-        const data = this.#load();
-        const rawValue = data[name];
+        const rawValue = this.#getEnvVarValue(name);
         if (typeof rawValue !== 'string') {
             throw new Error(`The environment variable "${name}" doesn't exist`);
         }
@@ -77,9 +70,5 @@ export class Env {
         return parser
         ?   parser(rawValue)
         :   rawValue as T;
-    }
-
-    dispose(): void {
-        this.#data = undefined;
     }
 }

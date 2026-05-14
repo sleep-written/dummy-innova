@@ -1,8 +1,8 @@
 import { Controller, ControllerPath, Get } from '@bleed-believer/espresso';
 import { ODataEntity } from '@bleed-believer/kendo-grid-server';
 
-import { ProcLayouts } from '@/orm-innova/entities/proc-layouts.entity.js';
-import { ormInnovaDataSource } from '@/orm-innova/data-source.js';
+import { ProcLayouts } from '@orm-innova/entities/proc-layouts.entity.js';
+import { ormInnovaDataSource } from '@orm-innova/data-source.js';
 
 @ControllerPath('')
 export class GetController extends Controller {

@@ -1,8 +1,8 @@
 import { Controller, ControllerPath, Get } from '@bleed-believer/espresso';
 import { ODataQuery } from '@bleed-believer/kendo-grid-server';
 
-import { ProcMaterials } from '@/orm-innova/entities/proc-materials.entity.js';
-import { BaseCompanies } from '@/orm-innova/entities/base-companies.entity.js';
+import { ProcMaterials } from '@orm-innova/entities/proc-materials.entity.js';
+import { BaseCompanies } from '@orm-innova/entities/base-companies.entity.js';
 import { EndpointError } from '@server/endpoint-error.js';
 
 interface GridView {

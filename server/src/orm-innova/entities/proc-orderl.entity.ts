@@ -4,9 +4,9 @@ import {
     BaseEntity, Entity, JoinColumn, ManyToOne,
     PrimaryGeneratedColumn, Column, 
 } from 'typeorm';
+import { ProcExpireMethod } from './proc-expire-method.entity.js';
 import { ProcOrderLStatus } from './proc-orderl-status.js';
 import { ProcMaterials } from './proc-materials.entity.js';
-import { ProcExpireMethod } from './proc-expire-method.entity.js';
 import { ProcLayouts } from './proc-layouts.entity.js';
 import { ProcOrders } from './proc-orders.entity.js';
 
@@ -20,6 +20,13 @@ export class ProcOrderL extends BaseEntity {
      */
     @Column({ type: 'nvarchar', length: 80, name: 'description1', nullable: true })
     descript?: string;
+
+    /**
+     * Producto glosa.
+     */
+    @Column({ type: 'nvarchar', length: 80, name: 'description5', nullable: true })
+    owner?: string;
+
 
     /**
      * Estado de la línea del producto

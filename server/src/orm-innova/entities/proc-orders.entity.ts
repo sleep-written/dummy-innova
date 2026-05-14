@@ -1,6 +1,6 @@
 import type { Relation } from 'typeorm';
 
-import { BaseEntity, Column, Entity, OneToMany, JoinColumn, ManyToOne, PrimaryColumn } from 'typeorm';
+import { BaseEntity, Column, Entity, OneToMany, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
 import { ProcOrdersStatus } from './proc-orders-status.js';
 import { ProcCollections } from './proc-collections.entity.js';
@@ -10,7 +10,7 @@ import { ProcItems } from './proc-items.entity.js';
 
 @Entity({ name: 'proc_orders' })
 export class ProcOrders extends BaseEntity {
-    @PrimaryColumn({ type: 'int', name: 'order' })
+    @PrimaryGeneratedColumn({ type: 'int', name: 'order' })
     id!: number;
 
     /**

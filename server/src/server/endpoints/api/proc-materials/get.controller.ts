@@ -1,8 +1,8 @@
 import { Controller, ControllerPath, Get } from '@bleed-believer/espresso';
 import { ODataEntity } from '@bleed-believer/kendo-grid-server';
 
-import { ProcMaterials } from '@/orm-innova/entities/proc-materials.entity.js';
-import { ormInnovaDataSource } from '@/orm-innova/data-source.js';
+import { ormInnovaDataSource } from '@orm-innova/data-source.js';
+import { ProcMaterials } from '@orm-innova/entities/proc-materials.entity.js';
 import { EndpointError } from '@server/endpoint-error.js';
 
 interface Systemtype {
