@@ -27,7 +27,11 @@ export class AdvancedDataSource extends DataSource {
         const entityMetadatas = await connectionMetadataBuilder.buildEntityMetadatas(flattenedEntities);
         if (this.options.prepareEntityMetadata) {
             for (const m of entityMetadatas) {
-                await this.options.prepareEntityMetadata(m);
+                try {
+                    await this.options.prepareEntityMetadata(m);
+                } catch (cause) {
+                    throw new Error(`The data source hook "prepareEntityMetadata" has been crashed`, { cause });
+                }
             }
         }
 

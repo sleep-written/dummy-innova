@@ -1,5 +1,5 @@
 import type { DataSourceOptions, EntityMetadata } from 'typeorm';
 
 export type AdvancedDataSourceOptions = DataSourceOptions & {
-    prepareEntityMetadata?(m: EntityMetadata): unknown;
+    readonly prepareEntityMetadata?: (m: EntityMetadata) => unknown;
 }
