@@ -2,6 +2,7 @@ export interface ProcOrdersItem {
     id: number;
     code: string;
     name: string;
+    shmark: string | null;
     shname: string;
     extcode?: string | null;
     active: boolean;
