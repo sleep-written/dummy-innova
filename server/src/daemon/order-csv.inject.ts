@@ -1,9 +1,5 @@
-import type { EntityManager } from 'typeorm';
+import type { DataSource } from 'typeorm';
 
 export interface OrderCSVInject {
-    manager: EntityManager;
-    readFile?(
-        path: string,
-        encoding: BufferEncoding
-    ): Promise<string>;
+    dataSource: DataSource;
 }

@@ -1,7 +1,7 @@
 import type { DaemonCommandInject } from './command.inject.js';
 import type { Executable } from '@bleed-believer/commander';
 
-import { readdir, readFile } from 'node:fs/promises';
+import { glob, readdir, readFile, rm } from 'node:fs/promises';
 import { Command } from '@bleed-believer/commander';
 import { resolve } from 'node:path';
 
@@ -27,37 +27,41 @@ export class DaemonCommand implements Executable {
 
             readFile:   inject?.readFile?.bind(inject)  ?? readFile,
             readdir:    inject?.readdir?.bind(inject)   ?? readdir,
-            resolve:    inject?.resolve?.bind(inject)   ?? resolve
+            resolve:    inject?.resolve?.bind(inject)   ?? resolve,
+            glob:       inject?.glob?.bind(inject)      ?? glob,
+            rm:         inject?.rm?.bind(inject)        ?? rm,
         };
 
-        this.#orderCSV = new OrderCSV({
-            readFile:   this.#injected.readFile,
-            dataSource: this.#injected.dataSource
-        });
-
+        this.#orderCSV = new OrderCSV();
         this.#mechty = new Mechty(1_000);
     }
 
     async #loop(cwd: string): Promise<void> {
-        const files = await this.#injected.readdir(cwd, {
-            withFileTypes: true,
-            recursive: true,
+        const files = this.#injected.glob('./*.con', {
+            cwd,
+            withFileTypes: true
         });
 
-        console.clear();
-        console.log('Files:');
-        for (const file of files) {
+        for await (const file of files) {
             if (!file.isFile()) continue;
 
-            const path = this.#injected.resolve(file.parentPath, file.name);
-            const data = await this.#orderCSV.load(path);
-            console.log(data);
-        }
+            try {
+                console.info(`Reading "${file.name}"...`);
+                const path = this.#injected.resolve(file.parentPath, file.name);
+                const text = await this.#injected.readFile(path, 'utf-16le');
+                await this.#injected.rm(path, { force: true });
 
-        await new Promise(r => setTimeout(r, 1000));
+                const manager = this.#injected.dataSource.manager;
+                const data = await this.#orderCSV.parse(text, manager);
+                console.log(data);
+            } catch (err) {
+                console.error(err);
+            }
+        }
     }
 
     async start(): Promise<void> {
+        await this.#injected.dataSource.initialize();
         const cwd = this.#injected.env.get(
             'DUMMY_INNOVA_DAEMON_FOLDER',
             v => this.#injected.resolve(v)
@@ -72,5 +76,7 @@ export class DaemonCommand implements Executable {
         while (!controller.signal.aborted) {
             await this.#mechty.execute(() => this.#loop(cwd));
         }
+
+        await this.#injected.dataSource.destroy();
     }
 }

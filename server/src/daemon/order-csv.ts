@@ -1,4 +1,5 @@
 import type { OrderCSVInject } from './order-csv.inject.js';
+import type { EntityManager } from 'typeorm';
 import { readFile } from 'node:fs/promises';
 import * as dateFns from 'date-fns';
 import * as csv from 'csv-parse/sync';
@@ -13,42 +14,36 @@ import { ProcOrders } from '@orm-innova/entities/proc-orders.entity.js';
 import { ProcOrderL } from '@orm-innova/entities/proc-orderl.entity.js';
 
 export class OrderCSV {
-    #injected: Required<OrderCSVInject>;
+    async parse(text: string, manager?: EntityManager): Promise<ProcOrders> {
+        if (!manager) {
+            manager = ormInnovaDataSource.manager;
+        }
 
-    constructor(inject?: OrderCSVInject) {
-        this.#injected = {
-            readFile:   inject?.readFile?.bind(inject)  ?? readFile,
-            manager:    inject?.manager                 ?? ormInnovaDataSource.manager
-        };
-    }
-
-    async load(path: string): Promise<ProcOrders> {
-        const txt = await this.#injected.readFile(path, 'utf-16le');
-        const raw = csv.parse(txt, { autoParse: false, delimiter: ';' });
+        const raw = csv.parse(text, { autoParse: false, delimiter: ';' });
         const obj = new ProcOrders();
 
         // El header se repite en todas las filas
         const [ code, customerCode, countryISO, , begtime,,,,,,,, extOC,,,,,, ShMark ] = raw[0];
 
         obj.code = code;
-        obj.customer = await this.#injected.manager.findOneBy(
+        obj.customer = await manager.findOneBy(
             BaseCompanies,
             { code: customerCode }
         );
 
         if (!obj.customer) {
             throw new Error(`Customer not found`);
-        }
+        } 
 
         obj.created = new Date();
         obj.modified = new Date();
         obj.allowadd = true;
         obj.amountum = 666;
-        obj.ordertype = 666;
-        obj.accepttype = 666;
+        obj.ordertype = 1;
+        obj.accepttype = 1;
         obj.orderstatus = ProcOrdersStatus.OnHold;
-        obj.numbermethod = 666;
-        obj.transferstatus = 666;
+        obj.numbermethod = 1;
+        obj.transferstatus = 1;
 
         obj.name = code;
         obj.code = code;
@@ -58,7 +53,7 @@ export class OrderCSV {
         obj.extcode = extOC;
         obj.begTime = dateFns.parse(begtime, 'yyyyMMdd', new Date());
         obj.countryISO = countryISO;
-        await this.#injected.manager.save(obj);
+        await manager.save(obj);
 
         const details: ProcOrderL[] = [];
         for (const row of raw) {
@@ -88,15 +83,15 @@ export class OrderCSV {
             item.procOrders = obj;
             item.curamount = 0;
             item.maxamount = parseInt(maxAmount);
-            item.procMaterials = await this.#injected.manager
+            item.procMaterials = await manager
                 .findOneByOrFail(ProcMaterials, { code: productoCodA })
                 .catch(() => { throw new Error('Material not found'); })
 
             item.expire1 = null;
-            item.expire1method = await this.#injected.manager
+            item.expire1method = await manager
                 .findOneBy(ProcExpireMethod, { id: 1 });
 
-            await this.#injected.manager.save(item);
+            await manager.save(item);
             item.procOrders = undefined;
             details.push(item);
         }

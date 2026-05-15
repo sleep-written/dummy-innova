@@ -1,7 +1,5 @@
-import type { OrderCSVInject } from './order-csv.inject.js';
 import type { Database } from 'better-sqlite3';
 
-import { EntityManager } from 'typeorm';
 import { randomUUID } from 'node:crypto';
 import { OrderCSV } from './order-csv.js';
 import { resolve } from 'node:path';
@@ -33,26 +31,6 @@ const dataSource = new AdvancedDataSource({
             .forEach(c => c.type = 'boolean');
     },
 });
-
-class Inject implements OrderCSVInject {
-    #files: Record<string, string[]>;
-
-    get manager(): EntityManager {
-        return dataSource.manager;
-    }
-
-    constructor(files: Record<string, string[]>) {
-        this.#files = files;
-    }
-
-    async readFile(path: string, _: BufferEncoding): Promise<string> {
-        if (!this.#files[path]) {
-            throw new Error(`The file "${path}" doesn't exists`);
-        }
-
-        return this.#files[path].join('\n');
-    }
-}
 
 test.before(async () => {
     await dataSource.initialize();
@@ -101,16 +79,14 @@ test.after(async () => {
 });
 
 test('Create contract', async (t: test.TestContext) => {
-    const inject = new Inject({
-        '/path/to/pendejo/666.con': [
-            `666;55555-K;USA;;20260315;ÑEEEEEEE;-;UNIVERSO SUPERIOR JAJA;10000;0;H;D;CAAAAAACA;e;;;; ;12-34/26/0666`,
-            `666;55555-K;USA;;20260315;KEEEEEEK;-;UNIVERSO INFERIOR JAJA;11000;0;H;T;CAAAAAACA;e;;;; ;12-34/26/0666`,
-            ``
-        ]
-    });
+    const lines = [
+        `666;55555-K;USA;;20260315;ÑEEEEEEE;-;UNIVERSO SUPERIOR JAJA;10000;0;H;D;CAAAAAACA;e;;;; ;12-34/26/0666`,
+        `666;55555-K;USA;;20260315;KEEEEEEK;-;UNIVERSO INFERIOR JAJA;11000;0;H;T;CAAAAAACA;e;;;; ;12-34/26/0666`,
+        ``
+    ];
 
-    const orderCSV = new OrderCSV(inject);
-    const order = await orderCSV.load('/path/to/pendejo/666.con');
+    const orderCSV = new OrderCSV({ dataSource: dataSource.manager });
+    const order = await orderCSV.parse(lines.join('\n'));
 
     t.assert.strictEqual(typeof order.id, 'number');
     t.assert.strictEqual(order.code, '666');
