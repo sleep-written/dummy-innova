@@ -1,0 +1,38 @@
+@let path = this.path();
+
+@if (path !== null) {
+    <a mat-list-item
+    [routerLink]="path"
+    routerLinkActive="active"
+    ariaCurrentWhenActive="page"
+    #rla="routerLinkActive"
+    [activated]="rla.isActive">
+        <mat-icon matListItemIcon aria-hidden="true">{{ this.icon() }}</mat-icon>
+        <span matListItemTitle>{{ this.text() }}</span>
+    </a>
+} @else {
+    <button mat-list-item
+    type="button"
+    [attr.aria-expanded]="this.expanded()"
+    (click)="this.toggle()">
+        <mat-icon matListItemIcon aria-hidden="true">{{ this.icon() }}</mat-icon>
+        <span matListItemTitle>{{ this.text() }}</span>
+        @if (this.hasChildren()) {
+            <mat-icon matListItemMeta aria-hidden="true">
+                {{ this.expanded() ? 'expand_less' : 'expand_more' }}
+            </mat-icon>
+        }
+    </button>
+}
+
+@if (this.hasChildren() && this.expanded()) {
+    <div class="children" role="group" [attr.aria-label]="this.text()">
+        @for (child of this.children(); track $index) {
+            <app-sidenav-item
+            [path]="child.path"
+            [icon]="child.icon"
+            [text]="child.text"
+            [children]="child.children" />
+        }
+    </div>
+}

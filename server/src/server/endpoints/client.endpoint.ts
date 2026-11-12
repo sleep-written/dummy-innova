@@ -27,8 +27,7 @@ const resolvePath = async (path: string): Promise<string> => {
     }
 }
 
-export const clientController = Router()
-    .get('{/*all}', async (req, res) => {
-        const path = await resolvePath(req.path);
-        res.sendFile(path);
-    });
+export const clientEndpoint = Router().get('{/*all}', async (req, res) => {
+    const path = await resolvePath(req.path);
+    res.sendFile(path);
+});

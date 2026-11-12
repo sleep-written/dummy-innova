@@ -1,0 +1,15 @@
+:host {
+    width: calc(100% - 4rem);
+    max-width: 240px;
+}
+
+:host mat-card-content {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+
+    mat-progress-spinner {
+        margin-right: 1rem;
+    }
+}

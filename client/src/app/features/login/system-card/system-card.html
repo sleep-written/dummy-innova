@@ -1,0 +1,69 @@
+@let username = this.form.username;
+@let password1 = this.form.password1;
+@let password2 = this.form.password2;
+
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Sign Up</mat-card-title>
+    </mat-card-header>
+
+    <form [formRoot]="this.form">
+        <mat-card-content>
+            <mat-form-field>
+                <mat-label>Username</mat-label>
+                <input matInput
+                type="text"
+                autocomplete="username"
+                [formField]="username"
+                (input)="this.onUsernameInput($event)" />
+
+                <mat-hint>Lowercase letters, numbers, "-" and "_"</mat-hint>
+                @if (username().errors()[0]; as error) {
+                    <mat-error>{{ error.message }}</mat-error>
+                }
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Password</mat-label>
+                <input matInput
+                type="password"
+                autocomplete="new-password"
+                [formField]="password1" />
+
+                <mat-hint>Required field</mat-hint>
+                @if (password1().errors()[0]; as error) {
+                    <mat-error>{{ error.message }}</mat-error>
+                }
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Confirm password</mat-label>
+                <input matInput
+                type="password"
+                autocomplete="new-password"
+                [formField]="password2" />
+
+                <mat-hint>Retype password</mat-hint>
+                @if (password2().errors()[0]; as error) {
+                    <mat-error>{{ error.message }}</mat-error>
+                }
+            </mat-form-field>
+
+            @if (this.form().submitting()) {
+                <mat-progress-bar
+                mode="indeterminate"
+                aria-label="Creating user">
+                </mat-progress-bar>
+            }
+        </mat-card-content>
+
+        <mat-card-actions>
+            <button mat-flat-button
+            type="submit"
+            [disabled]="this.form().invalid() || this.form().submitting()">
+                <mat-icon aria-hidden="true">save</mat-icon>
+                <span>Create System User</span>
+            </button>
+        </mat-card-actions>
+    </form>
+</mat-card>

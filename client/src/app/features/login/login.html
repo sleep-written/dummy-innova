@@ -1,0 +1,31 @@
+@let systemStatus = this.loginService.systemStatus;
+
+@if (systemStatus.isLoading()) {
+    <app-loading-card>
+    </app-loading-card>
+
+} @else if (systemStatus.error()) {
+    <!-- `value()` throws while the resource is in an error state. -->
+    <mat-card>
+        <mat-card-content>
+            <p>The system status could not be retrieved.</p>
+        </mat-card-content>
+
+        <mat-card-actions>
+            <button mat-flat-button
+            type="button"
+            (click)="systemStatus.reload()">
+                Retry
+            </button>
+        </mat-card-actions>
+    </mat-card>
+
+} @else if (systemStatus.value().exists) {
+    <app-login-card>
+    </app-login-card>
+
+} @else {
+    <app-system-card>
+    </app-system-card>
+
+}

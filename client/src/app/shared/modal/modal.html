@@ -1,0 +1,55 @@
+@switch (this.data.type) {
+    @case ('info') {
+        <h2 mat-dialog-title>Information</h2>
+    }
+
+    @case ('help') {
+        <h2 mat-dialog-title>Help</h2>
+    }
+
+    @case ('error') {
+        <h2 mat-dialog-title>Error</h2>
+    }
+
+    @case ('warning') {
+        <h2 mat-dialog-title>Warning</h2>
+    }
+
+    @default {
+        <h2 mat-dialog-title>Success</h2>
+    }
+}
+
+<mat-dialog-content class="color-{{ this.data.type }}">
+    @switch (this.data.type) {
+        @case ('info')
+        @case ('help')
+        @case ('error')
+        @case ('warning') {
+            <mat-icon>{{ this.data.type }}</mat-icon>
+        }
+
+        @default {
+            <mat-icon>check_circle</mat-icon>
+        }
+    }
+
+    <markdown
+    [data]="this.data.message">
+    </markdown>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    @for (action of this.data.actions; track $index) {
+        <button mat-flat-button
+        class="color-{{action.color}}"
+        type="button"
+        (click)="this.runAction(action)">
+            @if (typeof action.icon === 'string') {
+                <mat-icon>{{ action.icon }}</mat-icon>
+            }
+
+            <span>{{ action.text }}</span>
+        </button>
+    }
+</mat-dialog-actions>

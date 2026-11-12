@@ -1,0 +1,31 @@
+:host {
+    width: calc(100% - 4rem);
+    max-width: 480px;
+}
+
+:host mat-card-actions button {
+    $font-size: 1.5rem;
+
+    width: 100%;
+    height: 3rem;
+    font-size: $font-size;
+
+    mat-icon {
+        width: $font-size;
+        height: $font-size;
+        font-size: $font-size;
+    }
+}
+:host form {
+    display: contents;
+
+    mat-card-actions {
+        $margin: .5rem;
+        margin: 0 $margin $margin $margin;
+    }
+}
+
+:host .error {
+    margin: 0 0 1rem 0;
+    color: var(--mat-sys-error);
+}

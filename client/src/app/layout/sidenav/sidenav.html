@@ -1,0 +1,19 @@
+<nav aria-label="Main menu">
+    @if (this.sidenavService.isLoading()) {
+        <mat-progress-bar mode="indeterminate" aria-label="Loading menu" />
+    }
+
+    @if (this.sidenavService.error()) {
+        <p class="error" role="alert">The menu could not be loaded.</p>
+    } @else {
+        <mat-nav-list>
+            @for (item of this.sidenavService.menus(); track $index) {
+                <app-sidenav-item
+                [path]="item.path"
+                [icon]="item.icon"
+                [text]="item.text"
+                [children]="item.children" />
+            }
+        </mat-nav-list>
+    }
+</nav>

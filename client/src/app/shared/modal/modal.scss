@@ -1,0 +1,41 @@
+@use '@angular/material' as mat;
+
+:host mat-dialog-actions {
+    // Must stay in sync with `ModalOptionsColor`.
+    @each $color in (primary, secondary, tertiary, error) {
+        button.color-#{$color} {
+            @include mat.button-overrides((
+                filled-container-color:   var(--mat-sys-#{$color}-container),
+                filled-label-text-color:  var(--mat-sys-on-#{$color}-container),
+                filled-state-layer-color: var(--mat-sys-on-#{$color}-container),
+                filled-ripple-color:      color-mix(in srgb, var(--mat-sys-on-#{$color}-container) 12%, transparent),
+            ));
+        }
+    }
+}
+
+:host mat-dialog-content {
+    &.color-warning > mat-icon { color: rgb(255, 189, 46); }
+    &.color-error   > mat-icon { color: rgb(255, 0, 0); }
+    &.color-help    > mat-icon { color: rgb(139, 131, 255); }
+    &.color-info    > mat-icon { color: rgb(91, 94, 255); }
+    &.color-success > mat-icon { color: rgb(33, 255, 33); }
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+
+    & > mat-icon {
+        $size: 6rem;
+
+        width: $size;
+        height: $size;
+        font-size: $size;
+    }
+
+    & > markdown {
+        flex: 1;
+        margin-left: 1rem;
+    }
+}

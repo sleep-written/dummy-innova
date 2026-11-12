@@ -1,10 +1,15 @@
 import type { CommandTarget } from '@bleed-believer/commander';
 import type { Application } from 'express';
 
-import { apiRouter } from './api/router.ts';
-import { Command } from '@bleed-believer/commander';
-import express from 'express';
 import { styleText } from 'node:util';
+import { Command } from '@bleed-believer/commander';
+
+import { endpointsRouter } from './endpoints/router.ts';
+import { sessionOptions } from './session-options.ts';
+import { dataSource } from '#data-source.ts';
+
+import expressSession from 'express-session';
+import express from 'express';
 
 export const serverCommand = new Command({
     description: `Initialize the web server.`,
@@ -58,10 +63,19 @@ export const serverCommand = new Command({
         }
 
         async onInit(): Promise<void> {
-            const app = express();
-            app.use(apiRouter);
+            const app = express()
+                .use(express.json())
+                .use(expressSession(sessionOptions))
+                .use(endpointsRouter);
 
+            console.info(`Connecting with database...`);
+            await dataSource.initialize();
+            
+            console.info(`Deploying the web server...`);
             await this.#listen(app);
+    
+            console.info(`Disposing the database connection...`);
+            await dataSource.destroy();
         }
     }
 })
