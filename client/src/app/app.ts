@@ -8,6 +8,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { RouterModule } from '@angular/router';
+
+import { SessionChip } from '@layout/session-chip';
 import { Sidenav } from '@layout/sidenav';
 
 @Component({
@@ -17,6 +19,8 @@ import { Sidenav } from '@layout/sidenav';
     MatButtonModule,
     MatIconModule,
     RouterModule,
+
+    SessionChip,
     Sidenav
   ],
   selector: 'app-root',
