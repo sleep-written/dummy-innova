@@ -23,19 +23,23 @@ const getMenus = async (where: FindOptionsWhere<Menu>): Promise<Menu[]> => {
 }
 
 export const getEndpoint = Router().get('/', async (req, res) => {
-    const userType = await dataSource.manager.findOneByOrFail(
-        userTypeSchema,
-        typeof req.session.userId === 'number'
-        ?   { users: { id: req.session.userId } }
-        :   { guest: true }
-    );
+    const userType = typeof req.session.userId === 'number'
+    ?   await dataSource.manager.findOneBy(
+            userTypeSchema,
+            { users: { id: req.session.userId } }
+        )
+    :   null;
+
+    if (typeof req.session.userId === 'number' && !userType) {
+        await new Promise(r => req.session.destroy(r));
+    }
 
     const menus = await getMenus({
         parent: { id: IsNull() },
         permissions: {
-            userType: {
-                id: userType.id
-            }
+            userType: userType
+            ?   { id: userType.id }
+            :   { guest: true }
         }
     });
 

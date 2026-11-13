@@ -12,5 +12,9 @@ export const routes: Routes = [
     {
         path: 'logout',
         loadComponent: () => import('@features/logout').then(x => x.Logout)
+    },
+    {
+        path: 'maintainer',
+        loadChildren: () => import('@features/maintainer').then(x => x.routes)
     }
 ];

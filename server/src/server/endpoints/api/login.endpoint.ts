@@ -12,7 +12,7 @@ const auditor = new Auditor({
         username: { type: 'string', min: 3, max: 32 },
         password: { type: 'string', min: 8, max: 64 },
     }
-})
+});
 
 export const loginEndpoint = Router().use('/', async (req, res) => {
     const { username, password } = auditor.audit(req.body);
@@ -20,6 +20,7 @@ export const loginEndpoint = Router().use('/', async (req, res) => {
         .manager
         .findOneBy(userSchema, { username });
 
+    await new Promise(r => setTimeout(r, 1500));
     if (user && await verify(user.password, password)) {
         req.session.userId = user.id;
         req.session.save();

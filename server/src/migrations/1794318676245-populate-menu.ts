@@ -38,7 +38,7 @@ export class PopulateMenu1794318676245 implements MigrationInterface {
             userTypes: [ systemType ],
             children: [
                 {
-                    path: '/proc-materials',
+                    path: '/maintainer/proc-materials',
                     icon: 'package_2',
                     text: 'Materials',
                     userTypes: [ systemType ]
