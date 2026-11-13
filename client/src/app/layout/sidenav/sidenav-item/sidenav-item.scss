@@ -6,6 +6,31 @@
     border-radius: 0;
 }
 
+// Material only resets native <button> styles inside `mat-action-list`,
+// so inside `mat-nav-list` the browser's border/background leak through.
+:host > button[mat-list-item] {
+    border: none;
+    text-align: start;
+    background-color: transparent;
+}
+
+// A clicked button keeps focus, and Material paints its focus state layer
+// on `:focus`, making the item look selected. Only show it for keyboard focus.
+:host > [mat-list-item]:focus:not(:focus-visible)::before {
+    opacity: 0;
+}
+
+// Material's list applies the "trailing supporting text" typography
+// (font-family included) to every `matListItemMeta` element, which
+// overrides the icon font and breaks the ligature. Restore it here.
+mat-icon[matListItemMeta] {
+    font-family: 'Material Symbols Outlined';
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
 .children {
-    padding-left: 1rem;
+    padding-left: 3.5rem;
 }

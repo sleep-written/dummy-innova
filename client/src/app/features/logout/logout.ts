@@ -39,6 +39,8 @@ export class Logout implements OnInit, OnDestroy {
           this.#router.navigate([ '/' ]);
         }
 
+        break;
+
       } catch (err) {
         this.#matSnackBar.open(
           'Failed to logout, trying again...', 'OK',

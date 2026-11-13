@@ -19,7 +19,7 @@
         <span matListItemTitle>{{ this.text() }}</span>
         @if (this.hasChildren()) {
             <mat-icon matListItemMeta aria-hidden="true">
-                {{ this.expanded() ? 'expand_less' : 'expand_more' }}
+                {{ this.expanded() ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}
             </mat-icon>
         }
     </button>

@@ -16,6 +16,7 @@
 <mat-sidenav-container
 (backdropClick)="this.sidenavOpened.set(false)">
     <mat-sidenav
+    autoFocus="dialog"
     [opened]="this.sidenavOpened()">
         <app-sidenav>
         </app-sidenav>

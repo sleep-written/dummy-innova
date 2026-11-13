@@ -3,6 +3,7 @@ import type { Menu } from '../menu';
 import { Component, computed, input, signal } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
+import { MatIconDefaultOptions, MAT_ICON_DEFAULT_OPTIONS } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 
@@ -12,6 +13,14 @@ import { MatIconModule } from '@angular/material/icon';
     MatIconModule,
     RouterLink,
     RouterLinkActive
+  ],
+  providers: [
+    {
+      provide: MAT_ICON_DEFAULT_OPTIONS,
+      useValue: {
+        fontSet: 'material-symbols-outlined'
+      } as MatIconDefaultOptions
+    }
   ],
   selector: 'app-sidenav-item',
   styleUrl: './sidenav-item.scss',

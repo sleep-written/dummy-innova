@@ -73,7 +73,12 @@ export class LoginCard {
     try {
       const { username, password } = this.model();
       await this.#loginService.login(username, password);
+
       this.#router.navigate([ '/' ]);
+      this.#matSnackBar.open(
+        'Login successfull', 'OK',
+        { duration: 1500 }
+      );
 
     } catch (err) {
       if (err instanceof HttpErrorResponse && err.status === 401) {
